@@ -20,7 +20,9 @@ ID：CX9X9nAL8LF
 暂无
 
 ## 图片资源
-暂无
+- [天一生水](<https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%84%82%E7%A0%9A%E6%96%8B%E9%87%8D%E8%AF%84%E7%9F%B3%E5%A4%B4%E8%AE%B0[%E5%B7%B1%E5%8D%AF%E6%9C%AC].%E4%B8%8A%E6%B5%B7%E5%8F%A4%E7%B1%8D%E5%87%BA%E7%89%88%E7%A4%BE.1981%E5%B9%B4.pdf>)：黑白 上海古籍出版社 影印本 1981
+- [维基共享](<https://zh.wikisource.org/wiki/%E7%B4%85%E6%A8%93%E5%A4%A2_(%E6%B6%88%E6%AD%A7%E7%BE%A9)>)：黑白 上海古籍出版社 上下两册 1990 - 1998
+- [天一生水](<https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%84%82%E7%A0%9A%E6%96%8B%E9%87%8D%E8%AF%84%E7%9F%B3%E5%A4%B4%E8%AE%B0.%E5%B7%B1%E5%8D%AF%E6%9C%AC.%E5%AD%9850%E5%9B%9E%EF%BC%881-40.61-70%EF%BC%89%E7%AC%AC21-30%E5%9B%9E%E5%A4%B1%E5%90%8D%E6%8A%84%E8%A1%A5.%E6%B8%85%E4%B9%BE%E9%9A%86%E6%97%B6%E6%9C%9F%E9%92%9E%E6%9C%AC.%E4%B9%A6%E5%8F%B717522.%E7%81%B0%E5%BA%A6%E8%83%B6%E7%89%87.pdf>)：黑白胶片 中华古籍保护协会水印 来源不详
 
 ## 收藏历史
 此本在清末流出王府，后被著名藏书家董康收藏。1920年代，董康将其转让给陶洙（心如）。此后该本经历了一段曲折的散佚与合拢过程：

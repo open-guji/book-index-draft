@@ -17,10 +17,10 @@ ID：CX9X9nANpBh
 
 
 ## 文字资源
-暂无
+- [识典古籍](https://www.shidianguji.com/zh/book/SWX0005/chapter/start?page_from=searching_page&version=4)：粗校 带黑白影印
 
 ## 图片资源
-暂无
+- [维基共享](https://zh.wikisource.org/w/index.php?title=File%3A%E6%88%9A%E8%93%BC%E7%94%9F%E5%BA%8F%E6%9C%AC%E7%9F%B3%E5%A4%B4%E8%AE%B0.pdf&page=1)：人民文学出版社 黑白影印本 1975
 
 ## 收藏历史
 戚序本在流传过程中形成了几个分支：

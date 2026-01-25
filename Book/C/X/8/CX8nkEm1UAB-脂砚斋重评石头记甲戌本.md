@@ -14,6 +14,7 @@ ID：CX8nkEm1UAB
 
 ## 文字资源
 - [维基文库](https://zh.wikisource.org/wiki/%E8%84%82%E7%A1%AF%E9%BD%8B%E9%87%8D%E8%A9%95%E7%9F%B3%E9%A0%AD%E8%A8%98%E7%94%B2%E6%88%8C%E6%9C%AC)
+- [识典古籍](https://www.shidianguji.com/zh/book/XYXSTJJW/chapter/1l5m9wqbn52q1?page_from=searching_page&version=16)：粗校 带黑白影印
 
 ## 图片资源
 - [天一生水存储](https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%84%82%E7%A0%9A%E6%96%8B%E9%87%8D%E8%AF%84%E7%9F%B3%E5%A4%B4%E8%AE%B0.%E7%94%B2%E6%88%8C%E6%9C%AC%E5%BD%A9%E8%89%B2%E5%BD%B1%E5%8D%B0%E6%9C%AC.pdf)：彩色

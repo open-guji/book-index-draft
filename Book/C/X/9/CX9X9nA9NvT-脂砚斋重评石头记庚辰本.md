@@ -17,10 +17,11 @@ ID：CX9X9nA9NvT
 
 
 ## 文字资源
-暂无
+- [识典古籍](https://www.shidianguji.com/book/7428573169323081747/chapter/1lnc5zp4t2ngf?page_from=searching_page&version=40)：粗校 带彩色影印
 
 ## 图片资源
-暂无
+- [天一生水](https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%84%82%E7%A0%9A%E6%96%8B%E9%87%8D%E8%AF%84%E7%9F%B3%E5%A4%B4%E8%AE%B0(%E5%BA%9A%E8%BE%B0%E6%9C%AC).%E4%BA%BA%E6%B0%91%E6%96%87%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE.1975%E5%B9%B4.pdf)：黑白，人民文学出版社1975年版
+- [维基共享](<https://zh.wikisource.org/wiki/%E7%B4%85%E6%A8%93%E5%A4%A2_(%E6%B6%88%E6%AD%A7%E7%BE%A9)>)：黑白 上海古籍出版社 共四卷 1990 - 1998
 
 ## 收藏历史
 庚辰本原为清末徐星署（徐郙之子）所藏。1933年，由胡适发现并确认其价值。后来，此本被燕京大学购入收藏。燕京大学并入北京大学后，该抄本遂转由北京大学图书馆珍藏。1955年，人民文学出版社首次将其影印出版，使其成为现代《红楼梦》校勘和研究的最核心底本。

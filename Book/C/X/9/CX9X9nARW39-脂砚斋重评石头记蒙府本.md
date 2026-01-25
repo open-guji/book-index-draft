@@ -20,7 +20,8 @@ ID：CX9X9nARW39
 暂无
 
 ## 图片资源
-暂无
+- [维基共享](https://zh.wikisource.org/w/index.php?title=File%3A%E8%92%99%E5%8F%A4%E7%8E%8B%E5%BA%9C%E6%9C%AC%E7%9F%B3%E9%A0%AD%E8%A8%98.djvu)：黑白影印本
+- [天一生水](<https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%92%99%E5%8F%A4%E7%8E%8B%E5%BA%9C%E6%9C%AC%E7%9F%B3%E5%A4%B4%E8%AE%B0.%E4%B9%A6%E7%9B%AE%E6%96%87%E7%8C%AE%E5%87%BA%E7%89%88%E7%A4%BE.pdf>)：黑白 书目文献出版社
 
 ## 收藏历史
 蒙府本的流传历史相对清晰：

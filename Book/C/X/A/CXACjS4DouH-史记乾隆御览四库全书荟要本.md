@@ -19,7 +19,7 @@ ID：CXACjS4DouH
 暂无
 
 ## 图片资源
-暂无
+- [Internet Archive](https://archive.org/search?query=subject%3A%22%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E8%96%88%E8%A6%81%22+creator%3A%22%EF%BC%88%E6%BC%A2%EF%BC%89%E5%8F%B8%E9%A6%AC%E9%81%B7%22&sort=title)
 
 ## 收藏历史
 1. **乾隆时期**：编纂完成，抄写两部。其一存放于紫禁城景阳宫内的摛藻堂，专供乾隆皇帝随时御览。
