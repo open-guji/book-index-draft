@@ -18,7 +18,7 @@ ID：CX8nkEm1UAB
 ## 图片资源
 - [天一生水存储](https://dropbox.jiangyu.org/%E8%AF%BB%E4%B9%A6/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%B3%BB%E5%88%97/%E8%84%82%E7%A0%9A%E6%96%8B%E9%87%8D%E8%AF%84%E7%9F%B3%E5%A4%B4%E8%AE%B0.%E7%94%B2%E6%88%8C%E6%9C%AC%E5%BD%A9%E8%89%B2%E5%BD%B1%E5%8D%B0%E6%9C%AC.pdf)：彩色
 - [Internet Archive](https://archive.org/details/1_20201215_20201215_1626/%E8%84%82%E7%A1%AF%E9%BD%8B%E9%87%8D%E8%A9%95%E7%9F%B3%E9%A0%AD%E8%A8%98%E7%94%B2%E6%88%8C%E6%9C%AC%EF%BC%88%E5%AD%98%E5%8D%81%E5%85%AD%E5%9B%9E%EF%BC%89/page/n19/mode/2up)：黑白
-- [Internet Archive](https://archive.org/details/qianlongjiaxuzhi02caox/page/n191/mode/2up)：台湾影印本，仅下册，彩色
+- [Internet Archive](https://archive.org/details/qianlongjiaxuzhi02caox/page/n191/mode/2up)：台湾影印本，仅下册（13-16， 25-28回），彩色
 
 ---
 
