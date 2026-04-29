@@ -18,6 +18,14 @@
       "edition": "北京大學圖書館藏明萬曆刻本",
       "volume": "第121冊",
       "section": "集部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《素園存稿》•十八卷",
+      "author_info": "明方宏靜撰",
+      "summary": "明方宏靜撰。宏靜字定之，歙縣人，嘉靖庚戌進士。朱彝尊《明詩綜》載，其官至南京戶部右侍郎，《千頃堂書目》亦同。《江南通志》，則載其奉使入浙，擊水寨寇，論功當敘，中蜚語歸，卒贈工部尚書。據集內《山中稿小序》稱，自撫浙待命凡十載，自留京歸田經廿載。葉向高《序》亦雲然。是宏靜實自南京罷歸，《通志》所記偶誤也。是集目錄只十六卷，而書實十八卷，其目錄之次序，前後參互，亦與卷內不合，皆校刊之疏漏。又《千頃堂書目》載，是集作二十卷。殆初刻十六卷，後增至十八卷，又增至二十卷，而目則未改歟。",
+      "edition": "浙江巡撫采進本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "二十卷",
-  "id": "1evjxngpfm77k"
+  "id": "1evjxngpfm77k",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=5445561",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02063410",
+      "metadata": {
+        "edition": "萬曆刻本",
+        "version": "v4",
+        "total_page": 1468,
+        "paragraph_count": 12761,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

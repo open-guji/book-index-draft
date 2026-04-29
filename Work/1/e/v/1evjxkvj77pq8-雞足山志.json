@@ -18,6 +18,14 @@
       "edition": "北京圖書館藏清康煕刻本",
       "volume": "第238冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《雞足山志》•十卷",
+      "author_info": "國朝範承勳撰",
+      "summary": "國朝範承勳撰。承勳，鑲黃旗漢軍。大學士文程之子，浙閩總督承謨之弟，官至雲貴總督。雞足山在雲南賓川州東一百里，一頂三支，儼如雞距，在蒼山、洱海之間，相傳為迦葉尊者入定處。佛寺最多，故志山者多述佛門之事。是編乃康熙三十一年承勳因舊本增修，分《圖紀》、《考證》、《星野》、《形勢》、《山水》、《寺院》、《人物》、《靈跡》、《物產》、《藝文》，凡十門，而以《迦葉像贊》冠於卷端焉。",
+      "edition": "浙江汪啟淑家藏本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "十卷 首一卷",
-  "id": "1evjxkvj77pq8"
+  "id": "1evjxkvj77pq8",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=51651",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-kangxisanshiyikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY2569",
+      "metadata": {
+        "edition": "康熙三十一年(1692)刻本",
+        "version": "v8",
+        "total_page": 900,
+        "paragraph_count": 1047,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

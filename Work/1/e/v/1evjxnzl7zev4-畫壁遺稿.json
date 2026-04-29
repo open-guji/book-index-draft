@@ -18,6 +18,14 @@
       "edition": "中山大學圖書館上海圖書館藏清康煕刻本",
       "volume": "第221冊",
       "section": "集部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《畫壁遺稿》•一卷",
+      "author_info": "國朝範承謨撰",
+      "summary": "國朝範承謨撰。承謨有《忠貞集》，已著錄。康熙壬子，承謨總督閩浙，值逆藩耿精忠謀反，巡撫劉秉政輸情於賊，紿承謨入見，脅令從逆，承謨詆罵不屈，遂為所拘擊，被幽者三載，備受窘毒，時作為詩歌以自抒忠憤。守者屏絕筆墨，乃以桴炭畫字壁上，其尤激烈者，輒為賊黨墁去，僅存四十七首。承謨自為之《序》，已匯載入《忠貞集》中。此乃石門吳震方錄入《說鈴》之本也。",
+      "edition": "通行本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "三卷",
-  "id": "1evjxnzl7zev4"
+  "id": "1evjxnzl7zev4",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=862230",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-kangxikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02066278",
+      "metadata": {
+        "edition": "康熙刻本",
+        "version": "v2",
+        "total_page": 141,
+        "paragraph_count": 803,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

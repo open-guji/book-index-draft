@@ -18,6 +18,14 @@
       "edition": "私藏清康煕刻本",
       "volume": "第227冊",
       "section": "集部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《雍益集》•一卷",
+      "author_info": "國朝王士禎撰",
+      "summary": "國朝王士禎撰。皆康熙丙子奉使祭告西嶽、西鎮、江瀆途中所作。前有其門人盛符升《序》，述士禎自言，再使秦、蜀，往返萬里，得詩才百餘篇，皆寥寥短章，無複當年蜀道、南海豪放之格。其門人蔣仁錫《後序》，亦述士禎自言，老耽禪寂，遇事短吟，略仿西竺氏偈頌，不應更作文字觀也，可謂明於自知者矣。",
+      "edition": "山東巡撫采進本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "一卷",
-  "id": "1evjxo1czilmo"
+  "id": "1evjxo1czilmo",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=6738624",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-kangxikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02066443",
+      "metadata": {
+        "edition": "康熙刻本",
+        "version": "v2",
+        "total_page": 79,
+        "paragraph_count": 744,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

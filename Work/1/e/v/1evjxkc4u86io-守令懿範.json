@@ -18,6 +18,14 @@
       "edition": "遼寧省圖書館藏明隆慶四年劉世昌刻本",
       "volume": "第95冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《守令懿範》•四卷",
+      "author_info": "明蔡國熙撰",
+      "summary": "明蔡國熙撰。國熙，永年人，嘉靖己未進士，官至山西提學副使。是編乃其官蘇州府知府時，輯古來守令事蹟，自周至元，分《儒牧》、《循牧》二類。《儒牧》自子遊而下三十人。《循牧》自公孫僑而下一百一十人。前有《皇甫汸序》，稱儒可以包乎循，而循未必皆合於儒。體用之間，蓋有辨焉云云。夫儒者之學，明體達用。道德事業，本無二源。岐而兩之，殊為偏見。且唐韓愈、宋歐陽修所學不甚相遠，而列愈於《儒牧》，列修於《循牧》，亦不知其以何而分。楊簡傳陸氏之學，黃震傳朱子之學，所著之書，釐然具在。乃升簡於《儒牧》以繼陸氏，而不升震於《儒牧》以繼朱子，豈非未見《日鈔》耶？循名失實，尊儒而不知所以尊，徒成其門戶標榜而已。",
+      "edition": "直隸總督采進本"
     }
   ],
   "description": {
@@ -37,5 +45,48 @@
     }
   ],
   "measure_info": "四卷",
-  "id": "1evjxkc4u86io"
+  "id": "1evjxkc4u86io",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=565860",
+      "details": "（明蔡國熙撰",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02048854",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v2",
+        "total_page": 487,
+        "paragraph_count": 3873,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-longqingsankeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/JINANLIB07444",
+      "metadata": {
+        "edition": "隆慶三年（1569）刻本",
+        "version": "v2",
+        "total_page": 448,
+        "paragraph_count": 771,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

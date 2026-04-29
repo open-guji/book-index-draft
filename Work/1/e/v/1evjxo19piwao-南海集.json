@@ -18,6 +18,20 @@
       "edition": "私藏清康煕刻本",
       "volume": "第227冊",
       "section": "集部"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《南海集》",
+      "summary": "《南海集》八卷"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《南海集》•二卷",
+      "author_info": "國朝王士禎撰",
+      "summary": "國朝王士禎撰。皆其奉使祭告南海往還之作。上卷自京師至廣州，下卷自廣州至其家新城而止。蓋其《北歸志》，亦止於新城也，趙執信作《談龍錄》，摭其開卷二詩，以為似羈臣遷客之語，其言誠是，然士禎之詩長於山水，別為一調，未可以二馮之法繩之也。",
+      "edition": "山東巡撫采進本"
     }
   ],
   "description": {
@@ -37,5 +51,55 @@
     }
   ],
   "measure_info": "二卷",
-  "id": "1evjxo19piwao"
+  "id": "1evjxo19piwao",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=3783396",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-1",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=1180554",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-kangxikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02066442",
+      "metadata": {
+        "edition": "康熙刻本",
+        "version": "v2",
+        "total_page": 109,
+        "paragraph_count": 1071,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-congshujichengsanbia",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02120455",
+      "metadata": {
+        "edition": "叢書集成三編",
+        "version": "v1",
+        "total_page": 99,
+        "paragraph_count": 474,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

@@ -18,6 +18,14 @@
       "edition": "山西省圖書館藏清康煕范氏五經堂刻本",
       "volume": "第121冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《理學備考》•三十四卷",
+      "author_info": "國朝範鄗鼎撰",
+      "summary": "國朝範鄗鼎撰。鄗鼎字彪西，洪洞人，康熙丁未進士，以養親不仕終於家。是編備列有明一代講學諸儒，初刻於康熙辛酉。卷一至卷六剟取辛全《理學名臣錄》，卷七至卷十剟取孫奇逢《理學宗傳》，十一卷至十六卷乃鄗鼎所續補也。續刻於己巳。再續刻於甲戌。十七、十八卷剟取熊賜履《學統》，十九卷至二十九卷剟取張夏《雒閩淵源錄》，三十卷至三十四卷剟取黃宗羲《明儒學案》。計所自作者僅六卷而已。其說不出於一家，其文不出於一手，宜其體例之參差矣。",
+      "edition": "江西巡撫采進本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "三十四卷",
-  "id": "1evjxkfm86xvk"
+  "id": "1evjxkfm86xvk",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=963609",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02049372",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v6",
+        "total_page": 1809,
+        "paragraph_count": 4650,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }
