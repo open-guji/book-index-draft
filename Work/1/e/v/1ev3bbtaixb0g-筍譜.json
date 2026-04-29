@@ -2,7 +2,14 @@
   "id": "1ev3bbtaixb0g",
   "type": "work",
   "title": "筍譜",
-  "authors": [],
+  "authors": [
+    {
+      "name": "釋贊寧",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j967bgl7y9t5"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -23,10 +30,18 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "筍譜一卷",
       "summary": "筍譜一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《筍譜》一卷",
+      "summary": "《筍譜》一卷（宋僧贊寧）",
+      "author_info": "宋僧贊寧"
     }
   ],
   "books": [
-    "11q37rexm8zk0"
+    "11q37rexm8zk0",
+    "11qkhwreupyio"
   ],
   "juan_count": {
     "number": 1
@@ -111,6 +126,14 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E7%AD%8D%E8%AD%9C",
+      "types": [
+        "text"
+      ]
     }
   ],
   "has_text": true,
@@ -121,5 +144,12 @@
       "number": 1
     }
   ],
-  "measure_info": "一卷"
+  "measure_info": "一卷",
+  "ai_note": "作者「宋釋贊寧撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpi6tr50jk 合併。原註：missing_reason: 短title \"筍譜\" 唯一候选无作者",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

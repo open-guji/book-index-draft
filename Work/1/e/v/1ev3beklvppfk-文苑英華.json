@@ -2,7 +2,14 @@
   "id": "1ev3beklvppfk",
   "type": "work",
   "title": "文苑英華",
-  "authors": [],
+  "authors": [
+    {
+      "name": "李昉",
+      "role": "等奉敕編",
+      "dynasty": "宋",
+      "entity_id": "1j969lr2spj5a"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -138,6 +145,23 @@
         "text",
         "image"
       ]
+    },
+    {
+      "id": "wikisource",
+      "name": "維基文庫（繁體）",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%96%87%E8%8B%91%E8%8B%B1%E8%8F%AF",
+      "details": "維基文庫實際僅卷 1-4、1000 有全文（1000 卷中僅 5 卷可用）",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06050009.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -148,5 +172,10 @@
       "number": 1000
     }
   ],
-  "measure_info": "一千卷"
+  "measure_info": "一千卷",
+  "ai_note": "作者「宋李昉等奉敕編」補自《國立故宮博物院善本舊籍》目錄。",
+  "description": {
+    "text": "宋太平興國七年（982）李昉等奉敕編，為北宋官修四大書之一，收錄自蕭梁末年至唐五代作家約兩千二百人作品近兩萬篇，共一千卷。按三十八文體分類，是研究南北朝至晚唐五代文學之重要總集。",
+    "sources": []
+  }
 }

@@ -2,7 +2,14 @@
   "id": "1ev3bare0w35s",
   "type": "work",
   "title": "廣西通志",
-  "authors": [],
+  "authors": [
+    {
+      "name": "胡虔",
+      "role": "纂",
+      "dynasty": "清",
+      "entity_id": "1j98p5bkmd88w"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -122,12 +129,18 @@
   ],
   "has_text": true,
   "has_image": true,
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周孟中'）。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周孟中'）。 作者「清胡虔纂」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke2k5w9q80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bare0w35s();1evjxpkjx27sw(林富)（不同作者，故新建獨立 Work）。",
   "measures": [
     {
       "unit": "卷",
       "number": 128
     }
   ],
-  "measure_info": "一百二十八卷"
+  "measure_info": "一百二十八卷",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善021152-021231）。清嘉慶六年刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

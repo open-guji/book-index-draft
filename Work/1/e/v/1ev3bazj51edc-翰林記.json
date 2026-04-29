@@ -2,7 +2,14 @@
   "id": "1ev3bazj51edc",
   "type": "work",
   "title": "翰林記",
-  "authors": [],
+  "authors": [
+    {
+      "name": "黃佐",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967avzkeuc3"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -17,6 +24,20 @@
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "黄佐《翰林记》二十卷",
       "summary": "黃佐《翰林記》二十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《翰林記》二十卷",
+      "summary": "《翰林記》二十卷（黃佐）",
+      "author_info": "黃佐"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "31hyr4yqu8xk9",
+      "title_info": "翰林記",
+      "summary": "《翰林記》二十卷。{{明黃佐。《嶺南遺書》本。}}",
+      "author_info": "黃佐"
     }
   ],
   "books": [
@@ -51,12 +72,18 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'黄佐'）。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'黄佐'）。 作者「明黃佐撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgphxj447wg 合併。原註：missing_reason: 短title \"翰林記\" 唯一候选无作者",
   "measures": [
     {
       "unit": "卷",
       "number": 20
     }
   ],
-  "measure_info": "二十卷"
+  "measure_info": "二十卷",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

@@ -2,7 +2,14 @@
   "id": "1ev3bb72w1z40",
   "type": "work",
   "title": "孔叢子",
-  "authors": [],
+  "authors": [
+    {
+      "name": "孔鮒",
+      "role": "撰",
+      "dynasty": "漢",
+      "entity_id": "1j96hfojmdou8"
+    }
+  ],
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -35,6 +42,13 @@
       "source_bid": "31hyr4yqu8xk9",
       "title_info": "孔叢子",
       "summary": "《孔叢子》三卷。{{《漢魏叢書》本三卷。儒。有依托，不盡偽。金山錢氏有宋咸注七卷，本未刊。}}"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孔叢子》七卷",
+      "summary": "《孔叢子》七卷（孔鮒撰。）",
+      "author_info": "孔鮒撰。"
     }
   ],
   "books": [
@@ -149,6 +163,22 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%94%E5%8F%A2%E5%AD%90",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/02091535.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -159,5 +189,12 @@
       "number": 3
     }
   ],
-  "measure_info": "三卷"
+  "measure_info": "三卷",
+  "ai_note": "作者「漢孔鮒撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgor0k0pwjk 合併。原註：从卷二 ambiguous 新建：unresolved",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

@@ -20,7 +20,7 @@
     ]
   },
   "id": "1evgphjzoqrcw",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右實錄：貞觀政要\"，可能是解析错误\n[QA-fix 2026-04-20] title \"右實錄：貞觀政要\" → \"貞觀政要\" (strip 右; strip colon)",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右實錄：貞觀政要\"，可能是解析错误\n[QA-fix 2026-04-20] title \"右實錄：貞觀政要\" → \"貞觀政要\" (strip 右; strip colon) 作者「唐吳兢撰」補自《國立故宮博物院善本舊籍》目錄。",
   "measures": [
     {
       "unit": "卷",
@@ -36,6 +36,13 @@
       "types": [
         "text"
       ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "吳兢",
+      "role": "撰",
+      "dynasty": "唐"
     }
   ]
 }

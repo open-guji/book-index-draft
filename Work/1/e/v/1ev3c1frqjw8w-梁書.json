@@ -2,7 +2,14 @@
   "id": "1ev3c1frqjw8w",
   "type": "work",
   "title": "梁書",
-  "authors": [],
+  "authors": [
+    {
+      "name": "姚思廉",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j969m70q2er0"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -40,6 +47,13 @@
       "source_bid": "31hyr4yqu8xk9",
       "title_info": "梁書",
       "summary": "《梁書》五十六卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《梁書》五十六卷",
+      "summary": "《梁書》五十六卷（姚思廉）",
+      "author_info": "姚思廉"
     }
   ],
   "books": [
@@ -142,6 +156,22 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06058867.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -160,5 +190,12 @@
       "number": 56
     }
   ],
-  "measure_info": "五十六卷"
+  "measure_info": "五十六卷",
+  "ai_note": "作者「唐姚思廉撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpgtr2gcg0 合併。原註：missing_reason: 短title \"梁書\" 唯一候选无作者",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

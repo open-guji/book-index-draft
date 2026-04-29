@@ -2,7 +2,14 @@
   "id": "1ev3bbf4se8sg",
   "type": "work",
   "title": "疑獄集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "和凝",
+      "role": "等撰",
+      "dynasty": "五代",
+      "entity_id": "1j96hjwlylnpl"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -23,10 +30,18 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "疑獄集三卷",
       "summary": "疑獄集三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《疑獄集》三卷",
+      "summary": "《疑獄集》三卷（後晉和凝。）",
+      "author_info": "後晉和凝。"
     }
   ],
   "books": [
-    "11q37qogxcmww"
+    "11q37qogxcmww",
+    "11qkhwi2ly9ds"
   ],
   "juan_count": {
     "number": 4
@@ -109,6 +124,22 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E7%96%91%E7%8D%84%E9%9B%86",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06049852.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -119,5 +150,12 @@
       "number": 4
     }
   ],
-  "measure_info": "四卷"
+  "measure_info": "四卷",
+  "ai_note": "作者「五代和凝等撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpixwtdmo0 合併。原註：missing_reason: 短title \"疑獄集\" 唯一候选无作者",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }
