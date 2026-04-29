@@ -18,6 +18,14 @@
       "edition": "湖南圖書館藏明萬曆四十一年刻茶書二十種本",
       "volume": "第79冊",
       "section": "子部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《煮泉小品》•一卷",
+      "author_info": "明田藝衡撰",
+      "summary": "明田藝衡撰。藝衡有《大明同文集》，已著錄。是書凡分十類，一源泉，二石流，三清寒，四甘香，五宜茶，六靈水，七異泉，八江水，九井水，十緒談。大抵原本舊文，未能標異於《水品》、《茶經》之外。",
+      "edition": "內府藏本"
     }
   ],
   "description": {
@@ -37,5 +45,39 @@
     }
   ],
   "measure_info": "一卷",
-  "id": "1evjxlv6mzb40"
+  "id": "1evjxlv6mzb40",
+  "resources": [
+    {
+      "id": "wikisource",
+      "name": "维基文库",
+      "url": "https://zh.wikisource.org/wiki/煮泉小品",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=127870",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlishenshishangbai",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6261",
+      "metadata": {
+        "edition": "萬曆沈氏尚白齋刻本",
+        "version": "v6",
+        "total_page": 42,
+        "paragraph_count": 102,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }
