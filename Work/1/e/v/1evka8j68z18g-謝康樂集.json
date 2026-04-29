@@ -5,7 +5,8 @@
     {
       "name": "謝靈運",
       "role": "撰",
-      "dynasty": "劉宋"
+      "dynasty": "劉宋",
+      "entity_id": "1j968k0je2uio"
     }
   ],
   "description": {
@@ -14,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr73rdga9s(謝靈運)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr73rdga9s(謝靈運)（不同作者，故新建獨立 Work）。 | 從 1evjr73rdga9s 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。",
   "juan_count": {
     "number": 2
   },
@@ -36,6 +37,16 @@
       "edition": "明萬曆癸未(十一年)謝氏刊本",
       "volume": "故善000001-000002",
       "section": "集部/別集類"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《謝康樂集》四卷",
+      "author_info": "南朝宋謝靈運撰",
+      "summary": "《謝康樂集》四卷。南朝宋謝靈運撰。影印復旦大學圖書館藏明萬曆十一年沈啓原刻本。",
+      "edition": "影印復旦大學圖書館藏明萬曆十一年沈啓原刻本",
+      "volume": "第1304冊",
+      "section": "集部 集部"
     }
   ],
   "resources": [
@@ -54,6 +65,18 @@
         "edition": "明萬曆癸未(十一年)謝氏刊本",
         "digital_pages": 134
       }
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1304%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 1304
+      },
+      "types": [
+        "image"
+      ]
     }
   ]
 }
