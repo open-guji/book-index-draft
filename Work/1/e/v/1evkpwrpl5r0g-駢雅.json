@@ -18,6 +18,20 @@
       "edition": "清乾隆間寫文淵閣四庫全書本",
       "volume": "故庫005095",
       "section": "經部/小學類/訓詁之屬"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《駢雅》·七卷",
+      "author_info": "明朱謀《土韋》撰",
+      "summary": "明朱謀《土韋》撰。謀《土韋》有《周易象通》，已著錄。此書皆刺取古書文句典奧者，依《爾雅》體例，分章訓釋。自《釋詁》、《釋訓》以至《蟲》、《魚》、《鳥》、《獸》，凡二十篇，其說以為聯二為一，駢異為同，故名曰《駢雅》。謀《土韋》淹通典籍，其《一齋書目》所載，往往為諸家所未窺。故徵引注博，頗具條理，非鄉塾陋儒捃拾殘剩者可比。中間如藻井乃屋上方井，刻為藻文，《西京賦》注引《風俗通》，訓義甚明，而謀《土韋》以為刻扉之屬，改易舊文，殊為未確。又謂都禦史為大司憲，詹事為端尹，乃流俗之稱，亦乏典據。至如《釋天》內之歲陽、月名，《釋地》內之五丘、四荒、太平、太蒙、丹穴、空桐之類，皆《爾雅》所已具。更為複引，尤病冗蕪。然奇文僻字，搜輯良多；擷其膏腴，於詞章要不為無補也。",
+      "edition": "浙江巡撫采進本"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "硃谋韦《骈雅》七卷",
+      "summary": "朱謀鵒韋《駢雅》七卷"
     }
   ],
   "description": {
@@ -26,7 +40,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫005095）。阶段 5 兜底建立。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫005095）。阶段 5 兜底建立。 | 從 1evkannlle9kw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3ba8q7p79c(朱謀㙔);1evdibxbtmccg(朱謀韋);1evgor9cvu7ls(朱謀瑋)（不同作者，故新建獨立 Work）。 | 從 1ev3ba8q7p79c 合併。原註：從 1evdibxbtmccg 合併。原註：標題與現有Work匹配但作者不同（Title match but author mismatch: entry='硃謀韋' vs work='朱謀《土韋》' (GYL52fr6dh9)），判定為同名異書，新建獨立Work。 舊匹配結果為 GYL52fr6dh9（exact_title），經作者校驗後判定不匹配。 來源：明史藝文志。",
   "juan_count": {
     "number": 7
   },
@@ -41,5 +55,63 @@
   "books": [
     "11qkhvxcw0j5s",
     "11qki03adcyyo"
+  ],
+  "resources": [
+    {
+      "id": "wikisource-siku",
+      "name": "维基文库（四庫全書本）",
+      "url": "https://zh.wikisource.org/wiki/駢雅_(四庫全書本)",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-sikuquanshuben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/SK0623",
+      "metadata": {
+        "edition": "四庫全書本",
+        "version": "v3",
+        "total_page": 134,
+        "paragraph_count": 436,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-mingwanlikeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/NGJ892411999030423152925",
+      "metadata": {
+        "edition": "明萬曆刻本",
+        "version": "v1",
+        "total_page": 146,
+        "paragraph_count": 913,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-zhutongweixuanzhanta",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/NGJ89241199902375546372",
+      "metadata": {
+        "edition": "朱統鍡玄湛堂明萬曆15年刻本",
+        "version": "v1",
+        "total_page": 152,
+        "paragraph_count": 924,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
   ]
 }
