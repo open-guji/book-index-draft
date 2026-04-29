@@ -1,0 +1,41 @@
+{
+  "type": "work",
+  "title": "貞觀政要",
+  "juan_count": {
+    "number": 10
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《貞觀政要》十卷",
+      "summary": "《貞觀政要》十卷（吳兢）",
+      "author_info": "吳兢"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgphjzoqrcw",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右實錄：貞觀政要\"，可能是解析错误\n[QA-fix 2026-04-20] title \"右實錄：貞觀政要\" → \"貞觀政要\" (strip 右; strip colon)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81",
+      "types": [
+        "text"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1evdiczaki0w0",
+  "type": "work",
+  "title": "湧幢小品",
+  "authors": [
+    {
+      "name": "朱國禎",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j96a2z92wpvn"
+    }
+  ],
+  "juan_count": {
+    "number": 24
+  },
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "硃國禎《湧幢小品》二十四卷",
+      "summary": "硃國禎《湧幢小品》二十四卷"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《湧幢小品》三十二卷",
+      "author_info": "明朱國禎撰",
+      "summary": "《湧幢小品》三十二卷。明朱國禎撰。影印復旦大學圖書館藏明天啟二年刻本。",
+      "edition": "影印復旦大學圖書館藏明天啟二年刻本",
+      "volume": "第1173冊",
+      "section": "子部 雑家類"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《湧幢小品》三十二卷",
+      "author_info": "明朱國禎輯",
+      "summary": "《湧幢小品》三十二卷。明朱國禎輯。遼寧大學圖書館藏明天啓二年刻本。",
+      "edition": "遼寧大學圖書館藏明天啓二年刻本",
+      "volume": "第99冊",
+      "section": "子部"
+    }
+  ],
+  "description": {
+    "text": "明代子部小說類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "ai_note": "標題與現有Work匹配但作者不同（Title match but author mismatch: entry='硃國禎' vs work='朱國楨' (GYL56bT3sj5)），判定為同名異書，新建獨立Work。 來源：明史藝文志。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 24
+    }
+  ],
+  "measure_info": "二十四卷",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%B9%A7%E5%B9%A2%E5%B0%8F%E5%93%81",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/02096860.cn",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1173%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 1173
+      },
+      "types": [
+        "image"
+      ]
+    }
+  ]
+}

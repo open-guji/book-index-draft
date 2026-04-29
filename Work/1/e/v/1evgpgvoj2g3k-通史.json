@@ -1,0 +1,39 @@
+{
+  "type": "work",
+  "title": "通史",
+  "authors": [
+    {
+      "name": "武帝",
+      "role": "撰",
+      "dynasty": "梁",
+      "entity_id": "1j967afjav1vw"
+    }
+  ],
+  "juan_count": {
+    "number": 602
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《通史》六百二卷",
+      "summary": "《通史》六百二卷（梁武帝撰。起三皇，訖梁。）",
+      "author_info": "梁武帝撰。起三皇，訖梁。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpgvoj2g3k",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右遼、金、元通史\"，可能是解析错误\n[QA-fix 2026-04-20] \"右遼、金、元通史\" → \"通史\" (去除 parser 误粘前一类\"右XX\"标签)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 602
+    }
+  ],
+  "measure_info": "六百零二卷"
+}

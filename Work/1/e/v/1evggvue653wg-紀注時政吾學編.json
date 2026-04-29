@@ -1,0 +1,38 @@
+{
+  "type": "work",
+  "title": "紀注時政吾學編",
+  "authors": [
+    {
+      "name": "鄭鹿",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j96hfljqyark"
+    }
+  ],
+  "juan_count": {
+    "number": 69
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《紀注時政吾學編》六十九卷",
+      "summary": "《紀注時政吾學編》六十九卷（鄭鹿）"
+    }
+  ],
+  "description": {
+    "text": "明代制書類著作，《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evggvue653wg",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"紀注、時政、吾學編\"，可能是解析错误\n[QA-fix 2026-04-20] 卷一 原文\"紀注、時政、吾學編六十九卷\"——题名或含连续三部书名（紀注+時政+吾學編），需拆分或作为一个类名处理\n[QA-fix 2026-04-20] title \"紀注、時政、吾學編\" → \"紀注時政吾學編\" (remove 顿号)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 69
+    }
+  ],
+  "measure_info": "六十九卷"
+}

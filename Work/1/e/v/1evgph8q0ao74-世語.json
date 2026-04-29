@@ -1,0 +1,39 @@
+{
+  "type": "work",
+  "title": "世語",
+  "authors": [
+    {
+      "name": "郭頒",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j967cp1zdr2v"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《世語》十卷",
+      "summary": "《世語》十卷（晉郭頒）",
+      "author_info": "晉郭頒"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgph8q0ao74",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右兩漢魏、𣈆世語\"，可能是解析错误\n[QA-fix 2026-04-20] \"右兩漢魏、𣈆世語\" → \"世語\" (去除 parser 误粘前一类\"右XX\"标签)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷"
+}

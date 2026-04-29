@@ -1,0 +1,38 @@
+{
+  "type": "work",
+  "title": "後魏書",
+  "authors": [
+    {
+      "name": "後齊魏收",
+      "role": "撰",
+      "entity_id": "1j96hfqdi2s5c"
+    }
+  ],
+  "juan_count": {
+    "number": 130
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《後魏書》一百三十卷",
+      "summary": "《後魏書》一百三十卷（後齊魏收。）",
+      "author_info": "後齊魏收。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpgu76416o",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右宋、齊、梁、陳、後魏書\"，可能是解析错误\n[QA-fix 2026-04-20] \"右宋、齊、梁、陳、後魏書\" → \"後魏書\" (去除 parser 误粘前一类\"右XX\"标签)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 130
+    }
+  ],
+  "measure_info": "一百三十卷"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "work",
+  "title": "唐書",
+  "authors": [
+    {
+      "name": "呉兢",
+      "role": "撰",
+      "entity_id": "1j96haa7obnr4"
+    }
+  ],
+  "juan_count": {
+    "number": 100
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《唐書》一百卷",
+      "summary": "《唐書》一百卷（呉兢）",
+      "author_info": "呉兢"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpguuievi8",
+  "ai_note": "[QA2026-04-20] title 含可疑字符: \"右後魏、北齊、後周、隋唐書\"，可能是解析错误\n[QA-fix 2026-04-20] \"右後魏、北齊、後周、隋唐書\" → \"唐書\" (去除 parser 误粘前一类\"右XX\"标签)",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷"
+}

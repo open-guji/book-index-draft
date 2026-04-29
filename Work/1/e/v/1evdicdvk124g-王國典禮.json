@@ -1,0 +1,70 @@
+{
+  "id": "1evdicdvk124g",
+  "type": "work",
+  "title": "王國典禮",
+  "authors": [
+    {
+      "name": "朱勤美",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j96gyqvw8a2o"
+    }
+  ],
+  "juan_count": {
+    "number": 8
+  },
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "硃勤美《王国典礼》八卷",
+      "summary": "硃勤美《王國典禮》八卷"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《王國典禮》八卷",
+      "author_info": "明朱勤美撰",
+      "summary": "《王國典禮》八卷。明朱勤美撰。影印國家圖書館藏明萬曆四十三年周府刻天啟增修本。",
+      "edition": "影印國家圖書館藏明萬曆四十三年周府刻天啟增修本",
+      "volume": "第824冊",
+      "section": "史部 史部"
+    }
+  ],
+  "description": {
+    "text": "明代史部儀注類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "ai_note": "標題與現有Work匹配但作者不同（Title match but author mismatch: entry='朱勤美' vs work='朱勤{艸美}' (GYL54PMTgMm)），判定為同名異書，新建獨立Work。 舊匹配結果為 GYL54PMTgMm（exact_title），經作者校驗後判定不匹配。 來源：明史藝文志。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "resources": [
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/02088790.cn",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0824%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 824
+      },
+      "types": [
+        "image"
+      ]
+    }
+  ]
+}
