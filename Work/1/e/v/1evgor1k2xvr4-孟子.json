@@ -3,9 +3,11 @@
   "title": "孟子",
   "authors": [
     {
-      "name": "鄭氏",
-      "role": "撰",
-      "entity_id": "1j96h8rw86q0c"
+      "name": "鄭玄",
+      "role": "注",
+      "dynasty": "漢",
+      "entity_id": "1j9678njjg2rr",
+      "note": "國史經籍志原作「鄭氏」"
     }
   ],
   "juan_count": {
@@ -26,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved | 修正 鄭氏→鄭玄",
   "id": "1evgor1k2xvr4",
   "measures": [
     {
@@ -34,5 +36,12 @@
       "number": 7
     }
   ],
-  "measure_info": "七卷"
+  "measure_info": "七卷",
+  "related_works": [
+    {
+      "id": "1ev7xm3w3445c",
+      "title": "孟子",
+      "relation": "commentary_on"
+    }
+  ]
 }
