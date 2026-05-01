@@ -22,16 +22,30 @@
   ],
   "authors": [
     {
-      "name": "毛亨傳",
-      "role": "撰",
-      "dynasty": "漢"
+      "name": "毛亨",
+      "role": "傳",
+      "dynasty": "漢",
+      "entity_id": "1j96hl75992bk"
+    },
+    {
+      "name": "毛萇",
+      "role": "傳",
+      "dynasty": "漢",
+      "entity_id": "1j96ha6ne3myo"
     }
   ],
-  "ai_note": "作者「漢毛亨傳撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke8gfzvfuo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdsxgoye1hc();1evkaeri9zzsw(朱熹)（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「漢毛亨傳撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke8gfzvfuo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdsxgoye1hc();1evkaeri9zzsw(朱熹)（不同作者，故新建獨立 Work）。 | 修正 OCR：原 author 「毛亨傳」是「毛亨」+「傳」(role) 拼合，已分拆",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善008667-008678）。明崇禎十二年崑山葛氏永懷堂刊十三經古注之一。",
     "sources": [
       "國立故宮博物院善本舊籍"
     ]
-  }
+  },
+  "related_works": [
+    {
+      "id": "1evl7hsxvr7cw",
+      "title": "詩經",
+      "relation": "commentary_on"
+    }
+  ]
 }
