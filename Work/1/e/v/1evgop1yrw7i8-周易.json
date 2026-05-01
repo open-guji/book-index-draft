@@ -3,7 +3,7 @@
   "title": "周易",
   "authors": [
     {
-      "name": "亰房",
+      "name": "京房",
       "role": "撰",
       "dynasty": "漢",
       "entity_id": "1j96ha9wah2io"
@@ -27,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"周易\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"周易\" 唯一候选无作者 | 修正 OCR：亰→京（異體字）",
   "id": "1evgop1yrw7i8",
   "measures": [
     {
@@ -35,5 +35,12 @@
       "number": 10
     }
   ],
-  "measure_info": "十卷"
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "commentary_on"
+    }
+  ]
 }
