@@ -38,5 +38,29 @@
         "edition": "乾隆抄本百廿回紅樓夢稿影印本"
       }
     }
-  ]
+  ],
+  "lineage": {
+    "year": 1785,
+    "year_uncertain": true,
+    "year_text": "清乾隆抄本（具体年代有争议）",
+    "category": "抄本",
+    "status": "extant",
+    "extant_juan": "120回",
+    "alias": [
+      "楊藏本",
+      "紅樓夢稿",
+      "夢稿本",
+      "全抄本"
+    ],
+    "derived_from": [
+      {
+        "ref": "h_zhi_dingben_1754",
+        "ref_type": "hypothetical",
+        "relation": "参校",
+        "confidence": "probable",
+        "evidence": "前 80 回基本同脂评本系统，多底本拼合而成"
+      }
+    ],
+    "note": "前 80 回属脂评本系统、后 40 回似为程高刊本前的早期稿本（或即程高底本之一），为研究后 40 回作者问题之关键。"
+  }
 }

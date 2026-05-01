@@ -70,5 +70,29 @@
         "edition": "清乾隆五十六年蘇州萃文書屋木活字本"
       }
     }
-  ]
+  ],
+  "lineage": {
+    "year": 1791,
+    "year_text": "清乾隆五十六年辛亥（1791），萃文书屋木活字排印",
+    "category": "刻本",
+    "status": "extant",
+    "extant_juan": "120回",
+    "derived_from": [
+      {
+        "ref": "11ql4go6xtd6o",
+        "ref_type": "book",
+        "relation": "参校",
+        "confidence": "probable",
+        "evidence": "前 80 回常被认为以梦觉本（甲辰本）一系为主要底本之一，具体底本组合学界有争议"
+      },
+      {
+        "ref": "11ql4goc03yf4",
+        "ref_type": "book",
+        "relation": "参校",
+        "confidence": "probable",
+        "evidence": "杨本（红楼梦稿）后40回与程高刻本接近，可能即程高所据底本之一"
+      }
+    ],
+    "note": "程伟元、高鹗编刻；前 80 回出自脂评本系统旧抄本，后 40 回为高鹗续补整理。后世东观阁、藤花榭、本衙藏板等翻刻本均自此出。"
+  }
 }

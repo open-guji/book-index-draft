@@ -111,5 +111,33 @@
       "number": 32
     }
   ],
-  "measure_info": "一百二十回三十二册"
+  "measure_info": "一百二十回三十二册",
+  "lineage": {
+    "year": 1800,
+    "year_uncertain": true,
+    "year_text": "底本约形成于清乾隆年间，抄成于清嘉庆、道光年间",
+    "category": "抄本",
+    "status": "extant",
+    "extant_juan": "120回（前80回过录脂评本，后40回据程甲本配补）",
+    "alias": [
+      "王府本",
+      "蒙古王府本"
+    ],
+    "derived_from": [
+      {
+        "ref": "h_qixu_zuben",
+        "ref_type": "hypothetical",
+        "relation": "过录",
+        "confidence": "consensus",
+        "evidence": "前80回侧批与戚序本高度相似，属戚序本系统北系分支"
+      },
+      {
+        "ref": "11ql4go85il8g",
+        "ref_type": "book",
+        "relation": "配补",
+        "confidence": "consensus",
+        "evidence": "后 40 回据程甲本补配，形成脂评/程高混合体"
+      }
+    ]
+  }
 }

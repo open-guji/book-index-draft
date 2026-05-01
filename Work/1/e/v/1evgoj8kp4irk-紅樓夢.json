@@ -152,5 +152,123 @@
       "title": "龍雲友評紅樓夢",
       "relation": "commented_by"
     }
-  ]
+  ],
+  "version_graph": {
+    "enabled": true,
+    "title": "《红楼梦》版本传承图",
+    "description": "曹雪芹原稿（已佚）→ 脂砚斋评本系统（甲戌、己卯、庚辰等）→ 戚序本/梦觉本等过渡抄本 → 程高刻本（1791/1792）→ 东观阁、藤花榭等翻刻本。详见各节点说明。",
+    "layout": "LR",
+    "groups": [
+      {
+        "id": "early",
+        "label": "早期脂评抄本",
+        "color": "#d4a574"
+      },
+      {
+        "id": "qixu",
+        "label": "戚序本系统",
+        "color": "#c9846e"
+      },
+      {
+        "id": "transit",
+        "label": "过渡抄本",
+        "color": "#9caf88"
+      },
+      {
+        "id": "cheng",
+        "label": "程高刻本系统",
+        "color": "#7a9bb8"
+      },
+      {
+        "id": "fanke",
+        "label": "程甲系翻刻",
+        "color": "#a8b8c8"
+      }
+    ],
+    "node_groups": {
+      "11pcgxhot4bnk": "early",
+      "11pde4bf268zk": "early",
+      "11pde4bf0xatc": "early",
+      "11ql4gofqn8jk": "early",
+      "11ql4godbv9j4": "early",
+      "11ql4goej991c": "early",
+      "11pde4bf33ym8": "early",
+      "11pde4bf2hhj4": "qixu",
+      "11ql4gogy181s": "qixu",
+      "11pde4bf2sq2o": "qixu",
+      "11ql4goapllhc": "transit",
+      "11ql4go6xtd6o": "transit",
+      "11ql4goc03yf4": "transit",
+      "11ql4go85il8g": "cheng",
+      "11ql4go9gc6ps": "cheng",
+      "11ql4goi7x3wg": "fanke",
+      "11ql4gojg8t1c": "fanke"
+    },
+    "hypothetical_nodes": [
+      {
+        "id": "h_caoxueqin_manuscript",
+        "label": "曹雪芹原稿（已佚）",
+        "year_range": [
+          1740,
+          1763
+        ],
+        "group": "early",
+        "note": "学术推论，无实存证据。曹雪芹于乾隆二十七年（1762）除夕前后逝世，原稿未卒业。"
+      },
+      {
+        "id": "h_zhi_dingben_1754",
+        "label": "脂砚斋甲戌再评本（已佚）",
+        "year": 1754,
+        "group": "early",
+        "derived_from": [
+          {
+            "ref": "h_caoxueqin_manuscript",
+            "ref_type": "hypothetical",
+            "relation": "评点",
+            "confidence": "consensus"
+          }
+        ],
+        "note": "甲戌本所据底本"
+      },
+      {
+        "id": "h_zhi_sisi_dingben",
+        "label": "脂砚斋「凡四阅评过」定本系列（已佚）",
+        "year_range": [
+          1759,
+          1760
+        ],
+        "group": "early",
+        "derived_from": [
+          {
+            "ref": "h_zhi_dingben_1754",
+            "ref_type": "hypothetical",
+            "relation": "续评",
+            "confidence": "consensus"
+          }
+        ],
+        "note": "己卯/庚辰本均题「凡四阅评过」字样，二者过录自此系列定本"
+      },
+      {
+        "id": "h_qixu_zuben",
+        "label": "戚序本祖本（已佚）",
+        "year": 1773,
+        "year_uncertain": true,
+        "group": "qixu",
+        "derived_from": [
+          {
+            "ref": "h_zhi_sisi_dingben",
+            "ref_type": "hypothetical",
+            "relation": "过录",
+            "confidence": "probable"
+          }
+        ],
+        "note": "戚蓼生序底本，戚张/戚宁/蒙府三本共同来源"
+      }
+    ],
+    "excluded_books": [
+      "11qk4xwcx8v7z",
+      "11qk4xwcxk3sx"
+    ],
+    "excluded_reason": "11qk4xwcx8v7z / 11qk4xwcxk3sx 为空标题占位条目，疑似重复脂评抄本未补全信息，待人工确认/合并后再加入。"
+  }
 }

@@ -25,5 +25,22 @@
   "juan_count": {
     "number": 80,
     "description": "原 80 回（散佚未存）"
+  },
+  "lineage": {
+    "year": 1760,
+    "year_uncertain": true,
+    "year_text": "清乾隆抄本（推测，原本已佚）",
+    "category": "抄本",
+    "status": "lost",
+    "extant_juan": "原本 80 回，1959 年发现后即遗失，仅存毛国瑶录出之 150 条独有脂批",
+    "derived_from": [
+      {
+        "ref": "h_zhi_dingben_1754",
+        "ref_type": "hypothetical",
+        "relation": "过录",
+        "confidence": "disputed",
+        "evidence": "靖批含「壬午除夕，书未成，芹为泪尽而逝」等关键考证材料；真伪有争议但批语多被采信"
+      }
+    ]
   }
 }
