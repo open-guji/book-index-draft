@@ -46,5 +46,73 @@
       "number": 100
     }
   ],
-  "measure_info": "一百卷"
+  "measure_info": "一百卷",
+  "resources": [
+    {
+      "id": "wikisource-siku",
+      "name": "维基文库（四庫全書本）",
+      "url": "https://zh.wikisource.org/wiki/御定全唐詩錄_(四庫全書本)",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=945107",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-1",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=902254",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-2",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=893363",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY1028",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v60",
+        "total_page": 4522,
+        "paragraph_count": 22928,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-sikuquanshuben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/SK3319",
+      "metadata": {
+        "edition": "四庫全書本",
+        "version": "v2",
+        "total_page": 6184,
+        "paragraph_count": 53334,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "ai_note": "從 1ev3d6f6e1a80 合併。原註：作者 \"清徐倬等奉敕編\" 補自《國立故宮博物院善本舊籍》目錄。"
 }

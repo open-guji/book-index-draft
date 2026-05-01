@@ -1,8 +1,25 @@
 {
-  "id": "1evinczmfshz4",
+  "id": "31hyr4yqxdb04",
   "type": "work",
-  "title": "揅經室集",
+  "title": "揅經室",
+  "authors": [
+    {
+      "name": "阮元",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j9678njjg2s5"
+    }
+  ],
+  "juan_count": {
+    "number": 11
+  },
   "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "揅經室一集",
+      "summary": "揅經室一集十四卷，二集八卷，三集五卷，四集十一卷，詩集十二卷，續集九卷，再續集六卷。阮元撰。"
+    },
     {
       "source": "書目答問",
       "source_bid": "31hyr4yqu8xk9",
@@ -30,15 +47,17 @@
       "section": "集部 集部"
     }
   ],
-  "authors": [
+  "measures": [
     {
-      "name": "阮元",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j9678njjg2s5"
+      "unit": "卷",
+      "number": 11
+    },
+    {
+      "unit": "集",
+      "number": 1
     }
   ],
-  "ai_note": "作者「清阮元撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw8tq7tvk 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。",
+  "measure_info": "十一卷",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -70,5 +89,6 @@
     "sources": [
       "續修四庫全書"
     ]
-  }
+  },
+  "ai_note": "從 1evinczmfshz4 合併。原註：作者「清阮元撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw8tq7tvk 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。"
 }
