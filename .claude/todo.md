@@ -20,6 +20,40 @@
 
 ---
 
+## 數據清洗待辦
+
+### 補晉書藝文志 13 條錄入錯誤（待修）
+
+**問題描述**：以下 13 條 Work 在錄入時，書名與作者字段發生串位——官職+姓氏被誤放進 `title`，卷數「集N卷」被誤放進 `author.name`。部分條目的 title 甚至是書志注文（「謹按見《七録》」等）而非書名。
+
+**來源**：`indexed_by.source = 補晉書藝文志`
+
+**受影響的 wid**：
+| wid | 現 title（錯誤） | 現 author.name（錯誤） |
+|---|---|---|
+| 1evfuv2kzy51c | 輔國將軍王 | 集一卷 |
+| 1evfuv2ncjg8w | 侍中程 | 集三卷 |
+| 1evfuv2potiww | 巴西太守 | 正集一卷 |
+| 1evfuv425q3gg | 一卷謹按見《七録》。 | 一卷 |
+| 1evfuv5he7da8 | 司空從事中郎盧 | 集十卷 |
+| 1evfuv611ucqo | 太常謝 | 集二卷 |
+| 1evfuv7m9pdds | 一卷謹按見《七録》。兩《唐志》著録 | 一卷 |
+| 1evfuv7wi1edc | 司徒蔡 | 集四十三卷 |
+| 1evfuva6picjk | 一卷謹按見《七錄》。《隋志》四卷,云殘缺。 | 一卷 |
+| 1evfuvarown40 | 太常王 | 集十五卷 |
+| 1evfuvb97g0e8 | 豫章太守范 | 集十六卷 |
+| 1evfuvc0tmuio | 右軍參軍孔 | 集二卷 |
+| 1evfuvcxycm4g | 武帝左九 | 集四卷 |
+
+**處理方向**：
+1. 回源查「補晉書藝文志」原文，確認每條的真實書名與作者全名
+2. 修正 `title`（應為「XXX集」形式）、`author.name`（應為人名）、`author.dynasty`（晉）
+3. 對 `title` 含書志注文的條目（1evfuv425q3gg、1evfuv7m9pdds、1evfuva6picjk），確認是否應保留該 Work 或刪除
+
+**補晉書藝文志**原文可從 `D:\workspace\book-index-draft\.claude\二十五史艺文经籍志考补萃编书目.md` 確認收錄情況。
+
+---
+
 ## 待整理（優先順序）
 
 ### 1. 崇文總目 ✅ 完成
