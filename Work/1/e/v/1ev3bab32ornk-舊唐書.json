@@ -6,8 +6,14 @@
     {
       "name": "劉昫等奉敕",
       "role": "撰",
-      "dynasty": "晉",
+      "dynasty": "後晉",
       "entity_id": "1j96kfl8v39c0"
+    },
+    {
+      "name": "劉昫",
+      "role": "等奉敕撰",
+      "dynasty": "後晉",
+      "entity_id": "1j96hlhu2zf28"
     }
   ],
   "indexed_by": [
@@ -139,7 +145,25 @@
     {
       "unit": "卷",
       "number": 200
+    },
+    {
+      "unit": "冊",
+      "number": 37
     }
   ],
-  "measure_info": "二百卷"
+  "measure_info": "二百卷",
+  "related_works": [
+    {
+      "id": "1ahsskfowdfr4",
+      "title": "二十四史",
+      "relation": "collected_in"
+    }
+  ],
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善004853-004889）。明嘉靖十七年聞人詮吳郡刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  },
+  "ai_note": "從 1evka9vye34sg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bab32ornk(劉昫等奉敕)（不同作者，故新建獨立 Work）。 | juan_count 冲突: src=37 tgt=200（取较大者）"
 }
