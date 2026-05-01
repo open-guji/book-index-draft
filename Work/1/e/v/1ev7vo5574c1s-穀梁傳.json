@@ -1,7 +1,7 @@
 {
   "id": "1ev7vo5574c1s",
   "type": "work",
-  "title": "春秋穀梁傳",
+  "title": "穀梁傳",
   "authors": [
     {
       "name": "穀梁赤",
@@ -16,7 +16,7 @@
       "溫浚源《漢書藝文志講要》"
     ]
   },
-  "ai_note": "《漢志》著錄「《穀梁傳》十一卷。穀梁子，魯人。」穀梁子名有多種說法。《穀梁傳》與《公羊傳》體裁相近，均爲空言說經。來源：溫浚源《漢書藝文志講要》。",
+  "ai_note": "《漢志》著錄「《穀梁傳》十一卷。穀梁子，魯人。」穀梁子名有多種說法。《穀梁傳》與《公羊傳》體裁相近，均爲空言說經。來源：溫浚源《漢書藝文志講要》。 | 改 title 春秋穀梁傳→穀梁傳 + additional_titles；加 commentary_on→春秋古經 | 從 1evkq1gxjc64g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿002247-002257）。無作者信息。阶段 5 兜底建立。",
   "juan_count": {
     "number": 11
   },
@@ -30,10 +30,22 @@
       "id": "1ev7w0eturncw",
       "title": "春秋",
       "relation": "commentary_on"
+    },
+    {
+      "id": "1ahwtau87mm80",
+      "title": "十三經",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1ahwtau9gw0zk",
+      "title": "十三經注疏",
+      "relation": "collected_in"
     }
   ],
   "additional_titles": [
-    "穀梁傳"
+    "穀梁傳",
+    "春秋穀梁傳",
+    "穀梁春秋"
   ],
   "indexed_by": [
     {
@@ -53,6 +65,28 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "春秋穀梁傳",
       "summary": "春秋穀梁傳十五卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《穀梁傳》",
+      "summary": "《穀梁傳》十二卷董仲舒"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "31hyr4yqu8xk9",
+      "title_info": "穀梁傳",
+      "summary": "《穀梁傳》二十卷。"
+    },
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "source_bid": "",
+      "title_info": "《穀梁傳》不分卷",
+      "author_info": "",
+      "summary": "《穀梁傳》不分卷。清乾隆五十八年國子監石拓懋勤殿蔣書十三經本。",
+      "edition": "清乾隆五十八年國子監石拓懋勤殿蔣書十三經本",
+      "volume": "故殿002247-002257",
+      "section": "經部/春秋類/穀梁傳之屬"
     }
   ],
   "resources": [
@@ -72,6 +106,14 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%A9%80%E6%A2%81%E5%82%B3",
+      "types": [
+        "text"
+      ]
     }
   ],
   "has_text": true,
@@ -90,5 +132,9 @@
       "number": 11
     }
   ],
-  "measure_info": "十一卷"
+  "measure_info": "十一卷",
+  "books": [
+    "11qki22z2gfls",
+    "11qki27fifn5s"
+  ]
 }

@@ -19,6 +19,7 @@ Represents the abstract intellectual content.
   "type": "work",
   "subtype": "string (book | article | poem | chapter, default: book)",
   "title": "string (Chinese title)",
+  "additional_titles": ["string (同書異名/別稱，如《左傳》=《春秋左氏傳》=《春秋左傳》)"],
   "description":  "Description (object)",
   "authors": [
     {
@@ -59,6 +60,12 @@ Represents the abstract intellectual content.
 - `juan_count` 側重傳統「卷」維度，前端已使用。
 - `measures` 數組按原書順序排列，每項一個單位。
 - `measure_info` 是人類可讀的拼接展示（供 UI 直接渲染），例如「四卷二十回」、「八集四十回（每集五回）」。
+
+`additional_titles` 用於記錄同書的其他常用書名（別名/異稱）：
+- 適用於有多個傳統名稱的經典：如《左傳》=《春秋左氏傳》=《左氏傳》=《春秋左傳》
+- 適用於原書與通行名差異：如《春秋古經》=《古文春秋經》
+- 與 `Entity.alt_names`（人物別名）平行設計，但 Work 級別僅存名稱字符串（無 type 區分）
+- UI 應在搜索時匹配 `title` + `additional_titles` 全集
 
 ### 2. Collection Schema
 Represents a collection or series that contains multiple books or other collections.
