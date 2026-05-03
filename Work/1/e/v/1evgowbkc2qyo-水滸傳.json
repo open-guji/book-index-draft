@@ -22,10 +22,14 @@
     }
   ],
   "description": {
-    "text": "公案類通俗小說。明羅貫中、施耐庵傳世公案通俗小說。撰人自明以來相傳有羅貫中、施耐庵二說。《也是園目》有舊本羅貫中水滸傳二十卷；高儒《百川書志》所錄水滸傳則題「施耐庵的本」、「羅貫中編次」。今所見明本有不題撰人者（如高",
+    "text": "公案類通俗小說，元末明初施耐庵、羅貫中所作。歷代版本繁多，學界依文字繁簡與情節分為兩大系統：\n\n**繁本（文繁事簡）**：嘉靖殘本《忠義水滸傳》→ 天都外臣序本 → 容與堂李卓吾評本 → 袁無涯《水滸全傳》→ 金聖歎《第五才子書水滸傳》。其中嘉靖殘本、京本、天都外臣、容與堂均百回（無征田虎王慶事），袁無涯本一百二十回（增田虎王慶），金聖歎本七十回（腰斬本，止於梁山泊英雄排座次）。\n\n**簡本（文簡事繁，含田虎王慶）**：插增本（甲、乙）→ 雙峰堂評林本 → 一百十五回本《水滸忠義志傳》→ 雄飛館英雄譜本 → 清代繁多坊刻（漢宋奇書、徵四寇等）。\n\n繁簡兩系派生關係尚有爭議：繁本→簡本簡化說、簡本→繁本擴充說、共有更早祖本說，以折中說（兩系皆出自更早共同祖本）較占主流。撰人問題自明以來相傳有羅貫中、施耐庵二說：《也是園目》錄舊本羅貫中水滸傳二十卷；高儒《百川書志》題「施耐庵的本」、「羅貫中編次」；今所見明本有不題撰人者（如容與堂百回本）、有題「施耐庵編輯」者（如熊飛刊英雄譜本）、有題「施耐庵集撰」、「羅貫中纂修」者（如袁無涯刊百二十回本）。",
     "sources": [
       {
         "title": "孫楷第《中國通俗小說書目》卷六·明清小說部乙·說公案"
+      },
+      {
+        "title": "鄧雷《水滸傳版本知見錄》（人民文學出版社版本源流課程）",
+        "url": "https://special.rhky.com/mobile/mooc/tocourse/204391782"
       }
     ]
   },
@@ -82,12 +86,200 @@
   ],
   "ai_note": "從 1evjy83b9wglc 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evke5e1cdm2o 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 | 從 1evkpqln9t7nk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善022935-022954），無同名 Work 故新建。",
   "books": [
-    "11qk4xwcx8v9w",
+    "11qlwe6oapxq8",
+    "11qlwe6th2m0w",
     "11qk4xwcxvcbu",
+    "11qlxt3hp45c0",
+    "11qlxt3jnz0n4",
+    "11qlxt3lm7ev4",
+    "11qlwe6uvn20w",
+    "11qlxt3nmb8cg",
+    "11qk4xwcx8v9w",
     "11qkhtd38nv28",
+    "11qkhu551d5a8",
+    "11qlwe6pkx24g",
+    "11qlxt3pncrgg",
+    "11qlwe6qu6gw0",
+    "11qlwe6s5mjgg",
+    "11qlwe6xf3l6o",
+    "11qlwe6w5ixvk",
+    "11qlxt3roeakg",
+    "11qlxt3tnvmyo",
+    "11qlxt3vscs1s",
+    "11qlxt3xsglj4",
+    "11qlxt3zy6osg",
+    "11qlxt41xz9q8",
+    "11qlxt43xruo0",
+    "11qlxt45y6wow",
+    "11qlxt47z8fsw",
     "11qkhtd3nyhog",
     "11qkhtd42mn7k",
     "11qkhtd4iuzgg",
-    "11qkhu551d5a8"
-  ]
+    "11qm0lig7mfwg",
+    "11qm0liielhc0"
+  ],
+  "version_graph": {
+    "enabled": true,
+    "title": "《水滸傳》版本傳承圖",
+    "description": "依人文社鄧雷《水滸傳版本知見錄》整理。施耐庵元末原本（已佚）→ 嘉靖朝百回本祖本（已佚）→ 兩大系統並行：繁本（嘉靖殘本→容與堂→三大寇→大滌餘人→袁無涯 120 回→金聖歎 70 回）與簡本（h_jianben_zuben→京本忠義/種德書堂→插增/評林→英雄譜→劉興我本→十卷/漢宋奇書/征四寇等清代繁多坊刻）。",
+    "layout": "LR",
+    "groups": [
+      {
+        "id": "early",
+        "label": "早期殘證（嘉靖朝）",
+        "color": "#d4a574"
+      },
+      {
+        "id": "fanben_100",
+        "label": "繁本百回",
+        "color": "#c9846e"
+      },
+      {
+        "id": "fanben_120",
+        "label": "繁本百二十回",
+        "color": "#a76358"
+      },
+      {
+        "id": "jinben",
+        "label": "金聖歎七十回系",
+        "color": "#7a9bb8"
+      },
+      {
+        "id": "jianben_zu",
+        "label": "簡本早期祖證",
+        "color": "#9caf88"
+      },
+      {
+        "id": "jianben_zhongdao",
+        "label": "簡本中段（評林/英雄譜）",
+        "color": "#7c9670"
+      },
+      {
+        "id": "jianben_qiantu",
+        "label": "嵌圖本及清代簡本",
+        "color": "#5e7a55"
+      }
+    ],
+    "node_groups": {
+      "11qlwe6oapxq8": "early",
+      "11qlwe6th2m0w": "fanben_100",
+      "11qk4xwcxvcbu": "fanben_100",
+      "11qlxt3hp45c0": "fanben_100",
+      "11qlxt3jnz0n4": "fanben_100",
+      "11qlxt3lm7ev4": "fanben_100",
+      "11qlwe6uvn20w": "fanben_120",
+      "11qlxt3nmb8cg": "fanben_120",
+      "11qk4xwcx8v9w": "jinben",
+      "11qkhtd38nv28": "jinben",
+      "11qkhu551d5a8": "jinben",
+      "11qlwe6pkx24g": "jianben_zu",
+      "11qlxt3pncrgg": "jianben_zu",
+      "11qlwe6qu6gw0": "jianben_zhongdao",
+      "11qlwe6s5mjgg": "jianben_zhongdao",
+      "11qlwe6xf3l6o": "jianben_zhongdao",
+      "11qlwe6w5ixvk": "jianben_qiantu",
+      "11qlxt3roeakg": "jianben_qiantu",
+      "11qlxt3tnvmyo": "jianben_qiantu",
+      "11qlxt3vscs1s": "jianben_qiantu",
+      "11qlxt3xsglj4": "jianben_qiantu",
+      "11qlxt3zy6osg": "jianben_qiantu",
+      "11qlxt41xz9q8": "jianben_qiantu",
+      "11qlxt43xruo0": "jianben_qiantu",
+      "11qlxt45y6wow": "jianben_qiantu",
+      "11qm0lig7mfwg": "jinben",
+      "11qm0liielhc0": "fanben_100"
+    },
+    "hypothetical_nodes": [
+      {
+        "id": "h_yuanben_shuihu",
+        "label": "原本水滸（已佚）",
+        "year": 1370,
+        "year_uncertain": true,
+        "year_range": [
+          1330,
+          1400
+        ],
+        "group": "early",
+        "note": "施耐庵元末明初原稿，學界推定但無實證。繁簡兩系統共同遠祖。"
+      },
+      {
+        "id": "h_jiajing_zuben",
+        "label": "嘉靖朝百回繁本祖本（已佚）",
+        "year": 1540,
+        "year_uncertain": true,
+        "year_range": [
+          1520,
+          1560
+        ],
+        "group": "early",
+        "derived_from": [
+          {
+            "ref": "h_yuanben_shuihu",
+            "ref_type": "hypothetical",
+            "relation": "過錄",
+            "confidence": "probable"
+          }
+        ],
+        "note": "嘉靖殘本所宗，繁本百回系統之祖。"
+      },
+      {
+        "id": "h_jianben_zuben",
+        "label": "簡本祖本（繁本，早於嘉靖殘本，已佚）",
+        "year": 1500,
+        "year_uncertain": true,
+        "year_range": [
+          1450,
+          1530
+        ],
+        "group": "early",
+        "derived_from": [
+          {
+            "ref": "h_yuanben_shuihu",
+            "ref_type": "hypothetical",
+            "relation": "過錄",
+            "confidence": "probable"
+          }
+        ],
+        "note": "據鄧雷課程明言：「簡本祖本為繁本，甚至早於嘉靖殘本」。京本忠義傳、種德書堂本即由此本刪節而來，是簡本系統之真祖。"
+      }
+    ],
+    "excluded_books": [
+      "11qkhtd3nyhog",
+      "11qkhtd42mn7k",
+      "11qkhtd4iuzgg",
+      "11qlxt47z8fsw"
+    ],
+    "excluded_reason": "金聖歎七十回本系清代無紀年翻刻（11qkhtd3nyhog/42mn7k/4iuzgg），及舊三十卷本（11qlxt47z8fsw，已合並到 11qm0liielhc0），不進關係圖。",
+    "default_collection": "core",
+    "collections": {
+      "core": {
+        "label": "核心版本",
+        "description": "12 本最具代表性的版本，覆盖各流派要点"
+      },
+      "all": {
+        "label": "完整版本",
+        "description": "29 本传世本与坊刻本，含各支系、残本、清代繁多翻刻"
+      }
+    },
+    "core_books": [
+      "11qlwe6oapxq8",
+      "11qk4xwcxvcbu",
+      "11qlwe6th2m0w",
+      "11qlxt3hp45c0",
+      "11qlxt3lm7ev4",
+      "11qlwe6uvn20w",
+      "11qlxt3nmb8cg",
+      "11qk4xwcx8v9w",
+      "11qlxt3pncrgg",
+      "11qlwe6s5mjgg",
+      "11qlwe6w5ixvk",
+      "11qlxt3zy6osg",
+      "11qm0liielhc0"
+    ],
+    "core_hypotheticals": [
+      "h_yuanben_shuihu",
+      "h_jiajing_zuben",
+      "h_jianben_zuben"
+    ]
+  }
 }

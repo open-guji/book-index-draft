@@ -1,0 +1,66 @@
+{
+  "id": "11qlxt3zy6osg",
+  "type": "book",
+  "title": "漢宋奇書",
+  "work_id": "1evgowbkc2qyo",
+  "authors": [
+    {
+      "name": "施耐庵",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j96kekotym0w"
+    },
+    {
+      "name": "羅貫中",
+      "role": "編次",
+      "dynasty": "元",
+      "entity_id": "1j96a3rlxwt8y"
+    }
+  ],
+  "description": {
+    "text": "清代最流行的簡本水滸之一，與《漢書》《宋史》合稱「漢宋奇書」。\n\n**版本系譜**：據人文社鄧雷《水滸傳版本知見錄》：「**此本雖然形式上極力仿照英雄譜本，但是文字上卻是劉興我本系統**」、「**是有清一代最為流行的簡本**」。\n\n形式仿英雄譜（與三國合刻），但文字實為劉興我本系下游。",
+    "sources": []
+  },
+  "location_history": [],
+  "resources": [],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    },
+    {
+      "unit": "回",
+      "number": 115
+    }
+  ],
+  "measure_info": "二十卷一百十五回",
+  "lineage": {
+    "year": 1750,
+    "year_text": "清代",
+    "year_uncertain": true,
+    "category": "刻本",
+    "status": "extant",
+    "extant_juan": "二十卷一百十五回",
+    "alias": [
+      "漢宋奇書本"
+    ],
+    "derived_from": [
+      {
+        "ref": "11qlxt3vscs1s",
+        "ref_type": "book",
+        "relation": "翻刻",
+        "confidence": "consensus",
+        "evidence": "据人文社版本嬗变官方图：李漁序本→漢宋奇書本（不直接接刘兴我本）"
+      }
+    ],
+    "related_to": [
+      {
+        "book_id": "11qlwe6xf3l6o",
+        "relation": "形式仿照",
+        "confidence": "consensus",
+        "evidence": "形式上仿英雄譜本（與三國合刻），但文字屬劉興我本系統"
+      }
+    ],
+    "note": "清代最流行簡本，劉興我本系下游。"
+  }
+}

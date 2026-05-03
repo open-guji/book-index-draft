@@ -1,0 +1,71 @@
+{
+  "id": "11qlxt3pncrgg",
+  "type": "book",
+  "title": "新刻全像水滸傳（種德書堂本）",
+  "work_id": "1evgowbkc2qyo",
+  "authors": [
+    {
+      "name": "施耐庵",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j96kekotym0w"
+    },
+    {
+      "name": "羅貫中",
+      "role": "編次",
+      "dynasty": "元",
+      "entity_id": "1j96a3rlxwt8y"
+    }
+  ],
+  "description": {
+    "text": "建陽坊刻簡本水滸之核心祖本，偏像版式（上圖下文）。\n\n**版本系譜**：據人文社鄧雷《水滸傳版本知見錄》：「**比容與堂本刪削了 45%**」、「**插增本、評林本均源出種德書堂本**」。為簡本系統最核心的祖本。\n\n**現藏**（殘本分散）：\n- 德國德累斯頓邦立薩克森圖書館\n- 梵蒂岡教廷圖書館\n\n**學術地位**：相比插增本、評林本等更接近簡本初源，刪削幅度最大（-45%），為簡本系統溯源的關鍵實物。",
+    "sources": []
+  },
+  "current_location": {
+    "name": "德國德累斯頓邦立薩克森圖書館；梵蒂岡教廷圖書館",
+    "description": "",
+    "source": "src_manual"
+  },
+  "location_history": [
+    {
+      "name": "德国德累斯顿邦立萨克森图书馆",
+      "description": "种德书堂残本",
+      "source": "src_manual"
+    },
+    {
+      "name": "梵蒂冈教廷图书馆",
+      "description": "种德书堂残本",
+      "source": "src_manual"
+    }
+  ],
+  "resources": [],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 25
+    }
+  ],
+  "measure_info": "二十五卷",
+  "lineage": {
+    "year": 1580,
+    "year_text": "明萬曆前期（推定）",
+    "year_uncertain": true,
+    "category": "刻本",
+    "status": "fragment",
+    "extant_juan": "二十五卷，殘本，偏像版式（上圖下文）",
+    "alias": [
+      "種德書堂本"
+    ],
+    "derived_from": [
+      {
+        "ref": "h_jianben_zuben",
+        "ref_type": "hypothetical",
+        "relation": "刪節",
+        "confidence": "consensus",
+        "evidence": "鄧雷課程：比容與堂本刪削 45%；簡本系統核心祖本"
+      }
+    ],
+    "related_to": [],
+    "note": "簡本系統核心祖本，插增、評林之共同源頭。"
+  }
+}

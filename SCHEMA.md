@@ -52,9 +52,26 @@ Represents the abstract intellectual content.
     }
   ],
   "measure_info": "string (optional, UI 直接展示文本，應與 measures 一致，例：「四集（每集五回）二十回」)",
+  "book_contained_in": [
+    {
+      "collection_id": "string (book_collection ID)",
+      "title_info": "string (该丛编中此本的标题，如《史記》一百三十卷)",
+      "author_info": "string (该丛编中记录的作者署名)",
+      "edition": "string (版本，如「清乾隆間寫文淵閣四庫全書本」)",
+      "volume": "string (馆藏号/册次，如「故庫000153-000155」)",
+      "section": "string (分类，如「經部/易類」)",
+      "summary": "string (该丛编中的摘要原文)",
+      "source_bid": "string (源系统记录ID，可空)"
+    }
+  ],
   "sources": [] // type: Source
 }
 ```
+
+`book_contained_in` 是 **Work → book_collection 的临时挂载点**，记录"某丛编中收有此作品的某具体本"，但尚未拆分成独立 Book 条目。它与 `indexed_by` 的关键区别：
+- `indexed_by`：作品被**目录书/志书/考证书**（也是 Work，描述性著作）著录，记录的是文献学引证。
+- `book_contained_in`：作品被**藏品丛编/影印丛编**（Collection.subtype=book_collection）收录，记录的是某个具体藏本/版本，**应当**最终拆分为独立 Book + Book.contained_in 指向该 Collection。
+- 录入流程：先临时挂在 Work.book_contained_in，后续按 collate-cong-bian 流程逐条升格为 Book。
 
 `measures` 用於補充 `juan_count`，適合通俗小說等需要多維計量（卷+回+集+篇）的作品。
 - `juan_count` 側重傳統「卷」維度，前端已使用。

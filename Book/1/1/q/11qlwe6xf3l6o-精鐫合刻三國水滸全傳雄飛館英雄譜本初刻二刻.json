@@ -1,0 +1,122 @@
+{
+  "id": "11qlwe6xf3l6o",
+  "type": "book",
+  "title": "精鐫合刻三國水滸全傳（雄飛館英雄譜本，初刻+二刻）",
+  "work_id": "1evgowbkc2qyo",
+  "authors": [
+    {
+      "name": "施耐庵",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j96kekotym0w"
+    },
+    {
+      "name": "羅貫中",
+      "role": "編次",
+      "dynasty": "元",
+      "entity_id": "1j96a3rlxwt8y"
+    }
+  ],
+  "description": {
+    "text": "簡本水滸晚期流行本，明崇禎末（約 1630 年代）建陽熊飛、楊明琅雄飛館刊，與《三國演義》合刻為《精鐫合刻三國水滸全傳·英雄譜》。後有二刻本。\n\n**現藏**：日本內閣文庫等。\n\n**影印**：書格 [shuge.org](https://www.shuge.org/meet/topic/85836/)。",
+    "sources": []
+  },
+  "publication_info": {
+    "year": "約 1635",
+    "details": "明崇禎末建陽熊飛、楊明琅雄飛館刊",
+    "source": "src_manual"
+  },
+  "current_location": {
+    "name": "初刻：筑波大学等；二刻：日本内阁文库、京都大学（铃木虎雄藏）、尊经阁、国图等",
+    "description": "英雄谱本分初刻、二刻两个版次，皆与三国合刻",
+    "source": "src_manual"
+  },
+  "location_history": [
+    {
+      "name": "[初刻] 筑波大学藏本",
+      "description": "20 卷 110 回 6 册",
+      "source": "src_manual"
+    },
+    {
+      "name": "[初刻] 刘世德所见本",
+      "description": "6 卷残本",
+      "source": "src_manual"
+    },
+    {
+      "name": "[初刻] 香港中文大学藏本",
+      "description": "图赞 16 叶残叶",
+      "source": "src_manual"
+    },
+    {
+      "name": "[初刻] 薄井所见本",
+      "description": "图像 1 幅+赞语 1 幅",
+      "source": "src_manual"
+    },
+    {
+      "name": "[二刻] 日本内阁文库藏",
+      "description": "20 卷 110 回",
+      "source": "src_manual"
+    },
+    {
+      "name": "[二刻] 京都大学附属图书馆 铃木虎雄藏",
+      "description": "20 卷 110 回",
+      "source": "src_manual"
+    },
+    {
+      "name": "[二刻] 尊经阁本",
+      "description": "前田纲纪（1643-1724）旧藏",
+      "source": "src_manual"
+    },
+    {
+      "name": "[二刻] 国图藏残本一/二",
+      "description": "残本一索书号未明；残本二索书号 16712",
+      "source": "src_manual"
+    }
+  ],
+  "resources": [
+    {
+      "id": "shuge",
+      "name": "書格",
+      "url": "https://www.shuge.org/meet/topic/85836/",
+      "details": "精鐫合刻三國水滸全傳影印",
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    },
+    {
+      "unit": "回",
+      "number": 115
+    }
+  ],
+  "measure_info": "《水滸》二十卷首一卷（約 115 回）",
+  "lineage": {
+    "year": 1635,
+    "year_text": "明崇禎末（約 1630 年代）",
+    "year_uncertain": true,
+    "category": "刻本",
+    "status": "extant",
+    "extant_juan": "二十卷首一卷（《水滸》部分約 115 回）",
+    "alias": [
+      "英雄譜",
+      "雄飛館本",
+      "熊飛館本"
+    ],
+    "derived_from": [
+      {
+        "ref": "11qlwe6s5mjgg",
+        "ref_type": "book",
+        "relation": "同系延伸",
+        "confidence": "consensus",
+        "evidence": "据人文社版本嬗变官方图：英雄譜本（初刻/二刻）作为評林本系列之延伸（图中并列于評林本注）"
+      }
+    ],
+    "related_to": [],
+    "note": "评林本系列下属——人文社官方图把初刻英雄谱本、二刻英雄谱本作为评林本之注。实际是评林本系列的延伸刊本（与三国合刻），但本索引保留独立 Book 以记录其独有的影印资源等。"
+  }
+}
