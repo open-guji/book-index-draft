@@ -13,7 +13,7 @@
     }
   ],
   "description": {
-    "text": "靈怪類通俗小說。存\n\n明吳承恩撰。承恩字汝忠，號射陽山人。南直隸淮安府山陽縣人。嘉靖中官長興縣丞。\n\n今所見明本有華陽洞天主人校本及李卓吾評本二本。華陽洞天主人校本有三種：一、新刻出像官板大字西遊記二十卷一百回（明金",
+    "text": "靈怪類通俗小說。存\n\n明吳承恩撰。承恩字汝忠，號射陽山人。南直隸淮安府山陽縣人。嘉靖中官長興縣丞。\n\n今所見明本有華陽洞天主人校本及李卓吾評本二本。華陽洞天主人校本有三種：一、新刻出像官板大字西遊記二十卷一百回（明金\n\n【附記·孫楷第《通俗小說書目》著錄之未見/已佚別本】\n\n**舊西遊記**：佚。永樂大典一萬三千一百三十九卷送字韻引「西遊記·魏徵夢斬涇河龍」一節，文與吳承恩西遊記不同，而語意大似話本，引書標題作「西遊記」。則明初確有西遊記一書，遠在吳書之前也。學界以此推論吳承恩本之前已有早期西遊話本流傳。",
     "sources": [
       {
         "title": "孫楷第《中國通俗小說書目》卷五·明清小說部乙·靈怪"
@@ -63,6 +63,89 @@
   ],
   "ai_note": "從 1evkalu6hr668 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
   "books": [
-    "11qki7fbxizgg"
-  ]
+    "11qki7fbxizgg",
+    "11qmuihbj7ncw",
+    "11qmuihfbxla8",
+    "11qmuihijqmtc",
+    "11qmuihlnstts",
+    "11qmuihou1on4",
+    "11qmuihryqcqo",
+    "11qmvwdq9p3wg",
+    "11qmvwds0ft34",
+    "11qmvwdtrszcw",
+    "11qmvwdvrwsu8",
+    "11qmvwwp9vd34",
+    "11qmvwwspskqo"
+  ],
+  "version_graph": {
+    "enabled": true,
+    "title": "《西遊記》版本傳承圖",
+    "description": "吳承恩百回本（嘉靖中作）→ 萬曆世德堂初刻（1592）→ 楊閩齋本/唐僧西遊記（華陽洞天主人校系）→ 李卓吾評本（蘇州/大業堂，評點派祖）→ 清代諸評本（證道書、真詮、新說、原旨、正旨）。簡本（朱鼎臣本、楊致和本）作為獨立 Work 並存。",
+    "layout": "LR",
+    "groups": [
+      {
+        "id": "early_ming",
+        "label": "明萬曆早期刻本（華陽洞天主人校系）",
+        "color": "#d4a574"
+      },
+      {
+        "id": "lizhuowu",
+        "label": "李卓吾評本系（評點派祖）",
+        "color": "#a76358"
+      },
+      {
+        "id": "jianben",
+        "label": "簡本系（朱鼎臣本/楊致和本）",
+        "color": "#9caf88"
+      },
+      {
+        "id": "review",
+        "label": "清代評本（非核心版本）",
+        "color": "#b9b3a8"
+      }
+    ],
+    "node_groups": {
+      "11qki7fbxizgg": "early_ming",
+      "11qmvwdq9p3wg": "early_ming",
+      "11qmvwds0ft34": "early_ming",
+      "11qmvwdtrszcw": "lizhuowu",
+      "11qmvwdvrwsu8": "lizhuowu",
+      "11qmuihbj7ncw": "review",
+      "11qmuihfbxla8": "review",
+      "11qmuihijqmtc": "review",
+      "11qmuihlnstts": "review",
+      "11qmuihou1on4": "review",
+      "11qmuihryqcqo": "review",
+      "11qmvwwp9vd34": "jianben",
+      "11qmvwwspskqo": "jianben"
+    },
+    "hypothetical_nodes": [
+      {
+        "id": "h_wuchengen_yuanben",
+        "label": "吳承恩原稿（已佚）",
+        "year": 1570,
+        "year_uncertain": true,
+        "year_range": [
+          1550,
+          1582
+        ],
+        "group": "early_ming",
+        "note": "吳承恩（1500-1582）嘉靖至萬曆初創作百回本，原稿未刊先卒。學界推定世德堂本（1592）即首次刊行；近人黃霖、徐朔方等考證吳承恩著作權，反證者亦有（如李時人持否定說）。"
+      },
+      {
+        "id": "h_jiu_xiyou",
+        "label": "舊西遊記話本（明初已佚）",
+        "year": 1400,
+        "year_uncertain": true,
+        "year_range": [
+          1350,
+          1450
+        ],
+        "group": "early_ming",
+        "note": "永樂大典一萬三千一百三十九卷送字韻引「西遊記·魏徵夢斬涇河龍」一節，文與吳承恩本不同，語意似話本，引書標題作「西遊記」。則明初確有西遊記一書，遠在吳書之前。學界以此推論吳承恩本之前已有早期西遊話本流傳。與朱鼎臣《唐三藏西遊釋厄傳》、楊致和《西遊記》（簡本系）關係尚有爭議。"
+      }
+    ],
+    "excluded_books": [],
+    "excluded_reason": ""
+  }
 }

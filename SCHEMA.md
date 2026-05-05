@@ -68,6 +68,8 @@ Represents the abstract intellectual content.
 }
 ```
 
+Book 的 `indexed_by` 與 Work 的 `indexed_by` 同結構，記錄該具體版本被目錄書/志書/考證書著錄的條目。場景：通俗小說書目這類目錄書中按版本著錄的條目（如「乾隆甲戌本脂硯齋重評石頭記」「王希廉評紅樓夢一百二十回」）應掛在對應的 Book 上，而非新建 Work。
+
 `book_contained_in` 是 **Work → book_collection 的临时挂载点**，记录"某丛编中收有此作品的某具体本"，但尚未拆分成独立 Book 条目。它与 `indexed_by` 的关键区别：
 - `indexed_by`：作品被**目录书/志书/考证书**（也是 Work，描述性著作）著录，记录的是文献学引证。
 - `book_contained_in`：作品被**藏品丛编/影印丛编**（Collection.subtype=book_collection）收录，记录的是某个具体藏本/版本，**应当**最终拆分为独立 Book + Book.contained_in 指向该 Collection。
@@ -155,6 +157,14 @@ Represents a physical or specific digital edition/copy of a work.
     "source": "Source"
   },
   "description":  "Description (object)",
+  "indexed_by": [
+    {
+      "source": "string (目錄/志書名稱，如「中國通俗小說書目」)",
+      "source_bid": "string (目錄 Work ID)",
+      "title_info": "string (該目錄中此版本的著錄標題)",
+      "summary": "string (該目錄中對此版本的全文著錄)"
+    }
+  ],
   "resources": [
       {
         "id": "string (short identifier, extracted from url domain or custom)",
