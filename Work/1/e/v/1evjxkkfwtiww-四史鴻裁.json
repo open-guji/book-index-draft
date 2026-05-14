@@ -18,6 +18,14 @@
       "edition": "清華大學圖書館藏明萬曆十八年朱朝聘刻本",
       "volume": "第139冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《四史鴻裁》•四十卷",
+      "author_info": "明穆文熙編",
+      "summary": "明穆文熙編。文熙有《七雄策纂》，已著錄。是編選錄《左傳》十二卷、《國語》八卷、《戰國策》八卷、《史記》十二卷，皆略注字義，無所發明，批點尤為弇陋。其括此四書曰“四史”，亦杜撰無稽也。",
+      "edition": "通行本"
     }
   ],
   "description": {
@@ -37,5 +45,39 @@
     }
   ],
   "measure_info": "四十卷",
-  "id": "1evjxkkfwtiww"
+  "id": "1evjxkkfwtiww",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=831401",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-1",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=2545818",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlishibadongjunzhu",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY4010",
+      "metadata": {
+        "edition": "萬曆十八年(1590)東郡朱朝聘山西刻本",
+        "version": "v9",
+        "total_page": 2337,
+        "paragraph_count": 31454,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

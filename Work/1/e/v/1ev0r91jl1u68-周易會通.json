@@ -20,19 +20,20 @@
       "edition": "內府藏本"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《周易會通》十四卷首一卷附錄一卷",
-      "author_info": "元董真卿撰",
-      "summary": "《周易會通》十四卷首一卷附錄一卷。元董真卿撰。清康熙間徐乾學輯刊通志堂經解之一。",
-      "edition": "清康熙間徐乾學輯刊通志堂經解之一",
-      "volume": "贈善023561-023566",
-      "section": "經部/易類"
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周易會通》四卷",
+      "summary": "《周易會通》四卷"
     }
   ],
   "books": [
     "11q37nuajb9j4",
-    "11q7m1rcaz8qo"
+    "11q7m1rcaz8qo",
+    "11qkhteen68sg",
+    "11qkhvi0c3mkg",
+    "11qkhy6tiv85c",
+    "11qkhyn634oow",
+    "11qki31alan7k"
   ],
   "juan_count": {
     "number": 14
@@ -85,34 +86,6 @@
       "types": [
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAyMzU2MS0wMjM1NjYifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善023561-023566",
-        "acckey": "673eb2824af3567a4547064316507662",
-        "edition": "清康熙間徐乾學輯刊通志堂經解之一"
-      }
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAwMDQ4Ni0wMDA0OTcifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "故庫000486-000497",
-        "acckey": "137c4df7eec0d5cb2b24b9066bbbf6ec",
-        "edition": "清乾隆間寫文淵閣四庫全書本"
-      }
     }
   ],
   "has_text": true,
@@ -123,5 +96,19 @@
       "number": 14
     }
   ],
-  "measure_info": "十四卷"
+  "measure_info": "十四卷",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "從 1evgopfh0te68 合併。原註：从卷二 ambiguous 新建：unresolved 作者「元董真卿撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "commentary_on"
+    }
+  ]
 }

@@ -19,6 +19,7 @@ Represents the abstract intellectual content.
   "type": "work",
   "subtype": "string (book | article | poem | chapter, default: book)",
   "title": "string (Chinese title)",
+  "additional_titles": ["string (同書異名/別稱，如《左傳》=《春秋左氏傳》=《春秋左傳》)"],
   "description":  "Description (object)",
   "authors": [
     {
@@ -51,14 +52,39 @@ Represents the abstract intellectual content.
     }
   ],
   "measure_info": "string (optional, UI 直接展示文本，應與 measures 一致，例：「四集（每集五回）二十回」)",
+  "book_contained_in": [
+    {
+      "collection_id": "string (book_collection ID)",
+      "title_info": "string (该丛编中此本的标题，如《史記》一百三十卷)",
+      "author_info": "string (该丛编中记录的作者署名)",
+      "edition": "string (版本，如「清乾隆間寫文淵閣四庫全書本」)",
+      "volume": "string (馆藏号/册次，如「故庫000153-000155」)",
+      "section": "string (分类，如「經部/易類」)",
+      "summary": "string (该丛编中的摘要原文)",
+      "source_bid": "string (源系统记录ID，可空)"
+    }
+  ],
   "sources": [] // type: Source
 }
 ```
+
+Book 的 `indexed_by` 與 Work 的 `indexed_by` 同結構，記錄該具體版本被目錄書/志書/考證書著錄的條目。場景：通俗小說書目這類目錄書中按版本著錄的條目（如「乾隆甲戌本脂硯齋重評石頭記」「王希廉評紅樓夢一百二十回」）應掛在對應的 Book 上，而非新建 Work。
+
+`book_contained_in` 是 **Work → book_collection 的临时挂载点**，记录"某丛编中收有此作品的某具体本"，但尚未拆分成独立 Book 条目。它与 `indexed_by` 的关键区别：
+- `indexed_by`：作品被**目录书/志书/考证书**（也是 Work，描述性著作）著录，记录的是文献学引证。
+- `book_contained_in`：作品被**藏品丛编/影印丛编**（Collection.subtype=book_collection）收录，记录的是某个具体藏本/版本，**应当**最终拆分为独立 Book + Book.contained_in 指向该 Collection。
+- 录入流程：先临时挂在 Work.book_contained_in，后续按 collate-cong-bian 流程逐条升格为 Book。
 
 `measures` 用於補充 `juan_count`，適合通俗小說等需要多維計量（卷+回+集+篇）的作品。
 - `juan_count` 側重傳統「卷」維度，前端已使用。
 - `measures` 數組按原書順序排列，每項一個單位。
 - `measure_info` 是人類可讀的拼接展示（供 UI 直接渲染），例如「四卷二十回」、「八集四十回（每集五回）」。
+
+`additional_titles` 用於記錄同書的其他常用書名（別名/異稱）：
+- 適用於有多個傳統名稱的經典：如《左傳》=《春秋左氏傳》=《左氏傳》=《春秋左傳》
+- 適用於原書與通行名差異：如《春秋古經》=《古文春秋經》
+- 與 `Entity.alt_names`（人物別名）平行設計，但 Work 級別僅存名稱字符串（無 type 區分）
+- UI 應在搜索時匹配 `title` + `additional_titles` 全集
 
 ### 2. Collection Schema
 Represents a collection or series that contains multiple books or other collections.
@@ -131,6 +157,14 @@ Represents a physical or specific digital edition/copy of a work.
     "source": "Source"
   },
   "description":  "Description (object)",
+  "indexed_by": [
+    {
+      "source": "string (目錄/志書名稱，如「中國通俗小說書目」)",
+      "source_bid": "string (目錄 Work ID)",
+      "title_info": "string (該目錄中此版本的著錄標題)",
+      "summary": "string (該目錄中對此版本的全文著錄)"
+    }
+  ],
   "resources": [
       {
         "id": "string (short identifier, extracted from url domain or custom)",

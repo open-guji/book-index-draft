@@ -20,21 +20,18 @@
       "edition": "福建巡撫采進本"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《周禮述注》二十四卷",
-      "author_info": "清李光坡撰",
-      "summary": "《周禮述注》二十四卷。清李光坡撰。清乾隆間寫文淵閣四庫全書本。",
-      "edition": "清乾隆間寫文淵閣四庫全書本",
-      "volume": "故庫002184-002195",
-      "section": "經部/禮類/周禮之屬"
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "周禮述註",
+      "summary": "《周禮述註》二十四卷。李光坡撰。"
     }
   ],
   "juan_count": {
     "number": 24
   },
   "books": [
-    "11q4716s16r5s"
+    "11q4716s16r5s",
+    "11qkhvofqozr4"
   ],
   "resources": [
     {
@@ -54,18 +51,12 @@
       ]
     },
     {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAwMjE4NC0wMDIxOTUifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06045604.cn",
       "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "故庫002184-002195",
-        "acckey": "00dd1906553e220fc2546fb55de3d563",
-        "edition": "清乾隆間寫文淵閣四庫全書本"
-      }
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -76,5 +67,12 @@
       "number": 24
     }
   ],
-  "measure_info": "二十四卷"
+  "measure_info": "二十四卷",
+  "related_works": [
+    {
+      "id": "1evl7nl7lsg00",
+      "title": "周禮",
+      "relation": "commentary_on"
+    }
+  ]
 }

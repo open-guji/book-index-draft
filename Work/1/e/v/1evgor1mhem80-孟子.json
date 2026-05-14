@@ -3,9 +3,10 @@
   "title": "孟子",
   "authors": [
     {
-      "name": "劉熈",
+      "name": "劉熙",
       "role": "撰",
-      "entity_id": "1j96h28x1zg1x"
+      "dynasty": "東漢",
+      "entity_id": "1j96hllpzsoao"
     }
   ],
   "juan_count": {
@@ -26,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved | 修正 熈→熙 + 朝代補",
   "id": "1evgor1mhem80",
   "measures": [
     {
@@ -34,5 +35,12 @@
       "number": 7
     }
   ],
-  "measure_info": "七卷"
+  "measure_info": "七卷",
+  "related_works": [
+    {
+      "id": "1ev7xm3w3445c",
+      "title": "孟子",
+      "relation": "commentary_on"
+    }
+  ]
 }

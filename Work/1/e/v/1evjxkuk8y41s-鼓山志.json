@@ -18,6 +18,20 @@
       "edition": "北京圖書館藏清初刻本",
       "volume": "第235冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《鼓山志》•十二卷",
+      "author_info": "國朝僧元賢撰",
+      "summary": "國朝僧元賢撰。其序不標年月，書中記事至順治壬辰、癸巳，則國初人也。鼓山在福州城東三十裏。是書分《勝跡》、《建置》、《開士》、《貞瑉》、《藝文》、《叢談》六門。大旨以佛刹為主，名為山志，實則寺志耳。其凡例有雲，茲山知名海內者，實以人重，非以形勝重也。緇徒妄自標置，可謂不知分量者矣。",
+      "edition": "兩淮鹽政采進本"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "鼓山志",
+      "summary": "鼓山志十二卷。僧元賢撰。"
     }
   ],
   "description": {
@@ -37,5 +51,56 @@
     }
   ],
   "measure_info": "十二卷",
-  "id": "1evjxkuk8y41s"
+  "id": "1evjxkuk8y41s",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=473273",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-1",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=8079627",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-qianlongsanshisankan",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY0406",
+      "metadata": {
+        "edition": "乾隆三十三年刊光绪二年补刊本",
+        "version": "v5",
+        "total_page": 1024,
+        "paragraph_count": 2660,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02052303",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v4",
+        "total_page": 552,
+        "paragraph_count": 2113,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

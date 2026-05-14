@@ -2,7 +2,13 @@
   "id": "1ev3c1fmi0k5c",
   "type": "work",
   "title": "三國志辨誤",
-  "authors": [],
+  "authors": [
+    {
+      "name": "不著撰人",
+      "role": "撰",
+      "dynasty": "宋"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -13,14 +19,15 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "三國志辨誤",
       "summary": "《三國志辨誤》一卷。{{宋人闕名。聚珍本，福本，《守山閣》本，《金壺》本。陳景雲《三國志舉正》四卷、錢大昭《三國志辨疑》三卷，未刊。}}",
       "author_info": "人闕名"
     }
   ],
   "books": [
-    "11q37oyzi77k0"
+    "11q37oyzi77k0",
+    "11qkhvzn3spvk"
   ],
   "juan_count": {
     "number": 3
@@ -51,5 +58,19 @@
       "number": 3
     }
   ],
-  "measure_info": "三卷"
+  "measure_info": "三卷",
+  "ai_note": "作者「宋不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkq21ux7ojk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿024881）。阶段 5 兜底建立。",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿024881）。清乾隆四十六年武英殿聚珍本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "1ev3c1fleonpc",
+      "title": "三國志",
+      "relation": "commentary_on"
+    }
+  ]
 }

@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "舊唐書二百卷校勘記六十六卷逸文十二卷",
+  "title": "舊唐書二百卷校勘記六十六卷逸文",
   "authors": [
     {
       "name": "劉昫",
       "role": "等奉敕撰",
-      "dynasty": "後晉"
+      "dynasty": "後晉",
+      "entity_id": "1j96hlhu2zf28"
     }
   ],
   "description": {
@@ -22,8 +23,19 @@
     {
       "unit": "冊",
       "number": 80
+    },
+    {
+      "unit": "卷",
+      "number": 12
     }
   ],
   "measure_info": "八十冊",
-  "id": "1evkans7v4y68"
+  "id": "1evkans7v4y68",
+  "related_works": [
+    {
+      "id": "1ev3bab32ornk",
+      "title": "舊唐書",
+      "relation": "commentary_on"
+    }
+  ]
 }

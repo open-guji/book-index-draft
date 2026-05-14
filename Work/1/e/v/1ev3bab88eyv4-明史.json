@@ -8,6 +8,12 @@
       "role": "撰",
       "dynasty": "清",
       "entity_id": "1j96kflcoqww0"
+    },
+    {
+      "name": "敕撰",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j96kfkx86scg"
     }
   ],
   "indexed_by": [
@@ -23,26 +29,33 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "明史",
       "summary": "《明史》三百三十六卷。{{武英殿附《考證》本，江寧、蘇州、揚州、杭州、武昌五書局合刻本，新會陳氏覆刻殿本。明南、北監本《廿一史》，斷自元止，無《舊唐》《舊五代》。北監合刻，南監乃新舊版輳集而成，或別刻，或覆刻。毛氏汲古閣本《十七史》，至《新五代》止，亦無《舊唐》《舊五代》。席氏掃葉山房本，與毛本同，增《舊唐》《舊五代》。北監本、掃葉本、陳本、坊翻毛本有脫誤。}}"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《明史》三百三十二卷",
-      "author_info": "清張廷玉等奉敕撰",
-      "summary": "《明史》三百三十二卷。清張廷玉等奉敕撰。清光緒三年湖北崇文書局刊本。",
-      "edition": "清光緒三年湖北崇文書局刊本",
-      "volume": "贈善002907-002986",
-      "section": "史部/正史類"
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "明史",
+      "summary": "明史三百三十六卷。康熙十八年敕撰，乾隆四年書成表進。"
     }
   ],
   "books": [
     "11q37p3b24kqo",
     "11q6e091tyi2o",
     "11q6q7vbfdtds",
-    "11q7m1s3tf8cg"
+    "11q7m1s3tf8cg",
+    "11qkhsfzdsr28",
+    "11qkhw0bw86ww",
+    "11qkhyc9v4wlc",
+    "11qkhzoemp7nk",
+    "11qkhzog00phc",
+    "11qki2eb28vsw",
+    "11qki2op23u2o",
+    "11qki30rhblz4",
+    "11qki3701xz40",
+    "11qki3n20rfuo",
+    "11qki3n3ky5mo"
   ],
   "juan_count": {
     "number": 336
@@ -135,20 +148,6 @@
         "text",
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAwMjkwNy0wMDI5ODYifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善002907-002986",
-        "acckey": "e755706fc0f5e46805794e06dc2d430b",
-        "edition": "清光緒三年湖北崇文書局刊本"
-      }
     }
   ],
   "has_text": true,
@@ -158,13 +157,23 @@
       "id": "1ev88ee9jw6ps",
       "title": "明史·藝文志",
       "relation": "has_part"
+    },
+    {
+      "id": "1ahsskfowdfr4",
+      "title": "二十四史",
+      "relation": "collected_in"
     }
   ],
   "measures": [
     {
       "unit": "卷",
       "number": 336
+    },
+    {
+      "unit": "卷",
+      "number": 16
     }
   ],
-  "measure_info": "三百三十六卷"
+  "measure_info": "三百三十六卷",
+  "ai_note": "從 31hyr4yqz8q7l 合併。原註：短書名（2字），可能存在同名異書。 來源：清史稿藝文志史部正史類 | juan_count 冲突: src=16 tgt=336（取较大者）"
 }

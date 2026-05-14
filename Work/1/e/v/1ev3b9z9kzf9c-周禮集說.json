@@ -6,7 +6,8 @@
     {
       "name": "俞庭椿",
       "role": "編",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "entity_id": "1j967avzk3ltj"
     }
   ],
   "indexed_by": [
@@ -19,18 +20,16 @@
       "edition": "編修汪如藻家藏本"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《周禮集說》十一卷綱領一卷復古編一卷",
-      "author_info": "宋俞庭椿編",
-      "summary": "《周禮集說》十一卷綱領一卷復古編一卷。宋俞庭椿編。明成化間刊本。",
-      "edition": "明成化間刊本",
-      "volume": "故善009911-009930",
-      "section": "經部/禮類/周禮之屬"
+      "source": "補遼金元藝文志",
+      "source_bid": "1eve1ek5qq9kw",
+      "title_info": "周禮集說十二卷",
+      "author_info": "失名，內《地官》末卷亡，明關中劉儲秀補注。以上《周禮》",
+      "summary": "元周禮集說十二卷（失名，內《地官》末卷亡，明關中劉儲秀補注。以上《周禮》）"
     }
   ],
   "books": [
-    "11q37o5zf9lhc"
+    "11q37o5zf9lhc",
+    "11qkhv4xruqkg"
   ],
   "juan_count": {
     "number": 10
@@ -99,20 +98,6 @@
       "types": [
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NTU4NDAwOTkxMS0wMDk5MzAifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "故善009911-009930",
-        "acckey": "e1fd307f8313a837d0166d873b9f58e2",
-        "edition": "明成化間刊本"
-      }
     }
   ],
   "has_text": true,
@@ -124,5 +109,18 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "作者 \"宋俞庭椿編\" 補自《國立故宮博物院善本舊籍》目錄。"
+  "ai_note": "作者 \"宋俞庭椿編\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evga0n44eqdc 合併。原註：補遼金元藝文志失名 作者「宋俞庭椿編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaas3r87wg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "description": {
+    "text": "失名，內《地官》末卷亡，明關中劉儲秀補注。以上《周禮》",
+    "sources": [
+      "補遼金元藝文志"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "1evl7nl7lsg00",
+      "title": "周禮",
+      "relation": "commentary_on"
+    }
+  ]
 }

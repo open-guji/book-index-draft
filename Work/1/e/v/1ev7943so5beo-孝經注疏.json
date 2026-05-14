@@ -7,7 +7,7 @@
       "name": "唐玄宗",
       "dynasty": "唐",
       "role": "御注",
-      "entity_id": "1j96ha6mjidq8"
+      "entity_id": "1j9678njjrbce"
     },
     {
       "name": "邢昺",
@@ -21,7 +21,13 @@
     "sources": []
   },
   "books": [
-    "11q6silgp5xc0"
+    "11q6silgp5xc0",
+    "11qk4xwcuqyw3",
+    "11qkh5vq84e80",
+    "11qkhvtksjoxs",
+    "11qkhya0nk8w0",
+    "11qki0h6gs54w",
+    "11qki0hk85r7k"
   ],
   "resources": [
     {
@@ -79,20 +85,6 @@
       "types": [
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAwMDEyNCJ9XSwgInBxZmlsdGVyIjogW10sICJ0cGZpbHRlciI6IHt9fQ%3D%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善000124",
-        "acckey": "c528797e547733d83843fdfd01587ead",
-        "edition": "明崇禎二年海虞毛氏汲古閣刊十三經注疏本"
-      }
     }
   ],
   "has_text": true,
@@ -100,20 +92,28 @@
   "indexed_by": [
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "孝經注疏",
       "summary": "《孝經注疏》九卷，唐元宗御注、宋邢昺疏。",
       "author_info": "唐元宗御注、宋邢昺疏"
+    }
+  ],
+  "ai_note": "從 1evjy5zl7c8hs 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evkadi9rdvr4 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "commentary_on"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《孝經注疏》九卷",
-      "author_info": "唐唐玄宗注",
-      "summary": "《孝經注疏》九卷。唐唐玄宗注。明崇禎二年海虞毛氏汲古閣刊十三經注疏本。",
-      "edition": "明崇禎二年海虞毛氏汲古閣刊十三經注疏本",
-      "volume": "贈善000124",
-      "section": "經部/孝經類"
+      "id": "1ahwtau87mm80",
+      "title": "十三經",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1ahwtau9gw0zk",
+      "title": "十三經注疏",
+      "relation": "collected_in"
     }
   ]
 }

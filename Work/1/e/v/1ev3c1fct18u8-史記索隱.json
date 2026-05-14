@@ -2,7 +2,13 @@
   "id": "1ev3c1fct18u8",
   "type": "work",
   "title": "史記索隱",
-  "authors": [],
+  "authors": [
+    {
+      "name": "司馬貞",
+      "role": "撰",
+      "dynasty": "唐"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -32,13 +38,19 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "史記索隱",
       "summary": "單行本《史記索隱》三十卷。{{汲古閣本，掃葉山房本。}}"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "史記索隱"
     }
   ],
   "books": [
-    "11q37oxx1tqf4"
+    "11q37oxx1tqf4",
+    "11qkhvzdlomio"
   ],
   "juan_count": {
     "number": 30
@@ -134,5 +146,13 @@
       "number": 30
     }
   ],
-  "measure_info": "三十卷"
+  "measure_info": "三十卷",
+  "ai_note": "作者「唐司馬貞撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "related_works": [
+    {
+      "id": "1eujfe7s94veo",
+      "title": "史記",
+      "relation": "commentary_on"
+    }
+  ]
 }

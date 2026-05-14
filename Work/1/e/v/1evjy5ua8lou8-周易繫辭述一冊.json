@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "周易繫辭述 一冊",
+  "title": "周易繫辭述",
   "authors": [
     {
       "name": "保八",
       "role": "撰",
-      "dynasty": "元"
+      "dynasty": "元",
+      "entity_id": "1j967afjb6afo"
     }
   ],
   "description": {
@@ -18,5 +19,19 @@
   "id": "1evjy5ua8lou8",
   "books": [
     "11qk4xwcu4htm"
+  ],
+  "measures": [
+    {
+      "unit": "冊",
+      "number": 1
+    }
+  ],
+  "measure_info": "一冊",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "commentary_on"
+    }
   ]
 }

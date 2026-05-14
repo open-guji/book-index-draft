@@ -5,7 +5,8 @@
     {
       "name": "馬國翰",
       "role": "輯",
-      "dynasty": "清"
+      "dynasty": "清",
+      "entity_id": "1j967a0kjkphn"
     }
   ],
   "indexed_by": [
@@ -18,16 +19,6 @@
       "edition": "影印清光緒九年嫏嬛館刻本",
       "volume": "第1202冊",
       "section": "子部 雑家類"
-    },
-    {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《玉函山房輯佚書》附目耕帖三十一卷",
-      "author_info": "清馬國翰輯",
-      "summary": "《玉函山房輯佚書》附目耕帖三十一卷。清馬國翰輯。清光緒九年長沙嬛館刻本。",
-      "edition": "清光緒九年長沙嬛館刻本",
-      "volume": "贈善028502-028601",
-      "section": "叢書部/彙編之屬"
     },
     {
       "source": "續修四庫全書",
@@ -78,6 +69,12 @@
       "edition": "影印清光緒九年嫏嬛館刻本",
       "volume": "第1200冊",
       "section": "子部 雑家類"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《玉函山房輯佚書》",
+      "summary": "經編三百五十二種。馬國翰輯。濟南新刻本。經史子集四編皆刊行，此編皆周秦至唐經說經注。"
     }
   ],
   "description": {
@@ -86,7 +83,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evincgqhhs00();1evincisz5ips()。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evincgqhhs00();1evincisz5ips()。 | 從 1evincgqhhs00 合併。原註：作者「清馬國翰輯」補自《國立故宮博物院善本舊籍》目錄。",
   "juan_count": {
     "number": 739
   },
@@ -110,20 +107,6 @@
       "types": [
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAyODUwMi0wMjg2MDEifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善028502-028601",
-        "acckey": "881578df8c07fa397545d0a76711d389",
-        "edition": "清光緒九年長沙嬛館刻本"
-      }
     },
     {
       "id": "wikimedia-commons-xuxiu",
@@ -185,5 +168,8 @@
         "image"
       ]
     }
+  ],
+  "books": [
+    "11qkhtz4v7qio"
   ]
 }

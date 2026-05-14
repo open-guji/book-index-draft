@@ -18,6 +18,14 @@
       "edition": "遼寧省圖書館藏清康煕十二年刻本",
       "volume": "第155冊",
       "section": "子部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "1eujf2fs4v280",
+      "title_info": "《擇執錄》·十二卷",
+      "author_info": "國朝王家啟撰",
+      "summary": "國朝王家啟撰。家啟字誠庵，蔚縣人。順治辛卯舉人，官廣東新會縣知縣。是書雜采嘉言善事，分三十四門。蓋鄉閭勸善之書，趙善璙《自警編》之類也。以擇執為名，過其實矣。",
+      "edition": "直隸總督采進本"
     }
   ],
   "description": {
@@ -37,5 +45,31 @@
     }
   ],
   "measure_info": "十二卷",
-  "id": "1evjxm9tgr400"
+  "id": "1evjxm9tgr400",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=1699983",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-kangxishierkeben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02058020",
+      "metadata": {
+        "edition": "康熙十二年刻本",
+        "version": "v2",
+        "total_page": 1003,
+        "paragraph_count": 9157,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ]
 }

@@ -5,7 +5,8 @@
     {
       "name": "張之洞",
       "role": "撰",
-      "dynasty": "清"
+      "dynasty": "清",
+      "entity_id": "1j967a0kk76mx"
     }
   ],
   "indexed_by": [
@@ -20,14 +21,16 @@
       "section": "子部 儒家類"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《勸學篇》二卷",
-      "author_info": "清張之洞撰",
-      "summary": "《勸學篇》二卷。清張之洞撰。清光緒二十四年湖北黃州河東書院刊本。",
-      "edition": "清光緒二十四年湖北黃州河東書院刊本",
-      "volume": "贈善035399-035400",
-      "section": "子部/儒家類/禮教之屬/勸學"
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《勸學篇》一卷",
+      "summary": "《勸學篇》一卷蔡邕撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又勸學篇",
+      "summary": "又勸學篇一卷"
     }
   ],
   "description": {
@@ -36,7 +39,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcpcv9un30g();1evcs0afovuo0();31hyr4yqz8q76(蔡邕)。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcpcv9un30g();1evcs0afovuo0();31hyr4yqz8q76(蔡邕)。 | 從 1evcpcv9un30g 合併。原註：作者「清張之洞撰」補自《國立故宮博物院善本舊籍》目錄。",
   "juan_count": {
     "number": 2
   },
@@ -60,20 +63,9 @@
       "types": [
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAzNTM5OS0wMzU0MDAifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善035399-035400",
-        "acckey": "d31b9b2485954e708d68751d8de38526",
-        "edition": "清光緒二十四年湖北黃州河東書院刊本"
-      }
     }
+  ],
+  "books": [
+    "11qkhu5gmpfk0"
   ]
 }

@@ -4,10 +4,14 @@
   "title": "新唐書",
   "authors": [
     {
-      "name": "歐陽修、宋祁等奉敕",
+      "name": "歐陽修",
       "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j96kfl9m8wlc"
+      "dynasty": "宋"
+    },
+    {
+      "name": "宋祁",
+      "role": "撰",
+      "dynasty": "宋"
     }
   ],
   "indexed_by": [
@@ -34,27 +38,23 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "新唐書",
       "summary": "《新唐書》二百二十五卷。{{明南監本附宋董沖《釋音》二十五卷。}}",
       "author_info": "南監本附宋董沖《釋音》二十五卷"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《新唐書》二百二十五卷",
-      "author_info": "宋歐陽修等撰",
-      "summary": "《新唐書》二百二十五卷。宋歐陽修等撰。清同治十二年浙江書局校刊本。",
-      "edition": "清同治十二年浙江書局校刊本",
-      "volume": "贈善002671-002710",
-      "section": "史部/正史類"
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "新唐書"
     }
   ],
   "books": [
     "11q37p11ebksg",
     "11q6e091guj9c",
     "11q6q7va9v94w",
-    "11q7m1s2iwveo"
+    "11q7m1s2iwveo",
+    "11qkhsfpxvbi8"
   ],
   "juan_count": {
     "number": 225
@@ -116,20 +116,6 @@
         "text",
         "image"
       ]
-    },
-    {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1OGQwOFx1NTU4NDAwMjY3MS0wMDI3MTAifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
-      "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "贈善002671-002710",
-        "acckey": "a811bdfeb00b41364a694a9de96c4058",
-        "edition": "清同治十二年浙江書局校刊本"
-      }
     }
   ],
   "has_text": true,
@@ -140,5 +126,12 @@
       "number": 225
     }
   ],
-  "measure_info": "二百二十五卷"
+  "measure_info": "二百二十五卷",
+  "related_works": [
+    {
+      "id": "1ahsskfowdfr4",
+      "title": "二十四史",
+      "relation": "collected_in"
+    }
+  ]
 }

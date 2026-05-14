@@ -4,10 +4,14 @@
   "title": "論語筆解",
   "authors": [
     {
-      "name": "韓愈、李翱同",
+      "name": "韓愈",
       "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96hekaz9log"
+      "dynasty": "唐"
+    },
+    {
+      "name": "李翱",
+      "role": "注",
+      "dynasty": "唐"
     }
   ],
   "indexed_by": [
@@ -25,10 +29,17 @@
       "title_info": "《論語筆解》十卷",
       "summary": "《論語筆解》十卷（韓愈）",
       "author_info": "韓愈"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "論語筆解"
     }
   ],
   "books": [
-    "11q37om8mez9c"
+    "11q37om8mez9c",
+    "11qkhvurbbgu8",
+    "11qki0rpimg3k"
   ],
   "juan_count": {
     "number": 2
@@ -115,5 +126,12 @@
       "number": 2
     }
   ],
-  "measure_info": "二卷"
+  "measure_info": "二卷",
+  "related_works": [
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "commentary_on"
+    }
+  ]
 }

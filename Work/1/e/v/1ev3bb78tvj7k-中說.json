@@ -33,15 +33,36 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "中說",
       "summary": "《中說》十卷。{{舊題隋王通。宋阮逸注。《世德堂》本。即《文中子》。}}",
       "author_info": "舊題隋王通"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《中說》一卷",
+      "summary": "《中說》一卷（陳壇）",
+      "author_info": "陳壇"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "中説十卷",
+      "summary": "中説十卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "中說"
     }
   ],
   "books": [
     "11q37qfi0z5s0",
-    "11q7m1se22hvk"
+    "11q7m1se22hvk",
+    "11qkhwes8ihhc",
+    "11qkhye203aps",
+    "11qki74a1e03k"
   ],
   "juan_count": {
     "number": 10
@@ -110,6 +131,22 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%AD%E8%AA%AA",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/zhongshuo01wang",
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -120,5 +157,12 @@
       "number": 10
     }
   ],
-  "measure_info": "十卷"
+  "measure_info": "十卷",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "從 1evgpn0z53rwg 合併。原註：missing_reason: 作者冲突 work=王通 vs anno=陳壇 作者「隋王通撰」補自《國立故宮博物院善本舊籍》目錄。"
 }

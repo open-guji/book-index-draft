@@ -6,7 +6,8 @@
     {
       "name": "熊方",
       "role": "撰",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "entity_id": "1j969lr2spj5c"
     }
   ],
   "indexed_by": [
@@ -19,14 +20,16 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "補後漢書年表",
       "summary": "《補後漢書年表》十卷。{{宋熊方。盧校鮑刻本。}}",
       "author_info": "熊方"
     }
   ],
   "books": [
-    "11q37oyraa8lc"
+    "11q37oyraa8lc",
+    "11qkhvzjsk2dc",
+    "11qki377p9a80"
   ],
   "juan_count": {
     "number": 10
@@ -66,5 +69,17 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "作者 \"宋熊方撰\" 補自《國立故宮博物院善本舊籍》目錄。"
+  "ai_note": "作者 \"宋熊方撰\" 補自《國立故宮博物院善本舊籍》目錄。",
+  "related_works": [
+    {
+      "id": "1euidlec1g8ow",
+      "title": "漢書",
+      "relation": "commentary_on"
+    },
+    {
+      "id": "1ev3c1fi6kdmo",
+      "title": "後漢書",
+      "relation": "commentary_on"
+    }
+  ]
 }

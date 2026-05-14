@@ -2,7 +2,14 @@
   "id": "1ev3baraigz5s",
   "type": "work",
   "title": "湖廣通志",
-  "authors": [],
+  "authors": [
+    {
+      "name": "夏力恕",
+      "role": "纂",
+      "dynasty": "清",
+      "entity_id": "1j967avzl1bg4"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -69,12 +76,18 @@
   ],
   "has_text": true,
   "has_image": true,
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'魏裳'）。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'魏裳'）。 作者「清夏力恕纂」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke2j0jy874 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3baraigz5s()（不同作者，故新建獨立 Work）。",
   "measures": [
     {
       "unit": "卷",
       "number": 120
     }
   ],
-  "measure_info": "一百二十卷"
+  "measure_info": "一百二十卷",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善020876-020923）。清雍正十一年刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

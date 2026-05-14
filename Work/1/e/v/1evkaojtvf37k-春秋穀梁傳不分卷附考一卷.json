@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "春秋穀梁傳不分卷附考一卷",
+  "title": "春秋穀梁傳不分卷附考",
   "authors": [
     {
       "name": "范寧",
       "role": "集解",
-      "dynasty": "晉"
+      "dynasty": "晉",
+      "entity_id": "1j96hl40qih34"
     }
   ],
   "description": {
@@ -22,8 +23,19 @@
     {
       "unit": "冊",
       "number": 4
+    },
+    {
+      "unit": "卷",
+      "number": 1
     }
   ],
   "measure_info": "四冊",
-  "id": "1evkaojtvf37k"
+  "id": "1evkaojtvf37k",
+  "related_works": [
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "commentary_on"
+    }
+  ]
 }

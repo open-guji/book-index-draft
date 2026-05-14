@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "禮記十卷卷首一卷",
+  "title": "禮記十卷卷首",
   "authors": [
     {
       "name": "鄭玄",
       "role": "注",
-      "dynasty": "漢"
+      "dynasty": "漢",
+      "entity_id": "1j9678njjg2rr"
     }
   ],
   "description": {
@@ -22,8 +23,19 @@
     {
       "unit": "冊",
       "number": 10
+    },
+    {
+      "unit": "卷",
+      "number": 1
     }
   ],
   "measure_info": "十冊",
-  "id": "1evkaojqgfl6o"
+  "id": "1evkaojqgfl6o",
+  "related_works": [
+    {
+      "id": "1evl7nlb2nda8",
+      "title": "禮記",
+      "relation": "commentary_on"
+    }
+  ]
 }

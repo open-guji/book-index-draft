@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "大學章句一卷大學或問一卷中庸章句一卷中庸或問一卷論語集注十卷孟子集注十四卷",
+  "title": "大學章句一卷大學或問一卷中庸章句一卷中庸或問一卷論語集注十卷孟子集注",
   "authors": [
     {
       "name": "朱熹",
       "role": "撰",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "entity_id": "1j967cp1zdr19"
     }
   ],
   "description": {
@@ -22,8 +23,27 @@
     {
       "unit": "冊",
       "number": 28
+    },
+    {
+      "unit": "卷",
+      "number": 14
     }
   ],
   "measure_info": "二十八冊",
-  "id": "1evkad6wnn20w"
+  "id": "1evkad6wnn20w",
+  "books": [
+    "11qki2hwvpwqo"
+  ],
+  "related_works": [
+    {
+      "id": "1ev7xm3w3445c",
+      "title": "孟子",
+      "relation": "commentary_on"
+    },
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "commentary_on"
+    }
+  ]
 }

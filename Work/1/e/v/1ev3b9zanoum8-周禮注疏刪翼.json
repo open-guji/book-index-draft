@@ -20,18 +20,15 @@
       "edition": "直隸總督采進本"
     },
     {
-      "source": "國立故宮博物院善本舊籍",
-      "source_bid": "1evk9kam6x0xs",
-      "title_info": "《周禮注疏刪翼》三十卷",
-      "author_info": "明王志長撰",
-      "summary": "《周禮注疏刪翼》三十卷。明王志長撰。清乾隆間寫文淵閣四庫全書本。",
-      "edition": "清乾隆間寫文淵閣四庫全書本",
-      "volume": "故庫002128-002149",
-      "section": "經部/禮類/周禮之屬"
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "王志長《周禮註疏刪翼》三十卷",
+      "summary": "王志長《周禮註疏刪翼》三十卷"
     }
   ],
   "books": [
-    "11q37o682h728"
+    "11q37o682h728",
+    "11qkhvodoeigw"
   ],
   "juan_count": {
     "number": 30
@@ -70,18 +67,12 @@
       ]
     },
     {
-      "id": "npm-rarebooks",
-      "name": "國立故宮博物院善本古籍",
-      "short_name": "故宮善本",
-      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAwMjEyOC0wMDIxNDkifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06050201.cn",
       "types": [
-        "physical"
-      ],
-      "metadata": {
-        "item_id": "故庫002128-002149",
-        "acckey": "ab8de0aaa16e86ed674f82ce2385e603",
-        "edition": "清乾隆間寫文淵閣四庫全書本"
-      }
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -92,5 +83,18 @@
       "number": 30
     }
   ],
-  "measure_info": "三十卷"
+  "measure_info": "三十卷",
+  "description": {
+    "text": "明代經部禮類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "1evl7nl7lsg00",
+      "title": "周禮",
+      "relation": "commentary_on"
+    }
+  ]
 }

@@ -1,9 +1,19 @@
 {
   "type": "work",
-  "title": "附釋音毛詩注疏 十六冊",
+  "title": "附釋音毛詩注疏",
   "authors": [
     {
-      "name": "毛萇,鄭玄,唐孔穎達",
+      "name": "毛萇",
+      "role": "撰",
+      "dynasty": "漢"
+    },
+    {
+      "name": "鄭玄",
+      "role": "撰",
+      "dynasty": "漢"
+    },
+    {
+      "name": "唐孔穎達",
       "role": "撰",
       "dynasty": "漢"
     }
@@ -18,5 +28,19 @@
   "id": "1evjy5vpin5ds",
   "books": [
     "11qk4xwcufqbs"
+  ],
+  "measures": [
+    {
+      "unit": "冊",
+      "number": 16
+    }
+  ],
+  "measure_info": "十六冊",
+  "related_works": [
+    {
+      "id": "1evl7hsxvr7cw",
+      "title": "詩經",
+      "relation": "commentary_on"
+    }
   ]
 }

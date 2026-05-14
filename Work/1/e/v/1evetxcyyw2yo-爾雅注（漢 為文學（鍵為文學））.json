@@ -4,9 +4,9 @@
   "title": "爾雅注",
   "authors": [
     {
-      "name": "漢 為文學（鍵為文學）",
+      "name": "犍為文學",
       "role": "撰",
-      "entity_id": "1j96hf8fc7v28"
+      "dynasty": "漢"
     }
   ],
   "juan_count": {
@@ -20,12 +20,19 @@
       "title_info": "梁有漢 為文學（鍵為文學）《爾雅注》三卷，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有漢 為文學（鍵為文學）《爾雅注》三卷，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有漢 為文學（鍵為文學）《爾雅注》三卷，亡。，亡」。 | 修正 鍵→犍",
   "measures": [
     {
       "unit": "卷",
       "number": 3
     }
   ],
-  "measure_info": "三卷"
+  "measure_info": "三卷",
+  "related_works": [
+    {
+      "id": "1evkvljltyxvk",
+      "title": "爾雅",
+      "relation": "commentary_on"
+    }
+  ]
 }

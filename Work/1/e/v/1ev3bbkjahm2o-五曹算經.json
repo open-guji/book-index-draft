@@ -2,7 +2,14 @@
   "id": "1ev3bbkjahm2o",
   "type": "work",
   "title": "五曹算經",
-  "authors": [],
+  "authors": [
+    {
+      "name": "李淳風",
+      "role": "等注",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl6e33m"
+    }
+  ],
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -26,10 +33,32 @@
     },
     {
       "source": "書目答問",
-      "source_bid": "31hyr4yqu8xk9",
+      "source_bid": "1evr5e3m9zwpo",
       "title_info": "五曹算經",
       "summary": "《五曹算經》五卷。{{六朝人。北周甄鸞注。又聚珍本，福本，又《知不足齋》本。}}",
       "author_info": "六朝人"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又五曹算經",
+      "summary": "又五曹算經五卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "五曹算經五卷",
+      "summary": "五曹算經五卷"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《五曹算經》五卷",
+      "author_info": "唐李淳風等注",
+      "summary": "《五曹算經》五卷。唐李淳風等注。影印北京大學圖書館藏宋嘉定六年刻本。",
+      "edition": "影印北京大學圖書館藏宋嘉定六年刻本",
+      "volume": "第1041冊",
+      "section": "子部 天文算法類"
     }
   ],
   "books": [
@@ -72,6 +101,26 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E6%9B%B9%E7%AE%97%E7%B6%93",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1041%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 1041
+      },
+      "types": [
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -82,5 +131,12 @@
       "number": 5
     }
   ],
-  "measure_info": "五卷"
+  "measure_info": "五卷",
+  "ai_note": "作者「唐李淳風等注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjr4i1sylfk 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bbkjahm2o();1evcs0royvoqo();1evcs0rql92bk()。 | 從 1evke4tieup6o 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "description": {
+    "text": "本書收入《續修四庫全書》第1041冊（子部）。",
+    "sources": [
+      "續修四庫全書"
+    ]
+  }
 }
