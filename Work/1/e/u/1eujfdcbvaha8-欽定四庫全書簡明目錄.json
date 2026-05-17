@@ -3,7 +3,7 @@
   "type": "work",
   "title": "欽定四庫全書簡明目錄",
   "description": {
-    "text": "",
+    "text": "《欽定四庫全書簡明目錄》二十卷，紀昀等編，與《四庫全書總目》同時纂成。乾隆四十六年（1781）詔由總目提要中各條撮錄成簡短書錄，去除繁徵博引，保留作者、卷數、版本、內容主旨、評議等核心要素，便於檢索查考。簡明目錄與總目並行刊刻，殿本、福州本、廣州本、揚州本均有印行。",
     "sources": []
   },
   "authors": [
@@ -81,6 +81,36 @@
         "text",
         "image"
       ]
+    },
+    {
+      "id": "ia-jianming-mulu-juan1",
+      "name": "Internet Archive",
+      "short_name": "IA·簡明目錄",
+      "url": "https://archive.org/details/06064237.cn",
+      "details": "浙大掃描·欽定四庫全書·簡明目錄·卷一（全 20 卷拆 10 冊，編號連續）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ctext-jianming-mulu",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·全文",
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=733258",
+      "details": "欽定四庫全書簡明目錄全文（20 卷）",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-jianming-mulu-toc",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·分卷",
+      "url": "https://ctext.org/wiki.pl?if=en&res=1347940",
+      "details": "簡明目錄分卷目錄頁（卷一至卷二十）",
+      "types": [
+        "text"
+      ]
     }
   ],
   "juan_count": {
@@ -100,6 +130,16 @@
       "id": "1eujfduwzek8w",
       "title": "欽定四庫全書",
       "relation": "part_of"
+    },
+    {
+      "id": "1eujf2fs4v280",
+      "title": "欽定四庫全書總目",
+      "relation": "related_to"
+    },
+    {
+      "id": "1evr5e3m9zwnj",
+      "title": "四庫簡明目錄標註",
+      "relation": "studied_by"
     }
   ],
   "has_text": true,
@@ -112,5 +152,15 @@
       "title_info": "《四庫簡明目錄》",
       "summary": "二十卷。同上。翻閱較便，惟《四庫》歸《存目》者，《簡明目錄》無之，亦間有與《提要》不合者。坊刻通行本，又乾隆四十九年趙懷玉杭州刻本。仁和邵懿辰《四庫簡明目錄標注》二十卷，專記版本，《郘亭知見傳本書目》，多錄自此書，宣統三年邵氏家刻本。"
     }
-  ]
+  ],
+  "additional_titles": [
+    "四庫全書簡明目錄"
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷"
 }

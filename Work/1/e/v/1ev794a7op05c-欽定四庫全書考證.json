@@ -17,13 +17,15 @@
     },
     {
       "name": "紀昀",
-      "role": "總纂",
+      "role": "纂",
       "dynasty": "清",
       "entity_id": "1j967a0kjvy1g"
     }
   ],
   "books": [
-    "11q6si67ujcow"
+    "11q6si67ujcow",
+    "11qki2lunyfb4",
+    "11qki391py680"
   ],
   "resources": [
     {
@@ -57,6 +59,37 @@
         "text",
         "image"
       ]
+    },
+    {
+      "id": "ia-kaozheng-juan1",
+      "name": "Internet Archive",
+      "short_name": "IA·考證卷一",
+      "url": "https://archive.org/details/06057589.cn",
+      "details": "浙大掃描·欽定四庫全書考證·卷一（全 100 卷拆 66 冊，編號連續 06057589.cn 起）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-kaozheng-juan46",
+      "name": "Internet Archive",
+      "short_name": "IA·考證卷四六",
+      "url": "https://archive.org/details/06057620.cn",
+      "details": "卷四十六（同系列代表 item，便於跳轉檢索）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ctext-kaozheng",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·考證",
+      "url": "https://ctext.org/wiki.pl?if=en&res=1516251",
+      "details": "OCR 全文本（眾包修正中）+ 掃描影像對照",
+      "types": [
+        "text",
+        "image"
+      ]
     }
   ],
   "has_text": true,
@@ -80,6 +113,29 @@
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "四庫全書考證",
       "summary": "《四庫全書考證》一百卷。{{乾隆四十一年敕撰。聚珍本，福本。以下十種，皆校勘之學。}}"
+    }
+  ],
+  "additional_titles": [
+    "四庫全書考證",
+    "欽定四庫考證"
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷",
+  "related_works": [
+    {
+      "id": "1eujf2fs4v280",
+      "title": "欽定四庫全書總目",
+      "relation": "related_to"
+    },
+    {
+      "id": "1eujfduwzek8w",
+      "title": "欽定四庫全書",
+      "relation": "part_of"
     }
   ]
 }

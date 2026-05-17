@@ -74,6 +74,67 @@
         "text",
         "image"
       ]
+    },
+    {
+      "id": "ia-zongmu-juanshou",
+      "name": "Internet Archive",
+      "short_name": "IA·總目卷首",
+      "url": "https://archive.org/details/06061300.cn",
+      "details": "浙大掃描·欽定四庫全書本·卷首一~卷首四（全 200 卷以 06061300–06061498.cn 編號連續上傳，CADAL 600dpi）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zongmu-juan1",
+      "name": "Internet Archive",
+      "short_name": "IA·總目卷一",
+      "url": "https://archive.org/details/06061301.cn",
+      "details": "欽定四庫全書總目·卷一~卷三",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-siku-zongmutiyao-40ce",
+      "name": "Internet Archive",
+      "short_name": "IA·總目 40 冊",
+      "url": "https://archive.org/details/siku-zongmutiyao",
+      "details": "四庫全書總目提要 40 冊整套 PDF（1.9GB，現代影印整套）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-xuxiu-zongmu",
+      "name": "Internet Archive",
+      "short_name": "IA·續修總目",
+      "url": "https://archive.org/details/xuxiu-zongmu",
+      "details": "續修四庫全書總目提要掃描",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ctext-zongmu",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·總目",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=569524",
+      "details": "200 卷全文本 + 浙大掃描影像對照",
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "ctext-library-zongmu",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·影像庫",
+      "url": "https://ctext.org/library.pl?if=en&res=5932",
+      "details": "《欽定四庫全書》本《欽定四庫全書總目》204 卷影像（卷首四 + 卷 1-200，浙大 CADAL 源）",
+      "types": [
+        "image"
+      ]
     }
   ],
   "sources": [],
@@ -94,7 +155,8 @@
   "related_works": [
     {
       "id": "1ev484wzs46bk",
-      "title": "翁方綱纂四庫提要稿"
+      "title": "翁方綱纂四庫提要稿",
+      "relation": "derived_from"
     },
     {
       "id": "1ev4kgcthqo00",
@@ -110,6 +172,41 @@
       "id": "1eujfduwzek8w",
       "title": "欽定四庫全書",
       "relation": "part_of"
+    },
+    {
+      "id": "1eujfdcbvaha8",
+      "title": "欽定四庫全書簡明目錄",
+      "relation": "related_to"
+    },
+    {
+      "id": "1evjcgmrv9log",
+      "title": "四庫提要辨證",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evjr2uguu7sw",
+      "title": "四庫未收書提要",
+      "relation": "followed_by"
+    },
+    {
+      "id": "1evshbct5cc1s",
+      "title": "四庫全書總目提要補正",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evr5e3m9zwnj",
+      "title": "四庫簡明目錄標註",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evshbd9v5vcw",
+      "title": "四庫全書初次進呈存目",
+      "relation": "preceded_by"
+    },
+    {
+      "id": "1ev794a7op05c",
+      "title": "欽定四庫全書考證",
+      "relation": "related_to"
     }
   ],
   "juan_count": {
@@ -137,5 +234,10 @@
       "number": 200
     }
   ],
-  "measure_info": "二百卷"
+  "measure_info": "二百卷",
+  "additional_titles": [
+    "四庫全書總目提要",
+    "四庫提要",
+    "欽定四庫全書總目提要"
+  ]
 }

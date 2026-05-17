@@ -3,13 +3,13 @@
   "type": "work",
   "title": "欽定四庫全書",
   "description": {
-    "text": "",
+    "text": "《欽定四庫全書》，清乾隆三十八年至五十二年（1773-1787）四庫全書館編纂。清廷下詔徵集天下圖書，由紀昀（曉嵐）總領，戴震、姚鼐、邵晉涵、翁方綱、王太岳等纂修官分撰，陸錫熊、孫士毅副總纂。先後抄成七部，分藏北四閣（文淵閣、文源閣、文溯閣、文津閣）與南三閣（文匯閣、文宗閣、文瀾閣），另抄薈要二部供御覽。全書按經、史、子、集四部四十四類分次，著錄圖書 3461 部、79309 卷，為中國古代規模最大的官修叢書。",
     "sources": []
   },
   "authors": [
     {
       "name": "紀昀等",
-      "role": "編纂",
+      "role": "編",
       "entity_id": "1j96kfl2o7thc"
     }
   ],
@@ -33,6 +33,66 @@
       "types": [
         "text"
       ]
+    },
+    {
+      "id": "ia-siku-quanshu-huiyao",
+      "name": "Internet Archive",
+      "short_name": "IA·薈要",
+      "url": "https://archive.org/details/siku-quanshu-huiyao",
+      "details": "摛藻堂四庫全書薈要全套 407 冊 DJVU/PDF（御覽精選本，171.6GB），CADAL 浙大掃描",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-siku-quanshu-buyi",
+      "name": "Internet Archive",
+      "short_name": "IA·補遺",
+      "url": "https://archive.org/details/siku-quanshu-buyi",
+      "details": "文淵閣四庫全書補遺",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-xuxiu-siku-quanshu",
+      "name": "Internet Archive",
+      "short_name": "IA·續修",
+      "url": "https://archive.org/details/xuxiu-siku-quanshu",
+      "details": "續修四庫全書整套掃描（上海古籍 2002 影印本）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-siku-cunmu",
+      "name": "Internet Archive",
+      "short_name": "IA·存目",
+      "url": "https://archive.org/details/siku-cunmu",
+      "details": "四庫全書存目叢書掃描",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-qinding-siku",
+      "name": "Wikimedia Commons",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/Category:%E6%AC%BD%E5%AE%9A%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8",
+      "details": "228+ 散卷 PDF/DJVU（含文淵閣史部/子部、簡明目錄 20 卷、六藝之一錄等）",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikisource-jingyin-mulu",
+      "name": "维基文库",
+      "short_name": "維基文庫·書目",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%AF%E5%8D%B0%E6%96%87%E6%B8%8A%E9%96%A3%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9B%B8%E5%90%8D%E7%9B%AE%E9%8C%84",
+      "details": "景印文淵閣四庫全書 1500 冊書名目錄索引頁",
+      "types": [
+        "text"
+      ]
     }
   ],
   "juan_count": {
@@ -49,10 +109,61 @@
       "id": "1eujfdcbvaha8",
       "title": "欽定四庫全書簡明目錄",
       "relation": "has_part"
+    },
+    {
+      "id": "1ev794a7op05c",
+      "title": "欽定四庫全書考證",
+      "relation": "has_part"
+    },
+    {
+      "id": "1evkq2iwi0s8w",
+      "title": "欽定四庫全書分架圖",
+      "relation": "has_part"
+    },
+    {
+      "id": "1evjk1whvmznk",
+      "title": "續修四庫全書",
+      "relation": "followed_by"
+    },
+    {
+      "id": "1evjxczyavy80",
+      "title": "四庫全書存目叢書",
+      "relation": "followed_by"
+    },
+    {
+      "id": "1evshbcywao74",
+      "title": "四庫全書纂修研究",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evshbd4g2juo",
+      "title": "四庫全書纂修考",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evshbdf2rhts",
+      "title": "四庫採進書目",
+      "relation": "preceded_by"
     }
   ],
   "books": [
     "11qkhticpecqo"
   ],
-  "ai_note": "[merged from 1evkpuqvmv5s0 on 2026-05-17: 欽定四庫全書 主条目合并] 原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善025698-025703）。阶段 5 兜底建立。"
+  "ai_note": "[merged from 1evkpuqvmv5s0 on 2026-05-17: 欽定四庫全書 主条目合并] 原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善025698-025703）。阶段 5 兜底建立。",
+  "additional_titles": [
+    "四庫全書"
+  ],
+  "measures": [
+    {
+      "unit": "部",
+      "number": 3461
+    },
+    {
+      "unit": "卷",
+      "number": 79309
+    }
+  ],
+  "measure_info": "凡 3461 部、79309 卷，分裝七閣，又抄薈要二部",
+  "has_text": true,
+  "has_image": true
 }
