@@ -18,6 +18,37 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "id": "ia-zhejiang-cadal-wenyuan-zongmu",
+      "name": "Internet Archive · 浙大 CADAL",
+      "short_name": "IA·浙大散卷",
+      "url": "https://archive.org/details/06061300.cn",
+      "details": "浙大 CADAL 600dpi 掃描，文淵閣本總目 200 卷另卷首 4 卷拆 199 冊，按單冊上傳，編號連續",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}.cn",
+        "id_format": "8-digit zero-padded",
+        "start": 6061300,
+        "end": 6061498,
+        "step": 1,
+        "count": 199,
+        "label_pattern": "第 {idx} 冊",
+        "first_label": "第 1 冊（卷首一~卷首四）",
+        "last_label": "第 199 冊（卷二百止）"
+      }
+    },
+    {
+      "id": "ctext-library-zongmu",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·影像庫",
+      "url": "https://ctext.org/library.pl?if=en&res=5932",
+      "details": "204 卷影像（卷首四 + 卷 1-200，浙大 CADAL 源鏡像）",
+      "types": [
+        "image"
+      ]
     }
   ],
   "id": "11q419h7714ow",

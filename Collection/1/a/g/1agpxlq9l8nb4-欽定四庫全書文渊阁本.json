@@ -34,6 +34,47 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "id": "ia-siku-quanshu-buyi",
+      "name": "Internet Archive",
+      "short_name": "IA·文淵閣補遺",
+      "url": "https://archive.org/details/siku-quanshu-buyi",
+      "details": "文淵閣四庫全書補遺",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-wenyuange",
+      "name": "Wikimedia Commons",
+      "short_name": "維基共享·文淵閣",
+      "url": "https://commons.wikimedia.org/wiki/Category:Wenyuange_Siku_Quanshu",
+      "details": "Wenyuange_Siku_Quanshu 主分類 1488 個 DjVu 文件（經 236 / 史 450 / 子 367 / 集 435），浙大數位化、維基文庫專題搬運，覆蓋接近全套",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "wikisource-jingyin-mulu",
+      "name": "维基文库",
+      "short_name": "維基文庫·景印書目",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%AF%E5%8D%B0%E6%96%87%E6%B8%8A%E9%96%A3%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9B%B8%E5%90%8D%E7%9B%AE%E9%8C%84",
+      "details": "景印文淵閣四庫全書 1500 冊書名目錄索引頁",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-wenyuange-library",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText·文淵閣",
+      "url": "https://ctext.org/library.pl?if=en&collection=4",
+      "details": "CText「四庫全書」collection 入口，按部類瀏覽文淵閣本影像與全文",
+      "types": [
+        "text",
+        "image"
+      ]
     }
   ],
   "sources": [],
@@ -42,5 +83,97 @@
     "number": 0,
     "description": ""
   },
-  "ai_note": "待找具體影印件資源：(1) 臺灣商務印書館 1982-1986 景印文淵閣四庫全書 1500 冊精裝；(2) 迪志文化 1999 文淵閣四庫全書電子版（167 張 CD-ROM 原版）。已有 wikimedia commons 上的散冊掃描影像作為現存可訪問資源。"
+  "ai_note": "待找具體影印件資源：(1) 臺灣商務印書館 1982-1986 景印文淵閣四庫全書 1500 冊精裝；(2) 迪志文化 1999 文淵閣四庫全書電子版（167 張 CD-ROM 原版）。已有 wikimedia commons 上的散冊掃描影像作為現存可訪問資源。",
+  "contains": [
+    {
+      "type": "preface",
+      "title": "聖諭",
+      "scope": "卷首前置（乾隆聖諭原文）",
+      "book_id": "11q4dlw2lk1ds",
+      "position": "前置",
+      "note": "乾隆三十七年正月詔開四庫館之上諭"
+    },
+    {
+      "type": "preface",
+      "title": "進表",
+      "work_id": "1ev4kgcthqo00",
+      "scope": "1 卷",
+      "book_id": "11q4dlw45qr5s",
+      "position": "前置",
+      "note": "永瑢等進呈四庫全書表"
+    },
+    {
+      "type": "preface",
+      "title": "凡例",
+      "scope": "卷首前置",
+      "book_id": "11q4dlw5sfda8",
+      "position": "前置",
+      "note": "纂修體例說明"
+    },
+    {
+      "type": "preface",
+      "title": "門目",
+      "work_id": "1ev4kgcwqsnpc",
+      "scope": "1 卷",
+      "book_id": "11q4dlw7cauio",
+      "position": "前置",
+      "note": "經史子集四部四十四類門目表"
+    },
+    {
+      "type": "preface",
+      "title": "職名",
+      "scope": "卷首前置",
+      "position": "前置",
+      "note": "四庫館臣總裁/總纂/纂修/總校/分校等職名表，史料未獨立載入索引"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書總目",
+      "work_id": "1eujf2fs4v280",
+      "scope": "200 卷",
+      "book_id": "11q419h7714ow",
+      "position": "前置",
+      "note": "獨立繕本，與每書卷首「閣本提要」可資對照（三閣文字互有歧異）"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書簡明目錄",
+      "work_id": "d59dgruyj9j4",
+      "scope": "20 卷",
+      "book_id": "96maqpn6dc",
+      "position": "前置",
+      "note": "獨立繕本"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書考證",
+      "work_id": "d59dgrvmvrwg",
+      "scope": "100 卷",
+      "book_id": "11qsi95psf6yo",
+      "position": "前置",
+      "note": "獨立繕本"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書分架圖",
+      "work_id": "1evkq2iwi0s8w",
+      "scope": "4 卷（待考是否獨立繕入）",
+      "position": "前置",
+      "note": "按千字文編號分架（經 12 架 / 史 22 架 / 子 22 架 / 集 28 架，共 84 架）。學界對北四閣分架圖是否獨立繕入待考。"
+    },
+    {
+      "type": "main_corpus",
+      "title": "正書",
+      "scope": "3461 部、79309 卷",
+      "categorization": "按經、史、子、集四部四十四類分次",
+      "note": "正書主體"
+    },
+    {
+      "type": "per_book_tiyao",
+      "title": "每書「閣本提要」",
+      "related_work_id": "1eujf2fs4v280",
+      "scope": "每書卷首嵌入",
+      "note": "文字早於定本《總目》（屬「閣本提要」階段），文淵/文津/文溯三閣互有歧異。研究參吳格、廖申白《文淵、文溯、文津三閣書前提要文字比勘》。"
+    }
+  ]
 }

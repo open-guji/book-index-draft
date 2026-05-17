@@ -43,5 +43,57 @@
   "juan_count": {
     "number": 0,
     "description": "463種，20828卷，500冊（景印本）"
-  }
+  },
+  "contains": [
+    {
+      "type": "preface",
+      "title": "首冊",
+      "scope": "御製詩文 + 書名/作者索引",
+      "position": "前置"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書薈要總目",
+      "work_id": "1evkpxyb47474",
+      "scope": "薈要專屬總目",
+      "position": "前置",
+      "note": "薈要自有總目，不同於《四庫全書總目》"
+    },
+    {
+      "type": "subwork",
+      "title": "欽定四庫全書薈要分架圖",
+      "work_id": "1evkpy5121tds",
+      "scope": "薈要 463 種分架（規模小於四庫，自有方案）",
+      "position": "前置",
+      "note": "與四庫分架圖不同"
+    },
+    {
+      "type": "main_corpus",
+      "title": "正書",
+      "scope": "463 種（經 173 / 史 70 / 子 81 / 集 139）",
+      "categorization": "按經、史、子、集四部分次",
+      "note": "御覽精選，規模小於四庫全書。"
+    },
+    {
+      "type": "subwork",
+      "title": "考證",
+      "work_id": "d59dgrvmvrwg",
+      "scope": "附識冊末",
+      "position": "後置",
+      "note": "薈要本「考證」附識於冊末，非獨立繕本；與《四庫全書考證》100 卷不同"
+    },
+    {
+      "type": "per_book_tiyao",
+      "title": "每書「薈要本提要」",
+      "related_work_id": "1eujf2fs4v280",
+      "scope": "每書卷首嵌入",
+      "note": "薈要本提要早於閣本提要，文字異於四庫總目（屬「分纂稿」階段或更早）"
+    },
+    {
+      "type": "absent",
+      "title": "簡明目錄",
+      "scope": "薈要本不含",
+      "note": "薈要未獨立繕入《四庫全書簡明目錄》"
+    }
+  ]
 }
