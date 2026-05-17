@@ -86,6 +86,100 @@ Book 的 `indexed_by` 與 Work 的 `indexed_by` 同結構，記錄該具體版�
 - 與 `Entity.alt_names`（人物別名）平行設計，但 Work 級別僅存名稱字符串（無 type 區分）
 - UI 應在搜索時匹配 `title` + `additional_titles` 全集
 
+#### resources 的 group 字段（资源组）
+
+`resources[]` 默认是扁平列表，每条独立。当多个 resource 描述**同一份内容**的不同存储/下载位置时（如：一份 PDF 同时挂在天一生水 / IA / 百度网盘），用 `group` 把它们关联起来。
+
+**核心约定**：
+- **同一 `group` 值**：表示是**同一份内容**的不同存储位置（镜像）。点开任意一个，下载下来内容字节完全等价（或仅水印/格式细微差别）。
+- **不同 `group` 值**：表示是**不同变体**（如 人文社 1975 黑白本 vs 中華再造善本彩色本，或 完整本 vs 缺页本）。
+- **无 `group`**：独立 resource，与现行行为完全一致（如识典/CText 这些独立整理本文本）。
+
+**group_role**：
+- `origin`：原始来源（如天一生水原本就有）
+- `mirror`：我们做的备份镜像（如我们上传到 IA / 百度网盘）
+
+**group_label / group_description**（推荐方式）：写在 Book/Work 顶层的 `resource_groups` 字典里，避免每条 resource 重复：
+
+```json
+{
+  "resource_groups": {
+    "<group_key>": {
+      "label": "string (人类可读小标题，如「人民文学出版社 1975 年影印本」)",
+      "description": "string (optional, 一段说明文字。可解释这一组为何独立成组，或它与其他组的区别)"
+    }
+  }
+}
+```
+
+**向后兼容**：现有 resource 上的 `group_label` 字段仍读，但优先级低于 `Book.resource_groups[<gk>].label`。新数据写入 `resource_groups`；老数据按需迁移。
+
+**示例**（庚辰本含两组同源资源 + 一条独立文本）：
+
+```json
+{
+  "resource_groups": {
+    "renmin-1975-bw": {
+      "label": "人民文学出版社 1975 年影印本",
+      "description": "人文社 1975 年首次影印庚辰本，黑白底本，含徐星署购书时附补 64/67 两回（据己卯本）。"
+    },
+    "zhsy100476-color": {
+      "label": "中華再造善本 ZHSY100476 彩色高清",
+      "description": "中华再造善本明清编据北大藏底本彩色精印，附胡适民国廿二年题记。"
+    }
+  },
+  "resources": [
+    { "id": "shidianguji", "name": "识典古籍", "url": "...", "types": ["text"] },
+
+    { "id": "jiangyu-renmin1975", "group": "renmin-1975-bw", "group_role": "origin",
+      "name": "天一生水", "url": "https://dropbox.jiangyu.org/...", "types": ["image"] },
+    { "id": "ia-renmin1975", "group": "renmin-1975-bw", "group_role": "mirror",
+      "name": "Internet Archive", "url": "https://archive.org/...", "types": ["image"] },
+    { "id": "baidu-renmin1975", "group": "renmin-1975-bw", "group_role": "mirror",
+      "name": "百度网盘", "url": "https://pan.baidu.com/s/...", "types": ["image"],
+      "metadata": { "access_code": "abcd" } },
+
+    { "id": "wikimedia-zhsy100476", "group": "zhsy100476-color", "group_role": "origin",
+      "name": "Wikimedia Commons", "url": "...", "types": ["image"] }
+  ]
+}
+```
+
+**多群组同书示例**（己卯本：陶洙补抄本 vs 复原本）：
+
+```json
+{
+  "resource_groups": {
+    "taozhu-original": {
+      "label": "陶洙補抄本（國圖藏，灰度膠片）",
+      "description": "原稿入民國藏書家陶洙手後，添大量批註、補抄第 21-30 回闕葉等，現存國家圖書館。本組為國圖灰度膠片本，保留陶洙加工痕跡。"
+    },
+    "shanghai-1981-restored": {
+      "label": "上海古籍出版社 1981 年復原影印本",
+      "description": "上古社 1981 年影印時，盡可能剔除陶洙添加的批註與補抄痕跡，恢復清乾隆己卯（1759）抄本原貌。本組為現代學界引用最廣的版本。"
+    }
+  },
+  "resources": [
+    { "id": "shuge-jimao", "group": "taozhu-original", "group_role": "origin", ... },
+    { "id": "nlc-17522", "group": "taozhu-original", "group_role": "origin", ... },
+    { "id": "ia-taozhu-original", "group": "taozhu-original", "group_role": "mirror", ... },
+    { "id": "baidu-taozhu-original", "group": "taozhu-original", "group_role": "mirror", ... },
+
+    { "id": "jiangyu", "group": "shanghai-1981-restored", "group_role": "origin", ... },
+    { "id": "ia-shanghai-1981-restored", "group": "shanghai-1981-restored", "group_role": "mirror", ... },
+    { "id": "baidu-shanghai-1981-restored", "group": "shanghai-1981-restored", "group_role": "mirror", ... }
+  ]
+}
+```
+
+**UI 渲染逻辑**（前端实现指引）：
+1. 把 `resources` 按 `group` 分桶；无 group 的每条单独成桶
+2. 每桶头部：查 `Book.resource_groups[gk]`，渲染 `label`（小标题）+ `description`（小字说明）
+3. 桶内列出 resource：站点名 + URL + 提取码（若有），origin 加角标
+4. fallback：若 `Book.resource_groups` 未设，从组内某条 resource 读 `group_label`（兼容历史数据）
+
+**向后兼容**：所有不带 `group` 的现有 resource 保持原扁平展示。
+
 ### 2. Collection Schema
 Represents a collection or series that contains multiple books or other collections.
 
@@ -174,7 +268,16 @@ Represents a physical or specific digital edition/copy of a work.
         "root_type": "string (catalog | search, default: catalog)",
         "structure": ["string (level names, e.g. ['册', '卷'])"],
         "coverage": { "level": "integer", "ranges": "string (e.g. '2,3,5-8')" },
-        "details": "string (supplementary notes)"
+        "details": "string (supplementary notes)",
+        "group": "string (optional, 资源组 ID。同一 group 内的 resources 是同一份内容的不同存储位置/镜像)",
+        "group_label": "string (optional, 该组的人类可读描述，如「人民文学出版社1975 黑白影印」。在组内任一 resource 上写一次即可，推荐写在 group_role=origin 上)",
+        "group_role": "string (optional, origin | mirror。origin=原始来源；mirror=我们做的备份镜像)",
+        "metadata": {
+            "access_code": "string (optional, 网盘提取码)",
+            "edition": "string (optional, 版本说明)",
+            "color": "string (optional, color | bw)",
+            "completeness": "string (optional, complete | partial)"
+        }
       }
   ],
   "location_history": [] // type: Location
