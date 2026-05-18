@@ -1,0 +1,67 @@
+{
+  "id": "11q37oo7gz1ts",
+  "type": "book",
+  "title": "四書通證",
+  "work_id": "1ev3ba5i4zbb4",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 203
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第203冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0203冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06079411.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書通證」文淵閣本，共 3 冊，編號 06079411.cn~06079413.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 3,
+        "items": [
+          {
+            "id": "06079411.cn",
+            "label": "大學通證",
+            "imagecount": 55
+          },
+          {
+            "id": "06079412.cn",
+            "label": "~論語集註通證卷上~論語集註通證卷上",
+            "imagecount": 206
+          },
+          {
+            "id": "06079413.cn",
+            "label": "孟子集註通證卷上~孟子集註通證卷下",
+            "imagecount": 176
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本",
+  "attached_texts": [
+    {
+      "book_title": "_大學章句或問通證"
+    },
+    {
+      "book_title": "_論語集註通證"
+    },
+    {
+      "book_title": "_孟子集註通證"
+    },
+    {
+      "book_title": "_中庸章句或問通證"
+    }
+  ]
+}

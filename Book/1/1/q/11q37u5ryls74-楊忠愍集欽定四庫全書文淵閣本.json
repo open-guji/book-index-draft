@@ -1,0 +1,53 @@
+{
+  "id": "11q37u5ryls74",
+  "type": "book",
+  "title": "楊忠愍集",
+  "work_id": "1ev3d5qgokrgg",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 1278
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第1278冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_1278冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06042173.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「楊忠愍集」文淵閣本，共 3 冊，編號 06042173.cn~06042175.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 3,
+        "items": [
+          {
+            "id": "06042173.cn",
+            "label": "卷一~卷二",
+            "imagecount": 161
+          },
+          {
+            "id": "06042174.cn",
+            "label": "卷三",
+            "imagecount": 112
+          },
+          {
+            "id": "06042175.cn",
+            "label": "卷四",
+            "imagecount": 88
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

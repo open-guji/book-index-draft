@@ -1,0 +1,48 @@
+{
+  "id": "11q37tyyutgqo",
+  "type": "book",
+  "title": "蘭庭集",
+  "work_id": "1ev3bdbr2ajnk",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 1244
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第1244冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_1244冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06042328.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「蘭庭集」文淵閣本，共 2 冊，編號 06042328.cn~06042329.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 2,
+        "items": [
+          {
+            "id": "06042328.cn",
+            "label": "卷上",
+            "imagecount": 102
+          },
+          {
+            "id": "06042329.cn",
+            "label": "卷下",
+            "imagecount": 144
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

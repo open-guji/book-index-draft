@@ -1,0 +1,53 @@
+{
+  "id": "11q37qos7rm68",
+  "type": "book",
+  "title": "農桑輯要",
+  "work_id": "1ev3bbfhuhmv4",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 730
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第730冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0730冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06049864.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「農桑輯要」文淵閣本，共 3 冊，編號 06049864.cn~06049866.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 3,
+        "items": [
+          {
+            "id": "06049864.cn",
+            "label": "卷一~卷三",
+            "imagecount": 153
+          },
+          {
+            "id": "06049865.cn",
+            "label": "卷四~卷五",
+            "imagecount": 129
+          },
+          {
+            "id": "06049866.cn",
+            "label": "卷六~卷七",
+            "imagecount": 94
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

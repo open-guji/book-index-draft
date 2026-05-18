@@ -1,0 +1,53 @@
+{
+  "id": "11q37r8u7zaps",
+  "type": "book",
+  "title": "庚子銷夏記",
+  "work_id": "1ev3bbpivdkhs",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 826
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第826冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0826冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06067097.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「庚子銷夏記」文淵閣本，共 3 冊，編號 06067097.cn~06067099.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 3,
+        "items": [
+          {
+            "id": "06067097.cn",
+            "label": "卷一",
+            "imagecount": 54
+          },
+          {
+            "id": "06067098.cn",
+            "label": "卷二~卷四",
+            "imagecount": 151
+          },
+          {
+            "id": "06067099.cn",
+            "label": "卷五~卷八",
+            "imagecount": 192
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

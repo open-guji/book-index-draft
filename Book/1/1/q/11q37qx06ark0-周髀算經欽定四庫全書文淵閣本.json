@@ -1,0 +1,48 @@
+{
+  "id": "11q37qx06ark0",
+  "type": "book",
+  "title": "周髀算經",
+  "work_id": "1ev3bbk0kvhts",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 786
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第786冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0786冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06054846.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周髀算經」文淵閣本，共 2 冊，編號 06054846.cn~06054847.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 2,
+        "items": [
+          {
+            "id": "06054846.cn",
+            "label": "卷上之一~卷上之三",
+            "imagecount": 154
+          },
+          {
+            "id": "06054847.cn",
+            "label": "卷下之一~卷下之三",
+            "imagecount": 116
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

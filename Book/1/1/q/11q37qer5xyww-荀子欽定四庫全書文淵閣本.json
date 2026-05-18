@@ -1,0 +1,63 @@
+{
+  "id": "11q37qer5xyww",
+  "type": "book",
+  "title": "荀子",
+  "work_id": "1ev3bb72dbqio",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 695
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第695冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0695冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06051763.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「荀子」文淵閣本，共 5 冊，編號 06051763.cn~06051767.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 5,
+        "items": [
+          {
+            "id": "06051763.cn",
+            "label": "卷一~卷四",
+            "imagecount": 182
+          },
+          {
+            "id": "06051764.cn",
+            "label": "卷五~卷九",
+            "imagecount": 166
+          },
+          {
+            "id": "06051765.cn",
+            "label": "卷十~卷十三",
+            "imagecount": 167
+          },
+          {
+            "id": "06051766.cn",
+            "label": "卷十四~卷十八",
+            "imagecount": 145
+          },
+          {
+            "id": "06051767.cn",
+            "label": "卷十九~卷二十",
+            "imagecount": 99
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

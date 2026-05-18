@@ -1,0 +1,58 @@
+{
+  "id": "11q33j9y3gvsw",
+  "type": "book",
+  "title": "三易備遺",
+  "work_id": "1ev0r91de6ebk",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 20
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第20冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0020冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06062834.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「三易備遺」文淵閣本，共 4 冊，編號 06062834.cn~06062837.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 4,
+        "items": [
+          {
+            "id": "06062834.cn",
+            "label": "卷一~卷二",
+            "imagecount": 105
+          },
+          {
+            "id": "06062835.cn",
+            "label": "卷三~卷四",
+            "imagecount": 150
+          },
+          {
+            "id": "06062836.cn",
+            "label": "卷五~卷七",
+            "imagecount": 137
+          },
+          {
+            "id": "06062837.cn",
+            "label": "卷八~卷十",
+            "imagecount": 124
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

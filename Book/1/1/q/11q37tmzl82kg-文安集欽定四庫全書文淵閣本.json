@@ -1,0 +1,58 @@
+{
+  "id": "11q37tmzl82kg",
+  "type": "book",
+  "title": "文安集",
+  "work_id": "1evkpxpu0z2tc",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 1208
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第1208冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_1208冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06041440.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「文安集」文淵閣本，共 4 冊，編號 06041440.cn~06041443.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 4,
+        "items": [
+          {
+            "id": "06041440.cn",
+            "label": "卷一~卷三",
+            "imagecount": 144
+          },
+          {
+            "id": "06041441.cn",
+            "label": "卷四~卷八",
+            "imagecount": 160
+          },
+          {
+            "id": "06041442.cn",
+            "label": "卷九~卷十一",
+            "imagecount": 128
+          },
+          {
+            "id": "06041443.cn",
+            "label": "卷十二~卷十四",
+            "imagecount": 184
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

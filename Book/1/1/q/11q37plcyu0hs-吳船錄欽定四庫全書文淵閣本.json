@@ -1,0 +1,48 @@
+{
+  "id": "11q37plcyu0hs",
+  "type": "book",
+  "title": "吳船錄",
+  "work_id": "1ev3baj3da4u8",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 460
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第460冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0460冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06059566.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「吳船錄」文淵閣本，共 2 冊，編號 06059566.cn~06059567.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 2,
+        "items": [
+          {
+            "id": "06059566.cn",
+            "label": "卷上",
+            "imagecount": 56
+          },
+          {
+            "id": "06059567.cn",
+            "label": "卷下",
+            "imagecount": 53
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

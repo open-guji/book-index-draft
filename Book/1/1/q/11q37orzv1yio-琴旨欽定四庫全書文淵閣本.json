@@ -1,0 +1,48 @@
+{
+  "id": "11q37orzv1yio",
+  "type": "book",
+  "title": "琴旨",
+  "work_id": "1ev3ba87fwf7k",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 220
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第220冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0220冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06050569.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「琴旨」文淵閣本，共 2 冊，編號 06050569.cn~06050570.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 2,
+        "items": [
+          {
+            "id": "06050569.cn",
+            "label": "卷上",
+            "imagecount": 144
+          },
+          {
+            "id": "06050570.cn",
+            "label": "卷下",
+            "imagecount": 134
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

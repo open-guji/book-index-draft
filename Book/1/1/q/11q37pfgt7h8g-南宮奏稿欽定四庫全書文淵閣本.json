@@ -1,0 +1,53 @@
+{
+  "id": "11q37pfgt7h8g",
+  "type": "book",
+  "title": "南宮奏稿",
+  "work_id": "1ev3bagutfif4",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 429
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第429冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0429冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06058464.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「南宮奏稿」文淵閣本，共 3 冊，編號 06058464.cn~06058466.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 3,
+        "items": [
+          {
+            "id": "06058464.cn",
+            "label": "卷一",
+            "imagecount": 160
+          },
+          {
+            "id": "06058465.cn",
+            "label": "卷二~卷三",
+            "imagecount": 209
+          },
+          {
+            "id": "06058466.cn",
+            "label": "卷四~卷五",
+            "imagecount": 225
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "11q37v21gyayo",
+  "type": "book",
+  "title": "夢窗稿",
+  "work_id": "1ev3bf4fdpl34",
+  "contained_in": [
+    {
+      "id": "8rlb6yi1ecqo",
+      "volume_index": 1488
+    }
+  ],
+  "resources": [
+    {
+      "name": "文淵閣四庫全書·第1488冊",
+      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_1488冊.djvu",
+      "types": [
+        "image"
+      ]
+    },
+    {
+      "id": "ia-zhejiang-cadal",
+      "name": "Internet Archive · 浙大 CADAL 散卷",
+      "short_name": "IA·浙大",
+      "url": "https://archive.org/details/06070370.cn",
+      "details": "浙江大學 CADAL 項目 600ppi 掃描的「夢窗稿」文淵閣本，共 2 冊，編號 06070370.cn~06070371.cn。hank@archive.org 2009-10 起上傳。",
+      "types": [
+        "image"
+      ],
+      "volumes": {
+        "url_template": "https://archive.org/details/{n}",
+        "item_count": 2,
+        "items": [
+          {
+            "id": "06070370.cn",
+            "label": "卷一",
+            "imagecount": 84
+          },
+          {
+            "id": "06070371.cn",
+            "label": "卷二~卷四",
+            "imagecount": 192
+          }
+        ]
+      }
+    }
+  ],
+  "edition": "欽定四庫全書·文淵閣本"
+}
