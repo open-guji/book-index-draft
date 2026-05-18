@@ -23,11 +23,22 @@
   "current_location": {
     "name": "故宮博物院（底本）/ 海南出版社（出版方）"
   },
-  "resources": [],
+  "resources": [
+    {
+      "id": "wikisource-portal-gugong-zhenben",
+      "name": "維基文庫 · 故宮珍本叢刊 Portal",
+      "short_name": "維基文庫·故宮Portal",
+      "url": "https://zh.wikisource.org/wiki/Portal:%E6%95%85%E5%AE%AE%E7%8F%8D%E6%9C%AC%E5%8F%A2%E5%88%8A",
+      "details": "維基文庫專題頁，按目錄收錄 ~192 冊故宮珍本叢刊 PDF 鏈接（指向 Wikimedia Commons），覆蓋約 26%（192/731）。本資源為部分覆蓋，剩餘 ~539 冊待補（建議走 /mirror-to-archive 從第三方下載後上傳 IA）。",
+      "types": [
+        "image"
+      ]
+    }
+  ],
   "juan_count": {
     "number": 0,
     "description": "732 冊，珍本 1100+ 種 + 戲本/檔案 1700+ 種"
   },
-  "ai_note": "2026-05-17 新建 draft。與《四庫未收書輯刊》（1ai4f189zdb7k）在內容上有部分互補（皆收四庫未收書），但本叢刊範圍更廣（含清宮戲本、檔案等非四庫範圍類）。",
+  "ai_note": "2026-05-17 新建 draft。與《四庫未收書輯刊》（1ai4f189zdb7k）在內容上有部分互補（皆收四庫未收書），但本叢刊範圍更廣（含清宮戲本、檔案等非四庫範圍類）。 2026-05-18 補充：維基文庫 Portal 已覆蓋 ~192/731 冊；剩餘 ~539 冊在第三方下載站（xianzhi8/auicp/vansdesign 等）流通但無 IA 公開拷貝，建議走 /mirror-to-archive 鏡像到 IA 後再回填。",
   "id": "1ai4txsymof7k"
 }
