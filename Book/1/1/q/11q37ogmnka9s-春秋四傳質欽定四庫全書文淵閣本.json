@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045835.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋四傳質」文淵閣本，共 2 冊，編號 06045835.cn~06045836.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06045835.cn",
-            "label": "卷上",
-            "imagecount": 204
-          },
-          {
-            "id": "06045836.cn",
-            "label": "卷下",
-            "imagecount": 178
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上",
+          "url": "https://archive.org/details/06045835.cn",
+          "imagecount": 204
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06045836.cn",
+          "imagecount": 178
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049864.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「農桑輯要」文淵閣本，共 3 冊，編號 06049864.cn~06049866.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06049864.cn",
-            "label": "卷一~卷三",
-            "imagecount": 153
-          },
-          {
-            "id": "06049865.cn",
-            "label": "卷四~卷五",
-            "imagecount": 129
-          },
-          {
-            "id": "06049866.cn",
-            "label": "卷六~卷七",
-            "imagecount": 94
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06049864.cn",
+          "imagecount": 153
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06049865.cn",
+          "imagecount": 129
+        },
+        {
+          "volume": "卷六~卷七",
+          "url": "https://archive.org/details/06049866.cn",
+          "imagecount": 94
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

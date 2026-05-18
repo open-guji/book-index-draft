@@ -21,42 +21,36 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06064880.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「詩纘緒」文淵閣本，共 5 冊，編號 06064880.cn~06064884.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 5,
-        "items": [
-          {
-            "id": "06064880.cn",
-            "label": "卷一~卷五",
-            "imagecount": 207
-          },
-          {
-            "id": "06064881.cn",
-            "label": "卷六~卷九",
-            "imagecount": 168
-          },
-          {
-            "id": "06064882.cn",
-            "label": "卷十~卷十一",
-            "imagecount": 118
-          },
-          {
-            "id": "06064883.cn",
-            "label": "卷十二~卷十五",
-            "imagecount": 186
-          },
-          {
-            "id": "06064884.cn",
-            "label": "卷十六~卷十八",
-            "imagecount": 142
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷五",
+          "url": "https://archive.org/details/06064880.cn",
+          "imagecount": 207
+        },
+        {
+          "volume": "卷六~卷九",
+          "url": "https://archive.org/details/06064881.cn",
+          "imagecount": 168
+        },
+        {
+          "volume": "卷十~卷十一",
+          "url": "https://archive.org/details/06064882.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷十二~卷十五",
+          "url": "https://archive.org/details/06064883.cn",
+          "imagecount": 186
+        },
+        {
+          "volume": "卷十六~卷十八",
+          "url": "https://archive.org/details/06064884.cn",
+          "imagecount": 142
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

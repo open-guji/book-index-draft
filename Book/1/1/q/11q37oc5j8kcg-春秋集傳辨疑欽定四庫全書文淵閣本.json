@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06050459.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋集傳辨疑」文淵閣本，共 3 冊，編號 06050459.cn~06050461.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06050459.cn",
-            "label": "卷一~卷三",
-            "imagecount": 123
-          },
-          {
-            "id": "06050460.cn",
-            "label": "卷四~卷七",
-            "imagecount": 128
-          },
-          {
-            "id": "06050461.cn",
-            "label": "卷八~卷十",
-            "imagecount": 106
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06050459.cn",
+          "imagecount": 123
+        },
+        {
+          "volume": "卷四~卷七",
+          "url": "https://archive.org/details/06050460.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06050461.cn",
+          "imagecount": 106
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

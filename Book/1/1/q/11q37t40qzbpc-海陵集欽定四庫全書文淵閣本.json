@@ -21,42 +21,36 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06056131.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「海陵集」文淵閣本，共 5 冊，編號 06056131.cn~06056135.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 5,
-        "items": [
-          {
-            "id": "06056131.cn",
-            "label": "卷一~卷六",
-            "imagecount": 185
-          },
-          {
-            "id": "06056132.cn",
-            "label": "卷七~卷十一",
-            "imagecount": 151
-          },
-          {
-            "id": "06056133.cn",
-            "label": "卷十二~卷十六",
-            "imagecount": 171
-          },
-          {
-            "id": "06056134.cn",
-            "label": "卷十七~卷二十",
-            "imagecount": 130
-          },
-          {
-            "id": "06056135.cn",
-            "label": "卷二十一~卷二十三",
-            "imagecount": 110
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷六",
+          "url": "https://archive.org/details/06056131.cn",
+          "imagecount": 185
+        },
+        {
+          "volume": "卷七~卷十一",
+          "url": "https://archive.org/details/06056132.cn",
+          "imagecount": 151
+        },
+        {
+          "volume": "卷十二~卷十六",
+          "url": "https://archive.org/details/06056133.cn",
+          "imagecount": 171
+        },
+        {
+          "volume": "卷十七~卷二十",
+          "url": "https://archive.org/details/06056134.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷二十一~卷二十三",
+          "url": "https://archive.org/details/06056135.cn",
+          "imagecount": 110
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

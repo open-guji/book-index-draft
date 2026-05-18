@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06044627.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「宣和奉使高麗圖經」文淵閣本，共 3 冊，編號 06044627.cn~06044629.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06044627.cn",
-            "label": "卷一~卷十六",
-            "imagecount": 161
-          },
-          {
-            "id": "06044628.cn",
-            "label": "卷十七~卷三十三",
-            "imagecount": 149
-          },
-          {
-            "id": "06044629.cn",
-            "label": "卷三十四~卷四十",
-            "imagecount": 95
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷十六",
+          "url": "https://archive.org/details/06044627.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "卷十七~卷三十三",
+          "url": "https://archive.org/details/06044628.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷三十四~卷四十",
+          "url": "https://archive.org/details/06044629.cn",
+          "imagecount": 95
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06041490.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「明太祖文集」文淵閣本，共 6 冊，編號 06041490.cn~06041495.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06041490.cn",
-            "label": "卷一~卷四",
-            "imagecount": 159
-          },
-          {
-            "id": "06041491.cn",
-            "label": "卷五~卷七",
-            "imagecount": 132
-          },
-          {
-            "id": "06041492.cn",
-            "label": "卷八~卷十",
-            "imagecount": 171
-          },
-          {
-            "id": "06041493.cn",
-            "label": "卷十一~卷十四",
-            "imagecount": 135
-          },
-          {
-            "id": "06041494.cn",
-            "label": "卷十五~卷十六",
-            "imagecount": 202
-          },
-          {
-            "id": "06041495.cn",
-            "label": "卷十七~卷二十",
-            "imagecount": 123
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06041490.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷五~卷七",
+          "url": "https://archive.org/details/06041491.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06041492.cn",
+          "imagecount": 171
+        },
+        {
+          "volume": "卷十一~卷十四",
+          "url": "https://archive.org/details/06041493.cn",
+          "imagecount": 135
+        },
+        {
+          "volume": "卷十五~卷十六",
+          "url": "https://archive.org/details/06041494.cn",
+          "imagecount": 202
+        },
+        {
+          "volume": "卷十七~卷二十",
+          "url": "https://archive.org/details/06041495.cn",
+          "imagecount": 123
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

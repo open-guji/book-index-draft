@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049991.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「因園集」文淵閣本，共 4 冊，編號 06049991.cn~06049994.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06049991.cn",
-            "label": "卷一~卷四",
-            "imagecount": 149
-          },
-          {
-            "id": "06049992.cn",
-            "label": "卷五~卷六",
-            "imagecount": 130
-          },
-          {
-            "id": "06049993.cn",
-            "label": "卷七~卷十",
-            "imagecount": 131
-          },
-          {
-            "id": "06049994.cn",
-            "label": "卷十一~卷十三",
-            "imagecount": 106
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06049991.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷五~卷六",
+          "url": "https://archive.org/details/06049992.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷七~卷十",
+          "url": "https://archive.org/details/06049993.cn",
+          "imagecount": 131
+        },
+        {
+          "volume": "卷十一~卷十三",
+          "url": "https://archive.org/details/06049994.cn",
+          "imagecount": 106
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

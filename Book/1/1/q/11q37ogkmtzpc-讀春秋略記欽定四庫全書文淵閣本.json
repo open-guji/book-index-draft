@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045829.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「讀春秋略記」文淵閣本，共 6 冊，編號 06045829.cn~06045834.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06045829.cn",
-            "label": "卷首~卷二",
-            "imagecount": 134
-          },
-          {
-            "id": "06045830.cn",
-            "label": "卷三~卷四",
-            "imagecount": 98
-          },
-          {
-            "id": "06045831.cn",
-            "label": "卷五~卷六",
-            "imagecount": 198
-          },
-          {
-            "id": "06045832.cn",
-            "label": "卷七~卷八",
-            "imagecount": 146
-          },
-          {
-            "id": "06045833.cn",
-            "label": "卷九~卷十",
-            "imagecount": 218
-          },
-          {
-            "id": "06045834.cn",
-            "label": "卷十一~卷十二",
-            "imagecount": 104
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷首~卷二",
+          "url": "https://archive.org/details/06045829.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷三~卷四",
+          "url": "https://archive.org/details/06045830.cn",
+          "imagecount": 98
+        },
+        {
+          "volume": "卷五~卷六",
+          "url": "https://archive.org/details/06045831.cn",
+          "imagecount": 198
+        },
+        {
+          "volume": "卷七~卷八",
+          "url": "https://archive.org/details/06045832.cn",
+          "imagecount": 146
+        },
+        {
+          "volume": "卷九~卷十",
+          "url": "https://archive.org/details/06045833.cn",
+          "imagecount": 218
+        },
+        {
+          "volume": "卷十一~卷十二",
+          "url": "https://archive.org/details/06045834.cn",
+          "imagecount": 104
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

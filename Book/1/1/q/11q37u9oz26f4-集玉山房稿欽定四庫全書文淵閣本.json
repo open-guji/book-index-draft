@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06042247.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「集玉山房稿」文淵閣本，共 4 冊，編號 06042247.cn~06042250.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06042247.cn",
-            "label": "卷一~卷三",
-            "imagecount": 153
-          },
-          {
-            "id": "06042248.cn",
-            "label": "卷四~卷五",
-            "imagecount": 158
-          },
-          {
-            "id": "06042249.cn",
-            "label": "卷六~卷八",
-            "imagecount": 170
-          },
-          {
-            "id": "06042250.cn",
-            "label": "卷九~卷十",
-            "imagecount": 165
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06042247.cn",
+          "imagecount": 153
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06042248.cn",
+          "imagecount": 158
+        },
+        {
+          "volume": "卷六~卷八",
+          "url": "https://archive.org/details/06042249.cn",
+          "imagecount": 170
+        },
+        {
+          "volume": "卷九~卷十",
+          "url": "https://archive.org/details/06042250.cn",
+          "imagecount": 165
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

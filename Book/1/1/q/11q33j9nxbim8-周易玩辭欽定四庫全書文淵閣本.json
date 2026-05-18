@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06062799.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周易玩辭」文淵閣本，共 6 冊，編號 06062799.cn~06062804.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06062799.cn",
-            "label": "卷一~卷二",
-            "imagecount": 182
-          },
-          {
-            "id": "06062800.cn",
-            "label": "卷三~卷五",
-            "imagecount": 278
-          },
-          {
-            "id": "06062801.cn",
-            "label": "卷六~卷八",
-            "imagecount": 170
-          },
-          {
-            "id": "06062802.cn",
-            "label": "卷九~卷十",
-            "imagecount": 121
-          },
-          {
-            "id": "06062803.cn",
-            "label": "卷十一~卷十四",
-            "imagecount": 190
-          },
-          {
-            "id": "06062804.cn",
-            "label": "卷十五~卷十六",
-            "imagecount": 98
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06062799.cn",
+          "imagecount": 182
+        },
+        {
+          "volume": "卷三~卷五",
+          "url": "https://archive.org/details/06062800.cn",
+          "imagecount": 278
+        },
+        {
+          "volume": "卷六~卷八",
+          "url": "https://archive.org/details/06062801.cn",
+          "imagecount": 170
+        },
+        {
+          "volume": "卷九~卷十",
+          "url": "https://archive.org/details/06062802.cn",
+          "imagecount": 121
+        },
+        {
+          "volume": "卷十一~卷十四",
+          "url": "https://archive.org/details/06062803.cn",
+          "imagecount": 190
+        },
+        {
+          "volume": "卷十五~卷十六",
+          "url": "https://archive.org/details/06062804.cn",
+          "imagecount": 98
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

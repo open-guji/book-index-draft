@@ -21,97 +21,91 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06079420.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書纂箋」文淵閣本，共 16 冊，編號 06079420.cn~06079435.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 16,
-        "items": [
-          {
-            "id": "06079420.cn",
-            "label": "大學章句纂箋",
-            "imagecount": 205
-          },
-          {
-            "id": "06079421.cn",
-            "label": "論語集註纂箋卷一~論語集註纂箋卷二",
-            "imagecount": 147
-          },
-          {
-            "id": "06079422.cn",
-            "label": "論語集註纂箋卷三~論語集註纂箋卷四",
-            "imagecount": 165
-          },
-          {
-            "id": "06079423.cn",
-            "label": "論語集註纂箋卷五~論語集註纂箋卷六",
-            "imagecount": 163
-          },
-          {
-            "id": "06079424.cn",
-            "label": "論語集註纂箋卷七~論語集註纂箋卷八",
-            "imagecount": 160
-          },
-          {
-            "id": "06079425.cn",
-            "label": "論語集註纂箋卷九~論語集註纂箋卷十",
-            "imagecount": 94
-          },
-          {
-            "id": "06079426.cn",
-            "label": "孟子集註纂箋卷一~孟子集註纂箋卷二",
-            "imagecount": 131
-          },
-          {
-            "id": "06079427.cn",
-            "label": "孟子集註纂箋卷三~孟子集註纂箋卷四",
-            "imagecount": 115
-          },
-          {
-            "id": "06079428.cn",
-            "label": "孟子集註纂箋卷五~孟子集註纂箋卷六",
-            "imagecount": 113
-          },
-          {
-            "id": "06079429.cn",
-            "label": "孟子集註纂箋卷七~孟子集註纂箋卷八",
-            "imagecount": 125
-          },
-          {
-            "id": "06079430.cn",
-            "label": "孟子集註纂箋卷九~孟子集註纂箋卷十",
-            "imagecount": 105
-          },
-          {
-            "id": "06079431.cn",
-            "label": "孟子集註纂箋卷十一~孟子集註纂箋卷十二",
-            "imagecount": 111
-          },
-          {
-            "id": "06079432.cn",
-            "label": "孟子集註纂箋卷十三~孟子集註纂箋卷十四",
-            "imagecount": 133
-          },
-          {
-            "id": "06079433.cn",
-            "label": "中庸章句纂箋",
-            "imagecount": 123
-          },
-          {
-            "id": "06079434.cn",
-            "label": "中庸或問纂箋卷一",
-            "imagecount": 107
-          },
-          {
-            "id": "06079435.cn",
-            "label": "中庸或問纂箋卷二",
-            "imagecount": 89
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "大學章句纂箋",
+          "url": "https://archive.org/details/06079420.cn",
+          "imagecount": 205
+        },
+        {
+          "volume": "論語集註纂箋卷一~論語集註纂箋卷二",
+          "url": "https://archive.org/details/06079421.cn",
+          "imagecount": 147
+        },
+        {
+          "volume": "論語集註纂箋卷三~論語集註纂箋卷四",
+          "url": "https://archive.org/details/06079422.cn",
+          "imagecount": 165
+        },
+        {
+          "volume": "論語集註纂箋卷五~論語集註纂箋卷六",
+          "url": "https://archive.org/details/06079423.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "論語集註纂箋卷七~論語集註纂箋卷八",
+          "url": "https://archive.org/details/06079424.cn",
+          "imagecount": 160
+        },
+        {
+          "volume": "論語集註纂箋卷九~論語集註纂箋卷十",
+          "url": "https://archive.org/details/06079425.cn",
+          "imagecount": 94
+        },
+        {
+          "volume": "孟子集註纂箋卷一~孟子集註纂箋卷二",
+          "url": "https://archive.org/details/06079426.cn",
+          "imagecount": 131
+        },
+        {
+          "volume": "孟子集註纂箋卷三~孟子集註纂箋卷四",
+          "url": "https://archive.org/details/06079427.cn",
+          "imagecount": 115
+        },
+        {
+          "volume": "孟子集註纂箋卷五~孟子集註纂箋卷六",
+          "url": "https://archive.org/details/06079428.cn",
+          "imagecount": 113
+        },
+        {
+          "volume": "孟子集註纂箋卷七~孟子集註纂箋卷八",
+          "url": "https://archive.org/details/06079429.cn",
+          "imagecount": 125
+        },
+        {
+          "volume": "孟子集註纂箋卷九~孟子集註纂箋卷十",
+          "url": "https://archive.org/details/06079430.cn",
+          "imagecount": 105
+        },
+        {
+          "volume": "孟子集註纂箋卷十一~孟子集註纂箋卷十二",
+          "url": "https://archive.org/details/06079431.cn",
+          "imagecount": 111
+        },
+        {
+          "volume": "孟子集註纂箋卷十三~孟子集註纂箋卷十四",
+          "url": "https://archive.org/details/06079432.cn",
+          "imagecount": 133
+        },
+        {
+          "volume": "中庸章句纂箋",
+          "url": "https://archive.org/details/06079433.cn",
+          "imagecount": 123
+        },
+        {
+          "volume": "中庸或問纂箋卷一",
+          "url": "https://archive.org/details/06079434.cn",
+          "imagecount": 107
+        },
+        {
+          "volume": "中庸或問纂箋卷二",
+          "url": "https://archive.org/details/06079435.cn",
+          "imagecount": 89
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

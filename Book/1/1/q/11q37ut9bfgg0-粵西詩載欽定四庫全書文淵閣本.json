@@ -39,87 +39,81 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06068890.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「粵西詩載」文淵閣本，共 14 冊，編號 06068890.cn~06068903.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 14,
-        "items": [
-          {
-            "id": "06068890.cn",
-            "label": "卷一~卷三",
-            "imagecount": 120
-          },
-          {
-            "id": "06068891.cn",
-            "label": "卷四~卷五",
-            "imagecount": 132
-          },
-          {
-            "id": "06068892.cn",
-            "label": "卷六~卷七",
-            "imagecount": 136
-          },
-          {
-            "id": "06068893.cn",
-            "label": "卷八~卷九",
-            "imagecount": 128
-          },
-          {
-            "id": "06068894.cn",
-            "label": "卷十~卷十一",
-            "imagecount": 136
-          },
-          {
-            "id": "06068895.cn",
-            "label": "卷十二~卷十三",
-            "imagecount": 134
-          },
-          {
-            "id": "06068896.cn",
-            "label": "卷十四~卷十五",
-            "imagecount": 158
-          },
-          {
-            "id": "06068897.cn",
-            "label": "卷十六",
-            "imagecount": 88
-          },
-          {
-            "id": "06068898.cn",
-            "label": "卷十七",
-            "imagecount": 86
-          },
-          {
-            "id": "06068899.cn",
-            "label": "卷十八",
-            "imagecount": 86
-          },
-          {
-            "id": "06068900.cn",
-            "label": "卷十九~卷二十",
-            "imagecount": 146
-          },
-          {
-            "id": "06068901.cn",
-            "label": "卷二十一~卷二十二",
-            "imagecount": 144
-          },
-          {
-            "id": "06068902.cn",
-            "label": "卷二十三",
-            "imagecount": 80
-          },
-          {
-            "id": "06068903.cn",
-            "label": "卷二十四~卷二十五",
-            "imagecount": 118
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06068890.cn",
+          "imagecount": 120
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06068891.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷六~卷七",
+          "url": "https://archive.org/details/06068892.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷八~卷九",
+          "url": "https://archive.org/details/06068893.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷十~卷十一",
+          "url": "https://archive.org/details/06068894.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷十二~卷十三",
+          "url": "https://archive.org/details/06068895.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷十四~卷十五",
+          "url": "https://archive.org/details/06068896.cn",
+          "imagecount": 158
+        },
+        {
+          "volume": "卷十六",
+          "url": "https://archive.org/details/06068897.cn",
+          "imagecount": 88
+        },
+        {
+          "volume": "卷十七",
+          "url": "https://archive.org/details/06068898.cn",
+          "imagecount": 86
+        },
+        {
+          "volume": "卷十八",
+          "url": "https://archive.org/details/06068899.cn",
+          "imagecount": 86
+        },
+        {
+          "volume": "卷十九~卷二十",
+          "url": "https://archive.org/details/06068900.cn",
+          "imagecount": 146
+        },
+        {
+          "volume": "卷二十一~卷二十二",
+          "url": "https://archive.org/details/06068901.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷二十三",
+          "url": "https://archive.org/details/06068902.cn",
+          "imagecount": 80
+        },
+        {
+          "volume": "卷二十四~卷二十五",
+          "url": "https://archive.org/details/06068903.cn",
+          "imagecount": 118
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

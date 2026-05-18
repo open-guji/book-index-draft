@@ -21,42 +21,36 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06040165.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「碧梧玩芳集」文淵閣本，共 5 冊，編號 06040165.cn~06040169.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 5,
-        "items": [
-          {
-            "id": "06040165.cn",
-            "label": "卷一~卷四",
-            "imagecount": 139
-          },
-          {
-            "id": "06040166.cn",
-            "label": "卷 五~卷九",
-            "imagecount": 144
-          },
-          {
-            "id": "06040167.cn",
-            "label": "卷十~卷十五",
-            "imagecount": 155
-          },
-          {
-            "id": "06040168.cn",
-            "label": "卷十六~卷二十",
-            "imagecount": 137
-          },
-          {
-            "id": "06040169.cn",
-            "label": "卷 二十一~卷二十四",
-            "imagecount": 134
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06040165.cn",
+          "imagecount": 139
+        },
+        {
+          "volume": "卷 五~卷九",
+          "url": "https://archive.org/details/06040166.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷十~卷十五",
+          "url": "https://archive.org/details/06040167.cn",
+          "imagecount": 155
+        },
+        {
+          "volume": "卷十六~卷二十",
+          "url": "https://archive.org/details/06040168.cn",
+          "imagecount": 137
+        },
+        {
+          "volume": "卷 二十一~卷二十四",
+          "url": "https://archive.org/details/06040169.cn",
+          "imagecount": 134
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

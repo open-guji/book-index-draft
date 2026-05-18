@@ -21,42 +21,36 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06051773.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「鹽鐵論」文淵閣本，共 5 冊，編號 06051773.cn~06051777.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 5,
-        "items": [
-          {
-            "id": "06051773.cn",
-            "label": "卷一~卷三",
-            "imagecount": 191
-          },
-          {
-            "id": "06051774.cn",
-            "label": "卷四~卷六",
-            "imagecount": 180
-          },
-          {
-            "id": "06051775.cn",
-            "label": "卷七~卷八",
-            "imagecount": 130
-          },
-          {
-            "id": "06051776.cn",
-            "label": "卷九~卷十",
-            "imagecount": 128
-          },
-          {
-            "id": "06051777.cn",
-            "label": "卷十一~卷十二",
-            "imagecount": 128
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06051773.cn",
+          "imagecount": 191
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06051774.cn",
+          "imagecount": 180
+        },
+        {
+          "volume": "卷七~卷八",
+          "url": "https://archive.org/details/06051775.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷九~卷十",
+          "url": "https://archive.org/details/06051776.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷十一~卷十二",
+          "url": "https://archive.org/details/06051777.cn",
+          "imagecount": 128
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

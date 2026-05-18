@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06056103.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「相山集」文淵閣本，共 6 冊，編號 06056103.cn~06056108.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06056103.cn",
-            "label": "卷一~卷五",
-            "imagecount": 159
-          },
-          {
-            "id": "06056104.cn",
-            "label": "卷六~卷十一",
-            "imagecount": 154
-          },
-          {
-            "id": "06056105.cn",
-            "label": "卷十二~卷十五",
-            "imagecount": 156
-          },
-          {
-            "id": "06056106.cn",
-            "label": "卷十六~卷二十",
-            "imagecount": 173
-          },
-          {
-            "id": "06056107.cn",
-            "label": "卷二十一~卷二十四",
-            "imagecount": 132
-          },
-          {
-            "id": "06056108.cn",
-            "label": "卷二十五~卷三十",
-            "imagecount": 160
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷五",
+          "url": "https://archive.org/details/06056103.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷六~卷十一",
+          "url": "https://archive.org/details/06056104.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷十二~卷十五",
+          "url": "https://archive.org/details/06056105.cn",
+          "imagecount": 156
+        },
+        {
+          "volume": "卷十六~卷二十",
+          "url": "https://archive.org/details/06056106.cn",
+          "imagecount": 173
+        },
+        {
+          "volume": "卷二十一~卷二十四",
+          "url": "https://archive.org/details/06056107.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷二十五~卷三十",
+          "url": "https://archive.org/details/06056108.cn",
+          "imagecount": 160
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

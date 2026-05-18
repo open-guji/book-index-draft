@@ -21,42 +21,36 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06047112.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋地名考略」文淵閣本，共 5 冊，編號 06047112.cn~06047116.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 5,
-        "items": [
-          {
-            "id": "06047112.cn",
-            "label": "卷一~卷二",
-            "imagecount": 136
-          },
-          {
-            "id": "06047113.cn",
-            "label": "卷三~卷五",
-            "imagecount": 158
-          },
-          {
-            "id": "06047114.cn",
-            "label": "卷六~卷八",
-            "imagecount": 149
-          },
-          {
-            "id": "06047115.cn",
-            "label": "卷九~卷十一",
-            "imagecount": 164
-          },
-          {
-            "id": "06047116.cn",
-            "label": "卷十二~卷十四",
-            "imagecount": 194
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06047112.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷三~卷五",
+          "url": "https://archive.org/details/06047113.cn",
+          "imagecount": 158
+        },
+        {
+          "volume": "卷六~卷八",
+          "url": "https://archive.org/details/06047114.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷九~卷十一",
+          "url": "https://archive.org/details/06047115.cn",
+          "imagecount": 164
+        },
+        {
+          "volume": "卷十二~卷十四",
+          "url": "https://archive.org/details/06047116.cn",
+          "imagecount": 194
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

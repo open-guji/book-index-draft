@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045724.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋講義」文淵閣本，共 4 冊，編號 06045724.cn~06045727.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06045724.cn",
-            "label": "卷一上",
-            "imagecount": 114
-          },
-          {
-            "id": "06045725.cn",
-            "label": "卷一下~卷二下",
-            "imagecount": 215
-          },
-          {
-            "id": "06045726.cn",
-            "label": "卷三上~卷三下",
-            "imagecount": 209
-          },
-          {
-            "id": "06045727.cn",
-            "label": "卷三四上~卷四下",
-            "imagecount": 152
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一上",
+          "url": "https://archive.org/details/06045724.cn",
+          "imagecount": 114
+        },
+        {
+          "volume": "卷一下~卷二下",
+          "url": "https://archive.org/details/06045725.cn",
+          "imagecount": 215
+        },
+        {
+          "volume": "卷三上~卷三下",
+          "url": "https://archive.org/details/06045726.cn",
+          "imagecount": 209
+        },
+        {
+          "volume": "卷三四上~卷四下",
+          "url": "https://archive.org/details/06045727.cn",
+          "imagecount": 152
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

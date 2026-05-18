@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06053636.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「雪溪集」文淵閣本，共 2 冊，編號 06053636.cn~06053637.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06053636.cn",
-            "label": "卷一~卷六",
-            "imagecount": 175
-          },
-          {
-            "id": "06053637.cn",
-            "label": "卷七~卷十二",
-            "imagecount": 201
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷六",
+          "url": "https://archive.org/details/06053636.cn",
+          "imagecount": 175
+        },
+        {
+          "volume": "卷七~卷十二",
+          "url": "https://archive.org/details/06053637.cn",
+          "imagecount": 201
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

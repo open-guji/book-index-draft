@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06079411.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書通證」文淵閣本，共 3 冊，編號 06079411.cn~06079413.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06079411.cn",
-            "label": "大學通證",
-            "imagecount": 55
-          },
-          {
-            "id": "06079412.cn",
-            "label": "~論語集註通證卷上~論語集註通證卷上",
-            "imagecount": 206
-          },
-          {
-            "id": "06079413.cn",
-            "label": "孟子集註通證卷上~孟子集註通證卷下",
-            "imagecount": 176
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "大學通證",
+          "url": "https://archive.org/details/06079411.cn",
+          "imagecount": 55
+        },
+        {
+          "volume": "~論語集註通證卷上~論語集註通證卷上",
+          "url": "https://archive.org/details/06079412.cn",
+          "imagecount": 206
+        },
+        {
+          "volume": "孟子集註通證卷上~孟子集註通證卷下",
+          "url": "https://archive.org/details/06079413.cn",
+          "imagecount": 176
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

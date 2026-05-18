@@ -21,112 +21,106 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06079392.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書通」文淵閣本，共 19 冊，編號 06079392.cn~06079410.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 19,
-        "items": [
-          {
-            "id": "06079392.cn",
-            "label": "大學通",
-            "imagecount": 157
-          },
-          {
-            "id": "06079393.cn",
-            "label": "論語通卷一",
-            "imagecount": 135
-          },
-          {
-            "id": "06079394.cn",
-            "label": "論語通卷二",
-            "imagecount": 113
-          },
-          {
-            "id": "06079395.cn",
-            "label": "論語通卷三",
-            "imagecount": 125
-          },
-          {
-            "id": "06079396.cn",
-            "label": "論語通卷四",
-            "imagecount": 113
-          },
-          {
-            "id": "06079397.cn",
-            "label": "論語通卷五",
-            "imagecount": 117
-          },
-          {
-            "id": "06079398.cn",
-            "label": "論語通卷六",
-            "imagecount": 137
-          },
-          {
-            "id": "06079399.cn",
-            "label": "論語通卷七",
-            "imagecount": 147
-          },
-          {
-            "id": "06079400.cn",
-            "label": "論語通卷八",
-            "imagecount": 95
-          },
-          {
-            "id": "06079401.cn",
-            "label": "論語通卷九~論語通卷十",
-            "imagecount": 143
-          },
-          {
-            "id": "06079402.cn",
-            "label": "孟子通卷一~孟子通卷二",
-            "imagecount": 153
-          },
-          {
-            "id": "06079403.cn",
-            "label": "孟子通卷三~孟子通卷四",
-            "imagecount": 153
-          },
-          {
-            "id": "06079404.cn",
-            "label": "孟子通卷五~孟子通卷六",
-            "imagecount": 135
-          },
-          {
-            "id": "06079405.cn",
-            "label": "孟子通卷七~孟子通卷八",
-            "imagecount": 163
-          },
-          {
-            "id": "06079406.cn",
-            "label": "孟子通卷九~孟子通卷十",
-            "imagecount": 107
-          },
-          {
-            "id": "06079407.cn",
-            "label": "孟子通卷十一~孟子通卷十二",
-            "imagecount": 141
-          },
-          {
-            "id": "06079408.cn",
-            "label": "孟子通卷十三~孟子通卷十四",
-            "imagecount": 183
-          },
-          {
-            "id": "06079409.cn",
-            "label": "中庸通卷上",
-            "imagecount": 83
-          },
-          {
-            "id": "06079410.cn",
-            "label": "中庸通卷中~中庸通卷下",
-            "imagecount": 173
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "大學通",
+          "url": "https://archive.org/details/06079392.cn",
+          "imagecount": 157
+        },
+        {
+          "volume": "論語通卷一",
+          "url": "https://archive.org/details/06079393.cn",
+          "imagecount": 135
+        },
+        {
+          "volume": "論語通卷二",
+          "url": "https://archive.org/details/06079394.cn",
+          "imagecount": 113
+        },
+        {
+          "volume": "論語通卷三",
+          "url": "https://archive.org/details/06079395.cn",
+          "imagecount": 125
+        },
+        {
+          "volume": "論語通卷四",
+          "url": "https://archive.org/details/06079396.cn",
+          "imagecount": 113
+        },
+        {
+          "volume": "論語通卷五",
+          "url": "https://archive.org/details/06079397.cn",
+          "imagecount": 117
+        },
+        {
+          "volume": "論語通卷六",
+          "url": "https://archive.org/details/06079398.cn",
+          "imagecount": 137
+        },
+        {
+          "volume": "論語通卷七",
+          "url": "https://archive.org/details/06079399.cn",
+          "imagecount": 147
+        },
+        {
+          "volume": "論語通卷八",
+          "url": "https://archive.org/details/06079400.cn",
+          "imagecount": 95
+        },
+        {
+          "volume": "論語通卷九~論語通卷十",
+          "url": "https://archive.org/details/06079401.cn",
+          "imagecount": 143
+        },
+        {
+          "volume": "孟子通卷一~孟子通卷二",
+          "url": "https://archive.org/details/06079402.cn",
+          "imagecount": 153
+        },
+        {
+          "volume": "孟子通卷三~孟子通卷四",
+          "url": "https://archive.org/details/06079403.cn",
+          "imagecount": 153
+        },
+        {
+          "volume": "孟子通卷五~孟子通卷六",
+          "url": "https://archive.org/details/06079404.cn",
+          "imagecount": 135
+        },
+        {
+          "volume": "孟子通卷七~孟子通卷八",
+          "url": "https://archive.org/details/06079405.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "孟子通卷九~孟子通卷十",
+          "url": "https://archive.org/details/06079406.cn",
+          "imagecount": 107
+        },
+        {
+          "volume": "孟子通卷十一~孟子通卷十二",
+          "url": "https://archive.org/details/06079407.cn",
+          "imagecount": 141
+        },
+        {
+          "volume": "孟子通卷十三~孟子通卷十四",
+          "url": "https://archive.org/details/06079408.cn",
+          "imagecount": 183
+        },
+        {
+          "volume": "中庸通卷上",
+          "url": "https://archive.org/details/06079409.cn",
+          "imagecount": 83
+        },
+        {
+          "volume": "中庸通卷中~中庸通卷下",
+          "url": "https://archive.org/details/06079410.cn",
+          "imagecount": 173
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06051911.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「榕壇問業」文淵閣本，共 6 冊，編號 06051911.cn~06051916.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06051911.cn",
-            "label": "卷一~卷四",
-            "imagecount": 177
-          },
-          {
-            "id": "06051912.cn",
-            "label": "卷五~卷七",
-            "imagecount": 184
-          },
-          {
-            "id": "06051913.cn",
-            "label": "卷八~卷十",
-            "imagecount": 172
-          },
-          {
-            "id": "06051914.cn",
-            "label": "卷十一~卷十三",
-            "imagecount": 167
-          },
-          {
-            "id": "06051915.cn",
-            "label": "卷十四~卷十六",
-            "imagecount": 158
-          },
-          {
-            "id": "06051916.cn",
-            "label": "卷十七~卷十八",
-            "imagecount": 122
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06051911.cn",
+          "imagecount": 177
+        },
+        {
+          "volume": "卷五~卷七",
+          "url": "https://archive.org/details/06051912.cn",
+          "imagecount": 184
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06051913.cn",
+          "imagecount": 172
+        },
+        {
+          "volume": "卷十一~卷十三",
+          "url": "https://archive.org/details/06051914.cn",
+          "imagecount": 167
+        },
+        {
+          "volume": "卷十四~卷十六",
+          "url": "https://archive.org/details/06051915.cn",
+          "imagecount": 158
+        },
+        {
+          "volume": "卷十七~卷十八",
+          "url": "https://archive.org/details/06051916.cn",
+          "imagecount": 122
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

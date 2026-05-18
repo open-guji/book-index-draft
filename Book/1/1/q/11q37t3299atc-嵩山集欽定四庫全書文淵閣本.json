@@ -21,52 +21,46 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06053723.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「嵩山集」文淵閣本，共 7 冊，編號 06053723.cn~06053729.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 7,
-        "items": [
-          {
-            "id": "06053723.cn",
-            "label": "卷一~卷七",
-            "imagecount": 163
-          },
-          {
-            "id": "06053724.cn",
-            "label": "卷八~卷十六",
-            "imagecount": 179
-          },
-          {
-            "id": "06053725.cn",
-            "label": "卷十七~卷二十三",
-            "imagecount": 159
-          },
-          {
-            "id": "06053726.cn",
-            "label": "卷二十四~卷三十",
-            "imagecount": 152
-          },
-          {
-            "id": "06053727.cn",
-            "label": "卷三十一~卷三十七",
-            "imagecount": 163
-          },
-          {
-            "id": "06053728.cn",
-            "label": "卷三十八~卷四十四",
-            "imagecount": 157
-          },
-          {
-            "id": "06053729.cn",
-            "label": "卷四十五~卷五十四",
-            "imagecount": 208
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷七",
+          "url": "https://archive.org/details/06053723.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "卷八~卷十六",
+          "url": "https://archive.org/details/06053724.cn",
+          "imagecount": 179
+        },
+        {
+          "volume": "卷十七~卷二十三",
+          "url": "https://archive.org/details/06053725.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷二十四~卷三十",
+          "url": "https://archive.org/details/06053726.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷三十一~卷三十七",
+          "url": "https://archive.org/details/06053727.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "卷三十八~卷四十四",
+          "url": "https://archive.org/details/06053728.cn",
+          "imagecount": 157
+        },
+        {
+          "volume": "卷四十五~卷五十四",
+          "url": "https://archive.org/details/06053729.cn",
+          "imagecount": 208
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

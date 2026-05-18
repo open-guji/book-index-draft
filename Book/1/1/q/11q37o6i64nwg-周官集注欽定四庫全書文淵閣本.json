@@ -21,72 +21,66 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045629.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周官集注」文淵閣本，共 11 冊，編號 06045629.cn~06045639.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 11,
-        "items": [
-          {
-            "id": "06045629.cn",
-            "label": "卷一",
-            "imagecount": 156
-          },
-          {
-            "id": "06045630.cn",
-            "label": "卷二",
-            "imagecount": 128
-          },
-          {
-            "id": "06045631.cn",
-            "label": "卷三",
-            "imagecount": 150
-          },
-          {
-            "id": "06045632.cn",
-            "label": "卷四",
-            "imagecount": 124
-          },
-          {
-            "id": "06045633.cn",
-            "label": "卷五",
-            "imagecount": 170
-          },
-          {
-            "id": "06045634.cn",
-            "label": "卷六",
-            "imagecount": 146
-          },
-          {
-            "id": "06045635.cn",
-            "label": "卷七",
-            "imagecount": 118
-          },
-          {
-            "id": "06045636.cn",
-            "label": "卷八",
-            "imagecount": 97
-          },
-          {
-            "id": "06045637.cn",
-            "label": "卷九~卷十",
-            "imagecount": 222
-          },
-          {
-            "id": "06045638.cn",
-            "label": "卷十一",
-            "imagecount": 110
-          },
-          {
-            "id": "06045639.cn",
-            "label": "卷十二",
-            "imagecount": 108
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06045629.cn",
+          "imagecount": 156
+        },
+        {
+          "volume": "卷二",
+          "url": "https://archive.org/details/06045630.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷三",
+          "url": "https://archive.org/details/06045631.cn",
+          "imagecount": 150
+        },
+        {
+          "volume": "卷四",
+          "url": "https://archive.org/details/06045632.cn",
+          "imagecount": 124
+        },
+        {
+          "volume": "卷五",
+          "url": "https://archive.org/details/06045633.cn",
+          "imagecount": 170
+        },
+        {
+          "volume": "卷六",
+          "url": "https://archive.org/details/06045634.cn",
+          "imagecount": 146
+        },
+        {
+          "volume": "卷七",
+          "url": "https://archive.org/details/06045635.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷八",
+          "url": "https://archive.org/details/06045636.cn",
+          "imagecount": 97
+        },
+        {
+          "volume": "卷九~卷十",
+          "url": "https://archive.org/details/06045637.cn",
+          "imagecount": 222
+        },
+        {
+          "volume": "卷十一",
+          "url": "https://archive.org/details/06045638.cn",
+          "imagecount": 110
+        },
+        {
+          "volume": "卷十二",
+          "url": "https://archive.org/details/06045639.cn",
+          "imagecount": 108
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

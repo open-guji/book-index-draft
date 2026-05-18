@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06052006.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「博濟方」文淵閣本，共 4 冊，編號 06052006.cn~06052009.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06052006.cn",
-            "label": "卷一~卷二",
-            "imagecount": 161
-          },
-          {
-            "id": "06052007.cn",
-            "label": "卷三",
-            "imagecount": 94
-          },
-          {
-            "id": "06052008.cn",
-            "label": "卷四",
-            "imagecount": 124
-          },
-          {
-            "id": "06052009.cn",
-            "label": "卷五",
-            "imagecount": 90
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06052006.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "卷三",
+          "url": "https://archive.org/details/06052007.cn",
+          "imagecount": 94
+        },
+        {
+          "volume": "卷四",
+          "url": "https://archive.org/details/06052008.cn",
+          "imagecount": 124
+        },
+        {
+          "volume": "卷五",
+          "url": "https://archive.org/details/06052009.cn",
+          "imagecount": 90
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

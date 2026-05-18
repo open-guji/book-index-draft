@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06060671.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「唐宋元名表」文淵閣本，共 4 冊，編號 06060671.cn~06060674.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06060671.cn",
-            "label": "卷上之一",
-            "imagecount": 132
-          },
-          {
-            "id": "06060672.cn",
-            "label": "卷上之二",
-            "imagecount": 115
-          },
-          {
-            "id": "06060673.cn",
-            "label": "卷下之一",
-            "imagecount": 117
-          },
-          {
-            "id": "06060674.cn",
-            "label": "卷下之二~卷下之三",
-            "imagecount": 148
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上之一",
+          "url": "https://archive.org/details/06060671.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷上之二",
+          "url": "https://archive.org/details/06060672.cn",
+          "imagecount": 115
+        },
+        {
+          "volume": "卷下之一",
+          "url": "https://archive.org/details/06060673.cn",
+          "imagecount": 117
+        },
+        {
+          "volume": "卷下之二~卷下之三",
+          "url": "https://archive.org/details/06060674.cn",
+          "imagecount": 148
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

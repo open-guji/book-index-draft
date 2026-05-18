@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06064078.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「太玄本旨」文淵閣本，共 6 冊，編號 06064078.cn~06071567.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06064078.cn",
-            "label": "卷首~卷二",
-            "imagecount": 136
-          },
-          {
-            "id": "06064079.cn",
-            "label": "卷三~卷五",
-            "imagecount": 139
-          },
-          {
-            "id": "06064080.cn",
-            "label": "卷六~卷九",
-            "imagecount": 155
-          },
-          {
-            "id": "06071565.cn",
-            "label": "卷一~卷二",
-            "imagecount": 138
-          },
-          {
-            "id": "06071566.cn",
-            "label": "卷三~卷五",
-            "imagecount": 140
-          },
-          {
-            "id": "06071567.cn",
-            "label": "卷六~卷九",
-            "imagecount": 155
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷首~卷二",
+          "url": "https://archive.org/details/06064078.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷三~卷五",
+          "url": "https://archive.org/details/06064079.cn",
+          "imagecount": 139
+        },
+        {
+          "volume": "卷六~卷九",
+          "url": "https://archive.org/details/06064080.cn",
+          "imagecount": 155
+        },
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06071565.cn",
+          "imagecount": 138
+        },
+        {
+          "volume": "卷三~卷五",
+          "url": "https://archive.org/details/06071566.cn",
+          "imagecount": 140
+        },
+        {
+          "volume": "卷六~卷九",
+          "url": "https://archive.org/details/06071567.cn",
+          "imagecount": 155
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

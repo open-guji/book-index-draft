@@ -21,57 +21,51 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06047144.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋宗朱辨義」文淵閣本，共 8 冊，編號 06047144.cn~06047151.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 8,
-        "items": [
-          {
-            "id": "06047144.cn",
-            "label": "卷一",
-            "imagecount": 118
-          },
-          {
-            "id": "06047145.cn",
-            "label": "卷二~卷三",
-            "imagecount": 195
-          },
-          {
-            "id": "06047146.cn",
-            "label": "卷四~卷五",
-            "imagecount": 172
-          },
-          {
-            "id": "06047147.cn",
-            "label": "卷六",
-            "imagecount": 110
-          },
-          {
-            "id": "06047148.cn",
-            "label": "卷七",
-            "imagecount": 80
-          },
-          {
-            "id": "06047149.cn",
-            "label": "卷八",
-            "imagecount": 102
-          },
-          {
-            "id": "06047150.cn",
-            "label": "卷九",
-            "imagecount": 158
-          },
-          {
-            "id": "06047151.cn",
-            "label": "卷十~卷十二",
-            "imagecount": 213
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06047144.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷二~卷三",
+          "url": "https://archive.org/details/06047145.cn",
+          "imagecount": 195
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06047146.cn",
+          "imagecount": 172
+        },
+        {
+          "volume": "卷六",
+          "url": "https://archive.org/details/06047147.cn",
+          "imagecount": 110
+        },
+        {
+          "volume": "卷七",
+          "url": "https://archive.org/details/06047148.cn",
+          "imagecount": 80
+        },
+        {
+          "volume": "卷八",
+          "url": "https://archive.org/details/06047149.cn",
+          "imagecount": 102
+        },
+        {
+          "volume": "卷九",
+          "url": "https://archive.org/details/06047150.cn",
+          "imagecount": 158
+        },
+        {
+          "volume": "卷十~卷十二",
+          "url": "https://archive.org/details/06047151.cn",
+          "imagecount": 213
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

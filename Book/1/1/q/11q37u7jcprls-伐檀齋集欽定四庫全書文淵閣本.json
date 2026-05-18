@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06042196.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「伐檀齋集」文淵閣本，共 4 冊，編號 06042196.cn~06042199.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06042196.cn",
-            "label": "卷一~卷三",
-            "imagecount": 138
-          },
-          {
-            "id": "06042197.cn",
-            "label": "卷四~卷七",
-            "imagecount": 141
-          },
-          {
-            "id": "06042198.cn",
-            "label": "卷八~卷十",
-            "imagecount": 102
-          },
-          {
-            "id": "06042199.cn",
-            "label": "卷十一~卷十二",
-            "imagecount": 99
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06042196.cn",
+          "imagecount": 138
+        },
+        {
+          "volume": "卷四~卷七",
+          "url": "https://archive.org/details/06042197.cn",
+          "imagecount": 141
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06042198.cn",
+          "imagecount": 102
+        },
+        {
+          "volume": "卷十一~卷十二",
+          "url": "https://archive.org/details/06042199.cn",
+          "imagecount": 99
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

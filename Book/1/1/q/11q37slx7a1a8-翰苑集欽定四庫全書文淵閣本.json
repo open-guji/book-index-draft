@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06053486.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「翰苑集」文淵閣本，共 6 冊，編號 06053486.cn~06053491.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06053486.cn",
-            "label": "卷一~卷三",
-            "imagecount": 132
-          },
-          {
-            "id": "06053487.cn",
-            "label": "卷四~卷八",
-            "imagecount": 163
-          },
-          {
-            "id": "06053488.cn",
-            "label": "卷九~卷十三",
-            "imagecount": 168
-          },
-          {
-            "id": "06053489.cn",
-            "label": "卷十四~卷十六",
-            "imagecount": 146
-          },
-          {
-            "id": "06053490.cn",
-            "label": "卷十七~卷二十",
-            "imagecount": 181
-          },
-          {
-            "id": "06053491.cn",
-            "label": "卷二十一~卷二十二",
-            "imagecount": 130
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06053486.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷四~卷八",
+          "url": "https://archive.org/details/06053487.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "卷九~卷十三",
+          "url": "https://archive.org/details/06053488.cn",
+          "imagecount": 168
+        },
+        {
+          "volume": "卷十四~卷十六",
+          "url": "https://archive.org/details/06053489.cn",
+          "imagecount": 146
+        },
+        {
+          "volume": "卷十七~卷二十",
+          "url": "https://archive.org/details/06053490.cn",
+          "imagecount": 181
+        },
+        {
+          "volume": "卷二十一~卷二十二",
+          "url": "https://archive.org/details/06053491.cn",
+          "imagecount": 130
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

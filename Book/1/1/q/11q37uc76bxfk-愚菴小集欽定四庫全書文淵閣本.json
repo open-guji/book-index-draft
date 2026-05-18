@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06048063.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「愚菴小集」文淵閣本，共 6 冊，編號 06048063.cn~06048068.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06048063.cn",
-            "label": "卷一~卷三",
-            "imagecount": 127
-          },
-          {
-            "id": "06048064.cn",
-            "label": "卷四~卷六",
-            "imagecount": 132
-          },
-          {
-            "id": "06048065.cn",
-            "label": "卷七~卷八",
-            "imagecount": 145
-          },
-          {
-            "id": "06048066.cn",
-            "label": "卷九~卷十一",
-            "imagecount": 124
-          },
-          {
-            "id": "06048067.cn",
-            "label": "卷十二~卷十三",
-            "imagecount": 122
-          },
-          {
-            "id": "06048068.cn",
-            "label": "卷十四~卷十五",
-            "imagecount": 130
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06048063.cn",
+          "imagecount": 127
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06048064.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷七~卷八",
+          "url": "https://archive.org/details/06048065.cn",
+          "imagecount": 145
+        },
+        {
+          "volume": "卷九~卷十一",
+          "url": "https://archive.org/details/06048066.cn",
+          "imagecount": 124
+        },
+        {
+          "volume": "卷十二~卷十三",
+          "url": "https://archive.org/details/06048067.cn",
+          "imagecount": 122
+        },
+        {
+          "volume": "卷十四~卷十五",
+          "url": "https://archive.org/details/06048068.cn",
+          "imagecount": 130
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

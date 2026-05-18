@@ -21,67 +21,61 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06079362.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書集編」文淵閣本，共 10 冊，編號 06079362.cn~06079371.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 10,
-        "items": [
-          {
-            "id": "06079362.cn",
-            "label": "大學集编",
-            "imagecount": 161
-          },
-          {
-            "id": "06079363.cn",
-            "label": "論語集编·卷一~卷二",
-            "imagecount": 111
-          },
-          {
-            "id": "06079364.cn",
-            "label": "論語集编·卷三~卷四",
-            "imagecount": 128
-          },
-          {
-            "id": "06079365.cn",
-            "label": "論語集编·卷五~卷七",
-            "imagecount": 176
-          },
-          {
-            "id": "06079366.cn",
-            "label": "論語集编·卷八~卷十",
-            "imagecount": 127
-          },
-          {
-            "id": "06079367.cn",
-            "label": "孟子集编·卷一~卷三",
-            "imagecount": 126
-          },
-          {
-            "id": "06079368.cn",
-            "label": "孟子集编·卷四~卷八",
-            "imagecount": 180
-          },
-          {
-            "id": "06079369.cn",
-            "label": "孟子集编·卷九~卷十一",
-            "imagecount": 123
-          },
-          {
-            "id": "06079370.cn",
-            "label": "孟子集编·卷十二~卷十四",
-            "imagecount": 139
-          },
-          {
-            "id": "06079371.cn",
-            "label": "中庸集编·卷上~卷下",
-            "imagecount": 222
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "大學集编",
+          "url": "https://archive.org/details/06079362.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "論語集编·卷一~卷二",
+          "url": "https://archive.org/details/06079363.cn",
+          "imagecount": 111
+        },
+        {
+          "volume": "論語集编·卷三~卷四",
+          "url": "https://archive.org/details/06079364.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "論語集编·卷五~卷七",
+          "url": "https://archive.org/details/06079365.cn",
+          "imagecount": 176
+        },
+        {
+          "volume": "論語集编·卷八~卷十",
+          "url": "https://archive.org/details/06079366.cn",
+          "imagecount": 127
+        },
+        {
+          "volume": "孟子集编·卷一~卷三",
+          "url": "https://archive.org/details/06079367.cn",
+          "imagecount": 126
+        },
+        {
+          "volume": "孟子集编·卷四~卷八",
+          "url": "https://archive.org/details/06079368.cn",
+          "imagecount": 180
+        },
+        {
+          "volume": "孟子集编·卷九~卷十一",
+          "url": "https://archive.org/details/06079369.cn",
+          "imagecount": 123
+        },
+        {
+          "volume": "孟子集编·卷十二~卷十四",
+          "url": "https://archive.org/details/06079370.cn",
+          "imagecount": 139
+        },
+        {
+          "volume": "中庸集编·卷上~卷下",
+          "url": "https://archive.org/details/06079371.cn",
+          "imagecount": 222
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

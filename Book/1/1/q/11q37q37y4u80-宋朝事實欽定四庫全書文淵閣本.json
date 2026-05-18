@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049345.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「宋朝事實」文淵閣本，共 6 冊，編號 06049345.cn~06049350.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06049345.cn",
-            "label": "卷一~卷三",
-            "imagecount": 154
-          },
-          {
-            "id": "06049346.cn",
-            "label": "卷四~卷六",
-            "imagecount": 170
-          },
-          {
-            "id": "06049347.cn",
-            "label": "卷七~卷九",
-            "imagecount": 152
-          },
-          {
-            "id": "06049348.cn",
-            "label": "卷十~卷十三",
-            "imagecount": 165
-          },
-          {
-            "id": "06049349.cn",
-            "label": "卷十四~卷十六",
-            "imagecount": 121
-          },
-          {
-            "id": "06049350.cn",
-            "label": "卷十七~卷末",
-            "imagecount": 184
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06049345.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06049346.cn",
+          "imagecount": 170
+        },
+        {
+          "volume": "卷七~卷九",
+          "url": "https://archive.org/details/06049347.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷十~卷十三",
+          "url": "https://archive.org/details/06049348.cn",
+          "imagecount": 165
+        },
+        {
+          "volume": "卷十四~卷十六",
+          "url": "https://archive.org/details/06049349.cn",
+          "imagecount": 121
+        },
+        {
+          "volume": "卷十七~卷末",
+          "url": "https://archive.org/details/06049350.cn",
+          "imagecount": 184
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

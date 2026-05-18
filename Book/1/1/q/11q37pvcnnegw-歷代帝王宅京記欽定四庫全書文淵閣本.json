@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06071251.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「歷代帝王宅京記」文淵閣本，共 6 冊，編號 06071251.cn~06071256.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06071251.cn",
-            "label": "卷一~卷三",
-            "imagecount": 147
-          },
-          {
-            "id": "06071252.cn",
-            "label": "卷四~卷六",
-            "imagecount": 136
-          },
-          {
-            "id": "06071253.cn",
-            "label": "卷七~卷九",
-            "imagecount": 152
-          },
-          {
-            "id": "06071254.cn",
-            "label": "卷十~卷十三",
-            "imagecount": 148
-          },
-          {
-            "id": "06071255.cn",
-            "label": "卷十四~卷十七",
-            "imagecount": 168
-          },
-          {
-            "id": "06071256.cn",
-            "label": "卷十八~卷二十",
-            "imagecount": 125
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06071251.cn",
+          "imagecount": 147
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06071252.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷七~卷九",
+          "url": "https://archive.org/details/06071253.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷十~卷十三",
+          "url": "https://archive.org/details/06071254.cn",
+          "imagecount": 148
+        },
+        {
+          "volume": "卷十四~卷十七",
+          "url": "https://archive.org/details/06071255.cn",
+          "imagecount": 168
+        },
+        {
+          "volume": "卷十八~卷二十",
+          "url": "https://archive.org/details/06071256.cn",
+          "imagecount": 125
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06068611.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「子夏易傳」文淵閣本，共 4 冊，編號 06068611.cn~06068775.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06068611.cn",
-            "label": "卷一~卷二",
-            "imagecount": 130
-          },
-          {
-            "id": "06068773.cn",
-            "label": "卷三~卷四",
-            "imagecount": 114
-          },
-          {
-            "id": "06068774.cn",
-            "label": "卷五~卷七",
-            "imagecount": 164
-          },
-          {
-            "id": "06068775.cn",
-            "label": "卷八~卷十一",
-            "imagecount": 100
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06068611.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷三~卷四",
+          "url": "https://archive.org/details/06068773.cn",
+          "imagecount": 114
+        },
+        {
+          "volume": "卷五~卷七",
+          "url": "https://archive.org/details/06068774.cn",
+          "imagecount": 164
+        },
+        {
+          "volume": "卷八~卷十一",
+          "url": "https://archive.org/details/06068775.cn",
+          "imagecount": 100
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

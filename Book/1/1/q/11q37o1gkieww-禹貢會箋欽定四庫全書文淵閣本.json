@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06064766.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「禹貢會箋」文淵閣本，共 4 冊，編號 06064766.cn~06064769.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06064766.cn",
-            "label": "卷首~卷一",
-            "imagecount": 159
-          },
-          {
-            "id": "06064767.cn",
-            "label": "卷二~卷七",
-            "imagecount": 164
-          },
-          {
-            "id": "06064768.cn",
-            "label": "卷八~卷十",
-            "imagecount": 93
-          },
-          {
-            "id": "06064769.cn",
-            "label": "卷十一~卷十二",
-            "imagecount": 120
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷首~卷一",
+          "url": "https://archive.org/details/06064766.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷二~卷七",
+          "url": "https://archive.org/details/06064767.cn",
+          "imagecount": 164
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06064768.cn",
+          "imagecount": 93
+        },
+        {
+          "volume": "卷十一~卷十二",
+          "url": "https://archive.org/details/06064769.cn",
+          "imagecount": 120
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

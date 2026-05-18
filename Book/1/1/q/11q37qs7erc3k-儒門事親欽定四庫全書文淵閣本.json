@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06048749.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「儒門事親」文淵閣本，共 6 冊，編號 06048749.cn~06048754.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06048749.cn",
-            "label": "卷一~卷二",
-            "imagecount": 219
-          },
-          {
-            "id": "06048750.cn",
-            "label": "卷三~卷四",
-            "imagecount": 141
-          },
-          {
-            "id": "06048751.cn",
-            "label": "卷五~卷六",
-            "imagecount": 152
-          },
-          {
-            "id": "06048752.cn",
-            "label": "卷七~卷十",
-            "imagecount": 137
-          },
-          {
-            "id": "06048753.cn",
-            "label": "卷十一~卷十二",
-            "imagecount": 178
-          },
-          {
-            "id": "06048754.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 211
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06048749.cn",
+          "imagecount": 219
+        },
+        {
+          "volume": "卷三~卷四",
+          "url": "https://archive.org/details/06048750.cn",
+          "imagecount": 141
+        },
+        {
+          "volume": "卷五~卷六",
+          "url": "https://archive.org/details/06048751.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷七~卷十",
+          "url": "https://archive.org/details/06048752.cn",
+          "imagecount": 137
+        },
+        {
+          "volume": "卷十一~卷十二",
+          "url": "https://archive.org/details/06048753.cn",
+          "imagecount": 178
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06048754.cn",
+          "imagecount": 211
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

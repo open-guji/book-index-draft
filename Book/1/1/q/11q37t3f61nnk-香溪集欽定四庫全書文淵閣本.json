@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06053745.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「香溪集」文淵閣本，共 4 冊，編號 06053745.cn~06053748.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06053745.cn",
-            "label": "卷一~卷五",
-            "imagecount": 177
-          },
-          {
-            "id": "06053746.cn",
-            "label": "卷六~卷十",
-            "imagecount": 187
-          },
-          {
-            "id": "06053747.cn",
-            "label": "卷十一~卷十五",
-            "imagecount": 149
-          },
-          {
-            "id": "06053748.cn",
-            "label": "卷十六~卷二十二",
-            "imagecount": 221
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷五",
+          "url": "https://archive.org/details/06053745.cn",
+          "imagecount": 177
+        },
+        {
+          "volume": "卷六~卷十",
+          "url": "https://archive.org/details/06053746.cn",
+          "imagecount": 187
+        },
+        {
+          "volume": "卷十一~卷十五",
+          "url": "https://archive.org/details/06053747.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷十六~卷二十二",
+          "url": "https://archive.org/details/06053748.cn",
+          "imagecount": 221
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

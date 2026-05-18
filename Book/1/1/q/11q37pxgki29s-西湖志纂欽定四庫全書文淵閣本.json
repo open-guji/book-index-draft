@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06042839.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「西湖志纂」文淵閣本，共 6 冊，編號 06042839.cn~06042844.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06042839.cn",
-            "label": "卷首~卷一",
-            "imagecount": 208
-          },
-          {
-            "id": "06042840.cn",
-            "label": "卷二~卷三",
-            "imagecount": 130
-          },
-          {
-            "id": "06042841.cn",
-            "label": "卷四~卷五",
-            "imagecount": 136
-          },
-          {
-            "id": "06042842.cn",
-            "label": "卷六~卷七",
-            "imagecount": 137
-          },
-          {
-            "id": "06042843.cn",
-            "label": "卷八~卷九",
-            "imagecount": 146
-          },
-          {
-            "id": "06042844.cn",
-            "label": "卷十~卷十二",
-            "imagecount": 204
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷首~卷一",
+          "url": "https://archive.org/details/06042839.cn",
+          "imagecount": 208
+        },
+        {
+          "volume": "卷二~卷三",
+          "url": "https://archive.org/details/06042840.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06042841.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷六~卷七",
+          "url": "https://archive.org/details/06042842.cn",
+          "imagecount": 137
+        },
+        {
+          "volume": "卷八~卷九",
+          "url": "https://archive.org/details/06042843.cn",
+          "imagecount": 146
+        },
+        {
+          "volume": "卷十~卷十二",
+          "url": "https://archive.org/details/06042844.cn",
+          "imagecount": 204
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

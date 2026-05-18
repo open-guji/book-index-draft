@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06055120.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「四書近指」文淵閣本，共 6 冊，編號 06055120.cn~06055125.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06055120.cn",
-            "label": "卷一~卷三",
-            "imagecount": 100
-          },
-          {
-            "id": "06055121.cn",
-            "label": "卷四~卷七",
-            "imagecount": 126
-          },
-          {
-            "id": "06055122.cn",
-            "label": "卷八~卷十",
-            "imagecount": 128
-          },
-          {
-            "id": "06055123.cn",
-            "label": "卷十一~卷十四",
-            "imagecount": 129
-          },
-          {
-            "id": "06055124.cn",
-            "label": "卷十五~卷十八",
-            "imagecount": 133
-          },
-          {
-            "id": "06055125.cn",
-            "label": "卷十九~卷二十",
-            "imagecount": 104
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06055120.cn",
+          "imagecount": 100
+        },
+        {
+          "volume": "卷四~卷七",
+          "url": "https://archive.org/details/06055121.cn",
+          "imagecount": 126
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06055122.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷十一~卷十四",
+          "url": "https://archive.org/details/06055123.cn",
+          "imagecount": 129
+        },
+        {
+          "volume": "卷十五~卷十八",
+          "url": "https://archive.org/details/06055124.cn",
+          "imagecount": 133
+        },
+        {
+          "volume": "卷十九~卷二十",
+          "url": "https://archive.org/details/06055125.cn",
+          "imagecount": 104
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,22 +21,16 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06040238.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「拙軒集」文淵閣本，共 1 冊，編號 06040238.cn~06040238.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 1,
-        "items": [
-          {
-            "id": "06040238.cn",
-            "label": "卷四~卷六",
-            "imagecount": 81
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06040238.cn",
+          "imagecount": 81
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

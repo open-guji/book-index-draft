@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06048996.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周易參同契發揮」文淵閣本，共 3 冊，編號 06048996.cn~06048998.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06048996.cn",
-            "label": "卷上",
-            "imagecount": 162
-          },
-          {
-            "id": "06048997.cn",
-            "label": "卷中",
-            "imagecount": 180
-          },
-          {
-            "id": "06048998.cn",
-            "label": "卷下",
-            "imagecount": 143
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上",
+          "url": "https://archive.org/details/06048996.cn",
+          "imagecount": 162
+        },
+        {
+          "volume": "卷中",
+          "url": "https://archive.org/details/06048997.cn",
+          "imagecount": 180
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06048998.cn",
+          "imagecount": 143
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

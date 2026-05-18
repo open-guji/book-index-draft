@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06057503.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「測圓海鏡分類釋術」文淵閣本，共 3 冊，編號 06057503.cn~06057505.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06057503.cn",
-            "label": "卷一~卷四",
-            "imagecount": 174
-          },
-          {
-            "id": "06057504.cn",
-            "label": "卷五~卷七",
-            "imagecount": 172
-          },
-          {
-            "id": "06057505.cn",
-            "label": "卷八~卷十",
-            "imagecount": 111
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06057503.cn",
+          "imagecount": 174
+        },
+        {
+          "volume": "卷五~卷七",
+          "url": "https://archive.org/details/06057504.cn",
+          "imagecount": 172
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06057505.cn",
+          "imagecount": 111
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

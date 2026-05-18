@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06040527.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「外科精義」文淵閣本，共 2 冊，編號 06040527.cn~06040528.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06040527.cn",
-            "label": "卷上",
-            "imagecount": 108
-          },
-          {
-            "id": "06040528.cn",
-            "label": "卷下",
-            "imagecount": 148
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上",
+          "url": "https://archive.org/details/06040527.cn",
+          "imagecount": 108
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06040528.cn",
+          "imagecount": 148
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

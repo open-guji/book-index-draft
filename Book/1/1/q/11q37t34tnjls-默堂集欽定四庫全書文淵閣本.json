@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06053730.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「默堂集」文淵閣本，共 6 冊，編號 06053730.cn~06053735.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06053730.cn",
-            "label": "卷一~卷七",
-            "imagecount": 151
-          },
-          {
-            "id": "06053731.cn",
-            "label": "卷八~卷十二",
-            "imagecount": 166
-          },
-          {
-            "id": "06053732.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 183
-          },
-          {
-            "id": "06053733.cn",
-            "label": "卷十六~卷十七",
-            "imagecount": 154
-          },
-          {
-            "id": "06053734.cn",
-            "label": "卷十八~卷十九",
-            "imagecount": 132
-          },
-          {
-            "id": "06053735.cn",
-            "label": "卷二十~卷二十二",
-            "imagecount": 168
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷七",
+          "url": "https://archive.org/details/06053730.cn",
+          "imagecount": 151
+        },
+        {
+          "volume": "卷八~卷十二",
+          "url": "https://archive.org/details/06053731.cn",
+          "imagecount": 166
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06053732.cn",
+          "imagecount": 183
+        },
+        {
+          "volume": "卷十六~卷十七",
+          "url": "https://archive.org/details/06053733.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷十八~卷十九",
+          "url": "https://archive.org/details/06053734.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷二十~卷二十二",
+          "url": "https://archive.org/details/06053735.cn",
+          "imagecount": 168
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

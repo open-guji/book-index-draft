@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06048920.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「林間錄」文淵閣本，共 2 冊，編號 06048920.cn~06048921.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06048920.cn",
-            "label": "卷上",
-            "imagecount": 134
-          },
-          {
-            "id": "06048921.cn",
-            "label": "卷下",
-            "imagecount": 188
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上",
+          "url": "https://archive.org/details/06048920.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06048921.cn",
+          "imagecount": 188
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

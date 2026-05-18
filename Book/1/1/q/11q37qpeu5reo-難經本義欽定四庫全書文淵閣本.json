@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049926.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「難經本義」文淵閣本，共 2 冊，編號 06049926.cn~06049927.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06049926.cn",
-            "label": "卷上",
-            "imagecount": 188
-          },
-          {
-            "id": "06049927.cn",
-            "label": "卷下",
-            "imagecount": 132
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上",
+          "url": "https://archive.org/details/06049926.cn",
+          "imagecount": 188
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06049927.cn",
+          "imagecount": 132
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

@@ -21,52 +21,46 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049838.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「管子補注」文淵閣本，共 7 冊，編號 06049838.cn~06049844.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 7,
-        "items": [
-          {
-            "id": "06049838.cn",
-            "label": "卷一~卷三",
-            "imagecount": 149
-          },
-          {
-            "id": "06049839.cn",
-            "label": "卷四~卷七",
-            "imagecount": 163
-          },
-          {
-            "id": "06049840.cn",
-            "label": "卷八~卷十",
-            "imagecount": 149
-          },
-          {
-            "id": "06049841.cn",
-            "label": "卷十一~卷十四",
-            "imagecount": 177
-          },
-          {
-            "id": "06049842.cn",
-            "label": "卷十五~卷十九",
-            "imagecount": 171
-          },
-          {
-            "id": "06049843.cn",
-            "label": "卷二十~卷二十二",
-            "imagecount": 162
-          },
-          {
-            "id": "06049844.cn",
-            "label": "卷二十三~卷二十四",
-            "imagecount": 118
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06049838.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷四~卷七",
+          "url": "https://archive.org/details/06049839.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06049840.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷十一~卷十四",
+          "url": "https://archive.org/details/06049841.cn",
+          "imagecount": 177
+        },
+        {
+          "volume": "卷十五~卷十九",
+          "url": "https://archive.org/details/06049842.cn",
+          "imagecount": 171
+        },
+        {
+          "volume": "卷二十~卷二十二",
+          "url": "https://archive.org/details/06049843.cn",
+          "imagecount": 162
+        },
+        {
+          "volume": "卷二十三~卷二十四",
+          "url": "https://archive.org/details/06049844.cn",
+          "imagecount": 118
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

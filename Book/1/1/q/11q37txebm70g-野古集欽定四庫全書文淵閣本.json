@@ -21,27 +21,21 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06041149.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「野古集」文淵閣本，共 2 冊，編號 06041149.cn~06041150.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 2,
-        "items": [
-          {
-            "id": "06041149.cn",
-            "label": "卷上~卷中",
-            "imagecount": 157
-          },
-          {
-            "id": "06041150.cn",
-            "label": "卷下",
-            "imagecount": 139
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷上~卷中",
+          "url": "https://archive.org/details/06041149.cn",
+          "imagecount": 157
+        },
+        {
+          "volume": "卷下",
+          "url": "https://archive.org/details/06041150.cn",
+          "imagecount": 139
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

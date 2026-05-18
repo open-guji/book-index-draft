@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06056814.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「東觀漢記」文淵閣本，共 6 冊，編號 06056814.cn~06056819.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06056814.cn",
-            "label": "卷 一",
-            "imagecount": 58
-          },
-          {
-            "id": "06056815.cn",
-            "label": "卷二~卷七",
-            "imagecount": 122
-          },
-          {
-            "id": "06056816.cn",
-            "label": "卷八~卷十二",
-            "imagecount": 127
-          },
-          {
-            "id": "06056817.cn",
-            "label": "卷十三~卷十六",
-            "imagecount": 128
-          },
-          {
-            "id": "06056818.cn",
-            "label": "卷十七~卷二十一",
-            "imagecount": 140
-          },
-          {
-            "id": "06056819.cn",
-            "label": "卷二十二~卷二十四",
-            "imagecount": 57
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷 一",
+          "url": "https://archive.org/details/06056814.cn",
+          "imagecount": 58
+        },
+        {
+          "volume": "卷二~卷七",
+          "url": "https://archive.org/details/06056815.cn",
+          "imagecount": 122
+        },
+        {
+          "volume": "卷八~卷十二",
+          "url": "https://archive.org/details/06056816.cn",
+          "imagecount": 127
+        },
+        {
+          "volume": "卷十三~卷十六",
+          "url": "https://archive.org/details/06056817.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷十七~卷二十一",
+          "url": "https://archive.org/details/06056818.cn",
+          "imagecount": 140
+        },
+        {
+          "volume": "卷二十二~卷二十四",
+          "url": "https://archive.org/details/06056819.cn",
+          "imagecount": 57
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

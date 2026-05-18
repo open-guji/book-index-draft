@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06063030.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「讀易大旨」文淵閣本，共 4 冊，編號 06063030.cn~06063033.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06063030.cn",
-            "label": "卷一",
-            "imagecount": 168
-          },
-          {
-            "id": "06063031.cn",
-            "label": "卷二",
-            "imagecount": 150
-          },
-          {
-            "id": "06063032.cn",
-            "label": "卷三",
-            "imagecount": 100
-          },
-          {
-            "id": "06063033.cn",
-            "label": "卷四~卷五",
-            "imagecount": 106
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06063030.cn",
+          "imagecount": 168
+        },
+        {
+          "volume": "卷二",
+          "url": "https://archive.org/details/06063031.cn",
+          "imagecount": 150
+        },
+        {
+          "volume": "卷三",
+          "url": "https://archive.org/details/06063032.cn",
+          "imagecount": 100
+        },
+        {
+          "volume": "卷四~卷五",
+          "url": "https://archive.org/details/06063033.cn",
+          "imagecount": 106
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

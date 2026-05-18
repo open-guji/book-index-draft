@@ -21,52 +21,46 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06064321.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周易要義」文淵閣本，共 7 冊，編號 06064321.cn~06065899.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 7,
-        "items": [
-          {
-            "id": "06064321.cn",
-            "label": "卷一上~卷一下",
-            "imagecount": 169
-          },
-          {
-            "id": "06064322.cn",
-            "label": "卷二上~卷三下",
-            "imagecount": 126
-          },
-          {
-            "id": "06064323.cn",
-            "label": "卷四上~卷四下",
-            "imagecount": 84
-          },
-          {
-            "id": "06064324.cn",
-            "label": "卷五上~卷五下",
-            "imagecount": 88
-          },
-          {
-            "id": "06064325.cn",
-            "label": "卷八~卷十",
-            "imagecount": 117
-          },
-          {
-            "id": "06065898.cn",
-            "label": "卷六上~卷六下",
-            "imagecount": 67
-          },
-          {
-            "id": "06065899.cn",
-            "label": "卷七上~卷七下",
-            "imagecount": 62
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一上~卷一下",
+          "url": "https://archive.org/details/06064321.cn",
+          "imagecount": 169
+        },
+        {
+          "volume": "卷二上~卷三下",
+          "url": "https://archive.org/details/06064322.cn",
+          "imagecount": 126
+        },
+        {
+          "volume": "卷四上~卷四下",
+          "url": "https://archive.org/details/06064323.cn",
+          "imagecount": 84
+        },
+        {
+          "volume": "卷五上~卷五下",
+          "url": "https://archive.org/details/06064324.cn",
+          "imagecount": 88
+        },
+        {
+          "volume": "卷八~卷十",
+          "url": "https://archive.org/details/06064325.cn",
+          "imagecount": 117
+        },
+        {
+          "volume": "卷六上~卷六下",
+          "url": "https://archive.org/details/06065898.cn",
+          "imagecount": 67
+        },
+        {
+          "volume": "卷七上~卷七下",
+          "url": "https://archive.org/details/06065899.cn",
+          "imagecount": 62
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

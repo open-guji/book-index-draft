@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06044543.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「夢粱錄」文淵閣本，共 4 冊，編號 06044543.cn~06044546.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06044543.cn",
-            "label": "卷一~卷六",
-            "imagecount": 163
-          },
-          {
-            "id": "06044544.cn",
-            "label": "卷七~卷十一",
-            "imagecount": 159
-          },
-          {
-            "id": "06044545.cn",
-            "label": "卷十二~卷十七",
-            "imagecount": 192
-          },
-          {
-            "id": "06044546.cn",
-            "label": "卷十八~卷二十",
-            "imagecount": 116
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷六",
+          "url": "https://archive.org/details/06044543.cn",
+          "imagecount": 163
+        },
+        {
+          "volume": "卷七~卷十一",
+          "url": "https://archive.org/details/06044544.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷十二~卷十七",
+          "url": "https://archive.org/details/06044545.cn",
+          "imagecount": 192
+        },
+        {
+          "volume": "卷十八~卷二十",
+          "url": "https://archive.org/details/06044546.cn",
+          "imagecount": 116
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,57 +21,51 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06043444.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周禮傳」文淵閣本，共 8 冊，編號 06043444.cn~06043451.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 8,
-        "items": [
-          {
-            "id": "06043444.cn",
-            "label": "卷一上",
-            "imagecount": 138
-          },
-          {
-            "id": "06043445.cn",
-            "label": "卷一下",
-            "imagecount": 116
-          },
-          {
-            "id": "06043446.cn",
-            "label": "卷二上",
-            "imagecount": 134
-          },
-          {
-            "id": "06043447.cn",
-            "label": "卷二下",
-            "imagecount": 124
-          },
-          {
-            "id": "06043448.cn",
-            "label": "卷三上~卷三下",
-            "imagecount": 212
-          },
-          {
-            "id": "06043449.cn",
-            "label": "卷四上~卷四下",
-            "imagecount": 188
-          },
-          {
-            "id": "06043450.cn",
-            "label": "卷五上",
-            "imagecount": 120
-          },
-          {
-            "id": "06043451.cn",
-            "label": "卷五下",
-            "imagecount": 96
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一上",
+          "url": "https://archive.org/details/06043444.cn",
+          "imagecount": 138
+        },
+        {
+          "volume": "卷一下",
+          "url": "https://archive.org/details/06043445.cn",
+          "imagecount": 116
+        },
+        {
+          "volume": "卷二上",
+          "url": "https://archive.org/details/06043446.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷二下",
+          "url": "https://archive.org/details/06043447.cn",
+          "imagecount": 124
+        },
+        {
+          "volume": "卷三上~卷三下",
+          "url": "https://archive.org/details/06043448.cn",
+          "imagecount": 212
+        },
+        {
+          "volume": "卷四上~卷四下",
+          "url": "https://archive.org/details/06043449.cn",
+          "imagecount": 188
+        },
+        {
+          "volume": "卷五上",
+          "url": "https://archive.org/details/06043450.cn",
+          "imagecount": 120
+        },
+        {
+          "volume": "卷五下",
+          "url": "https://archive.org/details/06043451.cn",
+          "imagecount": 96
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

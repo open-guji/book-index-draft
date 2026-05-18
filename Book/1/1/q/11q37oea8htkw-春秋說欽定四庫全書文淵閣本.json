@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045757.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「春秋說」文淵閣本，共 6 冊，編號 06045757.cn~06045762.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06045757.cn",
-            "label": "卷一~卷四",
-            "imagecount": 151
-          },
-          {
-            "id": "06045758.cn",
-            "label": "卷五~卷十",
-            "imagecount": 167
-          },
-          {
-            "id": "06045759.cn",
-            "label": "卷十一~卷十五",
-            "imagecount": 166
-          },
-          {
-            "id": "06045760.cn",
-            "label": "卷十六~卷二十",
-            "imagecount": 169
-          },
-          {
-            "id": "06045761.cn",
-            "label": "卷二十一~卷二十四",
-            "imagecount": 164
-          },
-          {
-            "id": "06045762.cn",
-            "label": "卷二十五~卷三十",
-            "imagecount": 215
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06045757.cn",
+          "imagecount": 151
+        },
+        {
+          "volume": "卷五~卷十",
+          "url": "https://archive.org/details/06045758.cn",
+          "imagecount": 167
+        },
+        {
+          "volume": "卷十一~卷十五",
+          "url": "https://archive.org/details/06045759.cn",
+          "imagecount": 166
+        },
+        {
+          "volume": "卷十六~卷二十",
+          "url": "https://archive.org/details/06045760.cn",
+          "imagecount": 169
+        },
+        {
+          "volume": "卷二十一~卷二十四",
+          "url": "https://archive.org/details/06045761.cn",
+          "imagecount": 164
+        },
+        {
+          "volume": "卷二十五~卷三十",
+          "url": "https://archive.org/details/06045762.cn",
+          "imagecount": 215
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

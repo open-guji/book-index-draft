@@ -21,32 +21,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06071153.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「六帖補」文淵閣本，共 3 冊，編號 06071153.cn~06071155.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06071153.cn",
-            "label": "卷一~卷七",
-            "imagecount": 131
-          },
-          {
-            "id": "06071154.cn",
-            "label": "卷八~卷十四",
-            "imagecount": 136
-          },
-          {
-            "id": "06071155.cn",
-            "label": "卷十五~卷二十",
-            "imagecount": 114
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷七",
+          "url": "https://archive.org/details/06071153.cn",
+          "imagecount": 131
+        },
+        {
+          "volume": "卷八~卷十四",
+          "url": "https://archive.org/details/06071154.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷十五~卷二十",
+          "url": "https://archive.org/details/06071155.cn",
+          "imagecount": 114
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06070174.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「丹陽集」文淵閣本，共 6 冊，編號 06070174.cn~06070180.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06070174.cn",
-            "label": "卷一~卷三",
-            "imagecount": 149
-          },
-          {
-            "id": "06070176.cn",
-            "label": "卷八~卷十二",
-            "imagecount": 148
-          },
-          {
-            "id": "06070177.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 139
-          },
-          {
-            "id": "06070178.cn",
-            "label": "卷十六~卷十九",
-            "imagecount": 189
-          },
-          {
-            "id": "06070179.cn",
-            "label": "卷二十~卷二十一",
-            "imagecount": 110
-          },
-          {
-            "id": "06070180.cn",
-            "label": "卷二十~卷二十一",
-            "imagecount": 134
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06070174.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷八~卷十二",
+          "url": "https://archive.org/details/06070176.cn",
+          "imagecount": 148
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06070177.cn",
+          "imagecount": 139
+        },
+        {
+          "volume": "卷十六~卷十九",
+          "url": "https://archive.org/details/06070178.cn",
+          "imagecount": 189
+        },
+        {
+          "volume": "卷二十~卷二十一",
+          "url": "https://archive.org/details/06070179.cn",
+          "imagecount": 110
+        },
+        {
+          "volume": "卷二十~卷二十一",
+          "url": "https://archive.org/details/06070180.cn",
+          "imagecount": 134
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

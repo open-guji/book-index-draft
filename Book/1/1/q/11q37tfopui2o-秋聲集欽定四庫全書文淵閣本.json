@@ -31,32 +31,26 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06040183.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「秋聲集」文淵閣本，共 3 冊，編號 06040183.cn~06040185.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 3,
-        "items": [
-          {
-            "id": "06040183.cn",
-            "label": "卷一~卷二",
-            "imagecount": 161
-          },
-          {
-            "id": "06040184.cn",
-            "label": "卷三~卷四",
-            "imagecount": 106
-          },
-          {
-            "id": "06040185.cn",
-            "label": "卷五~卷六",
-            "imagecount": 116
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06040183.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "卷三~卷四",
+          "url": "https://archive.org/details/06040184.cn",
+          "imagecount": 106
+        },
+        {
+          "volume": "卷五~卷六",
+          "url": "https://archive.org/details/06040185.cn",
+          "imagecount": 116
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

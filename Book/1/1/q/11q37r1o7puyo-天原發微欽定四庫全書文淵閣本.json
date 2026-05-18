@@ -21,97 +21,91 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06060508.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「天原發微」文淵閣本，共 16 冊，編號 06060508.cn~06065976.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 16,
-        "items": [
-          {
-            "id": "06060508.cn",
-            "label": "總目",
-            "imagecount": 159
-          },
-          {
-            "id": "06060509.cn",
-            "label": "卷一上~卷一下",
-            "imagecount": 153
-          },
-          {
-            "id": "06060510.cn",
-            "label": "卷二上~卷二下",
-            "imagecount": 187
-          },
-          {
-            "id": "06060511.cn",
-            "label": "卷三上",
-            "imagecount": 122
-          },
-          {
-            "id": "06060512.cn",
-            "label": "卷三下",
-            "imagecount": 118
-          },
-          {
-            "id": "06060513.cn",
-            "label": "卷四上",
-            "imagecount": 130
-          },
-          {
-            "id": "06060514.cn",
-            "label": "卷四下",
-            "imagecount": 74
-          },
-          {
-            "id": "06060515.cn",
-            "label": "卷五上",
-            "imagecount": 132
-          },
-          {
-            "id": "06060516.cn",
-            "label": "卷五下",
-            "imagecount": 152
-          },
-          {
-            "id": "06065970.cn",
-            "label": "卷一上",
-            "imagecount": 234
-          },
-          {
-            "id": "06065971.cn",
-            "label": "卷一下",
-            "imagecount": 78
-          },
-          {
-            "id": "06065972.cn",
-            "label": "卷二上~卷二下",
-            "imagecount": 187
-          },
-          {
-            "id": "06065973.cn",
-            "label": "卷三上~卷三下",
-            "imagecount": 239
-          },
-          {
-            "id": "06065974.cn",
-            "label": "卷四上~卷四下",
-            "imagecount": 203
-          },
-          {
-            "id": "06065975.cn",
-            "label": "卷五上",
-            "imagecount": 132
-          },
-          {
-            "id": "06065976.cn",
-            "label": "卷五下",
-            "imagecount": 152
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "總目",
+          "url": "https://archive.org/details/06060508.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷一上~卷一下",
+          "url": "https://archive.org/details/06060509.cn",
+          "imagecount": 153
+        },
+        {
+          "volume": "卷二上~卷二下",
+          "url": "https://archive.org/details/06060510.cn",
+          "imagecount": 187
+        },
+        {
+          "volume": "卷三上",
+          "url": "https://archive.org/details/06060511.cn",
+          "imagecount": 122
+        },
+        {
+          "volume": "卷三下",
+          "url": "https://archive.org/details/06060512.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷四上",
+          "url": "https://archive.org/details/06060513.cn",
+          "imagecount": 130
+        },
+        {
+          "volume": "卷四下",
+          "url": "https://archive.org/details/06060514.cn",
+          "imagecount": 74
+        },
+        {
+          "volume": "卷五上",
+          "url": "https://archive.org/details/06060515.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷五下",
+          "url": "https://archive.org/details/06060516.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷一上",
+          "url": "https://archive.org/details/06065970.cn",
+          "imagecount": 234
+        },
+        {
+          "volume": "卷一下",
+          "url": "https://archive.org/details/06065971.cn",
+          "imagecount": 78
+        },
+        {
+          "volume": "卷二上~卷二下",
+          "url": "https://archive.org/details/06065972.cn",
+          "imagecount": 187
+        },
+        {
+          "volume": "卷三上~卷三下",
+          "url": "https://archive.org/details/06065973.cn",
+          "imagecount": 239
+        },
+        {
+          "volume": "卷四上~卷四下",
+          "url": "https://archive.org/details/06065974.cn",
+          "imagecount": 203
+        },
+        {
+          "volume": "卷五上",
+          "url": "https://archive.org/details/06065975.cn",
+          "imagecount": 132
+        },
+        {
+          "volume": "卷五下",
+          "url": "https://archive.org/details/06065976.cn",
+          "imagecount": 152
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",

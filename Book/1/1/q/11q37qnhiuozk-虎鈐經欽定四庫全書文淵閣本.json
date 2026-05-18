@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049791.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「虎鈐經」文淵閣本，共 4 冊，編號 06049791.cn~06049794.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06049791.cn",
-            "label": "卷一~卷六",
-            "imagecount": 161
-          },
-          {
-            "id": "06049792.cn",
-            "label": "卷七~卷十一",
-            "imagecount": 152
-          },
-          {
-            "id": "06049793.cn",
-            "label": "卷十二~卷十七",
-            "imagecount": 154
-          },
-          {
-            "id": "06049794.cn",
-            "label": "卷十八~卷二十",
-            "imagecount": 51
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷六",
+          "url": "https://archive.org/details/06049791.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "卷七~卷十一",
+          "url": "https://archive.org/details/06049792.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷十二~卷十七",
+          "url": "https://archive.org/details/06049793.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷十八~卷二十",
+          "url": "https://archive.org/details/06049794.cn",
+          "imagecount": 51
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045495.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「淡然軒集」文淵閣本，共 6 冊，編號 06045495.cn~06045500.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06045495.cn",
-            "label": "卷一~卷二",
-            "imagecount": 183
-          },
-          {
-            "id": "06045496.cn",
-            "label": "卷三~卷四",
-            "imagecount": 137
-          },
-          {
-            "id": "06045497.cn",
-            "label": "卷五",
-            "imagecount": 100
-          },
-          {
-            "id": "06045498.cn",
-            "label": "卷六",
-            "imagecount": 178
-          },
-          {
-            "id": "06045499.cn",
-            "label": "卷七",
-            "imagecount": 126
-          },
-          {
-            "id": "06045500.cn",
-            "label": "卷八",
-            "imagecount": 114
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷二",
+          "url": "https://archive.org/details/06045495.cn",
+          "imagecount": 183
+        },
+        {
+          "volume": "卷三~卷四",
+          "url": "https://archive.org/details/06045496.cn",
+          "imagecount": 137
+        },
+        {
+          "volume": "卷五",
+          "url": "https://archive.org/details/06045497.cn",
+          "imagecount": 100
+        },
+        {
+          "volume": "卷六",
+          "url": "https://archive.org/details/06045498.cn",
+          "imagecount": 178
+        },
+        {
+          "volume": "卷七",
+          "url": "https://archive.org/details/06045499.cn",
+          "imagecount": 126
+        },
+        {
+          "volume": "卷八",
+          "url": "https://archive.org/details/06045500.cn",
+          "imagecount": 114
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

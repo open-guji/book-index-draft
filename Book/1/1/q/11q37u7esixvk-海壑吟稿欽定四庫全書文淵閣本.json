@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06042192.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「海壑吟稿」文淵閣本，共 4 冊，編號 06042192.cn~06042195.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06042192.cn",
-            "label": "卷一~卷三",
-            "imagecount": 135
-          },
-          {
-            "id": "06042193.cn",
-            "label": "卷四~卷六",
-            "imagecount": 148
-          },
-          {
-            "id": "06042194.cn",
-            "label": "卷七~卷九",
-            "imagecount": 125
-          },
-          {
-            "id": "06042195.cn",
-            "label": "卷十~卷十一",
-            "imagecount": 73
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06042192.cn",
+          "imagecount": 135
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06042193.cn",
+          "imagecount": 148
+        },
+        {
+          "volume": "卷七~卷九",
+          "url": "https://archive.org/details/06042194.cn",
+          "imagecount": 125
+        },
+        {
+          "volume": "卷十~卷十一",
+          "url": "https://archive.org/details/06042195.cn",
+          "imagecount": 73
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

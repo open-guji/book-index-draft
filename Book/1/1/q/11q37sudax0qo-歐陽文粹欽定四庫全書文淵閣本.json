@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06062147.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「歐陽文粹」文淵閣本，共 4 冊，編號 06062147.cn~06062150.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06062147.cn",
-            "label": "卷一~卷三",
-            "imagecount": 134
-          },
-          {
-            "id": "06062148.cn",
-            "label": "卷四~卷九",
-            "imagecount": 175
-          },
-          {
-            "id": "06062149.cn",
-            "label": "卷十~卷十四",
-            "imagecount": 144
-          },
-          {
-            "id": "06062150.cn",
-            "label": "卷十五~卷二十",
-            "imagecount": 197
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06062147.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷四~卷九",
+          "url": "https://archive.org/details/06062148.cn",
+          "imagecount": 175
+        },
+        {
+          "volume": "卷十~卷十四",
+          "url": "https://archive.org/details/06062149.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷十五~卷二十",
+          "url": "https://archive.org/details/06062150.cn",
+          "imagecount": 197
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

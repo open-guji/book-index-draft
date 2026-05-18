@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06043963.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「中庵集」文淵閣本，共 6 冊，編號 06043963.cn~06043968.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06043963.cn",
-            "label": "卷一~卷四",
-            "imagecount": 145
-          },
-          {
-            "id": "06043964.cn",
-            "label": "卷五~卷八",
-            "imagecount": 140
-          },
-          {
-            "id": "06043965.cn",
-            "label": "卷九~卷十二",
-            "imagecount": 123
-          },
-          {
-            "id": "06043966.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 118
-          },
-          {
-            "id": "06043967.cn",
-            "label": "卷十六~卷十七",
-            "imagecount": 128
-          },
-          {
-            "id": "06043968.cn",
-            "label": "卷十八~卷二十",
-            "imagecount": 136
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06043963.cn",
+          "imagecount": 145
+        },
+        {
+          "volume": "卷五~卷八",
+          "url": "https://archive.org/details/06043964.cn",
+          "imagecount": 140
+        },
+        {
+          "volume": "卷九~卷十二",
+          "url": "https://archive.org/details/06043965.cn",
+          "imagecount": 123
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06043966.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷十六~卷十七",
+          "url": "https://archive.org/details/06043967.cn",
+          "imagecount": 128
+        },
+        {
+          "volume": "卷十八~卷二十",
+          "url": "https://archive.org/details/06043968.cn",
+          "imagecount": 136
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

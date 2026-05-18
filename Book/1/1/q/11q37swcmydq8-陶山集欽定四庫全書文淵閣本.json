@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06049276.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「陶山集」文淵閣本，共 4 冊，編號 06049276.cn~06049279.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06049276.cn",
-            "label": "卷一~卷四",
-            "imagecount": 152
-          },
-          {
-            "id": "06049277.cn",
-            "label": "卷五~卷八",
-            "imagecount": 135
-          },
-          {
-            "id": "06049278.cn",
-            "label": "卷九~卷十三",
-            "imagecount": 159
-          },
-          {
-            "id": "06049279.cn",
-            "label": "卷十四~卷十六",
-            "imagecount": 120
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06049276.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷五~卷八",
+          "url": "https://archive.org/details/06049277.cn",
+          "imagecount": 135
+        },
+        {
+          "volume": "卷九~卷十三",
+          "url": "https://archive.org/details/06049278.cn",
+          "imagecount": 159
+        },
+        {
+          "volume": "卷十四~卷十六",
+          "url": "https://archive.org/details/06049279.cn",
+          "imagecount": 120
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06062525.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「新唐書糾謬」文淵閣本，共 4 冊，編號 06062525.cn~06062528.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06062525.cn",
-            "label": "卷一~卷四",
-            "imagecount": 134
-          },
-          {
-            "id": "06062526.cn",
-            "label": "卷五~卷九",
-            "imagecount": 171
-          },
-          {
-            "id": "06062527.cn",
-            "label": "卷十~卷十三",
-            "imagecount": 151
-          },
-          {
-            "id": "06062528.cn",
-            "label": "卷十四~卷二十",
-            "imagecount": 130
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06062525.cn",
+          "imagecount": 134
+        },
+        {
+          "volume": "卷五~卷九",
+          "url": "https://archive.org/details/06062526.cn",
+          "imagecount": 171
+        },
+        {
+          "volume": "卷十~卷十三",
+          "url": "https://archive.org/details/06062527.cn",
+          "imagecount": 151
+        },
+        {
+          "volume": "卷十四~卷二十",
+          "url": "https://archive.org/details/06062528.cn",
+          "imagecount": 130
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

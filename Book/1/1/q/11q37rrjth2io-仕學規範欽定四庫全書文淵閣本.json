@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06063361.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「仕學規範」文淵閣本，共 6 冊，編號 06063361.cn~06063366.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06063361.cn",
-            "label": "卷一",
-            "imagecount": 60
-          },
-          {
-            "id": "06063362.cn",
-            "label": "卷二~卷八",
-            "imagecount": 138
-          },
-          {
-            "id": "06063363.cn",
-            "label": "卷九~卷十四",
-            "imagecount": 124
-          },
-          {
-            "id": "06063364.cn",
-            "label": "卷十五~卷二十四",
-            "imagecount": 184
-          },
-          {
-            "id": "06063365.cn",
-            "label": "卷二十五~卷三十二",
-            "imagecount": 144
-          },
-          {
-            "id": "06063366.cn",
-            "label": "卷三十三~卷四十",
-            "imagecount": 150
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06063361.cn",
+          "imagecount": 60
+        },
+        {
+          "volume": "卷二~卷八",
+          "url": "https://archive.org/details/06063362.cn",
+          "imagecount": 138
+        },
+        {
+          "volume": "卷九~卷十四",
+          "url": "https://archive.org/details/06063363.cn",
+          "imagecount": 124
+        },
+        {
+          "volume": "卷十五~卷二十四",
+          "url": "https://archive.org/details/06063364.cn",
+          "imagecount": 184
+        },
+        {
+          "volume": "卷二十五~卷三十二",
+          "url": "https://archive.org/details/06063365.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷三十三~卷四十",
+          "url": "https://archive.org/details/06063366.cn",
+          "imagecount": 150
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

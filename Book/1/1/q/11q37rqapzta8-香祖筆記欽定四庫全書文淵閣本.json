@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06063313.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「香祖筆記」文淵閣本，共 4 冊，編號 06063313.cn~06063316.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06063313.cn",
-            "label": "卷一~卷三",
-            "imagecount": 176
-          },
-          {
-            "id": "06063314.cn",
-            "label": "卷四~卷六",
-            "imagecount": 162
-          },
-          {
-            "id": "06063315.cn",
-            "label": "卷七~卷九",
-            "imagecount": 154
-          },
-          {
-            "id": "06063316.cn",
-            "label": "卷十~卷十二",
-            "imagecount": 154
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06063313.cn",
+          "imagecount": 176
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06063314.cn",
+          "imagecount": 162
+        },
+        {
+          "volume": "卷七~卷九",
+          "url": "https://archive.org/details/06063315.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷十~卷十二",
+          "url": "https://archive.org/details/06063316.cn",
+          "imagecount": 154
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

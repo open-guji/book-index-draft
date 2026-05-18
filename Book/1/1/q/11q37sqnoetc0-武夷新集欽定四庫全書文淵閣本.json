@@ -21,52 +21,46 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06051054.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「武夷新集」文淵閣本，共 7 冊，編號 06051054.cn~06051060.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 7,
-        "items": [
-          {
-            "id": "06051054.cn",
-            "label": "卷一~卷三",
-            "imagecount": 147
-          },
-          {
-            "id": "06051055.cn",
-            "label": "卷四~卷六",
-            "imagecount": 144
-          },
-          {
-            "id": "06051056.cn",
-            "label": "卷七~卷九",
-            "imagecount": 161
-          },
-          {
-            "id": "06051057.cn",
-            "label": "卷十~卷十二",
-            "imagecount": 152
-          },
-          {
-            "id": "06051058.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 173
-          },
-          {
-            "id": "06051059.cn",
-            "label": "卷十六~卷十八",
-            "imagecount": 154
-          },
-          {
-            "id": "06051060.cn",
-            "label": "卷十九~卷二十",
-            "imagecount": 106
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷三",
+          "url": "https://archive.org/details/06051054.cn",
+          "imagecount": 147
+        },
+        {
+          "volume": "卷四~卷六",
+          "url": "https://archive.org/details/06051055.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷七~卷九",
+          "url": "https://archive.org/details/06051056.cn",
+          "imagecount": 161
+        },
+        {
+          "volume": "卷十~卷十二",
+          "url": "https://archive.org/details/06051057.cn",
+          "imagecount": 152
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06051058.cn",
+          "imagecount": 173
+        },
+        {
+          "volume": "卷十六~卷十八",
+          "url": "https://archive.org/details/06051059.cn",
+          "imagecount": 154
+        },
+        {
+          "volume": "卷十九~卷二十",
+          "url": "https://archive.org/details/06051060.cn",
+          "imagecount": 106
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

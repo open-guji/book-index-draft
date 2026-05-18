@@ -21,47 +21,41 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06045345.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「夢澤集」文淵閣本，共 6 冊，編號 06045345.cn~06045350.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 6,
-        "items": [
-          {
-            "id": "06045345.cn",
-            "label": "卷一~卷四",
-            "imagecount": 117
-          },
-          {
-            "id": "06045346.cn",
-            "label": "卷五~卷七",
-            "imagecount": 136
-          },
-          {
-            "id": "06045347.cn",
-            "label": "卷八~卷十二",
-            "imagecount": 118
-          },
-          {
-            "id": "06045348.cn",
-            "label": "卷十三~卷十五",
-            "imagecount": 120
-          },
-          {
-            "id": "06045349.cn",
-            "label": "卷十六~卷十七",
-            "imagecount": 149
-          },
-          {
-            "id": "06045350.cn",
-            "label": "卷十八~卷二十三",
-            "imagecount": 98
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一~卷四",
+          "url": "https://archive.org/details/06045345.cn",
+          "imagecount": 117
+        },
+        {
+          "volume": "卷五~卷七",
+          "url": "https://archive.org/details/06045346.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷八~卷十二",
+          "url": "https://archive.org/details/06045347.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷十三~卷十五",
+          "url": "https://archive.org/details/06045348.cn",
+          "imagecount": 120
+        },
+        {
+          "volume": "卷十六~卷十七",
+          "url": "https://archive.org/details/06045349.cn",
+          "imagecount": 149
+        },
+        {
+          "volume": "卷十八~卷二十三",
+          "url": "https://archive.org/details/06045350.cn",
+          "imagecount": 98
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

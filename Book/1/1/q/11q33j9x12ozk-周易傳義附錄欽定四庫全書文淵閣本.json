@@ -21,97 +21,91 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06062815.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「周易傳義附錄」文淵閣本，共 16 冊，編號 06062815.cn~06062831.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 16,
-        "items": [
-          {
-            "id": "06062815.cn",
-            "label": "卷首上",
-            "imagecount": 118
-          },
-          {
-            "id": "06062816.cn",
-            "label": "卷首下",
-            "imagecount": 107
-          },
-          {
-            "id": "06062817.cn",
-            "label": "卷一",
-            "imagecount": 182
-          },
-          {
-            "id": "06062818.cn",
-            "label": "卷二上",
-            "imagecount": 113
-          },
-          {
-            "id": "06062819.cn",
-            "label": "卷二下",
-            "imagecount": 110
-          },
-          {
-            "id": "06062820.cn",
-            "label": "卷三上",
-            "imagecount": 116
-          },
-          {
-            "id": "06062821.cn",
-            "label": "卷三下",
-            "imagecount": 104
-          },
-          {
-            "id": "06062823.cn",
-            "label": "卷五上~卷五下",
-            "imagecount": 212
-          },
-          {
-            "id": "06062824.cn",
-            "label": "卷六",
-            "imagecount": 174
-          },
-          {
-            "id": "06062825.cn",
-            "label": "卷七上~卷七下",
-            "imagecount": 223
-          },
-          {
-            "id": "06062826.cn",
-            "label": "卷八上",
-            "imagecount": 126
-          },
-          {
-            "id": "06062827.cn",
-            "label": "卷八下",
-            "imagecount": 104
-          },
-          {
-            "id": "06062828.cn",
-            "label": "卷九上~卷九下",
-            "imagecount": 213
-          },
-          {
-            "id": "06062829.cn",
-            "label": "卷十上",
-            "imagecount": 136
-          },
-          {
-            "id": "06062830.cn",
-            "label": "卷十下",
-            "imagecount": 144
-          },
-          {
-            "id": "06062831.cn",
-            "label": "卷十一~卷十四",
-            "imagecount": 181
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷首上",
+          "url": "https://archive.org/details/06062815.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷首下",
+          "url": "https://archive.org/details/06062816.cn",
+          "imagecount": 107
+        },
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06062817.cn",
+          "imagecount": 182
+        },
+        {
+          "volume": "卷二上",
+          "url": "https://archive.org/details/06062818.cn",
+          "imagecount": 113
+        },
+        {
+          "volume": "卷二下",
+          "url": "https://archive.org/details/06062819.cn",
+          "imagecount": 110
+        },
+        {
+          "volume": "卷三上",
+          "url": "https://archive.org/details/06062820.cn",
+          "imagecount": 116
+        },
+        {
+          "volume": "卷三下",
+          "url": "https://archive.org/details/06062821.cn",
+          "imagecount": 104
+        },
+        {
+          "volume": "卷五上~卷五下",
+          "url": "https://archive.org/details/06062823.cn",
+          "imagecount": 212
+        },
+        {
+          "volume": "卷六",
+          "url": "https://archive.org/details/06062824.cn",
+          "imagecount": 174
+        },
+        {
+          "volume": "卷七上~卷七下",
+          "url": "https://archive.org/details/06062825.cn",
+          "imagecount": 223
+        },
+        {
+          "volume": "卷八上",
+          "url": "https://archive.org/details/06062826.cn",
+          "imagecount": 126
+        },
+        {
+          "volume": "卷八下",
+          "url": "https://archive.org/details/06062827.cn",
+          "imagecount": 104
+        },
+        {
+          "volume": "卷九上~卷九下",
+          "url": "https://archive.org/details/06062828.cn",
+          "imagecount": 213
+        },
+        {
+          "volume": "卷十上",
+          "url": "https://archive.org/details/06062829.cn",
+          "imagecount": 136
+        },
+        {
+          "volume": "卷十下",
+          "url": "https://archive.org/details/06062830.cn",
+          "imagecount": 144
+        },
+        {
+          "volume": "卷十一~卷十四",
+          "url": "https://archive.org/details/06062831.cn",
+          "imagecount": 181
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"

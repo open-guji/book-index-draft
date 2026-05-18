@@ -21,37 +21,31 @@
       "id": "ia-zhejiang-cadal",
       "name": "Internet Archive · 浙大 CADAL 散卷",
       "short_name": "IA·浙大",
-      "url": "https://archive.org/details/06050636.cn",
-      "details": "浙江大學 CADAL 項目 600ppi 掃描的「說文解字篆韻譜」文淵閣本，共 4 冊，編號 06050636.cn~06050639.cn。hank@archive.org 2009-10 起上傳。",
       "types": [
         "image"
       ],
-      "volumes": {
-        "url_template": "https://archive.org/details/{n}",
-        "item_count": 4,
-        "items": [
-          {
-            "id": "06050636.cn",
-            "label": "卷一",
-            "imagecount": 118
-          },
-          {
-            "id": "06050637.cn",
-            "label": "卷二~卷三",
-            "imagecount": 202
-          },
-          {
-            "id": "06050638.cn",
-            "label": "卷四",
-            "imagecount": 110
-          },
-          {
-            "id": "06050639.cn",
-            "label": "卷五",
-            "imagecount": 101
-          }
-        ]
-      }
+      "volumes": [
+        {
+          "volume": "卷一",
+          "url": "https://archive.org/details/06050636.cn",
+          "imagecount": 118
+        },
+        {
+          "volume": "卷二~卷三",
+          "url": "https://archive.org/details/06050637.cn",
+          "imagecount": 202
+        },
+        {
+          "volume": "卷四",
+          "url": "https://archive.org/details/06050638.cn",
+          "imagecount": 110
+        },
+        {
+          "volume": "卷五",
+          "url": "https://archive.org/details/06050639.cn",
+          "imagecount": 101
+        }
+      ]
     }
   ],
   "edition": "欽定四庫全書·文淵閣本"
