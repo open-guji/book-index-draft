@@ -9,7 +9,34 @@
     "text": "中國最早的詩歌總集，收錄西周初年至春秋中葉（前 11 世紀至前 6 世紀）詩歌 305 篇，分風（160）、雅（105）、頌（40）三類。相傳孔子刪訂。漢初有齊、魯、韓三家今文詩，毛亨、毛萇傳授古文《毛詩》（東漢盛行）。後三家詩亡，《毛詩》獨存。歷代注疏：漢毛亨傳、漢鄭玄箋（《毛詩傳箋》）、唐孔穎達《毛詩正義》（與毛傳鄭箋合刻為《毛詩注疏》入十三經注疏）、宋朱熹《詩集傳》（廢序之說）、清陳奐《詩毛氏傳疏》、清馬瑞辰《毛詩傳箋通釋》、清胡承珙《毛詩後箋》。",
     "sources": []
   },
-  "ai_note": "新建原典 Work（先秦詩歌總集，相傳孔子刪訂）。原索引中 title=詩經 6 條 + title=毛詩 2 條 為各家注本/版本（毛傳、朱熹集傳、蔣衡石經、世祖敕譯滿文本 等），原典單列一條，諸注本通過 commentary_on 關聯。",
+  "indexed_by": [
+    {
+      "source": "漢書藝文志",
+      "source_bid": "1euhm19a23jsw",
+      "title_info": "經二十八卷",
+      "summary": "《經》二十八卷，魯、齊、韓三家。"
+    }
+  ],
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "ai_note": "新建原典 Work（先秦詩歌總集，相傳孔子刪訂）。原索引中 title=詩經 6 條 + title=毛詩 2 條 為各家注本/版本（毛傳、朱熹集傳、蔣衡石經、世祖敕譯滿文本 等），原典單列一條，諸注本通過 commentary_on 關聯。 | 2026-07-25：將 4 個「故宮善本舊籍」版本 Work（1evdsxgoye1hc 漢毛亨毛萇傳本、1evkaeri9zzsw 宋朱熹本、1evkq280u06ww 清蔣衡寫本、1evkq30pd5pfk 清世祖敕譯滿文本）合併入本 Work，判定它們均為《詩經》文本的具體印本/寫本而非獨立注解體系。原 Work 已刪除，其 7 個 Book（11qkhv29txvy8、11qki3q3dvncw、11qki2pc0zh1c、11qki30f8kiyo、11qki2o8g15a8、11qki35k123uo、11qki3h5uifi8）的 work_id 均改指本 Work，並將原 Work.authors 移入各自 Book.authors 保留版本著者信息。原 1evdsxgoye1hc 的 indexed_by（漢書藝文志）與 resources（維基文庫）一併合併上移。",
+  "books": [
+    "11qkhv29txvy8",
+    "11qki3q3dvncw",
+    "11qki2pc0zh1c",
+    "11qki30f8kiyo",
+    "11qki2o8g15a8",
+    "11qki35k123uo",
+    "11qki3h5uifi8"
+  ],
   "related_works": [
     {
       "id": "1ahwtau87mm80",
@@ -897,11 +924,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evdsxgoye1hc",
-      "title": "詩經",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evdsxgqgpc00",
       "title": "毛詩故訓傳",
       "relation": "text_carried_by"
@@ -1472,11 +1494,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evkaeri9zzsw",
-      "title": "詩經",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evkaf5ntnu2o",
       "title": "新刊詩經集成圖說",
       "relation": "text_carried_by"
@@ -1562,18 +1579,8 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evkq280u06ww",
-      "title": "詩經",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evkq2c7bmyv4",
       "title": "欽定篆文毛詩",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkq30pd5pfk",
-      "title": "詩經",
       "relation": "text_carried_by"
     },
     {
