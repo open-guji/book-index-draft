@@ -9,7 +9,7 @@
     "text": "中國最古的政事文獻彙編，記載虞、夏、商、周諸代帝王政令誥誓。「尚」者上也，謂上古帝王之書。相傳孔子刪訂百篇，為《書序》。秦焚書後，伏生口傳今文《尚書》28篇（漢隸寫定），漢武帝時孔壁發現古文《尚書》多 16 篇（蝌蚪篆文，孔安國以隸古定釋讀，未列學官，魏晉之際亡佚）。東晉梅賾獻偽古文《尚書》及孔安國傳，分58篇（其中今文28篇析為33篇，多出25篇偽古文），是為今本《尚書》。歷代注疏以漢馬融、鄭玄注（佚），漢偽孔安國傳（東晉梅賾獻），唐孔穎達《尚書正義》，宋蔡沈《書集傳》，清閻若璩《尚書古文疏證》（辨偽古文），孫星衍《尚書今古文注疏》最為精審。",
     "sources": []
   },
-  "ai_note": "新建原典 Work（先秦上古帝王政事彙編，相傳孔子刪訂）。原索引中 6 條 title=尚書 + 3 條 title=書經 為各家注本/版本，按整理規範，原典單列一條，諸注本通過 related_works.commentary_on 關聯。 | 從 1evkpwdotswlc 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000073）。無作者信息。阶段 5 兜底建立。",
+  "ai_note": "新建原典 Work（先秦上古帝王政事彙編，相傳孔子刪訂）。原索引中 6 條 title=尚書 + 3 條 title=書經 為各家注本/版本，按整理規範，原典單列一條，諸注本通過 related_works.commentary_on 關聯。 | 從 1evkpwdotswlc 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000073）。無作者信息。阶段 5 兜底建立。 | 2026-07-25：整理 title=尚書 的 6 條 Work——1ev7vo57l9tz4（漢孔安國傳/通行本，已有獨立學術資料與 8 個 Book，保留獨立）與 1evd3dbargem8（晉謝沈注，已亡佚，改名「尚書謝沈注」以區分，保留獨立）判定為與原典不同的具體注本/佚本，不合併；1evkq2desquio（清蔣衡手寫/石拓本）判定為單純的故宮善本目錄版本條目，合併入本 Work，其 3 個 Book（11qki35j1sagw 故殿034752-034759、11qki30g77v9c 故殿030593-030607、11qki3o8bqa68 故內002013）work_id 均改指本 Work，前兩者 authors 保留蔣衡手寫信息；11qki3o8bqa68（明內府朱絲欄寫本）朝代與蔣衡（清）不符，暫未補 authors，待後續核實其真實版本歸屬。另發現 1evfuv94b0ao0（原題「尚書」，王坦之）與 1evfuv8widybk（原題「尚書」，王述）實為《補晉書藝文志·丁部集録·別集類》中「尚書[僕]射王坦之集」「尚書[僕]射王述集」之訛略，是二人個人文集而非《尚書》版本，已改名並從本 Work 的 related_works 中移除。",
   "related_works": [
     {
       "id": "1ahwtau87mm80",
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "1evd3dbargem8",
-      "title": "尚書",
+      "title": "尚書謝沈注",
       "relation": "text_carried_by"
     },
     {
@@ -1419,16 +1419,6 @@
     {
       "id": "1evfuv7psqygw",
       "title": "尚書僕射劉退集",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfuv8widybk",
-      "title": "尚書",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfuv94b0ao0",
-      "title": "尚書",
       "relation": "text_carried_by"
     },
     {
@@ -2417,11 +2407,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evkq2desquio",
-      "title": "尚書",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evr5e3m6vjcm",
       "title": "書經傳說彙纂",
       "relation": "text_carried_by"
@@ -3120,6 +3105,9 @@
     "11qkhvayf677k",
     "11qkhvb1l3thc",
     "11qki2o7h2kg0",
-    "11qki2wwd86ps"
+    "11qki2wwd86ps",
+    "11qki35j1sagw",
+    "11qki30g77v9c",
+    "11qki3o8bqa68"
   ]
 }
