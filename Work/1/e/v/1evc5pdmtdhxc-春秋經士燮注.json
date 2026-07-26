@@ -4,6 +4,9 @@
   "authors": [
     {
       "name": "士燮",
+      "role": "注",
+      "dynasty": "吳",
+      "note": "吳衛將軍",
       "entity_id": "1j96hfa4cstmo"
     }
   ],
@@ -13,18 +16,35 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《春秋經》十一卷",
       "summary": "《春秋經》十一卷吳衛將軍士燮注。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋經》十一卷",
+      "summary": "《春秋經》十一卷士燮撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "士爕注春秋經",
+      "summary": "士爕注春秋經十一卷"
     }
   ],
   "juan_count": {
     "number": 11
   },
   "description": {
-    "text": "吴卫将军士燮注。"
+    "text": "三國吳衛將軍士燮注《春秋經》十一卷，隋唐諸志並著錄。已亡佚。",
+    "sources": [
+      "《隋書·經籍志》",
+      "《舊唐書·經籍志》",
+      "《新唐書·藝文志》"
+    ]
   },
   "related_works": [
     {
-      "id": "1ev7w0eturncw",
-      "title": "",
+      "id": "1ewns0ose83cw",
+      "title": "春秋",
       "relation": "contains_text_of"
     }
   ],
@@ -43,5 +63,10 @@
       "number": 11
     }
   ],
-  "measure_info": "十一卷"
+  "measure_info": "十一卷",
+  "additional_titles": [
+    "士燮注春秋經",
+    "春秋經"
+  ],
+  "ai_note": "| 2026-07-26：合併兩條同指本書的重複條目：1evcpctxn3mrk（原題「春秋經」，舊唐書經籍志「《春秋經》十一卷士燮撰」，無關聯空殼）與 1evdxnp6e5og0（原題「士爕注春秋經」，新唐書藝文志，十一卷，「爕」為「燮」異體）。⚠️ 注意：被合併的 1evdxnp6e5og0 其作者掛的是另一個 Entity 1j96hf7msxvcw（士爕），與本 Work 的 1j96hfa4cstmo（士燮）實為同一人的重複 Entity，建議後續合併人物條目。"
 }
