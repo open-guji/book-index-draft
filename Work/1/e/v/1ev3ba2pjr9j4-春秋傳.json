@@ -25,6 +25,19 @@
       "title_info": "《春秋傳》三十卷",
       "summary": "《春秋傳》三十卷（胡安國）",
       "author_info": "胡安國"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "春秋",
+      "summary": "春秋》一卷。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "春秋",
+      "summary": "《春秋》舊用宋胡安國傳，乾隆間廢，改用《左傳》杜注三十卷。{{江寧本左傳有姚培謙補注，鮑本合刻三傳，附《春秋傳說匯纂》。}}",
+      "author_info": "舊用宋胡安國傳，乾隆間廢，改用《左傳》杜注三十卷"
     }
   ],
   "books": [
@@ -33,7 +46,8 @@
     "11qkhvr4y6hog",
     "11qkhy8sj1khs",
     "11qki23hal9fk",
-    "11qki40wrstts"
+    "11qki40wrstts",
+    "11qki2peeihvk"
   ],
   "juan_count": {
     "number": 30
@@ -94,6 +108,14 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B",
+      "types": [
+        "text"
+      ]
     }
   ],
   "has_text": true,
@@ -104,5 +126,13 @@
       "number": 30
     }
   ],
-  "measure_info": "三十卷"
+  "measure_info": "三十卷",
+  "related_works": [
+    {
+      "id": "1ev7w0eturncw",
+      "title": "春秋",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": " | 2026-07-26：合併 1evr5e3meogvn（原題「春秋」，胡安國，一卷，清史稿藝文志經部經總義類＋書目答問「《春秋》舊用宋胡安國傳，乾隆間廢，改用《左傳》杜注」，含 1 個 Book）入本 Work——該條實即本書（胡安國《春秋傳》三十卷，明清科舉通行本），因目錄僅記「春秋」簡稱而誤立。並補上與《春秋》原典的 related_works 連結。"
 }

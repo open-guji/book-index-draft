@@ -43,6 +43,11 @@
       "title_info": "《大戴禮記》十三卷",
       "summary": "《大戴禮記》十三卷（漢戴德撰。）",
       "author_info": "漢戴德撰。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "漢信都王太傅梁戴德延君、九江太守聖次君皆受《禮》於後蒼，所謂《大、小戴禮》者也。漢初以來，迄於劉向校定中書，諸家所記，殆數百篇。戴德刪其煩重，為八十五篇。聖又刪為四十九篇。相傳如此。今小戴四十九篇行於"
     }
   ],
   "books": [
@@ -194,5 +199,65 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "從 1evjy5xpv79xc 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。"
+  "ai_note": "從 1evjy5xpv79xc 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 2026-07-26：從禮記（小戴，1evl7nlb2nda8）related_works 移入 11 條原本誤掛在小戴禮記下的大戴禮記注疏（盧辯注、補注、解詁、斠補等），大戴禮記本自成獨立作品，不應作為小戴禮記/禮記的衍生注疏處理。 | 2026-07-26（續）：合併孤兒條目 1evr5e3mjzi29（原題「大戴禮」，十三卷，直齋書錄解題著錄，related_works 原本為空）入本 Work，卷數與本 Work 完全一致，「大戴禮」移為 additional_titles，其直齋書錄解題 indexed_by 併入。",
+  "related_works": [
+    {
+      "id": "1evincf0cbytc",
+      "title": "大戴禮記盧辯注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evincf1mj37k",
+      "title": "大戴禮記補注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evincf2ywveo",
+      "title": "大戴禮記解詁",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqz02qapds",
+      "title": "大戴禮記斠補",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqz0lxpclc",
+      "title": "校正孔氏大戴禮記補注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evkanusbkef4",
+      "title": "大戴禮記孔校補正",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m7i0b7",
+      "title": "大戴禮記補註",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m7i0bb",
+      "title": "大戴禮記正誤",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m7i0be",
+      "title": "大戴禮記箋證",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m7i0bf",
+      "title": "大戴禮記補註",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m7i0bg",
+      "title": "大戴禮記考",
+      "relation": "text_carried_by"
+    }
+  ],
+  "additional_titles": [
+    "大戴禮"
+  ]
 }

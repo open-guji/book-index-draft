@@ -9469,8 +9469,8 @@
     "title": "連山",
     "type": "Work",
     "path": "Work/1/e/v/1evcmnfn39ekg-連山.json",
-    "juan_count": 30,
-    "measure_info": "三十卷"
+    "measure_info": "漢世八萬言（桓譚《新論》）／清輯佚一卷",
+    "subtype": "book"
   },
   "1evcmnfnld62o": {
     "id": "1evcmnfnld62o",
@@ -9985,7 +9985,9 @@
     "title": "歸藏",
     "type": "Work",
     "path": "Work/1/e/v/1evcpcssh0vls-歸藏.json",
-    "has_text": true
+    "has_text": true,
+    "subtype": "book",
+    "measure_info": "隋唐十三卷（薛貞注）／宋存三篇／清輯佚一卷"
   },
   "1evcpcsu8paf4": {
     "id": "1evcpcsu8paf4",
@@ -17342,23 +17344,30 @@
   },
   "1evetxcy245xc": {
     "id": "1evetxcy245xc",
-    "title": "論語",
+    "title": "論語譙周注",
     "type": "Work",
-    "path": "Work/1/e/v/1evetxcy245xc-論語（譙周）.json",
+    "path": "Work/1/e/v/1evetxcy245xc-論語譙周注.json",
     "author": "譙周",
     "role": "注",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "dynasty": "蜀漢",
+    "additional_titles": [
+      "論語"
+    ]
   },
   "1evetxcy3zl6o": {
     "id": "1evetxcy3zl6o",
-    "title": "論語",
+    "title": "論語孟釐注",
     "type": "Work",
-    "path": "Work/1/e/v/1evetxcy3zl6o-論語（孟釐）.json",
+    "path": "Work/1/e/v/1evetxcy3zl6o-論語孟釐注.json",
     "author": "孟釐",
     "role": "注",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "additional_titles": [
+      "論語"
+    ]
   },
   "1evetxcyvrpj4": {
     "id": "1evetxcyvrpj4",
@@ -39823,14 +39832,6 @@
       "孟子古註擇從"
     ]
   },
-  "1evr5e3m7t8xx": {
-    "id": "1evr5e3m7t8xx",
-    "title": "齊論語",
-    "type": "Work",
-    "path": "Work/1/e/v/1evr5e3m7t8xx-齊論語.json",
-    "juan_count": 1,
-    "measure_info": "一卷"
-  },
   "1evr5e3m7t8y9": {
     "id": "1evr5e3m7t8y9",
     "title": "晉繆播論語旨序",
@@ -45473,13 +45474,6 @@
     "path": "Work/1/e/v/1evr5e3mifbc9-白石丁稿.json",
     "juan_count": 1
   },
-  "1evr5e3mifbci": {
-    "id": "1evr5e3mifbci",
-    "title": "論語",
-    "type": "Work",
-    "path": "Work/1/e/v/1evr5e3mifbci-論語.json",
-    "juan_count": 10
-  },
   "1evr5e3mifbcy": {
     "id": "1evr5e3mifbcy",
     "title": "玉泉講學",
@@ -45523,16 +45517,6 @@
     "author": "子重",
     "role": "集",
     "juan_count": 2
-  },
-  "1evr5e3mifbhn": {
-    "id": "1evr5e3mifbhn",
-    "title": "歸藏",
-    "type": "Work",
-    "path": "Work/1/e/v/1evr5e3mifbhn-歸藏.json",
-    "author": "參軍薛貞",
-    "dynasty": "晉",
-    "role": "注",
-    "juan_count": 3
   },
   "1evr5e3miqjvo": {
     "id": "1evr5e3miqjvo",
@@ -45857,13 +45841,6 @@
     "title": "南歸錄",
     "type": "Work",
     "path": "Work/1/e/v/1evr5e3mjd126-南歸錄.json",
-    "juan_count": 1
-  },
-  "1evr5e3mjd12f": {
-    "id": "1evr5e3mjd12f",
-    "title": "春秋經",
-    "type": "Work",
-    "path": "Work/1/e/v/1evr5e3mjd12f-春秋經.json",
     "juan_count": 1
   },
   "1evr5e3mjd12v": {

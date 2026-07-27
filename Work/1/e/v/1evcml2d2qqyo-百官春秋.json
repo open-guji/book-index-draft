@@ -14,17 +14,37 @@
       "title_info": "《百官春秋》五十卷",
       "summary": "《百官春秋》五十卷（王秀道：）",
       "author_info": "王秀道："
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《百官春秋》二十卷",
+      "summary": "《百官春秋》二十卷"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《百官春秋》五十卷",
+      "summary": "《百官春秋》五十卷王秀道撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《百官春秋》十三卷",
+      "summary": "《百官春秋》十三卷王道秀撰。"
     }
   ],
   "authors": [
     {
       "name": "王秀道",
       "role": "撰",
+      "dynasty": "宋",
+      "note": "《舊唐書·經籍志》作「王道秀」，二字倒乙，同一人。",
       "entity_id": "1j96hezzohzb4"
     }
   ],
   "juan_count": {
-    "number": 20
+    "number": 50
   },
   "id": "1evcml2d2qqyo",
   "emendated_by": [
@@ -38,8 +58,18 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 20
+      "number": 50
     }
   ],
-  "measure_info": "二十卷"
+  "measure_info": "二十卷",
+  "description": {
+    "text": "南朝宋王秀道撰，記歷代職官沿革。以《春秋》名者取編年紀事之義，與《春秋》經無關。諸志所載卷數不一：《隋志》五十卷，《舊唐志》十三卷（作「王道秀」），《新唐志》六卷，《國史經籍志》二十卷。",
+    "sources": [
+      "《隋書·經籍志》",
+      "《舊唐書·經籍志》",
+      "《新唐書·藝文志》",
+      "《國史經籍志》"
+    ]
+  },
+  "ai_note": "| 2026-07-26：合併 3 條同書重複條目（1evgphpy2la80、1evcml2cy26tc、1evcpjotzo3y8），各志著錄卷數/著者記法不一致而被分別建檔，今併為一條並補作者、卷數、description。"
 }
