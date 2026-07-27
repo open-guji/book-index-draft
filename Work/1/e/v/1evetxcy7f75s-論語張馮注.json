@@ -1,12 +1,13 @@
 {
   "id": "1evetxcy7f75s",
   "type": "work",
-  "title": "論語",
+  "title": "論語張馮注",
   "authors": [
     {
-      "name": "司徒左長史張馮",
+      "name": "張馮",
       "role": "注",
-      "entity_id": "1j96hf87olbeo"
+      "dynasty": "晉",
+      "note": "字長宗，吳郡人，官司徒左長史；《晉書》作張憑"
     }
   ],
   "juan_count": {
@@ -20,7 +21,7 @@
       "title_info": "梁有司徒左長史張馮注《論語》十卷，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有司徒左長史張馮注《論語》十卷，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有司徒左長史張馮注《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語張馮注」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。",
   "measures": [
     {
       "unit": "卷",
@@ -34,5 +35,8 @@
       "title": "論語",
       "relation": "contains_text_of"
     }
+  ],
+  "additional_titles": [
+    "論語"
   ]
 }

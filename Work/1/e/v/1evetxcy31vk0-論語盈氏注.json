@@ -1,12 +1,11 @@
 {
   "id": "1evetxcy31vk0",
   "type": "work",
-  "title": "論語",
+  "title": "論語盈氏注",
   "authors": [
     {
       "name": "盈氏",
-      "role": "注",
-      "entity_id": "1j96hfbsyee4g"
+      "role": "注"
     }
   ],
   "juan_count": {
@@ -20,7 +19,7 @@
       "title_info": "梁有盈氏注《論語》十卷，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有盈氏注《論語》十卷，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有盈氏注《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語盈氏注」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。",
   "measures": [
     {
       "unit": "卷",
@@ -34,5 +33,8 @@
       "title": "論語",
       "relation": "contains_text_of"
     }
+  ],
+  "additional_titles": [
+    "論語"
   ]
 }

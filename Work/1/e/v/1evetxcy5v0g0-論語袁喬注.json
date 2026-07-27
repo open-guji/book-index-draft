@@ -1,12 +1,13 @@
 {
   "id": "1evetxcy5v0g0",
   "type": "work",
-  "title": "論語",
+  "title": "論語袁喬注",
   "authors": [
     {
-      "name": "晉益州刺史袁喬",
+      "name": "袁喬",
       "role": "注",
-      "entity_id": "1j96hf874xd6o"
+      "dynasty": "晉",
+      "note": "字彥叔，陳郡陽夏人，官益州刺史"
     }
   ],
   "juan_count": {
@@ -20,7 +21,7 @@
       "title_info": "梁有晉益州刺史袁喬注《論語》十卷，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有晉益州刺史袁喬注《論語》十卷，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有晉益州刺史袁喬注《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語袁喬注」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。",
   "measures": [
     {
       "unit": "卷",
@@ -34,5 +35,8 @@
       "title": "論語",
       "relation": "contains_text_of"
     }
+  ],
+  "additional_titles": [
+    "論語"
   ]
 }

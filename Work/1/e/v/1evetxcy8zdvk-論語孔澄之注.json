@@ -1,12 +1,13 @@
 {
   "id": "1evetxcy8zdvk",
   "type": "work",
-  "title": "論語",
+  "title": "論語孔澄之注",
   "authors": [
     {
-      "name": "宋新安太守孔澄之",
+      "name": "孔澄之",
       "role": "注",
-      "entity_id": "1j96hf88rx7uo"
+      "dynasty": "宋",
+      "note": "字仲淵，會稽人，官新安太守"
     }
   ],
   "juan_count": {
@@ -20,7 +21,7 @@
       "title_info": "梁有宋新安太守孔澄之注《論語》十卷，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有宋新安太守孔澄之注《論語》十卷，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有宋新安太守孔澄之注《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語孔澄之注」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。",
   "measures": [
     {
       "unit": "卷",
@@ -34,5 +35,8 @@
       "title": "論語",
       "relation": "contains_text_of"
     }
+  ],
+  "additional_titles": [
+    "論語"
   ]
 }
