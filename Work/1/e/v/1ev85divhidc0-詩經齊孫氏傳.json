@@ -1,7 +1,14 @@
 {
   "type": "work",
   "title": "詩經齊孫氏傳",
-  "authors": [],
+  "authors": [
+    {
+      "name": "孫氏",
+      "role": "撰",
+      "dynasty": "漢",
+      "note": "《齊詩》孫氏一家，名字未詳"
+    }
+  ],
   "description": {
     "text": "已亡佚。《齊詩》在漢魏之間已亡佚，《魯詩》流傳至晉代亡佚，唐宋以還，《韓詩》亦只有經後人整理的《韓詩外傳》十卷。三家詩說有部分保留在鄭玄《箋》中。",
     "sources": [
@@ -24,5 +31,15 @@
       "title": "詩經",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 28
+    }
+  ],
+  "measure_info": "二十八卷",
+  "juan_count": {
+    "number": 28
+  }
 }
