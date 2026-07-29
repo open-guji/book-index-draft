@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "荀子",
+  "title": "荀子楊倞注",
   "authors": [
     {
-      "name": "切倞",
-      "role": "撰",
-      "entity_id": "1j96hfv3qgwzk"
+      "name": "楊倞",
+      "role": "注",
+      "dynasty": "唐",
+      "note": "唐弘農人，元和間為大理評事，作《荀子注》，為今存最早之荀子全注"
     }
   ],
   "juan_count": {
@@ -32,7 +33,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞",
+  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞 本條實為《荀子》之注本而書題僅作「荀子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「荀子楊倞注」，原題記於 original_title。　《國史經籍志》刻本作「切倞注」，「切」為「楊」之訛；《書目答問》正作「《荀子》楊倞注二十卷」。",
   "id": "1evgpmoqoy2gw",
   "measures": [
     {
@@ -40,5 +41,13 @@
       "number": 20
     }
   ],
-  "measure_info": "二十卷"
+  "measure_info": "二十卷",
+  "original_title": "荀子",
+  "related_works": [
+    {
+      "id": "1ev3bb72dbqio",
+      "title": "荀子",
+      "relation": "contains_text_of"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "type": "work",
-  "title": "管子",
+  "title": "管子房玄齡注",
   "juan_count": {
     "number": 18
   },
@@ -25,7 +25,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者 \"唐房玄齡注\" 補自《中華再造善本》目錄。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 作者 \"唐房玄齡注\" 補自《中華再造善本》目錄。 本條實為《管子》之注本而書題僅作「管子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「管子房玄齡注」，原題記於 original_title。　《書目答問》：「《管子》尹知章注廿四卷。舊題唐房玄齡注。」今仍其舊題而記其實。",
   "id": "1evgq09ntpxxc",
   "measures": [
     {
@@ -57,10 +57,19 @@
       "name": "房玄齡",
       "role": "注",
       "dynasty": "唐",
+      "note": "舊題房玄齡注，實為唐尹知章注，後人誤題",
       "entity_id": "1j967cp1zdr17"
     }
   ],
   "books": [
     "11qk4xwct6s5o"
+  ],
+  "original_title": "管子",
+  "related_works": [
+    {
+      "id": "1ev3bbf25i3nk",
+      "title": "管子",
+      "relation": "contains_text_of"
+    }
   ]
 }

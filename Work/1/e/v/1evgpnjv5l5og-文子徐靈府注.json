@@ -1,11 +1,12 @@
 {
   "type": "work",
-  "title": "文子",
+  "title": "文子徐靈府注",
   "authors": [
     {
       "name": "徐靈府",
-      "role": "撰",
+      "role": "注",
       "dynasty": "唐",
+      "note": "號默希子，唐末道士，注《文子》十二卷",
       "entity_id": "1j967da97jm0e"
     }
   ],
@@ -37,7 +38,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 本條實為《文子》之注本而書題僅作「文子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「文子徐靈府注」，原題記於 original_title。　《續修四庫全書》影印明天啟梁杰刻本。",
   "id": "1evgpnjv5l5og",
   "measures": [
     {
@@ -66,6 +67,14 @@
       "types": [
         "image"
       ]
+    }
+  ],
+  "original_title": "文子",
+  "related_works": [
+    {
+      "id": "1ev7xki5xrzeo",
+      "title": "文子",
+      "relation": "contains_text_of"
     }
   ]
 }
