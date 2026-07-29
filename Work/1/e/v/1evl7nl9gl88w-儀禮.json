@@ -9,6 +9,12 @@
       "role": "撰",
       "dynasty": "周",
       "note": "學界共識為春秋戰國之際各國行用禮儀的整理結集。漢初由魯人高堂生傳。"
+    },
+    {
+      "name": "高堂生",
+      "role": "傳",
+      "dynasty": "漢",
+      "note": "傳今文《士禮》十七篇"
     }
   ],
   "juan_count": {
@@ -17,9 +23,13 @@
   },
   "description": {
     "text": "古名《士禮》或《禮》，記士冠、士昏、聘禮、覲禮、喪服 等貴族禮儀，今本十七篇。漢初高堂生傳今文《士禮》十七篇於後倉，後倉傳大、小戴及慶氏，立今文禮博士。武帝末魯共王壞孔宅，得古文《禮》56 篇，較今文多 39 篇，孔安國以隸古定釋讀，藏祕府。歷代注疏：漢鄭玄《儀禮注》（合今古文，今通行），唐賈公彥《儀禮疏》（合鄭注成《儀禮注疏》入十三經注疏），宋朱熹《儀禮經傳通解》，清張爾岐《儀禮鄭注句讀》、胡培翬《儀禮正義》。",
-    "sources": []
+    "sources": [
+      "《漢書·藝文志》",
+      "《儀禮注疏》",
+      "彭林《儀禮全譯》"
+    ]
   },
-  "ai_note": "新建原典 Work（先秦士禮，相傳孔子整理，漢高堂生傳今文 17 篇）。 | 從 1evkq1iupnfuo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿003839-003862）。無作者信息。阶段 5 兜底建立。 | 從 1evqpmwxle9kw 合併（A.2/A.3 誤建之冗餘原典 Work，本應指向本主條目）。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dxsck5c（catalog: 故殿034788-034804，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 1 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。",
+  "ai_note": "新建原典 Work（先秦士禮，相傳孔子整理，漢高堂生傳今文 17 篇）。 | 從 1evkq1iupnfuo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿003839-003862）。無作者信息。阶段 5 兜底建立。 | 從 1evqpmwxle9kw 合併（A.2/A.3 誤建之冗餘原典 Work，本應指向本主條目）。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dxsck5c（catalog: 故殿034788-034804，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 1 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。 | 從 1ev7vo5c7c2yo《儀禮高堂生傳本》合併：二目所指同為《儀禮》經文本身，內容無別（鄭玄注本另有專目，見 related_works），故併爲一。併入著錄：漢書藝文志、舊唐書經籍志、宋史藝文志。原掛該目之《新唐書藝文志》「大唐儀禮」一條，係以注者立目，已移歸 1evgpicemz1mo《大唐儀禮》。",
   "related_works": [
     {
       "id": "1ahwtau87mm80",
@@ -30,11 +40,6 @@
       "id": "1ahwtau9gw0zk",
       "title": "十三經注疏",
       "relation": "collected_in"
-    },
-    {
-      "id": "1ev7vo5c7c2yo",
-      "title": "儀禮高堂生傳本",
-      "relation": "text_carried_by"
     },
     {
       "id": "1evr5e3mfaxw2",
@@ -169,11 +174,6 @@
     {
       "id": "1evc5pcufejgg",
       "title": "儀禮王肅注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3mfaxw2",
-      "title": "儀禮鄭玄注",
       "relation": "text_carried_by"
     },
     {
@@ -715,6 +715,71 @@
       "id": "1evr5e3mfaxw4",
       "title": "儀禮䟽",
       "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcuzdq80",
+      "title": "喪服經傳鄭玄注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcv42adc",
+      "title": "喪服經傳陳銓注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcv8quio",
+      "title": "喪服經傳王肅注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcvnf01s",
+      "title": "喪服經傳略注雷次宗注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcvsesqo",
+      "title": "喪服經傳集注蔡超注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcvws4cg",
+      "title": "喪服經傳集注孔倫注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcw1rx1c",
+      "title": "喪服經傳集注裴松之注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcw72y9s",
+      "title": "喪服經傳集解田僧紹注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcy0bjsw",
+      "title": "喪服譜鄭玄注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcyvja4g",
+      "title": "喪服要記王肅注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evikjz57iwow",
+      "title": "古文禮經",
+      "relation": "related"
+    },
+    {
+      "id": "1ev85dixoherk",
+      "title": "禮曲臺后倉",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1ev85dixcme4g",
+      "title": "禮王史氏",
+      "relation": "text_carried_by"
     }
   ],
   "books": [
@@ -726,5 +791,40 @@
   "additional_titles": [
     "禮古經",
     "士禮"
-  ]
+  ],
+  "indexed_by": [
+    {
+      "source": "漢書藝文志",
+      "source_bid": "1euhm19a23jsw",
+      "title_info": "經七十篇（今文禮經）",
+      "summary": "《禮古經》五十六卷，《經》七十篇。⟨后氏、戴氏。⟩"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《儀禮》十七卷",
+      "summary": "《儀禮》十七卷鄭玄注。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《儀禮》十七篇（（高堂生傳））",
+      "summary": "《儀禮》十七篇（（高堂生傳））"
+    }
+  ],
+  "emendated_by": [
+    {
+      "source": "漢藝文志考證",
+      "source_bid": "1ev3bb40n3k74",
+      "title_info": "經七十篇。",
+      "summary": "儒林傳：魯高堂生傳士禮十七篇。按今儀禮士禮有冠、昏、相見、喪、夕、虞、特牲饋食七篇，他皆天子、諸侯、卿大夫禮。喪服傳，子夏所爲，白虎通謂之禮服傳。鄭康成注以今古二字並之，或從今，或從古，或疊二文，别釋餘義。張淳曰：漢初未有儀禮之名，疑後漢學者見十七篇中有儀有禮，遂合而名之也。歐陽氏曰：大射之篇獨曰儀，蓋射主於容，升降揖遜不可失。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "篇",
+      "number": 17
+    }
+  ],
+  "measure_info": "十七篇（《漢志》原作「經七十篇」，「七十」爲「十七」之倒）"
 }

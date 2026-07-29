@@ -2,6 +2,7 @@
   "id": "1evr5e3mfaxw2",
   "type": "work",
   "title": "儀禮鄭玄注",
+  "original_title": "儀禮",
   "juan_count": {
     "number": 17
   },
@@ -41,6 +42,12 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《儀禮》十七卷鄭玄注。",
       "summary": "《儀禮》十七卷鄭玄注。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "注儀禮",
+      "summary": "注儀禮十七卷"
     }
   ],
   "measures": [
@@ -68,11 +75,13 @@
       "entity_id": "1j9678njjg2rr"
     }
   ],
-  "ai_note": "作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evdibpfuh5og 合併。原註：標題與現有Work匹配但作者不同（Title match but author mismatch: entry='已上' vs work='高堂生' (GYPh4eDpJf9)），判定為同名異書，新建獨立Work。 來源：明史藝文志。 作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy6n6pokxs 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1ev7vo5c7c2yo(高堂生);1evdibpfuh5og();31hyr4yqz8q6v()（不同作者，故新建獨立 Work）。 | 從 31hyr4yqz8q6v 合併。原註：清史稿藝文志經部經總義類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部經總義類 作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evdibpfuh5og 合併。原註：標題與現有Work匹配但作者不同（Title match but author mismatch: entry='已上' vs work='高堂生' (GYPh4eDpJf9)），判定為同名異書，新建獨立Work。 來源：明史藝文志。 作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy6n6pokxs 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1ev7vo5c7c2yo(高堂生);1evdibpfuh5og();31hyr4yqz8q6v()（不同作者，故新建獨立 Work）。 | 從 31hyr4yqz8q6v 合併。原註：清史稿藝文志經部經總義類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部經總義類 作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 原描述作「明代經部禮類著作，作者不詳」，係自動比對致誤：本目為漢鄭玄注《儀禮》十七卷，今正。 | 《新唐書藝文志》「注儀禮」原整批誤掛於三禮原典或《禮記鄭玄注》，今歸本目。",
   "description": {
-    "text": "明代經部禮類著作，作者不詳。",
+    "text": "東漢鄭玄注《儀禮》十七卷，今存，為《儀禮》最早且唯一完整傳世的漢代注本。《隋書·經籍志》《舊唐書·經籍志》並著錄「《儀禮》十七卷，鄭玄注」，《崇文總目》作「儀禮十七卷」。漢初高堂生傳今文《士禮》十七篇，武帝時魯共王壞孔宅得古文《禮》五十六篇；鄭玄注《儀禮》兼用今古文，擇善而從，於經文之異同一一注明「今文作某」「古文作某」，為後世校勘今古文之所本。唐賈公彥作疏，合成《儀禮注疏》，列入《十三經注疏》；清張爾岐《儀禮鄭注句讀》、胡培翬《儀禮正義》皆推衍鄭注。傳世善本以宋嚴州單注本為最著，張敦仁、黃丕烈皆有影刻。",
     "sources": [
-      "明史藝文志"
+      "《隋書·經籍志》",
+      "《舊唐書·經籍志》",
+      "《四庫全書總目》"
     ]
   },
   "related_works": [
@@ -85,15 +94,19 @@
       "id": "1evl7nl9gl88w",
       "title": "儀禮",
       "relation": "contains_text_of"
-    },
-    {
-      "id": "1ev7vo5c7c2yo",
-      "title": "",
-      "relation": "contains_text_of"
     }
   ],
   "additional_titles": [
     "儀禮",
     "儀禮鄭氏注"
+  ],
+  "books": [
+    "11qk4xwcvzx1x",
+    "11qki0cbf5atc",
+    "11qkhvbluleyo",
+    "11qkhv2avplog",
+    "11qki0joux43k",
+    "11qki0hq366f4",
+    "11qkhsj2x9iww"
   ]
 }

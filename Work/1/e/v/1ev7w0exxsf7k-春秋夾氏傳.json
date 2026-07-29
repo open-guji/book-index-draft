@@ -8,7 +8,14 @@
     ]
   },
   "ai_note": "《漢志》著錄「《夾氏傳》十一卷。有錄無書。」周壽昌《漢書注校補》：「夾氏書在漢時已亡，既云有錄，其初必有書也。」又云：「《鄒氏傳》無師，《夾氏傳》無書而存之者，存此兩家也。」來源：溫浚源《漢書藝文志講要》。",
-  "authors": [],
+  "authors": [
+    {
+      "name": "夾氏",
+      "role": "傳",
+      "dynasty": "漢",
+      "note": "《春秋》夾氏一家，名字未詳"
+    }
+  ],
   "indexed_by": [
     {
       "source": "漢書藝文志",
@@ -27,5 +34,20 @@
       "number": 11
     }
   ],
-  "measure_info": "十一卷"
+  "measure_info": "十一卷",
+  "emendated_by": [
+    {
+      "source": "漢藝文志考證",
+      "source_bid": "1ev3bb40n3k74",
+      "title_info": "鄒氏傳十一卷，夾氏傳十一卷。",
+      "summary": "七錄云：建武中，鄒、夾氏皆絶，王吉能爲鄒氏春秋。隋志：王莽之亂，鄒氏無師，夾氏亡。范升奏曰：春秋之家，又有騶、夾。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1ev7w0eturncw",
+      "title": "春秋",
+      "relation": "contains_text_of"
+    }
+  ]
 }

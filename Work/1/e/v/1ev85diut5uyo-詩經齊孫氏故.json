@@ -1,7 +1,14 @@
 {
   "type": "work",
   "title": "詩經齊孫氏故",
-  "authors": [],
+  "authors": [
+    {
+      "name": "孫氏",
+      "role": "撰",
+      "dynasty": "漢",
+      "note": "《齊詩》孫氏一家，名字未詳；張舜徽疑與公孫氏有關"
+    }
+  ],
   "description": {
     "text": "已亡佚。所謂「孫氏」未詳其名。據《隋志》，《齊詩》在魏已亡。張舜徽《漢書藝文志通釋》疑孫氏與公孫氏有關，引《漢書·儒林傳》公孫弘事轅固生之事。",
     "sources": [
@@ -24,5 +31,15 @@
       "title": "詩經",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 27
+    }
+  ],
+  "measure_info": "二十七卷",
+  "juan_count": {
+    "number": 27
+  }
 }

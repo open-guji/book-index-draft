@@ -52,11 +52,8 @@
   "related_works": [
     {
       "id": "1ev4c1tsw49og",
-      "title": "聖經學規纂"
-    },
-    {
-      "id": "1ev3bbduwtmo0",
-      "title": "大學辨業論學"
+      "title": "聖經學規纂",
+      "relation": "related"
     }
   ],
   "resources": [
@@ -155,7 +152,7 @@
   ],
   "has_text": true,
   "has_image": true,
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。 | 從 1evjxlh0bul1c 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bbduwtmo0(李塨)（不同作者，故新建獨立 Work）。",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。 | 從 1evjxlh0bul1c 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bbduwtmo0(李塨)（不同作者，故新建獨立 Work）。 | 清除 related_works 中指向本目自身的條目。",
   "measures": [
     {
       "unit": "卷",
