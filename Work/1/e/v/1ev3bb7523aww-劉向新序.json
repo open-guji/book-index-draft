@@ -55,6 +55,25 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "劉向新序",
       "summary": "劉向新序三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《新序》十卷",
+      "summary": "《新序》十卷（錄一卷劉向）",
+      "author_info": "錄一卷劉向"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "新序",
+      "summary": "《新序》十卷。{{漢劉向。明經廠《新序》《說苑》合刻本，何良俊合刻本，《漢魏叢書》本。陳壽祺有《新序》《說苑校本》，未刊。}}",
+      "author_info": "劉向"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "新序"
     }
   ],
   "books": [
@@ -65,7 +84,11 @@
     "11qkhzpq67e2o",
     "11qki5iptvfgg",
     "11qki5puqhq80",
-    "11qki5pwa1yww"
+    "11qki5pwa1yww",
+    "11qk4xwcsvjot",
+    "11qkhwem0e3gg",
+    "11qkhye0qineo",
+    "11qkhz47zhkhs"
   ],
   "juan_count": {
     "number": 10
@@ -192,5 +215,12 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "從 1evcs0kul7hfk 合併。原註：作者「漢劉向撰」補自《國立故宮博物院善本舊籍》目錄。"
+  "ai_note": "從 1evcs0kul7hfk 合併。原註：作者「漢劉向撰」補自《國立故宮博物院善本舊籍》目錄。 《國史經籍志》《書目答問》《直齋書錄解題》之《新序》著錄原另立 work 1evgpmprwolxc，其作者欄作「錄一卷劉向」——係《國史經籍志》「《新序》十卷（錄一卷劉向）」一句中「錄一卷」（附錄卷數）與作者名被一併截取所致。該條四部版本已改繫本條，殘條與其憑空生成之人物 Entity 一併刪除。",
+  "related_works": [
+    {
+      "id": "1evd67enp2p6o",
+      "title": "劉向所序",
+      "relation": "part_of"
+    }
+  ]
 }
