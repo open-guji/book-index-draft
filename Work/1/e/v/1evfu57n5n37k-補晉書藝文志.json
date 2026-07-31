@@ -9,7 +9,9 @@
       "entity_id": "1j967a0kjvy25"
     }
   ],
-  "juan_count": 4,
+  "juan_count": {
+    "number": 4
+  },
   "description": {
     "text": "清丁國鈞撰，四卷附錄一卷。補晋書之闕，仿班固藝文志體例，分甲乙丙丁四部經史子集，著錄晋代著作。收入《二十五史藝文經籍志考補萃編》第十卷。",
     "sources": []
@@ -42,5 +44,13 @@
       "title": "晉書",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "ai_note": "juan_count 原作整數 4，不合 schema 之物件形態，已改為 {\"number\": 4}。"
 }

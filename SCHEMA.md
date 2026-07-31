@@ -34,8 +34,9 @@ Represents the abstract intellectual content.
   "related_works": [
     {
       "id": "string (Work ID)",
-      "title": "string (Work title, for display)",
-      "relation": "string (optional: part_of | has_part)"
+      "title": "string (Work title, for display — 應與目標 Work 的 title 一致)",
+      "relation": "string (見下文「關聯詞表」)",
+      "note": "string (optional, 說明此關聯的性質或限度)"
     }
   ],
   "additional_works": [
@@ -52,28 +53,68 @@ Represents the abstract intellectual content.
     }
   ],
   "measure_info": "string (optional, UI 直接展示文本，應與 measures 一致，例：「四集（每集五回）二十回」)",
-  "book_contained_in": [
+  "juan_count": {
+    "number": "integer (卷數)",
+    "description": "string (optional, 如「存三卷」「原十卷今殘」)"
+  },
+  "original_title": "string (optional, 條目原題與規範題不同時記原題，如《毛詩義問劉楨撰》→「毛詩義問」)",
+  "dynasty": "string (optional, 作品成書朝代；與 authors[].dynasty 不同，後者是作者所屬朝代)",
+  "indexed_by": [] // type: IndexEntry，見下文
+  "emendated_by": [] // type: IndexEntry，考證／校勘類著作對本書的校訂條目
+  "contained_in": [
     {
-      "collection_id": "string (book_collection ID)",
-      "title_info": "string (该丛编中此本的标题，如《史記》一百三十卷)",
-      "author_info": "string (该丛编中记录的作者署名)",
-      "edition": "string (版本，如「清乾隆間寫文淵閣四庫全書本」)",
-      "volume": "string (馆藏号/册次，如「故庫000153-000155」)",
-      "section": "string (分类，如「經部/易類」)",
-      "summary": "string (该丛编中的摘要原文)",
-      "source_bid": "string (源系统记录ID，可空)"
+      "id": "string (Collection ID)",
+      "volume_index": "string | integer | array (optional, 在該叢編中的冊次／卷次)"
     }
   ],
+  "publication_info": {
+    "year": "string (年份或朝代)",
+    "details": "string"
+  },
+  "version_graph": {
+    "enabled": "boolean",
+    "title": "string",
+    "description": "string",
+    "...": "版本傳承圖資料，供前端渲染"
+  },
+  "has_text": "boolean (derived: resources 中有 text 類)",
+  "has_image": "boolean (derived: resources 中有 image 類)",
+  "has_collated": "boolean (derived: 存在 collated_edition 整理本)",
+  "promoted_to": "string (Production ID，本草稿記錄已升格；權威來源為 promotions.json)",
+  "promoted_at": "string (ISO 8601 時間戳)",
+  "ai_note": "string (optional, 建檔／整理過程的自注：資料來源、存疑、待辦。非面向讀者的正文)",
   "sources": [] // type: Source
 }
 ```
 
+**已定義但庫中無資料的欄位**：`book_contained_in`、`parent_works`、`resource_groups`。
+`book_contained_in` 的設計仍然有效（見下文說明），但實際錄入一律走 `contained_in`；
+Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代；
+`resource_groups` 目前只在 Book 層使用。
+
+#### IndexEntry object type（`indexed_by` / `emendated_by` 共用）
+
+```json
+{
+  "source": "string (著錄該書的目錄／志書／考證書名稱，如「漢書藝文志」「直齋書錄解題」)",
+  "source_bid": "string (該目錄書的 Work ID)",
+  "title_info": "string (該目錄中的著錄標題原文，如「毛詩義問十卷魏太子文學劉楨撰」)",
+  "summary": "string (該目錄中的著錄／解題全文)",
+  "section": "string (optional, 該目錄中的分類，如「經部/易類」)",
+  "juan_count": "string (optional, 該目錄著錄的卷數原文)"
+}
+```
+
+- `indexed_by`：本書被目錄書／志書**著錄**（文獻學引證，記「某志收有此書」）。
+- `emendated_by`：本書被**考證／校勘類著作**校訂（記「某考證書對此書有辨正」），如《漢藝文志考證》《隋書經籍志考證》。二者結構相同，語義不同：前者是登記，後者是校議。
+
 Book 的 `indexed_by` 與 Work 的 `indexed_by` 同結構，記錄該具體版本被目錄書/志書/考證書著錄的條目。場景：通俗小說書目這類目錄書中按版本著錄的條目（如「乾隆甲戌本脂硯齋重評石頭記」「王希廉評紅樓夢一百二十回」）應掛在對應的 Book 上，而非新建 Work。
 
-`book_contained_in` 是 **Work → book_collection 的临时挂载点**，记录"某丛编中收有此作品的某具体本"，但尚未拆分成独立 Book 条目。它与 `indexed_by` 的关键区别：
+`book_contained_in`（**設計保留，庫中未使用**）原擬作 **Work → book_collection 的临时挂载点**，记录"某丛编中收有此作品的某具体本"而尚未拆分成独立 Book 条目。它与 `indexed_by` 的关键区别：
 - `indexed_by`：作品被**目录书/志书/考证书**（也是 Work，描述性著作）著录，记录的是文献学引证。
 - `book_contained_in`：作品被**藏品丛编/影印丛编**（Collection.subtype=book_collection）收录，记录的是某个具体藏本/版本，**应当**最终拆分为独立 Book + Book.contained_in 指向该 Collection。
-- 录入流程：先临时挂在 Work.book_contained_in，后续按 collate-cong-bian 流程逐条升格为 Book。
+
+實際錄入未走這條臨時通道：叢編收錄一律直接記在 `Work.contained_in`（作品層，指向 Collection ID），或升格為獨立 Book 後記 `Book.contained_in`。新資料請沿用 `contained_in`，勿再啟用 `book_contained_in`。
 
 `measures` 用於補充 `juan_count`，適合通俗小說等需要多維計量（卷+回+集+篇）的作品。
 - `juan_count` 側重傳統「卷」維度，前端已使用。
@@ -205,16 +246,53 @@ Represents a collection or series that contains multiple books or other collecti
     "source": "Source"
   },
   "current_location": "Location (object)",
-  "volume_count": {
-    "number": "integer",
-    "description": "string",
-    "source": "Source"
-  },
-  "history": ["string (Timeline of historical events/provenance)"],
   "books": ["string (List of Book IDs)"],
+  "contained_works": [
+    {
+      "id": "string (Work ID)",
+      "title": "string (for display)",
+      "volume_index": "integer | array (optional, 在本叢編中的冊次；跨多冊時用陣列)"
+    }
+  ],
+  "contains": [
+    {
+      "type": "string (preface | subwork | selected_from | ...)",
+      "title": "string",
+      "work_id": "string (optional)",
+      "book_id": "string (optional)",
+      "collection_id": "string (optional)",
+      "scope": "string (該組成部分的範圍說明)",
+      "position": "string (前置 | 後附 | ...)",
+      "note": "string (optional)"
+    }
+  ],
+  "work_id": "string (optional, 本叢編整體對應的傘狀作品，如《武英殿十三經注疏》→《十三經注疏》)",
+  "editors": [],
+  "publisher": "string",
+  "publish_year": "string",
+  "total_volumes": "integer",
+  "total_works": "integer",
+  "sections": [{ "name": "string (叢編分部，如「唐宋編」「經部」)" }],
+  "additional_titles": ["string"],
+  "edition": "string (版本名)",
+  "juan_count": { "number": "integer", "description": "string" },
+  "page_count": { "number": "integer", "description": "string" },
+  "indexed_by": [] // type: IndexEntry
+  "related_books": ["string (Book IDs)"],
+  "related_collections": ["string (Collection IDs)"],
+  "resources": [] // 與 Book.resources 同結構
+  "promoted_to": "string", "promoted_at": "string",
+  "ai_note": "string",
   "sources": [] // type: Source
 }
 ```
+
+**Collection 的三種成員列表，語義不同，不可互換**：
+- `books`：成員是具體版本（Book ID 陣列）。
+- `contained_works`：成員是作品（影印／彙編叢書按作品收錄時用，帶冊次）。
+- `contains`：本叢編的**結構組成部分**（聖諭、進表、總目、選印來源等），不是平列成員。
+
+**已定義但庫中無資料的欄位**：`history`、`volume_count`。叢編的實體規模改記 `total_volumes`；沿革敘述併入 `description.text`。
 
 ### 3. Book Schema
 Represents a physical or specific digital edition/copy of a work.
@@ -225,7 +303,14 @@ Represents a physical or specific digital edition/copy of a work.
   "type": "book",
   "title": "string (Specific edition name)",
   "work_id": "string (ID of the parent Work)",
-  "contained_in": ["string (Collection IDs)"],
+  "edition": "string (版本名，如「清乾隆間寫文淵閣四庫全書本」「武英殿聚珍版」)",
+  "contained_in": [
+    {
+      "id": "string (Collection ID)",
+      "volume_index": "integer | array (optional, 在該叢編中的冊次)",
+      "details": "string (optional)"
+    }
+  ],
   "authors": [
     {
       "name": "string",
@@ -282,9 +367,26 @@ Represents a physical or specific digital edition/copy of a work.
   ],
   "location_history": [] // type: Location
   "related_books": ["string (IDs of related editions)"],
+  "section": "string (該版本在所屬叢編中的分類，如「經部/易類」)",
+  "additional_titles": ["string"],
+  "attached_texts": [{ "title": "string", "...": "隨本附刻之序跋、附錄等" }],
+  "lineage": { "...": "版本源流資料（承自何本、據何本翻刻）" },
+  "sections": [{ "...": "本書內部分卷／分部結構" }],
+  "measures": [], "measure_info": "string",  // 與 Work 同結構，記該版本自身的計量
+  "juan_count": { "number": "integer", "description": "string" },
+  "zhsy_id": "string (中華再造善本編號)",
+  "metadata": { "...": "來源系統原始欄位的透傳，不作規範化" },
+  "promoted_to": "string", "promoted_at": "string",
+  "ai_note": "string",
   "sources": [] // type: Source
 }
 ```
+
+**`edition` 與 `sources[].version` 是兩回事**，勿混：
+- `Book.edition`（頂層，22,842 條）＝**版本名**，文獻學意義上的「這是哪一個本子」。
+- `sources[].version` / `sources[].processor_version`＝**處理程序版本號**（如 `"1.0"`），與書無關。
+
+Book 頂層一律用 `edition`；曾有 276 條誤寫作 `version`，已於整理中歸併。
 
 ### Source object type:
 ```json
@@ -384,9 +486,12 @@ Represents a physical or specific digital edition/copy of a work.
   },
 
   "description": "Description (object)",
+  "ai_note": "string (optional, 建檔自注)",
   "sources": []
 }
 ```
+
+`sources` 已定義但庫中無資料；Entity 的出處一律記在 `description.sources`。
 
 #### Entity.subtype
 
@@ -442,3 +547,79 @@ ID 用 64-bit snowflake 结构，3 bits 标识 type：
 | 5-7 | Reserved | (保留) |
 
 **0-3 用于实体书目，4-7 用于抽象概念。** 见 `book_index_manager/id_generator.py`。
+
+草稿庫的 ID 為 13 字元（status=1），升格後的 Production ID 為 12 字元（status=0）。
+一條記錄升格後，草稿檔保留並記 `promoted_to` / `promoted_at`，
+**權威對照表是根目錄的 `promotions.json`**，欄位只是冗餘副本。
+校驗關聯是否懸空時，Production ID 不在草稿索引中屬正常，須併入白名單。
+
+---
+
+## 關聯詞表（`related_works[].relation`）
+
+| relation | 反向 | 含義 |
+|---|---|---|
+| `text_carried_by` | `contains_text_of` | 本文承載於某實物／某書 |
+| `studies` | `studied_by` | 本書研究、注解、考證某書 |
+| `has_part` | `part_of` | 整體 ↔ 部分（篇卷、附錄、子編） |
+| `followed_by` | `preceded_by` | 續作／前作 |
+| `related` | `related`（自反） | 泛關聯，語義不明確時的兜底 |
+| `collected_in` | —（單向） | 收入某彙編 |
+| `derived_from` | —（單向） | 由某書輯出、改編而成 |
+| `adapted_from` | — | 改編自 |
+
+**成對關聯必須雙向寫入**：在 A 寫 `has_part → B` 的同時，須在 B 寫 `part_of → A`。
+`collected_in` / `derived_from` **沒有反向詞**，只在來源側單寫一條；
+若需要在對面留痕，用 `related`，不要臆造反向詞。
+
+`related_works[].title` 應與目標 Work 的 `title` 保持一致；改題或合併作品後須同步更新所有指向它的 `title`。
+
+---
+
+## 索引檔（`index/`）
+
+檔案本身是唯一真實來源，`index/` 是為檢索而生成的扁平副本。
+
+| 路徑 | 內容 | 分片 |
+|---|---|---|
+| `index/works/{0-f}.json` | 全部 Work | 按 ID 分 16 片 |
+| `index/books/{0-f}.json` | 全部 Book | 同上 |
+| `index/entities/{0-f}.json` | 全部 Entity | 同上 |
+| `index/collections.json` | 全部 Collection | 不分片 |
+
+分片函數（對 ID 逐字元）：`h = 0; for c in id: h = ((h * 31) + ord(c)) & 0xFFFFFFFF` → 片號 `'%x' % (h % 16)`。
+
+索引條目是**扁平的顯示用摘要**，非完整記錄：
+
+```json
+{
+  "id": "string",
+  "type": "string (Work | Book | Collection | Entity ——首字母大寫)",
+  "title": "string",
+  "path": "string (檔案相對路徑)",
+  "author": "string", "role": "string", "dynasty": "string",
+  "juan_count": "…", "measure_info": "string", "edition": "string",
+  "additional_titles": [], "subtype": "string", "year": "string",
+  "holder": "string", "has_text": "boolean", "has_image": "boolean",
+  "has_collated": "boolean", "promoted_to": "string"
+}
+```
+
+注意 **`type` 在索引中首字母大寫（`"Work"`），在檔案中全小寫（`"work"`）** ——
+這是既定約定，兩邊都不要「改齊」。
+
+`authors` 是陣列，索引只取第一位攤平為 `author` / `role` / `dynasty`。
+改動檔案的標題、作者、路徑後，**必須同步更新索引**，否則校驗會報「索引欄位不符」。
+
+---
+
+## ai_note 的用法
+
+`ai_note` 出現在四類記錄的頂層，是**整理者寫給整理者的注**，不面向讀者：
+
+- 記資料來源與可信度，例：「據網路檢索資料建檔，未核原書」。
+- 記存疑與待辦，例：「卷數與通行所記三十一卷不合，待核」。
+- 記整理決策，例：「原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係」。
+
+面向讀者的正文一律進 `description.text`，其出處進 `description.sources`。
+前端不應渲染 `ai_note`。
