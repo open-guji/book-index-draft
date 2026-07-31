@@ -83,7 +83,7 @@ for p in glob.glob('Work/*/*/*/*.json'):
         if isinstance(r, dict) and r.get('id'): INBOUND[r['id']] += 1
 
 for cat, ti, w, ct in E:
-    C = (cat or '')[2:-1] or (cat or '?')
+    C = (cat or '')[2:] or (cat or '?')
     if not w:
         F['條目未連作品'].append((C, ti)); continue
     if w not in IW:
@@ -171,7 +171,7 @@ if XU:
     print('小序核對（小序家數/篇數 vs 本庫條目數）')
     cnt = collections.Counter(c for c, *_ in E)
     for cat, (jia, pian) in XU.items():
-        C = (cat or '')[2:-1] or cat
+        C = (cat or '')[2:] or cat
         n = cnt.get(cat, 0)
         flag = '' if n == jia else f'   <<< 差 {n - jia}'
         print(f'   {C:6s} 小序 {jia:4d} 家 {pian:5d} 篇 ｜ 本庫 {n:4d} 條{flag}')
