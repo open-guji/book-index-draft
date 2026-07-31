@@ -3,18 +3,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "王希旦",
-  "alt_names": [
-    {
-      "name": "仲槐",
-      "type": "別名"
-    },
-    {
-      "name": "晉笙",
-      "type": "別名"
-    }
-  ],
-  "dynasty": "清",
-  "birth_year": 1804,
+  "dynasty": "元",
   "works": [
     {
       "work_id": "1evga1uy6y60w",
@@ -37,9 +26,5 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 71684,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=20 (1804-None)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=71684（pending_accept: relaxed_ambig cbdb_dy=20 (1804-None)），據以填入朝代「清」、生卒 1804~None、字號別名 仲槐／晉笙。本人物所繫作品之著錄朝代皆作「元」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }
