@@ -66,6 +66,37 @@ description: 本庫（book-index-draft）大批量古籍書目整理的作業方
 同理，整理本 section 的 `work_ids` 與 work 的 `emendated_by` 也不同步
 （298 條繫連中 18 條 work 側無記錄）。
 
+## 三之二、表層計數不是缺陷的證據（同一天栽四次）
+
+看到一個異常數字時，**先找一個能獨立佐證的欄位，再下判斷**。
+只憑「數量」「字串相等」就宣告缺陷，本庫已連續踩過四次：
+
+| 表層徵候 | 我的誤判 | 推翻它的證據欄位 |
+|---|---|---|
+| 一 work 繫直齋整理本多節 | 249 組全是磁鐵 | **解題**——直齋一著錄一解題，一解題者乃合刻體例，164 組非缺陷 |
+| Book.work_id 不在 work 索引 | 12 部大來源書的 Work 記錄不存在 | **promotions.json**——那是 Production ID，Draft 全在 |
+| 一 work 繫漢志六藝書類五節 | 《尚書》是磁鐵 | **indexed_by**——只有 2 條，正合漢志二著錄；五節是整理本切分粒度 |
+| related_works 之 id 不在 work 索引 | 《尚書》有 2 條懸空關聯 | **collections 索引**——`collected_in` 本就指向 Collection |
+
+### 本庫有五個 ID 空間，比對前全部解析
+
+`work` / `book` / `collection` / `entity` / **`production`**。
+`promotions.json` 是 Production↔Draft 的權威對照（現 74 條）。
+
+- 查懸空：目標須在 `IW ∪ IB ∪ IC ∪ ENT ∪ production` 的聯集中找，只查一個必誤報。
+- 查雙向：**兩側俱須正規化**。只正規化一側，數字會從 29 掉到 27 而不是 0，
+  看起來像「解消了大部分、剩下的是真缺陷」——最容易上當的形態。
+
+### 校驗腳本查不到的，就是你會漏掉的
+
+腳本沒有的檢查項，等於盲區。本輪補了三項，皆為批次作業中親手踩出來的：
+
+- 人物↔作品雙向（`entity.works` ↔ `work.authors.entity_id`）——**1,079 條單向**
+- 整理本 `section.work_ids` ↔ work 的 `emendated_by`／`indexed_by`——17 條
+- Book↔Work 互指經 promotions 正規化後再比
+
+每補一項，就有一批舊缺陷浮出來。**動手前先問：這件事校驗查得到嗎？**
+
 ## 四、磁鐵與合併陷阱（代價最大的一類錯誤）
 
 **磁鐵**（magnet）＝ 一條記錄被大量不相干的著錄指過來，通常因為有人把「同名」當「同書」。
