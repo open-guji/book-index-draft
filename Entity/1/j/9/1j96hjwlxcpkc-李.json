@@ -3,18 +3,12 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "李",
-  "dynasty": "唐",
-  "birth_year": 647,
-  "death_year": 714,
+  "dynasty": "明",
   "works": [
     {
       "work_id": "1ev3bauy5hu68",
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 31601,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=6 (647-714)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=31601（pending_accept: relaxed_ambig cbdb_dy=6 (647-714)），據以填入朝代「唐」、生卒 647~714。本人物所繫作品之著錄朝代皆作「明」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }

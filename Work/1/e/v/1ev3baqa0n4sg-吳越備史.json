@@ -4,10 +4,14 @@
   "title": "吳越備史",
   "authors": [
     {
-      "name": "武勝軍節度使掌書記范坰、巡官林禹",
+      "name": "范坰",
       "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j96hem8rqpz4"
+      "dynasty": "宋"
+    },
+    {
+      "name": "林禹",
+      "role": "撰",
+      "dynasty": "宋"
     }
   ],
   "indexed_by": [
@@ -151,5 +155,6 @@
       "number": 4
     }
   ],
-  "measure_info": "四卷"
+  "measure_info": "四卷",
+  "ai_note": "撰人拆分：本條原繫人物記錄 1j96hem8rqpz4，其 primary_name 作「武勝軍節度使掌書記范坰、巡官林禹」，實為合著者名單而非一人。「武勝軍節度使掌書記」「巡官」為官銜，今去之。今拆為 2 人：范坰、林禹。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。"
 }

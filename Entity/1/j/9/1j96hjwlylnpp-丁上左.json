@@ -3,32 +3,12 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "丁上左",
-  "alt_names": [
-    {
-      "name": "宜之",
-      "type": "別名"
-    },
-    {
-      "name": "白丁",
-      "type": "別名"
-    },
-    {
-      "name": "竹孫",
-      "type": "別名"
-    }
-  ],
-  "dynasty": "中華民國",
-  "birth_year": 1878,
-  "death_year": 1929,
+  "dynasty": "宋",
   "works": [
     {
       "work_id": "1evgpjs2tuvpc",
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 70608,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=21 (1878-1929)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=70608（pending_accept: relaxed_ambig cbdb_dy=21 (1878-1929)），據以填入朝代「中華民國」、生卒 1878~1929、字號別名 宜之／白丁／竹孫。本人物所繫作品之著錄朝代皆作「宋」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }

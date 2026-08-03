@@ -1775,7 +1775,7 @@
     "title": "榕陰新檢",
     "type": "Work",
     "path": "Work/1/e/v/1ev3bankl1gqo-榕陰新檢.json",
-    "author": "徐《火勃》",
+    "author": "徐𤊹",
     "dynasty": "明",
     "role": "撰",
     "juan_count": 8,
@@ -2429,7 +2429,7 @@
     "title": "史評",
     "type": "Work",
     "path": "Work/1/e/v/1ev3bb5xf1wxs-史評.json",
-    "author": "範光宙",
+    "author": "范光宙",
     "dynasty": "明",
     "role": "撰",
     "juan_count": 10,
@@ -2915,7 +2915,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev3bbg0i8buo-蘇沈良方.json",
     "author": "沈括",
-    "dynasty": "清",
+    "dynasty": "宋",
     "role": "撰",
     "juan_count": 8,
     "measure_info": "八卷",
@@ -5323,7 +5323,7 @@
     "title": "淡然軒集",
     "type": "Work",
     "path": "Work/1/e/v/1ev3bdeb9cvls-淡然軒集.json",
-    "author": "餘繼登",
+    "author": "余繼登",
     "dynasty": "明",
     "role": "撰",
     "juan_count": 8,
@@ -5409,7 +5409,7 @@
     "title": "襄陽遺集",
     "type": "Work",
     "path": "Work/1/e/v/1ev3bdgukw8ow-襄陽遺集.json",
-    "author": "範明泰",
+    "author": "范明泰",
     "dynasty": "明",
     "role": "編",
     "juan_count": 1,
@@ -7226,7 +7226,7 @@
     "title": "澹秋容軒詞",
     "type": "Work",
     "path": "Work/1/e/v/1ev3bf770wrnk-澹秋容軒詞.json",
-    "author": "範青",
+    "author": "范青",
     "dynasty": "清",
     "role": "撰",
     "juan_count": 1,
@@ -7797,7 +7797,7 @@
     "title": "九域志",
     "type": "Work",
     "path": "Work/1/e/v/1ev794a63vta8-九域志.json",
-    "author": "王存等",
+    "author": "王存",
     "dynasty": "宋",
     "role": "撰",
     "has_image": true
@@ -7819,7 +7819,10 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7w0f4zvlds-史籀篇.json",
     "juan_count": 15,
-    "measure_info": "十五卷"
+    "measure_info": "十五卷",
+    "author": "史籀",
+    "dynasty": "周",
+    "role": "撰"
   },
   "1ev7xkh7q1jwg": {
     "id": "1ev7xkh7q1jwg",
@@ -7836,7 +7839,9 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xkh8bw5xc-處子.json",
     "juan_count": 9,
-    "measure_info": "九篇"
+    "measure_info": "九篇",
+    "author": "處子",
+    "role": "撰"
   },
   "1ev7xkhinnsw0": {
     "id": "1ev7xkhinnsw0",
@@ -7874,7 +7879,10 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xki4wbi80-衛侯官.json",
     "juan_count": 12,
-    "measure_info": "十二篇"
+    "measure_info": "十二篇",
+    "author": "佚名",
+    "dynasty": "漢",
+    "role": "撰"
   },
   "1ev7xki5lwyrk": {
     "id": "1ev7xki5lwyrk",
@@ -7904,7 +7912,9 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xkigu5a80-趙氏.json",
     "juan_count": 5,
-    "measure_info": "五篇"
+    "measure_info": "五篇",
+    "author": "趙氏",
+    "role": "撰"
   },
   "1ev7xkik9r9c0": {
     "id": "1ev7xkik9r9c0",
@@ -7922,7 +7932,11 @@
     "title": "扁鵲內經",
     "type": "Work",
     "path": "Work/1/e/v/1ev7xm2o70uf4-扁鵲內經.json",
-    "author": "秦越人"
+    "author": "秦越人",
+    "juan_count": {
+      "number": 9
+    },
+    "measure_info": "九卷"
   },
   "1ev7xm2vuc5j4": {
     "id": "1ev7xm2vuc5j4",
@@ -7931,7 +7945,11 @@
     "path": "Work/1/e/v/1ev7xm2vuc5j4-待詔馮商賦.json",
     "author": "馮商",
     "dynasty": "漢",
-    "role": "撰"
+    "role": "撰",
+    "juan_count": {
+      "number": 9
+    },
+    "measure_info": "九篇"
   },
   "1ev7xm2z82pds": {
     "id": "1ev7xm2z82pds",
@@ -7940,25 +7958,47 @@
     "path": "Work/1/e/v/1ev7xm2z82pds-兒寬賦.json",
     "author": "兒寬",
     "dynasty": "漢",
-    "role": "撰"
+    "role": "撰",
+    "juan_count": {
+      "number": 2
+    },
+    "measure_info": "二篇"
   },
   "1ev7xm398lssg": {
     "id": "1ev7xm398lssg",
     "title": "海中五星順逆",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm398lssg-海中五星順逆.json"
+    "path": "Work/1/e/v/1ev7xm398lssg-海中五星順逆.json",
+    "juan_count": {
+      "number": 28
+    },
+    "measure_info": "二十八卷"
   },
   "1ev7xm3htxz40": {
     "id": "1ev7xm3htxz40",
     "title": "黃帝陰陽",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm3htxz40-黃帝陰陽.json"
+    "path": "Work/1/e/v/1ev7xm3htxz40-黃帝陰陽.json",
+    "juan_count": {
+      "number": 25
+    },
+    "measure_info": "二十五卷",
+    "author": "黃帝",
+    "role": "託名",
+    "dynasty": "上古傳說"
   },
   "1ev7xm3iwyn0g": {
     "id": "1ev7xm3iwyn0g",
     "title": "黃帝雜子十九家方",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm3iwyn0g-黃帝雜子十九家方.json"
+    "path": "Work/1/e/v/1ev7xm3iwyn0g-黃帝雜子十九家方.json",
+    "juan_count": {
+      "number": 21
+    },
+    "measure_info": "二十一卷",
+    "author": "黃帝",
+    "role": "託名",
+    "dynasty": "上古傳說"
   },
   "1ev7xm3lojcao": {
     "id": "1ev7xm3lojcao",
@@ -7967,19 +8007,31 @@
     "path": "Work/1/e/v/1ev7xm3lojcao-護軍射師王賀射書.json",
     "author": "王賀",
     "dynasty": "漢",
-    "role": "撰"
+    "role": "撰",
+    "juan_count": {
+      "number": 5
+    },
+    "measure_info": "五篇"
   },
   "1ev7xm3mbmwhs": {
     "id": "1ev7xm3mbmwhs",
     "title": "劍道",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm3mbmwhs-劍道.json"
+    "path": "Work/1/e/v/1ev7xm3mbmwhs-劍道.json",
+    "juan_count": {
+      "number": 38
+    },
+    "measure_info": "三十八篇"
   },
   "1ev7xm3p1c6io": {
     "id": "1ev7xm3p1c6io",
     "title": "堪輿金匱",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm3p1c6io-堪輿金匱.json"
+    "path": "Work/1/e/v/1ev7xm3p1c6io-堪輿金匱.json",
+    "juan_count": {
+      "number": 14
+    },
+    "measure_info": "十四卷"
   },
   "1ev7xm3w3445c": {
     "id": "1ev7xm3w3445c",
@@ -7998,43 +8050,71 @@
     "id": "1ev7xm4hrhe68",
     "title": "湯液經法",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm4hrhe68-湯液經法.json"
+    "path": "Work/1/e/v/1ev7xm4hrhe68-湯液經法.json",
+    "juan_count": {
+      "number": 32
+    },
+    "measure_info": "三十二卷"
   },
   "1ev7xm4j7m0w0": {
     "id": "1ev7xm4j7m0w0",
     "title": "天一",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm4j7m0w0-天.json"
+    "path": "Work/1/e/v/1ev7xm4j7m0w0-天.json",
+    "juan_count": {
+      "number": 6
+    },
+    "measure_info": "一六卷"
   },
   "1ev7xm4nq8nwg": {
     "id": "1ev7xm4nq8nwg",
     "title": "文解二十八宿",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm4nq8nwg-文解二十八宿.json"
+    "path": "Work/1/e/v/1ev7xm4nq8nwg-文解二十八宿.json",
+    "juan_count": {
+      "number": 28
+    },
+    "measure_info": "二十八卷"
   },
   "1ev7xm4o2q5mo": {
     "id": "1ev7xm4o2q5mo",
     "title": "文解六甲",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm4o2q5mo-文解六甲.json"
+    "path": "Work/1/e/v/1ev7xm4o2q5mo-文解六甲.json",
+    "juan_count": {
+      "number": 18
+    },
+    "measure_info": "十八卷"
   },
   "1ev7xm50m3b40": {
     "id": "1ev7xm50m3b40",
     "title": "隱書",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm50m3b40-隱書.json"
+    "path": "Work/1/e/v/1ev7xm50m3b40-隱書.json",
+    "juan_count": {
+      "number": 18
+    },
+    "measure_info": "十八篇"
   },
   "1ev7xm54cbcow": {
     "id": "1ev7xm54cbcow",
     "title": "雜山陵水泡雲氣雨旱賦",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm54cbcow-雜山陵水泡雲氣雨旱賦.json"
+    "path": "Work/1/e/v/1ev7xm54cbcow-雜山陵水泡雲氣雨旱賦.json",
+    "juan_count": {
+      "number": 16
+    },
+    "measure_info": "十六篇"
   },
   "1ev7xm5501dz4": {
     "id": "1ev7xm5501dz4",
     "title": "雜四夷及兵賦",
     "type": "Work",
-    "path": "Work/1/e/v/1ev7xm5501dz4-雜四夷及兵賦.json"
+    "path": "Work/1/e/v/1ev7xm5501dz4-雜四夷及兵賦.json",
+    "juan_count": {
+      "number": 20
+    },
+    "measure_info": "二十篇"
   },
   "1ev7xm5b3sge8": {
     "id": "1ev7xm5b3sge8",
@@ -11185,9 +11265,12 @@
   },
   "1evcs0jyge0ao": {
     "id": "1evcs0jyge0ao",
-    "title": "郭璞注山海經",
+    "title": "山海經郭璞注",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0jyge0ao-郭璞注山海經.json"
+    "path": "Work/1/e/v/1evcs0jyge0ao-山海經郭璞注.json",
+    "additional_titles": [
+      "郭璞注山海經"
+    ]
   },
   "1evcs0k1yt4ao": {
     "id": "1evcs0k1yt4ao",
@@ -11227,9 +11310,12 @@
   },
   "1evcs0kvtj6kg": {
     "id": "1evcs0kvtj6kg",
-    "title": "陸績注揚子太玄經",
+    "title": "揚子太玄經陸績注",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0kvtj6kg-陸績注揚子太玄經.json"
+    "path": "Work/1/e/v/1evcs0kvtj6kg-揚子太玄經陸績注.json",
+    "additional_titles": [
+      "陸績注揚子太玄經"
+    ]
   },
   "1evcs0kwl02dc": {
     "id": "1evcs0kwl02dc",
@@ -11745,9 +11831,12 @@
   },
   "1evcs0vzccs1s": {
     "id": "1evcs0vzccs1s",
-    "title": "全元起注黃帝素問",
+    "title": "黃帝素問全元起注",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0vzccs1s-全元起注黃帝素問.json"
+    "path": "Work/1/e/v/1evcs0vzccs1s-黃帝素問全元起注.json",
+    "additional_titles": [
+      "全元起注黃帝素問"
+    ]
   },
   "1evcs0wc9rlz4": {
     "id": "1evcs0wc9rlz4",
@@ -17489,12 +17578,15 @@
   },
   "1evdxns7cahvk": {
     "id": "1evdxns7cahvk",
-    "title": "尹知章注老子",
+    "title": "老子尹知章注",
     "type": "Work",
-    "path": "Work/1/e/v/1evdxns7cahvk-尹知章注老子.json",
+    "path": "Work/1/e/v/1evdxns7cahvk-老子尹知章注.json",
     "author": "尹知章",
     "dynasty": "唐",
-    "role": "注"
+    "role": "注",
+    "additional_titles": [
+      "尹知章注老子"
+    ]
   },
   "1evdxnsbux4w0": {
     "id": "1evdxnsbux4w0",
@@ -17507,14 +17599,17 @@
   },
   "1evdxnsln0tmo": {
     "id": "1evdxnsln0tmo",
-    "title": "韋處玄集解老子西升經",
+    "title": "老子西升經韋處玄集解",
     "type": "Work",
-    "path": "Work/1/e/v/1evdxnsln0tmo-韋處玄集解老子西升經.json",
+    "path": "Work/1/e/v/1evdxnsln0tmo-老子西升經韋處玄集解.json",
     "author": "韋處玄",
     "dynasty": "唐",
     "role": "撰",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "additional_titles": [
+      "韋處玄集解老子西升經"
+    ]
   },
   "1eve1eid1soow": {
     "id": "1eve1eid1soow",
@@ -18203,7 +18298,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1evfubflfwwsg-尚書義問.json",
     "author": "鄭玄",
-    "dynasty": "晉",
+    "dynasty": "漢",
     "role": "撰",
     "juan_count": 3,
     "measure_info": "三卷"
@@ -18354,7 +18449,7 @@
     "title": "涼記",
     "type": "Work",
     "path": "Work/1/e/v/1evfuui47u2v4-涼記.json",
-    "author": "段龜胞",
+    "author": "段龜龍",
     "dynasty": "晉",
     "role": "撰",
     "juan_count": 10,
@@ -18371,13 +18466,15 @@
   },
   "1evfuuj1fo7wg": {
     "id": "1evfuuj1fo7wg",
-    "title": "憨帝起居注三",
+    "title": "憨帝起居注",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuj1fo7wg-憨帝起居注三.json",
+    "path": "Work/1/e/v/1evfuuj1fo7wg-憨帝起居注.json",
     "author": "李軌",
     "dynasty": "晉",
     "role": "注",
-    "juan_count": 30,
+    "juan_count": {
+      "number": 30
+    },
     "measure_info": "三十卷"
   },
   "1evfuukmsj18g": {
@@ -18405,15 +18502,19 @@
   },
   "1evfuuln6x9mo": {
     "id": "1evfuuln6x9mo",
-    "title": "晉簡文",
+    "title": "晉簡文帝議",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuln6x9mo-晉簡文.json",
-    "author": "議四卷",
+    "path": "Work/1/e/v/1evfuuln6x9mo-晉簡文帝議.json",
+    "author": "司馬昱",
     "dynasty": "晉",
     "role": "撰",
     "additional_titles": [
       "晋簡文"
-    ]
+    ],
+    "juan_count": {
+      "number": 4
+    },
+    "measure_info": "4卷"
   },
   "1evfuulzvlgcg": {
     "id": "1evfuulzvlgcg",
@@ -18492,30 +18593,21 @@
   },
   "1evfuuprbyqdc": {
     "id": "1evfuuprbyqdc",
-    "title": "支法師傳謹按見《世說文學篇》注。《高僧傳》四言支遁以太和元年",
+    "title": "支法師傳",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuprbyqdc-支法師傳謹按見世說文學篇注高僧傳四言支遁.json",
-    "author": "支法師傳",
-    "dynasty": "晉",
-    "role": "注"
+    "path": "Work/1/e/v/1evfuuprbyqdc-支法師傳.json"
   },
   "1evfuuq2hp5hc": {
     "id": "1evfuuq2hp5hc",
-    "title": "許邁别傳謹按見《御覽》引書綱目。衛 别傳苟别傳謹按見《世說注",
+    "title": "許邁别傳",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuq2hp5hc-許邁别傳謹按見御覽引書綱目衛 别傳苟别傳.json",
-    "author": "許邁别傳",
-    "dynasty": "晉",
-    "role": "注"
+    "path": "Work/1/e/v/1evfuuq2hp5hc-許邁别傳.json"
   },
   "1evfuuqg1l2io": {
     "id": "1evfuuqg1l2io",
-    "title": "羅府君别傳謹按見《世說方正篇》注。家大人曰:“《箴規篇》注又",
+    "title": "羅府君别傳",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuqg1l2io-羅府君别傳謹按見世說方正篇注家大人曰“箴.json",
-    "author": "羅府君别傳",
-    "dynasty": "晉",
-    "role": "注"
+    "path": "Work/1/e/v/1evfuuqg1l2io-羅府君别傳.json"
   },
   "1evfuurm4fqps": {
     "id": "1evfuurm4fqps",
@@ -18562,12 +18654,16 @@
   },
   "1evfuuviv7s3k": {
     "id": "1evfuuviv7s3k",
-    "title": "楊子物理論十",
+    "title": "楊子物理論",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuuviv7s3k-楊子物理論十.json",
+    "path": "Work/1/e/v/1evfuuviv7s3k-楊子物理論.json",
     "author": "楊泉",
     "dynasty": "晉",
-    "role": "撰"
+    "role": "撰",
+    "juan_count": {
+      "number": 16
+    },
+    "measure_info": "十六篇"
   },
   "1evfuuwnb2lmo": {
     "id": "1evfuuwnb2lmo",
@@ -18594,7 +18690,7 @@
     "title": "搜神記",
     "type": "Work",
     "path": "Work/1/e/v/1evfuuz223wg0-搜神記.json",
-    "author": "千寶",
+    "author": "干寶",
     "dynasty": "晉",
     "role": "撰",
     "juan_count": 30,
@@ -18674,12 +18770,16 @@
   },
   "1evfuv3ynxgjk": {
     "id": "1evfuv3ynxgjk",
-    "title": "侍中",
+    "title": "嵇紹集",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuv3ynxgjk-侍中.json",
-    "author": "紹集二卷錄一卷",
+    "path": "Work/1/e/v/1evfuv3ynxgjk-嵇紹集.json",
+    "author": "嵇紹",
     "dynasty": "晉",
-    "role": "撰"
+    "role": "撰",
+    "juan_count": {
+      "number": 2
+    },
+    "measure_info": "2卷"
   },
   "1evfuv4hgcpog": {
     "id": "1evfuv4hgcpog",
@@ -18702,10 +18802,12 @@
   },
   "1evfuv5g8dkhs": {
     "id": "1evfuv5g8dkhs",
-    "title": "劉琨别集十",
+    "title": "劉琨别集",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuv5g8dkhs-劉琨别集十.json",
-    "juan_count": 12,
+    "path": "Work/1/e/v/1evfuv5g8dkhs-劉琨别集.json",
+    "juan_count": {
+      "number": 12
+    },
     "measure_info": "十二卷"
   },
   "1evfuv5qfrvuo": {
@@ -18773,12 +18875,14 @@
   },
   "1evfuv8ygb400": {
     "id": "1evfuv8ygb400",
-    "title": "中領軍",
+    "title": "庾氏集",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuv8ygb400-中領軍.json",
-    "author": "穌集二卷錄一卷",
+    "path": "Work/1/e/v/1evfuv8ygb400-庾氏集.json",
     "dynasty": "晉",
-    "role": "撰"
+    "juan_count": {
+      "number": 2
+    },
+    "measure_info": "2卷"
   },
   "1evfuva9bgs1s": {
     "id": "1evfuva9bgs1s",
@@ -18817,21 +18921,25 @@
   },
   "1evfuvdfxfk74": {
     "id": "1evfuvdfxfk74",
-    "title": "名文集四",
+    "title": "名文集",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuvdfxfk74-名文集四.json",
+    "path": "Work/1/e/v/1evfuvdfxfk74-名文集.json",
     "author": "謝沈",
     "dynasty": "晉",
     "role": "撰",
-    "juan_count": 40,
+    "juan_count": {
+      "number": 40
+    },
     "measure_info": "四十卷"
   },
   "1evfuvf2gfev4": {
     "id": "1evfuvf2gfev4",
-    "title": "太元成寧寧康副詔二十",
+    "title": "太元成寧寧康副詔",
     "type": "Work",
-    "path": "Work/1/e/v/1evfuvf2gfev4-太元成寧寧康副詔二十.json",
-    "juan_count": 22,
+    "path": "Work/1/e/v/1evfuvf2gfev4-太元成寧寧康副詔.json",
+    "juan_count": {
+      "number": 22
+    },
     "measure_info": "二十二卷"
   },
   "1evfuvf4tbym8": {
@@ -21806,11 +21914,14 @@
   },
   "1evgoq88iq2gw": {
     "id": "1evgoq88iq2gw",
-    "title": "田僧紹注儀禮",
+    "title": "儀禮田僧紹注",
     "type": "Work",
-    "path": "Work/1/e/v/1evgoq88iq2gw-田僧紹注儀禮.json",
+    "path": "Work/1/e/v/1evgoq88iq2gw-儀禮田僧紹注.json",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "additional_titles": [
+      "田僧紹注儀禮"
+    ]
   },
   "1evgoq8mbcmps": {
     "id": "1evgoq8mbcmps",
@@ -23685,11 +23796,14 @@
   },
   "1evgpn9k1o8ao": {
     "id": "1evgpn9k1o8ao",
-    "title": "葉夢得注老子",
+    "title": "老子葉夢得注",
     "type": "Work",
-    "path": "Work/1/e/v/1evgpn9k1o8ao-葉夢得注老子.json",
+    "path": "Work/1/e/v/1evgpn9k1o8ao-老子葉夢得注.json",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "additional_titles": [
+      "葉夢得注老子"
+    ]
   },
   "1evgpna6o2dj4": {
     "id": "1evgpna6o2dj4",
@@ -23709,11 +23823,14 @@
   },
   "1evgpnf7cwphc": {
     "id": "1evgpnf7cwphc",
-    "title": "盧藏用注莊子",
+    "title": "莊子盧藏用注",
     "type": "Work",
-    "path": "Work/1/e/v/1evgpnf7cwphc-盧藏用注莊子.json",
+    "path": "Work/1/e/v/1evgpnf7cwphc-莊子盧藏用注.json",
     "juan_count": 12,
-    "measure_info": "十二卷"
+    "measure_info": "十二卷",
+    "additional_titles": [
+      "盧藏用注莊子"
+    ]
   },
   "1evgpng9ncoao": {
     "id": "1evgpng9ncoao",
@@ -23751,11 +23868,14 @@
   },
   "1evgpnk775s74": {
     "id": "1evgpnk775s74",
-    "title": "李暹注文子",
+    "title": "文子李暹注",
     "type": "Work",
-    "path": "Work/1/e/v/1evgpnk775s74-李暹注文子.json",
+    "path": "Work/1/e/v/1evgpnk775s74-文子李暹注.json",
     "juan_count": 12,
-    "measure_info": "十二卷"
+    "measure_info": "十二卷",
+    "additional_titles": [
+      "李暹注文子"
+    ]
   },
   "1evgpnmd6m5ts": {
     "id": "1evgpnmd6m5ts",
@@ -28826,7 +28946,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5vfdzgtmo-九日從宋公戲馬臺集送孔令詩.json",
     "author": "謝靈運",
-    "dynasty": "宋",
+    "dynasty": "南朝宋",
     "role": "作",
     "subtype": "article"
   },
@@ -28889,7 +29009,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5w0m512ps-入彭蠡湖口.json",
     "author": "謝靈運",
-    "dynasty": "宋",
+    "dynasty": "南朝宋",
     "role": "作",
     "has_text": true,
     "subtype": "article"
@@ -28985,7 +29105,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5wow8mfpc-陳琳.json",
     "author": "謝靈運",
-    "dynasty": "宋",
+    "dynasty": "南朝宋",
     "role": "作",
     "subtype": "article"
   },
@@ -29126,7 +29246,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5xa7q1tds-逸民傳論.json",
     "author": "范曄",
-    "dynasty": "宋",
+    "dynasty": "南朝宋",
     "role": "作",
     "has_text": true,
     "subtype": "article"
@@ -31024,15 +31144,18 @@
   },
   "1evjqzdumn0n4": {
     "id": "1evjqzdumn0n4",
-    "title": "戴氏注論語",
+    "title": "論語戴氏注",
     "type": "Work",
-    "path": "Work/1/e/v/1evjqzdumn0n4-戴氏注論語.json",
+    "path": "Work/1/e/v/1evjqzdumn0n4-論語戴氏注.json",
     "author": "戴望",
     "dynasty": "清",
     "role": "撰",
     "juan_count": 20,
     "measure_info": "二十卷",
-    "has_image": true
+    "has_image": true,
+    "additional_titles": [
+      "戴氏注論語"
+    ]
   },
   "1evjqzhxchkao": {
     "id": "1evjqzhxchkao",
@@ -31623,7 +31746,7 @@
     "title": "通制條格存",
     "type": "Work",
     "path": "Work/1/e/v/1evjr23a8xji8-通制條格存.json",
-    "author": "拜柱等",
+    "author": "拜柱",
     "dynasty": "元",
     "role": "纂",
     "juan_count": 22,
@@ -31680,7 +31803,7 @@
     "title": "欽定兵部處分則例欽定兵部續纂處分則例",
     "type": "Work",
     "path": "Work/1/e/v/1evjr2eh48qo0-欽定兵部處分則例欽定兵部續纂處分則例.json",
-    "author": "清伯麟等",
+    "author": "清伯麟",
     "role": "撰",
     "juan_count": 4,
     "measure_info": "四卷",
@@ -31702,7 +31825,7 @@
     "title": "欽定大清現行新律例",
     "type": "Work",
     "path": "Work/1/e/v/1evjr2jvyid4w-欽定大清現行新律例.json",
-    "author": "沈家本等",
+    "author": "沈家本",
     "dynasty": "清",
     "role": "編",
     "juan_count": 45,
@@ -31714,7 +31837,7 @@
     "title": "刑部比照加減成案續編",
     "type": "Work",
     "path": "Work/1/e/v/1evjr2k02s35s-刑部比照加減成案續編.json",
-    "author": "許槤等",
+    "author": "許槤",
     "dynasty": "清",
     "role": "撰",
     "juan_count": 32,
@@ -31747,7 +31870,7 @@
     "title": "唐月令注補遺唐月令考",
     "type": "Work",
     "path": "Work/1/e/v/1evjr2odyzj0g-唐月令注補遺唐月令考.json",
-    "author": "李林甫等",
+    "author": "李林甫",
     "dynasty": "唐",
     "role": "撰",
     "juan_count": 1,
@@ -31783,7 +31906,7 @@
     "title": "欽定天祿琳琅書目後編",
     "type": "Work",
     "path": "Work/1/e/v/1evjr2vh642rk-欽定天祿琳琅書目後編.json",
-    "author": "彭元瑞等",
+    "author": "彭元瑞",
     "dynasty": "清",
     "role": "撰",
     "juan_count": 20,
@@ -33231,7 +33354,7 @@
     "title": "一笠庵彙編清忠譜傳奇",
     "type": "Work",
     "path": "Work/1/e/v/1evjrb88ncveo-一笠庵彙編清忠譜傳奇.json",
-    "author": "李玉等",
+    "author": "李玉",
     "dynasty": "清",
     "role": "撰",
     "juan_count": 2,
@@ -34372,7 +34495,7 @@
     "title": "大明會典",
     "type": "Work",
     "path": "Work/1/e/v/1evjy6pwb7rb4-大明會典.json",
-    "author": "徐溥等",
+    "author": "徐溥",
     "dynasty": "明",
     "role": "纂"
   },
@@ -34399,7 +34522,7 @@
     "title": "西崑詶唱集",
     "type": "Work",
     "path": "Work/1/e/v/1evjy704479q8-西崑詶唱集.json",
-    "author": "楊億等",
+    "author": "楊億",
     "dynasty": "宋",
     "role": "撰"
   },
@@ -34450,7 +34573,7 @@
     "title": "律呂正義",
     "type": "Work",
     "path": "Work/1/e/v/1evjy7cbfs4jk-律呂正義.json",
-    "author": "允祉等",
+    "author": "允祉",
     "dynasty": "清",
     "role": "撰"
   },
@@ -35134,7 +35257,7 @@
     "title": "昭鑑錄簡略",
     "type": "Work",
     "path": "Work/1/e/v/1evkagce3r8xs-昭鑑錄簡略.json",
-    "author": "文原吉等",
+    "author": "文原吉",
     "dynasty": "明",
     "role": "撰",
     "juan_count": 2,
@@ -37095,7 +37218,7 @@
     "title": "醫方類聚",
     "type": "Work",
     "path": "Work/1/e/v/1evkpilxx7fuo-醫方類聚.json",
-    "author": "金禮蒙等",
+    "author": "金禮蒙",
     "dynasty": "朝鮮",
     "role": "編",
     "juan_count": 262,
@@ -46079,7 +46202,7 @@
     "title": "毛詩正義",
     "type": "Work",
     "path": "Work/1/e/v/1evr5e3mklzau-毛詩正義.json",
-    "author": "王德韶等",
+    "author": "王德韶",
     "dynasty": "唐",
     "role": "撰",
     "juan_count": 40

@@ -3,15 +3,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "劉陶",
-  "alt_names": [
-    {
-      "name": "仲防",
-      "type": "字"
-    }
-  ],
-  "dynasty": "宋",
-  "birth_year": 1035,
-  "death_year": 1091,
+  "dynasty": "東漢",
   "works": [
     {
       "work_id": "1evf0yjhsw1s0",
@@ -46,9 +38,5 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 573396,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=15 (1035-1091)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=573396（pending_accept: relaxed_ambig cbdb_dy=15 (1035-1091)），據以填入朝代「宋」、生卒 1035~1091、字號別名 仲防。本人物所繫作品之著錄朝代皆作「東漢」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }

@@ -4,10 +4,16 @@
   "title": "西湖志纂",
   "authors": [
     {
-      "name": "大學士梁詩正、禮部尚書銜沈德潛等同",
-      "role": "撰",
+      "name": "梁詩正",
+      "role": "奉敕撰",
       "dynasty": "清",
-      "entity_id": "1j96kfljoc6ps"
+      "entity_id": "1j967a0kjvy1a"
+    },
+    {
+      "name": "沈德潛",
+      "role": "奉敕撰",
+      "dynasty": "清",
+      "entity_id": "1j967a0kktnp0"
     }
   ],
   "indexed_by": [
@@ -127,5 +133,6 @@
       "number": 12
     }
   ],
-  "measure_info": "十二卷"
+  "measure_info": "十二卷",
+  "ai_note": "撰人拆分：本條原繫人物記錄 1j96kfljoc6ps，其 primary_name 作「大學士梁詩正、禮部尚書銜沈德潛等同」，實為合著者名單而非一人。「大學士」「禮部尚書銜」為官銜，今去之。今拆為 2 人：梁詩正、沈德潛。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。"
 }

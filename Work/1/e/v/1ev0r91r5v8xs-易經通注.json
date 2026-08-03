@@ -4,10 +4,16 @@
   "title": "易經通注",
   "authors": [
     {
-      "name": "大學士傅以漸、左庶子曹本榮奉敕",
-      "role": "撰",
+      "name": "傅以漸",
+      "role": "奉敕撰",
       "dynasty": "清",
-      "entity_id": "1j96heit3ky68"
+      "entity_id": "1j9677nkl5c00"
+    },
+    {
+      "name": "曹本榮",
+      "role": "奉敕撰",
+      "dynasty": "清",
+      "entity_id": "1j967avzlz135"
     }
   ],
   "indexed_by": [
@@ -92,5 +98,6 @@
       "title": "周易",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "ai_note": "撰人拆分：本條原繫人物記錄 1j96heit3ky68，其 primary_name 作「大學士傅以漸、左庶子曹本榮奉敕」，實為合著者名單而非一人。「大學士」「左庶子」為官銜，非人名之一部，今去之。今拆為 2 人：傅以漸、曹本榮。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。"
 }

@@ -3,15 +3,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "劉蒼",
-  "alt_names": [
-    {
-      "name": "伯春",
-      "type": "字"
-    }
-  ],
-  "dynasty": "明",
-  "birth_year": 1444,
-  "death_year": 1511,
+  "dynasty": "東漢",
   "works": [
     {
       "work_id": "1evftyfuk12ww",
@@ -22,9 +14,5 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 132901,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=19 (1444-1511)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=132901（pending_accept: relaxed_ambig cbdb_dy=19 (1444-1511)），據以填入朝代「明」、生卒 1444~1511、字號別名 伯春。本人物所繫作品之著錄朝代皆作「東漢」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }

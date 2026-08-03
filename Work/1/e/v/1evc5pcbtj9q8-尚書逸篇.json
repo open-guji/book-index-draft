@@ -29,7 +29,8 @@
     "number": 2
   },
   "description": {
-    "text": "《尚书逸篇》二卷"
+    "text": "《尚书逸篇》二卷",
+    "sources": []
   },
   "id": "1evc5pcbtj9q8",
   "measures": [
@@ -45,5 +46,6 @@
       "title": "尚書",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "ai_note": "考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　考證重複清除：先前補繫考證時判重之鍵誤用 title_info（原有條目帶標點而整理本 section 標題不帶），致本條追加了內容全同之重複考證 1 條，今刪除，保留原匯入所建者。"
 }

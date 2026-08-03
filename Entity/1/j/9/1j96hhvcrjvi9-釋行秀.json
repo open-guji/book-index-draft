@@ -3,23 +3,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "釋行秀",
-  "alt_names": [
-    {
-      "name": "萬松",
-      "type": "號"
-    },
-    {
-      "name": "萬松野老",
-      "type": "號"
-    },
-    {
-      "name": "蔡",
-      "type": "俗姓"
-    }
-  ],
-  "dynasty": "元",
-  "birth_year": 1166,
-  "death_year": 1246,
+  "dynasty": "晉",
   "works": [
     {
       "work_id": "1evfubit8n7cw",
@@ -30,9 +14,5 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 53214,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=18 (1166-1246)"
-  }
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=53214（pending_accept: relaxed_ambig cbdb_dy=18 (1166-1246)），據以填入朝代「元」、生卒 1166~1246、字號別名 萬松／萬松野老／蔡。本人物所繫作品之著錄朝代皆作「晉」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。"
 }
