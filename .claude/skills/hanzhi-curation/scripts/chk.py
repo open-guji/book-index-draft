@@ -98,3 +98,26 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not any(y.get('source_bid')==src for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)
+
+# 輯佚檔 fragments/*.json
+fbad=[]
+for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
+    wid=f.split('/')[4]
+    try: fd=json.load(open(f))
+    except Exception as e: fbad.append((f,'解析失敗')); continue
+    if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
+    if wid not in IW: fbad.append((f,'work 不存在')); continue
+    cov=fd.get('coverage') or {}
+    rec=sum(1 for x in (fd.get('fragments') or []) if (x.get('text') or '').strip())
+    if cov.get('fragments_recorded')!=rec:
+        fbad.append((f,f"fragments_recorded {cov.get('fragments_recorded')} ≠ 實錄 {rec}"))
+    if cov.get('level')=='著錄層' and rec and cov.get('level')!='文本層' and rec>0 and not cov.get('note'):
+        fbad.append((f,'著錄層而有錄文，未說明'))
+    if not (fd.get('collectors') or fd.get('fragments')):
+        fbad.append((f,'既無輯家亦無佚文'))
+    try: wd=json.load(open(IW[wid]['path']))
+    except Exception: wd={}
+    if 'fragments/' not in (wd.get('ai_note') or ''):
+        fbad.append((f,'work 側未記本檔'))
+print('輯佚檔',len(glob.glob('Work/*/*/*/*/fragments/*.json')),'不合',len(fbad))
+for x in fbad[:12]: print('  ',x)

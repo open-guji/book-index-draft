@@ -1,0 +1,48 @@
+{
+  "work_id": "1evfuuviv7s3k",
+  "title": "楊子物理論",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "已亡佚。",
+  "provenance": "二手",
+  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": null,
+      "work": null,
+      "count": null,
+      "count_unit": null,
+      "statement": "周氏廣業、嚴氏可均謂《意林》所載傅子《物理論》互有錯簡,因取孫氏輯本校之,去其誤收《傅子》數十條,以《齊民要術》、《五行大義》、《天中記》所引略加補正,而以《意林》錯簡入《傅子》者八條録附焉。第周氏言《物理論》見引他書,搜輯遺文,去其重複,得文段完整者百數十條四千餘字,而諸賦不與焉。此卷祇得三千餘字,知尚有遺佚,惜未得。周氏輯本一勘之也。《藝文類聚》載楊泉諸賦,或稱吴,或稱晉,《初學記》又稱西晉,泉蓋由吴歷晉。晉初,徵拜郎中,終不應命,故《隋志》稱日徵士,又曰處士。",
+      "statement_label": "海寧錢保塘輯本序"
+    },
+    {
+      "collector": null,
+      "work": "平津館叢書",
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "note": "考證但著其書，未載輯本序，條數未詳。"
+    }
+  ],
+  "cited_in_summary": [],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+  "fragments": [],
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。"
+}

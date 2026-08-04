@@ -1,0 +1,40 @@
+{
+  "work_id": "1ev3bbkh3tt6o",
+  "title": "九章算術",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫017699-017701）。清乾隆間寫文淵閣四庫全書本。",
+  "provenance": "二手",
+  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": null,
+      "work": null,
+      "count": null,
+      "count_unit": null,
+      "statement": "昔在包犧氏,始畫八卦,以通神明之德,以類萬物之情,作九九之術,以合六爻之變。暨于黄帝,神而化之,引而伸之,于是建曆紀,協律吕,用稽道原,然後兩儀四象精微之氣可得而效焉。記稱隸首作數,其詳未之聞也。案周公制禮而有九數,九數之流,則九章是矣。往者暴秦焚書,經術散壞。自時厥後,漢北平候張蒼、大司農中丞耿壽昌皆以善算命世。蒼等因舊文之遺殘,各稱删補。故校其目則與古或異,而所論者多近語也。徽幼習九章,長再詳覽。觀陰陽之割裂,總算術之根原,探之暇,遂悟其意。是以敢竭頑魯,采其所見,為之作注。",
+      "statement_label": "徽自序"
+    }
+  ],
+  "cited_in_summary": [],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+  "fragments": [],
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。"
+}

@@ -1,0 +1,69 @@
+{
+  "work_id": "1evcpjzpcre9s",
+  "title": "子思子",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "《漢書·藝文志》諸子略儒家類著錄二十三篇。子思名伋，孔子之孫，曾子弟子，為魯繆公師，孟子受業於其門人。《史記》載子思作《中庸》，《禮記》之《表記》《坊記》《緇衣》舊說亦取自《子思子》。《隋志》著錄七卷，北宋時尚存，其後散佚。今存者為宋汪晫輯本一卷九篇與清黃以周輯本七卷，皆後人所輯，非漢時原書。郭店楚簡《魯穆公問子思》《五行》《性自命出》等篇，學界多以為出子思一系。",
+  "provenance": "二手",
+  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": "洪頤煊",
+      "work": null,
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "note": "考證但稱其名，未載輯本序，條數未詳。"
+    }
+  ],
+  "cited_in_summary": [
+    {
+      "title": "文選注",
+      "juan": null,
+      "count": null,
+      "resolved": false,
+      "attested_by": "《隋書經籍志考證》"
+    },
+    {
+      "title": "初學記",
+      "juan": null,
+      "count": null,
+      "resolved": false,
+      "attested_by": "《隋書經籍志考證》"
+    }
+  ],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+  "fragments": [],
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。",
+  "_needs_review": [
+    {
+      "locus": "文選注",
+      "juan": null,
+      "source": "隋書經籍志考證",
+      "context": "《文選注》引《子思子》民以君為心,君以民為體”。又引《詩》云:昔吾有先正,其言明且清。國家以寧,都邑以成”。《初學記》引"
+    },
+    {
+      "locus": "初學記",
+      "juan": null,
+      "source": "隋書經籍志考證",
+      "context": "《初學記》引東户季子之時,道上雁行而不拾遺,耕 餘糧,宿諸畝首”。今有一卷,乃取諸《孔叢子》,非本書也。”《四庫簡明目"
+    }
+  ]
+}

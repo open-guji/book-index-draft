@@ -1,0 +1,56 @@
+{
+  "work_id": "1evfubjuv1wcg",
+  "title": "禮難",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "已亡佚。",
+  "provenance": "二手",
+  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": null,
+      "work": "玉函山房輯佚書",
+      "count": null,
+      "count_unit": null,
+      "statement": "吴商字里未詳,據《隋志》知為晉益壽令。《晉書·禮志》稱博士吴商,《通典》八十八稱國子博士吴商答劉寶議。蓋又嘗為此官也。今從《通典》輯得議六篇。",
+      "statement_label": "馬氏玉函山房輯本序"
+    }
+  ],
+  "cited_in_summary": [
+    {
+      "title": "通典",
+      "juan": null,
+      "count": null,
+      "resolved": false,
+      "attested_by": "《隋書經籍志考證》"
+    }
+  ],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+  "fragments": [],
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。",
+  "_needs_review": [
+    {
+      "locus": "通典",
+      "juan": null,
+      "source": "隋書經籍志考證",
+      "context": "《通典》引《禮議》、《禮論答問》凡六篇,《續漢祭祀志》注引《裡祀六宗說》一篇。”《唐書經籍志》:《雜禮義》十一卷,吴"
+    }
+  ]
+}

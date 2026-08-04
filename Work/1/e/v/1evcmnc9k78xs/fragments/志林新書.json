@@ -1,0 +1,62 @@
+{
+  "work_id": "1evcmnc9k78xs",
+  "title": "志林新書",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "已亡佚。",
+  "provenance": "二手",
+  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": null,
+      "work": "玉函山房輯佚書",
+      "count": null,
+      "count_unit": null,
+      "statement": "《志林新書》,《隋志》三十卷,《唐志》二十卷,今佚。明陶宗儀《說》輯入十三節,更采《三國志注》、《文選注》、《史記索隱》《正義》、《太平御覽》等書補録三十七節,合為一卷。書多雜論故事,長於考據。諸書引並作《志林》,省新書",
+      "statement_label": "馬氏玉函山房輯本序"
+    }
+  ],
+  "cited_in_summary": [
+    {
+      "title": "通典",
+      "juan": null,
+      "count": null,
+      "resolved": false,
+      "attested_by": "《隋書經籍志考證》"
+    }
+  ],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+  "fragments": [],
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。",
+  "_needs_review": [
+    {
+      "locus": "通典",
+      "juan": null,
+      "source": "隋書經籍志考證",
+      "context": "《通典》引虞喜說凡二十節,除標題《釋滯》、《通疑》八節,明標《廣林》者一節,他皆稱虞喜曰”。循其文義,皆雜論禮服,知為"
+    },
+    {
+      "locus": "通典",
+      "juan": null,
+      "source": "隋書經籍志考證",
+      "context": "《通典》引虞喜《釋滯》三節,引虞喜《通疑》五節,《隋》、《唐志》載虞喜所著書皆無其目,其史志侠之耶?抑為《志林》、《廣"
+    }
+  ]
+}
