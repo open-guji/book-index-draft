@@ -1,0 +1,54 @@
+{
+  "work_id": "1evftwxy97q4g",
+  "title": "孟子注",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "文本層（部分）",
+    "note": "本檔已錄得逐字佚文，然止於考證及本庫著錄之描述所轉引者，諸書所引之全數尚未錄入，故曰部分。",
+    "fragments_attested": null,
+    "fragments_attested_note": "考證未言條數。",
+    "fragments_recorded": 1,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": null,
+  "provenance": "二手",
+  "provenance_note": "本檔據考證及本庫著錄之描述所轉引之佚文錄成，未覆核所引原書。",
+  "based_on": [
+    {
+      "source": "後漢藝文志",
+      "source_bid": "1eve1ei9whji8",
+      "field": "emendated_by"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "field": "emendated_by"
+    }
+  ],
+  "collectors": [],
+  "cited_in_summary": [],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目。",
+  "fragments": [
+    {
+      "seq": 1,
+      "text": "摟，牽也。",
+      "text_status": "已錄",
+      "text_from": "《文選李善注》所引，本庫考證或著錄之描述轉載",
+      "cited_in": {
+        "title": "文選李善注",
+        "work_id": null,
+        "juan": null,
+        "section": "",
+        "detail": "琴賦注"
+      },
+      "collected_by": [],
+      "attested_by": "《文選李善注》引《孟子注》",
+      "confidence": "存疑",
+      "note": "考證此處作「其琴賦注引劉向孟子注云」，而其上文方言「李善三引劉熙注」，劉向、劉熙自相出入。《孟子》注家漢有劉熙而無劉向，疑「向」為「熙」之訛，然未得原書覆核，故存其字而記其疑。citing work 未繫：本庫題《文選》者四 work。"
+    }
+  ],
+  "ai_note": "佚文補錄：前次搜佚文只掃已立輯佚檔之 work 且只讀考證，本書之佚文以引書無書名號、佚文無引號而見遺，今以本書之名為錨重掃補之。"
+}

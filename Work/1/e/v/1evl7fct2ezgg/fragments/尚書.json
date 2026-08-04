@@ -1,0 +1,41 @@
+{
+  "work_id": "1evl7fct2ezgg",
+  "title": "尚書",
+  "type": "fragments",
+  "schema_version": 2,
+  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+  "coverage": {
+    "level": "著錄層",
+    "note": "本檔止於著錄層，且其輯家之據出於本庫著錄之描述而非考證——考證於本書未及輯本，描述則明言某家有輯本。佚文原文二者俱不錄。",
+    "fragments_attested": null,
+    "fragments_attested_note": "描述未言條數。",
+    "fragments_recorded": 0,
+    "text_available": false
+  },
+  "loss_status": "全佚",
+  "statement": "中國最古的政事文獻彙編，記載虞、夏、商、周諸代帝王政令誥誓。「尚」者上也，謂上古帝王之書。相傳孔子刪訂百篇，為《書序》。秦焚書後，伏生口傳今文《尚書》28篇（漢隸寫定），漢武帝時孔壁發現古文《尚書》多 16 篇（蝌蚪篆文，孔安國以隸古定釋讀，未列學官，魏晉之際亡佚）。東晉梅賾獻偽古文《尚書》及孔安國傳，分58篇（其中今文28篇析為33篇，多出25篇偽古文），是為今本《尚書》。歷代注疏以漢馬融、鄭玄注（佚），漢偽孔安國傳（東晉梅賾獻），唐孔穎達《尚書正義》，宋蔡沈《書集傳》，清閻若璩《尚書古文疏證》（辨偽古文），孫星衍《尚書今古文注疏》最為精審。",
+  "provenance": "二手",
+  "provenance_note": "本檔據本庫 work 之描述錄成，未覆核輯本原書及所引類書。",
+  "based_on": [
+    {
+      "source": "本庫著錄之描述",
+      "source_bid": null,
+      "field": "description"
+    }
+  ],
+  "collectors": [
+    {
+      "collector": "孫星衍",
+      "work": "平津館叢書",
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "basis": "本庫著錄之描述",
+      "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。"
+    }
+  ],
+  "cited_in_summary": [],
+  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。",
+  "fragments": [],
+  "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。"
+}
