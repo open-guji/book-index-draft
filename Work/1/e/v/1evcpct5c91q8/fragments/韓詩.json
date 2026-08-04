@@ -30,7 +30,8 @@
       "count": null,
       "count_unit": null,
       "statement": "薛君章句久佚，宋王應麟《詩考》輯附《韓詩》，而尚多漏略。茲更補輯，别為二卷。",
-      "statement_label": "序"
+      "statement_label": "序",
+      "basis": "考證載其輯本序"
     },
     {
       "collector": "嚴可均",
@@ -38,19 +39,30 @@
       "count": null,
       "count_unit": null,
       "statement": null,
-      "note": "考證但稱其名，未載輯本序，條數未詳。"
+      "note": "考證但稱其名，未載輯本序，條數未詳。",
+      "basis": "考證著其輯本或稱其名"
     },
     {
-      "collector": null,
+      "collector": "馬國翰",
       "work": "玉函山房輯佚書",
       "count": null,
       "count_unit": null,
       "statement": null,
-      "note": "考證但著其書，未載輯本序，條數未詳。"
+      "note": "考證但著其書，未載輯本序，條數未詳。",
+      "basis": "考證著其輯本或稱其名"
+    },
+    {
+      "collector": "王謨",
+      "work": "漢魏遺書鈔",
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "basis": "考證著其輯本或稱其名",
+      "note": "考證但稱其名，未載輯本序，條數未詳。"
     }
   ],
   "cited_in_summary": [],
   "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
   "fragments": [],
-  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。"
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。"
 }

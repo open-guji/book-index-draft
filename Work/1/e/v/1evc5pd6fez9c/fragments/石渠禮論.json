@@ -25,12 +25,13 @@
   ],
   "collectors": [
     {
-      "collector": null,
+      "collector": "馬國翰",
       "work": "玉函山房輯佚書",
       "count": null,
       "count_unit": null,
       "statement": "《漢·藝文志》:《議奏》三十八篇。《隋志》載《石渠禮論》四卷戴聖撰者,即《漢志》之《議奏》。蓋論出諸儒,而近君當云次君。一人所手定也。《唐志》不著録,時已散佚。《詩》、《禮正義》及《後漢書補志》注引之,多係節文。杜佑《通典》引十九節,差具本末,排次於前,其他佚句附後。",
-      "statement_label": "馬氏玉函山房輯本序"
+      "statement_label": "馬氏玉函山房輯本序",
+      "basis": "考證載其輯本序"
     },
     {
       "collector": "洪頤煊",
@@ -38,7 +39,35 @@
       "count": null,
       "count_unit": null,
       "statement": null,
-      "note": "考證但稱其名，未載輯本序，條數未詳。"
+      "note": "考證但稱其名，未載輯本序，條數未詳。",
+      "basis": "考證著其輯本或稱其名"
+    },
+    {
+      "collector": "黃奭",
+      "work": "漢學堂叢書",
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "basis": "本庫著錄之描述",
+      "note": "輯家之名見於本庫 work 之描述，考證未及，條數未詳。"
+    },
+    {
+      "collector": "王謨",
+      "work": "漢魏遺書鈔",
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "basis": "本庫著錄之描述",
+      "note": "輯家之名見於本庫 work 之描述，考證未及，條數未詳。"
+    },
+    {
+      "collector": "宋翔鳳",
+      "work": null,
+      "count": null,
+      "count_unit": null,
+      "statement": null,
+      "basis": "本庫著錄之描述",
+      "note": "輯家之名見於本庫 work 之描述，考證未及，條數未詳。"
     }
   ],
   "cited_in_summary": [
@@ -52,5 +81,5 @@
   ],
   "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
   "fragments": [],
-  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。"
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。"
 }
