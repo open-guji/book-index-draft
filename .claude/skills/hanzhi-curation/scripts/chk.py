@@ -121,3 +121,33 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         fbad.append((f,'work 側未記本檔'))
 print('輯佚檔',len(glob.glob('Work/*/*/*/*/fragments/*.json')),'不合',len(fbad))
 for x in fbad[:12]: print('  ',x)
+
+# 整理本 section 之 work_id / target_bid 是否落空
+# （匯入時每條都鑄了 id，而 Work 檔只生成了一部分，故有懸空；索引側查不到這一類）
+try: IB
+except NameError:
+    IB={}
+    for _s in '0123456789abcdef':
+        try: IB.update(json.load(open(f'index/books/{_s}.json')))
+        except Exception: pass
+import collections as _c
+dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+    if f.endswith('collated_edition_index.json'): continue
+    try: cd=json.load(open(f))
+    except Exception: continue
+    if not isinstance(cd,dict): continue
+    for sec in cd.get('sections',[]):
+        if not isinstance(sec,dict): continue
+        ws=[sec['work_id']] if isinstance(sec.get('work_id'),str) else []
+        v=sec.get('work_ids')
+        if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
+        for w in ws:
+            if w in IW: continue
+            dang[f.split('/')[4]]+=1; dang_ids.add(w)
+            if w in IB: dang_is_book+=1
+        b=sec.get('target_bid')
+        if isinstance(b,str) and b not in IB and b not in IW:
+            dang[f.split('/')[4]]+=1; dang_ids.add(b)
+print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
+for k,v in dang.most_common(6): print('  ',k,v)
