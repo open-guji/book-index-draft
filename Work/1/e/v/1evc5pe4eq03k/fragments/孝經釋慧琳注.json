@@ -12,7 +12,7 @@
   "fragments_recorded": 0,
   "text_available": false
  },
- "loss_status": "全佚",
+ "loss_status": "lost",
  "statement": "释慧琳注。梁有晋穆帝时《晋孝经》一卷，武帝时《送总明馆孝经讲》、《议》各一卷，宋大明中《东宫讲》，齐永明三年《东宫讲》，齐永明中《诸王讲》及贺緌讲、议《孝经义疏》各一卷，齐临沂令李玉之为始兴王讲《孝经义疏》二卷，亡。",
  "provenance": "二手",
  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
@@ -38,5 +38,5 @@
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
  "fragments": [],
- "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。"
+ "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
 }

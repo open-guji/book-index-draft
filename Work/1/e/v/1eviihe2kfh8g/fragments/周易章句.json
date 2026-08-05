@@ -12,7 +12,7 @@
   "fragments_recorded": 0,
   "text_available": false
  },
- "loss_status": "全佚",
+ "loss_status": "lost",
  "statement": "《漢書·藝文志》六藝略易類著錄「《章句》，施、孟、梁丘氏各二篇」，本條為梁丘賀《章句》二篇，已亡佚。梁丘賀字長翁，琅邪諸人，初從太中大夫京房受《易》，後更事田王孫，宣帝時以筮占驗擢太中大夫、給事中，至少府，梁丘氏《易》立為學官。其子梁丘臨傳其學，授五鹿充宗、張禹；元帝好梁丘《易》，其學最盛。「章句」為離章辨句之體。梁丘氏《易》東漢猶存，西晉永嘉之亂後亡佚。清馬國翰《玉函山房輯佚書》有《周易梁丘氏章句》一卷，《清史稿·藝文志》著錄「漢梁丘賀《周易章句》一卷」即其輯本。",
  "provenance": "二手",
  "provenance_note": "本檔據本庫 work 之描述錄成，未覆核輯本原書及所引類書。",
@@ -38,5 +38,5 @@
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。",
  "fragments": [],
- "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。"
+ "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
 }

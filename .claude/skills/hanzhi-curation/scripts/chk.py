@@ -107,6 +107,9 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
     except Exception as e: fbad.append((f,'解析失敗')); continue
     if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
     if wid not in IW: fbad.append((f,'work 不存在')); continue
+    _LS={'lost','partially_extant','extant','undetermined'}
+    if 'loss_status' in fd and fd['loss_status'] not in _LS:
+        fbad.append((f,f"loss_status「{fd['loss_status']}」不在枚舉內"))
     cov=fd.get('coverage') or {}
     rec=sum(1 for x in (fd.get('fragments') or []) if (x.get('text') or '').strip())
     if cov.get('fragments_recorded')!=rec:

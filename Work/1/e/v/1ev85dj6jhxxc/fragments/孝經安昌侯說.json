@@ -12,7 +12,7 @@
   "fragments_recorded": 0,
   "text_available": false
  },
- "loss_status": "全佚",
+ "loss_status": "lost",
  "statement": "《漢書·藝文志》六藝略孝經類著錄「《安昌侯說》一篇」，已亡佚。安昌侯即張禹，字子文，河內軹人，成帝師，官至丞相，封安昌侯。張禹兼治《易》與《論語》，其刪定《齊》《魯》二論而成的《張侯論》為今本《論語》之祖；《漢志》論語類別著錄《魯安昌侯說》二十一篇，與本書同出其手，是張禹於《論語》《孝經》皆有說。馬國翰《玉函山房輯佚書》有《孝經安昌侯說》輯本一卷，自邢昺《孝經正義》採得引「劉述張禹義」一節，所存僅此，餘皆散佚。",
  "provenance": "二手",
  "provenance_note": "本檔據本庫 work 之描述錄成，未覆核輯本原書及所引類書。",
@@ -43,5 +43,5 @@
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。",
  "fragments": [],
- "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。"
+ "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
 }
