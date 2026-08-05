@@ -154,3 +154,27 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 for k,v in dang.most_common(6): print('  ',k,v)
+
+# 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
+# （匯入時同名條目未分，如隋志四種卷數各異之《後漢書》皆繫一 id）
+import re as _re
+_VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略','别':'別','吴':'吳'})
+def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
+secmag=_c.Counter(); secmag_ex=[]
+for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+    if f.endswith('collated_edition_index.json'): continue
+    try: cd=json.load(open(f))
+    except Exception: continue
+    if not isinstance(cd,dict): continue
+    own=f.split('/')[4]; m=_c.defaultdict(set)
+    for sec in cd.get('sections',[]):
+        if not isinstance(sec,dict): continue
+        w=sec.get('work_id')
+        if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
+    for w,ts in m.items():
+        if len(ts)>1:
+            secmag[own]+=len(ts)
+            if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
+print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()))
+for k,v in secmag.most_common(6): print('  ',k,v)
+for x in secmag_ex: print('   例',x)
