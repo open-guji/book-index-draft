@@ -123,7 +123,8 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         fbad.append((f,f"fragments_recorded {cov.get('fragments_recorded')} ≠ 實錄 {rec}"))
     if cov.get('level')=='著錄層' and rec and cov.get('level')!='文本層' and rec>0 and not cov.get('note'):
         fbad.append((f,'著錄層而有錄文，未說明'))
-    if not (fd.get('collectors') or fd.get('fragments')):
+    # collection_attested：確有輯本而未詳其輯家者。此亦是據，不得作空檔論。
+    if not (fd.get('collectors') or fd.get('fragments') or fd.get('collection_attested')):
         fbad.append((f,'既無輯家亦無佚文'))
     for _x in (fd.get('collectors') or []):
         # collectors 之一條即斷言「某人輯過此書」；無其人則此斷言落空
