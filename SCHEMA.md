@@ -127,7 +127,8 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 | `other_statements[]` | 與本書相關而**不是輯本序**者（本志篇序、舊注之序、校注序），自 `collectors` 移出者記 `moved_from` |
 | `cited_in_summary[]` | 佚文所見之書與部類，尚未析出為逐條者 |
 | `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}` |
-| `coverage` | `{level, fragments_attested, fragments_recorded, text_available}` |
+| `coverage` | `{level, fragments_attested, fragments_recorded, text_available}`。<br>`level` 三級：`著錄層`（僅知幾家輯過）→ `篇目層`（知輯本各篇之題）→ `文本層`（錄其正文）。<br>`fragments_attested` 為 null 者是**未知**，非零——如據叢書目錄立檔，目錄不載條數。 |
+| `fragments[]` 之篇目條 | 有 `piece_title` 而 `text` 為 null，是「知其篇而未錄其文」，須並記 `text_status`，否則與「無文」無從分辨。 |
 
 ##### 輯佚叢書整理本（`type: fragment_collection`）
 

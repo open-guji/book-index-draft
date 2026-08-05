@@ -6,8 +6,8 @@
  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
   "level": "文本層（部分）",
-  "note": "本檔已錄得逐字佚文，然止於考證及本庫著錄之描述所轉引者，諸書所引之全數尚未錄入，故曰部分。",
-  "fragments_attested": null,
+  "note": "嚴可均所輯之篇題已具，其中1條並已錄正文，餘者未錄。三層之次：著錄層 → 篇目層 → 文本層；本檔兼有二者，從其高者。",
+  "fragments_attested": 3,
   "fragments_attested_note": "描述未言條數。",
   "fragments_recorded": 1,
   "text_available": false
@@ -47,12 +47,17 @@
   {
    "collector": "嚴可均",
    "work": "全上古三代秦漢三國六朝文",
-   "count": null,
-   "count_unit": null,
+   "count": 3,
+   "count_unit": "篇",
    "statement": null,
    "basis": "本庫著錄之描述",
-   "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。",
-   "work_id": "1evr5e3mdqr98"
+   "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。　嚴書按撰人編次，本書之佚文在全漢文·卷二十七「主父偃」條下，凡3篇。（本庫撰人「主父偃」）",
+   "work_id": "1evr5e3mdqr98",
+   "location": {
+    "ji": "全漢文",
+    "juan": "卷二十七",
+    "author_entry": "主父偃"
+   }
   }
  ],
  "cited_in_summary": [],
@@ -74,7 +79,55 @@
    "attested_by": "《說苑》引《主父偃》",
    "confidence": "確",
    "note": "劉向《說苑》引主父偃曰。《漢志》縱橫家《主父偃》二十八篇，余嘉錫考其九事分九篇。所據考證文本作「脩」，今從通行字作「修」。"
+  },
+  {
+   "seq": 2,
+   "piece_title": "上書諫伐匈奴",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷二十七「主父偃」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 3,
+   "piece_title": "說武帝令諸侯得分封子弟",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷二十七「主父偃」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 4,
+   "piece_title": "說武帝徒豪桀茂陵",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷二十七「主父偃」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
   }
  ],
- "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　佚文補錄：前次搜佚文只掃已立輯佚檔之 work 且只讀考證，本書之佚文以引書無書名號、佚文無引號而見遺，今以本書之名為錨重掃補之。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
+ "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　佚文補錄：前次搜佚文只掃已立輯佚檔之 work 且只讀考證，本書之佚文以引書無書名號、佚文無引號而見遺，今以本書之名為錨重掃補之。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。　篇目層據嚴可均《全上古三代秦漢三國六朝文》補：其書按撰人編次，本書之文在全漢文·卷二十七「主父偃」條下。所錄止於篇題，正文未入庫。"
 }

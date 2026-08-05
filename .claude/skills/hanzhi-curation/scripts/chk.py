@@ -107,6 +107,13 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
     except Exception as e: fbad.append((f,'解析失敗')); continue
     if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
     if wid not in IW: fbad.append((f,'work 不存在')); continue
+    _LV={'著錄層','篇目層','文本層','文本層（部分）'}
+    if (fd.get('coverage') or {}).get('level') not in _LV:
+        fbad.append((f,"coverage.level「%s」不在三層之內"%(fd.get('coverage') or {}).get('level')))
+    for _fr in (fd.get('fragments') or []):
+        # 篇目層之條：有 piece_title 而 text 為 null，須明記 text_status
+        if _fr.get('text') is None and _fr.get('piece_title') and not _fr.get('text_status'):
+            fbad.append((f,'fragments 有篇題而無 text_status，未錄與無文無從分辨'))
     _LS={'lost','partially_extant','extant','undetermined'}
     if 'loss_status' in fd and fd['loss_status'] not in _LS:
         fbad.append((f,f"loss_status「{fd['loss_status']}」不在枚舉內"))

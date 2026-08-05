@@ -5,9 +5,9 @@
  "schema_version": 2,
  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
-  "level": "著錄層",
-  "note": "本檔止於著錄層，且其輯家之據出於本庫著錄之描述而非考證——考證於本書未及輯本，描述則明言某家有輯本。佚文原文二者俱不錄。",
-  "fragments_attested": 30,
+  "level": "篇目層",
+  "note": "嚴可均所輯之篇題已具而正文未錄。三層之次：著錄層（僅知幾家輯過）→ 篇目層（知其篇題）→ 文本層（錄其正文）。fragments[] 之條有 piece_title 而 text 為 null 者，即知其篇而未錄其文。",
+  "fragments_attested": 9,
   "fragments_attested_note": "",
   "fragments_recorded": 0,
   "text_available": false
@@ -37,16 +37,166 @@
   {
    "collector": "嚴可均",
    "work": "全上古三代秦漢三國六朝文",
-   "count": null,
-   "count_unit": null,
+   "count": 9,
+   "count_unit": "篇",
    "statement": null,
    "basis": "本庫著錄之描述",
-   "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。",
-   "work_id": "1evr5e3mdqr98"
+   "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。　嚴書按撰人編次，本書之佚文在全漢文·卷十八「晁錯」條下，凡9篇。（本庫撰人「晁錯」）",
+   "work_id": "1evr5e3mdqr98",
+   "location": {
+    "ji": "全漢文",
+    "juan": "卷十八",
+    "author_entry": "晁錯"
+   }
   }
  ],
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。",
- "fragments": [],
- "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
+ "fragments": [
+  {
+   "seq": 1,
+   "piece_title": "賢良文學對策",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 2,
+   "piece_title": "上書言皇太子宜知術數",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 3,
+   "piece_title": "上書言兵事",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 4,
+   "piece_title": "言守邊備塞務農力本當世急務二事",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 5,
+   "piece_title": "復言募民徙塞下",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 6,
+   "piece_title": "說文帝令民入粟受爵",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 7,
+   "piece_title": "復奏勿收農民租",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 8,
+   "piece_title": "說景帝削吳",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 9,
+   "piece_title": "請誅楚王",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全漢文·卷十八「晁錯」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  }
+ ],
+ "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。　篇目層據嚴可均《全上古三代秦漢三國六朝文》補：其書按撰人編次，本書之文在全漢文·卷十八「晁錯」條下。所錄止於篇題，正文未入庫。"
 }

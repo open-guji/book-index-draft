@@ -5,9 +5,9 @@
  "schema_version": 2,
  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
-  "level": "著錄層",
-  "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
-  "fragments_attested": 172,
+  "level": "篇目層",
+  "note": "嚴可均所輯之篇題已具而正文未錄。三層之次：著錄層（僅知幾家輯過）→ 篇目層（知其篇題）→ 文本層（錄其正文）。fragments[] 之條有 piece_title 而 text 為 null 者，即知其篇而未錄其文。",
+  "fragments_attested": 7,
   "fragments_attested_note": "",
   "fragments_recorded": 0,
   "text_available": false
@@ -27,12 +27,18 @@
   {
    "collector": "嚴可均",
    "work": "全上古三代秦漢三國六朝文",
-   "count": 172,
-   "count_unit": "事",
+   "count": 7,
+   "count_unit": "篇",
    "statement": "其書宋時不著録。《群書治要》所載十五事,當是《求輔》、《言體》、《見徵》、《譴非》四篇。《意林》所載三十六事,當是十三篇,惟少《本造》、《述策》、《閔友》三篇。各書所載,又三百許事,合并復重,聯屬斷散,凡百七十二事,依《治要》、《意林》次第,以類相從,定為三卷。諸引但《琴道》有篇名,餘無篇名。今望文分繫,仍加各篇舊名,取便檢閱。君山博學多通,同時劉子駿《七略》徵引其《琴道篇》;揚子雲難窮,立毀所作《蓋天圖》。其後班孟堅《漢書》據用甚多。王仲任《論衡,超奇篇》、《佚文篇》、《定賢篇》、《案書篇》、《對作篇》皆極推崇,至謂“子長、子雲論說之徒,君山為甲,則其書漢時早有定論。惜久佚失,所得見者僅此。然其尊王賤霸,非圖識,無仙道,綜古今,面失得,以及儀象典章,人文樂律,精華略具,則雖謂此書未嘗佚失可也。",
    "statement_label": "嘉慶二十年烏程嚴可均輯本序",
    "basis": "考證載其輯本序",
-   "work_id": "1evr5e3mdqr98"
+   "work_id": "1evr5e3mdqr98",
+   "location": {
+    "ji": "全後漢文",
+    "juan": "卷十二",
+    "author_entry": "桓譚"
+   },
+   "note": "嚴書按撰人編次，本書之佚文在全後漢文·卷十二「桓譚」條下，凡7篇。（本庫撰人「桓譚」）"
   },
   {
    "collector": "孫馮翼",
@@ -65,6 +71,119 @@
  ],
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
- "fragments": [],
- "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。"
+ "fragments": [
+  {
+   "seq": 1,
+   "piece_title": "仙賦（並序）",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 2,
+   "piece_title": "陳明政疏",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 3,
+   "piece_title": "抑讖重賞疏",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 4,
+   "piece_title": "上便宜",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 5,
+   "piece_title": "陳便宜",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 6,
+   "piece_title": "啓事",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  },
+  {
+   "seq": 7,
+   "piece_title": "答揚雄書",
+   "text": null,
+   "text_status": "未錄",
+   "collected_by": [
+    {
+     "collector": "嚴可均",
+     "work": "全上古三代秦漢三國六朝文",
+     "work_id": "1evr5e3mdqr98"
+    }
+   ],
+   "attested_by": "嚴可均《全上古三代秦漢三國六朝文》全後漢文·卷十二「桓譚」條",
+   "confidence": "確",
+   "note": "篇題見嚴書，正文尚未錄入。"
+  }
+ ],
+ "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。　篇目層據嚴可均《全上古三代秦漢三國六朝文》補：其書按撰人編次，本書之文在全後漢文·卷十二「桓譚」條下。所錄止於篇題，正文未入庫。"
 }
