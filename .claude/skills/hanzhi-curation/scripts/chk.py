@@ -139,6 +139,44 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
 print('輯佚檔',len(glob.glob('Work/*/*/*/*/fragments/*.json')),'不合',len(fbad))
 for x in fbad[:12]: print('  ',x)
 
+# 題名互為子串而撰人相容之 work 對——「同一部書兩種題名」之重出。
+# 立此驗之由：曾據《玉函山房輯佚書》目錄新建 work，以「題名精確相等」比對，
+# 而庫中題名不規範（《六藝論》庫作「鄭玄六藝論」「六藝論鄭玄撰」），
+# 精確比對必落空，遂誤建三十條。八輪之後方因他事偶然撞見。
+# 判準取其準者，不取其備者——只認「長題恰為 撰人+短題 / 短題+撰人(+役)」一式：
+#   兩側俱須有撰人且相容。一方無撰人則不取——《歸藏》(無撰人) 與《歸藏薛貞注》(薛貞)
+#   是原典與注本之別，本為二物（注家有其創作），非重出。
+#   短題為庫中多見者（《算經》《詩集》《兵法》之屬）不取，通名撞而不實。
+from opencc import OpenCC as _OCC
+_t2s=_OCC('t2s'); _N=lambda x:_t2s.convert((x or '').strip())
+_byt={}
+for _i,_e in IW.items():
+    _t=_N(_e.get('title'))
+    if _t: _byt.setdefault(_t,[]).append(_i)
+_ROLE=('撰','注','傳','疏','集解','注疏','述','說','解','章句','集注','集註')
+_dupt=set()
+for _i,_e in IW.items():
+    _t=_N(_e.get('title')); _au=_N(_e.get('author'))
+    if not _t or len(_t)<3 or not _au or len(_au)<2: continue
+    _cd=set()
+    if _t.startswith(_au) and len(_t)>len(_au): _cd.add(_t[len(_au):])
+    if _t.endswith(_au) and len(_t)>len(_au): _cd.add(_t[:-len(_au)])
+    for _r in _ROLE:
+        if _t.endswith(_au+_r) and len(_t)>len(_au)+len(_r): _cd.add(_t[:-(len(_au)+len(_r))])
+    for _s in _cd:
+        if len(_s)<2: continue
+        _js=_byt.get(_s,())
+        if len(_js)>2: continue
+        for _j in _js:
+            if _j==_i: continue
+            _a2=_N(IW[_j].get('author'))
+            if not _a2: continue
+            if _a2!=_au and _a2 not in _au and _au not in _a2: continue
+            _dupt.add((min(_i,_j),max(_i,_j)))
+print('題名重出（長題＝撰人＋短題，撰人相容）',len(_dupt),'　基線 76')
+for _a,_b in sorted(_dupt)[:6]:
+    print(f"   《{IW[_a].get('title')}》({IW[_a].get('author')}) ←→ 《{IW[_b].get('title')}》({IW[_b].get('author')})")
+
 # 整理本 section 之 work_id / target_bid 是否落空
 # （匯入時每條都鑄了 id，而 Work 檔只生成了一部分，故有懸空；索引側查不到這一類）
 try: IB
