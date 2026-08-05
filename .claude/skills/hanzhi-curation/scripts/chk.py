@@ -146,6 +146,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if w in IW: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in IB: dang_is_book+=1
+        b=sec.get('book_id')
+        if isinstance(b,str) and b not in IB:
+            dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
         if isinstance(b,str) and b not in IB and b not in IW:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)

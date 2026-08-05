@@ -92,6 +92,20 @@ Represents the abstract intellectual content.
 Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代；
 `resource_groups` 目前只在 Book 層使用。
 
+#### 整理本 section 的三個指涉欄位
+
+整理本置於 `Work/{c1}/{c2}/{c3}/{id}/collated_edition/`，每卷一檔，檔內 `sections` 為條目陣列。
+條目指向別的記錄有三個欄位，義各不同，不可混用：
+
+| 欄位 | 指向 | 義 |
+|---|---|---|
+| `work_id` / `work_ids` | Work | 本條所著錄的作品。一條著錄多書時用複數形。 |
+| `book_id` | Book | 本條所著錄的是某一具體版本（如小說書目逐版著錄者）。 |
+| `target_bid` | Work（書目本身） | **本志所考的那部書目**，如《隋書經籍志考證》各條的 `target_bid` 為《隋書經籍志》。與前二者無關。 |
+
+`target_bid` 之名易生誤解——它不是「本條所指的 book」，而是考證的對象。
+凡欲記「本條所指為某具體版本」，一律用 `book_id`。
+
 #### IndexEntry object type（`indexed_by` / `emendated_by` 共用）
 
 ```json
