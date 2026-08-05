@@ -1,41 +1,43 @@
 {
-  "type": "work",
-  "title": "文章流別集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《文章流別集》四十一卷",
-      "summary": "《文章流別集》四十一卷梁六十卷，志二卷，論二卷，摯虞撰。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "文章流别集四十一卷 摯虞,謹按見《隋志》。《七録》六十卷,《志》二卷,《論》二卷。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "摯虞",
-      "role": "撰",
-      "entity_id": "1j96a9eddr7r4"
-    }
-  ],
-  "juan_count": {
-    "number": 41
+ "type": "work",
+ "title": "文章流別集",
+ "indexed_by": [
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《文章流別集》四十一卷",
+   "summary": "《文章流別集》四十一卷梁六十卷，志二卷，論二卷，摯虞撰。"
   },
-  "id": "1evcmocq7lce8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 41
-    }
-  ],
-  "measure_info": "四十一卷",
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "文章流别集四十一卷 摯虞,謹按見《隋志》。《七録》六十卷,《志》二卷,《論》二卷。"
   }
+ ],
+ "authors": [
+  {
+   "name": "摯虞",
+   "role": "撰",
+   "entity_id": "1j96a9eddr7r4"
+  }
+ ],
+ "juan_count": {
+  "number": 41
+ },
+ "id": "1evcmocq7lce8",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 41
+  }
+ ],
+ "measure_info": "四十一卷",
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

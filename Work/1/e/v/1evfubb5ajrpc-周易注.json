@@ -1,43 +1,45 @@
 {
-  "type": "work",
-  "title": "周易注",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周易注十卷蜀才。謹按見《隋志》。《釋文·敘錄》引《蜀李書》曰:“范長生,一名賢,自號蜀才。”"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "蜀才",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96gx6w11r7k"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evfubb5ajrpc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "1evl7l48e27ls",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "周易注",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "周易注十卷蜀才。謹按見《隋志》。《釋文·敘錄》引《蜀李書》曰:“范長生,一名賢,自號蜀才。”"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "蜀才",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j96gx6w11r7k"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "id": "1evfubb5ajrpc",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "related_works": [
+  {
+   "id": "1evl7l48e27ls",
+   "title": "周易",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

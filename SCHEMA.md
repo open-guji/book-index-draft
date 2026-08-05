@@ -80,6 +80,7 @@ Represents the abstract intellectual content.
   "has_text": "boolean (derived: resources 中有 text 類)",
   "has_image": "boolean (derived: resources 中有 image 類)",
   "has_collated": "boolean (derived: 存在 collated_edition 整理本)",
+  "loss_status": "string (optional, 存佚。枚舉見下「loss_status 枚舉」。欄位不存在 = 今存或未考，不必寫)",
   "promoted_to": "string (Production ID，本草稿記錄已升格；權威來源為 promotions.json)",
   "promoted_at": "string (ISO 8601 時間戳)",
   "ai_note": "string (optional, 建檔／整理過程的自注：資料來源、存疑、待辦。非面向讀者的正文)",

@@ -1,46 +1,47 @@
 {
-  "type": "work",
-  "title": "元尚篇",
-  "description": {
-    "text": "漢成帝時字書，《漢書·藝文志》六藝略小學類著錄「《元尚》一篇」，李長作，已亡佚。取篇首「元尚」二字為名，體例承《凡將》《急就》而作：《急就》仿《凡將》，《元尚》又仿《急就》，皆漢代以韻語編排常用字的童蒙識字書。李長事跡無考。《隋志》以下不載，書當亡於漢魏之際，亦無輯本傳世。",
-    "sources": [
-      "溫浚源《漢書藝文志講要》"
-    ]
-  },
-  "authors": [
-    {
-      "name": "李長",
-      "dynasty": "漢",
-      "role": "撰",
-      "note": "成帝時將作大匠",
-      "entity_id": "1j96hjwlxny3p"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "元尚一篇",
-      "summary": "《元尚》一篇。成帝時將作大匠李長作。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1ev7w0f65pe68",
-  "ai_note": "漢志「《元尚》一篇。成帝時將作大匠李長作。」漢成帝時字書，已亡佚。《急就》模仿《凡將》，《元尚》又模仿《急就》。來源：溫浚源《漢書藝文志講要》。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1ev794a4pxudc",
-      "title": "急就篇",
-      "relation": "preceded_by"
-    }
+ "type": "work",
+ "title": "元尚篇",
+ "description": {
+  "text": "漢成帝時字書，《漢書·藝文志》六藝略小學類著錄「《元尚》一篇」，李長作，已亡佚。取篇首「元尚」二字為名，體例承《凡將》《急就》而作：《急就》仿《凡將》，《元尚》又仿《急就》，皆漢代以韻語編排常用字的童蒙識字書。李長事跡無考。《隋志》以下不載，書當亡於漢魏之際，亦無輯本傳世。",
+  "sources": [
+   "溫浚源《漢書藝文志講要》"
   ]
+ },
+ "authors": [
+  {
+   "name": "李長",
+   "dynasty": "漢",
+   "role": "撰",
+   "note": "成帝時將作大匠",
+   "entity_id": "1j96hjwlxny3p"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "漢書藝文志",
+   "source_bid": "1euhm19a23jsw",
+   "title_info": "元尚一篇",
+   "summary": "《元尚》一篇。成帝時將作大匠李長作。"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "id": "1ev7w0f65pe68",
+ "ai_note": "漢志「《元尚》一篇。成帝時將作大匠李長作。」漢成帝時字書，已亡佚。《急就》模仿《凡將》，《元尚》又模仿《急就》。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「《隋志》以下不載，書當亡於漢魏之際，亦無輯本傳世」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1ev794a4pxudc",
+   "title": "急就篇",
+   "relation": "preceded_by"
+  }
+ ],
+ "loss_status": "lost"
 }

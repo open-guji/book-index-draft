@@ -187,3 +187,15 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
 print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()))
 for k,v in secmag.most_common(6): print('  ',k,v)
 for x in secmag_ex: print('   例',x)
+
+# Work 之 loss_status 須在枚舉內（SCHEMA「loss_status 枚舉」）
+_LSW={'lost','partially_extant','extant','undetermined'}
+lsbad=[]; lsc=_c.Counter()
+for w,e in IW.items():
+    try: d=json.load(open(e['path']))
+    except Exception: continue
+    if not isinstance(d,dict) or 'loss_status' not in d: continue
+    v=d['loss_status']; lsc[v]+=1
+    if v not in _LSW: lsbad.append((w,v))
+print('Work loss_status',dict(lsc),'不合枚舉',len(lsbad))
+for x in lsbad[:8]: print('  ',x)

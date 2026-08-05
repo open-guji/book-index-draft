@@ -1,30 +1,31 @@
 {
-  "type": "work",
-  "id": "1evfuvarown40",
-  "title": "王[某]集",
-  "authors": [
-    {
-      "name": "王[某]",
-      "role": "撰",
-      "dynasty": "晉"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "太常王 集十五卷 謹按見《七録》。本書有傳。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "juan_count": {
-    "number": 15,
-    "description": ""
-  },
-  "ai_note": "人名待校訂（推測：王湛）：晉書記載王湛任太常，卷數15與補晉書記載一致，但OCR人名缺失，需進一步確認 原作者欄繫於偽人物 Entity 1j96hff7vpr7k（原名「集十五卷」）——該名係《補晉書藝文志》著錄原文連寫誤切所遺之卷數殘文，非人名，今卸除並刪其記錄。著錄原文作「太常王 集十五卷」，姓王而名闕，不可考。"
+ "type": "work",
+ "id": "1evfuvarown40",
+ "title": "王[某]集",
+ "authors": [
+  {
+   "name": "王[某]",
+   "role": "撰",
+   "dynasty": "晉"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "太常王 集十五卷 謹按見《七録》。本書有傳。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "juan_count": {
+  "number": 15,
+  "description": ""
+ },
+ "ai_note": "人名待校訂（推測：王湛）：晉書記載王湛任太常，卷數15與補晉書記載一致，但OCR人名缺失，需進一步確認 原作者欄繫於偽人物 Entity 1j96hff7vpr7k（原名「集十五卷」）——該名係《補晉書藝文志》著錄原文連寫誤切所遺之卷數殘文，非人名，今卸除並刪其記錄。著錄原文作「太常王 集十五卷」，姓王而名闕，不可考。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "loss_status": "lost"
 }

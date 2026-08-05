@@ -1,44 +1,45 @@
 {
-  "type": "work",
-  "title": "毛詩拾遺",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "毛詩拾遺一卷 郭理。謹按見《隋志》。是書下舊注云:“梁又有《毛詩略》四卷。”蓋謂《七錄》有此書,非指郭氏也。馬氏國翰輯是書序以《毛詩略》亦屬之璞,誤甚。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "郭璞",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j968k0jdrlz4"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evfubgpmem0w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1evl7hsxvr7cw",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "作者姓名訂正：原作「郭理」，係形近而訛，今改「郭璞」。《毛詩拾遺》撰者，他志著錄作郭璞，「理」為「璞」之形訛。　原繫人物 1j96hfb9ikc8w（名作「郭理」）已改指 1j968k0jdrlz4。"
+ "type": "work",
+ "title": "毛詩拾遺",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "毛詩拾遺一卷 郭理。謹按見《隋志》。是書下舊注云:“梁又有《毛詩略》四卷。”蓋謂《七錄》有此書,非指郭氏也。馬氏國翰輯是書序以《毛詩略》亦屬之璞,誤甚。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "authors": [
+  {
+   "name": "郭璞",
+   "role": "撰",
+   "dynasty": "晉",
+   "entity_id": "1j968k0jdrlz4"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "id": "1evfubgpmem0w",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1evl7hsxvr7cw",
+   "title": "詩經",
+   "relation": "contains_text_of"
+  }
+ ],
+ "ai_note": "作者姓名訂正：原作「郭理」，係形近而訛，今改「郭璞」。《毛詩拾遺》撰者，他志著錄作郭璞，「理」為「璞」之形訛。　原繫人物 1j96hfb9ikc8w（名作「郭理」）已改指 1j968k0jdrlz4。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "loss_status": "lost"
 }

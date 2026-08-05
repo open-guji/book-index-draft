@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """存佚判別。輸出各書之存佚推定與其依據，只掃不改。
 
+輸出用 SCHEMA 之 loss_status 枚舉：lost／partially_extant／extant／undetermined。
+出土與真偽**不入本枚舉**——出土是路徑不是狀態（其事由 Book 與「出土簡帛」
+Collection 承載），真偽是另一軸；二者只作旗標隨行，不改判定。
+
 用法：python3 loss_status.py [--csv]
 
 **為什麼不能只查描述裡的「佚」字**
@@ -27,6 +31,7 @@ import json, glob, re, sys, collections
 LATE_STRONG = {'欽定四庫全書總目', '四庫全書總目', '續修四庫全書',
                '四庫全書存目叢書', '中國通俗小說書目'}
 LATE_WEAK = {'書目答問'}          # 多著錄輯本，不足證原書今存
+# UNEAR / FAKE 只用於旗標，不參與判定
 NUM = r'[〇零一二三四五六七八九十百千0-9]'
 LOST = re.compile(r'亡佚|已亡|久佚|佚已久|散佚|今佚|其書亡|不傳|亡於|全亡|並亡|遂亡|失傳|無傳本')
 EXT = re.compile(r'今存|尚存|現存|傳世|存世|完帙|通行本|今傳|尚有傳本')
@@ -39,26 +44,26 @@ FAKE = re.compile(r'偽書|偽託|依託.{0,4}作|後人偽|贗')
 def judge_text(s):
     """依描述判存佚 → (類, 依據)。未見存佚之語者為「未詳」。"""
     if not s or not s.strip():
-        return '未詳', ''
+        return 'undetermined', ''
     cl = [c for c in re.split(r'[。；;]', s) if EXT.search(c) or LOST.search(c)]
     if not cl:
-        return '未詳', ''
+        return 'undetermined', ''
     for c in cl:                                   # 乙
         if EXT.search(c) and JIBEN.search(c):
-            return '全佚', f'輯本非原書：{c[:40]}'
+            return 'lost', f'輯本非原書：{c[:40]}'
     for i, c in enumerate(cl):                     # 甲
         if EXT.search(c) and any(LOST.search(d) for d in cl[i:]):
-            k = '殘存' if PART.search(c) and not LOST.search(c) else '全佚'
+            k = 'partially_extant' if PART.search(c) and not LOST.search(c) else 'lost'
             return k, f'先存後亡：{c[:30]}／{cl[-1][:30]}'
     for c in cl:                                   # 丁
         if PART.search(c) and EXT.search(c):
-            return '殘存', f'原數今數有差：{c[:40]}'
+            return 'partially_extant', f'原數今數有差：{c[:40]}'
     last = cl[-1]
     if EXT.search(last) and not LOST.search(last):
-        return '今存', f'末語言存：{last[:40]}'
+        return 'extant', f'末語言存：{last[:40]}'
     if LOST.search(last):
-        return '全佚', f'末語言亡：{last[:40]}'
-    return '未詳', last[:40]
+        return 'lost', f'末語言亡：{last[:40]}'
+    return 'undetermined', last[:40]
 
 
 def judge(x):
@@ -67,13 +72,16 @@ def judge(x):
     kz = '\n'.join((e.get('summary') or '')
                    for e in (x.get('emendated_by') or []) + (x.get('indexed_by') or []))
     k, why = judge_text(ds or kz)
-    if UNEAR.search(ds) and k != '今存': k = '出土復現'
-    if FAKE.search(ds) and k == '今存': k = '偽書行世'
     src = {e.get('source') for e in (x.get('emendated_by') or []) + (x.get('indexed_by') or [])}
     doubt = ''
-    if k == '全佚' and (src & LATE_STRONG):
-        doubt = f'疑非全佚：見於{sorted(src & LATE_STRONG)}，其時尚存'
-    return k, why, doubt
+    if k == 'lost' and (src & LATE_STRONG):
+        doubt = f'疑非 lost：見於{sorted(src & LATE_STRONG)}，其時尚存'
+    # 出土不是存佚狀態而是路徑，真偽是另一軸——二者皆不入本枚舉，
+    # 只作旗標隨行，供人工覆核時參考，不改 k。
+    flag = []
+    if UNEAR.search(ds): flag.append('出土相關')
+    if FAKE.search(ds): flag.append('文中見偽字（多半不指本書，須逐條讀）')
+    return k, why, doubt, '／'.join(flag)
 
 
 def main():
@@ -85,13 +93,14 @@ def main():
     for w, m in IW.items():
         try: x = json.load(open(m['path']))
         except Exception: continue
-        k, why, doubt = judge(x)
+        k, why, doubt, flag = judge(x)
         st[k] += 1
-        if doubt: st['·其中疑非全佚'] += 1; dou.append((w, x.get('title'), doubt))
-        if csv: print(f'{w}\t{x.get("title")}\t{k}\t{doubt or why}')
+        if doubt: st['·其中疑非 lost'] += 1; dou.append((w, x.get('title'), doubt))
+        if flag: st['·帶旗標'] += 1
+        if csv: print(f'{w}\t{x.get("title")}\t{k}\t{doubt or why}\t{flag}')
     if csv: return
     for k, v in st.most_common(): print(f'  {k}: {v}')
-    print(f'\n疑非全佚者 {len(dou)}（前 20）：')
+    print(f'\n疑非 lost 者 {len(dou)}（前 20）：')
     for w, t, d in dou[:20]: print(f'  {w} 《{t}》 {d}')
 
 

@@ -1,51 +1,52 @@
 {
-  "type": "work",
-  "title": "禮記注",
-  "authors": [
-    {
-      "name": "王肅",
-      "role": "注",
-      "dynasty": "魏",
-      "entity_id": "1j96glo90rdhd"
-    }
-  ],
-  "juan_count": {
-    "number": 30
+ "type": "work",
+ "title": "禮記注",
+ "authors": [
+  {
+   "name": "王肅",
+   "role": "注",
+   "dynasty": "魏",
+   "entity_id": "1j96glo90rdhd"
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "indexed_by": [
+  {
+   "source": "三國藝文志",
+   "source_bid": "1eve1eig5jn5s",
+   "title_info": "王肅禮記注三十卷",
+   "summary": "王肅禮記注三十卷\n《釋文·敘錄》:“王肅注《禮記》三十卷。”《隋書·經籍志》:“《禮記》三十卷,王肅注。”《唐·經籍志》同。《藝文志》:“王肅注《小戴禮記》三十卷。”《日本國見在書目》:“《禮記》廿卷,魏衞軍王肅注。”\n《經義 》曰:“朱子謂王肅議《禮》必反鄭玄。按肅注《禮》,以《月令》爲周公所作。”\n馬國翰輯本序曰:“說《詩》好與鄭異,注《禮》亦然。而其所用之《禮》本又往往與鄭本不同,不知所據何本。《隋》、《唐志》並三十卷,今輯爲三卷。”"
   },
-  "indexed_by": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "title_info": "王肅禮記注三十卷",
-      "summary": "王肅禮記注三十卷\n《釋文·敘錄》:“王肅注《禮記》三十卷。”《隋書·經籍志》:“《禮記》三十卷,王肅注。”《唐·經籍志》同。《藝文志》:“王肅注《小戴禮記》三十卷。”《日本國見在書目》:“《禮記》廿卷,魏衞軍王肅注。”\n《經義 》曰:“朱子謂王肅議《禮》必反鄭玄。按肅注《禮》,以《月令》爲周公所作。”\n馬國翰輯本序曰:“說《詩》好與鄭異,注《禮》亦然。而其所用之《禮》本又往往與鄭本不同,不知所據何本。《隋》、《唐志》並三十卷,今輯爲三卷。”"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "禮記註",
-      "summary": "魏王肅《禮記註》一卷。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "三國藝文志"
-    ]
-  },
-  "id": "1evfhb9syu0ow",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "ai_note": "從 31hyr4yqrr12l 合併。原註：清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　考證回削：《三國藝文志》整理本匯入時未於子條標題處斷開（此志子條之題黏於前句之尾，不另起行），本條之 summary 原摻入其下數書之考證，今回削為本條自身之考證。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evfhb9syu0ow/fragments/禮記注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。",
-  "related_works": [
-    {
-      "id": "1evl7nlb2nda8",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "禮記註",
+   "summary": "魏王肅《禮記註》一卷。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "三國藝文志"
   ]
+ },
+ "id": "1evfhb9syu0ow",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "ai_note": "從 31hyr4yqrr12l 合併。原註：清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　考證回削：《三國藝文志》整理本匯入時未於子條標題處斷開（此志子條之題黏於前句之尾，不另起行），本條之 summary 原摻入其下數書之考證，今回削為本條自身之考證。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evfhb9syu0ow/fragments/禮記注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/禮記注.json（該檔之值經人工校讀，非機讀所生）。",
+ "related_works": [
+  {
+   "id": "1evl7nlb2nda8",
+   "title": "禮記",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost"
 }

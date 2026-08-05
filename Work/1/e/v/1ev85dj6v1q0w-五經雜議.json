@@ -1,61 +1,62 @@
 {
-  "type": "work",
-  "title": "五經雜議",
-  "authors": [],
-  "description": {
-    "text": "已亡佚。石渠會議產物。劉師培認爲此書即《五經雜議奏》。《漢志》以此書著「雜」於整個六藝略之末（小學類除外），因其包含五經，無可專屬某一小類。",
-    "sources": [
-      "溫浚源《漢書藝文志講要》"
-    ]
-  },
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "五經雜議十八篇",
-      "summary": "《五經雜議》十八篇。石渠論。"
-    }
-  ],
-  "id": "1ev85dj6v1q0w",
-  "ai_note": "漢志「《五經雜議》十八篇。石渠論。」已亡佚。石渠會議產物。《漢志》以此書著「雜」於六藝略末，因其包含五經無可專屬。來源：溫浚源《漢書藝文志講要》。　　考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　考證重複清除：先前補繫考證時判重之鍵誤用 title_info（原有條目帶標點而整理本 section 標題不帶），致本條追加了內容全同之重複考證 1 條，今刪除，保留原匯入所建者。　漢志六藝略之著錄體例：本條屬石渠議奏（群臣共議，帝親稱制臨決，非一人之作），漢志著錄此類本不題撰人。故作者欄空缺係體例使然，非本庫之缺漏，後續整理不應據以補撰人。",
-  "emendated_by": [
-    {
-      "source": "漢藝文志考證",
-      "source_bid": "1ev3bb40n3k74",
-      "title_info": "雜傳四篇",
-      "summary": "蔡 《明堂論》引魏文侯《孝經傳》,蓋雜傳之一也。"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev85ditm3400",
-      "title": "尚書議奏",
-      "relation": "related"
-    },
-    {
-      "id": "1evc5pd6fez9c",
-      "title": "石渠禮論",
-      "relation": "related"
-    },
-    {
-      "id": "1ev85fj448etc",
-      "title": "春秋議奏",
-      "relation": "related"
-    },
-    {
-      "id": "1ev85fj4ou2o0",
-      "title": "論語議奏",
-      "relation": "related"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "篇",
-      "number": 18
-    }
-  ],
-  "measure_info": "十八篇",
-  "juan_count": {
-    "number": 18
+ "type": "work",
+ "title": "五經雜議",
+ "authors": [],
+ "description": {
+  "text": "已亡佚。石渠會議產物。劉師培認爲此書即《五經雜議奏》。《漢志》以此書著「雜」於整個六藝略之末（小學類除外），因其包含五經，無可專屬某一小類。",
+  "sources": [
+   "溫浚源《漢書藝文志講要》"
+  ]
+ },
+ "indexed_by": [
+  {
+   "source": "漢書藝文志",
+   "source_bid": "1euhm19a23jsw",
+   "title_info": "五經雜議十八篇",
+   "summary": "《五經雜議》十八篇。石渠論。"
   }
+ ],
+ "id": "1ev85dj6v1q0w",
+ "ai_note": "漢志「《五經雜議》十八篇。石渠論。」已亡佚。石渠會議產物。《漢志》以此書著「雜」於六藝略末，因其包含五經無可專屬。來源：溫浚源《漢書藝文志講要》。　　考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　考證重複清除：先前補繫考證時判重之鍵誤用 title_info（原有條目帶標點而整理本 section 標題不帶），致本條追加了內容全同之重複考證 1 條，今刪除，保留原匯入所建者。　漢志六藝略之著錄體例：本條屬石渠議奏（群臣共議，帝親稱制臨決，非一人之作），漢志著錄此類本不題撰人。故作者欄空缺係體例使然，非本庫之缺漏，後續整理不應據以補撰人。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "emendated_by": [
+  {
+   "source": "漢藝文志考證",
+   "source_bid": "1ev3bb40n3k74",
+   "title_info": "雜傳四篇",
+   "summary": "蔡 《明堂論》引魏文侯《孝經傳》,蓋雜傳之一也。"
+  }
+ ],
+ "related_works": [
+  {
+   "id": "1ev85ditm3400",
+   "title": "尚書議奏",
+   "relation": "related"
+  },
+  {
+   "id": "1evc5pd6fez9c",
+   "title": "石渠禮論",
+   "relation": "related"
+  },
+  {
+   "id": "1ev85fj448etc",
+   "title": "春秋議奏",
+   "relation": "related"
+  },
+  {
+   "id": "1ev85fj4ou2o0",
+   "title": "論語議奏",
+   "relation": "related"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "篇",
+   "number": 18
+  }
+ ],
+ "measure_info": "十八篇",
+ "juan_count": {
+  "number": 18
+ },
+ "loss_status": "lost"
 }

@@ -1,56 +1,57 @@
 {
-  "type": "work",
-  "title": "周易音",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《周易音》一卷",
-      "summary": "《周易音》一卷東晉尚書郎李軌弘範撰。"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周易音",
-      "summary": "魏王肅《周易音》一卷。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周易音一卷尚書郎李軌。謹按見《隋志》。《釋文敘録》云:“字宏範,江夏人,祠部郎,中都亭侯。”"
-    }
-  ],
-  "id": "1evcpjzvkvsao",
-  "authors": [
-    {
-      "name": "王肅",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96glo90rdhd"
-    },
-    {
-      "name": "李軌",
-      "courtesy_name": "弘範",
-      "role": "撰",
-      "dynasty": "晉",
-      "note": "字弘範，江夏人。東晉祠部郎中、都亭侯。《唐釋玄應》引「李洪範」，「弘」又作「洪」。",
-      "entity_id": "1j969m70q2eqw"
-    }
-  ],
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "周易音一卷 東晉尚書郎李軌弘範撰",
-      "summary": "《釋文·敘錄》：李軌，字弘範，江夏人。東晉祠部郎中、都亭侯。\n馬氏玉函山房輯本序曰：「《晉書》無李軌傳，唐釋玄應《一切經音義》引「李洪範」，弘又作「洪」，未知孰是。按此似無可疑。《隋志》載其《周易音》一卷，《唐志》不著錄，蓋在唐時已佚，故《釋文》引止七節，不及徐音十之一。並輯合存之。」"
-    }
-  ],
-  "ai_note": "從 1evilzhfxqg3k 合併。原註：同名書拆分創建。原文：晉李軌《周易音》一卷。 作者繫連卸除：原作者欄「王肅」繫有人物記錄，然《隋書·經籍志》著錄「《周易音》一卷東晉尚書郎李軌弘範撰」，撰者為李軌，非王肅。今卸除該 entity_id。姓名欄暫仍其舊，待覆核後改正。　entity_id 補繫：本條之撰人王肅與庫中人物記錄（1j96glo90rdhd）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evcpjzvkvsao/fragments/周易音.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。",
-  "related_works": [
-    {
-      "id": "1evl7l48e27ls",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ]
+ "type": "work",
+ "title": "周易音",
+ "indexed_by": [
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《周易音》一卷",
+   "summary": "《周易音》一卷東晉尚書郎李軌弘範撰。"
+  },
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "周易音",
+   "summary": "魏王肅《周易音》一卷。"
+  },
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "周易音一卷尚書郎李軌。謹按見《隋志》。《釋文敘録》云:“字宏範,江夏人,祠部郎,中都亭侯。”"
+  }
+ ],
+ "id": "1evcpjzvkvsao",
+ "authors": [
+  {
+   "name": "王肅",
+   "role": "撰",
+   "dynasty": "清",
+   "entity_id": "1j96glo90rdhd"
+  },
+  {
+   "name": "李軌",
+   "courtesy_name": "弘範",
+   "role": "撰",
+   "dynasty": "晉",
+   "note": "字弘範，江夏人。東晉祠部郎中、都亭侯。《唐釋玄應》引「李洪範」，「弘」又作「洪」。",
+   "entity_id": "1j969m70q2eqw"
+  }
+ ],
+ "emendated_by": [
+  {
+   "source": "隋書經籍志考證",
+   "source_bid": "1evdlszdhf5z4",
+   "title_info": "周易音一卷 東晉尚書郎李軌弘範撰",
+   "summary": "《釋文·敘錄》：李軌，字弘範，江夏人。東晉祠部郎中、都亭侯。\n馬氏玉函山房輯本序曰：「《晉書》無李軌傳，唐釋玄應《一切經音義》引「李洪範」，弘又作「洪」，未知孰是。按此似無可疑。《隋志》載其《周易音》一卷，《唐志》不著錄，蓋在唐時已佚，故《釋文》引止七節，不及徐音十之一。並輯合存之。」"
+  }
+ ],
+ "ai_note": "從 1evilzhfxqg3k 合併。原註：同名書拆分創建。原文：晉李軌《周易音》一卷。 作者繫連卸除：原作者欄「王肅」繫有人物記錄，然《隋書·經籍志》著錄「《周易音》一卷東晉尚書郎李軌弘範撰」，撰者為李軌，非王肅。今卸除該 entity_id。姓名欄暫仍其舊，待覆核後改正。　entity_id 補繫：本條之撰人王肅與庫中人物記錄（1j96glo90rdhd）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evcpjzvkvsao/fragments/周易音.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/周易音.json（該檔之值經人工校讀，非機讀所生）。",
+ "related_works": [
+  {
+   "id": "1evl7l48e27ls",
+   "title": "周易",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost"
 }

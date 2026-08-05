@@ -1,36 +1,37 @@
 {
-  "type": "work",
-  "id": "1evfuuz396neo",
-  "title": "搜神後記",
-  "authors": [
-    {
-      "name": "陶潛",
-      "role": "撰",
-      "entity_id": "1j967bgl7n1av"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "陶潛,謹按見《隋志》。互見雜傳類。 陶潛,謹按見《隋志》。互見雜傳類。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": null,
-  "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題（「搜神後記」），其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md 粗體題「搜神記三十卷搜神後記十卷」下二段：「千寶。謹按見本書寶傳。」屬前書（干寶），「陶潛,謹按見《隋志》。互見雜傳類。」屬本書。　改題撞庫：本庫已有 1ev3bcke4tvcw 題《搜神後記》，同題同撰人（陶潛），疑為重出。"
+ "type": "work",
+ "id": "1evfuuz396neo",
+ "title": "搜神後記",
+ "authors": [
+  {
+   "name": "陶潛",
+   "role": "撰",
+   "entity_id": "1j967bgl7n1av"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "陶潛,謹按見《隋志》。互見雜傳類。 陶潛,謹按見《隋志》。互見雜傳類。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "juan_count": {
+  "number": 10
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": null,
+ "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題（「搜神後記」），其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md 粗體題「搜神記三十卷搜神後記十卷」下二段：「千寶。謹按見本書寶傳。」屬前書（干寶），「陶潛,謹按見《隋志》。互見雜傳類。」屬本書。　改題撞庫：本庫已有 1ev3bcke4tvcw 題《搜神後記》，同題同撰人（陶潛），疑為重出。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "loss_status": "lost"
 }
