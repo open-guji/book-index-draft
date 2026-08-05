@@ -13,7 +13,7 @@
   "text_available": false
  },
  "loss_status": "partially_extant",
- "statement": null,
+ "statement": "《博物志》。本庫未著其輯家。所輯之數未詳，已錄正文1條。本條之據為《隋書經籍志考證》、《隋書經籍志》、《舊唐書經籍志》、《宋史藝文志》、《欽定四庫全書總目》、《崇文總目》、《補晋書藝文志》、《國史經籍志》、《書目答問》，未覆核輯本原書。",
  "provenance": "二手",
  "provenance_note": "本檔據考證及本庫著錄之描述所轉引之佚文錄成，未覆核所引原書。",
  "based_on": [
@@ -85,5 +85,7 @@
    "note": "江淹《古銅劍贊》引張華《博物志》。考證明言「今本無此語」——《博物志》今存十卷而非完帙，此為其佚文。故本書屬殘存而非全佚，其輯佚之義在補今本之闕。"
   }
  ],
- "ai_note": "佚文補錄：前次搜佚文只掃已立輯佚檔之 work 且只讀考證，本書之佚文以引書無書名號、佚文無引號而見遺，今以本書之名為錨重掃補之。　loss_status 訂正：原作「全佚」（生成模板寫死，未讀 statement），今改「殘存」——今存十卷而非完帙，江淹所引一條今本無之，是其佚文。　loss_status 由中文值「殘存」遷為枚舉 partially_extant（見 SCHEMA「loss_status 枚舉」）。"
+ "ai_note": "佚文補錄：前次搜佚文只掃已立輯佚檔之 work 且只讀考證，本書之佚文以引書無書名號、佚文無引號而見遺，今以本書之名為錨重掃補之。　loss_status 訂正：原作「全佚」（生成模板寫死，未讀 statement），今改「殘存」——今存十卷而非完帙，江淹所引一條今本無之，是其佚文。　loss_status 由中文值「殘存」遷為枚舉 partially_extant（見 SCHEMA「loss_status 枚舉」）。",
+ "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。",
+ "collectors_note": "collectors 為空非漏記：本檔之佚文不出於任何輯本，是逐條自他書之徵引中錄得（見各 fragments 條之 attested_by 與本檔 ai_note 之「佚文補錄」）。本庫未見有輯家為此書作輯本，若後得之，當補入此陣列。"
 }
