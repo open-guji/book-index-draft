@@ -199,3 +199,30 @@ for w,e in IW.items():
     if v not in _LSW: lsbad.append((w,v))
 print('Work loss_status',dict(lsc),'不合枚舉',len(lsbad))
 for x in lsbad[:8]: print('  ',x)
+
+# 輯佚叢書整理本（type: fragment_collection）之雙向對查
+fc=[]; todo=0
+for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+    try: ci=json.load(open(f))
+    except Exception: continue
+    if ci.get('type')!='fragment_collection': continue
+    base=f.rsplit('/',1)[0]; owner=f.split('/')[4]
+    fwd={}
+    for g in glob.glob(base+'/*.json'):
+        if g.endswith('collated_edition_index.json'): continue
+        for i,sec in enumerate(json.load(open(g)).get('sections') or []):
+            w=sec.get('work_id')
+            if isinstance(w,str): fwd.setdefault(w,[]).append((g.split('/')[-1],i))
+            if 'fragments' in sec and (sec.get('coverage') or {}).get('level') is None:
+                fc.append((g,i,'section 有 fragments 而無 coverage.level——空陣列之歧義未消'))
+    for w,locs in fwd.items():
+        if w not in IW: fc.append((f,w,'section 所繫 work 不存在')); continue
+        fr=glob.glob('Work/*/*/*/%s/fragments/*.json'%w)
+        if not fr: todo+=1; continue      # 非損壞，是待辦：目錄既言馬氏輯之，該 work 當有輯佚檔
+        cs=json.load(open(fr[0])).get('collectors') or []
+        mine=[x for x in cs if x.get('work_id')==owner]
+        if not mine: todo+=1; continue          # 輯佚檔尚無此輯家之條，目錄為新知，待補
+        if len(locs)==1 and not any(x.get('section_file') for x in mine):
+            fc.append((f,w,'整理本繫之而輯佚檔未記其 section_file'))
+print('輯佚叢書整理本 不合',len(fc),'　待辦（已繫而無輯佚檔）',todo)
+for x in fc[:8]: print('  ',x)
