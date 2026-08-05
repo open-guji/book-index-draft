@@ -1,37 +1,38 @@
 {
-  "title": "古文尚書音",
-  "authors": [
-    {
-      "name": "徐邈",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96hl473bf9c"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "title": "古文尚書音",
+ "authors": [
+  {
+   "name": "徐邈",
+   "role": "撰",
+   "dynasty": "晉",
+   "entity_id": "1j96hl473bf9c"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "古文尚書音",
+   "summary": "晉徐邈古文尚書音一卷。"
   },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "古文尚書音",
-      "summary": "晉徐邈古文尚書音一卷。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "古文尚書音一卷徐 。謹按見《隋志》。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類",
-  "type": "work",
-  "id": "1evilzg1gq22o",
-  "related_works": [
-    {
-      "id": "1evl7fct2ezgg",
-      "title": "尚書",
-      "relation": "contains_text_of"
-    }
-  ]
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "古文尚書音一卷徐 。謹按見《隋志》。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類　輯佚檔：本書之輯佚著錄置於 fragments/古文尚書音.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+ "type": "work",
+ "id": "1evilzg1gq22o",
+ "related_works": [
+  {
+   "id": "1evl7fct2ezgg",
+   "title": "尚書",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost"
 }

@@ -123,11 +123,22 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 | `statement` | 存佚之敘述（何時著錄、何時亡佚、據何而知） |
 | `provenance` | `一手`（已覆核輯本原書）／`二手`（轉錄自考證書） |
 | `based_on[]` | 所據之書：`{source, source_bid, field}` |
-| `collectors[]` | 輯家：`{collector, work, work_id, count, count_unit, statement, basis}`。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
+| `collectors[]` | 輯家：`{collector, work, work_id, sections, count, count_unit, statement, basis}`。<br>`sections[]` 記本書在該輯佚叢書整理本中的位置 `{file, index, title, part, juan_no, lei}`——一書而正編、續編兩見者，馬氏正編輯之而續編又補，非歧義，故用陣列。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
 | `other_statements[]` | 與本書相關而**不是輯本序**者（本志篇序、舊注之序、校注序），自 `collectors` 移出者記 `moved_from` |
 | `cited_in_summary[]` | 佚文所見之書與部類，尚未析出為逐條者 |
 | `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}` |
 | `coverage` | `{level, fragments_attested, fragments_recorded, text_available}` |
+
+##### 輯佚叢書整理本（`type: fragment_collection`）
+
+輯佚叢書（《玉函山房輯佚書》一類）之整理本，別於書目之 `catalog` 與考證之 `kaozhen`。
+一類一檔，section 即一部輯本書，`work_id` 指其所輯之原書。
+`coverage.level` 三級：`books_only`（僅知其書）→ `toc`（卷目已備）→ `text`（文本已錄）。
+
+**section 須自帶 `coverage`。** `fragments: []` 之義為「尚未錄入」而非「無佚文」，
+無此欄則二者無從分辨。
+
+雙向：整理本 `section.work_id` → 原書；原書輯佚檔 `collectors[].sections[]` → 整理本之條。
 
 ##### `loss_status` 枚舉
 

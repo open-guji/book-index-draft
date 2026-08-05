@@ -222,7 +222,7 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
         cs=json.load(open(fr[0])).get('collectors') or []
         mine=[x for x in cs if x.get('work_id')==owner]
         if not mine: todo+=1; continue          # 輯佚檔尚無此輯家之條，目錄為新知，待補
-        if len(locs)==1 and not any(x.get('section_file') for x in mine):
+        if not any(x.get('sections') or x.get('section_file') for x in mine):
             fc.append((f,w,'整理本繫之而輯佚檔未記其 section_file'))
 print('輯佚叢書整理本 不合',len(fc),'　待辦（已繫而無輯佚檔）',todo)
 for x in fc[:8]: print('  ',x)
