@@ -1,60 +1,61 @@
 {
-  "type": "work",
-  "title": "黃帝四經",
-  "authors": [
-    {
-      "name": "黃帝",
-      "role": "託名",
-      "note": "可能是戰國時人書。「黃老之學」的「新道家」作品。",
-      "entity_id": "1j96afertkum8"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。可能是戰國時人書。《隋志》道經部稱漢道書之流《黃帝》四篇、《老子》二篇最得深旨，則隋唐間人猶能見到。長沙馬王堆三號漢墓出土帛書中的《經法》《十大經》《稱》《道原》四種，可能就是《漢志》所著錄的《黃帝四經》，為西漢統治者用為治國之道的「新道家」經典。本庫已依此說，將帛書《經法》《十六經》《稱》《道原》四篇立為本書之篇章作品。",
-    "sources": [
-      "溫浚源《漢書藝文志講要》"
-    ]
+ "type": "work",
+ "title": "黃帝四經",
+ "authors": [
+  {
+   "name": "黃帝",
+   "role": "託名",
+   "note": "可能是戰國時人書。「黃老之學」的「新道家」作品。",
+   "entity_id": "1j96afertkum8"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。可能是戰國時人書。《隋志》道經部稱漢道書之流《黃帝》四篇、《老子》二篇最得深旨，則隋唐間人猶能見到。長沙馬王堆三號漢墓出土帛書中的《經法》《十大經》《稱》《道原》四種，可能就是《漢志》所著錄的《黃帝四經》，為西漢統治者用為治國之道的「新道家」經典。本庫已依此說，將帛書《經法》《十六經》《稱》《道原》四篇立為本書之篇章作品。",
+  "sources": [
+   "溫浚源《漢書藝文志講要》"
+  ]
+ },
+ "indexed_by": [
+  {
+   "source": "漢書藝文志",
+   "source_bid": "1euhm19a23jsw",
+   "title_info": "黃帝四經四篇",
+   "summary": "《黃帝四經》四篇。"
+  }
+ ],
+ "id": "1ev7xkhjkqygw",
+ "ai_note": "馬王堆帛書《經法》《十大經》《稱》《道原》可能即此書。漢代崇尚道家言，必推本於黃帝。來源：溫浚源《漢書藝文志講要》。 卷篇數據《漢志》道家類本條「《黃帝四經》四篇。」補為四篇。本書已亡佚，除《漢志》外無他志著錄，故不取後世卷數。按：本家逐條篇數總和與《漢志》小序自計不符（小序數字歷來有異說），本條篇數僅據《漢志》正文，未經他證。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。",
+ "related_works": [
+  {
+   "id": "1ewozu39wyb5w",
+   "title": "經法",
+   "relation": "has_part"
   },
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "黃帝四經四篇",
-      "summary": "《黃帝四經》四篇。"
-    }
-  ],
-  "id": "1ev7xkhjkqygw",
-  "ai_note": "馬王堆帛書《經法》《十大經》《稱》《道原》可能即此書。漢代崇尚道家言，必推本於黃帝。來源：溫浚源《漢書藝文志講要》。 卷篇數據《漢志》道家類本條「《黃帝四經》四篇。」補為四篇。本書已亡佚，除《漢志》外無他志著錄，故不取後世卷數。按：本家逐條篇數總和與《漢志》小序自計不符（小序數字歷來有異說），本條篇數僅據《漢志》正文，未經他證。",
-  "related_works": [
-    {
-      "id": "1ewozu39wyb5w",
-      "title": "經法",
-      "relation": "has_part"
-    },
-    {
-      "id": "1ewozu3akzkzq",
-      "title": "十六經",
-      "relation": "has_part"
-    },
-    {
-      "id": "1ewozu3bb7img",
-      "title": "稱",
-      "relation": "has_part"
-    },
-    {
-      "id": "1ewozu3c1fg96",
-      "title": "道原",
-      "relation": "has_part"
-    }
-  ],
-  "juan_count": {
-    "number": 4
+  {
+   "id": "1ewozu3akzkzq",
+   "title": "十六經",
+   "relation": "has_part"
   },
-  "measures": [
-    {
-      "unit": "篇",
-      "number": 4
-    }
-  ],
-  "measure_info": "四篇"
+  {
+   "id": "1ewozu3bb7img",
+   "title": "稱",
+   "relation": "has_part"
+  },
+  {
+   "id": "1ewozu3c1fg96",
+   "title": "道原",
+   "relation": "has_part"
+  }
+ ],
+ "juan_count": {
+  "number": 4
+ },
+ "measures": [
+  {
+   "unit": "篇",
+   "number": 4
+  }
+ ],
+ "measure_info": "四篇",
+ "loss_status": "lost"
 }

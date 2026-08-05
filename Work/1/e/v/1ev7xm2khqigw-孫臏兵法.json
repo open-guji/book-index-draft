@@ -1,77 +1,79 @@
 {
-  "type": "work",
-  "title": "孫臏兵法",
-  "additional_titles": [
-    "齊孫子"
-  ],
-  "authors": [
-    {
-      "name": "孫臏",
-      "dynasty": "周",
-      "entity_id": "1j96ha6py6n7k"
-    }
-  ],
-  "juan_count": {
-    "number": 30
+ "type": "work",
+ "title": "孫臏兵法",
+ "additional_titles": [
+  "齊孫子"
+ ],
+ "authors": [
+  {
+   "name": "孫臏",
+   "dynasty": "周",
+   "entity_id": "1j96ha6py6n7k"
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "description": {
+  "text": "原書八十九篇，已亡佚千餘年。1972年銀雀山漢墓竹簡出土，得三十篇。",
+  "sources": []
+ },
+ "indexed_by": [
+  {
+   "source": "漢書藝文志",
+   "source_bid": "1euhm19a23jsw",
+   "title_info": "齊孫子兵法八十九篇",
+   "summary": ""
+  }
+ ],
+ "id": "1ev7xm2khqigw",
+ "resources": [
+  {
+   "id": "shidianguji-yinqueshanhanmuzhuji",
+   "name": "识典古籍",
+   "url": "https://www.shidianguji.com/book/XYXZJSBBF",
+   "metadata": {
+    "edition": "銀雀山漢墓竹簡本",
+    "version": "v11",
+    "total_page": 20,
+    "paragraph_count": 57,
+    "has_translation": true,
+    "check_type": "粗校"
+   },
+   "types": [
+    "text",
+    "image"
+   ]
   },
-  "description": {
-    "text": "原書八十九篇，已亡佚千餘年。1972年銀雀山漢墓竹簡出土，得三十篇。",
-    "sources": []
-  },
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "齊孫子兵法八十九篇",
-      "summary": ""
-    }
-  ],
-  "id": "1ev7xm2khqigw",
-  "resources": [
-    {
-      "id": "shidianguji-yinqueshanhanmuzhuji",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/XYXZJSBBF",
-      "metadata": {
-        "edition": "銀雀山漢墓竹簡本",
-        "version": "v11",
-        "total_page": 20,
-        "paragraph_count": 57,
-        "has_translation": true,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E8%87%8F%E5%85%B5%E6%B3%95",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "has_text": true,
-  "has_image": true,
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "books": [
-    "11rot1akngnb9"
-  ],
-  "related_works": [
-    {
-      "id": "1ev7xm417wlq8",
-      "title": "齊孫子",
-      "relation": "related",
-      "note": "同一著錄之重出。本條同出漢志兵書略兵權謀類「《齊孫子》八十九篇，圖四卷」，正條為彼。本條題名與卷數皆非漢志原文，留待去重專項合併。"
-    }
-  ]
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E8%87%8F%E5%85%B5%E6%B3%95",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "has_text": true,
+ "has_image": true,
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "books": [
+  "11rot1akngnb9"
+ ],
+ "related_works": [
+  {
+   "id": "1ev7xm417wlq8",
+   "title": "齊孫子",
+   "relation": "related",
+   "note": "同一著錄之重出。本條同出漢志兵書略兵權謀類「《齊孫子》八十九篇，圖四卷」，正條為彼。本條題名與卷數皆非漢志原文，留待去重專項合併。"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。"
 }

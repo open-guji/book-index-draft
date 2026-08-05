@@ -1,43 +1,45 @@
 {
-  "type": "work",
-  "title": "論語注",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "論語注十卷 著作郎李充。謹按見《隋志》。《史記索隱》仲尼弟子列傳》。引作“論語解”。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "李充",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j967a0kj9gzw"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evfubuc1gxz4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "1ev7w0euvaeww",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "論語注",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "論語注十卷 著作郎李充。謹按見《隋志》。《史記索隱》仲尼弟子列傳》。引作“論語解”。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "李充",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j967a0kj9gzw"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "id": "1evfubuc1gxz4",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "related_works": [
+  {
+   "id": "1ev7w0euvaeww",
+   "title": "論語",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

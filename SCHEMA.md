@@ -80,6 +80,7 @@ Represents the abstract intellectual content.
   "has_text": "boolean (derived: resources 中有 text 類)",
   "has_image": "boolean (derived: resources 中有 image 類)",
   "has_collated": "boolean (derived: 存在 collated_edition 整理本)",
+  "loss_status": "string (optional, 存佚。枚舉見下「loss_status 枚舉」。欄位不存在 = 今存或未考，不必寫)",
   "promoted_to": "string (Production ID，本草稿記錄已升格；權威來源為 promotions.json)",
   "promoted_at": "string (ISO 8601 時間戳)",
   "ai_note": "string (optional, 建檔／整理過程的自注：資料來源、存疑、待辦。非面向讀者的正文)",
@@ -91,6 +92,64 @@ Represents the abstract intellectual content.
 `book_contained_in` 的設計仍然有效（見下文說明），但實際錄入一律走 `contained_in`；
 Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代；
 `resource_groups` 目前只在 Book 層使用。
+
+#### 整理本 section 的三個指涉欄位
+
+整理本置於 `Work/{c1}/{c2}/{c3}/{id}/collated_edition/`，每卷一檔，檔內 `sections` 為條目陣列。
+條目指向別的記錄有三個欄位，義各不同，不可混用：
+
+| 欄位 | 指向 | 義 |
+|---|---|---|
+| `work_id` / `work_ids` | Work | 本條所著錄的作品。一條著錄多書時用複數形。 |
+| `book_id` | Book | 本條所著錄的是某一具體版本（如小說書目逐版著錄者）。 |
+| `target_bid` | Work（書目本身） | **本志所考的那部書目**，如《隋書經籍志考證》各條的 `target_bid` 為《隋書經籍志》。與前二者無關。 |
+
+`target_bid` 之名易生誤解——它不是「本條所指的 book」，而是考證的對象。
+凡欲記「本條所指為某具體版本」，一律用 `book_id`。
+
+#### 輯佚檔（`fragments`）
+
+置於 `Work/{c1}/{c2}/{c3}/{id}/fragments/{title}.json`，`schema_version: 2`。
+分兩層而共用一個結構：**著錄層**記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；
+**文本層**逐條錄其佚文。得文本則就地填入 `fragments[].text`，不另立檔，
+`coverage.level` 是唯一須隨之改動的欄位。
+
+主要欄位：
+
+| 欄位 | 義 |
+|---|---|
+| `work_id` | 本書之 Work ID，須與所在路徑相符 |
+| `loss_status` | 存佚，見下表 |
+| `statement` | 存佚之敘述（何時著錄、何時亡佚、據何而知） |
+| `provenance` | `一手`（已覆核輯本原書）／`二手`（轉錄自考證書） |
+| `based_on[]` | 所據之書：`{source, source_bid, field}` |
+| `collectors[]` | 輯家：`{collector, work, work_id, count, count_unit, statement, basis}`。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
+| `other_statements[]` | 與本書相關而**不是輯本序**者（本志篇序、舊注之序、校注序），自 `collectors` 移出者記 `moved_from` |
+| `cited_in_summary[]` | 佚文所見之書與部類，尚未析出為逐條者 |
+| `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}` |
+| `coverage` | `{level, fragments_attested, fragments_recorded, text_available}` |
+
+##### `loss_status` 枚舉
+
+一軸而已：**本書之文今日尚存幾何**。欄位不存在 = 今存或未考，不必說明。
+
+| 值 | 中文 | 界說與判準 |
+|---|---|---|
+| `lost` | 全佚 | 原書無一存。**類書所引之佚文、後人之輯本，皆不改其為全佚**——「今存者為清孫星衍校輯本」仍是 `lost` |
+| `partially_extant` | 殘存 | 存其部分。須有原數今數之差（「《漢志》七十一篇，今存六十三篇」）；泛言「殘缺」不足 |
+| `extant` | 今存 | 已覆核尚存。只在需要推翻既有推定時才明寫 |
+| `undetermined` | 未詳 | 考過而不能定。與「欄位不存在」有別——後者是未考 |
+
+**殘存不用 `fragmentary`。** 西方書目學之 fragmentary 多指「只靠他書徵引之斷片存世」，
+那正是本庫的 `lost` 加輯佚檔，與 `partially_extant` 相反，用之則二者混為一詞。
+
+**不入本枚舉的兩件事：**
+
+- **出土**不是存佚狀態而是路徑。原書久佚而賴簡帛復見者，其狀態即 `extant` 或
+  `partially_extant`；出土之事由該 Work 的 Book（簡帛實物）與「出土簡帛」Collection 承載。
+  又：出土之書多數（本庫 257 部中 242 部）前所未聞，從無記載可失，本不需要此欄位。
+- **有輯本**不是存佚狀態而是補救。由 `fragments` 檔之有無與 `collectors` 是否非空導出。
+- **真偽**是另一軸。《古文尚書》今存而偽，《關尹子》今存而偽——併入本枚舉即無從表達。
 
 #### IndexEntry object type（`indexed_by` / `emendated_by` 共用）
 

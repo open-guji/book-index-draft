@@ -1,54 +1,55 @@
 {
-  "type": "work",
-  "title": "急就章顏之推注",
-  "original_title": "急就章",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《急就章注》一卷",
-      "summary": "《急就章注》一卷顏之推撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《急就章》一卷",
-      "summary": "《急就章》一卷（顏之推注。）",
-      "author_info": "顏之推注。"
-    }
-  ],
-  "id": "1evcpcv8jthj4",
-  "ai_note": "從 1evgora83kj5s《急就章》合併（同書異錄，《國史經籍志》另立一目）。",
-  "description": {
-    "text": "北齊顏之推注《急就章》一卷，已亡佚。《舊唐書·經籍志》著錄「《急就章注》一卷，顏之推撰」，《國史經籍志》作「《急就章》一卷（顏之推注）」。顏之推字介，琅邪臨沂人，歷仕梁、北齊、北周、隋，著《顏氏家訓》。其孫顏師古後亦注《急就篇》（1evcs0azciu4g），顏氏一門兩世治此書。",
-    "sources": [
-      "《舊唐書·經籍志》",
-      "《新唐書·藝文志》",
-      "《宋史·藝文志》"
-    ]
+ "type": "work",
+ "title": "急就章顏之推注",
+ "original_title": "急就章",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《急就章注》一卷",
+   "summary": "《急就章注》一卷顏之推撰。"
   },
-  "authors": [
-    {
-      "name": "顏之推",
-      "role": "注",
-      "dynasty": "北齊"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1ev794a4pxudc",
-      "title": "急就篇",
-      "relation": "part_of"
-    }
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《急就章》一卷",
+   "summary": "《急就章》一卷（顏之推注。）",
+   "author_info": "顏之推注。"
+  }
+ ],
+ "id": "1evcpcv8jthj4",
+ "ai_note": "從 1evgora83kj5s《急就章》合併（同書異錄，《國史經籍志》另立一目）。　loss_status 判為 lost，據本記錄之描述／著錄語：「北齊顏之推注《急就章》一卷，已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "description": {
+  "text": "北齊顏之推注《急就章》一卷，已亡佚。《舊唐書·經籍志》著錄「《急就章注》一卷，顏之推撰」，《國史經籍志》作「《急就章》一卷（顏之推注）」。顏之推字介，琅邪臨沂人，歷仕梁、北齊、北周、隋，著《顏氏家訓》。其孫顏師古後亦注《急就篇》（1evcs0azciu4g），顏氏一門兩世治此書。",
+  "sources": [
+   "《舊唐書·經籍志》",
+   "《新唐書·藝文志》",
+   "《宋史·藝文志》"
   ]
+ },
+ "authors": [
+  {
+   "name": "顏之推",
+   "role": "注",
+   "dynasty": "北齊"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1ev794a4pxudc",
+   "title": "急就篇",
+   "relation": "part_of"
+  }
+ ],
+ "loss_status": "lost"
 }

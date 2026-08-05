@@ -1,43 +1,45 @@
 {
-  "type": "work",
-  "title": "周禮音",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周禮音一卷熊,謹按見《釋文・敘録》。家大人曰:“舊題聶氏,不詳何人。”近馬氏國翰輯存一卷,謂即《晋書》之聶熊,其說致確,据以著錄。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "熊",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96kefwy9dz4"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evfublhvj1fk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1evl7nl7lsg00",
-      "title": "周禮",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "周禮音",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "周禮音一卷熊,謹按見《釋文・敘録》。家大人曰:“舊題聶氏,不詳何人。”近馬氏國翰輯存一卷,謂即《晋書》之聶熊,其說致確,据以著錄。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "熊",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j96kefwy9dz4"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "id": "1evfublhvj1fk",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1evl7nl7lsg00",
+   "title": "周禮",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

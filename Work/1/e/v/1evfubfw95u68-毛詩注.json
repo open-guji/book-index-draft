@@ -1,43 +1,45 @@
 {
-  "type": "work",
-  "title": "毛詩注",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "毛詩注二十卷 兖州别駕江熙。謹按見《七録》。《釋文・敘録》言:“熙字太和,濟陽人。”"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "江熙",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96ad65o8jk0"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "id": "1evfubfw95u68",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "related_works": [
-    {
-      "id": "1evl7hsxvr7cw",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "毛詩注",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "毛詩注二十卷 兖州别駕江熙。謹按見《七録》。《釋文・敘録》言:“熙字太和,濟陽人。”"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "江熙",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j96ad65o8jk0"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "id": "1evfubfw95u68",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "related_works": [
+  {
+   "id": "1evl7hsxvr7cw",
+   "title": "詩經",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

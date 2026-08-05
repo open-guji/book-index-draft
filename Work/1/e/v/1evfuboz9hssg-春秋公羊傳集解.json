@@ -1,43 +1,45 @@
 {
-  "type": "work",
-  "title": "春秋公羊傳集解",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "春秋公羊傳集解十四卷孔衍,謹按見《七録》。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "孔衍",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j969m70q2eqs"
-    }
-  ],
-  "juan_count": {
-    "number": 14
-  },
-  "id": "1evfuboz9hssg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "related_works": [
-    {
-      "id": "1ev7vo52r3ev4",
-      "title": "公羊傳",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "春秋公羊傳集解",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "春秋公羊傳集解十四卷孔衍,謹按見《七録》。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "孔衍",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j969m70q2eqs"
+  }
+ ],
+ "juan_count": {
+  "number": 14
+ },
+ "id": "1evfuboz9hssg",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 14
+  }
+ ],
+ "measure_info": "十四卷",
+ "related_works": [
+  {
+   "id": "1ev7vo52r3ev4",
+   "title": "公羊傳",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }

@@ -98,3 +98,104 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not any(y.get('source_bid')==src for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)
+
+# 輯佚檔 fragments/*.json
+fbad=[]
+for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
+    wid=f.split('/')[4]
+    try: fd=json.load(open(f))
+    except Exception as e: fbad.append((f,'解析失敗')); continue
+    if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
+    if wid not in IW: fbad.append((f,'work 不存在')); continue
+    _LS={'lost','partially_extant','extant','undetermined'}
+    if 'loss_status' in fd and fd['loss_status'] not in _LS:
+        fbad.append((f,f"loss_status「{fd['loss_status']}」不在枚舉內"))
+    cov=fd.get('coverage') or {}
+    rec=sum(1 for x in (fd.get('fragments') or []) if (x.get('text') or '').strip())
+    if cov.get('fragments_recorded')!=rec:
+        fbad.append((f,f"fragments_recorded {cov.get('fragments_recorded')} ≠ 實錄 {rec}"))
+    if cov.get('level')=='著錄層' and rec and cov.get('level')!='文本層' and rec>0 and not cov.get('note'):
+        fbad.append((f,'著錄層而有錄文，未說明'))
+    if not (fd.get('collectors') or fd.get('fragments')):
+        fbad.append((f,'既無輯家亦無佚文'))
+    for _x in (fd.get('collectors') or []):
+        # collectors 之一條即斷言「某人輯過此書」；無其人則此斷言落空
+        if not (_x.get('collector') or '').strip():
+            fbad.append((f,'collectors 有條而輯家為空'))
+        _wk=_x.get('work'); _wi=_x.get('work_id')
+        if _wi and _wi not in IW: fbad.append((f,f'輯本 work_id {_wi} 不存在'))
+    try: wd=json.load(open(IW[wid]['path']))
+    except Exception: wd={}
+    if 'fragments/' not in (wd.get('ai_note') or ''):
+        fbad.append((f,'work 側未記本檔'))
+print('輯佚檔',len(glob.glob('Work/*/*/*/*/fragments/*.json')),'不合',len(fbad))
+for x in fbad[:12]: print('  ',x)
+
+# 整理本 section 之 work_id / target_bid 是否落空
+# （匯入時每條都鑄了 id，而 Work 檔只生成了一部分，故有懸空；索引側查不到這一類）
+try: IB
+except NameError:
+    IB={}
+    for _s in '0123456789abcdef':
+        try: IB.update(json.load(open(f'index/books/{_s}.json')))
+        except Exception: pass
+import collections as _c
+dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+    if f.endswith('collated_edition_index.json'): continue
+    try: cd=json.load(open(f))
+    except Exception: continue
+    if not isinstance(cd,dict): continue
+    for sec in cd.get('sections',[]):
+        if not isinstance(sec,dict): continue
+        ws=[sec['work_id']] if isinstance(sec.get('work_id'),str) else []
+        v=sec.get('work_ids')
+        if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
+        for w in ws:
+            if w in IW: continue
+            dang[f.split('/')[4]]+=1; dang_ids.add(w)
+            if w in IB: dang_is_book+=1
+        b=sec.get('book_id')
+        if isinstance(b,str) and b not in IB:
+            dang[f.split('/')[4]]+=1; dang_ids.add(b)
+        b=sec.get('target_bid')
+        if isinstance(b,str) and b not in IB and b not in IW:
+            dang[f.split('/')[4]]+=1; dang_ids.add(b)
+print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
+for k,v in dang.most_common(6): print('  ',k,v)
+
+# 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
+# （匯入時同名條目未分，如隋志四種卷數各異之《後漢書》皆繫一 id）
+import re as _re
+_VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略','别':'別','吴':'吳'})
+def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
+secmag=_c.Counter(); secmag_ex=[]
+for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+    if f.endswith('collated_edition_index.json'): continue
+    try: cd=json.load(open(f))
+    except Exception: continue
+    if not isinstance(cd,dict): continue
+    own=f.split('/')[4]; m=_c.defaultdict(set)
+    for sec in cd.get('sections',[]):
+        if not isinstance(sec,dict): continue
+        w=sec.get('work_id')
+        if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
+    for w,ts in m.items():
+        if len(ts)>1:
+            secmag[own]+=len(ts)
+            if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
+print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()))
+for k,v in secmag.most_common(6): print('  ',k,v)
+for x in secmag_ex: print('   例',x)
+
+# Work 之 loss_status 須在枚舉內（SCHEMA「loss_status 枚舉」）
+_LSW={'lost','partially_extant','extant','undetermined'}
+lsbad=[]; lsc=_c.Counter()
+for w,e in IW.items():
+    try: d=json.load(open(e['path']))
+    except Exception: continue
+    if not isinstance(d,dict) or 'loss_status' not in d: continue
+    v=d['loss_status']; lsc[v]+=1
+    if v not in _LSW: lsbad.append((w,v))
+print('Work loss_status',dict(lsc),'不合枚舉',len(lsbad))
+for x in lsbad[:8]: print('  ',x)

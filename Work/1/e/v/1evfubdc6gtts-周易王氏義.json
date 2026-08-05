@@ -1,33 +1,35 @@
 {
-  "type": "work",
-  "title": "周易王氏義",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周易王氏義王濟。謹按張氏《集解》引。見釋文敘錄》。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
-  },
-  "authors": [
-    {
-      "name": "王濟",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96h8rw8hyk8"
-    }
-  ],
-  "id": "1evfubdc6gtts",
-  "related_works": [
-    {
-      "id": "1evl7l48e27ls",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
+ "type": "work",
+ "title": "周易王氏義",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "周易王氏義王濟。謹按張氏《集解》引。見釋文敘錄》。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
   ]
+ },
+ "authors": [
+  {
+   "name": "王濟",
+   "role": "撰",
+   "dynasty": "晉",
+   "entity_id": "1j96h8rw8hyk8"
+  }
+ ],
+ "id": "1evfubdc6gtts",
+ "related_works": [
+  {
+   "id": "1evl7l48e27ls",
+   "title": "周易",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。"
 }
