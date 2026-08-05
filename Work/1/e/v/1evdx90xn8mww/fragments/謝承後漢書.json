@@ -1,76 +1,80 @@
 {
-  "work_id": "1evdx90xn8mww",
-  "title": "謝承後漢書",
-  "type": "fragments",
-  "schema_version": 2,
-  "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
-  "coverage": {
-    "level": "著錄層",
-    "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
-    "fragments_attested": null,
-    "fragments_attested_note": "考證未言條數。",
-    "fragments_recorded": 0,
-    "text_available": false
+ "work_id": "1evdx90xn8mww",
+ "title": "謝承後漢書",
+ "type": "fragments",
+ "schema_version": 2,
+ "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
+ "coverage": {
+  "level": "著錄層",
+  "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
+  "fragments_attested": null,
+  "fragments_attested_note": "考證未言條數。",
+  "fragments_recorded": 0,
+  "text_available": false
+ },
+ "loss_status": "全佚",
+ "statement": null,
+ "provenance": "二手",
+ "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
+ "based_on": [
+  {
+   "source": "三國藝文志",
+   "source_bid": "1eve1eig5jn5s",
+   "field": "emendated_by"
+  }
+ ],
+ "collectors": [
+  {
+   "collector": "姚之駰",
+   "work": "後漢書補逸",
+   "count": null,
+   "count_unit": null,
+   "statement": "謝偉平之書,東漢第一良史也。凡所載忠義名卿及通賢逸士,其芳言懿矩,半為范《書》所遺。惟六朝詞人多誦說之,故其軟事時見他書,采撥彙鈔,分為四卷。",
+   "statement_label": "錢 姚之 輯本序",
+   "basis": "考證載其輯本序",
+   "note": "輯家原缺（匯入時未自 statement_label 析出）。statement_label 作「錢□姚之□輯本序」，缺字。考證本條作「錢塘姚之驅輯本序」——「錢塘」乃籍貫非姓，「驅」為「駰」之訛。",
+   "work_id": "1ev3baclsnfuo"
   },
-  "loss_status": "全佚",
-  "statement": null,
-  "provenance": "二手",
-  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
-  "based_on": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "field": "emendated_by"
-    }
-  ],
-  "collectors": [
-    {
-      "collector": null,
-      "work": null,
-      "count": null,
-      "count_unit": null,
-      "statement": "謝偉平之書,東漢第一良史也。凡所載忠義名卿及通賢逸士,其芳言懿矩,半為范《書》所遺。惟六朝詞人多誦說之,故其軟事時見他書,采撥彙鈔,分為四卷。",
-      "statement_label": "錢 姚之 輯本序",
-      "basis": "考證載其輯本序"
-    },
-    {
-      "collector": null,
-      "work": null,
-      "count": null,
-      "count_unit": null,
-      "statement": "瑩所著《漢書》當是私作,故《吴志》本傳不載。",
-      "statement_label": "姚之驅輯本序",
-      "basis": "考證載其輯本序"
-    },
-    {
-      "collector": "汪文臺",
-      "work": null,
-      "count": null,
-      "count_unit": null,
-      "statement": null,
-      "basis": "考證著其輯本或稱其名",
-      "note": "考證但稱其名，未載輯本序，條數未詳。"
-    },
-    {
-      "collector": "章宗源",
-      "work": null,
-      "count": null,
-      "count_unit": null,
-      "statement": null,
-      "basis": "考證著其輯本或稱其名",
-      "note": "考證但稱其名，未載輯本序，條數未詳。"
-    }
-  ],
-  "cited_in_summary": [
-    {
-      "title": "北堂書鈔・設官部",
-      "juan": null,
-      "count": null,
-      "resolved": false,
-      "attested_by": "《三國藝文志》"
-    }
-  ],
-  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
-  "fragments": [],
-  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　本檔所列出處已逐條精讀：皆《考證》之敘述語——或云引幾條幾節，或云所記何事，或為輯本序之文而非本書之文——非逐字錄文，故 fragments 仍空。此非漏輯，乃考證書之體例：錄輯本之目與序，不錄輯本之文。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。"
+  {
+   "collector": "姚之駰",
+   "work": "後漢書補逸",
+   "count": null,
+   "count_unit": null,
+   "statement": "瑩所著《漢書》當是私作,故《吴志》本傳不載。",
+   "statement_label": "姚之驅輯本序",
+   "basis": "考證載其輯本序",
+   "note": "輯家原缺（匯入時未自 statement_label 析出）。同上。惟此序所論為薛瑩之書（「瑩所著《漢書》當是私作」），非謝承書，考證連類及之。",
+   "work_id": "1ev3baclsnfuo"
+  },
+  {
+   "collector": "汪文臺",
+   "work": null,
+   "count": null,
+   "count_unit": null,
+   "statement": null,
+   "basis": "考證著其輯本或稱其名",
+   "note": "考證但稱其名，未載輯本序，條數未詳。"
+  },
+  {
+   "collector": "章宗源",
+   "work": null,
+   "count": null,
+   "count_unit": null,
+   "statement": null,
+   "basis": "考證著其輯本或稱其名",
+   "note": "考證但稱其名，未載輯本序，條數未詳。"
+  }
+ ],
+ "cited_in_summary": [
+  {
+   "title": "北堂書鈔・設官部",
+   "juan": null,
+   "count": null,
+   "resolved": false,
+   "attested_by": "《三國藝文志》"
+  }
+ ],
+ "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
+ "fragments": [],
+ "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　本檔所列出處已逐條精讀：皆《考證》之敘述語——或云引幾條幾節，或云所記何事，或為輯本序之文而非本書之文——非逐字錄文，故 fragments 仍空。此非漏輯，乃考證書之體例：錄輯本之目與序，不錄輯本之文。　collectors 補訂：前次抽取於人名前後求「輯／集」二字為防呆，過嚴而失之；又只讀考證，不及本庫著錄之描述。今放寬人名之限、叢書名不受限，並以描述為第二來源，各筆記其 basis。侯康《補三國藝文志》之屬乃補志非輯本，其人不列為輯家。"
 }

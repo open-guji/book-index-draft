@@ -115,6 +115,12 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         fbad.append((f,'著錄層而有錄文，未說明'))
     if not (fd.get('collectors') or fd.get('fragments')):
         fbad.append((f,'既無輯家亦無佚文'))
+    for _x in (fd.get('collectors') or []):
+        # collectors 之一條即斷言「某人輯過此書」；無其人則此斷言落空
+        if not (_x.get('collector') or '').strip():
+            fbad.append((f,'collectors 有條而輯家為空'))
+        _wk=_x.get('work'); _wi=_x.get('work_id')
+        if _wi and _wi not in IW: fbad.append((f,f'輯本 work_id {_wi} 不存在'))
     try: wd=json.load(open(IW[wid]['path']))
     except Exception: wd={}
     if 'fragments/' not in (wd.get('ai_note') or ''):
