@@ -141,11 +141,11 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 | `statement` | 存佚之敘述（何時著錄、何時亡佚、據何而知） |
 | `provenance` | `primary`（已覆核輯本原書）／`secondary`（轉錄自考證書）。<br>現全為 `secondary`；此欄雖恆定而不可去——一旦覆核原書即當改 `primary`，去之則後人須重立。 |
 | `based_on[]` | 所據之書：`{source, source_bid, field}` |
-| `collectors[]` | 輯家：`{collector, work, work_id, sections, count, count_unit, statement, basis}`。<br>**`count` 是「該輯家輯得幾條」，不是「本庫已錄他幾條」**——二者常不等（《古文瑣語》馬國翰得十五條而本庫只錄一條），校驗時勿相比。本庫所錄之數在 `coverage.fragments_recorded`。<br>`count` 取自輯本序者須防序中之數非其本人所得，見 SKILL「從輯本序裡取條數」。<br>`sections[]` 記本書在該輯佚叢書整理本中的位置 `{file, index, title, part, juan_no, lei}`——一書而正編、續編兩見者，馬氏正編輯之而續編又補，非歧義，故用陣列。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
+| `collectors[]` | 輯家：`{collector, work, work_id, sections, count, count_unit, statement, basis}`。<br>**`count` 是「該輯家輯得幾條」，不是「本庫已錄他幾條」**——二者常不等（《古文瑣語》馬國翰得十五條而本庫只錄一條），校驗時勿相比。本庫所錄之數在 `coverage.fragments_recorded`。<br>`count` 取自輯本序者須防序中之數非其本人所得，見 SKILL「從輯本序裡取條數」。<br>`sections[]` 記本書在該輯佚叢書整理本中的位置 `{file, index, title, part, juan_no, lei}`——一書而正編、續編兩見者，馬氏正編輯之而續編又補，非歧義，故用陣列。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。<br>**`attested_count`（2026-08-06 增）與 `count` 不是一件事**：`count` 是該輯家自己輯得幾條；`attested_count` 是**別人的輯本說他輯得幾條**，並以 `attested_count_basis {work, work_id, note}` 記其所出。汪文臺本逐條標「（姚。孫。王。汪。黃）」，據以計得姚氏 419 條——這是汪氏所見，非姚氏自著，亦非本庫已錄（本庫錄自姚本者 420）。三者各為一數，混之則對帳無從做起。<br>此欄之用正在對帳：419 對 420、10 對 10、11 對 11，是兩個獨立來源相符，勝於抽樣。 |
 | `collection_attested[]` | 確有輯本而未詳其輯家者：`{basis, work, statement, count, count_unit}`。<br>與 `collectors[]` 分立，因該陣列之一條即斷言「某人輯過此書」，輯家不可空；而「有輯本而不著其人」是另一件事，記於此欄，其據照錄於 `basis`。<br>得其人後當移入 `collectors[]`。校驗時本欄與 `collectors`、`fragments` 同為據，有其一即非空檔。 |
 | `other_statements[]` | 與本書相關而**不是輯本序**者（本志篇序、舊注之序、校注序），自 `collectors` 移出者記 `moved_from` |
 | `cited_in_summary[]` | 佚文所見之書與部類，尚未析出為逐條者 |
-| `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}`。<br>**`heading` 與 `piece_title` 不是同一件事，勿合併**：`piece_title` 是**這一條佚文自身之題**（嚴可均按撰人編次，一條即一篇，如〈上書諫伐匈奴〉）；`heading` 是**數條佚文共有之標目**（姚之駰按傳主編次，「光武皇帝」下繫四十七條）。一者標識自身，一者標識所屬。<br>`editor_note` 是輯家之案語（姚書原作【…】），是輯家之考，非本書之文，**不得與 `text` 相混**。<br>`text_from` 已去（八百條與 `attested_by` 逐字相同）。 |
+| `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}`。<br>**`cited_in` 是陣列**（2026-08-06 統一；此前 780 條作單一物件，已一律包成陣列）——一條佚文常見於數書（「──御覽卷五八一　○　白帖卷六二」），單一物件表不了。每項作 `{raw, book, juan}`：`raw` 是原文照錄，`book` 是還原之全名（御覽→太平御覽），還原不得則為 null，**不猜**。「又卷六五」承前一條之書，還原時須傳前一條之 `book`。<br>`cited_in` 記**佚文從哪部書裡引出來**，`collected_by` 記**哪一位輯家把它輯進自己的書**，二者不同軸，勿混。<br>**`heading` 與 `piece_title` 不是同一件事，勿合併**：`piece_title` 是**這一條佚文自身之題**（嚴可均按撰人編次，一條即一篇，如〈上書諫伐匈奴〉）；`heading` 是**數條佚文共有之標目**（姚之駰按傳主編次，「光武皇帝」下繫四十七條）。一者標識自身，一者標識所屬。<br>`editor_note` 是輯家之案語（姚書原作【…】），是輯家之考，非本書之文，**不得與 `text` 相混**。<br>`text_from` 已去（八百條與 `attested_by` 逐字相同）。 |
 | `coverage` | `{level, fragments_attested, fragments_recorded, text_available}`。<br>`level` 四級：`catalog`（僅知幾家輯過）→ `titles`（知輯本各篇之題）→ `text`（正文全錄）／`text_partial`（正文部分錄）。<br>`titles` 現無實例（嚴可均那批已升 `text`），定義保留待用。<br>`fragments_attested` 為 null 者是**未知**，非零——如據叢書目錄立檔，目錄不載條數。<br>**數家所得不同時，`fragments_attested` 取諸家所稱之最大數**，並以 `fragments_attested_note` 記其所以（《古文瑣語》嚴輯十九條、馬輯十五條、章宗源云十三事，取二十五）。 |
 | `fragments[]` 之篇目條 | 有 `piece_title` 而 `text` 為 null，是「知其篇而未錄其文」，須並記 `text_status`，否則與「無文」無從分辨。 |
 
@@ -193,9 +193,25 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
   "title_info": "string (該目錄中的著錄標題原文，如「毛詩義問十卷魏太子文學劉楨撰」)",
   "summary": "string (該目錄中的著錄／解題全文)",
   "section": "string (optional, 該目錄中的分類，如「經部/易類」)",
-  "juan_count": "string (optional, 該目錄著錄的卷數原文)"
+  "juan_count": "string (optional, 該目錄著錄的卷數原文)",
+  "in_note_of": "string (optional, Work ID：本書非該志之正文所著，而見於另一條之注)",
+  "attested_status": "string (optional, 該目錄書對此書存佚之判：extant / lost / partial / not_seen)",
+  "attested_status_raw": "string (optional, 該書原文之字：存／佚／闕／未見)",
+  "attested_status_note": "string (optional, 何以不上升為 loss_status)"
 }
 ```
+
+`attested_status` 之設（2026-08-06）：《經義考》逐書判其存佚（御製題：「次列題注曰存曰闕曰佚曰未見」），
+是本庫少見的成批存佚之據。**然不得逕改本記錄之 `loss_status`**——四庫御製題論此書自云
+「所注闕佚未見者，今四庫所録往往其書尚存」，即朱彝尊判為佚、為未見者，修四庫時往往尚存。
+其判是十七世紀一人之見聞，非事實，故記為「某書如此判」而繫於該源之下。
+`not_seen`（未見）尤不可轉為 lost——那是「著者沒見過此書」，與「此書已亡」不同軸。
+
+`in_note_of` 之設（2026-08-06）：《隋書經籍志》正文著見存之書，而以注記「梁有某書幾卷，
+某人撰，亡」——梁時尚存而隋時已亡者。此類亡書在志中無獨立條目，只寄於某條之注。
+故其 `summary` 是**那一條的原文全行**（含正文之書），而非本書自己的一行。
+`in_note_of` 指出寄於誰，覆按時方知該在那一行的哪一段找。
+無此欄則 summary 之首書名與本 work 之 title 不符，看起來像資料錯亂。
 
 - `indexed_by`：本書被目錄書／志書**著錄**（文獻學引證，記「某志收有此書」）。
 - `emendated_by`：本書被**考證／校勘類著作**校訂（記「某考證書對此書有辨正」），如《漢藝文志考證》《隋書經籍志考證》。二者結構相同，語義不同：前者是登記，後者是校議。

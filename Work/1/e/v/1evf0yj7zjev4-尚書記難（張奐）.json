@@ -1,38 +1,50 @@
 {
- "schema_version": 1,
- "id": "1evf0yj7zjev4",
- "type": "work",
- "title": "尚書記難",
- "authors": [
-  {
-   "name": "張奐",
-   "role": "撰",
-   "dynasty": "東漢",
-   "entity_id": "1j96hllj30jcw"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "後漢藝文志",
-   "source_bid": "1eve1ei9whji8",
-   "title_info": "張奐尚書記難",
-   "summary": "張奐尚書記難范書本傳：時禁錮者多，不能守靜，或死或徙，奐閉門不出，養徙千人，著尚書記難三十餘萬言。按史言養徙干人，著尚書記難者，卽記此徙衆問難，筆之於書，黨禁時作也。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "後漢藝文志"
-  ]
- },
- "related_works": [
-  {
-   "id": "1evl7fct2ezgg",
-   "title": "尚書",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "id": "1evf0yj7zjev4",
+  "type": "work",
+  "title": "尚書記難",
+  "authors": [
+    {
+      "name": "張奐",
+      "role": "撰",
+      "dynasty": "東漢",
+      "entity_id": "1j96hllj30jcw"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "後漢藝文志",
+      "source_bid": "1eve1ei9whji8",
+      "title_info": "張奐尚書記難",
+      "summary": "張奐尚書記難范書本傳：時禁錮者多，不能守靜，或死或徙，奐閉門不出，養徙千人，著尚書記難三十餘萬言。按史言養徙干人，著尚書記難者，卽記此徙衆問難，筆之於書，黨禁時作也。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《尚書記難》（張奐）",
+      "summary": null,
+      "section": "書",
+      "juan": "卷七十七",
+      "page": "KR2n0011_WYG_077-7b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "後漢藝文志"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "1evl7fct2ezgg",
+      "title": "尚書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

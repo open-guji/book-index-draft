@@ -1,45 +1,57 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7i0fc",
- "type": "work",
- "title": "春秋左氏傳義注",
- "authors": [
-  {
-   "name": "孫毓",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hl45pdgcg"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "春秋左氏傳義註",
-   "summary": "晉孫毓《春秋左氏傳義註》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏傳義注.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7vo50ar94w",
-   "title": "左傳",
-   "relation": "contains_text_of"
-  }
- ],
- "additional_titles": [
-  "春秋左氏傳義註"
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-05T09:02:34+00:00"
+  "schema_version": 1,
+  "id": "1evr5e3m7i0fc",
+  "type": "work",
+  "title": "春秋左氏傳義注",
+  "authors": [
+    {
+      "name": "孫毓",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hl45pdgcg"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "春秋左氏傳義註",
+      "summary": "晉孫毓《春秋左氏傳義註》一卷。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋左氏傳義注》（孫毓）",
+      "summary": "隋志十八巻（唐志三十巻釋文序錄二十八巻）",
+      "section": "春秋",
+      "juan": "卷一百七十四",
+      "page": "KR2n0011_WYG_174-14a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏傳義注.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7vo50ar94w",
+      "title": "左傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "additional_titles": [
+    "春秋左氏傳義註"
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

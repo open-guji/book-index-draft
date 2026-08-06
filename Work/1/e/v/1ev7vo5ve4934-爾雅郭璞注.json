@@ -1,178 +1,190 @@
 {
- "schema_version": 1,
- "id": "1ev7vo5ve4934",
- "type": "work",
- "title": "爾雅郭璞注",
- "original_title": "爾雅",
- "authors": [
-  {
-   "name": "郭璞",
-   "role": "注",
-   "dynasty": "晉"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "related_works": [
-  {
-   "id": "1ev3ba8mb8etc",
-   "title": "爾雅注疏",
-   "relation": "text_carried_by"
+  "schema_version": 1,
+  "id": "1ev7vo5ve4934",
+  "type": "work",
+  "title": "爾雅郭璞注",
+  "original_title": "爾雅",
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "注",
+      "dynasty": "晉"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "id": "1ahwtau87mm80",
-   "title": "十三經",
-   "relation": "collected_in"
+  "related_works": [
+    {
+      "id": "1ev3ba8mb8etc",
+      "title": "爾雅注疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ahwtau87mm80",
+      "title": "十三經",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1evkvljltyxvk",
+      "title": "爾雅",
+      "relation": "contains_text_of"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《爾雅》三卷",
+      "summary": "《爾雅》三卷李巡注。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "爾雅李巡注",
+      "summary": "爾雅李巡注三卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《爾雅》三卷（（郭璞注））孔鮒",
+      "summary": "《爾雅》三卷（（郭璞注））孔鮒"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "爾雅三卷",
+      "summary": "爾雅三卷"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "爾雅",
+      "summary": "《爾雅》十卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《爾雅》五卷",
+      "summary": "《爾雅》五卷（郭璞）",
+      "author_info": "郭璞"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "爾雅"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《爾雅注》（郭璞）",
+      "summary": "隋志五卷（唐志一巻釋文序録宋志三巻）",
+      "section": "爾雅",
+      "juan": "卷二百三十七",
+      "page": "KR2n0011_WYG_237-11b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "resources": [
+    {
+      "id": "shidianguji-sibucongkanjingchang",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/SBCK013",
+      "metadata": {
+        "edition": "四部叢刊景常熟瞿氏鐵琴銅劍樓藏宋刊本",
+        "version": "v14",
+        "total_page": 122,
+        "paragraph_count": 208,
+        "check_type": "精校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-chongzhenmaoshijigug",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6485",
+      "metadata": {
+        "edition": "崇禎毛氏汲古閣刻本",
+        "version": "v13",
+        "total_page": 572,
+        "paragraph_count": 397,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-tianqiliulangshitang",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY4998",
+      "metadata": {
+        "edition": "天啓六年(1626)郎氏堂策檻刻本",
+        "version": "v6",
+        "total_page": 214,
+        "paragraph_count": 99,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E7%88%BE%E9%9B%85",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "description": {
+    "text": "今存三卷十九篇。中國歷史上第一部詞典，可謂六經之戶牆，學者之要津。《漢志》著錄三卷二十篇，葉德輝認爲以前有《序篇》，後亡佚。非一人一時所作，大約是戰國至西漢之間的學者累積編寫而成。有古文無今文。",
+    "sources": [
+      "溫浚源《漢書藝文志講要》"
+    ]
   },
-  {
-   "id": "1evkvljltyxvk",
-   "title": "爾雅",
-   "relation": "contains_text_of"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《爾雅》三卷",
-   "summary": "《爾雅》三卷李巡注。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "爾雅李巡注",
-   "summary": "爾雅李巡注三卷"
-  },
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《爾雅》三卷（（郭璞注））孔鮒",
-   "summary": "《爾雅》三卷（（郭璞注））孔鮒"
-  },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "爾雅三卷",
-   "summary": "爾雅三卷"
-  },
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "爾雅",
-   "summary": "《爾雅》十卷。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《爾雅》五卷",
-   "summary": "《爾雅》五卷（郭璞）",
-   "author_info": "郭璞"
-  },
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "summary": "爾雅"
-  }
- ],
- "resources": [
-  {
-   "id": "shidianguji-sibucongkanjingchang",
-   "name": "识典古籍",
-   "url": "https://www.shidianguji.com/book/SBCK013",
-   "metadata": {
-    "edition": "四部叢刊景常熟瞿氏鐵琴銅劍樓藏宋刊本",
-    "version": "v14",
-    "total_page": 122,
-    "paragraph_count": 208,
-    "check_type": "精校"
-   },
-   "types": [
-    "text",
-    "image"
-   ]
-  },
-  {
-   "id": "shidianguji-chongzhenmaoshijigug",
-   "name": "识典古籍",
-   "url": "https://www.shidianguji.com/book/HY6485",
-   "metadata": {
-    "edition": "崇禎毛氏汲古閣刻本",
-    "version": "v13",
-    "total_page": 572,
-    "paragraph_count": 397,
-    "check_type": "粗校"
-   },
-   "types": [
-    "text",
-    "image"
-   ]
-  },
-  {
-   "id": "shidianguji-tianqiliulangshitang",
-   "name": "识典古籍",
-   "url": "https://www.shidianguji.com/book/HY4998",
-   "metadata": {
-    "edition": "天啓六年(1626)郎氏堂策檻刻本",
-    "version": "v6",
-    "total_page": 214,
-    "paragraph_count": 99,
-    "check_type": "粗校"
-   },
-   "types": [
-    "text",
-    "image"
-   ]
-  },
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E7%88%BE%E9%9B%85",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "description": {
-  "text": "今存三卷十九篇。中國歷史上第一部詞典，可謂六經之戶牆，學者之要津。《漢志》著錄三卷二十篇，葉德輝認爲以前有《序篇》，後亡佚。非一人一時所作，大約是戰國至西漢之間的學者累積編寫而成。有古文無今文。",
-  "sources": [
-   "溫浚源《漢書藝文志講要》"
-  ]
- },
- "ai_note": "漢志「《爾雅》三卷二十篇。」今存三卷十九篇。中國歷史上第一部詞典，六經之戶牆。非一人一時所作，戰國至西漢之間學者累積編寫而成。有古文無今文。歷代注釋以晉郭璇《爾雅注》最知名。來源：溫浚源《漢書藝文志講要》。 作者「晉郭璞注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgor7z0ofls 合併。原註：missing_reason: 短title \"爾雅\" 唯一候选无作者 | 從 1evkq1h9r5ji8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿002264-002266）。阶段 5 兜底建立。 | 從 1evjy4uowdiww 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 2026-07-26：漢書藝文志「《爾雅》三卷二十篇」一條 indexed_by 已移出本 Work，改掛《爾雅》原典（1evkvljltyxvk）——漢志所錄為先秦《爾雅》本身，非晉郭璞注本。　輯佚檔已撤：前次自描述生成輯佚檔，以人名見於描述為據而未問其語境，遂收引述為輯家。葉德輝止云「認爲以前有《序篇》」，是引其說非有輯本；且郭璞注今存。本書無輯本可徵，故撤其檔。　loss_status 判為 partially_extant，據：「今存三卷十九篇／《漢志》著錄三卷二十篇，葉德輝認爲以前有《序篇》，後亡佚」。本值經逐條精讀，非機讀批次。　輯佚普查：本條先前曾誤立輯佚檔而已撤，其故已記於上——以人名見於描述為據而未問其語境，遂收引述者為輯家。凡再以「描述中見輯家之名」為據者，必再蹈此覆轍，故不立檔。已覆核，後續普查不必重讀。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "books": [
-  "11qk4xwcskb3z",
-  "11qk4xwcuqywf",
-  "11qk4xwcuqywg",
-  "11qkhunxa2ark",
-  "11qkhusa627ls",
-  "11qkhv2h8tse8",
-  "11qki02uh6z9c",
-  "11qki02vw2nsw",
-  "11qki02x8rojk",
-  "11qki03b7mznk",
-  "11qki0cgw41kw",
-  "11qki0hxs1o8w",
-  "11qki231s5pmo",
-  "11qki27jdnhfk",
-  "11qki2i2v3nk0",
-  "11qki33hachds",
-  "11qki42yv3nk0"
- ],
- "additional_titles": [
-  "爾雅郭氏注",
-  "爾雅注",
-  "爾雅"
- ],
- "loss_status": "partially_extant",
- "updated_at": "2026-08-05T15:55:32+00:00",
- "_has_text": true,
- "_has_image": true
+  "ai_note": "漢志「《爾雅》三卷二十篇。」今存三卷十九篇。中國歷史上第一部詞典，六經之戶牆。非一人一時所作，戰國至西漢之間學者累積編寫而成。有古文無今文。歷代注釋以晉郭璇《爾雅注》最知名。來源：溫浚源《漢書藝文志講要》。 作者「晉郭璞注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgor7z0ofls 合併。原註：missing_reason: 短title \"爾雅\" 唯一候选无作者 | 從 1evkq1h9r5ji8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿002264-002266）。阶段 5 兜底建立。 | 從 1evjy4uowdiww 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 2026-07-26：漢書藝文志「《爾雅》三卷二十篇」一條 indexed_by 已移出本 Work，改掛《爾雅》原典（1evkvljltyxvk）——漢志所錄為先秦《爾雅》本身，非晉郭璞注本。　輯佚檔已撤：前次自描述生成輯佚檔，以人名見於描述為據而未問其語境，遂收引述為輯家。葉德輝止云「認爲以前有《序篇》」，是引其說非有輯本；且郭璞注今存。本書無輯本可徵，故撤其檔。　loss_status 判為 partially_extant，據：「今存三卷十九篇／《漢志》著錄三卷二十篇，葉德輝認爲以前有《序篇》，後亡佚」。本值經逐條精讀，非機讀批次。　輯佚普查：本條先前曾誤立輯佚檔而已撤，其故已記於上——以人名見於描述為據而未問其語境，遂收引述者為輯家。凡再以「描述中見輯家之名」為據者，必再蹈此覆轍，故不立檔。已覆核，後續普查不必重讀。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "books": [
+    "11qk4xwcskb3z",
+    "11qk4xwcuqywf",
+    "11qk4xwcuqywg",
+    "11qkhunxa2ark",
+    "11qkhusa627ls",
+    "11qkhv2h8tse8",
+    "11qki02uh6z9c",
+    "11qki02vw2nsw",
+    "11qki02x8rojk",
+    "11qki03b7mznk",
+    "11qki0cgw41kw",
+    "11qki0hxs1o8w",
+    "11qki231s5pmo",
+    "11qki27jdnhfk",
+    "11qki2i2v3nk0",
+    "11qki33hachds",
+    "11qki42yv3nk0"
+  ],
+  "additional_titles": [
+    "爾雅郭氏注",
+    "爾雅注",
+    "爾雅"
+  ],
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "_has_text": true,
+  "_has_image": true
 }

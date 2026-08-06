@@ -1,40 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuutclrt34",
- "title": "禹貢地域圖",
- "authors": [
-  {
-   "name": "裴秀",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967cp21kets"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "禹貢地域圖十八篇 裴秀。謹按見本書秀傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 18
- },
- "measures": [
-  {
-   "unit": "篇",
-   "number": 18
-  }
- ],
- "measure_info": "十八篇",
- "ai_note": "著錄誤切訂正：本條原題《禹貢地域圖十》，末之「十」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「禹貢地域圖十八篇」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《禹貢地域圖》，卷數作十八篇。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuutclrt34",
+  "title": "禹貢地域圖",
+  "authors": [
+    {
+      "name": "裴秀",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j967cp21kets"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "禹貢地域圖十八篇 裴秀。謹按見本書秀傳。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禹貢地域圖》（裴秀）",
+      "summary": "十八篇",
+      "section": "書",
+      "juan": "卷九十三",
+      "page": "KR2n0011_WYG_093-11b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 18
+  },
+  "measures": [
+    {
+      "unit": "篇",
+      "number": 18
+    }
+  ],
+  "measure_info": "十八篇",
+  "ai_note": "著錄誤切訂正：本條原題《禹貢地域圖十》，末之「十」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「禹貢地域圖十八篇」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《禹貢地域圖》，卷數作十八篇。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

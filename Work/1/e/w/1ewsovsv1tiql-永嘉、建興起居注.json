@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "永嘉、建興起居注",
+  "id": "1ewsovsv1tiql",
+  "loss_status": "lost",
+  "juan_count": {
+    "number": 13
+  },
+  "measure_info": "十三卷",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《永嘉、建興起居注》十三卷",
+      "summary": "《晉元康起居注》一卷梁有《永平、元康、永寧、起居注》六卷，又有《惠帝起居注》二卷，《永嘉、建興起居注》十三卷，亡。",
+      "in_note_of": "1evcml2p6t9ts"
+    }
+  ],
+  "ai_note": "本 work 據《隋書經籍志》注中之亡書新建。隋志之例，正文著見存之書，其注記「梁有某書幾卷，某人撰，亡」——梁時尚存而隋時已亡者。本書見於庫中《晉元康起居注》條（`1evcml2p6t9ts`）之注，其原文即 indexed_by[0].summary，可逐字覆按。朝代隋志注未記，故不記——注中之書與主條同類而未必同時，不可以主條推之。loss_status 記為 lost：隋志明言其亡，此是志書自身之判，非推論。新建之前已以四法比對本庫：題名全等、剝撰人之素題、剝官爵之素題、互為子串——四法俱無所得，乃建。",
+  "updated_at": "2026-08-06T12:32:26+00:00"
+}
