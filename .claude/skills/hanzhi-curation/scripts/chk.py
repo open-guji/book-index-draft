@@ -350,3 +350,30 @@ for _f in _FILES:
 print('簡轉繁過度轉換', sum(_ovc.values()), '　基線 0')
 for _k, _v in _ovc.most_common(8):
     print('  ', _k, _v)
+
+# period 之枚舉，並與索引對查
+_PER = ('pre-qin', 'qin-han', 'three-kingdoms', 'jin', 'nanbeichao', 'sui-tang',
+        'five-dynasties', 'song', 'liao-jin-yuan', 'ming', 'qing', 'modern')
+_pbad = []
+_pc = _c.Counter()
+for _p in glob.glob('Work/*/*/*/*.json'):
+    try:
+        _d = json.load(open(_p))
+    except Exception:
+        continue
+    _v = _d.get('period')
+    if _v is None:
+        _pc[None] += 1
+        continue
+    _pc[_v] += 1
+    if _v not in _PER:
+        _pbad.append((_d.get('id'), 'period 不合枚舉', _v))
+    # 有 period 必有 period_basis——此軸是本庫之判，無據則不可用
+    if not _d.get('period_basis'):
+        _pbad.append((_d.get('id'), 'period 無 period_basis', _v))
+    _e = IW.get(_d.get('id'))
+    if _e is not None and _e.get('period') != _v:
+        _pbad.append((_d.get('id'), '索引 period 不符', f"{_e.get('period')}≠{_v}"))
+print('period', dict(_pc), '不合', len(_pbad), '　基線 0')
+for _x in _pbad[:8]:
+    print('  ', _x)
