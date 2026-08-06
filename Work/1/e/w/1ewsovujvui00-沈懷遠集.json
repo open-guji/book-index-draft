@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "沈懷遠集",
+  "id": "1ewsovujvui00",
+  "loss_status": "lost",
+  "authors": [
+    {
+      "name": "沈懷遠",
+      "role": "撰",
+      "dynasty": "宋"
+    }
+  ],
+  "juan_count": {
+    "number": 19
+  },
+  "measure_info": "十九卷",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《沈懷遠集》十九卷",
+      "summary": "宋征虜記室參軍《鮑照集》十卷梁六卷。又有宋武康令《沈懷遠集》十九卷，《裴駰集》六卷，刪定郎《劉鯤集》五卷，宜都太守《費修集》十卷，亡。",
+      "in_note_of": "1evcmobvwy6f4"
+    }
+  ],
+  "ai_note": "本 work 據《隋書經籍志》注中之亡書新建。隋志之例，正文著見存之書，其注記「梁有某書幾卷，某人撰，亡」——梁時尚存而隋時已亡者。本書見於庫中《鮑照集》條（`1evcmobvwy6f4`）之注，其原文即 indexed_by[0].summary，可逐字覆按。loss_status 記為 lost：隋志明言其亡，此是志書自身之判，非推論。新建之前已以四法比對本庫：題名全等、剝撰人之素題、剝官爵之素題、互為子串——四法俱無所得，乃建。",
+  "updated_at": "2026-08-06T12:32:26+00:00"
+}

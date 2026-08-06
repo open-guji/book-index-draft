@@ -193,9 +193,16 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
   "title_info": "string (該目錄中的著錄標題原文，如「毛詩義問十卷魏太子文學劉楨撰」)",
   "summary": "string (該目錄中的著錄／解題全文)",
   "section": "string (optional, 該目錄中的分類，如「經部/易類」)",
-  "juan_count": "string (optional, 該目錄著錄的卷數原文)"
+  "juan_count": "string (optional, 該目錄著錄的卷數原文)",
+  "in_note_of": "string (optional, Work ID：本書非該志之正文所著，而見於另一條之注)"
 }
 ```
+
+`in_note_of` 之設（2026-08-06）：《隋書經籍志》正文著見存之書，而以注記「梁有某書幾卷，
+某人撰，亡」——梁時尚存而隋時已亡者。此類亡書在志中無獨立條目，只寄於某條之注。
+故其 `summary` 是**那一條的原文全行**（含正文之書），而非本書自己的一行。
+`in_note_of` 指出寄於誰，覆按時方知該在那一行的哪一段找。
+無此欄則 summary 之首書名與本 work 之 title 不符，看起來像資料錯亂。
 
 - `indexed_by`：本書被目錄書／志書**著錄**（文獻學引證，記「某志收有此書」）。
 - `emendated_by`：本書被**考證／校勘類著作**校訂（記「某考證書對此書有辨正」），如《漢藝文志考證》《隋書經籍志考證》。二者結構相同，語義不同：前者是登記，後者是校議。

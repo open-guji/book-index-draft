@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "孫褵集",
+  "id": "1ewsovua5m8i3",
+  "loss_status": "lost",
+  "authors": [
+    {
+      "name": "孫褵",
+      "role": "撰",
+      "dynasty": "晉"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measure_info": "十卷",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《孫褵集》十卷",
+      "summary": "晉徵士《戴逵集》九卷殘缺。梁十卷，錄一卷。又有晉光祿大夫《孫褵集》十卷，尚書左丞《徐禪集》六卷，亡。",
+      "in_note_of": "1evcmobid29ds"
+    }
+  ],
+  "ai_note": "本 work 據《隋書經籍志》注中之亡書新建。隋志之例，正文著見存之書，其注記「梁有某書幾卷，某人撰，亡」——梁時尚存而隋時已亡者。本書見於庫中《戴逵集》條（`1evcmobid29ds`）之注，其原文即 indexed_by[0].summary，可逐字覆按。loss_status 記為 lost：隋志明言其亡，此是志書自身之判，非推論。新建之前已以四法比對本庫：題名全等、剝撰人之素題、剝官爵之素題、互為子串——四法俱無所得，乃建。",
+  "updated_at": "2026-08-06T12:32:26+00:00"
+}
