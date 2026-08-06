@@ -297,3 +297,43 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
             fc.append((f,w,'整理本繫之而輯佚檔未記其 section_file'))
 print('輯佚叢書整理本 不合',len(fc),'　待辦（已繫而無輯佚檔）',todo)
 for x in fc[:8]: print('  ',x)
+
+# 簡轉繁之過度轉換（over-conversion）
+# 立此驗之由：析隋志注中亡書時撰人析出「幹寶」「硃育」「釧會」，覆按乃知某幾批匯入
+# 之文本是由簡體回轉而來，一簡對多繁未擇而誤。此類欄位有值、非空、不觸發任何校驗，
+# 而比對時永不相合，於是同書被判成「本庫沒有」而重建一遍——與「殘名撰人」同族之靜默缺陷。
+# 只驗確係誤者。多數用例是對的，不可一律回轉：
+#   洪範／師範大學／範圍／軌範——當作範；　徐幹／黃幹／張元幹——當作幹；
+#   硃批（四庫之硃批）——本字；　毫髮／鬚髮／晞髮集——當作髮；
+#   瞭若指掌／明瞭、纔、薝蔔——皆本字。故此處列詞不列字。
+_OVER = ('幹寶', '釧會', '鬆', '錶', '範懋柱', '範祖禹', '範成大', '範仲淹', '範蠡',
+         '範純仁', '範文正', '範曄', '範甯', '範寧', '範鎮', '範沖', '範衝', '範質',
+         '範守己', '範家相', '範梈', '範宣', '範理', '範致明', '範承謨', '範氏',
+         '範滂', '範雎', '捲髮明', '髮微', '麵部訣', '馬麵法式', '氣色麵圖')
+_ovc = _c.Counter()
+_FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
+          + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
+          + glob.glob('Work/*/*/*/*/fragments/*.json')
+          + glob.glob('Work/*/*/*/*/collated_edition/*.json')
+          + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
+for _f in _FILES:
+    try:
+        _raw = open(_f).read()
+    except Exception:
+        continue
+    for _w in _OVER:
+        if _w == '硃':
+            continue
+        _n = _raw.count(_w)
+        if _n:
+            _ovc[_w] += _n
+    # 硃須去其本字之用例（硃批之屬）而後計
+    if '硃' in _raw:
+        _t = _raw
+        for _k in ('硃批', '硃墨', '硃筆', '硃砂', '硃卷', '硃絲', '硃書', '硃印', '硃點', '硃提'):
+            _t = _t.replace(_k, '')
+        if _t.count('硃'):
+            _ovc['硃'] += _t.count('硃')
+print('簡轉繁過度轉換', sum(_ovc.values()), '　基線 0')
+for _k, _v in _ovc.most_common(8):
+    print('  ', _k, _v)
