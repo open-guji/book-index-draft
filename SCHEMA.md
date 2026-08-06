@@ -110,9 +110,28 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 #### 輯佚檔（`fragments`）
 
 置於 `Work/{c1}/{c2}/{c3}/{id}/fragments/{title}.json`，`schema_version: 2`。
-分兩層而共用一個結構：**著錄層**記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；
-**文本層**逐條錄其佚文。得文本則就地填入 `fragments[].text`，不另立檔，
-`coverage.level` 是唯一須隨之改動的欄位。
+分層而共用一個結構：**著錄層**（`catalog`）記某書幾家輯過、各得幾條、見於哪些書哪些卷，
+皆有據而不含佚文原文；**文本層**（`text`）逐條錄其佚文。得文本則就地填入 `fragments[].text`，
+不另立檔，`coverage.level` 是唯一須隨之改動的欄位。
+
+**受控詞彙一律英文**（2026-08 遷移）。此前輯佚檔作中文（著錄層／文本層）而整理本作
+`toc`／`text`，同一概念兩套詞。專名（`collector`、`work`、`title`）與散文說明
+（`statement`、`note`、`basis`、輯本序原文）仍中文——那是內容，不是詞彙。
+
+| 欄位 | 枚舉 |
+|---|---|
+| `coverage.level` | `catalog` → `titles` → `text` ／ `text_partial` |
+| `text_status` | `recorded`／`not_recorded` |
+| `confidence` | `certain`／`uncertain` |
+| `provenance` | `secondary`（轉錄自考證書或輯本）／`primary`（已覆核所引原書） |
+| `count_unit` | `item`（條）`piece`（篇）`section`（節）`entry`（事）`poem`（首）`juan`（卷） |
+| `verify_result` | `out_of_scope`（該輯家體例不收此類書）／`not_found`（遍檢其書而無之） |
+| 整理本 section `part` | `main`（正編）／`supplement`（續編）／`appendix`（附） |
+| 整理本 section `bian` | `classics`（經編）／`masters`（子編）／`history`（史編）／`supplement`／`appendix` |
+| 整理本 section `type` | `reconstruction`（輯本） |
+
+`schema_note` 已去（一千二百三十四份逐字相同，八萬七千餘字），改為指標 `schema_ref`
+指向本節。schema 之說明是 schema 之事，不是每條資料之屬性。
 
 主要欄位：
 
@@ -121,13 +140,28 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 | `work_id` | 本書之 Work ID，須與所在路徑相符 |
 | `loss_status` | 存佚，見下表 |
 | `statement` | 存佚之敘述（何時著錄、何時亡佚、據何而知） |
-| `provenance` | `一手`（已覆核輯本原書）／`二手`（轉錄自考證書） |
+| `provenance` | `primary`（已覆核輯本原書）／`secondary`（轉錄自考證書）。<br>現全為 `secondary`；此欄雖恆定而不可去——一旦覆核原書即當改 `primary`，去之則後人須重立。 |
 | `based_on[]` | 所據之書：`{source, source_bid, field}` |
-| `collectors[]` | 輯家：`{collector, work, work_id, count, count_unit, statement, basis}`。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
+| `collectors[]` | 輯家：`{collector, work, work_id, sections, count, count_unit, statement, basis}`。<br>**`count` 是「該輯家輯得幾條」，不是「本庫已錄他幾條」**——二者常不等（《古文瑣語》馬國翰得十五條而本庫只錄一條），校驗時勿相比。本庫所錄之數在 `coverage.fragments_recorded`。<br>`count` 取自輯本序者須防序中之數非其本人所得，見 SKILL「從輯本序裡取條數」。<br>`sections[]` 記本書在該輯佚叢書整理本中的位置 `{file, index, title, part, juan_no, lei}`——一書而正編、續編兩見者，馬氏正編輯之而續編又補，非歧義，故用陣列。<br>**`collector` 不得為空**——一條即斷言「某人輯過此書」，無其人則此斷言落空。<br>`work_id` 繫本庫中該輯佚叢書之 Work。 |
+| `collection_attested[]` | 確有輯本而未詳其輯家者：`{basis, work, statement, count, count_unit}`。<br>與 `collectors[]` 分立，因該陣列之一條即斷言「某人輯過此書」，輯家不可空；而「有輯本而不著其人」是另一件事，記於此欄，其據照錄於 `basis`。<br>得其人後當移入 `collectors[]`。校驗時本欄與 `collectors`、`fragments` 同為據，有其一即非空檔。 |
 | `other_statements[]` | 與本書相關而**不是輯本序**者（本志篇序、舊注之序、校注序），自 `collectors` 移出者記 `moved_from` |
 | `cited_in_summary[]` | 佚文所見之書與部類，尚未析出為逐條者 |
-| `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}` |
-| `coverage` | `{level, fragments_attested, fragments_recorded, text_available}` |
+| `fragments[]` | 逐條佚文：`{seq, text, cited_in, collected_by, attested_by, confidence, note}`。<br>**`heading` 與 `piece_title` 不是同一件事，勿合併**：`piece_title` 是**這一條佚文自身之題**（嚴可均按撰人編次，一條即一篇，如〈上書諫伐匈奴〉）；`heading` 是**數條佚文共有之標目**（姚之駰按傳主編次，「光武皇帝」下繫四十七條）。一者標識自身，一者標識所屬。<br>`editor_note` 是輯家之案語（姚書原作【…】），是輯家之考，非本書之文，**不得與 `text` 相混**。<br>`text_from` 已去（八百條與 `attested_by` 逐字相同）。 |
+| `coverage` | `{level, fragments_attested, fragments_recorded, text_available}`。<br>`level` 四級：`catalog`（僅知幾家輯過）→ `titles`（知輯本各篇之題）→ `text`（正文全錄）／`text_partial`（正文部分錄）。<br>`titles` 現無實例（嚴可均那批已升 `text`），定義保留待用。<br>`fragments_attested` 為 null 者是**未知**，非零——如據叢書目錄立檔，目錄不載條數。<br>**數家所得不同時，`fragments_attested` 取諸家所稱之最大數**，並以 `fragments_attested_note` 記其所以（《古文瑣語》嚴輯十九條、馬輯十五條、章宗源云十三事，取二十五）。 |
+| `fragments[]` 之篇目條 | 有 `piece_title` 而 `text` 為 null，是「知其篇而未錄其文」，須並記 `text_status`，否則與「無文」無從分辨。 |
+
+##### 輯佚叢書整理本（`type: fragment_collection`）
+
+輯佚叢書（《玉函山房輯佚書》一類）之整理本，別於書目之 `catalog` 與考證之 `kaozhen`。
+一類一檔，section 即一部輯本書，`work_id` 指其所輯之原書。
+`coverage.level` 三級：`books_only`（僅知其書）→ `toc`（卷目已備）→ `text`（文本已錄）。
+與輯佚檔之 `level` 同為英文而詞不同——彼記「這部書之佚文到了哪一層」，
+此記「這部叢書之整理到了哪一層」，二事不同，故不強合。
+
+**section 須自帶 `coverage`。** `fragments: []` 之義為「尚未錄入」而非「無佚文」，
+無此欄則二者無從分辨。
+
+雙向：整理本 `section.work_id` → 原書；原書輯佚檔 `collectors[].sections[]` → 整理本之條。
 
 ##### `loss_status` 枚舉
 

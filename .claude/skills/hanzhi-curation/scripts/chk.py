@@ -107,6 +107,15 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
     except Exception as e: fbad.append((f,'解析失敗')); continue
     if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
     if wid not in IW: fbad.append((f,'work 不存在')); continue
+    # 受控詞彙一律英文（2026-08 遷移）。輯佚檔本作中文三層而整理本作 toc/text，
+    # 同一概念兩套詞，今並歸英文；專名與散文說明仍中文。
+    _LV={'catalog','titles','text','text_partial'}
+    if (fd.get('coverage') or {}).get('level') not in _LV:
+        fbad.append((f,"coverage.level「%s」不在三層之內"%(fd.get('coverage') or {}).get('level')))
+    for _fr in (fd.get('fragments') or []):
+        # 篇目層之條：有 piece_title 而 text 為 null，須明記 text_status
+        if _fr.get('text') is None and _fr.get('piece_title') and not _fr.get('text_status'):
+            fbad.append((f,'fragments 有篇題而無 text_status，未錄與無文無從分辨'))
     _LS={'lost','partially_extant','extant','undetermined'}
     if 'loss_status' in fd and fd['loss_status'] not in _LS:
         fbad.append((f,f"loss_status「{fd['loss_status']}」不在枚舉內"))
@@ -116,8 +125,16 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         fbad.append((f,f"fragments_recorded {cov.get('fragments_recorded')} ≠ 實錄 {rec}"))
     if cov.get('level')=='著錄層' and rec and cov.get('level')!='文本層' and rec>0 and not cov.get('note'):
         fbad.append((f,'著錄層而有錄文，未說明'))
-    if not (fd.get('collectors') or fd.get('fragments')):
+    # collection_attested：確有輯本而未詳其輯家者。此亦是據，不得作空檔論。
+    if not (fd.get('collectors') or fd.get('fragments') or fd.get('collection_attested')):
         fbad.append((f,'既無輯家亦無佚文'))
+    # 受控詞彙殘留中文者，是遷移未盡或新寫者未依例
+    for _k,_ok in (('text_status',{'recorded','not_recorded'}),('confidence',{'certain','uncertain'})):
+        for _fr in (fd.get('fragments') or []):
+            if _fr.get(_k) and _fr[_k] not in _ok:
+                fbad.append((f,f'{_k}「{_fr[_k]}」不在枚舉內（受控詞彙須英文）')); break
+    if fd.get('provenance') and fd['provenance'] not in {'secondary','primary'}:
+        fbad.append((f,f"provenance「{fd['provenance']}」不在枚舉內"))
     for _x in (fd.get('collectors') or []):
         # collectors 之一條即斷言「某人輯過此書」；無其人則此斷言落空
         if not (_x.get('collector') or '').strip():
@@ -130,6 +147,44 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         fbad.append((f,'work 側未記本檔'))
 print('輯佚檔',len(glob.glob('Work/*/*/*/*/fragments/*.json')),'不合',len(fbad))
 for x in fbad[:12]: print('  ',x)
+
+# 題名互為子串而撰人相容之 work 對——「同一部書兩種題名」之重出。
+# 立此驗之由：曾據《玉函山房輯佚書》目錄新建 work，以「題名精確相等」比對，
+# 而庫中題名不規範（《六藝論》庫作「鄭玄六藝論」「六藝論鄭玄撰」），
+# 精確比對必落空，遂誤建三十條。八輪之後方因他事偶然撞見。
+# 判準取其準者，不取其備者——只認「長題恰為 撰人+短題 / 短題+撰人(+役)」一式：
+#   兩側俱須有撰人且相容。一方無撰人則不取——《歸藏》(無撰人) 與《歸藏薛貞注》(薛貞)
+#   是原典與注本之別，本為二物（注家有其創作），非重出。
+#   短題為庫中多見者（《算經》《詩集》《兵法》之屬）不取，通名撞而不實。
+from opencc import OpenCC as _OCC
+_t2s=_OCC('t2s'); _N=lambda x:_t2s.convert((x or '').strip())
+_byt={}
+for _i,_e in IW.items():
+    _t=_N(_e.get('title'))
+    if _t: _byt.setdefault(_t,[]).append(_i)
+_ROLE=('撰','注','傳','疏','集解','注疏','述','說','解','章句','集注','集註')
+_dupt=set()
+for _i,_e in IW.items():
+    _t=_N(_e.get('title')); _au=_N(_e.get('author'))
+    if not _t or len(_t)<3 or not _au or len(_au)<2: continue
+    _cd=set()
+    if _t.startswith(_au) and len(_t)>len(_au): _cd.add(_t[len(_au):])
+    if _t.endswith(_au) and len(_t)>len(_au): _cd.add(_t[:-len(_au)])
+    for _r in _ROLE:
+        if _t.endswith(_au+_r) and len(_t)>len(_au)+len(_r): _cd.add(_t[:-(len(_au)+len(_r))])
+    for _s in _cd:
+        if len(_s)<2: continue
+        _js=_byt.get(_s,())
+        if len(_js)>2: continue
+        for _j in _js:
+            if _j==_i: continue
+            _a2=_N(IW[_j].get('author'))
+            if not _a2: continue
+            if _a2!=_au and _a2 not in _au and _au not in _a2: continue
+            _dupt.add((min(_i,_j),max(_i,_j)))
+print('題名重出（長題＝撰人＋短題，撰人相容）',len(_dupt),'　基線 76')
+for _a,_b in sorted(_dupt)[:6]:
+    print(f"   《{IW[_a].get('title')}》({IW[_a].get('author')}) ←→ 《{IW[_b].get('title')}》({IW[_b].get('author')})")
 
 # 整理本 section 之 work_id / target_bid 是否落空
 # （匯入時每條都鑄了 id，而 Work 檔只生成了一部分，故有懸空；索引側查不到這一類）
@@ -199,3 +254,30 @@ for w,e in IW.items():
     if v not in _LSW: lsbad.append((w,v))
 print('Work loss_status',dict(lsc),'不合枚舉',len(lsbad))
 for x in lsbad[:8]: print('  ',x)
+
+# 輯佚叢書整理本（type: fragment_collection）之雙向對查
+fc=[]; todo=0
+for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+    try: ci=json.load(open(f))
+    except Exception: continue
+    if ci.get('type')!='fragment_collection': continue
+    base=f.rsplit('/',1)[0]; owner=f.split('/')[4]
+    fwd={}
+    for g in glob.glob(base+'/*.json'):
+        if g.endswith('collated_edition_index.json'): continue
+        for i,sec in enumerate(json.load(open(g)).get('sections') or []):
+            w=sec.get('work_id')
+            if isinstance(w,str): fwd.setdefault(w,[]).append((g.split('/')[-1],i))
+            if 'fragments' in sec and (sec.get('coverage') or {}).get('level') is None:
+                fc.append((g,i,'section 有 fragments 而無 coverage.level——空陣列之歧義未消'))
+    for w,locs in fwd.items():
+        if w not in IW: fc.append((f,w,'section 所繫 work 不存在')); continue
+        fr=glob.glob('Work/*/*/*/%s/fragments/*.json'%w)
+        if not fr: todo+=1; continue      # 非損壞，是待辦：目錄既言馬氏輯之，該 work 當有輯佚檔
+        cs=json.load(open(fr[0])).get('collectors') or []
+        mine=[x for x in cs if x.get('work_id')==owner]
+        if not mine: todo+=1; continue          # 輯佚檔尚無此輯家之條，目錄為新知，待補
+        if not any(x.get('sections') or x.get('section_file') for x in mine):
+            fc.append((f,w,'整理本繫之而輯佚檔未記其 section_file'))
+print('輯佚叢書整理本 不合',len(fc),'　待辦（已繫而無輯佚檔）',todo)
+for x in fc[:8]: print('  ',x)

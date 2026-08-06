@@ -74,6 +74,7 @@
    "note": "同一著錄之重出。本條同出漢志兵書略兵權謀類「《齊孫子》八十九篇，圖四卷」，正條為彼。本條題名與卷數皆非漢志原文，留待去重專項合併。"
   }
  ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。"
+ "loss_status": "partially_extant",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。",
+ "loss_status_note": "原作 lost，今改 partially_extant。與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。（覆核於存佚普查，非機讀。）"
 }

@@ -3,9 +3,8 @@
  "title": "論語鄭玄注",
  "type": "fragments",
  "schema_version": 2,
- "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
-  "level": "著錄層",
+  "level": "catalog",
   "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
   "fragments_attested": null,
   "fragments_attested_note": "考證未言條數。",
@@ -14,7 +13,7 @@
  },
  "loss_status": "lost",
  "statement": "郑玄注，晋散骑常侍虞喜赞。",
- "provenance": "二手",
+ "provenance": "secondary",
  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
  "based_on": [
   {
@@ -65,5 +64,6 @@
    "moved_from": "collectors",
    "note": "本志（《隋書經籍志》）之篇序，非輯本序。原置於 collectors，是斷言有其人輯此書而無其人，故移出。"
   }
- ]
+ ],
+ "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }
