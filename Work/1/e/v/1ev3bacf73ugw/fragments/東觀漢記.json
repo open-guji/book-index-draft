@@ -12,14 +12,20 @@
   "text_available": true
  },
  "loss_status": "lost",
- "statement": "《玉函山房輯佚書》續編正史類著錄「東觀漢記一卷」，撰人劉珍。馬氏既為之輯，則其書清時已佚。",
+ "statement": "《東觀漢記》已亡佚。輯之者2家：馬國翰（玉函山房輯佚書，條數未詳）；姚之駰（後漢書補逸，得866條）。本庫已錄其佚文866條，皆出姚之駰《後漢書補逸》（欽定四庫全書本）——姚書之佚文有其案語，別存於各條之 editor_note，不與佚文相混。所錄未覆核姚氏所引之原書，故 provenance 仍為二手。",
  "provenance": "二手",
- "provenance_note": "據目錄立，未覆核輯本正文。",
+ "provenance_note": "佚文錄自姚之駰輯本（四庫本），未覆核姚氏所引之原書；著錄層之輯家則據《玉函山房輯佚書》目錄。二者皆二手。",
  "based_on": [
   {
    "source": "玉函山房輯佚書",
    "source_bid": "1evjr68pzxog0",
    "field": "collated_edition"
+  },
+  {
+   "source": "後漢書補逸",
+   "source_bid": "1ev3baclsnfuo",
+   "field": "collated_edition",
+   "note": "佚文正文之所自：其整理本析自欽定四庫全書本全文。"
   }
  ],
  "collectors": [
@@ -15651,5 +15657,6 @@
    "note": "正文錄自姚氏輯本（四庫本），未覆核其所引原書。editor_note 為姚氏案語（原作【…】），是姚氏之考，非本書之文。"
   }
  ],
- "ai_note": "本檔據《玉函山房輯佚書》目錄補立——該叢書之整理本已繫本書，而本書先前無輯佚檔。loss_status 記為 lost：馬國翰既為之輯，其書清時已佚。惟本檔之繫連係據書名（與撰人）比對而得，見 collated_edition 各 section 之 link_basis，覆核時當先驗其是否果為一書。　文本層：自姚之駰《後漢書補逸》（四庫本）析出佚文866條錄入。姚氏案語存於 editor_note，不與佚文相混。"
+ "ai_note": "本檔據《玉函山房輯佚書》目錄補立——該叢書之整理本已繫本書，而本書先前無輯佚檔。loss_status 記為 lost：馬國翰既為之輯，其書清時已佚。惟本檔之繫連係據書名（與撰人）比對而得，見 collated_edition 各 section 之 link_basis，覆核時當先驗其是否果為一書。　文本層：自姚之駰《後漢書補逸》（四庫本）析出佚文866條錄入。姚氏案語存於 editor_note，不與佚文相混。",
+ "statement_note": "本 statement 由本檔已有之欄（collectors、coverage）連綴而成，未引外據。其數與 coverage.fragments_recorded 相符，二者互為驗算。"
 }
