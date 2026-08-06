@@ -27,7 +27,7 @@ for p in glob.glob('Entity/*/*/*/*.json'):
     try: ents.add(json.load(open(p))['id'])
     except Exception: pass
 allids=set(IW)|set(IB)|set(IC)|prod|ents
-selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]
+selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]; derived=[]; rwdrift=[]
 b2w={}; w2b={}
 for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
     for p in glob.glob(pat):
@@ -39,15 +39,31 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
         if e.get('title')!=d.get('title'): mism.append(('title',i,e.get('title'),d.get('title')))
         if d.get('authors') and e.get('author')!=d['authors'][0].get('name'):
             mism.append(('author',i,e.get('author'),d['authors'][0].get('name')))
+        # 派生欄位（底線起首）：重新生成後比對，不一致以生成值為準（issue #10）。
+        # has_text 曾是「有的對、有的錯、大半沒有」——欄名與手寫欄無別，遂無人知其該不該在。
+        _ts=set()
+        for _r in d.get('resources') or []:
+            if isinstance(_r,dict): _ts.update(_r.get('types') or ([_r['type']] if _r.get('type') else []))
+        _want={'_has_text':'text' in _ts,'_has_image':'image' in _ts,
+               '_has_collated':bool(i) and os.path.isdir(os.path.join(os.path.dirname(p),i,'collated_edition'))}
+        for _k,_v in _want.items():
+            if (d.get(_k) or False)!=_v: derived.append((p,_k,d.get(_k),_v))
         if kind=='W':
             for r in d.get('related_works') or []:
                 if not r or not r.get('id') or not r.get('relation'): nullrel+=1; continue
                 if r['id']==i: selfref+=1
                 if r['id'] not in allids: dang.append((p,r['id'],r.get('title')))
+                # related_works[].title 靠人工同步，必然漂移；不改結構，只報其數
+                elif r.get('title') and r['id'] in IW and r['title']!=IW[r['id']].get('title'):
+                    rwdrift.append((p,r['id'],r['title'],IW[r['id']].get('title')))
             for b in d.get('books') or []: w2b.setdefault(b,set()).add(i)
         else:
             if d.get('work_id'): b2w[i]=d['work_id']
 print('解析失敗',len(parse),'檔案未入索引',len(notidx),'索引欄位不符',len(mism))
+print('派生欄位與重算不符',len(derived),'　基線 0（不符即以重算值為準）')
+for x in derived[:8]: print('  派生',x)
+print('related_works[].title 漂移',len(rwdrift),'　基線 0')
+for x in rwdrift[:8]: print('  漂移',x)
 for x in notidx[:10]: print('  未入索引',x)
 for x in mism[:15]: print('  不符',x)
 print('自我關聯',selfref,'空關聯',nullrel,'懸空關聯',len(dang))

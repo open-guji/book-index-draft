@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "id": "1ev3bahjqjjls",
   "type": "work",
   "title": "掌銓題稿",
@@ -10,7 +11,8 @@
       "entity_id": "1j967avzkq2vn",
       "cbdb_id": 30847,
       "cbdb_match": "auto",
-      "cbdb_source": "name_exact+birth_1510_death_1578+work_exact(掌銓題稿)+unique"
+      "cbdb_source": "name_exact+birth_1510_death_1578+work_exact(掌銓題稿)+unique",
+      "cbdb_retrieved_at": null
     }
   ],
   "indexed_by": [
@@ -44,8 +46,6 @@
       ]
     }
   ],
-  "has_text": true,
-  "has_image": true,
   "measures": [
     {
       "unit": "卷",
@@ -53,11 +53,14 @@
     }
   ],
   "measure_info": "十四卷",
-  "has_collated": true,
   "contained_in": [
     {
       "id": "1ahukla441h4w",
       "volume_index": "第79冊"
     }
-  ]
+  ],
+  "updated_at": "2026-07-31T04:34:52+00:00",
+  "_has_text": false,
+  "_has_image": true,
+  "_has_collated": true
 }
