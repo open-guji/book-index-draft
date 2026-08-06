@@ -3,9 +3,8 @@
  "title": "莊子",
  "type": "fragments",
  "schema_version": 2,
- "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構。",
  "coverage": {
-  "level": "著錄層",
+  "level": "catalog",
   "note": "本檔之據為本庫著錄之敘述語，非輯本正文。所輯幾條未言，故 fragments_attested 為 null——是未知，不是零。",
   "fragments_attested": null,
   "fragments_recorded": 0,
@@ -13,7 +12,7 @@
  },
  "loss_status": "partially_extant",
  "statement": "《莊子》。有輯本，輯之者：未詳其人。所輯之數未言，正文未錄。本條之據為《漢書藝文志》、《隋書經籍志》、《舊唐書經籍志》、《新唐書藝文志》、《書目答問》、《崇文總目》、《直齋書錄解題》。",
- "provenance": "二手",
+ "provenance": "secondary",
  "provenance_note": "據本庫著錄之敘述語立，未覆核輯本原書。",
  "based_on": [
   {
@@ -65,5 +64,6 @@
   }
  ],
  "collection_attested_note": "本書有輯本而其輯家不著於本庫所據之文，故不入 collectors——collectors 之一條即斷言「某人輯過此書」，無其人則斷言落空。此欄記「確有輯本而未詳其人」，其據照錄於 basis。得其人後當移入 collectors。",
- "collectors_note": "輯家未詳，見 collection_attested。"
+ "collectors_note": "輯家未詳，見 collection_attested。",
+ "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }

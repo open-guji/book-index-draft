@@ -3,9 +3,8 @@
  "title": "建安七子集",
  "type": "fragments",
  "schema_version": 2,
- "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構。",
  "coverage": {
-  "level": "著錄層",
+  "level": "catalog",
   "note": "本檔之據為本庫著錄之敘述語，非輯本正文。所輯幾條未言，故 fragments_attested 為 null——是未知，不是零。",
   "fragments_attested": null,
   "fragments_recorded": 0,
@@ -13,7 +12,7 @@
  },
  "loss_status": "lost",
  "statement": "《建安七子集》已亡佚。有輯本，輯之者：嚴可均。所輯之數未言，正文未錄。本條之據為《三國藝文志》。",
- "provenance": "二手",
+ "provenance": "secondary",
  "provenance_note": "據本庫著錄之敘述語立，未覆核輯本原書。",
  "based_on": [
   {
@@ -33,5 +32,6 @@
   }
  ],
  "fragments": [],
- "ai_note": "本檔立於「已佚而無輯佚檔」之普查，其據為本庫著錄中明言此書有輯本之語，照錄於 collectors[].basis。條數未取——所據之語未言其數，且輯本序中之數未必是該輯家所得，故為 null，俟讀輯本正文再定。"
+ "ai_note": "本檔立於「已佚而無輯佚檔」之普查，其據為本庫著錄中明言此書有輯本之語，照錄於 collectors[].basis。條數未取——所據之語未言其數，且輯本序中之數未必是該輯家所得，故為 null，俟讀輯本正文再定。",
+ "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }

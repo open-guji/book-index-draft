@@ -3,9 +3,8 @@
  "title": "周易卜子夏傳",
  "type": "fragments",
  "schema_version": 2,
- "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
-  "level": "著錄層",
+  "level": "catalog",
   "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
   "fragments_attested": 70,
   "fragments_attested_note": "取諸家所稱之最大數。",
@@ -14,7 +13,7 @@
  },
  "loss_status": "lost",
  "statement": "《周易卜子夏傳》已亡佚。輯之者5家：張澍（二酉堂叢書），條數未詳；張惠言（易義別錄），條數未詳；孫堂（漢魏二十一家易注）得70條；馬國翰（玉函山房輯佚書）得11節；孫馮翼（輯本未著其名），條數未詳。所著錄之佚文凡70條，正文未錄。本條之據為《隋書經籍志考證》，未覆核輯本原書。",
- "provenance": "二手",
+ "provenance": "secondary",
  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
  "based_on": [
   {
@@ -49,7 +48,7 @@
    "collector": "孫堂",
    "work": "漢魏二十一家易注",
    "count": 70,
-   "count_unit": "條",
+   "count_unit": "item",
    "statement": "《子夏易傳》，《隋志》已云殘缺。後人展轉依託，益為十一卷，是為今本。舊本之散見者，自唐人所引外，惟朱氏震、晁氏說之、趙氏汝楳、王氏應麟四家之書間取之，茲特輯其與今本異者，凡七十條。",
    "statement_label": "平湖孫堂《漢魏廿一家易注》輯本序",
    "basis": "考證載其輯本序",
@@ -59,7 +58,7 @@
    "collector": "馬國翰",
    "work": "玉函山房輯佚書",
    "count": 11,
-   "count_unit": "節",
+   "count_unit": "section",
    "statement": "《周易子夏傳》，《漢志》不著錄。《唐會要》云：『開元七年三月十七日詔：《子夏易傳》，近無習者，令儒官詳定。劉知幾、司馬貞議皆以為不可。五月五日詔：《子夏傳》佚篇，令帖《易》者停。』孫坦《周易析蘊》以為杜子夏，趙汝楳《周易輯聞》以為鄧彭祖，二人皆字子夏。懸空臆度，迄非定論，獨洪邁信之。武威張太史[□]輯此篇，刻入《張氏叢書》。今據校錄，仍《隋》、《唐志》舊目，分為二卷。薛虞字里無考，大抵為漢魏間儒生。今就《釋文》、《正義》二書所引，得十一節，次《子夏傳》後。",
    "statement_label": "馬國翰玉函山房輯本序",
    "basis": "考證載其輯本序",
@@ -87,5 +86,6 @@
    "note": "本志（《隋書經籍志》）之篇序，非輯本序。原置於 collectors，是斷言有其人輯此書而無其人，故移出。"
   }
  ],
- "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。"
+ "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。",
+ "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }

@@ -107,7 +107,9 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
     except Exception as e: fbad.append((f,'解析失敗')); continue
     if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
     if wid not in IW: fbad.append((f,'work 不存在')); continue
-    _LV={'著錄層','篇目層','文本層','文本層（部分）'}
+    # 受控詞彙一律英文（2026-08 遷移）。輯佚檔本作中文三層而整理本作 toc/text，
+    # 同一概念兩套詞，今並歸英文；專名與散文說明仍中文。
+    _LV={'catalog','titles','text','text_partial'}
     if (fd.get('coverage') or {}).get('level') not in _LV:
         fbad.append((f,"coverage.level「%s」不在三層之內"%(fd.get('coverage') or {}).get('level')))
     for _fr in (fd.get('fragments') or []):
@@ -126,6 +128,13 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
     # collection_attested：確有輯本而未詳其輯家者。此亦是據，不得作空檔論。
     if not (fd.get('collectors') or fd.get('fragments') or fd.get('collection_attested')):
         fbad.append((f,'既無輯家亦無佚文'))
+    # 受控詞彙殘留中文者，是遷移未盡或新寫者未依例
+    for _k,_ok in (('text_status',{'recorded','not_recorded'}),('confidence',{'certain','uncertain'})):
+        for _fr in (fd.get('fragments') or []):
+            if _fr.get(_k) and _fr[_k] not in _ok:
+                fbad.append((f,f'{_k}「{_fr[_k]}」不在枚舉內（受控詞彙須英文）')); break
+    if fd.get('provenance') and fd['provenance'] not in {'secondary','primary'}:
+        fbad.append((f,f"provenance「{fd['provenance']}」不在枚舉內"))
     for _x in (fd.get('collectors') or []):
         # collectors 之一條即斷言「某人輯過此書」；無其人則此斷言落空
         if not (_x.get('collector') or '').strip():

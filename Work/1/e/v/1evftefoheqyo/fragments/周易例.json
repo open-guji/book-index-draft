@@ -3,9 +3,8 @@
  "title": "周易例",
  "type": "fragments",
  "schema_version": 2,
- "schema_note": "輯佚檔。分兩層：著錄層記某書幾家輯過、各得幾條、見於哪些書哪些卷，皆有據而不含佚文原文；文本層逐條錄其佚文。二層共用一個結構，得文本則就地填入，不另立檔。本檔現處之層見 coverage.level。",
  "coverage": {
-  "level": "著錄層",
+  "level": "catalog",
   "note": "本檔止於著錄層。考證所載者為輯家、條數與出處，其佚文原文考證本不錄——其文在諸家輯本及所引類書原書，本庫俱無，故 fragments 為空。",
   "fragments_attested": null,
   "fragments_attested_note": "考證未言條數。",
@@ -14,7 +13,7 @@
  },
  "loss_status": "lost",
  "statement": "《周易例》已亡佚。輯之者1家：余蕭客（古經解鉤沈），條數未詳。所輯之數未詳，正文未錄。本條之據為《三國藝文志》，未覆核輯本原書。",
- "provenance": "二手",
+ "provenance": "secondary",
  "provenance_note": "本檔據下列考證所載輯本序與按語錄成，未覆核輯本原書及所引類書。",
  "based_on": [
   {
@@ -47,5 +46,6 @@
    "note": "唐邢璹《周易略例注》之序，非輯本序。原置於 collectors，是斷言有其人輯此書而無其人，故移出。"
   }
  ],
- "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。"
+ "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。",
+ "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }
