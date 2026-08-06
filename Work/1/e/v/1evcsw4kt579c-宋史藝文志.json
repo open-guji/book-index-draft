@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "id": "1evcsw4kt579c",
   "type": "work",
   "title": "宋史·藝文志",
@@ -13,7 +14,6 @@
       "entity_id": "1j967da96lwch"
     }
   ],
-  "has_collated": true,
   "resources": [
     {
       "id": "wikisource",
@@ -70,5 +70,9 @@
       "relation": "part_of"
     }
   ],
-  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。"
+  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。",
+  "updated_at": "2026-07-31T04:34:52+00:00",
+  "_has_collated": true,
+  "_has_text": true,
+  "_has_image": true
 }

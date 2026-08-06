@@ -1,4 +1,5 @@
 {
+ "schema_version": 1,
  "id": "1ev3baqa0n4sg",
  "type": "work",
  "title": "吳越備史",
@@ -147,8 +148,6 @@
    ]
   }
  ],
- "has_text": true,
- "has_image": true,
  "measures": [
   {
    "unit": "卷",
@@ -157,5 +156,8 @@
  ],
  "measure_info": "四卷",
  "ai_note": "撰人拆分：本條原繫人物記錄 1j96hem8rqpz4，其 primary_name 作「武勝軍節度使掌書記范坰、巡官林禹」，實為合著者名單而非一人。「武勝軍節度使掌書記」「巡官」為官銜，今去之。今拆為 2 人：范坰、林禹。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。　loss_status 判為 partially_extant，據：「則是書自宋季以來，已非完帙」。本值經逐條精讀，非機讀批次。　輯佚普查：本條之文見輯家之名（任大椿）而無一語言其輯此書——名之出現多在考證之引述中，引述不等於輯之。（《爾雅郭璞注》之輯佚檔即因「以人名見於描述為據而未問其語境」誤立而撤。）故不立檔，俟得確據再補。已覆核，後續普查不必重讀。",
- "loss_status": "partially_extant"
+ "loss_status": "partially_extant",
+ "updated_at": "2026-08-05T15:55:32+00:00",
+ "_has_text": true,
+ "_has_image": true
 }

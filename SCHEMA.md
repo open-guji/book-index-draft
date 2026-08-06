@@ -29,7 +29,6 @@ Represents the abstract intellectual content.
       "source": "Source"
     }
   ],
-  "parent_works": "Array of Book IDs", 
   "books": ["string (List of Book IDs)"],
   "related_works": [
     {
@@ -77,9 +76,9 @@ Represents the abstract intellectual content.
     "description": "string",
     "...": "版本傳承圖資料，供前端渲染"
   },
-  "has_text": "boolean (derived: resources 中有 text 類)",
-  "has_image": "boolean (derived: resources 中有 image 類)",
-  "has_collated": "boolean (derived: 存在 collated_edition 整理本)",
+  "_has_text": "boolean (派生：resources[].types 含 text)",
+  "_has_image": "boolean (派生：resources[].types 含 image)",
+  "_has_collated": "boolean (派生：存在 collated_edition 整理本)",
   "loss_status": "string (optional, 存佚。枚舉見下「loss_status 枚舉」。欄位不存在 = 今存或未考，不必寫)",
   "promoted_to": "string (Production ID，本草稿記錄已升格；權威來源為 promotions.json)",
   "promoted_at": "string (ISO 8601 時間戳)",
@@ -88,7 +87,7 @@ Represents the abstract intellectual content.
 }
 ```
 
-**已定義但庫中無資料的欄位**：`book_contained_in`、`parent_works`、`resource_groups`。
+**已刪之欄位**：`book_contained_in`、`parent_works`、`resource_groups`（Work 層）——見「記錄之共通欄位」節。
 `book_contained_in` 的設計仍然有效（見下文說明），但實際錄入一律走 `contained_in`；
 Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代；
 `resource_groups` 目前只在 Book 層使用。
@@ -385,7 +384,7 @@ Represents a collection or series that contains multiple books or other collecti
 - `contained_works`：成員是作品（影印／彙編叢書按作品收錄時用，帶冊次）。
 - `contains`：本叢編的**結構組成部分**（聖諭、進表、總目、選印來源等），不是平列成員。
 
-**已定義但庫中無資料的欄位**：`history`、`volume_count`。叢編的實體規模改記 `total_volumes`；沿革敘述併入 `description.text`。
+**已刪之欄位**：`history`、`volume_count`（Collection 層）。叢編的實體規模記 `total_volumes`；沿革敘述併入 `description.text`。
 
 ### 3. Book Schema
 Represents a physical or specific digital edition/copy of a work.
@@ -648,6 +647,41 @@ ID 用 64-bit snowflake 结构，3 bits 标识 type：
 
 ---
 
+## 記錄之共通欄位（issue #10）
+
+以下五欄凡 Work／Book／Collection／Entity 皆有，2026-08 立。
+
+| 欄位 | 義 |
+|---|---|
+| `schema_version` | 主記錄自 `1` 起。**輯佚檔（`fragments`）別為一族，已在 `2`，二者不同源，勿混。**<br>無此欄則將來任一次結構調整都成考古。 |
+| `updated_at` | 這條最後一次被人碰的時間（ISO 8601）。<br>現值自 git 該檔最後一次提交回填——**不一律填「現在」**，假時間比沒有更壞。<br>檔在 git 裡，diff 自有時間戳，然「這條何時被碰」須能直接查，不必翻歷史。 |
+| `_` 起首者 | **派生欄位**：`_has_text`、`_has_image`、`_has_collated`、`_promoted_to`、`_promoted_at`。<br>校驗一律「重新生成後比對，不一致以生成值為準」，故**手寫無用**。 |
+| `zhsy_retrieved_at` / `authors[].cbdb_retrieved_at` | 外部對齊之取得時間。現存皆 `null`——一千三百餘條 `zhsy_id` 是 v0.2／v0.3（2026-04-29、2026-05-14）批次匯入時帶入，其取得之時無記錄，填一個推導的時間即是假造。**新增對齊必填。**<br>`cbdb_id` 為 `null` 而 `cbdb_match: none` 者是**查而否決**，非未查，故亦有此欄——對方日後改指向，否決同樣會過期。 |
+
+### 派生欄位為何要加底線
+
+`has_text` 之現狀曾是「有的對、有的錯、大半沒有」：已有者五千九百八十七條中二條與重算不符，
+而一萬零十八個 Work、七千七百四十九個 Book 有 `resources` 卻無此欄。
+病根在於**它與手寫欄長得一模一樣**，遂無人知其該不該在、值對不對。
+加底線之後，`chk.py` 對所有 `_` 起首之欄一律重算比對，基線 0。
+
+**`index/` 之欄不加底線**——整個檔都是派生產物，檔級已說明此事，欄再加底線是重複。
+但其值同須與記錄相符（`chk.py` 已驗）。
+
+`related_works[].title` 未改名亦未刪：刪之則 git diff 與人工閱讀時看不出關聯的是什麼書，
+排查要多查一步。改為每次重生成則與「保留可讀性」相衝。
+今**保留原名而在校驗中報漂移**，基線 0。
+（曾漂移九處，皆同一成因：work 之題名清掉了誤切進去的案語，而此處還留著舊題。）
+
+### 已刪之欄位
+
+`book_contained_in`、`parent_works`（Work）、`history`、`volume_count`（Collection）、
+`resource_groups`（Work）——**庫中皆零**，今自本文件刪去。
+留在 spec 裡的死欄位，三年內一定會被某個人重新啟用；需要時自 git 歷史取回。
+
+**按**：`resource_groups` 與 `volume_count` 在 **Book** 各有一條在用
+（`11q411jij5qm8`、`11q6q7v82w7pc`），不在此列，仍為有效欄位。
+
 ## 關聯詞表（`related_works[].relation`）
 
 | relation | 反向 | 含義 |
@@ -694,7 +728,7 @@ ID 用 64-bit snowflake 结构，3 bits 标识 type：
   "juan_count": "…", "measure_info": "string", "edition": "string",
   "additional_titles": [], "subtype": "string", "year": "string",
   "holder": "string", "has_text": "boolean", "has_image": "boolean",
-  "has_collated": "boolean", "promoted_to": "string"
+  "has_collated": "boolean", "promoted_to": "string"   // index/ 之欄不加底線，全檔皆派生
 }
 ```
 

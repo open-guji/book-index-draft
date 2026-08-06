@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "id": "1evimvg22ko3k",
   "type": "work",
   "subtype": "book",
@@ -11,7 +12,8 @@
       "entity_id": "1j967avzma9kx",
       "cbdb_id": 62792,
       "cbdb_match": "auto",
-      "cbdb_source": "name_exact+deathyear_1635+unique_for_dy19"
+      "cbdb_source": "name_exact+deathyear_1635+unique_for_dy19",
+      "cbdb_retrieved_at": null
     }
   ],
   "description": {
@@ -22,7 +24,6 @@
     "year": "1628-1637",
     "details": "明崇禎元年至崇禎十年"
   },
-  "has_collated": true,
   "resources": [
     {
       "id": "archive_org",
@@ -46,5 +47,8 @@
       "id": "1ahukla441h4w",
       "volume_index": "第84冊"
     }
-  ]
+  ],
+  "updated_at": "2026-07-31T04:34:52+00:00",
+  "_has_collated": true,
+  "_has_image": true
 }

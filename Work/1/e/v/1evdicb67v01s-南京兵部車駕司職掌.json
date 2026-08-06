@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "id": "1evdicb67v01s",
   "type": "work",
   "title": "南京兵部車駕司職掌",
@@ -10,7 +11,8 @@
       "entity_id": "1j967cp20085u",
       "cbdb_id": 205851,
       "cbdb_match": "manual",
-      "cbdb_source": "name_exact+unique+birth_1544+no_works_in_cbdb"
+      "cbdb_source": "name_exact+unique+birth_1544+no_works_in_cbdb",
+      "cbdb_retrieved_at": null
     }
   ],
   "juan_count": {
@@ -37,7 +39,6 @@
     }
   ],
   "measure_info": "八卷",
-  "has_collated": true,
   "contained_in": [
     {
       "id": "1ahukla441h4w",
@@ -61,5 +62,8 @@
         "image"
       ]
     }
-  ]
+  ],
+  "updated_at": "2026-07-31T04:34:52+00:00",
+  "_has_collated": true,
+  "_has_image": true
 }

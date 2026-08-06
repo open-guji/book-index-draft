@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "id": "1ev3baq3esav4",
   "type": "work",
   "title": "華陽國志",
@@ -171,8 +172,6 @@
       ]
     }
   ],
-  "has_text": true,
-  "has_image": true,
   "emendated_by": [
     {
       "source": "隋書經籍志考證",
@@ -194,5 +193,8 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgph5kmnl6o 合併。原註：[QA2026-04-20] title 含可疑字符: \"霸史：華陽國志\"，可能是解析错误\n[QA-fix 2026-04-20] title \"霸史：華陽國志\" → \"華陽國志\" (strip colon)　考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。"
+  "ai_note": "從 1evgph5kmnl6o 合併。原註：[QA2026-04-20] title 含可疑字符: \"霸史：華陽國志\"，可能是解析错误\n[QA-fix 2026-04-20] title \"霸史：華陽國志\" → \"華陽國志\" (strip colon)　考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
+  "updated_at": "2026-08-03T13:58:33+00:00",
+  "_has_text": true,
+  "_has_image": true
 }
