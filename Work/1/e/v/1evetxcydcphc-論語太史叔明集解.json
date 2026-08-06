@@ -1,45 +1,59 @@
 {
- "schema_version": 1,
- "id": "1evetxcydcphc",
- "type": "work",
- "title": "論語太史叔明集解",
- "authors": [
-  {
-   "name": "太史叔明",
-   "role": "集解",
-   "dynasty": "梁",
-   "entity_id": "1j96ha708pc00"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "summary": "梁有太史叔明集解《論語》十卷,亡。\n太史叔明有《孝經義》,見前孝經類。\n《梁書·儒林・沈峻附傳》;少善莊、老,兼通《孝經》、《論語》、\n《禮記》。\n馬國翰輯本序曰:“太史氏《集解》,《隋經籍志》云梁有十卷,\n亡。今其佚說,諸書罕引,惟皇侃《義疏》引二節,語涉沖虚,出\n入釋氏,與王弼、郭象二家相近。聽從者眾,亦當代風趨然也。”",
-   "title_info": "梁有太史叔明集解《論語》十卷，亡。"
-  }
- ],
- "ai_note": "亡佚。隋書經籍志「梁有太史叔明集解《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語太史叔明集解」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。　entity_id 補繫：本條之撰人太史叔明與庫中人物記錄（1j96ha708pc00）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evetxcydcphc/fragments/論語太史叔明集解.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/論語太史叔明集解.json（該檔之值經人工校讀，非機讀所生）。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "related_works": [
-  {
-   "id": "1ev7w0euvaeww",
-   "title": "論語",
-   "relation": "contains_text_of"
-  }
- ],
- "additional_titles": [
-  "論語"
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "id": "1evetxcydcphc",
+  "type": "work",
+  "title": "論語太史叔明集解",
+  "authors": [
+    {
+      "name": "太史叔明",
+      "role": "集解",
+      "dynasty": "梁",
+      "entity_id": "1j96ha708pc00"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "summary": "梁有太史叔明集解《論語》十卷,亡。\n太史叔明有《孝經義》,見前孝經類。\n《梁書·儒林・沈峻附傳》;少善莊、老,兼通《孝經》、《論語》、\n《禮記》。\n馬國翰輯本序曰:“太史氏《集解》,《隋經籍志》云梁有十卷,\n亡。今其佚說,諸書罕引,惟皇侃《義疏》引二節,語涉沖虚,出\n入釋氏,與王弼、郭象二家相近。聽從者眾,亦當代風趨然也。”",
+      "title_info": "梁有太史叔明集解《論語》十卷，亡。"
+    }
+  ],
+  "ai_note": "亡佚。隋書經籍志「梁有太史叔明集解《論語》十卷，亡。，亡」。 | 2026-07-26：題名由籠統的「論語」改為「論語太史叔明集解」以資識別（全庫原有 17 條注本皆題作「論語」，無從分辨）；並修正 authors 中混入官銜/體裁的解析殘留，「論語」移入 additional_titles。　entity_id 補繫：本條之撰人太史叔明與庫中人物記錄（1j96ha708pc00）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evetxcydcphc/fragments/論語太史叔明集解.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/論語太史叔明集解.json（該檔之值經人工校讀，非機讀所生）。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "contains_text_of"
+    }
+  ],
+  "additional_titles": [
+    "論語"
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "indexed_by": [
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《論語集解》（太史叔明）",
+      "summary": "七錄十卷",
+      "section": "論語",
+      "juan": "卷二百十二",
+      "page": "KR2n0011_WYG_212-12a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ]
 }

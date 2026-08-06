@@ -194,9 +194,18 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
   "summary": "string (該目錄中的著錄／解題全文)",
   "section": "string (optional, 該目錄中的分類，如「經部/易類」)",
   "juan_count": "string (optional, 該目錄著錄的卷數原文)",
-  "in_note_of": "string (optional, Work ID：本書非該志之正文所著，而見於另一條之注)"
+  "in_note_of": "string (optional, Work ID：本書非該志之正文所著，而見於另一條之注)",
+  "attested_status": "string (optional, 該目錄書對此書存佚之判：extant / lost / partial / not_seen)",
+  "attested_status_raw": "string (optional, 該書原文之字：存／佚／闕／未見)",
+  "attested_status_note": "string (optional, 何以不上升為 loss_status)"
 }
 ```
+
+`attested_status` 之設（2026-08-06）：《經義考》逐書判其存佚（御製題：「次列題注曰存曰闕曰佚曰未見」），
+是本庫少見的成批存佚之據。**然不得逕改本記錄之 `loss_status`**——四庫御製題論此書自云
+「所注闕佚未見者，今四庫所録往往其書尚存」，即朱彝尊判為佚、為未見者，修四庫時往往尚存。
+其判是十七世紀一人之見聞，非事實，故記為「某書如此判」而繫於該源之下。
+`not_seen`（未見）尤不可轉為 lost——那是「著者沒見過此書」，與「此書已亡」不同軸。
 
 `in_note_of` 之設（2026-08-06）：《隋書經籍志》正文著見存之書，而以注記「梁有某書幾卷，
 某人撰，亡」——梁時尚存而隋時已亡者。此類亡書在志中無獨立條目，只寄於某條之注。

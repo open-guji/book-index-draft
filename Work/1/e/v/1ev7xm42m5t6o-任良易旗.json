@@ -1,44 +1,56 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "任良易旗",
- "authors": [
-  {
-   "name": "任良",
-   "note": "京房弟子",
-   "cbdb_id": null,
-   "cbdb_match": "none",
-   "cbdb_source": "manual_reject",
-   "entity_id": "1j96hlecu0ge8",
-   "cbdb_retrieved_at": null
-  }
- ],
- "description": {
-  "text": "已亡佚。《漢書·藝文志》數術略蓍龜類著錄，七十一卷。作者任良為京房弟子。李零說「易旗」疑讀「易棋」，《隋書·經籍志》子部五行家有《十二靈棋卜經》，即屬易占類，後世稱《靈棋經》，或所謂「張良」即「任良」之訛。",
-  "sources": [
-   "溫浚源《漢書藝文志講要》"
-  ]
- },
- "indexed_by": [
-  {
-   "source": "漢書藝文志",
-   "source_bid": "1euhm19a23jsw",
-   "title_info": "任良易旗七十一卷",
-   "summary": "《任良易旗》七十一卷。"
-  }
- ],
- "ai_note": "《漢書·藝文志》數術略蓍龜類著錄《任良易旗》七十一卷。作者任良為京房弟子。李零說：「易旗，疑讀易棋。《隋書·經籍志》子部五行家有《十二靈棋卜經》，正屬易占類……所謂『張良』，也可能是『任良』之訛。」書已亡佚。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "id": "1ev7xm42m5t6o",
- "juan_count": {
-  "number": 71
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 71
-  }
- ],
- "measure_info": "七十一卷",
- "loss_status": "lost",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "任良易旗",
+  "authors": [
+    {
+      "name": "任良",
+      "note": "京房弟子",
+      "cbdb_id": null,
+      "cbdb_match": "none",
+      "cbdb_source": "manual_reject",
+      "entity_id": "1j96hlecu0ge8",
+      "cbdb_retrieved_at": null
+    }
+  ],
+  "description": {
+    "text": "已亡佚。《漢書·藝文志》數術略蓍龜類著錄，七十一卷。作者任良為京房弟子。李零說「易旗」疑讀「易棋」，《隋書·經籍志》子部五行家有《十二靈棋卜經》，即屬易占類，後世稱《靈棋經》，或所謂「張良」即「任良」之訛。",
+    "sources": [
+      "溫浚源《漢書藝文志講要》"
+    ]
+  },
+  "indexed_by": [
+    {
+      "source": "漢書藝文志",
+      "source_bid": "1euhm19a23jsw",
+      "title_info": "任良易旗七十一卷",
+      "summary": "《任良易旗》七十一卷。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易旗》（任良）",
+      "summary": "漢志蓍龜家七十一卷",
+      "section": "易",
+      "juan": "卷七",
+      "page": "KR2n0011_WYG_007-14b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "ai_note": "《漢書·藝文志》數術略蓍龜類著錄《任良易旗》七十一卷。作者任良為京房弟子。李零說：「易旗，疑讀易棋。《隋書·經籍志》子部五行家有《十二靈棋卜經》，正屬易占類……所謂『張良』，也可能是『任良』之訛。」書已亡佚。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "id": "1ev7xm42m5t6o",
+  "juan_count": {
+    "number": 71
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 71
+    }
+  ],
+  "measure_info": "七十一卷",
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

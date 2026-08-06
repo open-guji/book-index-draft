@@ -1,47 +1,71 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "禮記音",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "禮記音一卷 炳。謹按見《七録》。《釋文·敘錄》亦著録。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "炳",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96hfbg5o4cg"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evfubmbf0k5c",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1evl7nlb2nda8",
-   "title": "禮記",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "禮記音",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "禮記音一卷 炳。謹按見《七録》。《釋文·敘錄》亦著録。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記音》（繆炳）",
+      "summary": "七錄一卷",
+      "section": "禮記",
+      "juan": "卷一百四十",
+      "page": "KR2n0011_WYG_140-3b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記解》（楊炳）",
+      "summary": null,
+      "section": "禮記",
+      "juan": "卷一百四十二",
+      "page": "KR2n0011_WYG_142-4a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "炳",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": "1j96hfbg5o4cg"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "id": "1evfubmbf0k5c",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1evl7nlb2nda8",
+      "title": "禮記",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

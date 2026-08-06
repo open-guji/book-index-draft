@@ -1,41 +1,53 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvg42ivb4",
- "title": "周詩",
- "authors": [
-  {
-   "name": "夏侯",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hhvcr8mx7"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "周詩 夏侯,謹按見本書湛傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E8%A9%A9",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00",
- "_has_text": true
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvg42ivb4",
+  "title": "周詩",
+  "authors": [
+    {
+      "name": "夏侯",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hhvcr8mx7"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "周詩 夏侯,謹按見本書湛傳。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周詩》（夏侯湛）",
+      "summary": null,
+      "section": "擬經",
+      "juan": "卷二百七十四",
+      "page": "KR2n0011_WYG_274-1b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E8%A9%A9",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "_has_text": true
 }

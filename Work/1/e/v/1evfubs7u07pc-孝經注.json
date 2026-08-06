@@ -1,37 +1,49 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "孝經注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "孝經注 虞喜。謹按見本書喜傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "虞喜",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96a9e3orwg0"
-  }
- ],
- "id": "1evfubs7u07pc",
- "related_works": [
-  {
-   "id": "1evl1xugdoikg",
-   "title": "孝經",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "孝經注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "孝經注 虞喜。謹按見本書喜傳。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《孝經注》（虞喜）",
+      "summary": null,
+      "section": "孝經",
+      "juan": "卷二百二十三",
+      "page": "KR2n0011_WYG_223-2b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "虞喜",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": "1j96a9e3orwg0"
+    }
+  ],
+  "id": "1evfubs7u07pc",
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

@@ -1,47 +1,59 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "周易繫辭注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "周易繫辭注二卷 西中郎將謝萬等。謹按見《隋志》。朱氏《經義孜》云:“雙湖胡氏《易啟蒙翼傳》載,傳注有謝平《繫辭注》二卷。”疑即萬書,字偶誤也。按謝平《易注》,宋以前絕未引及,其為“萬”字傳 無疑。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "謝萬",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96hfb16a1og"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "id": "1evfubbar79xc",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "related_works": [
-  {
-   "id": "1evl7l48e27ls",
-   "title": "周易",
-   "relation": "contains_text_of"
-  }
- ],
- "ai_note": "撰人「等」字剝離：著錄作「謝萬等」，「等」謂謝萬及其他未具名之纂修者，非姓名之一部，今剝離作「謝萬」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "周易繫辭注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "周易繫辭注二卷 西中郎將謝萬等。謹按見《隋志》。朱氏《經義孜》云:“雙湖胡氏《易啟蒙翼傳》載,傳注有謝平《繫辭注》二卷。”疑即萬書,字偶誤也。按謝平《易注》,宋以前絕未引及,其為“萬”字傳 無疑。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易繫辭注》（謝萬）",
+      "summary": "隋志二卷",
+      "section": "易",
+      "juan": "卷六十九",
+      "page": "KR2n0011_WYG_069-16b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "謝萬",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": "1j96hfb16a1og"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "id": "1evfubbar79xc",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "撰人「等」字剝離：著錄作「謝萬等」，「等」謂謝萬及其他未具名之纂修者，非姓名之一部，今剝離作「謝萬」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }

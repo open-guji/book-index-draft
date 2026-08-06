@@ -1,20 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "冠儀約制",
- "id": "1ewsa49soso4k",
- "loss_status": "lost",
- "authors": [
-  {
-   "name": "何休",
-   "role": "撰",
-   "dynasty": "漢"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "measure_info": "一卷",
- "ai_note": "本 work 據《玉函山房輯佚書》目錄（光緒九年長沙嫏嬛館補校刊本）新建——該叢書正編儀禮類著錄「冠儀約制一卷」，而本庫先前無同題之 work。所記止於目錄所有（題、卷數、撰人、朝代），撰人未繫 entity——目錄只給人名，繫人須另考。loss_status 記為 lost：馬氏既為之輯，其書清時已佚。本書之輯佚著錄見同目錄下 fragments/。",
- "updated_at": "2026-08-05T14:30:25+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "冠儀約制",
+  "id": "1ewsa49soso4k",
+  "loss_status": "lost",
+  "authors": [
+    {
+      "name": "何休",
+      "role": "撰",
+      "dynasty": "漢"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measure_info": "一卷",
+  "ai_note": "本 work 據《玉函山房輯佚書》目錄（光緒九年長沙嫏嬛館補校刊本）新建——該叢書正編儀禮類著錄「冠儀約制一卷」，而本庫先前無同題之 work。所記止於目錄所有（題、卷數、撰人、朝代），撰人未繫 entity——目錄只給人名，繫人須另考。loss_status 記為 lost：馬氏既為之輯，其書清時已佚。本書之輯佚著錄見同目錄下 fragments/。",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "indexed_by": [
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《冠儀約制》（何休）",
+      "summary": "一篇",
+      "section": "儀禮",
+      "juan": "卷一百三十五",
+      "page": "KR2n0011_WYG_135-1b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ]
 }

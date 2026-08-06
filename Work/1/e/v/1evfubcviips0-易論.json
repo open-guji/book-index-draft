@@ -1,30 +1,42 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "易論",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "易論裴秀,謹按見《文章敘録》。《魏志,裴潛傳》注引。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "裴秀",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967cp21kets"
-  }
- ],
- "id": "1evfubcviips0",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "易論",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "易論裴秀,謹按見《文章敘録》。《魏志,裴潛傳》注引。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易論》（裴秀）",
+      "summary": null,
+      "section": "易",
+      "juan": "卷十一",
+      "page": "KR2n0011_WYG_011-1a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "裴秀",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j967cp21kets"
+    }
+  ],
+  "id": "1evfubcviips0",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T16:13:13+00:00"
 }
