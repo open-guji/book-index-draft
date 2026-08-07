@@ -1,6 +1,6 @@
 {
- "work_id": "1evfa6owfv01s",
- "title": "喪服注",
+ "work_id": "1evfa9fyvrg1s",
+ "title": "喪服經傳注",
  "type": "fragments",
  "schema_version": 2,
  "coverage": {
@@ -38,5 +38,6 @@
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
  "fragments": [],
  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。",
- "schema_ref": "SCHEMA.md#輯佚檔fragments"
+ "schema_ref": "SCHEMA.md#輯佚檔fragments",
+ "note": ""
 }
