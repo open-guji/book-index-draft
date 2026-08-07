@@ -1,36 +1,37 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3meogwj",
-  "type": "work",
-  "title": "晉陽秋",
-  "authors": [
-    {
-      "name": "陽秋",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96hjwlxcpid"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "晉陽秋",
-      "summary": "晉陽秋五卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志史部編年類輯佚條目。 來源：清史稿藝文志史部編年類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+ "schema_version": 1,
+ "id": "1evr5e3meogwj",
+ "type": "work",
+ "title": "晉陽秋",
+ "authors": [
+  {
+   "name": "陽秋",
+   "role": "撰",
+   "dynasty": "晉",
+   "entity_id": "1j96hjwlxcpid"
+  }
+ ],
+ "juan_count": {
+  "number": 5
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "晉陽秋",
+   "summary": "晉陽秋五卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志史部編年類輯佚條目。 來源：清史稿藝文志史部編年類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 5
+  }
+ ],
+ "measure_info": "五卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」",
+ "loss_status": "lost"
 }

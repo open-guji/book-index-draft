@@ -1,35 +1,36 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3maxmf0",
-  "type": "work",
-  "title": "局程文",
-  "authors": [
-    {
-      "name": "太醫",
-      "role": "撰",
-      "entity_id": "1j96hedrwbm68"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "局程文",
-      "summary": "不知撰人太醫局程文九卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志子部醫家類輯佚條目。 來源：清史稿藝文志子部醫家類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+ "schema_version": 1,
+ "id": "1evr5e3maxmf0",
+ "type": "work",
+ "title": "局程文",
+ "authors": [
+  {
+   "name": "太醫",
+   "role": "撰",
+   "entity_id": "1j96hedrwbm68"
+  }
+ ],
+ "juan_count": {
+  "number": 9
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "局程文",
+   "summary": "不知撰人太醫局程文九卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志子部醫家類輯佚條目。 來源：清史稿藝文志子部醫家類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 9
+  }
+ ],
+ "measure_info": "九卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "qing",
+ "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
+ "loss_status": "lost"
 }

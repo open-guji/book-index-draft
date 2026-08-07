@@ -1,39 +1,40 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m6vjc4",
-  "type": "work",
-  "title": "易注",
-  "authors": [
-    {
-      "name": "費直",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j96afen00wlc"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "易註",
-      "summary": "漢費直《易註》一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部易類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部易類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "additional_titles": [
-    "易註"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "id": "1evr5e3m6vjc4",
+ "type": "work",
+ "title": "易注",
+ "authors": [
+  {
+   "name": "費直",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j96afen00wlc"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "易註",
+   "summary": "漢費直《易註》一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部易類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部易類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "additional_titles": [
+  "易註"
+ ],
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "loss_status": "lost"
 }

@@ -1,45 +1,46 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3mbk3f5",
-  "type": "work",
-  "title": "永寧通書",
-  "juan_count": {
-    "number": 12
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "永寧通書",
-      "summary": "永寧通書十二卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志子部術數類輯佚條目。 來源：清史稿藝文志子部術數類 作者「清王維德編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke66zqfy80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：31hyr4yqw4cnm()（不同作者，故新建獨立 Work）。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "authors": [
-    {
-      "name": "王維德",
-      "role": "編",
-      "dynasty": "清",
-      "entity_id": "1j967a0klrdce"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 購善001626-001629）。清康熙五十年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhufglieww"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+ "schema_version": 1,
+ "id": "1evr5e3mbk3f5",
+ "type": "work",
+ "title": "永寧通書",
+ "juan_count": {
+  "number": 12
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "永寧通書",
+   "summary": "永寧通書十二卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志子部術數類輯佚條目。 來源：清史稿藝文志子部術數類 作者「清王維德編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke66zqfy80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：31hyr4yqw4cnm()（不同作者，故新建獨立 Work）。　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 12
+  }
+ ],
+ "measure_info": "十二卷",
+ "authors": [
+  {
+   "name": "王維德",
+   "role": "編",
+   "dynasty": "清",
+   "entity_id": "1j967a0klrdce"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 購善001626-001629）。清康熙五十年刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "books": [
+  "11qkhufglieww"
+ ],
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "qing",
+ "period_basis": "據 authors[0].dynasty「清」",
+ "loss_status": "lost"
 }

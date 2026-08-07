@@ -1,41 +1,42 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3mezpci",
-  "type": "work",
-  "title": "典論",
-  "authors": [
-    {
-      "name": "文帝",
-      "role": "撰",
-      "dynasty": "魏",
-      "entity_id": "1j967afjav1wk"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "id": "1evr5e3mezpci",
+ "type": "work",
+ "title": "典論",
+ "authors": [
+  {
+   "name": "文帝",
+   "role": "撰",
+   "dynasty": "魏",
+   "entity_id": "1j967afjav1wk"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "典論",
+   "summary": "魏文帝典論一卷。"
   },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "典論",
-      "summary": "魏文帝典論一卷。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《典論》五卷",
-      "summary": "《典論》五卷（魏文帝）",
-      "author_info": "魏文帝"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "典論",
-      "summary": "《典論》一卷。{{魏文帝。《問經堂》輯本。}}",
-      "author_info": "文帝"
-    }
-  ],
-  "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《典論》五卷",
+   "summary": "《典論》五卷（魏文帝）",
+   "author_info": "魏文帝"
+  },
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "典論",
+   "summary": "《典論》一卷。{{魏文帝。《問經堂》輯本。}}",
+   "author_info": "文帝"
+  }
+ ],
+ "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "loss_status": "lost"
 }

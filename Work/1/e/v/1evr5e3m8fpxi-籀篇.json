@@ -1,33 +1,34 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m8fpxi",
-  "type": "work",
-  "title": "籀篇",
-  "authors": [
-    {
-      "name": "太史",
-      "role": "撰",
-      "dynasty": "周"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "籀篇",
-      "summary": "周太史籀篇一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類 作者繫連卸除：原繫人物「黃庭堅」，然《清史稿藝文志》著錄「周太史籀篇一卷」，撰者為周太史籀，即《史籀篇》。今卸除 entity_id；姓名欄待覆核。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-07-31T12:01:21+00:00"
+ "schema_version": 1,
+ "id": "1evr5e3m8fpxi",
+ "type": "work",
+ "title": "籀篇",
+ "authors": [
+  {
+   "name": "太史",
+   "role": "撰",
+   "dynasty": "周"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "籀篇",
+   "summary": "周太史籀篇一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類 作者繫連卸除：原繫人物「黃庭堅」，然《清史稿藝文志》著錄「周太史籀篇一卷」，撰者為周太史籀，即《史籀篇》。今卸除 entity_id；姓名欄待覆核。　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "loss_status": "lost"
 }

@@ -1,48 +1,49 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3meogun",
-  "type": "work",
-  "title": "三禮圖",
-  "authors": [
-    {
-      "name": "張鎰",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hllnd7rpc"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "id": "1evr5e3meogun",
+ "type": "work",
+ "title": "三禮圖",
+ "authors": [
+  {
+   "name": "張鎰",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96hllnd7rpc"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "三禮圖",
+   "summary": "唐張鎰《三禮圖》一卷。"
   },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "三禮圖",
-      "summary": "唐張鎰《三禮圖》一卷。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《三禮圖》（張鎰）",
-      "summary": "唐志九卷",
-      "section": "通禮",
-      "juan": "卷一百六十三",
-      "page": "KR2n0011_WYG_163-6a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  {
+   "source": "經義考",
+   "source_bid": "1ev3bb43bv4lc",
+   "title_info": "《三禮圖》（張鎰）",
+   "summary": "唐志九卷",
+   "section": "通禮",
+   "juan": "卷一百六十三",
+   "page": "KR2n0011_WYG_163-6a",
+   "attested_status": "lost",
+   "attested_status_raw": "佚",
+   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "loss_status": "lost"
 }

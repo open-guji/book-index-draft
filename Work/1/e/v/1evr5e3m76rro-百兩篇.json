@@ -1,47 +1,48 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m76rro",
-  "type": "work",
-  "title": "百兩篇",
-  "authors": [
-    {
-      "name": "張霸",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j9678njjg2rp"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "百兩篇",
-      "summary": "漢張霸《百兩篇》一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E7%99%BE%E5%85%A9%E7%AF%87",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "id": "1evr5e3m76rro",
+ "type": "work",
+ "title": "百兩篇",
+ "authors": [
+  {
+   "name": "張霸",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j9678njjg2rp"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "百兩篇",
+   "summary": "漢張霸《百兩篇》一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E7%99%BE%E5%85%A9%E7%AF%87",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "_has_text": true,
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "loss_status": "lost"
 }

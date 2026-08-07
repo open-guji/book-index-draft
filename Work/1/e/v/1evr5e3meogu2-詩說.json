@@ -1,36 +1,37 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3meogu2",
-  "type": "work",
-  "title": "詩說",
-  "authors": [
-    {
-      "name": "施士丐",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96heh4yu70g"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "詩說",
-      "summary": "唐施士丐《詩說》一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部詩類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部詩類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+ "schema_version": 1,
+ "id": "1evr5e3meogu2",
+ "type": "work",
+ "title": "詩說",
+ "authors": [
+  {
+   "name": "施士丐",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96heh4yu70g"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "詩說",
+   "summary": "唐施士丐《詩說》一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部詩類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部詩類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "loss_status": "lost"
 }
