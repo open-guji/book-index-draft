@@ -26,6 +26,13 @@
    "source": "補晋書藝文志",
    "source_bid": "1evfu57n5n37k",
    "summary": "吴紀九卷 太學博士環濟。謹按見《隋志》。《舊唐志》十卷,人編年類。"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "環濟吳紀",
+   "summary": "環濟吳紀十卷",
+   "merged_from": "1evcs0buxzlkw"
   }
  ],
  "authors": [
@@ -61,8 +68,19 @@
   ]
  },
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　合併：題名「環濟吳紀」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「環濟」已見本條 authors[]），裸題「吳紀」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "updated_at": "2026-08-06T22:59:42+00:00",
  "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+ "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+ "merged_in": [
+  {
+   "id": "1evcs0buxzlkw",
+   "title": "環濟吳紀",
+   "author": "環濟",
+   "title_info": "環濟吳紀",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

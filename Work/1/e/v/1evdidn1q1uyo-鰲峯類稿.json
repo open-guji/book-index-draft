@@ -1,41 +1,60 @@
 {
-  "schema_version": 1,
-  "id": "1evdidn1q1uyo",
-  "type": "work",
-  "title": "鰲峯類稿",
-  "authors": [
-    {
-      "name": "毛紀",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlz126"
-    }
-  ],
-  "juan_count": {
-    "number": 26
+ "schema_version": 1,
+ "id": "1evdidn1q1uyo",
+ "type": "work",
+ "title": "鰲峯類稿",
+ "authors": [
+  {
+   "name": "毛紀",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967avzlz126"
+  }
+ ],
+ "juan_count": {
+  "number": 26
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "毛紀《鰲峯類稿》二十六卷",
+   "summary": "毛紀《鰲峯類稿》二十六卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "毛紀《鰲峯類稿》二十六卷",
-      "summary": "毛紀《鰲峯類稿》二十六卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 26
-    }
-  ],
-  "measure_info": "二十六卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《毛紀鰲峰類藁》二十六卷",
+   "summary": "《毛紀鰲峰類藁》二十六卷",
+   "merged_from": "1evgqf6tw79q8"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 26
+  }
+ ],
+ "measure_info": "二十六卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqf6tw79q8",
+   "title": "毛紀鰲峯類稿",
+   "author": "毛紀",
+   "title_info": "毛紀鰲峯類稿",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「毛紀鰲峯類稿」撰人折入題首（來源：國史經籍志），與本條同書（撰人「毛紀」已見本條 authors[]），裸題「鰲峯類稿」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

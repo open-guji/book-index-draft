@@ -1,42 +1,61 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "辨量三教論",
-  "authors": [
-    {
-      "name": "僧法雲",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hfzwqqznk"
-    }
-  ],
-  "juan_count": {
-    "number": 3
+ "schema_version": 1,
+ "type": "work",
+ "title": "辨量三教論",
+ "authors": [
+  {
+   "name": "僧法雲",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96hfzwqqznk"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《辨量三教論》三卷",
+   "summary": "《辨量三教論》三卷（唐僧法雲）",
+   "author_info": "唐僧法雲"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《辨量三教論》三卷",
-      "summary": "《辨量三教論》三卷（唐僧法雲）",
-      "author_info": "唐僧法雲"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgptmhsgoow",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "僧法雲辨量三教論",
+   "summary": "僧法雲辨量三教論三卷",
+   "merged_from": "1evcs0ny9o1z4"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgptmhsgoow",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evcs0ny9o1z4",
+   "title": "僧法雲辨量三教論",
+   "author": "僧法雲",
+   "title_info": "僧法雲辨量三教論",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「僧法雲辨量三教論」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「僧法雲」已見本條 authors[]），裸題「辨量三教論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

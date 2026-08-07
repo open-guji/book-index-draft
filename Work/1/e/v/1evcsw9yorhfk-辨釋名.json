@@ -21,6 +21,13 @@
    "title_info": "《辨釋名》一卷",
    "summary": "《辨釋名》一卷（韋昭）",
    "author_info": "韋昭"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "韋昭辨釋名",
+   "summary": "韋昭辨釋名一卷",
+   "merged_from": "1evcs0abwsdts"
   }
  ],
  "id": "1evcsw9yorhfk",
@@ -32,9 +39,20 @@
    "entity_id": "1j96gmdzkugw0"
   }
  ],
- "ai_note": "作者繫連卸除：原作者欄「韋昭」繫有人物記錄，然《宋史·藝文志》著錄「《辨釋名》一卷王僧虔」，撰者為王僧虔。韋昭別有《辯釋名》，二書同名而異實。今卸除該 entity_id。姓名欄暫仍其舊，待覆核後改正。　entity_id 補繫：本條之撰人韋昭與庫中人物記錄（1j96gmdzkugw0）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 fragments/辨釋名.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+ "ai_note": "作者繫連卸除：原作者欄「韋昭」繫有人物記錄，然《宋史·藝文志》著錄「《辨釋名》一卷王僧虔」，撰者為王僧虔。韋昭別有《辯釋名》，二書同名而異實。今卸除該 entity_id。姓名欄暫仍其舊，待覆核後改正。　entity_id 補繫：本條之撰人韋昭與庫中人物記錄（1j96gmdzkugw0）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。　輯佚檔：本書之輯佚著錄置於 fragments/辨釋名.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「韋昭辨釋名」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韋昭」已見本條 authors[]），裸題「辨釋名」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "loss_status": "lost",
  "updated_at": "2026-08-06T22:59:42+00:00",
  "period": "qing",
- "period_basis": "據 authors[0].dynasty「清」"
+ "period_basis": "據 authors[0].dynasty「清」",
+ "merged_in": [
+  {
+   "id": "1evcs0abwsdts",
+   "title": "韋昭辨釋名",
+   "author": "韋昭",
+   "title_info": "韋昭辨釋名",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

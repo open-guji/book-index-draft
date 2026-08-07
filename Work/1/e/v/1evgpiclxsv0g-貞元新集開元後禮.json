@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "貞元新集開元後禮",
-  "authors": [
-    {
-      "name": "韋渠牟",
-      "role": "撰",
-      "entity_id": "1j967da978dif"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "貞元新集開元後禮",
+ "authors": [
+  {
+   "name": "韋渠牟",
+   "role": "撰",
+   "entity_id": "1j967da978dif"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《貞元新集開元後禮》二十卷",
+   "summary": "《貞元新集開元後禮》二十卷（韋渠牟）",
+   "author_info": "韋渠牟"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《貞元新集開元後禮》二十卷",
-      "summary": "《貞元新集開元後禮》二十卷（韋渠牟）",
-      "author_info": "韋渠牟"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpiclxsv0g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "韋渠牟貞元新集開元後禮",
+   "summary": "韋渠牟貞元新集開元後禮二十卷",
+   "merged_from": "1evcs0hnrr08w"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpiclxsv0g",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0hnrr08w",
+   "title": "韋渠牟貞元新集開元後禮",
+   "author": "韋渠牟",
+   "title_info": "韋渠牟貞元新集開元後禮",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「韋渠牟貞元新集開元後禮」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韋渠牟」已見本條 authors[]），裸題「貞元新集開元後禮」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

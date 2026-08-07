@@ -19,6 +19,13 @@
    "source": "補晋書藝文志",
    "source_bid": "1evfu57n5n37k",
    "summary": "五經鈎沉十卷 高涼太守楊方,謹按見《隋志》。是書据方《自序》,見《中興書目》,蓋撰於太寧元年,《初學記》廿九,引作“五經鈎淵”,《白帖》九十六。引作“五經鈎深”。《舊唐志》同。《崇文總目》存五卷,而誤“方” “芳”。"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "楊方五經鉤沉",
+   "summary": "楊方五經鉤沉十卷",
+   "merged_from": "1evcs0a19s7b4"
   }
  ],
  "id": "1evcpcutld4hs",
@@ -29,7 +36,7 @@
    "dynasty": "晉"
   }
  ],
- "ai_note": "作者「晉楊方撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/五經鉤沉.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+ "ai_note": "作者「晉楊方撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/五經鉤沉.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「楊方五經鉤沉」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「楊方」已見本條 authors[]），裸題「五經鉤沉」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "description": {
   "text": "已亡佚。",
   "sources": [
@@ -39,5 +46,16 @@
  "loss_status": "lost",
  "updated_at": "2026-08-06T22:59:42+00:00",
  "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+ "period_basis": "據 authors[0].dynasty「晉」",
+ "merged_in": [
+  {
+   "id": "1evcs0a19s7b4",
+   "title": "楊方五經鉤沉",
+   "author": "楊方",
+   "title_info": "楊方五經鉤沉",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

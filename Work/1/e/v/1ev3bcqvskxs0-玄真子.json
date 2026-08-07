@@ -24,6 +24,13 @@
    "source_bid": "1evcs059gkvls",
    "title_info": "又玄真子",
    "summary": "又玄真子十二卷"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "張志和玄真子",
+   "summary": "張志和玄真子二卷",
+   "merged_from": "1evcs0n1wf668"
   }
  ],
  "books": [
@@ -105,11 +112,22 @@
   }
  ],
  "measure_info": "一卷",
- "ai_note": "作者「唐張志和撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 partially_extant，據：「其書據《書錄解題》稱本十二卷，陳振孫時存三卷，已非完帙」。本值經逐條精讀，非機讀批次。",
+ "ai_note": "作者「唐張志和撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 partially_extant，據：「其書據《書錄解題》稱本十二卷，陳振孫時存三卷，已非完帙」。本值經逐條精讀，非機讀批次。　合併：題名「張志和玄真子」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「張志和」已見本條 authors[]），裸題「玄真子」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "loss_status": "partially_extant",
  "updated_at": "2026-08-06T22:59:42+00:00",
  "_has_text": true,
  "_has_image": true,
  "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」"
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evcs0n1wf668",
+   "title": "張志和玄真子",
+   "author": "張志和",
+   "title_info": "張志和玄真子",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

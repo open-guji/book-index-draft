@@ -1,40 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "飛龍篇篆草勢合",
-  "authors": [
-    {
-      "name": "崔瑗",
-      "role": "撰",
-      "entity_id": "1j967cp2196cq"
-    }
-  ],
-  "juan_count": {
-    "number": 3
+ "schema_version": 1,
+ "type": "work",
+ "title": "飛龍篇篆草勢合",
+ "authors": [
+  {
+   "name": "崔瑗",
+   "role": "撰",
+   "entity_id": "1j967cp2196cq"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《飛龍篇篆草勢合》三卷",
+   "summary": "《飛龍篇篆草勢合》三卷（崔瑗）",
+   "author_info": "崔瑗"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《飛龍篇篆草勢合》三卷",
-      "summary": "《飛龍篇篆草勢合》三卷（崔瑗）",
-      "author_info": "崔瑗"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgorlgwsw00",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"飛龍篇、篆草勢合\"，可能是解析错误\n[QA-fix 2026-04-20] title \"飛龍篇、篆草勢合\" → \"飛龍篇篆草勢合\" (remove 顿号)",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "崔瑗飛龍篇篆草勢合",
+   "summary": "崔瑗飛龍篇篆草勢合三卷",
+   "merged_from": "1evcs0ag7xbsw"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgorlgwsw00",
+ "ai_note": "[QA2026-04-20] title 含可疑字符: \"飛龍篇、篆草勢合\"，可能是解析错误\n[QA-fix 2026-04-20] title \"飛龍篇、篆草勢合\" → \"飛龍篇篆草勢合\" (remove 顿号)　合併：題名「崔瑗飛龍篇篆草勢合」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「崔瑗」已見本條 authors[]），裸題「飛龍篇篆草勢合」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0ag7xbsw",
+   "title": "崔瑗飛龍篇篆草勢合",
+   "author": "崔瑗",
+   "title_info": "崔瑗飛龍篇篆草勢合",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "交游傳",
-  "authors": [
-    {
-      "name": "鄭世翼",
-      "role": "撰",
-      "entity_id": "1j967da97jlz9"
-    }
-  ],
-  "juan_count": {
-    "number": 2
+ "schema_version": 1,
+ "type": "work",
+ "title": "交游傳",
+ "authors": [
+  {
+   "name": "鄭世翼",
+   "role": "撰",
+   "entity_id": "1j967da97jlz9"
+  }
+ ],
+ "juan_count": {
+  "number": 2
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《交游傳》二卷",
+   "summary": "《交游傳》二卷（鄭世翼）",
+   "author_info": "鄭世翼"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《交游傳》二卷",
-      "summary": "《交游傳》二卷（鄭世翼）",
-      "author_info": "鄭世翼"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpjchnzbpc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "鄭世翼交游傳",
+   "summary": "鄭世翼交游傳二卷",
+   "merged_from": "1evcs0g3w9rsw"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpjchnzbpc",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 2
+  }
+ ],
+ "measure_info": "二卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0g3w9rsw",
+   "title": "鄭世翼交游傳",
+   "author": "鄭世翼",
+   "title_info": "鄭世翼交游傳",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「鄭世翼交游傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「鄭世翼」已見本條 authors[]），裸題「交游傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

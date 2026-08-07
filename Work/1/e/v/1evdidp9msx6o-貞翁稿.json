@@ -1,42 +1,60 @@
 {
-  "schema_version": 1,
-  "id": "1evdidp9msx6o",
-  "type": "work",
-  "title": "貞翁稿",
-  "authors": [
-    {
-      "name": "周倫",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967c148ablq"
-    }
-  ],
-  "juan_count": {
-    "number": 12
+ "schema_version": 1,
+ "id": "1evdidp9msx6o",
+ "type": "work",
+ "title": "貞翁稿",
+ "authors": [
+  {
+   "name": "周倫",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967c148ablq"
+  }
+ ],
+ "juan_count": {
+  "number": 12
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "周伦《贞翁稿》十二卷",
+   "summary": "周倫《貞翁稿》十二卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "周伦《贞翁稿》十二卷",
-      "summary": "周倫《貞翁稿》十二卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "ai_note": "舊匹配結果為 GYL59iThBqy（author+similar），經作者校驗後判定不匹配。 來源：明史藝文志。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《周倫貞翁藁》十二卷",
+   "summary": "《周倫貞翁藁》十二卷",
+   "merged_from": "1evgqf1km0rgg"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "ai_note": "舊匹配結果為 GYL59iThBqy（author+similar），經作者校驗後判定不匹配。 來源：明史藝文志。　合併：題名「周倫貞翁稿」撰人折入題首（來源：國史經籍志），與本條同書（撰人「周倫」已見本條 authors[]），裸題「貞翁稿」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 12
+  }
+ ],
+ "measure_info": "十二卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqf1km0rgg",
+   "title": "周倫貞翁稿",
+   "author": "周倫",
+   "title_info": "周倫貞翁稿",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

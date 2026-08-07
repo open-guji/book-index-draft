@@ -31,6 +31,13 @@
    "source": "直齋書錄解題",
    "source_bid": "1ev3bb403quio",
    "summary": "語麗"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "朱澹遠語麗",
+   "summary": "朱澹遠語麗十卷",
+   "merged_from": "1evcs0pge3cow"
   }
  ],
  "authors": [
@@ -60,6 +67,17 @@
  ],
  "measure_info": "十卷",
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「 遠又有《語對》一卷,不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「 遠又有《語對》一卷,不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　合併：題名「朱澹遠語麗」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「朱澹遠」已見本條 authors[]），裸題「語麗」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "updated_at": "2026-08-05T05:03:40+00:00",
+ "merged_in": [
+  {
+   "id": "1evcs0pge3cow",
+   "title": "朱澹遠語麗",
+   "author": "朱澹遠",
+   "title_info": "朱澹遠語麗",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

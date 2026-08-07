@@ -1,60 +1,79 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "陽春集",
-  "authors": [
-    {
-      "name": "馮延巳",
-      "role": "撰",
-      "dynasty": "南唐"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《陽春集》一卷",
-      "author_info": "(南唐)馮延巳撰",
-      "summary": "《陽春集》一卷。(南唐)馮延巳撰。影印清光緒王鵬運輯刻四印齋所刻詞本。",
-      "edition": "影印清光緒王鵬運輯刻四印齋所刻詞本",
-      "volume": "第1722冊",
-      "section": "集部 集部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第1722冊（集部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "陽春集",
+ "authors": [
+  {
+   "name": "馮延巳",
+   "role": "撰",
+   "dynasty": "南唐"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "續修四庫全書",
+   "source_bid": "1evjk1whvmznk",
+   "title_info": "《陽春集》一卷",
+   "author_info": "(南唐)馮延巳撰",
+   "summary": "《陽春集》一卷。(南唐)馮延巳撰。影印清光緒王鵬運輯刻四印齋所刻詞本。",
+   "edition": "影印清光緒王鵬運輯刻四印齋所刻詞本",
+   "volume": "第1722冊",
+   "section": "集部 集部"
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjram7nwk5c",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1722%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1722
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_image": true,
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「南唐」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《馮延巳陽春集》一卷",
+   "summary": "《馮延巳陽春集》一卷（唐）",
+   "author_info": "唐",
+   "merged_from": "1evgqc8plvaps"
+  }
+ ],
+ "description": {
+  "text": "本書收入《續修四庫全書》第1722冊（集部）。",
+  "sources": [
+   "續修四庫全書"
+  ]
+ },
+ "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。　合併：題名「馮延巳陽春集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「馮延巳」已見本條 authors[]），裸題「陽春集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "id": "1evjram7nwk5c",
+ "resources": [
+  {
+   "id": "wikimedia-commons-xuxiu",
+   "name": "維基共享 續修四庫全書 PDF",
+   "short_name": "維基共享",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1722%E5%86%8A.pdf",
+   "metadata": {
+    "volume": 1722
+   },
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "_has_image": true,
+ "period": "five-dynasties",
+ "period_basis": "據 authors[0].dynasty「南唐」",
+ "merged_in": [
+  {
+   "id": "1evgqc8plvaps",
+   "title": "馮延巳陽春集",
+   "author": "馮延巳",
+   "title_info": "馮延巳陽春集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

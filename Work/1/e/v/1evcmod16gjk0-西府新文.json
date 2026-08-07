@@ -1,45 +1,64 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "西府新文",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《西府新文》十一卷",
-      "summary": "《西府新文》十一卷並錄。梁蕭淑撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《西府新文》十卷",
-      "summary": "《西府新文》十卷蕭淑撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《西府新文》十卷",
-      "summary": "《西府新文》十卷（蕭淑集）",
-      "author_info": "蕭淑集"
-    }
-  ],
-  "authors": [
-    {
-      "name": "蕭淑",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8yc"
-    }
-  ],
-  "juan_count": {
-    "number": 11
+ "schema_version": 1,
+ "type": "work",
+ "title": "西府新文",
+ "indexed_by": [
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《西府新文》十一卷",
+   "summary": "《西府新文》十一卷並錄。梁蕭淑撰。"
   },
-  "id": "1evcmod16gjk0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 11
-    }
-  ],
-  "measure_info": "十一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《西府新文》十卷",
+   "summary": "《西府新文》十卷蕭淑撰。"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《西府新文》十卷",
+   "summary": "《西府新文》十卷（蕭淑集）",
+   "author_info": "蕭淑集"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "蕭淑西府新文",
+   "summary": "蕭淑西府新文十卷",
+   "merged_from": "1evcs17p4gjy8"
+  }
+ ],
+ "authors": [
+  {
+   "name": "蕭淑",
+   "role": "撰",
+   "entity_id": "1j96h8rw7k8yc"
+  }
+ ],
+ "juan_count": {
+  "number": 11
+ },
+ "id": "1evcmod16gjk0",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 11
+  }
+ ],
+ "measure_info": "十一卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs17p4gjy8",
+   "title": "蕭淑西府新文",
+   "author": "蕭淑",
+   "title_info": "蕭淑西府新文",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「蕭淑西府新文」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「蕭淑」已見本條 authors[]），裸題「西府新文」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,54 +1,72 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "東田集",
-  "authors": [
-    {
-      "name": "馬中錫",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967c148abl2"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《東田集》十五卷",
-      "author_info": "明馬中錫撰",
-      "summary": "《東田集》十五卷。明馬中錫撰。中國科學院圖書館藏清康煕四十六年甘陵賈棠輯刻馬東田孫沙溪兩公遺集合編本。",
-      "edition": "中國科學院圖書館藏清康煕四十六年甘陵賈棠輯刻馬東田孫沙溪兩公遺集合編本",
-      "volume": "第41冊",
-      "section": "集部"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《別本東田集》•十五卷",
-      "author_info": "明馬中錫撰",
-      "summary": "明馬中錫撰。是集為國朝康熙丁亥，中錫鄉人賈棠所刊，凡文五卷、詩十卷。案《嵩陽雜識》曰：“李空同與韓貫道草疏，劉瑾切齒，必欲置之死，賴康滸西營救而脫。後滸西得罪，空同議論稍過嚴，人作《中山狼傳》以詆之。”王士禎《居易錄》亦稱中錫《中山狼傳》為刺李夢陽負康海而作。今其文在第五卷中。然海以救夢陽坐累，夢陽特未營救之耳。未嘗逞兇反噬，如傳所云云也。疑中錫別有所指，而好事者以康、李為同時之人，又有相負一事，附會其說也。",
-      "edition": "直隸總督采進本"
-    }
-  ],
-  "description": {
-    "text": "本書收入《四庫全書存目叢書》第41冊（集部）。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "東田集",
+ "authors": [
+  {
+   "name": "馬中錫",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967c148abl2"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "四庫全書存目叢書",
+   "source_bid": "1evjxczyavy80",
+   "title_info": "《東田集》十五卷",
+   "author_info": "明馬中錫撰",
+   "summary": "《東田集》十五卷。明馬中錫撰。中國科學院圖書館藏清康煕四十六年甘陵賈棠輯刻馬東田孫沙溪兩公遺集合編本。",
+   "edition": "中國科學院圖書館藏清康煕四十六年甘陵賈棠輯刻馬東田孫沙溪兩公遺集合編本",
+   "volume": "第41冊",
+   "section": "集部"
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。",
-  "juan_count": {
-    "number": 15
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《別本東田集》•十五卷",
+   "author_info": "明馬中錫撰",
+   "summary": "明馬中錫撰。是集為國朝康熙丁亥，中錫鄉人賈棠所刊，凡文五卷、詩十卷。案《嵩陽雜識》曰：“李空同與韓貫道草疏，劉瑾切齒，必欲置之死，賴康滸西營救而脫。後滸西得罪，空同議論稍過嚴，人作《中山狼傳》以詆之。”王士禎《居易錄》亦稱中錫《中山狼傳》為刺李夢陽負康海而作。今其文在第五卷中。然海以救夢陽坐累，夢陽特未營救之耳。未嘗逞兇反噬，如傳所云云也。疑中錫別有所指，而好事者以康、李為同時之人，又有相負一事，附會其說也。",
+   "edition": "直隸總督采進本"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "id": "1evjxn2q0bwg0",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《馬中錫東田集》六卷",
+   "summary": "《馬中錫東田集》六卷",
+   "merged_from": "1evgqfkxl2br4"
+  }
+ ],
+ "description": {
+  "text": "本書收入《四庫全書存目叢書》第41冊（集部）。",
+  "sources": [
+   "四庫全書存目叢書"
+  ]
+ },
+ "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。　合併：題名「馬中錫東田集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「馬中錫」已見本條 authors[]），裸題「東田集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "juan_count": {
+  "number": 15
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 15
+  }
+ ],
+ "measure_info": "十五卷",
+ "id": "1evjxn2q0bwg0",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqfkxl2br4",
+   "title": "馬中錫東田集",
+   "author": "馬中錫",
+   "title_info": "馬中錫東田集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

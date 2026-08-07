@@ -1,31 +1,56 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "說文續解",
-  "authors": [
-    {
-      "name": "吾衍",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl70k5g"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "吾衍說文續解",
-      "summary": "元吾衍說文續解"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《說文續解》",
-      "summary": "元吾衍說文續解"
-    }
-  ],
-  "id": "1evga2bjnh3wg",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "說文續解",
+ "authors": [
+  {
+   "name": "吾衍",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j967bgl70k5g"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "吾衍說文續解",
+   "summary": "元吾衍說文續解"
+  },
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "《說文續解》",
+   "summary": "元吾衍說文續解"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《吾衍說文續解》卷",
+   "summary": "《吾衍說文續解》卷",
+   "merged_from": "1evgorca5b668"
+  }
+ ],
+ "id": "1evga2bjnh3wg",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgorca5b668",
+   "title": "吾衍說文續解",
+   "author": "吾衍",
+   "title_info": "吾衍說文續解",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「吾衍說文續解」撰人折入題首（來源：國史經籍志），與本條同書（撰人「吾衍」已見本條 authors[]），裸題「說文續解」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

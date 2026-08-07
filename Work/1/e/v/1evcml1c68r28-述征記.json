@@ -1,46 +1,73 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "述征記",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《述征記》二卷",
-      "summary": "《述征記》二卷郭緣生撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《述征記》二卷",
-      "summary": "《述征記》二卷郭緣生撰。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "郭緣生",
-      "role": "撰",
-      "entity_id": "1j96ha78ruuio"
-    }
-  ],
-  "juan_count": {
-    "number": 2
+ "schema_version": 1,
+ "type": "work",
+ "title": "述征記",
+ "indexed_by": [
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《述征記》二卷",
+   "summary": "《述征記》二卷郭緣生撰。"
   },
-  "id": "1evcml1c68r28",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《述征記》二卷",
-      "summary": "述征記二卷 郭緣生撰\n郭緣生有《武昌先賢志》,見前雜傳類。\n《唐書·經籍志》:《述征記》二卷,郭象撰。此稱郭象,豈緣生亦名象\n败?未審是非。\n《唐書·藝文志》:郭緣生《述征記》二卷。\n章氏《考證》:《水經注》引郭緣生《述征記》。《渭水注》稱郭\n著。他書如《北堂書鈔藝文部》、《衣冠部》,《太平御覽居\n處部》、《文部》、《禮儀部》或稱郭氏,或稱緣生。其記中多載\n漢代及魏晉碑碣。又《水經渠水注》、《巨洋水注》,《初學\n記‧地部》、《州郡部》並引郭緣《續述征記》。\n按《御覽地部》魚山條又稱郭衍生《述征記》,因音同而\n異。据所存諸佚文,似緣生從宋武北征慕容超,西征姚泓\n時所記,並在晉義熙中也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《述征記》二卷",
+   "summary": "《述征記》二卷郭緣生撰。"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "郭緣生述征記",
+   "summary": "郭緣生述征記二卷",
+   "merged_from": "1evcs0k51xlog"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《郭緣生述征記》二卷",
+   "summary": "《郭緣生述征記》二卷",
+   "merged_from": "1evcs0k51xlog"
+  }
+ ],
+ "authors": [
+  {
+   "name": "郭緣生",
+   "role": "撰",
+   "entity_id": "1j96ha78ruuio"
+  }
+ ],
+ "juan_count": {
+  "number": 2
+ },
+ "id": "1evcml1c68r28",
+ "emendated_by": [
+  {
+   "source": "隋書經籍志考證",
+   "source_bid": "1evdlszdhf5z4",
+   "title_info": "《述征記》二卷",
+   "summary": "述征記二卷 郭緣生撰\n郭緣生有《武昌先賢志》,見前雜傳類。\n《唐書·經籍志》:《述征記》二卷,郭象撰。此稱郭象,豈緣生亦名象\n败?未審是非。\n《唐書·藝文志》:郭緣生《述征記》二卷。\n章氏《考證》:《水經注》引郭緣生《述征記》。《渭水注》稱郭\n著。他書如《北堂書鈔藝文部》、《衣冠部》,《太平御覽居\n處部》、《文部》、《禮儀部》或稱郭氏,或稱緣生。其記中多載\n漢代及魏晉碑碣。又《水經渠水注》、《巨洋水注》,《初學\n記‧地部》、《州郡部》並引郭緣《續述征記》。\n按《御覽地部》魚山條又稱郭衍生《述征記》,因音同而\n異。据所存諸佚文,似緣生從宋武北征慕容超,西征姚泓\n時所記,並在晉義熙中也。"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 2
+  }
+ ],
+ "measure_info": "二卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0k51xlog",
+   "title": "郭緣生述征記",
+   "author": "郭緣生",
+   "title_info": "郭緣生述征記",
+   "indexed_by_moved": [
+    "新唐書藝文志",
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「郭緣生述征記」撰人折入題首（來源：國史經籍志、新唐書藝文志），與本條同書（撰人「郭緣生」已見本條 authors[]），裸題「述征記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

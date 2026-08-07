@@ -26,6 +26,13 @@
    "source_bid": "1ev88ee9jw6ps",
    "title_info": "史鉴《西村集》八卷",
    "summary": "史鑒《西村集》八卷"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《史鑑西村集》八卷",
+   "summary": "《史鑑西村集》八卷",
+   "merged_from": "1evgqf8z7mdj4"
   }
  ],
  "books": [
@@ -116,10 +123,27 @@
  ],
  "measure_info": "八卷",
  "loss_status": "partially_extant",
- "ai_note": "loss_status 判為 partially_extant，據：「此本八卷，尚非完帙」。本值經逐條精讀，非機讀批次。",
+ "ai_note": "loss_status 判為 partially_extant，據：「此本八卷，尚非完帙」。本值經逐條精讀，非機讀批次。　合併：題名「史鑑西村集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「史鑑」已見本條 authors[]），裸題「西村集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "updated_at": "2026-08-06T22:59:42+00:00",
  "_has_text": true,
  "_has_image": true,
  "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」"
+ "period_basis": "據 authors[0].dynasty「明」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgqf8z7mdj4",
+   "title": "史鑑西村集",
+   "author": "史鑑",
+   "title_info": "史鑑西村集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

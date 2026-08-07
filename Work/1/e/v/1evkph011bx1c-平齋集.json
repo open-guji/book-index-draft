@@ -1,42 +1,60 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "平齋集",
-  "authors": [
-    {
-      "name": "洪咨夔",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967avzkq2vd"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "平齋集"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027357-027363）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "平齋集",
+ "authors": [
+  {
+   "name": "洪咨夔",
+   "role": "撰",
+   "dynasty": "宋",
+   "entity_id": "1j967avzkq2vd"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "summary": "平齋集"
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027357-027363），無同名 Work 故新建。",
-  "juan_count": {
-    "number": 32
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 32
-    }
-  ],
-  "measure_info": "三十二卷",
-  "id": "1evkph011bx1c",
-  "books": [
-    "11qkhxgi6kao0"
-  ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《洪咨夔平齋集》三十二卷",
+   "summary": "《洪咨夔平齋集》三十二卷",
+   "merged_from": "1evgqdk1cd340"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027357-027363）。清乾隆間寫文淵閣四庫全書本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027357-027363），無同名 Work 故新建。　合併：題名「洪咨夔平齋集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「洪咨夔」已見本條 authors[]），裸題「平齋集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "juan_count": {
+  "number": 32
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 32
+  }
+ ],
+ "measure_info": "三十二卷",
+ "id": "1evkph011bx1c",
+ "books": [
+  "11qkhxgi6kao0"
+ ],
+ "updated_at": "2026-05-14T02:04:40-07:00",
+ "merged_in": [
+  {
+   "id": "1evgqdk1cd340",
+   "title": "洪咨夔平齋集",
+   "author": "洪咨夔",
+   "title_info": "洪咨夔平齋集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

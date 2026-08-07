@@ -1,42 +1,61 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "東宮雜事",
-  "authors": [
-    {
-      "name": "蕭子雲",
-      "role": "撰",
-      "entity_id": "1j96ad6idj7cw"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "東宮雜事",
+ "authors": [
+  {
+   "name": "蕭子雲",
+   "role": "撰",
+   "entity_id": "1j96ad6idj7cw"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《東宫雜事》二十卷",
+   "summary": "《東宫雜事》二十卷（蕭子雲）",
+   "author_info": "蕭子雲"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《東宫雜事》二十卷",
-      "summary": "《東宫雜事》二十卷（蕭子雲）",
-      "author_info": "蕭子雲"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpihrkvp4w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "additional_titles": [
-    "東宫雜事"
-  ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "蕭子雲東宮雜事",
+   "summary": "蕭子雲東宮雜事二十卷",
+   "merged_from": "1evcs0himyio0"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpihrkvp4w",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "additional_titles": [
+  "東宫雜事"
+ ],
+ "updated_at": "2026-05-18T00:03:58-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0himyio0",
+   "title": "蕭子雲東宮雜事",
+   "author": "蕭子雲",
+   "title_info": "蕭子雲東宮雜事",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「蕭子雲東宮雜事」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「蕭子雲」已見本條 authors[]），裸題「東宮雜事」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

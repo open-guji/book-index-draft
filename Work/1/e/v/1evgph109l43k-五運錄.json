@@ -1,48 +1,67 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "五運錄",
-  "authors": [
-    {
-      "name": "曹圭",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967afjb6ae4"
-    }
-  ],
-  "juan_count": {
-    "number": 12
+ "schema_version": 1,
+ "type": "work",
+ "title": "五運錄",
+ "authors": [
+  {
+   "name": "曹圭",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j967afjb6ae4"
+  }
+ ],
+ "juan_count": {
+  "number": 12
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《五運錄》十二卷",
+   "summary": "《五運錄》十二卷（唐曹圭）",
+   "author_info": "唐曹圭"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《五運錄》十二卷",
-      "summary": "《五運錄》十二卷（唐曹圭）",
-      "author_info": "唐曹圭"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "五運録二十卷",
-      "summary": "五運録二十卷。唐曹圭撰起三皇訖隋年世之略"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "五運録二十卷",
+   "summary": "五運録二十卷。唐曹圭撰起三皇訖隋年世之略"
   },
-  "id": "1evgph109l43k",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "曹圭五運錄",
+   "summary": "曹圭五運錄十二卷",
+   "merged_from": "1evcs0c3yxn28"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgph109l43k",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 12
+  }
+ ],
+ "measure_info": "十二卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evcs0c3yxn28",
+   "title": "曹圭五運錄",
+   "author": "曹圭",
+   "title_info": "曹圭五運錄",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「曹圭五運錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「曹圭」已見本條 authors[]），裸題「五運錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

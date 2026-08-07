@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "幕府故吏錄",
-  "authors": [
-    {
-      "name": "哥舒翰",
-      "role": "撰",
-      "entity_id": "1j96h8rw8hyj5"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "type": "work",
+ "title": "幕府故吏錄",
+ "authors": [
+  {
+   "name": "哥舒翰",
+   "role": "撰",
+   "entity_id": "1j96h8rw8hyj5"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《幕府故吏錄》一卷",
+   "summary": "《幕府故吏錄》一卷（哥舒翰）",
+   "author_info": "哥舒翰"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《幕府故吏錄》一卷",
-      "summary": "《幕府故吏錄》一卷（哥舒翰）",
-      "author_info": "哥舒翰"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpjcmriv40",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《哥舒翰幕府故吏錄》",
+   "summary": "《哥舒翰幕府故吏錄》一卷李巨川",
+   "merged_from": "1evcsxdqmzqww"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpjcmriv40",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcsxdqmzqww",
+   "title": "哥舒翰幕府故吏錄",
+   "author": "哥舒翰",
+   "title_info": "哥舒翰幕府故吏錄",
+   "indexed_by_moved": [
+    "宋史藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「哥舒翰幕府故吏錄」撰人折入題首（來源：宋史藝文志），與本條同書（撰人「哥舒翰」已見本條 authors[]），裸題「幕府故吏錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

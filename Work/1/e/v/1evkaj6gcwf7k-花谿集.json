@@ -1,37 +1,57 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "花谿集",
-  "authors": [
-    {
-      "name": "沈夢麟",
-      "role": "撰",
-      "dynasty": "元"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖013310）。舊鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkaj6gcwf7k",
-  "books": [
-    "11qkhxo9n2ubk",
-    "11qki63s8hce8"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "花谿集",
+ "authors": [
+  {
+   "name": "沈夢麟",
+   "role": "撰",
+   "dynasty": "元"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖013310）。舊鈔本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。　合併：題名「沈夢麟花谿集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「沈夢麟」已見本條 authors[]），裸題「花谿集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 1
+  }
+ ],
+ "measure_info": "一冊",
+ "id": "1evkaj6gcwf7k",
+ "books": [
+  "11qkhxo9n2ubk",
+  "11qki63s8hce8"
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《沈夢麟花谿集》三卷",
+   "summary": "《沈夢麟花谿集》三卷",
+   "merged_from": "1evgqe4jua4u8"
+  }
+ ],
+ "merged_in": [
+  {
+   "id": "1evgqe4jua4u8",
+   "title": "沈夢麟花谿集",
+   "author": "沈夢麟",
+   "title_info": "沈夢麟花谿集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

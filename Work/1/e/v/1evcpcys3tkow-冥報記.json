@@ -1,88 +1,113 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "冥報記",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《冥報記》二卷",
-      "summary": "《冥報記》二卷唐臨撰。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《冥報記》",
-      "summary": "唐臨《冥報記》二卷陸長源"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《冥報記》二卷",
-      "summary": "《冥報記》二卷（唐臨）",
-      "author_info": "唐臨"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《冥報記》三卷",
-      "author_info": "唐唐臨撰",
-      "summary": "《冥報記》三卷。唐唐臨撰。影印民國十三年上海商務印書館鉛印涵芬樓秘笈本。",
-      "edition": "影印民國十三年上海商務印書館鉛印涵芬樓秘笈本",
-      "volume": "第1264冊",
-      "section": "子部 小說家類"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "冥報記"
-    }
-  ],
-  "id": "1evcpcys3tkow",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%86%A5%E5%A0%B1%E8%A8%98",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1264%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1264
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "唐臨",
-      "role": "撰",
-      "dynasty": "唐"
-    }
-  ],
-  "ai_note": "作者「唐唐臨撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpjhaa7pxc 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"㝠報記\"→\"冥報記\" (位置 0: \"㝠\"→\"冥\") 作者「唐唐臨撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjr6o26qm80 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcpcys3tkow();1evgpjhaa7pxc()。",
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "冥報記",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《冥報記》二卷",
+   "summary": "《冥報記》二卷唐臨撰。"
   },
-  "books": [
-    "11qkhzo4hhk3k",
-    "11qkhzo72tiio",
-    "11qkhzo5roohs"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《冥報記》",
+   "summary": "唐臨《冥報記》二卷陸長源"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《冥報記》二卷",
+   "summary": "《冥報記》二卷（唐臨）",
+   "author_info": "唐臨"
+  },
+  {
+   "source": "續修四庫全書",
+   "source_bid": "1evjk1whvmznk",
+   "title_info": "《冥報記》三卷",
+   "author_info": "唐唐臨撰",
+   "summary": "《冥報記》三卷。唐唐臨撰。影印民國十三年上海商務印書館鉛印涵芬樓秘笈本。",
+   "edition": "影印民國十三年上海商務印書館鉛印涵芬樓秘笈本",
+   "volume": "第1264冊",
+   "section": "子部 小說家類"
+  },
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "summary": "冥報記"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "唐臨冥報記",
+   "summary": "唐臨冥報記二卷",
+   "merged_from": "1evcs0g7sfbpc"
+  }
+ ],
+ "id": "1evcpcys3tkow",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E5%86%A5%E5%A0%B1%E8%A8%98",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "id": "wikimedia-commons-xuxiu",
+   "name": "維基共享 續修四庫全書 PDF",
+   "short_name": "維基共享",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1264%E5%86%8A.pdf",
+   "metadata": {
+    "volume": 1264
+   },
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "authors": [
+  {
+   "name": "唐臨",
+   "role": "撰",
+   "dynasty": "唐"
+  }
+ ],
+ "ai_note": "作者「唐唐臨撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpjhaa7pxc 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"㝠報記\"→\"冥報記\" (位置 0: \"㝠\"→\"冥\") 作者「唐唐臨撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjr6o26qm80 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcpcys3tkow();1evgpjhaa7pxc()。　合併：題名「唐臨冥報記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「唐臨」已見本條 authors[]），裸題「冥報記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。　合併：題名「唐臨冥報記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「唐臨」已見本條 authors[]），裸題「冥報記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "books": [
+  "11qkhzo4hhk3k",
+  "11qkhzo72tiio",
+  "11qkhzo5roohs"
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "_has_text": true,
+ "_has_image": true,
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evcs0g7sfbpc",
+   "title": "唐臨冥報記",
+   "author": "唐臨",
+   "title_info": "唐臨冥報記",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  },
+  {
+   "id": "1evcs0qnzvshs",
+   "title": "唐臨冥報記",
+   "author": "唐臨",
+   "title_info": "唐臨冥報記",
+   "indexed_by_moved": []
+  }
+ ]
 }

@@ -1,42 +1,61 @@
 {
-  "schema_version": 1,
-  "id": "1evdidetzmvpc",
-  "type": "work",
-  "title": "忠文集",
-  "authors": [
-    {
-      "name": "王禕",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j969m70q2eq8",
-      "original_name": "王祎"
-    }
-  ],
-  "juan_count": {
-    "number": 24
+ "schema_version": 1,
+ "id": "1evdidetzmvpc",
+ "type": "work",
+ "title": "忠文集",
+ "authors": [
+  {
+   "name": "王禕",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j969m70q2eq8",
+   "original_name": "王祎"
+  }
+ ],
+ "juan_count": {
+  "number": 24
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "王祎《忠文集》二十四卷",
+   "summary": "王禕《忠文集》二十四卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "王祎《忠文集》二十四卷",
-      "summary": "王禕《忠文集》二十四卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《王禕忠文集》二十四卷",
+   "summary": "《王禕忠文集》二十四卷",
+   "merged_from": "1evgqe5u2105c"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 24
+  }
+ ],
+ "measure_info": "二十四卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqe5u2105c",
+   "title": "王禕忠文集",
+   "author": "王禕",
+   "title_info": "王禕忠文集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「王禕忠文集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「王禕」已見本條 authors[]），裸題「忠文集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }
