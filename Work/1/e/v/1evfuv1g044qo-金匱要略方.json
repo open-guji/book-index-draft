@@ -7,8 +7,8 @@
   {
    "name": "張仲景",
    "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfem8lfcw"
+   "dynasty": "東漢",
+   "entity_id": "1j96ad68m1zpc"
   }
  ],
  "indexed_by": [
@@ -38,8 +38,19 @@
   "金匮要略方"
  ],
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　撰人朝代訂正：原作「晉」，張仲景實東漢人，且原繫另一（錯誤新建之）entity 1j96hfem8lfcw，今改繫正確 entity 1j96ad68m1zpc（2026-08-08）。　合併：自 1evjy7m9qnjls（《金匱要略方》，張機）併入，2026-08-08——張機即張仲景本名（仲景為字），金匱要略方同書兩 work_id，經人核准合併。",
+ "updated_at": "2026-08-07T17:05:31+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「東漢」（原誤作「晉」，張仲景實東漢人，2026-08-08 訂正並改繫正確 entity）",
+ "merged_in": [
+  {
+   "id": "1evjy7m9qnjls",
+   "title": "金匱要略方",
+   "author": "張機",
+   "indexed_by_moved": []
+  }
+ ],
+ "books": [
+  "11qk4xwcx8vad"
+ ]
 }
