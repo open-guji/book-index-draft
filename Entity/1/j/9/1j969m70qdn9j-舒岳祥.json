@@ -1,64 +1,61 @@
 {
-  "schema_version": 1,
-  "id": "1j969m70qdn9j",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "舒岳祥",
-  "alt_names": [
-    {
-      "name": "景薛",
-      "type": "字"
-    },
-    {
-      "name": "東野",
-      "type": "字"
-    },
-    {
-      "name": "第詵三",
-      "type": "行第"
-    },
-    {
-      "name": "舜侯",
-      "type": "字"
-    }
-  ],
-  "dynasty": "宋",
-  "birth_year": 1219,
-  "death_year": 1298,
-  "works": [
-    {
-      "work_id": "1evrbhp6ajr2x",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr2y",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr2z",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr30",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr31",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr32",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evrbhp6ajr33",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 108888,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: 南宋末 1219-1298《閬风集》"
+ "schema_version": 1,
+ "id": "1j969m70qdn9j",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "舒岳祥",
+ "alt_names": [
+  {
+   "name": "景薛",
+   "type": "字"
   },
-  "updated_at": "2026-05-14T15:10:54-07:00"
+  {
+   "name": "東野",
+   "type": "字"
+  },
+  {
+   "name": "第詵三",
+   "type": "行第"
+  },
+  {
+   "name": "舜侯",
+   "type": "字"
+  }
+ ],
+ "dynasty": "宋",
+ "birth_year": 1219,
+ "death_year": 1298,
+ "works": [
+  {
+   "work_id": "1evrbhp6ajr2y",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evrbhp6ajr31",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evrbhp6ajr2z",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evrbhp6ajr33",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evrbhp6ajr30",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evrbhp6ajr32",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {
+  "cbdb_id": 108888,
+  "cbdb_match": "manual",
+  "cbdb_source": "pending_accept: 南宋末 1219-1298《閬风集》"
+ },
+ "updated_at": "2026-05-14T15:10:54-07:00",
+ "ai_note": "　按：所繫之 1ev3bd3wajchs 原掛於被併之次條（撰人字首式重出 Phase 2b），該書實際 authors[] 所繫為另一「舒岳祥」entity——本 entity 與彼似為同一人之兩條重出記錄，然 entity 之合併須另裁，非本次所及，故此處僅去其 works 之懸空所繫。　（訂正：前次因撰人字首式重出 Phase 2b 之副作用誤清空works[]，今核實庫中現況復原。）"
 }
