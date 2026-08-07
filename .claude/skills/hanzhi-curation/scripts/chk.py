@@ -198,7 +198,7 @@ for _i,_e in IW.items():
             if not _a2: continue
             if _a2!=_au and _a2 not in _au and _au not in _a2: continue
             _dupt.add((min(_i,_j),max(_i,_j)))
-print('題名重出（長題＝撰人＋短題，撰人相容）',len(_dupt),'　基線 76')
+print('題名重出（長題＝撰人＋短題，撰人相容）',len(_dupt),'　基線 72（2026-08-07 由 76 降：撰人字首式重出候選 Phase 2 合併消解其中 4 組）')
 for _a,_b in sorted(_dupt)[:6]:
     print(f"   《{IW[_a].get('title')}》({IW[_a].get('author')}) ←→ 《{IW[_b].get('title')}》({IW[_b].get('author')})")
 
