@@ -1,42 +1,43 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "欽定金史語解",
- "authors": [
-  {
-   "name": "弘曆",
-   "role": "敕撰",
-   "dynasty": "高宗乾隆",
-   "entity_id": null
-  }
- ],
- "description": {
-  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿019122-019133）。清乾隆間內府朱絲欄寫本。",
-  "sources": [
-   "國立故宮博物院善本舊籍"
-  ]
- },
- "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿019122-019133）。阶段 5 兜底建立。\n\n2026-08-08 修：撰人原作「清」，今作「弘曆」。同上，《欽定金史語解》十二卷為三史國語解之一，清高宗弘曆敕撰，乾隆四十七年。原「清」為朝代字，改作敕撰者清高宗弘曆。",
- "juan_count": {
-  "number": 12
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 12
-  }
- ],
- "measure_info": "十二卷",
- "id": "1evkq1wa0fxts",
- "books": [
-  "11qki2mgldl34"
- ],
- "related_works": [
-  {
-   "id": "1ev3bab6qeww0",
-   "title": "金史",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-08T00:00:00+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "欽定金史語解",
+  "authors": [
+    {
+      "name": "弘曆",
+      "role": "敕撰",
+      "dynasty": "清",
+      "entity_id": null,
+      "dynasty_basis": "synonym:高宗乾隆->清"
+    }
+  ],
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿019122-019133）。清乾隆間內府朱絲欄寫本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  },
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿019122-019133）。阶段 5 兜底建立。\n\n2026-08-08 修：撰人原作「清」，今作「弘曆」。同上，《欽定金史語解》十二卷為三史國語解之一，清高宗弘曆敕撰，乾隆四十七年。原「清」為朝代字，改作敕撰者清高宗弘曆。",
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "id": "1evkq1wa0fxts",
+  "books": [
+    "11qki2mgldl34"
+  ],
+  "related_works": [
+    {
+      "id": "1ev3bab6qeww0",
+      "title": "金史",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T11:51:57+00:00"
 }
