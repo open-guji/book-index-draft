@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvgkziv40",
- "title": "釋三報論",
- "authors": [
-  {
-   "name": "釋慧遠",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hhvcrjvio"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "釋三報論二卷 遠,謹按見《隋眾經目錄》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 2
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「遠」，今補全為「慧遠」。同上。慧遠著《釋三報論》闡述三世因果報應說。\n\n2026-08-08 修復二字殘名：釋慧遠（晉雁門人，廬山東林寺，阿彌陀佛淨土宗初祖），庫中2字「慧遠」為缺釋字之殘。",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvgkziv40",
+  "title": "釋三報論",
+  "authors": [
+    {
+      "name": "釋慧遠",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hhvcrjvio"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "釋三報論二卷 遠,謹按見《隋眾經目錄》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「遠」，今補全為「慧遠」。同上。慧遠著《釋三報論》闡述三世因果報應說。\n\n2026-08-08 修復二字殘名：釋慧遠（晉雁門人，廬山東林寺，阿彌陀佛淨土宗初祖），庫中2字「慧遠」為缺釋字之殘。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

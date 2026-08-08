@@ -1,65 +1,65 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "左氏釋滯",
- "authors": [
-  {
-   "name": "殷興",
-   "role": "撰",
-   "entity_id": "1j96hfdv5raww"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《左氏釋滯》十卷",
-   "summary": "《左氏釋滯》十卷（殷興。）",
-   "author_info": "殷興。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "左氏釋滯",
+  "authors": [
+    {
+      "name": "殷興",
+      "role": "撰",
+      "entity_id": "1j96hfdv5raww"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "殷興左氏釋滯",
-   "summary": "殷興左氏釋滯十卷",
-   "merged_from": "1evcs091gavb4"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgopxjulzi8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "related_works": [
-  {
-   "id": "1ev7vo50ar94w",
-   "title": "左傳",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-05-14T02:29:29-07:00",
- "merged_in": [
-  {
-   "id": "1evcs091gavb4",
-   "title": "殷興左氏釋滯",
-   "author": "殷興",
-   "title_info": "殷興左氏釋滯",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「殷興左氏釋滯」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「殷興」已見本條 authors[]），裸題「左氏釋滯」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《左氏釋滯》十卷",
+      "summary": "《左氏釋滯》十卷（殷興。）",
+      "author_info": "殷興。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "殷興左氏釋滯",
+      "summary": "殷興左氏釋滯十卷",
+      "merged_from": "1evcs091gavb4"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgopxjulzi8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "1ev7vo50ar94w",
+      "title": "左傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-05-14T02:29:29-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs091gavb4",
+      "title": "殷興左氏釋滯",
+      "author": "殷興",
+      "title_info": "殷興左氏釋滯",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「殷興左氏釋滯」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「殷興」已見本條 authors[]），裸題「左氏釋滯」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

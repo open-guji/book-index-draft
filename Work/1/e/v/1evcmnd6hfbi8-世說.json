@@ -1,72 +1,72 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "世說",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《世說》八卷",
-   "summary": "《世說》八卷宋臨川王劉義慶撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "世說",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《世說》八卷",
+      "summary": "《世說》八卷宋臨川王劉義慶撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《世說》八卷",
+      "summary": "《世說》八卷劉義慶撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《世說》八卷",
+      "summary": "《世說》八卷（宋劉義慶）",
+      "author_info": "宋劉義慶"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉義慶世說",
+      "summary": "劉義慶世說八卷",
+      "merged_from": "1evcs0qfbf8qo"
+    }
+  ],
+  "authors": [
+    {
+      "name": "劉義慶",
+      "role": "撰",
+      "entity_id": "1j969m70q2eqx"
+    }
+  ],
+  "juan_count": {
+    "number": 8
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《世說》八卷",
-   "summary": "《世說》八卷劉義慶撰。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《世說》八卷",
-   "summary": "《世說》八卷（宋劉義慶）",
-   "author_info": "宋劉義慶"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "劉義慶世說",
-   "summary": "劉義慶世說八卷",
-   "merged_from": "1evcs0qfbf8qo"
-  }
- ],
- "authors": [
-  {
-   "name": "劉義慶",
-   "role": "撰",
-   "entity_id": "1j969m70q2eqx"
-  }
- ],
- "juan_count": {
-  "number": 8
- },
- "id": "1evcmnd6hfbi8",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《世說》八卷",
-   "summary": "世說八卷 宋臨川王劉義慶"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 8
-  }
- ],
- "measure_info": "八卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0qfbf8qo",
-   "title": "劉義慶世說",
-   "author": "劉義慶",
-   "title_info": "劉義慶世說",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「劉義慶世說」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉義慶」已見本條 authors[]），裸題「世說」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evcmnd6hfbi8",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《世說》八卷",
+      "summary": "世說八卷 宋臨川王劉義慶"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0qfbf8qo",
+      "title": "劉義慶世說",
+      "author": "劉義慶",
+      "title_info": "劉義慶世說",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「劉義慶世說」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉義慶」已見本條 authors[]），裸題「世說」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

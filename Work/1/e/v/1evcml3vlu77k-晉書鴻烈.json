@@ -1,73 +1,75 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "晉書鴻烈",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《晉書鴻烈》六卷",
-   "summary": "《晉書鴻烈》六卷張氏撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "晉書鴻烈",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《晉書鴻烈》六卷",
+      "summary": "《晉書鴻烈》六卷張氏撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《晉書鴻烈》六卷",
+      "summary": "《晉書鴻烈》六卷（張氏）",
+      "author_info": "張氏"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "晋書鴻烈六卷 張氏,謹按見《册府元龜》國史部。《隋志》亦著録,不言晋人。"
+    }
+  ],
+  "juan_count": {
+    "number": 6
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《晉書鴻烈》六卷",
-   "summary": "《晉書鴻烈》六卷（張氏）",
-   "author_info": "張氏"
+  "id": "1evcml3vlu77k",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "晉書鴻烈六卷",
+      "summary": "晉書鴻烈六卷 張氏撰\n按高誘注《淮南子》云:“鴻,大也;烈,明也,以為大明道之\n言也。”疑此亦張緬所鈔,附於《晉鈔》之後者。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "related_works": [
+    {
+      "id": "1ev3c1fonfev4",
+      "title": "晉書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "authors": [
+    {
+      "name": "張氏",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96h8rw8hyjr"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "晋書鴻烈六卷 張氏,謹按見《册府元龜》國史部。《隋志》亦著録,不言晋人。"
-  }
- ],
- "juan_count": {
-  "number": 6
- },
- "id": "1evcml3vlu77k",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "晉書鴻烈六卷",
-   "summary": "晉書鴻烈六卷 張氏撰\n按高誘注《淮南子》云:“鴻,大也;烈,明也,以為大明道之\n言也。”疑此亦張緬所鈔,附於《晉鈔》之後者。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "related_works": [
-  {
-   "id": "1ev3c1fonfev4",
-   "title": "晉書",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-08",
- "authors": [
-  {
-   "name": "張氏",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96h8rw8hyjr"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "additional_titles": [
-  "晋書鴻烈"
- ],
- "ai_note": "\n2026-08-08 秦漢同名異書 batch12：合併 src=1evfuvk1ju2v4。晉書鴻烈：張氏同人，補晉志與隋志/國史經籍志著錄同一書，皆六卷"
+  "loss_status": "lost",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "additional_titles": [
+    "晋書鴻烈"
+  ],
+  "ai_note": "\n2026-08-08 秦漢同名異書 batch12：合併 src=1evfuvk1ju2v4。晉書鴻烈：張氏同人，補晉志與隋志/國史經籍志著錄同一書，皆六卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

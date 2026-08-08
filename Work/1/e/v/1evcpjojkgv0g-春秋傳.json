@@ -7,8 +7,9 @@
     {
       "name": "王朗",
       "role": "注",
-      "dynasty": "三國",
-      "entity_id": "1j96kee2c14hs"
+      "dynasty": "三國魏",
+      "entity_id": "1j96kee2c14hs",
+      "dynasty_basis": "entity_propagation:entity_id=1j96kee2c14hs"
     }
   ],
   "indexed_by": [
@@ -19,7 +20,9 @@
       "summary": "《春秋傳》十卷王朗注。"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國」"
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,32 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "通知來藏往論",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "通知來藏往論 宣舒,謹按張氏《集解》引。見《釋文·敘録》。陸德明曰:“舒字幼驥,陳郡人,宜城令。”是書兩《唐志》名“通易象論”,而《新志》作“宣聘撰”,《舊志》則作“宣駛”。蓋“駛”“聘”之謂,“聘”又“舒”之 也。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "宣舒",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfb65ri0w"
-  }
- ],
- "id": "1evfubdykfke8",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "通知來藏往論",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "通知來藏往論 宣舒,謹按張氏《集解》引。見《釋文·敘録》。陸德明曰:“舒字幼驥,陳郡人,宜城令。”是書兩《唐志》名“通易象論”,而《新志》作“宣聘撰”,《舊志》則作“宣駛”。蓋“駛”“聘”之謂,“聘”又“舒”之 也。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "宣舒",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfb65ri0w"
+    }
+  ],
+  "id": "1evfubdykfke8",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

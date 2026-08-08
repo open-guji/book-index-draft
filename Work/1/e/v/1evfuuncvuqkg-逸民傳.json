@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuncvuqkg",
- "title": "逸民傳",
- "authors": [
-  {
-   "name": "張顯",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1jae2gjvfom4y"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "逸民傳七卷 張顯。謹按見《隋志》。兩《唐志》存三卷。“逸民”作“逸人”,蓋避太宗諱。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuncvuqkg",
+  "title": "逸民傳",
+  "authors": [
+    {
+      "name": "張顯",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1jae2gjvfom4y"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "逸民傳七卷 張顯。謹按見《隋志》。兩《唐志》存三卷。“逸民”作“逸人”,蓋避太宗諱。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《逸民傳》七卷",
+      "summary": "《逸民傳》七卷（張顯）",
+      "author_info": "張顯"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《逸民傳》七卷",
-   "summary": "《逸民傳》七卷（張顯）",
-   "author_info": "張顯"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 7
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 7
-  }
- ],
- "measure_info": "七卷",
- "ai_note": "作者繫連改指：原繫人物 1j96h8rw7k8xl，該記錄實混同名而異代之兩人；本書撰者為晉之張顯，今改指新立人物 1jae2gjvfom4y。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "juan_count": {
+    "number": 7
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 7
+    }
+  ],
+  "measure_info": "七卷",
+  "ai_note": "作者繫連改指：原繫人物 1j96h8rw7k8xl，該記錄實混同名而異代之兩人；本書撰者為晉之張顯，今改指新立人物 1jae2gjvfom4y。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

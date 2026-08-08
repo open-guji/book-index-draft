@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "id": "1evr5e3mfaxye",
- "type": "work",
- "title": "說文字源",
- "authors": [
-  {
-   "name": "李騰",
-   "role": "集",
-   "dynasty": "唐",
-   "entity_id": "1j967afjb6ae1"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "說文字源一卷",
-   "summary": "說文字源一卷。唐李騰集初李陽冰爲滑州節度使李勉篆新驛記賈耽鎮滑州見陽冰書歎其精絶因命陽冰姪騰集許慎說文目錄五百餘字刋于石以爲世法云"
+  "schema_version": 1,
+  "id": "1evr5e3mfaxye",
+  "type": "work",
+  "title": "說文字源",
+  "authors": [
+    {
+      "name": "李騰",
+      "role": "集",
+      "dynasty": "唐",
+      "entity_id": "1j967afjb6ae1"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《說文字源》一卷",
-   "summary": "《說文字源》一卷（唐李騰集。）",
-   "author_info": "唐李騰集。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李騰說文字源",
-   "summary": "李騰說文字源一卷",
-   "merged_from": "1evcs0b4yhdkw"
-  }
- ],
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "merged_in": [
-  {
-   "id": "1evcs0b4yhdkw",
-   "title": "李騰說文字源",
-   "author": "李騰",
-   "title_info": "李騰說文字源",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「李騰說文字源」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李騰」已見本條 authors[]），裸題「說文字源」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "說文字源一卷",
+      "summary": "說文字源一卷。唐李騰集初李陽冰爲滑州節度使李勉篆新驛記賈耽鎮滑州見陽冰書歎其精絶因命陽冰姪騰集許慎說文目錄五百餘字刋于石以爲世法云"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《說文字源》一卷",
+      "summary": "《說文字源》一卷（唐李騰集。）",
+      "author_info": "唐李騰集。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李騰說文字源",
+      "summary": "李騰說文字源一卷",
+      "merged_from": "1evcs0b4yhdkw"
+    }
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "merged_in": [
+    {
+      "id": "1evcs0b4yhdkw",
+      "title": "李騰說文字源",
+      "author": "李騰",
+      "title_info": "李騰說文字源",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「李騰說文字源」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李騰」已見本條 authors[]），裸題「說文字源」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

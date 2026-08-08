@@ -1,72 +1,72 @@
 {
- "schema_version": 1,
- "id": "1ev3bdix51vr4",
- "type": "work",
- "title": "竹居集",
- "authors": [
-  {
-   "name": "王珙",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j96hjwlxny32"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "欽定四庫全書總目",
-   "source_bid": "d59dh3vo9af4",
-   "title_info": "《竹居集》•一卷",
-   "author_info": "明王珙撰",
-   "summary": "明王珙撰。珙字廷珪，常熟人。是集為其曾孫仲申所輯，其六世孫古始刊版。朱彝尊《明詩綜》不載其名，蓋偶未見也。其詩多用《洪武正韻》，蓋當時功令使然。大致出入於月泉吟社一派，亦時有秀句。而邊幅單窘，興象未深，數首之後，語意略同。觀卷中絕無古體，其根柢可知矣。",
-   "edition": "兩淮馬裕家藏本"
+  "schema_version": 1,
+  "id": "1ev3bdix51vr4",
+  "type": "work",
+  "title": "竹居集",
+  "authors": [
+    {
+      "name": "王珙",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j96hjwlxny32"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《竹居集》•一卷",
+      "author_info": "明王珙撰",
+      "summary": "明王珙撰。珙字廷珪，常熟人。是集為其曾孫仲申所輯，其六世孫古始刊版。朱彝尊《明詩綜》不載其名，蓋偶未見也。其詩多用《洪武正韻》，蓋當時功令使然。大致出入於月泉吟社一派，亦時有秀句。而邊幅單窘，興象未深，數首之後，語意略同。觀卷中絕無古體，其根柢可知矣。",
+      "edition": "兩淮馬裕家藏本"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《竹居集》一卷",
+      "author_info": "明王珙撰",
+      "summary": "《竹居集》一卷。明王珙撰。北京圖書館藏清嘉慶六年王氏十萬卷樓鈔本。",
+      "edition": "北京圖書館藏清嘉慶六年王氏十萬卷樓鈔本",
+      "volume": "第25冊",
+      "section": "集部"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王珙竹居集》一卷",
+      "summary": "《王珙竹居集》一卷",
+      "merged_from": "1evgqebrllibk"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "四庫全書存目叢書",
-   "source_bid": "1evjxczyavy80",
-   "title_info": "《竹居集》一卷",
-   "author_info": "明王珙撰",
-   "summary": "《竹居集》一卷。明王珙撰。北京圖書館藏清嘉慶六年王氏十萬卷樓鈔本。",
-   "edition": "北京圖書館藏清嘉慶六年王氏十萬卷樓鈔本",
-   "volume": "第25冊",
-   "section": "集部"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《王珙竹居集》一卷",
-   "summary": "《王珙竹居集》一卷",
-   "merged_from": "1evgqebrllibk"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "merged_in": [
-  {
-   "id": "1evgqebrllibk",
-   "title": "王珙竹居集",
-   "author": "王珙",
-   "title_info": "王珙竹居集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「王珙竹居集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「王珙」已見本條 authors[]），裸題「竹居集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "merged_in": [
+    {
+      "id": "1evgqebrllibk",
+      "title": "王珙竹居集",
+      "author": "王珙",
+      "title_info": "王珙竹居集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「王珙竹居集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「王珙」已見本條 authors[]），裸題「竹居集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

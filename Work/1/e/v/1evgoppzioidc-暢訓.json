@@ -1,50 +1,50 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "暢訓",
- "authors": [
-  {
-   "name": "伏勝",
-   "role": "撰",
-   "dynasty": "漢",
-   "entity_id": "1j967afjbsrjd"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《暢訓》一卷、又百篇",
-   "summary": "《暢訓》一卷、又百篇（漢伏勝）",
-   "author_info": "漢伏勝"
+  "schema_version": 1,
+  "type": "work",
+  "title": "暢訓",
+  "authors": [
+    {
+      "name": "伏勝",
+      "role": "撰",
+      "dynasty": "漢",
+      "entity_id": "1j967afjbsrjd"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "又暢訓",
-   "summary": "又暢訓一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"暢訓\" 唯一候选无作者\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcs07blr4lc（暢訓）。本組 title=暢訓，有 author 條之作者=伏勝，noauthor 條 1evcs07blr4lc 為志書連書省撰人體例（新唐書藝文志），判定同書。共移入 1 個 indexed_by 記錄。",
- "id": "1evgoppzioidc",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-08-08",
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」",
- "emendated_by": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《暢訓》一卷、又百篇",
+      "summary": "《暢訓》一卷、又百篇（漢伏勝）",
+      "author_info": "漢伏勝"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又暢訓",
+      "summary": "又暢訓一卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"暢訓\" 唯一候选无作者\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcs07blr4lc（暢訓）。本組 title=暢訓，有 author 條之作者=伏勝，noauthor 條 1evcs07blr4lc 為志書連書省撰人體例（新唐書藝文志），判定同書。共移入 1 個 indexed_by 記錄。",
+  "id": "1evgoppzioidc",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-08",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "emendated_by": []
 }

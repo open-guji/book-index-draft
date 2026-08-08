@@ -1,63 +1,63 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "閩川名士傳",
- "authors": [
-  {
-   "name": "黃璞",
-   "role": "撰",
-   "entity_id": "1j969lr2spj55"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《閩川名士傳》三卷",
-   "summary": "《閩川名士傳》三卷（黄璞）",
-   "author_info": "黄璞"
+  "schema_version": 1,
+  "type": "work",
+  "title": "閩川名士傳",
+  "authors": [
+    {
+      "name": "黃璞",
+      "role": "撰",
+      "entity_id": "1j969lr2spj55"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "summary": "閩川名士傳"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《閩川名士傳》三卷",
+      "summary": "《閩川名士傳》三卷（黄璞）",
+      "author_info": "黄璞"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "閩川名士傳"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "黃璞閩川名士傳",
+      "summary": "黃璞閩川名士傳一卷",
+      "merged_from": "1evcs0giiv474"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "黃璞閩川名士傳",
-   "summary": "黃璞閩川名士傳一卷",
-   "merged_from": "1evcs0giiv474"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpj0ppizgg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-05-14T02:04:40-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0giiv474",
-   "title": "黃璞閩川名士傳",
-   "author": "黃璞",
-   "title_info": "黃璞閩川名士傳",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「黃璞閩川名士傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「黃璞」已見本條 authors[]），裸題「閩川名士傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evgpj0ppizgg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-05-14T02:04:40-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0giiv474",
+      "title": "黃璞閩川名士傳",
+      "author": "黃璞",
+      "title_info": "黃璞閩川名士傳",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「黃璞閩川名士傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「黃璞」已見本條 authors[]），裸題「閩川名士傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

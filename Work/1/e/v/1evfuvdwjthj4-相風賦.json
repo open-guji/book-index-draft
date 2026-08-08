@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvdwjthj4",
- "title": "相風賦",
- "authors": [
-  {
-   "name": "傅玄",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hffentc00"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "相風賦七卷 傅玄等。謹按見《七錄》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 7
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 7
-  }
- ],
- "measure_info": "七卷",
- "ai_note": "撰人「等」字剝離：著錄作「傅玄等」，「等」謂傅玄及其他未具名之纂修者，非姓名之一部，今剝離作「傅玄」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvdwjthj4",
+  "title": "相風賦",
+  "authors": [
+    {
+      "name": "傅玄",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96hffentc00",
+      "dynasty_basis": "manual:historical_figure(傅玄(217-278)，字休奕，西晉政治家文學家)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "相風賦七卷 傅玄等。謹按見《七錄》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 7
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 7
+    }
+  ],
+  "measure_info": "七卷",
+  "ai_note": "撰人「等」字剝離：著錄作「傅玄等」，「等」謂傅玄及其他未具名之纂修者，非姓名之一部，今剝離作「傅玄」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvk0bidq8",
- "title": "方言",
- "authors": [
-  {
-   "name": "劉銑",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hhvcrjviq"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "方言二卷 劉,謹按見《魏書》傳。史部東晋新書七卷 銑,謹按見《七錄》。《册府元龜》次在晋代。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 2
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「劉」，今作「劉銑」。案語：「方言二卷 劉，見《魏書》傳。史部東晉新書七卷 銑。」《隋志》著錄《東晉新書》七卷題劉銑撰。「劉」與劉銑之姓合，「銑」同條見。劉銑為東晉人。《方言》二卷或亦劉銑撰。丁國鈞補志兩說並列，從劉銑說。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvk0bidq8",
+  "title": "方言",
+  "authors": [
+    {
+      "name": "劉銑",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hhvcrjviq"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "方言二卷 劉,謹按見《魏書》傳。史部東晋新書七卷 銑,謹按見《七錄》。《册府元龜》次在晋代。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「劉」，今作「劉銑」。案語：「方言二卷 劉，見《魏書》傳。史部東晉新書七卷 銑。」《隋志》著錄《東晉新書》七卷題劉銑撰。「劉」與劉銑之姓合，「銑」同條見。劉銑為東晉人。《方言》二卷或亦劉銑撰。丁國鈞補志兩說並列，從劉銑說。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

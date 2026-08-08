@@ -1,47 +1,49 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7t8yg",
- "type": "work",
- "title": "論語注釋",
- "authors": [
-  {
-   "name": "梁凱",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96heas4n2m8"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "論語註釋",
-   "summary": "晉梁凱《論語註釋》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部四書類輯佚條目。 來源：清史稿藝文志經部四書類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7w0euvaeww",
-   "title": "論語",
-   "relation": "contains_text_of"
-  }
- ],
- "additional_titles": [
-  "論語註釋"
- ],
- "updated_at": "2026-08-07T15:25:19+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "loss_status": "lost"
+  "schema_version": 1,
+  "id": "1evr5e3m7t8yg",
+  "type": "work",
+  "title": "論語注釋",
+  "authors": [
+    {
+      "name": "梁凱",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96heas4n2m8"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "論語註釋",
+      "summary": "晉梁凱《論語註釋》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部四書類輯佚條目。 來源：清史稿藝文志經部四書類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "contains_text_of"
+    }
+  ],
+  "additional_titles": [
+    "論語註釋"
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "loss_status": "lost",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

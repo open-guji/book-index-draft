@@ -1,62 +1,62 @@
 {
- "schema_version": 1,
- "id": "1ev3bdo90kcg0",
- "type": "work",
- "title": "甘泉集",
- "authors": [
-  {
-   "name": "湛若水",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j967avzkeucy"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "欽定四庫全書總目",
-   "source_bid": "d59dh3vo9af4",
-   "title_info": "《甘泉集》·三十二卷",
-   "author_info": "明湛若水撰",
-   "summary": "明湛若水撰。若水有《二禮經傳測》，已著錄。據若水門人洪垣所記，其集本四十八冊，刊以行世者十五冊。此本凡《樵語》一卷，《新論》一卷，《雍語》一卷，《二業合一訓》一卷，《大科訓規》一卷，《書》一卷。《新泉問辨錄》一卷，《新泉問辨續錄》一卷，《問疑錄》一卷，《問疑續錄》一卷，《金陵問答》一卷，《金台問答》一卷，《書問》二卷，《古樂經傳或問》一卷，序記章疏三卷，講章一卷，雜著一卷，約言一卷，語錄一卷，《揚子折衷略》一卷，《非老子略》一卷，詩二卷，《歸來紀行略》一卷、《岳游紀行略》一卷，祭文、碑銘二卷，外集一卷。蓋語錄居十之九，詩文其餘贅耳。",
-   "edition": "廣東巡撫采進本"
+  "schema_version": 1,
+  "id": "1ev3bdo90kcg0",
+  "type": "work",
+  "title": "甘泉集",
+  "authors": [
+    {
+      "name": "湛若水",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967avzkeucy"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《甘泉集》·三十二卷",
+      "author_info": "明湛若水撰",
+      "summary": "明湛若水撰。若水有《二禮經傳測》，已著錄。據若水門人洪垣所記，其集本四十八冊，刊以行世者十五冊。此本凡《樵語》一卷，《新論》一卷，《雍語》一卷，《二業合一訓》一卷，《大科訓規》一卷，《書》一卷。《新泉問辨錄》一卷，《新泉問辨續錄》一卷，《問疑錄》一卷，《問疑續錄》一卷，《金陵問答》一卷，《金台問答》一卷，《書問》二卷，《古樂經傳或問》一卷，序記章疏三卷，講章一卷，雜著一卷，約言一卷，語錄一卷，《揚子折衷略》一卷，《非老子略》一卷，詩二卷，《歸來紀行略》一卷、《岳游紀行略》一卷，祭文、碑銘二卷，外集一卷。蓋語錄居十之九，詩文其餘贅耳。",
+      "edition": "廣東巡撫采進本"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《湛若水甘泉集》六十六卷",
+      "summary": "《湛若水甘泉集》六十六卷",
+      "merged_from": "1evgqexdrwhs0"
+    }
+  ],
+  "juan_count": {
+    "number": 32
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《湛若水甘泉集》六十六卷",
-   "summary": "《湛若水甘泉集》六十六卷",
-   "merged_from": "1evgqexdrwhs0"
-  }
- ],
- "juan_count": {
-  "number": 32
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 32
-  }
- ],
- "measure_info": "三十二卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "merged_in": [
-  {
-   "id": "1evgqexdrwhs0",
-   "title": "湛若水甘泉集",
-   "author": "湛若水",
-   "title_info": "湛若水甘泉集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「湛若水甘泉集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「湛若水」已見本條 authors[]），裸題「甘泉集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 32
+    }
+  ],
+  "measure_info": "三十二卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "merged_in": [
+    {
+      "id": "1evgqexdrwhs0",
+      "title": "湛若水甘泉集",
+      "author": "湛若水",
+      "title_info": "湛若水甘泉集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「湛若水甘泉集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「湛若水」已見本條 authors[]），裸題「甘泉集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

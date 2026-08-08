@@ -1,32 +1,35 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuutrscc8w",
- "title": "北征記",
- "authors": [
-  {
-   "name": "伏滔",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfdogs3k0"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "北征記 伏 。謹按是書《續漢書·郡國志》、《文選》注、《御覽》均引。《水經注》則引作“伏 ”。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「伏」，今補全為「伏滔」。據《晉書·文苑傳·伏滔》及案語「《水經注》引作伏某」。伏滔字玄度，平昌安丘人，東晉文人，《北征記》為其從桓溫北征紀行之作。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuutrscc8w",
+  "title": "北征記",
+  "authors": [
+    {
+      "name": "伏滔",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hfdogs3k0",
+      "dynasty_basis": "manual:historical_figure(伏滔，東晉文學家)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "北征記 伏 。謹按是書《續漢書·郡國志》、《文選》注、《御覽》均引。《水經注》則引作“伏 ”。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「伏」，今補全為「伏滔」。據《晉書·文苑傳·伏滔》及案語「《水經注》引作伏某」。伏滔字玄度，平昌安丘人，東晉文人，《北征記》為其從桓溫北征紀行之作。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

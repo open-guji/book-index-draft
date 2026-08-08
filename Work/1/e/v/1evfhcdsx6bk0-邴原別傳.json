@@ -1,33 +1,36 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "邴原別傳",
- "authors": [
-  {
-   "name": "佚名",
-   "role": "撰",
-   "dynasty": "魏",
-   "entity_id": "1j96kfmcts0zk"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "邴原別傳",
-   "summary": "邴原別傳"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhcdsx6bk0",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "three-kingdoms",
- "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "title": "邴原別傳",
+  "authors": [
+    {
+      "name": "佚名",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96kfmcts0zk",
+      "dynasty_basis": "indexed_by:三國藝文志"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "邴原別傳",
+      "summary": "邴原別傳"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "id": "1evfhcdsx6bk0",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,40 +1,41 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "春秋公羊傳注",
- "authors": [
-  {
-   "name": "唐固",
-   "role": "注",
-   "dynasty": "吳",
-   "entity_id": "1j96hf8zmn668"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "唐固春秋公羊傳注",
-   "summary": "唐固 春秋公羊傳注\n《吴志》闞澤附傳:“澤州里先輩丹陽唐固亦修身積學,稱爲儒者,著《國語》、《公羊》、《穀梁傳》注,講授常數十人。權爲吴王,拜固議郎,自陸遜、張温、駱統等皆拜之。黃武四年爲尙書僕射,卒。”裴松之曰:“《吴錄》曰:固字子正,卒時年七十餘矣。”按《冊府元》云固字世正。或音聲之誤,或唐人避諱改爲子正。\n《唐書·宰相世系表》:“唐睢七世,至漢中郎將蒙,蒙生臨令都,都孫尙書令林,王莽時封建德侯。林六世至翔爲丹陽太守,因家焉。翔二子固、 。固吴尙書 射。”按固弟 著子書,見子部道家。",
-   "section": "經部／春秋公羊家學",
-   "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhb6r9usjk",
- "related_works": [
-  {
-   "id": "1ev7vo52r3ev4",
-   "title": "公羊傳",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "春秋公羊傳注",
+  "authors": [
+    {
+      "name": "唐固",
+      "role": "注",
+      "dynasty": "三國吳",
+      "entity_id": "1j96hf8zmn668",
+      "dynasty_basis": "indexed_by:三國藝文志"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "唐固春秋公羊傳注",
+      "summary": "唐固 春秋公羊傳注\n《吴志》闞澤附傳:“澤州里先輩丹陽唐固亦修身積學,稱爲儒者,著《國語》、《公羊》、《穀梁傳》注,講授常數十人。權爲吴王,拜固議郎,自陸遜、張温、駱統等皆拜之。黃武四年爲尙書僕射,卒。”裴松之曰:“《吴錄》曰:固字子正,卒時年七十餘矣。”按《冊府元》云固字世正。或音聲之誤,或唐人避諱改爲子正。\n《唐書·宰相世系表》:“唐睢七世,至漢中郎將蒙,蒙生臨令都,都孫尙書令林,王莽時封建德侯。林六世至翔爲丹陽太守,因家焉。翔二子固、 。固吴尙書 射。”按固弟 著子書,見子部道家。",
+      "section": "經部／春秋公羊家學",
+      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "id": "1evfhb6r9usjk",
+  "related_works": [
+    {
+      "id": "1ev7vo52r3ev4",
+      "title": "公羊傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00"
 }

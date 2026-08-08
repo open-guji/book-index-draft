@@ -1,96 +1,96 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "四時纂要",
- "indexed_by": [
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《四時纂要》",
-   "summary": "韓鄂《四時纂要》十卷"
-  },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "四時纂要五卷",
-   "summary": "四時纂要五卷"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《四時纂要》五卷",
-   "summary": "《四時纂要》五卷（韓諤）",
-   "author_info": "韓諤"
-  },
-  {
-   "source": "續修四庫全書",
-   "source_bid": "1evjk1whvmznk",
-   "title_info": "《四時纂要》五卷",
-   "author_info": "唐韓鄂撰",
-   "summary": "《四時纂要》五卷。唐韓鄂撰。影印明萬曆十八年朝鮮刻本。",
-   "edition": "影印明萬曆十八年朝鮮刻本",
-   "volume": "第975冊",
-   "section": "農家類"
-  },
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "summary": "四時纂要"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "韓鄂四時纂要",
-   "summary": "韓鄂四時纂要五卷",
-   "merged_from": "1evcs0qcurugw"
-  }
- ],
- "id": "1evcsxvslklxc",
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E5%9B%9B%E6%99%82%E7%BA%82%E8%A6%81",
-   "types": [
-    "text"
-   ]
-  },
-  {
-   "id": "wikimedia-commons-xuxiu",
-   "name": "維基共享 續修四庫全書 PDF",
-   "short_name": "維基共享",
-   "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0975%E5%86%8A.pdf",
-   "metadata": {
-    "volume": 975
-   },
-   "types": [
-    "image"
-   ]
-  }
- ],
- "authors": [
-  {
-   "name": "韓鄂",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j967bgl7n18l"
-  }
- ],
- "ai_note": "作者 \"唐韓鄂撰\" 補自《續修四庫全書》目錄。　合併：題名「韓鄂四時纂要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韓鄂」已見本條 authors[]），裸題「四時纂要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "_has_text": true,
- "_has_image": true,
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "merged_in": [
-  {
-   "id": "1evcs0qcurugw",
-   "title": "韓鄂四時纂要",
-   "author": "韓鄂",
-   "title_info": "韓鄂四時纂要",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ]
+  "schema_version": 1,
+  "type": "work",
+  "title": "四時纂要",
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《四時纂要》",
+      "summary": "韓鄂《四時纂要》十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "四時纂要五卷",
+      "summary": "四時纂要五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《四時纂要》五卷",
+      "summary": "《四時纂要》五卷（韓諤）",
+      "author_info": "韓諤"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《四時纂要》五卷",
+      "author_info": "唐韓鄂撰",
+      "summary": "《四時纂要》五卷。唐韓鄂撰。影印明萬曆十八年朝鮮刻本。",
+      "edition": "影印明萬曆十八年朝鮮刻本",
+      "volume": "第975冊",
+      "section": "農家類"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "四時纂要"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "韓鄂四時纂要",
+      "summary": "韓鄂四時纂要五卷",
+      "merged_from": "1evcs0qcurugw"
+    }
+  ],
+  "id": "1evcsxvslklxc",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%9B%9B%E6%99%82%E7%BA%82%E8%A6%81",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0975%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 975
+      },
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "韓鄂",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl7n18l"
+    }
+  ],
+  "ai_note": "作者 \"唐韓鄂撰\" 補自《續修四庫全書》目錄。　合併：題名「韓鄂四時纂要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韓鄂」已見本條 authors[]），裸題「四時纂要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "_has_text": true,
+  "_has_image": true,
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "merged_in": [
+    {
+      "id": "1evcs0qcurugw",
+      "title": "韓鄂四時纂要",
+      "author": "韓鄂",
+      "title_info": "韓鄂四時纂要",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ]
 }

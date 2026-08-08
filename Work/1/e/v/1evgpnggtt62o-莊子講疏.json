@@ -1,40 +1,40 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "莊子講疏",
- "authors": [
-  {
-   "name": "張機",
-   "role": "撰",
-   "entity_id": null
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《莊子講疏》二卷",
-   "summary": "《莊子講疏》二卷（張機）",
-   "author_info": "張機"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpnggtt62o",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-08-08",
- "ai_note": "2026-08-08 同名異書核對：本條作者「張機」與醫家張仲景（解除關聯前為 1j96ad68m1zpc）同名，但《莊子講疏》與醫家身分不符，且僅國史經籍志孤證。判定不屬同一人，已解除 entity_id 關聯，保留原作者名以待新实体或再考。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "莊子講疏",
+  "authors": [
+    {
+      "name": "張機",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《莊子講疏》二卷",
+      "summary": "《莊子講疏》二卷（張機）",
+      "author_info": "張機"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpnggtt62o",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-08",
+  "ai_note": "2026-08-08 同名異書核對：本條作者「張機」與醫家張仲景（解除關聯前為 1j96ad68m1zpc）同名，但《莊子講疏》與醫家身分不符，且僅國史經籍志孤證。判定不屬同一人，已解除 entity_id 關聯，保留原作者名以待新实体或再考。"
 }

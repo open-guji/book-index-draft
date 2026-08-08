@@ -1,54 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuf3bvx8g",
- "title": "後漢書",
- "authors": [
-  {
-   "name": "謝沈",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96a9eeaj4sg"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "後漢書八十五卷 祠部郎謝沈。謹按見《隋志》。舊注是書本一百二十二卷,《舊唐志》作“一百三十三卷”,《新唐志》則作“一百二卷”。今 沈傳,實祇百卷。《隋志》注及《舊唐志》疑均有《新志》較沈傳多二卷,或係是書之《錄》也。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 85
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 85
-  }
- ],
- "measure_info": "八十五卷",
- "related_works": [
-  {
-   "id": "1euidlec1g8ow",
-   "title": "漢書",
-   "relation": "contains_text_of"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuf3bvx8g",
+  "title": "後漢書",
+  "authors": [
+    {
+      "name": "謝沈",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96a9eeaj4sg",
+      "dynasty_basis": "entity_propagation:entity_id=1j96a9eeaj4sg"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "後漢書八十五卷 祠部郎謝沈。謹按見《隋志》。舊注是書本一百二十二卷,《舊唐志》作“一百三十三卷”,《新唐志》則作“一百二卷”。今 沈傳,實祇百卷。《隋志》注及《舊唐志》疑均有《新志》較沈傳多二卷,或係是書之《錄》也。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "id": "1ev3c1fi6kdmo",
-   "title": "後漢書光武紀贊",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "juan_count": {
+    "number": 85
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 85
+    }
+  ],
+  "measure_info": "八十五卷",
+  "related_works": [
+    {
+      "id": "1euidlec1g8ow",
+      "title": "漢書",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1ev3c1fi6kdmo",
+      "title": "後漢書光武紀贊",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

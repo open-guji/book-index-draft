@@ -1,32 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvj8h7dhc",
- "title": "顯宗論",
- "authors": [
-  {
-   "name": "法祚",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hjwlyaf59"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "顯宗論 法,謹按見《高僧傳》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「法」，今補全為「法祚」。據《高僧傳·法祖傳》附法祚及案語「見《高僧傳」。《出三藏記集》明載「法祖弟法祚……著《顯宗論》」。法祚西晉僧，帛遠（法祖）之弟。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvj8h7dhc",
+  "title": "顯宗論",
+  "authors": [
+    {
+      "name": "法祚",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hjwlyaf59"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "顯宗論 法,謹按見《高僧傳》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「法」，今補全為「法祚」。據《高僧傳·法祖傳》附法祚及案語「見《高僧傳」。《出三藏記集》明載「法祖弟法祚……著《顯宗論》」。法祚西晉僧，帛遠（法祖）之弟。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

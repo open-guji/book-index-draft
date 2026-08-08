@@ -1,39 +1,41 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "穀梁傳注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "穀梁傳注 劉瑤。謹按見《穀梁義疏》。楊士助曰:“魏晋以來,注本義》,程端學撰。《穀梁》者有尹更始、唐固、麋信、孔衍、江熙、徐仙民、程 、劉瑶、胡 。”故知瑶亦東晋人也。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "劉瑤",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96keg4ane2o"
-  }
- ],
- "id": "1evfubqjzvj0g",
- "related_works": [
-  {
-   "id": "1ev7vo5574c1s",
-   "title": "穀梁傳",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "穀梁傳注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "穀梁傳注 劉瑤。謹按見《穀梁義疏》。楊士助曰:“魏晋以來,注本義》,程端學撰。《穀梁》者有尹更始、唐固、麋信、孔衍、江熙、徐仙民、程 、劉瑶、胡 。”故知瑶亦東晋人也。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "劉瑤",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": "1j96keg4ane2o"
+    }
+  ],
+  "id": "1evfubqjzvj0g",
+  "related_works": [
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

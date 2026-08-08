@@ -1,60 +1,60 @@
 {
- "schema_version": 1,
- "id": "1evdidmgb1p8g",
- "type": "work",
- "title": "東所集",
- "authors": [
-  {
-   "name": "張詡",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j969m70q2eqp"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "张诩《东所集》十卷",
-   "summary": "張詡《東所集》十卷"
+  "schema_version": 1,
+  "id": "1evdidmgb1p8g",
+  "type": "work",
+  "title": "東所集",
+  "authors": [
+    {
+      "name": "張詡",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j969m70q2eqp"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《張詡東所集》十卷",
-   "summary": "《張詡東所集》十卷",
-   "merged_from": "1evgqepw5d24g"
-  }
- ],
- "description": {
-  "text": "明代集部別集類著作。",
-  "sources": [
-   "明史藝文志"
-  ]
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "merged_in": [
-  {
-   "id": "1evgqepw5d24g",
-   "title": "張詡東所集",
-   "author": "張詡",
-   "title_info": "張詡東所集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「張詡東所集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「張詡」已見本條 authors[]），裸題「東所集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "张诩《东所集》十卷",
+      "summary": "張詡《東所集》十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《張詡東所集》十卷",
+      "summary": "《張詡東所集》十卷",
+      "merged_from": "1evgqepw5d24g"
+    }
+  ],
+  "description": {
+    "text": "明代集部別集類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "merged_in": [
+    {
+      "id": "1evgqepw5d24g",
+      "title": "張詡東所集",
+      "author": "張詡",
+      "title_info": "張詡東所集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「張詡東所集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「張詡」已見本條 authors[]），裸題「東所集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,81 +1,83 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "論集",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《論集》八十六卷殷仲堪撰。梁九十六卷。梁又有《雜論》五十八卷，《雜論》十三卷，亡。",
-   "summary": "《論集》八十六卷殷仲堪撰。梁九十六卷。梁又有《雜論》五十八卷，《雜論》十三卷，亡。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "論集",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《論集》八十六卷殷仲堪撰。梁九十六卷。梁又有《雜論》五十八卷，《雜論》十三卷，亡。",
+      "summary": "《論集》八十六卷殷仲堪撰。梁九十六卷。梁又有《雜論》五十八卷，《雜論》十三卷，亡。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "論集八十六卷 股仲堪。謹按見《隋志》。《七録》九十六卷。",
+      "merged_from": "1evfuuycd7qww"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "殷仲堪論集",
+      "summary": "殷仲堪論集九十六卷",
+      "merged_from": "1evcs0poagjk0"
+    }
+  ],
+  "authors": [
+    {
+      "name": "殷仲堪",
+      "role": "撰",
+      "entity_id": "1j96h8rw7k8xn"
+    }
+  ],
+  "juan_count": {
+    "number": 86
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "論集八十六卷 股仲堪。謹按見《隋志》。《七録》九十六卷。",
-   "merged_from": "1evfuuycd7qww"
+  "id": "1evcmnd09axhc",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《論集》八十六卷",
+      "summary": "論集八十六卷仲堪撰 梁九十六卷。梁又有《雜論》五十\n八卷。《雜論》十三卷,亡。\n殷仲堪有《毛詩雜義》,見經部詩家。\n《唐書·經籍志》總集類:《雜論》九十五卷,殷仲堪撰。\n《唐書·藝文志》:“殷仲堪《論集》九十六卷。”又總集類:“殷\n仲堪《雜論》九十五卷。”\n案《論集》與《雜論》祇是一書耳,故卷數亦略相同。本志\n《新唐志》記錄紛 乃若此。\n以上自《博物志》至此,皆雜家之不名一體者,為一類,其中\n亦略有分别,以類相從,故撰人如沈約、盧辯皆前後兩見。\n《四庫提要》所謂雜考、雜説、雜品、雜纂之屬,此皆有之。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 86
+    }
+  ],
+  "measure_info": "八十六卷",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "殷仲堪論集",
-   "summary": "殷仲堪論集九十六卷",
-   "merged_from": "1evcs0poagjk0"
-  }
- ],
- "authors": [
-  {
-   "name": "殷仲堪",
-   "role": "撰",
-   "entity_id": "1j96h8rw7k8xn"
-  }
- ],
- "juan_count": {
-  "number": 86
- },
- "id": "1evcmnd09axhc",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《論集》八十六卷",
-   "summary": "論集八十六卷仲堪撰 梁九十六卷。梁又有《雜論》五十\n八卷。《雜論》十三卷,亡。\n殷仲堪有《毛詩雜義》,見經部詩家。\n《唐書·經籍志》總集類:《雜論》九十五卷,殷仲堪撰。\n《唐書·藝文志》:“殷仲堪《論集》九十六卷。”又總集類:“殷\n仲堪《雜論》九十五卷。”\n案《論集》與《雜論》祇是一書耳,故卷數亦略相同。本志\n《新唐志》記錄紛 乃若此。\n以上自《博物志》至此,皆雜家之不名一體者,為一類,其中\n亦略有分别,以類相從,故撰人如沈約、盧辯皆前後兩見。\n《四庫提要》所謂雜考、雜説、雜品、雜纂之屬,此皆有之。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 86
-  }
- ],
- "measure_info": "八十六卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "merged_in": [
-  {
-   "id": "1evfuuycd7qww",
-   "title": "論集",
-   "author": "殷仲堪",
-   "indexed_by_moved": [
-    "補晋書藝文志"
-   ]
-  },
-  {
-   "id": "1evcs0poagjk0",
-   "title": "殷仲堪論集",
-   "author": "殷仲堪",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：裸題「論集」全庫撞名，然撞名者撰人皆同為「殷仲堪」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「論集」全庫撞名，然撞名者撰人皆同為「殷仲堪」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。"
+  "loss_status": "lost",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "merged_in": [
+    {
+      "id": "1evfuuycd7qww",
+      "title": "論集",
+      "author": "殷仲堪",
+      "indexed_by_moved": [
+        "補晋書藝文志"
+      ]
+    },
+    {
+      "id": "1evcs0poagjk0",
+      "title": "殷仲堪論集",
+      "author": "殷仲堪",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：裸題「論集」全庫撞名，然撞名者撰人皆同為「殷仲堪」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「論集」全庫撞名，然撞名者撰人皆同為「殷仲堪」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

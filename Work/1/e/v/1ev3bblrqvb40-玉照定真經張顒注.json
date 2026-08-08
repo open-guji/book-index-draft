@@ -7,8 +7,9 @@
     {
       "name": "郭璞",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j968k0jdrlz4"
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
     }
   ],
   "indexed_by": [
@@ -84,9 +85,11 @@
   ],
   "measure_info": "一卷",
   "ai_note": "從 31hyr4yqw4cnf 合併。原註：清史稿藝文志子部術數類輯佚條目。 來源：清史稿藝文志子部術數類",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

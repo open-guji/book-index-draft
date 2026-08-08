@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuthi4w00",
- "title": "遠游志",
- "authors": [
-  {
-   "name": "續",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": null
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "遠游志十卷 續。謹按見本書咸傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 10
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「續」，今作「續」。案語：「遠游志十卷 續，見本書咸傳。」「咸傳」疑指《晉書·嵇含傳》。嵇含著《南方草木狀》，然未見《遠游志》。「續」或為撰人單名，或為續撰之意。三家補志存疑。保留加注。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuthi4w00",
+  "title": "遠游志",
+  "authors": [
+    {
+      "name": "續",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": null
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "遠游志十卷 續。謹按見本書咸傳。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「續」，今作「續」。案語：「遠游志十卷 續，見本書咸傳。」「咸傳」疑指《晉書·嵇含傳》。嵇含著《南方草木狀》，然未見《遠游志》。「續」或為撰人單名，或為續撰之意。三家補志存疑。保留加注。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

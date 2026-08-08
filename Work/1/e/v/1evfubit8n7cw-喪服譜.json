@@ -1,54 +1,56 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "喪服譜",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "喪服譜一卷 蔡,謹按見《隋志》。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "喪服譜",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "喪服譜一卷 蔡,謹按見《隋志》。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《喪服譜》（蔡謨）",
+      "summary": "隋志一卷（舊唐志同）",
+      "section": "儀禮",
+      "juan": "卷一百三十六",
+      "page": "KR2n0011_WYG_136-7b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《喪服譜》（蔡謨）",
-   "summary": "隋志一卷（舊唐志同）",
-   "section": "儀禮",
-   "juan": "卷一百三十六",
-   "page": "KR2n0011_WYG_136-7b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "蔡謨",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hhvcrjvi9"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evfubit8n7cw",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「蔡」，今補全為「蔡謨」。據《晉書·蔡謨傳》及案語「見《隋志」。《全晉文》明載「蔡謨有《喪服譜》一卷」。蔡謨字道明，陳留考城人，東晉經學家。Entity原繫釋行秀，實為誤關聯，已更正。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "蔡謨",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hhvcrjvi9"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "id": "1evfubit8n7cw",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「蔡」，今補全為「蔡謨」。據《晉書·蔡謨傳》及案語「見《隋志」。《全晉文》明載「蔡謨有《喪服譜》一卷」。蔡謨字道明，陳留考城人，東晉經學家。Entity原繫釋行秀，實為誤關聯，已更正。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

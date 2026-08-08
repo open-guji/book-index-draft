@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvhxxa8zk",
- "title": "大品經序",
- "authors": [
-  {
-   "name": "釋道安",
-   "role": "撰",
-   "entity_id": "1j96a9edtzk00",
-   "dynasty": "晉"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "道安,謹按見《隋眾經目錄》。 道安,謹按見《隋眾經目錄》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 1
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": null,
- "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題（「大品經序」），其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md 粗體題「答法將難一卷大品經序一卷」下二段：「道安。謹按見《大唐內典目録》。」屬前書，「道安,謹按見《隋眾經目錄》。」屬本書。　改題撞庫：本庫已有 1evfuvioau5fk 題《大品經序》，同題而撰人異（本條道安、彼條僧叡），疑非一書，並存待覈。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修復二字殘名：釋道安（晉常山扶柳人，釋道安為摩羅什前佛教領袖），庫中2字「道安」為缺釋字之殘。",
- "loss_status": "lost",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvhxxa8zk",
+  "title": "大品經序",
+  "authors": [
+    {
+      "name": "釋道安",
+      "role": "撰",
+      "entity_id": "1j96a9edtzk00",
+      "dynasty": "東晉",
+      "dynasty_basis": "entity_propagation:entity_id=1j96a9edtzk00"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "道安,謹按見《隋眾經目錄》。 道安,謹按見《隋眾經目錄》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": null,
+  "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題（「大品經序」），其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md 粗體題「答法將難一卷大品經序一卷」下二段：「道安。謹按見《大唐內典目録》。」屬前書，「道安,謹按見《隋眾經目錄》。」屬本書。　改題撞庫：本庫已有 1evfuvioau5fk 題《大品經序》，同題而撰人異（本條道安、彼條僧叡），疑非一書，並存待覈。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修復二字殘名：釋道安（晉常山扶柳人，釋道安為摩羅什前佛教領袖），庫中2字「道安」為缺釋字之殘。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

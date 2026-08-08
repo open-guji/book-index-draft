@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "後養議",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "後養議五卷實,謹按見《七錄》。《隋志》注於是書上云:“又《七廟議》一卷。”“又”字指《七録》言。馬氏國翰輯此書序,以《七廟議》亦為寶書,誤甚。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "程實",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hjwlyaf4f"
-  }
- ],
- "juan_count": {
-  "number": 5
- },
- "id": "1evfubka1xo1s",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 5
-  }
- ],
- "measure_info": "五卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/後養議.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人原作「實」，今作「程實」。案語：「後養議五卷 實，見《七錄》。」馬國翰《玉函山房輯佚書》敘錄：「《後養議》五卷，晉程實撰。實始末未詳。」《唐志》有程氏《喪禮儀》注云程實，疑即其人。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "後養議",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "後養議五卷實,謹按見《七錄》。《隋志》注於是書上云:“又《七廟議》一卷。”“又”字指《七録》言。馬氏國翰輯此書序,以《七廟議》亦為寶書,誤甚。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "程實",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hjwlyaf4f"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "id": "1evfubka1xo1s",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/後養議.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人原作「實」，今作「程實」。案語：「後養議五卷 實，見《七錄》。」馬國翰《玉函山房輯佚書》敘錄：「《後養議》五卷，晉程實撰。實始末未詳。」《唐志》有程氏《喪禮儀》注云程實，疑即其人。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

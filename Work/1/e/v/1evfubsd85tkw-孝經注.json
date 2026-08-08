@@ -1,38 +1,40 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "孝經注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "孝經注氏。謹按見《釋文·敘錄》。陸氏云:“未詳何人。”"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "未詳",
-   "role": "注",
-   "dynasty": "晉"
-  }
- ],
- "id": "1evfubsd85tkw",
- "ai_note": "《釋文·敘錄》原作\"氏，未詳何人\"，OCR/錄入殘留為作者名「氏」，已正名為「未詳」　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "related_works": [
-  {
-   "id": "1evl1xugdoikg",
-   "title": "孝經",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "孝經注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "孝經注氏。謹按見《釋文·敘錄》。陸氏云:“未詳何人。”"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "未詳",
+      "role": "注",
+      "dynasty": "晉"
+    }
+  ],
+  "id": "1evfubsd85tkw",
+  "ai_note": "《釋文·敘錄》原作\"氏，未詳何人\"，OCR/錄入殘留為作者名「氏」，已正名為「未詳」　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

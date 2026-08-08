@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuufx4qk8w",
- "title": "論三國志",
- "authors": [
-  {
-   "name": "何琦",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96kegiarncw"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "論三國志九卷 何琦。謹按見《隋志》。舊題“何常侍”,琦所歷官也。本書琦傳作“三國論評”。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 9
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 9
-  }
- ],
- "measure_info": "九卷",
- "related_works": [
-  {
-   "id": "1ev3c1fleonpc",
-   "title": "三國志",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuufx4qk8w",
+  "title": "論三國志",
+  "authors": [
+    {
+      "name": "何琦",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96kegiarncw"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "論三國志九卷 何琦。謹按見《隋志》。舊題“何常侍”,琦所歷官也。本書琦傳作“三國論評”。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "related_works": [
+    {
+      "id": "1ev3c1fleonpc",
+      "title": "三國志",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

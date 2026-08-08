@@ -1,93 +1,93 @@
 {
- "schema_version": 1,
- "id": "1ev3bbjquygw0",
- "type": "work",
- "title": "傷寒分經",
- "authors": [
-  {
-   "name": "吳儀洛",
-   "role": "撰",
-   "dynasty": "清",
-   "entity_id": "1j967bgl6e32r"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "欽定四庫全書總目",
-   "source_bid": "d59dh3vo9af4",
-   "title_info": "《傷寒分經》•十卷",
-   "author_info": "國朝吳儀洛撰",
-   "summary": "國朝吳儀洛撰。此書為其《醫學述》之第五種，取喻嘉言所撰《尚論篇》重為訂正。凡太陽經三篇，陽明經三篇，太陰經一篇，少陰經二篇，厥陰經一篇，春溫三篇，夏熱一篇，脈法二篇，諸方一篇，補卒病論一篇，秋燥一篇，共十有九篇。",
-   "edition": "浙江巡撫采進本"
+  "schema_version": 1,
+  "id": "1ev3bbjquygw0",
+  "type": "work",
+  "title": "傷寒分經",
+  "authors": [
+    {
+      "name": "吳儀洛",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j967bgl6e32r"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《傷寒分經》•十卷",
+      "author_info": "國朝吳儀洛撰",
+      "summary": "國朝吳儀洛撰。此書為其《醫學述》之第五種，取喻嘉言所撰《尚論篇》重為訂正。凡太陽經三篇，陽明經三篇，太陰經一篇，少陰經二篇，厥陰經一篇，春溫三篇，夏熱一篇，脈法二篇，諸方一篇，補卒病論一篇，秋燥一篇，共十有九篇。",
+      "edition": "浙江巡撫采進本"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "傷寒分經",
+      "summary": "傷寒分經十卷。吳儀洛撰。"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《傷寒分經》十卷",
+      "author_info": "漢張機撰",
+      "summary": "《傷寒分經》十卷。漢張機撰。清 喻昌 增註 吳儀洛 訂 中國科學院圖書館藏清乾隆三十一年吳氏利濟堂刻吳氏醫學述本。",
+      "edition": "清 喻昌 增註 吳儀洛 訂 中國科學院圖書館藏清乾隆三十一年吳氏利濟堂刻吳氏醫學述本",
+      "volume": "第53冊",
+      "section": "子部",
+      "merged_from": "1evjxloai962o"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "傷寒分經",
-   "summary": "傷寒分經十卷。吳儀洛撰。"
-  },
-  {
-   "source": "四庫全書存目叢書",
-   "source_bid": "1evjxczyavy80",
-   "title_info": "《傷寒分經》十卷",
-   "author_info": "漢張機撰",
-   "summary": "《傷寒分經》十卷。漢張機撰。清 喻昌 增註 吳儀洛 訂 中國科學院圖書館藏清乾隆三十一年吳氏利濟堂刻吳氏醫學述本。",
-   "edition": "清 喻昌 增註 吳儀洛 訂 中國科學院圖書館藏清乾隆三十一年吳氏利濟堂刻吳氏醫學述本",
-   "volume": "第53冊",
-   "section": "子部",
-   "merged_from": "1evjxloai962o"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "resources": [
-  {
-   "id": "ctext",
-   "name": "CText",
-   "url": "https://ctext.org/wiki.pl?if=gb&res=6232107",
-   "types": [
-    "text"
-   ]
-  },
-  {
-   "id": "shidianguji-qianlonglijitangkanb",
-   "name": "识典古籍",
-   "url": "https://www.shidianguji.com/book/NA08357",
-   "metadata": {
-    "edition": "乾隆31年利濟堂刊本",
-    "version": "v6",
-    "total_page": 1216,
-    "paragraph_count": 1370,
-    "check_type": "粗校"
-   },
-   "types": [
-    "text",
-    "image"
-   ]
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-08T00:11:51+00:00",
- "_has_text": true,
- "_has_image": true,
- "period": "qing",
- "period_basis": "據 authors[0].dynasty「清」",
- "merged_in": [
-  {
-   "id": "1evjxloai962o",
-   "title": "傷寒分經",
-   "author": "張機",
-   "indexed_by_moved": [
-    "四庫全書存目叢書"
-   ]
-  }
- ],
- "ai_note": "　合併：自 1evjxloai962o 併入，2026-08-08——傷寒分經十卷，張機條之四庫全書存目叢書著錄原文明言「漢張機撰，清喻昌增註，吳儀洛訂」——即吳儀洛據張仲景原著之訂正本，同書，經人核准合併。"
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=6232107",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-qianlonglijitangkanb",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/NA08357",
+      "metadata": {
+        "edition": "乾隆31年利濟堂刊本",
+        "version": "v6",
+        "total_page": 1216,
+        "paragraph_count": 1370,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-08T00:11:51+00:00",
+  "_has_text": true,
+  "_has_image": true,
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "merged_in": [
+    {
+      "id": "1evjxloai962o",
+      "title": "傷寒分經",
+      "author": "張機",
+      "indexed_by_moved": [
+        "四庫全書存目叢書"
+      ]
+    }
+  ],
+  "ai_note": "　合併：自 1evjxloai962o 併入，2026-08-08——傷寒分經十卷，張機條之四庫全書存目叢書著錄原文明言「漢張機撰，清喻昌增註，吳儀洛訂」——即吳儀洛據張仲景原著之訂正本，同書，經人核准合併。"
 }

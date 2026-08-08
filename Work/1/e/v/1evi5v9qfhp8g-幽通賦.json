@@ -1,46 +1,46 @@
 {
- "schema_version": 1,
- "id": "1evi5v9qfhp8g",
- "type": "work",
- "subtype": "article",
- "title": "幽通賦",
- "authors": [
-  {
-   "name": "班固",
-   "dynasty": "漢",
-   "role": "作",
-   "entity_id": "1j967afjb6ae0"
-  }
- ],
- "resources": [
-  {
-   "id": "wikisource",
-   "name": "維基文庫",
-   "url": "https://zh.wikisource.org/wiki/%E5%B9%BD%E9%80%9A%E8%B3%A6",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "related_works": [
-  {
-   "id": "1evi5uod20l4w",
-   "title": "昭明文選",
-   "relation": "collected_in"
-  }
- ],
- "updated_at": "2026-08-08",
- "_has_text": true,
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《幽通賦》一卷",
-   "summary": "《幽通賦》一卷班固撰，曹大家注。"
-  }
- ],
- "emendated_by": [],
- "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8m2xkow（幽通賦）。本組 title=幽通賦，有 author 條之作者=班固，noauthor 條 1evcpd8m2xkow 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。"
+  "schema_version": 1,
+  "id": "1evi5v9qfhp8g",
+  "type": "work",
+  "subtype": "article",
+  "title": "幽通賦",
+  "authors": [
+    {
+      "name": "班固",
+      "dynasty": "漢",
+      "role": "作",
+      "entity_id": "1j967afjb6ae0"
+    }
+  ],
+  "resources": [
+    {
+      "id": "wikisource",
+      "name": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BD%E9%80%9A%E8%B3%A6",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evi5uod20l4w",
+      "title": "昭明文選",
+      "relation": "collected_in"
+    }
+  ],
+  "updated_at": "2026-08-08",
+  "_has_text": true,
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《幽通賦》一卷",
+      "summary": "《幽通賦》一卷班固撰，曹大家注。"
+    }
+  ],
+  "emendated_by": [],
+  "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8m2xkow（幽通賦）。本組 title=幽通賦，有 author 條之作者=班固，noauthor 條 1evcpd8m2xkow 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。"
 }

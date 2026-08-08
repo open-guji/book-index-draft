@@ -1,41 +1,43 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvi2ul1j4",
- "title": "鞞婆沙序",
- "authors": [
-  {
-   "name": "釋道安",
-   "role": "撰",
-   "dynasty": "晉"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "十四卷 婆序一卷 道安,謹按見《隋眾經目録》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 1
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "1卷",
- "ai_note": "著錄誤切復原：本條原題《十四卷》、作者欄作「婆序一卷 道安」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「婆序一卷 道安」實為書名與卷數之殘文，非人名。原文當作「鞞婆沙序一卷 道安」，缺「鞞」「沙」二字。標題原作「十四卷」係前一條之殘尾，非書名。道安（312-385）東晉高僧。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。 按：本書原被偽人物 Entity 1j96hffoyc0sg（名作「婆序一卷 道安」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvi2ul1j4",
+  "title": "鞞婆沙序",
+  "authors": [
+    {
+      "name": "釋道安",
+      "role": "撰",
+      "dynasty": "晉"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "十四卷 婆序一卷 道安,謹按見《隋眾經目録》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "1卷",
+  "ai_note": "著錄誤切復原：本條原題《十四卷》、作者欄作「婆序一卷 道安」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「婆序一卷 道安」實為書名與卷數之殘文，非人名。原文當作「鞞婆沙序一卷 道安」，缺「鞞」「沙」二字。標題原作「十四卷」係前一條之殘尾，非書名。道安（312-385）東晉高僧。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。 按：本書原被偽人物 Entity 1j96hffoyc0sg（名作「婆序一卷 道安」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

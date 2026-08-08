@@ -1,70 +1,70 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "類禮",
- "authors": [
-  {
-   "name": "陸質",
-   "role": "撰",
-   "entity_id": "1j967avzkeudf"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《類禮》二十卷",
-   "summary": "《類禮》二十卷（陸質）",
-   "author_info": "陸質"
+  "schema_version": 1,
+  "type": "work",
+  "title": "類禮",
+  "authors": [
+    {
+      "name": "陸質",
+      "role": "撰",
+      "entity_id": "1j967avzkeudf"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《類禮》（陸質）",
-   "summary": "唐志二十卷",
-   "section": "通禮",
-   "juan": "卷一百六十六",
-   "page": "KR2n0011_WYG_166-16a",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《類禮》二十卷",
+      "summary": "《類禮》二十卷（陸質）",
+      "author_info": "陸質"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《類禮》（陸質）",
+      "summary": "唐志二十卷",
+      "section": "通禮",
+      "juan": "卷一百六十六",
+      "page": "KR2n0011_WYG_166-16a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "陸質類禮",
+      "summary": "陸質類禮二十卷",
+      "merged_from": "1evcs08aa14w0"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "陸質類禮",
-   "summary": "陸質類禮二十卷",
-   "merged_from": "1evcs08aa14w0"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgoqh9c2znk",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-08-06T16:13:13+00:00",
- "merged_in": [
-  {
-   "id": "1evcs08aa14w0",
-   "title": "陸質類禮",
-   "author": "陸質",
-   "title_info": "陸質類禮",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「陸質類禮」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「陸質」已見本條 authors[]），裸題「類禮」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evgoqh9c2znk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "merged_in": [
+    {
+      "id": "1evcs08aa14w0",
+      "title": "陸質類禮",
+      "author": "陸質",
+      "title_info": "陸質類禮",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「陸質類禮」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「陸質」已見本條 authors[]），裸題「類禮」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

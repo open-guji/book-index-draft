@@ -1,24 +1,26 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "通玄經",
- "indexed_by": [
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《通玄經》",
-   "summary": "支義方《通玄經》十卷呂廣"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "通玄經四卷 王長文。謹按見本書長文傳。《七録》有《通經》二卷,云:“丞相從事中郎王長元撰。”即是書,而亡佚二卷。“長元”則“長文”之 也。"
-  }
- ],
- "id": "1evcsyimxbzeo",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”即是書,而亡佚二卷」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "title": "通玄經",
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《通玄經》",
+      "summary": "支義方《通玄經》十卷呂廣"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "通玄經四卷 王長文。謹按見本書長文傳。《七録》有《通經》二卷,云:“丞相從事中郎王長元撰。”即是書,而亡佚二卷。“長元”則“長文”之 也。"
+    }
+  ],
+  "id": "1evcsyimxbzeo",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”即是書,而亡佚二卷」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

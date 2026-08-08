@@ -8,9 +8,10 @@
       "name": "虞預",
       "courtesy_name": "叔寧",
       "role": "撰",
-      "dynasty": "晉",
+      "dynasty": "西晉",
       "note": "會稽餘姚人。散騎常侍。本四十四卷，今殘缺。",
-      "entity_id": "1j967cp21keu2"
+      "entity_id": "1j967cp21keu2",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp21keu2"
     }
   ],
   "juan_count": {
@@ -48,7 +49,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

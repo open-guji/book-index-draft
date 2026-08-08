@@ -1,43 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvc0tmuio",
- "title": "孔潘集",
- "authors": [
-  {
-   "name": "孔潘",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96ha8w4thc0"
-  }
- ],
- "juan_count": {
-  "number": 2,
-  "description": ""
- },
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "右軍參軍孔 集二卷謹按見《隋志》。兩《唐志》均作“孔之”。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvc0tmuio",
+  "title": "孔潘集",
+  "authors": [
+    {
+      "name": "孔潘",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96ha8w4thc0"
+    }
+  ],
+  "juan_count": {
+    "number": 2,
+    "description": ""
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《孔潘集》二卷",
-   "summary": "《孔潘集》二卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "2026-08-08 Batch16合併：原1evgqazshf0g0（連書省撰人：孔潘集以孔潘起首，無撰人條來自國史經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "measure_info": "二卷"
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "右軍參軍孔 集二卷謹按見《隋志》。兩《唐志》均作“孔之”。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孔潘集》二卷",
+      "summary": "《孔潘集》二卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "2026-08-08 Batch16合併：原1evgqazshf0g0（連書省撰人：孔潘集以孔潘起首，無撰人條來自國史經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "measure_info": "二卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

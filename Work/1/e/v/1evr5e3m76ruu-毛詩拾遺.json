@@ -1,62 +1,65 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m76ruu",
- "type": "work",
- "title": "毛詩拾遺",
- "authors": [
-  {
-   "name": "郭璞",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j968k0jdrlz4"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "毛詩拾遺",
-   "summary": "晉郭璞《毛詩拾遺》一卷。"
+  "schema_version": 1,
+  "id": "1evr5e3m76ruu",
+  "type": "work",
+  "title": "毛詩拾遺",
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《毛詩拾遺》一卷",
-   "summary": "《毛詩拾遺》一卷（郭璞）",
-   "author_info": "郭璞"
-  },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《毛詩拾遺》（郭璞）",
-   "summary": "隋志一卷",
-   "section": "詩",
-   "juan": "卷一百二",
-   "page": "KR2n0011_WYG_102-4b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "毛詩拾遺一卷 郭理。謹按見《隋志》。是書下舊注云:“梁又有《毛詩略》四卷。”蓋謂《七錄》有此書,非指郭氏也。馬氏國翰輯是書序以《毛詩略》亦屬之璞,誤甚。"
-  }
- ],
- "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。　2026-08-08 Batch14合併：原1evfubgpmem0w（同題同撰人（郭璞，entity同）同卷數（一卷），清史稿/國史經籍志/經義考與補晉志/經義考著錄同一書）併入本條。",
- "related_works": [
-  {
-   "id": "1evl7hsxvr7cw",
-   "title": "詩經",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "loss_status": "lost",
- "emendated_by": null
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "毛詩拾遺",
+      "summary": "晉郭璞《毛詩拾遺》一卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《毛詩拾遺》一卷",
+      "summary": "《毛詩拾遺》一卷（郭璞）",
+      "author_info": "郭璞"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《毛詩拾遺》（郭璞）",
+      "summary": "隋志一卷",
+      "section": "詩",
+      "juan": "卷一百二",
+      "page": "KR2n0011_WYG_102-4b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "毛詩拾遺一卷 郭理。謹按見《隋志》。是書下舊注云:“梁又有《毛詩略》四卷。”蓋謂《七錄》有此書,非指郭氏也。馬氏國翰輯是書序以《毛詩略》亦屬之璞,誤甚。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。　2026-08-08 Batch14合併：原1evfubgpmem0w（同題同撰人（郭璞，entity同）同卷數（一卷），清史稿/國史經籍志/經義考與補晉志/經義考著錄同一書）併入本條。",
+  "related_works": [
+    {
+      "id": "1evl7hsxvr7cw",
+      "title": "詩經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "loss_status": "lost",
+  "emendated_by": null,
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

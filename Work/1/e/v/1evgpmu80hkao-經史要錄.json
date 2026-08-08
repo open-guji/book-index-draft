@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "經史要錄",
- "authors": [
-  {
-   "name": "鄭澣",
-   "role": "撰",
-   "entity_id": "1j96h8rw8hykm"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《經史要錄》二十卷",
-   "summary": "《經史要錄》二十卷（鄭澣）",
-   "author_info": "鄭澣"
+  "schema_version": 1,
+  "type": "work",
+  "title": "經史要錄",
+  "authors": [
+    {
+      "name": "鄭澣",
+      "role": "撰",
+      "entity_id": "1j96h8rw8hykm"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "鄭澣經史要錄",
-   "summary": "鄭澣經史要錄二十卷",
-   "merged_from": "1evcs0lfkajgg"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpmu80hkao",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0lfkajgg",
-   "title": "鄭澣經史要錄",
-   "author": "鄭澣",
-   "title_info": "鄭澣經史要錄",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「鄭澣經史要錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「鄭澣」已見本條 authors[]），裸題「經史要錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《經史要錄》二十卷",
+      "summary": "《經史要錄》二十卷（鄭澣）",
+      "author_info": "鄭澣"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "鄭澣經史要錄",
+      "summary": "鄭澣經史要錄二十卷",
+      "merged_from": "1evcs0lfkajgg"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpmu80hkao",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0lfkajgg",
+      "title": "鄭澣經史要錄",
+      "author": "鄭澣",
+      "title_info": "鄭澣經史要錄",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「鄭澣經史要錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「鄭澣」已見本條 authors[]），裸題「經史要錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

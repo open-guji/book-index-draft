@@ -1,40 +1,40 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "漢書注",
- "authors": [
-  {
-   "name": "李奇",
-   "role": "注",
-   "dynasty": "漢",
-   "entity_id": "1j96kecy3z8jk"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "李奇漢書注",
-   "summary": "李奇漢書注。李奇南陽人。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhccfi8vsw",
- "related_works": [
-  {
-   "id": "1euidlec1g8ow",
-   "title": "漢書",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "漢書注",
+  "authors": [
+    {
+      "name": "李奇",
+      "role": "注",
+      "dynasty": "漢",
+      "entity_id": "1j96kecy3z8jk"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "李奇漢書注",
+      "summary": "李奇漢書注。李奇南陽人。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "id": "1evfhccfi8vsw",
+  "related_works": [
+    {
+      "id": "1euidlec1g8ow",
+      "title": "漢書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」"
 }

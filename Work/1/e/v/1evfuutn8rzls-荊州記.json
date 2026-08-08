@@ -1,35 +1,38 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuutn8rzls",
- "title": "荊州記",
- "authors": [
-  {
-   "name": "范汪",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967cp1zdr31"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "荆州記 范注,謹按是書《史記正義》、《藝文類聚》、《書鈔》、《御覽》均引。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "additional_titles": [
-  "荆州記"
- ],
- "ai_note": "作者姓名訂正：原作「范注」，係形近而訛，今改「范汪」。《隋書·經籍志》著錄「《尚書大事》二十卷范汪撰」，同書同卷數，「注」為「汪」之形訛。　原繫人物 1j96kego63b40（名作「范注」）已改指 1j967cp1zdr31。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuutn8rzls",
+  "title": "荊州記",
+  "authors": [
+    {
+      "name": "范汪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr31",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp1zdr31"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "荆州記 范注,謹按是書《史記正義》、《藝文類聚》、《書鈔》、《御覽》均引。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "additional_titles": [
+    "荆州記"
+  ],
+  "ai_note": "作者姓名訂正：原作「范注」，係形近而訛，今改「范汪」。《隋書·經籍志》著錄「《尚書大事》二十卷范汪撰」，同書同卷數，「注」為「汪」之形訛。　原繫人物 1j96kego63b40（名作「范注」）已改指 1j967cp1zdr31。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

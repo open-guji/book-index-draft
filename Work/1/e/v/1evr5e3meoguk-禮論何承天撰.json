@@ -1,116 +1,116 @@
 {
- "schema_version": 1,
- "id": "1evr5e3meoguk",
- "type": "work",
- "title": "禮論何承天撰",
- "authors": [
-  {
-   "name": "何承天",
-   "role": "撰",
-   "dynasty": "南朝宋",
-   "entity_id": "1j96hl6joxvcw"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "禮論",
-   "summary": "宋何承天《禮論》一卷。"
+  "schema_version": 1,
+  "id": "1evr5e3meoguk",
+  "type": "work",
+  "title": "禮論何承天撰",
+  "authors": [
+    {
+      "name": "何承天",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j96hl6joxvcw"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《禮論》三百卷",
-   "summary": "《禮論》三百卷（宋何承天）",
-   "author_info": "宋何承天"
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "禮論",
+      "summary": "宋何承天《禮論》一卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《禮論》三百卷",
+      "summary": "《禮論》三百卷（宋何承天）",
+      "author_info": "宋何承天"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮論》（何承天）",
+      "summary": "隋志三百卷",
+      "section": "通禮",
+      "juan": "卷一百六十六",
+      "page": "KR2n0011_WYG_166-8b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《禮論》三百卷",
+      "summary": "《禮論》三百卷宋禦史中丞何承天撰。",
+      "merged_from": "1evc5pd6kq0hs"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《禮論》三百七卷",
+      "summary": "《禮論》三百七卷何承天撰。",
+      "merged_from": "1evcpctlondog"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《禮論》",
+      "summary": "《禮論》一卷陸佃",
+      "merged_from": "1evcpctlondog"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "何承天禮論",
+      "summary": "何承天禮論三百七卷",
+      "merged_from": "1evcs07ywhs74"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部禮類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類　輯佚檔：本書之輯佚著錄置於 fragments/禮論.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：經義考、隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：宋史藝文志、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　裸題「禮論」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "description": {
+    "text": "宋御史中丞何承天撰。",
+    "sources": []
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《禮論》（何承天）",
-   "summary": "隋志三百卷",
-   "section": "通禮",
-   "juan": "卷一百六十六",
-   "page": "KR2n0011_WYG_166-8b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《禮論》三百卷",
-   "summary": "《禮論》三百卷宋禦史中丞何承天撰。",
-   "merged_from": "1evc5pd6kq0hs"
-  },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《禮論》三百七卷",
-   "summary": "《禮論》三百七卷何承天撰。",
-   "merged_from": "1evcpctlondog"
-  },
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《禮論》",
-   "summary": "《禮論》一卷陸佃",
-   "merged_from": "1evcpctlondog"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "何承天禮論",
-   "summary": "何承天禮論三百七卷",
-   "merged_from": "1evcs07ywhs74"
-  }
- ],
- "ai_note": "清史稿藝文志經部禮類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類　輯佚檔：本書之輯佚著錄置於 fragments/禮論.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：經義考、隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：宋史藝文志、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「禮論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「何承天」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　裸題「禮論」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "nanbeichao",
- "period_basis": "據 authors[0].dynasty「南朝宋」",
- "description": {
-  "text": "宋御史中丞何承天撰。",
-  "sources": []
- },
- "measure_info": "三百卷",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 300
-  }
- ],
- "merged_in": [
-  {
-   "id": "1evc5pd6kq0hs",
-   "title": "禮論何承天撰",
-   "author": "何承天",
-   "indexed_by_moved": [
-    "隋書經籍志"
-   ]
-  },
-  {
-   "id": "1evcpctlondog",
-   "title": "禮論",
-   "author": "何承天",
-   "indexed_by_moved": [
-    "舊唐書經籍志",
-    "宋史藝文志"
-   ]
-  },
-  {
-   "id": "1evcs07ywhs74",
-   "title": "何承天禮論",
-   "author": "何承天",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "original_title": "禮論"
+  "measure_info": "三百卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 300
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1evc5pd6kq0hs",
+      "title": "禮論何承天撰",
+      "author": "何承天",
+      "indexed_by_moved": [
+        "隋書經籍志"
+      ]
+    },
+    {
+      "id": "1evcpctlondog",
+      "title": "禮論",
+      "author": "何承天",
+      "indexed_by_moved": [
+        "舊唐書經籍志",
+        "宋史藝文志"
+      ]
+    },
+    {
+      "id": "1evcs07ywhs74",
+      "title": "何承天禮論",
+      "author": "何承天",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "original_title": "禮論"
 }

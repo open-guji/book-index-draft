@@ -1,68 +1,70 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "漢書鈔",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《漢書鈔》三十卷",
-   "summary": "《漢書鈔》三十卷晉散騎常侍葛洪撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "漢書鈔",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《漢書鈔》三十卷",
+      "summary": "《漢書鈔》三十卷晉散騎常侍葛洪撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又漢書鈔三十卷",
+      "summary": "又漢書鈔三十卷"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "漢書鈔三十卷 散騎常待葛洪,謹按見《隋志》。《新唐志》亦著録。"
+    }
+  ],
+  "authors": [
+    {
+      "name": "葛洪",
+      "role": "撰",
+      "entity_id": "1j967bgl62uk3"
+    }
+  ],
+  "juan_count": {
+    "number": 30
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "又漢書鈔三十卷",
-   "summary": "又漢書鈔三十卷"
+  "id": "1evcml3zsal1c",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "漢書鈔三十卷",
+      "summary": "漢書鈔三十卷晉散騎常侍葛洪撰\n葛洪有《喪服變除》,見經部禮類。\n《抱璞子自序》曰:“又鈔五經、七史、百家之言,兵事、方伎、短\n雜、奇要三百一十卷,别有目録。”按此目録今不得而見矣。又所謂七史\n者,其時惟有《史記》、《漢書》、《東觀漢記》及陳壽《三志》、陸機《晉紀》耳。若别見之\n本,則有苟悅《漢紀》、謝承《後漢書》、華 《書》、薛瑩《書》、司馬彪《書》、魚拳《魏略》、\n王沈《魏書》、韋昭《吴書》、王崇《蜀書》、誰周《後漢記》。不知葛氏所鈔七史為何\n指也。\n《晉書》本傳:又鈔五經、《史》、《漢》百家之言,方技雜事三百\n一十卷。\n《唐書·藝文志》:葛洪《漢書鈔》三十卷。又有《史記鈔》十四卷、《後\n漢書鈔》三十卷。《舊唐志》惟有《後漢書鈔》三十卷。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "related_works": [
+    {
+      "id": "1euidlec1g8ow",
+      "title": "漢書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "漢書鈔三十卷 散騎常待葛洪,謹按見《隋志》。《新唐志》亦著録。"
-  }
- ],
- "authors": [
-  {
-   "name": "葛洪",
-   "role": "撰",
-   "entity_id": "1j967bgl62uk3"
-  }
- ],
- "juan_count": {
-  "number": 30
- },
- "id": "1evcml3zsal1c",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "漢書鈔三十卷",
-   "summary": "漢書鈔三十卷晉散騎常侍葛洪撰\n葛洪有《喪服變除》,見經部禮類。\n《抱璞子自序》曰:“又鈔五經、七史、百家之言,兵事、方伎、短\n雜、奇要三百一十卷,别有目録。”按此目録今不得而見矣。又所謂七史\n者,其時惟有《史記》、《漢書》、《東觀漢記》及陳壽《三志》、陸機《晉紀》耳。若别見之\n本,則有苟悅《漢紀》、謝承《後漢書》、華 《書》、薛瑩《書》、司馬彪《書》、魚拳《魏略》、\n王沈《魏書》、韋昭《吴書》、王崇《蜀書》、誰周《後漢記》。不知葛氏所鈔七史為何\n指也。\n《晉書》本傳:又鈔五經、《史》、《漢》百家之言,方技雜事三百\n一十卷。\n《唐書·藝文志》:葛洪《漢書鈔》三十卷。又有《史記鈔》十四卷、《後\n漢書鈔》三十卷。《舊唐志》惟有《後漢書鈔》三十卷。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "measure_info": "三十卷",
- "related_works": [
-  {
-   "id": "1euidlec1g8ow",
-   "title": "漢書",
-   "relation": "contains_text_of"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

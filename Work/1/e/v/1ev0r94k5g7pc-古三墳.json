@@ -7,8 +7,9 @@
     {
       "name": "阮咸",
       "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j967cp2196b3"
+      "dynasty": "東晉",
+      "entity_id": "1j967cp2196b3",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp2196b3"
     }
   ],
   "indexed_by": [
@@ -91,9 +92,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

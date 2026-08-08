@@ -1,56 +1,59 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuufiyosn4",
- "title": "晉書",
- "authors": [
-  {
-   "name": "謝沈",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96a9eeaj4sg"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "晋書三十餘卷晋書帝紀十卷 謝。謹按見本書沈傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 30
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "measure_info": "三十卷",
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "additional_titles": [
-  "晋書"
- ],
- "ai_note": "撰人補足：原作「謝」，md 作「謝。謹按見本書沈傳」，「謝」下脫「沈」字，謹按語明言「本書沈傳」。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "_has_text": true,
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuufiyosn4",
+  "title": "晉書",
+  "authors": [
+    {
+      "name": "謝沈",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96a9eeaj4sg",
+      "dynasty_basis": "entity_propagation:entity_id=1j96a9eeaj4sg"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "晋書三十餘卷晋書帝紀十卷 謝。謹按見本書沈傳。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "additional_titles": [
+    "晋書"
+  ],
+  "ai_note": "撰人補足：原作「謝」，md 作「謝。謹按見本書沈傳」，「謝」下脫「沈」字，謹按語明言「本書沈傳」。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "_has_text": true,
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "平戎記",
- "authors": [
-  {
-   "name": "裴肅",
-   "role": "撰",
-   "entity_id": "1j96h8rw8hyka"
-  }
- ],
- "juan_count": {
-  "number": 5
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《平戎記》五卷",
-   "summary": "《平戎記》五卷（裴肅）",
-   "author_info": "裴肅"
+  "schema_version": 1,
+  "type": "work",
+  "title": "平戎記",
+  "authors": [
+    {
+      "name": "裴肅",
+      "role": "撰",
+      "entity_id": "1j96h8rw8hyka"
+    }
+  ],
+  "juan_count": {
+    "number": 5
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "裴肅平戎記",
-   "summary": "裴肅平戎記五卷",
-   "merged_from": "1evcs0gho9uyo"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpkcvys3y8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 5
-  }
- ],
- "measure_info": "五卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0gho9uyo",
-   "title": "裴肅平戎記",
-   "author": "裴肅",
-   "title_info": "裴肅平戎記",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「裴肅平戎記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「裴肅」已見本條 authors[]），裸題「平戎記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《平戎記》五卷",
+      "summary": "《平戎記》五卷（裴肅）",
+      "author_info": "裴肅"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "裴肅平戎記",
+      "summary": "裴肅平戎記五卷",
+      "merged_from": "1evcs0gho9uyo"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpkcvys3y8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0gho9uyo",
+      "title": "裴肅平戎記",
+      "author": "裴肅",
+      "title_info": "裴肅平戎記",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「裴肅平戎記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「裴肅」已見本條 authors[]），裸題「平戎記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

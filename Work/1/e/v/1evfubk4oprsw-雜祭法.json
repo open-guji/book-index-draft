@@ -1,49 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "雜祭法",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "雜祭法六卷司空中郎盧謀,謹按見《七録》。《唐志》入儀制類。《通志・藝文略》有《雜儀注》六卷,當即此書。《御覽》屢引是書,無“雜”字。《書沙》百三十三薦舉類引 此書,亦無“雜”字。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "雜祭法",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "雜祭法六卷司空中郎盧謀,謹按見《七録》。《唐志》入儀制類。《通志・藝文略》有《雜儀注》六卷,當即此書。《御覽》屢引是書,無“雜”字。《書沙》百三十三薦舉類引 此書,亦無“雜”字。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "雜祭法",
+      "summary": "晉盧諶《雜祭法》一卷。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "雜祭法",
-   "summary": "晉盧諶《雜祭法》一卷。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "盧諶",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967a0kiy8et"
-  }
- ],
- "juan_count": {
-  "number": 6
- },
- "id": "1evfubk4oprsw",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "ai_note": "作者姓名訂正：原作「盧謀」，係形近而訛，今改「盧諶」。《雜祭法》撰者，他志著錄作盧諶，「謀」為「諶」之形訛。　原繫人物 1j96hfbddgxz4（名作「盧謀」）已改指 1j967a0kiy8et。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　2026-08-08 Batch14合併：原1evr5e3m7i0cw（同題同撰人（盧諶，entity同），清史稿（一卷輯佚本）與補晉志（六卷原書）著錄同一書，卷數異為原書與輯本之別）併入本條。",
- "loss_status": "lost",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "emendated_by": null
+  "authors": [
+    {
+      "name": "盧諶",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967a0kiy8et",
+      "dynasty_basis": "entity_propagation:entity_id=1j967a0kiy8et"
+    }
+  ],
+  "juan_count": {
+    "number": 6
+  },
+  "id": "1evfubk4oprsw",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "ai_note": "作者姓名訂正：原作「盧謀」，係形近而訛，今改「盧諶」。《雜祭法》撰者，他志著錄作盧諶，「謀」為「諶」之形訛。　原繫人物 1j96hfbddgxz4（名作「盧謀」）已改指 1j967a0kiy8et。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　2026-08-08 Batch14合併：原1evr5e3m7i0cw（同題同撰人（盧諶，entity同），清史稿（一卷輯佚本）與補晉志（六卷原書）著錄同一書，卷數異為原書與輯本之別）併入本條。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "emendated_by": null,
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

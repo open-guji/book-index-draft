@@ -1,66 +1,66 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "蠟屐集",
- "authors": [
-  {
-   "name": "周密",
-   "role": "撰",
-   "dynasty": "元",
-   "entity_id": "1j967da95o6q7"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "元史藝文志",
-   "source_bid": "1eve1ek8wcnb4",
-   "title_info": "周密蠟屐集一卷",
-   "summary": "元周密蠟屐集一卷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "蠟屐集",
+  "authors": [
+    {
+      "name": "周密",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j967da95o6q7"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "周密蠟屐集一卷",
+      "summary": "元周密蠟屐集一卷"
+    },
+    {
+      "source": "宋史藝文志補",
+      "source_bid": "1evfyhtrdkbnk",
+      "title_info": "蠟屐集一卷",
+      "summary": "蠟屐集一卷\n周密撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周密蠟屐集》一卷",
+      "summary": "《周密蠟屐集》一卷",
+      "merged_from": "1evgqdysn7cao"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "宋史藝文志補",
-   "source_bid": "1evfyhtrdkbnk",
-   "title_info": "蠟屐集一卷",
-   "summary": "蠟屐集一卷\n周密撰。"
+  "id": "1evgc5i63chz4",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《周密蠟屐集》一卷",
-   "summary": "《周密蠟屐集》一卷",
-   "merged_from": "1evgqdysn7cao"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evgc5i63chz4",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "liao-jin-yuan",
- "period_basis": "據 authors[0].dynasty「元」",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "merged_in": [
-  {
-   "id": "1evgqdysn7cao",
-   "title": "周密蠟屐集",
-   "author": "周密",
-   "title_info": "周密蠟屐集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「周密蠟屐集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「周密」已見本條 authors[]），裸題「蠟屐集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "merged_in": [
+    {
+      "id": "1evgqdysn7cao",
+      "title": "周密蠟屐集",
+      "author": "周密",
+      "title_info": "周密蠟屐集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「周密蠟屐集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「周密」已見本條 authors[]），裸題「蠟屐集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

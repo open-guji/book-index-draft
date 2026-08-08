@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvjwad14w",
- "title": "左氏牒例",
- "authors": [
-  {
-   "name": "劉嘉",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hffzx77y8"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "左氏牒例二十卷 劉嘉,謹按見《新唐志》。家大人曰:“ 傳載《條例》二十卷,《隋》、《唐志》均已著録,《隋》作“十一卷”,《唐》作“十卷,不應又有二十卷之本。卷數雖同 傳,頗疑複出致 。”春秋土地記三卷 里 ,謹按見《元和姓纂》。家大人曰:“此書當即京相 等所撰,因複姓,又同名涉誤。”孫氏孝經注一卷謹按見《七録》。《册府元龜》學校部次在晋代。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 20
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "related_works": [
-  {
-   "id": "1ev7vo50ar94w",
-   "title": "左傳",
-   "relation": "contains_text_of"
-  }
- ],
- "ai_note": "著錄誤切訂正：本條原題《左氏牒例二》，末之「二」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「左氏牒例二十卷」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《左氏牒例》，卷數作二十卷。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvjwad14w",
+  "title": "左氏牒例",
+  "authors": [
+    {
+      "name": "劉嘉",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hffzx77y8"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "左氏牒例二十卷 劉嘉,謹按見《新唐志》。家大人曰:“ 傳載《條例》二十卷,《隋》、《唐志》均已著録,《隋》作“十一卷”,《唐》作“十卷,不應又有二十卷之本。卷數雖同 傳,頗疑複出致 。”春秋土地記三卷 里 ,謹按見《元和姓纂》。家大人曰:“此書當即京相 等所撰,因複姓,又同名涉誤。”孫氏孝經注一卷謹按見《七録》。《册府元龜》學校部次在晋代。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "related_works": [
+    {
+      "id": "1ev7vo50ar94w",
+      "title": "左傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "著錄誤切訂正：本條原題《左氏牒例二》，末之「二」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「左氏牒例二十卷」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《左氏牒例》，卷數作二十卷。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

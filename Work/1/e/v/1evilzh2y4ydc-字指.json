@@ -1,35 +1,37 @@
 {
- "schema_version": 1,
- "title": "字指",
- "authors": [
-  {
-   "name": "李彤",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96gwf6dz6ko"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "字指",
-   "summary": "晉李彤《字指》一卷。"
+  "schema_version": 1,
+  "title": "字指",
+  "authors": [
+    {
+      "name": "李彤",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96gwf6dz6ko"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "字指二卷 朝議大夫李彤。謹按見《隋志》。"
-  }
- ],
- "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類　輯佚檔：本書之輯佚著錄置於 fragments/字指.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "type": "work",
- "id": "1evilzh2y4ydc",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "字指",
+      "summary": "晉李彤《字指》一卷。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "字指二卷 朝議大夫李彤。謹按見《隋志》。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類　輯佚檔：本書之輯佚著錄置於 fragments/字指.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "type": "work",
+  "id": "1evilzh2y4ydc",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

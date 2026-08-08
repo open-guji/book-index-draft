@@ -1,69 +1,69 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "張奐集",
- "authors": [
-  {
-   "name": "張奐",
-   "role": "撰",
-   "dynasty": "東漢",
-   "entity_id": "1j96hllj30jcw"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "後漢藝文志",
-   "source_bid": "1eve1ei9whji8",
-   "title_info": "大常卿張奐集二十四篇",
-   "summary": "大常卿張奐集二十四篇。\n\n范書本傳。所著銘、頌、書、教誡、述志、對策、章、表二十四篇。\n\n隋書經籍志：梁有太常卿張奐集二卷，錄一卷，亡。\n\n唐經籍志張奐集二卷。藝文志同。\n\n張澍二酉堂輯本序曰：然明以賢良爲將率，卒使薁鞬伯德服乃威化，屠各鮮卑失其酋豪，非由學該□籍，兼立志節，川能還鐻立功，閉門守靜乎？獨其記難章句，不傳於後，弗知仲威之源淵，以爲歎息。隋唐志載太常卿集二卷，本傳言所著二十四篇。今采輯群書，都爲一卷。其子伯英、文舒書銘，亦附於末。\n\n嚴氏文編曰：張奐有扶蕖賦，應詔上書言災應，上言東羌事。奏記謝段熲，與延篤書，與陰氏書，與宋季文書，與許季師書，報崔子玉書，與崔子真書，與張公超書，與孟季衛書，與屯留君書、誡兄子書，遺命諸子凡十五篇。芝有書四篇，昶有碑銘一篇。",
-   "section": "集部／别集類",
-   "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
-  },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《張奐集》二卷",
-   "summary": "《張奐集》二卷",
-   "merged_from": "1evcpd4s684xs"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "張奐集",
-   "summary": "張奐集二卷",
-   "merged_from": "1evcpd4s684xs"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《張奐集》二卷",
-   "summary": "《張奐集》二卷",
-   "merged_from": "1evgqa469t5a8"
-  }
- ],
- "id": "1evftyn1nb6kg",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「\n\n張澍二酉堂輯本序曰：然明以賢良爲將率，卒使薁鞬伯德服乃威化，屠各鮮卑失其酋豪」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/張奐集.json，據本庫著錄之考證所引輯本序立，現為著錄層。　合併：自 1evcpd4s684xs（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。　合併：自 1evgqa469t5a8（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。",
- "updated_at": "2026-08-07T17:54:58+00:00",
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「東漢」",
- "merged_in": [
-  {
-   "id": "1evcpd4s684xs",
-   "title": "張奐集",
-   "author": null,
-   "indexed_by_moved": [
-    "舊唐書經籍志",
-    "新唐書藝文志"
-   ]
-  },
-  {
-   "id": "1evgqa469t5a8",
-   "title": "張奐集",
-   "author": null,
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ]
+  "schema_version": 1,
+  "type": "work",
+  "title": "張奐集",
+  "authors": [
+    {
+      "name": "張奐",
+      "role": "撰",
+      "dynasty": "東漢",
+      "entity_id": "1j96hllj30jcw"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "後漢藝文志",
+      "source_bid": "1eve1ei9whji8",
+      "title_info": "大常卿張奐集二十四篇",
+      "summary": "大常卿張奐集二十四篇。\n\n范書本傳。所著銘、頌、書、教誡、述志、對策、章、表二十四篇。\n\n隋書經籍志：梁有太常卿張奐集二卷，錄一卷，亡。\n\n唐經籍志張奐集二卷。藝文志同。\n\n張澍二酉堂輯本序曰：然明以賢良爲將率，卒使薁鞬伯德服乃威化，屠各鮮卑失其酋豪，非由學該□籍，兼立志節，川能還鐻立功，閉門守靜乎？獨其記難章句，不傳於後，弗知仲威之源淵，以爲歎息。隋唐志載太常卿集二卷，本傳言所著二十四篇。今采輯群書，都爲一卷。其子伯英、文舒書銘，亦附於末。\n\n嚴氏文編曰：張奐有扶蕖賦，應詔上書言災應，上言東羌事。奏記謝段熲，與延篤書，與陰氏書，與宋季文書，與許季師書，報崔子玉書，與崔子真書，與張公超書，與孟季衛書，與屯留君書、誡兄子書，遺命諸子凡十五篇。芝有書四篇，昶有碑銘一篇。",
+      "section": "集部／别集類",
+      "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《張奐集》二卷",
+      "summary": "《張奐集》二卷",
+      "merged_from": "1evcpd4s684xs"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張奐集",
+      "summary": "張奐集二卷",
+      "merged_from": "1evcpd4s684xs"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《張奐集》二卷",
+      "summary": "《張奐集》二卷",
+      "merged_from": "1evgqa469t5a8"
+    }
+  ],
+  "id": "1evftyn1nb6kg",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「\n\n張澍二酉堂輯本序曰：然明以賢良爲將率，卒使薁鞬伯德服乃威化，屠各鮮卑失其酋豪」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/張奐集.json，據本庫著錄之考證所引輯本序立，現為著錄層。　合併：自 1evcpd4s684xs（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。　合併：自 1evgqa469t5a8（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。",
+  "updated_at": "2026-08-07T17:54:58+00:00",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "merged_in": [
+    {
+      "id": "1evcpd4s684xs",
+      "title": "張奐集",
+      "author": null,
+      "indexed_by_moved": [
+        "舊唐書經籍志",
+        "新唐書藝文志"
+      ]
+    },
+    {
+      "id": "1evgqa469t5a8",
+      "title": "張奐集",
+      "author": null,
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ]
 }

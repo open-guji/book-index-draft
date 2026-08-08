@@ -1,49 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "方言注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "方言注十三卷 郭璞。謹按見《隋志》。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "方言注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "方言注十三卷 郭璞。謹按見《隋志》。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "方言注",
+      "summary": "《方言注》十三卷。{{漢揚雄。晉郭璞注。丁傑校。抱經堂本，聚珍本，福本，《小學匯函》本。《方言》、《釋名》、《小爾雅》、《廣雅》四種，明郎奎金刻《五雅》，《漢魏叢書》，《古今逸史》，皆並有之，但無校注，不善。}}",
+      "author_info": "揚雄"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "方言注",
-   "summary": "《方言注》十三卷。{{漢揚雄。晉郭璞注。丁傑校。抱經堂本，聚珍本，福本，《小學匯函》本。《方言》、《釋名》、《小爾雅》、《廣雅》四種，明郎奎金刻《五雅》，《漢魏叢書》，《古今逸史》，皆並有之，但無校注，不善。}}",
-   "author_info": "揚雄"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "郭璞",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j968k0jdrlz4"
-  }
- ],
- "juan_count": {
-  "number": 13
- },
- "id": "1evfubxq6dpmo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 13
-  }
- ],
- "measure_info": "十三卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "注",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 13
+  },
+  "id": "1evfubxq6dpmo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 13
+    }
+  ],
+  "measure_info": "十三卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

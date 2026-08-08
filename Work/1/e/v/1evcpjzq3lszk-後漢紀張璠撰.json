@@ -1,96 +1,98 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "後漢紀張璠撰",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《後漢紀》三十卷",
-   "summary": "《後漢紀》三十卷張璠撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "後漢紀張璠撰",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《後漢紀》三十卷",
+      "summary": "《後漢紀》三十卷張璠撰。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《後漢紀》",
+      "summary": "袁宏《後漢紀》三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《後漢紀》三十卷",
+      "summary": "《後漢紀》三十卷（張璠）",
+      "author_info": "張璠"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "後漢紀三十卷 張瑞,謹按見《隋志》。",
+      "merged_from": "1evfuug3y337k"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張璠後漢紀",
+      "summary": "張璠後漢紀三十卷",
+      "merged_from": "1evcs0bsyi96o"
+    }
+  ],
+  "id": "1evcpjzq3lszk",
+  "authors": [
+    {
+      "name": "張璠",
+      "dynasty": "晉",
+      "role": "撰",
+      "entity_id": "1j96hhvcr8mxf"
+    }
+  ],
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "後漢紀三十卷 張璠撰",
+      "summary": "後漢紀三十卷 張撰\n張 有《周易集解》,見經部易類。\n《魏志·三少帝紀》注:臣松之案張播,晉之令史,出為官長,\n撰《後漢紀》,雖以未成,辭藻可觀。\n《史通二體篇》曰:“苟悦、張播,丘明之黨也;班固、華嬌,\n子長之流也。惟此二家,各相矜尚。”\n《唐書·經籍志》:《後漢紀》三十卷,張 撰。\n《唐書·藝文志》:張 《後漢紀》三十卷。\n《四庫提要》曰:“《隋志》載 書三十卷,今已散供,惟《三國\n志》注及《後漢志》注間引數條。”章氏《考證》云《世說》注亦引播《紀》\n嚴可均《全晉文編》曰:“張播,安定人,為祕書郎,參著作。有\n《後漢紀》三十卷。《御覽》五百六十二、《蜀志劉二牧傳》注\n並引《後漢紀》論各一條。”\n《孫祠書目》:張 《後漢紀》一卷,章宗源集本。"
+    }
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《後漢紀》",
-   "summary": "袁宏《後漢紀》三十卷"
+  "measure_info": "三十卷",
+  "juan_count": {
+    "number": 30
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《後漢紀》三十卷",
-   "summary": "《後漢紀》三十卷（張璠）",
-   "author_info": "張璠"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "後漢紀三十卷 張瑞,謹按見《隋志》。",
-   "merged_from": "1evfuug3y337k"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "張璠後漢紀",
-   "summary": "張璠後漢紀三十卷",
-   "merged_from": "1evcs0bsyi96o"
-  }
- ],
- "id": "1evcpjzq3lszk",
- "authors": [
-  {
-   "name": "張璠",
-   "dynasty": "晉",
-   "role": "撰",
-   "entity_id": "1j96hhvcr8mxf"
-  }
- ],
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "後漢紀三十卷 張璠撰",
-   "summary": "後漢紀三十卷 張撰\n張 有《周易集解》,見經部易類。\n《魏志·三少帝紀》注:臣松之案張播,晉之令史,出為官長,\n撰《後漢紀》,雖以未成,辭藻可觀。\n《史通二體篇》曰:“苟悦、張播,丘明之黨也;班固、華嬌,\n子長之流也。惟此二家,各相矜尚。”\n《唐書·經籍志》:《後漢紀》三十卷,張 撰。\n《唐書·藝文志》:張 《後漢紀》三十卷。\n《四庫提要》曰:“《隋志》載 書三十卷,今已散供,惟《三國\n志》注及《後漢志》注間引數條。”章氏《考證》云《世說》注亦引播《紀》\n嚴可均《全晉文編》曰:“張播,安定人,為祕書郎,參著作。有\n《後漢紀》三十卷。《御覽》五百六十二、《蜀志劉二牧傳》注\n並引《後漢紀》論各一條。”\n《孫祠書目》:張 《後漢紀》一卷,章宗源集本。"
-  }
- ],
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "measure_info": "三十卷",
- "juan_count": {
-  "number": 30
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "loss_status": "lost",
- "merged_in": [
-  {
-   "id": "1evfuug3y337k",
-   "title": "後漢紀",
-   "author": "張璠",
-   "indexed_by_moved": [
-    "補晋書藝文志"
-   ]
-  },
-  {
-   "id": "1evcs0bsyi96o",
-   "title": "張璠後漢紀",
-   "author": "張璠",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：裸題「後漢紀」全庫撞名，然撞名者撰人皆同為「張璠」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「後漢紀」全庫撞名，然撞名者撰人皆同為「張璠」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　本書之輯佚著錄置於 Work/1/e/v/1evcpjzq3lszk/fragments/後漢紀.json（原掛於併入之 1evcs0bsyi96o，今移置本目錄）。　裸題「後漢紀」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
- "original_title": "後漢紀"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "loss_status": "lost",
+  "merged_in": [
+    {
+      "id": "1evfuug3y337k",
+      "title": "後漢紀",
+      "author": "張璠",
+      "indexed_by_moved": [
+        "補晋書藝文志"
+      ]
+    },
+    {
+      "id": "1evcs0bsyi96o",
+      "title": "張璠後漢紀",
+      "author": "張璠",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：裸題「後漢紀」全庫撞名，然撞名者撰人皆同為「張璠」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「後漢紀」全庫撞名，然撞名者撰人皆同為「張璠」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　本書之輯佚著錄置於 Work/1/e/v/1evcpjzq3lszk/fragments/後漢紀.json（原掛於併入之 1evcs0bsyi96o，今移置本目錄）。　裸題「後漢紀」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
+  "original_title": "後漢紀",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

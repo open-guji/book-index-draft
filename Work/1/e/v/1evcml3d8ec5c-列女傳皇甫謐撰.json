@@ -1,81 +1,83 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "列女傳皇甫謐撰",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《列女傳》六卷",
-   "summary": "《列女傳》六卷皇甫謐撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "列女傳皇甫謐撰",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《列女傳》六卷",
+      "summary": "《列女傳》六卷皇甫謐撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《列女傳》六卷",
+      "summary": "《列女傳》六卷（皇甫謐）",
+      "author_info": "皇甫謐"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "列女傳六卷 皇甫識,謹按見《隋志》。《藝文類聚》三十五,引作“列女後傳”。",
+      "merged_from": "1evfuunr6wav4"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "皇甫謐列女傳",
+      "summary": "皇甫謐列女傳六卷",
+      "merged_from": "1evcs0glxum80"
+    }
+  ],
+  "authors": [
+    {
+      "name": "皇甫謐",
+      "role": "撰",
+      "entity_id": "1j967avzlz13b"
+    }
+  ],
+  "juan_count": {
+    "number": 6
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《列女傳》六卷",
-   "summary": "《列女傳》六卷（皇甫謐）",
-   "author_info": "皇甫謐"
+  "id": "1evcml3d8ec5c",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "列女傳六卷 皇甫識,謹按見《隋志》。《藝文類聚》三十五,引作“列女後傳”。",
-   "merged_from": "1evfuunr6wav4"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "皇甫謐列女傳",
-   "summary": "皇甫謐列女傳六卷",
-   "merged_from": "1evcs0glxum80"
-  }
- ],
- "authors": [
-  {
-   "name": "皇甫謐",
-   "role": "撰",
-   "entity_id": "1j967avzlz13b"
-  }
- ],
- "juan_count": {
-  "number": 6
- },
- "id": "1evcml3d8ec5c",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "merged_in": [
-  {
-   "id": "1evfuunr6wav4",
-   "title": "列女傳",
-   "author": "皇甫謐",
-   "indexed_by_moved": [
-    "補晋書藝文志"
-   ]
-  },
-  {
-   "id": "1evcs0glxum80",
-   "title": "皇甫謐列女傳",
-   "author": "皇甫謐",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　裸題「列女傳」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
- "original_title": "列女傳"
+  "loss_status": "lost",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "merged_in": [
+    {
+      "id": "1evfuunr6wav4",
+      "title": "列女傳",
+      "author": "皇甫謐",
+      "indexed_by_moved": [
+        "補晋書藝文志"
+      ]
+    },
+    {
+      "id": "1evcs0glxum80",
+      "title": "皇甫謐列女傳",
+      "author": "皇甫謐",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　裸題「列女傳」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
+  "original_title": "列女傳",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

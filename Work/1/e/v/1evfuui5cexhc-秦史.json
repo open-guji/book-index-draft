@@ -1,32 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuui5cexhc",
- "title": "秦史",
- "authors": [
-  {
-   "name": "景隆",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1jae2gjvfom4x"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "秦史 景隆。謹按景隆,後秦河東人,與馬僧虔並著《秦史》,事具《史通・外篇》。趙高祖本紀及功臣傳公師。謹按見《史通·外篇》。劉子玄言:“師彧,劉聰時領左國史。” 本書二劉載記,有太中大夫公師或,當即其人。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "ai_note": "作者繫連改指：原繫人物 1j967cp20mp96，該記錄實混同名而異代之兩人；本書撰者為晉之景隆，今改指新立人物 1jae2gjvfom4x。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuui5cexhc",
+  "title": "秦史",
+  "authors": [
+    {
+      "name": "景隆",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1jae2gjvfom4x"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "秦史 景隆。謹按景隆,後秦河東人,與馬僧虔並著《秦史》,事具《史通・外篇》。趙高祖本紀及功臣傳公師。謹按見《史通·外篇》。劉子玄言:“師彧,劉聰時領左國史。” 本書二劉載記,有太中大夫公師或,當即其人。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "ai_note": "作者繫連改指：原繫人物 1j967cp20mp96，該記錄實混同名而異代之兩人；本書撰者為晉之景隆，今改指新立人物 1jae2gjvfom4x。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

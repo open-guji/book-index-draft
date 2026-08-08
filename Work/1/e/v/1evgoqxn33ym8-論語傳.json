@@ -1,46 +1,46 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "論語傳",
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《論語傳》十卷",
-   "summary": "《論語傳》十卷（陳禾）",
-   "author_info": "陳禾"
+  "schema_version": 1,
+  "type": "work",
+  "title": "論語傳",
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《論語傳》",
-   "summary": "《論語傳》十卷晁說之"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved　去重出著錄：本檔原載國史經籍志「《論語傳》一卷」一條，而該志整理本以此條繫於 1evinab1x67ls，彼處亦已載之，故此處為重出，去之。",
- "id": "1evgoqxn33ym8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "related_works": [
-  {
-   "id": "1ev7w0euvaeww",
-   "title": "論語",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-04T16:30:08+00:00"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《論語傳》十卷",
+      "summary": "《論語傳》十卷（陳禾）",
+      "author_info": "陳禾"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《論語傳》",
+      "summary": "《論語傳》十卷晁說之"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "从卷二 ambiguous 新建：unresolved　去重出著錄：本檔原載國史經籍志「《論語傳》一卷」一條，而該志整理本以此條繫於 1evinab1x67ls，彼處亦已載之，故此處為重出，去之。",
+  "id": "1evgoqxn33ym8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-04T16:30:08+00:00"
 }

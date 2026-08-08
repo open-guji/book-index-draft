@@ -1,53 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "紀隲集",
- "authors": [
-  {
-   "name": "紀隲",
-   "role": "撰",
-   "dynasty": "吳",
-   "entity_id": "1j96hf95rby80"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "吳中書令紀隲集三卷錄一卷",
-   "summary": "吳中書令紀隲集三卷錄一卷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "紀隲集",
+  "authors": [
+    {
+      "name": "紀隲",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96hf95rby80",
+      "dynasty_basis": "indexed_by:三國藝文志"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "紀隲集",
-   "summary": "紀隲集二卷"
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "吳中書令紀隲集三卷錄一卷",
+      "summary": "吳中書令紀隲集三卷錄一卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "紀隲集",
+      "summary": "紀隲集二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《紀隲集》三卷",
+      "summary": "《紀隲集》三卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《紀隲集》三卷",
-   "summary": "《紀隲集》三卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhdbttbl6o",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "ai_note": "2026-08-08 Batch16合併：原1evgqabk6frwg（連書省撰人：紀隲集以紀隲起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcs0yu71rls（連書省撰人：紀隲集以紀隲起首，無撰人條來自新唐書藝文志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-08"
+  "id": "1evfhdbttbl6o",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "lost",
+  "ai_note": "2026-08-08 Batch16合併：原1evgqabk6frwg（連書省撰人：紀隲集以紀隲起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcs0yu71rls（連書省撰人：紀隲集以紀隲起首，無撰人條來自新唐書藝文志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00"
 }

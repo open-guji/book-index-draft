@@ -1,886 +1,886 @@
 {
- "schema_version": 1,
- "id": "1evl7nl7lsg00",
- "type": "work",
- "subtype": "book",
- "title": "周禮",
- "authors": [],
- "juan_count": {
-  "number": 6,
-  "description": "天官、地官、春官、夏官、秋官、冬官（《冬官》亡，西漢補以《考工記》）"
- },
- "description": {
-  "text": "原名《周官》，述周代設官分職之制，分天官、地官、春官、夏官、秋官、冬官（已亡，漢補《考工記》）六篇。傳為周公所作，近代學者多認為是戰國學者所撰。漢初藏於秘府，劉歆始尊為《禮經》，置博士。歷代注疏：漢馬融、鄭玄注（鄭注今存，附入《周禮注疏》），唐賈公彥《周禮正義》（合鄭注成《周禮注疏》入十三經注疏），宋王安石《周官新義》，清孫詒讓《周禮正義》（清代集大成）。",
-  "sources": [
-   "《漢書·藝文志》",
-   "《周禮注疏》",
-   "孫詒讓《周禮正義》"
-  ]
- },
- "ai_note": "新建原典 Work（戰國學者撰，傳為周公所作）。 | 從 1evkpwe09u5mo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000076-000077）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dq35ts0（catalog: 故殿034773-034787，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 2 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。 | 從 1ev7vo59vzpxc《周禮》合併：二目所指同為《周禮》經文本身，內容無別（鄭玄注本另有專目，見 related_works），故併爲一。併入著錄：漢書藝文志、明史藝文志、崇文總目、書目答問。原掛該目之《新唐書藝文志》「沈重周禮義疏」一條，係以注者立目，已移歸 1evc5pcu03wu8《周官禮義疏沈重撰》。　作者欄留空之故：《周官經》六篇：舊傳周公所作，而近代學者多以為戰國學者所撰，二說並存，故不補。",
- "related_works": [
-  {
-   "id": "1ahwtau87mm80",
-   "title": "十三經",
-   "relation": "collected_in"
-  },
-  {
-   "id": "1ahwtau9gw0zk",
-   "title": "十三經注疏",
-   "relation": "collected_in"
-  },
-  {
-   "id": "1ev3b9z6ss8w0",
-   "title": "周禮注疏",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9z7fkkjk",
-   "title": "周禮詳解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9z7oxou8",
-   "title": "周禮復古編",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9z8rycqo",
-   "title": "東巖周禮訂義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9z9bb2f4",
-   "title": "校正詳增音訓周禮句解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9z9kzf9c",
-   "title": "周禮集說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9za4c4xs",
-   "title": "周禮傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zae0hs0",
-   "title": "周禮全經釋原",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zanoum8",
-   "title": "周禮注疏刪翼",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zb71kao",
-   "title": "周禮述注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zbgpx4w",
-   "title": "周禮訓纂",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zcjql1c",
-   "title": "周禮疑義舉要",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9ztdxfy8",
-   "title": "周禮補亡",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9ztmcum8",
-   "title": "周禮集注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9ztw17gg",
-   "title": "周禮定本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zupdiio",
-   "title": "周禮訓雋",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zuzd3wg",
-   "title": "周禮因論",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zv91gqo",
-   "title": "周禮發明",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zviptkw",
-   "title": "周禮述注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zvse6f4",
-   "title": "周禮說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zwbqw3k",
-   "title": "周禮完解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zwlf8xs",
-   "title": "周禮古本訂注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zxegbgg",
-   "title": "重訂古周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zxni77k",
-   "title": "周禮注疏合解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zxxhslc",
-   "title": "讀周禮略記",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zy6uww0",
-   "title": "古周禮釋評",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zyq7mkg",
-   "title": "周禮說略",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zyzvzeo",
-   "title": "周禮文物大全",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zz9kc8w",
-   "title": "周禮訂釋古本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zzjjxmo",
-   "title": "高注周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3b9zzt8agw",
-   "title": "周禮惜陰錄",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba00cl05c",
-   "title": "周禮問",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba00mklj4",
-   "title": "周禮節訓.",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba01ez6yo",
-   "title": "周禮集傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba01y0o3k",
-   "title": "周禮會要",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba02809hc",
-   "title": "周禮質疑",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba02hdds0",
-   "title": "周禮輯義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba02r1qm8",
-   "title": "周禮拾義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba030q3gg",
-   "title": "周禮三注粹鈔",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba03aegao",
-   "title": "周禮井田譜",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev3ba03k2t4w",
-   "title": "周禮沿革傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev4c1t7pur5s",
-   "title": "周禮翼傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pcs9og74",
-   "title": "周禮干寶注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pcsg8fls",
-   "title": "周禮鄭玄注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pcsl88ao",
-   "title": "周禮王肅注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pcsq80zk",
-   "title": "周禮伊說注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pcsvj280",
-   "title": "周禮馬融注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evc5pct07mdc",
-   "title": "周禮集注崔靈恩注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcpctbzzaww",
-   "title": "周禮義疏",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcpctc681s0",
-   "title": "周禮疏",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcpctccgsn4",
-   "title": "周禮義決",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6o37jeo",
-   "title": "新經周禮義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6pzvqww",
-   "title": "周禮圖",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6r3ivwg",
-   "title": "周禮義辨疑",
-   "relation": "studied_by"
-  },
-  {
-   "id": "1evcsw6ru222o",
-   "title": "周禮秋官講義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6tv3l6o",
-   "title": "周禮解義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6uq02yo",
-   "title": "周禮微言",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6uy4934",
-   "title": "周禮總義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6vxpb0g",
-   "title": "周禮中義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6ygulmo",
-   "title": "周禮綱目",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evcsw6ypa0ao",
-   "title": "周禮開方圖說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboj9fcao",
-   "title": "周禮考次目錄",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibolnku80",
-   "title": "周禮合訓",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboo5sf7k",
-   "title": "周禮疑",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibope44cg",
-   "title": "續定周禮全經集注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboqm4kxs",
-   "title": "周禮會注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboruga2o",
-   "title": "周禮別說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibot1u9kw",
-   "title": "周禮通義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibown2igw",
-   "title": "周禮釋評",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboxurqio",
-   "title": "周禮句解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdiboz2gykg",
-   "title": "周禮合解",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibp1ihvr4",
-   "title": "注釋古周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evdibp2omx34",
-   "title": "周禮彙編",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfa6opqkk5c",
-   "title": "周禮解詁",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfa6oqtl81s",
-   "title": "周禮解詁",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfa6ou1pi4g",
-   "title": "周禮難",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfa6ov5z474",
-   "title": "答臨孝存周禮難",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfublhvj1fk",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evilzg406l8g",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evfugvzrklj4",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0mm92mtc",
-   "title": "周禮辨",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0mqkitc0",
-   "title": "周禮纂言",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0mspb6yo",
-   "title": "周禮集傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0mx62eps",
-   "title": "周禮全書",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0mziyygw",
-   "title": "周禮訂本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evga0n1rtf5s",
-   "title": "周禮解義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrsbfcoao",
-   "title": "周禮經傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrsj97ytc",
-   "title": "周禮正義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrsu0a8e8",
-   "title": "周禮附音重言重意互注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrt01jegw",
-   "title": "周禮訓注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrxbsygow",
-   "title": "周禮集說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgbrxg27zeo",
-   "title": "周禮定本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq66f4074",
-   "title": "周禮疏",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq68p7f28",
-   "title": "周禮新經義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6azxb0g",
-   "title": "周禮說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6dabyf4",
-   "title": "周禮講義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6fl1udc",
-   "title": "黃氏周禮說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6hv598g",
-   "title": "周禮要義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6k5v56o",
-   "title": "周禮訂義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6mgw9og",
-   "title": "周禮互注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6orax34",
-   "title": "周禮綱目",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6tcfgg0",
-   "title": "周禮義決",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq6vmivb4",
-   "title": "周禮辨疑",
-   "relation": "studied_by"
-  },
-  {
-   "id": "1evgoq6xx8r9c",
-   "title": "周禮考疑",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq708wcu8",
-   "title": "周禮考注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq72izrpc",
-   "title": "周禮定本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq74zn5z4",
-   "title": "周禮復古編",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq79r0g74",
-   "title": "周禮丘乗說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq7c4upkw",
-   "title": "鄭宗顔周禮講義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq7j6beo0",
-   "title": "周禮纂圖",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq7nrfy0w",
-   "title": "周禮十五圖",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evgoq7q1ulfk",
-   "title": "右周禮一字石經儀禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evhnr7h7q0ow",
-   "title": "周禮義序",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evilzg406l8g",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evincctgq58g",
-   "title": "周禮注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evincd53bdog",
-   "title": "周禮讀本",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evincee0v4lc",
-   "title": "周禮釋注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyrasksg0",
-   "title": "周禮序官考",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyreqx05c",
-   "title": "周禮札記",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyrj98em8",
-   "title": "周禮注疏小箋",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyrrb7v9c",
-   "title": "周禮摘箋",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyrvdaxhc",
-   "title": "周禮撮要",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqysnt5b7k",
-   "title": "宋黃宣獻公周禮說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyt06kydc",
-   "title": "周禮古義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyt4syfwg",
-   "title": "畏齋周禮客難",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqyvp2io74",
-   "title": "讀周禮日記",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjqzovs8tts",
-   "title": "鄭志疏證鄭記考證答臨孝存周禮難",
-   "relation": "studied_by"
-  },
-  {
-   "id": "1evjxjdhhm9z4",
-   "title": "重校古周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjxjdknjw8w",
-   "title": "周禮注疏",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjxjdny62o0",
-   "title": "周禮集解殘",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjy4qy5lpfk",
-   "title": "京本點校附音重言重意互注周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evjy4r4vimf4",
-   "title": "纂圖互注周禮十二卷圖説",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evkaf773lp1c",
-   "title": "周禮講義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evkeankh0sg0",
-   "title": "周禮纂訓",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evkphfxs8irk",
-   "title": "周禮注疏四十二卷正義序一卷序廢興一卷原目",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evkq1sc10yrk",
-   "title": "欽定篆文周禮",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rv7",
-   "title": "周禮精義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rv9",
-   "title": "周禮軍賦說",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rva",
-   "title": "周禮漢讀考",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvd",
-   "title": "周禮故書考",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rve",
-   "title": "周禮故書疏證",
-   "relation": "studied_by"
-  },
-  {
-   "id": "1evr5e3m76rvj",
-   "title": "周禮學",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvl",
-   "title": "周禮畿內授田考實",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvn",
-   "title": "周禮學",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvo",
-   "title": "周禮釋注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvs",
-   "title": "周禮補注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvu",
-   "title": "周禮正義",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvv",
-   "title": "周禮解詁",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvw",
-   "title": "周禮注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvx",
-   "title": "周禮解詁",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rvz",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rw0",
-   "title": "周禮注",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rw1",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rw2",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1evr5e3m76rw3",
-   "title": "周禮音",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev85diydrmrk",
-   "title": "禮周官傳",
-   "relation": "text_carried_by"
-  },
-  {
-   "id": "1ev7vo5o3lo8w",
-   "title": "司馬法",
-   "relation": "related"
-  }
- ],
- "books": [
-  "11qkhukmcc3k0",
-  "11qki25xzuygw",
-  "11qki2o9eohkw",
-  "11qki35l0yebk",
-  "11qki35m3cl4w",
-  "11qk4xwcskb2v",
-  "11qk4xwcskb2x",
-  "11qk4xwcuqyvg",
-  "11qk4xwcvzx1w",
-  "11qkhsj1j0bgg",
-  "11qkhv2by3shs",
-  "11qkhv2xgjk74",
-  "11qkhvbgg4kjk",
-  "11qki05tm375s",
-  "11qki05wcey9s",
-  "11qki0jnhadq8",
-  "11qki3zj6064g",
-  "11qki3zkpvncw",
-  "11qki5hcomcjk"
- ],
- "indexed_by": [
-  {
-   "source": "漢書藝文志",
-   "source_bid": "1euhm19a23jsw",
-   "title_info": "周官經六篇",
-   "summary": "《周官經》六篇。王莽時劉歆置博士。",
-   "section": "六藝略／禮",
-   "page": "KR2a0007_WYG_030-8a",
-   "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
-  },
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "已上《周禮》。",
-   "summary": "已上《周禮》。"
-  },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "周禮十二卷",
-   "summary": "周禮十二卷"
-  },
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "周禮",
-   "summary": "《周禮》四十二卷。"
-  }
- ],
- "emendated_by": [
-  {
-   "source": "漢藝文志考證",
-   "source_bid": "1ev3bb40n3k74",
-   "title_info": "周官經六篇。",
-   "summary": "河間獻王得周官，有李氏得而上於獻王，獨缺冬官，取考工記補之，合成六篇。禮記疏云：孝文時求得此書，不見冬官一篇，乃使博士作考工記補之。謂孝文時，非也。五峰胡氏曰：司徒掌邦教，司空掌邦土，冬官未嘗闕也。乃劉歆妄以冬官事屬之地官。俞庭椿取其説爲周禮復古編，謂司空之篇雜出於五官之屬，且因司空之復，而六官之譌誤亦遂可以類考。程氏曰：冬官之屬才二十八，而五官各有羨數。考冢宰六屬各六十，今天官六十三，地官七十八，春官七十，夏官六十九，秋官六十六，蓋斷簡失次，名實散亡，取羨數，凡百工之事歸之冬官，其數乃周。賈氏疏曰：劉向未校之前，或在山巖石室有古文，考校後爲今文。古今不同，鄭氏據今文注，朱文公以爲廣大精密，周家之法度在焉。馬融云：成帝命劉歆考理祕書，始得列序著于録略，知其周公致太平之迹。永平初，杜子春年且九十，能通其讀，鄭衆、賈逵徃受業焉。鄭康成序云：鄭少贛仲師衛次仲、賈景伯、馬季長皆作周禮解詁。　説文引任削地、垗五帝於四郊、廟門容大鼏七箇、孤乘夏䡅、赤魃氏、煣牙外不熑，與今字異。"
-  }
- ],
- "measures": [
-  {
-   "unit": "篇",
-   "number": 6
-  }
- ],
- "measure_info": "六篇",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志"
+  "schema_version": 1,
+  "id": "1evl7nl7lsg00",
+  "type": "work",
+  "subtype": "book",
+  "title": "周禮",
+  "authors": [],
+  "juan_count": {
+    "number": 6,
+    "description": "天官、地官、春官、夏官、秋官、冬官（《冬官》亡，西漢補以《考工記》）"
+  },
+  "description": {
+    "text": "原名《周官》，述周代設官分職之制，分天官、地官、春官、夏官、秋官、冬官（已亡，漢補《考工記》）六篇。傳為周公所作，近代學者多認為是戰國學者所撰。漢初藏於秘府，劉歆始尊為《禮經》，置博士。歷代注疏：漢馬融、鄭玄注（鄭注今存，附入《周禮注疏》），唐賈公彥《周禮正義》（合鄭注成《周禮注疏》入十三經注疏），宋王安石《周官新義》，清孫詒讓《周禮正義》（清代集大成）。",
+    "sources": [
+      "《漢書·藝文志》",
+      "《周禮注疏》",
+      "孫詒讓《周禮正義》"
+    ]
+  },
+  "ai_note": "新建原典 Work（戰國學者撰，傳為周公所作）。 | 從 1evkpwe09u5mo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000076-000077）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dq35ts0（catalog: 故殿034773-034787，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 2 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。 | 從 1ev7vo59vzpxc《周禮》合併：二目所指同為《周禮》經文本身，內容無別（鄭玄注本另有專目，見 related_works），故併爲一。併入著錄：漢書藝文志、明史藝文志、崇文總目、書目答問。原掛該目之《新唐書藝文志》「沈重周禮義疏」一條，係以注者立目，已移歸 1evc5pcu03wu8《周官禮義疏沈重撰》。　作者欄留空之故：《周官經》六篇：舊傳周公所作，而近代學者多以為戰國學者所撰，二說並存，故不補。",
+  "related_works": [
+    {
+      "id": "1ahwtau87mm80",
+      "title": "十三經",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1ahwtau9gw0zk",
+      "title": "十三經注疏",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1ev3b9z6ss8w0",
+      "title": "周禮注疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9z7fkkjk",
+      "title": "周禮詳解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9z7oxou8",
+      "title": "周禮復古編",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9z8rycqo",
+      "title": "東巖周禮訂義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9z9bb2f4",
+      "title": "校正詳增音訓周禮句解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9z9kzf9c",
+      "title": "周禮集說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9za4c4xs",
+      "title": "周禮傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zae0hs0",
+      "title": "周禮全經釋原",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zanoum8",
+      "title": "周禮注疏刪翼",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zb71kao",
+      "title": "周禮述注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zbgpx4w",
+      "title": "周禮訓纂",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zcjql1c",
+      "title": "周禮疑義舉要",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9ztdxfy8",
+      "title": "周禮補亡",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9ztmcum8",
+      "title": "周禮集注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9ztw17gg",
+      "title": "周禮定本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zupdiio",
+      "title": "周禮訓雋",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zuzd3wg",
+      "title": "周禮因論",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zv91gqo",
+      "title": "周禮發明",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zviptkw",
+      "title": "周禮述注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zvse6f4",
+      "title": "周禮說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zwbqw3k",
+      "title": "周禮完解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zwlf8xs",
+      "title": "周禮古本訂注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zxegbgg",
+      "title": "重訂古周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zxni77k",
+      "title": "周禮注疏合解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zxxhslc",
+      "title": "讀周禮略記",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zy6uww0",
+      "title": "古周禮釋評",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zyq7mkg",
+      "title": "周禮說略",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zyzvzeo",
+      "title": "周禮文物大全",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zz9kc8w",
+      "title": "周禮訂釋古本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zzjjxmo",
+      "title": "高注周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3b9zzt8agw",
+      "title": "周禮惜陰錄",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba00cl05c",
+      "title": "周禮問",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba00mklj4",
+      "title": "周禮節訓.",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba01ez6yo",
+      "title": "周禮集傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba01y0o3k",
+      "title": "周禮會要",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba02809hc",
+      "title": "周禮質疑",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba02hdds0",
+      "title": "周禮輯義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba02r1qm8",
+      "title": "周禮拾義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba030q3gg",
+      "title": "周禮三注粹鈔",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba03aegao",
+      "title": "周禮井田譜",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev3ba03k2t4w",
+      "title": "周禮沿革傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev4c1t7pur5s",
+      "title": "周禮翼傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcs9og74",
+      "title": "周禮干寶注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcsg8fls",
+      "title": "周禮鄭玄注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcsl88ao",
+      "title": "周禮王肅注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcsq80zk",
+      "title": "周禮伊說注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pcsvj280",
+      "title": "周禮馬融注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evc5pct07mdc",
+      "title": "周禮集注崔靈恩注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcpctbzzaww",
+      "title": "周禮義疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcpctc681s0",
+      "title": "周禮疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcpctccgsn4",
+      "title": "周禮義決",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6o37jeo",
+      "title": "新經周禮義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6pzvqww",
+      "title": "周禮圖",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6r3ivwg",
+      "title": "周禮義辨疑",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evcsw6ru222o",
+      "title": "周禮秋官講義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6tv3l6o",
+      "title": "周禮解義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6uq02yo",
+      "title": "周禮微言",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6uy4934",
+      "title": "周禮總義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6vxpb0g",
+      "title": "周禮中義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6ygulmo",
+      "title": "周禮綱目",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evcsw6ypa0ao",
+      "title": "周禮開方圖說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboj9fcao",
+      "title": "周禮考次目錄",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibolnku80",
+      "title": "周禮合訓",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboo5sf7k",
+      "title": "周禮疑",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibope44cg",
+      "title": "續定周禮全經集注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboqm4kxs",
+      "title": "周禮會注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboruga2o",
+      "title": "周禮別說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibot1u9kw",
+      "title": "周禮通義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibown2igw",
+      "title": "周禮釋評",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboxurqio",
+      "title": "周禮句解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdiboz2gykg",
+      "title": "周禮合解",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibp1ihvr4",
+      "title": "注釋古周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evdibp2omx34",
+      "title": "周禮彙編",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfa6opqkk5c",
+      "title": "周禮解詁",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfa6oqtl81s",
+      "title": "周禮解詁",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfa6ou1pi4g",
+      "title": "周禮難",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfa6ov5z474",
+      "title": "答臨孝存周禮難",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfublhvj1fk",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evilzg406l8g",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfugvzrklj4",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0mm92mtc",
+      "title": "周禮辨",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0mqkitc0",
+      "title": "周禮纂言",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0mspb6yo",
+      "title": "周禮集傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0mx62eps",
+      "title": "周禮全書",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0mziyygw",
+      "title": "周禮訂本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evga0n1rtf5s",
+      "title": "周禮解義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrsbfcoao",
+      "title": "周禮經傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrsj97ytc",
+      "title": "周禮正義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrsu0a8e8",
+      "title": "周禮附音重言重意互注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrt01jegw",
+      "title": "周禮訓注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrxbsygow",
+      "title": "周禮集說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgbrxg27zeo",
+      "title": "周禮定本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq66f4074",
+      "title": "周禮疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq68p7f28",
+      "title": "周禮新經義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6azxb0g",
+      "title": "周禮說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6dabyf4",
+      "title": "周禮講義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6fl1udc",
+      "title": "黃氏周禮說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6hv598g",
+      "title": "周禮要義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6k5v56o",
+      "title": "周禮訂義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6mgw9og",
+      "title": "周禮互注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6orax34",
+      "title": "周禮綱目",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6tcfgg0",
+      "title": "周禮義決",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq6vmivb4",
+      "title": "周禮辨疑",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evgoq6xx8r9c",
+      "title": "周禮考疑",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq708wcu8",
+      "title": "周禮考注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq72izrpc",
+      "title": "周禮定本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq74zn5z4",
+      "title": "周禮復古編",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq79r0g74",
+      "title": "周禮丘乗說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq7c4upkw",
+      "title": "鄭宗顔周禮講義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq7j6beo0",
+      "title": "周禮纂圖",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq7nrfy0w",
+      "title": "周禮十五圖",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evgoq7q1ulfk",
+      "title": "右周禮一字石經儀禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evhnr7h7q0ow",
+      "title": "周禮義序",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evilzg406l8g",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evincctgq58g",
+      "title": "周禮注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evincd53bdog",
+      "title": "周禮讀本",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evincee0v4lc",
+      "title": "周禮釋注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyrasksg0",
+      "title": "周禮序官考",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyreqx05c",
+      "title": "周禮札記",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyrj98em8",
+      "title": "周禮注疏小箋",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyrrb7v9c",
+      "title": "周禮摘箋",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyrvdaxhc",
+      "title": "周禮撮要",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqysnt5b7k",
+      "title": "宋黃宣獻公周禮說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyt06kydc",
+      "title": "周禮古義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyt4syfwg",
+      "title": "畏齋周禮客難",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqyvp2io74",
+      "title": "讀周禮日記",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjqzovs8tts",
+      "title": "鄭志疏證鄭記考證答臨孝存周禮難",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evjxjdhhm9z4",
+      "title": "重校古周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjxjdknjw8w",
+      "title": "周禮注疏",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjxjdny62o0",
+      "title": "周禮集解殘",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjy4qy5lpfk",
+      "title": "京本點校附音重言重意互注周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evjy4r4vimf4",
+      "title": "纂圖互注周禮十二卷圖説",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evkaf773lp1c",
+      "title": "周禮講義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evkeankh0sg0",
+      "title": "周禮纂訓",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evkphfxs8irk",
+      "title": "周禮注疏四十二卷正義序一卷序廢興一卷原目",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evkq1sc10yrk",
+      "title": "欽定篆文周禮",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rv7",
+      "title": "周禮精義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rv9",
+      "title": "周禮軍賦說",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rva",
+      "title": "周禮漢讀考",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvd",
+      "title": "周禮故書考",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rve",
+      "title": "周禮故書疏證",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1evr5e3m76rvj",
+      "title": "周禮學",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvl",
+      "title": "周禮畿內授田考實",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvn",
+      "title": "周禮學",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvo",
+      "title": "周禮釋注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvs",
+      "title": "周禮補注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvu",
+      "title": "周禮正義",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvv",
+      "title": "周禮解詁",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvw",
+      "title": "周禮注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvx",
+      "title": "周禮解詁",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rvz",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rw0",
+      "title": "周禮注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rw1",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rw2",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m76rw3",
+      "title": "周禮音",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev85diydrmrk",
+      "title": "禮周官傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1ev7vo5o3lo8w",
+      "title": "司馬法",
+      "relation": "related"
+    }
+  ],
+  "books": [
+    "11qkhukmcc3k0",
+    "11qki25xzuygw",
+    "11qki2o9eohkw",
+    "11qki35l0yebk",
+    "11qki35m3cl4w",
+    "11qk4xwcskb2v",
+    "11qk4xwcskb2x",
+    "11qk4xwcuqyvg",
+    "11qk4xwcvzx1w",
+    "11qkhsj1j0bgg",
+    "11qkhv2by3shs",
+    "11qkhv2xgjk74",
+    "11qkhvbgg4kjk",
+    "11qki05tm375s",
+    "11qki05wcey9s",
+    "11qki0jnhadq8",
+    "11qki3zj6064g",
+    "11qki3zkpvncw",
+    "11qki5hcomcjk"
+  ],
+  "indexed_by": [
+    {
+      "source": "漢書藝文志",
+      "source_bid": "1euhm19a23jsw",
+      "title_info": "周官經六篇",
+      "summary": "《周官經》六篇。王莽時劉歆置博士。",
+      "section": "六藝略／禮",
+      "page": "KR2a0007_WYG_030-8a",
+      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "已上《周禮》。",
+      "summary": "已上《周禮》。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "周禮十二卷",
+      "summary": "周禮十二卷"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "周禮",
+      "summary": "《周禮》四十二卷。"
+    }
+  ],
+  "emendated_by": [
+    {
+      "source": "漢藝文志考證",
+      "source_bid": "1ev3bb40n3k74",
+      "title_info": "周官經六篇。",
+      "summary": "河間獻王得周官，有李氏得而上於獻王，獨缺冬官，取考工記補之，合成六篇。禮記疏云：孝文時求得此書，不見冬官一篇，乃使博士作考工記補之。謂孝文時，非也。五峰胡氏曰：司徒掌邦教，司空掌邦土，冬官未嘗闕也。乃劉歆妄以冬官事屬之地官。俞庭椿取其説爲周禮復古編，謂司空之篇雜出於五官之屬，且因司空之復，而六官之譌誤亦遂可以類考。程氏曰：冬官之屬才二十八，而五官各有羨數。考冢宰六屬各六十，今天官六十三，地官七十八，春官七十，夏官六十九，秋官六十六，蓋斷簡失次，名實散亡，取羨數，凡百工之事歸之冬官，其數乃周。賈氏疏曰：劉向未校之前，或在山巖石室有古文，考校後爲今文。古今不同，鄭氏據今文注，朱文公以爲廣大精密，周家之法度在焉。馬融云：成帝命劉歆考理祕書，始得列序著于録略，知其周公致太平之迹。永平初，杜子春年且九十，能通其讀，鄭衆、賈逵徃受業焉。鄭康成序云：鄭少贛仲師衛次仲、賈景伯、馬季長皆作周禮解詁。　説文引任削地、垗五帝於四郊、廟門容大鼏七箇、孤乘夏䡅、赤魃氏、煣牙外不熑，與今字異。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "篇",
+      "number": 6
+    }
+  ],
+  "measure_info": "六篇",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志"
 }

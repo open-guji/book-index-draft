@@ -1,48 +1,50 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "小爾雅略解",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "小爾雅略解一卷李軌。謹按見《隋志》。《舊唐志》誤作“李軌撰”。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "小爾雅略解",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "小爾雅略解一卷李軌。謹按見《隋志》。《舊唐志》誤作“李軌撰”。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《小爾雅》一卷",
+      "summary": "《小爾雅》一卷李軌略解。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《小爾雅》一卷",
-   "summary": "《小爾雅》一卷李軌略解。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "李軌",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j969m70q2eqw"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evfubxn890xs",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "李軌",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j969m70q2eqw"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "id": "1evfubxn890xs",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

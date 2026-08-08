@@ -7,10 +7,11 @@
     {
       "name": "謝萬",
       "courtesy_name": "萬石",
-      "dynasty": "晉",
+      "dynasty": "東晉",
       "note": "字萬石，陳郡人，東晉豫州刺史。謝安之弟。年四十二卒。《釋文·敘錄》載其注《繫辭》。",
       "role": "注",
-      "entity_id": "1j967cp1zdr2b"
+      "entity_id": "1j967cp1zdr2b",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp1zdr2b"
     }
   ],
   "indexed_by": [
@@ -64,7 +65,9 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvlh38npc",
- "title": "老子注",
- "authors": [
-  {
-   "name": "氏",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": null
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "老子注二卷 氏,謹按見《七録》。《册府元龜》學校部次在晋代。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 2
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「氏」，今作「氏」。案語：「老子注二卷 氏，見《七錄》。《冊府元龜》學校部次在晉代。」《冊府元龜》載晉代《老子注》二卷者有邯鄲氏、常氏等。「氏」為題署末尾之字（如邯鄲氏注）。作者不詳，保留加注。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvlh38npc",
+  "title": "老子注",
+  "authors": [
+    {
+      "name": "氏",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": null
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "老子注二卷 氏,謹按見《七録》。《册府元龜》學校部次在晋代。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「氏」，今作「氏」。案語：「老子注二卷 氏，見《七錄》。《冊府元龜》學校部次在晉代。」《冊府元龜》載晉代《老子注》二卷者有邯鄲氏、常氏等。「氏」為題署末尾之字（如邯鄲氏注）。作者不詳，保留加注。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

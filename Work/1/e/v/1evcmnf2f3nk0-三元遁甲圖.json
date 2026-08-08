@@ -1,48 +1,50 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "三元遁甲圖",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《三元遁甲圖》三卷",
-   "summary": "《三元遁甲圖》三卷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "三元遁甲圖",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《三元遁甲圖》三卷",
+      "summary": "《三元遁甲圖》三卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《三元遁甲圖》三卷",
+      "summary": "《三元遁甲圖》三卷葛洪撰。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "三元遁甲圖三卷 葛洪,謹按見兩《唐志》。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《三元遁甲圖》三卷",
-   "summary": "《三元遁甲圖》三卷葛洪撰。"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "三元遁甲圖三卷 葛洪,謹按見兩《唐志》。"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "id": "1evcmnf2f3nk0",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《三元遁甲圖》三卷",
-   "summary": "三元 甲圖三卷\n不著撰人。\n《唐書·經籍志》:《三元遁甲圖》三卷,葛洪撰。\n《唐書·藝文志》:葛洪《三元遁甲圖》三卷。\n案《抱朴子自序篇》云:“晚學風角、望氣、三元、遁甲、六\n壬、太一之法,粗知其旨,又不研精,遂又廢焉。”又云:“又\n抄兵事、方伎、短奇要三百一十卷,别有目録。”其目錄今\n不傳,無由考見。《唐志》惟載《三元遁甲圖》三卷,本志前\n後所載遁甲凡書凡六種,并他類所載諸書,大抵皆三百十\n卷中散出者也。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”其目錄今\n不傳,無由考見」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "id": "1evcmnf2f3nk0",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《三元遁甲圖》三卷",
+      "summary": "三元 甲圖三卷\n不著撰人。\n《唐書·經籍志》:《三元遁甲圖》三卷,葛洪撰。\n《唐書·藝文志》:葛洪《三元遁甲圖》三卷。\n案《抱朴子自序篇》云:“晚學風角、望氣、三元、遁甲、六\n壬、太一之法,粗知其旨,又不研精,遂又廢焉。”又云:“又\n抄兵事、方伎、短奇要三百一十卷,别有目録。”其目錄今\n不傳,無由考見。《唐志》惟載《三元遁甲圖》三卷,本志前\n後所載遁甲凡書凡六種,并他類所載諸書,大抵皆三百十\n卷中散出者也。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”其目錄今\n不傳,無由考見」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

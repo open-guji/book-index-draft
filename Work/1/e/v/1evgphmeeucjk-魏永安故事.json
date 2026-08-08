@@ -1,59 +1,59 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "魏永安故事",
- "authors": [
-  {
-   "name": "溫子昇",
-   "role": "撰",
-   "entity_id": "1j96haaab7sw0",
-   "original_name": "温子昇"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《魏永安故事》三卷",
-   "summary": "《魏永安故事》三卷（温子昇。）",
-   "author_info": "温子昇。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "魏永安故事",
+  "authors": [
+    {
+      "name": "溫子昇",
+      "role": "撰",
+      "entity_id": "1j96haaab7sw0",
+      "original_name": "温子昇"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "溫子昇魏永安故事",
-   "summary": "溫子昇魏永安故事三卷",
-   "merged_from": "1evcs0edoxatc"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgphmeeucjk",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-05-18T10:23:22-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0edoxatc",
-   "title": "溫子昇魏永安故事",
-   "author": "溫子昇",
-   "title_info": "溫子昇魏永安故事",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「溫子昇魏永安故事」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「溫子昇」已見本條 authors[]），裸題「魏永安故事」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《魏永安故事》三卷",
+      "summary": "《魏永安故事》三卷（温子昇。）",
+      "author_info": "温子昇。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "溫子昇魏永安故事",
+      "summary": "溫子昇魏永安故事三卷",
+      "merged_from": "1evcs0edoxatc"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgphmeeucjk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-05-18T10:23:22-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0edoxatc",
+      "title": "溫子昇魏永安故事",
+      "author": "溫子昇",
+      "title_info": "溫子昇魏永安故事",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「溫子昇魏永安故事」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「溫子昇」已見本條 authors[]），裸題「魏永安故事」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

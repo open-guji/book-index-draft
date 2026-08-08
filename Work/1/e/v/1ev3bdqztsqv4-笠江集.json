@@ -1,68 +1,68 @@
 {
- "schema_version": 1,
- "id": "1ev3bdqztsqv4",
- "type": "work",
- "title": "笠江集",
- "authors": [
-  {
-   "name": "潘恩",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j967c148lk3w"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "欽定四庫全書總目",
-   "source_bid": "d59dh3vo9af4",
-   "title_info": "《笠江集》·十二卷",
-   "author_info": "明潘恩撰",
-   "summary": "明潘恩撰。恩字子仁，上海人。嘉靖癸未進士，官至左都御史，諡恭定。事蹟附見《明史·周延傳》。是集為諸生聶叔頤所編，凡賦、詩五卷，策、表、箋、序、碑、記四卷，說、對、贊、志、銘、祭文及雜述三卷。前有陸樹聲《序》，稱恩所著有《笠江集》，《笠江近稿》，皆已梓行。既沒，而其子允哲、允端，合前後刻匯為《恭定全集》。今此本仍題曰《笠江集》，殆當時編集未成，故以“新序”冠於“舊本”歟？",
-   "edition": "浙江孫仰曾家藏本"
+  "schema_version": 1,
+  "id": "1ev3bdqztsqv4",
+  "type": "work",
+  "title": "笠江集",
+  "authors": [
+    {
+      "name": "潘恩",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967c148lk3w"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《笠江集》·十二卷",
+      "author_info": "明潘恩撰",
+      "summary": "明潘恩撰。恩字子仁，上海人。嘉靖癸未進士，官至左都御史，諡恭定。事蹟附見《明史·周延傳》。是集為諸生聶叔頤所編，凡賦、詩五卷，策、表、箋、序、碑、記四卷，說、對、贊、志、銘、祭文及雜述三卷。前有陸樹聲《序》，稱恩所著有《笠江集》，《笠江近稿》，皆已梓行。既沒，而其子允哲、允端，合前後刻匯為《恭定全集》。今此本仍題曰《笠江集》，殆當時編集未成，故以“新序”冠於“舊本”歟？",
+      "edition": "浙江孫仰曾家藏本"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "潘恩《笠江集》二十四卷",
+      "summary": "潘恩《笠江集》二十四卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《潘恩笠江集》十二卷",
+      "summary": "《潘恩笠江集》十二卷",
+      "merged_from": "1evgqfn2wso3k"
+    }
+  ],
+  "juan_count": {
+    "number": 12
   },
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "潘恩《笠江集》二十四卷",
-   "summary": "潘恩《笠江集》二十四卷"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《潘恩笠江集》十二卷",
-   "summary": "《潘恩笠江集》十二卷",
-   "merged_from": "1evgqfn2wso3k"
-  }
- ],
- "juan_count": {
-  "number": 12
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 12
-  }
- ],
- "measure_info": "十二卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "merged_in": [
-  {
-   "id": "1evgqfn2wso3k",
-   "title": "潘恩笠江集",
-   "author": "潘恩",
-   "title_info": "潘恩笠江集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「潘恩笠江集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「潘恩」已見本條 authors[]），裸題「笠江集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "merged_in": [
+    {
+      "id": "1evgqfn2wso3k",
+      "title": "潘恩笠江集",
+      "author": "潘恩",
+      "title_info": "潘恩笠江集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「潘恩笠江集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「潘恩」已見本條 authors[]），裸題「笠江集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

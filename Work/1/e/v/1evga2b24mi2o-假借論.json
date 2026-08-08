@@ -1,67 +1,67 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "假借論",
- "authors": [
-  {
-   "name": "許謙",
-   "role": "撰",
-   "dynasty": "元",
-   "entity_id": "1j967afjbsrj5"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補遼金元藝文志",
-   "source_bid": "1eve1ek5qq9kw",
-   "title_info": "許謙假借論一卷",
-   "author_info": "字潛夫，休寧縣尹",
-   "summary": "元許謙（字潛夫，休寧縣尹）假借論一卷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "假借論",
+  "authors": [
+    {
+      "name": "許謙",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j967afjbsrj5"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補遼金元藝文志",
+      "source_bid": "1eve1ek5qq9kw",
+      "title_info": "許謙假借論一卷",
+      "author_info": "字潛夫，休寧縣尹",
+      "summary": "元許謙（字潛夫，休寧縣尹）假借論一卷"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "《假借論》一卷",
+      "summary": "元許謙假借論一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《許謙假借論》一卷",
+      "summary": "《許謙假借論》一卷",
+      "merged_from": "1evgorf3imku8"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "元史藝文志",
-   "source_bid": "1eve1ek8wcnb4",
-   "title_info": "《假借論》一卷",
-   "summary": "元許謙假借論一卷"
+  "description": {
+    "text": "字潛夫，休寧縣尹",
+    "sources": [
+      "補遼金元藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《許謙假借論》一卷",
-   "summary": "《許謙假借論》一卷",
-   "merged_from": "1evgorf3imku8"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "description": {
-  "text": "字潛夫，休寧縣尹",
-  "sources": [
-   "補遼金元藝文志"
-  ]
- },
- "id": "1evga2b24mi2o",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "liao-jin-yuan",
- "period_basis": "據 authors[0].dynasty「元」",
- "merged_in": [
-  {
-   "id": "1evgorf3imku8",
-   "title": "許謙假借論",
-   "author": "許謙",
-   "title_info": "許謙假借論",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「許謙假借論」撰人折入題首（來源：國史經籍志），與本條同書（撰人「許謙」已見本條 authors[]），裸題「假借論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evga2b24mi2o",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "merged_in": [
+    {
+      "id": "1evgorf3imku8",
+      "title": "許謙假借論",
+      "author": "許謙",
+      "title_info": "許謙假借論",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「許謙假借論」撰人折入題首（來源：國史經籍志），與本條同書（撰人「許謙」已見本條 authors[]），裸題「假借論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

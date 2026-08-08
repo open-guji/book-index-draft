@@ -1,32 +1,35 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuuu8eku8",
- "title": "潘氏家譜",
- "authors": [
-  {
-   "name": "潘岳",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96glo90rdhh"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "潘氏家譜 潘岳,謹按見《元和姓纂》四。晋姓氏簿狀賈。謹按見《玉海》。《通典》言:“晋太元中員外散騎侍郎賈弼好簿狀,大披 族,所撰十八州百一十六郡,合七百一十二卷,士庶略無遺漏。”《新唐書,柳冲傳》作“七百一十二篇”,蓋每卷一篇。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuuu8eku8",
+  "title": "潘氏家譜",
+  "authors": [
+    {
+      "name": "潘岳",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96glo90rdhh",
+      "dynasty_basis": "manual:historical_figure(潘岳(247-300)，字安仁，西晉文學家)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "潘氏家譜 潘岳,謹按見《元和姓纂》四。晋姓氏簿狀賈。謹按見《玉海》。《通典》言:“晋太元中員外散騎侍郎賈弼好簿狀,大披 族,所撰十八州百一十六郡,合七百一十二卷,士庶略無遺漏。”《新唐書,柳冲傳》作“七百一十二篇”,蓋每卷一篇。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

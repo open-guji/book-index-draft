@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "貞絜記",
- "authors": [
-  {
-   "name": "諸葛亮",
-   "role": "撰",
-   "entity_id": "1j96ad6j691c0"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《貞絜記》一卷",
-   "summary": "《貞絜記》一卷（諸葛亮）",
-   "author_info": "諸葛亮"
+  "schema_version": 1,
+  "type": "work",
+  "title": "貞絜記",
+  "authors": [
+    {
+      "name": "諸葛亮",
+      "role": "撰",
+      "entity_id": "1j96ad6j691c0"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "諸葛亮貞絜記",
-   "summary": "諸葛亮貞絜記一卷",
-   "merged_from": "1evcs0gofqyo0"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpjd49qzuo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-05-14T02:04:40-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0gofqyo0",
-   "title": "諸葛亮貞絜記",
-   "author": "諸葛亮",
-   "title_info": "諸葛亮貞絜記",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「諸葛亮貞絜記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「諸葛亮」已見本條 authors[]），裸題「貞絜記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《貞絜記》一卷",
+      "summary": "《貞絜記》一卷（諸葛亮）",
+      "author_info": "諸葛亮"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "諸葛亮貞絜記",
+      "summary": "諸葛亮貞絜記一卷",
+      "merged_from": "1evcs0gofqyo0"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpjd49qzuo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-05-14T02:04:40-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0gofqyo0",
+      "title": "諸葛亮貞絜記",
+      "author": "諸葛亮",
+      "title_info": "諸葛亮貞絜記",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「諸葛亮貞絜記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「諸葛亮」已見本條 authors[]），裸題「貞絜記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }
