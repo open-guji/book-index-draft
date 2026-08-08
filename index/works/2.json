@@ -9675,7 +9675,7 @@
   "measure_info": "一卷"
  },
  "1evcmndtssg74": {
-  "id": "1evcmndtssg74",
+  "id": "1evftx8m73vgg",
   "title": "渾天圖",
   "type": "Work",
   "path": "Work/1/e/v/1evcmndtssg74-渾天圖.json",
@@ -10061,10 +10061,14 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcmoaxw2yv4-駱統集.json",
   "author": "駱統",
-  "juan_count": 10,
+  "juan_count": {
+   "number": 10
+  },
   "measure_info": "十卷",
   "dynasty": "三國吳",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evcmoazvvjsw": {
   "id": "1evcmoazvvjsw",
@@ -10439,7 +10443,7 @@
   "path": "Work/1/e/v/1evcpctk8tzi8-禮記講疏.json"
  },
  "1evcpctv0typs": {
-  "id": "1evcpctv0typs",
+  "id": "1evfavnryl9fk",
   "title": "樂元起",
   "type": "Work",
   "path": "Work/1/e/v/1evcpctv0typs-樂元起.json"
@@ -11014,18 +11018,6 @@
   "title": "楊雄集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd4nj86bk-楊雄集.json"
- },
- "1evcpd52806io": {
-  "id": "1evcpd52806io",
-  "title": "管寧集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd52806io-管寧集.json"
- },
- "1evcpd52e8xds": {
-  "id": "1evcpd52e8xds",
-  "title": "劉邵集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd52e8xds-劉邵集.json"
  },
  "1evcpd5c61dkw": {
   "id": "1evcpd5c61dkw",
@@ -14800,12 +14792,6 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcsym2ujmyo-贛州正俗方.json"
  },
- "1evcsymgisvls": {
-  "id": "1evcsymgisvls",
-  "title": "曹植集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcsymgisvls-曹植集.json"
- },
  "1evcsymimys5c": {
   "id": "1evcsymimys5c",
   "title": "阮林集",
@@ -17991,10 +17977,14 @@
   "author": "應璩",
   "dynasty": "魏",
   "role": "撰",
-  "juan_count": 10,
+  "juan_count": {
+   "number": 10
+  },
   "measure_info": "十卷",
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhe2vd8wsg": {
   "id": "1evfhe2vd8wsg",
@@ -18180,7 +18170,9 @@
   "author": "吳質",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evftew6uhyww": {
   "id": "1evftew6uhyww",
@@ -18190,7 +18182,12 @@
   "author": "夏侯惠",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewlmecjk": {
   "id": "1evftewlmecjk",
@@ -18200,7 +18197,12 @@
   "author": "王肅",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 5
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftexd7nh1c": {
   "id": "1evftexd7nh1c",
@@ -18210,7 +18212,9 @@
   "author": "暨豔",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evfteyrtywao": {
   "id": "1evfteyrtywao",
@@ -18411,19 +18415,6 @@
   "period": "jin",
   "loss_status": "lost"
  },
- "1evfubgpmem0w": {
-  "id": "1evfubgpmem0w",
-  "title": "毛詩拾遺",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfubgpmem0w-毛詩拾遺.json",
-  "author": "郭璞",
-  "dynasty": "晉",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
  "1evfubwly0l4w": {
   "id": "1evfubwly0l4w",
   "title": "論語釋",
@@ -18447,21 +18438,6 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfuuf11h9ts": {
-  "id": "1evfuuf11h9ts",
-  "title": "續漢書",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuuf11h9ts-續漢書.json",
-  "author": "司馬彪",
-  "dynasty": "晉",
-  "role": "撰",
-  "juan_count": {
-   "number": 83
-  },
-  "measure_info": "八十三卷",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -26892,7 +26868,7 @@
   ]
  },
  "1evgq9c8nk8w0": {
-  "id": "1evgq9c8nk8w0",
+  "id": "1evfuvfbxlslc",
   "title": "漢名臣奏",
   "type": "Work",
   "path": "Work/1/e/v/1evgq9c8nk8w0-漢名臣奏.json",
@@ -27013,16 +26989,6 @@
   "juan_count": 1,
   "measure_info": "一卷"
  },
- "1evgq9yv70ikg": {
-  "id": "1evgq9yv70ikg",
-  "title": "兩都賦",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgq9yv70ikg-兩都賦.json",
-  "author": "罪恱",
-  "role": "撰",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evgqa0cj17uo": {
   "id": "1evgqa0cj17uo",
   "title": "張敞集",
@@ -27049,14 +27015,6 @@
   "additional_titles": [
    "應动集國卷張若集"
   ]
- },
- "1evgqa6w5n5kw": {
-  "id": "1evgqa6w5n5kw",
-  "title": "王朗集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa6w5n5kw-王朗集.json",
-  "juan_count": 24,
-  "measure_info": "二十四卷"
  },
  "1evgqac1rh1j4": {
   "id": "1evgqac1rh1j4",
@@ -42808,10 +42766,10 @@
  },
  "1evr5e3mab5ai": {
   "id": "1evr5e3mab5ai",
-  "title": "棐集古錄目",
+  "title": "集古錄目",
   "type": "Work",
-  "path": "Work/1/e/v/1evr5e3mab5ai-棐集古錄目.json",
-  "author": "歐陽",
+  "path": "Work/1/e/v/1evr5e3mab5ai-集古錄目.json",
+  "author": "歐陽棐",
   "dynasty": "宋",
   "role": "撰",
   "juan_count": 5,
@@ -43752,10 +43710,10 @@
  },
  "1evr5e3mbvbyg": {
   "id": "1evr5e3mbvbyg",
-  "title": "恪諸葛子",
+  "title": "諸葛子",
   "type": "Work",
-  "path": "Work/1/e/v/1evr5e3mbvbyg-恪諸葛子.json",
-  "author": "諸葛",
+  "path": "Work/1/e/v/1evr5e3mbvbyg-諸葛子.json",
+  "author": "諸葛恪",
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",

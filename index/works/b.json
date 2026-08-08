@@ -10112,14 +10112,6 @@
   "juan_count": 3,
   "measure_info": "三卷"
  },
- "1evcmob1s8irk": {
-  "id": "1evcmob1s8irk",
-  "title": "楊泉集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob1s8irk-楊泉集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evcmob72yio0": {
   "id": "1evcmob72yio0",
   "title": "盧諶集",
@@ -10636,12 +10628,6 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcpcwo03oxs-後漢文武釋論.json"
  },
- "1evcpcwqo8s8w": {
-  "id": "1evcpcwqo8s8w",
-  "title": "刪補蜀記",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpcwqo8s8w-刪補蜀記.json"
- },
  "1evcpcwvr5ukg": {
   "id": "1evcpcwvr5ukg",
   "title": "宋拾遺錄",
@@ -10983,7 +10969,7 @@
   "path": "Work/1/e/v/1evcpd35k3wu8-七政曆.json"
  },
  "1evcpd36n4kqo": {
-  "id": "1evcpd36n4kqo",
+  "id": "1evftxd01fw1s",
   "title": "九旗飛變",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd36n4kqo-九旗飛變.json"
@@ -11111,12 +11097,6 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcpd5k0udq8-王祜集.json"
  },
- "1evcpd5xff9j4": {
-  "id": "1evcpd5xff9j4",
-  "title": "嵇含集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd5xff9j4-嵇含集.json"
- },
  "1evcpd605fs3k": {
   "id": "1evcpd605fs3k",
   "title": "山簡集",
@@ -11233,7 +11213,7 @@
   "path": "Work/1/e/v/1evcpd8eedbeo-桓彥範集.json"
  },
  "1evcpd8gyrk74": {
-  "id": "1evcpd8gyrk74",
+  "id": "1evftyrkebim8",
   "title": "曹大家集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd8gyrk74-曹大家集.json"
@@ -11285,7 +11265,7 @@
   "path": "Work/1/e/v/1evcpjol4cc8w-史記音義.json"
  },
  "1evcpjonkd9fk": {
-  "id": "1evcpjonkd9fk",
+  "id": "1evcml3tmo3cw",
   "title": "漢靈獻二帝紀",
   "type": "Work",
   "path": "Work/1/e/v/1evcpjonkd9fk-漢靈獻二帝紀.json"
@@ -17620,9 +17600,13 @@
   "author": "桑悅",
   "dynasty": "明",
   "role": "撰",
-  "juan_count": 2,
+  "juan_count": {
+   "number": 2
+  },
   "measure_info": "二卷",
-  "period": "ming"
+  "period": "ming",
+  "has_text": false,
+  "has_image": false
  },
  "1evdidll98w00": {
   "id": "1evdidll98w00",
@@ -18791,7 +18775,12 @@
   "author": "胡綜",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftexyp5j40": {
   "id": "1evftexyp5j40",
@@ -18801,7 +18790,12 @@
   "author": "紀騭",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 3
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftezck02kg": {
   "id": "1evftezck02kg",
@@ -19999,17 +19993,6 @@
    "number": 3
   },
   "measure_info": "3卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfuvkjus1kw": {
-  "id": "1evfuvkjus1kw",
-  "title": "晉起居注",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuvkjus1kw-晉起居注.json",
-  "additional_titles": [
-   "晋起居注"
-  ],
   "period": "jin",
   "loss_status": "lost"
  },
@@ -47487,7 +47470,7 @@
   "juan_count": 11
  },
  "1evr5e3mi42x6": {
-  "id": "1evr5e3mi42x6",
+  "id": "1ev3bb1v1dmgw",
   "title": "漢官舊儀",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3mi42x6-漢官舊儀.json",

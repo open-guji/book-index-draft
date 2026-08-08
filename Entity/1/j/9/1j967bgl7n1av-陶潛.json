@@ -1,137 +1,133 @@
 {
-  "schema_version": 1,
-  "id": "1j967bgl7n1av",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "陶潛",
-  "alt_names": [
-    {
-      "name": "元亮",
-      "type": "字"
-    },
-    {
-      "name": "淵明",
-      "type": "字"
-    },
-    {
-      "name": "羲皇上人",
-      "type": "號"
-    },
-    {
-      "name": "陶令",
-      "type": "號"
-    },
-    {
-      "name": "靖節",
-      "type": "諡號"
-    }
-  ],
-  "dynasty": "東晉",
-  "birth_year": 365,
-  "death_year": 427,
-  "works": [
-    {
-      "work_id": "1ev3bcke4tvcw",
-      "role": "撰"
-    },
-    {
-      "work_id": "1ev3bctmqt4w0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuuz396neo",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evincwz2sjr4",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjr73ogkjr4",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjr73u8ru2o",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjr73x5nklc",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjr7430z8cg",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjxmqyspyww",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjy5doxp0qo",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjy5dvz5pts",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evjy5dz37wu8",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evka7p1rfjsw",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evkaacc120ow",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evhmgogkj7k0",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5wi9dkzcw",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5vz7o0oow",
-      "role": "作"
-    },
-    {
-      "work_id": "1evhmgobet0cg",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5wi3wb01s",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5waplxxj4",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5vz206pz4",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5wif05zwg",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5woa0l7gg",
-      "role": "作"
-    },
-    {
-      "work_id": "1evhmgo6edudc",
-      "role": "作"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 3835,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
+ "schema_version": 1,
+ "id": "1j967bgl7n1av",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "陶潛",
+ "alt_names": [
+  {
+   "name": "元亮",
+   "type": "字"
   },
-  "ai_note": "繫連補入：1evfuuz396neo《搜神後記》經補晉志誤切訂正後撰人定為「陶潛」，今繫之。　繫連補入：1evfuuz396neo《搜神後記》經補晉志誤切訂正後撰人定為「陶潛」，今繫之。",
-  "updated_at": "2026-08-04T12:20:20+00:00"
+  {
+   "name": "淵明",
+   "type": "字"
+  },
+  {
+   "name": "羲皇上人",
+   "type": "號"
+  },
+  {
+   "name": "陶令",
+   "type": "號"
+  },
+  {
+   "name": "靖節",
+   "type": "諡號"
+  }
+ ],
+ "dynasty": "東晉",
+ "birth_year": 365,
+ "death_year": 427,
+ "works": [
+  {
+   "work_id": "1ev3bcke4tvcw",
+   "role": "撰"
+  },
+  {
+   "work_id": "1ev3bctmqt4w0",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evincwz2sjr4",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjr73ogkjr4",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjr73u8ru2o",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjr73x5nklc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjr7430z8cg",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjxmqyspyww",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjy5doxp0qo",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjy5dvz5pts",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evjy5dz37wu8",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evka7p1rfjsw",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evkaacc120ow",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evhmgogkj7k0",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5wi9dkzcw",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5vz7o0oow",
+   "role": "作"
+  },
+  {
+   "work_id": "1evhmgobet0cg",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5wi3wb01s",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5waplxxj4",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5vz206pz4",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5wif05zwg",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5woa0l7gg",
+   "role": "作"
+  },
+  {
+   "work_id": "1evhmgo6edudc",
+   "role": "作"
+  }
+ ],
+ "external_ids": {
+  "cbdb_id": 3835,
+  "cbdb_match": "auto",
+  "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
+ },
+ "ai_note": "繫連補入：1evfuuz396neo《搜神後記》經補晉志誤切訂正後撰人定為「陶潛」，今繫之。　繫連補入：1evfuuz396neo《搜神後記》經補晉志誤切訂正後撰人定為「陶潛」，今繫之。",
+ "updated_at": "2026-08-04T12:20:20+00:00"
 }

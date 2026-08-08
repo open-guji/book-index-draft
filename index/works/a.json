@@ -9425,16 +9425,6 @@
   "measure_info": "十卷",
   "period": "jin"
  },
- "1evcmncfina4g": {
-  "id": "1evcmncfina4g",
-  "title": "莊子集音",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmncfina4g-莊子集音.json",
-  "author": "徐邈",
-  "role": "撰",
-  "juan_count": 3,
-  "measure_info": "三卷"
- },
  "1evcmncjvyvwg": {
   "id": "1evcmncjvyvwg",
   "title": "商君書",
@@ -9940,14 +9930,6 @@
   "juan_count": 1,
   "measure_info": "一卷"
  },
- "1evcmoawkmwao": {
-  "id": "1evcmoawkmwao",
-  "title": "杜摯集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoawkmwao-杜摯集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evcmoaz5nm68": {
   "id": "1evcmoaz5nm68",
   "title": "晉文帝集",
@@ -9961,14 +9943,6 @@
   "title": "何楨集",
   "type": "Work",
   "path": "Work/1/e/v/1evcmob066dq8-何楨集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1evcmob0qs1kw": {
-  "id": "1evcmob0qs1kw",
-  "title": "王濬集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob0qs1kw-王濬集.json",
   "juan_count": 1,
   "measure_info": "一卷"
  },
@@ -9995,14 +9969,6 @@
   "path": "Work/1/e/v/1evcmob78w0zk-傅暢集.json",
   "juan_count": 5,
   "measure_info": "五卷"
- },
- "1evcmobambcao": {
-  "id": "1evcmobambcao",
-  "title": "庾闡集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmobambcao-庾闡集.json",
-  "juan_count": 9,
-  "measure_info": "九卷"
  },
  "1evcmobbun1fk": {
   "id": "1evcmobbun1fk",
@@ -10042,14 +10008,6 @@
   "path": "Work/1/e/v/1evcmobi0krnk-殷叔獻集.json",
   "juan_count": 4,
   "measure_info": "四卷"
- },
- "1evcmobiizrpc": {
-  "id": "1evcmobiizrpc",
-  "title": "徐邈集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmobiizrpc-徐邈集.json",
-  "juan_count": 9,
-  "measure_info": "九卷"
  },
  "1evcmobmb38jk": {
   "id": "1evcmobmb38jk",
@@ -10896,30 +10854,6 @@
   "path": "Work/1/e/v/1evcpd49mjj0g-又二十卷.json",
   "measure_info": "二十卷"
  },
- "1evcpd51ongu8": {
-  "id": "1evcpd51ongu8",
-  "title": "孟達集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd51ongu8-孟達集.json"
- },
- "1evcpd53aedc0": {
-  "id": "1evcpd53aedc0",
-  "title": "傅巽集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd53aedc0-傅巽集.json"
- },
- "1evcpd54klhq8": {
-  "id": "1evcpd54klhq8",
-  "title": "傅嘏集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd54klhq8-傅嘏集.json"
- },
- "1evcpd55sx6v4": {
-  "id": "1evcpd55sx6v4",
-  "title": "王弼集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd55sx6v4-王弼集.json"
- },
  "1evcpd5gynlz4": {
   "id": "1evcpd5gynlz4",
   "title": "曹志集",
@@ -11313,7 +11247,8 @@
   "id": "1evcs0aamwhz4",
   "title": "音義",
   "type": "Work",
-  "path": "Work/1/e/v/1evcs0aamwhz4-音義.json"
+  "path": "Work/1/e/v/1evcs0aamwhz4-音義.json",
+  "author": "李籍"
  },
  "1evcs0aavydq8": {
   "id": "1evcs0aavydq8",
@@ -18112,10 +18047,14 @@
   "author": "孫該",
   "dynasty": "魏",
   "role": "撰",
-  "juan_count": 2,
+  "juan_count": {
+   "number": 2
+  },
   "measure_info": "二卷",
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhfbro1ngg": {
   "id": "1evfhfbro1ngg",
@@ -18338,7 +18277,12 @@
   "author": "王弼",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 5
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewhf0934": {
   "id": "1evftewhf0934",
@@ -18652,13 +18596,17 @@
   "title": "答春秋穀梁義",
   "type": "Work",
   "path": "Work/1/e/v/1evfubpziw8hs-答春秋穀梁義.json",
-  "author": "徐",
+  "author": "徐邈",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 3,
+  "juan_count": {
+   "number": 3
+  },
   "measure_info": "三卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfubqvc5xj4": {
   "id": "1evfubqvc5xj4",
@@ -19044,10 +18992,14 @@
   "author": "徐邈",
   "dynasty": "晉",
   "role": "音",
-  "juan_count": 3,
+  "juan_count": {
+   "number": 3
+  },
   "measure_info": "三卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuuxedwq2o": {
   "id": "1evfuuxedwq2o",
@@ -19197,9 +19149,14 @@
   "author": "王濬",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 2,
+  "juan_count": {
+   "number": 2,
+   "description": ""
+  },
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuv2xj01z4": {
   "id": "1evfuv2xj01z4",
@@ -19300,7 +19257,9 @@
   },
   "measure_info": "21卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuv7jvjvgg": {
   "id": "1evfuv7jvjvgg",
@@ -19550,22 +19509,6 @@
   "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfuvk1ju2v4": {
-  "id": "1evfuvk1ju2v4",
-  "title": "晉書鴻烈",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuvk1ju2v4-晉書鴻烈.json",
-  "author": "張氏",
-  "dynasty": "晉",
-  "role": "撰",
-  "juan_count": 6,
-  "measure_info": "六卷",
-  "additional_titles": [
-   "晋書鴻烈"
-  ],
   "period": "jin",
   "loss_status": "lost"
  },
@@ -27417,22 +27360,6 @@
   "juan_count": 2,
   "measure_info": "二卷"
  },
- "1evgqa7y483r4": {
-  "id": "1evgqa7y483r4",
-  "title": "高堂隆集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa7y483r4-高堂隆集.json",
-  "juan_count": 10,
-  "measure_info": "十卷"
- },
- "1evgqa8cw4hds": {
-  "id": "1evgqa8cw4hds",
-  "title": "麋元集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa8cw4hds-麋元集.json",
-  "juan_count": 5,
-  "measure_info": "五卷"
- },
  "1evgqa9id4jk0": {
   "id": "1evgqa9id4jk0",
   "title": "杜摰集",
@@ -27440,14 +27367,6 @@
   "path": "Work/1/e/v/1evgqa9id4jk0-杜摰集.json",
   "juan_count": 2,
   "measure_info": "二卷"
- },
- "1evgqabbczfgg": {
-  "id": "1evgqabbczfgg",
-  "title": "華覈集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqabbczfgg-華覈集.json",
-  "juan_count": 5,
-  "measure_info": "五卷"
  },
  "1evgqadct6ozk": {
   "id": "1evgqadct6ozk",
@@ -47521,7 +47440,7 @@
   "juan_count": 5
  },
  "1evr5e3miqk0a": {
-  "id": "1evr5e3miqk0a",
+  "id": "1evfuvfbxlslc",
   "title": "漢名臣奏",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3miqk0a-漢名臣奏.json",

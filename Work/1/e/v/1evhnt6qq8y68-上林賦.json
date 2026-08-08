@@ -1,41 +1,51 @@
 {
-  "schema_version": 1,
-  "id": "1evhnt6qq8y68",
-  "type": "work",
-  "subtype": "article",
-  "title": "上林賦",
-  "authors": [
-    {
-      "name": "司馬相如",
-      "dynasty": "漢",
-      "role": "作",
-      "entity_id": "1j967cp1zdr1g"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E6%9E%97%E8%B3%A6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1evi5uod20l4w",
-      "title": "昭明文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "id": "1evhnt6qq8y68",
+ "type": "work",
+ "subtype": "article",
+ "title": "上林賦",
+ "authors": [
+  {
+   "name": "司馬相如",
+   "dynasty": "漢",
+   "role": "作",
+   "entity_id": "1j967cp1zdr1g"
+  }
+ ],
+ "resources": [
+  {
+   "id": "wikisource",
+   "name": "維基文庫",
+   "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E6%9E%97%E8%B3%A6",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "related_works": [
+  {
+   "id": "1evhnqciqrwu8",
+   "title": "正續古文辭類纂",
+   "relation": "collected_in"
+  },
+  {
+   "id": "1evi5uod20l4w",
+   "title": "昭明文選",
+   "relation": "collected_in"
+  }
+ ],
+ "updated_at": "2026-08-08",
+ "_has_text": true,
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《上林賦》一卷",
+   "summary": "《上林賦》一卷司馬相如撰。"
+  }
+ ],
+ "emendated_by": [],
+ "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8lw2cqo（上林賦）。本組 title=上林賦，有 author 條之作者=司馬相如，noauthor 條 1evcpd8lw2cqo 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。"
 }

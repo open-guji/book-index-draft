@@ -1,47 +1,62 @@
 {
-  "schema_version": 1,
-  "id": "1evf18t3hnabk",
-  "type": "work",
-  "title": "詩傳",
-  "authors": [
-    {
-      "name": "荀爽",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j967afjav1vx"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "後漢藝文志",
-      "source_bid": "1eve1ei9whji8",
-      "title_info": "荀爽詩傳",
-      "summary": "荀爽詩傳范書本傳著禮易傳、詩傳。荀悦漢杞曰：臣悦叔父故司空爽著詩傳，皆附正義，無他説。通人學者多好尚之，然希得立於學官也。按太平御覽五百八十六引顔延之庭誥曰：荀爽云：詩者，古之歌章，似卽詩傳中語。本傳不言爽治誰家詩，證以漢紀希得立於學官之語，則其爲毛氏詩審矣。陸元朗云：根牟子傳趙人孫卿子，孫卿子傅魯人大毛公，是毛氏傳荀氏學。慈明爲荀卿十二世孫，傳毛詩，即所以傳其家學也。",
-      "section": "經部／詩類",
-      "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《詩傳》（荀爽）",
-      "summary": null,
-      "section": "詩",
-      "juan": "卷一百一",
-      "page": "KR2n0011_WYG_101-11a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "後漢藝文志"
-    ]
+ "schema_version": 1,
+ "id": "1evf18t3hnabk",
+ "type": "work",
+ "title": "詩傳",
+ "authors": [
+  {
+   "name": "荀爽",
+   "role": "撰",
+   "dynasty": "東漢",
+   "entity_id": "1j967afjav1vx"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "後漢藝文志",
+   "source_bid": "1eve1ei9whji8",
+   "title_info": "荀爽詩傳",
+   "summary": "荀爽詩傳范書本傳著禮易傳、詩傳。荀悦漢杞曰：臣悦叔父故司空爽著詩傳，皆附正義，無他説。通人學者多好尚之，然希得立於學官也。按太平御覽五百八十六引顔延之庭誥曰：荀爽云：詩者，古之歌章，似卽詩傳中語。本傳不言爽治誰家詩，證以漢紀希得立於學官之語，則其爲毛氏詩審矣。陸元朗云：根牟子傳趙人孫卿子，孫卿子傅魯人大毛公，是毛氏傳荀氏學。慈明爲荀卿十二世孫，傳毛詩，即所以傳其家學也。",
+   "section": "經部／詩類",
+   "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
   },
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」"
+  {
+   "source": "經義考",
+   "source_bid": "1ev3bb43bv4lc",
+   "title_info": "《詩傳》（荀爽）",
+   "summary": null,
+   "section": "詩",
+   "juan": "卷一百一",
+   "page": "KR2n0011_WYG_101-11a",
+   "attested_status": "lost",
+   "attested_status_raw": "佚",
+   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  },
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《詩傳》六十卷李常",
+   "summary": "《詩傳》六十卷李常"
+  },
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《詩傳》•一卷",
+   "author_info": "舊本題曰“子貢撰”",
+   "summary": "舊本題曰“子貢撰”。實明豐坊所作。《明史》坊本傳稱“坊為《十三經訓詁》，類多穿鑿。世所傳子貢《詩傳》即坊編本”者是也。其說升魯於《邶》、《鄘》之前，降《鄭》於《鄶》、《曹》之後，《大雅》、《小雅》，各分為三，曰續、曰傳，皆與所作《申培詩說》同。二書皆以古篆刻之。不知漢代傳經，悉用隸書，故孔壁科鬥，世不能辨，謂之古文。安得獨此二書參用籀體？郭子章、李維楨皆為傳刻釋文，何钅堂收入《漢魏叢書》，毛晉收入《津逮秘書》，並以為曾見宋拓，皆謬妄也。",
+   "edition": "內府藏本"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "後漢藝文志"
+  ]
+ },
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1ev3b9ylw737k（詩傳）。本組 title=詩傳，有 author 條之作者=荀爽，noauthor 條 1ev3b9ylw737k 為志書連書省撰人體例（宋史藝文志/欽定四庫全書總目），判定同書。共移入 2 個 indexed_by 記錄。",
+ "updated_at": "2026-08-08",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「東漢」",
+ "emendated_by": []
 }

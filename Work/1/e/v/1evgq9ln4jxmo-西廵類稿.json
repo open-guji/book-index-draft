@@ -1,40 +1,41 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "西廵類稿",
-  "authors": [
-    {
-      "name": "廷舉",
-      "role": "撰",
-      "dynasty": "吳",
-      "entity_id": "1j96hjwlylnqg"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《西廵類稿》八卷",
-      "summary": "《西廵類稿》八卷（吳廷舉）",
-      "author_info": "吳廷舉"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq9ln4jxmo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "西廵類稿",
+ "authors": [
+  {
+   "name": "吳廷舉",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": null
+  }
+ ],
+ "juan_count": {
+  "number": 8
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《西廵類稿》八卷",
+   "summary": "《西廵類稿》八卷（吳廷舉）",
+   "author_info": "吳廷舉"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgq9ln4jxmo",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 8
+  }
+ ],
+ "measure_info": "八卷",
+ "updated_at": "2026-08-08",
+ "ai_note": "2026-08-08 修復二字殘名：國史經籍志明確「吳廷舉」（明梧州蒼梧人，字獻臣，號东湖，正德間官），缺吳字，dyn吳更正為明。\n\n2026-08-08 補記：原關聯 Entity 1j96hjwlylnqg（張相侯）為錯誤關聯，已置entity_id=null，待新建正確Entity。"
 }

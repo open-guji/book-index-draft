@@ -1,41 +1,42 @@
 {
-  "schema_version": 1,
-  "id": "1evdie4armadc",
-  "type": "work",
-  "title": "雪山詩集",
-  "authors": [
-    {
-      "name": "法杲",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hf70csgzk"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "法杲《雪山诗集》八卷",
-      "summary": "法杲《雪山詩集》八卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+ "schema_version": 1,
+ "id": "1evdie4armadc",
+ "type": "work",
+ "title": "雪山詩集",
+ "authors": [
+  {
+   "name": "釋法杲",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j96hf70csgzk"
+  }
+ ],
+ "juan_count": {
+  "number": 8
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "法杲《雪山诗集》八卷",
+   "summary": "法杲《雪山詩集》八卷"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 8
+  }
+ ],
+ "measure_info": "八卷",
+ "updated_at": "2026-08-08",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "ai_note": "2026-08-08 修復二字殘名：釋法杲（明常州人，字雪山，與雪浪洪恩同門，著《雪山詩集》），缺釋字。"
 }

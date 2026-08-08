@@ -1586,22 +1586,6 @@
   "measure_info": "一卷",
   "has_text": true
  },
- "1ev3baeyny8sg": {
-  "id": "1ev3baeyny8sg",
-  "title": "平巢事跡考",
-  "type": "Work",
-  "path": "Work/1/e/v/1ev3baeyny8sg-平巢事跡考.json",
-  "author": "人",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷",
-  "additional_titles": [
-   "平巢事蹟考"
-  ],
-  "has_text": true,
-  "has_image": true
- },
  "1ev3baf8pqadc": {
   "id": "1ev3baf8pqadc",
   "title": "小史摘鈔",
@@ -8533,7 +8517,9 @@
   "author": "風后",
   "role": "託名",
   "dynasty": "上古",
-  "period": "pre-qin"
+  "period": "pre-qin",
+  "has_text": false,
+  "has_image": false
  },
  "1ev7xm38j0c8w": {
   "id": "1ev7xm38j0c8w",
@@ -9307,7 +9293,8 @@
   "path": "Work/1/e/v/1evcml203rqbk-後漢南記.json",
   "juan_count": 45,
   "measure_info": "四十五卷",
-  "period": "jin"
+  "period": "jin",
+  "author": "張瑩"
  },
  "1evcml23fmuww": {
   "id": "1evcml23fmuww",
@@ -9676,7 +9663,7 @@
   "loss_status": "lost"
  },
  "1evcmnc83g54w": {
-  "id": "1evcmnc83g54w",
+  "id": "1evgpmr7z4nwg",
   "title": "魏子",
   "type": "Work",
   "path": "Work/1/e/v/1evcmnc83g54w-魏子.json",
@@ -10152,14 +10139,6 @@
   "path": "Work/1/e/v/1evcmoaoinfnk-班婕妤集.json",
   "juan_count": 1,
   "measure_info": "一卷"
- },
- "1evcmoawqkem8": {
-  "id": "1evcmoawqkem8",
-  "title": "夏侯玄集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoawqkem8-夏侯玄集.json",
-  "juan_count": 3,
-  "measure_info": "三卷"
  },
  "1evcmoax246ps": {
   "id": "1evcmoax246ps",
@@ -10808,7 +10787,7 @@
   "path": "Work/1/e/v/1evcpd21nakg0-麟閣詞英.json"
  },
  "1evcpd28gbuv4": {
-  "id": "1evcpd28gbuv4",
+  "id": "1evftx8i010jk",
   "title": "渾天儀",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd28gbuv4-渾天儀.json"
@@ -10920,18 +10899,6 @@
   "title": "劉暠集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd51iepz4-劉暠集.json"
- },
- "1evcpd5476adc": {
-  "id": "1evcpd5476adc",
-  "title": "韋誕集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd5476adc-韋誕集.json"
- },
- "1evcpd55zh69s": {
-  "id": "1evcpd55zh69s",
-  "title": "呂安集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd55zh69s-呂安集.json"
  },
  "1evcpd5ljs5c0": {
   "id": "1evcpd5ljs5c0",
@@ -11061,7 +11028,7 @@
   "path": "Work/1/e/v/1evcpd8jw9rsw-文海集.json"
  },
  "1evcpd8lw2cqo": {
-  "id": "1evcpd8lw2cqo",
+  "id": "1evhnt6qq8y68",
   "title": "上林賦",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd8lw2cqo-上林賦.json",
@@ -12104,12 +12071,6 @@
   "title": "潘勗集",
   "type": "Work",
   "path": "Work/1/e/v/1evcs0y83duyo-潘勗集.json"
- },
- "1evcs0ykz8i68": {
-  "id": "1evcs0ykz8i68",
-  "title": "鍾毓集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcs0ykz8i68-鍾毓集.json"
  },
  "1evcs0yp8t9fk": {
   "id": "1evcs0yp8t9fk",
@@ -17938,14 +17899,18 @@
   "path": "Work/1/e/v/1evetxcy08qo0-論語王肅注.json",
   "author": "王肅",
   "role": "注",
-  "juan_count": 10,
+  "juan_count": {
+   "number": 10
+  },
   "measure_info": "十卷",
   "dynasty": "三國魏",
   "additional_titles": [
    "論語"
   ],
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evetxcyyw2yo": {
   "id": "1evetxcyyw2yo",
@@ -18167,18 +18132,6 @@
   "period": "three-kingdoms",
   "loss_status": "lost"
  },
- "1evfhdcas708w": {
-  "id": "1evfhdcas708w",
-  "title": "駱統集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfhdcas708w-駱統集.json",
-  "author": "駱統",
-  "dynasty": "吳",
-  "role": "撰",
-  "juan_count": 10,
-  "measure_info": "十卷",
-  "loss_status": "lost"
- },
  "1evfhem6mhhj4": {
   "id": "1evfhem6mhhj4",
   "title": "中本起經贊",
@@ -18219,9 +18172,13 @@
   "author": "陸凱",
   "dynasty": "吳",
   "role": "撰",
-  "juan_count": 5,
+  "juan_count": {
+   "number": 5
+  },
   "measure_info": "五卷",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhj6n0tp8g": {
   "id": "1evfhj6n0tp8g",
@@ -18364,7 +18321,12 @@
   "author": "高堂隆",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 10
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewfbgtmo": {
   "id": "1evftewfbgtmo",
@@ -18374,7 +18336,12 @@
   "author": "傅嘏",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftez4brv28": {
   "id": "1evftez4brv28",
@@ -18740,14 +18707,6 @@
   "period": "jin",
   "loss_status": "lost"
  },
- "1evfugvyib6rk": {
-  "id": "1evfugvyib6rk",
-  "title": "周禮音",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfugvyib6rk-周禮音一卷.json",
-  "measure_info": "一卷",
-  "period": "jin"
- },
  "1evfuufsx188w": {
   "id": "1evfuufsx188w",
   "title": "漢書注",
@@ -19016,21 +18975,6 @@
   "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfuuw8ygum8": {
-  "id": "1evfuuw8ygum8",
-  "title": "太玄經注",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuuw8ygum8-太玄經注.json",
-  "author": "范望",
-  "dynasty": "晉",
-  "role": "注",
-  "juan_count": {
-   "number": 12
-  },
-  "measure_info": "十二卷",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -23057,8 +23001,12 @@
   "path": "Work/1/e/v/1evgor4sm7chs-五經異同評.json",
   "author": "賀㻛",
   "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷"
+  "juan_count": {
+   "number": 1
+  },
+  "measure_info": "一卷",
+  "has_text": false,
+  "has_image": false
  },
  "1evgor4zqsf0g": {
   "id": "1evgor4zqsf0g",
@@ -27454,14 +27402,6 @@
   "juan_count": 6,
   "measure_info": "六卷"
  },
- "1evgqaawp54w0": {
-  "id": "1evgqaawp54w0",
-  "title": "姚信集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqaawp54w0-姚信集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evgqabvwgmbk": {
   "id": "1evgqabvwgmbk",
   "title": "簡文帝集",
@@ -27565,14 +27505,6 @@
   "path": "Work/1/e/v/1evgqaz4s07b4-王恭集.json",
   "juan_count": 5,
   "measure_info": "五卷"
- },
- "1evgqazshf0g0": {
-  "id": "1evgqazshf0g0",
-  "title": "孔潘集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqazshf0g0-孔潘集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
  },
  "1evgqb049xr7k": {
   "id": "1evgqb049xr7k",

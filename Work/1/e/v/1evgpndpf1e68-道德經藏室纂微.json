@@ -1,42 +1,43 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "道德經藏室纂微",
-  "authors": [
-    {
-      "name": "景元",
-      "role": "撰",
-      "dynasty": "陳",
-      "entity_id": "1j96hhvcrv40c"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《道德經藏室纂微》十卷",
-      "summary": "《道德經藏室纂微》十卷（陳景元）",
-      "author_info": "陳景元"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpndpf1e68",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「陳」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "道德經藏室纂微",
+ "authors": [
+  {
+   "name": "陳景元",
+   "role": "撰",
+   "dynasty": "宋",
+   "entity_id": "1j96hhvcrv40c"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《道德經藏室纂微》十卷",
+   "summary": "《道德經藏室纂微》十卷（陳景元）",
+   "author_info": "陳景元"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpndpf1e68",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "updated_at": "2026-08-08",
+ "period": "nanbeichao",
+ "period_basis": "據 authors[0].dynasty「陳」",
+ "ai_note": "2026-08-08 修復二字殘名：國史經籍志明確「陳景元」（宋道士，字太初，號碧虛子，著《道德經藏室纂微》），「陳」作者朝代欄誤為陳朝，實為宋朝陳景元。"
 }

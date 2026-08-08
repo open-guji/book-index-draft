@@ -1,24 +1,25 @@
 {
-  "schema_version": 1,
-  "id": "1j96hhvcrv40c",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "景元",
-  "dynasty": "清",
-  "works": [
-    {
-      "work_id": "1evgpndpf1e68",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgpnhltyeww",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 404403,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=20"
+ "schema_version": 1,
+ "id": "1j96hhvcrv40c",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "陳景元",
+ "dynasty": "清",
+ "works": [
+  {
+   "work_id": "1evgpndpf1e68",
+   "role": "撰"
   },
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "work_id": "1evgpnhltyeww",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {
+  "cbdb_id": 404403,
+  "cbdb_match": "manual",
+  "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=20"
+ },
+ "updated_at": "2026-08-08",
+ "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：國史經籍志明確「陳景元」（宋道士，字太初，號碧虛子，著《道德經藏室纂微》），「陳」作者朝代欄誤為陳朝，實為宋朝陳景元。"
 }

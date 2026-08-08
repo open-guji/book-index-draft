@@ -1,36 +1,36 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv2potiww",
- "title": "正集",
- "authors": [
-  {
-   "name": "正",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfeqss934"
-  }
- ],
- "juan_count": {
-  "number": 1,
-  "description": ""
- },
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "巴西太守 正集一卷謹按見《隋志》。正仕蜀為祕書郎,入晋仕至巴西太守。《蜀志》有傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv2potiww",
+  "title": "正集",
+  "authors": [
+    {
+      "name": "郤正",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfeqss934"
+    }
+  ],
+  "juan_count": {
+    "number": 1,
+    "description": ""
+  },
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "巴西太守 正集一卷謹按見《隋志》。正仕蜀為祕書郎,入晋仕至巴西太守。《蜀志》有傳。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「正」補全為「郤正」。據summary「正仕蜀為祕書郎...《蜀志》有傳」。",
+  "updated_at": "2026-08-08T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」"
 }

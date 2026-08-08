@@ -1,61 +1,61 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "禮記音",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "禮記音一卷 謝。謹按見《釋文·敘録》。家大人曰:“《七錄》有射貞《禮記音》一卷,即此謝模,轉錄傳語,脫漏偏旁耳。”又按“射”即“謝”字之改,見《廣韻》四十馮射字注。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《禮記音》（謝楨）",
-      "summary": "七錄一卷",
-      "section": "禮記",
-      "juan": "卷一百四十",
-      "page": "KR2n0011_WYG_140-3a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "禮記音",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "禮記音一卷 謝。謹按見《釋文·敘録》。家大人曰:“《七錄》有射貞《禮記音》一卷,即此謝模,轉錄傳語,脫漏偏旁耳。”又按“射”即“謝”字之改,見《廣韻》四十馮射字注。"
   },
-  "authors": [
-    {
-      "name": "謝",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96kefpwhgcg"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evfubme77qio",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1evl7nlb2nda8",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  {
+   "source": "經義考",
+   "source_bid": "1ev3bb43bv4lc",
+   "title_info": "《禮記音》（謝楨）",
+   "summary": "七錄一卷",
+   "section": "禮記",
+   "juan": "卷一百四十",
+   "page": "KR2n0011_WYG_140-3a",
+   "attested_status": "lost",
+   "attested_status_raw": "佚",
+   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "authors": [
+  {
+   "name": "謝模",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": null
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "id": "1evfubme77qio",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1evl7nlb2nda8",
+   "title": "禮記",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「謝」，今補全為「謝模」。據案語「射貞《禮記音》即此謝模」及《廣韻》四十祃「射即謝字之改」。謝模（一作謝貞、射貞），與謝沈為不同人。案語已自辨「射貞即謝模」。原Entity與謝沈共用，已置null待建新Entity。",
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」"
 }

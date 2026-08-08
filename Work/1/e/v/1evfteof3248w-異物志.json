@@ -1,27 +1,34 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "異物志",
-  "authors": [
-    {
-      "name": "譙周",
-      "role": "撰",
-      "dynasty": "三國蜀",
-      "entity_id": "1j96a9ecduxa8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "title_info": "周 異物志 周始末具經部禮類。",
-      "summary": "周 異物志 周始末具經部禮類。\n章宗源《隋志證》曰:“《文選蜀都賦》注:誰周《異物志》曰:涪陵多大龜,其甲可以卜,俗名曰靈义。”又曰:“滇池水乍深廣,乍淺狹,有如倒池,故俗云滇池。”按《文選鵬鳥賦》注、《史記·周勃世家》集解、《屈 列傳》索隱、《漢書·周勃》賈誼傳》注並引《巴蜀異物志》,不著撰人,疑即瞧氏此書。",
-      "section": "史部／外紀雜記之屬",
-      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
-    }
-  ],
-  "id": "1evfteof3248w",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國蜀」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "異物志",
+ "authors": [
+  {
+   "name": "譙周",
+   "role": "撰",
+   "dynasty": "三國蜀",
+   "entity_id": "1j96a9ecduxa8"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "三國藝文志",
+   "source_bid": "1eve1eig5jn5s",
+   "title_info": "周 異物志 周始末具經部禮類。",
+   "summary": "周 異物志 周始末具經部禮類。\n章宗源《隋志證》曰:“《文選蜀都賦》注:誰周《異物志》曰:涪陵多大龜,其甲可以卜,俗名曰靈义。”又曰:“滇池水乍深廣,乍淺狹,有如倒池,故俗云滇池。”按《文選鵬鳥賦》注、《史記·周勃世家》集解、《屈 列傳》索隱、《漢書·周勃》賈誼傳》注並引《巴蜀異物志》,不著撰人,疑即瞧氏此書。",
+   "section": "史部／外紀雜記之屬",
+   "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+  },
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "異物志十卷 誰周。謹按見《文選蜀都賦》注。"
+  }
+ ],
+ "id": "1evfteof3248w",
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "three-kingdoms",
+ "period_basis": "據 authors[0].dynasty「三國蜀」",
+ "emendated_by": null,
+ "ai_note": "　2026-08-08 Batch14合併：原1evfuutjysa9s（同題同撰人（譙周，entity同），三國藝文志（三國蜀，朝代正確）與補晉志（誤繫晉）著錄同一書）併入本條。"
 }

@@ -10895,7 +10895,9 @@
   "id": "1evcpd3jy9ukg",
   "title": "修文殿御覽",
   "type": "Work",
-  "path": "Work/1/e/v/1evcpd3jy9ukg-修文殿御覽.json"
+  "path": "Work/1/e/v/1evcpd3jy9ukg-修文殿御覽.json",
+  "author": "祖珽",
+  "period": "nanbeichao"
  },
  "1evcpd3m5vd34": {
   "id": "1evcpd3m5vd34",
@@ -12078,12 +12080,6 @@
   "title": "楚宋玉集",
   "type": "Work",
   "path": "Work/1/e/v/1evcs0xmb9qf4-楚宋玉集.json"
- },
- "1evcs0yu71rls": {
-  "id": "1evcs0yu71rls",
-  "title": "紀隲集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcs0yu71rls-紀隲集.json"
  },
  "1evcs0zwdfncw": {
   "id": "1evcs0zwdfncw",
@@ -17955,11 +17951,14 @@
   "author": "謝沈",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 102,
+  "juan_count": {
+   "number": 102
+  },
   "measure_info": "一百零二卷",
   "has_text": true,
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_image": false
  },
  "1evdx91dpym0w": {
   "id": "1evdx91dpym0w",
@@ -18359,9 +18358,13 @@
   "author": "紀隲",
   "dynasty": "吳",
   "role": "撰",
-  "juan_count": 3,
+  "juan_count": {
+   "number": 3
+  },
   "measure_info": "三卷",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhemi7ij9c": {
   "id": "1evfhemi7ij9c",
@@ -18554,7 +18557,12 @@
   "author": "王朗",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 24
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftew4fercw": {
   "id": "1evftew4fercw",
@@ -18564,7 +18572,12 @@
   "author": "夏侯玄",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 3
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewb4p79c": {
   "id": "1evftewb4p79c",
@@ -18587,7 +18600,12 @@
   "additional_titles": [
    "張温集"
   ],
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 6
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftexnp1ds0": {
   "id": "1evftexnp1ds0",
@@ -18597,7 +18615,12 @@
   "author": "謝承",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 4
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftwmpzc2yo": {
   "id": "1evftwmpzc2yo",
@@ -18899,19 +18922,6 @@
   "author": "蔡讓",
   "dynasty": "晉",
   "role": "注",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfubw8tqj9c": {
-  "id": "1evfubw8tqj9c",
-  "title": "論語君子無所爭",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfubw8tqj9c-論語君子無所爭.json",
-  "author": "亮",
-  "dynasty": "晉",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19261,17 +19271,6 @@
   "period": "jin",
   "loss_status": "lost"
  },
- "1evfuuufnzw8w": {
-  "id": "1evfuuufnzw8w",
-  "title": "益州志",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuuufnzw8w-益州志.json",
-  "author": "譙周",
-  "dynasty": "晉",
-  "role": "撰",
-  "period": "jin",
-  "loss_status": "lost"
- },
  "1evfuuvbbnbi8": {
   "id": "1evfuuvbbnbi8",
   "title": "通語",
@@ -19527,7 +19526,9 @@
   },
   "measure_info": "22卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuv7l3vklc": {
   "id": "1evfuv7l3vklc",
@@ -27722,22 +27723,6 @@
   "title": "張𥿢集",
   "type": "Work",
   "path": "Work/1/e/v/1evgqa5hndtds-張𥿢集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
- "1evgqa8xoysjk": {
-  "id": "1evgqa8xoysjk",
-  "title": "桓範集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa8xoysjk-桓範集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1evgqaa377sw0": {
-  "id": "1evgqaa377sw0",
-  "title": "呂安集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqaa377sw0-呂安集.json",
   "juan_count": 2,
   "measure_info": "二卷"
  },
@@ -42124,15 +42109,6 @@
   "role": "編",
   "juan_count": 14,
   "measure_info": "十四卷",
-  "period": "qing"
- },
- "1evr5e3m8qyjy": {
-  "id": "1evr5e3m8qyjy",
-  "title": "袁山松後漢書",
-  "type": "Work",
-  "path": "Work/1/e/v/1evr5e3m8qyjy-袁山松後漢書.json",
-  "juan_count": 1,
-  "measure_info": "一卷",
   "period": "qing"
  },
  "1evr5e3m8qykj": {

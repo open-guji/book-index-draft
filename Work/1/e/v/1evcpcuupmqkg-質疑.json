@@ -1,22 +1,24 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "質疑",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《質疑》五卷",
-      "summary": "《質疑》五卷樊文深撰。"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "質疑",
-      "summary": "《質疑》二卷。{{杭世駿，讀書齋本，學海堂本。}}",
-      "author_info": "杭世駿"
-    }
-  ],
-  "id": "1evcpcuupmqkg",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "質疑",
+ "indexed_by": [
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "質疑",
+   "summary": "《質疑》二卷。{{杭世駿，讀書齋本，學海堂本。}}",
+   "author_info": "杭世駿"
+  }
+ ],
+ "id": "1evcpcuupmqkg",
+ "updated_at": "2026-08-08",
+ "authors": [
+  {
+   "name": "杭世駿",
+   "role": "撰",
+   "dynasty": "清"
+  }
+ ],
+ "ai_note": "\n2026-08-08 秦漢同名異書 batch12：舊唐志條（樊文深撰，五卷）移至 1evgor56xk5c0（樊文深《質疑》），本條保留書目答問條（杭世駿，二卷），補撰人杭世駿。"
 }

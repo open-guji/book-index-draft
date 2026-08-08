@@ -1,27 +1,25 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "二十四史",
-  "authors": [
-    {
-      "name": "司馬遷",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j968k0jdrlz7"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善002451-002986）。清光緒四年金陵書局刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
-  "id": "1evke141j8b28",
-  "books": [
-    "11qkhsf14i4u8"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "二十四史",
+ "authors": [
+  {
+   "name": "佚名",
+   "entity_id": null
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善002451-002986）。清光緒四年金陵書局刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-08 同名異書核對：作者「司馬遷」為顯然錯誤。「二十四史」是後世（清乾隆武英殿本）彙編概念，非漢司馬遷一人所撰。改署佚名。原錯作者=['司馬遷'] entity=1j968k0jdrlz7",
+ "id": "1evke141j8b28",
+ "books": [
+  "11qkhsf14i4u8"
+ ],
+ "updated_at": "2026-08-08",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」"
 }

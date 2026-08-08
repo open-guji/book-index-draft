@@ -10341,30 +10341,6 @@
   "juan_count": 2,
   "measure_info": "二卷"
  },
- "1evcmoavpf5z4": {
-  "id": "1evcmoavpf5z4",
-  "title": "殷褒集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoavpf5z4-殷褒集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1evcmoawee5fk": {
-  "id": "1evcmoawee5fk",
-  "title": "應璩集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoawee5fk-應璩集.json",
-  "juan_count": 10,
-  "measure_info": "十卷"
- },
- "1evcmoaxqgp34": {
-  "id": "1evcmoaxqgp34",
-  "title": "張溫集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoaxqgp34-張溫集.json",
-  "juan_count": 6,
-  "measure_info": "六卷"
- },
  "1evcmob4ufaio": {
   "id": "1evcmob4ufaio",
   "title": "左思集",
@@ -10396,14 +10372,6 @@
   "path": "Work/1/e/v/1evcmobarmdj4-王隱集.json",
   "juan_count": 10,
   "measure_info": "十卷"
- },
- "1evcmobb7jh8g": {
-  "id": "1evcmobb7jh8g",
-  "title": "庾翼集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmobb7jh8g-庾翼集.json",
-  "juan_count": 22,
-  "measure_info": "二十二卷"
  },
  "1evcmobbigs8w": {
   "id": "1evcmobbigs8w",
@@ -11138,12 +11106,6 @@
   "title": "類聚方",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd4bttszk-類聚方.json"
- },
- "1evcpd52y845c": {
-  "id": "1evcpd52y845c",
-  "title": "孫該集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd52y845c-孫該集.json"
  },
  "1evcpd5h57lds": {
   "id": "1evcpd5h57lds",
@@ -18183,16 +18145,6 @@
   "measure_info": "十二卷",
   "loss_status": "lost"
  },
- "1evetxczn8lc0": {
-  "id": "1evetxczn8lc0",
-  "title": "單行字",
-  "type": "Work",
-  "path": "Work/1/e/v/1evetxczn8lc0-單行字（李彤）.json",
-  "author": "李彤",
-  "role": "撰",
-  "juan_count": 4,
-  "measure_info": "四卷"
- },
  "1evetxczwah34": {
   "id": "1evetxczwah34",
   "title": "廣詁幼",
@@ -18384,17 +18336,6 @@
   "period": "three-kingdoms",
   "loss_status": "lost"
  },
- "1evfhdbo56dxc": {
-  "id": "1evfhdbo56dxc",
-  "title": "皇覽",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfhdbo56dxc-皇覽.json",
-  "author": "王象",
-  "dynasty": "魏",
-  "role": "撰",
-  "period": "three-kingdoms",
-  "loss_status": "lost"
- },
  "1evfhdc34vp4w": {
   "id": "1evfhdc34vp4w",
   "title": "夏少康漢高祖論",
@@ -18414,10 +18355,14 @@
   "author": "麋元",
   "dynasty": "魏",
   "role": "撰",
-  "juan_count": 5,
+  "juan_count": {
+   "number": 5
+  },
   "measure_info": "五卷",
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhenoyeha8": {
   "id": "1evfhenoyeha8",
@@ -18620,7 +18565,12 @@
   "author": "王象",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 1
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftevhonaio": {
   "id": "1evftevhonaio",
@@ -18640,7 +18590,9 @@
   "author": "韋誕",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evftews9td6o": {
   "id": "1evftews9td6o",
@@ -18650,7 +18602,12 @@
   "author": "鍾毓",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 5
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewykfnk0": {
   "id": "1evftewykfnk0",
@@ -19614,7 +19571,9 @@
   },
   "measure_info": "20卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuvblo00zk": {
   "id": "1evfuvblo00zk",
@@ -26053,7 +26012,7 @@
   "has_text": true
  },
  "1evgq1egzdibk": {
-  "id": "1evgq1egzdibk",
+  "id": "1evftwye606ww",
   "title": "玄圖",
   "type": "Work",
   "path": "Work/1/e/v/1evgq1egzdibk-玄圖.json",
@@ -27521,43 +27480,11 @@
   "juan_count": 2,
   "measure_info": "二卷"
  },
- "1evgqa870hl34": {
-  "id": "1evgqa870hl34",
-  "title": "王象集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa870hl34-王象集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1evgqa8lp9la8": {
-  "id": "1evgqa8lp9la8",
-  "title": "孫該集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa8lp9la8-孫該集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
- "1evgqa8oq7ev4": {
-  "id": "1evgqa8oq7ev4",
-  "title": "傅巽集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa8oq7ev4-傅巽集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evgqa9l9dszk": {
   "id": "1evgqa9l9dszk",
   "title": "母丘儉集",
   "type": "Work",
   "path": "Work/1/e/v/1evgqa9l9dszk-母丘儉集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
- "1evgqad6wxbls": {
-  "id": "1evgqad6wxbls",
-  "title": "王濬集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqad6wxbls-王濬集.json",
   "juan_count": 2,
   "measure_info": "二卷"
  },
@@ -27651,14 +27578,6 @@
   "path": "Work/1/e/v/1evgqasdl7bwg-曹毗集.json",
   "juan_count": 10,
   "measure_info": "十卷"
- },
- "1evgqat12hyww": {
-  "id": "1evgqat12hyww",
-  "title": "王述集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqat12hyww-王述集.json",
-  "juan_count": 8,
-  "measure_info": "八卷"
  },
  "1evgqaul13ksg": {
   "id": "1evgqaul13ksg",
@@ -43529,10 +43448,10 @@
  },
  "1evr5e3mamdtg": {
   "id": "1evr5e3mamdtg",
-  "title": "尼子",
+  "title": "公孫尼子",
   "type": "Work",
-  "path": "Work/1/e/v/1evr5e3mamdtg-尼子.json",
-  "author": "公孫",
+  "path": "Work/1/e/v/1evr5e3mamdtg-公孫尼子.json",
+  "author": "公孫尼子",
   "dynasty": "周",
   "role": "撰",
   "juan_count": 1,

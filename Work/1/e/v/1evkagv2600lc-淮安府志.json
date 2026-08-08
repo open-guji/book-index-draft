@@ -1,36 +1,37 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "淮安府志",
-  "authors": [
-    {
-      "name": "薛",
-      "role": "修",
-      "dynasty": "明"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007101-007106）。明正德十三年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdick9bxt6o(陳文燭)（不同作者，故新建獨立 Work）。",
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 6
-    }
-  ],
-  "measure_info": "六冊",
-  "id": "1evkagv2600lc",
-  "books": [
-    "11qki4vrca58g"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "淮安府志",
+ "authors": [
+  {
+   "name": "薛𨭉",
+   "role": "修",
+   "dynasty": "明",
+   "entity_id": null
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007101-007106）。明正德十三年刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdick9bxt6o(陳文燭)（不同作者，故新建獨立 Work）。\n\n2026-08-08 修：撰人原作「薛」，今作「薛𨭉」。正德《淮安府志》十六卷，正德十三年刻本，為現存最早淮安府志孤本。薛𨭉字全卿，直隸大名府魏縣人，弘治九年進士，正德八年由戶部郎中升任淮安知府，主修此志。「𨭉」字冷僻常以缺字呈現，遂殘為「薛」。原dynasty=明保留。",
+ "juan_count": {
+  "number": 6
+ },
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 6
+  }
+ ],
+ "measure_info": "六冊",
+ "id": "1evkagv2600lc",
+ "books": [
+  "11qki4vrca58g"
+ ],
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」"
 }
