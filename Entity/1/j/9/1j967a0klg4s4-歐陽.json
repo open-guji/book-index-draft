@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "歐陽修",
-  "dynasty": "宋",
+  "dynasty": "北宋",
   "works": [
     {
       "work_id": "1evr5e3mab5ai",
@@ -28,12 +28,13 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-08T18:11:45+00:00",
   "alt_names": [
     {
       "name": "歐陽",
       "type": "殘名"
     }
   ],
-  "ai_note": "2026-08-08 修：primary_name「歐陽」補全為「歐陽修」。據 indexed_by author_info=歐陽修（五代史記、童子問、太常因革禮）。注意：棐集古錄目之撰人為歐陽棐（歐陽修之子），本 Entity 混繫二人，待後續分拆。"
+  "ai_note": "2026-08-08 修：primary_name「歐陽」補全為「歐陽修」。據 indexed_by author_info=歐陽修（五代史記、童子問、太常因革禮）。注意：棐集古錄目之撰人為歐陽棐（歐陽修之子），本 Entity 混繫二人，待後續分拆。",
+  "dynasty_basis": "historical_dict:歐陽修→北宋"
 }
