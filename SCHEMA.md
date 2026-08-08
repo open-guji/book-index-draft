@@ -215,6 +215,171 @@ five-dynasties / song / liao-jin-yuan / ming / qing / modern
 
 `period` 亦入 `index/works/*.json`，選集合不必逐檔開啟。
 
+#### `dynasty` 規範化（2026-08-08 增）
+
+`dynasty` 是**直接顯示給使用者**的朝代名，現有庫中有一百三十五種寫法，含歧義（宋=劉宋/趙宋、
+魏=曹魏/北魏…）、別名（後魏=北魏、姚秦=後秦）、誤錄（年號、帝王廟號誤入朝代欄）、域外
+（日本、朝鮮）等問題。**直接規範 `dynasty` 本身**，不另設 `dynasty_norm` 欄位——使用者看到的
+就應該是無歧義的學界通用名。
+
+**規範化原則**：
+1. **自明性優先**：規範名必須一眼能讀出所屬時段——三國系列必冠「三國」（三國魏、三國蜀、三國吳），南朝系列必冠「南朝」（南朝宋、南朝齊、南朝梁、南朝陳），宋分北宋/南宋。
+2. **無歧義優先**：凡一字多朝者必加前綴（魏→三國魏/北魏、宋→南朝宋/北宋/南宋、蜀→三國蜀/前蜀/後蜀）。
+3. **對齊 CBDB**：規範名與 CBDB DYNASTIES 表（`c_dy` 碼）對齊，本庫已通過 `entity_id` 關聯 CBDB；冠詞（三國、南朝）不影響對應關係。
+4. **保留原文於 `indexed_by[].title_info`**：志書原文（如「毛詩義問十卷魏太子文學劉楨撰」）不受 `dynasty` 規範化影響。
+5. **`period` 為派生欄位**：`dynasty` 規範化後，`period` 可由 `dynasty` 自動歸併導出（南朝宋→nanbeichao、三國魏→three-kingdoms）。
+6. **判不出者留 null 並出清單**（`known-issues/dynasty未決.json`），**不猜**。
+
+**參考標準**：
+
+| 標準 | 性質 | 是否分北宋/南宋 | 是否覆蓋十六國 | 是否覆蓋遼金西夏 |
+|---|---|---|---|---|
+| CBDB DYNASTIES 表 | 學術界公認（哈佛/中研院/北大） | 否（在 reign 層分） | 是 | 是 |
+| GB/T 47681.2—2026 | 國標（日曆體系代碼） | 否 | 否 | 否 |
+| 文物藏品時代分類代碼 | 行業標準 | **是** | 否 | 是 |
+| 中研院史語所朝代代碼表 | 機構標準 | 否 | **是** | 否 |
+
+無單一標準完全滿足文獻分類需求，故**以 CBDB 為主體，參考文物標準補南北宋，參考中研院補十六國**。
+
+**規範朝代名完整枚舉**（按時序，附 CBDB c_dy 碼與 period 歸併）：
+
+| 規範名 | CBDB c_dy | period | 別名（庫中已有寫法） | 說明 |
+|---|---|---|---|---|
+| 上古傳說 | — | pre-qin | 上古傳說 | 三皇五帝 |
+| 上古 | — | pre-qin | | 上古泛稱 |
+| 夏 | 0 | pre-qin | | |
+| 商 | 1 | pre-qin | | |
+| 西周 | 2 | pre-qin | | |
+| 東周 | 3 | pre-qin | | |
+| 春秋 | 4 | pre-qin | 春秋戰國 | |
+| 戰國 | 5 | pre-qin | | |
+| 先秦 | — | pre-qin | 漢前、漢以前 | 漢以前泛稱 |
+| 春秋齊 | — | pre-qin | | 諸侯國 |
+| 春秋晉 | — | pre-qin | | |
+| 春秋吳 | — | pre-qin | | |
+| 春秋魯 | — | pre-qin | | |
+| 戰國齊 | — | pre-qin | | |
+| 戰國楚 | — | pre-qin | | |
+| 戰國趙 | — | pre-qin | | |
+| 秦 | 6 | qin-han | 贏秦 | 贏秦=嬴秦之訛 |
+| 西漢 | 7 | qin-han | | |
+| 新 | 8 | qin-han | | 新莽（王莽） |
+| 東漢 | 9 | qin-han | 東漢末、後漢(東漢別稱) | |
+| 三國魏 | 26 | three-kingdoms | 曹魏 | |
+| 三國蜀 | 53 | three-kingdoms | 蜀漢 | |
+| 三國吳 | 42 | three-kingdoms | 孫吳 | |
+| 三國 | — | three-kingdoms | | 通稱，不拆 |
+| 西晉 | 10 | jin | | |
+| 東晉 | 11 | jin | | |
+| 晉 | — | jin | | 兩晉通稱 |
+| 前涼 | — | jin | | 十六國之一 |
+| 前秦 | — | jin | | 十六國之一 |
+| 後秦 | — | jin | 姚秦 | 姚秦=後秦（姚萇） |
+| 西燕 | — | jin | | 十六國之一 |
+| 北涼 | — | jin | | 十六國之一，末期入南北朝 |
+| 南朝宋 | 28 | nanbeichao | 劉宋、宋(劉) | |
+| 南朝齊 | 32 | nanbeichao | 南齊 | |
+| 南朝梁 | 44 | nanbeichao | 南梁 | |
+| 南朝陳 | 24 | nanbeichao | 陳 | |
+| 南朝 | — | nanbeichao | | 通稱 |
+| 北魏 | 30 | nanbeichao | 後魏 | 亦稱元魏 |
+| 北齊 | 35 | nanbeichao | | |
+| 北周 | 31 | nanbeichao | | |
+| 北朝 | — | nanbeichao | | 通稱 |
+| 南北朝 | — | nanbeichao | | 通稱，不拆 |
+| 隋 | 12 | sui-tang | | |
+| 唐 | 13 | sui-tang | | |
+| 後梁 | 34 | five-dynasties | | 五代朱溫 |
+| 後唐 | 47 | five-dynasties | | |
+| 後晉 | 48 | five-dynasties | | |
+| 後漢 | 52 | five-dynasties | | 五代劉知遠（東漢亦稱後漢，個別宜核） |
+| 後周 | 49 | five-dynasties | | |
+| 五代 | — | five-dynasties | | 通稱，不拆 |
+| 前蜀 | — | five-dynasties | | 十國之一 |
+| 後蜀 | — | five-dynasties | | 十國之一 |
+| 楊吳 | — | five-dynasties | 吳(楊) | 十國之一 |
+| 南唐 | — | five-dynasties | | 十國之一 |
+| 吳越 | — | five-dynasties | | 十國之一 |
+| 閩 | — | five-dynasties | 閩國 | 十國之一 |
+| 北宋 | 15 | song | | |
+| 南宋 | 15 | song | | |
+| 遼 | 16 | liao-jin-yuan | | |
+| 西夏 | 17 | liao-jin-yuan | | |
+| 金 | 18 | liao-jin-yuan | | |
+| 蒙古 | 19 | liao-jin-yuan | | 蒙古汗國至元 |
+| 元 | 19 | liao-jin-yuan | | |
+| 偽齊 | — | liao-jin-yuan | | 金扶持劉豫（1130-1137） |
+| 明 | 20 | ming | | |
+| 清 | 21 | qing | 清末 | |
+| 中華民國 | 22 | modern | 民國、民初 | |
+| 中華人民共和國 | — | modern | 當代、現代、近代 | |
+
+**域外朝代**（不歸入 period 枚舉，`period` 留 null）：
+
+| 規範名 | 庫中寫法 | 說明 |
+|---|---|---|
+| 日本 | 日本、日 | |
+| 江戶時代 | 日本江戶時代、日本寶永年間 | 寶永為江戶時代年號 |
+| 朝鮮 | 朝鮮、朝鮮（明）、高麗 | 高麗王朝 |
+| 新羅 | 新羅 | 朝鮮三國之一 |
+| 韓國 | 韓國 | |
+| 英國 | 英國 | |
+| 美國 | 美國 | |
+| 比利時 | 比利時 | |
+
+**需拆分的歧義朝代**（canonical 逐條判定，不自動歸併）：
+
+| 原文 | 所含政權 | 判定方式 |
+|---|---|---|
+| 宋 | 南朝宋(nanbeichao) / 北宋(song) / 南宋(song) | entity 生卒年 + 著錄志上限 + 作者已知朝代 |
+| 魏 | 三國魏(three-kingdoms) / 北魏(nanbeichao) | period 三國志/魏書交叉驗證 |
+| 漢 | 西漢(qin-han) / 東漢(qin-han) | period 同屬 qin-han（粗粒度自消歧），canonical 逐條判 |
+| 周 | 先秦周(pre-qin) / 北周(nanbeichao) / 後周(five-dynasties) | 逐條判定 |
+| 齊 | 南朝齊(nanbeichao) / 北齊(nanbeichao) | period 同屬 nanbeichao，canonical 逐條判 |
+| 梁 | 南朝梁(nanbeichao) / 後梁(five-dynasties) | 逐條判定 |
+| 吳 | 春秋吳(pre-qin) / 三國吳(three-kingdoms) / 楊吳(five-dynasties) | 逐條判定 |
+| 蜀 | 三國蜀(three-kingdoms) / 前蜀(five-dynasties) / 後蜀(five-dynasties) | 逐條判定 |
+| 國朝 | 隨編目之朝而異（本庫多清、亦有明） | 按 source 判 |
+| 當代 / 近代 / 現代 | 時段詞，多指晚清至民國 | 逐條判 |
+
+**跨朝代值**（粗粒度可定 period 者，canonical 逐條判）：
+
+| 原文 | period | 說明 |
+|---|---|---|
+| 秦漢 | qin-han | 跨秦、漢 |
+| 隋唐 | sui-tang | 跨隋、唐 |
+| 齊梁 | nanbeichao | 跨南齊、梁 |
+| 金元 | liao-jin-yuan | 跨金、元 |
+| 宋、齊 | nanbeichao | 跨劉宋、南齊 |
+| 明末清初 | null | 跨 ming/qing，逐條判 |
+| 宋末元初 | null | 跨 song/liao-jin-yuan，逐條判 |
+| 元末明初 | null | 跨 liao-jin-yuan/ming，逐條判 |
+
+**垃圾值清理**（誤入朝代欄，應改為正確朝代或留 null）：
+
+| 原文 | 處理 | 說明 |
+|---|---|---|
+| @ / ? / 不詳 / 未詳 | → null | 缺失/佔位 |
+| 明0 | → 明 | OCR 衍字 |
+| 高宗乾隆 / 清 乾隆 / 清 高宗 | → 清 | 帝王廟號+年號誤入 |
+| 世宗雍正 | → 清 | 同上 |
+| 道光 | → 清 | 年號誤入 |
+| 康熙四十八年 | → 清 | 紀年誤入 |
+| 玄宗 | → 唐 | 帝王廟號誤入 |
+| 廬陵鳳林書院 | → null | 書院名 |
+| 西洋 | → null | 地域 |
+| 梁天竺 | → null | 地域（天竺=印度） |
+
+**dynasty_basis**（判斷依據，逐條可驗）：
+- `synonym`：同義歸併（三國魏→曹魏、後魏→北魏）
+- `entity_death_year` / `entity_birth_year`：作者 Entity 生卒年判定
+- `catalog_bound`：著錄志為時代上限
+- `duandai`：斷代志可逕定
+- `author_propagation`：同作者其他 Work 已判定值傳播
+- `manual`：人工覆核
+
+`dynasty` 規範化後同步更新 `index/works/*.json` 與 `index/entities/*.json` 中的 dynasty 欄位。
+
 #### IndexEntry object type（`indexed_by` / `emendated_by` 共用）
 
 ```json
