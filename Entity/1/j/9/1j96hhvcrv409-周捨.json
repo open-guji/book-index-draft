@@ -1,21 +1,23 @@
 {
- "schema_version": 1,
- "id": "1j96hhvcrv409",
- "type": "entity",
- "subtype": "people",
- "primary_name": "周捨",
- "dynasty": "唐",
- "works": [
-  {
-   "work_id": "1evgoqhl08etc",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 148192,
-  "cbdb_match": "manual",
-  "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=6"
- },
- "updated_at": "2026-04-29T16:51:33-07:00",
- "ai_note": "　按：所繫之 1evcmnc9v4jy8 原掛於被併之次條（撰人字首式重出 Phase 2b），該書實際 authors[] 所繫為另一「周捨」entity——本 entity 與彼似為同一人之兩條重出記錄，然 entity 之合併須另裁，非本次所及，故此處僅去其 works 之懸空所繫。　（訂正：前次因撰人字首式重出 Phase 2b 之副作用誤清空works[]，今核實庫中現況復原。）"
+  "schema_version": 1,
+  "id": "1j96hhvcrv409",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "周捨",
+  "dynasty": "唐",
+  "works": [
+    {
+      "work_id": "1evgoqhl08etc",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 148192,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=6"
+  },
+  "updated_at": "2026-08-08T11:51:59+00:00",
+  "ai_note": "　按：所繫之 1evcmnc9v4jy8 原掛於被併之次條（撰人字首式重出 Phase 2b），該書實際 authors[] 所繫為另一「周捨」entity——本 entity 與彼似為同一人之兩條重出記錄，然 entity 之合併須另裁，非本次所及，故此處僅去其 works 之懸空所繫。　（訂正：前次因撰人字首式重出 Phase 2b 之副作用誤清空works[]，今核實庫中現況復原。）",
+  "period": "sui-tang",
+  "period_basis": "據 dynasty「唐」自動歸併"
 }

@@ -1,62 +1,64 @@
 {
- "schema_version": 1,
- "id": "1j967avzlcjyi",
- "type": "entity",
- "subtype": "people",
- "primary_name": "許慎",
- "alt_names": [
-  {
-   "name": "叔重",
-   "type": "字"
+  "schema_version": 1,
+  "id": "1j967avzlcjyi",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "許慎",
+  "alt_names": [
+    {
+      "name": "叔重",
+      "type": "字"
+    },
+    {
+      "name": "許洨長",
+      "type": "號"
+    },
+    {
+      "name": "許祭酒",
+      "type": "號"
+    }
+  ],
+  "dynasty": "秦漢",
+  "birth_year": 30,
+  "death_year": 124,
+  "works": [
+    {
+      "work_id": "1ev3ba8s849a8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfdsczom3uo",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfharq3sh6o",
+      "role": "注"
+    },
+    {
+      "work_id": "1evftx3atdxq8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjr5os6hm9s",
+      "role": ""
+    },
+    {
+      "work_id": "1evkanwlksem8",
+      "role": ""
+    },
+    {
+      "work_id": "1evc5pefpg7wg"
+    },
+    {
+      "work_id": "1evc5peuc1kao"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 439189,
+    "cbdb_match": "auto",
+    "cbdb_source": "name_exact+dy_match+unique"
   },
-  {
-   "name": "許洨長",
-   "type": "號"
-  },
-  {
-   "name": "許祭酒",
-   "type": "號"
-  }
- ],
- "dynasty": "秦漢",
- "birth_year": 30,
- "death_year": 124,
- "works": [
-  {
-   "work_id": "1ev3ba8s849a8",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfdsczom3uo",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfharq3sh6o",
-   "role": "注"
-  },
-  {
-   "work_id": "1evftx3atdxq8",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evjr5os6hm9s",
-   "role": ""
-  },
-  {
-   "work_id": "1evkanwlksem8",
-   "role": ""
-  },
-  {
-   "work_id": "1evc5pefpg7wg"
-  },
-  {
-   "work_id": "1evc5peuc1kao"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 439189,
-  "cbdb_match": "auto",
-  "cbdb_source": "name_exact+dy_match+unique"
- },
- "updated_at": "2026-08-03T02:25:39+00:00"
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "period": "qin-han",
+  "period_basis": "據 dynasty「秦漢」自動歸併"
 }

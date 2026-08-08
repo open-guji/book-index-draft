@@ -1,59 +1,61 @@
 {
- "schema_version": 1,
- "id": "1j967cp1zdr31",
- "type": "entity",
- "subtype": "people",
- "primary_name": "范汪",
- "alt_names": [
-  {
-   "name": "元平",
-   "type": "字"
-  }
- ],
- "dynasty": "東晉",
- "works": [
-  {
-   "work_id": "1evcmngc6ay2o",
-   "role": "撰"
+  "schema_version": 1,
+  "id": "1j967cp1zdr31",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "范汪",
+  "alt_names": [
+    {
+      "name": "元平",
+      "type": "字"
+    }
+  ],
+  "dynasty": "東晉",
+  "works": [
+    {
+      "work_id": "1evcmngc6ay2o",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuunoqk54w",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuv1q5bsao",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuv1rb5l34",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evilzh5js5c0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuvb97g0e8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuutn8rzls",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgq5r95bgg0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcml2hbp14w",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 467976,
+    "cbdb_match": "manual",
+    "cbdb_source": "name_exact+dy_match+unique"
   },
-  {
-   "work_id": "1evfuunoqk54w",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfuv1q5bsao",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfuv1rb5l34",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evilzh5js5c0",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfuvb97g0e8",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfuutn8rzls",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evgq5r95bgg0",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evcml2hbp14w",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 467976,
-  "cbdb_match": "manual",
-  "cbdb_source": "name_exact+dy_match+unique"
- },
- "ai_note": "合併重複人物 Entity 1j96hff90x2ww（原名「集十六卷」）：該記錄係《補晉書藝文志》連寫誤切所造之偽人物，「集十六卷」實為卷數殘文，其所繫作品之作者即本人。",
- "updated_at": "2026-08-03T02:25:39+00:00"
+  "ai_note": "合併重複人物 Entity 1j96hff90x2ww（原名「集十六卷」）：該記錄係《補晉書藝文志》連寫誤切所造之偽人物，「集十六卷」實為卷數殘文，其所繫作品之作者即本人。",
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "period": "jin",
+  "period_basis": "據 dynasty「東晉」自動歸併"
 }

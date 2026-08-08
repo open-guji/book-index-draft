@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "王儉",
-  "dynasty": "未詳",
+  "dynasty": null,
   "works": [
     {
       "work_id": "1evr5e3m7i0d2",
@@ -71,5 +71,6 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_0+work_recall_1.00+ambiguous_14+no_dynasty"
   },
-  "updated_at": "2026-08-03T02:25:39+00:00"
+  "updated_at": "2026-08-08T11:51:57+00:00",
+  "dynasty_basis": "garbage_clean:未詳"
 }
