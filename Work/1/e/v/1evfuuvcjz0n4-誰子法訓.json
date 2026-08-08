@@ -1,42 +1,42 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuvcjz0n4",
- "title": "誰子法訓",
- "authors": [
-  {
-   "name": "周",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96kegkid5vk"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "誰子法訓八卷 周,謹按見《隋志》。《御覽》屢引是書,卷四百六引一條,稱谯子《齊交》,蓋是書篇名。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 8
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 8
-  }
- ],
- "measure_info": "八卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuvcjz0n4",
+  "title": "誰子法訓",
+  "authors": [
+    {
+      "name": "譙周",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96kegkid5vk"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "誰子法訓八卷 周,謹按見《隋志》。《御覽》屢引是書,卷四百六引一條,稱谯子《齊交》,蓋是書篇名。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 8
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「周」補全為「譙周」。據summary「稱谯子《齊交》」。",
+  "updated_at": "2026-08-08T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」"
 }

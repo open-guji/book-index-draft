@@ -1,45 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvdzcbwg0",
- "title": "子虛上林賦注",
- "authors": [
-  {
-   "name": "郭",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96keghk8h6o"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "子虚上林賦注一卷 郭,謹按見《七錄》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 1
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "additional_titles": [
-  "子虚上林賦注"
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvdzcbwg0",
+  "title": "子虛上林賦注",
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "注",
+      "dynasty": "晉",
+      "entity_id": "1j96keghk8h6o"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "子虚上林賦注一卷 郭,謹按見《七錄》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "additional_titles": [
+    "子虚上林賦注"
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「郭」補全為「郭璞」。據同 Entity 1j96keghk8h6o。",
+  "updated_at": "2026-08-08T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」"
 }
