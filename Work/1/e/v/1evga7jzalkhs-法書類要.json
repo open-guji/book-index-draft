@@ -1,42 +1,43 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "法書類要",
-  "authors": [
-    {
-      "name": "吳",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96kehm2l728"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "吳法書類要二十五卷",
-      "author_info": "失名，錢塘人",
-      "summary": "元吳（失名，錢塘人）法書類要二十五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 25
-  },
-  "description": {
-    "text": "失名，錢塘人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evga7jzalkhs",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 25
-    }
-  ],
-  "measure_info": "二十五卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "法書類要",
+ "authors": [
+  {
+   "name": "吳氏",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j96kehm2l728"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "吳法書類要二十五卷",
+   "author_info": "失名，錢塘人",
+   "summary": "元吳（失名，錢塘人）法書類要二十五卷"
+  }
+ ],
+ "juan_count": {
+  "number": 25
+ },
+ "description": {
+  "text": "失名，錢塘人",
+  "sources": [
+   "補遼金元藝文志"
+  ]
+ },
+ "id": "1evga7jzalkhs",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 25
+  }
+ ],
+ "measure_info": "二十五卷",
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "yuan",
+ "period_basis": "據 authors[0] 修正為元代（元高恥傳/元釋元海/元錢塘吳氏）",
+ "ai_note": "2026-08-08 修：撰人原作「吳」，今作「吳氏」。補遼金元：「元吳（失名，錢塘人）法書類要二十五卷」。元代錢塘吳氏佚名所輯，「吳」為其姓，名不傳。從志書原文標註失名，以「吳氏」作為作者標示。修正dynasty為元，period=yuan。"
 }

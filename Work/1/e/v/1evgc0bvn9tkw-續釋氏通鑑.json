@@ -1,42 +1,43 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "續釋氏通鑑",
-  "authors": [
-    {
-      "name": "大圭",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96kei06rjeo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "大圭續釋氏通鑑十五卷",
-      "author_info": "奉化人，徑山僧",
-      "summary": "元大圭（奉化人，徑山僧）續釋氏通鑑十五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "description": {
-    "text": "奉化人，徑山僧",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgc0bvn9tkw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "續釋氏通鑑",
+ "authors": [
+  {
+   "name": "釋大圭",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j96kei06rjeo"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "大圭續釋氏通鑑十五卷",
+   "author_info": "奉化人，徑山僧",
+   "summary": "元大圭（奉化人，徑山僧）續釋氏通鑑十五卷"
+  }
+ ],
+ "juan_count": {
+  "number": 15
+ },
+ "description": {
+  "text": "奉化人，徑山僧",
+  "sources": [
+   "元史藝文志"
+  ]
+ },
+ "id": "1evgc0bvn9tkw",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 15
+  }
+ ],
+ "measure_info": "十五卷",
+ "updated_at": "2026-08-08",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "ai_note": "2026-08-08 修復二字殘名：補遼金元藝文志明確「奉化人，徑山僧」即釋大圭（元，字恆白，號夢觀），缺釋字。"
 }

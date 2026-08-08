@@ -1,26 +1,27 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "鄒縣鄉土志",
-  "authors": [
-    {
-      "name": "胡",
-      "role": "撰",
-      "dynasty": "清"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善016593-016594）。清光緒卅三年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善016593-016594）。阶段 5 兜底建立。",
-  "id": "1evkpsp19v3ls",
-  "books": [
-    "11qkhsyupmdxc"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "鄒縣鄉土志",
+ "authors": [
+  {
+   "name": "胡煒",
+   "role": "撰",
+   "dynasty": "清",
+   "entity_id": null
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善016593-016594）。清光緒卅三年刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善016593-016594）。阶段 5 兜底建立。\n\n2026-08-08 修：撰人原作「胡」，今作「胡煒」。《鄒縣鄉土志》一卷，國學大師書目明確著錄：「（清）胡煒纂修」，清光緒三十三年（1907）山東圖文報館石印本。清末鄉土志為新體例，與明萬曆胡繼先修《鄒志》體裁不同。",
+ "id": "1evkpsp19v3ls",
+ "books": [
+  "11qkhsyupmdxc"
+ ],
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "qing",
+ "period_basis": "據 authors[0].dynasty「清」"
 }

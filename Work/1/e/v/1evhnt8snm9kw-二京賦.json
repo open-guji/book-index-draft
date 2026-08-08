@@ -1,36 +1,46 @@
 {
-  "schema_version": 1,
-  "id": "1evhnt8snm9kw",
-  "type": "work",
-  "subtype": "article",
-  "title": "二京賦",
-  "authors": [
-    {
-      "name": "張衡",
-      "dynasty": "漢",
-      "role": "作",
-      "entity_id": "1j96keof5r1fk"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E4%BA%AC%E8%B3%A6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "id": "1evhnt8snm9kw",
+ "type": "work",
+ "subtype": "article",
+ "title": "二京賦",
+ "authors": [
+  {
+   "name": "張衡",
+   "dynasty": "漢",
+   "role": "作",
+   "entity_id": "1j96keof5r1fk"
+  }
+ ],
+ "resources": [
+  {
+   "id": "wikisource",
+   "name": "維基文庫",
+   "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E4%BA%AC%E8%B3%A6",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "related_works": [
+  {
+   "id": "1evhnqciqrwu8",
+   "title": "正續古文辭類纂",
+   "relation": "collected_in"
+  }
+ ],
+ "updated_at": "2026-08-08",
+ "_has_text": true,
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《二京賦》二卷",
+   "summary": "《二京賦》二卷張衡撰。"
+  }
+ ],
+ "emendated_by": [],
+ "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8mgz94w（二京賦）。本組 title=二京賦，有 author 條之作者=張衡，noauthor 條 1evcpd8mgz94w 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。"
 }

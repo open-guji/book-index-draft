@@ -1,43 +1,41 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "蘇耽傳",
-  "authors": [
-    {
-      "name": "人又有成武丁",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j96hfxgmpfk0"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《蘇耽傳》一卷",
-      "summary": "《蘇耽傳》一卷（漢人又有成武丁傳附）",
-      "author_info": "漢人又有成武丁傳附"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgpo81ykc8w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "蘇耽傳",
+ "authors": [
+  {
+   "name": "佚名",
+   "entity_id": null
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《蘇耽傳》一卷",
+   "summary": "《蘇耽傳》一卷（漢人又有成武丁傳附）",
+   "author_info": "漢人又有成武丁傳附"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 同名異書核對+修復作者誤截：國史經籍志此條原注為「（漢人又有成武丁傳附）」，是「漢代蘇耽傳中附加又有成武丁的傳記片段」之義，匯入者誤將「人又有成武丁」截為作者名。《蘇耽傳》真實作者無傳世記錄，改署佚名。原錯作者欄=['人又有成武丁']",
+ "id": "1evgpo81ykc8w",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-08",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」"
 }

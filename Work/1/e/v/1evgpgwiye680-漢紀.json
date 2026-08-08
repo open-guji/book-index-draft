@@ -1,39 +1,41 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "漢紀",
-  "authors": [
-    {
-      "name": "應劭",
-      "role": "撰",
-      "entity_id": "1j967bgl6pbns"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《漢紀》三十卷",
-      "summary": "《漢紀》三十卷（應劭。）",
-      "author_info": "應劭。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgwiye680",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "漢紀",
+ "authors": [
+  {
+   "name": "荀悅",
+   "role": "撰",
+   "entity_id": "1j967bgl6pbns",
+   "dynasty": "漢"
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《漢紀》三十卷",
+   "summary": "《漢紀》三十卷（應劭。）",
+   "author_info": "應劭。"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpgwiye680",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "updated_at": "2026-08-08",
+ "ai_note": "2026-08-08 同名異書核對：國史經籍志此條「應劭撰」係形近編者誤植；《漢紀》三十卷正史及7方來源皆作漢荀悅撰，且本志另一條（同 dst）亦作荀悅，故改正作者為荀悅。"
 }

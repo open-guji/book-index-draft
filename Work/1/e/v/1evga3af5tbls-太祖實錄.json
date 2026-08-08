@@ -1,40 +1,40 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "太祖實錄",
-  "authors": [
-    {
-      "name": "宗弼",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j96hjwlyaf61"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "宗弼太祖實錄",
-      "author_info": "皇統八年進",
-      "summary": "金宗弼太祖實錄（皇統八年進）"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "完顏宗弼太祖實錄二十卷",
-      "author_info": "皇統八年進",
-      "summary": "金完顏宗弼太祖實錄二十卷（皇統八年進）"
-    }
-  ],
-  "description": {
-    "text": "皇統八年進",
-    "sources": [
-      "補遼金元藝文志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "太祖實錄",
+ "authors": [
+  {
+   "name": "完顏宗弼",
+   "role": "撰",
+   "dynasty": "金",
+   "entity_id": null
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "宗弼太祖實錄",
+   "author_info": "皇統八年進",
+   "summary": "金宗弼太祖實錄（皇統八年進）"
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('董倫', '明')]，本條作者 宗弼（金），另建 | 從 1evgbvfx8tp8g 合併。原註：同名異書：已有 Work 作者為 [('', ''), ('董倫', '明'), ('宗弼', '金')]，本條作者 完顏宗弼（金），另建",
-  "id": "1evga3af5tbls",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」"
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "完顏宗弼太祖實錄二十卷",
+   "author_info": "皇統八年進",
+   "summary": "金完顏宗弼太祖實錄二十卷（皇統八年進）"
+  }
+ ],
+ "description": {
+  "text": "皇統八年進",
+  "sources": [
+   "補遼金元藝文志"
+  ]
+ },
+ "ai_note": "同名異書：已有 Work 作者為 [('董倫', '明')]，本條作者 宗弼（金），另建 | 從 1evgbvfx8tp8g 合併。原註：同名異書：已有 Work 作者為 [('', ''), ('董倫', '明'), ('宗弼', '金')]，本條作者 完顏宗弼（金），另建\n\n2026-08-08 修復二字殘名：元史藝文志明確「金完顏宗弼太祖實錄二十卷（皇統八年進）」，完顏勖（1099-1157）字勉道，原名完顏宗弼，女真名烏野，金代史家。\n\n2026-08-08 補記：原關聯 Entity 1j96hjwlyaf61（舒庭謨）為錯誤關聯，已置entity_id=null，待新建正確Entity。",
+ "id": "1evga3af5tbls",
+ "updated_at": "2026-08-08",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「金」"
 }

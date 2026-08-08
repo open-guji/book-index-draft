@@ -1,42 +1,49 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3mfaxxj",
-  "type": "work",
-  "title": "左氏膏肓",
-  "authors": [
-    {
-      "name": "掾何休始",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j96hei5hwzk0"
-    }
-  ],
-  "juan_count": {
-    "number": 9
+ "schema_version": 1,
+ "id": "1evr5e3mfaxxj",
+ "type": "work",
+ "title": "左氏膏肓",
+ "authors": [
+  {
+   "name": "何休",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": null
+  }
+ ],
+ "juan_count": {
+  "number": 9
+ },
+ "indexed_by": [
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "左氏膏肓九卷",
+   "summary": "左氏膏肓九卷。漢司空掾何休始撰答賈逵事因記左氏所短遂頗流布學者稱之後更删補爲定今每事左方輙附鄭康成之學因引鄭說竄寄何書云書今殘逸第七卷亡"
   },
-  "indexed_by": [
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "左氏膏肓九卷",
-      "summary": "左氏膏肓九卷。漢司空掾何休始撰答賈逵事因記左氏所短遂頗流布學者稱之後更删補爲定今每事左方輙附鄭康成之學因引鄭說竄寄何書云書今殘逸第七卷亡"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《左氏膏肓》十卷",
-      "summary": "《左氏膏肓》十卷（何休。）",
-      "author_info": "何休。"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev7vo50ar94w",
-      "title": "左傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《左氏膏肓》十卷",
+   "summary": "《左氏膏肓》十卷（何休。）",
+   "author_info": "何休。"
+  },
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "summary": "左氏膏肓"
+  }
+ ],
+ "related_works": [
+  {
+   "id": "1ev7vo50ar94w",
+   "title": "左傳",
+   "relation": "contains_text_of"
+  }
+ ],
+ "updated_at": "2026-08-08",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "ai_note": "2026-08-08 同名異書核對+修復作者誤截：崇文總目原文「漢司空掾何休始撰答賈逵事…」，匯入者誤將官名「掾」+姓名「何休」+語法詞「始」合為作者「掾何休始」。正確作者=何休（漢，任城樊人，公羊大師）。原錯=['掾何休始']\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evr5e3mj1sgt（左氏膏肓）。本組 title=左氏膏肓，有 author 條之作者=何休，noauthor 條 1evr5e3mj1sgt 為志書連書省撰人體例（直齋書錄解題），判定同書。共移入 1 個 indexed_by 記錄。",
+ "emendated_by": []
 }

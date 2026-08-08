@@ -1,25 +1,26 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "續古今侃道論衡",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續古今侃道論衡》一卷",
-      "summary": "《續古今侃道論衡》一卷（唐智昇）"
-    }
-  ],
-  "authors": [
-    {
-      "name": "智昇",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7y9t4"
-    }
-  ],
-  "id": "1evinbbq5dpts",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "續古今侃道論衡",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《續古今侃道論衡》一卷",
+   "summary": "《續古今侃道論衡》一卷（唐智昇）"
+  }
+ ],
+ "authors": [
+  {
+   "name": "釋智昇",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j967bgl7y9t4"
+  }
+ ],
+ "id": "1evinbbq5dpts",
+ "updated_at": "2026-08-08",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "ai_note": "2026-08-08 修復二字殘名：釋智昇（唐西崇福寺僧，著《開元釋教錄》《續古今佛道論衡》），缺釋字。"
 }

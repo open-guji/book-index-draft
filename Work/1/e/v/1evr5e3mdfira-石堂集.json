@@ -1,35 +1,36 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3mdfira",
-  "type": "work",
-  "title": "石堂集",
-  "authors": [
-    {
-      "name": "元玉",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hjwlxcpi8"
-    }
-  ],
-  "juan_count": {
-    "number": 7
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "石堂集",
-      "summary": "石堂集七卷。元玉撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+ "schema_version": 1,
+ "id": "1evr5e3mdfira",
+ "type": "work",
+ "title": "石堂集",
+ "authors": [
+  {
+   "name": "釋元玉",
+   "role": "撰",
+   "dynasty": "清",
+   "entity_id": "1j96hjwlxcpi8"
+  }
+ ],
+ "juan_count": {
+  "number": 7
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "石堂集",
+   "summary": "石堂集七卷。元玉撰。"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 7
+  }
+ ],
+ "measure_info": "七卷",
+ "updated_at": "2026-08-08",
+ "period": "qing",
+ "period_basis": "據 authors[0].dynasty「清」",
+ "ai_note": "2026-08-08 修復二字殘名：釋元玉（1629-1695，字祖珍，號石堂，泰山普照寺住持，清僧），清史稿「石堂集七卷元玉撰」即此人，缺釋字。"
 }

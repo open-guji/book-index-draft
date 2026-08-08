@@ -1,61 +1,61 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "春秋左氏傳音",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "春秋左氏傳音三卷 康。謹按見《隋志》。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《春秋左氏傳音》（稽康）",
-      "summary": "隋志三巻",
-      "section": "春秋",
-      "juan": "卷一百七十三",
-      "page": "KR2n0011_WYG_173-2b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "春秋左氏傳音",
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "春秋左氏傳音三卷 康。謹按見《隋志》。"
   },
-  "authors": [
-    {
-      "name": "康",
-      "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96keg6hxo1s"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "id": "1evfubrji4bgg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "related_works": [
-    {
-      "id": "1ev7vo50ar94w",
-      "title": "左傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  {
+   "source": "經義考",
+   "source_bid": "1ev3bb43bv4lc",
+   "title_info": "《春秋左氏傳音》（稽康）",
+   "summary": "隋志三巻",
+   "section": "春秋",
+   "juan": "卷一百七十三",
+   "page": "KR2n0011_WYG_173-2b",
+   "attested_status": "lost",
+   "attested_status_raw": "佚",
+   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  }
+ ],
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "authors": [
+  {
+   "name": "嵇康",
+   "role": "注",
+   "dynasty": "晉",
+   "entity_id": "1j96keg6hxo1s"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "id": "1evfubrji4bgg",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "related_works": [
+  {
+   "id": "1ev7vo50ar94w",
+   "title": "左傳",
+   "relation": "contains_text_of"
+  }
+ ],
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「康」，今作「嵇康」。案語：「春秋左氏傳音三卷 康，見《隋志》。」《隋志》春秋類：「《春秋左氏傳音》三卷，魏中散大夫嵇康撰。」嵇康字叔夜，譙國銍人，官魏中散大夫。雖魏人，晉人補志或收入。Entity原繫康（單字），已更正。",
+ "updated_at": "2026-08-08T00:00:00+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」"
 }
