@@ -1,26 +1,26 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "兩同書",
-  "authors": [
-    {
-      "name": "吳筠",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hf8n1ptz4"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《兩同書》",
-      "summary": "吳筠《兩同書》二卷"
-    }
-  ],
-  "ai_note": "從 1ev3bbv7qhiww（羅隱《兩同書》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=吳 + name=筠，今合併為「吳筠」，朝代改為唐。據宋史藝文志 summary「吳筠《兩同書》二卷」確認。",
-  "id": "1evf1nksk4we8",
-  "updated_at": "2026-08-08T00:00:00+00:00",
-  "period": "tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+ "schema_version": 1,
+ "type": "work",
+ "title": "兩同書",
+ "authors": [
+  {
+   "name": "吳筠",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96hf8n1ptz4"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《兩同書》",
+   "summary": "吳筠《兩同書》二卷"
+  }
+ ],
+ "ai_note": "2026-08-08 秦汉区 period规范化：tang→sui-tang（兩同書，吳筠·唐 → sui-tang）。\n從 1ev3bbv7qhiww（羅隱《兩同書》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=吳 + name=筠，今合併為「吳筠」，朝代改為唐。據宋史藝文志 summary「吳筠《兩同書》二卷」確認。",
+ "id": "1evf1nksk4we8",
+ "updated_at": "2026-08-08",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」"
 }
