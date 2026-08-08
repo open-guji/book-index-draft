@@ -1,32 +1,39 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "id": "1evfugvyib6rk",
-  "title": "周禮音",
-  "authors": [],
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "title_info": "周禮音一卷",
-      "summary": "周禮音一卷\n徐。謹按見《釋文·敘録》。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1evl7nl7lsg00",
-      "title": "周禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+ "schema_version": 1,
+ "type": "work",
+ "id": "1evfugvyib6rk",
+ "title": "周禮音",
+ "authors": [
+  {
+   "name": "徐邈",
+   "dynasty": "晉",
+   "entity_id": "1j96hl473bf9c"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "title_info": "周禮音一卷",
+   "summary": "周禮音一卷\n徐。謹按見《釋文·敘録》。"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1evl7nl7lsg00",
+   "title": "周禮",
+   "relation": "contains_text_of"
+  }
+ ],
+ "updated_at": "2026-08-08",
+ "period": "jin",
+ "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+ "ai_note": "2026-08-08 補撰人：補晉志原文「周禮音一卷徐。謹按見《釋文·敘録》。」此「徐」=徐邈（《經典釋文·敘錄》著錄徐邈《周禮音》）。與1evfugvzrklj4李軌《周禮音》為不同人不同書。"
 }

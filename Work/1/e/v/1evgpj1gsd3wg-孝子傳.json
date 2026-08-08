@@ -1,41 +1,41 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "孝子傳",
-  "authors": [
-    {
-      "name": "武帝",
-      "role": "撰",
-      "dynasty": "梁",
-      "entity_id": "1j967afjav1vw"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孝子傳》三十卷",
-      "summary": "《孝子傳》三十卷（梁武帝）",
-      "author_info": "梁武帝"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgpj1gsd3wg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "孝子傳",
+ "authors": [
+  {
+   "name": "蕭衍",
+   "role": "撰",
+   "dynasty": "梁",
+   "entity_id": null
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《孝子傳》三十卷",
+   "summary": "《孝子傳》三十卷（梁武帝）",
+   "author_info": "梁武帝"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 修復：「武帝[梁]」=梁武帝蕭衍，朝代「梁」被誤拆為朝代欄+帝號為名。國史經籍志原文「梁武帝」即蕭衍（464-549），著《孝子傳》三十卷。",
+ "id": "1evgpj1gsd3wg",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "updated_at": "2026-08-08"
 }
