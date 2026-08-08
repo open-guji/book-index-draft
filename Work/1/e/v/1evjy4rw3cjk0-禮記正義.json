@@ -1,51 +1,91 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "禮記正義",
-  "authors": [
-    {
-      "name": "孔穎達",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j98owze20tts"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》唐宋編（ZHSY000034）。宋紹熙三年黄唐兩浙東路茶鹽司刻宋元遞修本。",
-    "sources": [
-      "中華再造善本"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "禮記正義",
+ "authors": [
+  {
+   "name": "孔穎達",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j98owze20tts"
+  }
+ ],
+ "description": {
+  "text": "本書收入《中華再造善本》唐宋編（ZHSY000034）。宋紹熙三年黄唐兩浙東路茶鹽司刻宋元遞修本。",
+  "sources": [
+   "中華再造善本"
+  ]
+ },
+ "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：11qfrvolv5ce8(鄭樸翁);1ev3b9zjg7hfk(鄭玄);1evgoqc87y134(孔頴逹)（不同作者，故新建獨立 Work）。　合併：自 1evr5e3mfaxw5 併入，2026-08-08——禮記正義七十卷，孔頴達（頴/穎、逹/達異體字）即孔穎達，同書，經人核准合併。",
+ "juan_count": {
+  "number": 70
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 70
+  }
+ ],
+ "measure_info": "七十卷",
+ "id": "1evjy4rw3cjk0",
+ "books": [
+  "11qk4xwcskb35"
+ ],
+ "related_works": [
+  {
+   "id": "1evl7nlb2nda8",
+   "title": "禮記",
+   "relation": "contains_text_of"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "summary": "唐孔穎達等撰。舊有《義疏》行於世者，惟皇甫侃、熊安生二家。皇勝於熊，故據皇氏為本，有不備則以熊氏補焉。"
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：11qfrvolv5ce8(鄭樸翁);1ev3b9zjg7hfk(鄭玄);1evgoqc87y134(孔頴逹)（不同作者，故新建獨立 Work）。",
-  "juan_count": {
-    "number": 70
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "禮記正義七十卷",
+   "summary": "禮記正義七十卷。孔頴達等撰",
+   "merged_from": "1evr5e3mfaxw5"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 70
-    }
-  ],
-  "measure_info": "七十卷",
-  "id": "1evjy4rw3cjk0",
-  "books": [
-    "11qk4xwcskb35"
-  ],
-  "related_works": [
-    {
-      "id": "1evl7nlb2nda8",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "唐孔穎達等撰。舊有《義疏》行於世者，惟皇甫侃、熊安生二家。皇勝於熊，故據皇氏為本，有不備則以熊氏補焉。"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《禮記正義》七十卷",
+   "summary": "《禮記正義》七十卷（孔頴逹等。）",
+   "author_info": "孔頴逹等。",
+   "merged_from": "1evr5e3mfaxw5"
+  },
+  {
+   "source": "經義考",
+   "source_bid": "1ev3bb43bv4lc",
+   "title_info": "《禮記正義》（孔頴達）",
+   "summary": "唐志七十卷",
+   "section": "禮記",
+   "juan": "卷一百四十",
+   "page": "KR2n0011_WYG_140-12b",
+   "attested_status": "extant",
+   "attested_status_raw": "存",
+   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+   "merged_from": "1evr5e3mfaxw5"
+  }
+ ],
+ "updated_at": "2026-08-08T00:28:45+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evr5e3mfaxw5",
+   "title": "禮記正義",
+   "author": "孔頴達",
+   "indexed_by_moved": [
+    "崇文總目",
+    "國史經籍志",
+    "經義考"
+   ]
+  }
+ ]
 }
