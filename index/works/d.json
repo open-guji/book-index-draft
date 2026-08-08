@@ -1586,22 +1586,6 @@
   "measure_info": "一卷",
   "has_text": true
  },
- "1ev3baeyny8sg": {
-  "id": "1ev3baeyny8sg",
-  "title": "平巢事跡考",
-  "type": "Work",
-  "path": "Work/1/e/v/1ev3baeyny8sg-平巢事跡考.json",
-  "author": "人",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷",
-  "additional_titles": [
-   "平巢事蹟考"
-  ],
-  "has_text": true,
-  "has_image": true
- },
  "1ev3baf8pqadc": {
   "id": "1ev3baf8pqadc",
   "title": "小史摘鈔",
@@ -17939,14 +17923,18 @@
   "path": "Work/1/e/v/1evetxcy08qo0-論語王肅注.json",
   "author": "王肅",
   "role": "注",
-  "juan_count": 10,
+  "juan_count": {
+   "number": 10
+  },
   "measure_info": "十卷",
   "dynasty": "三國魏",
   "additional_titles": [
    "論語"
   ],
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evetxcyyw2yo": {
   "id": "1evetxcyyw2yo",
@@ -18997,21 +18985,6 @@
   "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷",
-  "period": "jin",
-  "loss_status": "lost"
- },
- "1evfuuw8ygum8": {
-  "id": "1evfuuw8ygum8",
-  "title": "太玄經注",
-  "type": "Work",
-  "path": "Work/1/e/v/1evfuuw8ygum8-太玄經注.json",
-  "author": "范望",
-  "dynasty": "晉",
-  "role": "注",
-  "juan_count": {
-   "number": 12
-  },
-  "measure_info": "十二卷",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -23038,8 +23011,12 @@
   "path": "Work/1/e/v/1evgor4sm7chs-五經異同評.json",
   "author": "賀㻛",
   "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷"
+  "juan_count": {
+   "number": 1
+  },
+  "measure_info": "一卷",
+  "has_text": false,
+  "has_image": false
  },
  "1evgor4zqsf0g": {
   "id": "1evgor4zqsf0g",

@@ -1417,7 +1417,9 @@
   "author": "荀悅",
   "dynasty": "漢",
   "role": "撰",
-  "juan_count": 30,
+  "juan_count": {
+   "number": 30
+  },
   "measure_info": "三十卷",
   "has_text": true,
   "has_image": true,
@@ -17896,16 +17898,6 @@
   "author": "黃任恆",
   "role": "撰"
  },
- "1evetxcz4icqo": {
-  "id": "1evetxcz4icqo",
-  "title": "五經異同評",
-  "type": "Work",
-  "path": "Work/1/e/v/1evetxcz4icqo-五經異同評（賀）.json",
-  "author": "賀",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
  "1evetzkh9wxz4": {
   "id": "1evetzkh9wxz4",
   "title": "答春秋穀梁義",
@@ -18337,7 +18329,12 @@
   "author": "范望",
   "dynasty": "三國吳",
   "role": "注",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 12
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evfteqa23400": {
   "id": "1evfteqa23400",
