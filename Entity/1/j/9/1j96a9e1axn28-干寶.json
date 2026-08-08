@@ -1,139 +1,127 @@
 {
-  "schema_version": 1,
-  "id": "1j96a9e1axn28",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "干寶",
-  "alt_names": [
-    {
-      "name": "令升",
-      "type": "字"
-    }
-  ],
-  "dynasty": "東晉",
-  "works": [
-    {
-      "work_id": "1evr5e3m76rw0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evr5e3m7i0cx",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evr5e3m7i0fd",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evr5e3mamdu2",
-      "role": "撰"
-    },
-    {
-      "work_id": "1ev3bckdh3u2o",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evc5p8l4mvi8",
-      "role": "注"
-    },
-    {
-      "work_id": "1evc5p8p9ub5s",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcpjzqhnhfk",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcpjzzs9vr4",
-      "role": "注"
-    },
-    {
-      "work_id": "1evdxnpajzl6o",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubahnbmdc",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubhbjtrsw",
-      "role": "注"
-    },
-    {
-      "work_id": "1evfuuvufb474",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evi5x9fwda80",
-      "role": "作"
-    },
-    {
-      "work_id": "1evi5x9lggef4",
-      "role": "作"
-    },
-    {
-      "work_id": "1evc5pcs9og74"
-    },
-    {
-      "work_id": "1evc5pdqvgk5c"
-    },
-    {
-      "work_id": "1evc5pdsp0e80"
-    },
-    {
-      "work_id": "1evcmod0j1qtc",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgop8owm4n4",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcubrwer20w"
-    },
-    {
-      "work_id": "1evfuuz223wg0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuug8iwe0w",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubhmszsw0",
-      "role": "注"
-    },
-    {
-      "work_id": "1evgpgxfkdp8g",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuukjaf5s0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgoq644pcsg",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgopxd0y800",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuuo0zmgow",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgpjgxvj4lc",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "description": {
-    "text": "東晉史學家，《搜神記》作者",
-    "sources": []
+ "schema_version": 1,
+ "id": "1j96a9e1axn28",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "干寶",
+ "alt_names": [
+  {
+   "name": "令升",
+   "type": "字"
+  }
+ ],
+ "dynasty": "東晉",
+ "works": [
+  {
+   "work_id": "1evr5e3m76rw0",
+   "role": "撰"
   },
-  "ai_note": "2026-07-26：合併重複人物 Entity 1j96hfmhm78jk。干寶為東晉人。 合併重複人物 Entity 1j96hf2s8h2ww（原名「干寶」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。　別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。",
-  "updated_at": "2026-08-03T02:25:39+00:00"
+  {
+   "work_id": "1evr5e3m7i0cx",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evr5e3m7i0fd",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evr5e3mamdu2",
+   "role": "撰"
+  },
+  {
+   "work_id": "1ev3bckdh3u2o",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evc5p8l4mvi8",
+   "role": "注"
+  },
+  {
+   "work_id": "1evc5p8p9ub5s",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evcs0bvej6dc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evcpjzzs9vr4",
+   "role": "注"
+  },
+  {
+   "work_id": "1evdxnpajzl6o",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubahnbmdc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubhbjtrsw",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfuuvufb474",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evi5x9fwda80",
+   "role": "作"
+  },
+  {
+   "work_id": "1evi5x9lggef4",
+   "role": "作"
+  },
+  {
+   "work_id": "1evc5pcs9og74"
+  },
+  {
+   "work_id": "1evc5pdqvgk5c"
+  },
+  {
+   "work_id": "1evc5pdsp0e80"
+  },
+  {
+   "work_id": "1evcmod0j1qtc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgop8owm4n4",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evcubrwer20w"
+  },
+  {
+   "work_id": "1evfuug8iwe0w",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubhmszsw0",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfuukjaf5s0",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgoq644pcsg",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgopxd0y800",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfuuo0zmgow",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {},
+ "description": {
+  "text": "東晉史學家，《搜神記》作者",
+  "sources": []
+ },
+ "ai_note": "2026-07-26：合併重複人物 Entity 1j96hfmhm78jk。干寶為東晉人。 合併重複人物 Entity 1j96hf2s8h2ww（原名「干寶」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。　別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。",
+ "updated_at": "2026-08-03T02:25:39+00:00"
 }

@@ -1,53 +1,72 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "記聞",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《記聞》二卷",
-      "summary": "《記聞》二卷宋後軍參軍徐益壽撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《記聞》三卷",
-      "summary": "《記聞》三卷徐益壽撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《記聞》二卷",
-      "summary": "《記聞》二卷（宋徐益壽）",
-      "author_info": "宋徐益壽"
-    }
-  ],
-  "authors": [
-    {
-      "name": "徐益壽",
-      "role": "撰",
-      "entity_id": "1j96hf10adwqo"
-    }
-  ],
-  "juan_count": {
-    "number": 2
+ "schema_version": 1,
+ "type": "work",
+ "title": "記聞",
+ "indexed_by": [
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《記聞》二卷",
+   "summary": "《記聞》二卷宋後軍參軍徐益壽撰。"
   },
-  "id": "1evcmncs7bgu8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《記聞》二卷",
-      "summary": "記聞二卷 宋後軍參軍徐益壽撰\n徐益壽,始末未詳。\n《唐書·經籍志》:《記聞》三卷,徐益壽撰。\n《唐書·藝文志》:徐益壽《記聞》三卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《記聞》三卷",
+   "summary": "《記聞》三卷徐益壽撰。"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《記聞》二卷",
+   "summary": "《記聞》二卷（宋徐益壽）",
+   "author_info": "宋徐益壽"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "徐益壽記聞",
+   "summary": "徐益壽記聞三卷",
+   "merged_from": "1evcs0pf70lq8"
+  }
+ ],
+ "authors": [
+  {
+   "name": "徐益壽",
+   "role": "撰",
+   "entity_id": "1j96hf10adwqo"
+  }
+ ],
+ "juan_count": {
+  "number": 2
+ },
+ "id": "1evcmncs7bgu8",
+ "emendated_by": [
+  {
+   "source": "隋書經籍志考證",
+   "source_bid": "1evdlszdhf5z4",
+   "title_info": "《記聞》二卷",
+   "summary": "記聞二卷 宋後軍參軍徐益壽撰\n徐益壽,始末未詳。\n《唐書·經籍志》:《記聞》三卷,徐益壽撰。\n《唐書·藝文志》:徐益壽《記聞》三卷。"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 2
+  }
+ ],
+ "measure_info": "二卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0pf70lq8",
+   "title": "徐益壽記聞",
+   "author": "徐益壽",
+   "title_info": "徐益壽記聞",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「徐益壽記聞」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「徐益壽」已見本條 authors[]），裸題「記聞」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

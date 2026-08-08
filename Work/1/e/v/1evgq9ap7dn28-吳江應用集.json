@@ -1,40 +1,59 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "吳江應用集",
-  "authors": [
-    {
-      "name": "林鼎",
-      "role": "撰",
-      "dynasty": "吳",
-      "entity_id": "1j96hjwlylnqf"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "吳江應用集",
+ "authors": [
+  {
+   "name": "林鼎",
+   "role": "撰",
+   "dynasty": "吳",
+   "entity_id": "1j96hjwlylnqf"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《吳江應用集》二十卷",
+   "summary": "《吳江應用集》二十卷（吳林鼎）",
+   "author_info": "吳林鼎"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《吳江應用集》二十卷",
-      "summary": "《吳江應用集》二十卷（吳林鼎）",
-      "author_info": "吳林鼎"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq9ap7dn28",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "林鼎吴江應用集二十卷",
+   "summary": "林鼎吴江應用集二十卷。（闕）",
+   "merged_from": "1evr5e3mhsucz"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgq9ap7dn28",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evr5e3mhsucz",
+   "title": "林鼎吳江應用集",
+   "author": "林鼎",
+   "title_info": "林鼎吳江應用集",
+   "indexed_by_moved": [
+    "崇文總目"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「林鼎吳江應用集」撰人折入題首（來源：崇文總目），與本條同書（撰人「林鼎」已見本條 authors[]），裸題「吳江應用集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

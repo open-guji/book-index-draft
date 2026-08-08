@@ -1,43 +1,46 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m76rrp",
-  "type": "work",
-  "title": "洪範五行傳",
-  "authors": [
-    {
-      "name": "劉向",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j9678njjg2rq"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "五行傳",
-      "summary": "漢劉向《五行傳》二卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類 | 從 1evkpiqimg64g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀015017），無同名 Work 故新建。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀015017）。清嘉慶三年金溪王氏刊漢魏遺書鈔之一。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qki0rzlyoe8"
-  ],
-  "updated_at": "2026-07-29T03:47:56+00:00"
+ "schema_version": 1,
+ "id": "1evr5e3m76rrp",
+ "type": "work",
+ "title": "洪範五行傳",
+ "authors": [
+  {
+   "name": "劉向",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j9678njjg2rq"
+  }
+ ],
+ "juan_count": {
+  "number": 2
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "五行傳",
+   "summary": "漢劉向《五行傳》二卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部書類輯佚條目。 來源：清史稿藝文志經部書類 | 從 1evkpiqimg64g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀015017），無同名 Work 故新建。　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 2
+  }
+ ],
+ "measure_info": "二卷",
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀015017）。清嘉慶三年金溪王氏刊漢魏遺書鈔之一。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "books": [
+  "11qki0rzlyoe8"
+ ],
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "loss_status": "lost"
 }

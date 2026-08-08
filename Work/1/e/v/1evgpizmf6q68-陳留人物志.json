@@ -1,40 +1,61 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "陳留人物志",
-  "authors": [
-    {
-      "name": "江敞",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96hfstrqm0w"
-    }
-  ],
-  "juan_count": {
-    "number": 15
+ "schema_version": 1,
+ "type": "work",
+ "title": "陳留人物志",
+ "authors": [
+  {
+   "name": "江敞",
+   "role": "撰",
+   "dynasty": "晉",
+   "entity_id": "1j96hfstrqm0w"
+  }
+ ],
+ "juan_count": {
+  "number": 15
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《陳留人物志》十五卷",
+   "summary": "《陳留人物志》十五卷（晉江敞）",
+   "author_info": "晉江敞"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《陳留人物志》十五卷",
-      "summary": "《陳留人物志》十五卷（晉江敞）",
-      "author_info": "晉江敞"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpizmf6q68",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "江敞陳留人物志",
+   "summary": "江敞陳留人物志十五卷",
+   "merged_from": "1evcs0f3wuxhc"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpizmf6q68",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 15
+  }
+ ],
+ "measure_info": "十五卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」",
+ "merged_in": [
+  {
+   "id": "1evcs0f3wuxhc",
+   "title": "江敞陳留人物志",
+   "author": "江敞",
+   "title_info": "江敞陳留人物志",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「江敞陳留人物志」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「江敞」已見本條 authors[]），裸題「陳留人物志」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

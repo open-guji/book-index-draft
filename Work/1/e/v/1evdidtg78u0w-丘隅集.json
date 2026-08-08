@@ -1,42 +1,63 @@
 {
-  "schema_version": 1,
-  "id": "1evdidtg78u0w",
-  "type": "work",
-  "title": "丘隅集",
-  "authors": [
-    {
-      "name": "喬世寧",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967cp20bgoe"
-    }
-  ],
-  "juan_count": {
-    "number": 19
+ "schema_version": 1,
+ "id": "1evdidtg78u0w",
+ "type": "work",
+ "title": "丘隅集",
+ "authors": [
+  {
+   "name": "喬世寧",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967cp20bgoe"
+  }
+ ],
+ "juan_count": {
+  "number": 19
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "乔世宁《丘隅集》十九卷",
+   "summary": "喬世寧《丘隅集》十九卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "乔世宁《丘隅集》十九卷",
-      "summary": "喬世寧《丘隅集》十九卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 19
-    }
-  ],
-  "measure_info": "十九卷",
-  "books": [
-    "11qki6luj8glc"
-  ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《喬世寧丘隅集》十九卷",
+   "summary": "《喬世寧丘隅集》十九卷",
+   "merged_from": "1evgqfkuhbda8"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 19
+  }
+ ],
+ "measure_info": "十九卷",
+ "books": [
+  "11qki6luj8glc"
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqfkuhbda8",
+   "title": "喬世寧丘隅集",
+   "author": "喬世寧",
+   "title_info": "喬世寧丘隅集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「喬世寧丘隅集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「喬世寧」已見本條 authors[]），裸題「丘隅集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

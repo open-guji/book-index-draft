@@ -26,6 +26,13 @@
    "title_info": "《古今通論》二十卷",
    "summary": "《古今通論》二十卷（于嬰）",
    "author_info": "于嬰"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王嬰古今通論",
+   "summary": "王嬰古今通論三卷",
+   "merged_from": "1evcs0l1nlw5c"
   }
  ],
  "id": "1evcpd0n3sa2o",
@@ -38,6 +45,19 @@
   }
  ],
  "loss_status": "lost",
- "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/古今通論.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "updated_at": "2026-08-05T09:02:34+00:00"
+ "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/古今通論.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「王嬰古今通論」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「王嬰」已見本條 authors[]），裸題「古今通論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "qing",
+ "period_basis": "據 authors[0].dynasty「清」",
+ "merged_in": [
+  {
+   "id": "1evcs0l1nlw5c",
+   "title": "王嬰古今通論",
+   "author": "王嬰",
+   "title_info": "王嬰古今通論",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

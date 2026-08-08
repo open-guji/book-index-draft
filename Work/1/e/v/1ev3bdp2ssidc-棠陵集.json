@@ -1,35 +1,62 @@
 {
-  "schema_version": 1,
-  "id": "1ev3bdp2ssidc",
-  "type": "work",
-  "title": "棠陵集",
-  "authors": [
-    {
-      "name": "方豪",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzma9nj"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《棠陵集》•八卷",
-      "author_info": "明方豪撰",
-      "summary": "明方豪撰。豪有《斷碑集》，已著錄。是集前六卷為文，後二卷為詩。豪與鄭善夫友善，集中有《祭鄭繼之文》，敘交情極為篤摯，而詩則不及善夫遠甚。",
-      "edition": "浙江汪汝瑮家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 8
+ "schema_version": 1,
+ "id": "1ev3bdp2ssidc",
+ "type": "work",
+ "title": "棠陵集",
+ "authors": [
+  {
+   "name": "方豪",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967avzma9nj"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《棠陵集》•八卷",
+   "author_info": "明方豪撰",
+   "summary": "明方豪撰。豪有《斷碑集》，已著錄。是集前六卷為文，後二卷為詩。豪與鄭善夫友善，集中有《祭鄭繼之文》，敘交情極為篤摯，而詩則不及善夫遠甚。",
+   "edition": "浙江汪汝瑮家藏本"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-05-17T16:27:21-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《方豪棠陵集》三卷",
+   "summary": "《方豪棠陵集》三卷",
+   "merged_from": "1evgqf9hsjxmo"
+  }
+ ],
+ "juan_count": {
+  "number": 8
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 8
+  }
+ ],
+ "measure_info": "八卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgqf9hsjxmo",
+   "title": "方豪棠陵集",
+   "author": "方豪",
+   "title_info": "方豪棠陵集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「方豪棠陵集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「方豪」已見本條 authors[]），裸題「棠陵集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

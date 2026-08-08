@@ -1,79 +1,99 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "群書治要",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《群書治要》",
-      "summary": "《群書治要》十卷（（秘閣所錄））蔡攸"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "群書治要",
-      "summary": "《群書治要》五十卷。{{舊題唐魏徵。《連筠簃》本。闕三卷。以下二種為子鈔之屬，附此。}}",
-      "author_info": "舊題唐魏徵"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《羣書治要》五十卷",
-      "author_info": "唐魏徵等撰",
-      "summary": "《羣書治要》五十卷。唐魏徵等撰。影印宛委別藏日本天明(1781-1788)刻本。",
-      "edition": "影印宛委別藏日本天明(1781-1788)刻本",
-      "volume": "第1187冊",
-      "section": "子部 雑家類"
-    }
-  ],
-  "id": "1evcsyh2qm7eo",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1187%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1187
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "魏徵",
-      "role": "等奉敕編",
-      "dynasty": "唐",
-      "entity_id": "1j967cp1zdr1z"
-    }
-  ],
-  "ai_note": "作者「唐魏徵等奉敕編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw79t6eps 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。",
-  "description": {
-    "text": "本書收入《續修四庫全書》第1187冊（子部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "群書治要",
+ "indexed_by": [
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《群書治要》",
+   "summary": "《群書治要》十卷（（秘閣所錄））蔡攸"
   },
-  "books": [
-    "11qki4rmwbdhc",
-    "11qkhzy5kk5j4",
-    "11qki0v64hukg",
-    "11qkhuwbpghds",
-    "11qkhzy45zpj4",
-    "11qkhzl1sasxs"
-  ],
-  "updated_at": "2026-07-29T03:47:56+00:00",
-  "_has_text": true,
-  "_has_image": true
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "群書治要",
+   "summary": "《群書治要》五十卷。{{舊題唐魏徵。《連筠簃》本。闕三卷。以下二種為子鈔之屬，附此。}}",
+   "author_info": "舊題唐魏徵"
+  },
+  {
+   "source": "續修四庫全書",
+   "source_bid": "1evjk1whvmznk",
+   "title_info": "《羣書治要》五十卷",
+   "author_info": "唐魏徵等撰",
+   "summary": "《羣書治要》五十卷。唐魏徵等撰。影印宛委別藏日本天明(1781-1788)刻本。",
+   "edition": "影印宛委別藏日本天明(1781-1788)刻本",
+   "volume": "第1187冊",
+   "section": "子部 雑家類"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "魏徵羣書治要",
+   "summary": "魏徵羣書治要五十卷",
+   "merged_from": "1evcs0priktmo"
+  }
+ ],
+ "id": "1evcsyh2qm7eo",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E7%BE%A3%E6%9B%B8%E6%B2%BB%E8%A6%81",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "id": "wikimedia-commons-xuxiu",
+   "name": "維基共享 續修四庫全書 PDF",
+   "short_name": "維基共享",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1187%E5%86%8A.pdf",
+   "metadata": {
+    "volume": 1187
+   },
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "authors": [
+  {
+   "name": "魏徵",
+   "role": "等奉敕編",
+   "dynasty": "唐",
+   "entity_id": "1j967cp1zdr1z"
+  }
+ ],
+ "ai_note": "作者「唐魏徵等奉敕編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw79t6eps 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。　合併：題名「魏徵群書治要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「魏徵」已見本條 authors[]），裸題「群書治要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "description": {
+  "text": "本書收入《續修四庫全書》第1187冊（子部）。",
+  "sources": [
+   "續修四庫全書"
+  ]
+ },
+ "books": [
+  "11qki4rmwbdhc",
+  "11qkhzy5kk5j4",
+  "11qki0v64hukg",
+  "11qkhuwbpghds",
+  "11qkhzy45zpj4",
+  "11qkhzl1sasxs"
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "_has_text": true,
+ "_has_image": true,
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "merged_in": [
+  {
+   "id": "1evcs0priktmo",
+   "title": "魏徵群書治要",
+   "author": "魏徵",
+   "title_info": "魏徵群書治要",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

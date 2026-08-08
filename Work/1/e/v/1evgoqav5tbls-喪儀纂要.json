@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "喪儀纂要",
-  "authors": [
-    {
-      "name": "張戩",
-      "role": "撰",
-      "entity_id": "1j96h8rw86pzm"
-    }
-  ],
-  "juan_count": {
-    "number": 9
+ "schema_version": 1,
+ "type": "work",
+ "title": "喪儀纂要",
+ "authors": [
+  {
+   "name": "張戩",
+   "role": "撰",
+   "entity_id": "1j96h8rw86pzm"
+  }
+ ],
+ "juan_count": {
+  "number": 9
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《喪儀纂要》九卷",
+   "summary": "《喪儀纂要》九卷（張戩）",
+   "author_info": "張戩"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《喪儀纂要》九卷",
-      "summary": "《喪儀纂要》九卷（張戩）",
-      "author_info": "張戩"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgoqav5tbls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "張戩喪儀纂要",
+   "summary": "張戩喪儀纂要九卷",
+   "merged_from": "1evcs0hv37aps"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgoqav5tbls",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 9
+  }
+ ],
+ "measure_info": "九卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0hv37aps",
+   "title": "張戩喪儀纂要",
+   "author": "張戩",
+   "title_info": "張戩喪儀纂要",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「張戩喪儀纂要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「張戩」已見本條 authors[]），裸題「喪儀纂要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,73 +1,100 @@
 {
-  "schema_version": 1,
-  "id": "1ev3bdloeimf4",
-  "type": "work",
-  "title": "松籌堂集",
-  "authors": [
-    {
-      "name": "楊循吉",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlnsji"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《松籌堂集》•十二卷",
-      "author_info": "明楊循吉撰",
-      "summary": "明楊循吉撰。循吉有《蘇州府纂修識異》，已著錄。其平生詩文雜著幾及千卷，蕪累頗甚。是集雖經別裁，尚多俗體。蓋循吉任誕不羈，故其詞往往近俳雲。",
-      "edition": "兩淮鹽政采進本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《松籌堂集》十二卷",
-      "author_info": "明楊循吉撰",
-      "summary": "《松籌堂集》十二卷。明楊循吉撰。北京圖書館藏清金氏文瑞樓鈔本。",
-      "edition": "北京圖書館藏清金氏文瑞樓鈔本",
-      "volume": "第43冊",
-      "section": "集部"
-    }
-  ],
-  "juan_count": {
-    "number": 12
+ "schema_version": 1,
+ "id": "1ev3bdloeimf4",
+ "type": "work",
+ "title": "松籌堂集",
+ "authors": [
+  {
+   "name": "楊循吉",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967avzlnsji"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《松籌堂集》•十二卷",
+   "author_info": "明楊循吉撰",
+   "summary": "明楊循吉撰。循吉有《蘇州府纂修識異》，已著錄。其平生詩文雜著幾及千卷，蕪累頗甚。是集雖經別裁，尚多俗體。蓋循吉任誕不羈，故其詞往往近俳雲。",
+   "edition": "兩淮鹽政采進本"
   },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=1428330",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-jinshiwenruilouchaob",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/CADAL02061474",
-      "metadata": {
-        "edition": "金氏文瑞樓鈔本",
-        "version": "v4",
-        "total_page": 470,
-        "paragraph_count": 4961,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
-  "_has_text": true,
-  "_has_image": true
+  {
+   "source": "四庫全書存目叢書",
+   "source_bid": "1evjxczyavy80",
+   "title_info": "《松籌堂集》十二卷",
+   "author_info": "明楊循吉撰",
+   "summary": "《松籌堂集》十二卷。明楊循吉撰。北京圖書館藏清金氏文瑞樓鈔本。",
+   "edition": "北京圖書館藏清金氏文瑞樓鈔本",
+   "volume": "第43冊",
+   "section": "集部"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《楊循吉松籌堂集》十二卷",
+   "summary": "《楊循吉松籌堂集》十二卷",
+   "merged_from": "1evgqew3ve60w"
+  }
+ ],
+ "juan_count": {
+  "number": 12
+ },
+ "resources": [
+  {
+   "id": "ctext",
+   "name": "CText",
+   "url": "https://ctext.org/wiki.pl?if=gb&res=1428330",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "id": "shidianguji-jinshiwenruilouchaob",
+   "name": "识典古籍",
+   "url": "https://www.shidianguji.com/book/CADAL02061474",
+   "metadata": {
+    "edition": "金氏文瑞樓鈔本",
+    "version": "v4",
+    "total_page": 470,
+    "paragraph_count": 4961,
+    "check_type": "AI整理"
+   },
+   "types": [
+    "text",
+    "image"
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 12
+  }
+ ],
+ "measure_info": "十二卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "_has_text": true,
+ "_has_image": true,
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgqew3ve60w",
+   "title": "楊循吉松籌堂集",
+   "author": "楊循吉",
+   "title_info": "楊循吉松籌堂集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「楊循吉松籌堂集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「楊循吉」已見本條 authors[]），裸題「松籌堂集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

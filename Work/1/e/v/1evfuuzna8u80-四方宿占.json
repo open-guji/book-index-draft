@@ -23,6 +23,13 @@
    "title_info": "《四方宿占》一卷",
    "summary": "《四方宿占》一卷（陳卓）",
    "author_info": "陳卓"
+  },
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《陳卓四方宿占》一卷",
+   "summary": "《陳卓四方宿占》一卷梁四卷",
+   "merged_from": "1evcmndynlce8"
   }
  ],
  "description": {
@@ -42,6 +49,19 @@
  ],
  "measure_info": "四卷",
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　合併：題名「陳卓四方宿占」撰人折入題首（來源：隋書經籍志），與本條同書（撰人「陳卓」已見本條 authors[]），裸題「四方宿占」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」",
+ "merged_in": [
+  {
+   "id": "1evcmndynlce8",
+   "title": "陳卓四方宿占",
+   "author": "陳卓",
+   "title_info": "陳卓四方宿占",
+   "indexed_by_moved": [
+    "隋書經籍志"
+   ]
+  }
+ ]
 }

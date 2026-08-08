@@ -1,133 +1,158 @@
 {
-  "schema_version": 1,
-  "id": "1ev3bdgvdxb7k",
-  "type": "work",
-  "title": "斜川集",
-  "authors": [
-    {
-      "name": "蘇過",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967c147z320"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《斜川集》",
-      "summary": "蘇過《斜川集》十卷王彥輔"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《斜川集》•十卷",
-      "author_info": "舊本題宋蘇過撰",
-      "summary": "舊本題宋蘇過撰。過，軾之季子，字叔党，斜川其自號也，事蹟附載《宋史•蘇軾傳》。其集《文獻通考》作十卷，世無傳本。王士禎《香祖筆記》稱，康熙乙酉，有書賈來益都之顏神鎮，攜蘇過叔党《斜川集》僅二冊，價至二百金有奇。惜未得見之，其存佚今不可知。然士禎所記，多傳聞之詞，未必確也。此集乃近時坊間所刊。其本但有邊闌，而不界每行之烏絲。此本染紙作古色，每頁補畫烏絲，而偽鐫虞山汲古閣毛子晉圖書一印，印於卷末，蓋欲以宋版炫俗。然考晁說之所作《蘇過墓誌》，過卒於宣和五年。此集中所稱乃嘉泰、開禧諸年號，以及周必大、姜堯章、韓侂胄諸人，過何從見之。其中所指時事，亦皆在南渡以後，尤為乖剌。案劉過《龍洲集》中所載之詩，與此盡同。蓋作偽者因二人同名為過，而抄出冒題為《斜川集》，刊以漁利耳。《龍洲集》已別著錄，此本本不足存。以世傳刊本、抄本不一而足，且卷數與《文獻通考》所載相合，恐其熒聽，故存其目，而辯之焉。",
-      "edition": "江蘇蔣曾瑩家藏本"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "斜川集",
-      "summary": "《斜川集》六卷，《附錄》上下二卷。{{宋蘇過。四庫館輯。趙懷玉校刻本，知不足齋本。附《三蘇集》本不善。}}",
-      "author_info": "《附錄》上下二卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "斜川集"
-    }
-  ],
-  "juan_count": {
-    "number": 10
+ "schema_version": 1,
+ "id": "1ev3bdgvdxb7k",
+ "type": "work",
+ "title": "斜川集",
+ "authors": [
+  {
+   "name": "蘇過",
+   "role": "撰",
+   "dynasty": "宋",
+   "entity_id": "1j967c147z320"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《斜川集》",
+   "summary": "蘇過《斜川集》十卷王彥輔"
   },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=237469",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "ctext-1",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=781670",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-keben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/HY1114",
-      "metadata": {
-        "edition": "刻本",
-        "version": "v20",
-        "total_page": 293,
-        "paragraph_count": 736,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "shidianguji-qianlongwushisanwuji",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/SDZJ0057",
-      "metadata": {
-        "edition": "乾隆五十三年武进赵氏亦有生斋刻本",
-        "version": "v6",
-        "total_page": 323,
-        "paragraph_count": 624,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "shidianguji-keben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/CADAL02099750",
-      "metadata": {
-        "edition": "刻本",
-        "version": "v3",
-        "total_page": 366,
-        "paragraph_count": 712,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02099750.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "books": [
-    "11qkhv8du26tc",
-    "11qkhyy5br1ts"
-  ],
-  "updated_at": "2026-05-17T16:27:21-07:00",
-  "_has_text": true,
-  "_has_image": true
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《斜川集》•十卷",
+   "author_info": "舊本題宋蘇過撰",
+   "summary": "舊本題宋蘇過撰。過，軾之季子，字叔党，斜川其自號也，事蹟附載《宋史•蘇軾傳》。其集《文獻通考》作十卷，世無傳本。王士禎《香祖筆記》稱，康熙乙酉，有書賈來益都之顏神鎮，攜蘇過叔党《斜川集》僅二冊，價至二百金有奇。惜未得見之，其存佚今不可知。然士禎所記，多傳聞之詞，未必確也。此集乃近時坊間所刊。其本但有邊闌，而不界每行之烏絲。此本染紙作古色，每頁補畫烏絲，而偽鐫虞山汲古閣毛子晉圖書一印，印於卷末，蓋欲以宋版炫俗。然考晁說之所作《蘇過墓誌》，過卒於宣和五年。此集中所稱乃嘉泰、開禧諸年號，以及周必大、姜堯章、韓侂胄諸人，過何從見之。其中所指時事，亦皆在南渡以後，尤為乖剌。案劉過《龍洲集》中所載之詩，與此盡同。蓋作偽者因二人同名為過，而抄出冒題為《斜川集》，刊以漁利耳。《龍洲集》已別著錄，此本本不足存。以世傳刊本、抄本不一而足，且卷數與《文獻通考》所載相合，恐其熒聽，故存其目，而辯之焉。",
+   "edition": "江蘇蔣曾瑩家藏本"
+  },
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "斜川集",
+   "summary": "《斜川集》六卷，《附錄》上下二卷。{{宋蘇過。四庫館輯。趙懷玉校刻本，知不足齋本。附《三蘇集》本不善。}}",
+   "author_info": "《附錄》上下二卷"
+  },
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "summary": "斜川集"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《蘇過斜川集》十卷",
+   "summary": "《蘇過斜川集》十卷",
+   "merged_from": "1evgqcy3tgglc"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "resources": [
+  {
+   "id": "ctext",
+   "name": "CText",
+   "url": "https://ctext.org/wiki.pl?if=gb&res=237469",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "id": "ctext-1",
+   "name": "CText",
+   "url": "https://ctext.org/wiki.pl?if=gb&res=781670",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "id": "shidianguji-keben",
+   "name": "识典古籍",
+   "url": "https://www.shidianguji.com/book/HY1114",
+   "metadata": {
+    "edition": "刻本",
+    "version": "v20",
+    "total_page": 293,
+    "paragraph_count": 736,
+    "check_type": "粗校"
+   },
+   "types": [
+    "text",
+    "image"
+   ]
+  },
+  {
+   "id": "shidianguji-qianlongwushisanwuji",
+   "name": "识典古籍",
+   "url": "https://www.shidianguji.com/book/SDZJ0057",
+   "metadata": {
+    "edition": "乾隆五十三年武进赵氏亦有生斋刻本",
+    "version": "v6",
+    "total_page": 323,
+    "paragraph_count": 624,
+    "check_type": "粗校"
+   },
+   "types": [
+    "text",
+    "image"
+   ]
+  },
+  {
+   "id": "shidianguji-keben",
+   "name": "识典古籍",
+   "url": "https://www.shidianguji.com/book/CADAL02099750",
+   "metadata": {
+    "edition": "刻本",
+    "version": "v3",
+    "total_page": 366,
+    "paragraph_count": 712,
+    "check_type": "AI整理"
+   },
+   "types": [
+    "text",
+    "image"
+   ]
+  },
+  {
+   "name": "Internet Archive",
+   "id": "internet-archive",
+   "url": "https://archive.org/details/02099750.cn",
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "books": [
+  "11qkhv8du26tc",
+  "11qkhyy5br1ts"
+ ],
+ "updated_at": "2026-05-17T16:27:21-07:00",
+ "_has_text": true,
+ "_has_image": true,
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgqcy3tgglc",
+   "title": "蘇過斜川集",
+   "author": "蘇過",
+   "title_info": "蘇過斜川集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「蘇過斜川集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「蘇過」已見本條 authors[]），裸題「斜川集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -184,6 +184,37 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 - **有輯本**不是存佚狀態而是補救。由 `fragments` 檔之有無與 `collectors` 是否非空導出。
 - **真偽**是另一軸。《古文尚書》今存而偽，《關尹子》今存而偽——併入本枚舉即無從表達。
 
+#### `period`（時代軸，2026-08-06 增）
+
+```
+pre-qin / qin-han / three-kingdoms / jin / nanbeichao / sui-tang /
+five-dynasties / song / liao-jin-yuan / ming / qing / modern
+```
+
+**與 `authors[].dynasty` 分立，不取代之。** `dynasty` 是志書原文（「魏」「宋」「漢」），
+改之則失其所本；`period` 是本庫之判，粗粒度而**無歧義**，供選集合之用。
+判之所據記於 `period_basis`，逐條可讀。
+
+立此軸之由：庫中 `dynasty` 有一百零六種寫法，且歧義是實質的——
+魏（曹魏／北魏）、宋（劉宋／趙宋）、周（先秦／北周／後周）、齊（南齊／北齊）、漢（西／東）。
+不立此軸，「哪些是秦漢的」都選不出來。
+
+判準三重，**皆可自驗**：
+
+1. **粗粒度自消歧**：漢（西／東）皆 `qin-han`、齊（南／北）皆 `nanbeichao`——不必再問。
+2. **著錄之志為時代上限**（`period_basis: catalog_bound`）：一書見於某志，其時代不得晚於該志。
+   此是硬界非推論——《隋書經籍志》成於唐初，趙宋之書無由入之，故「宋」而見於隋志者必劉宋。
+3. **斷代志可逕定**（`period_basis: duandai`）：撰人朝代闕而所著錄之志唯一且為斷代志者。
+   何者斷代**以庫中資料自驗**（看其所著錄之書撰人朝代之分佈）：
+   明史藝文志 明 98%、清史稿藝文志 清 94%、補晉書藝文志 晉 96%、後漢藝文志 98%、
+   三國藝文志 93%、元史藝文志與補遼金元 96%。
+   **而宋史藝文志宋僅 51%（唐 18%、漢 6%），是通代非斷代**——初版誤列，
+   一舉要把八千三百餘條判為 song，此驗攔下。
+
+判不出者留 null 並出清單（`known-issues/period未決.json`），**不猜**。
+
+`period` 亦入 `index/works/*.json`，選集合不必逐檔開啟。
+
 #### IndexEntry object type（`indexed_by` / `emendated_by` 共用）
 
 ```json

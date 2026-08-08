@@ -16,6 +16,20 @@
    "source": "補晋書藝文志",
    "source_bid": "1evfu57n5n37k",
    "summary": "兵法孤虚月時祕要法一卷 葛洪。謹按見《新唐志》。握奇經述讚馬隆。謹按見高似孫《子略》。《宋志》有《風后握機經》一卷,云馬隆略序,即此書。陳振孫曰:“奇,馬隆本作“機。”圍棋九品序録五卷 范汪等撰。謹按見《七録》。兩《唐志》作“《棋品》五卷”。"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "葛洪兵法孤虛月時祕要法",
+   "summary": "葛洪兵法孤虛月時祕要法一卷",
+   "merged_from": "1evcs0sog6rk0"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《葛洪兵法孤虛月時祕要法》一卷",
+   "summary": "《葛洪兵法孤虛月時祕要法》一卷",
+   "merged_from": "1evcs0sog6rk0"
   }
  ],
  "description": {
@@ -38,6 +52,20 @@
   "兵法孤虚月時祕要法"
  ],
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　合併：題名「葛洪兵法孤虛月時秘要法」撰人折入題首（來源：國史經籍志、新唐書藝文志），與本條同書（撰人「葛洪」已見本條 authors[]），裸題「兵法孤虛月時秘要法」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "jin",
+ "period_basis": "據 authors[0].dynasty「晉」",
+ "merged_in": [
+  {
+   "id": "1evcs0sog6rk0",
+   "title": "葛洪兵法孤虛月時秘要法",
+   "author": "葛洪",
+   "title_info": "葛洪兵法孤虛月時秘要法",
+   "indexed_by_moved": [
+    "新唐書藝文志",
+    "國史經籍志"
+   ]
+  }
+ ]
 }

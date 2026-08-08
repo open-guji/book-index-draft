@@ -1,39 +1,60 @@
 {
-  "schema_version": 1,
-  "id": "1evdidn42yeps",
-  "type": "work",
-  "title": "交石集",
-  "authors": [
-    {
-      "name": "吳文度",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967c148abkz"
-    }
-  ],
-  "juan_count": {
-    "number": 10
+ "schema_version": 1,
+ "id": "1evdidn42yeps",
+ "type": "work",
+ "title": "交石集",
+ "authors": [
+  {
+   "name": "吳文度",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967c148abkz"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "吴文度《交石集》十卷",
+   "summary": "吳文度《交石集》十卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "吴文度《交石集》十卷",
-      "summary": "吳文度《交石集》十卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《吳文度交石集》十卷",
+   "summary": "《吳文度交石集》十卷",
+   "merged_from": "1evgqeoycm0ow"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqeoycm0ow",
+   "title": "吳文度交石集",
+   "author": "吳文度",
+   "title_info": "吳文度交石集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「吳文度交石集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「吳文度」已見本條 authors[]），裸題「交石集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

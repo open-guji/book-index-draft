@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "統史",
-  "authors": [
-    {
-      "name": "姚康復",
-      "role": "撰",
-      "entity_id": "1j96hfqf94pvk"
-    }
-  ],
-  "juan_count": {
-    "number": 300
+ "schema_version": 1,
+ "type": "work",
+ "title": "統史",
+ "authors": [
+  {
+   "name": "姚康復",
+   "role": "撰",
+   "entity_id": "1j96hfqf94pvk"
+  }
+ ],
+ "juan_count": {
+  "number": 300
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《統史》三百卷",
+   "summary": "《統史》三百卷（姚康復）",
+   "author_info": "姚康復"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《統史》三百卷",
-      "summary": "《統史》三百卷（姚康復）",
-      "author_info": "姚康復"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgvt704cg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 300
-    }
-  ],
-  "measure_info": "三百卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "姚康復統史",
+   "summary": "姚康復統史三百卷",
+   "merged_from": "1evcs0brb75z4"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpgvt704cg",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 300
+  }
+ ],
+ "measure_info": "三百卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0brb75z4",
+   "title": "姚康復統史",
+   "author": "姚康復",
+   "title_info": "姚康復統史",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「姚康復統史」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「姚康復」已見本條 authors[]），裸題「統史」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

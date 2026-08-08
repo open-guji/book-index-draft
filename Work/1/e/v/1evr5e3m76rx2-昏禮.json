@@ -1,34 +1,37 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m76rx2",
-  "type": "work",
-  "title": "昏禮",
-  "authors": [
-    {
-      "name": "鄭眾",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j9678njjrbbm"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "昏禮",
-      "summary": "漢鄭眾《昏禮》一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部禮類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+ "schema_version": 1,
+ "id": "1evr5e3m76rx2",
+ "type": "work",
+ "title": "昏禮",
+ "authors": [
+  {
+   "name": "鄭眾",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j9678njjrbbm"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "昏禮",
+   "summary": "漢鄭眾《昏禮》一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部禮類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "loss_status": "lost"
 }

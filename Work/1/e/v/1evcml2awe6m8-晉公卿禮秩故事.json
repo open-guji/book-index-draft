@@ -31,6 +31,13 @@
    "edition": "影印上海辭書出版社圖書館藏漢學堂叢書本",
    "volume": "第747冊",
    "section": "史部"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "傅暢晉公卿禮秩故事",
+   "summary": "傅暢晉公卿禮秩故事九卷",
+   "merged_from": "1evcs0emx1ssg"
   }
  ],
  "authors": [
@@ -73,8 +80,19 @@
    ]
   }
  ],
- "ai_note": "從 1evcpcxlwlkw0 合併。原註：作者 \"晉傅暢撰\" 補自《續修四庫全書》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/晉公卿禮秩故事.json。",
+ "ai_note": "從 1evcpcxlwlkw0 合併。原註：作者 \"晉傅暢撰\" 補自《續修四庫全書》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/晉公卿禮秩故事.json。　合併：題名「傅暢晉公卿禮秩故事」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「傅暢」已見本條 authors[]），裸題「晉公卿禮秩故事」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "loss_status": "lost",
  "updated_at": "2026-08-05T17:44:11+00:00",
- "_has_image": true
+ "_has_image": true,
+ "merged_in": [
+  {
+   "id": "1evcs0emx1ssg",
+   "title": "傅暢晉公卿禮秩故事",
+   "author": "傅暢",
+   "title_info": "傅暢晉公卿禮秩故事",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

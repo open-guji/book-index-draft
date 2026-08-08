@@ -1,44 +1,47 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3m6vjcd",
-  "type": "work",
-  "title": "周易繫辭注",
-  "authors": [
-    {
-      "name": "明僧紹",
-      "role": "撰",
-      "dynasty": "齊",
-      "entity_id": "1j96headjlwxs"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周易繫辭註",
-      "summary": "齊明僧紹《周易繫辭註》一卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部易類輯佚條目。 來源：清史稿藝文志經部易類",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1evl7l48e27ls",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "additional_titles": [
-    "周易繫辭註"
-  ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+ "schema_version": 1,
+ "id": "1evr5e3m6vjcd",
+ "type": "work",
+ "title": "周易繫辭注",
+ "authors": [
+  {
+   "name": "明僧紹",
+   "role": "撰",
+   "dynasty": "齊",
+   "entity_id": "1j96headjlwxs"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "周易繫辭註",
+   "summary": "齊明僧紹《周易繫辭註》一卷。"
+  }
+ ],
+ "ai_note": "清史稿藝文志經部易類輯佚條目。 來源：清史稿藝文志經部易類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "related_works": [
+  {
+   "id": "1evl7l48e27ls",
+   "title": "周易",
+   "relation": "contains_text_of"
+  }
+ ],
+ "additional_titles": [
+  "周易繫辭註"
+ ],
+ "updated_at": "2026-08-07T15:25:19+00:00",
+ "period": "nanbeichao",
+ "period_basis": "據 authors[0].dynasty「齊」",
+ "loss_status": "lost"
 }

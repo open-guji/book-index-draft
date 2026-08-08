@@ -1,23 +1,69 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "張升集",
-  "authors": [
-    {
-      "name": "張升",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j96kefi3v400"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "後漢藝文志",
-      "source_bid": "1eve1ei9whji8",
-      "title_info": "外黃令張升集六十篇",
-      "summary": "外黃令張升集六十篇。\n\n范書文苑傳：張升，字彦真，陳留尉氏人，富平俟放之孫也。少好學，多關覽，而任情不羈。仕郡爲綱紀，以能出守外黄令，遇黨錮去官，後竟見誅，年四十九。著賦、誄、頌、碑、書凡六十篇。文心雕龍哀弔篇曰：蘇慎、張升，并述哀文，雖發其情華，而未極心實。隋書經籍志：梁又有外黃令張升集二卷，錄一卷，亡。唐經籍志：張升集二卷，藝文志同。\n\n嚴氏文編。張升有白鳩賦與任彦堅書，友論凡三篇，其友論一作反論，一作反論語，皆誤。又或引作張叔皮論，尤誤。"
-    }
-  ],
-  "id": "1evftyna7eeps",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "張升集",
+ "authors": [
+  {
+   "name": "張升",
+   "role": "撰",
+   "dynasty": "東漢",
+   "entity_id": "1j96kefi3v400"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "後漢藝文志",
+   "source_bid": "1eve1ei9whji8",
+   "title_info": "外黃令張升集六十篇",
+   "summary": "外黃令張升集六十篇。\n\n范書文苑傳：張升，字彦真，陳留尉氏人，富平俟放之孫也。少好學，多關覽，而任情不羈。仕郡爲綱紀，以能出守外黄令，遇黨錮去官，後竟見誅，年四十九。著賦、誄、頌、碑、書凡六十篇。文心雕龍哀弔篇曰：蘇慎、張升，并述哀文，雖發其情華，而未極心實。隋書經籍志：梁又有外黃令張升集二卷，錄一卷，亡。唐經籍志：張升集二卷，藝文志同。\n\n嚴氏文編。張升有白鳩賦與任彦堅書，友論凡三篇，其友論一作反論，一作反論語，皆誤。又或引作張叔皮論，尤誤。",
+   "section": "集部／别集類",
+   "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+  },
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《張升集》二卷",
+   "summary": "《張升集》二卷",
+   "merged_from": "1evcpd4soydj4"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "張升集",
+   "summary": "張升集二卷",
+   "merged_from": "1evcpd4soydj4"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《張升集》二卷",
+   "summary": "《張升集》二卷",
+   "merged_from": "1evgqa4f0rlds"
+  }
+ ],
+ "id": "1evftyna7eeps",
+ "updated_at": "2026-08-07T17:54:58+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「東漢」",
+ "loss_status": "lost",
+ "ai_note": "loss_status 據本條 indexed_by/emendated_by 之引文——「隋書經籍志：梁又有外黃令張升集二卷，錄一卷，亡。」：此是隋書經籍志本身之斷言（梁時尚存、隋時已亡），姚振宗《後漢藝文志》逐字引錄，非姚氏推論，故據以定 lost。　合併：自 1evcpd4soydj4（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。　合併：自 1evgqa4f0rlds（無撰人第三方著錄）併入，2026-08-08——秦漢同名異書核對之「別集連書省撰人」批次（題即撰人名+集，撰人字首式重出候選之同類殘餘），經人核准批次處理。",
+ "merged_in": [
+  {
+   "id": "1evcpd4soydj4",
+   "title": "張升集",
+   "author": null,
+   "indexed_by_moved": [
+    "舊唐書經籍志",
+    "新唐書藝文志"
+   ]
+  },
+  {
+   "id": "1evgqa4f0rlds",
+   "title": "張升集",
+   "author": null,
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ]
 }

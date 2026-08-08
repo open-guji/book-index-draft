@@ -1,30 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "id": "1evrbhp6ajr3f",
-  "title": "靑山稿",
-  "authors": [
-    {
-      "name": "趙文",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j969lr2t0rpl"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "靑山稿三十一卷",
-      "summary": "靑山稿三十一卷\n趙文撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 31
-    }
-  ],
-  "measure_info": "三十一卷",
-  "updated_at": "2026-05-14T15:10:54-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "id": "1evrbhp6ajr3f",
+ "title": "靑山稿",
+ "authors": [
+  {
+   "name": "趙文",
+   "role": "撰",
+   "dynasty": "宋",
+   "entity_id": "1j969lr2t0rpl"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "宋史藝文志補",
+   "source_bid": "1evfyhtrdkbnk",
+   "title_info": "靑山稿三十一卷",
+   "summary": "靑山稿三十一卷\n趙文撰。"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《趙文靑山藁》三十一卷",
+   "summary": "《趙文靑山藁》三十一卷",
+   "merged_from": "1evgqe0bgadxc"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 31
+  }
+ ],
+ "measure_info": "三十一卷",
+ "updated_at": "2026-05-14T15:10:54-07:00",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "juan_count": {
+  "number": 31
+ },
+ "merged_in": [
+  {
+   "id": "1evgqe0bgadxc",
+   "title": "趙文靑山稿",
+   "author": "趙文",
+   "title_info": "趙文靑山稿",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「趙文靑山稿」撰人折入題首（來源：國史經籍志），與本條同書（撰人「趙文」已見本條 authors[]），裸題「靑山稿」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

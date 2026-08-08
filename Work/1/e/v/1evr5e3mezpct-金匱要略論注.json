@@ -1,33 +1,59 @@
 {
-  "schema_version": 1,
-  "id": "1evr5e3mezpct",
-  "type": "work",
-  "title": "金匱要略論注",
-  "authors": [
-    {
-      "name": "徐彬",
-      "role": "注",
-      "dynasty": "清",
-      "entity_id": "1j967afjav1wm"
-    }
-  ],
-  "juan_count": {
-    "number": 14
+ "schema_version": 1,
+ "id": "1evr5e3mezpct",
+ "type": "work",
+ "title": "金匱要略論注",
+ "authors": [
+  {
+   "name": "徐彬",
+   "role": "注",
+   "dynasty": "清",
+   "entity_id": "1j967afjav1wm"
+  }
+ ],
+ "juan_count": {
+  "number": 14
+ },
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "金匱要略論注",
+   "summary": "金匱要略論注二十四卷。徐彬撰。"
   },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "金匱要略論注",
-      "summary": "金匱要略論注二十四卷。徐彬撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《金匱要略論注》•二十四卷",
+   "author_info": "漢張機撰",
+   "summary": "漢張機撰，國朝徐彬注。機字仲景，南陽人。嘗舉孝廉，建安中官至長沙太守。是書亦名《金匱玉函經》，乃晉高平王叔和所編次。陳振孫《書錄解題》曰：此書乃王洙於館閣蠹簡中得之，曰《金匱玉函要略》。上卷論傷寒，中論雜病，下載其方，並療婦人。乃錄而傳之，今書以逐方次於證候之下，以便檢用。其所論傷寒，文多簡略，故但取雜病以下止服食禁忌二十五篇二百六十二方，而仍其舊名云云。則此書叔和所編，本為三卷，洙抄存其後二卷，後又以方一卷散附於二十五篇內，蓋已非叔和之舊。然自宋以來，醫家奉為典型，與《素問》、《難經》並重，得其一知半解，皆可以起死回生，則亦岐、黃之正傳，和、扁之嫡嗣矣。機所作《傷寒卒病論》，自金成無己之後，注家各自爭名，互相竄改。如宋儒之談錯簡，原書端緒，久已瞀亂難尋，獨此編僅僅散附諸方，尚未失其初旨，尤可寶也。漢代遺書，文句簡奧，而古來無注，醫家猝不易讀，彬注成於康熙辛亥，注釋尚為顯明，今錄存之，以便講肄。彬字忠可，嘉興人。江西喻昌之弟子，故所學頗有師承雲。",
+   "edition": "通行本",
+   "merged_from": "1ev3bbfu2b08w"
+  }
+ ],
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 14
+  }
+ ],
+ "measure_info": "十四卷",
+ "updated_at": "2026-08-08T00:28:45+00:00",
+ "period": "qing",
+ "period_basis": "據 authors[0].dynasty「清」",
+ "merged_in": [
+  {
+   "id": "1ev3bbfu2b08w",
+   "title": "金匱要略論注",
+   "author": "張機",
+   "indexed_by_moved": [
+    "欽定四庫全書總目"
+   ]
+  }
+ ],
+ "ai_note": "　合併：自 1ev3bbfu2b08w 併入，2026-08-08——金匱要略論注，本條四庫全書總目著錄原文明言「漢張機撰，國朝徐彬注」——即徐彬所注之本，歸徐彬條，經人核准合併。",
+ "books": [
+  "11qkhwij99wcg",
+  "11q37qpjaai2o"
+ ]
 }

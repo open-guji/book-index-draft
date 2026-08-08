@@ -1,31 +1,34 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "新編金匱方論",
-  "authors": [
-    {
-      "name": "張機",
-      "role": "撰",
-      "dynasty": "漢"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》金元編（ZHSY000614）。元刻本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。",
-  "id": "1evjy6aeng2rk",
-  "books": [
-    "11qk4xwcvdfyk"
-  ],
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 2
-    }
-  ],
-  "measure_info": "二冊",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "新編金匱方論",
+ "authors": [
+  {
+   "name": "張機",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j96ad68m1zpc"
+  }
+ ],
+ "description": {
+  "text": "本書收入《中華再造善本》金元編（ZHSY000614）。元刻本。",
+  "sources": [
+   "中華再造善本"
+  ]
+ },
+ "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。",
+ "id": "1evjy6aeng2rk",
+ "books": [
+  "11qk4xwcvdfyk"
+ ],
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 2
+  }
+ ],
+ "measure_info": "二冊",
+ "updated_at": "2026-08-07T17:05:31+00:00",
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」"
 }

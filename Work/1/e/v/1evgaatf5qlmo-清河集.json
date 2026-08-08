@@ -1,50 +1,77 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "清河集",
-  "authors": [
-    {
-      "name": "元明善",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967avzmwqpi"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "元明善清河集三十九卷",
-      "summary": "元元明善清河集三十九卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《清河集》三十九卷",
-      "summary": "元元明善清河集三十九卷"
-    }
-  ],
-  "juan_count": {
-    "number": 39
+ "schema_version": 1,
+ "type": "work",
+ "title": "清河集",
+ "authors": [
+  {
+   "name": "元明善",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j967avzmwqpi"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "元明善清河集三十九卷",
+   "summary": "元元明善清河集三十九卷"
   },
-  "id": "1evgaatf5qlmo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 39
-    }
-  ],
-  "measure_info": "三十九卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02099885.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_image": true
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "《清河集》三十九卷",
+   "summary": "元元明善清河集三十九卷"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《元明善清河集》三十九卷",
+   "summary": "《元明善清河集》三十九卷",
+   "merged_from": "1evgqdx0o6ghs"
+  }
+ ],
+ "juan_count": {
+  "number": 39
+ },
+ "id": "1evgaatf5qlmo",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 39
+  }
+ ],
+ "measure_info": "三十九卷",
+ "resources": [
+  {
+   "name": "Internet Archive",
+   "id": "internet-archive",
+   "url": "https://archive.org/details/02099885.cn",
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "_has_image": true,
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgqdx0o6ghs",
+   "title": "元明善清河集",
+   "author": "元明善",
+   "title_info": "元明善清河集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「元明善清河集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「元明善」已見本條 authors[]），裸題「清河集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

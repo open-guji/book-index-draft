@@ -1,39 +1,60 @@
 {
-  "schema_version": 1,
-  "id": "1evdidoo76adc",
-  "type": "work",
-  "title": "五清集",
-  "authors": [
-    {
-      "name": "劉瑞",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967cp20xxr3"
-    }
-  ],
-  "juan_count": {
-    "number": 18
+ "schema_version": 1,
+ "id": "1evdidoo76adc",
+ "type": "work",
+ "title": "五清集",
+ "authors": [
+  {
+   "name": "劉瑞",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967cp20xxr3"
+  }
+ ],
+ "juan_count": {
+  "number": 18
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "刘瑞《五清集》十八卷",
+   "summary": "劉瑞《五清集》十八卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "刘瑞《五清集》十八卷",
-      "summary": "劉瑞《五清集》十八卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 18
-    }
-  ],
-  "measure_info": "十八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《劉瑞五清集》十八卷",
+   "summary": "《劉瑞五清集》十八卷",
+   "merged_from": "1evgqf1x10lc0"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 18
+  }
+ ],
+ "measure_info": "十八卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "merged_in": [
+  {
+   "id": "1evgqf1x10lc0",
+   "title": "劉瑞五清集",
+   "author": "劉瑞",
+   "title_info": "劉瑞五清集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「劉瑞五清集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「劉瑞」已見本條 authors[]），裸題「五清集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

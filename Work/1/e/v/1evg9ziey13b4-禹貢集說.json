@@ -1,23 +1,50 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "禹貢集說",
-  "authors": [
-    {
-      "name": "鄒近仁",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hjwlyaf5j"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "鄒近仁禹貢集說",
-      "summary": "元鄒近仁禹貢集說"
-    }
-  ],
-  "id": "1evg9ziey13b4",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "禹貢集說",
+ "authors": [
+  {
+   "name": "鄒近仁",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j96hjwlyaf5j"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "鄒近仁禹貢集說",
+   "summary": "元鄒近仁禹貢集說"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《鄒近仁禹貢集說》卷",
+   "summary": "《鄒近仁禹貢集說》卷",
+   "merged_from": "1evgopp45bx1c"
+  }
+ ],
+ "id": "1evg9ziey13b4",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgopp45bx1c",
+   "title": "鄒近仁禹貢集說",
+   "author": "鄒近仁",
+   "title_info": "鄒近仁禹貢集說",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「鄒近仁禹貢集說」撰人折入題首（來源：國史經籍志），與本條同書（撰人「鄒近仁」已見本條 authors[]），裸題「禹貢集說」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

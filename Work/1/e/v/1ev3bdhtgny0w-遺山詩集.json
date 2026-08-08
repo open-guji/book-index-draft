@@ -1,47 +1,81 @@
 {
-  "schema_version": 1,
-  "id": "1ev3bdhtgny0w",
-  "type": "work",
-  "title": "遺山詩集",
-  "authors": [
-    {
-      "name": "元好問",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j967bgl70k7g"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《遺山詩集》•二十卷",
-      "author_info": "金元好問撰",
-      "summary": "金元好問撰。《好問全集》，已著錄。此《詩集》二十卷，乃毛晉從《全集》摘出，刊於《十元人集》中者。別行已久，姑附存其目。案好問雖入元而未仕元，晉以為元人，殊誤。顧嗣立《元百家詩選初集》，以好問詩為冠，又沿晉之失。今仍題曰金人，從其實焉。",
-      "edition": "江蘇巡撫采進本"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "《遺山詩集》二十卷",
-      "summary": "金元好問遺山詩集二十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《遺山詩集》二十卷",
-      "summary": "元元好問遺山詩集二十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "id": "1ev3bdhtgny0w",
+ "type": "work",
+ "title": "遺山詩集",
+ "authors": [
+  {
+   "name": "元好問",
+   "role": "撰",
+   "dynasty": "金",
+   "entity_id": "1j967bgl70k7g"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《遺山詩集》•二十卷",
+   "author_info": "金元好問撰",
+   "summary": "金元好問撰。《好問全集》，已著錄。此《詩集》二十卷，乃毛晉從《全集》摘出，刊於《十元人集》中者。別行已久，姑附存其目。案好問雖入元而未仕元，晉以為元人，殊誤。顧嗣立《元百家詩選初集》，以好問詩為冠，又沿晉之失。今仍題曰金人，從其實焉。",
+   "edition": "江蘇巡撫采進本"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-05-17T16:27:21-07:00"
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "《遺山詩集》二十卷",
+   "summary": "金元好問遺山詩集二十卷"
+  },
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "《遺山詩集》二十卷",
+   "summary": "元元好問遺山詩集二十卷"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《詩集》二十卷",
+   "summary": "《詩集》二十卷",
+   "merged_from": "1evgqduk13f9c"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「金」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "related_works": [
+  {
+   "id": "1ev3bd4mh80zk",
+   "title": "遺山集",
+   "relation": "related"
+  }
+ ],
+ "merged_in": [
+  {
+   "id": "1evgqduk13f9c",
+   "title": "元好問遺山詩集",
+   "author": "元好問",
+   "title_info": "元好問遺山詩集",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「元好問遺山詩集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「元好問」已見本條 authors[]），裸題「遺山詩集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

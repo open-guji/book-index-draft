@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "續文士傳",
-  "authors": [
-    {
-      "name": "裴朏",
-      "role": "撰",
-      "entity_id": "1j967da978diy"
-    }
-  ],
-  "juan_count": {
-    "number": 10
+ "schema_version": 1,
+ "type": "work",
+ "title": "續文士傳",
+ "authors": [
+  {
+   "name": "裴朏",
+   "role": "撰",
+   "entity_id": "1j967da978diy"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《續文士傳》十卷",
+   "summary": "《續文士傳》十卷（裴朏）",
+   "author_info": "裴朏"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續文士傳》十卷",
-      "summary": "《續文士傳》十卷（裴朏）",
-      "author_info": "裴朏"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpj4jx5q80",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "裴朏續文士傳",
+   "summary": "裴朏續文士傳十卷",
+   "merged_from": "1evcs0g68v30g"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpj4jx5q80",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0g68v30g",
+   "title": "裴朏續文士傳",
+   "author": "裴朏",
+   "title_info": "裴朏續文士傳",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「裴朏續文士傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「裴朏」已見本條 authors[]），裸題「續文士傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

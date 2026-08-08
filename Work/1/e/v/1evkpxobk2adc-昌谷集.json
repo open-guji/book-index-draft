@@ -1,35 +1,57 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "昌谷集",
-  "authors": [
-    {
-      "name": "曹彥約",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967avzn7z9r"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027113-027124）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027113-027124）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 22
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "id": "1evkpxobk2adc",
-  "books": [
-    "11qkhxfoymk1s"
-  ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+ "schema_version": 1,
+ "type": "work",
+ "title": "昌谷集",
+ "authors": [
+  {
+   "name": "曹彥約",
+   "role": "撰",
+   "dynasty": "宋",
+   "entity_id": "1j967avzn7z9r"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027113-027124）。清乾隆間寫文淵閣四庫全書本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027113-027124）。阶段 5 兜底建立。　合併：題名「曹彥約昌谷集」撰人折入題首（來源：清史稿藝文志），與本條同書（撰人「曹彥約」已見本條 authors[]），裸題「昌谷集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+ "juan_count": {
+  "number": 22
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 22
+  }
+ ],
+ "measure_info": "二十二卷",
+ "id": "1evkpxobk2adc",
+ "books": [
+  "11qkhxfoymk1s"
+ ],
+ "updated_at": "2026-05-14T02:04:40-07:00",
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "曹彥約昌谷集",
+   "summary": "曹彥約昌谷集二十二卷。",
+   "merged_from": "1evr5e3mdqr6k"
+  }
+ ],
+ "period": "qing",
+ "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
+ "merged_in": [
+  {
+   "id": "1evr5e3mdqr6k",
+   "title": "曹彥約昌谷集",
+   "author": "曹彥約",
+   "title_info": "曹彥約昌谷集",
+   "indexed_by_moved": [
+    "清史稿藝文志"
+   ]
+  }
+ ]
 }

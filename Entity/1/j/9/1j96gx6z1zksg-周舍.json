@@ -1,27 +1,25 @@
 {
-  "schema_version": 1,
-  "id": "1j96gx6z1zksg",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "周舍",
-  "dynasty": "南朝梁",
-  "works": [
-    {
-      "work_id": "1evc5pd9yrsw0"
-    },
-    {
-      "work_id": "1evcml0zlxvy8",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcmnc9v4jy8",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "description": {
-    "text": "南朝梁学者",
-    "sources": []
+ "schema_version": 1,
+ "id": "1j96gx6z1zksg",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "周舍",
+ "dynasty": "南朝梁",
+ "works": [
+  {
+   "work_id": "1evcml0zlxvy8",
+   "role": "撰"
   },
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "work_id": "1evcmnc9v4jy8",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {},
+ "description": {
+  "text": "南朝梁学者",
+  "sources": []
+ },
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "ai_note": "　按：所繫之1evgoqhl08etc《禮疑義》原掛於被併之1evc5pd9yrsw0，該書現authors[]所繫為另一「周捨」entity（1j96hhvcrv409）——本entity與彼似為同一人，entity合併須另裁，故此處去其懸空所繫（本entity仍有1evcml0zlxvy8、1evcmnc9v4jy8二部真實所繫，未受影響）。"
 }

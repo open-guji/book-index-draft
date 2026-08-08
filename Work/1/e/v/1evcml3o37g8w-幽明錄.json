@@ -21,6 +21,13 @@
    "title_info": "《幽明錄》二十卷",
    "summary": "《幽明錄》二十卷（劉義慶）",
    "author_info": "劉義慶"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "劉義慶幽明錄",
+   "summary": "劉義慶幽明錄三十卷",
+   "merged_from": "1evcs0qkp9m2o"
   }
  ],
  "authors": [
@@ -60,7 +67,18 @@
   }
  ],
  "loss_status": "lost",
- "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/幽明錄.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+ "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/幽明錄.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「劉義慶幽明錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉義慶」已見本條 authors[]），裸題「幽明錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
  "updated_at": "2026-08-05T09:02:34+00:00",
- "_has_text": true
+ "_has_text": true,
+ "merged_in": [
+  {
+   "id": "1evcs0qkp9m2o",
+   "title": "劉義慶幽明錄",
+   "author": "劉義慶",
+   "title_info": "劉義慶幽明錄",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ]
 }

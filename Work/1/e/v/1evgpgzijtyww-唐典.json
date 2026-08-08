@@ -1,40 +1,59 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "唐典",
-  "authors": [
-    {
-      "name": "王彥威",
-      "role": "撰",
-      "entity_id": "1j96afevxjc3k",
-      "original_name": "王彦威"
-    }
-  ],
-  "juan_count": {
-    "number": 70
+ "schema_version": 1,
+ "type": "work",
+ "title": "唐典",
+ "authors": [
+  {
+   "name": "王彥威",
+   "role": "撰",
+   "entity_id": "1j96afevxjc3k",
+   "original_name": "王彦威"
+  }
+ ],
+ "juan_count": {
+  "number": 70
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《唐典》七十卷",
+   "summary": "《唐典》七十卷（王彦威）",
+   "author_info": "王彦威"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《唐典》七十卷",
-      "summary": "《唐典》七十卷（王彦威）",
-      "author_info": "王彦威"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgzijtyww",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 70
-    }
-  ],
-  "measure_info": "七十卷",
-  "updated_at": "2026-05-18T10:23:22-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王彥威唐典",
+   "summary": "王彥威唐典七十卷",
+   "merged_from": "1evcs0d2zdwjk"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpgzijtyww",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 70
+  }
+ ],
+ "measure_info": "七十卷",
+ "updated_at": "2026-05-18T10:23:22-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0d2zdwjk",
+   "title": "王彥威唐典",
+   "author": "王彥威",
+   "title_info": "王彥威唐典",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「王彥威唐典」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「王彥威」已見本條 authors[]），裸題「唐典」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,39 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "四部書目序錄",
-  "authors": [
-    {
-      "name": "殷淳",
-      "role": "撰",
-      "entity_id": "1j96h28x1zg21"
-    }
-  ],
-  "juan_count": {
-    "number": 39
+ "schema_version": 1,
+ "type": "work",
+ "title": "四部書目序錄",
+ "authors": [
+  {
+   "name": "殷淳",
+   "role": "撰",
+   "entity_id": "1j96h28x1zg21"
+  }
+ ],
+ "juan_count": {
+  "number": 39
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《四部書目序錄》三十九卷",
+   "summary": "《四部書目序錄》三十九卷（殷淳）",
+   "author_info": "殷淳"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《四部書目序錄》三十九卷",
-      "summary": "《四部書目序錄》三十九卷（殷淳）",
-      "author_info": "殷淳"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpkn5n6vpc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 39
-    }
-  ],
-  "measure_info": "三十九卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "殷淳四部書目序錄",
+   "summary": "殷淳四部書目序錄三十九卷",
+   "merged_from": "1evcs0ily8hkw"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpkn5n6vpc",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 39
+  }
+ ],
+ "measure_info": "三十九卷",
+ "updated_at": "2026-04-29T16:51:33-07:00",
+ "merged_in": [
+  {
+   "id": "1evcs0ily8hkw",
+   "title": "殷淳四部書目序錄",
+   "author": "殷淳",
+   "title_info": "殷淳四部書目序錄",
+   "indexed_by_moved": [
+    "新唐書藝文志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「殷淳四部書目序錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「殷淳」已見本條 authors[]），裸題「四部書目序錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

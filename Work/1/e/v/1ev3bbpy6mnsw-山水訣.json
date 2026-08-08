@@ -1,35 +1,62 @@
 {
-  "schema_version": 1,
-  "id": "1ev3bbpy6mnsw",
-  "type": "work",
-  "title": "山水訣",
-  "authors": [
-    {
-      "name": "李成",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96h8rw790do"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《山水訣》·一卷",
-      "author_info": "舊本題唐李成撰",
-      "summary": "舊本題唐李成撰。案《宋史·李覺傳》，載李成字咸熙，本京兆長安人，唐末徙家青州。工畫山水，周樞密王樸將薦其能。會朴卒，鬱鬱不得志。乾德中，司農卿衛融知陳州，召之，成因挈族而往。劉道醇《宋朝名畫評》又載其開寶中舉進士，集於春官，邵博《聞見後錄》亦稱國初營邱李成畫山水，然則成為宋人，題唐者誤矣。是書《宋志》及晁、陳書目皆不著錄，宋人諸家畫錄亦不言成有是書。殆後人依託其文與《王氏畫苑》所載嘉定中李澄叟《山水訣》大同小異。大抵庸俗畫工有是口訣，輾轉相傳，互有損益，隨意偽題古人耳。",
-      "edition": "浙江鮑士恭家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "id": "1ev3bbpy6mnsw",
+ "type": "work",
+ "title": "山水訣",
+ "authors": [
+  {
+   "name": "李成",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96h8rw790do"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "欽定四庫全書總目",
+   "source_bid": "d59dh3vo9af4",
+   "title_info": "《山水訣》·一卷",
+   "author_info": "舊本題唐李成撰",
+   "summary": "舊本題唐李成撰。案《宋史·李覺傳》，載李成字咸熙，本京兆長安人，唐末徙家青州。工畫山水，周樞密王樸將薦其能。會朴卒，鬱鬱不得志。乾德中，司農卿衛融知陳州，召之，成因挈族而往。劉道醇《宋朝名畫評》又載其開寶中舉進士，集於春官，邵博《聞見後錄》亦稱國初營邱李成畫山水，然則成為宋人，題唐者誤矣。是書《宋志》及晁、陳書目皆不著錄，宋人諸家畫錄亦不言成有是書。殆後人依託其文與《王氏畫苑》所載嘉定中李澄叟《山水訣》大同小異。大抵庸俗畫工有是口訣，輾轉相傳，互有損益，隨意偽題古人耳。",
+   "edition": "浙江鮑士恭家藏本"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-05-17T16:27:21-07:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《李成山水訣》一卷",
+   "summary": "《李成山水訣》一卷",
+   "merged_from": "1evgq5p9hqbcw"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-06T22:59:42+00:00",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "merged_in": [
+  {
+   "id": "1evgq5p9hqbcw",
+   "title": "李成山水訣",
+   "author": "李成",
+   "title_info": "李成山水訣",
+   "indexed_by_moved": [
+    "國史經籍志"
+   ]
+  }
+ ],
+ "ai_note": "合併：題名「李成山水訣」撰人折入題首（來源：國史經籍志），與本條同書（撰人「李成」已見本條 authors[]），裸題「山水訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }
