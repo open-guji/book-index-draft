@@ -9579,30 +9579,6 @@
   "juan_count": 21,
   "measure_info": "二十一卷"
  },
- "1evcmob11e41s": {
-  "id": "1evcmob11e41s",
-  "title": "程咸集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob11e41s-程咸集.json",
-  "juan_count": 3,
-  "measure_info": "三卷"
- },
- "1evcmob16p5a8": {
-  "id": "1evcmob16p5a8",
-  "title": "郤正集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob16p5a8-郤正集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1evcmob1x8bgg": {
-  "id": "1evcmob1x8bgg",
-  "title": "閔鴻集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob1x8bgg-閔鴻集.json",
-  "juan_count": 3,
-  "measure_info": "三卷"
- },
  "1evcmob2yosn4": {
   "id": "1evcmob2yosn4",
   "title": "傅咸集",
@@ -10490,18 +10466,6 @@
   "title": "王文山集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd4o2w4jk-王文山集.json"
- },
- "1evcpd52qqf40": {
-  "id": "1evcpd52qqf40",
-  "title": "李康集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd52qqf40-李康集.json"
- },
- "1evcpd5aklpmo": {
-  "id": "1evcpd5aklpmo",
-  "title": "韋昭集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd5aklpmo-韋昭集.json"
  },
  "1evcpd5ijgsu8": {
   "id": "1evcpd5ijgsu8",
@@ -18029,7 +17993,12 @@
   "author": "夏侯霸",
   "dynasty": "三國蜀",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftexheqby8": {
   "id": "1evftexheqby8",
@@ -18039,7 +18008,12 @@
   "author": "薛綜",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 3
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftexlm4feo": {
   "id": "1evftexlm4feo",
@@ -18049,7 +18023,12 @@
   "author": "姚信",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftf0cknv28": {
   "id": "1evftf0cknv28",
@@ -18803,7 +18782,9 @@
   },
   "measure_info": "10卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuv6vaauww": {
   "id": "1evfuv6vaauww",
@@ -18912,9 +18893,14 @@
   "author": "孔潘",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 2,
+  "juan_count": {
+   "number": 2,
+   "description": ""
+  },
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuvc9bjev4": {
   "id": "1evfuvc9bjev4",
@@ -26997,14 +26983,6 @@
   "juan_count": 4,
   "measure_info": "四卷"
  },
- "1evgqa8is2m80": {
-  "id": "1evgqa8is2m80",
-  "title": "李康集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa8is2m80-李康集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evgqa8up9x4w": {
   "id": "1evgqa8up9x4w",
   "title": "王突籌立卷王肅集",
@@ -27012,30 +26990,6 @@
   "path": "Work/1/e/v/1evgqa8up9x4w-王突籌立卷王肅集.json",
   "juan_count": 5,
   "measure_info": "五卷"
- },
- "1evgqa9cifcw0": {
-  "id": "1evgqa9cifcw0",
-  "title": "傅嘏集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa9cifcw0-傅嘏集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
- "1evgqa9r92scg": {
-  "id": "1evgqa9r92scg",
-  "title": "夏侯玄集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa9r92scg-夏侯玄集.json",
-  "juan_count": 3,
-  "measure_info": "三卷"
- },
- "1evgqaaf0d0qo": {
-  "id": "1evgqaaf0d0qo",
-  "title": "夏侯霸集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqaaf0d0qo-夏侯霸集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
  },
  "1evgqacs9pi4g": {
   "id": "1evgqacs9pi4g",

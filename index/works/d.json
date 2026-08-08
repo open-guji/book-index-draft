@@ -8517,7 +8517,9 @@
   "author": "風后",
   "role": "託名",
   "dynasty": "上古",
-  "period": "pre-qin"
+  "period": "pre-qin",
+  "has_text": false,
+  "has_image": false
  },
  "1ev7xm38j0c8w": {
   "id": "1ev7xm38j0c8w",
@@ -10138,14 +10140,6 @@
   "juan_count": 1,
   "measure_info": "一卷"
  },
- "1evcmoawqkem8": {
-  "id": "1evcmoawqkem8",
-  "title": "夏侯玄集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoawqkem8-夏侯玄集.json",
-  "juan_count": 3,
-  "measure_info": "三卷"
- },
  "1evcmoax246ps": {
   "id": "1evcmoax246ps",
   "title": "嵇康集",
@@ -10905,18 +10899,6 @@
   "title": "劉暠集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd51iepz4-劉暠集.json"
- },
- "1evcpd5476adc": {
-  "id": "1evcpd5476adc",
-  "title": "韋誕集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd5476adc-韋誕集.json"
- },
- "1evcpd55zh69s": {
-  "id": "1evcpd55zh69s",
-  "title": "呂安集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd55zh69s-呂安集.json"
  },
  "1evcpd5ljs5c0": {
   "id": "1evcpd5ljs5c0",
@@ -12089,12 +12071,6 @@
   "title": "潘勗集",
   "type": "Work",
   "path": "Work/1/e/v/1evcs0y83duyo-潘勗集.json"
- },
- "1evcs0ykz8i68": {
-  "id": "1evcs0ykz8i68",
-  "title": "鍾毓集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcs0ykz8i68-鍾毓集.json"
  },
  "1evcs0yp8t9fk": {
   "id": "1evcs0yp8t9fk",
@@ -18196,9 +18172,13 @@
   "author": "陸凱",
   "dynasty": "吳",
   "role": "撰",
-  "juan_count": 5,
+  "juan_count": {
+   "number": 5
+  },
   "measure_info": "五卷",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhj6n0tp8g": {
   "id": "1evfhj6n0tp8g",
@@ -18341,7 +18321,12 @@
   "author": "高堂隆",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 10
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewfbgtmo": {
   "id": "1evftewfbgtmo",
@@ -18351,7 +18336,12 @@
   "author": "傅嘏",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftez4brv28": {
   "id": "1evftez4brv28",
@@ -27412,14 +27402,6 @@
   "juan_count": 6,
   "measure_info": "六卷"
  },
- "1evgqaawp54w0": {
-  "id": "1evgqaawp54w0",
-  "title": "姚信集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqaawp54w0-姚信集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
- },
  "1evgqabvwgmbk": {
   "id": "1evgqabvwgmbk",
   "title": "簡文帝集",
@@ -27523,14 +27505,6 @@
   "path": "Work/1/e/v/1evgqaz4s07b4-王恭集.json",
   "juan_count": 5,
   "measure_info": "五卷"
- },
- "1evgqazshf0g0": {
-  "id": "1evgqazshf0g0",
-  "title": "孔潘集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqazshf0g0-孔潘集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
  },
  "1evgqb049xr7k": {
   "id": "1evgqb049xr7k",

@@ -10413,27 +10413,11 @@
   "juan_count": 10,
   "measure_info": "十卷"
  },
- "1evcmoavcb75s": {
-  "id": "1evcmoavcb75s",
-  "title": "高堂隆集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoavcb75s-高堂隆集.json",
-  "juan_count": 6,
-  "measure_info": "六卷"
- },
  "1evcmoavj6f40": {
   "id": "1evcmoavj6f40",
   "title": "繆襲集",
   "type": "Work",
   "path": "Work/1/e/v/1evcmoavj6f40-繆襲集.json",
-  "juan_count": 5,
-  "measure_info": "五卷"
- },
- "1evcmoayd90qo": {
-  "id": "1evcmoayd90qo",
-  "title": "陸凱集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoayd90qo-陸凱集.json",
   "juan_count": 5,
   "measure_info": "五卷"
  },
@@ -10474,14 +10458,6 @@
   "title": "王敦集",
   "type": "Work",
   "path": "Work/1/e/v/1evcmob90979c-王敦集.json",
-  "juan_count": 10,
-  "measure_info": "十卷"
- },
- "1evcmob9g6ayo": {
-  "id": "1evcmob9g6ayo",
-  "title": "溫嶠集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmob9g6ayo-溫嶠集.json",
   "juan_count": 10,
   "measure_info": "十卷"
  },
@@ -11163,12 +11139,6 @@
   "title": "毋丘儉集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd55mzojk-毋丘儉集.json"
- },
- "1evcpd5fnu0hs": {
-  "id": "1evcpd5fnu0hs",
-  "title": "庾峻集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd5fnu0hs-庾峻集.json"
  },
  "1evcpd5kp6w3k": {
   "id": "1evcpd5kp6w3k",
@@ -17792,10 +17762,14 @@
   "author": "袁山松",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 101,
+  "juan_count": {
+   "number": 101
+  },
   "measure_info": "一百零一卷",
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evdx91mwixa8": {
   "id": "1evdx91mwixa8",
@@ -17897,16 +17871,6 @@
   "path": "Work/1/e/v/1eve1ejxdthxc-補遼史藝文志.json",
   "author": "黃任恆",
   "role": "撰"
- },
- "1evetzkh9wxz4": {
-  "id": "1evetzkh9wxz4",
-  "title": "答春秋穀梁義",
-  "type": "Work",
-  "path": "Work/1/e/v/1evetzkh9wxz4-答春秋穀梁義（徐邈）.json",
-  "author": "徐邈",
-  "role": "撰",
-  "juan_count": 3,
-  "measure_info": "三卷"
  },
  "1evf0yj6knqbk": {
   "id": "1evf0yj6knqbk",
@@ -18390,7 +18354,9 @@
   "author": "孟達",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evftev0l3bb4": {
   "id": "1evftev0l3bb4",
@@ -18400,7 +18366,9 @@
   "author": "華歆",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evftev2pkge8": {
   "id": "1evftev2pkge8",
@@ -18410,7 +18378,12 @@
   "author": "傅巽",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftevdd7400": {
   "id": "1evftevdd7400",
@@ -18430,7 +18403,12 @@
   "author": "桓範",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 1
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewd88mps": {
   "id": "1evftewd88mps",
@@ -18440,7 +18418,12 @@
   "author": "殷褒",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 1
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftex5s53i8": {
   "id": "1evftex5s53i8",
@@ -18450,7 +18433,12 @@
   "author": "郤正",
   "dynasty": "三國蜀",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 1
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftwxy97q4g": {
   "id": "1evftwxy97q4g",
@@ -19257,9 +19245,14 @@
   "author": "程咸",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 3,
+  "juan_count": {
+   "number": 3,
+   "description": ""
+  },
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuv4uzm5mo": {
   "id": "1evfuv4uzm5mo",
@@ -27158,22 +27151,6 @@
   "path": "Work/1/e/v/1evgqa7v714ow-簷爲語集.json",
   "juan_count": 3,
   "measure_info": "三卷"
- },
- "1evgqa99jzfnk": {
-  "id": "1evgqa99jzfnk",
-  "title": "王弼集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa99jzfnk-王弼集.json",
-  "juan_count": 5,
-  "measure_info": "五卷"
- },
- "1evgqabh8xkao": {
-  "id": "1evgqabh8xkao",
-  "title": "韋昭集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqabh8xkao-韋昭集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
  },
  "1evgqacjhtce8": {
   "id": "1evgqacjhtce8",

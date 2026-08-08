@@ -10175,22 +10175,6 @@
   "juan_count": 1,
   "measure_info": "一卷"
  },
- "1evcmoaw2j4sg": {
-  "id": "1evcmoaw2j4sg",
-  "title": "王肅集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoaw2j4sg-王肅集.json",
-  "juan_count": 5,
-  "measure_info": "五卷"
- },
- "1evcmoayossu8": {
-  "id": "1evcmoayossu8",
-  "title": "張儼集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmoayossu8-張儼集.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
  "1evcmoaz0ckxs": {
   "id": "1evcmoaz0ckxs",
   "title": "晉宣帝集",
@@ -10264,14 +10248,6 @@
   "juan_count": 10,
   "measure_info": "十卷",
   "loss_status": "lost"
- },
- "1evcmobi6tiio": {
-  "id": "1evcmobi6tiio",
-  "title": "庾肅之集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcmobi6tiio-庾肅之集.json",
-  "juan_count": 10,
-  "measure_info": "十卷"
  },
  "1evcmobwjqi2o": {
   "id": "1evcmobwjqi2o",
@@ -10902,12 +10878,6 @@
   "title": "枚乘集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd4k3xfr4-枚乘集.json"
- },
- "1evcpd51uw7pc": {
-  "id": "1evcpd51uw7pc",
-  "title": "陳群集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evcpd51uw7pc-陳群集.json"
  },
  "1evcpd54enzeo": {
   "id": "1evcpd54enzeo",
@@ -17730,9 +17700,13 @@
   "author": "華覈",
   "dynasty": "吳",
   "role": "撰",
-  "juan_count": 5,
+  "juan_count": {
+   "number": 5
+  },
   "measure_info": "五卷",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhem0lusjk": {
   "id": "1evfhem0lusjk",
@@ -17742,10 +17716,14 @@
   "author": "楊厚",
   "dynasty": "吳",
   "role": "撰",
-  "juan_count": 2,
+  "juan_count": {
+   "number": 2
+  },
   "measure_info": "二卷",
   "period": "pre-qin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfhemuepfk0": {
   "id": "1evfhemuepfk0",
@@ -17941,7 +17919,9 @@
   "dynasty": "三國魏",
   "role": "撰",
   "period": "three-kingdoms",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfteuew3k74": {
   "id": "1evfteuew3k74",
@@ -17974,7 +17954,12 @@
   "author": "程曉",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 2
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftewnxqpkw": {
   "id": "1evftewnxqpkw",
@@ -17984,7 +17969,12 @@
   "author": "王昶",
   "dynasty": "三國魏",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "juan_count": {
+   "number": 5
+  },
+  "has_text": false,
+  "has_image": false
  },
  "1evftex8cuku8": {
   "id": "1evftex8cuku8",
@@ -17994,7 +17984,9 @@
   "author": "士燮",
   "dynasty": "三國吳",
   "role": "撰",
-  "period": "three-kingdoms"
+  "period": "three-kingdoms",
+  "has_text": false,
+  "has_image": false
  },
  "1evfteyfj15hc": {
   "id": "1evfteyfj15hc",
@@ -19093,9 +19085,14 @@
   "author": "范汪",
   "dynasty": "晉",
   "role": "撰",
-  "juan_count": 16,
+  "juan_count": {
+   "number": 16,
+   "description": ""
+  },
   "period": "jin",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "has_text": false,
+  "has_image": false
  },
  "1evfuvbpmc8ow": {
   "id": "1evfuvbpmc8ow",
@@ -26856,22 +26853,6 @@
   "juan_count": 5,
   "measure_info": "五卷"
  },
- "1evgqa96ljif4": {
-  "id": "1evgqa96ljif4",
-  "title": "應璩集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa96ljif4-應璩集.json",
-  "juan_count": 10,
-  "measure_info": "十卷"
- },
- "1evgqa9x8rrpc": {
-  "id": "1evgqa9x8rrpc",
-  "title": "阮籍集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqa9x8rrpc-阮籍集.json",
-  "juan_count": 13,
-  "measure_info": "十三卷"
- },
  "1evgqagjnw4cg": {
   "id": "1evgqagjnw4cg",
   "title": "阮渾集",
@@ -26879,14 +26860,6 @@
   "path": "Work/1/e/v/1evgqagjnw4cg-阮渾集.json",
   "juan_count": 3,
   "measure_info": "三卷"
- },
- "1evgqagmlpkhs": {
-  "id": "1evgqagmlpkhs",
-  "title": "嵇紹集",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgqagmlpkhs-嵇紹集.json",
-  "juan_count": 2,
-  "measure_info": "二卷"
  },
  "1evgqai3sf8jk": {
   "id": "1evgqai3sf8jk",
@@ -30367,14 +30340,6 @@
   "type": "Work",
   "path": "Work/1/e/v/1evimnz89a874-顓頊五星曆.json",
   "juan_count": 14,
-  "loss_status": "lost"
- },
- "1evimnzi9tbls": {
-  "id": "1evimnzi9tbls",
-  "title": "風后孤虛",
-  "type": "Work",
-  "path": "Work/1/e/v/1evimnzi9tbls-風后孤虛.json",
-  "juan_count": 20,
   "loss_status": "lost"
  },
  "1evinaab4bojk": {
