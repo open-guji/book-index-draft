@@ -5,10 +5,10 @@
  "title": "甄異記",
  "authors": [
   {
-   "name": "戴",
+   "name": "戴祚",
    "role": "撰",
    "dynasty": "晉",
-   "entity_id": "1j96kegcdkkcg"
+   "entity_id": null
   }
  ],
  "indexed_by": [
@@ -25,8 +25,8 @@
   ]
  },
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「戴」，今補全為「戴祚」。據《新唐書·藝文志》及案語「見《新唐志」。《新唐志》明題「戴祚《甄異傳》三卷」，《隋志》作「晉西戎主簿戴祚撰」。戴祚與戴逵（字安道）為不同人，原Entity繫戴逵有誤，已置null待建新Entity。",
+ "updated_at": "2026-08-08T00:00:00+00:00",
  "period": "jin",
  "period_basis": "據 authors[0].dynasty「晉」"
 }
