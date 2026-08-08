@@ -1,50 +1,52 @@
 {
- "schema_version": 1,
- "id": "1j96hl7dua03k",
- "type": "entity",
- "subtype": "people",
- "primary_name": "趙岐",
- "dynasty": "漢",
- "works": [
-  {
-   "work_id": "1ev7943t26zuo",
-   "role": "注"
+  "schema_version": 1,
+  "id": "1j96hl7dua03k",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "趙岐",
+  "dynasty": "漢",
+  "works": [
+    {
+      "work_id": "1ev7943t26zuo",
+      "role": "注"
+    },
+    {
+      "work_id": "1evcpcuy2fksg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcml2uru3nk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcua6nyi9z4"
+    },
+    {
+      "work_id": "1evftx2ld8feo",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftyp206jnk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftxi9jqkg0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evr5e3m7t8yv",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftwxrz7wu8",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_match": "none",
+    "cbdb_source": "none: 趙岐[漢]→CBDB[清]，趙岐(108-201)是東漢注孟子者，非清人"
   },
-  {
-   "work_id": "1evcpcuy2fksg",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evcml2uru3nk",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evcua6nyi9z4"
-  },
-  {
-   "work_id": "1evftx2ld8feo",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evftyp206jnk",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evftxi9jqkg0",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evr5e3m7t8yv",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evftwxrz7wu8",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_match": "none",
-  "cbdb_source": "none: 趙岐[漢]→CBDB[清]，趙岐(108-201)是東漢注孟子者，非清人"
- },
- "updated_at": "2026-08-03T02:25:39+00:00"
+  "updated_at": "2026-08-08T11:51:59+00:00",
+  "period": "qin-han",
+  "period_basis": "據 dynasty「漢」粗粒度 period 兜底（canonical 仍需人工拆分）"
 }

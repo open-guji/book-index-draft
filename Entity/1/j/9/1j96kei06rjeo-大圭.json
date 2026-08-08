@@ -1,21 +1,23 @@
 {
- "schema_version": 1,
- "id": "1j96kei06rjeo",
- "type": "entity",
- "subtype": "people",
- "primary_name": "釋大圭",
- "dynasty": "元",
- "works": [
-  {
-   "work_id": "1evgc0bts5ssg",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evgc0bvn9tkw",
-   "role": "撰"
-  }
- ],
- "external_ids": {},
- "updated_at": "2026-08-08",
- "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：補遼金元藝文志明確「奉化人，徑山僧」即釋大圭（元，字恆白，號夢觀），缺釋字。"
+  "schema_version": 1,
+  "id": "1j96kei06rjeo",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "釋大圭",
+  "dynasty": "元",
+  "works": [
+    {
+      "work_id": "1evgc0bts5ssg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgc0bvn9tkw",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {},
+  "updated_at": "2026-08-08T11:51:59+00:00",
+  "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：補遼金元藝文志明確「奉化人，徑山僧」即釋大圭（元，字恆白，號夢觀），缺釋字。",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 dynasty「元」自動歸併"
 }

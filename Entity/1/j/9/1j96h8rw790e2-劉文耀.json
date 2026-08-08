@@ -1,38 +1,40 @@
 {
- "schema_version": 1,
- "id": "1j96h8rw790e2",
- "type": "entity",
- "subtype": "people",
- "primary_name": "劉文耀",
- "alt_names": [
-  {
-   "name": "人",
-   "type": "字"
+  "schema_version": 1,
+  "id": "1j96h8rw790e2",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "劉文耀",
+  "alt_names": [
+    {
+      "name": "人",
+      "type": "字"
+    },
+    {
+      "name": "劉文燿",
+      "type": "別名"
+    },
+    {
+      "name": "忠果",
+      "type": "諡號"
+    }
+  ],
+  "dynasty": "明",
+  "works": [
+    {
+      "work_id": "1ev3bcmg50bnk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ev3bcp9lrcao",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 132663,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: auto_unique cbdb_dy=19 altname"
   },
-  {
-   "name": "劉文燿",
-   "type": "別名"
-  },
-  {
-   "name": "忠果",
-   "type": "諡號"
-  }
- ],
- "dynasty": "明",
- "works": [
-  {
-   "work_id": "1ev3bcmg50bnk",
-   "role": "撰"
-  },
-  {
-   "work_id": "1ev3bcp9lrcao",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 132663,
-  "cbdb_match": "manual",
-  "cbdb_source": "pending_accept: auto_unique cbdb_dy=19 altname"
- },
- "updated_at": "2026-08-08"
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "period": "ming",
+  "period_basis": "據 dynasty「明」自動歸併"
 }

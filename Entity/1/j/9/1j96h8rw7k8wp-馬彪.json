@@ -1,23 +1,25 @@
 {
- "schema_version": 1,
- "id": "1j96h8rw7k8wp",
- "type": "entity",
- "subtype": "people",
- "primary_name": "司馬彪",
- "alt_names": [
-  {
-   "name": "勤襄",
-   "type": "諡號"
-  }
- ],
- "dynasty": "清",
- "death_year": 1784,
- "works": [],
- "external_ids": {
-  "cbdb_id": 59303,
-  "cbdb_match": "manual",
-  "cbdb_source": "pending_accept: auto_unique cbdb_dy=20"
- },
- "updated_at": "2026-08-08",
- "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：案語「續漢書八十三卷晉秘書監司馬彪撰」明確，「馬彪」為「司馬彪」截去司字（與前169條甲類複姓截首字同模式）。"
+  "schema_version": 1,
+  "id": "1j96h8rw7k8wp",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "司馬彪",
+  "alt_names": [
+    {
+      "name": "勤襄",
+      "type": "諡號"
+    }
+  ],
+  "dynasty": "清",
+  "death_year": 1784,
+  "works": [],
+  "external_ids": {
+    "cbdb_id": 59303,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: auto_unique cbdb_dy=20"
+  },
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：案語「續漢書八十三卷晉秘書監司馬彪撰」明確，「馬彪」為「司馬彪」截去司字（與前169條甲類複姓截首字同模式）。",
+  "period": "qing",
+  "period_basis": "據 dynasty「清」自動歸併"
 }

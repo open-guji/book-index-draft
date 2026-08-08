@@ -1,35 +1,37 @@
 {
- "schema_version": 1,
- "id": "1j96h28x1zg23",
- "type": "entity",
- "subtype": "people",
- "primary_name": "釋法藏",
- "alt_names": [
-  {
-   "name": "三峰",
-   "type": "號"
+  "schema_version": 1,
+  "id": "1j96h28x1zg23",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "釋法藏",
+  "alt_names": [
+    {
+      "name": "三峰",
+      "type": "號"
+    },
+    {
+      "name": "於密",
+      "type": "字"
+    }
+  ],
+  "dynasty": "明",
+  "works": [
+    {
+      "work_id": "1evgptu4tgyrk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgptyngf7r4",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 128475,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: wc=2 unique, cbdb_dy=19 (None-None)"
   },
-  {
-   "name": "於密",
-   "type": "字"
-  }
- ],
- "dynasty": "明",
- "works": [
-  {
-   "work_id": "1evgptu4tgyrk",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evgptyngf7r4",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 128475,
-  "cbdb_match": "manual",
-  "cbdb_source": "pending_accept: wc=2 unique, cbdb_dy=19 (None-None)"
- },
- "updated_at": "2026-08-08",
- "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：釋法藏（賢首國師，華嚴宗三祖），國史經籍志《起信論疏》等佛典，缺釋字。"
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：釋法藏（賢首國師，華嚴宗三祖），國史經籍志《起信論疏》等佛典，缺釋字。",
+  "period": "ming",
+  "period_basis": "據 dynasty「明」自動歸併"
 }

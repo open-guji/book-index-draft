@@ -1,33 +1,35 @@
 {
- "schema_version": 1,
- "id": "1j96h8rw790eg",
- "type": "entity",
- "subtype": "people",
- "primary_name": "莊昶",
- "alt_names": [
-  {
-   "name": "梁莊王",
-   "type": "別名"
+  "schema_version": 1,
+  "id": "1j96h8rw790eg",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "莊昶",
+  "alt_names": [
+    {
+      "name": "梁莊王",
+      "type": "別名"
+    },
+    {
+      "name": "莊",
+      "type": "別名"
+    },
+    "朱瞻垍"
+  ],
+  "dynasty": "明",
+  "birth_year": 1411,
+  "death_year": 1441,
+  "works": [
+    {
+      "work_id": "1ev3bdca5yccg",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 67611,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: auto_ambig cbdb_dy=19 (1411-1441)"
   },
-  {
-   "name": "莊",
-   "type": "別名"
-  },
-  "朱瞻垍"
- ],
- "dynasty": "明",
- "birth_year": 1411,
- "death_year": 1441,
- "works": [
-  {
-   "work_id": "1ev3bdca5yccg",
-   "role": "撰"
-  }
- ],
- "external_ids": {
-  "cbdb_id": 67611,
-  "cbdb_match": "manual",
-  "cbdb_source": "pending_accept: auto_ambig cbdb_dy=19 (1411-1441)"
- },
- "updated_at": "2026-08-08T00:00:00+00:00"
+  "updated_at": "2026-08-08T11:51:58+00:00",
+  "period": "ming",
+  "period_basis": "據 dynasty「明」自動歸併"
 }

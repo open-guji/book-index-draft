@@ -1,26 +1,27 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "古今樂録",
- "indexed_by": [
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《古今樂録》",
-   "summary": "《古今樂録》十三卷趙邦利"
-  }
- ],
- "id": "1evcsw754w3cw",
- "authors": [
-  {
-   "name": "釋智匠",
-   "role": "撰",
-   "dynasty": "陳"
-  }
- ],
- "ai_note": "作者「陳釋智匠撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/古今樂録.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "nanbeichao",
- "period_basis": "據 authors[0].dynasty「陳」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "古今樂録",
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《古今樂録》",
+      "summary": "《古今樂録》十三卷趙邦利"
+    }
+  ],
+  "id": "1evcsw754w3cw",
+  "authors": [
+    {
+      "name": "釋智匠",
+      "role": "撰",
+      "dynasty": "南朝陳",
+      "dynasty_basis": "synonym:陳->南朝陳"
+    }
+  ],
+  "ai_note": "作者「陳釋智匠撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/古今樂録.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T11:51:55+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「陳」"
 }
