@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "三足記",
- "authors": [
-  {
-   "name": "盧景亮",
-   "role": "撰",
-   "entity_id": "1j967da97jm1u"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《三足記》二卷",
-   "summary": "《三足記》二卷（盧景亮）",
-   "author_info": "盧景亮"
+  "schema_version": 1,
+  "type": "work",
+  "title": "三足記",
+  "authors": [
+    {
+      "name": "盧景亮",
+      "role": "撰",
+      "entity_id": "1j967da97jm1u"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "盧景亮三足記",
-   "summary": "盧景亮三足記二卷",
-   "merged_from": "1evcs0q2ndj40"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgq0g01r7r4",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0q2ndj40",
-   "title": "盧景亮三足記",
-   "author": "盧景亮",
-   "title_info": "盧景亮三足記",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「盧景亮三足記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「盧景亮」已見本條 authors[]），裸題「三足記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《三足記》二卷",
+      "summary": "《三足記》二卷（盧景亮）",
+      "author_info": "盧景亮"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "盧景亮三足記",
+      "summary": "盧景亮三足記二卷",
+      "merged_from": "1evcs0q2ndj40"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgq0g01r7r4",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0q2ndj40",
+      "title": "盧景亮三足記",
+      "author": "盧景亮",
+      "title_info": "盧景亮三足記",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「盧景亮三足記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「盧景亮」已見本條 authors[]），裸題「三足記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,38 +1,40 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvlyeaby8",
- "title": "吳晉雜事",
- "authors": [],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "吴晋雜事九卷 謹按見《七錄》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 9
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 9
-  }
- ],
- "measure_info": "九卷",
- "additional_titles": [
-  "吴晋雜事"
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvlyeaby8",
+  "title": "吳晉雜事",
+  "authors": [],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "吴晋雜事九卷 謹按見《七錄》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "additional_titles": [
+    "吴晋雜事"
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

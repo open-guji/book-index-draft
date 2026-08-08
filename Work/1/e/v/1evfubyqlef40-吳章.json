@@ -1,52 +1,55 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "吳章",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "吴章二卷 陸機。謹按見《隋志》。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "吳章",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "吴章二卷 陸機。謹按見《隋志》。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《吳章》二卷",
+      "summary": "《吳章》二卷（陸機）",
+      "author_info": "陸機"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《吳章》二卷",
-   "summary": "《吳章》二卷（陸機）",
-   "author_info": "陸機"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "陸機",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967afj9av4f"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "id": "1evfubyqlef40",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "ai_note": "從 1evgoraf7ud4w 合併。原註：missing_reason: 短title \"吳章\" 唯一候选无作者　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "additional_titles": [
-  "吴章"
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "陸機",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j967afj9av4f",
+      "dynasty_basis": "manual:historical_figure(陸機(261-303)，字士衡，西晉文學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "id": "1evfubyqlef40",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "從 1evgoraf7ud4w 合併。原註：missing_reason: 短title \"吳章\" 唯一候选无作者　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "additional_titles": [
+    "吴章"
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

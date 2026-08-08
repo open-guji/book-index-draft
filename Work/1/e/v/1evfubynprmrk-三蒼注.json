@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "三蒼注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "三蒼注三卷郭璞。謹按見《隋志》。兩《唐志》俱作“郭璞解”,《文選注》作“三倉解站”。馬氏國翰輯此書,敘謂《隋志》有璞《三倉解話》三卷。蓋誤以《文選注》為《隋志》。《舊唐書》言李軌等撰,郭璞解。“李軌”蓋“李斯”之誤。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "郭璞",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j968k0jdrlz4"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "id": "1evfubynprmrk",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "三蒼注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "三蒼注三卷郭璞。謹按見《隋志》。兩《唐志》俱作“郭璞解”,《文選注》作“三倉解站”。馬氏國翰輯此書,敘謂《隋志》有璞《三倉解話》三卷。蓋誤以《文選注》為《隋志》。《舊唐書》言李軌等撰,郭璞解。“李軌”蓋“李斯”之誤。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "注",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "id": "1evfubynprmrk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -7,8 +7,9 @@
     {
       "name": "王廙",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j967afjb6adq"
+      "dynasty": "東晉",
+      "entity_id": "1j967afjb6adq",
+      "dynasty_basis": "entity_propagation:entity_id=1j967afjb6adq"
     }
   ],
   "indexed_by": [
@@ -42,7 +43,9 @@
   "additional_titles": [
     "周易註"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

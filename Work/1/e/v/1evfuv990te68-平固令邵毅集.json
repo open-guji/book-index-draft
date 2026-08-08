@@ -1,43 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv990te68",
- "title": "平固令邵毅集",
- "authors": [],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "平固令邵毅集五卷録一卷 謹按見《七錄》。兩《唐志》著録。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 5
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 5
-  }
- ],
- "measure_info": "五卷",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "梁又有《平固令邵毅集》五卷",
-   "summary": "梁又有《平固令邵毅集》五卷,録一卷,亡。\n邵毅始末未詳。\n《唐書·經籍》、《藝文志》:《邵毅集》五卷。"
-  }
- ],
- "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv990te68",
+  "title": "平固令邵毅集",
+  "authors": [],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "平固令邵毅集五卷録一卷 謹按見《七錄》。兩《唐志》著録。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁又有《平固令邵毅集》五卷",
+      "summary": "梁又有《平固令邵毅集》五卷,録一卷,亡。\n邵毅始末未詳。\n《唐書·經籍》、《藝文志》:《邵毅集》五卷。"
+    }
+  ],
+  "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

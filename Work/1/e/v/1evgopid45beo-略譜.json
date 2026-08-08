@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "略譜",
- "authors": [
-  {
-   "name": "袁宏",
-   "role": "撰",
-   "entity_id": "1j96hl52a416o"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《略譜》一卷",
-   "summary": "《略譜》一卷（袁宏）",
-   "author_info": "袁宏"
+  "schema_version": 1,
+  "type": "work",
+  "title": "略譜",
+  "authors": [
+    {
+      "name": "袁宏",
+      "role": "撰",
+      "entity_id": "1j96hl52a416o"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "袁宏略譜",
-   "summary": "袁宏略譜一卷",
-   "merged_from": "1evcs075dmqkg"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgopid45beo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-05-14T02:04:40-07:00",
- "merged_in": [
-  {
-   "id": "1evcs075dmqkg",
-   "title": "袁宏略譜",
-   "author": "袁宏",
-   "title_info": "袁宏略譜",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「袁宏略譜」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「袁宏」已見本條 authors[]），裸題「略譜」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《略譜》一卷",
+      "summary": "《略譜》一卷（袁宏）",
+      "author_info": "袁宏"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "袁宏略譜",
+      "summary": "袁宏略譜一卷",
+      "merged_from": "1evcs075dmqkg"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgopid45beo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-05-14T02:04:40-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs075dmqkg",
+      "title": "袁宏略譜",
+      "author": "袁宏",
+      "title_info": "袁宏略譜",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「袁宏略譜」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「袁宏」已見本條 authors[]），裸題「略譜」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

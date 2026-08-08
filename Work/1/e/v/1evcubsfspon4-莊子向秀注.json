@@ -28,9 +28,10 @@
     {
       "name": "向秀",
       "role": "注",
-      "dynasty": "晉",
+      "dynasty": "西晉",
       "note": "字子期，竹林七賢之一，注《莊子》未竟而卒，郭象續成之",
-      "entity_id": "1j96hfwa72134"
+      "entity_id": "1j96hfwa72134",
+      "dynasty_basis": "historical_dict:round2(向秀(227-272)，字子期，竹林七賢)"
     }
   ],
   "id": "1evcubsfspon4",
@@ -46,7 +47,9 @@
   "measure_info": "二十卷",
   "original_title": "莊子",
   "ai_note": "《國史經籍志》等著錄之同一注本原另立殘條 1evgpnegi6r5s（書題僅作「莊子」，未標注者），經核為本作品，已併入並刪除。　殘條作者原作「晉向秀」，朝代混入姓名，已分列。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,64 +1,66 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "周易卦象數旨",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "周易卦象數旨六卷 樂安亭侯李順。謹按見《七錄》。《通志·藝文略》著録一卷。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "周易卦象數旨",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "周易卦象數旨六卷 樂安亭侯李順。謹按見《七錄》。《通志·藝文略》著録一卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周易卦象數旨》一卷",
+      "summary": "《周易卦象數旨》一卷（𣈆李顒）",
+      "author_info": "𣈆李顒"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《周易卦象數旨》一卷",
-   "summary": "《周易卦象數旨》一卷（𣈆李顒）",
-   "author_info": "𣈆李顒"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "李順",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hhvcrjvi5"
-  }
- ],
- "juan_count": {
-  "number": 6
- },
- "id": "1evfubbok52ps",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "related_works": [
-  {
-   "id": "1evl7l48e27ls",
-   "title": "周易",
-   "relation": "contains_text_of"
-  }
- ],
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "梁有《周易卦象數旨》六卷",
-   "summary": "梁有《周易卦象數旨》六卷，東晉樂安亭侯李顯撰，亡。\n《晉書·文苑·李充傳》：充，字弘度，江夏人。注《尚書》及《周易旨》六篇，行於世。子顯，亦有文義，多所述作，郡舉孝廉。\n《釋文·敘錄》：李顯，字長林，江夏人。東晉本郡太守。"
-  }
- ],
- "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "李順",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hhvcrjvi5"
+    }
+  ],
+  "juan_count": {
+    "number": 6
+  },
+  "id": "1evfubbok52ps",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "contains_text_of"
+    }
+  ],
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁有《周易卦象數旨》六卷",
+      "summary": "梁有《周易卦象數旨》六卷，東晉樂安亭侯李顯撰，亡。\n《晉書·文苑·李充傳》：充，字弘度，江夏人。注《尚書》及《周易旨》六篇，行於世。子顯，亦有文義，多所述作，郡舉孝廉。\n《釋文·敘錄》：李顯，字長林，江夏人。東晉本郡太守。"
+    }
+  ],
+  "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

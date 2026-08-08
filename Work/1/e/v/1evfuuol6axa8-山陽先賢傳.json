@@ -1,39 +1,41 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuol6axa8",
- "title": "山陽先賢傳",
- "authors": [
-  {
-   "name": "仲長毅",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfcy2ahhc"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "山陽先賢傳 仲長毅。謹按見《元和姓纂》五。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuol6axa8",
+  "title": "山陽先賢傳",
+  "authors": [
+    {
+      "name": "仲長毅",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfcy2ahhc"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "山陽先賢傳 仲長毅。謹按見《元和姓纂》五。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《山陽先賢傳》一卷",
+      "summary": "《山陽先賢傳》一卷（仲長統）",
+      "author_info": "仲長統"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《山陽先賢傳》一卷",
-   "summary": "《山陽先賢傳》一卷（仲長統）",
-   "author_info": "仲長統"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

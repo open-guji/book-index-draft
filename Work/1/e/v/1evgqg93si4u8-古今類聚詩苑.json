@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "古今類聚詩苑",
- "authors": [
-  {
-   "name": "劉孝孫",
-   "role": "撰",
-   "entity_id": "1j967da96x4xl"
-  }
- ],
- "juan_count": {
-  "number": 30
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《古今類聚詩苑》三十卷",
-   "summary": "《古今類聚詩苑》三十卷（劉孝孫集）",
-   "author_info": "劉孝孫集"
+  "schema_version": 1,
+  "type": "work",
+  "title": "古今類聚詩苑",
+  "authors": [
+    {
+      "name": "劉孝孫",
+      "role": "撰",
+      "entity_id": "1j967da96x4xl"
+    }
+  ],
+  "juan_count": {
+    "number": 30
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "劉孝孫古今類聚詩苑",
-   "summary": "劉孝孫古今類聚詩苑三十卷",
-   "merged_from": "1evcs17x49csg"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgqg93si4u8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "measure_info": "三十卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs17x49csg",
-   "title": "劉孝孫古今類聚詩苑",
-   "author": "劉孝孫",
-   "title_info": "劉孝孫古今類聚詩苑",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「劉孝孫古今類聚詩苑」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉孝孫」已見本條 authors[]），裸題「古今類聚詩苑」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《古今類聚詩苑》三十卷",
+      "summary": "《古今類聚詩苑》三十卷（劉孝孫集）",
+      "author_info": "劉孝孫集"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉孝孫古今類聚詩苑",
+      "summary": "劉孝孫古今類聚詩苑三十卷",
+      "merged_from": "1evcs17x49csg"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgqg93si4u8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs17x49csg",
+      "title": "劉孝孫古今類聚詩苑",
+      "author": "劉孝孫",
+      "title_info": "劉孝孫古今類聚詩苑",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「劉孝孫古今類聚詩苑」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉孝孫」已見本條 authors[]），裸題「古今類聚詩苑」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

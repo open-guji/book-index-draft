@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "選譜",
- "authors": [
-  {
-   "name": "裴行儉",
-   "role": "撰",
-   "entity_id": "1j967da978dhp"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《選譜》十卷",
-   "summary": "《選譜》十卷（裴行儉）",
-   "author_info": "裴行儉"
+  "schema_version": 1,
+  "type": "work",
+  "title": "選譜",
+  "authors": [
+    {
+      "name": "裴行儉",
+      "role": "撰",
+      "entity_id": "1j967da978dhp"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "裴行儉選譜",
-   "summary": "裴行儉選譜十卷",
-   "merged_from": "1evcs0etgpyww"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgphrpdkw74",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0etgpyww",
-   "title": "裴行儉選譜",
-   "author": "裴行儉",
-   "title_info": "裴行儉選譜",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「裴行儉選譜」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「裴行儉」已見本條 authors[]），裸題「選譜」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《選譜》十卷",
+      "summary": "《選譜》十卷（裴行儉）",
+      "author_info": "裴行儉"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "裴行儉選譜",
+      "summary": "裴行儉選譜十卷",
+      "merged_from": "1evcs0etgpyww"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgphrpdkw74",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0etgpyww",
+      "title": "裴行儉選譜",
+      "author": "裴行儉",
+      "title_info": "裴行儉選譜",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「裴行儉選譜」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「裴行儉」已見本條 authors[]），裸題「選譜」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

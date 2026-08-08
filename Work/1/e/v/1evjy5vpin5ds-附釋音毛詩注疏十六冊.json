@@ -1,50 +1,50 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "附釋音毛詩注疏",
- "authors": [
-  {
-   "name": "毛萇",
-   "role": "撰",
-   "dynasty": "漢"
+  "schema_version": 1,
+  "type": "work",
+  "title": "附釋音毛詩注疏",
+  "authors": [
+    {
+      "name": "毛萇",
+      "role": "撰",
+      "dynasty": "漢"
+    },
+    {
+      "name": "鄭玄",
+      "role": "撰",
+      "dynasty": "漢"
+    },
+    {
+      "name": "唐孔穎達",
+      "role": "撰",
+      "dynasty": "唐"
+    }
+  ],
+  "description": {
+    "text": "本書收入《中華再造善本》金元編（ZHSY000472）。元刻明修本。",
+    "sources": [
+      "中華再造善本"
+    ]
   },
-  {
-   "name": "鄭玄",
-   "role": "撰",
-   "dynasty": "漢"
-  },
-  {
-   "name": "唐孔穎達",
-   "role": "撰",
-   "dynasty": "唐"
-  }
- ],
- "description": {
-  "text": "本書收入《中華再造善本》金元編（ZHSY000472）。元刻明修本。",
-  "sources": [
-   "中華再造善本"
-  ]
- },
- "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。",
- "id": "1evjy5vpin5ds",
- "books": [
-  "11qk4xwcufqbs"
- ],
- "measures": [
-  {
-   "unit": "冊",
-   "number": 16
-  }
- ],
- "measure_info": "十六冊",
- "related_works": [
-  {
-   "id": "1evl7hsxvr7cw",
-   "title": "詩經",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-07T17:05:31+00:00",
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」"
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。",
+  "id": "1evjy5vpin5ds",
+  "books": [
+    "11qk4xwcufqbs"
+  ],
+  "measures": [
+    {
+      "unit": "冊",
+      "number": 16
+    }
+  ],
+  "measure_info": "十六冊",
+  "related_works": [
+    {
+      "id": "1evl7hsxvr7cw",
+      "title": "詩經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-07T17:05:31+00:00",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」"
 }

@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "王氏家牒",
- "authors": [
-  {
-   "name": "王方慶",
-   "role": "撰",
-   "entity_id": "1j967avzlz138"
-  }
- ],
- "juan_count": {
-  "number": 15
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《王氏家牒》十五卷",
-   "summary": "《王氏家牒》十五卷（王方慶）",
-   "author_info": "王方慶"
+  "schema_version": 1,
+  "type": "work",
+  "title": "王氏家牒",
+  "authors": [
+    {
+      "name": "王方慶",
+      "role": "撰",
+      "entity_id": "1j967avzlz138"
+    }
+  ],
+  "juan_count": {
+    "number": 15
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "王方慶王氏家牒",
-   "summary": "王方慶王氏家牒十五卷",
-   "merged_from": "1evcs0j3tvtog"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpkjjdsr28",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 15
-  }
- ],
- "measure_info": "十五卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0j3tvtog",
-   "title": "王方慶王氏家牒",
-   "author": "王方慶",
-   "title_info": "王方慶王氏家牒",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「王方慶王氏家牒」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「王方慶」已見本條 authors[]），裸題「王氏家牒」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王氏家牒》十五卷",
+      "summary": "《王氏家牒》十五卷（王方慶）",
+      "author_info": "王方慶"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王方慶王氏家牒",
+      "summary": "王方慶王氏家牒十五卷",
+      "merged_from": "1evcs0j3tvtog"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpkjjdsr28",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 15
+    }
+  ],
+  "measure_info": "十五卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0j3tvtog",
+      "title": "王方慶王氏家牒",
+      "author": "王方慶",
+      "title_info": "王方慶王氏家牒",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「王方慶王氏家牒」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「王方慶」已見本條 authors[]），裸題「王氏家牒」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

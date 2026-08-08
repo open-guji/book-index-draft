@@ -1,32 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuhejvmyo",
- "title": "蜀後志",
- "authors": [
-  {
-   "name": "常寬",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96h8rw7k8wh"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "蜀後志 常寬,謹按見《華陽國志》寬傳。《隋志》有《蜀志》一卷,云:“東京武平太守常寬著。”即此書。寬蜀郡江源人,卒於晋元帝時,《隋志》“東京”二字似誤。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuhejvmyo",
+  "title": "蜀後志",
+  "authors": [
+    {
+      "name": "常寬",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96h8rw7k8wh"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "蜀後志 常寬,謹按見《華陽國志》寬傳。《隋志》有《蜀志》一卷,云:“東京武平太守常寬著。”即此書。寬蜀郡江源人,卒於晋元帝時,《隋志》“東京”二字似誤。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

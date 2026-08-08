@@ -7,9 +7,10 @@
   "authors": [
     {
       "name": "石崇",
-      "dynasty": "晉",
+      "dynasty": "西晉",
       "role": "作",
-      "entity_id": "1j96keopp0dfk"
+      "entity_id": "1j96keopp0dfk",
+      "dynasty_basis": "historical_dict:round2(石崇(249-300)，字季倫，西晉富豪文學家)"
     }
   ],
   "resources": [],
@@ -20,7 +21,9 @@
       "relation": "collected_in"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

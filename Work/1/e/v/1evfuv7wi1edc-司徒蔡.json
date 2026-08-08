@@ -1,36 +1,38 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv7wi1edc",
- "title": "蔡充集",
- "authors": [
-  {
-   "name": "蔡充",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hff1k5r7k"
-  }
- ],
- "juan_count": {
-  "number": 43,
-  "description": ""
- },
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "司徒蔡 集四十三卷 謹按見《七録》。《隋志》十七卷,兩《唐志》十卷。本書有傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "ai_note": "校訂確認：蔡充（晉書明確記載其任司徒）　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv7wi1edc",
+  "title": "蔡充集",
+  "authors": [
+    {
+      "name": "蔡充",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hff1k5r7k"
+    }
+  ],
+  "juan_count": {
+    "number": 43,
+    "description": ""
+  },
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "司徒蔡 集四十三卷 謹按見《七録》。《隋志》十七卷,兩《唐志》十卷。本書有傳。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "ai_note": "校訂確認：蔡充（晉書明確記載其任司徒）　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

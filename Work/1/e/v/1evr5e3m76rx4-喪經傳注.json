@@ -1,38 +1,39 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m76rx4",
- "type": "work",
- "title": "喪經傳注",
- "authors": [
-  {
-   "name": "王肅",
-   "role": "撰",
-   "dynasty": "魏",
-   "entity_id": "1j96glo90rdhd"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "喪經傳註",
-   "summary": "魏王肅《喪經傳註》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "additional_titles": [
-  "喪經傳註"
- ],
- "updated_at": "2026-08-07T15:25:19+00:00",
- "loss_status": "lost"
+  "schema_version": 1,
+  "id": "1evr5e3m76rx4",
+  "type": "work",
+  "title": "喪經傳注",
+  "authors": [
+    {
+      "name": "王肅",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96glo90rdhd",
+      "dynasty_basis": "entity_propagation:entity_id=1j96glo90rdhd"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "喪經傳註",
+      "summary": "魏王肅《喪經傳註》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "additional_titles": [
+    "喪經傳註"
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "loss_status": "lost"
 }

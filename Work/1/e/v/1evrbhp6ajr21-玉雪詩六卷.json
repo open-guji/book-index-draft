@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evrbhp6ajr21",
- "title": "玉雪詩",
- "authors": [
-  {
-   "name": "徐恢",
-   "role": "撰",
-   "dynasty": "宋",
-   "entity_id": "1j96keqalblz4"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "宋史藝文志補",
-   "source_bid": "1evfyhtrdkbnk",
-   "title_info": "玉雪詩六卷",
-   "summary": "玉雪詩六卷\n徐恢撰。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evrbhp6ajr21",
+  "title": "玉雪詩",
+  "authors": [
+    {
+      "name": "徐恢",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96keqalblz4"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志補",
+      "source_bid": "1evfyhtrdkbnk",
+      "title_info": "玉雪詩六卷",
+      "summary": "玉雪詩六卷\n徐恢撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《徐恢玉雪詩》六卷",
+      "summary": "《徐恢玉雪詩》六卷",
+      "merged_from": "1evgqdqtbvshs"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "updated_at": "2026-05-14T15:10:54-07:00",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《徐恢玉雪詩》六卷",
-   "summary": "《徐恢玉雪詩》六卷",
-   "merged_from": "1evgqdqtbvshs"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "updated_at": "2026-05-14T15:10:54-07:00",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "juan_count": {
-  "number": 6
- },
- "merged_in": [
-  {
-   "id": "1evgqdqtbvshs",
-   "title": "徐恢玉雪詩",
-   "author": "徐恢",
-   "title_info": "徐恢玉雪詩",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「徐恢玉雪詩」撰人折入題首（來源：國史經籍志），與本條同書（撰人「徐恢」已見本條 authors[]），裸題「玉雪詩」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "juan_count": {
+    "number": 6
+  },
+  "merged_in": [
+    {
+      "id": "1evgqdqtbvshs",
+      "title": "徐恢玉雪詩",
+      "author": "徐恢",
+      "title_info": "徐恢玉雪詩",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「徐恢玉雪詩」撰人折入題首（來源：國史經籍志），與本條同書（撰人「徐恢」已見本條 authors[]），裸題「玉雪詩」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

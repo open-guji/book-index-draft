@@ -1,57 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "白沙集",
- "authors": [
-  {
-   "name": "李愚",
-   "role": "撰",
-   "entity_id": "1j967cp2196c8"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《白沙集》",
-   "summary": "李愚《白沙集》十卷又"
+  "schema_version": 1,
+  "type": "work",
+  "title": "白沙集",
+  "authors": [
+    {
+      "name": "李愚",
+      "role": "撰",
+      "entity_id": "1j967cp2196c8"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《白沙集》",
+      "summary": "李愚《白沙集》十卷又"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李愚白沙集》十卷",
+      "summary": "《李愚白沙集》十卷",
+      "merged_from": "1evgqc6ujpxj4"
+    }
+  ],
+  "ai_note": "從 1ev3bdbvdfhmo（陳獻章《白沙集》）拆分。不同作者的同名書被錯誤合併。　合併：題名「李愚白沙集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「李愚」已見本條 authors[]），裸題「白沙集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "id": "1evf1nnhn92ps",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《李愚白沙集》十卷",
-   "summary": "《李愚白沙集》十卷",
-   "merged_from": "1evgqc6ujpxj4"
-  }
- ],
- "ai_note": "從 1ev3bdbvdfhmo（陳獻章《白沙集》）拆分。不同作者的同名書被錯誤合併。　合併：題名「李愚白沙集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「李愚」已見本條 authors[]），裸題「白沙集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
- "id": "1evf1nnhn92ps",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
+  "measure_info": "十卷",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1evgqc6ujpxj4",
+      "title": "李愚白沙集",
+      "author": "李愚",
+      "title_info": "李愚白沙集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
   ]
- },
- "measure_info": "十卷",
- "juan_count": {
-  "number": 10
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "merged_in": [
-  {
-   "id": "1evgqc6ujpxj4",
-   "title": "李愚白沙集",
-   "author": "李愚",
-   "title_info": "李愚白沙集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ]
 }

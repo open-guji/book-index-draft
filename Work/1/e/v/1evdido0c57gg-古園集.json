@@ -1,60 +1,60 @@
 {
- "schema_version": 1,
- "id": "1evdido0c57gg",
- "type": "work",
- "title": "古園集",
- "authors": [
-  {
-   "name": "盧雍",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j967cp20086h"
-  }
- ],
- "juan_count": {
-  "number": 12
- },
- "indexed_by": [
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "卢雍《古园集》十二卷",
-   "summary": "盧雍《古園集》十二卷"
+  "schema_version": 1,
+  "id": "1evdido0c57gg",
+  "type": "work",
+  "title": "古園集",
+  "authors": [
+    {
+      "name": "盧雍",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967cp20086h"
+    }
+  ],
+  "juan_count": {
+    "number": 12
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《盧雍古園集》十二卷",
-   "summary": "《盧雍古園集》十二卷",
-   "merged_from": "1evgqf5sj5p1c"
-  }
- ],
- "description": {
-  "text": "明代集部別集類著作。",
-  "sources": [
-   "明史藝文志"
-  ]
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 12
-  }
- ],
- "measure_info": "十二卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "merged_in": [
-  {
-   "id": "1evgqf5sj5p1c",
-   "title": "盧雍古園集",
-   "author": "盧雍",
-   "title_info": "盧雍古園集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「盧雍古園集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「盧雍」已見本條 authors[]），裸題「古園集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "卢雍《古园集》十二卷",
+      "summary": "盧雍《古園集》十二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《盧雍古園集》十二卷",
+      "summary": "《盧雍古園集》十二卷",
+      "merged_from": "1evgqf5sj5p1c"
+    }
+  ],
+  "description": {
+    "text": "明代集部別集類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "merged_in": [
+    {
+      "id": "1evgqf5sj5p1c",
+      "title": "盧雍古園集",
+      "author": "盧雍",
+      "title_info": "盧雍古園集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「盧雍古園集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「盧雍」已見本條 authors[]），裸題「古園集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

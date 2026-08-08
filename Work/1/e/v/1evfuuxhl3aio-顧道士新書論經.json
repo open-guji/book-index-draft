@@ -1,50 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuxhl3aio",
- "title": "顧道士新書論經",
- "authors": [
-  {
-   "name": "顧谷",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfe8nrsow"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "顧道士新書論經三卷 方士顧谷。謹按見《七錄》。此書《玉燭寶典》曾載一條,餘書鮮有引者。《舊唐志》作“顧道士論”,凡二卷。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 3
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "梁有《顧道士新書論經》三卷",
-   "summary": "梁有《顧道士新書論經》三卷,晉方士顧谷撰,亡。\n顧谷,始末未詳。\n《唐書·經籍志》:《顧道士論》二卷,顧谷撰。《藝文志》神仙家著録\n同,三卷。\n常熟丁國鈞《補晉書藝文志》曰:“此書《玉燭寶典》曾載一條,\n餘書鮮有引者。《舊唐志》作《顧道士論》,凡二卷。”"
-  }
- ],
- "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuxhl3aio",
+  "title": "顧道士新書論經",
+  "authors": [
+    {
+      "name": "顧谷",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfe8nrsow"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "顧道士新書論經三卷 方士顧谷。謹按見《七錄》。此書《玉燭寶典》曾載一條,餘書鮮有引者。《舊唐志》作“顧道士論”,凡二卷。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁有《顧道士新書論經》三卷",
+      "summary": "梁有《顧道士新書論經》三卷,晉方士顧谷撰,亡。\n顧谷,始末未詳。\n《唐書·經籍志》:《顧道士論》二卷,顧谷撰。《藝文志》神仙家著録\n同,三卷。\n常熟丁國鈞《補晉書藝文志》曰:“此書《玉燭寶典》曾載一條,\n餘書鮮有引者。《舊唐志》作《顧道士論》,凡二卷。”"
+    }
+  ],
+  "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

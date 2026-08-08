@@ -6,8 +6,9 @@
     {
       "name": "習鑿齒",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j967cp1zdr2o"
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr2o",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp1zdr2o"
     }
   ],
   "description": {
@@ -31,7 +32,9 @@
   "books": [
     "11qkhsjh22ccg"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

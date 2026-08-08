@@ -1,70 +1,70 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "六經外傳",
- "authors": [
-  {
-   "name": "劉貺",
-   "role": "撰",
-   "entity_id": "1j967afjb6ae6"
-  }
- ],
- "juan_count": {
-  "number": 37
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《六經外傳》三十七卷",
-   "summary": "《六經外傳》三十七卷（劉貺）",
-   "author_info": "劉貺"
+  "schema_version": 1,
+  "type": "work",
+  "title": "六經外傳",
+  "authors": [
+    {
+      "name": "劉貺",
+      "role": "撰",
+      "entity_id": "1j967afjb6ae6"
+    }
+  ],
+  "juan_count": {
+    "number": 37
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《六經外傳》（劉貺）",
-   "summary": "唐志三十七卷",
-   "section": "羣經",
-   "juan": "卷二百四十一",
-   "page": "KR2n0011_WYG_241-5b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《六經外傳》三十七卷",
+      "summary": "《六經外傳》三十七卷（劉貺）",
+      "author_info": "劉貺"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《六經外傳》（劉貺）",
+      "summary": "唐志三十七卷",
+      "section": "羣經",
+      "juan": "卷二百四十一",
+      "page": "KR2n0011_WYG_241-5b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉貺六經外傳",
+      "summary": "劉貺六經外傳三十七卷",
+      "merged_from": "1evcs0a7k394w"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "劉貺六經外傳",
-   "summary": "劉貺六經外傳三十七卷",
-   "merged_from": "1evcs0a7k394w"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgor5px5uyo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 37
-  }
- ],
- "measure_info": "三十七卷",
- "updated_at": "2026-08-06T16:13:13+00:00",
- "merged_in": [
-  {
-   "id": "1evcs0a7k394w",
-   "title": "劉貺六經外傳",
-   "author": "劉貺",
-   "title_info": "劉貺六經外傳",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「劉貺六經外傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉貺」已見本條 authors[]），裸題「六經外傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evgor5px5uyo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 37
+    }
+  ],
+  "measure_info": "三十七卷",
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "merged_in": [
+    {
+      "id": "1evcs0a7k394w",
+      "title": "劉貺六經外傳",
+      "author": "劉貺",
+      "title_info": "劉貺六經外傳",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「劉貺六經外傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉貺」已見本條 authors[]），裸題「六經外傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,49 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv0v7l24g",
- "title": "周易新林",
- "authors": [
-  {
-   "name": "郭璞",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j968k0jdrlz4"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "周易新林四卷 郭璞。謹按見《隋志》。璞傳言:“又鈔京、費諸家要最,更撰《新林》十篇。”即此書。《日本現在書日》五行家載璞《周易新林占》三卷,當即此書。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 4
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 4
-  }
- ],
- "measure_info": "四卷",
- "related_works": [
-  {
-   "id": "1evl7l48e27ls",
-   "title": "周易",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv0v7l24g",
+  "title": "周易新林",
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "周易新林四卷 郭璞。謹按見《隋志》。璞傳言:“又鈔京、費諸家要最,更撰《新林》十篇。”即此書。《日本現在書日》五行家載璞《周易新林占》三卷,當即此書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

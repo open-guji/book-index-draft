@@ -7,9 +7,10 @@
   "authors": [
     {
       "name": "張華",
-      "dynasty": "晉",
+      "dynasty": "西晉",
       "role": "作",
-      "entity_id": "1j967bgl7bspq"
+      "entity_id": "1j967bgl7bspq",
+      "dynasty_basis": "manual:historical_figure(張華(232-300)，字茂先，西晉政治家文學家)"
     }
   ],
   "resources": [
@@ -34,8 +35,10 @@
       "relation": "collected_in"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

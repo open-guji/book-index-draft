@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "草木鳥獸魚蟲疏",
- "authors": [
-  {
-   "name": "陸璣",
-   "role": "撰",
-   "entity_id": "1j967avzk3ls5"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《草木鳥獸魚蟲疏》二卷",
-   "summary": "《草木鳥獸魚蟲疏》二卷（陸璣）",
-   "author_info": "陸璣"
+  "schema_version": 1,
+  "type": "work",
+  "title": "草木鳥獸魚蟲疏",
+  "authors": [
+    {
+      "name": "陸璣",
+      "role": "撰",
+      "entity_id": "1j967avzk3ls5"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "陸璣草木鳥獸魚蟲疏",
-   "summary": "陸璣草木鳥獸魚蟲疏二卷",
-   "merged_from": "1evcs07lsu7eo"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgopwelq3gg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-05-14T02:04:40-07:00",
- "merged_in": [
-  {
-   "id": "1evcs07lsu7eo",
-   "title": "陸璣草木鳥獸魚蟲疏",
-   "author": "陸璣",
-   "title_info": "陸璣草木鳥獸魚蟲疏",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「陸璣草木鳥獸魚蟲疏」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「陸璣」已見本條 authors[]），裸題「草木鳥獸魚蟲疏」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《草木鳥獸魚蟲疏》二卷",
+      "summary": "《草木鳥獸魚蟲疏》二卷（陸璣）",
+      "author_info": "陸璣"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "陸璣草木鳥獸魚蟲疏",
+      "summary": "陸璣草木鳥獸魚蟲疏二卷",
+      "merged_from": "1evcs07lsu7eo"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgopwelq3gg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-05-14T02:04:40-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs07lsu7eo",
+      "title": "陸璣草木鳥獸魚蟲疏",
+      "author": "陸璣",
+      "title_info": "陸璣草木鳥獸魚蟲疏",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「陸璣草木鳥獸魚蟲疏」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「陸璣」已見本條 authors[]），裸題「草木鳥獸魚蟲疏」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,72 +1,72 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "知己傳",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《知己傳》一卷",
-   "summary": "《知己傳》一卷盧思道撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "知己傳",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《知己傳》一卷",
+      "summary": "《知己傳》一卷盧思道撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《知己傳》一卷",
+      "summary": "《知己傳》一卷盧思道撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《知己傳》一卷",
+      "summary": "《知己傳》一卷（盧思道）",
+      "author_info": "盧思道"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "盧思道知己傳",
+      "summary": "盧思道知己傳一卷",
+      "merged_from": "1evcs0fppwrnk"
+    }
+  ],
+  "authors": [
+    {
+      "name": "盧思道",
+      "role": "撰",
+      "entity_id": "1j96h8rw7k8x5"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《知己傳》一卷",
-   "summary": "《知己傳》一卷盧思道撰。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《知己傳》一卷",
-   "summary": "《知己傳》一卷（盧思道）",
-   "author_info": "盧思道"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "盧思道知己傳",
-   "summary": "盧思道知己傳一卷",
-   "merged_from": "1evcs0fppwrnk"
-  }
- ],
- "authors": [
-  {
-   "name": "盧思道",
-   "role": "撰",
-   "entity_id": "1j96h8rw7k8x5"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evcml3cgaz9c",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "知己傳一卷",
-   "summary": "全德志一卷 梁元帝撰\n梁元帝有《孝德傳》、《忠臣傳》、《丹陽尹傳》、《懷舊志》,並\n見前。\n《梁書》本紀:“所著《全德志》一卷。”《南史》本紀:“《古今全\n德志》一卷。”\n《金樓子·著書篇》:《全德志》一表一卷。金樓自撰序,曰:\n“老子言全德歸厚,莊周云全德不刑,《吕覽》稱全德之人,故"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0fppwrnk",
-   "title": "盧思道知己傳",
-   "author": "盧思道",
-   "title_info": "盧思道知己傳",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「盧思道知己傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「盧思道」已見本條 authors[]），裸題「知己傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "id": "1evcml3cgaz9c",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "知己傳一卷",
+      "summary": "全德志一卷 梁元帝撰\n梁元帝有《孝德傳》、《忠臣傳》、《丹陽尹傳》、《懷舊志》,並\n見前。\n《梁書》本紀:“所著《全德志》一卷。”《南史》本紀:“《古今全\n德志》一卷。”\n《金樓子·著書篇》:《全德志》一表一卷。金樓自撰序,曰:\n“老子言全德歸厚,莊周云全德不刑,《吕覽》稱全德之人,故"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0fppwrnk",
+      "title": "盧思道知己傳",
+      "author": "盧思道",
+      "title_info": "盧思道知己傳",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「盧思道知己傳」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「盧思道」已見本條 authors[]），裸題「知己傳」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

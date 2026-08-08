@@ -7,8 +7,9 @@
     {
       "name": "干寶",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96a9e1axn28"
+      "dynasty": "東晉",
+      "entity_id": "1j96a9e1axn28",
+      "dynasty_basis": "manual:historical_figure(干寶(?-336)，字令升，東晉史學家)"
     }
   ],
   "indexed_by": [
@@ -148,9 +149,11 @@
     ]
   },
   "ai_note": "從 1evka802yws8w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr6od83pq8(影印國家圖書館藏明萬曆富春堂刻本)（不同作者，故新建獨立 Work）。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

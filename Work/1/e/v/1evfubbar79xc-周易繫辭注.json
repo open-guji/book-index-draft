@@ -31,8 +31,9 @@
     {
       "name": "謝萬",
       "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96hfb16a1og"
+      "dynasty": "東晉",
+      "entity_id": "1j96hfb16a1og",
+      "dynasty_basis": "historical_dict:round2(謝萬(320-361)，字萬石，謝安之弟)"
     }
   ],
   "juan_count": {
@@ -55,7 +56,9 @@
   ],
   "ai_note": "撰人「等」字剝離：著錄作「謝萬等」，「等」謂謝萬及其他未具名之纂修者，非姓名之一部，今剝離作「謝萬」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
   "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

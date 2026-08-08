@@ -6,8 +6,9 @@
     {
       "name": "杜預",
       "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j967avzkeude"
+      "dynasty": "西晉",
+      "entity_id": "1j967avzkeude",
+      "dynasty_basis": "manual:historical_figure(杜預(222-284)，字元凱，京兆杜陵人，西晉名將兼經學家)"
     }
   ],
   "description": {
@@ -39,7 +40,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,36 +1,36 @@
 {
- "schema_version": 1,
- "id": "1evincssowmbk",
- "type": "work",
- "title": "二酉堂叢書",
- "indexed_by": [
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "《二酉堂叢書》",
-   "summary": "。張澍。《輯漢魏佚書》三十六種。"
-  }
- ],
- "authors": [
-  {
-   "name": "張澍",
-   "role": "輯",
-   "dynasty": "清",
-   "entity_id": "1j967a0kkif4g"
-  }
- ],
- "ai_note": "作者 \"清張澍輯\" 補自《國立故宮博物院善本舊籍》目錄。　叢書規模：目錄載「二十六種二十六卷」，凡26種；本庫已著錄其所輯之書5種。",
- "books": [
-  "11qkhu3vqpfk0"
- ],
- "collection_scale": {
-  "stated": "二十六種二十六卷",
-  "books": 26,
-  "source": "叢書目錄「叢書部／雜叢類／輯佚之屬」",
-  "indexed_in_库": 5,
-  "note": "books 為該叢書所輯之書數（種），可作本庫著錄之進度尺——庫中已著錄者少於此數，即知尚有幾種未錄。"
- },
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "qing",
- "period_basis": "據 authors[0].dynasty「清」"
+  "schema_version": 1,
+  "id": "1evincssowmbk",
+  "type": "work",
+  "title": "二酉堂叢書",
+  "indexed_by": [
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《二酉堂叢書》",
+      "summary": "。張澍。《輯漢魏佚書》三十六種。"
+    }
+  ],
+  "authors": [
+    {
+      "name": "張澍",
+      "role": "輯",
+      "dynasty": "清",
+      "entity_id": "1j967a0kkif4g"
+    }
+  ],
+  "ai_note": "作者 \"清張澍輯\" 補自《國立故宮博物院善本舊籍》目錄。　叢書規模：目錄載「二十六種二十六卷」，凡26種；本庫已著錄其所輯之書5種。",
+  "books": [
+    "11qkhu3vqpfk0"
+  ],
+  "collection_scale": {
+    "stated": "二十六種二十六卷",
+    "books": 26,
+    "source": "叢書目錄「叢書部／雜叢類／輯佚之屬」",
+    "indexed_in_库": 5,
+    "note": "books 為該叢書所輯之書數（種），可作本庫著錄之進度尺——庫中已著錄者少於此數，即知尚有幾種未錄。"
+  },
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」"
 }

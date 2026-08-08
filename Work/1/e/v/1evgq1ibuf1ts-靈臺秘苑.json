@@ -1,64 +1,64 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "靈臺秘苑",
- "authors": [
-  {
-   "name": "庾季才",
-   "role": "撰",
-   "dynasty": "隋",
-   "entity_id": "1j96a2z92wpvl"
-  }
- ],
- "juan_count": {
-  "number": 120
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《靈臺祕苑》百二十卷",
-   "summary": "《靈臺祕苑》百二十卷（隋庾季才）",
-   "author_info": "隋庾季才"
+  "schema_version": 1,
+  "type": "work",
+  "title": "靈臺秘苑",
+  "authors": [
+    {
+      "name": "庾季才",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": "1j96a2z92wpvl"
+    }
+  ],
+  "juan_count": {
+    "number": 120
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "庾季才靈臺祕苑",
-   "summary": "庾季才靈臺祕苑一百二十卷",
-   "merged_from": "1evcs0rgw9r0g"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgq1ibuf1ts",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 120
-  }
- ],
- "measure_info": "一百二十卷",
- "additional_titles": [
-  "靈臺祕苑"
- ],
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「隋」",
- "merged_in": [
-  {
-   "id": "1evcs0rgw9r0g",
-   "title": "庾季才靈臺秘苑",
-   "author": "庾季才",
-   "title_info": "庾季才靈臺秘苑",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「庾季才靈臺秘苑」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「庾季才」已見本條 authors[]），裸題「靈臺秘苑」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《靈臺祕苑》百二十卷",
+      "summary": "《靈臺祕苑》百二十卷（隋庾季才）",
+      "author_info": "隋庾季才"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "庾季才靈臺祕苑",
+      "summary": "庾季才靈臺祕苑一百二十卷",
+      "merged_from": "1evcs0rgw9r0g"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgq1ibuf1ts",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 120
+    }
+  ],
+  "measure_info": "一百二十卷",
+  "additional_titles": [
+    "靈臺祕苑"
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "merged_in": [
+    {
+      "id": "1evcs0rgw9r0g",
+      "title": "庾季才靈臺秘苑",
+      "author": "庾季才",
+      "title_info": "庾季才靈臺秘苑",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「庾季才靈臺秘苑」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「庾季才」已見本條 authors[]），裸題「靈臺秘苑」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

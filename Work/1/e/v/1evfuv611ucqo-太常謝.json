@@ -1,35 +1,37 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv611ucqo",
- "title": "謝[某]集",
- "authors": [
-  {
-   "name": "謝[某]",
-   "role": "撰",
-   "dynasty": "晉"
-  }
- ],
- "juan_count": {
-  "number": 2,
-  "description": ""
- },
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "太常謝 集二卷 謹按見《七錄》。《隋》、《唐志》均六卷。本書有傳。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "ai_note": "人名待校訂（推測：謝沈）：晉書記載謝沈任太常，有文集傳世，但OCR文本中人名截斷，需進一步確認 原作者欄繫於偽人物 Entity 1j96ha8w4thc0（原名「集二卷」，係著錄連寫誤切之卷數殘文），今卸除。本書作者姓氏可辨而名闕，未另建人物記錄。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv611ucqo",
+  "title": "謝[某]集",
+  "authors": [
+    {
+      "name": "謝[某]",
+      "role": "撰",
+      "dynasty": "晉"
+    }
+  ],
+  "juan_count": {
+    "number": 2,
+    "description": ""
+  },
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "太常謝 集二卷 謹按見《七錄》。《隋》、《唐志》均六卷。本書有傳。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "ai_note": "人名待校訂（推測：謝沈）：晉書記載謝沈任太常，有文集傳世，但OCR文本中人名截斷，需進一步確認 原作者欄繫於偽人物 Entity 1j96ha8w4thc0（原名「集二卷」，係著錄連寫誤切之卷數殘文），今卸除。本書作者姓氏可辨而名闕，未另建人物記錄。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -8,8 +8,9 @@
     {
       "name": "戴祚",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96hf0hry8zk"
+      "dynasty": "東晉",
+      "entity_id": "1j96hf0hry8zk",
+      "dynasty_basis": "historical_dict:round2(戴祚，字延之，東晉)"
     }
   ],
   "indexed_by": [
@@ -32,7 +33,9 @@
       "summary": "《西征記》一卷戴祚撰。"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

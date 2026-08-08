@@ -9,9 +9,10 @@
       "name": "韓康伯",
       "courtesy_name": "康伯",
       "role": "注",
-      "dynasty": "晉",
+      "dynasty": "東晉",
       "note": "穎川長社人，晉太常，年四十九卒。補注王弼所不注之《繫辭》以下三卷，另有單行本二卷",
-      "entity_id": "1j96ad6911ds0"
+      "entity_id": "1j96ad6911ds0",
+      "dynasty_basis": "entity_propagation:entity_id=1j96ad6911ds0"
     }
   ],
   "juan_count": {
@@ -66,7 +67,9 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

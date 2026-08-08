@@ -1,49 +1,52 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7t8ud",
- "type": "work",
- "title": "春秋公羊穀梁傳解詁",
- "authors": [
-  {
-   "name": "劉兆",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96gwf6dz6kh"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "春秋公羊穀梁傳解詁",
-   "summary": "晉劉兆《春秋公羊穀梁傳解詁》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋公羊穀梁傳解詁.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7vo52r3ev4",
-   "title": "公羊傳",
-   "relation": "contains_text_of"
+  "schema_version": 1,
+  "id": "1evr5e3m7t8ud",
+  "type": "work",
+  "title": "春秋公羊穀梁傳解詁",
+  "authors": [
+    {
+      "name": "劉兆",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96gwf6dz6kh",
+      "dynasty_basis": "historical_dict:round2(劉兆，字延世，西晉濟南人，經學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "id": "1ev7vo5574c1s",
-   "title": "穀梁傳",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "春秋公羊穀梁傳解詁",
+      "summary": "晉劉兆《春秋公羊穀梁傳解詁》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋公羊穀梁傳解詁.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7vo52r3ev4",
+      "title": "公羊傳",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

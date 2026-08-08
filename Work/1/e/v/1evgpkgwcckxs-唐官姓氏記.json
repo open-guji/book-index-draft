@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "唐官姓氏記",
- "authors": [
-  {
-   "name": "李利涉",
-   "role": "撰",
-   "entity_id": "1j96haaci6ubk"
-  }
- ],
- "juan_count": {
-  "number": 5
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《唐官姓氏記》五卷",
-   "summary": "《唐官姓氏記》五卷（李利涉）",
-   "author_info": "李利涉"
+  "schema_version": 1,
+  "type": "work",
+  "title": "唐官姓氏記",
+  "authors": [
+    {
+      "name": "李利涉",
+      "role": "撰",
+      "entity_id": "1j96haaci6ubk"
+    }
+  ],
+  "juan_count": {
+    "number": 5
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李利涉唐官姓氏記",
-   "summary": "李利涉唐官姓氏記五卷",
-   "merged_from": "1evcs0j6qgbnk"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpkgwcckxs",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 5
-  }
- ],
- "measure_info": "五卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0j6qgbnk",
-   "title": "李利涉唐官姓氏記",
-   "author": "李利涉",
-   "title_info": "李利涉唐官姓氏記",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「李利涉唐官姓氏記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李利涉」已見本條 authors[]），裸題「唐官姓氏記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《唐官姓氏記》五卷",
+      "summary": "《唐官姓氏記》五卷（李利涉）",
+      "author_info": "李利涉"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李利涉唐官姓氏記",
+      "summary": "李利涉唐官姓氏記五卷",
+      "merged_from": "1evcs0j6qgbnk"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpkgwcckxs",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0j6qgbnk",
+      "title": "李利涉唐官姓氏記",
+      "author": "李利涉",
+      "title_info": "李利涉唐官姓氏記",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「李利涉唐官姓氏記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李利涉」已見本條 authors[]），裸題「唐官姓氏記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

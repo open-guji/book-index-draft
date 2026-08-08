@@ -1,68 +1,71 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv8widybk",
- "title": "王述集",
- "authors": [
-  {
-   "name": "王述",
-   "role": "集",
-   "dynasty": "晉",
-   "note": "《補晉志》原文「尚書射王述集八卷」中「射」疑「僕射」OCR 殘缺"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "尚書 射王述集八卷謹按見《七録》。兩《唐志》五卷。本書有傳。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv8widybk",
+  "title": "王述集",
+  "authors": [
+    {
+      "name": "王述",
+      "role": "集",
+      "dynasty": "東晉",
+      "note": "《補晉志》原文「尚書射王述集八卷」中「射」疑「僕射」OCR 殘缺",
+      "dynasty_basis": "historical_dict:round2(王述(303-368)，字懷祖，東晉)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "尚書 射王述集八卷謹按見《七録》。兩《唐志》五卷。本書有傳。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《王述集》八卷",
+      "summary": "晉尚書僕射《王述集》八卷梁又有《王度集》五卷，錄一卷；中領軍《庾龢集》二卷，錄一卷；將作大匠《喻希集》一卷；吳興太守《孔嚴集》十一卷，錄一卷。亡。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《王述集》五卷",
+      "summary": "《王述集》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王述集",
+      "summary": "王述集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王述集》八卷",
+      "summary": "《王述集》八卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《王述集》八卷",
-   "summary": "晉尚書僕射《王述集》八卷梁又有《王度集》五卷，錄一卷；中領軍《庾龢集》二卷，錄一卷；將作大匠《喻希集》一卷；吳興太守《孔嚴集》十一卷，錄一卷。亡。"
+  "ai_note": "2026-08-08 Batch16合併：原1evgqat12hyww（連書省撰人：王述集以王述起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcmobf6i60w（連書省撰人：王述集以王述起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n修正 射王述集八卷→王述。2026-07-25：原題「尚書」與《尚書》經典無關——王述曾任尚書僕射，此條實為《補晉書藝文志·丁部集録·別集類》著錄其個人文集「尚書[僕]射王述集」八卷，故改題「王述集」，並移除與《尚書》Work（1evl7fct2ezgg）的 related_works 誤鏈。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《王述集》八卷",
+      "summary": "晉尚書僕射王述集八卷 太原。\n《晉書·王湛傳》:湛子承,承子述,字懷祖。少襲父爵藍田縣\n侯。歷會稽內史,代殷浩為揚州刺史,加征虜將軍,都督揚州\n徐州之琅邪諸軍事、衛將軍,尋遷散騎常侍、尚書令。簡文帝\n每言述才既不長,直以直率便敵人耳。謝安亦歎美之。太和\n二年卒,年六十六, 日簡。\n《唐書·經籍》、《藝文志》:《王述集》五卷。\n嚴氏《全晉文編》:王述有集八卷。今存表、疏、議、 、教凡\n九篇。"
+    }
+  ],
+  "juan_count": {
+    "number": 8
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《王述集》五卷",
-   "summary": "《王述集》五卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "王述集",
-   "summary": "王述集五卷"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《王述集》八卷",
-   "summary": "《王述集》八卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "ai_note": "2026-08-08 Batch16合併：原1evgqat12hyww（連書省撰人：王述集以王述起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcmobf6i60w（連書省撰人：王述集以王述起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n修正 射王述集八卷→王述。2026-07-25：原題「尚書」與《尚書》經典無關——王述曾任尚書僕射，此條實為《補晉書藝文志·丁部集録·別集類》著錄其個人文集「尚書[僕]射王述集」八卷，故改題「王述集」，並移除與《尚書》Work（1evl7fct2ezgg）的 related_works 誤鏈。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《王述集》八卷",
-   "summary": "晉尚書僕射王述集八卷 太原。\n《晉書·王湛傳》:湛子承,承子述,字懷祖。少襲父爵藍田縣\n侯。歷會稽內史,代殷浩為揚州刺史,加征虜將軍,都督揚州\n徐州之琅邪諸軍事、衛將軍,尋遷散騎常侍、尚書令。簡文帝\n每言述才既不長,直以直率便敵人耳。謝安亦歎美之。太和\n二年卒,年六十六, 日簡。\n《唐書·經籍》、《藝文志》:《王述集》五卷。\n嚴氏《全晉文編》:王述有集八卷。今存表、疏、議、 、教凡\n九篇。"
-  }
- ],
- "juan_count": {
-  "number": 8
- },
- "measure_info": "八卷"
+  "measure_info": "八卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

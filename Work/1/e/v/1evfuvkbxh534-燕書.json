@@ -1,38 +1,40 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvkbxh534",
- "title": "燕書",
- "authors": [
-  {
-   "name": "封懿",
-   "role": "撰",
-   "dynasty": "晉"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "燕書封。謹按見《魏書》懿傳。懿字處德,渤海 人,卒於北魏太宗 燕書封。謹按見《魏書》懿傳。懿字處德,渤海 人,卒於北魏太宗泰常二年,當恭帝元熙二年。是書懿為慕容 著作郎時所撰。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "related_works": [
-  {
-   "id": "1ev3c1ftmlmo0",
-   "title": "魏書",
-   "relation": "contains_text_of"
-  }
- ],
- "ai_note": "謹按云「見《魏書》懿傳。懿字處德，渤海人……是書懿為慕容氏著作郎時所撰」，是撰人為封懿，題名所存「封」字為其姓之殘，今補其名。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvkbxh534",
+  "title": "燕書",
+  "authors": [
+    {
+      "name": "封懿",
+      "role": "撰",
+      "dynasty": "晉"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "燕書封。謹按見《魏書》懿傳。懿字處德,渤海 人,卒於北魏太宗 燕書封。謹按見《魏書》懿傳。懿字處德,渤海 人,卒於北魏太宗泰常二年,當恭帝元熙二年。是書懿為慕容 著作郎時所撰。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "1ev3c1ftmlmo0",
+      "title": "魏書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "謹按云「見《魏書》懿傳。懿字處德，渤海人……是書懿為慕容氏著作郎時所撰」，是撰人為封懿，題名所存「封」字為其姓之殘，今補其名。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

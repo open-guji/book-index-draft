@@ -7,8 +7,9 @@
     {
       "name": "常璩",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96gx6lklk3k"
+      "dynasty": "東晉",
+      "entity_id": "1j96gx6lklk3k",
+      "dynasty_basis": "manual:historical_figure(常璩(約291-361)，字道將，東晉史學家)"
     }
   ],
   "indexed_by": [
@@ -31,7 +32,9 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

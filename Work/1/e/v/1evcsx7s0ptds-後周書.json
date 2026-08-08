@@ -1,80 +1,80 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "後周書",
- "indexed_by": [
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《後周書》",
-   "summary": "令狐德棻《後周書》五十卷顏師古"
+  "schema_version": 1,
+  "type": "work",
+  "title": "後周書",
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《後周書》",
+      "summary": "令狐德棻《後周書》五十卷顏師古"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "後周書五十卷",
+      "summary": "後周書五十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《後周書》五十卷",
+      "summary": "《後周書》五十卷（令狐德棻）",
+      "author_info": "令狐德棻"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《後周書》五十卷",
+      "category": "正史類",
+      "summary": "唐秘書監華原令狐德棻撰。初，德棻武德中建言近代無正史。詔德棻及諸臣論撰。歷年不能就，罷之。貞觀二年，復詔撰定。議者以魏有收、淡二家書為已詳，唯五家史當立，德棻與岑文本、崔仁師次周史，李百藥次齊史，姚思廉次梁、陳史，魏徵次隋史，房玄齡總監而修撰之。原自德棻發之。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "令狐德棻後周書",
+      "summary": "令狐德棻後周書五十卷",
+      "merged_from": "1evcs0bkt36kg"
+    }
+  ],
+  "id": "1evcsx7s0ptds",
+  "authors": [
+    {
+      "name": "令狐德棻",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da978dgc"
+    }
+  ],
+  "ai_note": "作者「唐令狐德棻撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpguix2l8g 合併。原註：missing_reason: 短title \"後周書\" 唯一候选无作者　合併：題名「令狐德棻後周書」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「令狐德棻」已見本條 authors[]），裸題「後周書」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "後周書五十卷",
-   "summary": "後周書五十卷"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《後周書》五十卷",
-   "summary": "《後周書》五十卷（令狐德棻）",
-   "author_info": "令狐德棻"
-  },
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "title_info": "《後周書》五十卷",
-   "category": "正史類",
-   "summary": "唐秘書監華原令狐德棻撰。初，德棻武德中建言近代無正史。詔德棻及諸臣論撰。歷年不能就，罷之。貞觀二年，復詔撰定。議者以魏有收、淡二家書為已詳，唯五家史當立，德棻與岑文本、崔仁師次周史，李百藥次齊史，姚思廉次梁、陳史，魏徵次隋史，房玄齡總監而修撰之。原自德棻發之。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "令狐德棻後周書",
-   "summary": "令狐德棻後周書五十卷",
-   "merged_from": "1evcs0bkt36kg"
-  }
- ],
- "id": "1evcsx7s0ptds",
- "authors": [
-  {
-   "name": "令狐德棻",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j967da978dgc"
-  }
- ],
- "ai_note": "作者「唐令狐德棻撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpguix2l8g 合併。原註：missing_reason: 短title \"後周書\" 唯一候选无作者　合併：題名「令狐德棻後周書」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「令狐德棻」已見本條 authors[]），裸題「後周書」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
+  "related_works": [
+    {
+      "id": "1ev3c1fvs0hds",
+      "title": "周書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "books": [
+    "11qkhsfj89n28"
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "merged_in": [
+    {
+      "id": "1evcs0bkt36kg",
+      "title": "令狐德棻後周書",
+      "author": "令狐德棻",
+      "title_info": "令狐德棻後周書",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
   ]
- },
- "related_works": [
-  {
-   "id": "1ev3c1fvs0hds",
-   "title": "周書",
-   "relation": "contains_text_of"
-  }
- ],
- "books": [
-  "11qkhsfj89n28"
- ],
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "merged_in": [
-  {
-   "id": "1evcs0bkt36kg",
-   "title": "令狐德棻後周書",
-   "author": "令狐德棻",
-   "title_info": "令狐德棻後周書",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ]
 }

@@ -1,44 +1,44 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7i0g8",
- "type": "work",
- "title": "春秋穀梁傳說",
- "authors": [
-  {
-   "name": "劉向",
-   "role": "撰",
-   "dynasty": "漢",
-   "entity_id": "1j9678njjg2rq"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "春秋穀梁傳說",
-   "summary": "漢劉向《春秋穀梁傳說》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋穀梁傳說.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7vo5574c1s",
-   "title": "穀梁傳",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」"
+  "schema_version": 1,
+  "id": "1evr5e3m7i0g8",
+  "type": "work",
+  "title": "春秋穀梁傳說",
+  "authors": [
+    {
+      "name": "劉向",
+      "role": "撰",
+      "dynasty": "漢",
+      "entity_id": "1j9678njjg2rq"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "春秋穀梁傳說",
+      "summary": "漢劉向《春秋穀梁傳說》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　輯佚檔：本書之輯佚著錄置於 fragments/春秋穀梁傳說.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」"
 }

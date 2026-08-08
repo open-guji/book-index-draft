@@ -1,50 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "王弼集",
- "authors": [
-  {
-   "name": "王弼",
-   "role": "撰",
-   "dynasty": "三國魏",
-   "entity_id": "1j96kee48pc00"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "魏尚書郎王弼集五卷録一卷始末具經部易類。",
-   "summary": "魏尚書郎王弼集五卷録一卷始末具經部易類。\n《隋書·經籍志》:“梁又有《王弼集》五卷,錄一卷,亡。”《唐經籍志》:“《王弼集》五卷。”《藝文志》同。嚴氏《文編》錄存弼《戲答 融書》一篇,《難何晏聖人無喜怒哀樂論》一篇。",
-   "section": "集部·佛道／魏人文",
-   "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "王弼集",
+  "authors": [
+    {
+      "name": "王弼",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96kee48pc00"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "魏尚書郎王弼集五卷録一卷始末具經部易類。",
+      "summary": "魏尚書郎王弼集五卷録一卷始末具經部易類。\n《隋書·經籍志》:“梁又有《王弼集》五卷,錄一卷,亡。”《唐經籍志》:“《王弼集》五卷。”《藝文志》同。嚴氏《文編》錄存弼《戲答 融書》一篇,《難何晏聖人無喜怒哀樂論》一篇。",
+      "section": "集部·佛道／魏人文",
+      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王弼集》五卷",
+      "summary": "《王弼集》五卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《王弼集》五卷",
+      "summary": "《王弼集》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王弼集",
+      "summary": "王弼集五卷"
+    }
+  ],
+  "id": "1evftevvf36yo",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "juan_count": {
+    "number": 5
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《王弼集》五卷",
-   "summary": "《王弼集》五卷"
-  },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《王弼集》五卷",
-   "summary": "《王弼集》五卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "王弼集",
-   "summary": "王弼集五卷"
-  }
- ],
- "id": "1evftevvf36yo",
- "updated_at": "2026-08-08",
- "period": "three-kingdoms",
- "period_basis": "據 authors[0].dynasty「三國魏」",
- "juan_count": {
-  "number": 5
- },
- "measure_info": "五卷",
- "ai_note": "2026-08-08 Batch16合併：原1evcpd55sx6v4（連書省撰人：王弼集以王弼起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\n2026-08-08 Batch16合併：原1evgqa99jzfnk（連書省撰人：王弼集以王弼起首，無撰人條來自國史經籍志）併入本條。\n"
+  "measure_info": "五卷",
+  "ai_note": "2026-08-08 Batch16合併：原1evcpd55sx6v4（連書省撰人：王弼集以王弼起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\n2026-08-08 Batch16合併：原1evgqa99jzfnk（連書省撰人：王弼集以王弼起首，無撰人條來自國史經籍志）併入本條。\n",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,61 +1,61 @@
 {
- "schema_version": 1,
- "id": "1evr5e3mfaxz5",
- "type": "work",
- "title": "史記",
- "authors": [
-  {
-   "name": "陳伯宣",
-   "role": "注",
-   "dynasty": "唐",
-   "entity_id": "1j967afjb6ae3"
-  }
- ],
- "juan_count": {
-  "number": 87
- },
- "indexed_by": [
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "史記八十七卷",
-   "summary": "史記八十七卷。唐陳伯宣注因裴駰說有所未悉頗增損焉然多取司馬氏索隱以爲已說今篇殘缺"
+  "schema_version": 1,
+  "id": "1evr5e3mfaxz5",
+  "type": "work",
+  "title": "史記",
+  "authors": [
+    {
+      "name": "陳伯宣",
+      "role": "注",
+      "dynasty": "唐",
+      "entity_id": "1j967afjb6ae3"
+    }
+  ],
+  "juan_count": {
+    "number": 87
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《史記》一百三十卷",
-   "summary": "《史記》一百三十卷（陳伯宣注，今存八十七卷。）",
-   "author_info": "陳伯宣注，今存八十七卷。",
-   "merged_from": "1evgpgqyqa6f4"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 87
-  }
- ],
- "measure_info": "八十七卷",
- "related_works": [
-  {
-   "id": "1eujfe7s94veo",
-   "title": "史記",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-08T00:34:01+00:00",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "merged_in": [
-  {
-   "id": "1evgpgqyqa6f4",
-   "title": "史記",
-   "author": "伯宣",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "　合併：自 1evgpgqyqa6f4 併入，2026-08-08——原繫朝代「陳」實為姓氏「陳」被誤拆（國史經籍志原文「陳伯宣注」），即陳伯宣本人，兩條分別是總卷數與存卷數之異記，經人核准合併。"
+  "indexed_by": [
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "史記八十七卷",
+      "summary": "史記八十七卷。唐陳伯宣注因裴駰說有所未悉頗增損焉然多取司馬氏索隱以爲已說今篇殘缺"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《史記》一百三十卷",
+      "summary": "《史記》一百三十卷（陳伯宣注，今存八十七卷。）",
+      "author_info": "陳伯宣注，今存八十七卷。",
+      "merged_from": "1evgpgqyqa6f4"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 87
+    }
+  ],
+  "measure_info": "八十七卷",
+  "related_works": [
+    {
+      "id": "1eujfe7s94veo",
+      "title": "史記",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T00:34:01+00:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "merged_in": [
+    {
+      "id": "1evgpgqyqa6f4",
+      "title": "史記",
+      "author": "伯宣",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "　合併：自 1evgpgqyqa6f4 併入，2026-08-08——原繫朝代「陳」實為姓氏「陳」被誤拆（國史經籍志原文「陳伯宣注」），即陳伯宣本人，兩條分別是總卷數與存卷數之異記，經人核准合併。"
 }

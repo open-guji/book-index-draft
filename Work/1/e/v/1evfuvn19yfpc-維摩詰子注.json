@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvn19yfpc",
- "title": "維摩詰子注",
- "authors": [
-  {
-   "name": "釋道安",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j96a9edtzk00"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "維摩詰子注五卷 釋,見《歷代三寶記》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 5
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 5
-  }
- ],
- "measure_info": "五卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「釋」，今補全為「釋道安」。據《歷代三寶紀》及案語「見《歷代三寶記」》。釋道安（312-385），確立僧人姓「釋」，《歷代三寶紀》卷八著錄其注解二十四部。道安以注經聞名，《維摩詰子注》合其體裁。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvn19yfpc",
+  "title": "維摩詰子注",
+  "authors": [
+    {
+      "name": "釋道安",
+      "role": "注",
+      "dynasty": "東晉",
+      "entity_id": "1j96a9edtzk00",
+      "dynasty_basis": "entity_propagation:entity_id=1j96a9edtzk00"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "維摩詰子注五卷 釋,見《歷代三寶記》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「釋」，今補全為「釋道安」。據《歷代三寶紀》及案語「見《歷代三寶記」》。釋道安（312-385），確立僧人姓「釋」，《歷代三寶紀》卷八著錄其注解二十四部。道安以注經聞名，《維摩詰子注》合其體裁。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

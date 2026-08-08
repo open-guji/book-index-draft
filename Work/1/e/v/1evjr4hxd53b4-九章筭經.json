@@ -6,8 +6,9 @@
     {
       "name": "劉徽",
       "role": "注",
-      "dynasty": "晉",
-      "entity_id": "1j96hla1stbsw"
+      "dynasty": "三國魏",
+      "entity_id": "1j96hla1stbsw",
+      "dynasty_basis": "historical_dict:round2(劉徽(約225-295)，三國魏數學家，注九章算術)"
     }
   ],
   "indexed_by": [
@@ -48,8 +49,10 @@
     "11qk4xwct6s61",
     "11qkhup6uplvk"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "_has_image": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

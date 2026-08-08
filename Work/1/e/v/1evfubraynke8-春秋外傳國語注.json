@@ -1,54 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "春秋外傳國語注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "春秋外傳國語注二十卷孔。謹按見《隋志》。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "春秋外傳國語注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "春秋外傳國語注二十卷孔。謹按見《隋志》。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋外傳國語注》（孔晁）",
+      "summary": "隋志二十卷（唐志二十一卷）",
+      "section": "春秋",
+      "juan": "卷二百九",
+      "page": "KR2n0011_WYG_209-10b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《春秋外傳國語注》（孔晁）",
-   "summary": "隋志二十卷（唐志二十一卷）",
-   "section": "春秋",
-   "juan": "卷二百九",
-   "page": "KR2n0011_WYG_209-10b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "孔衍",
-   "role": "注",
-   "dynasty": "晉",
-   "entity_id": "1j969m70q2eqs"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "id": "1evfubraynke8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「孔」，今補全為「孔衍」。同上。《春秋外傳國語注》二十卷見《隋志》。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "authors": [
+    {
+      "name": "孔衍",
+      "role": "注",
+      "dynasty": "西晉",
+      "entity_id": "1j969m70q2eqs",
+      "dynasty_basis": "historical_dict:round2(孔衍(268-320)，字舒元，西晉末東晉初經學家，主要活動西晉)"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "id": "1evfubraynke8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「孔」，今補全為「孔衍」。同上。《春秋外傳國語注》二十卷見《隋志》。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

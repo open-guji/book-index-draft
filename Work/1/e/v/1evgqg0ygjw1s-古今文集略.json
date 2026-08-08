@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "古今文集略",
- "authors": [
-  {
-   "name": "李吉甫",
-   "role": "撰",
-   "entity_id": "1j967avzmli5i"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《古今文集略》二十卷",
-   "summary": "《古今文集略》二十卷（李吉甫集）",
-   "author_info": "李吉甫集"
+  "schema_version": 1,
+  "type": "work",
+  "title": "古今文集略",
+  "authors": [
+    {
+      "name": "李吉甫",
+      "role": "撰",
+      "entity_id": "1j967avzmli5i"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李吉甫古今文集略",
-   "summary": "李吉甫古今文集略二十卷",
-   "merged_from": "1evcs187wvt34"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgqg0ygjw1s",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs187wvt34",
-   "title": "李吉甫古今文集略",
-   "author": "李吉甫",
-   "title_info": "李吉甫古今文集略",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「李吉甫古今文集略」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李吉甫」已見本條 authors[]），裸題「古今文集略」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《古今文集略》二十卷",
+      "summary": "《古今文集略》二十卷（李吉甫集）",
+      "author_info": "李吉甫集"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李吉甫古今文集略",
+      "summary": "李吉甫古今文集略二十卷",
+      "merged_from": "1evcs187wvt34"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgqg0ygjw1s",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs187wvt34",
+      "title": "李吉甫古今文集略",
+      "author": "李吉甫",
+      "title_info": "李吉甫古今文集略",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「李吉甫古今文集略」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「李吉甫」已見本條 authors[]），裸題「古今文集略」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

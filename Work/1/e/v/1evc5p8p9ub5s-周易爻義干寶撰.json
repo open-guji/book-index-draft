@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "干寶",
-      "dynasty": "晉",
+      "dynasty": "東晉",
       "note": "干寶有《周易注》十卷，見前。《唐書·藝文志》：干寶注十卷，又《爻義》一卷。",
       "role": "撰",
-      "entity_id": "1j96a9e1axn28"
+      "entity_id": "1j96a9e1axn28",
+      "dynasty_basis": "manual:historical_figure(干寶(?-336)，字令升，東晉史學家)"
     }
   ],
   "indexed_by": [
@@ -46,7 +47,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

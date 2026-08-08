@@ -7,8 +7,9 @@
     {
       "name": "陸雲",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j967bgl7y9ty"
+      "dynasty": "西晉",
+      "entity_id": "1j967bgl7y9ty",
+      "dynasty_basis": "manual:historical_figure(陸雲(262-303)，字士龍，陸機之弟)"
     }
   ],
   "indexed_by": [
@@ -81,9 +82,11 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,60 +1,60 @@
 {
- "schema_version": 1,
- "id": "1evdidgljzlz4",
- "type": "work",
- "title": "翰林集",
- "authors": [
-  {
-   "name": "王艮",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j967bgl5rm0q"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "王艮吉水人，王充耘孙。《翰林集》十卷",
-   "summary": "王艮吉水人，王充耘孫。《翰林集》十卷"
+  "schema_version": 1,
+  "id": "1evdidgljzlz4",
+  "type": "work",
+  "title": "翰林集",
+  "authors": [
+    {
+      "name": "王艮",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967bgl5rm0q"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《王艮翰林集》十卷",
-   "summary": "《王艮翰林集》十卷",
-   "merged_from": "1evgqec9yewao"
-  }
- ],
- "description": {
-  "text": "明代集部別集類著作。",
-  "sources": [
-   "明史藝文志"
-  ]
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "merged_in": [
-  {
-   "id": "1evgqec9yewao",
-   "title": "王艮翰林集",
-   "author": "王艮",
-   "title_info": "王艮翰林集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「王艮翰林集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「王艮」已見本條 authors[]），裸題「翰林集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "王艮吉水人，王充耘孙。《翰林集》十卷",
+      "summary": "王艮吉水人，王充耘孫。《翰林集》十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王艮翰林集》十卷",
+      "summary": "《王艮翰林集》十卷",
+      "merged_from": "1evgqec9yewao"
+    }
+  ],
+  "description": {
+    "text": "明代集部別集類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "merged_in": [
+    {
+      "id": "1evgqec9yewao",
+      "title": "王艮翰林集",
+      "author": "王艮",
+      "title_info": "王艮翰林集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「王艮翰林集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「王艮」已見本條 authors[]），裸題「翰林集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

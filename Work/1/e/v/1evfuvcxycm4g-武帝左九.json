@@ -1,35 +1,37 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvcxycm4g",
- "title": "[某]集",
- "authors": [
-  {
-   "name": "[某]",
-   "role": "撰",
-   "dynasty": "晉"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "武帝左九 集四卷 謹按見《七錄》。兩《唐志》存一卷。家大人從《藝文類聚》諸書輯存一卷。見本書《后妃傳》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 4,
-  "description": ""
- },
- "ai_note": "人名極難確認：『武帝左九』標題解析困難，『左』可能是官名，『九』可能是編號。補晉書注文指『見本書《后妃傳》』，暗示可能是皇族女性成員。需查晉書《武帝后妃傳》進一步確認 原作者欄繫於偽人物 Entity 1j96hffb9rjls（原名「集四卷」）——該名係《補晉書藝文志》著錄原文連寫誤切所遺之卷數殘文，非人名，今卸除並刪其記錄。著錄原文作「武帝左九 集四卷」，注云「見本書《后妃傳》」，當是「武帝左九嬪集四卷」之誤切，左九嬪即左芬（左棻），晉武帝貴嬪、左思之妹。惟作品標題與作者欄仍作「[某]」，未逕改，留待覆核。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvcxycm4g",
+  "title": "[某]集",
+  "authors": [
+    {
+      "name": "[某]",
+      "role": "撰",
+      "dynasty": "晉"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "武帝左九 集四卷 謹按見《七錄》。兩《唐志》存一卷。家大人從《藝文類聚》諸書輯存一卷。見本書《后妃傳》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 4,
+    "description": ""
+  },
+  "ai_note": "人名極難確認：『武帝左九』標題解析困難，『左』可能是官名，『九』可能是編號。補晉書注文指『見本書《后妃傳》』，暗示可能是皇族女性成員。需查晉書《武帝后妃傳》進一步確認 原作者欄繫於偽人物 Entity 1j96hffb9rjls（原名「集四卷」）——該名係《補晉書藝文志》著錄原文連寫誤切所遺之卷數殘文，非人名，今卸除並刪其記錄。著錄原文作「武帝左九 集四卷」，注云「見本書《后妃傳》」，當是「武帝左九嬪集四卷」之誤切，左九嬪即左芬（左棻），晉武帝貴嬪、左思之妹。惟作品標題與作者欄仍作「[某]」，未逕改，留待覆核。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuufzeiqkg",
- "title": "漢魏春秋",
- "authors": [
-  {
-   "name": "孔衍",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j969m70q2eqs"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "漢魏春秋九卷 孔衍,謹按見《隋志》。舊题“孔舒元”,蓋著其字。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 9
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 9
-  }
- ],
- "measure_info": "九卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuufzeiqkg",
+  "title": "漢魏春秋",
+  "authors": [
+    {
+      "name": "孔衍",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j969m70q2eqs",
+      "dynasty_basis": "historical_dict:round2(孔衍(268-320)，字舒元，西晉末東晉初經學家，主要活動西晉)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "漢魏春秋九卷 孔衍,謹按見《隋志》。舊题“孔舒元”,蓋著其字。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

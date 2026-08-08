@@ -1,42 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "禮論答問",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "禮論答問九卷 范。謹按見《舊唐志》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "范寧",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hl40qih34"
-  }
- ],
- "juan_count": {
-  "number": 9
- },
- "id": "1evfubjnx0t8g",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 9
-  }
- ],
- "measure_info": "九卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「范」，今作「范寧」。案語：「禮論答問九卷 范，見《舊唐志》。」《舊唐志》儀注類：「《禮論答問》九卷，范寧撰。」范寧字武子，南陽順陽人，東晉著名經學家，著《春秋穀梁傳集解》。Entity原繫釋慶暹（錯誤關聯），已更正。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "禮論答問",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "禮論答問九卷 范。謹按見《舊唐志》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "范寧",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hl40qih34",
+      "dynasty_basis": "historical_dict:round2(范寧(339-401)，范汪之子，東晉經學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 9
+  },
+  "id": "1evfubjnx0t8g",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「范」，今作「范寧」。案語：「禮論答問九卷 范，見《舊唐志》。」《舊唐志》儀注類：「《禮論答問》九卷，范寧撰。」范寧字武子，南陽順陽人，東晉著名經學家，著《春秋穀梁傳集解》。Entity原繫釋慶暹（錯誤關聯），已更正。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

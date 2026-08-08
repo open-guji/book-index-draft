@@ -1,54 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv2imf474",
- "title": "庾峻集",
- "authors": [
-  {
-   "name": "庾峻",
-   "role": "撰",
-   "dynasty": "晉",
-   "note": "侍中"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "侍中 峻集二卷 一卷 謹按見《七録》。兩《唐志》三卷。本書有傳。苟 集三卷録一卷 謹按見《七録》。兩《唐志》作“二十卷”。本書有傳。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv2imf474",
+  "title": "庾峻集",
+  "authors": [
+    {
+      "name": "庾峻",
+      "role": "撰",
+      "dynasty": "西晉",
+      "note": "侍中",
+      "dynasty_basis": "historical_dict:round2(庾峻(?-273)，字山甫，西晉學者)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "侍中 峻集二卷 一卷 謹按見《七録》。兩《唐志》三卷。本書有傳。苟 集三卷録一卷 謹按見《七録》。兩《唐志》作“二十卷”。本書有傳。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《庾峻集》三卷",
+      "summary": "《庾峻集》三卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "庾峻集",
+      "summary": "庾峻集三卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《庾峻集》三卷",
-   "summary": "《庾峻集》三卷"
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "庾峻集",
-   "summary": "庾峻集三卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 2
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "2卷",
- "ai_note": "2026-08-08 Batch16合併：原1evcpd5fnu0hs（連書省撰人：庾峻集以庾峻起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\n著錄誤切復原：本條原題《侍中》、作者欄作「峻集二卷 一卷」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「峻集二卷 一卷」實為書名與卷數之殘文，非人名。原文當作「侍中庾峻集二卷」，缺「庾」字。庾峻字山甫，晉武帝時官侍中。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。　按：庫中已有同題記錄 1evcpd5fnu0hs，係他志（隋志、兩唐志、國史經籍志等）匯入所建，當為一書之重出，留待去重專項合併；本條所補之作者與官銜可供彼處參用。 按：本書原被偽人物 Entity 1j96hfep3lqm8（名作「峻集二卷 一卷」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "2卷",
+  "ai_note": "2026-08-08 Batch16合併：原1evcpd5fnu0hs（連書省撰人：庾峻集以庾峻起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\n著錄誤切復原：本條原題《侍中》、作者欄作「峻集二卷 一卷」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「峻集二卷 一卷」實為書名與卷數之殘文，非人名。原文當作「侍中庾峻集二卷」，缺「庾」字。庾峻字山甫，晉武帝時官侍中。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。　按：庫中已有同題記錄 1evcpd5fnu0hs，係他志（隋志、兩唐志、國史經籍志等）匯入所建，當為一書之重出，留待去重專項合併；本條所補之作者與官銜可供彼處參用。 按：本書原被偽人物 Entity 1j96hfep3lqm8（名作「峻集二卷 一卷」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

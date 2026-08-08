@@ -1,44 +1,47 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7i0gd",
- "type": "work",
- "title": "穀梁傳例",
- "authors": [
-  {
-   "name": "范寧",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hl40qih34"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "穀梁傳例",
-   "summary": "晉范甯《穀梁傳例》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7vo5574c1s",
-   "title": "穀梁傳",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-07T15:25:19+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "loss_status": "lost"
+  "schema_version": 1,
+  "id": "1evr5e3m7i0gd",
+  "type": "work",
+  "title": "穀梁傳例",
+  "authors": [
+    {
+      "name": "范寧",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hl40qih34",
+      "dynasty_basis": "historical_dict:round2(范寧(339-401)，范汪之子，東晉經學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "穀梁傳例",
+      "summary": "晉范甯《穀梁傳例》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "loss_status": "lost",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

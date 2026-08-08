@@ -1,30 +1,31 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "春秋左氏傳音",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《春秋左氏傳音》三卷",
-   "summary": "《春秋左氏傳音》三卷杜預注。"
-  }
- ],
- "id": "1evcpctzs78xs",
- "related_works": [
-  {
-   "id": "1ev7vo50ar94w",
-   "title": "左傳",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-08",
- "authors": [
-  {
-   "name": "杜預",
-   "dynasty": "晉",
-   "entity_id": null
-  }
- ],
- "ai_note": "2026-08-08 補撰人：舊唐志原文「春秋左氏傳音三卷杜預注」，杜預=杜預(晉)。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "春秋左氏傳音",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋左氏傳音》三卷",
+      "summary": "《春秋左氏傳音》三卷杜預注。"
+    }
+  ],
+  "id": "1evcpctzs78xs",
+  "related_works": [
+    {
+      "id": "1ev7vo50ar94w",
+      "title": "左傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "authors": [
+    {
+      "name": "杜預",
+      "dynasty": "西晉",
+      "entity_id": null,
+      "dynasty_basis": "manual:historical_figure(杜預(222-284)，字元凱，京兆杜陵人，西晉名將兼經學家)"
+    }
+  ],
+  "ai_note": "2026-08-08 補撰人：舊唐志原文「春秋左氏傳音三卷杜預注」，杜預=杜預(晉)。"
 }

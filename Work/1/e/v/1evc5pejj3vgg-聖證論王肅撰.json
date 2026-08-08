@@ -1,100 +1,100 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "聖證論王肅撰",
- "original_title": "聖證論",
- "authors": [
-  {
-   "name": "王肅",
-   "entity_id": "1j96glo90rdhd"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "圣證論十二卷",
-   "summary": "《圣证论》十二卷（王肃撰。）"
+  "schema_version": 1,
+  "type": "work",
+  "title": "聖證論王肅撰",
+  "original_title": "聖證論",
+  "authors": [
+    {
+      "name": "王肅",
+      "entity_id": "1j96glo90rdhd"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "圣證論十二卷",
+      "summary": "《圣证论》十二卷（王肃撰。）"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《聖證論》十二卷",
+      "summary": "《聖證論》十二卷（王肅）",
+      "author_info": "王肅"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《聖證論》（王肅）",
+      "summary": "隋志十二卷（唐志十一巻）",
+      "section": "羣經",
+      "juan": "卷二百四十",
+      "page": "KR2n0011_WYG_240-2a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《聖證論》十一卷",
+      "summary": "《聖證論》十一卷",
+      "merged_from": "1evcpcuta4kxs"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "聖證論",
+      "summary": "《聖證論》一卷。{{馬國翰輯。玉函山房本。互見。漢魏遺書本。}}",
+      "author_info": "馬國翰輯",
+      "merged_from": "1evcpcuta4kxs"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王肅聖證論",
+      "summary": "王肅聖證論十一卷",
+      "merged_from": "1evcs0a41cwlc"
+    }
+  ],
+  "juan_count": {
+    "number": 12
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《聖證論》十二卷",
-   "summary": "《聖證論》十二卷（王肅）",
-   "author_info": "王肅"
+  "description": {
+    "text": "王肃撰。",
+    "sources": []
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《聖證論》（王肅）",
-   "summary": "隋志十二卷（唐志十一巻）",
-   "section": "羣經",
-   "juan": "卷二百四十",
-   "page": "KR2n0011_WYG_240-2a",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《聖證論》十一卷",
-   "summary": "《聖證論》十一卷",
-   "merged_from": "1evcpcuta4kxs"
-  },
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "聖證論",
-   "summary": "《聖證論》一卷。{{馬國翰輯。玉函山房本。互見。漢魏遺書本。}}",
-   "author_info": "馬國翰輯",
-   "merged_from": "1evcpcuta4kxs"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "王肅聖證論",
-   "summary": "王肅聖證論十一卷",
-   "merged_from": "1evcs0a41cwlc"
-  }
- ],
- "juan_count": {
-  "number": 12
- },
- "description": {
-  "text": "王肃撰。",
-  "sources": []
- },
- "id": "1evc5pejj3vgg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 12
-  }
- ],
- "measure_info": "十二卷",
- "ai_note": "從 1evgor5e1iqrk 合併。原註：从卷二 ambiguous 新建：unresolved　合併：裸題「聖證論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「王肅」（來源：書目答問、經義考、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「聖證論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「王肅」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　裸題「聖證論」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
- "additional_titles": [
-  "圣證論王肅撰"
- ],
- "updated_at": "2026-08-06T16:13:13+00:00",
- "merged_in": [
-  {
-   "id": "1evcpcuta4kxs",
-   "title": "聖證論",
-   "author": "王肅",
-   "indexed_by_moved": [
-    "舊唐書經籍志",
-    "書目答問"
-   ]
-  },
-  {
-   "id": "1evcs0a41cwlc",
-   "title": "王肅聖證論",
-   "author": "王肅",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ]
+  "id": "1evc5pejj3vgg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "ai_note": "從 1evgor5e1iqrk 合併。原註：从卷二 ambiguous 新建：unresolved　合併：裸題「聖證論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「王肅」（來源：書目答問、經義考、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「聖證論」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「王肅」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　裸題「聖證論」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
+  "additional_titles": [
+    "圣證論王肅撰"
+  ],
+  "updated_at": "2026-08-06T16:13:13+00:00",
+  "merged_in": [
+    {
+      "id": "1evcpcuta4kxs",
+      "title": "聖證論",
+      "author": "王肅",
+      "indexed_by_moved": [
+        "舊唐書經籍志",
+        "書目答問"
+      ]
+    },
+    {
+      "id": "1evcs0a41cwlc",
+      "title": "王肅聖證論",
+      "author": "王肅",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ]
 }

@@ -1,53 +1,40 @@
 {
- "schema_version": 1,
- "id": "1j96kecnze22o",
- "type": "entity",
- "subtype": "people",
- "primary_name": "徐整",
- "dynasty": "吳",
- "works": [
-  {
-   "work_id": "1evfhb7ds6ups",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfhcgpnakg0",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evfhcgstunsw",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evftejxqm874",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evftentmt0cg",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evc5pckuhb7k"
-  },
-  {
-   "work_id": "1evc5pe3jtibk"
-  },
-  {
-   "work_id": "1evr5e3m76rus",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evcml2z55pfk",
-   "role": "撰"
-  },
-  {
-   "work_id": "1evgph1graha8",
-   "role": "撰"
-  }
- ],
- "external_ids": {},
- "ai_note": "2026-08-08 Batch18 Entity合併：原1j969m70pr668（CBDB source明記「三国吴徐整《三五历纪》」，清史稿記「吳徐整」，朝代南梁為誤標）併入本條。\n疑同一人待覈：1j96keerl06bk。庫中同名記錄，朝代經同義正規化後相同（「吳」／「三國吳」），生卒亦不衝突，疑為一人之碎片。然二者作品標題無交集、生卒年亦非全同，無以斷之——同名同代未必同人（本批即查出李康魏條掛唐《明皇政錄》、孫逢吉北宋南宋二人同名）。故不合併，記此待人物專項就史傳覈之。\n2026-08-08 Entity合併：原徐整(1j96keerl06bk)為同一人之分裂Entity，已合併。原徐整(1j96hlfcrjvgg)為同一人之分裂Entity，已合併。",
- "updated_at": "2026-08-08",
- "period": "three-kingdoms",
- "period_basis": "據 dynasty「吳」自動歸併"
+  "schema_version": 1,
+  "id": "1j96kecnze22o",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "徐整",
+  "dynasty": "三國吳",
+  "works": [
+    {
+      "work_id": "1evfhb7ds6ups",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfhcgpnakg0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfhcgstunsw",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftejxqm874",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftentmt0cg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evc5pckuhb7k"
+    },
+    {
+      "work_id": "1evc5pe3jtibk"
+    }
+  ],
+  "external_ids": {},
+  "ai_note": "疑同一人待覈：1j96keerl06bk。庫中同名記錄，朝代經同義正規化後相同（「吳」／「三國吳」），生卒亦不衝突，疑為一人之碎片。然二者作品標題無交集、生卒年亦非全同，無以斷之——同名同代未必同人（本批即查出李康魏條掛唐《明皇政錄》、孫逢吉北宋南宋二人同名）。故不合併，記此待人物專項就史傳覈之。\n2026-08-08 Entity合併：原徐整(1j96keerl06bk)為同一人之分裂Entity，已合併。原徐整(1j96hlfcrjvgg)為同一人之分裂Entity，已合併。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "dynasty_basis": "entity_works_indexed:三國藝文志"
 }

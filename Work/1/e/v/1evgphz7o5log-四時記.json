@@ -1,58 +1,58 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "四時記",
- "authors": [
-  {
-   "name": "薛登",
-   "role": "撰",
-   "entity_id": "1j967da978di5"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《四時記》二十卷",
-   "summary": "《四時記》二十卷（薛登）",
-   "author_info": "薛登"
+  "schema_version": 1,
+  "type": "work",
+  "title": "四時記",
+  "authors": [
+    {
+      "name": "薛登",
+      "role": "撰",
+      "entity_id": "1j967da978di5"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "薛登四時記",
-   "summary": "薛登四時記二十卷",
-   "merged_from": "1evcs0qbjy8zk"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgphz7o5log",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-04-29T16:51:33-07:00",
- "merged_in": [
-  {
-   "id": "1evcs0qbjy8zk",
-   "title": "薛登四時記",
-   "author": "薛登",
-   "title_info": "薛登四時記",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「薛登四時記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「薛登」已見本條 authors[]），裸題「四時記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《四時記》二十卷",
+      "summary": "《四時記》二十卷（薛登）",
+      "author_info": "薛登"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "薛登四時記",
+      "summary": "薛登四時記二十卷",
+      "merged_from": "1evcs0qbjy8zk"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgphz7o5log",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "merged_in": [
+    {
+      "id": "1evcs0qbjy8zk",
+      "title": "薛登四時記",
+      "author": "薛登",
+      "title_info": "薛登四時記",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「薛登四時記」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「薛登」已見本條 authors[]），裸題「四時記」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

@@ -1,63 +1,63 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "安天論",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《安天論》一卷",
-   "summary": "《安天論》一卷虞喜撰。"
-  },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "安天論",
-   "summary": "晉虞喜安天論一卷。"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "安天論六卷 虞喜,謹按見《七録》。兩《唐志》存一卷。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《安天論》一卷",
-   "summary": "《安天論》一卷（虞喜）",
-   "author_info": "虞喜"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "虞喜安天論",
-   "summary": "虞喜安天論一卷",
-   "merged_from": "1evcs0rd7anls"
-  }
- ],
- "id": "1evcpd296jshs",
- "authors": [
-  {
-   "name": "虞喜",
-   "role": "撰",
-   "dynasty": "清",
-   "entity_id": "1j96hf222q41s"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/安天論.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「虞喜安天論」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「虞喜」已見本條 authors[]），裸題「安天論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "qing",
- "period_basis": "據 authors[0].dynasty「清」",
- "merged_in": [
-  {
-   "id": "1evcs0rd7anls",
-   "title": "虞喜安天論",
-   "author": "虞喜",
-   "title_info": "虞喜安天論",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ]
+  "schema_version": 1,
+  "type": "work",
+  "title": "安天論",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《安天論》一卷",
+      "summary": "《安天論》一卷虞喜撰。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "安天論",
+      "summary": "晉虞喜安天論一卷。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "安天論六卷 虞喜,謹按見《七録》。兩《唐志》存一卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《安天論》一卷",
+      "summary": "《安天論》一卷（虞喜）",
+      "author_info": "虞喜"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "虞喜安天論",
+      "summary": "虞喜安天論一卷",
+      "merged_from": "1evcs0rd7anls"
+    }
+  ],
+  "id": "1evcpd296jshs",
+  "authors": [
+    {
+      "name": "虞喜",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j96hf222q41s"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/安天論.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「虞喜安天論」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「虞喜」已見本條 authors[]），裸題「安天論」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "merged_in": [
+    {
+      "id": "1evcs0rd7anls",
+      "title": "虞喜安天論",
+      "author": "虞喜",
+      "title_info": "虞喜安天論",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ]
 }

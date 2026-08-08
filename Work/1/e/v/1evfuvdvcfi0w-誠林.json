@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvdvcfi0w",
- "title": "誠林",
- "authors": [
-  {
-   "name": "毋雅",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hffe45ds0"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "誠林三卷 毋,謹按見《七錄》。《唐志》隸儒家。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 3
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「毋」，今作「毋雅」。案語：「誡林三卷 毋，見《七錄》。《唐志》隸儒家。」《舊唐志》儒家：「《誡林》三卷，毋雅撰。」毋雅，巴郡江州人，晉夜郎太守。毋丘氏後去丘為毋姓。完全吻合。注意：此書名《誡林》，路徑檔名作《誠林》係字形近訛。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvdvcfi0w",
+  "title": "誠林",
+  "authors": [
+    {
+      "name": "毋雅",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hffe45ds0"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "誠林三卷 毋,謹按見《七錄》。《唐志》隸儒家。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「毋」，今作「毋雅」。案語：「誡林三卷 毋，見《七錄》。《唐志》隸儒家。」《舊唐志》儒家：「《誡林》三卷，毋雅撰。」毋雅，巴郡江州人，晉夜郎太守。毋丘氏後去丘為毋姓。完全吻合。注意：此書名《誡林》，路徑檔名作《誠林》係字形近訛。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,47 +1,47 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m8fq3q",
- "type": "work",
- "title": "正等舊五代史",
- "authors": [
-  {
-   "name": "薛居",
-   "role": "撰",
-   "dynasty": "宋",
-   "entity_id": "1j96heb2f5reo"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "正等舊五代史",
-   "summary": "宋薛居正等舊五代史一百五十卷。"
-  }
- ],
- "ai_note": "清史稿藝文志史部正史類輯佚條目。 來源：清史稿藝文志史部正史類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "related_works": [
-  {
-   "id": "1ev3bab4kdl34",
-   "title": "舊五代史",
-   "relation": "contains_text_of"
+  "schema_version": 1,
+  "id": "1evr5e3m8fq3q",
+  "type": "work",
+  "title": "正等舊五代史",
+  "authors": [
+    {
+      "name": "薛居",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96heb2f5reo"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "id": "1evr5e3meogwc",
-   "title": "正等舊五代史目錄",
-   "relation": "has_part"
-  }
- ],
- "updated_at": "2026-08-07T15:25:19+00:00",
- "loss_status": "lost"
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "正等舊五代史",
+      "summary": "宋薛居正等舊五代史一百五十卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志史部正史類輯佚條目。 來源：清史稿藝文志史部正史類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "1ev3bab4kdl34",
+      "title": "舊五代史",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1evr5e3meogwc",
+      "title": "正等舊五代史目錄",
+      "relation": "has_part"
+    }
+  ],
+  "updated_at": "2026-08-07T15:25:19+00:00",
+  "loss_status": "lost"
 }

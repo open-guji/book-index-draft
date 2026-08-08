@@ -1,53 +1,55 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "漢官儀式選用",
- "authors": [
-  {
-   "name": "丁孚",
-   "role": "撰",
-   "dynasty": "三國吳",
-   "entity_id": "1j96hjwlxz6n4"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "丁孚 漢官儀式選用一卷",
-   "summary": "丁孚 漢官儀式選用一卷\n《吴志薛瑩傳》:“華 疏曰:大皇帝末年,太史令丁孚與郎中項峻同撰《吴書》。”\n《唐書·藝文志》:“丁孚《漢官儀式選用》一卷。”章宗源《隋志 證》曰:“《漢官儀式選用》一卷,丁孚撰。《漢書·宣紀》注引丁孚《漢官》。《後漢書·章紀》注引丁孚《漢儀式》。《續漢禮儀志》注、《初學記·禮部》引丁孚《漢官儀》。”按丁孚有《漢儀》,詳後儀制類。此《漢儀》中之一類,後人析出别行。與蔡質《漢官儀式選用》同,故皆稱《選用》。",
-   "section": "史部／職官",
-   "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《漢官儀式選用》一卷",
-   "summary": "《漢官儀式選用》一卷（丁孚）",
-   "author_info": "丁孚"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "丁孚漢官儀式選用",
-   "summary": "丁孚漢官儀式選用一卷",
-   "merged_from": "1evcs0emf99ts"
-  }
- ],
- "id": "1evftekawggsg",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "three-kingdoms",
- "period_basis": "據 authors[0].dynasty「三國吳」",
- "merged_in": [
-  {
-   "id": "1evcs0emf99ts",
-   "title": "丁孚漢官儀式選用",
-   "author": "丁孚",
-   "title_info": "丁孚漢官儀式選用",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「丁孚漢官儀式選用」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「丁孚」已見本條 authors[]），裸題「漢官儀式選用」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "漢官儀式選用",
+  "authors": [
+    {
+      "name": "丁孚",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96hjwlxz6n4"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "丁孚 漢官儀式選用一卷",
+      "summary": "丁孚 漢官儀式選用一卷\n《吴志薛瑩傳》:“華 疏曰:大皇帝末年,太史令丁孚與郎中項峻同撰《吴書》。”\n《唐書·藝文志》:“丁孚《漢官儀式選用》一卷。”章宗源《隋志 證》曰:“《漢官儀式選用》一卷,丁孚撰。《漢書·宣紀》注引丁孚《漢官》。《後漢書·章紀》注引丁孚《漢儀式》。《續漢禮儀志》注、《初學記·禮部》引丁孚《漢官儀》。”按丁孚有《漢儀》,詳後儀制類。此《漢儀》中之一類,後人析出别行。與蔡質《漢官儀式選用》同,故皆稱《選用》。",
+      "section": "史部／職官",
+      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《漢官儀式選用》一卷",
+      "summary": "《漢官儀式選用》一卷（丁孚）",
+      "author_info": "丁孚"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "丁孚漢官儀式選用",
+      "summary": "丁孚漢官儀式選用一卷",
+      "merged_from": "1evcs0emf99ts"
+    }
+  ],
+  "id": "1evftekawggsg",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "merged_in": [
+    {
+      "id": "1evcs0emf99ts",
+      "title": "丁孚漢官儀式選用",
+      "author": "丁孚",
+      "title_info": "丁孚漢官儀式選用",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「丁孚漢官儀式選用」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「丁孚」已見本條 authors[]），裸題「漢官儀式選用」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

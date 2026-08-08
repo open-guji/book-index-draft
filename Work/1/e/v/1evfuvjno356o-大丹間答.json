@@ -1,32 +1,35 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvjno356o",
- "title": "大丹間答",
- "authors": [
-  {
-   "name": "葛洪",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967bgl62uk3"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "大丹間答一篇 葛洪。謹按見《道藏目録》原注云:“石壁古文。”金木萬靈論一篇 葛洪,謹按見《道藏目録》。此文乃删改《抱朴子内篇》中《金丹篇》為之,當出道流所演。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvjno356o",
+  "title": "大丹間答",
+  "authors": [
+    {
+      "name": "葛洪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967bgl62uk3",
+      "dynasty_basis": "manual:historical_figure(葛洪(283-343)，字稚川，東晉道教學者)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "大丹間答一篇 葛洪。謹按見《道藏目録》原注云:“石壁古文。”金木萬靈論一篇 葛洪,謹按見《道藏目録》。此文乃删改《抱朴子内篇》中《金丹篇》為之,當出道流所演。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

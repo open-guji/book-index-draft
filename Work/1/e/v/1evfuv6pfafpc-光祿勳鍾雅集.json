@@ -7,8 +7,9 @@
     {
       "name": "戴逵",
       "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96kegcdkkcg"
+      "dynasty": "東晉",
+      "entity_id": "1j96kegcdkkcg",
+      "dynasty_basis": "historical_dict:round2(戴逵(326-396)，字安道，東晉畫家雕塑家)"
     }
   ],
   "indexed_by": [
@@ -39,7 +40,9 @@
   ],
   "loss_status": "lost",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「戴」補全為「戴逵」。據同 Entity 1j96kegcdkkcg。",
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

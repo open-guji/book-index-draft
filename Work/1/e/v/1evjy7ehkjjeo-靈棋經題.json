@@ -6,7 +6,8 @@
     {
       "name": "顏幼明",
       "role": "注",
-      "dynasty": "晉"
+      "dynasty": "三國魏",
+      "dynasty_basis": "historical_dict:round2(顏幼明，三國魏人，注史記)"
     },
     {
       "name": "宋何承天",
@@ -35,7 +36,9 @@
   "books": [
     "11qk4xwcx8v82"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -1,61 +1,64 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "呂安集",
- "authors": [
-  {
-   "name": "呂安",
-   "role": "撰",
-   "dynasty": "魏",
-   "entity_id": "1j967cp2196cm"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "魏徵士呂安集二卷錄一卷",
-   "summary": "魏徵士呂安集二卷錄一卷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "呂安集",
+  "authors": [
+    {
+      "name": "呂安",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j967cp2196cm",
+      "dynasty_basis": "indexed_by:三國藝文志"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《呂安集》二卷",
-   "summary": "《呂安集》二卷"
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "魏徵士呂安集二卷錄一卷",
+      "summary": "魏徵士呂安集二卷錄一卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《呂安集》二卷",
+      "summary": "《呂安集》二卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "呂安集",
+      "summary": "呂安集二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《呂安集》二卷",
+      "summary": "《呂安集》二卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "呂安集",
-   "summary": "呂安集二卷"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《呂安集》二卷",
-   "summary": "《呂安集》二卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhen63hbsw",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "loss_status": "lost",
- "ai_note": "2026-08-08 Batch16合併：原1evgqaa377sw0（連書省撰人：呂安集以呂安起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcpd55zh69s（連書省撰人：呂安集以呂安起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-08",
- "period": "three-kingdoms",
- "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志"
+  "id": "1evfhen63hbsw",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "loss_status": "lost",
+  "ai_note": "2026-08-08 Batch16合併：原1evgqaa377sw0（連書省撰人：呂安集以呂安起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcpd55zh69s（連書省撰人：呂安集以呂安起首，無撰人條來自新唐書藝文志,舊唐書經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

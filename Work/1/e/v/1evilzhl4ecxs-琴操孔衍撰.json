@@ -1,102 +1,105 @@
 {
- "schema_version": 1,
- "title": "琴操孔衍撰",
- "authors": [
-  {
-   "name": "孔衍",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96ob0fuf4zk"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "琴操三卷",
-   "summary": "琴操三卷。晉廣陵相孔衍撰述詩曲之所從總五十九章"
+  "schema_version": 1,
+  "title": "琴操孔衍撰",
+  "authors": [
+    {
+      "name": "孔衍",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96ob0fuf4zk",
+      "dynasty_basis": "historical_dict:round2(孔衍(268-320)，字舒元，西晉末東晉初經學家，主要活動西晉)"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "琴操三卷 孔衍,謹按見《隋志》。《新唐志》作“一卷”。"
+  "indexed_by": [
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "琴操三卷",
+      "summary": "琴操三卷。晉廣陵相孔衍撰述詩曲之所從總五十九章"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "琴操三卷 孔衍,謹按見《隋志》。《新唐志》作“一卷”。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《琴操》三卷",
+      "summary": "《琴操》三卷（晉孔衍）",
+      "author_info": "晉孔衍"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《琴操》三卷",
+      "summary": "《琴操》三卷晉廣陵相孔衍撰。",
+      "merged_from": "1evc5pdgifz0g"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "title_info": "琴操三卷",
+      "summary": "琴操三卷\n孔衍。謹按見《隋志》。《新唐志》作“一卷”。",
+      "merged_from": "1evfugvl9z1ts"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "孔衍琴操",
+      "summary": "孔衍琴操二卷",
+      "merged_from": "1evcs08ctho1s"
+    }
+  ],
+  "type": "work",
+  "id": "1evilzhl4ecxs",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《琴操》三卷",
-   "summary": "《琴操》三卷（晉孔衍）",
-   "author_info": "晉孔衍"
-  },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《琴操》三卷",
-   "summary": "《琴操》三卷晉廣陵相孔衍撰。",
-   "merged_from": "1evc5pdgifz0g"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "title_info": "琴操三卷",
-   "summary": "琴操三卷\n孔衍。謹按見《隋志》。《新唐志》作“一卷”。",
-   "merged_from": "1evfugvl9z1ts"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "孔衍琴操",
-   "summary": "孔衍琴操二卷",
-   "merged_from": "1evcs08ctho1s"
-  }
- ],
- "type": "work",
- "id": "1evilzhl4ecxs",
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "從 1evgoqoyj4lj4 合併。原註：从卷二 ambiguous 新建：unresolved　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：補晋書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　訂正：authors[].name原作「陵相孔衍」，係殘名撰人——indexed_by摘要明載「晉廣陵相孔衍撰」，本條之「陵相」為官銜「廣陵相」之殘餘、非姓名一部，已訂正為「孔衍」。　裸題「琴操」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "measure_info": "三卷",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "merged_in": [
-  {
-   "id": "1evc5pdgifz0g",
-   "title": "琴操孔衍撰",
-   "author": "孔衍",
-   "indexed_by_moved": [
-    "隋書經籍志"
-   ]
-  },
-  {
-   "id": "1evfugvl9z1ts",
-   "title": "琴操",
-   "author": "孔衍",
-   "indexed_by_moved": [
-    "補晋書藝文志"
-   ]
-  },
-  {
-   "id": "1evcs08ctho1s",
-   "title": "孔衍琴操",
-   "author": "孔衍",
-   "indexed_by_moved": [
-    "新唐書藝文志"
-   ]
-  }
- ],
- "original_title": "琴操"
+  "ai_note": "從 1evgoqoyj4lj4 合併。原註：从卷二 ambiguous 新建：unresolved　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：補晋書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「琴操」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「孔衍」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　訂正：authors[].name原作「陵相孔衍」，係殘名撰人——indexed_by摘要明載「晉廣陵相孔衍撰」，本條之「陵相」為官銜「廣陵相」之殘餘、非姓名一部，已訂正為「孔衍」。　裸題「琴操」全庫另有他家撞名，改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "measure_info": "三卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1evc5pdgifz0g",
+      "title": "琴操孔衍撰",
+      "author": "孔衍",
+      "indexed_by_moved": [
+        "隋書經籍志"
+      ]
+    },
+    {
+      "id": "1evfugvl9z1ts",
+      "title": "琴操",
+      "author": "孔衍",
+      "indexed_by_moved": [
+        "補晋書藝文志"
+      ]
+    },
+    {
+      "id": "1evcs08ctho1s",
+      "title": "孔衍琴操",
+      "author": "孔衍",
+      "indexed_by_moved": [
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "original_title": "琴操",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

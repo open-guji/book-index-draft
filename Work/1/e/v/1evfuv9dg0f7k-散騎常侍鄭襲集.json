@@ -1,43 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv9dg0f7k",
- "title": "散騎常侍鄭襲集",
- "authors": [],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "散騎常侍鄭襲集四卷 謹按見《七録》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 4
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 4
-  }
- ],
- "measure_info": "四卷",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "梁有《散騎常侍鄭襲集》四卷",
-   "summary": "梁有《散騎常侍鄭襲集》四卷,亡。\n《南史·宋鄭鮮之傳》:鲜之,榮陽開封人。祖襲,大司農,經\n為江乘令,因居縣境。\n嚴氏《全晉文編》曰:“鄭襲,寧康初散騎常侍。有集四卷。\n《通典》有《喪遇閏議》、《難范寧論喪遇間》各一篇。”"
-  }
- ],
- "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv9dg0f7k",
+  "title": "散騎常侍鄭襲集",
+  "authors": [],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "散騎常侍鄭襲集四卷 謹按見《七録》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁有《散騎常侍鄭襲集》四卷",
+      "summary": "梁有《散騎常侍鄭襲集》四卷,亡。\n《南史·宋鄭鮮之傳》:鲜之,榮陽開封人。祖襲,大司農,經\n為江乘令,因居縣境。\n嚴氏《全晉文編》曰:“鄭襲,寧康初散騎常侍。有集四卷。\n《通典》有《喪遇閏議》、《難范寧論喪遇間》各一篇。”"
+    }
+  ],
+  "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "dynasty": "晉",
+  "dynasty_basis": "period_fallback:jin→晉"
 }

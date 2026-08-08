@@ -1,37 +1,39 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m8fpxw",
- "type": "work",
- "title": "發矇記",
- "authors": [
-  {
-   "name": "束晰",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96heazah3b4"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "發矇記",
-   "summary": "晉束晰發矇記一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部小學類輯佚條目。 來源：清史稿藝文志經部小學類　輯佚檔：本書之輯佚著錄置於 fragments/發矇記.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "id": "1evr5e3m8fpxw",
+  "type": "work",
+  "title": "發矇記",
+  "authors": [
+    {
+      "name": "束晰",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96heazah3b4"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "發矇記",
+      "summary": "晉束晰發矇記一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部小學類輯佚條目。 來源：清史稿藝文志經部小學類　輯佚檔：本書之輯佚著錄置於 fragments/發矇記.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

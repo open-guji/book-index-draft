@@ -1,60 +1,63 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvgmcj4e8",
- "title": "寶藏論",
- "authors": [
-  {
-   "name": "僧肇",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96ha8x0noqo"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "寶藏論三卷 僧,謹按見《宋史·藝文志》。《宋志》尚有 《寶藏論》一卷,殆複出。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvgmcj4e8",
+  "title": "寶藏論",
+  "authors": [
+    {
+      "name": "僧肇",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96ha8x0noqo",
+      "dynasty_basis": "historical_dict:round2(僧肇(384-414)，東晉僧，鳩摩羅什弟子)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "寶藏論三卷 僧,謹按見《宋史·藝文志》。《宋志》尚有 《寶藏論》一卷,殆複出。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《寶藏論》三卷",
+      "summary": "《寶藏論》三卷（僧肇）",
+      "author_info": "僧肇"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《寶藏論》三卷",
-   "summary": "《寶藏論》三卷（僧肇）",
-   "author_info": "僧肇"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 3
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E5%AF%B6%E8%97%8F%E8%AB%96",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「僧」，今補全為「僧肇」。據《宋史·藝文志》及案語「見《宋史·藝文志」。《寶藏論》三卷舊題僧肇撰（學界有託名之議，然傳統目錄歸僧肇）。僧肇同時著《注維摩詰經》五卷見《隋眾經目錄》。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "_has_text": true,
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%B6%E8%97%8F%E8%AB%96",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「僧」，今補全為「僧肇」。據《宋史·藝文志》及案語「見《宋史·藝文志」。《寶藏論》三卷舊題僧肇撰（學界有託名之議，然傳統目錄歸僧肇）。僧肇同時著《注維摩詰經》五卷見《隋眾經目錄》。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "_has_text": true,
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

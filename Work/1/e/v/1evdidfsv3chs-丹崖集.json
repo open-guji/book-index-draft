@@ -1,71 +1,71 @@
 {
- "schema_version": 1,
- "id": "1evdidfsv3chs",
- "type": "work",
- "title": "丹崖集",
- "authors": [
-  {
-   "name": "唐肅",
-   "role": "撰",
-   "dynasty": "明",
-   "entity_id": "1j967cp20mp9i"
-  }
- ],
- "juan_count": {
-  "number": 8
- },
- "indexed_by": [
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "唐肃《丹崖集》八卷",
-   "summary": "唐肅《丹崖集》八卷"
+  "schema_version": 1,
+  "id": "1evdidfsv3chs",
+  "type": "work",
+  "title": "丹崖集",
+  "authors": [
+    {
+      "name": "唐肅",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j967cp20mp9i"
+    }
+  ],
+  "juan_count": {
+    "number": 8
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《唐肅丹崖集》八卷",
-   "summary": "《唐肅丹崖集》八卷",
-   "merged_from": "1evgqebii5khs"
-  }
- ],
- "description": {
-  "text": "明代集部別集類著作。",
-  "sources": [
-   "明史藝文志"
-  ]
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 8
-  }
- ],
- "measure_info": "八卷",
- "resources": [
-  {
-   "name": "Internet Archive",
-   "id": "internet-archive",
-   "url": "https://archive.org/details/02099961.cn",
-   "types": [
-    "image"
-   ]
-  }
- ],
- "updated_at": "2026-08-06T22:59:42+00:00",
- "_has_image": true,
- "period": "ming",
- "period_basis": "據 authors[0].dynasty「明」",
- "merged_in": [
-  {
-   "id": "1evgqebii5khs",
-   "title": "唐肅丹崖集",
-   "author": "唐肅",
-   "title_info": "唐肅丹崖集",
-   "indexed_by_moved": [
-    "國史經籍志"
-   ]
-  }
- ],
- "ai_note": "合併：題名「唐肅丹崖集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「唐肅」已見本條 authors[]），裸題「丹崖集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "唐肃《丹崖集》八卷",
+      "summary": "唐肅《丹崖集》八卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《唐肅丹崖集》八卷",
+      "summary": "《唐肅丹崖集》八卷",
+      "merged_from": "1evgqebii5khs"
+    }
+  ],
+  "description": {
+    "text": "明代集部別集類著作。",
+    "sources": [
+      "明史藝文志"
+    ]
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "resources": [
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/02099961.cn",
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "_has_image": true,
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "merged_in": [
+    {
+      "id": "1evgqebii5khs",
+      "title": "唐肅丹崖集",
+      "author": "唐肅",
+      "title_info": "唐肅丹崖集",
+      "indexed_by_moved": [
+        "國史經籍志"
+      ]
+    }
+  ],
+  "ai_note": "合併：題名「唐肅丹崖集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「唐肅」已見本條 authors[]），裸題「丹崖集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
 }

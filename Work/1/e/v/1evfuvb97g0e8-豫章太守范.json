@@ -1,69 +1,72 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuvb97g0e8",
- "title": "范汪集",
- "authors": [
-  {
-   "name": "范汪",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j967cp1zdr31"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "豫章太守范 集十六卷謹按見《隋志》。兩《唐志》均十五卷。本書有傳。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuvb97g0e8",
+  "title": "范汪集",
+  "authors": [
+    {
+      "name": "范汪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr31",
+      "dynasty_basis": "entity_propagation:entity_id=1j967cp1zdr31"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "豫章太守范 集十六卷謹按見《隋志》。兩《唐志》均十五卷。本書有傳。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《范汪集》一卷",
+      "summary": "晉《范汪集》一卷梁十卷。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《范汪集》八卷",
+      "summary": "《范汪集》八卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "范汪集",
+      "summary": "范汪集八卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《范汪集》十卷",
+      "summary": "《范汪集》十卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《范汪集》一卷",
-   "summary": "晉《范汪集》一卷梁十卷。"
+  "juan_count": {
+    "number": 16,
+    "description": ""
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《范汪集》八卷",
-   "summary": "《范汪集》八卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "范汪集",
-   "summary": "范汪集八卷"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《范汪集》十卷",
-   "summary": "《范汪集》十卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 16,
-  "description": ""
- },
- "ai_note": "2026-08-08 Batch16合併：原1evgqasy5m8e8（連書省撰人：范汪集以范汪起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcmobf0vw8w（連書省撰人：范汪集以范汪起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n校訂確認：范汪（晉書明確記載其任豫章太守）　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "loss_status": "lost",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《范汪集》一卷",
-   "summary": "晉范汪集一卷梁十卷。\n范汪有《祭典》,見經部禮類。\n《唐書·經籍》、《藝文志》:《范汪集》八卷。\n嚴氏《全晉文編》:范汪有集十卷。今存表、疏、議、書、答問并\n《祭典》、《棋品》,凡九篇。案諸書引范汪《荆州記》,當是為庾亮、桓温佐吏\n時所作,或在本集。"
-  }
- ],
- "measure_info": "一卷"
+  "ai_note": "2026-08-08 Batch16合併：原1evgqasy5m8e8（連書省撰人：范汪集以范汪起首，無撰人條來自國史經籍志）併入本條。\n2026-08-08 Batch16合併：原1evcmobf0vw8w（連書省撰人：范汪集以范汪起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n校訂確認：范汪（晉書明確記載其任豫章太守）　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《范汪集》一卷",
+      "summary": "晉范汪集一卷梁十卷。\n范汪有《祭典》,見經部禮類。\n《唐書·經籍》、《藝文志》:《范汪集》八卷。\n嚴氏《全晉文編》:范汪有集十卷。今存表、疏、議、書、答問并\n《祭典》、《棋品》,凡九篇。案諸書引范汪《荆州記》,當是為庾亮、桓温佐吏\n時所作,或在本集。"
+    }
+  ],
+  "measure_info": "一卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

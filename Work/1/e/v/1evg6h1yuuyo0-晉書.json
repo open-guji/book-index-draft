@@ -7,9 +7,10 @@
     {
       "name": "朱鳳",
       "role": "撰",
-      "dynasty": "晉",
+      "dynasty": "東晉",
       "note": "晉陵人。中書郎、著作佐郎。本十四卷，今殘缺，未成。",
-      "entity_id": "1j96h8rw7k8yo"
+      "entity_id": "1j96h8rw7k8yo",
+      "dynasty_basis": "historical_dict:round2(朱鳳，東晉史學家，撰晉書)"
     }
   ],
   "juan_count": {
@@ -38,7 +39,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」"
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

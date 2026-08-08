@@ -1,52 +1,55 @@
 {
- "schema_version": 1,
- "id": "1evr5e3m7i0gb",
- "type": "work",
- "title": "薄叔元問穀梁義",
- "authors": [
-  {
-   "name": "范寧",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hl40qih34"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "薄叔元問穀梁義",
-   "summary": "晉范甯《薄叔元問穀梁義》一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據本記錄之描述／著錄語：「\n今佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/薄叔元問穀梁義.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "薄叔玄問穀梁義二卷",
-   "summary": "薄叔玄間穀梁義二卷。梁四卷。\n馬國翰曰:“薄叔玄《問穀梁義》,晉范寧撰。范作《集解》,叔\n玄有所 問,范隨問,逐條答之,仿鄭氏《釋廢疾》之體例也。\n今佚。楊士勋《疏》引十二節,全載問答者四節,内有一節明\n載薄氏駁,隱括范答,其八節皆載范答薄氏語。大指論辯義\n例。叔玄,未詳何人,與范同時,治《穀梁》之學者也。”王氏《漢魏\n遺書鈔》亦輯存一本。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "related_works": [
-  {
-   "id": "1ev7vo5574c1s",
-   "title": "穀梁傳",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "id": "1evr5e3m7i0gb",
+  "type": "work",
+  "title": "薄叔元問穀梁義",
+  "authors": [
+    {
+      "name": "范寧",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hl40qih34",
+      "dynasty_basis": "historical_dict:round2(范寧(339-401)，范汪之子，東晉經學家)"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "薄叔元問穀梁義",
+      "summary": "晉范甯《薄叔元問穀梁義》一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據本記錄之描述／著錄語：「\n今佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/薄叔元問穀梁義.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "薄叔玄問穀梁義二卷",
+      "summary": "薄叔玄間穀梁義二卷。梁四卷。\n馬國翰曰:“薄叔玄《問穀梁義》,晉范寧撰。范作《集解》,叔\n玄有所 問,范隨問,逐條答之,仿鄭氏《釋廢疾》之體例也。\n今佚。楊士勋《疏》引十二節,全載問答者四節,内有一節明\n載薄氏駁,隱括范答,其八節皆載范答薄氏語。大指論辯義\n例。叔玄,未詳何人,與范同時,治《穀梁》之學者也。”王氏《漢魏\n遺書鈔》亦輯存一本。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1ev7vo5574c1s",
+      "title": "穀梁傳",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

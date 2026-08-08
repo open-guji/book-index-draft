@@ -1,44 +1,46 @@
 {
- "schema_version": 1,
- "id": "1evcs0jtkyn0g",
- "type": "work",
- "title": "吳地記",
- "authors": [
-  {
-   "name": "張勃",
-   "role": "撰",
-   "dynasty": "三國",
-   "entity_id": "1j96kegg2uwao"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《吳地記》一卷",
-   "summary": "《吳地記》一卷張勃撰。"
+  "schema_version": 1,
+  "id": "1evcs0jtkyn0g",
+  "type": "work",
+  "title": "吳地記",
+  "authors": [
+    {
+      "name": "張勃",
+      "role": "撰",
+      "dynasty": "三國",
+      "entity_id": "1j96kegg2uwao"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《吳地記》一卷",
+      "summary": "《吳地記》一卷張勃撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張勃吳地記",
+      "summary": "張勃吳地記一卷"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "吴地記一卷 張勃,謹按見兩《唐志》。家大人曰:“《通志》此書外又載勃《吴都記》一卷,蓋本一書, “地 “都”也,不複列。”吴興山墟名 張玄之。謹按見宋王象之《輿地紀勝》。玄之字希祖,見本書《謝玄傳》。《寰宇記》引作“京之”,近人《隋志證》引作“充之”,嚴可均以為作《前溪曲》之沈充,皆誤,詳氏荃孫輯本序。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "張勃吳地記",
-   "summary": "張勃吳地記一卷"
-  },
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "吴地記一卷 張勃,謹按見兩《唐志》。家大人曰:“《通志》此書外又載勃《吴都記》一卷,蓋本一書, “地 “都”也,不複列。”吴興山墟名 張玄之。謹按見宋王象之《輿地紀勝》。玄之字希祖,見本書《謝玄傳》。《寰宇記》引作“京之”,近人《隋志證》引作“充之”,嚴可均以為作《前溪曲》之沈充,皆誤,詳氏荃孫輯本序。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/吳地記.json，據本庫著錄之考證所引輯本序立，現為著錄層。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "three-kingdoms",
- "period_basis": "據 authors[0].dynasty「三國」"
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/吳地記.json，據本庫著錄之考證所引輯本序立，現為著錄層。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

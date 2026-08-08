@@ -1,32 +1,34 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "難王弼易義",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "難王弼易義四十餘條顧悅之。謹按見《宋書閔康之傳》。在《陽逸傳》。家大人曰:“閔傳言,晋陵顧悅之難王弼易義四十餘條,康之申王難顧,遠有情理。” 悦之字君叔,曾為揚州别駕,見《世說・言語篇》注。顧 之父也。所難各條,疑即上所載《七録》之一卷。本揚州刺史顧夷,當為“揚州别駕顧悅之”之 文,苦無確据可證,用兩列之。《四庫提要》以悅之為顧夷字,未審所出。 顧夷字君齊,吴郡人,辟本州主簿,不就。見《世說・文學篇》注,不言為揚州刺史。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "顧悅之",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfb2tl4w0"
-  }
- ],
- "id": "1evfubchjc64g",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "title": "難王弼易義",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "難王弼易義四十餘條顧悅之。謹按見《宋書閔康之傳》。在《陽逸傳》。家大人曰:“閔傳言,晋陵顧悅之難王弼易義四十餘條,康之申王難顧,遠有情理。” 悦之字君叔,曾為揚州别駕,見《世說・言語篇》注。顧 之父也。所難各條,疑即上所載《七録》之一卷。本揚州刺史顧夷,當為“揚州别駕顧悅之”之 文,苦無確据可證,用兩列之。《四庫提要》以悅之為顧夷字,未審所出。 顧夷字君齊,吴郡人,辟本州主簿,不就。見《世說・文學篇》注,不言為揚州刺史。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "authors": [
+    {
+      "name": "顧悅之",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfb2tl4w0"
+    }
+  ],
+  "id": "1evfubchjc64g",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

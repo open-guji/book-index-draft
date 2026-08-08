@@ -1,42 +1,44 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuunzt66tc",
- "title": "甄異傳",
- "authors": [
-  {
-   "name": "戴祥",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hjwlyaf4r"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "甄異傳三卷 西戎主簿 祥。謹按見《隋志》。此書及下四種互見子部小說家。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "juan_count": {
-  "number": 3
- },
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「祥」，今作「戴祥」。案語：「甄異傳三卷 西戎主簿 祥，見《隋志》。」《隋志》雜傳類：「《甄異傳》三卷，西戎主簿戴祥撰。」一作荀祥。丁國鈞補志從戴祥。姓戴荀有爭議，從戴祥說。注意：此與前條戴祚《甄異記》為不同人不同書（西戎主簿 vs 西戎主簿，同官職不同名）。",
- "updated_at": "2026-08-08T00:00:00+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuunzt66tc",
+  "title": "甄異傳",
+  "authors": [
+    {
+      "name": "戴祥",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hjwlyaf4r"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "甄異傳三卷 西戎主簿 祥。謹按見《隋志》。此書及下四種互見子部小說家。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「祥」，今作「戴祥」。案語：「甄異傳三卷 西戎主簿 祥，見《隋志》。」《隋志》雜傳類：「《甄異傳》三卷，西戎主簿戴祥撰。」一作荀祥。丁國鈞補志從戴祥。姓戴荀有爭議，從戴祥說。注意：此與前條戴祚《甄異記》為不同人不同書（西戎主簿 vs 西戎主簿，同官職不同名）。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

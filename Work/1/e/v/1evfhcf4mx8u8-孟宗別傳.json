@@ -1,31 +1,32 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "孟宗別傳",
- "authors": [
-  {
-   "name": "佚名",
-   "role": "撰",
-   "dynasty": "吳",
-   "entity_id": "1j96kfmdl8wsg"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "孟宗別傳",
-   "summary": "孟宗別傳"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "三國藝文志"
-  ]
- },
- "id": "1evfhcf4mx8u8",
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-05T05:03:40+00:00"
+  "schema_version": 1,
+  "type": "work",
+  "title": "孟宗別傳",
+  "authors": [
+    {
+      "name": "佚名",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96kfmdl8wsg",
+      "dynasty_basis": "indexed_by:三國藝文志"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "孟宗別傳",
+      "summary": "孟宗別傳"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "id": "1evfhcf4mx8u8",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00"
 }

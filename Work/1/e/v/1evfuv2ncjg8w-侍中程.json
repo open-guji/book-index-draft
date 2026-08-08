@@ -1,69 +1,71 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuv2ncjg8w",
- "title": "程咸集",
- "authors": [
-  {
-   "name": "程咸",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96hfeq7vcow"
-  }
- ],
- "juan_count": {
-  "number": 3,
-  "description": ""
- },
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "侍中程 集三卷謹按見《隋志》。兩《唐志》作“二卷”。咸字延休,魏正始中為司隸校尉府主簿,入晋歷黄門郎、散騎常侍,累遷至侍中。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuv2ncjg8w",
+  "title": "程咸集",
+  "authors": [
+    {
+      "name": "程咸",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hfeq7vcow"
+    }
+  ],
+  "juan_count": {
+    "number": 3,
+    "description": ""
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《程咸集》三卷",
-   "summary": "《程咸集》三卷"
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "侍中程 集三卷謹按見《隋志》。兩《唐志》作“二卷”。咸字延休,魏正始中為司隸校尉府主簿,入晋歷黄門郎、散騎常侍,累遷至侍中。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《程咸集》三卷",
+      "summary": "《程咸集》三卷"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《程咸集》三卷",
+      "summary": "晉侍中《程咸集》三卷梁有光祿大夫《劉毅集》二卷，錄一卷；晉侍中《庾峻集》二卷，錄一卷。亡。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《程咸集》二卷",
+      "summary": "《程咸集》二卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "程咸集",
+      "summary": "程咸集二卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《程咸集》三卷",
-   "summary": "晉侍中《程咸集》三卷梁有光祿大夫《劉毅集》二卷，錄一卷；晉侍中《庾峻集》二卷，錄一卷。亡。"
-  },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《程咸集》二卷",
-   "summary": "《程咸集》二卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "程咸集",
-   "summary": "程咸集二卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "2026-08-08 Batch16合併：原1evcmob11e41s（連書省撰人：程咸集以程咸起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n2026-08-08 Batch16合併：原1evgqad9vohds（連書省撰人：程咸集以程咸起首，無撰人條來自國史經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-08",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "measure_info": "三卷",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《程咸集》三卷",
-   "summary": "晉侍中程咸集三卷\n《唐書·經籍》、《藝文志》:《程咸集》二卷。\n嚴氏《全晉文編》曰:“程咸字延休,魏正元中為司隸校尉府主\n簿。入晉,歷黄門郎、散騎常侍、左通直郎,累遷至侍中。有\n集二卷。今見《通典》、《類聚》、《書鈔》所引有《已出女不從坐\n議》、《王昌前母服議》、《華林園詩序》,凡三篇。”"
-  }
- ]
+  "loss_status": "lost",
+  "ai_note": "2026-08-08 Batch16合併：原1evcmob11e41s（連書省撰人：程咸集以程咸起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n2026-08-08 Batch16合併：原1evgqad9vohds（連書省撰人：程咸集以程咸起首，無撰人條來自國史經籍志）併入本條。\nloss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "updated_at": "2026-08-08T13:35:31+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "measure_info": "三卷",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《程咸集》三卷",
+      "summary": "晉侍中程咸集三卷\n《唐書·經籍》、《藝文志》:《程咸集》二卷。\n嚴氏《全晉文編》曰:“程咸字延休,魏正元中為司隸校尉府主\n簿。入晉,歷黄門郎、散騎常侍、左通直郎,累遷至侍中。有\n集二卷。今見《通典》、《類聚》、《書鈔》所引有《已出女不從坐\n議》、《王昌前母服議》、《華林園詩序》,凡三篇。”"
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

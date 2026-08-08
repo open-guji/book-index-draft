@@ -1,35 +1,36 @@
 {
- "schema_version": 1,
- "id": "1evr5e3mamdtt",
- "type": "work",
- "title": "周子",
- "authors": [
-  {
-   "name": "周昭",
-   "role": "撰",
-   "dynasty": "吳",
-   "entity_id": "1j96hl50v8cn4"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "周子",
-   "summary": "吳周昭周子一卷。"
-  }
- ],
- "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類　輯佚檔：本書之輯佚著錄置於 fragments/周子.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "loss_status": "lost",
- "updated_at": "2026-08-05T09:02:34+00:00"
+  "schema_version": 1,
+  "id": "1evr5e3mamdtt",
+  "type": "work",
+  "title": "周子",
+  "authors": [
+    {
+      "name": "周昭",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96hl50v8cn4",
+      "dynasty_basis": "known_mislabel:round3(周昭(?-261)，字恭遠，三國吳，撰周子)"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "周子",
+      "summary": "吳周昭周子一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類　輯佚檔：本書之輯佚著錄置於 fragments/周子.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "lost",
+  "updated_at": "2026-08-08T14:20:19+00:00"
 }
