@@ -16,6 +16,13 @@
    "source": "補晋書藝文志",
    "source_bid": "1evfu57n5n37k",
    "summary": "史記音義十二卷 中散大夫徐廣,謹按見《隋志》。《史記索 ·序》作“十一卷”,《史記正義》作“十三卷”,兩《唐志》同。《隋志》舊題“徐野民撰”。"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《史記音義》十二卷",
+   "summary": "《史記音義》十二卷（宋徐廣。）",
+   "author_info": "宋徐廣。"
   }
  ],
  "description": {
@@ -41,9 +48,9 @@
    "relation": "studies"
   }
  ],
- "ai_note": "著錄誤切訂正：本條原題《史記音義十》，末之「十」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「史記音義十二卷」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《史記音義》，卷數作十二卷。　按：庫中另有同題《史記音義》記錄 1evcpjolawbnk、1evcpjolh52io、1evgpgr71bitc、1evr5e3mjzi6m、1evcml1vzi0ao、1evcpjol4cc8w、1evr5e3mfaxz6，諸家同名之注、集、志本多，未必重出，留待覆核。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "ai_note": "2026-08-08 Batch18合併：原1evgpgr71bitc（徐廣Entity合併後同題同人，國史經籍志→補晉志）併入本條。\n著錄誤切訂正：本條原題《史記音義十》，末之「十」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「史記音義十二卷」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《史記音義》，卷數作十二卷。　按：庫中另有同題《史記音義》記錄 1evcpjolawbnk、1evcpjolh52io、1evgpgr71bitc、1evr5e3mjzi6m、1evcml1vzi0ao、1evcpjol4cc8w、1evr5e3mfaxz6，諸家同名之注、集、志本多，未必重出，留待覆核。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
  "loss_status": "lost",
- "updated_at": "2026-08-06T22:59:42+00:00",
+ "updated_at": "2026-08-08",
  "period": "jin",
  "period_basis": "據 authors[0].dynasty「晉」"
 }
