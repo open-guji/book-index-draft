@@ -1,32 +1,32 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evfuuynrot8g",
- "title": "雜記",
- "authors": [
-  {
-   "name": "徐",
-   "role": "撰",
-   "dynasty": "晉",
-   "entity_id": "1j96keg2utzwg"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "雜記 徐謹按見戴凱之《竹譜》。"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
- "updated_at": "2026-08-06T22:59:42+00:00",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuynrot8g",
+  "title": "雜記",
+  "authors": [
+    {
+      "name": "徐邈",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96keg2utzwg"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "雜記 徐謹按見戴凱之《竹譜》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：補晋書藝文志。同 Entity，徐字單字殘名。",
+  "updated_at": "2026-08-08T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」"
 }
