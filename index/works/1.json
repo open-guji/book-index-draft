@@ -19804,7 +19804,7 @@
     "title": "靖恭堂銘",
     "type": "Work",
     "path": "Work/1/e/v/1evfuvlzosow0-靖恭堂銘.json",
-    "author": "劉",
+    "author": "劉昞",
     "dynasty": "晉",
     "role": "撰",
     "juan_count": 1,
@@ -19843,10 +19843,12 @@
     "title": "維摩詰子注",
     "type": "Work",
     "path": "Work/1/e/v/1evfuvn19yfpc-維摩詰子注.json",
-    "author": "釋",
+    "author": "釋道安",
     "dynasty": "晉",
     "role": "注",
-    "juan_count": 5,
+    "juan_count": {
+      "number": 5
+    },
     "measure_info": "五卷",
     "period": "jin",
     "loss_status": "lost"
@@ -43503,17 +43505,6 @@
     "juan_count": 8,
     "measure_info": "八卷"
   },
-  "1evr5e3mamdtg": {
-    "id": "1evr5e3mamdtg",
-    "title": "公孫尼子",
-    "type": "Work",
-    "path": "Work/1/e/v/1evr5e3mamdtg-公孫尼子.json",
-    "author": "公孫尼子",
-    "dynasty": null,
-    "role": "撰",
-    "juan_count": 1,
-    "measure_info": "一卷"
-  },
   "1evr5e3mamdtw": {
     "id": "1evr5e3mamdtw",
     "title": "法訓",
@@ -48926,7 +48917,9 @@
     "author": "佚名",
     "dynasty": "漢",
     "role": "撰",
-    "period": "qin-han"
+    "period": "qin-han",
+    "has_text": false,
+    "has_image": false
   },
   "1ewozxkiuz9jo": {
     "id": "1ewozxkiuz9jo",
