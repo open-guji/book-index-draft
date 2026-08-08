@@ -1,34 +1,34 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "燕丹子",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "先秦",
-      "note": "戰國末至漢初成書，原典作者佚名。",
-      "dynasty_basis": "synonym:漢以前->先秦"
-    }
-  ],
-  "dynasty": "漢",
-  "description": {
-    "text": "記燕太子丹遣荊軻刺秦事。學界共識為戰國末至漢初成書（早於司馬遷《史記·刺客列傳》之燕丹/荊軻記載）。隋、唐、宋諸志均有著錄，明清間散佚。今存形態為清孫星衍《問字堂集》中之校輯本（嘉慶間刊）。",
-    "sources": [
-      "学界共识"
-    ]
-  },
-  "id": "1evqpdnk5k64g",
-  "related_works": [
-    {
-      "id": "1ev3bckwhc0sg",
-      "title": "燕丹子",
-      "relation": "text_carried_by"
-    }
-  ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evqpdnk5k64g/fragments/燕丹子.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/燕丹子.json（該檔之值經人工校讀，非機讀所生）。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-08T11:51:57+00:00",
-  "period": "qin-han",
-  "period_basis": "據 dynasty「漢」粗粒度 period 兜底（canonical 仍需人工拆分）"
+ "schema_version": 1,
+ "type": "work",
+ "title": "燕丹子",
+ "authors": [
+  {
+   "name": "佚名",
+   "role": "撰",
+   "dynasty": "先秦",
+   "note": "戰國末至漢初成書，原典作者佚名。",
+   "dynasty_basis": "synonym:漢以前->先秦"
+  }
+ ],
+ "dynasty": "漢",
+ "description": {
+  "text": "記燕太子丹遣荊軻刺秦事。學界共識為戰國末至漢初成書（早於司馬遷《史記·刺客列傳》之燕丹/荊軻記載）。隋、唐、宋諸志均有著錄，明清間散佚。今存形態為清孫星衍《問字堂集》中之校輯本（嘉慶間刊）。",
+  "sources": [
+   "学界共识"
+  ]
+ },
+ "id": "1evqpdnk5k64g",
+ "related_works": [
+  {
+   "id": "1ev3bckwhc0sg",
+   "title": "燕丹子",
+   "relation": "text_carried_by"
+  }
+ ],
+ "ai_note": "2026-08-08 秦漢區period修正：dynasty為先秦，period應為pre-qin（原qin-han與dynasty不一致）。\n輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evqpdnk5k64g/fragments/燕丹子.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/燕丹子.json（該檔之值經人工校讀，非機讀所生）。",
+ "loss_status": "lost",
+ "updated_at": "2026-08-08",
+ "period": "pre-qin",
+ "period_basis": "據 dynasty「先秦」自動歸併"
 }
