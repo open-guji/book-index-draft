@@ -1,12 +1,175 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（明朝 Round 2：383 no_author/mixed 全部 gazetteer_propagation 補明，ming 完全收斂，10430/10430 dynasty 完備）
+更新：2026-08-09（清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
 
 ---
 
 ## 朝代規範化
 
-### 明朝未決深查 Round 2（✅ 本地完成，待你檢查後推 main）
+### 清朝整理 Round 1（✅ 本地完成，待推 PR）
+
+**分支**：`fix/qing-dynasty-round1`
+
+**處理範圍**：只處理 Work 頂層 `dynasty` 空、`period=qing`、且非通用作者 `dynasty` 唯一為 `清` 的高置信條目。
+
+**安全邊界**：
+- 不處理 period 空或非 `qing` 的 Work，避免書名所指時代與作者時代混淆。
+- 不機械修改 `Entity.dynasty=清` 但 period 缺失/衝突者；樣本混有同名異人與舊批次疑點，留未決清單。
+- 不修改作者層 dynasty；本輪只補 Work 頂層 dynasty。
+
+**腳本**：
+- `scripts/analyze_qing_round1.py`：只讀分析清朝 Work/Author/Entity 分布與 index 狀態
+- `scripts/fix_qing_round1.py`：首輪高置信補全 Work.dynasty 並同步 `index/works`
+
+**已完成**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 15,054 | `null → 清`，依 `period=qing` + 非通用作者 dynasty 唯一為清 |
+| index 同步 | 16 shards | `index/works` 同步 15,054 條 dynasty |
+
+**剩餘未決**：
+- Work.dynasty 空且作者均清但 period 非 `qing`：42
+- Entity.dynasty=清 且 period 缺失：16
+- Entity.dynasty=清 且 period 衝突：6
+- 詳見 `.claude/known-issues/清朝整理_round1_未決.json`
+
+---
+
+### 清朝整理 Round 2（✅ 本地完成，待推 PR）
+
+**腳本**：
+- `scripts/investigate_qing_round2.py`：彙整 Round 1 未決 Work/Entity 的庫內書目提要、CBDB cache、同名 Entity 分布
+- `scripts/fix_qing_round2.py`：按顯式白名單修復高置信誤標與清代條目，並同步 `index/works`、`index/entities`
+
+**判準**：
+- 書目提要明示優先於既有 Entity 傳播值，例如四庫總目 `宋陳經撰`、`梁江淹撰`、清史稿/續修四庫明示 `(清)` 或 `國朝`。
+- CBDB cache 僅作補強，例如陳經、陳暘、陳均、趙起、董史、王灼、陳杰、馬大年、鄭僑、劉開、梁棟皆為 `dynasty_id=15`。
+- 不做 Entity 合併；只修正高置信 Entity 的 `dynasty/period` 與其關聯 Work 作者字段。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全/改正 | 43 | 宋 23、南朝梁 8、清 12；其中 3 條為同一 Entity 牽出的江淹/鮑泉相關 Work |
+| Work.period 同步 | 43 | song 23、nanbeichao 8、qing 12 |
+| Work authors[].dynasty 改正 | 31 | 宋 23、南朝梁 8 |
+| Entity.dynasty/period 改正 | 17 | 宋 14、南朝梁 3 |
+| index 同步 | 25 shards | works 15 shards、entities 10 shards |
+
+**剩餘未決**：
+- Work 3 條：`九經術䟽`（泉之/吳省蘭 entity 關聯疑點）、`本草要訣`（梁嘉慶 vs 清嘉慶疑同名/誤關聯）、`御選宋詩`（缺 indexed_by 證據，暫不據題名強判）
+- Entity.dynasty=清 且 period 缺失：5（沈琯、陳杰、余霖、謝堃、吳省蘭）
+- Entity.dynasty=清 且 period 衝突：6（劉智、范宣、孫毓、李顒、黃容等晉系疑點，非本輪處理）
+- 詳見 `.claude/known-issues/清朝整理_round2_未決.json`
+
+**驗證**：
+- Round 2 變更 Work/Entity 與分片索引不符：0
+- `chk.py` 完整通過；核心基線不變：索引欄位不符 197、懸空關聯 3、B→W 4、人物→作品 24、整理本 12、輯佚檔 2、題名重出 70、period 枚舉不合 0
+
+---
+
+### 清朝整理 Round 3（✅ 本地完成，待推 PR）
+
+**腳本**：`scripts/fix_qing_round3_remaining.py`
+
+**處理範圍**：Round 2 剩餘 3 個 Work 疑點。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| 殘名/誤關聯修正 | 2 | `九經術疏`：泉之 → 宋泉之，解除清吳省蘭；`本草要訣`：嘉慶 → 梁嘉慶，解除清仁宗 |
+| 清代條目補全 | 1 | `御選宋詩` 補 `dynasty=清`、`period=qing`、回連張豫章 Entity |
+| 重出 Work 合併 | 2 | 合併空殼 `宋泉之九經術疏`、空作者 `御選宋詩` |
+| Book/整理本重定向 | 2 | `御選宋詩` 文淵閣本 Book 回指保留 Work；新唐書 section 回指保留 `九經術疏` |
+
+**剩餘未決**：
+- `九經術疏`：作者全名已修為宋泉之；朝代缺外部強證據，暫不補 dynasty/period。
+- `本草要訣`：作者全名已修為梁嘉慶；朝代缺外部強證據，暫不補 dynasty/period。
+- 詳見 `.claude/known-issues/清朝整理_round3_未決.json`
+
+---
+
+### 清朝整理 Round 4 抽查（✅ 本地完成，待推 PR）
+
+**腳本**：`scripts/fix_qing_round4_audit.py`
+
+**抽查方法**：掃描 `dynasty=清` 或 author.dynasty=清 而書目來源出現「宋/梁/唐/元/明…撰」等衝突信號的條目；人工剔除姓氏、年號、題名誤報。
+
+**已修復**：
+| Work | 修正 | 依據 |
+|---|---|---|
+| `坦齋通編` | 清 → 宋 | 四庫總目、清史稿、書目答問均指宋邢凱 |
+| `南北史合注` | 清 → 明 | 四庫總目詳傳為明李清；所連 Entity 已為明 |
+| `農桑輯要` | 清 → 元 | 四庫總目稱元世祖時官撰；清史稿作元官撰 |
+
+**暫緩個案**：
+- `雅倫`：已移交 Round 5，併入 `雅論` 並修費經虞跨明清人物值。
+- `陸希聲春秋通例`：已移交 Round 5，修為唐陸希聲。
+
+**驗證**：
+- 目標 Work/Entity 與分片索引不符：0
+- `chk.py` 完整通過；索引欄位不符 196（較 Round 2 少 1），懸空關聯 3、B→W 4、人物→作品 24、整理本 12、輯佚檔 2、題名重出 70、整理本落空 344、period 枚舉不合 0
+- 詳見 `.claude/known-issues/清朝整理_round4_抽查.json`
+
+---
+
+### 清朝整理 Round 5 疑點與抽查（✅ 本地完成，待推 PR）
+
+**腳本**：`scripts/fix_qing_round5_remaining_audit.py`
+
+**處理範圍**：Round 4 暫緩個案與相鄰條目抽查；只修來源多方一致或可由庫內同題同卷閉環者。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work 合併 | 1 | `雅倫` 併入既有 `雅論`，保留 `雅倫` 為 `additional_titles`，遷入續修四庫/存目著錄、影像資源與書冊 |
+| Work.dynasty/period 修正 | 3 | `雅論` 明/ming；`陸希聲春秋通例` 唐/sui-tang；抽查相鄰 `春秋闡微纂類義統` 唐/sui-tang |
+| Entity 修正 | 2 | `費經虞`：清/qing → 明末清初/null；`趙匡`：清/qing → 唐/sui-tang |
+| Entity 作品回連 | 2 | `費密` 補回 `雅論`；`陸希聲` 補回 `陸希聲春秋通例` |
+| Book/整理本重定向 | 2 | `雅倫` 書冊回指 `雅論`；新唐書春秋類 `陸希聲春秋通例` section 回指正確 Work |
+
+**仍留未決**：
+- `九經術疏`：作者全名已修為宋泉之；另見舊唐書有宋泉之《九章術疏》九卷，疑題名訛混，但外部強證據不足，暫不補 dynasty/period。
+- `本草要訣`：作者全名已修為梁嘉慶；外部檢索未得可靠佐證，暫不補 dynasty/period。
+
+**抽查觀察**：
+- 宋史藝文志本地整理本春秋類鄰近數條疑有撰人串位；本輪只修作品層高置信朝代，不批量改源整理本。
+- 詳見 `.claude/known-issues/清朝整理_round5_疑點抽查.json`
+
+**驗證**：
+- 目標 Work/Entity 與分片索引不符：0
+- `chk.py` 完整通過；核心基線不變：索引欄位不符 196、懸空關聯 3、B→W 4、人物→作品 24、整理本 12、輯佚檔 2、題名重出 70、period 枚舉不合 0
+
+---
+
+### 清朝整理 Round 6 宋史春秋類串位（✅ 本地完成，待推 PR）
+
+**腳本**：`scripts/fix_qing_round6_songshi_chunqiu_shift.py`
+
+**問題類型**：抽查發現 `宋史藝文志` 春秋類一段連續條目把「前一書名 + 後一作者」錯拼，導致作者與朝代向 Work 層誤傳。本輪只處理陳岳《春秋折衷論》至盧仝《春秋摘微》這段多源可閉環的連續串位，不處理後續無交叉證據條目。
+
+**已修復**：
+| Work | 修正後摘要 | Work 朝代 |
+|---|---|---|
+| `春秋折衷論` | 陳岳《春秋折衷論》三十卷，《春秋災異録》六卷，《春秋諡族圖》五卷 | 唐 |
+| `三傳釋文` | 陸德明《三傳釋文》八卷 | 隋唐 |
+| `陸希聲春秋通例` | 陸希聲《春秋通例》三卷 | 唐 |
+| `春秋闡微纂類義統` | 趙匡《春秋闡微纂類義統》十卷 | 唐 |
+| `集傳春秋纂例` | 陸淳《集傳春秋纂例》十卷，又《春秋辨疑》七卷，《集注春秋微旨》三卷 | 唐 |
+| `春秋摘微` | 盧仝《春秋摘微》四卷 | 唐 |
+
+**同步項**：
+- 修 `Work.indexed_by` 中宋史藝文志摘要與 `author_info`：6 條
+- 補/改 Work authors、dynasty、period 並同步 `index/works`：6 條
+- 修 `宋史藝文志` 春秋類整理本 JSON 與 text：各 6 處
+- Entity 回連：陳岳、陸德明、陸希聲、趙匡、陸質；盧仝暫不新建 Entity
+
+**驗證**：
+- 6 個目標 Work 與 `index/works` 定點一致
+- 詳見 `.claude/known-issues/清朝整理_round6_宋史春秋類串位.json`
+
+---
+
+### 明朝未決深查 Round 2（✅ 已上 main）
 
 **腳本**：`scripts/fix_ming_round2.py`
 

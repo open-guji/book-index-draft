@@ -73,10 +73,12 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "ai_note": " [C4-fix: needs-review(critical) 同名異書合併！西夏事略存在兩書：① 四庫總目一卷本=偽題承議郎王稱(=王偁)撰，抄北宋王偁《東都事略·西夏傳》(宋人)，曹溶學海類編收之失考；② 清史稿藝文志十六卷本=清陳昆撰。本 Work 將宋一卷(偽題王偁)+清十六卷(陳昆) 兩同名異書合併，建議拆分為兩 Work。]"
 }

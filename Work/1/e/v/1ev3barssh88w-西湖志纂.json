@@ -134,9 +134,11 @@
   ],
   "measure_info": "十二卷",
   "ai_note": "撰人拆分：本條原繫人物記錄 1j96kfljoc6ps，其 primary_name 作「大學士梁詩正、禮部尚書銜沈德潛等同」，實為合著者名單而非一人。「大學士」「禮部尚書銜」為官銜，今去之。今拆為 2 人：梁詩正、沈德潛。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
 }

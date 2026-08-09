@@ -56,8 +56,12 @@
       ]
     }
   ],
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-09T10:53:52+00:00",
   "_has_text": true,
   "_has_image": true,
-  "ai_note": "2026-08-08 修復二字殘名確認：《兒女英雄傳》作者文康（費莫氏，字鐵仙，一字悔盦，鑲紅旗滿洲人，官徽州府知府），姓費莫不在漢姓系統，二字即為常用寫法。原 Entity 鄭文康為錯關聯（已置 null），僅補 dyn=清。\n\n2026-08-08 補記：原關聯 Entity 1j96kejeblo8w（鄭文康）為錯誤關聯，已置entity_id=null，待新建正確Entity。"
+  "ai_note": "2026-08-08 修復二字殘名確認：《兒女英雄傳》作者文康（費莫氏，字鐵仙，一字悔盦，鑲紅旗滿洲人，官徽州府知府），姓費莫不在漢姓系統，二字即為常用寫法。原 Entity 鄭文康為錯關聯（已置 null），僅補 dyn=清。\n\n2026-08-08 補記：原關聯 Entity 1j96kejeblo8w（鄭文康）為錯誤關聯，已置entity_id=null，待新建正確Entity。",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round2:中国通俗小说书目 summary=清文康撰",
+  "period": "qing",
+  "period_basis": "据 dynasty「清」自动归并"
 }

@@ -1,0 +1,235 @@
+{
+  "description": "清朝整理 Round 2 后未决清单",
+  "scope": "Round 2 只修书目/CBDB/题名作者组合高置信白名单；疑似同名异人或缺原始证据者保留。",
+  "remaining_work_items": [
+    {
+      "work_id": "1evgorqt3jw8w",
+      "title": "九經術䟽",
+      "period": null,
+      "authors": [
+        "泉之"
+      ],
+      "note": "《九经术疏》虽见国史经籍志 author_info=宋泉之，但当前 entity_id 指向吴省兰，需回源确认人名与关联。"
+    },
+    {
+      "work_id": "1evgq4n14oge8",
+      "title": "本草要訣",
+      "period": null,
+      "authors": [
+        "嘉慶"
+      ],
+      "note": "《本草要诀》见国史经籍志 author_info=梁嘉庆；当前 Entity 为清嘉庆，疑同名/误关联，需补原始条目。"
+    },
+    {
+      "work_id": "1evkphixywge8",
+      "title": "御選宋詩",
+      "period": null,
+      "authors": [
+        "張豫章"
+      ],
+      "note": "《御选宋诗》题名可疑但缺少 indexed_by 证据，暂不据题名强判。"
+    }
+  ],
+  "remaining_entity_qing_period_missing": [
+    {
+      "entity_id": "1j967da978dh8",
+      "name": "沈琯",
+      "cbdb_id": 20636,
+      "works": [
+        {
+          "work_id": "1evgphf280phc",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j969lr2t0rp8",
+      "name": "陳杰",
+      "cbdb_id": 544341,
+      "works": []
+    },
+    {
+      "entity_id": "1j96hhvcrv406",
+      "name": "余霖",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evgopudwoh6o",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgopy2cf668",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgoq6hv598g",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgor32v37r4",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgor6pue1hc",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgphnvpxc74",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgq61zahvr4",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1jae2gjvgxkba",
+      "name": "謝堃",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1ev3ba9nc3qbk",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1jae2gjvh8suw",
+      "name": "吳省蘭",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evgorqt3jw8w",
+          "role": "撰"
+        }
+      ]
+    }
+  ],
+  "remaining_entity_qing_period_conflict": [
+    {
+      "entity_id": "1j96h8rw86q2s",
+      "name": "劉智",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evgpidw7qe4g",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evr5e3m76rx8",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfuuzwi23nk",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfuuzvc8av4",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j96hfbg5o4cg",
+      "name": "范宣",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evfubmbf0k5c",
+          "role": "注"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j96hl45038cg",
+      "name": "范宣",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evr5e3m7i0cy",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evc5p8ovhe68",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j96hl45pdgcg",
+      "name": "孫毓",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evr5e3m7i0fc",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfubo80exhc",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfugvw1z11c",
+          "role": "撰"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j96hlhx143r4",
+      "name": "李顒",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evcpjzxgxips",
+          "role": "注"
+        }
+      ]
+    },
+    {
+      "entity_id": "1j96keg0mx8u8",
+      "name": "黃容",
+      "period": "jin",
+      "cbdb_id": null,
+      "works": [
+        {
+          "work_id": "1evfuboql191c",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfuutdu3i80",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfuuw6jdn28",
+          "role": "撰"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "work.dynasty->宋": 23,
+    "work.period->song": 23,
+    "author.dynasty->宋": 23,
+    "work.dynasty->南朝梁": 8,
+    "work.period->nanbeichao": 8,
+    "author.dynasty->南朝梁": 8,
+    "work.dynasty->清": 12,
+    "work.period->qing": 12,
+    "entity.dynasty->宋": 14,
+    "entity.period->song": 14,
+    "entity.dynasty->南朝梁": 3,
+    "entity.period->nanbeichao": 3,
+    "index.work.dynasty_sync": 43,
+    "index.work.period_sync": 36,
+    "index.work.shards_changed": 15,
+    "index.entity.dynasty_sync": 17,
+    "index.entity.period_sync": 17,
+    "index.entity.shards_changed": 10
+  }
+}

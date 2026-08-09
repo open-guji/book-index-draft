@@ -6,8 +6,9 @@
     {
       "name": "李清",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j969m70q2eq0"
+      "dynasty": "明",
+      "entity_id": "1j969m70q2eq0",
+      "dynasty_basis": "qing_round4_audit:四库总目 author_info=明李清撰；所连 Entity 已为明李清"
     }
   ],
   "indexed_by": [
@@ -35,7 +36,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev0r90uqqxvk(李清)。　entity_id 補繫：本條之撰人李清與庫中人物記錄（1j969m70q2eq0）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev0r90uqqxvk(李清)。　entity_id 補繫：本條之撰人李清與庫中人物記錄（1j969m70q2eq0）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。\n\n2026-08-09 抽查修：四库总目 author_info=明李清撰；所连 Entity 已为明李清；同步 Work.dynasty/period 与作者 dynasty。",
   "juan_count": {
     "number": 191
   },
@@ -104,8 +105,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T11:26:20+00:00",
   "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+  "period": "ming",
+  "period_basis": "据 dynasty「明」自动归并",
+  "dynasty": "明",
+  "dynasty_basis": "qing_round4_audit:四库总目 author_info=明李清撰；所连 Entity 已为明李清"
 }

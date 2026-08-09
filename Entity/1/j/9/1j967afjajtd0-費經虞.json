@@ -14,7 +14,7 @@
       "type": "別名"
     }
   ],
-  "dynasty": "清",
+  "dynasty": "明末清初",
   "birth_year": 1599,
   "death_year": 1671,
   "works": [
@@ -32,7 +32,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "updated_at": "2026-08-09T11:34:54+00:00",
+  "period": null,
+  "period_basis": "跨 ming/qing，逐条判",
+  "dynasty_basis": "qing_round5:1599-1671 跨明清；四库总目《雅論》作明费经虞，清史稿《蜀诗》又录其清代著作",
+  "ai_note": "2026-08-09 抽查修：费经虞生卒 1599-1671，且同库《雅論》作明费经虞、《蜀诗》见清史稿著录，改为跨代值“明末清初”，period 留空，作品层逐条判。"
 }
