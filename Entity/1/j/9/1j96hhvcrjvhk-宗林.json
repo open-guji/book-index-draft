@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "宗林",
-  "dynasty": "明",
+  "dynasty": "宋",
   "works": [
     {
       "work_id": "1evdide02q5mo",
@@ -17,12 +17,12 @@
   ],
   "external_ids": {
     "cbdb_id": 385557,
-    "cbdb_match": "manual",
+    "cbdb_match": "manual ; dynasty_fix: 明→宋 per CBDB dy=15=宋 (D3 batch)",
     "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=15"
   },
   "updated_at": "2026-08-09T10:41:40+00:00",
   "dynasty_basis": "author_propagation:round1",
-  "period": "ming",
-  "period_basis": "synonym",
+  "period": "song",
+  "period_basis": "據 dynasty『宋』自動歸併（修正：CBDB 來源 cbdb_dy=15=宋；原誤標為『明』）",
   "ai_note": "[ming-round1: period null→ming (據 dynasty=明)]"
 }
