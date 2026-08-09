@@ -35,11 +35,13 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"國𥘉事蹟\"→\"國朝事蹟\" (位置 1: \"𥘉\"→\"朝\")",
+  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"國𥘉事蹟\"→\"國朝事蹟\" (位置 1: \"𥘉\"→\"朝\") [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "additional_titles": [
     "國朝事蹟"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

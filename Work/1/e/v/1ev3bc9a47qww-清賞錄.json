@@ -7,13 +7,14 @@
     {
       "name": "張翼",
       "role": "撰",
-      "dynasty": null,
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:張翼撰宰輔明鑑，明/清人，不在三國吳)"
+      "dynasty": "明",
+      "dynasty_basis": "四庫總目+明史藝文志標明人，與包衡同撰《清賞錄》，有明萬曆刻本。註：此張翼字二星，餘杭人，與庫中 1jae2gjvi6iho(金張翼)、1j96hjwlylno2(明初張翼1393卒字子飛) 為同名異人，尚未關聯正確 Entity"
     },
     {
       "name": "包衡",
       "role": "撰",
-      "dynasty": "明"
+      "dynasty": "明",
+      "dynasty_basis": "四庫總目+明史藝文志標明人，字彥平，秀水人。庫中無 Entity"
     }
   ],
   "indexed_by": [
@@ -84,13 +85,15 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxm8g4bklc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。",
+  "ai_note": "從 1evjxm8g4bklc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "books": [
     "11qki4i5cifwg"
   ],
-  "updated_at": "2026-08-08T14:20:19+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

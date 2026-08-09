@@ -1,6 +1,6 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（清朝整理 Round 5：剩餘疑點與抽查修復完成，仍留 2 個需人工個案）
+更新：2026-08-09（清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
 
 ---
 
@@ -169,7 +169,68 @@
 
 ---
 
-### 遼金元未決深查 Round 2（✅ 本地完成，待推 main）
+### 明朝未決深查 Round 2（✅ 已上 main）
+
+**腳本**：`scripts/fix_ming_round2.py`
+
+**對象**：Round 1 遺留 383 條（period=ming, dynasty 空）= 380 no_author + 3 mixed_sources（有 author 但未決）。
+
+**普查**：383 條 **100%** 含「明史藝文志」來源（明本朝斷代志，SCHEMA 自驗 99% 屬明）。
+- 302 = 唯一志=明史藝文志 → 高置信 gazetteer_propagation
+- 81 = 明史 + 他志（宋史藝文志 20、四庫 18、國史經籍志 15 等混合）→ 仍補明 + 標註 `needs-review` 供人工覆核（主志壓倒性優先）
+
+**已修復**：
+
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補明（唯一志） | 302 | `dynasty_basis=gazetteer_propagation` |
+| Work.dynasty 補明（混合志，needs-review） | 81 | `dynasty_basis=gazetteer_propagation`，標註他志是哪些 |
+| 棄權 | 0 | 383 條全部處置（主志都是明史） |
+| index 同步 | 16 shards | 383 dynasty_sync（works 全部分片） |
+
+**驗證**：
+- chk.py 基線不變（197 / 3 / 4 / 24 / 12 / 2）
+- Work 索引 dynasty 不符 0
+- `period=ming` 無 dynasty：**0**（10430/10430 完備，收斂）
+- `period=ming` dynasty 分布：**明 10430**（無非明系）
+- `period!=ming` 但 dynasty 明系（殘留誤入）：0
+- Entity 明系 period 空：0（Round 1 補過）
+- needs-review 標註數：81（正確，混合志那些全部有 needs-review）
+
+### 明朝未決深查 Round 1（✅ 已上 main）
+
+**腳本**：
+- `scripts/investigate_ming.py`：只讀深查，輸出 `.claude/known-issues/明朝未決.json`
+- `scripts/fix_ming_round1.py`：高置信修復 Work.dynasty + Entity.period + 誤入移出 + author override
+
+**普查**：`period=ming` 共 10,435 Work，全數 dynasty 空。author.dynasty 分布：明 10071 / null 62 / 元末明初 1。
+Entity.period=ming 3,850 條，dynasty 俱明；另 22 Entity.dynasty 屬明系但 period 空。
+
+**已修復**：
+
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補明 | 10,038 | author_propagation（author.dynasty 或 Entity.dynasty ∈ {明,南明,明末清初,明清}） |
+| Work.dynasty 補明 | 9 | gazetteer_propagation（author 未決但 indexed_by⊆明史藝文志，明本朝斷代志） |
+| 誤入移出: liao-jin-yuan | 2 | 周易問辨 歐陽貞(元)、周易集傳 程汝器(元) → period=liao-jin-yuan, dynasty=元 |
+| 誤入移出: qing | 1 | 易經通典 陳琛(清) → period=qing, dynasty=清 |
+| 誤入移出: jin | 1 | 古今箴銘集 張湛(晉) → period=jin, dynasty=晉 |
+| 誤入移出: song | 1 | 楚辭集注 朱熹(南宋, known_figure) → period=song, dynasty=南宋 |
+| Entity.period 補 ming | 22 | dynasty=明 19、明末清初 3 → period_basis=synonym |
+| author.dynasty 覆蓋 | 49 | 48（Entity.dynasty 明系→補 author.dynasty） + 1（朱熹=南宋，known_figure） |
+| 棄權 | 3 | author 未決且 indexed_by 混合國史經籍志/經義考/四庫等非唯一明史藝文志 |
+| no_author 留 Round 2 | 380 | 留 gazetteer 規則（明史藝文志 + 其他志比例） |
+| index 同步 | 43 shards | works 16 shards（10052 dynasty_sync + 5 period_sync），entities 11 shards（22 period_sync） |
+
+**驗證**：
+- chk.py 基線全數不變（197 / 3 / 4 / 24 / 12 / 2）
+- Work 索引 dynasty 不符：0；Work 索引 period 不符：22（預存，原 23 - 1）
+- `period=ming` 仍空 dynasty：383（= no_author 380 + 棄權 3）
+- 5 個移出 Work 抽查全部正確（歐陽貞/程汝器 ljy+元，陳琛 qing+清，張湛 jin+晉，朱熹 song+南宋）
+
+**Round 2 預計處理**：380 no_author（明史藝文志為主志 380/380，高置信 gazetteer 補明） + 3 棄權（主志仍有明史藝文志，混合志下亦以明史藝文志為主源，可簡化為補明 + 標記人工覆核）。
+
+### 遼金元未決深查 Round 2（✅ 已上 main）
 
 **腳本**：`scripts/fix_liao_jin_yuan_round2.py`
 

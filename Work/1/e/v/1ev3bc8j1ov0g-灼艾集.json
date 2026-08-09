@@ -89,7 +89,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'萬表'）。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'萬表'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]",
   "measures": [
     {
       "unit": "卷",
@@ -97,9 +97,11 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:49:16+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志"
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
+  "dynasty": "明",
+  "dynasty_basis": "gazetteer_propagation"
 }

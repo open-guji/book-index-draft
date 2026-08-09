@@ -6,8 +6,9 @@
     {
       "name": "黃帝",
       "role": "著",
-      "dynasty": "清",
-      "entity_id": "1j96afertkum8"
+      "dynasty": "上古傳說",
+      "entity_id": "1j96afertkum8",
+      "dynasty_basis": "黃帝係上古傳說帝王，《陰符經》舊題黃帝撰（學界公認偽托）。註：此 Work 係『陰符玄解』=《陰符經》注解，國立故宮博物院善本舊籍著錄『清乾隆三十七年(1772)壬辰林笏堂刊本』——實際注解者為清人但不詳，題黃帝著沿用古偽題"
     }
   ],
   "description": {
@@ -16,7 +17,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 購善000297）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人黃帝與庫中人物記錄（1j96afertkum8）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 購善000297）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人黃帝與庫中人物記錄（1j96afertkum8）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [C1-fix(critical): author.dynasty 荒謬錯『清』→ 改為『上古傳說』（題黃帝撰係偽托《陰符經》古作者）。Work.dynasty/period 仍保留 qing（依據清乾隆三十七年刊本+內容為清人注解）。needs-review: 應核對原書確認注解者真實姓名，或拆分為『黃帝撰陰符經』+『清無名氏玄解』兩層]",
   "juan_count": {
     "number": 0
   },
@@ -33,7 +34,7 @@
   ],
   "updated_at": "2026-08-09T10:40:18+00:00",
   "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "period_basis": "edition_propagation：國立故宮博物院善本舊籍著錄『清乾隆三十七年(1772)壬辰林笏堂刊本』——據刊刻時代定 period；但作者為偽題上古黃帝，兩者不矛盾",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "edition_propagation（內容為清代注解；雖偽題上古黃帝撰，但實際成書時代為清）"
 }

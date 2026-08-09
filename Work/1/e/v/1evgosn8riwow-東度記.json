@@ -7,7 +7,9 @@
     {
       "name": "方汝浩",
       "role": "撰",
-      "entity_id": "1j969m70qdn9e"
+      "entity_id": "1j969m70qdn9e",
+      "dynasty": "明",
+      "dynasty_basis": "Entity 1j969m70qdn9e dynasty=明，崇禎八年(1635)有東度記序，係明末小說家"
     }
   ],
   "description": {
@@ -51,10 +53,14 @@
       ]
     }
   ],
-  "ai_note": "從 1evkalvgk708w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "ai_note": "從 1evkalvgk708w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [B2-fix: 從方汝浩 Entity 補 period=ming, dynasty=明；書序崇禎乙亥(8年)]",
   "books": [
     "11qki7fyp85xc"
   ],
   "updated_at": "2026-07-29T03:47:56+00:00",
-  "_has_text": true
+  "_has_text": true,
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

@@ -46,7 +46,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bcgyjh8g0(劉嗣昌)。 | 可能與 Work 1ev3bcgyjh8g0（劉嗣昌(明)）重複：同題《劉氏類山》同朝、作者名差一字。兩輪 web 搜索未定：未搜到决定性证据；嗣/胤均见于人名。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bcgyjh8g0(劉嗣昌)。 | 可能與 Work 1ev3bcgyjh8g0（劉嗣昌(明)）重複：同題《劉氏類山》同朝、作者名差一字。兩輪 web 搜索未定：未搜到决定性证据；嗣/胤均见于人名。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "juan_count": {
     "number": 10
   },
@@ -128,9 +128,11 @@
       ]
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

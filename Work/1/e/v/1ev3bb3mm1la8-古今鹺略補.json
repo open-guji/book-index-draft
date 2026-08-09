@@ -119,10 +119,12 @@
     }
   ],
   "measure_info": "九卷",
-  "ai_note": "清除 related_works 中指向本目自身的條目。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "ai_note": "清除 related_works 中指向本目自身的條目。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

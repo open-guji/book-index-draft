@@ -8,7 +8,7 @@
       "name": "沈貞",
       "role": "撰",
       "dynasty": "元",
-      "entity_id": "1j96hhvcrjvh2"
+      "dynasty_basis": "四庫全書總目：『元沈貞撰。貞字元吉，自號茶山老人，長興人，入明不仕。』（元遺民，朝代歸元）"
     }
   ],
   "indexed_by": [
@@ -75,5 +75,5 @@
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j96hhvcrjvh2=朝鮮沈貞(1471~1531，朝鮮王朝)，非本書元沈貞(字元吉，號茶山老人，浙江長興人，入明不仕)。需人工查 CBDB 建立正確 Entity 並關聯]"
 }

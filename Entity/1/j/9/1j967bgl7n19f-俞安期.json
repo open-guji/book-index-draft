@@ -23,7 +23,6 @@
     }
   ],
   "dynasty": "明",
-  "birth_year": 1151,
   "death_year": 1618,
   "works": [
     {
@@ -56,7 +55,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
+  "updated_at": "2026-08-09T12:02:22+00:00",
   "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "period_basis": "據 dynasty「明」自動歸併",
+  "ai_note": "[fix A2: 刪 birth_year=1151 (南宋值，跨 467 歲不可能；俞安期明人，活躍嘉靖後期-萬曆崇禎，約 1550 生，1620s 卒，CBDB 129211 本地未命中，保守不硬填生年)]"
 }

@@ -7,8 +7,9 @@
     {
       "name": "趙汸",
       "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967afjbhiwy"
+      "dynasty": "元",
+      "entity_id": "1j967afjbhiwy",
+      "dynasty_basis": "Entity 1j967afjbhiwy=趙汸(1319~1369)，字子常號東山，元史藝文志+四庫總目均標元趙汸（主要活動在元，卒洪武二年僅一年）；四庫中著作多入元"
     }
   ],
   "juan_count": {
@@ -35,7 +36,10 @@
     }
   ],
   "measure_info": "十五卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "updated_at": "2026-08-09T10:41:40+00:00",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty『元』",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation",
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C2-fix: author.dynasty 明→元，period ming→liao-jin-yuan。趙汸(1319-1369)元延祐六年生，元至正時成名，明洪武二年僅卒一年，學界歸元人]"
 }

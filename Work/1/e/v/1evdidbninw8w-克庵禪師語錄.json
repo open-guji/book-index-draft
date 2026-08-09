@@ -28,7 +28,7 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "《明史藝文志》原文作「克庵禪師《語錄》一卷」。導入時書題僅取「語錄」，不成完整書名（獨立著作）。今據著錄原文補為「克庵禪師語錄」，目錄原題「語錄」記於 original_title。",
+  "ai_note": "《明史藝文志》原文作「克庵禪師《語錄》一卷」。導入時書題僅取「語錄」，不成完整書名（獨立著作）。今據著錄原文補為「克庵禪師語錄」，目錄原題「語錄」記於 original_title。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "measures": [
     {
       "unit": "卷",
@@ -37,7 +37,9 @@
   ],
   "measure_info": "一卷",
   "original_title": "語錄",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }
