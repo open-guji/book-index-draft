@@ -1,12 +1,40 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（明朝 Round 1：10047 Work.dynasty 補明，5 誤入移出，22 Entity.period，383 待 Round 2）
+更新：2026-08-09（明朝 Round 2：383 no_author/mixed 全部 gazetteer_propagation 補明，ming 完全收斂，10430/10430 dynasty 完備）
 
 ---
 
 ## 朝代規範化
 
-### 明朝未決深查 Round 1（✅ 本地完成，待推 main）
+### 明朝未決深查 Round 2（✅ 本地完成，待你檢查後推 main）
+
+**腳本**：`scripts/fix_ming_round2.py`
+
+**對象**：Round 1 遺留 383 條（period=ming, dynasty 空）= 380 no_author + 3 mixed_sources（有 author 但未決）。
+
+**普查**：383 條 **100%** 含「明史藝文志」來源（明本朝斷代志，SCHEMA 自驗 99% 屬明）。
+- 302 = 唯一志=明史藝文志 → 高置信 gazetteer_propagation
+- 81 = 明史 + 他志（宋史藝文志 20、四庫 18、國史經籍志 15 等混合）→ 仍補明 + 標註 `needs-review` 供人工覆核（主志壓倒性優先）
+
+**已修復**：
+
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補明（唯一志） | 302 | `dynasty_basis=gazetteer_propagation` |
+| Work.dynasty 補明（混合志，needs-review） | 81 | `dynasty_basis=gazetteer_propagation`，標註他志是哪些 |
+| 棄權 | 0 | 383 條全部處置（主志都是明史） |
+| index 同步 | 16 shards | 383 dynasty_sync（works 全部分片） |
+
+**驗證**：
+- chk.py 基線不變（197 / 3 / 4 / 24 / 12 / 2）
+- Work 索引 dynasty 不符 0
+- `period=ming` 無 dynasty：**0**（10430/10430 完備，收斂）
+- `period=ming` dynasty 分布：**明 10430**（無非明系）
+- `period!=ming` 但 dynasty 明系（殘留誤入）：0
+- Entity 明系 period 空：0（Round 1 補過）
+- needs-review 標註數：81（正確，混合志那些全部有 needs-review）
+
+### 明朝未決深查 Round 1（✅ 已上 main）
 
 **腳本**：
 - `scripts/investigate_ming.py`：只讀深查，輸出 `.claude/known-issues/明朝未決.json`
