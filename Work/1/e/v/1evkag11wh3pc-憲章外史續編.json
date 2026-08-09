@@ -17,7 +17,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr090ih0xs(許重熙)（不同作者，故新建獨立 Work）。　entity_id 補繫：本條之撰人許重熙與庫中人物記錄（1j96hjwlxz6kp）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr090ih0xs(許重熙)（不同作者，故新建獨立 Work）。　entity_id 補繫：本條之撰人許重熙與庫中人物記錄（1j96hjwlxz6kp）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "juan_count": {
     "number": 6
   },
@@ -44,7 +44,9 @@
       "section": "史部 史部"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

@@ -36,7 +36,7 @@
       "n_juan": 4
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'王世貞'）。 作者 \"明王世貞撰\" 補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'王世貞'）。 作者 \"明王世貞撰\" 補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "measures": [
     {
       "unit": "卷",
@@ -47,7 +47,9 @@
   "books": [
     "11qki7eryyozk"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

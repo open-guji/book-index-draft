@@ -46,7 +46,7 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "measures": [
     {
       "unit": "卷",
@@ -61,7 +61,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

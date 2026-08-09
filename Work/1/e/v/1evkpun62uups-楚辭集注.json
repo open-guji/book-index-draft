@@ -6,7 +6,7 @@
     {
       "name": "朱熹",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "南宋",
       "dynasty_basis": "known_mislabel:round3(garbage_clean:朱熹(1130-1200)，南宋，誤標)"
     }
   ],
@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善023125-023130）。阶段 5 兜底建立。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善023125-023130）。阶段 5 兜底建立。 [ming-round1: 誤入明：移出 period=ming→song, dynasty=南宋（kind=known_figure）] [ming-round1: author(朱熹) dynasty null→南宋 (known_figure)]",
   "juan_count": {
     "number": 8
   },
@@ -31,7 +31,9 @@
   "books": [
     "11qkhtd7th5vk"
   ],
-  "updated_at": "2026-08-08T14:20:19+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "updated_at": "2026-08-09T10:41:40+00:00",
+  "period": "song",
+  "period_basis": "cross_check",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation"
 }

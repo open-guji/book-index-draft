@@ -69,10 +69,12 @@
     }
   ],
   "measure_info": "一百卷",
-  "ai_note": "作者「明徐光啟撰」補自《國立故宮博物院善本舊籍》目錄。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "ai_note": "作者「明徐光啟撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }

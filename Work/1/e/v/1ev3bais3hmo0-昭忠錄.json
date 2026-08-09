@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周璟'）。 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgbvw23l6v4 合併。原註：元史藝文志失名 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周璟'）。 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgbvw23l6v4 合併。原註：元史藝文志失名 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
   "measures": [
     {
       "unit": "卷",
@@ -147,9 +147,11 @@
       "元史藝文志"
     ]
   },
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }
