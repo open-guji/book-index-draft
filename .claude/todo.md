@@ -12,6 +12,7 @@
 - `scripts/fix_index_sync_round1.py`
 - `scripts/fix_collated_work_backlinks_round1.py`
 - `scripts/fix_entity_work_oneway_main_round1.py`
+- `scripts/fix_collated_dangling_work_ids_round1.py`
 
 **已修復**：
 | 類型 | 數量 | 說明 |
@@ -24,6 +25,7 @@
 | 整理本回鏈漏記 | 11 Work / 12 sections | 補 `隋書經籍志考證` section 對應 Work 的 `emendated_by` 回鏈 |
 | main 更新後人物↔作品單向 | 33 | 10 條可信同人補 Work 作者 `entity_id`；23 條誤繫從 Entity.works 刪除 |
 | 整理本單數 work_id 落空 | 25 | 原文替換方式重連人工篩過的單候選；落空由 346 降至 321 |
+| 整理本複數 work_ids 落空 | 15 sections / 14 Work | 原文替換方式重連 `隋書經籍志考證` 人工篩過的單候選，並補 Work 側 `emendated_by`；落空由 321 降至 306 |
 
 **驗證**：
 - `索引指向不存在檔案 0`
@@ -36,7 +38,7 @@
 - `輯佚檔 1234 不合 0`
 
 **仍留未決**：
-- `整理本繫連落空 section 321`：剩餘多為無候選、候選不唯一、通名假陽性、基書/注本混淆，需逐條建檔或人工判讀。
+- `整理本繫連落空 section 306`：剩餘多為無候選、候選不唯一、通名假陽性、基書/注本混淆，需逐條建檔或人工判讀。
 - `題名重出 67`：需逐組判斷同書、注本、別本或題名消歧。
 
 **記錄**：
@@ -45,6 +47,7 @@
 - `.claude/known-issues/整理本Work側回鏈_round1已修復.json`
 - `.claude/known-issues/人物作品單向_main_round1已修復.json`
 - `.claude/known-issues/整理本落空work_id_round1已修復.json`
+- `.claude/known-issues/整理本落空work_ids_round1已修復.json`
 
 ---
 
