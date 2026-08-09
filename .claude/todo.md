@@ -1,12 +1,40 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（遼金元未決深查：3898 Work 補 dynasty，77 Entity 補 period，328 棄權）
+更新：2026-08-09（遼金元 Round 2：317 no_author 以斷代志規則補 dynasty=遼金元，11 棄權）
 
 ---
 
 ## 朝代規範化
 
-### 遼金元未決深查（✅ 本地完成，待推 main）
+### 遼金元未決深查 Round 2（✅ 本地完成，待推 main）
+
+**腳本**：`scripts/fix_liao_jin_yuan_round2.py`
+
+**對象**：Round 1 遺留的 328 個 no_author Work（period=liao-jin-yuan, dynasty=null, authors=[]）。
+
+**規則**：`indexed_by` 來源集合 ⊆ {元史藝文志, 補遼金元藝文志, 遼史藝文志, 金史藝文志} ∧ 不為空
+→ Work.dynasty = 遼金元，`dynasty_basis=gazetteer_propagation`（SCHEMA 自驗：元史+補遼金元 96% 遼金元）。
+來源含國史經籍志（明焦竑通代志）或隋書經籍志等非斷代志 → 棄權。
+
+**已修復**：
+
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 317 | dynasty=遼金元，dynasty_basis=gazetteer_propagation |
+| 棄權（mixed_source） | 11 | indexed_by 含國史經籍志(10) / 隋書經籍志(1) |
+| index 同步 | 16 shards | 317 dynasty_sync，works 全部 16 shard 有改動 |
+
+**驗證**：
+- Work 索引 dynasty 不符：0
+- `period=liao-jin-yuan` 無 dynasty：11（= 全部棄權）
+- 已補分布：元 3497 / 金 369 / 遼金元 317 / 遼 31 / 金元 1 → 合計 4215
+- chk.py 基線全數不變（197 / 3 / 4 / 24 / 12 / 2）
+
+**棄權 11 條清單（附非斷代志）**：
+1. 國語孝經（+隋書經籍志）
+2. 九經要覽 / 宋汴都宮室記 / 百戰奇法 / 至元心燈錄 / 四書詳說 / 四書釋要 / 大易忘筌 / 成憲綱要 / 金國官制 / 孟子衍義（+國史經籍志）
+
+### 遼金元未決深查 Round 1（✅ 已上 main）
 
 **腳本**：
 - `scripts/investigate_liao_jin_yuan.py`：只讀深查，輸出 `.claude/known-issues/遼金元未決.json`
