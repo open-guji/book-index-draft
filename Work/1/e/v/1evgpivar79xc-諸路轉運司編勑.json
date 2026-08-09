@@ -4,11 +4,10 @@
   "title": "諸路轉運司編勑",
   "authors": [
     {
-      "name": "彭年",
+      "name": "陳彭年",
       "role": "撰",
-      "dynasty": "南朝陳",
-      "entity_id": "1j967c148wsnm",
-      "dynasty_basis": "synonym:陳->南朝陳"
+      "dynasty": "北宋",
+      "dynasty_basis": "國史經籍志：『《諸路轉運司編勑》三十卷（陳彭年）』——『陳彭年』=姓陳名彭年(961~1017)，字永年，江西南城人，北宋真宗時大臣，重修《廣韻》、編《冊府元龜》，非『南朝陳·彭年』（將姓氏誤作朝代）"
     }
   ],
   "juan_count": {
@@ -38,6 +37,9 @@
   ],
   "measure_info": "三十卷",
   "updated_at": "2026-08-08T11:51:56+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「陳」"
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty『北宋』（陳彭年961~1017，北宋）",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation",
+  "ai_note": " [C1-fix(critical): 作者姓名斷代雙重錯誤修復！原誤：name=彭年,dynasty=南朝陳,period=nanbeichao，連同 Entity=1j967c148wsnm=明彭年(1505~1566) 全錯！國史經籍志原文『陳彭年』=姓陳名彭年，即北宋陳彭年(961~1017，字永年，南城人)。→ 已修正 author.name=dynasty=period + 移除錯誤 Entity。needs-review(critical): 需人工查 CBDB 關聯正確北宋陳彭年 Entity]"
 }

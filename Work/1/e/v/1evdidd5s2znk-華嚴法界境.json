@@ -8,7 +8,7 @@
       "name": "德清",
       "role": "撰",
       "dynasty": "明",
-      "entity_id": "1j96hhvcrjvhe"
+      "dynasty_basis": "明史藝文志：『德清《華嚴法界境》一卷...』——即憨山德清(1546~1623)，明代四大高僧之一，字澄印，號憨山，全椒人"
     }
   ],
   "juan_count": {
@@ -40,5 +40,5 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j96hhvcrjvhe=元升(南宋1163~1217)，名字即與『德清』不符！本書作者係明憨山大師(1546~1623)。需人工查 CBDB 建立正確 Entity 並關聯]"
 }
