@@ -7,8 +7,8 @@
       "name": "張豫章",
       "role": "敕編",
       "dynasty": "清",
-      "entity_id": null,
-      "dynasty_basis": "synonym:康熙四十八年->清"
+      "entity_id": "1j967afjb6adi",
+      "dynasty_basis": "qing_round3:張豫章 Entity 已为清代"
     }
   ],
   "description": {
@@ -17,7 +17,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故薈009884-010123），無同名 Work 故新建。\n\n2026-08-08 修：撰人原作「清」，今作「張豫章」。《御選宋詩》七十八卷，清康熙四十八年張豫章刻本，國學大師書目題（清）張豫章輯。四庫薈要本題康熙聖祖仁皇帝御選，乃名義，實際編纂為張豫章等儒臣。原「清」為朝代字，改作實際編者張豫章。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故薈009884-010123），無同名 Work 故新建。\n\n2026-08-08 修：撰人原作「清」，今作「張豫章」。《御選宋詩》七十八卷，清康熙四十八年張豫章刻本，國學大師書目題（清）張豫章輯。四庫薈要本題康熙聖祖仁皇帝御選，乃名義，實際編纂為張豫章等儒臣。原「清」為朝代字，改作實際編者張豫章。\n\n2026-08-09 修：补 dynasty=清、period=qing，并回连张豫章 Entity。合并同名空作者 Work 1evkpxw3uuups 之文渊阁本书册。",
   "juan_count": {
     "number": 78
   },
@@ -30,7 +30,12 @@
   "measure_info": "七十八卷姓名爵里二卷金詩二十五卷姓名爵里一卷元詩八十一卷姓名爵里二卷明詩一百二十卷姓名爵里八卷",
   "id": "1evkphixywge8",
   "books": [
-    "11qkhyjsx6hvk"
+    "11qkhyjsx6hvk",
+    "11qkhy11odmv4"
   ],
-  "updated_at": "2026-08-08T11:51:57+00:00"
+  "updated_at": "2026-08-09T11:19:41+00:00",
+  "dynasty": "清",
+  "period": "qing",
+  "dynasty_basis": "qing_round3:ai_note 已据康熙四十八年张豫章刻本与四库薈要本说明实编者",
+  "period_basis": "据 dynasty「清」自动归并"
 }

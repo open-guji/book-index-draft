@@ -1,0 +1,84 @@
+{
+  "description": "清朝整理 Round 5：剩余疑点与继续抽查",
+  "fixed": [
+    {
+      "work_id": "1ev3bf2p9hhj4",
+      "title": "雅論",
+      "merged_from": "1evjrac8kbb40",
+      "dynasty": "明",
+      "basis": "《雅論/雅倫》均为二十六卷；四库总目、四库存目支持明费经虞撰，清费密补。"
+    },
+    {
+      "work_id": "1evcsw7pci9kw",
+      "title": "陸希聲春秋通例",
+      "dynasty": "唐",
+      "basis": "清史稿、崇文总目、新唐书、国史经籍志、经义考均指陆希声/唐陆希声。"
+    },
+    {
+      "work_id": "1evcsw7pkxo8w",
+      "title": "春秋闡微纂類義統",
+      "dynasty": "唐",
+      "basis": "清史稿作唐赵匡；经义考作赵匡。"
+    }
+  ],
+  "entity_fixed": [
+    {
+      "entity_id": "1j967afjajtd0",
+      "name": "費經虞",
+      "dynasty": "明末清初",
+      "period": null,
+      "basis": "1599-1671 跨明清；作品层逐条判。"
+    },
+    {
+      "entity_id": "1j96hjwlxny4i",
+      "name": "趙匡",
+      "dynasty": "唐",
+      "period": "sui-tang",
+      "basis": "关联作品复核为唐赵匡。"
+    }
+  ],
+  "remaining": [
+    {
+      "work_id": "1evgorqt3jw8w",
+      "title": "九經術疏",
+      "reason": "宋泉之题名/人名已修；疑与《九章术疏》相邻，但外部证据不足。"
+    },
+    {
+      "work_id": "1evgq4n14oge8",
+      "title": "本草要訣",
+      "reason": "梁嘉庆缺外部强证据。"
+    }
+  ],
+  "audit_observations": [
+    "抽查《春秋通例》相邻条目时发现《春秋闡微纂類義統》赵匡误作清，已修。",
+    "新唐书春秋类整理本中“陸希聲春秋通例”原误指向《春秋》原典 Work，已重定向到本条。",
+    "宋史艺文志本地整理本春秋类邻近数条疑有撰人串位，暂只修作品层高置信朝代，不批量改源整理本。"
+  ],
+  "changed_section_files": [
+    "Work/1/e/v/1evcs059gkvls/collated_edition/春秋類.json"
+  ],
+  "deleted_work_files": [
+    "Work/1/e/v/1evjrac8kbb40-雅倫.json"
+  ],
+  "stats": {
+    "work.additional_title_added": 1,
+    "work.indexed_by_merged": 2,
+    "work.resource_merged": 1,
+    "work.book_merged": 1,
+    "book.work_id_redirect": 1,
+    "work.duplicate_merged": 1,
+    "entity.dynasty->明末清初": 1,
+    "entity.period->null": 1,
+    "entity.work_link": 2,
+    "section.work_id_redirect": 1,
+    "entity.dynasty->唐": 1,
+    "entity.period->sui-tang": 1,
+    "index.work.dynasty_sync": 3,
+    "index.work.shards_changed": 4,
+    "index.work.period_sync": 2,
+    "index.work.deleted": 1,
+    "index.entity.dynasty_sync": 2,
+    "index.entity.period_sync": 2,
+    "index.entity.shards_changed": 2
+  }
+}

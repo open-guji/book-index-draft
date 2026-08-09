@@ -7,8 +7,9 @@
     {
       "name": "官撰",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96heojwm29s"
+      "dynasty": "元",
+      "entity_id": "1j96heojwm29s",
+      "dynasty_basis": "qing_round4_audit:四库总目称元世祖时官撰；清史稿作元官撰《农桑辑要》"
     }
   ],
   "indexed_by": [
@@ -131,11 +132,12 @@
     }
   ],
   "measure_info": "七卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-09T11:26:20+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "period": "liao-jin-yuan",
+  "period_basis": "据 dynasty「元」自动归并",
+  "dynasty": "元",
+  "dynasty_basis": "qing_round4_audit:四库总目称元世祖时官撰；清史稿作元官撰《农桑辑要》",
+  "ai_note": "2026-08-09 抽查修：四库总目称元世祖时官撰；清史稿作元官撰《农桑辑要》；同步 Work.dynasty/period 与作者 dynasty。"
 }

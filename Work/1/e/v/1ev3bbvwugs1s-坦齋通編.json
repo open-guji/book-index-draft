@@ -7,8 +7,9 @@
     {
       "name": "邢凱",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hjwlxny18"
+      "dynasty": "宋",
+      "entity_id": "1j96hjwlxny18",
+      "dynasty_basis": "qing_round4_audit:四库总目称《说郛》题宋邢凯撰；清史稿/书目答问均作宋邢凯"
     }
   ],
   "indexed_by": [
@@ -128,12 +129,12 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evkpxed7bg1s 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019067）。阶段 5 兜底建立。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 1evkpxed7bg1s 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019067）。阶段 5 兜底建立。\n\n2026-08-09 抽查修：四库总目称《说郛》题宋邢凯撰；清史稿/书目答问均作宋邢凯；同步 Work.dynasty/period 与作者 dynasty。",
+  "updated_at": "2026-08-09T11:26:20+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "period": "song",
+  "period_basis": "据 dynasty「宋」自动归并",
+  "dynasty": "宋",
+  "dynasty_basis": "qing_round4_audit:四库总目称《说郛》题宋邢凯撰；清史稿/书目答问均作宋邢凯"
 }
