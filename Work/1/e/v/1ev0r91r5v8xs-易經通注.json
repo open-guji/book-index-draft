@@ -105,10 +105,12 @@
     }
   ],
   "ai_note": "撰人拆分：本條原繫人物記錄 1j96heit3ky68，其 primary_name 作「大學士傅以漸、左庶子曹本榮奉敕」，實為合著者名單而非一人。「大學士」「左庶子」為官銜，非人名之一部，今去之。今拆為 2 人：傅以漸、曹本榮。庫中已有同名人物且唯一者已繫 entity_id，無者只補姓名，不於本批新建人物，俟人物專項。　2026-08-08 Batch14合併：原1evr5e3m6vj7k（同題同撰人（傅以漸，entity同）同卷數（九卷），清史稿與四庫總目著錄同一書）併入本條。",
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
-  "emendated_by": null
+  "emendated_by": null,
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
 }

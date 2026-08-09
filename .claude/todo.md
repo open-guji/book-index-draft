@@ -1,10 +1,39 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（遼金元 Round 2：317 no_author 以斷代志規則補 dynasty=遼金元，11 棄權）
+更新：2026-08-09（清朝整理 Round 1：15054 Work 補 dynasty=清，42 Work + 22 Entity 留未決）
 
 ---
 
 ## 朝代規範化
+
+### 清朝整理 Round 1（✅ 本地完成，待推 PR）
+
+**分支**：`fix/qing-dynasty-round1`
+
+**處理範圍**：只處理 Work 頂層 `dynasty` 空、`period=qing`、且非通用作者 `dynasty` 唯一為 `清` 的高置信條目。
+
+**安全邊界**：
+- 不處理 period 空或非 `qing` 的 Work，避免書名所指時代與作者時代混淆。
+- 不機械修改 `Entity.dynasty=清` 但 period 缺失/衝突者；樣本混有同名異人與舊批次疑點，留未決清單。
+- 不修改作者層 dynasty；本輪只補 Work 頂層 dynasty。
+
+**腳本**：
+- `scripts/analyze_qing_round1.py`：只讀分析清朝 Work/Author/Entity 分布與 index 狀態
+- `scripts/fix_qing_round1.py`：首輪高置信補全 Work.dynasty 並同步 `index/works`
+
+**已完成**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 15,054 | `null → 清`，依 `period=qing` + 非通用作者 dynasty 唯一為清 |
+| index 同步 | 16 shards | `index/works` 同步 15,054 條 dynasty |
+
+**剩餘未決**：
+- Work.dynasty 空且作者均清但 period 非 `qing`：42
+- Entity.dynasty=清 且 period 缺失：16
+- Entity.dynasty=清 且 period 衝突：6
+- 詳見 `.claude/known-issues/清朝整理_round1_未決.json`
+
+---
 
 ### 遼金元未決深查 Round 2（✅ 本地完成，待推 main）
 
