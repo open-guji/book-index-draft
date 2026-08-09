@@ -1,6 +1,45 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
+更新：2026-08-09（結構校驗 Round 1 已清零索引/互指/輯佚檔/整理本回鏈核心不合；清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
+
+---
+
+## 結構校驗清理
+
+### Round 1（✅ 待提交）
+
+**腳本**：
+- `scripts/fix_index_sync_round1.py`
+- `scripts/fix_collated_work_backlinks_round1.py`
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| stale Work 索引刪除 | 44 | `index/works` 指向不存在檔案者刪除 |
+| 缺失 Work 索引補入 | 7 | 真實存在但未入索引的 Work 補入分片索引 |
+| Work 索引 author 同步 | 197 | 按 Work 正文首作者同步 `index/works[].author` |
+| 輯佚檔路徑殘留 | 1 | 刪除 `魏子` 舊 Work 目錄下重複 fragments 檔 |
+| Book↔Work 互指錯位 | 4 | 阜陽、馬王堆、定州、北大藏同名出土文獻回指各自 Work |
+| 整理本回鏈漏記 | 11 Work / 12 sections | 補 `隋書經籍志考證` section 對應 Work 的 `emendated_by` 回鏈 |
+
+**驗證**：
+- `索引指向不存在檔案 0`
+- `檔案未入索引 0`
+- `索引欄位不符 0`
+- `懸空關聯 0`
+- `Book→Work 單向 0 / Work→Book 單向 0`
+- `人物→作品 單向 0 / 作品→人物 單向 0`
+- `整理本繫連而 work 側無記錄 0`
+- `輯佚檔 1234 不合 0`
+
+**仍留未決**：
+- `整理本繫連落空 section 346`：未命中既有 `merged_in`，不可機械重定向，需逐條建檔或人工判讀。
+- `題名重出 67`：需逐組判斷同書、注本、別本或題名消歧。
+
+**記錄**：
+- `.claude/known-issues/索引同步_round1已修復.json`
+- `.claude/known-issues/出土文獻BookWork互指_round1已修復.json`
+- `.claude/known-issues/整理本Work側回鏈_round1已修復.json`
 
 ---
 

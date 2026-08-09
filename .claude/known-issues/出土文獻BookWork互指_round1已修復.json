@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-09",
+  "issue": "新增缺失 Work 索引後，4 個出土文獻 Book 暴露出 work_id 指向同名不同來源 Work，造成 Book→Work 與 Work→Book 單向各 4。",
+  "principle": "不合併同名 Work；依 Book 的 edition、authors、description 與 Work.books 既有回指，將 Book.work_id 改回對應來源的 Work。",
+  "fixed": [
+    {
+      "book_id": "11rot1b9al35b",
+      "book_title": "刑德",
+      "edition": "阜陽漢簡整理本",
+      "old_work_id": "1ewozu3jd6za4",
+      "new_work_id": "1ewozvsc4a97y",
+      "reason": "Book 為阜陽漢簡整理本；new_work_id 為阜陽漢簡《刑德》，old_work_id 為馬王堆帛書《刑德》。"
+    },
+    {
+      "book_id": "11rot1b67ruav",
+      "book_title": "儒家者言",
+      "edition": "阜陽漢簡整理本",
+      "old_work_id": "1ewozvsht1xkn",
+      "new_work_id": "1ewozvs91h0di",
+      "reason": "Book 為阜陽漢簡整理本；new_work_id 為阜陽漢簡《儒家者言》，old_work_id 為定州漢墓竹簡本。"
+    },
+    {
+      "book_id": "11roszmbdrlzj",
+      "book_title": "春秋事語",
+      "edition": "長沙馬王堆漢墓簡帛集成本",
+      "old_work_id": "1ewozvs876zok",
+      "new_work_id": "1ewozu3e7gs26",
+      "reason": "Book 為馬王堆帛書整理本；new_work_id 為馬王堆《春秋事語》，old_work_id 為阜陽漢簡本。"
+    },
+    {
+      "book_id": "11rot1ba0t0s1",
+      "book_title": "日書",
+      "edition": "阜陽漢簡整理本",
+      "old_work_id": "1ewozxkmie68u",
+      "new_work_id": "1ewozvscui6uo",
+      "reason": "Book 為阜陽漢簡整理本；new_work_id 為阜陽漢簡《日書》，old_work_id 為北京大學藏西漢竹書本。"
+    }
+  ],
+  "verification_expected": {
+    "Book→Work 單向": 0,
+    "Work→Book 單向": 0
+  }
+}
