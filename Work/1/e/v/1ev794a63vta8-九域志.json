@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "王存",
-      "dynasty": "宋",
+      "dynasty": "北宋",
       "role": "撰",
-      "entity_id": "1j96hewdn80sg"
+      "entity_id": "1j96hewdn80sg",
+      "dynasty_basis": "same_name_propagation:王存->北宋"
     }
   ],
   "books": [
@@ -46,6 +47,10 @@
     ]
   },
   "ai_note": "從 1evgpjm93y134 合併。原註：missing_reason: 作者冲突 work=王存等 vs anno=宋王存　撰人「等」字剝離：著錄作「王存等」，「等」謂王存及其他未具名之纂修者，非姓名之一部，今剝離作「王存」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。",
-  "updated_at": "2026-08-02T10:55:04+00:00",
-  "_has_image": true
+  "updated_at": "2026-08-09T09:17:26+00:00",
+  "_has_image": true,
+  "dynasty": "北宋",
+  "dynasty_basis": "据本轮 author.dynasty「北宋」补全",
+  "period": "song",
+  "period_basis": "据本轮 author.dynasty「北宋」自动归并"
 }
