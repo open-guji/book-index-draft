@@ -7,12 +7,14 @@
     {
       "name": "曾公亮",
       "role": "撰",
-      "dynasty": "宋"
+      "dynasty": "北宋",
+      "dynasty_basis": "same_name_propagation:曾公亮->北宋"
     },
     {
       "name": "丁度",
       "role": "撰",
-      "dynasty": "宋"
+      "dynasty": "北宋",
+      "dynasty_basis": "same_name_propagation:丁度->北宋"
     }
   ],
   "indexed_by": [
@@ -101,7 +103,11 @@
     }
   ],
   "measure_info": "四十卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-09T09:17:26+00:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "dynasty": "北宋",
+  "dynasty_basis": "据本轮 author.dynasty「北宋」补全",
+  "period": "song",
+  "period_basis": "据本轮 author.dynasty「北宋」自动归并"
 }

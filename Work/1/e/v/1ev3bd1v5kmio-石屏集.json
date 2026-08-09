@@ -7,8 +7,9 @@
     {
       "name": "戴復古",
       "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967bgl8kqxu"
+      "dynasty": "南宋",
+      "entity_id": "1j967bgl8kqxu",
+      "dynasty_basis": "manual_round3:戴復古為南宋江湖詩派，《石屏集》《石屏詞》→南宋"
     }
   ],
   "indexed_by": [
@@ -54,7 +55,7 @@
     }
   ],
   "measure_info": "六卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-09T09:23:31+00:00",
   "_has_text": true,
   "description": {
     "text": "《國史經籍志》收錄。",
@@ -73,5 +74,9 @@
       ]
     }
   ],
-  "ai_note": "合併：題名「戴復古石屏集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「戴復古」已見本條 authors[]），裸題「石屏集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。"
+  "ai_note": "合併：題名「戴復古石屏集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「戴復古」已見本條 authors[]），裸題「石屏集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "dynasty": "南宋",
+  "dynasty_basis": "据本轮人工资料 author.dynasty「南宋」补全",
+  "period": "song",
+  "period_basis": "据本轮人工资料 author.dynasty「南宋」自动归并"
 }
