@@ -42,7 +42,7 @@
   "juan_count": {
     "number": 4
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('釋覺岸', '元')]，本條作者 覺岸（元），另建 | 從 1evgpuhocn7cw 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"釋氏切古略\"->\"釋氏稽古略\" 作者「元釋覺岸撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "同名異書：已有 Work 作者為 [('釋覺岸', '元')]，本條作者 覺岸（元），另建 | 從 1evgpuhocn7cw 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"釋氏切古略\"->\"釋氏稽古略\" 作者「元釋覺岸撰」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evga7q93uvb4",
   "measures": [
     {
@@ -161,9 +161,11 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

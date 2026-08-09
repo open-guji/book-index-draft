@@ -50,14 +50,16 @@
       "dynasty": "唐"
     }
   ],
-  "ai_note": "作者 \"唐釋玄應撰\" 補自《續修四庫全書》目錄。",
+  "ai_note": "作者 \"唐釋玄應撰\" 補自《續修四庫全書》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "books": [
     "11qkhuwjtxudc",
     "11qki08yik8ao",
     "11qki08zw6yo0"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_image": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

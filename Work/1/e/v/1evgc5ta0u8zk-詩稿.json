@@ -21,7 +21,7 @@
   "juan_count": {
     "number": 7
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('孔繼涵', '清'), ('彭啟豐', '清'), ('朱綬', '清'), ('彭定求', '清'), ('朱珔', '清'), ('蔡新', '清'), ('馮浩', '清'), ('欽善', '清')]，本條作者 蘇天爵（元），另建",
+  "ai_note": "同名異書：已有 Work 作者為 [('孔繼涵', '清'), ('彭啟豐', '清'), ('朱綬', '清'), ('彭定求', '清'), ('朱珔', '清'), ('蔡新', '清'), ('馮浩', '清'), ('欽善', '清')]，本條作者 蘇天爵（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evgc5ta0u8zk",
   "measures": [
     {
@@ -30,7 +30,9 @@
     }
   ],
   "measure_info": "七卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

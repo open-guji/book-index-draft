@@ -138,7 +138,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgor3cbycxs 合併。原註：missing_reason: 作者冲突 work=林慎思 vs anno=唐林愼思",
+  "ai_note": "從 1evgor3cbycxs 合併。原註：missing_reason: 作者冲突 work=林慎思 vs anno=唐林愼思 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "related_works": [
     {
       "id": "1ev7xm3w3445c",
@@ -146,9 +146,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

@@ -200,7 +200,7 @@
     }
   ],
   "measure_info": "一百卷",
-  "ai_note": "從 1evcs0bqgx5a8 合併。原註：作者「唐李延壽撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy63l0ma68 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。",
+  "ai_note": "從 1evcs0bqgx5a8 合併。原註：作者「唐李延壽撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy63l0ma68 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "description": {
     "text": "本書收入《中華再造善本》金元編（ZHSY000542）。元大德信州路儒學刻明嘉靖元年修本。",
     "sources": [
@@ -314,9 +314,11 @@
       "relation": "text_carried_by"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

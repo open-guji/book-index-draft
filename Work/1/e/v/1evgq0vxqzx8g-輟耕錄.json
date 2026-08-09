@@ -28,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=陶宗儀 vs anno=元陶九成",
+  "ai_note": "missing_reason: 作者冲突 work=陶宗儀 vs anno=元陶九成 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evgq0vxqzx8g",
   "measures": [
     {
@@ -37,7 +37,9 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

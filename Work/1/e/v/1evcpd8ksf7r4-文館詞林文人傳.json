@@ -43,7 +43,7 @@
       "entity_id": "1j967da978dhb"
     }
   ],
-  "ai_note": "作者 \"唐許敬宗撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpj4hh4t1c 合併。原註：[QA2026-04-20] title 含可疑字符: \"文館、詞林文人傳\"，可能是解析错误\n[QA-fix 2026-04-20] title \"文館、詞林文人傳\" → \"文館詞林文人傳\" (remove 顿号)",
+  "ai_note": "作者 \"唐許敬宗撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpj4hh4t1c 合併。原註：[QA2026-04-20] title 含可疑字符: \"文館、詞林文人傳\"，可能是解析错误\n[QA-fix 2026-04-20] title \"文館、詞林文人傳\" → \"文館詞林文人傳\" (remove 顿号) [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "books": [
     "11qki00b01ce8",
     "11qki00cc3w1s"
@@ -54,8 +54,10 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

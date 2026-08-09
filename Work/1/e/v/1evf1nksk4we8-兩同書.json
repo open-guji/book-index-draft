@@ -18,9 +18,11 @@
       "summary": "吳筠《兩同書》二卷"
     }
   ],
-  "ai_note": "從 1ev3bbv7qhiww（羅隱《兩同書》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=吳 + name=筠，今合併為「吳筠」，朝代改為唐。據宋史藝文志 summary「吳筠《兩同書》二卷」確認。",
+  "ai_note": "從 1ev3bbv7qhiww（羅隱《兩同書》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=吳 + name=筠，今合併為「吳筠」，朝代改為唐。據宋史藝文志 summary「吳筠《兩同書》二卷」確認。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "id": "1evf1nksk4we8",
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

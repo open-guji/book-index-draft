@@ -32,8 +32,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_15+work_recall_1.00+unique+no_dynasty"
   },
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-09T09:38:40+00:00",
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并"
+  "period_basis": "cross_check",
+  "ai_note": "[ljy-round1: period null→song; 據 CBDB c_dy 證為宋系]"
 }

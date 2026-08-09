@@ -26,7 +26,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「元納新撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「元納新撰」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evgpka76l8n4",
   "measures": [
     {
@@ -55,8 +55,10 @@
   "books": [
     "11qkhw9yokglc"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }
