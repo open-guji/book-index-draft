@@ -7,7 +7,8 @@
     {
       "name": "東魯古狂生",
       "role": "撰",
-      "dynasty": "清"
+      "dynasty": "明",
+      "dynasty_basis": "indexed_by 中國通俗小說書目明確標『明無名氏撰』『明刊原本』；此書係明末短篇話本小說集"
     }
   ],
   "description": {
@@ -47,12 +48,14 @@
       ]
     }
   ],
-  "ai_note": "作者 \"清東魯古狂生撰\" 補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者 \"清東魯古狂生撰\" 補自《國立故宮博物院善本舊籍》目錄。 [B2-fix: 作者朝代清→明；舊『清東魯古狂生撰』與 indexed_by 『明無名氏撰/明刊原本』矛盾，按孫楷第書目定為明末作品]",
   "books": [
     "11qki7fu7uh34"
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation"
 }
