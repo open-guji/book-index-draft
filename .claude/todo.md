@@ -1,10 +1,42 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-08（PR #21 已推送：南北朝朝代拆分 Round 1+2，待 review）
+更新：2026-08-09（五代十國未決深查：45 Work 補 dynasty，5 條誤入五代移出）
 
 ---
 
 ## 朝代規範化
+
+### 五代十國未決深查（✅ 本地完成，待推 PR）
+
+**分支**：`fix/five-dynasties-unresolved-investigation`
+
+**腳本**：
+- `scripts/investigate_five_dynasties_unresolved.py`：只讀深查，輸出 `.claude/known-issues/五代十國未決_深查.json`
+- `scripts/fix_five_dynasties_unresolved_round2.py`：深查後高置信修復
+
+**深查結論**：
+- 當前 `period=five-dynasties` 的 Work 原有 50 條，其中 45 條是真五代十國 Work，但 `dynasty` 未補。
+- 5 條其實是誤入五代：`釋亡名《周易私記》`、`樊文深《五經大義》`、`盧辨《稱謂》`、`周沈重《禮記義疏》`、`周熊安生《禮記義疏》`。
+- 樊文深即樊深，字文深，北周經學家；「周沈重」「周熊安生」中的「周」為北周朝代前綴；盧辨亦北周人；釋亡名見於隋書經籍志，不可作五代後周。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 45 | 南唐 14、五代 14、後蜀 8、後晉 3、後周 3、後唐 2、前蜀 1 |
+| 誤入五代 Work 移出 | 5 | 北周 4、待考 1 |
+| Entity 修正 | 5 | 4 條改北周/nanbeichao，1 條釋亡名清空 dynasty/period 待考 |
+| index 同步 | 21 shards | works 16 shards，entities 5 shards |
+
+**驗證**：
+- `period=five-dynasties` Work：45
+- 五代 Work 無 `dynasty`：0
+- 目標 Work/Entity 與 index 分片不一致：0
+
+**剩餘邊界**：
+- `dynasty=唐/漢` 的大批殘留不在本輪處理，交由隋唐/秦漢進程，避免同名異人誤判。
+- 本輪不做 Entity 合併（如樊文深、盧辨/盧辯、沈重/周沈重），只修正高置信 dynasty/period。
+
+---
 
 ### 南北朝朝代拆分（✅ 已推 PR #21，待 review/合併）
 
