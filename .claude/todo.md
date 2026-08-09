@@ -1,12 +1,12 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（結構校驗 Round 1 已在 main 本地完成，清零索引/互指/輯佚檔/整理本回鏈核心不合；清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
+更新：2026-08-09（結構校驗 Round 1 已上 main，清零索引/互指/輯佚檔/整理本回鏈核心不合，整理本落空降至 306；清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
 
 ---
 
 ## 結構校驗清理
 
-### Round 1（✅ main 本地完成，待推送）
+### Round 1（✅ 已上 main）
 
 **腳本**：
 - `scripts/fix_index_sync_round1.py`
