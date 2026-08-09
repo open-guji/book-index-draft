@@ -6,6 +6,42 @@
 
 ## 朝代規範化
 
+### 宋代整理 Round 1（✅ 本地完成，待推 PR）
+
+**分支**：`fix/song-dynasty-round1`
+
+**處理範圍**：只處理已高置信規範為 `北宋` / `南宋` 的資料，不拆分仍為 `宋` 的未決項。
+
+**腳本**：
+- `scripts/analyze_song_round1.py`：只讀分析宋代 `Work` / `Author` / `Entity` 分布
+- `scripts/fetch_song_index_year.py`：補查 `Entity.dynasty=宋` 且有 CBDB ID 的 `IndexYear`
+- `scripts/fix_song_round1.py`：第一輪高置信補齊
+
+**已完成**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Entity.period 補齊 | 983 | `北宋` 453、`南宋` 530 → `period=song` |
+| Work.dynasty 補齊 | 2,980 | `北宋` 1,827、`南宋` 1,153 |
+| Work.period 補齊 | 2,979 | `北宋` 1,827、`南宋` 1,152 → `period=song` |
+| index 同步 | 16 shards | `index/works` 同步 dynasty/period；Entity index 已一致 |
+
+**驗證**：
+- `period=song` Work：2,982
+- 北/南宋 Entity：986
+- Work / Entity 與 index 分片不一致：0
+
+**剩餘未決**：
+- `Work.dynasty=宋`：2
+- `Author.dynasty=宋`：1,173
+- `Entity.dynasty=宋`：536
+- 詳見 `.claude/known-issues/宋代整理_round1_未決.json`
+
+**邊界**：
+- 本輪不處理 `dynasty=宋` 的北宋/南宋拆分；雖已補查 245 條 CBDB IndexYear，但多數 IndexYear 早於 960 或仍無北/南宋信號，需另作人工詞典/來源判定。
+- 不修改已有非 `song` period 的 Work，避免把清代、南北朝等條目誤歸宋。
+
+---
+
 ### 五代十國未決深查（✅ 本地完成，待推 PR）
 
 **分支**：`fix/five-dynasties-unresolved-investigation`
