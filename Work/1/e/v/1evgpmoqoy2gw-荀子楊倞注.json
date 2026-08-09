@@ -34,7 +34,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞 本條實為《荀子》之注本而書題僅作「荀子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「荀子楊倞注」，原題記於 original_title。　《國史經籍志》刻本作「切倞注」，「切」為「楊」之訛；《書目答問》正作「《荀子》楊倞注二十卷」。",
+  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞 本條實為《荀子》之注本而書題僅作「荀子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「荀子楊倞注」，原題記於 original_title。　《國史經籍志》刻本作「切倞注」，「切」為「楊」之訛；《書目答問》正作「《荀子》楊倞注二十卷」。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "id": "1evgpmoqoy2gw",
   "measures": [
     {
@@ -51,7 +51,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

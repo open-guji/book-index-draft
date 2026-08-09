@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故內001959），無同名 Work 故新建。\n\n2026-08-08 修：撰人原作「唐」，今作「李隆基」。《唐石經孝經》即《石台孝經》，唐玄宗李隆基（685-762）作序、注解並親自書丹，天寶四年鐫於西安碑林。原「唐」為朝代字，實即撰人為唐玄宗。修正dynasty為唐，period=tang。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故內001959），無同名 Work 故新建。\n\n2026-08-08 修：撰人原作「唐」，今作「李隆基」。《唐石經孝經》即《石台孝經》，唐玄宗李隆基（685-762）作序、注解並親自書丹，天寶四年鐫於西安碑林。原「唐」為朝代字，實即撰人為唐玄宗。修正dynasty為唐，period=tang。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "juan_count": {
     "number": 1
   },
@@ -38,7 +38,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].name「李隆基」（唐玄宗）更正為「唐」"
+  "period_basis": "據 authors[0].name「李隆基」（唐玄宗）更正為「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

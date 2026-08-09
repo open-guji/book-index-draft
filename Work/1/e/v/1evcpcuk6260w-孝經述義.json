@@ -18,7 +18,7 @@
       "dynasty": "隋"
     }
   ],
-  "ai_note": "作者「隋劉炫撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者「隋劉炫撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]",
   "related_works": [
     {
       "id": "1evl1xugdoikg",
@@ -26,7 +26,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」"
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation"
 }

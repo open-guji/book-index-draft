@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀015024），無同名 Work 故新建。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏傳述義.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀015024），無同名 Work 故新建。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏傳述義.json，據《玉函山房輯佚書》目錄立，現為著錄層。 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]",
   "juan_count": {
     "number": 1
   },
@@ -38,7 +38,9 @@
     }
   ],
   "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」"
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation"
 }

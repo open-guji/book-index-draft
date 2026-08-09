@@ -19,7 +19,7 @@
     }
   ],
   "id": "1evcs0azciu4g",
-  "ai_note": "從 1evgoracv91xc《急就章》合併（同書異錄，《國史經籍志》另立一目）。　entity_id 補繫：本條之撰人顏師古與庫中人物記錄（1j967avzlcjyd）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。",
+  "ai_note": "從 1evgoracv91xc《急就章》合併（同書異錄，《國史經籍志》另立一目）。　entity_id 補繫：本條之撰人顏師古與庫中人物記錄（1j967avzlcjyd）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "description": {
     "text": "唐顏師古注《急就篇》一卷，是《急就篇》現存最早且最通行的注本。《新唐書·藝文志》著錄「顏師古注急就章一卷」，《國史經籍志》作「《急就章》一卷（顏師古注）」。顏師古自序稱嘗得皇象、鍾繇、衛夫人、王羲之所書篇本，備加詳覈，凡三十二章。宋王應麟為之補注（1evjy6docjcao），後世四卷本《急就篇》即顏注王補之合刻，今傳武英殿聚珍版、四庫本、《玉海》附刻本皆屬此系，故本庫將其傳世版本繫於原典《急就篇》（1ev794a4pxudc）之下。",
     "sources": [
@@ -53,7 +53,9 @@
       "relation": "part_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

@@ -207,7 +207,7 @@
     }
   ],
   "measure_info": "三十六卷",
-  "ai_note": "作者「唐姚思廉撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpgu2ihlhc 合併。原註：missing_reason: 短title \"陳書\" 唯一候选无作者",
+  "ai_note": "作者「唐姚思廉撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpgu2ihlhc 合併。原註：missing_reason: 短title \"陳書\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
@@ -266,9 +266,11 @@
       "relation": "text_carried_by"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

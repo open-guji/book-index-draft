@@ -22,7 +22,7 @@
       "summary": "宋唐仲友帝王經世圖譜十六卷。"
     }
   ],
-  "ai_note": "清史稿藝文志子部類書類輯佚條目。 來源：清史稿藝文志子部類書類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "ai_note": "清史稿藝文志子部類書類輯佚條目。 來源：清史稿藝文志子部類書類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "measures": [
     {
       "unit": "卷",
@@ -30,8 +30,10 @@
     }
   ],
   "measure_info": "十六卷",
-  "updated_at": "2026-08-07T15:25:19+00:00",
+  "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
-  "loss_status": "lost"
+  "loss_status": "lost",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }

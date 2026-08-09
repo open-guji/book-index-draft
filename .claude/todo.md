@@ -1,10 +1,49 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（五代十國未決深查：45 Work 補 dynasty，5 條誤入五代移出）
+更新：2026-08-09（隋唐未決深查：1831 Work 補 dynasty，7 Entity 補 period，1 棄權）
 
 ---
 
 ## 朝代規範化
+
+### 隋唐未決深查（✅ 本地完成，待推 PR）
+
+**腳本**：
+- `scripts/investigate_sui_tang.py`：只讀深查，輸出 `.claude/known-issues/隋唐未決.json`
+- `scripts/fix_sui_tang_round1.py`：高置信補全 Work.dynasty + Entity.period
+
+**深查結論**：
+- `period=sui-tang` 之 Work 原有 1,832 條，**全部 dynasty 為空**。
+- author.dynasty 分布：唐 1783、隋 51、隋唐 2、null 1、北宋 1。
+- 1,831 條可機械補全（author.dynasty 俱屬 {隋,唐,隋唐}）；1 條棄權。
+- Entity 側 period=sui-tang 787 條，dynasty 俱已補；dynasty=隋/唐 而 period 空者 7 條。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 1,831 | 唐 1779、隋 50、隋唐 2（單值取該值；多值混合取隋唐） |
+| Entity.period 補全 | 7 | dynasty=唐 6、dynasty=隋 1 → period=sui-tang |
+| 棄權（manual_mixed） | 1 | 《孝經注疏》作者 唐玄宗(唐)+邢昺(北宋)，跨隋唐/宋，留人工判 |
+| index 同步 | 20 shards | works 16 shards（1831 條 dynasty_sync），entities 4 shards（7 條 period_sync） |
+
+**驗證**：
+- `period=sui-tang` 但 dynasty 仍空：1（《孝經注疏》棄權）
+- Work 索引 dynasty 不符：0
+- Entity 索引 dynasty 不符：0；我改的 7 Entity period 已同步
+- chk.py 基線全數不變（索引欄位不符 197、懸空關聯 3、B→W 4、人物→作品 24、整理本 12、輯佚檔 2）
+
+**判準**：
+- dynasty_basis=`author_propagation`（據 author.dynasty 補全）。
+- Entity.period_basis=`synonym`（據 dynasty 派生 period：隋/唐→sui-tang）。
+- 含非隋唐 author.dynasty（如北宋）者一律棄權，不入機械批次。
+
+**剩餘邊界**：
+- 《孝經注疏》（1ev7943so5beo）：唐玄宗御注 + 宋邢昺疏，period=sui-tang 是否該改 song 待人工判。
+- 邢昺 Entity（1j967cp1zdr1b, dynasty=北宋, period=null）待補 period=song（非本輪隋唐範圍）。
+- 五代 Round 2 移交之「dynasty=唐/漢 大批殘留」：經查實為 period=sui-tang 之 author.dynasty=唐（真唐，非後唐），無需再拆；後唐已在五代輪處理。
+- 預存之 23 條 Work period 索引/檔案不符 + 1190 條 Entity period 索引/檔案不符（索引有 period 而檔案 None），為歷史批次遺留，非本輪所致，待另立 index 重建輪處理。
+
+---
 
 ### 五代十國未決深查（✅ 本地完成，待推 PR）
 
