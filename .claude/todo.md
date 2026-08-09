@@ -14,6 +14,7 @@
 - `scripts/fix_entity_work_oneway_main_round1.py`
 - `scripts/fix_collated_dangling_work_ids_round1.py`
 - `scripts/fix_title_duplicates_round1.py`
+- `scripts/fix_title_duplicates_round2.py`
 
 **已修復**：
 | 類型 | 數量 | 說明 |
@@ -28,6 +29,7 @@
 | 整理本單數 work_id 落空 | 25 | 原文替換方式重連人工篩過的單候選；落空由 346 降至 321 |
 | 整理本複數 work_ids 落空 | 15 sections / 14 Work | 原文替換方式重連 `隋書經籍志考證` 人工篩過的單候選，並補 Work 側 `emendated_by`；落空由 321 降至 306 |
 | 題名重出空殼合併 | 8 | 合併「題名+撰人」式低風險空殼 Work，遷入著錄並重定向整理本/Entity/index；題名重出由 67 降至 59 |
+| 題名重出空殼合併 Round 2 | 15 | 續合併低風險「題名+撰人/注者」式空殼 Work，修正 related_works 題名與 Entity 回鏈；題名重出由 59 降至 44 |
 
 **驗證**：
 - `索引指向不存在檔案 0`
@@ -41,7 +43,7 @@
 
 **仍留未決**：
 - `整理本繫連落空 section 306`：剩餘多為無候選、候選不唯一、通名假陽性、基書/注本混淆，需逐條建檔或人工判讀。
-- `題名重出 59`：需逐組判斷同書、注本、別本或題名消歧。
+- `題名重出 44`：需逐組判斷同書、注本、別本或題名消歧。
 
 **記錄**：
 - `.claude/known-issues/索引同步_round1已修復.json`
@@ -51,6 +53,7 @@
 - `.claude/known-issues/整理本落空work_id_round1已修復.json`
 - `.claude/known-issues/整理本落空work_ids_round1已修復.json`
 - `.claude/known-issues/題名重出_round1已合併.json`
+- `.claude/known-issues/題名重出_round2已合併.json`
 
 ---
 

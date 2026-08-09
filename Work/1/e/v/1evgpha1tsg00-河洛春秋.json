@@ -47,6 +47,12 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "包諝河洛春秋",
+      "summary": "包諝河洛春秋二卷"
     }
   ],
   "description": {
@@ -59,7 +65,7 @@
       "《國史經籍志》"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved | 2026-07-26：合併 5 條同書重複條目（1evr5e3mklz8l、1evr5e3mfay1b、1evr5e3miqk0m、1evcsx9v8wq9s、1evcsxd0aosn4），各志著錄卷數/著者記法不一致而被分別建檔，今併為一條並補作者、卷數、description。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "从卷二 ambiguous 新建：unresolved | 2026-07-26：合併 5 條同書重複條目（1evr5e3mklz8l、1evr5e3mfay1b、1evr5e3miqk0m、1evcsx9v8wq9s、1evcsxd0aosn4），各志著錄卷數/著者記法不一致而被分別建檔，今併為一條並補作者、卷數、description。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-09 題名重出 Round 2：合併空殼 Work 1evdxnrcfhhc0（包諝河洛春秋）入本條；判準：包諝河洛春秋 → 河洛春秋。",
   "id": "1evgpha1tsg00",
   "measures": [
     {
@@ -72,12 +78,17 @@
     {
       "name": "包諝",
       "role": "撰",
-      "dynasty": "唐"
+      "dynasty": "唐",
+      "entity_id": "1j967cp2196bk"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-09T19:08:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "包諝河洛春秋"
+  ],
+  "emendated_by": []
 }

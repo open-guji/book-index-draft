@@ -20,6 +20,12 @@
       "title_info": "《春秋圖》五卷",
       "summary": "《春秋圖》五卷（唐張杰）",
       "author_info": "唐張杰"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張傑春秋圖",
+      "summary": "張傑春秋圖五卷"
     }
   ],
   "description": {
@@ -28,7 +34,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"春秋圖\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 短title \"春秋圖\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-09 題名重出 Round 2：合併空殼 Work 1evdxnq2p7wg0（張傑春秋圖）入本條；判準：張傑春秋圖 → 春秋圖。",
   "id": "1evgoq3qi8wlc",
   "measures": [
     {
@@ -37,9 +43,13 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-09T18:59:07+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "張傑春秋圖"
+  ],
+  "emendated_by": []
 }

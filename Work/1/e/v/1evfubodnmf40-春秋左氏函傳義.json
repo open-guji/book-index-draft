@@ -7,6 +7,12 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "春秋左氏函傳義十五卷 干,謹按見《隋志》。《舊唐志》作“春秋義函傳”,《新唐志》作“春秋函傳”,並十六卷。本書寶傳言寶有《春秋左氏義外傳》,即是書。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《春秋左氏函傳義》十五卷",
+      "summary": "《春秋左氏函傳義》十五卷干寶撰。"
     }
   ],
   "description": {
@@ -43,10 +49,21 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏函傳義.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人「干」補全為「干寶」。據summary「本書寶傳言寶有《春秋左氏義外傳》」。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏函傳義.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人「干」補全為「干寶」。據summary「本書寶傳言寶有《春秋左氏義外傳》」。\n\n2026-08-09 題名重出 Round 2：合併空殼 Work 1evc5pdqvgk5c（春秋左氏函傳義干寶撰）入本條；判準：春秋左氏函傳義干寶撰 → 春秋左氏函傳義。",
+  "updated_at": "2026-08-09T18:59:07+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "additional_titles": [
+    "春秋左氏函傳義干寶撰"
+  ],
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "春秋左氏函傳義十五卷 干寶撰",
+      "summary": "春秋左氏函傳義十五卷 干寶撰\n干寶有《周易注》,見前易類。\n《唐書·經籍志》:《春秋義函傳》十六卷,干寶撰。\n《唐書·藝文志》:干寶《春秋義函傳》十六卷。\n馬氏玉函山房輯本序曰:“干氏是書,今惟孔氏《正義》引一\n節,杜氏《通典》引一節。《晉書·禮志》謂“寶留思京房、夏侯\n勝等傳其說”,“伐鼓於社,以為厭勝”。蓋二子緒論也。”\n按《晉書》本傳云寶又為《春秋左氏義外傳》,與《隋》、《唐\n志》題《函傳》者異,未詳孰是。"
+    }
+  ]
 }

@@ -16,6 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / ".claude" / "known-issues" / "題名重出_round1已合併.json"
+ROUND_NAME = "題名重出 Round 1"
 
 PAIRS = [
     ("1evc5peeyakn4", "1evftehvk711c", "辯釋名韋昭撰 → 辯釋名"),
@@ -96,7 +97,7 @@ def merge_keep(old, keep, old_id, reason, stats):
 
     keep["ai_note"] = (
         (keep.get("ai_note") or "")
-        + f"\n\n2026-08-09 題名重出 Round 1：合併空殼 Work {old_id}（{old.get('title')}）入本條；判準：{reason}。"
+        + f"\n\n2026-08-09 {ROUND_NAME}：合併空殼 Work {old_id}（{old.get('title')}）入本條；判準：{reason}。"
     ).strip()
     keep["updated_at"] = now_iso()
 
