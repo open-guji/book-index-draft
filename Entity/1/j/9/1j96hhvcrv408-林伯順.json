@@ -10,7 +10,7 @@
       "type": "字"
     }
   ],
-  "dynasty": "南朝宋",
+  "dynasty": "宋",
   "works": [
     {
       "work_id": "1evgoq7j6beo0",
@@ -27,9 +27,11 @@
   ],
   "external_ids": {
     "cbdb_id": 42910,
-    "cbdb_match": "manual",
+    "cbdb_match": "manual ; dynasty_fix: 南朝宋→宋 per CBDB dy=15=宋 (D2 batch)",
     "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=15 altname"
   },
   "updated_at": "2026-08-08T18:11:45+00:00",
-  "dynasty_basis": "work_period:nanbeichao→南朝宋"
+  "dynasty_basis": "work_period:nanbeichao→南朝宋",
+  "period": "song",
+  "period_basis": "據 dynasty『宋』自動歸併（修正：CBDB 來源 cbdb_dy=15=宋；原誤標為『南朝宋』，疑因『宋』字混淆——南朝宋/宋/唐 導致同名混淆）"
 }
