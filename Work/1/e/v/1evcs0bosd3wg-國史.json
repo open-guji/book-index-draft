@@ -23,7 +23,7 @@
     }
   ],
   "id": "1evcs0bosd3wg",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'雷叔聞'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志', '新唐書藝文志'] needs-review (gazetteer_propagation)]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'雷叔聞' 庫中無 Entity，朝代待考）。 indexed_by 同時含新唐書藝文志(國史106卷)、宋史藝文志(王旦《國史》120卷)、明史藝文志(雷叔聞《國史》40卷)，三朝同名異書合併於同一 Work，gazetteer_propagation 判斷 dynasty=明 存疑，建議人工核查雷叔聞朝代及是否拆分 Work。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志', '新唐書藝文志'] needs-review (author_unverified: 雷叔聞無Entity + tri-dynasty_homograph_merged: 唐/宋/明三朝同名國史合併)]",
   "updated_at": "2026-08-09T10:49:16+00:00",
   "period": "ming",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
