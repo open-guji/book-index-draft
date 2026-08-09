@@ -7,7 +7,8 @@
     {
       "name": "不著撰人",
       "role": "撰",
-      "dynasty": "明"
+      "dynasty": "南宋",
+      "dynasty_basis": "四庫全書總目提要明確：『所記皆南宋末忠節事蹟...蓋宋遺民之所作也』。內容始紹定辛卯(1231)迄宋亡(1279)文天祥陸秀夫謝枋得等130人"
     }
   ],
   "indexed_by": [
@@ -133,7 +134,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周璟'）。 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgbvw23l6v4 合併。原註：元史藝文志失名 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'周璟'）。 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgbvw23l6v4 合併。原註：元史藝文志失名 作者「明不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] [B3-fix: author.dynasty 明→南宋，period ming→song，dynasty 明→南宋（四庫總目+元史藝文志確定為宋遺民記宋末事）；needs-review: 本 Work 同時著錄『宋遺民昭忠錄一卷』與『明周璟昭忠錄五卷』兩部同名異書（卷數1 vs 5，作者佚名 vs 周璟），係錯誤合併，建議拆分為兩個 Work]",
   "measures": [
     {
       "unit": "卷",
@@ -150,8 +151,8 @@
   "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "period": "song",
+  "period_basis": "四庫總目+元史藝文志均以為宋遺民作品，記宋末事，不應屬明/遼金元",
+  "dynasty": "南宋",
+  "dynasty_basis": "四庫全書總目提要：『蓋宋遺民之所作也』（宋遺民係宋人入元不仕，朝代仍歸南宋）"
 }
