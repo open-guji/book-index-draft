@@ -1,6 +1,45 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-08（PR #17 已推送：殘名撰人 + 秦漢同名異書 batch1-16，待 review）
+更新：2026-08-08（PR #21 已推送：南北朝朝代拆分 Round 1+2，待 review）
+
+---
+
+## 朝代規範化
+
+### 南北朝朝代拆分（✅ 已推 PR #21，待 review/合併）
+
+**分支**：`fix/nanbeichao-dynasty`
+
+**處理範圍**：entity 和 author 層的歧義 dynasty 值（宋/晉/梁/周/齊/魏/吳/蜀/陳等），
+拆分為學界通用的無歧義規範名（北宋/南宋/南朝宋/西晉/東晉/南朝梁/北魏等）。
+
+**Round 1**（fix_nanbeichao_round1.py）：
+- Batch A: CBDB c_dy 判定（1381 個有 cbdb_id 的 entity）
+- Batch B: 歷史人物詞典
+- Batch C: 隋志上限信號
+- Batch D: Work.period 信號
+- Batch E/F: Entity↔Author 雙向傳播
+
+**Round 2**（fix_nanbeichao_round2.py）：
+- Batch A2: CBDB IndexYear 判定（補充查詢 1381 個 cbdb_id 的 IndexYear）
+- Batch B2: Work.title 年號關鍵詞
+- Batch C2: 歷史人物詞典擴充（晉代 135+ 人物）
+- Batch D2: Work.indexed_by 信號補強
+- Batch E2: 誤標清理
+- Batch F2/G2: Entity↔Author 雙向傳播
+
+**成果**：
+| 歧義值 | Round 1 前 | Round 2 後 | 解決比例 |
+|---|---|---|---|
+| entity.宋 | 2349 | 536 | 77% |
+| entity.晉 | 886 | 298 | 66% |
+| author.宋 | 3962 | 1173 | 70% |
+| author.晉 | 1043 | 380 | 64% |
+
+**剩餘工作**：
+- [ ] PR #21 review/合併後 close
+- [ ] 剩餘 ~536 entity.宋（c_dy=15 無 IndexYear）+ ~298 entity.晉（無 cbdb_id 殘名）待 Round 3
+- [ ] 詳見 `.claude/known-issues/南北朝未決.json`
 
 ---
 
