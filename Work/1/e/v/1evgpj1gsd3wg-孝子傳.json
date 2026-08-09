@@ -6,8 +6,9 @@
     {
       "name": "蕭衍",
       "role": "撰",
-      "dynasty": "梁",
-      "entity_id": null
+      "dynasty": "南朝梁",
+      "entity_id": "1j967afjav1vw",
+      "dynasty_basis": "entity_work_oneway_round1:國史經籍志作「梁武帝」，即梁武帝蕭衍；Entity 1j967afjav1vw 已為南朝梁蕭衍。"
     }
   ],
   "juan_count": {
@@ -28,7 +29,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 修復：「武帝[梁]」=梁武帝蕭衍，朝代「梁」被誤拆為朝代欄+帝號為名。國史經籍志原文「梁武帝」即蕭衍（464-549），著《孝子傳》三十卷。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 修復：「武帝[梁]」=梁武帝蕭衍，朝代「梁」被誤拆為朝代欄+帝號為名。國史經籍志原文「梁武帝」即蕭衍（464-549），著《孝子傳》三十卷。\n\n[entity-work-oneway-round1: 補回 蕭衍 entity_id；國史經籍志作「梁武帝」，即梁武帝蕭衍；Entity 1j967afjav1vw 已為南朝梁蕭衍。]",
   "id": "1evgpj1gsd3wg",
   "measures": [
     {
@@ -37,5 +38,9 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-08-08"
+  "updated_at": "2026-08-09T15:21:28+00:00",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "entity_work_oneway_round1:國史經籍志作「梁武帝」，即梁武帝蕭衍；Entity 1j967afjav1vw 已為南朝梁蕭衍。",
+  "period": "nanbeichao",
+  "period_basis": "據 dynasty「南朝梁」自動歸併"
 }

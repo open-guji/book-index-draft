@@ -1,12 +1,12 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
+更新：2026-08-09（人物↔作品單向 Round 1 已清零；清朝整理 Round 1-6 已上 main；明朝 Round 2 已上 main）
 
 ---
 
 ## 朝代規範化
 
-### 清朝整理 Round 1（✅ 本地完成，待推 PR）
+### 清朝整理 Round 1（✅ 已上 main）
 
 **分支**：`fix/qing-dynasty-round1`
 
@@ -35,7 +35,7 @@
 
 ---
 
-### 清朝整理 Round 2（✅ 本地完成，待推 PR）
+### 清朝整理 Round 2（✅ 已上 main）
 
 **腳本**：
 - `scripts/investigate_qing_round2.py`：彙整 Round 1 未決 Work/Entity 的庫內書目提要、CBDB cache、同名 Entity 分布
@@ -67,7 +67,7 @@
 
 ---
 
-### 清朝整理 Round 3（✅ 本地完成，待推 PR）
+### 清朝整理 Round 3（✅ 已上 main）
 
 **腳本**：`scripts/fix_qing_round3_remaining.py`
 
@@ -88,7 +88,7 @@
 
 ---
 
-### 清朝整理 Round 4 抽查（✅ 本地完成，待推 PR）
+### 清朝整理 Round 4 抽查（✅ 已上 main）
 
 **腳本**：`scripts/fix_qing_round4_audit.py`
 
@@ -112,7 +112,7 @@
 
 ---
 
-### 清朝整理 Round 5 疑點與抽查（✅ 本地完成，待推 PR）
+### 清朝整理 Round 5 疑點與抽查（✅ 已上 main）
 
 **腳本**：`scripts/fix_qing_round5_remaining_audit.py`
 
@@ -141,7 +141,7 @@
 
 ---
 
-### 清朝整理 Round 6 宋史春秋類串位（✅ 本地完成，待推 PR）
+### 清朝整理 Round 6 宋史春秋類串位（✅ 已上 main）
 
 **腳本**：`scripts/fix_qing_round6_songshi_chunqiu_shift.py`
 
@@ -431,8 +431,32 @@ Entity.period=ming 3,850 條，dynasty 俱明；另 22 Entity.dynasty 屬明系�
 > 那裡的每一條都是一張「動手前的對照表」——尤其是**準備新建 work 之前**，
 > 先對 `殘名撰人.md`：比對不合未必真是庫中沒有。
 
+### 人物↔作品單向 Round 1（✅ 本地完成，待推 PR）
+
+**腳本**：`scripts/fix_entity_work_oneway_round1.py`
+
+**對象**：`chk.py` 報出的 33 條 `Entity.works → Work` 單向殘留。
+
+**處理規則**：
+- 高置信補回 1 條 Work 作者 `entity_id`：梁武帝蕭衍《孝子傳》。
+- 其餘 32 條為舊批次改作者、置空 entity_id 或同名異人修正後殘留在 `Entity.works` 的 stale 回連，刪除 Entity 側 works 條目。
+
+**已修復**：
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.authors[].entity_id 補回 | 1 | `孝子傳`：梁武帝蕭衍 |
+| Work.dynasty/period 補全 | 1 | `孝子傳`：南朝梁 / nanbeichao |
+| Entity.works stale 回連移除 | 32 | 清除舊誤配與殘名/同名異人回連 |
+| index/works 同步 | 1 | 同步 `孝子傳` author/dynasty/period |
+
+**驗證**：
+- `人物→作品 單向 0`，`作品→人物 單向 0`
+- `chk.py` 完整通過；索引欄位不符 197（較 main 當前 198 少 1），period 枚舉不合 0
+- 詳見 `.claude/known-issues/人物作品單向_round1已修復.json`
+
 
 ### 補晉書藝文志 13 條錄入錯誤（✅ 已修復）
+
 
 **修復狀態**：✅ 完成（2026-05-01）
 

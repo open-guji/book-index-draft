@@ -1,0 +1,185 @@
+{
+  "description": "人物↔作品單向 Round 1：修復 Entity→Work 單向殘留",
+  "scope": "處理 chk.py 報出的 33 條人物→作品單向；高置信補回 1 條 Work 作者 entity_id，其餘 32 條移除 Entity.works stale 回連。",
+  "added_work_author_links": [
+    {
+      "work_id": "1evgpj1gsd3wg",
+      "title": "孝子傳",
+      "entity_id": "1j967afjav1vw",
+      "entity_name": "蕭衍",
+      "author_name": "蕭衍",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "period": "nanbeichao",
+      "basis": "國史經籍志作「梁武帝」，即梁武帝蕭衍；Entity 1j967afjav1vw 已為南朝梁蕭衍。"
+    }
+  ],
+  "removed_entity_work_links": [
+    {
+      "entity_id": "1j96hjwlxny3u",
+      "work_id": "1ev7xm2sm7vgg",
+      "reason": "臣說賦作者保留殘名「說」，原竇說回連為舊誤配"
+    },
+    {
+      "entity_id": "1j96hjwlyaf4v",
+      "work_id": "1evfuuthi4w00",
+      "reason": "遠游志作者已改為殘名「續」，非釋福登"
+    },
+    {
+      "entity_id": "1j96ad68m1zpc",
+      "work_id": "1evgpnggtt62o",
+      "reason": "莊子講疏作者張機未證即張仲景"
+    },
+    {
+      "entity_id": "1j96h8rw7vhih",
+      "work_id": "1evgojczezi80",
+      "reason": "合浦珠作者清徐震，非明徐震"
+    },
+    {
+      "entity_id": "1j96hhvcrjvhe",
+      "work_id": "1evdidd5s2znk",
+      "reason": "華嚴法界境作者德清，非元升"
+    },
+    {
+      "entity_id": "1j96hjwlxny3q",
+      "work_id": "1ev7xkh7f48w0",
+      "reason": "臣彭作者保留殘名「彭」，原釋紹明回連為舊誤配"
+    },
+    {
+      "entity_id": "1j96hhvcrjviq",
+      "work_id": "1evfuvlzosow0",
+      "reason": "靖恭堂銘作者劉昞，非劉銑"
+    },
+    {
+      "entity_id": "1j96ha8kt5jwg",
+      "work_id": "1evfuvlh38npc",
+      "reason": "老子注作者「氏」為不詳殘名，不應回連人物 Entity"
+    },
+    {
+      "entity_id": "1j96hel2x07wg",
+      "work_id": "1ev3badi9bxmo",
+      "reason": "靖炎兩朝見聞錄作者陳東，非殘名東"
+    },
+    {
+      "entity_id": "1j96hhvcrjvj7",
+      "work_id": "1evga65pp3g1s",
+      "reason": "太極圖解釋義作者元許珍，非北宋許珍"
+    },
+    {
+      "entity_id": "1j96hjwlyaf61",
+      "work_id": "1evga3af5tbls",
+      "reason": "太祖實錄作者完顏宗弼，非舒庭謨"
+    },
+    {
+      "entity_id": "1j96hfvnmujnk",
+      "work_id": "1evgpmxxxalmo",
+      "reason": "忠經 Work 註明原海鵬 entity_id 為錯誤關聯"
+    },
+    {
+      "entity_id": "1j967bgl89icn",
+      "work_id": "1evgbzfgq57uo",
+      "reason": "道德經注作者元王珪，非北宋王珪"
+    },
+    {
+      "entity_id": "1j967c148wsnm",
+      "work_id": "1evgpivar79xc",
+      "reason": "諸路轉運司編勑作者陳彭年，非殘名彭年"
+    },
+    {
+      "entity_id": "1j96hfxgmpfk0",
+      "work_id": "1evgpo81ykc8w",
+      "reason": "蘇耽傳作者已置佚名，原長殘名回連為舊誤配"
+    },
+    {
+      "entity_id": "1j96hei5hwzk0",
+      "work_id": "1evr5e3mfaxxj",
+      "reason": "左氏膏肓作者何休，非殘名掾何休始"
+    },
+    {
+      "entity_id": "1j96hgd6jn18g",
+      "work_id": "1evdidlitufwg",
+      "reason": "兩都賦作者已改桑悅並另有 Entity"
+    },
+    {
+      "entity_id": "1j967cp21969z",
+      "work_id": "1evdie3p8va4g",
+      "reason": "夢觀集作者釋守仁，非林富"
+    },
+    {
+      "entity_id": "1j96hldyxbt34",
+      "work_id": "1ev7xkh9dz474",
+      "reason": "待詔臣饒心術作者保留殘名饒，不回連釋祖賢"
+    },
+    {
+      "entity_id": "1j96a9eeaj4sg",
+      "work_id": "1evfubme77qio",
+      "reason": "禮記音作者謝模，非謝沈"
+    },
+    {
+      "entity_id": "1j96kegcdkkcg",
+      "work_id": "1evfuuz7xqsqo",
+      "reason": "甄異記作者戴祚，非戴逵"
+    },
+    {
+      "entity_id": "1j968k0jdrlz7",
+      "work_id": "1evke141j8b28",
+      "reason": "二十四史作者已置佚名，非司馬遷單撰"
+    },
+    {
+      "entity_id": "1j96kejeblo8w",
+      "work_id": "1evgomnkx23uo",
+      "reason": "兒女英雄傳 Work 註明原文康 Entity 為錯誤關聯"
+    },
+    {
+      "entity_id": "1j96hjwlxny11",
+      "work_id": "1ev3bbmslhvr4",
+      "reason": "天文書作者明柯洽，非南朝宋柯洽"
+    },
+    {
+      "entity_id": "1j96hjwlylnqg",
+      "work_id": "1evgq9ln4jxmo",
+      "reason": "西廵類稿作者吳廷舉，非張相侯"
+    },
+    {
+      "entity_id": "1j96hfxdvfytc",
+      "work_id": "1evgpo5vxv0g0",
+      "reason": "周義山內傳作者周義山，非殘名人居紫陽山"
+    },
+    {
+      "entity_id": "1j96h8rw790e2",
+      "work_id": "1ev3bcmg50bnk",
+      "reason": "雲間雜記作者已置佚名，非劉文耀"
+    },
+    {
+      "entity_id": "1j967bgl70k5j",
+      "work_id": "1evkpxffmr7k0",
+      "reason": "蠡海集作者明王逵，非北宋王逵"
+    },
+    {
+      "entity_id": "1j96hhvcr8my2",
+      "work_id": "1ev3bb5v90l4w",
+      "reason": "宋史闡幽作者明許浩，非清許浩"
+    },
+    {
+      "entity_id": "1j96hjwlxny3v",
+      "work_id": "1ev7xm2takdts",
+      "reason": "臣義賦作者保留殘名義，原董葵回連為舊誤配"
+    },
+    {
+      "entity_id": "1j96hhvcrjvh2",
+      "work_id": "1ev3bdii6aa68",
+      "reason": "茶山老人遺集作者元沈貞，非朝鮮沈貞"
+    },
+    {
+      "entity_id": "1jae2gjvgxkba",
+      "work_id": "1ev3ba9nc3qbk",
+      "reason": "增修復古編作者已改吳均且 entity_id 置空，謝堃回連為舊誤配"
+    }
+  ],
+  "stats": {
+    "work.author_entity_id_added": 1,
+    "work.dynasty_period_set": 1,
+    "entity.stale_work_link_removed": 32,
+    "index.work_synced": 1
+  }
+}
