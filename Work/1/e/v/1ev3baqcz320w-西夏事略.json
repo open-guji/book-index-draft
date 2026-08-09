@@ -8,7 +8,8 @@
       "name": "陳昆",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j96hjwlxcpk4"
+      "entity_id": "1j96hjwlxcpk4",
+      "dynasty_basis": "Entity 1j96hjwlxcpk4=陳昆=清人（CBDB dy=19=清；CBDB dy=19=清(cbdb_id=289658)；清史稿藝文志）"
     }
   ],
   "indexed_by": [
@@ -76,5 +77,6 @@
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": " [C4-fix: needs-review(critical) 同名異書合併！西夏事略存在兩書：① 四庫總目一卷本=偽題承議郎王稱(=王偁)撰，抄北宋王偁《東都事略·西夏傳》(宋人)，曹溶學海類編收之失考；② 清史稿藝文志十六卷本=清陳昆撰。本 Work 將宋一卷(偽題王偁)+清十六卷(陳昆) 兩同名異書合併，建議拆分為兩 Work。]"
 }
