@@ -23,6 +23,7 @@
 | Book↔Work 互指錯位 | 4 | 阜陽、馬王堆、定州、北大藏同名出土文獻回指各自 Work |
 | 整理本回鏈漏記 | 11 Work / 12 sections | 補 `隋書經籍志考證` section 對應 Work 的 `emendated_by` 回鏈 |
 | main 更新後人物↔作品單向 | 33 | 10 條可信同人補 Work 作者 `entity_id`；23 條誤繫從 Entity.works 刪除 |
+| 整理本單數 work_id 落空 | 25 | 原文替換方式重連人工篩過的單候選；落空由 346 降至 321 |
 
 **驗證**：
 - `索引指向不存在檔案 0`
@@ -35,7 +36,7 @@
 - `輯佚檔 1234 不合 0`
 
 **仍留未決**：
-- `整理本繫連落空 section 346`：未命中既有 `merged_in`，不可機械重定向，需逐條建檔或人工判讀。
+- `整理本繫連落空 section 321`：剩餘多為無候選、候選不唯一、通名假陽性、基書/注本混淆，需逐條建檔或人工判讀。
 - `題名重出 67`：需逐組判斷同書、注本、別本或題名消歧。
 
 **記錄**：
@@ -43,6 +44,7 @@
 - `.claude/known-issues/出土文獻BookWork互指_round1已修復.json`
 - `.claude/known-issues/整理本Work側回鏈_round1已修復.json`
 - `.claude/known-issues/人物作品單向_main_round1已修復.json`
+- `.claude/known-issues/整理本落空work_id_round1已修復.json`
 
 ---
 

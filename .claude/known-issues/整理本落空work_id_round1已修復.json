@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-09",
+  "issue": "整理本 section 單數 work_id 指向未生成或已不存在的 Work。",
+  "principle": "僅以原文替換修復人工篩過的單候選，避免重排大型 JSON；不處理 work_ids 陣列與通名假陽性。",
+  "fixed_occurrences": 25,
+  "fixed": [
+    {
+      "file": "Work/1/e/v/1evcs059gkvls/collated_edition/樂類.json",
+      "old_id": "1evcs08ebhq0w",
+      "new_id": "1evgoqiohfw1s",
+      "count": 1,
+      "reason": "信都芳《刪注樂書》"
+    },
+    {
+      "file": "Work/1/e/v/1evjk1whvmznk/collated_edition/史部.json",
+      "old_id": "1evgpk3y61rsw",
+      "new_id": "1ev3bayp8fwu8",
+      "count": 1,
+      "reason": "古今游名山記總綠"
+    },
+    {
+      "file": "Work/1/e/v/1evjk1whvmznk/collated_edition/史部.json",
+      "old_id": "1ev3bb0acvbi8",
+      "new_id": "1evkpofydbe2o",
+      "count": 1,
+      "reason": "牧津"
+    },
+    {
+      "file": "Work/1/e/v/1eve1ei9whji8/collated_edition/經部一·易類.json",
+      "old_id": "1evf0g32tvbi8",
+      "new_id": "1evf0fpzcuigw",
+      "count": 1,
+      "reason": "陸績《周易日月變例》"
+    },
+    {
+      "file": "Work/1/e/v/1eve1ei9whji8/collated_edition/經部四·禮類.json",
+      "old_id": "1evfaajklk2yo",
+      "new_id": "1evfa9g12f8xs",
+      "count": 1,
+      "reason": "曹充《慶氏禮章句》"
+    },
+    {
+      "file": "Work/1/e/v/1ev88ee9jw6ps/collated_edition/五行類.json",
+      "old_id": "1evdid3qjb6kg",
+      "new_id": "1evdibiaetds0",
+      "count": 1,
+      "reason": "王宇《周易佔林》"
+    },
+    {
+      "file": "Work/1/e/v/1evfu57n5n37k/collated_edition/甲部經錄·論語類.json",
+      "old_id": "1evcpcuxvkcu8",
+      "new_id": "1evgor83scydc",
+      "count": 1,
+      "reason": "爾雅圖"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/子類下.json",
+      "old_id": "1evka8sutay9s",
+      "new_id": "1evkpgeelz1ts",
+      "count": 1,
+      "reason": "寓簡"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/史類.json",
+      "old_id": "1evgphn7j18n4",
+      "new_id": "1evgpgzijtyww",
+      "count": 2,
+      "reason": "唐典"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/史類.json",
+      "old_id": "1evgpj7at79j4",
+      "new_id": "1evgphec5e41s",
+      "count": 3,
+      "reason": "嘉祐名臣傳"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/經類.json",
+      "old_id": "1evkaclbu13b4",
+      "new_id": "1evkpgdu9zk00",
+      "count": 1,
+      "reason": "周易輯聞"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/經類.json",
+      "old_id": "1evgoqhyz3pxc",
+      "new_id": "1ev3b9zu5pkao",
+      "count": 1,
+      "reason": "讀禮疑圖"
+    },
+    {
+      "file": "Work/1/e/v/1ev3bb4qxubr4/collated_edition/經類.json",
+      "old_id": "1evetxcz2boxs",
+      "new_id": "1evgor8mryo00",
+      "count": 1,
+      "reason": "爾雅音略"
+    },
+    {
+      "file": "Work/1/e/v/1eve1eig5jn5s/collated_edition/卷四.json",
+      "old_id": "1evftexb01yio",
+      "new_id": "1evcmoaxw2yv4",
+      "count": 1,
+      "reason": "駱統集"
+    },
+    {
+      "file": "Work/1/e/v/1evdiulq07rwg/collated_edition/雜家類.json",
+      "old_id": "1evjxlz977kzk",
+      "new_id": "1ev3bc1kw8feo",
+      "count": 1,
+      "reason": "方齋補莊"
+    },
+    {
+      "file": "Work/1/e/v/1eve1ek5qq9kw/collated_edition/全文.json",
+      "old_id": "1evgbzxtv2z28",
+      "new_id": "1evrfi1ev8e80",
+      "count": 1,
+      "reason": "素問玄機原病式"
+    },
+    {
+      "file": "Work/1/e/v/1evjxczyavy80/collated_edition/史部.json",
+      "old_id": "1evdic0gbf7y8",
+      "new_id": "1ev3bag5k581s",
+      "count": 1,
+      "reason": "皇明繩武編擬續大學衍義"
+    },
+    {
+      "file": "Work/1/e/v/1evjxczyavy80/collated_edition/史部.json",
+      "old_id": "1evjr1oajxkhs",
+      "new_id": "1ev3bax124yyo",
+      "count": 1,
+      "reason": "黃山志定本"
+    },
+    {
+      "file": "Work/1/e/v/1evjxczyavy80/collated_edition/史部.json",
+      "old_id": "1ev3bb0acvbi8",
+      "new_id": "1evkpofydbe2o",
+      "count": 1,
+      "reason": "牧津"
+    },
+    {
+      "file": "Work/1/e/u/1eujf2fs4v280/collated_edition/juan003.json",
+      "old_id": "1evkaclbu13b4",
+      "new_id": "1evkpgdu9zk00",
+      "count": 1,
+      "reason": "周易輯聞"
+    },
+    {
+      "file": "Work/1/e/u/1eujf2fs4v280/collated_edition/juan080.json",
+      "old_id": "1evjxl2gx2a68",
+      "new_id": "1evkpofydbe2o",
+      "count": 1,
+      "reason": "牧津"
+    },
+    {
+      "file": "Work/1/e/u/1eujf2fs4v280/collated_edition/juan121.json",
+      "old_id": "1evka8sutay9s",
+      "new_id": "1evkpgeelz1ts",
+      "count": 1,
+      "reason": "寓簡"
+    }
+  ]
+}
