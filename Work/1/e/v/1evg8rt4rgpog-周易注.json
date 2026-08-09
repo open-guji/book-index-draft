@@ -22,7 +22,7 @@
   "juan_count": {
     "number": 10
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('1evftefbsfbpc', '王弼', '三國魏'), ('1evfhb8y8w83k', '王肅', '魏'), ('1evfubcy95pfk', '向秀', '晉'), ('1evf0g30g124g', '鄭衆', '東漢'), ('1evf0fpqgl14w', '鄭衆', '東漢'), ('1evfubb5ajrpc', '蜀才', '晉'), ('1evftef5bvj0g', '虞翻', '三國吳'), ('1evfubb2fjgg0', '太子中庶子', '晉'), ('1evfubau4i41s', '黄穎', '晉'), ('1evfubazp7pc0', '張瑞', '晉'), ('1evftefk9e6f4', '荀輝', '三國魏'), ('1evfubaww2tc0', '騎將軍王廣', '晉')]，本條作者 張應珍（元），另建",
+  "ai_note": "同名異書：已有 Work 作者為 [('1evftefbsfbpc', '王弼', '三國魏'), ('1evfhb8y8w83k', '王肅', '魏'), ('1evfubcy95pfk', '向秀', '晉'), ('1evf0g30g124g', '鄭衆', '東漢'), ('1evf0fpqgl14w', '鄭衆', '東漢'), ('1evfubb5ajrpc', '蜀才', '晉'), ('1evftef5bvj0g', '虞翻', '三國吳'), ('1evfubb2fjgg0', '太子中庶子', '晉'), ('1evfubau4i41s', '黄穎', '晉'), ('1evfubazp7pc0', '張瑞', '晉'), ('1evftefk9e6f4', '荀輝', '三國魏'), ('1evfubaww2tc0', '騎將軍王廣', '晉')]，本條作者 張應珍（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evg8rt4rgpog",
   "measures": [
     {
@@ -38,7 +38,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

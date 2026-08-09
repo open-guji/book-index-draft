@@ -27,7 +27,7 @@
   "juan_count": {
     "number": 10
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('馮道玄', '元')]，本條作者 馮道元（元），另建",
+  "ai_note": "同名異書：已有 Work 作者為 [('馮道玄', '元')]，本條作者 馮道元（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evgc06117j0g",
   "measures": [
     {
@@ -36,7 +36,9 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

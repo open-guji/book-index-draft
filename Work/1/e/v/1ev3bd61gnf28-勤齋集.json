@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。\n\n2026-08-08 修：撰人「蕭」補全為「蕭㪺」。據summary「蕭㪺《勤齋集》八卷」。",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。\n\n2026-08-08 修：撰人「蕭」補全為「蕭㪺」。據summary「蕭㪺《勤齋集》八卷」。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "measures": [
     {
       "unit": "卷",
@@ -76,9 +76,11 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

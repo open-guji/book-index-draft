@@ -1,12 +1,54 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（隋唐未決深查：1831 Work 補 dynasty，7 Entity 補 period，1 棄權）
+更新：2026-08-09（遼金元未決深查：3898 Work 補 dynasty，77 Entity 補 period，328 棄權）
 
 ---
 
 ## 朝代規範化
 
-### 隋唐未決深查（✅ 本地完成，待推 PR）
+### 遼金元未決深查（✅ 本地完成，待推 main）
+
+**腳本**：
+- `scripts/investigate_liao_jin_yuan.py`：只讀深查，輸出 `.claude/known-issues/遼金元未決.json`
+- `scripts/fix_liao_jin_yuan_round1.py`：高置信補全 Work.dynasty + Entity.period + 誤入遼金元之南宋 Work 移出
+
+**深查結論**：
+- `period=liao-jin-yuan` 之 4,227 Work 原全數 dynasty 為空。
+- author.dynasty 分布：元 3501 / 金 369 / 遼 31 / null 5 / 三國魏 1。
+- Entity 側 period=liao-jin-yuan 1588 條，dynasty 俱已補（元 1442、金 125、遼 18、金元 2、偽齊 1）。
+
+**已修復**：
+
+| 類型 | 數量 | 說明 |
+|---|---:|---|
+| Work.dynasty 補全 | 3,898 | 元 3497 + 金 369 + 遼 31 + 金元 1 + 南宋 1（誤入遼金元移出） |
+| Work.period 變更 | 1 | liao-jin-yuan → song（王厚之南宋，經 CBDB c_dy=15 證） |
+| Entity.period 補全 | 76 | 元 69、金 7 → period=liao-jin-yuan（period_basis=synonym） |
+| Entity.period 補全 | 1 | 王厚之 → period=song（period_basis=cross_check，CBDB c_dy=15） |
+| Work author.dynasty 覆蓋 | 2 | 桐江詩派 李康（三國魏→元）、王厚之（null→南宋） |
+| 棄權（no_author） | 328 | 無 authors，無從據 author.dynasty 補全，留人工 |
+| index 同步 | 33 shards | works 16+1 shards（3899 dynasty_sync + 1 period_sync），entities 16 shards（77 period_sync） |
+
+**判準**：
+- Work.dynasty_basis = `author_propagation`（據 author.dynasty；author.dynasty null 時 fallback 至 Entity.dynasty）。
+- Work.period_basis = `cross_check`（CBDB c_dy=15 證為南宋北宋時，period 由 liao-jin-yuan 改 song）。
+- Entity.period_basis = `synonym`（dynasty=遼/金/元…→period=liao-jin-yuan 派生），或 `cross_check`（CBDB 證改 song）。
+- 含非遼金元 author.dynasty（如三國魏）時，優先以 Entity.dynasty 覆蓋（Entity 是主檔）；若 Entity.dynasty 亦屬非規範則棄權。
+
+**驗證**：
+- `period=liao-jin-yuan` 但 dynasty 仍空：328（= 全部 no_author）
+- period=liao-jin-yuan 且 dynasty=南宋/北宋（誤入殘留）：0
+- Work 索引 dynasty 不符：0；Work 索引 period 不符：23（預存，不變）
+- Entity 索引 dynasty 不符：0；Entity 索引 period 不符：1189（-1，王厚之被正確同步）
+- chk.py 基線全數不變（索引欄位不符 197、懸空關聯 3、B→W 4、人物→作品 24、整理本 12、輯佚檔 2）
+
+**剩餘邊界**：
+- 328 個 no_author：無法據 author 補 dynasty，需下輪人工或其他規則（如 indexed_by 之斷代志）推斷。
+- 預存 23 Work / 1189 Entity period 索引/檔案不符（索引有 period 而檔案 None）為歷史批次遺留，待 index 重建輪。
+
+---
+
+### 隋唐未決深查（✅ 已上 main）
 
 **腳本**：
 - `scripts/investigate_sui_tang.py`：只讀深查，輸出 `.claude/known-issues/隋唐未決.json`

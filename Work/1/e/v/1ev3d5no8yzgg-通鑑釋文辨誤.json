@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "ai_note": "作者 \"元胡三省撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy64fuxedc 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。",
+  "ai_note": "作者 \"元胡三省撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy64fuxedc 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "description": {
     "text": "本書收入《中華再造善本》金元編（ZHSY000550）。元刻本。",
     "sources": [
@@ -89,9 +89,11 @@
       "id": "8rlb6yi1ecqo"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

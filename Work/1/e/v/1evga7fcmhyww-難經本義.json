@@ -49,7 +49,7 @@
       "補遼金元藝文志"
     ]
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 滑壽（元），另建 | 從 1ev3bbfszlkw0 合併。原註：作者「元滑壽注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgq44sa962o 合併。原註：从卷二 ambiguous 新建：unresolved 作者「元滑壽注」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 滑壽（元），另建 | 從 1ev3bbfszlkw0 合併。原註：作者「元滑壽注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgq44sa962o 合併。原註：从卷二 ambiguous 新建：unresolved 作者「元滑壽注」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evga7fcmhyww",
   "measures": [
     {
@@ -173,9 +173,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

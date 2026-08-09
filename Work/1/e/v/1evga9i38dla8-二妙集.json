@@ -43,7 +43,7 @@
       "補遼金元藝文志"
     ]
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 段克己（金），另建 | 從 1ev3belrv4rnk 合併。原註：作者「金段克己撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 段克己（金），另建 | 從 1ev3belrv4rnk 合併。原註：作者「金段克己撰」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]",
   "id": "1evga9i38dla8",
   "measures": [
     {
@@ -149,9 +149,11 @@
     "11qki72po48ow",
     "11q37ujlikf7k"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」"
+  "period_basis": "據 authors[0].dynasty「金」",
+  "dynasty": "金",
+  "dynasty_basis": "author_propagation"
 }

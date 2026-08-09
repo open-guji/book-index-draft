@@ -35,7 +35,7 @@
   "juan_count": {
     "number": 3
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('陸友', '元')]，本條作者 陸友仁（元），另建",
+  "ai_note": "同名異書：已有 Work 作者為 [('陸友', '元')]，本條作者 陸友仁（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evga4g1pndhc",
   "measures": [
     {
@@ -123,9 +123,11 @@
     "11qkhwqmekc8w",
     "11q37rd4vfzeo"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

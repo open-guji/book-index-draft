@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫028659-028660），無同名 Work 故新建。　entity_id 補繫：本條之撰人楊翮與庫中人物記錄（1j96hhvcrjvgz）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫028659-028660），無同名 Work 故新建。　entity_id 補繫：本條之撰人楊翮與庫中人物記錄（1j96hhvcrjvgz）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "juan_count": {
     "number": 10
   },
@@ -51,7 +51,9 @@
       "summary": "元楊翮佩玉齋類稿十卷"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }

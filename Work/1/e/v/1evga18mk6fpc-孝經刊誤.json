@@ -24,7 +24,7 @@
       "summary": "元余芑舒孝經刊誤一卷"
     }
   ],
-  "ai_note": "同名異書：已有 Work 作者為 [('朱子', '宋'), ('晏璧', '明')]，本條作者 余芑舒（元），另建",
+  "ai_note": "同名異書：已有 Work 作者為 [('朱子', '宋'), ('晏璧', '明')]，本條作者 余芑舒（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evga18mk6fpc",
   "related_works": [
     {
@@ -33,7 +33,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation"
 }
