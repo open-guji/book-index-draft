@@ -7,6 +7,12 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "五經音十卷 徐 。謹按見《隋志》。本書 傳作“五經音訓”。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《五經音》十卷",
+      "summary": "《五經音》十卷徐邈撰。"
     }
   ],
   "description": {
@@ -35,10 +41,21 @@
   ],
   "measure_info": "十卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：本書傳作「五經音訓」，即徐邈傳，見載徐邈有五經音。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：本書傳作「五經音訓」，即徐邈傳，見載徐邈有五經音。\n\n2026-08-09 題名重出 Round 1：合併空殼 Work 1evc5pef3adc0（五經音徐邈撰）入本條；判準：五經音徐邈撰 → 五經音。",
+  "updated_at": "2026-08-09T18:40:25+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "additional_titles": [
+    "五經音徐邈撰"
+  ],
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "五經音十卷 徐撰",
+      "summary": "五經音十卷 徐撰\n徐 有《周易音》,見前易類。\n《晉書·儒林傳》:孝武帝時, 在西省侍帝,雖不口傳章句,\n然開釋文義,標明指趣,撰正《五經音訓》,學者宗之。\n按徐氏《五經音》,本志分著於録者,有《周易音》一卷、《古\n文尚書音》一卷、《毛詩音》二卷、《三禮音》三卷、《左氏音》\n三卷、《論語音》二卷,凡十二卷,並見於前,此其合并為\n性者。"
+    }
+  ]
 }
