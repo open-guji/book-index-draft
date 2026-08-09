@@ -1,16 +1,17 @@
 # 古籍書目索引擴展計劃
 
-更新：2026-08-09（結構校驗 Round 1 已清零索引/互指/輯佚檔/整理本回鏈核心不合；清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
+更新：2026-08-09（結構校驗 Round 1 已在 main 本地完成，清零索引/互指/輯佚檔/整理本回鏈核心不合；清朝整理 Round 6 已推 PR；明朝 Round 2 已上 main，ming 完全收斂，10430/10430 dynasty 完備）
 
 ---
 
 ## 結構校驗清理
 
-### Round 1（✅ 待提交）
+### Round 1（✅ main 本地完成，待推送）
 
 **腳本**：
 - `scripts/fix_index_sync_round1.py`
 - `scripts/fix_collated_work_backlinks_round1.py`
+- `scripts/fix_entity_work_oneway_main_round1.py`
 
 **已修復**：
 | 類型 | 數量 | 說明 |
@@ -21,6 +22,7 @@
 | 輯佚檔路徑殘留 | 1 | 刪除 `魏子` 舊 Work 目錄下重複 fragments 檔 |
 | Book↔Work 互指錯位 | 4 | 阜陽、馬王堆、定州、北大藏同名出土文獻回指各自 Work |
 | 整理本回鏈漏記 | 11 Work / 12 sections | 補 `隋書經籍志考證` section 對應 Work 的 `emendated_by` 回鏈 |
+| main 更新後人物↔作品單向 | 33 | 10 條可信同人補 Work 作者 `entity_id`；23 條誤繫從 Entity.works 刪除 |
 
 **驗證**：
 - `索引指向不存在檔案 0`
@@ -40,6 +42,7 @@
 - `.claude/known-issues/索引同步_round1已修復.json`
 - `.claude/known-issues/出土文獻BookWork互指_round1已修復.json`
 - `.claude/known-issues/整理本Work側回鏈_round1已修復.json`
+- `.claude/known-issues/人物作品單向_main_round1已修復.json`
 
 ---
 
