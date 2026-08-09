@@ -7,7 +7,7 @@
       "name": "許珍",
       "role": "撰",
       "dynasty": "元",
-      "entity_id": "1j96hhvcrjvj7"
+      "dynasty_basis": "補遼金元藝文志：『元許珍太極圖解釋義一卷』"
     }
   ],
   "indexed_by": [
@@ -34,5 +34,5 @@
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j96hhvcrjvj7=北宋許珍，與本書作者元許珍不同朝代。需人工查 CBDB 建立正確元許珍 Entity 並關聯]"
 }
