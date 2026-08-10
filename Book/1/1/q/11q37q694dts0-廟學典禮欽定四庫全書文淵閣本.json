@@ -1,45 +1,45 @@
 {
-  "schema_version": 1,
-  "id": "11q37q694dts0",
-  "type": "book",
-  "title": "廟學典禮",
-  "work_id": "1ev3bb1yhau4g",
-  "contained_in": [
+ "schema_version": 1,
+ "id": "11q37q694dts0",
+ "type": "book",
+ "title": "廟學典禮",
+ "work_id": "1evr5e3m9oo8k",
+ "contained_in": [
+  {
+   "id": "8rlb6yi1ecqo",
+   "volume_index": 648
+  }
+ ],
+ "resources": [
+  {
+   "name": "文淵閣四庫全書·第648冊",
+   "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0648冊.djvu",
+   "types": [
+    "image"
+   ]
+  },
+  {
+   "id": "ia-zhejiang-cadal",
+   "name": "Internet Archive · 浙大 CADAL 散卷",
+   "short_name": "IA·浙大",
+   "types": [
+    "image"
+   ],
+   "volumes": [
     {
-      "id": "8rlb6yi1ecqo",
-      "volume_index": 648
-    }
-  ],
-  "resources": [
-    {
-      "name": "文淵閣四庫全書·第648冊",
-      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0648冊.djvu",
-      "types": [
-        "image"
-      ]
+     "volume": "卷一~卷三",
+     "url": "https://archive.org/details/06051648.cn",
+     "imagecount": 159
     },
     {
-      "id": "ia-zhejiang-cadal",
-      "name": "Internet Archive · 浙大 CADAL 散卷",
-      "short_name": "IA·浙大",
-      "types": [
-        "image"
-      ],
-      "volumes": [
-        {
-          "volume": "卷一~卷三",
-          "url": "https://archive.org/details/06051648.cn",
-          "imagecount": 159
-        },
-        {
-          "volume": "卷四~卷六",
-          "url": "https://archive.org/details/06051649.cn",
-          "imagecount": 186
-        }
-      ]
+     "volume": "卷四~卷六",
+     "url": "https://archive.org/details/06051649.cn",
+     "imagecount": 186
     }
-  ],
-  "edition": "欽定四庫全書·文淵閣本",
-  "updated_at": "2026-05-17T20:40:27-07:00",
-  "_has_image": true
+   ]
+  }
+ ],
+ "edition": "欽定四庫全書·文淵閣本",
+ "updated_at": "2026-05-17T20:40:27-07:00",
+ "_has_image": true
 }

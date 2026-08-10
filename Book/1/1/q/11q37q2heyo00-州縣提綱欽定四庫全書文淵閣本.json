@@ -1,45 +1,45 @@
 {
-  "schema_version": 1,
-  "id": "11q37q2heyo00",
-  "type": "book",
-  "title": "州縣提綱",
-  "work_id": "1ev3bazmmu1a8",
-  "contained_in": [
+ "schema_version": 1,
+ "id": "11q37q2heyo00",
+ "type": "book",
+ "title": "州縣提綱",
+ "work_id": "1evr5e3m9oo81",
+ "contained_in": [
+  {
+   "id": "8rlb6yi1ecqo",
+   "volume_index": 602
+  }
+ ],
+ "resources": [
+  {
+   "name": "文淵閣四庫全書·第602冊",
+   "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0602冊.djvu",
+   "types": [
+    "image"
+   ]
+  },
+  {
+   "id": "ia-zhejiang-cadal",
+   "name": "Internet Archive · 浙大 CADAL 散卷",
+   "short_name": "IA·浙大",
+   "types": [
+    "image"
+   ],
+   "volumes": [
     {
-      "id": "8rlb6yi1ecqo",
-      "volume_index": 602
-    }
-  ],
-  "resources": [
-    {
-      "name": "文淵閣四庫全書·第602冊",
-      "url": "https://commons.wikimedia.org/wiki/File:文淵閣四庫全書_0602冊.djvu",
-      "types": [
-        "image"
-      ]
+     "volume": "卷一~卷二",
+     "url": "https://archive.org/details/06047663.cn",
+     "imagecount": 97
     },
     {
-      "id": "ia-zhejiang-cadal",
-      "name": "Internet Archive · 浙大 CADAL 散卷",
-      "short_name": "IA·浙大",
-      "types": [
-        "image"
-      ],
-      "volumes": [
-        {
-          "volume": "卷一~卷二",
-          "url": "https://archive.org/details/06047663.cn",
-          "imagecount": 97
-        },
-        {
-          "volume": "卷三~卷四",
-          "url": "https://archive.org/details/06047664.cn",
-          "imagecount": 37
-        }
-      ]
+     "volume": "卷三~卷四",
+     "url": "https://archive.org/details/06047664.cn",
+     "imagecount": 37
     }
-  ],
-  "edition": "欽定四庫全書·文淵閣本",
-  "updated_at": "2026-05-17T20:40:27-07:00",
-  "_has_image": true
+   ]
+  }
+ ],
+ "edition": "欽定四庫全書·文淵閣本",
+ "updated_at": "2026-05-17T20:40:27-07:00",
+ "_has_image": true
 }
