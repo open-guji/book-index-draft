@@ -17,10 +17,11 @@
   },
   "authors": [
     {
-      "name": "騎將軍王廣",
+      "name": "王廣",
       "role": "注",
       "dynasty": "晉",
-      "entity_id": "1j96hfazgsao0"
+      "entity_id": "1j96hfazgsao0",
+      "note": "原記「騎將軍王廣」，「騎將軍」係其官銜非名之一部，2026-08-10 拆出"
     }
   ],
   "juan_count": {
@@ -43,7 +44,8 @@
   ],
   "loss_status": "lost",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-10T00:00:00+00:00",
+  "ai_note": "2026-08-10 秦漢同名異書核對覆核：撰人原作「騎將軍王廣」，「騎將軍」為官銜（本條 indexed_by 之補晉書藝文志原文即如此連書），非名之一部，已拆出，authors[0].name 改為「王廣」。核與另一同名 Entity「王廣」（1j96hjwlxny3z，漢，繫《黃門書者王廣、呂嘉賦》）朝代不合，非同一人，另立新 entity，不合併。",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
