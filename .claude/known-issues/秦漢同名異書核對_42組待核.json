@@ -551,12 +551,8 @@
  {
   "title": "戰國策",
   "ids": [
-   "1ev7vo5ltthxc",
-   "1evgq0bkwwu80",
-   "1evgq0bnnjtvk",
-   "1evr5e3mi42um",
-   "1evka8kw1yl8g"
+   "1evgq0bkwwu80"
   ],
-  "note": "「飭斬三」（1evgq0bkwwu80，國史經籍志，十卷）撰人名明顯訛誤（「斬」字不類真實姓名），然無法確認其本應作何名，待人核查原始文本（國史經籍志「戰國策」條）後裁定"
+  "note": "2026-08-10 已裁決其餘 4 條：1ev7vo5ltthxc（劉向原典）保留；1evgq0bnnjtvk（吳師道，十卷）併入 1ev3bad43wn40「戰國策校注」；1evr5e3mi42um（無撰人，三十卷）併入 1ev7vo5ltthxc 為 indexed_by；1evka8kw1yl8g（穆文熙纂注，明）改題「戰國策纂注」消歧。過程中另牽出 1evcpk0a1jmdc/1evjy50nku48w/1evr5e3mkaqlx/1evcs0ce8im80 四條既有磁鐵（詳見 scripts/dedupe_zhanguoce.py），一併清理。僅存 1evgq0bkwwu80（國史經籍志，十卷，撰人題「飭斬三」）未能裁決——「飭斬三」非真實姓名字樣，整理本逐字轉錄亦然，非本輪之訛；circumstantial evidence（同出國史經籍志、同十卷、緊鄰吳師道補正條）高度疑為「鮑彪」之訛，然無法排除為另一佚名注家，未逕行合併，已加 related 存疑關聯指向「戰國策鮑彪注」(1evcpk0a1jmdc)，仍待人核《國史經籍志》原始文本裁定。"
  }
 ]
