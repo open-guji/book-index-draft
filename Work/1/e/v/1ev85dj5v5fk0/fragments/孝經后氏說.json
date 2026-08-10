@@ -36,12 +36,22 @@
    "statement": null,
    "basis": "本庫著錄之描述",
    "note": "輯家之名見於本庫 work 之描述，考證未及輯本序，條數未詳。",
-   "work_id": "1evjr68pzxog0"
+   "work_id": "1evjr68pzxog0",
+   "sections": [
+    {
+     "file": "經編·孝經類.json",
+     "index": 1,
+     "title": "孝經後氏說一卷",
+     "part": "main",
+     "juan_no": 40,
+     "lei": "孝經類"
+    }
+   ]
   }
  ],
  "cited_in_summary": [],
  "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。",
  "fragments": [],
- "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。",
+ "ai_note": "本檔自本庫 work 之描述生成。前批之生成閘門只讀考證，故凡輯本之據只見於描述者一部未立，今補之。collectors 之 basis 一律為「本庫著錄之描述」，statement 留空——描述述其有輯本而不錄其序。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。\n\n2026-08-10 Batch20：補 collectors[].sections（原見於已併入之 1ewsa49vl1xku 輯佚檔，該檔因與本檔重複記載同一輯佚事實而刪，其 section 定位資訊移入於此）。",
  "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }

@@ -1,18 +1,23 @@
 {
-  "schema_version": 1,
-  "id": "1j96hf97z8pa8",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "明德皇后馬氏",
-  "dynasty": "東漢",
-  "works": [
-    {
-      "work_id": "1evfhe2sx7zls",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "qin-han",
-  "period_basis": "據 dynasty「東漢」自動歸併"
+ "schema_version": 1,
+ "id": "1j96hf97z8pa8",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "明德皇后馬氏",
+ "dynasty": "東漢",
+ "works": [
+  {
+   "work_id": "1evfhe2sx7zls",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgphfivytj4",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {},
+ "updated_at": "2026-08-10",
+ "period": "qin-han",
+ "period_basis": "據 dynasty「東漢」自動歸併",
+ "ai_note": "2026-08-10 Batch20 Entity合併：原馬后(1j96hfr3xi3uo)為同一人之分裂Entity，已合併。"
 }
