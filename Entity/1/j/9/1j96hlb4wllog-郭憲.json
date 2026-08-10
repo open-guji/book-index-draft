@@ -1,23 +1,27 @@
 {
-  "schema_version": 1,
-  "id": "1j96hlb4wllog",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "郭憲",
-  "dynasty": "後漢",
-  "works": [
-    {
-      "work_id": "1ev3bckc4etc0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgpkboiapds",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "ai_note": "朝代標籤核對：所繫《別國洞冥記》標「漢」、《漢武洞冥記》標「後漢」，後漢即東漢，二者同義，非缺陷。本條經核非缺陷，後續整理不必再改。",
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "five-dynasties",
-  "period_basis": "據 dynasty「後漢」自動歸併"
+ "schema_version": 1,
+ "id": "1j96hlb4wllog",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "郭憲",
+ "dynasty": "後漢",
+ "works": [
+  {
+   "work_id": "1ev3bckc4etc0",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgpkboiapds",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evftx7cpw6bk",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {},
+ "ai_note": "朝代標籤核對：所繫《別國洞冥記》標「漢」、《漢武洞冥記》標「後漢」，後漢即東漢，二者同義，非缺陷。本條經核非缺陷，後續整理不必再改。\n\n2026-08-10 Batch20 Entity合併：原郭氏(1j96h8rw8hyja)為同一人之分裂Entity，已合併。",
+ "updated_at": "2026-08-10",
+ "period": "five-dynasties",
+ "period_basis": "據 dynasty「後漢」自動歸併"
 }
