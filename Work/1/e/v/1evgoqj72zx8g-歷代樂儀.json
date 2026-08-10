@@ -1,39 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "歷代樂儀",
-  "authors": [
-    {
-      "name": "徐景安",
-      "role": "撰",
-      "entity_id": "1j96h8rw86pzw"
-    }
-  ],
-  "juan_count": {
-    "number": 30
+ "schema_version": 1,
+ "type": "work",
+ "title": "歷代樂儀",
+ "authors": [
+  {
+   "name": "徐景安",
+   "role": "撰",
+   "entity_id": "1j96h8rw86pzw"
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《歷代樂儀》三十卷",
+   "summary": "《歷代樂儀》三十卷（徐景安）",
+   "author_info": "徐景安"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《歷代樂儀》三十卷",
-      "summary": "《歷代樂儀》三十卷（徐景安）",
-      "author_info": "徐景安"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgoqj72zx8g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "徐景安歷代樂儀",
+   "summary": "徐景安歷代樂儀三十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgoqj72zx8g",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs08mm7tvk（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

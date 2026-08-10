@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "選舉志",
-  "authors": [
-    {
-      "name": "沈既濟",
-      "role": "撰",
-      "entity_id": "1j96kel6i4934"
-    }
-  ],
-  "juan_count": {
-    "number": 10
+ "schema_version": 1,
+ "type": "work",
+ "title": "選舉志",
+ "authors": [
+  {
+   "name": "沈既濟",
+   "role": "撰",
+   "entity_id": "1j96kel6i4934"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《選舉志》十卷",
+   "summary": "《選舉志》十卷（沈既濟）",
+   "author_info": "沈既濟"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《選舉志》十卷",
-      "summary": "《選舉志》十卷（沈既濟）",
-      "author_info": "沈既濟"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"選舉志\" 唯一候选无作者",
-  "id": "1evgphrrr3x1c",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "沈既濟選舉志",
+   "summary": "沈既濟選舉志十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"選舉志\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ety79c0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgphrrr3x1c",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

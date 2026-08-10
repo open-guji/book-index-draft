@@ -1,38 +1,48 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "開天傳信記",
-  "authors": [
-    {
-      "name": "鄭棨",
-      "role": "撰",
-      "dynasty": "唐"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫023625）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫023625）。阶段 5 兜底建立。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evkpxitat5vk",
-  "books": [
-    "11qkhx2a00b9c"
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+ "schema_version": 1,
+ "type": "work",
+ "title": "開天傳信記",
+ "authors": [
+  {
+   "name": "鄭棨",
+   "role": "撰",
+   "dynasty": "唐"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫023625）。清乾隆間寫文淵閣四庫全書本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫023625）。阶段 5 兜底建立。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0d8af4zk（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "id": "1evkpxitat5vk",
+ "books": [
+  "11qkhx2a00b9c"
+ ],
+ "updated_at": "2026-08-10",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "dynasty": "唐",
+ "dynasty_basis": "author_propagation",
+ "indexed_by": [
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "鄭棨開天傳信記",
+   "summary": "鄭棨開天傳信記一卷"
+  }
+ ],
+ "emendated_by": [],
+ "related_works": []
 }

@@ -1,33 +1,43 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "齊紀",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《齊紀》二十卷",
-      "summary": "《齊紀》二十卷（沈約）",
-      "author_info": "沈約"
-    }
-  ],
-  "authors": [
-    {
-      "name": "沈約",
-      "role": "撰",
-      "entity_id": "1j967cp1zdr18"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "齊紀",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《齊紀》二十卷",
+   "summary": "《齊紀》二十卷（沈約）",
+   "author_info": "沈約"
   },
-  "id": "1evcml24cq0hs",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "沈約齊紀",
+   "summary": "沈約齊紀二十卷"
+  }
+ ],
+ "authors": [
+  {
+   "name": "沈約",
+   "role": "撰",
+   "entity_id": "1j967cp1zdr18"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "id": "1evcml24cq0hs",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0byk5k3k（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

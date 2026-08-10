@@ -1,62 +1,79 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "世本",
-  "authors": [
-    {
-      "name": "宋衷",
-      "role": "注",
-      "dynasty": "漢",
-      "entity_id": "1j96a9e4508ow"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《世本》五卷",
-      "author_info": "漢宋衷注",
-      "summary": "《世本》五卷。漢宋衷注。影印清道光元年張氏二酉堂刻二酉堂叢書本。",
-      "edition": "影印清道光元年張氏二酉堂刻二酉堂叢書本",
-      "volume": "第301冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第301冊（史部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "世本",
+ "authors": [
+  {
+   "name": "宋衷",
+   "role": "注",
+   "dynasty": "漢",
+   "entity_id": "1j96a9e4508ow"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "續修四庫全書",
+   "source_bid": "1evjk1whvmznk",
+   "title_info": "《世本》五卷",
+   "author_info": "漢宋衷注",
+   "summary": "《世本》五卷。漢宋衷注。影印清道光元年張氏二酉堂刻二酉堂叢書本。",
+   "edition": "影印清道光元年張氏二酉堂刻二酉堂叢書本",
+   "volume": "第301冊",
+   "section": "史部 史部"
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev7w0evl7400();1evgpkdb43oxs(劉向);1evgpkddmxr0g()。　輯佚檔：本書之輯佚著錄置於 fragments/世本.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "juan_count": {
-    "number": 5
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "宋衷世本",
+   "summary": "宋衷世本四卷"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "id": "1evjr04wjd2io",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0301%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 301
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_image": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  {
+   "source": "後漢藝文志",
+   "source_bid": "1eve1ei9whji8",
+   "title_info": "宋衷世本四卷",
+   "summary": "宋衷世本四卷\n宋衷世本四卷\n隋書經籍志：世本四卷，宋衷撰。唐經籍志同。藝文志：宋衷世本四卷。史記燕召公世家索隱曰：按今系本無燕代系，宋衷依太史公書以補其闕。高似孫史略曰：世本凡三，其一曰世本，劉向所作者二卷；其一亦曰世本，宋衷所作者四卷。章宗源隋志攷證曰：諸書多徵引宋衷世本注。衷又作忠，或稱宋仲子注。張澍二酉堂輯本序曰：隋志又有世本四卷，宋衷撰。衷蓋而廣之也。侯志曰：諸書引世本，多兼引宋衷注，故存者尚夥。",
+   "section": "史部／譜系類",
+   "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+  }
+ ],
+ "description": {
+  "text": "本書收入《續修四庫全書》第301冊（史部）。",
+  "sources": [
+   "續修四庫全書"
+  ]
+ },
+ "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev7w0evl7400();1evgpkdb43oxs(劉向);1evgpkddmxr0g()。　輯佚檔：本書之輯佚著錄置於 fragments/世本.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0irekr9c（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 5
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 5
+  }
+ ],
+ "measure_info": "五卷",
+ "id": "1evjr04wjd2io",
+ "resources": [
+  {
+   "id": "wikimedia-commons-xuxiu",
+   "name": "維基共享 續修四庫全書 PDF",
+   "short_name": "維基共享",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0301%E5%86%8A.pdf",
+   "metadata": {
+    "volume": 301
+   },
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "loss_status": "lost",
+ "updated_at": "2026-08-10",
+ "_has_image": true,
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

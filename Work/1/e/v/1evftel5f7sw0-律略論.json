@@ -1,36 +1,46 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "律略論",
-  "authors": [
-    {
-      "name": "劉邵",
-      "role": "撰",
-      "dynasty": "三國魏",
-      "entity_id": "1j967cp2196ci"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "title_info": "劉邵律略論五卷始末具經部樂類。",
-      "summary": "劉邵律略論五卷始末具經部樂類。\n《魏志》本傳:“作《新律》十八篇,著《律略論》。”\n《隋書·經籍志》:“梁有應 《律略論》五卷,亡。”按粢劭劉 之誤。《唐·經籍志》:“《律略論》五卷,劉撰。”《藝文志》:“劉劭《律略論》五卷。”\n《太平御覽刑法部》引劉 《律略》曰:“刪舊科,采漢律,爲魏律,懸之象魏。”按此似序言中語。",
-      "section": "史部／刑法",
-      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《律略論》五卷",
-      "summary": "《律略論》五卷（劉邵）",
-      "author_info": "劉邵"
-    }
-  ],
-  "id": "1evftel5f7sw0",
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」",
-  "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+ "schema_version": 1,
+ "type": "work",
+ "title": "律略論",
+ "authors": [
+  {
+   "name": "劉邵",
+   "role": "撰",
+   "dynasty": "三國魏",
+   "entity_id": "1j967cp2196ci"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "三國藝文志",
+   "source_bid": "1eve1eig5jn5s",
+   "title_info": "劉邵律略論五卷始末具經部樂類。",
+   "summary": "劉邵律略論五卷始末具經部樂類。\n《魏志》本傳:“作《新律》十八篇,著《律略論》。”\n《隋書·經籍志》:“梁有應 《律略論》五卷,亡。”按粢劭劉 之誤。《唐·經籍志》:“《律略論》五卷,劉撰。”《藝文志》:“劉劭《律略論》五卷。”\n《太平御覽刑法部》引劉 《律略》曰:“刪舊科,采漢律,爲魏律,懸之象魏。”按此似序言中語。",
+   "section": "史部／刑法",
+   "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《律略論》五卷",
+   "summary": "《律略論》五卷（劉邵）",
+   "author_info": "劉邵"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "劉邵律略論",
+   "summary": "劉邵律略論五卷"
+  }
+ ],
+ "id": "1evftel5f7sw0",
+ "updated_at": "2026-08-10",
+ "period": "three-kingdoms",
+ "period_basis": "據 authors[0].dynasty「三國魏」",
+ "dynasty": "三國魏",
+ "dynasty_basis": "author_propagation:唯一作者朝代",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0i58ey9s（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

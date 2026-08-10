@@ -1,45 +1,54 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "魯史欹器圖",
-  "authors": [
-    {
-      "name": "劉徽",
-      "role": "撰",
-      "dynasty": "隋",
-      "entity_id": "1j96kel9fb85c"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "type": "work",
+ "title": "魯史欹器圖",
+ "authors": [
+  {
+   "name": "劉徽",
+   "role": "撰",
+   "dynasty": "隋",
+   "entity_id": "1j96kel9fb85c"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《魯史欹器圖》一卷",
+   "summary": "《魯史欹器圖》一卷（隋劉徽）",
+   "author_info": "隋劉徽"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《魯史欹器圖》一卷",
-      "summary": "《魯史欹器圖》一卷（隋劉徽）",
-      "author_info": "隋劉徽"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]",
-  "id": "1evgpi1rzl98g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」",
-  "dynasty": "隋",
-  "dynasty_basis": "author_propagation"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "劉徽魯史欹器圖",
+   "summary": "劉徽魯史欹器圖一卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0l6v7im8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpi1rzl98g",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-10",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「隋」",
+ "dynasty": "隋",
+ "dynasty_basis": "author_propagation",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "諫林",
-  "authors": [
-    {
-      "name": "王方慶",
-      "role": "撰",
-      "entity_id": "1j967avzlz138"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "諫林",
+ "authors": [
+  {
+   "name": "王方慶",
+   "role": "撰",
+   "entity_id": "1j967avzlz138"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《諫林》二十卷",
+   "summary": "《諫林》二十卷（王方慶）",
+   "author_info": "王方慶"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《諫林》二十卷",
-      "summary": "《諫林》二十卷（王方慶）",
-      "author_info": "王方慶"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 作者冲突 work=何翌之 vs anno=王方慶",
-  "id": "1evgpmunpsc1s",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王方慶諫林",
+   "summary": "王方慶諫林二十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 作者冲突 work=何翌之 vs anno=王方慶\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0litz08w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpmunpsc1s",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

@@ -1,48 +1,57 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "十三州志",
-  "authors": [
-    {
-      "name": "闞駰",
-      "role": "撰",
-      "entity_id": "1j96h8rw8hyjd"
-    }
-  ],
-  "juan_count": {
-    "number": 14
+ "schema_version": 1,
+ "type": "work",
+ "title": "十三州志",
+ "authors": [
+  {
+   "name": "闞駰",
+   "role": "撰",
+   "entity_id": "1j96h8rw8hyjd"
+  }
+ ],
+ "juan_count": {
+  "number": 14
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《十三州志》十四卷",
+   "summary": "《十三州志》十四卷（闞駰）",
+   "author_info": "闞駰"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《十三州志》十四卷",
-      "summary": "《十三州志》十四卷（闞駰）",
-      "author_info": "闞駰"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "十三州志",
-      "summary": "闞駰《十三州志》二卷。{{晉闞駰。張澍輯。《二酉堂》本。}}",
-      "author_info": "闞駰"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "十三州志",
+   "summary": "闞駰《十三州志》二卷。{{晉闞駰。張澍輯。《二酉堂》本。}}",
+   "author_info": "闞駰"
   },
-  "id": "1evgpjlz4z4e8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"寸三州志\"->\"十三州志\"　輯佚檔：本書之輯佚著錄置於 fragments/十三州志.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-05T09:02:34+00:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "闞駰十三州志",
+   "summary": "闞駰十三州志十四卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpjlz4z4e8",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 14
+  }
+ ],
+ "measure_info": "十四卷",
+ "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"寸三州志\"->\"十三州志\"　輯佚檔：本書之輯佚著錄置於 fragments/十三州志.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jxg6ha8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "loss_status": "lost",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

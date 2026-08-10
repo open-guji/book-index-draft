@@ -1,33 +1,53 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "孝子傳",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孝子傳》八卷",
-      "summary": "《孝子傳》八卷（師覺授。）",
-      "author_info": "師覺授。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "師覺授",
-      "role": "撰",
-      "entity_id": "1j96hf07qhfy8"
-    }
-  ],
-  "juan_count": {
-    "number": 8
+ "schema_version": 1,
+ "type": "work",
+ "title": "孝子傳",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《孝子傳》八卷",
+   "summary": "《孝子傳》八卷（師覺授。）",
+   "author_info": "師覺授。"
   },
-  "id": "1evcml32qdybk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "師覺授孝子傳",
+   "summary": "師覺授孝子傳八卷"
+  },
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "師覺授孝子傳",
+   "summary": "師覺授孝子傳一卷。"
+  }
+ ],
+ "authors": [
+  {
+   "name": "師覺授",
+   "role": "撰",
+   "entity_id": "1j96hf07qhfy8",
+   "dynasty": "宋",
+   "dynasty_basis": "manual:historical_figure(師覺授，南朝宋人，撰孝子傳八卷，見載於史志)"
+  }
+ ],
+ "juan_count": {
+  "number": 8
+ },
+ "id": "1evcml32qdybk",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 8
+  }
+ ],
+ "measure_info": "八卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "period": "nanbeichao",
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0fdymz28（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "period_basis": "據 authors[0].dynasty「宋」（南朝宋）"
 }

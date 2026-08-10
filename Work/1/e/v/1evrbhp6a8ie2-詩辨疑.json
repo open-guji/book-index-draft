@@ -1,32 +1,42 @@
 {
-  "schema_version": 1,
-  "id": "1evrbhp6a8ie2",
-  "type": "work",
-  "title": "詩辨疑",
-  "authors": [
-    {
-      "name": "趙德",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da97uuk0",
-      "dynasty_basis": "entity_propagation_r2:1j967da97uuk0"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk"
-    }
-  ],
-  "juan_count": {
-    "number": 7
+ "schema_version": 1,
+ "id": "1evrbhp6a8ie2",
+ "type": "work",
+ "title": "詩辨疑",
+ "authors": [
+  {
+   "name": "趙德",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j967da97uuk0",
+   "dynasty_basis": "entity_propagation_r2:1j967da97uuk0"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "宋史藝文志補",
+   "source_bid": "1evfyhtrdkbnk"
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-08T18:18:57+00:00"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《趙德詩辨疑》十卷",
+   "summary": "《趙德詩辨疑》十卷"
+  }
+ ],
+ "juan_count": {
+  "number": 7
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 7
+  }
+ ],
+ "measure_info": "七卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evgopuyf7yf4（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "正論",
-  "authors": [
-    {
-      "name": "儲光羲",
-      "role": "撰",
-      "entity_id": "1j967da97jm10"
-    }
-  ],
-  "juan_count": {
-    "number": 15
+ "schema_version": 1,
+ "type": "work",
+ "title": "正論",
+ "authors": [
+  {
+   "name": "儲光羲",
+   "role": "撰",
+   "entity_id": "1j967da97jm10"
+  }
+ ],
+ "juan_count": {
+  "number": 15
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《正論》十五卷",
+   "summary": "《正論》十五卷（儲光羲）",
+   "author_info": "儲光羲"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《正論》十五卷",
-      "summary": "《正論》十五卷（儲光羲）",
-      "author_info": "儲光羲"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgpmv6g0xds",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "儲光羲正論",
+   "summary": "儲光羲正論十五卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ll927sw（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpmv6g0xds",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 15
+  }
+ ],
+ "measure_info": "十五卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

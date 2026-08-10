@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "洛陽記",
-  "authors": [
-    {
-      "name": "戴延之",
-      "role": "撰",
-      "entity_id": "1j96hfts6c9hc"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "type": "work",
+ "title": "洛陽記",
+ "authors": [
+  {
+   "name": "戴延之",
+   "role": "撰",
+   "entity_id": "1j96hfts6c9hc"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《洛陽記》一卷",
+   "summary": "《洛陽記》一卷（戴延之）",
+   "author_info": "戴延之"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《洛陽記》一卷",
-      "summary": "《洛陽記》一卷（戴延之）",
-      "author_info": "戴延之"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgpjp1g4740",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "戴延之洛陽記",
+   "summary": "戴延之洛陽記一卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jl4b0u8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpjp1g4740",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

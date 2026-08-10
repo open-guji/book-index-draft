@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "正論",
-  "authors": [
-    {
-      "name": "李敬玄",
-      "role": "撰",
-      "entity_id": "1j967da96x4xv"
-    }
-  ],
-  "juan_count": {
-    "number": 3
+ "schema_version": 1,
+ "type": "work",
+ "title": "正論",
+ "authors": [
+  {
+   "name": "李敬玄",
+   "role": "撰",
+   "entity_id": "1j967da96x4xv"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《正論》三卷",
+   "summary": "《正論》三卷（李敬玄；墨家二）",
+   "author_info": "李敬玄；墨家二"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《正論》三卷",
-      "summary": "《正論》三卷（李敬玄；墨家二）",
-      "author_info": "李敬玄；墨家二"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgq0agro35s",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "李敬玄正論",
+   "summary": "李敬玄正論三卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0p16wcg0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgq0agro35s",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

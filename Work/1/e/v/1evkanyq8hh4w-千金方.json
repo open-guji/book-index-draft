@@ -1,38 +1,48 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "千金方",
-  "authors": [
-    {
-      "name": "孫思邈",
-      "role": "撰",
-      "dynasty": "唐"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀010697）。日本天保三年松本幸彥摹刻古鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcmngnrn8cg(范世英);1evgq4u76tbeo(孫恩邈)（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkanyq8hh4w",
-  "books": [
-    "11qki083lr7r4"
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+ "schema_version": 1,
+ "type": "work",
+ "title": "千金方",
+ "authors": [
+  {
+   "name": "孫思邈",
+   "role": "撰",
+   "dynasty": "唐"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀010697）。日本天保三年松本幸彥摹刻古鈔本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcmngnrn8cg(范世英);1evgq4u76tbeo(孫恩邈)（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0x4ljwn4（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 1
+  }
+ ],
+ "measure_info": "一冊",
+ "id": "1evkanyq8hh4w",
+ "books": [
+  "11qki083lr7r4"
+ ],
+ "updated_at": "2026-08-10",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "dynasty": "唐",
+ "dynasty_basis": "author_propagation",
+ "indexed_by": [
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "孫思邈千金方",
+   "summary": "孫思邈千金方三十卷"
+  }
+ ],
+ "emendated_by": [],
+ "related_works": []
 }

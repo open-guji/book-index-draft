@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "類林",
-  "authors": [
-    {
-      "name": "裴子野",
-      "role": "撰",
-      "entity_id": "1j96ad6fxia68"
-    }
-  ],
-  "juan_count": {
-    "number": 3
+ "schema_version": 1,
+ "type": "work",
+ "title": "類林",
+ "authors": [
+  {
+   "name": "裴子野",
+   "role": "撰",
+   "entity_id": "1j96ad6fxia68"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《類林》三卷",
+   "summary": "《類林》三卷（裴子野）",
+   "author_info": "裴子野"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《類林》三卷",
-      "summary": "《類林》三卷（裴子野）",
-      "author_info": "裴子野"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgq0lh3xla8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "裴子野類林",
+   "summary": "裴子野類林三卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0qe8eku8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgq0lh3xla8",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

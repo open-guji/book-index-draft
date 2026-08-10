@@ -1,44 +1,53 @@
 {
-  "schema_version": 1,
-  "id": "1evdidh12f5s0",
-  "type": "work",
-  "title": "學士集",
-  "authors": [
-    {
-      "name": "危素",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlz144"
-    }
-  ],
-  "juan_count": {
-    "number": 30
+ "schema_version": 1,
+ "id": "1evdidh12f5s0",
+ "type": "work",
+ "title": "學士集",
+ "authors": [
+  {
+   "name": "危素",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967avzlz144"
+  }
+ ],
+ "juan_count": {
+  "number": 30
+ },
+ "indexed_by": [
+  {
+   "source": "明史藝文志",
+   "source_bid": "1ev88ee9jw6ps",
+   "title_info": "危素《学士集》五十卷",
+   "summary": "解縉《學士集》三十卷，《春雨集》十卷，《似羅隱集》二卷"
   },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "危素《学士集》五十卷",
-      "summary": "解縉《學士集》三十卷，《春雨集》十卷，《似羅隱集》二卷"
-    }
-  ],
-  "description": {
-    "text": "明代集部別集類著作。",
-    "sources": [
-      "明史藝文志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《危素學士集》五十卷",
+   "summary": "《危素學士集》五十卷"
+  }
+ ],
+ "description": {
+  "text": "明代集部別集類著作。",
+  "sources": [
+   "明史藝文志"
+  ]
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 30
+  }
+ ],
+ "measure_info": "三十卷",
+ "updated_at": "2026-08-10",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "dynasty": "明",
+ "dynasty_basis": "author_propagation",
+ "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-10 撰人字首式重出候選覆核：1evgqe9kadtkw（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

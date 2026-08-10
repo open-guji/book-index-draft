@@ -1,45 +1,54 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "渚宮故事",
-  "authors": [
-    {
-      "name": "余知古",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da97jlzy"
-    }
-  ],
-  "juan_count": {
-    "number": 10
+ "schema_version": 1,
+ "type": "work",
+ "title": "渚宮故事",
+ "authors": [
+  {
+   "name": "余知古",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j967da97jlzy"
+  }
+ ],
+ "juan_count": {
+  "number": 10
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《渚宮故事》十卷",
+   "summary": "《渚宮故事》十卷（唐余知古）",
+   "author_info": "唐余知古"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《渚宮故事》十卷",
-      "summary": "《渚宮故事》十卷（唐余知古）",
-      "author_info": "唐余知古"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpjuuai2v4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "余知古渚宮故事",
+   "summary": "余知古渚宮故事十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpjuuai2v4",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
+ "updated_at": "2026-08-10",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "dynasty": "唐",
+ "dynasty_basis": "author_propagation",
+ "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0kljy7eo（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

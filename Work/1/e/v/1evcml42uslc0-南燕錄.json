@@ -1,50 +1,59 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "南燕錄",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《南燕錄》六卷",
-      "summary": "《南燕錄》六卷（燕王景暉）",
-      "author_info": "燕王景暉"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "南燕録六卷 燕中書郎王景暉,謹按見《隋志》。舊注:“記慕容德事。”《史通·外篇》言:“景暉,趙郡人,嘗事德超,撰《二燕起居注》。超亡,事馮氏,官至中書令,乃撰《南燕錄》。”《舊唐志》誤作“王景喧”。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "王景暉",
-      "role": "撰",
-      "entity_id": "1j96hfcbybcao"
-    }
-  ],
-  "juan_count": {
-    "number": 6
+ "schema_version": 1,
+ "type": "work",
+ "title": "南燕錄",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《南燕錄》六卷",
+   "summary": "《南燕錄》六卷（燕王景暉）",
+   "author_info": "燕王景暉"
   },
-  "id": "1evcml42uslc0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "補晋書藝文志"
-    ]
+  {
+   "source": "補晋書藝文志",
+   "source_bid": "1evfu57n5n37k",
+   "summary": "南燕録六卷 燕中書郎王景暉,謹按見《隋志》。舊注:“記慕容德事。”《史通·外篇》言:“景暉,趙郡人,嘗事德超,撰《二燕起居注》。超亡,事馮氏,官至中書令,乃撰《南燕錄》。”《舊唐志》誤作“王景喧”。"
   },
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王景暉南燕錄",
+   "summary": "王景暉南燕錄六卷"
+  }
+ ],
+ "authors": [
+  {
+   "name": "王景暉",
+   "role": "撰",
+   "entity_id": "1j96hfcbybcao"
+  }
+ ],
+ "juan_count": {
+  "number": 6
+ },
+ "id": "1evcml42uslc0",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 6
+  }
+ ],
+ "measure_info": "六卷",
+ "description": {
+  "text": "已亡佚。",
+  "sources": [
+   "補晋書藝文志"
+  ]
+ },
+ "loss_status": "lost",
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0c8dtfk0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "updated_at": "2026-08-10",
+ "period": "jin",
+ "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+ "dynasty": "晉",
+ "dynasty_basis": "period_fallback:jin→晉",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }
