@@ -26,11 +26,39 @@
       "id": "1evl1xugdoikg",
       "title": "孝經",
       "relation": "contains_text_of"
+    },
+    {
+      "id": "1evcsw8wfkgsg",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書"
+    },
+    {
+      "id": "1ewhu66go9095",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書"
+    },
+    {
+      "id": "1ew2pafhsg2a5",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書"
+    },
+    {
+      "id": "1evgbs6dwtqtc",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書"
     }
   ],
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "books": [
+    "11qki0tl86m0w"
+  ],
+  "ai_note": " | 2026-08-10：接收 Book 11qki0tl86m0w（清康熙十九年通志堂刊本；清嘉慶三年金溪王氏刊《漢魏遺書鈔》之一）——原繫於 1evcsw8wfkgsg（先秦魏文侯條），然「漢魏遺書鈔」專收漢魏佚書，不當收戰國文獻，改繫於本條（三國魏王朗）。並與另外四部同題「孝經傳」互補 related 關聯。"
 }
