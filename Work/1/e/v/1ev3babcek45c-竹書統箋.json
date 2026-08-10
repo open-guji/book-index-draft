@@ -3,6 +3,13 @@
   "id": "1ev3babcek45c",
   "type": "work",
   "title": "竹書統箋",
+  "related_works": [
+    {
+      "id": "1ev3babc1g5c0",
+      "title": "竹書紀年",
+      "relation": "contains_text_of"
+    }
+  ],
   "authors": [
     {
       "name": "徐文靖",
@@ -29,8 +36,10 @@
   ],
   "books": [
     "11q37p3fnvl6o",
-    "11qkhw0e2kr9c"
+    "11qkhw0e2kr9c",
+    "11qkhu3qyefpc"
   ],
+  "ai_note": "從 1evke58ylk1ds（原題「竹書紀年統箋」，據《國立故宮博物院善本舊籍》目錄建檔）合併——與本條同為清徐文靖撰《竹書統箋》十二卷（四庫全書總目、清史稿藝文志均同著錄一部），非異書。其唯一 Book（11qkhu3qyefpc，故宮藏清光緒三年浙江書局刻本）已併入本 Work 的 books 列表，work_id 改指本條；entity 徐文靖的 works 欄中重複的 work_id 一併移除。",
   "juan_count": {
     "number": 12
   },

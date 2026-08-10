@@ -160,12 +160,58 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "作者 \"梁沈約附註\" 補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者 \"梁沈約附註\" 補自《國立故宮博物院善本舊籍》目錄。 | 補繫清人校訂今本諸作之 related_works：郝懿行《竹書紀年校正》、洪頤煊《校正竹書紀年》、陳詩《竹書紀年集注》、陳逢衡《竹書紀年集證集說敘略》、張宗泰《竹書紀年校補》、雷學淇《考訂竹書紀年》《竹書紀年義證》、林春溥《竹書紀年補證》、徐文靖《竹書統箋》——此九家先前雖各自建檔，卻未與本 work（今本）建立關聯，成孤立條目。按《四庫全書總目》《養新錄》所考，此九家皆據明范欽所輯今本（即本 work）校訂補證，未知其偽，故一律歸此。「校正」「集注」「集證」「校補」「考訂」「統箋」類（含全文加注）記 text_carried_by；「義證」「補證」類（純考證，不必含全文）記 studied_by。徐文靖一家原有二重出條目（1ev3babcek45c 與 1evke58ylk1ds），已先行合併，見 1ev3babcek45c 之 ai_note。",
   "related_works": [
     {
       "id": "1evqpdnrz483k",
       "title": "竹書紀年",
       "relation": "contains_text_of"
+    },
+    {
+      "id": "1evr5e3m8fq3y",
+      "title": "竹書紀年校正",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq3z",
+      "title": "校正竹書紀年",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq40",
+      "title": "竹書紀年集注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq3x",
+      "title": "竹書紀年集證集說敘略",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq41",
+      "title": "竹書紀年校補",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq42",
+      "title": "考訂竹書紀年",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3m8fq43",
+      "title": "竹書紀年義證",
+      "relation": "studied_by",
+      "note": "雷學淇《考訂竹書紀年》之姊妹篇，考證所訂之義據"
+    },
+    {
+      "id": "1evr5e3m8fq44",
+      "title": "竹書紀年補證",
+      "relation": "studied_by"
+    },
+    {
+      "id": "1ev3babcek45c",
+      "title": "竹書統箋",
+      "relation": "text_carried_by"
     }
   ],
   "updated_at": "2026-08-08T18:11:45+00:00",
