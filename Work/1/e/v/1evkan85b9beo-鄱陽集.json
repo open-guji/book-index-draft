@@ -1,41 +1,58 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "鄱陽集",
-  "authors": [
-    {
-      "name": "洪皓",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzlnsie",
-      "dynasty_basis": "entity_propagation:1j967avzlnsie"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀007819）。清同治庚午(九年)金陵三瑞堂刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "鄱陽集",
+ "authors": [
+  {
+   "name": "洪皓",
+   "role": "撰",
+   "dynasty": "南宋",
+   "entity_id": "1j967avzlnsie",
+   "dynasty_basis": "entity_propagation:1j967avzlnsie"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀007819）。清同治庚午(九年)金陵三瑞堂刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bcwsrv0n4(彭汝礪)（不同作者，故新建獨立 Work）。\n\n2026-08-10 撰人字首式重出候選覆核：1evr5e3mdfit0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 1
+  }
+ ],
+ "measure_info": "一冊",
+ "id": "1evkan85b9beo",
+ "books": [
+  "11qkhxcc1f0g0",
+  "11qkhzw9lmvb4"
+ ],
+ "updated_at": "2026-08-10",
+ "dynasty": "南宋",
+ "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
+ "period": "song",
+ "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+ "indexed_by": [
+  {
+   "source": "清史稿藝文志",
+   "source_bid": "1evdiulq07rwg",
+   "title_info": "洪皓鄱陽集",
+   "summary": "洪皓鄱陽集四卷。"
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bcwsrv0n4(彭汝礪)（不同作者，故新建獨立 Work）。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkan85b9beo",
-  "books": [
-    "11qkhxcc1f0g0",
-    "11qkhzw9lmvb4"
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《洪皓鄱陽集》十卷",
+   "summary": "《洪皓鄱陽集》十卷"
+  }
+ ],
+ "emendated_by": [],
+ "related_works": [],
+ "loss_status": "lost"
 }

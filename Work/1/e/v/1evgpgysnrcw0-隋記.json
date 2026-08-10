@@ -1,40 +1,50 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "隋記",
-  "authors": [
-    {
-      "name": "呂才",
-      "role": "撰",
-      "entity_id": "1j967da97jm0n",
-      "original_name": "吕才"
-    }
-  ],
-  "juan_count": {
-    "number": 20
+ "schema_version": 1,
+ "type": "work",
+ "title": "隋記",
+ "authors": [
+  {
+   "name": "呂才",
+   "role": "撰",
+   "entity_id": "1j967da97jm0n",
+   "original_name": "吕才"
+  }
+ ],
+ "juan_count": {
+  "number": 20
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《隋記》二十卷",
+   "summary": "《隋記》二十卷（吕才）",
+   "author_info": "吕才"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《隋記》二十卷",
-      "summary": "《隋記》二十卷（吕才）",
-      "author_info": "吕才"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgysnrcw0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-02T09:07:48+00:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "呂才隋記",
+   "summary": "呂才隋記二十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpgysnrcw0",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 20
+  }
+ ],
+ "measure_info": "二十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0d107sow（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

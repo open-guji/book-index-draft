@@ -1,119 +1,109 @@
 {
-  "schema_version": 1,
-  "id": "1j96hl473bf9c",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "徐邈",
-  "dynasty": "晉",
-  "works": [
-    {
-      "work_id": "1evr5e3m7i0ga",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evc5p8nacyrk",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubfim5jpc",
-      "role": "注"
-    },
-    {
-      "work_id": "1evjqyma6utxc",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evilzg406l8g",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubrxsun7k",
-      "role": "注"
-    },
-    {
-      "work_id": "1evfube48krnk",
-      "role": "注"
-    },
-    {
-      "work_id": "1evilzg1gq22o",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuux4rfb40",
-      "role": "音"
-    },
-    {
-      "work_id": "1evfugw107j7k",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubpqrxse8",
-      "role": "注"
-    },
-    {
-      "work_id": "1evfubptoiadc",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubpziw8hs",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfubrp8rf28",
-      "role": "注"
-    },
-    {
-      "work_id": "1evfubxt4iebk",
-      "role": "注"
-    },
-    {
-      "work_id": "1evfuuynrot8g",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evfuv1w3gkxs",
-      "role": "音"
-    },
-    {
-      "work_id": "1evetxcyeww74",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evc5pcbz5ji8"
-    },
-    {
-      "work_id": "1evc5pdog241s"
-    },
-    {
-      "work_id": "1evfubptoiadc"
-    },
-    {
-      "work_id": "1evfubxt4iebk"
-    },
-    {
-      "work_id": "1evgopwza730g",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgopykrqghs",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgoq4yjbz0g",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgoq5erczcw",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evgoqghecdfk",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "ai_note": "2026-08-08 Entity合併：原徐邈(1j96glo90rdhg) CBDB curated註記「晋徐邈（CBDB dy=10 错）」，作品與晉徐邈幾近全同，實為同一人，CBDB朝代欄誤標南唐已併入本條。\n2026-08-08 Entity合併：原徐邈(1j96keg2utzwg)為同一人之分裂Entity，已合併。",
-  "period": "jin",
-  "period_basis": "據 dynasty「晉」自動歸併"
+ "schema_version": 1,
+ "id": "1j96hl473bf9c",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "徐邈",
+ "dynasty": "晉",
+ "works": [
+  {
+   "work_id": "1evr5e3m7i0ga",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evc5p8nacyrk",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubfim5jpc",
+   "role": "注"
+  },
+  {
+   "work_id": "1evjqyma6utxc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evilzg406l8g",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubrxsun7k",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfube48krnk",
+   "role": "注"
+  },
+  {
+   "work_id": "1evilzg1gq22o",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfuux4rfb40",
+   "role": "音"
+  },
+  {
+   "work_id": "1evgoqghecdfk",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubpqrxse8",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfubptoiadc",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubpziw8hs",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfubrp8rf28",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfubxt4iebk",
+   "role": "注"
+  },
+  {
+   "work_id": "1evfuuynrot8g",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evfuv1w3gkxs",
+   "role": "音"
+  },
+  {
+   "work_id": "1evetxcyeww74",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evc5pcbz5ji8"
+  },
+  {
+   "work_id": "1evc5pdog241s"
+  },
+  {
+   "work_id": "1evgopwza730g",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgopykrqghs",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgoq4yjbz0g",
+   "role": "撰"
+  },
+  {
+   "work_id": "1evgoq5erczcw",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {},
+ "updated_at": "2026-08-08T11:51:59+00:00",
+ "ai_note": "2026-08-08 Entity合併：原徐邈(1j96glo90rdhg) CBDB curated註記「晋徐邈（CBDB dy=10 错）」，作品與晉徐邈幾近全同，實為同一人，CBDB朝代欄誤標南唐已併入本條。\n2026-08-08 Entity合併：原徐邈(1j96keg2utzwg)為同一人之分裂Entity，已合併。",
+ "period": "jin",
+ "period_basis": "據 dynasty「晉」自動歸併"
 }

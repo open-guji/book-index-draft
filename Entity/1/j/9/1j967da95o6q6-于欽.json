@@ -1,39 +1,35 @@
 {
-  "schema_version": 1,
-  "id": "1j967da95o6q6",
-  "type": "entity",
-  "subtype": "people",
-  "primary_name": "于欽",
-  "alt_names": [
-    {
-      "name": "思客",
-      "type": "字"
-    },
-    {
-      "name": "思容",
-      "type": "字"
-    }
-  ],
-  "dynasty": "元",
-  "birth_year": 1284,
-  "death_year": 1333,
-  "works": [
-    {
-      "work_id": "1evga4mfa2fi8",
-      "role": "撰"
-    },
-    {
-      "work_id": "1ev3bar2av8qo",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 100315,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
+ "schema_version": 1,
+ "id": "1j967da95o6q6",
+ "type": "entity",
+ "subtype": "people",
+ "primary_name": "于欽",
+ "alt_names": [
+  {
+   "name": "思客",
+   "type": "字"
   },
-  "ai_note": "合併重複人物 Entity 1j96hembndibk（原名「於欽」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。",
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併"
+  {
+   "name": "思容",
+   "type": "字"
+  }
+ ],
+ "dynasty": "元",
+ "birth_year": 1284,
+ "death_year": 1333,
+ "works": [
+  {
+   "work_id": "1evga4mfa2fi8",
+   "role": "撰"
+  }
+ ],
+ "external_ids": {
+  "cbdb_id": 100315,
+  "cbdb_match": "auto",
+  "cbdb_source": "name_exact+dy_match+unique"
+ },
+ "ai_note": "合併重複人物 Entity 1j96hembndibk（原名「於欽」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。",
+ "updated_at": "2026-08-08T11:51:58+00:00",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 dynasty「元」自動歸併"
 }

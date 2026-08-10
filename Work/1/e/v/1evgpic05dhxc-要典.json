@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "要典",
-  "authors": [
-    {
-      "name": "王景之",
-      "role": "撰",
-      "entity_id": "1j96h8rw86q2p"
-    }
-  ],
-  "juan_count": {
-    "number": 39
+ "schema_version": 1,
+ "type": "work",
+ "title": "要典",
+ "authors": [
+  {
+   "name": "王景之",
+   "role": "撰",
+   "entity_id": "1j96h8rw86q2p"
+  }
+ ],
+ "juan_count": {
+  "number": 39
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《要典》三十九卷",
+   "summary": "《要典》三十九卷（王景之）",
+   "author_info": "王景之"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《要典》三十九卷",
-      "summary": "《要典》三十九卷（王景之）",
-      "author_info": "王景之"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"要典\" 唯一候选无作者",
-  "id": "1evgpic05dhxc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 39
-    }
-  ],
-  "measure_info": "三十九卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王景之要典",
+   "summary": "王景之要典三十九卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"要典\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0hdfcw74（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpic05dhxc",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 39
+  }
+ ],
+ "measure_info": "三十九卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

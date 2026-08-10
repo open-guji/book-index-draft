@@ -1,42 +1,52 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "南宮故事",
-  "authors": [
-    {
-      "name": "王方慶",
-      "role": "撰",
-      "entity_id": "1j967avzlz138"
-    }
-  ],
-  "juan_count": {
-    "number": 12
+ "schema_version": 1,
+ "type": "work",
+ "title": "南宮故事",
+ "authors": [
+  {
+   "name": "王方慶",
+   "role": "撰",
+   "entity_id": "1j967avzlz138"
+  }
+ ],
+ "juan_count": {
+  "number": 12
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《南宫故事》十二卷",
+   "summary": "《南宫故事》十二卷（王方慶）",
+   "author_info": "王方慶"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《南宫故事》十二卷",
-      "summary": "《南宫故事》十二卷（王方慶）",
-      "author_info": "王方慶"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphnceglxc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "additional_titles": [
-    "南宫故事"
-  ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "王方慶南宮故事",
+   "summary": "王方慶南宮故事十二卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgphnceglxc",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 12
+  }
+ ],
+ "measure_info": "十二卷",
+ "additional_titles": [
+  "南宫故事"
+ ],
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0eghqy9s（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

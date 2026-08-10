@@ -1,74 +1,82 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "水經",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "又四十卷酈道元注。",
-      "summary": "又四十卷酈道元注。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《水經》",
-      "summary": "桑欽《水經》四十卷（（酈道元注））"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《水經》三卷",
-      "summary": "《水經》三卷（桑欽撰，郭璞注。）",
-      "author_info": "桑欽撰，郭璞注。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "水經四十卷",
-      "summary": "水經四十卷"
-    }
-  ],
-  "id": "1evcpjohisutc",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E7%B6%93",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/m_049_shuijing_v01_0001",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "桑欽",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j96hfucu6ry8"
-    }
-  ],
-  "ai_note": "作者「漢桑欽撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpk1mvk5q8 合併。原註：从卷二 ambiguous 新建：unresolved",
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "水經",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "又四十卷酈道元注。",
+   "summary": "又四十卷酈道元注。"
   },
-  "books": [
-    "11qki5bgwq96o"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《水經》",
+   "summary": "桑欽《水經》四十卷（（酈道元注））"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《水經》三卷",
+   "summary": "《水經》三卷（桑欽撰，郭璞注。）",
+   "author_info": "桑欽撰，郭璞注。"
+  },
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "水經四十卷",
+   "summary": "水經四十卷"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "桑欽水經",
+   "summary": "桑欽水經三卷"
+  }
+ ],
+ "id": "1evcpjohisutc",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E7%B6%93",
+   "types": [
+    "text"
+   ]
+  },
+  {
+   "name": "Internet Archive",
+   "id": "internet-archive",
+   "url": "https://archive.org/details/m_049_shuijing_v01_0001",
+   "types": [
+    "image"
+   ]
+  }
+ ],
+ "authors": [
+  {
+   "name": "桑欽",
+   "role": "撰",
+   "dynasty": "漢",
+   "entity_id": "1j96hfucu6ry8"
+  }
+ ],
+ "ai_note": "作者「漢桑欽撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpk1mvk5q8 合併。原註：从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jz93u9s（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "books": [
+  "11qki5bgwq96o"
+ ],
+ "updated_at": "2026-08-10",
+ "_has_text": true,
+ "_has_image": true,
+ "period": "qin-han",
+ "period_basis": "據 authors[0].dynasty「漢」",
+ "emendated_by": [],
+ "related_works": []
 }

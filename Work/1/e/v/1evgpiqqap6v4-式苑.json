@@ -1,45 +1,54 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "式苑",
-  "authors": [
-    {
-      "name": "元泳",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hfsk59728"
-    }
-  ],
-  "juan_count": {
-    "number": 4
+ "schema_version": 1,
+ "type": "work",
+ "title": "式苑",
+ "authors": [
+  {
+   "name": "元泳",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j96hfsk59728"
+  }
+ ],
+ "juan_count": {
+  "number": 4
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《式苑》四卷",
+   "summary": "《式苑》四卷（唐元泳）",
+   "author_info": "唐元泳"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《式苑》四卷",
-      "summary": "《式苑》四卷（唐元泳）",
-      "author_info": "唐元泳"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"式苑\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "id": "1evgpiqqap6v4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "元泳式苑",
+   "summary": "元泳式苑四卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"式苑\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0if64wsg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpiqqap6v4",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 4
+  }
+ ],
+ "measure_info": "四卷",
+ "updated_at": "2026-08-10",
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "dynasty": "唐",
+ "dynasty_basis": "author_propagation",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

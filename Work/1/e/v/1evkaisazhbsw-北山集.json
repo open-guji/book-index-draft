@@ -1,41 +1,51 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "北山集",
-  "authors": [
-    {
-      "name": "程俱",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzmwqr4",
-      "dynasty_basis": "entity_propagation:1j967avzmwqr4"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖011980-011987）。影鈔宋乾道淳熙間刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bd0crs7i8(鄭剛中)（不同作者，故新建獨立 Work）。",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 8
-    }
-  ],
-  "measure_info": "八冊",
-  "id": "1evkaisazhbsw",
-  "books": [
-    "11qkhxbx7n7k0",
-    "11qki5vin9kw0"
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+ "schema_version": 1,
+ "type": "work",
+ "title": "北山集",
+ "authors": [
+  {
+   "name": "程俱",
+   "role": "撰",
+   "dynasty": "南宋",
+   "entity_id": "1j967avzmwqr4",
+   "dynasty_basis": "entity_propagation:1j967avzmwqr4"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖011980-011987）。影鈔宋乾道淳熙間刊本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bd0crs7i8(鄭剛中)（不同作者，故新建獨立 Work）。\n\n2026-08-10 撰人字首式重出候選覆核：1evgqdaz5zwn4（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 8
+ },
+ "measures": [
+  {
+   "unit": "冊",
+   "number": 8
+  }
+ ],
+ "measure_info": "八冊",
+ "id": "1evkaisazhbsw",
+ "books": [
+  "11qkhxbx7n7k0",
+  "11qki5vin9kw0"
+ ],
+ "updated_at": "2026-08-10",
+ "dynasty": "南宋",
+ "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
+ "period": "song",
+ "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《程俱北山集》四十卷",
+   "summary": "《程俱北山集》四十卷"
+  }
+ ],
+ "emendated_by": [],
+ "related_works": []
 }

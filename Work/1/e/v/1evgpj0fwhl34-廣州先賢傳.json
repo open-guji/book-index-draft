@@ -1,39 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "廣州先賢傳",
-  "authors": [
-    {
-      "name": "劉芳",
-      "role": "撰",
-      "entity_id": "1j96h8rw790d9"
-    }
-  ],
-  "juan_count": {
-    "number": 7
+ "schema_version": 1,
+ "type": "work",
+ "title": "廣州先賢傳",
+ "authors": [
+  {
+   "name": "劉芳",
+   "role": "撰",
+   "entity_id": "1j96h8rw790d9"
+  }
+ ],
+ "juan_count": {
+  "number": 7
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《廣州先賢傳》七卷",
+   "summary": "《廣州先賢傳》七卷（劉芳）",
+   "author_info": "劉芳"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《廣州先賢傳》七卷",
-      "summary": "《廣州先賢傳》七卷（劉芳）",
-      "author_info": "劉芳"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpj0fwhl34",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "劉芳廣州先賢傳",
+   "summary": "劉芳廣州先賢傳七卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "id": "1evgpj0fwhl34",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 7
+  }
+ ],
+ "measure_info": "七卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0f4qih34（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

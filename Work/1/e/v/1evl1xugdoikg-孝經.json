@@ -1,1614 +1,1589 @@
 {
-  "schema_version": 1,
-  "id": "1evl1xugdoikg",
-  "type": "work",
-  "subtype": "book",
-  "title": "孝經",
-  "authors": [],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "id": "1evl1xugdoikg",
+ "type": "work",
+ "subtype": "book",
+ "title": "孝經",
+ "authors": [],
+ "juan_count": {
+  "number": 1
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
   },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    },
-    {
-      "unit": "章",
-      "number": 18,
-      "note": "今文本，唐玄宗御注定本"
-    }
-  ],
-  "measure_info": "今文一卷十八章／古文一篇二十二章",
-  "description": {
-    "text": "儒家論孝的經典，相傳為孔子弟子曾子或子思學派所作。漢代有古文、今文兩本：今文《孝經》十八章（鄭玄注本），古文《孝經》二十二章（孔安國傳本）。唐玄宗開元七年（719）詔群儒辨議古今文異同，定今文為通行本，並親自御注，是為《御注孝經》（開元始注本，天寶重註本）。北宋咸平年間邢昺奉敕作疏，合稱《孝經注疏》，為十三經注疏之一。元吳澄定古文，清代有順治、雍正御注及朱軾、阮福等諸家注本。\n漢志分別著錄今古文兩本：《孝經》一篇十八章（今文，河間人顏芝所藏，漢初其子顏貞出之，長孫氏、江氏、后氏、翼氏四家傳之，今存，即《十三經注疏》所據）與《孝經古孔氏》一篇二十二章（古文，出孔子壁中，孔安國傳，已亡佚）。古文多出今文四章，其中三章係章句分合所致，另多出《閨門》一章。《孝經》在十三經中字數最少，僅一千九百餘字。",
-    "sources": [
-      "《漢書·藝文志》",
-      "溫浚源《漢書藝文志講要》"
-    ]
+  {
+   "unit": "章",
+   "number": 18,
+   "note": "今文本，唐玄宗御注定本"
+  }
+ ],
+ "measure_info": "今文一卷十八章／古文一篇二十二章",
+ "description": {
+  "text": "儒家論孝的經典，相傳為孔子弟子曾子或子思學派所作。漢代有古文、今文兩本：今文《孝經》十八章（鄭玄注本），古文《孝經》二十二章（孔安國傳本）。唐玄宗開元七年（719）詔群儒辨議古今文異同，定今文為通行本，並親自御注，是為《御注孝經》（開元始注本，天寶重註本）。北宋咸平年間邢昺奉敕作疏，合稱《孝經注疏》，為十三經注疏之一。元吳澄定古文，清代有順治、雍正御注及朱軾、阮福等諸家注本。\n漢志分別著錄今古文兩本：《孝經》一篇十八章（今文，河間人顏芝所藏，漢初其子顏貞出之，長孫氏、江氏、后氏、翼氏四家傳之，今存，即《十三經注疏》所據）與《孝經古孔氏》一篇二十二章（古文，出孔子壁中，孔安國傳，已亡佚）。古文多出今文四章，其中三章係章句分合所致，另多出《閨門》一章。《孝經》在十三經中字數最少，僅一千九百餘字。",
+  "sources": [
+   "《漢書·藝文志》",
+   "溫浚源《漢書藝文志講要》"
+  ]
+ },
+ "ai_note": "新建原典 Work（先秦至西漢儒家經典，作者傳說不一）。原索引中 13 條 title=孝經 多為各家注本（鄭玄/唐玄宗/朱軾 等），按整理規範，原典單列一條，諸注本通過 related_works.commentary_on 關聯。 | 從 1evkpwdf12qrk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000071）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併 1ev3ba4hkcc1s（漢志「《孝經》一篇。十八章」今文本條目）入本 Work。該條原本結構正確（今文版本，向上指向本原典，向下轄十三家注本），但存在三處污染：(1) authors 誤掛清·朱軾（實為四庫著錄朱軾《孝經注》時混入），已清除，本 Work authors 保持為空以合「作者傳說不一」之實；(2) indexed_by 混入四條外來著錄，已分流——舊唐志「孝經一卷王肅注」丟棄（《孝經王肅注》1evc5pe48shs0 已有全同一條，係重複）、新唐志「員半千臨戎孝經二卷」移歸《臨戎孝經》1evcpd2vjktfk、四庫總目朱軾注提要移歸《孝經注》1evr5e3m7t8ul，宋史「孝經一卷元行衝」因倉庫無元行衝孝經注 Work 且屬「孝經著錄附記注家」之例，留於本 Work；(3) 本 Work 原 indexed_by 為空，今由該條補入漢志著錄。其 1 個 Book（孝經注疏·四庫薈要摛藻堂本）與 0 條注本關聯併入。依《尚書》先例（今文總經併入原典），古文本《孝經古孔氏》(1evdswdqfwg74) 仍作版本條目單列。 | 合併蔣衡（清）寫本版本條目 1evkq1laeplvk（故宮善本 故殿005274，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）；其館藏號與本 Work 原有的11qki230wmqrk（故殿002263）、11qki33isz0g0（故殿031923）不同，為另一部藏本，非重複。 | 清除 related_works 中指向本目自身的條目。　　考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　作者欄留空之故：《孝經》一篇：相傳為孔子弟子曾子或子思學派所作，二說並存，故不補。　loss_status 判為 lost，據本記錄之描述／著錄語：「唐玄宗開元七年（719）詔群儒辨議古今文異同，定今文為通行本／\n漢志分別著錄今古文兩本：《孝經》一篇十八章（今文，河間人」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+ "related_works": [
+  {
+   "id": "1ahwtau87mm80",
+   "title": "十三經",
+   "relation": "collected_in"
   },
-  "ai_note": "新建原典 Work（先秦至西漢儒家經典，作者傳說不一）。原索引中 13 條 title=孝經 多為各家注本（鄭玄/唐玄宗/朱軾 等），按整理規範，原典單列一條，諸注本通過 related_works.commentary_on 關聯。 | 從 1evkpwdf12qrk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000071）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併 1ev3ba4hkcc1s（漢志「《孝經》一篇。十八章」今文本條目）入本 Work。該條原本結構正確（今文版本，向上指向本原典，向下轄十三家注本），但存在三處污染：(1) authors 誤掛清·朱軾（實為四庫著錄朱軾《孝經注》時混入），已清除，本 Work authors 保持為空以合「作者傳說不一」之實；(2) indexed_by 混入四條外來著錄，已分流——舊唐志「孝經一卷王肅注」丟棄（《孝經王肅注》1evc5pe48shs0 已有全同一條，係重複）、新唐志「員半千臨戎孝經二卷」移歸《臨戎孝經》1evcpd2vjktfk、四庫總目朱軾注提要移歸《孝經注》1evr5e3m7t8ul，宋史「孝經一卷元行衝」因倉庫無元行衝孝經注 Work 且屬「孝經著錄附記注家」之例，留於本 Work；(3) 本 Work 原 indexed_by 為空，今由該條補入漢志著錄。其 1 個 Book（孝經注疏·四庫薈要摛藻堂本）與 0 條注本關聯併入。依《尚書》先例（今文總經併入原典），古文本《孝經古孔氏》(1evdswdqfwg74) 仍作版本條目單列。 | 合併蔣衡（清）寫本版本條目 1evkq1laeplvk（故宮善本 故殿005274，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）；其館藏號與本 Work 原有的11qki230wmqrk（故殿002263）、11qki33isz0g0（故殿031923）不同，為另一部藏本，非重複。 | 清除 related_works 中指向本目自身的條目。　　考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　作者欄留空之故：《孝經》一篇：相傳為孔子弟子曾子或子思學派所作，二說並存，故不補。　loss_status 判為 lost，據本記錄之描述／著錄語：「唐玄宗開元七年（719）詔群儒辨議古今文異同，定今文為通行本／\n漢志分別著錄今古文兩本：《孝經》一篇十八章（今文，河間人」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "related_works": [
-    {
-      "id": "1ahwtau87mm80",
-      "title": "十三經",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ahwtau9gw0zk",
-      "title": "十三經注疏",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ev3ba4bsritc",
-      "title": "孝經正義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4c2fvnk",
-      "title": "古文孝經指解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4cc48hs",
-      "title": "孝經刊誤",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4cqh5hc",
-      "title": "孝經大義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4d4u2gw",
-      "title": "孝經定本",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4dj6zgg",
-      "title": "孝經述注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4dxjwg0",
-      "title": "孝經集傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4ebwtfk",
-      "title": "孝經問",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4ell69s",
-      "title": "孝經句解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4ev9j40",
-      "title": "孝經正誤",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4f594hs",
-      "title": "孝經宗旨",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4fem8sg",
-      "title": "孝經疑問",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4folu68",
-      "title": "孝經集講",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4fylfk0",
-      "title": "孝經注義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4g89se8",
-      "title": "孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4ghy58g",
-      "title": "讀孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4grmi2o",
-      "title": "孝經類解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4h1auww",
-      "title": "孝經正文",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4hanz7k",
-      "title": "孝經詳說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4hu0ow0",
-      "title": "孝經三本管窺",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4i32kn4",
-      "title": "孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4in1reo",
-      "title": "孝經通義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4iwq48w",
-      "title": "孝經本義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3ba4j6ppmo",
-      "title": "孝經通釋",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3cx3zfxatc",
-      "title": "御定孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3cx41vmzgg",
-      "title": "御纂孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev3d6e3xckjk",
-      "title": "御定孝經衍義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev4c1to3i1a8",
-      "title": "孝經內傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev4c1to5dgjk",
-      "title": "孝經外傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev7943so5beo",
-      "title": "孝經注疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj56hon4",
-      "title": "孝經江氏說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj5iz6dc",
-      "title": "孝經翼氏說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj5v5fk0",
-      "title": "孝經后氏說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj670g74",
-      "title": "孝經雜傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj6jhxxc",
-      "title": "孝經安昌侯說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj76a9kw",
-      "title": "孝經長孫氏說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ev85dj7h7klc",
-      "title": "孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pcgfaa68",
-      "title": "孝經內事",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe3eih34",
-      "title": "孝經解贊韋昭注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe3jtibk",
-      "title": "孝經默注徐整注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe3otb0g",
-      "title": "集解孝經謝萬注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe3u4c8w",
-      "title": "集議孝經袁宏撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe3yswe8",
-      "title": "集議孝經荀昶撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe43sp34",
-      "title": "孝經鄭氏注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe48shs0",
-      "title": "孝經王肅注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe4eq03k",
-      "title": "孝經釋慧琳注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe4jpssg",
-      "title": "孝經敬愛義蕭子顯撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe4oplhc",
-      "title": "孝經義疏皇侃撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe4tpe68",
-      "title": "孝經義疏梁武帝撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe4yp6v4",
-      "title": "孝經義疏趙景韶撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe54bgn4",
-      "title": "孝經私記周弘正撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe59mhvk",
-      "title": "孝經私記無名先生撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe5emakg",
-      "title": "古文孝經述義劉炫撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe5jaups",
-      "title": "孝經講疏徐孝克撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe5olvy8",
-      "title": "孝經義太史叔明撰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5pe5tag3k",
-      "title": "孝經義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5penxzny8",
-      "title": "孝經勾命訣宋均注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evc5peo7z9c0",
-      "title": "孝經援神契宋均注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcmne43xm2o",
-      "title": "孝經內記",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcmnf6pm4g0",
-      "title": "孝經元辰決",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcmnf6ux5og",
-      "title": "孝經元辰",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcuhsudq8",
-      "title": "孝經默注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcuj585xc",
-      "title": "講孝經義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcujb5o8w",
-      "title": "講孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcujh36kg",
-      "title": "孝經義疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcujn0ow0",
-      "title": "大明中皇太子講孝經義疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcujsy77k",
-      "title": "孝經疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcujz6y2o",
-      "title": "孝經發題",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcuk6260w",
-      "title": "孝經述義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcukj64u8",
-      "title": "越王孝經新義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpcukqntvk",
-      "title": "孝經應瑞圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcpd2vjktfk",
-      "title": "臨戎孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8wfkgsg",
-      "title": "孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8wp8tmo",
-      "title": "孝經講疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8x71clc",
-      "title": "古文孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8xpgcn4",
-      "title": "孝經新義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8yp1ekg",
-      "title": "趙湘孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw8zidpmo",
-      "title": "朱熹孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw90rn4e8",
-      "title": "古孝經輯注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw9144m4g",
-      "title": "孝經同異",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsw9slbnk0",
-      "title": "中庸大學孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsxw1kn85c",
-      "title": "大農孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsxyqq9atc",
-      "title": "元道孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsxz7wb6dc",
-      "title": "正順孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcsyhjyji80",
-      "title": "孝經類鑑",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcua6u3tj40",
-      "title": "孝經韋昭注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcua775wx6o",
-      "title": "孝經明皇注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcubrkzca2o",
-      "title": "孝經孫熙注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcubrlbij9c",
-      "title": "孝經蘇林注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evcuc3skwq9s",
-      "title": "孝經鄭玄注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibu74y8sg",
-      "title": "孝經新說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibu8cypds",
-      "title": "孝經集善",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibu9laeio",
-      "title": "孝經注解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuaszmkg",
-      "title": "孝經誡俗",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuc0oum8",
-      "title": "孝經刊誤",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibud90jr4",
-      "title": "孝經述解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuegprsw",
-      "title": "孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibufo3rb4",
-      "title": "定次孝經今古文",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibugv6i9s",
-      "title": "孝經私鈔",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibui1y0ow",
-      "title": "孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuj90rnk",
-      "title": "孝經大義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibukfsa2o",
-      "title": "孝經解詁",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuln69kw",
-      "title": "孝經敘錄",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibumuvhmo",
-      "title": "孝經疏義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuo1bri8",
-      "title": "孝經外傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibup839xc",
-      "title": "孝經邇言",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuqfh9fk",
-      "title": "注解孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdiburmk0e8",
-      "title": "重定孝經列傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibustxzwg",
-      "title": "孝經質疑",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuu10qv4",
-      "title": "孝經匯注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuv7s9a8",
-      "title": "孝經小學詳解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuwf68sg",
-      "title": "孝經集傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuxm8zr4",
-      "title": "孝經衍義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibuytbqps",
-      "title": "孝經疏義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibv00394w",
-      "title": "孝經貫注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdibv16urk0",
-      "title": "孝經本義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evdswdqfwg74",
-      "title": "孝經古孔氏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxfn2tc",
-      "title": "書易詩孝經春秋河洛緯秘要",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxhii2o",
-      "title": "孝經雜緯",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxj2osg",
-      "title": "孝經古秘援神",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxk0ef4",
-      "title": "孝經左右握",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxky41s",
-      "title": "孝經左右契圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxmtjb4",
-      "title": "孝經分野圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evetxcxodq0w",
-      "title": "孝經內事星宿講堂七十二弟子圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdscy6m1vk",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdsczom3uo",
-      "title": "孝經孔氏古文説",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdsd11xlog",
-      "title": "古文孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdsd2oaz9c",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdsd44quio",
-      "title": "孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfdsd5kk8ow",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfhb77t4cg0",
-      "title": "孝經皇義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfhb7antf5s",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfhba0ne9z4",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfhba88ixa8",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evftehe0py4g",
-      "title": "孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfteiq20ni8",
-      "title": "孝經句命決注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfteis9axhc",
-      "title": "孝經內事注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubs7u07pc",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsd85tkw",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsixv7k0",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsls91q8",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsovdj40",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsrti7sw",
-      "title": "孝經注殷仲文注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsury51c",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubsxm0qo0",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubt0e7x1c",
-      "title": "孝經講義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubt3eui2o",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubt6dafb4",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubt956d4w",
-      "title": "元帝孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubtbzvfuo",
-      "title": "穆帝時孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubtetbke8",
-      "title": "孝武帝總章館孝經講義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubthmgge8",
-      "title": "孝經錯緯",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfubyks9f5s",
-      "title": "孝經錯緯",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evfuvjxh4jk0",
-      "title": "集議孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga1848lzwg",
-      "title": "孝經直說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga1891upds",
-      "title": "孝經章句",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18dveneo",
-      "title": "孝經口義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18g1r7r4",
-      "title": "孝經經傳直解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18i8q96o",
-      "title": "孝經直解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18kegcg0",
-      "title": "孝經附錄",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18mk6fpc",
-      "title": "孝經刊誤",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18osefb4",
-      "title": "讀孝經衍義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18r0xngg",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18ta3cow",
-      "title": "孝經圖說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18vlfpq8",
-      "title": "孝經外傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga18xyni0w",
-      "title": "孝經管見",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga1907hyps",
-      "title": "孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga192gnny8",
-      "title": "孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evga1974wkqo",
-      "title": "孝經明解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgadrzh8d1c",
-      "title": "孝經集說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs65do8ao",
-      "title": "圖象孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6c1ehhc",
-      "title": "直解孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6dwtqtc",
-      "title": "孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6kso64g",
-      "title": "孝經衍義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6mmj8qo",
-      "title": "孝經直解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6r3wxkw",
-      "title": "孝經圖解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6sy38qo",
-      "title": "續孝經衍義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs6x6f1ts",
-      "title": "孝經新說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbs71hv8cg",
-      "title": "孝經旁訓",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgbsltnaqrk",
-      "title": "蒙古字孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrbhv0g0",
-      "title": "古文孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrdugbnk",
-      "title": "古孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrg7o3y8",
-      "title": "鄭玄孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqril74sg",
-      "title": "王肅孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrkxsg00",
-      "title": "劉劭孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrnaozr4",
-      "title": "韋昭孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrpnws1s",
-      "title": "孫熙孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrrzvm68",
-      "title": "蘇林孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrueytq8",
-      "title": "謝方孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqrwr8we8",
-      "title": "虞盤佐孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqs1gqrcw",
-      "title": "殷叔道孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqs3s34e8",
-      "title": "慧琳孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqs64d728",
-      "title": "玄宗孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqs8hkzcw",
-      "title": "袁克己孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsauhj40",
-      "title": "尹知章孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsd72ubk",
-      "title": "王元感孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsfjcwzk",
-      "title": "趙克孝孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqshvmznk",
-      "title": "呂惠卿孝經傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsk7al8g",
-      "title": "張九成孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsmjknwg",
-      "title": "袁廣微孝經説",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsoux0xs",
-      "title": "吳澂孝經章句",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsr6vv28",
-      "title": "許衡孝經直説",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsti883k",
-      "title": "姜氏孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsvw2hhc",
-      "title": "王文獻孝經詳解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqsy73lz4",
-      "title": "林椿齡孝經全解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqt0kmmtc",
-      "title": "沈處厚孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqt2xj6kg",
-      "title": "項安世孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqt59i0ow",
-      "title": "袁甫孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqt7m3bwg",
-      "title": "徐壑孝經嘿注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqt9zxla8",
-      "title": "袁敬仲集議孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtcc7ny8",
-      "title": "黃幹孝經本指",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtep47pc",
-      "title": "酸齋孝經直解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqth1piww",
-      "title": "成齋孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtjg69ds",
-      "title": "孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtlsrklc",
-      "title": "孝經義䟽",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtsvh7uo",
-      "title": "孝經疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtv7raio",
-      "title": "孝經講義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtxk1d6o",
-      "title": "孝經疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqtzyi3nk",
-      "title": "孝經指要",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqu2cnlkw",
-      "title": "孝經正義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqu4oxo8w",
-      "title": "孝經簡䟽",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqu70widc",
-      "title": "孝經解義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqu9bxmv4",
-      "title": "孝經義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqubou6m8",
-      "title": "孝經通義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoque06jnk",
-      "title": "孝經䟽",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqugbiwow",
-      "title": "孝經講疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoquin6i9s",
-      "title": "孝經義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqunbqnls",
-      "title": "廣孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqurzobuo",
-      "title": "孝經釋文",
-      "relation": "studied_by"
-    },
-    {
-      "id": "1evgoquz0ijuo",
-      "title": "孝經古秘援神",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoqv3pdxq8",
-      "title": "孝經內事星宿講堂七十二弟子圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgq1fath3i8",
-      "title": "孝經內記星圖",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgq32i5iwao",
-      "title": "孝經元辰決",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evinccj3ebk0",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evincg7xhxj4",
-      "title": "孝經鄭氏解輯",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evincg97p1xc",
-      "title": "孝經精義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evincgaitvy8",
-      "title": "中文孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evincgbwgmbk",
-      "title": "孝經匯纂",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzcmd4jk0",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzcp4e0ao",
-      "title": "孝經大全或問孝經翼",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzcrvnh1c",
-      "title": "孝經本義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzcunjev4",
-      "title": "孝經總類",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzcxdjxfk",
-      "title": "孝經贊義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzd04i5mo",
-      "title": "孝經內外傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzd2uio74",
-      "title": "孝經學",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzd5kj6rk",
-      "title": "孝經精義後錄或問原孝餘論",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzd8ex0xs",
-      "title": "孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjqzdb8d5hc",
-      "title": "孝經集證",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjxjn6x5xc0",
-      "title": "古文孝經朱子訂定刊誤集講",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjxjnmw51xc",
-      "title": "孝經章句",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjxmksuzqww",
-      "title": "孝經集靈",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjy6mqs9n28",
-      "title": "孝經列傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evjy7x56v7cw",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evka9h8o22gw",
-      "title": "孝經集解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkabujt5kow",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkabun3rr40",
-      "title": "孝經名義考",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkacj160kcg",
-      "title": "御製繙譯孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkacz4glc74",
-      "title": "孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkae25kq4g0",
-      "title": "孝經注解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkaf2xl13i8",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkammoxgutc",
-      "title": "御注孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evke37704ohs",
-      "title": "孝經大義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evke37ebkyyo",
-      "title": "晦菴先生所定古文孝經句解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evke52klj474",
-      "title": "孝經集注述疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkpgft8lpmo",
-      "title": "孝經指解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkpo8vmqf40",
-      "title": "唐石經孝經拓片",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkpy6jxxzwg",
-      "title": "孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkq1i0i4nb4",
-      "title": "御製繙譯孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkq1p9oy6f4",
-      "title": "御注孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evkq30uldszk",
-      "title": "孝經合解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uh",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8ui",
-      "title": "欽定繙譯孝經",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uj",
-      "title": "孝經全注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8ul",
-      "title": "孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8um",
-      "title": "孝經約義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8un",
-      "title": "孝經中文",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uo",
-      "title": "孝經音義考證",
-      "relation": "studied_by"
-    },
-    {
-      "id": "1evr5e3m7t8up",
-      "title": "孝經鄭注補證",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uq",
-      "title": "孝經義疏補",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8ur",
-      "title": "孝經述注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8us",
-      "title": "孝經徵文",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8ut",
-      "title": "孝經曾子大孝",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uu",
-      "title": "孝經指解補正",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uw",
-      "title": "孝經今古文傳注輯論",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8ux",
-      "title": "孝經十八章輯傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uy",
-      "title": "孝經鄭注疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8uz",
-      "title": "漢長孫氏孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v0",
-      "title": "孝經解",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v1",
-      "title": "孝經解贊",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v3",
-      "title": "孝經講義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v4",
-      "title": "梁武帝孝經義疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v5",
-      "title": "梁嚴植之孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v6",
-      "title": "梁皇侃孝經義疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v7",
-      "title": "隋劉炫古文孝經述義",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v8",
-      "title": "隋魏真己孝經訓注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8v9",
-      "title": "唐元行沖御注孝經疏",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3m7t8va",
-      "title": "漢鄭玄孝經注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3meogv3",
-      "title": "孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3meogv5",
-      "title": "孝經集注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3meogv6",
-      "title": "孝經章句",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3meogv8",
-      "title": "孝經外傳",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3mezpii",
-      "title": "孝經說",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evr5e3mfaxy2",
-      "title": "孝經䟽",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1ewom0lrvgpoh",
-      "title": "后蒼孝經說",
-      "relation": "studied_by"
-    },
-    {
-      "id": "1ewom0lsot0qq",
-      "title": "馮椅孝經說",
-      "relation": "studied_by"
-    },
-    {
-      "id": "1ewom0lt5clj7",
-      "title": "王行孝經說",
-      "relation": "studied_by"
-    }
-  ],
-  "books": [
-    "11qkhv2jf6cqo",
-    "11qki0hwxgf0g",
-    "11qki230wmqrk",
-    "11qki33isz0g0",
-    "11qki3l5pcnwg",
-    "11q7m1rse0ge8",
-    "11qki27ig93b4",
-    "11rot33u9trg0"
-  ],
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "孝經一篇",
-      "summary": "《孝經》一篇。十八章。長孫氏、江氏、后氏、翼氏四家。",
-      "section": "六藝略／孝經",
-      "page": "KR2a0007_WYG_030-15b",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《孝經》",
-      "summary": "《孝經》一卷元行衝"
-    }
-  ],
-  "additional_titles": [
-    "今文孝經",
-    "孝經經"
-  ],
-  "emendated_by": [
-    {
-      "source": "漢藝文志考證",
-      "source_bid": "1ev3bb40n3k74",
-      "title_info": "孝經一篇。",
-      "summary": "《隋志》:“河間顏芝所藏。漢初,芝子貞出之,凡十八章,千八百七十二字。劉向以顏本比古文,除其繁惑,以十八章為定。”"
-    }
-  ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T18:14:29+00:00"
+  {
+   "id": "1ahwtau9gw0zk",
+   "title": "十三經注疏",
+   "relation": "collected_in"
+  },
+  {
+   "id": "1ev3ba4bsritc",
+   "title": "孝經正義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4c2fvnk",
+   "title": "古文孝經指解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4cc48hs",
+   "title": "孝經刊誤",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4cqh5hc",
+   "title": "孝經大義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4d4u2gw",
+   "title": "孝經定本",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4dj6zgg",
+   "title": "孝經述注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4dxjwg0",
+   "title": "孝經集傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4ebwtfk",
+   "title": "孝經問",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4ell69s",
+   "title": "孝經句解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4ev9j40",
+   "title": "孝經正誤",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4f594hs",
+   "title": "孝經宗旨",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4fem8sg",
+   "title": "孝經疑問",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4folu68",
+   "title": "孝經集講",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4fylfk0",
+   "title": "孝經注義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4g89se8",
+   "title": "孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4ghy58g",
+   "title": "讀孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4grmi2o",
+   "title": "孝經類解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4h1auww",
+   "title": "孝經正文",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4hanz7k",
+   "title": "孝經詳說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4hu0ow0",
+   "title": "孝經三本管窺",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4i32kn4",
+   "title": "孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4in1reo",
+   "title": "孝經通義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4iwq48w",
+   "title": "孝經本義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3ba4j6ppmo",
+   "title": "孝經通釋",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3cx3zfxatc",
+   "title": "御定孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3cx41vmzgg",
+   "title": "御纂孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev3d6e3xckjk",
+   "title": "御定孝經衍義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev4c1to3i1a8",
+   "title": "孝經內傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev4c1to5dgjk",
+   "title": "孝經外傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev7943so5beo",
+   "title": "孝經注疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj56hon4",
+   "title": "孝經江氏說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj5iz6dc",
+   "title": "孝經翼氏說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj5v5fk0",
+   "title": "孝經后氏說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj670g74",
+   "title": "孝經雜傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj6jhxxc",
+   "title": "孝經安昌侯說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj76a9kw",
+   "title": "孝經長孫氏說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ev85dj7h7klc",
+   "title": "孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pcgfaa68",
+   "title": "孝經內事",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe3eih34",
+   "title": "孝經解贊韋昭注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe3jtibk",
+   "title": "孝經默注徐整注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe3otb0g",
+   "title": "集解孝經謝萬注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe3u4c8w",
+   "title": "集議孝經袁宏撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe3yswe8",
+   "title": "集議孝經荀昶撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe43sp34",
+   "title": "孝經鄭氏注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe48shs0",
+   "title": "孝經王肅注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe4eq03k",
+   "title": "孝經釋慧琳注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe4jpssg",
+   "title": "孝經敬愛義蕭子顯撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe4oplhc",
+   "title": "孝經義疏皇侃撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe4tpe68",
+   "title": "孝經義疏梁武帝撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe4yp6v4",
+   "title": "孝經義疏趙景韶撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe54bgn4",
+   "title": "孝經私記周弘正撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe59mhvk",
+   "title": "孝經私記無名先生撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe5emakg",
+   "title": "古文孝經述義劉炫撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe5jaups",
+   "title": "孝經講疏徐孝克撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe5olvy8",
+   "title": "孝經義太史叔明撰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5pe5tag3k",
+   "title": "孝經義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5penxzny8",
+   "title": "孝經勾命訣宋均注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evc5peo7z9c0",
+   "title": "孝經援神契宋均注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcmne43xm2o",
+   "title": "孝經內記",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcmnf6pm4g0",
+   "title": "孝經元辰決",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcmnf6ux5og",
+   "title": "孝經元辰",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcuhsudq8",
+   "title": "孝經默注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcuj585xc",
+   "title": "講孝經義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcujb5o8w",
+   "title": "講孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcujh36kg",
+   "title": "孝經義疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcujn0ow0",
+   "title": "大明中皇太子講孝經義疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcujsy77k",
+   "title": "孝經疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcujz6y2o",
+   "title": "孝經發題",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcuk6260w",
+   "title": "孝經述義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcukj64u8",
+   "title": "越王孝經新義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpcukqntvk",
+   "title": "孝經應瑞圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcpd2vjktfk",
+   "title": "臨戎孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8wfkgsg",
+   "title": "孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8wp8tmo",
+   "title": "孝經講疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8x71clc",
+   "title": "古文孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8xpgcn4",
+   "title": "孝經新義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8yp1ekg",
+   "title": "趙湘孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw8zidpmo",
+   "title": "朱熹孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw90rn4e8",
+   "title": "古孝經輯注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw9144m4g",
+   "title": "孝經同異",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsw9slbnk0",
+   "title": "中庸大學孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsxw1kn85c",
+   "title": "大農孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsxyqq9atc",
+   "title": "元道孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsxz7wb6dc",
+   "title": "正順孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcsyhjyji80",
+   "title": "孝經類鑑",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcua6u3tj40",
+   "title": "孝經韋昭注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcua775wx6o",
+   "title": "孝經明皇注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcubrkzca2o",
+   "title": "孝經孫熙注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcubrlbij9c",
+   "title": "孝經蘇林注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evcuc3skwq9s",
+   "title": "孝經鄭玄注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibu74y8sg",
+   "title": "孝經新說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibu8cypds",
+   "title": "孝經集善",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibu9laeio",
+   "title": "孝經注解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuaszmkg",
+   "title": "孝經誡俗",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuc0oum8",
+   "title": "孝經刊誤",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibud90jr4",
+   "title": "孝經述解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuegprsw",
+   "title": "孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibufo3rb4",
+   "title": "定次孝經今古文",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibugv6i9s",
+   "title": "孝經私鈔",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibui1y0ow",
+   "title": "孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuj90rnk",
+   "title": "孝經大義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibukfsa2o",
+   "title": "孝經解詁",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuln69kw",
+   "title": "孝經敘錄",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibumuvhmo",
+   "title": "孝經疏義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuo1bri8",
+   "title": "孝經外傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibup839xc",
+   "title": "孝經邇言",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuqfh9fk",
+   "title": "注解孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdiburmk0e8",
+   "title": "重定孝經列傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibustxzwg",
+   "title": "孝經質疑",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuu10qv4",
+   "title": "孝經匯注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuv7s9a8",
+   "title": "孝經小學詳解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuwf68sg",
+   "title": "孝經集傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuxm8zr4",
+   "title": "孝經衍義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibuytbqps",
+   "title": "孝經疏義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibv00394w",
+   "title": "孝經貫注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdibv16urk0",
+   "title": "孝經本義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evdswdqfwg74",
+   "title": "孝經古孔氏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxfn2tc",
+   "title": "書易詩孝經春秋河洛緯秘要",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxhii2o",
+   "title": "孝經雜緯",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxj2osg",
+   "title": "孝經古秘援神",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxk0ef4",
+   "title": "孝經左右握",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxky41s",
+   "title": "孝經左右契圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxmtjb4",
+   "title": "孝經分野圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evetxcxodq0w",
+   "title": "孝經內事星宿講堂七十二弟子圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdscy6m1vk",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdsczom3uo",
+   "title": "孝經孔氏古文説",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdsd11xlog",
+   "title": "古文孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdsd2oaz9c",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdsd44quio",
+   "title": "孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfdsd5kk8ow",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfhb77t4cg0",
+   "title": "孝經皇義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfhb7antf5s",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfhba0ne9z4",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfhba88ixa8",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evftehe0py4g",
+   "title": "孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfteiq20ni8",
+   "title": "孝經句命決注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfteis9axhc",
+   "title": "孝經內事注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubs7u07pc",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsd85tkw",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsixv7k0",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsls91q8",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsovdj40",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsrti7sw",
+   "title": "孝經注殷仲文注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsury51c",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubsxm0qo0",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubt0e7x1c",
+   "title": "孝經講義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubt3eui2o",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubt6dafb4",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubt956d4w",
+   "title": "元帝孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubtbzvfuo",
+   "title": "穆帝時孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubtetbke8",
+   "title": "孝武帝總章館孝經講義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubthmgge8",
+   "title": "孝經錯緯",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfubyks9f5s",
+   "title": "孝經錯緯",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evfuvjxh4jk0",
+   "title": "集議孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga1848lzwg",
+   "title": "孝經直說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga1891upds",
+   "title": "孝經章句",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18dveneo",
+   "title": "孝經口義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18g1r7r4",
+   "title": "孝經經傳直解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18i8q96o",
+   "title": "孝經直解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18kegcg0",
+   "title": "孝經附錄",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18mk6fpc",
+   "title": "孝經刊誤",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18osefb4",
+   "title": "讀孝經衍義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18r0xngg",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18ta3cow",
+   "title": "孝經圖說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18vlfpq8",
+   "title": "孝經外傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga18xyni0w",
+   "title": "孝經管見",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga1907hyps",
+   "title": "孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga192gnny8",
+   "title": "孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evga1974wkqo",
+   "title": "孝經明解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgadrzh8d1c",
+   "title": "孝經集說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs65do8ao",
+   "title": "圖象孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6c1ehhc",
+   "title": "直解孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6dwtqtc",
+   "title": "孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6kso64g",
+   "title": "孝經衍義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6mmj8qo",
+   "title": "孝經直解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6r3wxkw",
+   "title": "孝經圖解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6sy38qo",
+   "title": "續孝經衍義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs6x6f1ts",
+   "title": "孝經新說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbs71hv8cg",
+   "title": "孝經旁訓",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgbsltnaqrk",
+   "title": "蒙古字孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrbhv0g0",
+   "title": "古文孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrdugbnk",
+   "title": "古孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrg7o3y8",
+   "title": "鄭玄孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqril74sg",
+   "title": "王肅孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrkxsg00",
+   "title": "劉劭孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrnaozr4",
+   "title": "韋昭孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrueytq8",
+   "title": "謝方孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqrwr8we8",
+   "title": "虞盤佐孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqs1gqrcw",
+   "title": "殷叔道孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqs3s34e8",
+   "title": "慧琳孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqs64d728",
+   "title": "玄宗孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqs8hkzcw",
+   "title": "袁克己孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsauhj40",
+   "title": "尹知章孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsd72ubk",
+   "title": "王元感孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsfjcwzk",
+   "title": "趙克孝孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqshvmznk",
+   "title": "呂惠卿孝經傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsk7al8g",
+   "title": "張九成孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsmjknwg",
+   "title": "袁廣微孝經説",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsoux0xs",
+   "title": "吳澂孝經章句",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsr6vv28",
+   "title": "許衡孝經直説",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsvw2hhc",
+   "title": "王文獻孝經詳解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqsy73lz4",
+   "title": "林椿齡孝經全解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqt0kmmtc",
+   "title": "沈處厚孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqt2xj6kg",
+   "title": "項安世孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqt59i0ow",
+   "title": "袁甫孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqt7m3bwg",
+   "title": "徐壑孝經嘿注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqt9zxla8",
+   "title": "袁敬仲集議孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtcc7ny8",
+   "title": "黃幹孝經本指",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtep47pc",
+   "title": "酸齋孝經直解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtlsrklc",
+   "title": "孝經義䟽",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtsvh7uo",
+   "title": "孝經疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtv7raio",
+   "title": "孝經講義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtxk1d6o",
+   "title": "孝經疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqtzyi3nk",
+   "title": "孝經指要",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqu2cnlkw",
+   "title": "孝經正義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqu4oxo8w",
+   "title": "孝經簡䟽",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqu70widc",
+   "title": "孝經解義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqu9bxmv4",
+   "title": "孝經義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqubou6m8",
+   "title": "孝經通義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoque06jnk",
+   "title": "孝經䟽",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqugbiwow",
+   "title": "孝經講疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoquin6i9s",
+   "title": "孝經義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqunbqnls",
+   "title": "廣孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqurzobuo",
+   "title": "孝經釋文",
+   "relation": "studied_by"
+  },
+  {
+   "id": "1evgoquz0ijuo",
+   "title": "孝經古秘援神",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgoqv3pdxq8",
+   "title": "孝經內事星宿講堂七十二弟子圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgq1fath3i8",
+   "title": "孝經內記星圖",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evgq32i5iwao",
+   "title": "孝經元辰決",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evinccj3ebk0",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evincg7xhxj4",
+   "title": "孝經鄭氏解輯",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evincg97p1xc",
+   "title": "孝經精義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evincgaitvy8",
+   "title": "中文孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evincgbwgmbk",
+   "title": "孝經匯纂",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzcmd4jk0",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzcp4e0ao",
+   "title": "孝經大全或問孝經翼",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzcrvnh1c",
+   "title": "孝經本義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzcunjev4",
+   "title": "孝經總類",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzcxdjxfk",
+   "title": "孝經贊義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzd04i5mo",
+   "title": "孝經內外傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzd2uio74",
+   "title": "孝經學",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzd5kj6rk",
+   "title": "孝經精義後錄或問原孝餘論",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzd8ex0xs",
+   "title": "孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjqzdb8d5hc",
+   "title": "孝經集證",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjxjn6x5xc0",
+   "title": "古文孝經朱子訂定刊誤集講",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjxjnmw51xc",
+   "title": "孝經章句",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjxmksuzqww",
+   "title": "孝經集靈",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjy6mqs9n28",
+   "title": "孝經列傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evjy7x56v7cw",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evka9h8o22gw",
+   "title": "孝經集解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkabujt5kow",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkabun3rr40",
+   "title": "孝經名義考",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkacj160kcg",
+   "title": "御製繙譯孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkacz4glc74",
+   "title": "孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkae25kq4g0",
+   "title": "孝經注解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkaf2xl13i8",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkammoxgutc",
+   "title": "御注孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evke37704ohs",
+   "title": "孝經大義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evke37ebkyyo",
+   "title": "晦菴先生所定古文孝經句解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evke52klj474",
+   "title": "孝經集注述疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkpgft8lpmo",
+   "title": "孝經指解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkpo8vmqf40",
+   "title": "唐石經孝經拓片",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkpy6jxxzwg",
+   "title": "孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkq1i0i4nb4",
+   "title": "御製繙譯孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkq1p9oy6f4",
+   "title": "御注孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evkq30uldszk",
+   "title": "孝經合解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uh",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8ui",
+   "title": "欽定繙譯孝經",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uj",
+   "title": "孝經全注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8ul",
+   "title": "孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8um",
+   "title": "孝經約義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8un",
+   "title": "孝經中文",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uo",
+   "title": "孝經音義考證",
+   "relation": "studied_by"
+  },
+  {
+   "id": "1evr5e3m7t8up",
+   "title": "孝經鄭注補證",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uq",
+   "title": "孝經義疏補",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8ur",
+   "title": "孝經述注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8us",
+   "title": "孝經徵文",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8ut",
+   "title": "孝經曾子大孝",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uu",
+   "title": "孝經指解補正",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uw",
+   "title": "孝經今古文傳注輯論",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8ux",
+   "title": "孝經十八章輯傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uy",
+   "title": "孝經鄭注疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8uz",
+   "title": "漢長孫氏孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v0",
+   "title": "孝經解",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v1",
+   "title": "孝經解贊",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v3",
+   "title": "孝經講義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v4",
+   "title": "梁武帝孝經義疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v5",
+   "title": "梁嚴植之孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v6",
+   "title": "梁皇侃孝經義疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v7",
+   "title": "隋劉炫古文孝經述義",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v8",
+   "title": "隋魏真己孝經訓注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8v9",
+   "title": "唐元行沖御注孝經疏",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3m7t8va",
+   "title": "漢鄭玄孝經注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3meogv3",
+   "title": "孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3meogv5",
+   "title": "孝經集注",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3meogv6",
+   "title": "孝經章句",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3meogv8",
+   "title": "孝經外傳",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3mezpii",
+   "title": "孝經說",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1evr5e3mfaxy2",
+   "title": "孝經䟽",
+   "relation": "text_carried_by"
+  },
+  {
+   "id": "1ewom0lrvgpoh",
+   "title": "后蒼孝經說",
+   "relation": "studied_by"
+  },
+  {
+   "id": "1ewom0lsot0qq",
+   "title": "馮椅孝經說",
+   "relation": "studied_by"
+  },
+  {
+   "id": "1ewom0lt5clj7",
+   "title": "王行孝經說",
+   "relation": "studied_by"
+  }
+ ],
+ "books": [
+  "11qkhv2jf6cqo",
+  "11qki0hwxgf0g",
+  "11qki230wmqrk",
+  "11qki33isz0g0",
+  "11qki3l5pcnwg",
+  "11q7m1rse0ge8",
+  "11qki27ig93b4",
+  "11rot33u9trg0"
+ ],
+ "indexed_by": [
+  {
+   "source": "漢書藝文志",
+   "source_bid": "1euhm19a23jsw",
+   "title_info": "孝經一篇",
+   "summary": "《孝經》一篇。十八章。長孫氏、江氏、后氏、翼氏四家。",
+   "section": "六藝略／孝經",
+   "page": "KR2a0007_WYG_030-15b",
+   "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
+  },
+  {
+   "source": "宋史藝文志",
+   "source_bid": "1evcsw4kt579c",
+   "title_info": "《孝經》",
+   "summary": "《孝經》一卷元行衝"
+  }
+ ],
+ "additional_titles": [
+  "今文孝經",
+  "孝經經"
+ ],
+ "emendated_by": [
+  {
+   "source": "漢藝文志考證",
+   "source_bid": "1ev3bb40n3k74",
+   "title_info": "孝經一篇。",
+   "summary": "《隋志》:“河間顏芝所藏。漢初,芝子貞出之,凡十八章,千八百七十二字。劉向以顏本比古文,除其繁惑,以十八章為定。”"
+  }
+ ],
+ "loss_status": "lost",
+ "updated_at": "2026-08-06T18:14:29+00:00"
 }

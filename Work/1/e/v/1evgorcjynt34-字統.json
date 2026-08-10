@@ -1,41 +1,50 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "字統",
-  "authors": [
-    {
-      "name": "楊承慶",
-      "role": "撰",
-      "entity_id": "1j96hfozkf3sw"
-    }
-  ],
-  "juan_count": {
-    "number": 21
+ "schema_version": 1,
+ "type": "work",
+ "title": "字統",
+ "authors": [
+  {
+   "name": "楊承慶",
+   "role": "撰",
+   "entity_id": "1j96hfozkf3sw"
+  }
+ ],
+ "juan_count": {
+  "number": 21
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《字統》二十一卷",
+   "summary": "《字統》二十一卷（楊承慶）",
+   "author_info": "楊承慶"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《字統》二十一卷",
-      "summary": "《字統》二十一卷（楊承慶）",
-      "author_info": "楊承慶"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"字統\" 唯一候选无作者　輯佚檔：本書之輯佚著錄置於 fragments/字統.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "id": "1evgorcjynt34",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 21
-    }
-  ],
-  "measure_info": "二十一卷",
-  "loss_status": "lost",
-  "updated_at": "2026-08-05T09:02:34+00:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "楊承慶字統",
+   "summary": "楊承慶字統二十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"字統\" 唯一候选无作者　輯佚檔：本書之輯佚著錄置於 fragments/字統.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0agz2z28（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgorcjynt34",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 21
+  }
+ ],
+ "measure_info": "二十一卷",
+ "loss_status": "lost",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

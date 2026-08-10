@@ -1,44 +1,53 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "遺安集",
-  "authors": [
-    {
-      "name": "郭鎬",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96antm"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "郭鎬遺安集十一卷",
-      "summary": "元郭鎬遺安集十一卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《遺安集》十一卷",
-      "summary": "元郭鎬遺安集十一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 11
+ "schema_version": 1,
+ "type": "work",
+ "title": "遺安集",
+ "authors": [
+  {
+   "name": "郭鎬",
+   "role": "撰",
+   "dynasty": "元",
+   "entity_id": "1j967da96antm"
+  }
+ ],
+ "indexed_by": [
+  {
+   "source": "補遼金元藝文志",
+   "source_bid": "1eve1ek5qq9kw",
+   "title_info": "郭鎬遺安集十一卷",
+   "summary": "元郭鎬遺安集十一卷"
   },
-  "id": "1evgacgzevzsw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 11
-    }
-  ],
-  "measure_info": "十一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  {
+   "source": "元史藝文志",
+   "source_bid": "1eve1ek8wcnb4",
+   "title_info": "《遺安集》十一卷",
+   "summary": "元郭鎬遺安集十一卷"
+  },
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《郭鎬遺安集》十一卷",
+   "summary": "《郭鎬遺安集》十一卷"
+  }
+ ],
+ "juan_count": {
+  "number": 11
+ },
+ "id": "1evgacgzevzsw",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 11
+  }
+ ],
+ "measure_info": "十一卷",
+ "updated_at": "2026-08-10",
+ "period": "liao-jin-yuan",
+ "period_basis": "據 authors[0].dynasty「元」",
+ "dynasty": "元",
+ "dynasty_basis": "author_propagation",
+ "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-10 撰人字首式重出候選覆核：1evgqdzn1lcsg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

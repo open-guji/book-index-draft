@@ -1,40 +1,59 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "字屬篇",
-  "authors": [
-    {
-      "name": "賈魴",
-      "role": "撰",
-      "entity_id": "1j96ha870u874"
-    }
-  ],
-  "juan_count": {
-    "number": 1
+ "schema_version": 1,
+ "type": "work",
+ "title": "字屬篇",
+ "authors": [
+  {
+   "name": "賈魴",
+   "role": "撰",
+   "entity_id": "1j96ha870u874"
+  }
+ ],
+ "juan_count": {
+  "number": 1
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《字屬篇》一卷",
+   "summary": "《字屬篇》一卷（賈魴）",
+   "author_info": "賈魴"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《字屬篇》一卷",
-      "summary": "《字屬篇》一卷（賈魴）",
-      "author_info": "賈魴"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "賈魴字屬篇",
+   "summary": "賈魴字屬篇一卷"
   },
-  "ai_note": "missing_reason: 短title \"字屬篇\" 唯一候选无作者",
-  "id": "1evgord37xvk0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "後漢藝文志",
+   "source_bid": "1eve1ei9whji8",
+   "title_info": "賈魴字屬篇一卷",
+   "summary": "賈魴字屬篇一卷隋書經籍志：梁有字屬一卷，賈魴撰，亡。唐經籍志：字屬篇一卷，賈魴撰。藝文志賈魴字屬篇一卷。",
+   "section": "經部／小學類",
+   "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"字屬篇\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ahgvi0w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgord37xvk0",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 1
+  }
+ ],
+ "measure_info": "一卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": [],
+ "period": "qin-han",
+ "period_basis": "據撰人賈魴（後漢滂喜篇作者）之時代"
 }

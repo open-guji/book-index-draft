@@ -1,63 +1,71 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "文館詞林文人傳",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《文館詞林》一千卷",
-      "summary": "《文館詞林》一千卷許敬宗撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《文館詞林》一千卷",
-      "summary": "《文館詞林》一千卷（許敬宗集）",
-      "author_info": "許敬宗集"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "文館詞林",
-      "summary": "《文館詞林》四卷。{{唐許敬宗等編。《佚存叢書》本，粵雅堂重刻本。此殘本，原書一千卷。}}",
-      "author_info": "許敬宗等編"
-    }
-  ],
-  "id": "1evcpd8ksf7r4",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%96%87%E9%A4%A8%E8%A9%9E%E6%9E%97",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "許敬宗",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978dhb"
-    }
-  ],
-  "ai_note": "作者 \"唐許敬宗撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpj4hh4t1c 合併。原註：[QA2026-04-20] title 含可疑字符: \"文館、詞林文人傳\"，可能是解析错误\n[QA-fix 2026-04-20] title \"文館、詞林文人傳\" → \"文館詞林文人傳\" (remove 顿号) [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "books": [
-    "11qki00b01ce8",
-    "11qki00cc3w1s"
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+ "schema_version": 1,
+ "type": "work",
+ "title": "文館詞林文人傳",
+ "indexed_by": [
+  {
+   "source": "舊唐書經籍志",
+   "source_bid": "1evcpbhmiqdj4",
+   "title_info": "《文館詞林》一千卷",
+   "summary": "《文館詞林》一千卷許敬宗撰。"
   },
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《文館詞林》一千卷",
+   "summary": "《文館詞林》一千卷（許敬宗集）",
+   "author_info": "許敬宗集"
+  },
+  {
+   "source": "書目答問",
+   "source_bid": "1evr5e3m9zwpo",
+   "title_info": "文館詞林",
+   "summary": "《文館詞林》四卷。{{唐許敬宗等編。《佚存叢書》本，粵雅堂重刻本。此殘本，原書一千卷。}}",
+   "author_info": "許敬宗等編"
+  },
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "許敬宗文館詞林文人傳",
+   "summary": "許敬宗文館詞林文人傳一百卷"
+  }
+ ],
+ "id": "1evcpd8ksf7r4",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E6%96%87%E9%A4%A8%E8%A9%9E%E6%9E%97",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "authors": [
+  {
+   "name": "許敬宗",
+   "role": "撰",
+   "dynasty": "唐",
+   "entity_id": "1j967da978dhb"
+  }
+ ],
+ "ai_note": "作者 \"唐許敬宗撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgpj4hh4t1c 合併。原註：[QA2026-04-20] title 含可疑字符: \"文館、詞林文人傳\"，可能是解析错误\n[QA-fix 2026-04-20] title \"文館、詞林文人傳\" → \"文館詞林文人傳\" (remove 顿号) [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0g4g8ykg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "books": [
+  "11qki00b01ce8",
+  "11qki00cc3w1s"
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "updated_at": "2026-08-10",
+ "_has_text": true,
+ "period": "sui-tang",
+ "period_basis": "據 authors[0].dynasty「唐」",
+ "dynasty": "唐",
+ "dynasty_basis": "author_propagation",
+ "emendated_by": [],
+ "related_works": []
 }

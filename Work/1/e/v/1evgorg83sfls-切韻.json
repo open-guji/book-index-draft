@@ -1,40 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "切韻",
-  "authors": [
-    {
-      "name": "陸慈",
-      "role": "撰",
-      "entity_id": "1j96hfp4a87b4"
-    }
-  ],
-  "juan_count": {
-    "number": 5
+ "schema_version": 1,
+ "type": "work",
+ "title": "切韻",
+ "authors": [
+  {
+   "name": "陸慈",
+   "role": "撰",
+   "entity_id": "1j96hfp4a87b4"
+  }
+ ],
+ "juan_count": {
+  "number": 5
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《切韻》五卷",
+   "summary": "《切韻》五卷（陸慈）",
+   "author_info": "陸慈"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《切韻》五卷",
-      "summary": "《切韻》五卷（陸慈）",
-      "author_info": "陸慈"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgorg83sfls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "陸慈切韻",
+   "summary": "陸慈切韻五卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0aluiccg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgorg83sfls",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 5
+  }
+ ],
+ "measure_info": "五卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

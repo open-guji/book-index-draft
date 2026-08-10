@@ -1,39 +1,49 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "雙溪集",
-  "authors": [
-    {
-      "name": "杭淮",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967cp20xxqu"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫029906-029907）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫029906-029907）。阶段 5 兜底建立。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "id": "1evkpxrxx79j4",
-  "books": [
-    "11qkhxt60s8ao"
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+ "schema_version": 1,
+ "type": "work",
+ "title": "雙溪集",
+ "authors": [
+  {
+   "name": "杭淮",
+   "role": "撰",
+   "dynasty": "明",
+   "entity_id": "1j967cp20xxqu"
+  }
+ ],
+ "description": {
+  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫029906-029907）。清乾隆間寫文淵閣四庫全書本。",
+  "sources": [
+   "國立故宮博物院善本舊籍"
+  ]
+ },
+ "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫029906-029907）。阶段 5 兜底建立。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-10 撰人字首式重出候選覆核：1evgqf9epqosg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "juan_count": {
+  "number": 8
+ },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 8
+  }
+ ],
+ "measure_info": "八卷",
+ "id": "1evkpxrxx79j4",
+ "books": [
+  "11qkhxt60s8ao"
+ ],
+ "updated_at": "2026-08-10",
+ "period": "ming",
+ "period_basis": "據 authors[0].dynasty「明」",
+ "dynasty": "明",
+ "dynasty_basis": "author_propagation",
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《杭淮雙溪集》八卷",
+   "summary": "《杭淮雙溪集》八卷"
+  }
+ ],
+ "emendated_by": [],
+ "related_works": []
 }

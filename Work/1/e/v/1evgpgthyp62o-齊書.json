@@ -1,47 +1,56 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "齊書",
-  "authors": [
-    {
-      "name": "蕭子顯",
-      "role": "撰",
-      "entity_id": "1j96ad6gqul8g"
-    }
-  ],
-  "juan_count": {
-    "number": 60
+ "schema_version": 1,
+ "type": "work",
+ "title": "齊書",
+ "authors": [
+  {
+   "name": "蕭子顯",
+   "role": "撰",
+   "entity_id": "1j96ad6gqul8g"
+  }
+ ],
+ "juan_count": {
+  "number": 60
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《齊書》六十卷",
+   "summary": "《齊書》六十卷（蕭子顯）",
+   "author_info": "蕭子顯"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《齊書》六十卷",
-      "summary": "《齊書》六十卷（蕭子顯）",
-      "author_info": "蕭子顯"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《齊書》五十九卷",
-      "category": "正史類",
-      "summary": "梁吳興太守蕭子顯景陽撰。本傳稱六十卷。子顯者，齊豫章王嶷之孫也。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
+  {
+   "source": "直齋書錄解題",
+   "source_bid": "1ev3bb403quio",
+   "title_info": "《齊書》五十九卷",
+   "category": "正史類",
+   "summary": "梁吳興太守蕭子顯景陽撰。本傳稱六十卷。子顯者，齊豫章王嶷之孫也。"
   },
-  "ai_note": "missing_reason: 短title \"齊書\" 唯一候选无作者",
-  "id": "1evgpgthyp62o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 60
-    }
-  ],
-  "measure_info": "六十卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "蕭子顯齊書",
+   "summary": "蕭子顯齊書六十卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"齊書\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0bh0203k（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgpgthyp62o",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 60
+  }
+ ],
+ "measure_info": "六十卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

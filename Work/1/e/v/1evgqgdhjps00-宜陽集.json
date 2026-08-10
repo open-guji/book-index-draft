@@ -1,45 +1,54 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "宜陽集",
-  "authors": [
-    {
-      "name": "劉松",
-      "role": "撰",
-      "dynasty": "五代",
-      "entity_id": "1j96hjwlylnql"
-    }
-  ],
-  "juan_count": {
-    "number": 6
+ "schema_version": 1,
+ "type": "work",
+ "title": "宜陽集",
+ "authors": [
+  {
+   "name": "劉松",
+   "role": "撰",
+   "dynasty": "五代",
+   "entity_id": "1j96hjwlylnql"
+  }
+ ],
+ "juan_count": {
+  "number": 6
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《宜陽集》六卷",
+   "summary": "《宜陽集》六卷（五代劉松集）",
+   "author_info": "五代劉松集"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《宜陽集》六卷",
-      "summary": "《宜陽集》六卷（五代劉松集）",
-      "author_info": "五代劉松集"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgqgdhjps00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-08-09T08:00:56+00:00",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「五代」",
-  "dynasty": "五代",
-  "dynasty_basis": "據唯一五代 author.dynasty「五代」補全"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "劉松宜陽集",
+   "summary": "劉松宜陽集六卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs18lgghkw（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgqgdhjps00",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 6
+  }
+ ],
+ "measure_info": "六卷",
+ "updated_at": "2026-08-10",
+ "period": "five-dynasties",
+ "period_basis": "據 authors[0].dynasty「五代」",
+ "dynasty": "五代",
+ "dynasty_basis": "據唯一五代 author.dynasty「五代」補全",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }

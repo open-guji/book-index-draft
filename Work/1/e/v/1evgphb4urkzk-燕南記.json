@@ -1,41 +1,50 @@
 {
-  "schema_version": 1,
-  "type": "work",
-  "title": "燕南記",
-  "authors": [
-    {
-      "name": "谷況",
-      "role": "撰",
-      "entity_id": "1j96hfr0b0wsg",
-      "original_name": "谷况"
-    }
-  ],
-  "juan_count": {
-    "number": 3
+ "schema_version": 1,
+ "type": "work",
+ "title": "燕南記",
+ "authors": [
+  {
+   "name": "谷況",
+   "role": "撰",
+   "entity_id": "1j96hfr0b0wsg",
+   "original_name": "谷况"
+  }
+ ],
+ "juan_count": {
+  "number": 3
+ },
+ "indexed_by": [
+  {
+   "source": "國史經籍志",
+   "source_bid": "1ev3bb4qxubr4",
+   "title_info": "《燕南記》三卷",
+   "summary": "《燕南記》三卷（谷况。）",
+   "author_info": "谷况。"
   },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《燕南記》三卷",
-      "summary": "《燕南記》三卷（谷况。）",
-      "author_info": "谷况。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"燕南記\" 唯一候选无作者",
-  "id": "1evgphb4urkzk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-05-18T10:23:22-07:00"
+  {
+   "source": "新唐書藝文志",
+   "source_bid": "1evcs059gkvls",
+   "title_info": "谷況燕南記",
+   "summary": "谷況燕南記三卷"
+  }
+ ],
+ "description": {
+  "text": "《國史經籍志》收錄。",
+  "sources": [
+   "國史經籍志"
+  ]
+ },
+ "ai_note": "missing_reason: 短title \"燕南記\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0daovvgg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+ "id": "1evgphb4urkzk",
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 3
+  }
+ ],
+ "measure_info": "三卷",
+ "updated_at": "2026-08-10",
+ "emendated_by": [],
+ "books": [],
+ "related_works": []
 }
