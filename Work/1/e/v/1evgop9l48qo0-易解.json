@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "易解",
+  "authors": [
+    {
+      "name": "李舜臣",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": "1j96hlent6w3k"
+    }
+  ],
   "juan_count": {
     "number": 2
   },
@@ -21,7 +29,7 @@
     ]
   },
   "id": "1evgop9l48qo0",
-  "ai_note": "[QA2026-04-20] title 过短: \"解\"，需补齐前缀（如原文\"周易X\"省略为\"X\"）\n[QA-fix 2026-04-20] rename \"解\"→\"易解\": 卷二 context \"逍遥公易解...\" 连续易解类；李舜□=李舜臣",
+  "ai_note": "[QA2026-04-20] title 过短: \"解\"，需补齐前缀（如原文\"周易X\"省略为\"X\"）\n[QA-fix 2026-04-20] rename \"解\"→\"易解\": 卷二 context \"逍遥公易解...\" 连续易解类；李舜□=李舜臣 2026-08-11 全庫同名異書核對／易解組覆核：前批已判定「李舜□」即「李舜臣」（明，本庫已有其人 entity，見《易卦辱言》1ev8lnihbty4g），今據以補全 authors 欄（先前僅記於 ai_note 未實際填入）。",
   "measures": [
     {
       "unit": "卷",
@@ -29,5 +37,9 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-11",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
