@@ -68,8 +68,12 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　考證重複清除：先前補繫考證時判重之鍵誤用 title_info（原有條目帶標點而整理本 section 標題不帶），致本條追加了內容全同之重複考證 1 條，今刪除，保留原匯入所建者。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "考證繫連補入：王應麟《漢藝文志考證》本有本條之考證，整理本匯入時未繫 work_id，今補繫。　考證重複清除：先前補繫考證時判重之鍵誤用 title_info（原有條目帶標點而整理本 section 標題不帶），致本條追加了內容全同之重複考證 1 條，今刪除，保留原匯入所建者。 | 2026-08-11 秦漢同名異書核對／老子注組覆核：頂層 period／dynasty 缺漏，據 authors[0].dynasty「三國魏」補。",
+  "updated_at": "2026-08-11",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」"
 }
