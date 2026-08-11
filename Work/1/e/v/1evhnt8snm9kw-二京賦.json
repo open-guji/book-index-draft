@@ -1,60 +1,60 @@
 {
- "schema_version": 1,
- "id": "1evhnt8snm9kw",
- "type": "work",
- "subtype": "article",
- "title": "二京賦",
- "authors": [
-  {
-   "name": "張衡",
-   "dynasty": "漢",
-   "role": "作",
-   "entity_id": "1j96h8rw7k8xu"
-  }
- ],
- "resources": [
-  {
-   "id": "wikisource",
-   "name": "維基文庫",
-   "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E4%BA%AC%E8%B3%A6",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "related_works": [
-  {
-   "id": "1evhnqciqrwu8",
-   "title": "正續古文辭類纂",
-   "relation": "collected_in"
-  }
- ],
- "updated_at": "2026-08-10",
- "_has_text": true,
- "period": "qin-han",
- "period_basis": "據 authors[0].dynasty「漢」",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《二京賦》二卷",
-   "summary": "《二京賦》二卷張衡撰。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "張衡二京賦",
-   "summary": "張衡二京賦二卷"
-  },
-  {
-   "source": "三國藝文志",
-   "source_bid": "1eve1eig5jn5s",
-   "title_info": "張衡二京賦二卷傳巽注",
-   "summary": "張衡二京賦二卷，傅巽注。"
-  }
- ],
- "emendated_by": [],
- "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8mgz94w（二京賦）。本組 title=二京賦，有 author 條之作者=張衡，noauthor 條 1evcpd8mgz94w 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17bxolq8（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "books": [],
- "dynasty": "三國"
+  "schema_version": 1,
+  "id": "1evhnt8snm9kw",
+  "type": "work",
+  "subtype": "article",
+  "title": "二京賦",
+  "authors": [
+    {
+      "name": "張衡",
+      "dynasty": "東漢",
+      "role": "作",
+      "entity_id": "1j96h8rw7k8xu"
+    }
+  ],
+  "resources": [
+    {
+      "id": "wikisource",
+      "name": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E4%BA%AC%E8%B3%A6",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evhnqciqrwu8",
+      "title": "正續古文辭類纂",
+      "relation": "collected_in"
+    }
+  ],
+  "updated_at": "2026-08-10",
+  "_has_text": true,
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《二京賦》二卷",
+      "summary": "《二京賦》二卷張衡撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張衡二京賦",
+      "summary": "張衡二京賦二卷"
+    },
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "張衡二京賦二卷傳巽注",
+      "summary": "張衡二京賦二卷，傅巽注。"
+    }
+  ],
+  "emendated_by": [],
+  "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpd8mgz94w（二京賦）。本組 title=二京賦，有 author 條之作者=張衡，noauthor 條 1evcpd8mgz94w 為志書連書省撰人體例（舊唐書經籍志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17bxolq8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "books": [],
+  "dynasty": "三國"
 }
