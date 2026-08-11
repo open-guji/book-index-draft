@@ -7,7 +7,7 @@
     {
       "name": "李瀚",
       "role": "撰",
-      "dynasty": "五代",
+      "dynasty": "晉",
       "entity_id": "1j96hhvcrjvgs",
       "dynasty_basis": "entity_propagation_r2:1j96hhvcrjvgs"
     }
@@ -34,7 +34,8 @@
   "measure_info": "三卷",
   "updated_at": "2026-08-08T18:18:57+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
+  "period_basis": "據 authors[0].dynasty「晉」（原Entity CBDB誤配，2026-08-11三國魏晉探勘訂正：李瀚《標題補注蒙求》：本條著錄語明言「晉李瀚撰，宋徐子光注」，Entity原CBDB誤配五代後晉宰相同名李瀚）",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": " 2026-08-11：三國魏晉探勘查出Entity CBDB誤配——李瀚《標題補注蒙求》：本條著錄語明言「晉李瀚撰，宋徐子光注」，Entity原CBDB誤配五代後晉宰相同名李瀚，已訂正authors[0].dynasty。"
 }

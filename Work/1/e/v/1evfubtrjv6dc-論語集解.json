@@ -19,7 +19,7 @@
     {
       "name": "鄭冲",
       "role": "注",
-      "dynasty": "唐",
+      "dynasty": "晉",
       "entity_id": "1j96keg7zmhhc",
       "dynasty_basis": "entity_propagation_r2:1j96keg7zmhhc"
     }
@@ -33,10 +33,10 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。 2026-08-11：三國魏晉探勘查出Entity CBDB誤配——鄭冲《論語集解》：著錄語明言與孫邕、曹羲、荀顗、何晏等共集，鄭沖為魏晉之際人物，仕至西晉太傅，Entity原CBDB誤配唐代同名人物，已訂正authors[0].dynasty。",
   "updated_at": "2026-08-08T18:18:57+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
+  "period_basis": "據 authors[0].dynasty「晉」（原Entity CBDB誤配，2026-08-11三國魏晉探勘訂正：鄭冲《論語集解》：著錄語明言與孫邕、曹羲、荀顗、何晏等共集，鄭沖為魏晉之際人物，仕至西晉太傅，Entity原CBDB誤配唐代同名人物）",
   "dynasty": "晉",
   "dynasty_basis": "author_propagation:唯一作者朝代"
 }
