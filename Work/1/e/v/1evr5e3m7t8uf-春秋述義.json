@@ -7,6 +7,7 @@
     {
       "name": "劉炫",
       "role": "撰",
+      "dynasty": "隋",
       "entity_id": "1j968l3qlngn5"
     }
   ],
@@ -29,8 +30,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
-  "loss_status": "lost"
+  "updated_at": "2026-08-11",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "loss_status": "lost",
+  "ai_note": "2026-08-11 秦漢同名異書核對／五經通義組覆核：訂正 period「qing」→「sui-tang」——本條摘要已明載「隋劉炫」；並補全 authors[0].dynasty「隋」（訂正 entity 劉炫原誤植「明」，詳見 Entity 檔 ai_note）。"
 }

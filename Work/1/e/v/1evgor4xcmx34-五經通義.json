@@ -6,6 +6,7 @@
     {
       "name": "劉炫",
       "role": "撰",
+      "dynasty": "隋",
       "entity_id": "1j968l3qlngn5"
     }
   ],
@@ -27,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 2026-08-11 秦漢同名異書核對／五經通義組覆核：補全 authors[0].dynasty「隋」——訂正 entity 劉炫原誤植 dynasty「明」（詳見 Entity 檔 ai_note）；並確認與宋翔鳳（清）、劉向（漢）、張遐（東漢）三本互不相涉。",
   "id": "1evgor4xcmx34",
   "measures": [
     {
@@ -36,5 +37,9 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
