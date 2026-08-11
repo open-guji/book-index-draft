@@ -5,7 +5,9 @@
     {
       "name": "陳銓",
       "role": "撰",
-      "entity_id": "1j96hl4q53sow"
+      "dynasty": "西晉",
+      "entity_id": "1j96hl4q53sow",
+      "dynasty_basis": "indexed_by:補晉書藝文志「引晉明禮諸人，次銓于賀循、任橙下…則銓當為西晉人」"
     }
   ],
   "juan_count": {
@@ -30,6 +32,10 @@
   "additional_titles": [
     "喪服經傳註"
   ],
-  "updated_at": "2026-08-07T15:25:19+00:00",
-  "loss_status": "lost"
+  "updated_at": "2026-08-11",
+  "loss_status": "lost",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」"
 }

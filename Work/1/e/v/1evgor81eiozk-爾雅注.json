@@ -6,7 +6,9 @@
     {
       "name": "王雱",
       "role": "撰",
-      "entity_id": "1j967bgl7y9te"
+      "dynasty": "北宋",
+   "entity_id": "1j967bgl7y9te",
+   "dynasty_basis": "entity_propagation:1j967bgl7y9te"
     }
   ],
   "juan_count": {
@@ -55,5 +57,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T16:13:13+00:00"
+  "updated_at": "2026-08-11",
+ "dynasty": "北宋",
+ "dynasty_basis": "author_propagation:唯一作者朝代",
+ "period": "song",
+ "period_basis": "據 authors[0].dynasty「北宋」"
 }
