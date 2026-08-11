@@ -48,7 +48,8 @@
     {
       "name": "譙周",
       "role": "撰",
-      "entity_id": "1j96a9ecduxa8"
+      "entity_id": "1j96a9ecduxa8",
+      "dynasty": "三國蜀"
     }
   ],
   "juan_count": {
@@ -79,7 +80,7 @@
   "ai_note": "從 1evgpjt6mxdkw 合併。原註：从卷二 ambiguous 新建：B1:多个精确作者匹配　合併：裸題「三巴記」全庫撞名，然撞名者撰人皆同為「譙周」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「三巴記」全庫撞名，然撞名者撰人皆同為「譙周」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。",
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "three-kingdoms",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：三國藝文志",
+  "period_basis": "據 authors[0].dynasty「三國蜀」（原authors[0]缺dynasty欄位，2026-08-11三國魏晉探勘據所繫Entity補入）",
   "loss_status": "lost",
   "merged_in": [
     {
@@ -99,6 +100,6 @@
       ]
     }
   ],
-  "dynasty": "三國",
+  "dynasty": "三國蜀",
   "dynasty_basis": "period_fallback:three-kingdoms→三國"
 }
