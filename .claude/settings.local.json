@@ -21,7 +21,9 @@
       "Bash(python3 -c ' *)",
       "Bash(cp /tmp/claude-0/-home-user-book-index-draft/87aa76f0-35ac-52a4-a56f-f15217f96453/scratchpad/anthology_deleted.json /home/user/book-index-draft/.claude/known-issues/秦漢同名異書核對_batch2已合併.json)",
       "Bash(rm -f /home/user/book-index-draft/.git/shallow.lock)",
-      "Bash(timeout 280 git fetch --depth=1 origin claude/shijing-work-book-ids-41kyzv)"
+      "Bash(timeout 280 git fetch --depth=1 origin claude/shijing-work-book-ids-41kyzv)",
+      "Bash(cat)",
+      "Bash(git add *)"
     ],
     "defaultMode": "bypassPermissions",
     "additionalDirectories": [
