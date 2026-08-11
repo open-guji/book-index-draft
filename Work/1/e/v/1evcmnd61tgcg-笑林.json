@@ -54,7 +54,8 @@
   {
    "name": "邯鄲淳",
    "role": "撰",
-   "entity_id": "1j967cp1zdr2z"
+   "entity_id": "1j967cp1zdr2z",
+   "dynasty": "三國魏"
   }
  ],
  "juan_count": {
@@ -91,7 +92,7 @@
  "updated_at": "2026-08-10",
  "_has_text": true,
  "period": "three-kingdoms",
- "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：三國藝文志",
+ "period_basis": "據 authors[0].dynasty「三國魏」（原authors[0]缺dynasty欄位，2026-08-11三國魏晉探勘據所繫Entity補入）",
  "merged_in": [
   {
    "id": "1evgq0kpxz3eo",
@@ -102,7 +103,7 @@
    ]
   }
  ],
- "dynasty": "三國",
+ "dynasty": "三國魏",
  "dynasty_basis": "period_fallback:three-kingdoms→三國",
  "books": [],
  "related_works": []

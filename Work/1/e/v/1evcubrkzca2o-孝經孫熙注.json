@@ -42,13 +42,14 @@
       "cbdb_match": "none",
       "cbdb_source": "manual_reject",
       "entity_id": "1j96kecqt5f5s",
-      "cbdb_retrieved_at": null
+      "cbdb_retrieved_at": null,
+      "dynasty": "三國吳"
     }
   ],
   "id": "1evcubrkzca2o",
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "three-kingdoms",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：三國藝文志",
-  "dynasty": "三國",
+  "period_basis": "據 authors[0].dynasty「三國吳」（原authors[0]缺dynasty欄位，2026-08-11三國魏晉探勘據所繫Entity補入）",
+  "dynasty": "三國吳",
   "dynasty_basis": "period_fallback:three-kingdoms→三國"
 }

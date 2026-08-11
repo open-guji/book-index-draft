@@ -7,7 +7,7 @@
     {
       "name": "苟昶",
       "role": "撰",
-      "dynasty": "明",
+      "dynasty": "東晉",
       "entity_id": "1jae2gjvd6ps7",
       "dynasty_basis": "entity_propagation_r2:1jae2gjvd6ps7"
     }
@@ -42,11 +42,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "作者繫連改指：原繫人物 1j967cp20xxqq，該記錄實混同名而異代之兩人；本書撰者為晉之莊昶，今改指新立人物 1jae2gjvd6ps7。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「昶」補全為「苟昶」。據summary 詳細論證苟昶。",
+  "ai_note": "作者繫連改指：原繫人物 1j967cp20xxqq，該記錄實混同名而異代之兩人；本書撰者為晉之莊昶，今改指新立人物 1jae2gjvd6ps7。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「昶」補全為「苟昶」。據summary 詳細論證苟昶。 2026-08-11：三國魏晉探勘查出Entity CBDB誤配——苟昶《集議孝經》：本條著錄語明言撰於「穆帝永和十一年及孝武太元元年」，皆東晉年號，已訂正authors[0].dynasty。",
   "loss_status": "lost",
   "updated_at": "2026-08-08T18:18:57+00:00",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "晉",
+  "period_basis": "據 authors[0].dynasty「東晉」（原Entity CBDB誤配，2026-08-11三國魏晉探勘訂正：苟昶《集議孝經》：本條著錄語明言撰於「穆帝永和十一年及孝武太元元年」，皆東晉年號）",
+  "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代"
 }
