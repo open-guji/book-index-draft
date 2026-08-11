@@ -22,12 +22,6 @@
       "edition": "內府藏本"
     },
     {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "謚法",
-      "summary": "謚法三卷"
-    },
-    {
       "source": "書目答問",
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "謚法",
@@ -108,10 +102,10 @@
     }
   ],
   "measure_info": "四卷",
-  "ai_note": "從 1evcs0a5ocr9c 合併。原註：作者「宋蘇洵撰」補自《國立故宮博物院善本舊籍》目錄。",
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "ai_note": "從 1evcs0a5ocr9c 合併。原註：作者「宋蘇洵撰」補自《國立故宮博物院善本舊籍》目錄。 | 2026-08-11 秦漢同名異書核對／謚法組覆核：拆出原誤合併之「新唐書藝文志：謚法三卷」（無撰人）——四庫提要自載「洵奉詔編定六家諡法…取周公春秋廣諡及諸家之本刪訂考證」，蘇洵書乃取劉熙、來奧、沈約、賀琛等前代舊本重編而成之新書，與新唐書藝文志所錄唐前古本「謚法三卷」（緊鄰沈約謚例、賀琛謚法之後，其性質應屬同批舊本之一，非蘇洵所編）非同一部書，另立新 Work `1ewusso7mtr7l`；period 亦隨之改依 authors[0].dynasty「北宋」單一計算，不再受新唐書藝文志上限拖累。",
+  "updated_at": "2026-08-11",
   "_has_text": true,
   "_has_image": true,
-  "period": "nanbeichao",
-  "period_basis": "朝代「宋」有歧義（可為 nanbeichao／song），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：新唐書藝文志、書目答問、欽定四庫全書總目"
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }
