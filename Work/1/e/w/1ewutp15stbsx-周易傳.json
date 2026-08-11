@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "周易傳",
+  "authors": [
+    {
+      "name": "袁準",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hlhxrn9xc",
+      "dynasty_basis": "entity_propagation_r2:1j96hlhxrn9xc"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "title_info": "周易傳",
+      "summary": "周易傳\n袁準。謹按見《袁氏世紀》。《魏志,裴潛傳》注引。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "id": "1ewutp15stbsx",
+  "loss_status": "lost",
+  "ai_note": "2026-08-11 秦漢同名異書核對／周易傳組覆核：從 1evfaqfelk7pc（荀爽）拆出獨立成條——原記錄混裝本條補晉書藝文志引文，然撰人明載「袁準」，與荀爽（漢）無涉；袁準生卒年代、entity_id、dynasty 取自其既有另一著錄同源同款之《周官傳》1evfucvbaf2m8（同為補晉書藝文志「謹按見《袁氏世紀》……注」句式）。",
+  "related_works": [
+    {
+      "id": "1evl7l48e27ls",
+      "title": "周易",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-11",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
+}
