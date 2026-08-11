@@ -4,8 +4,9 @@
   "title": "彈棋經",
   "authors": [
     {
-      "name": "張東之",
+      "name": "張柬之",
       "role": "撰",
+      "dynasty": "唐",
       "entity_id": "1j96h8rw9fo6k"
     }
   ],
@@ -19,6 +20,12 @@
       "title_info": "《彈棋經》一卷",
       "summary": "《彈棋經》一卷（張東之）",
       "author_info": "張東之"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《彈棋經》一卷",
+      "summary": "題張柬之撰。"
     }
   ],
   "description": {
@@ -27,7 +34,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 2026-08-11 秦漢同名異書核對／彈棋經組覆核：訂正撰人「張東之」→「張柬之」——「東」係「柬」之形訛，張柬之為唐代名相（625-706），本庫已有其人 entity；併入 1evr5e3miqjuo（直齋書錄解題「題張柬之撰」一卷，正作「柬」字），確認同書。",
   "id": "1evgq5uszmdj4",
   "measures": [
     {
@@ -36,5 +43,9 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-11",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
