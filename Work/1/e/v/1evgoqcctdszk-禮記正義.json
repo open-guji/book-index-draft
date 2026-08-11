@@ -6,7 +6,9 @@
     {
       "name": "王方慶",
       "role": "撰",
-      "entity_id": "1j967avzlz138"
+      "dynasty": "唐",
+      "entity_id": "1j967avzlz138",
+      "dynasty_basis": "entity_propagation:1j967avzlz138"
     }
   ],
   "juan_count": {
@@ -43,5 +45,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-11",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
