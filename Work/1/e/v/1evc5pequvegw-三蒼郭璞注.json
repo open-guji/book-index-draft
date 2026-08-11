@@ -6,7 +6,10 @@
   "authors": [
     {
       "name": "郭璞",
-      "entity_id": "1j968k0jdrlz4"
+      "role": "注",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
     }
   ],
   "indexed_by": [
@@ -15,6 +18,30 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《三蒼》三卷",
       "summary": "《三蒼》三卷郭璞注。秦相李斯作《蒼頡篇》，漢揚雄作《訓纂篇》，後漢郎中賈魴作《滂喜篇》，故曰《三蒼》。梁有《蒼頡》二卷，後漢司空杜林注，亡。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《三蒼》三卷",
+      "summary": "《三蒼》三卷李斯等撰，郭璞解。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《三蒼》三卷",
+      "summary": "《三蒼》三卷（郭璞撰。）",
+      "author_info": "郭璞撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李斯等三蒼",
+      "summary": "李斯等三蒼三卷"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "三蒼注三卷郭璞。謹按見《隋志》。兩《唐志》俱作“郭璞解”,《文選注》作“三倉解站”。馬氏國翰輯此書,敘謂《隋志》有璞《三倉解話》三卷。蓋誤以《文選注》為《隋志》。《舊唐書》言李軌等撰,郭璞解。“李軌”蓋“李斯”之誤。"
     }
   ],
   "juan_count": {
@@ -40,7 +67,9 @@
     }
   ],
   "measure_info": "三卷",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evc5pequvegw/fragments/三蒼郭璞注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/三蒼郭璞注.json（該檔之值經人工校讀，非機讀所生）。",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evc5pequvegw/fragments/三蒼郭璞注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/三蒼郭璞注.json（該檔之值經人工校讀，非機讀所生）。 2026-08-11：秦朝文獻逐條核查衍生發現——本條與 1evcpcv0ridq8「三蒼」（舊唐書經籍志）、1evgora3dg740「三蒼」（國史經籍志，誤題郭璞為撰人）、1evcs0ac57shs「李斯等三蒼」（新唐書藝文志）、1evfubynprmrk「三蒼注」（補晉書藝文志，其著錄語自陳「兩《唐志》俱作『郭璞解』」，明確自證與前二者同書）五方重出，皆指同一部《三蒼》三卷（秦李斯等原編，東晉郭璞注）。今以本條（隋書經籍志著錄，內容最豐）為主條，四條之 indexed_by 併入；並自 1evfubynprmrk補入本條原缺之作者角色（注）、朝代（東晉）、period 等結構化欄位。",
   "loss_status": "lost",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "updated_at": "2026-08-05T05:03:40+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }
