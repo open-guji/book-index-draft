@@ -4,9 +4,10 @@
   "title": "天文書",
   "authors": [
     {
-      "name": "明海達兒等口授",
+      "name": "海達兒等口授",
       "role": "撰",
-      "dynasty": ""
+      "dynasty": "明",
+      "original_name": "明海達兒等口授"
     }
   ],
   "indexed_by": [
@@ -27,7 +28,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bbmslhvr4(柯洽);1evdid1yxpi4g(楊惟休);1evf1njo80xds(王安禮)。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bbmslhvr4(柯洽);1evdid1yxpi4g(楊惟休);1evf1njo80xds(王安禮)。 | 2026-08-11 秦漢同名異書核對／天文書組覆核：撰人「明海達兒等口授」之「明」字為朝代限定詞誤植入姓名（著錄格式當為「明·海達兒等口授」，「海達兒」係明初翻譯之伊斯蘭天文典籍常見譯名），拆出訂正 dynasty，姓名欄僅留「海達兒等口授」。",
   "juan_count": {
     "number": 4
   },
@@ -53,6 +54,10 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_image": true
+  "updated_at": "2026-08-11",
+  "_has_image": true,
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」"
 }
