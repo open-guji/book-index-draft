@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "1ewhu66go9095",
+  "type": "work",
+  "title": "孝經傳",
+  "authors": [
+    {
+      "name": "嚴畯",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "note": "字曼才，三國吳彭城人，官至衛尉，與張昭、諸葛瑾等友善"
+    }
+  ],
+  "description": {
+    "text": "《三國藝文志》著錄「嚴畯孝經傳」，未載卷數。嚴畯，字曼才，彭城人，三國吳臣，官至衛尉，通《詩》《書》《三禮》，與張昭友善，見《三國志·吳志》本傳。書已佚。與同題之魏文侯本（先秦）、任奉古本（宋）、王朗本（三國魏）、白責本（元）皆為同名異書。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "嚴畯孝經傳。",
+      "summary": "嚴畯孝經傳。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1evcsw8wfkgsg",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，戰國魏文侯本"
+    },
+    {
+      "id": "1ew2pafhsg2a5",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，宋任奉古本"
+    },
+    {
+      "id": "1evftehe0py4g",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，三國魏王朗本"
+    },
+    {
+      "id": "1evgbs6dwtqtc",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，元白責本"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "2026-08-10：自 1evcsw8wfkgsg（原「孝經傳」三書合一之磁鐵）拆出，見該條 ai_note。",
+  "updated_at": "2026-08-10T00:00:00+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」"
+}
