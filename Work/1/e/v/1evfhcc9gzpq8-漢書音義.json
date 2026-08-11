@@ -6,8 +6,8 @@
     {
       "name": "鄭氏",
       "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j9678njjg2rr"
+      "dynasty": "三國魏",
+      "dynasty_basis": "indexed_by:三國藝文志姚振宗按語「鄭氏既在康成後，又在晉灼前……則為魏人無疑。至康成之無《漢書》注，本無可疑」"
     }
   ],
   "indexed_by": [
@@ -26,7 +26,7 @@
       "三國藝文志"
     ]
   },
-  "ai_note": "作者「鄭氏」，具體名字不詳，顔師古漢書敘例列名者。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evfhcc9gzpq8/fragments/漢書音義.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/漢書音義.json（該檔之值經人工校讀，非機讀所生）。",
+  "ai_note": "作者「鄭氏」，具體名字不詳，顔師古漢書敘例列名者。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evfhcc9gzpq8/fragments/漢書音義.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/漢書音義.json（該檔之值經人工校讀，非機讀所生）。 | 2026-08-11 秦漢同名異書核對／漢書音義組覆核：發現本條 entity_id 誤繫鄭玄（1j9678njjg2rr），然本條 indexed_by 原文（姚振宗《三國藝文志》按語）已逐字論證「鄭氏既在康成（鄭玄）後，又在晉灼前……則為魏人無疑。至康成之無《漢書》注，本無可疑」——即原始考證明文否定鄭氏為鄭玄，鄭玄未曾注《漢書》。今解除誤繫之 entity_id，dynasty 由「漢」訂正為「三國魏」，period 隨之改判；鄭玄 Entity 之 works 列表同步移除本條。",
   "id": "1evfhcc9gzpq8",
   "related_works": [
     {
@@ -36,7 +36,9 @@
     }
   ],
   "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "updated_at": "2026-08-11"
 }
