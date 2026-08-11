@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "1evi5wyrwah34",
+  "type": "work",
+  "subtype": "article",
+  "title": "諫逐客書",
+  "authors": [
+    {
+      "name": "李斯",
+      "dynasty": "秦",
+      "role": "作",
+      "entity_id": "1j96gx6uif85c"
+    }
+  ],
+  "resources": [
+    {
+      "id": "wikisource",
+      "name": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E6%9B%B8%E7%A7%A6%E5%A7%8B%E7%9A%87",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "wikisource",
+      "name": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%A4%E6%96%87%E8%A7%80%E6%AD%A2/%E5%8D%B74#李斯諫逐客書",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "wikisource",
+      "name": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%AB%E9%80%90%E5%AE%A2%E6%9B%B8",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evi5uod20l4w",
+      "title": "昭明文選",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1evhmcmmhp2bk",
+      "title": "古文觀止",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1evhnqciqrwu8",
+      "title": "正續古文辭類纂",
+      "relation": "collected_in"
+    }
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "_has_text": true,
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「秦」",
+  "additional_titles": [
+    "上書秦始皇"
+  ],
+  "ai_note": " 2026-08-11：本條原題「上書秦始皇」，與 1evhmgj3cy77k「諫逐客書」為李斯同一篇文章（收入《昭明文選》《古文觀止》《正續古文辭類纂》），「諫逐客書」為通稱正題，今改題並將「上書秦始皇」移入 additional_titles；併入該條之 collected_in 關聯（古文觀止、正續古文辭類纂）及 Wikisource 資源連結。"
+}
