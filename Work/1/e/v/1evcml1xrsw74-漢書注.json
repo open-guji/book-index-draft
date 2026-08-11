@@ -21,7 +21,9 @@
     {
       "name": "陸澄",
       "role": "撰",
-      "entity_id": "1j96hlgxmm5ts"
+      "dynasty": "南齊",
+      "entity_id": "1j96hlgxmm5ts",
+      "dynasty_basis": "indexed_by:隋書經籍志「齊金紫光祿大夫陸澄撰」"
     }
   ],
   "juan_count": {
@@ -50,5 +52,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "ai_note": "2026-08-11 秦漢同名異書核對／漢書注組覆核：頂層 period／dynasty 缺漏，據隋書經籍志引「齊金紫光祿大夫陸澄撰」補。emendated_by 另載「梁有陸澄注《漢書》一百二卷，亡」——卷數與本條一卷懸殊，庫中未見獨立之一百二卷本記錄，證據不足以判斷是否同書節抄，暫不處理。",
+  "updated_at": "2026-08-11",
+  "dynasty": "南齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南齊」"
 }

@@ -3,6 +3,14 @@
   "id": "1evr5e3mjzi21",
   "type": "work",
   "title": "孝經注",
+  "authors": [
+    {
+      "name": "鄭玄",
+      "role": "注",
+      "dynasty": "漢",
+      "entity_id": "1j9678njjg2rr"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -10,8 +18,34 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "孝經注"
+      "title_info": "《孝經注》一卷",
+      "summary": "漢鄭康成撰。世傳秦火之後，河間人顏芝得《孝經》藏之，以獻河間王，今十八章是也。相承雲康成作注，而鄭《志》目錄不載，故先儒並疑之。古文有孔安國《傳》，不行於世。劉炫為作《稽疑》一篇，序所謂劉炫明安國之本，陸澄譏康成之注者也。及唐開元中，詔議孔、鄭二家，劉知幾以為宜行孔廢鄭，諸儒非之，卒行鄭學。按《三朝志》，五代以來，孔、鄭注皆亡。周顯德中，新羅獻別序《孝經》即鄭注者，而《崇文總目》以為咸平中日本國僧奝然所獻，未詳孰是。世少有其本。乾道中，熊克子復從袁樞機仲得之，刻於京口學宮，而孔《傳》不可復見。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《鄭玄孝經注》一卷",
+      "summary": "《鄭玄孝經注》一卷"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "漢鄭玄孝經註",
+      "summary": "漢鄭玄孝經註》一卷。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "2026-08-11 秦漢同名異書核對／孝經注組覆核：本條原僅 authors 空白、indexed_by 摘要過簡（僅「孝經注」二字），其 collated_edition 原文已明「漢鄭康成撰」，補撰人鄭玄。同組另兩條同題異名之孤例——1evgoqrg7o3y8（國史經籍志「鄭玄孝經注」一卷）、1evr5e3m7t8va（清史稿藝文志輯佚「漢鄭玄孝經註」一卷）——皆同書一卷、皆因標題自帶撰人名而 authors 欄漏填，非另書，併入本條為 indexed_by。loss_status 據清史稿輯佚條目慣例定為 lost。",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "updated_at": "2026-08-11"
 }

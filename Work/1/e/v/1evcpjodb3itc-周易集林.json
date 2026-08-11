@@ -2,6 +2,12 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易集林",
+  "authors": [
+    {
+      "name": "伏氏",
+      "role": "撰"
+    }
+  ],
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -10,6 +16,17 @@
       "summary": "又一卷伏氏撰。"
     }
   ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-11 秦漢同名異書核對／周易集林組覆核：補全 authors「伏氏」（僅知姓，具體何人待考——1evcmnff1wf0g 之 emendated_by 隋書經籍志考證原文自陳「一卷者，或其節本，或為伏萬壽撰」，未有定論，具體是否即伏萬壽（1evftxdgqbpq8，惟該條所繫「東漢」與此考證所引《冥祥記》「宋伏萬壽……元嘉十九年」之劉宋紀年互有牴牾）或伏曼容（1evcpjod0sow0，十二卷本之節本）尚無法判定，故僅補姓氏、不強行歸併或系朝代）。此存疑已記入 known-issues 文檔，留待統一處理。",
   "id": "1evcpjodb3itc",
   "related_works": [
     {

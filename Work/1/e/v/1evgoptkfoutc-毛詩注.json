@@ -6,7 +6,9 @@
     {
       "name": "王元度",
       "role": "撰",
-      "entity_id": "1j96h8rw86pz7"
+      "dynasty": "唐",
+      "entity_id": "1j96h8rw86pz7",
+      "dynasty_basis": "entity_propagation:1j96h8rw86pz7"
     }
   ],
   "juan_count": {
@@ -55,5 +57,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T16:13:13+00:00"
+  "updated_at": "2026-08-11",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

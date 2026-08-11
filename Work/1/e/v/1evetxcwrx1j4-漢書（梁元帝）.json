@@ -7,7 +7,9 @@
     {
       "name": "梁元帝",
       "role": "注",
-      "entity_id": "1j96hf83t28lc"
+      "dynasty": "南朝梁",
+      "entity_id": "1j96hf83t28lc",
+      "dynasty_basis": "manual:historical_figure(梁元帝蕭繹)"
     }
   ],
   "juan_count": {
@@ -36,5 +38,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-11",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "manual:historical_figure(梁元帝蕭繹，見隋書經籍志考證引《梁書》本紀)",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」"
 }

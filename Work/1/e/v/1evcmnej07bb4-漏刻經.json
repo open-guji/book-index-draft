@@ -24,7 +24,13 @@
   "authors": [
     {
       "name": "何承天",
-      "entity_id": null
+      "entity_id": null,
+      "dynasty": "南朝宋",
+      "dynasty_basis": "manual:historical_figure(何承天，劉宋元嘉曆作者，見隋書經籍志考證引《宋書·曆志》元嘉二十年事)"
     }
-  ]
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」"
 }

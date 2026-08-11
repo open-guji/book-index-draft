@@ -3,6 +3,13 @@
   "id": "1evincdcxt5a8",
   "type": "work",
   "title": "易注",
+  "authors": [
+    {
+      "name": "孫堂",
+      "role": "輯",
+      "dynasty": "清"
+    }
+  ],
   "indexed_by": [
     {
       "source": "書目答問",
@@ -11,5 +18,10 @@
       "summary": "漢魏二十一家《易注》卷。孫堂輯。刻本。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-11 秦漢同名異書核對／易注組覆核：本條實為清孫堂所輯《漢魏二十一家易注》，彙集漢魏諸家《易》注佚文之輯佚彙編，非某一家原著，補撰人（輯者）「孫堂」。與本組費直、宋均等單一撰人之易注性質不同，非重出。",
+  "updated_at": "2026-08-11",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」"
 }

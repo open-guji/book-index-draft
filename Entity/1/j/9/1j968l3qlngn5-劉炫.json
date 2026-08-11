@@ -4,7 +4,6 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "劉炫",
-  "dynasty": "明",
   "works": [
     {
       "work_id": "1evr5e3m76rrm",
@@ -65,7 +64,9 @@
     "cbdb_match": "manual",
     "cbdb_source": "curated: 隋經學家"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "updated_at": "2026-08-11",
+  "period": "sui-tang",
+  "period_basis": "據 dynasty「隋」自動歸併",
+  "dynasty": "隋",
+  "ai_note": "2026-08-11 秦漢同名異書核對／五經通義組覆核：訂正 dynasty「明」→「隋」——原值與本 entity 自身 cbdb_source「curated: 隋經學家」自相矛盾；劉炫（546-613）為隋代經學家，見《北史·儒林傳》《隋書·儒林傳》，本庫所繫 15 部著作之 indexed_by/emendated_by 引文亦皆明載「隋」或詳述其隋代仕宦始末（開皇中奉敕修國史、煬帝時除太學博士等），與「明」全然無涉。連帶訂正因此 entity 誤值或另一批次「qing_round1」heuristic 誤判而致之各作品 period/dynasty（詳見各作品 ai_note）。"
 }

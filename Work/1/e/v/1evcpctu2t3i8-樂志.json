@@ -2,6 +2,13 @@
   "schema_version": 1,
   "type": "work",
   "title": "樂志",
+  "authors": [
+    {
+      "name": "蘇夔",
+      "role": "撰",
+      "dynasty": "隋"
+    }
+  ],
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -10,6 +17,21 @@
       "summary": "《樂志》十卷蘇夔撰。"
     }
   ],
+  "ai_note": "2026-08-11 秦漢同名異書核對／樂志組覆核：本條 authors 欄原漏填，據 indexed_by 原文補撰人「蘇夔」（隋代樂律家，蘇威之子）。",
   "id": "1evcpctu2t3i8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-11",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」"
 }

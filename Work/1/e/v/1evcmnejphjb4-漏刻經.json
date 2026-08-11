@@ -23,8 +23,14 @@
   "authors": [
     {
       "name": "宋景",
-      "entity_id": null
+      "entity_id": null,
+      "dynasty": "南朝陳",
+      "dynasty_basis": "indexed_by:隋書經籍志「陳太史令宋景撰」"
     }
   ],
-  "ai_note": "2026-08-08 補撰人：隋志原文明確著錄撰人，匯入時未截取。"
+  "ai_note": "2026-08-08 補撰人：隋志原文明確著錄撰人，匯入時未截取。",
+  "dynasty": "南朝陳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」"
 }
