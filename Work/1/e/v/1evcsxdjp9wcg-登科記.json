@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "登科記",
+  "authors": [
+    {
+      "name": "樂史",
+      "role": "撰",
+      "entity_id": "1j967avzma9l6"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcsxdjp9wcg",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正）：補全 authors「樂史」及 juan_count——原整理本承前一條「登科記」句末頂真格斷句，撰人名誤植於前一條（1evcsxdjez2f4）之末，今回復歸於本條，前一條之著錄原文不動。",
+  "updated_at": "2026-08-12",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 dynasty「北宋」自動歸併"
 }
