@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "正義",
+  "authors": [
+    {
+      "name": "周武",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +20,13 @@
     }
   ],
   "id": "1evcsw92yaxa8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +37,11 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "ai_note": "2026-08-11 全庫同名異書核對：撰人「周武」不繫本庫既有同名 entity（1j96h8rw86q0a）——該 entity 為明初武將（諡「勇襄」，封雄武侯，卒1390），與本條所繫宋史藝文志（論語類）之《正義》十卷撰人顯非同一人（明人不可能見於宋史藝文志），姓名巧合，未繫 entity_id，朝代據宋史藝文志之斷代性質定為宋。",
+  "updated_at": "2026-08-11",
+  "_has_text": true,
+  "period": "song",
+  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志，故據之：宋史藝文志",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
