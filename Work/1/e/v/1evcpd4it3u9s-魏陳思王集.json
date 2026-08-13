@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "魏陳思王集",
+  "authors": [
+    {
+      "name": "曹植",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j967bgl7y9tx"
+    }
+  ],
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -10,6 +18,21 @@
       "summary": "《魏陳思王集》二十卷"
     }
   ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "ai_note": "2026-08-11 全庫同名異書核對：補全 authors「曹植」——魏陳思王即曹植封號（陳思王）。",
   "id": "1evcpd4it3u9s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "updated_at": "2026-08-11"
 }

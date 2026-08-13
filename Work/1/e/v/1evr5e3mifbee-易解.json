@@ -5,8 +5,10 @@
   "title": "易解",
   "authors": [
     {
-      "name": "安石介甫",
-      "role": "撰"
+      "name": "王安石",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967avzk3lth"
     }
   ],
   "juan_count": {
@@ -17,7 +19,18 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "丞相荊公臨川王安石介甫撰。晁氏《讀書志》曰：「介甫《三經義》皆頒學官，獨《易解》自謂少作未善，不專以取士。」"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《易解》",
+      "summary": "王安石《易解》十四卷"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-11 全庫同名異書核對／易解組覆核：訂正撰人「安石介甫」→「王安石」（原文「丞相荊公臨川王安石介甫撰」之姓名「王安石」與字「介甫」誤合為 name 欄，姓「王」並缺失）；併入 1evct451zfi80（宋史藝文志「王安石《易解》十四卷」，原無 authors）——卷數十四卷全合，確認同書。",
+  "updated_at": "2026-08-11",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

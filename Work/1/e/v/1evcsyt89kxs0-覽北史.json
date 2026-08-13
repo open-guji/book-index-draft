@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "覽北史",
+  "authors": [
+    {
+      "name": "孫玄晏",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +20,14 @@
     }
   ],
   "id": "1evcsyt89kxs0",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正）：補全 authors「孫玄晏」及 juan_count——原整理本承前一條「詠史」句末頂真格斷句，撰人名誤植於前一條（1evcsyt7ynmrk）之末，今回復歸於本條，前一條之著錄原文不動。",
   "related_works": [
     {
       "id": "1ev3bab2o0m4g",
@@ -18,5 +35,5 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-12"
 }

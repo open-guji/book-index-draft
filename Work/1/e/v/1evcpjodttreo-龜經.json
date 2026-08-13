@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "龜經",
+  "authors": [
+    {
+      "name": "劉寶真",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,5 +20,13 @@
     }
   ],
   "id": "1evcpjodttreo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次：補全 authors「劉寶真」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-12"
 }

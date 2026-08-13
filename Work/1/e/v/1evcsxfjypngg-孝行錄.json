@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "孝行錄",
+  "authors": [
+    {
+      "name": "劉棐",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +20,14 @@
     }
   ],
   "id": "1evcsxfjypngg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「劉棐《孝行錄》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「劉棐」及 juan_count（原文另有夾注 （（趙起撰）），係異名或存疑注記，未取代正撰人）；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +38,6 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "updated_at": "2026-08-13",
   "_has_text": true
 }

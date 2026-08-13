@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "龜經",
+  "authors": [
+    {
+      "name": "孫思邈",
+      "role": "撰",
+      "entity_id": "1j967da97jm1i"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcpjoefzlz4",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次：補全 authors「孫思邈」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；孫思邈繫本庫既有 entity（隋唐名醫，卒682），朝代與舊唐書經籍志相合。",
+  "updated_at": "2026-08-12",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 dynasty「隋」自動歸併"
 }

@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "詩解",
+  "authors": [
+    {
+      "name": "楊時",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967bgl5rlzc"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +22,14 @@
     }
   ],
   "id": "1evcsw68141ds",
+  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「楊時」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +40,10 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-11",
+  "_has_text": true,
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」"
 }

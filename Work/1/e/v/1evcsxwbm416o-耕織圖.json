@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "耕織圖",
+  "authors": [
+    {
+      "name": "樓璹",
+      "role": "撰",
+      "entity_id": "1j967bgl62ujz"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcsxwbm416o",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「樓璹《耕織圖》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「樓璹」及 juan_count；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
+  "updated_at": "2026-08-13",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 dynasty「北宋」自動歸併"
 }

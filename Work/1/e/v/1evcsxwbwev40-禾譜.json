@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "禾譜",
+  "authors": [
+    {
+      "name": "曾安止",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +20,14 @@
     }
   ],
   "id": "1evcsxwbwev40",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正）：補全 authors「曾安止」及 juan_count——原整理本承前一條「耕織圖」句末頂真格斷句，撰人名誤植於前一條（1evcsxwbm416o）之末，今回復歸於本條，前一條之著錄原文不動。",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +38,6 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "updated_at": "2026-08-12",
   "_has_text": true
 }

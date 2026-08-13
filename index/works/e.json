@@ -10803,7 +10803,7 @@
  },
  "1evcpcu0h68e8": {
   "id": "1evcpcu0h68e8",
-  "title": "又",
+  "title": "春秋左氏傳音",
   "type": "Work",
   "path": "Work/1/e/v/1evcpcu0h68e8-又十二卷.json",
   "measure_info": "十二卷"
@@ -10828,7 +10828,7 @@
  },
  "1evcpcugdyp6o": {
   "id": "1evcpcugdyp6o",
-  "title": "又",
+  "title": "春秋外傳國語",
   "type": "Work",
   "path": "Work/1/e/v/1evcpcugdyp6o-又二十一卷.json",
   "measure_info": "二十一卷"
@@ -11189,9 +11189,14 @@
  },
  "1evcpd4izntog": {
   "id": "1evcpd4izntog",
-  "title": "又",
+  "title": "魏陳思王集",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd4izntog-又三十卷.json",
+  "author": "曹植",
+  "dynasty": "三國魏",
+  "role": "撰",
+  "period": "three-kingdoms",
+  "juan_count": 30,
   "measure_info": "三十卷"
  },
  "1evcpd4lk22gw": {
@@ -12677,6 +12682,11 @@
   "title": "正義",
   "type": "Work",
   "path": "Work/1/e/v/1evcsw619y680-正義.json",
+  "author": "陸德明",
+  "dynasty": "隋唐",
+  "role": "撰",
+  "period": "sui-tang",
+  "juan_count": 40,
   "has_text": true
  },
  "1evcsw61i2ccg": {
@@ -12713,7 +12723,10 @@
   "id": "1evcsw6oqxkow",
   "title": "禮記解",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsw6oqxkow-禮記解.json"
+  "path": "Work/1/e/v/1evcsw6oqxkow-禮記解.json",
+  "author": "何洵直",
+  "role": "撰",
+  "juan_count": 17
  },
  "1evcsw6vhgyrk": {
   "id": "1evcsw6vhgyrk",
@@ -12852,13 +12865,19 @@
   "id": "1evcsw9wd3vuo",
   "title": "爾雅疏",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsw9wd3vuo-爾雅疏.json"
+  "path": "Work/1/e/v/1evcsw9wd3vuo-爾雅疏.json",
+  "author": "高璉",
+  "role": "撰",
+  "juan_count": 10
  },
  "1evcswa2kak8w": {
   "id": "1evcswa2kak8w",
   "title": "書評",
   "type": "Work",
   "path": "Work/1/e/v/1evcswa2kak8w-書評.json",
+  "author": "林罕",
+  "role": "撰",
+  "juan_count": 1,
   "has_text": true
  },
  "1evcswab1vw1s": {
@@ -12982,7 +13001,12 @@
   "id": "1evcsx9o7g16o",
   "title": "十國紀年",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsx9o7g16o-十國紀年.json"
+  "path": "Work/1/e/v/1evcsx9o7g16o-十國紀年.json",
+  "author": "劉恕",
+  "dynasty": "北宋",
+  "role": "撰",
+  "period": "song",
+  "juan_count": {"number": 42}
  },
  "1evcsx9pagp34": {
   "id": "1evcsx9pagp34",
@@ -13200,7 +13224,12 @@
   "id": "1evcsxecos8ao",
   "title": "段公別傳",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsxecos8ao-段公別傳.json"
+  "path": "Work/1/e/v/1evcsxecos8ao-段公別傳.json",
+  "author": "馬宇",
+  "dynasty": "唐",
+  "role": "撰",
+  "period": "sui-tang",
+  "juan_count": {"number": 2}
  },
  "1evcsxee8npj4": {
   "id": "1evcsxee8npj4",
@@ -14717,7 +14746,10 @@
   "id": "1evcsyjkah5og",
   "title": "水氣論",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsyjkah5og-水氣論.json"
+  "path": "Work/1/e/v/1evcsyjkah5og-水氣論.json",
+  "author": "西京巢氏",
+  "role": "撰",
+  "juan_count": {"number": 1}
  },
  "1evcsyjklegow": {
   "id": "1evcsyjklegow",
@@ -14858,13 +14890,21 @@
   "title": "哀江南賦",
   "type": "Work",
   "path": "Work/1/e/v/1evcsynq1krgg-哀江南賦.json",
+  "author": "王道珪",
+  "role": "注",
+  "juan_count": {"number": 1},
   "has_text": true
  },
  "1evcsynu7pwqo": {
   "id": "1evcsynu7pwqo",
   "title": "百道判",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsynu7pwqo-百道判.json"
+  "path": "Work/1/e/v/1evcsynu7pwqo-百道判.json",
+  "author": "駱賓王",
+  "dynasty": "唐",
+  "role": "撰",
+  "period": "sui-tang",
+  "juan_count": {"number": 2}
  },
  "1evcsyo52j0u8": {
   "id": "1evcsyo52j0u8",
@@ -15598,7 +15638,10 @@
   "id": "1evcszaskbe9s",
   "title": "滁陽慶曆集",
   "type": "Work",
-  "path": "Work/1/e/v/1evcszaskbe9s-滁陽慶曆集.json"
+  "path": "Work/1/e/v/1evcszaskbe9s-滁陽慶曆集.json",
+  "author": "徐徽",
+  "role": "撰",
+  "juan_count": {"number": 10}
  },
  "1evcszb5u7pxc": {
   "id": "1evcszb5u7pxc",
@@ -15658,7 +15701,10 @@
   "id": "1evct44lv5ce8",
   "title": "詩話",
   "type": "Work",
-  "path": "Work/1/e/v/1evct44lv5ce8-詩話.json"
+  "path": "Work/1/e/v/1evct44lv5ce8-詩話.json",
+  "author": "李錞",
+  "role": "撰",
+  "juan_count": {"number": 1}
  },
  "1evcua6nyi9z4": {
   "id": "1evcua6nyi9z4",

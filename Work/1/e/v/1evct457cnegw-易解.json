@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "易解",
+  "authors": [
+    {
+      "name": "李光",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967afjb6aem"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -10,6 +18,21 @@
       "summary": "《易解》八卷《疑問》一卷李光"
     }
   ],
+  "juan_count": {
+    "number": 8
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "ai_note": "2026-08-11 全庫同名異書核對／易解組覆核：補全 authors「李光」（南宋，沿用既有 entity）及 juan_count；原文「《疑問》一卷」為同人另一部書，非本條範圍，未動。",
   "id": "1evct457cnegw",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "updated_at": "2026-08-11"
 }

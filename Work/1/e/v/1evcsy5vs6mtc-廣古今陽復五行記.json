@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "廣古今陽復五行記",
+  "authors": [
+    {
+      "name": "竇塗",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +20,13 @@
     }
   ],
   "id": "1evcsy5vs6mtc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正）：補全 authors「竇塗」及 juan_count——原整理本承前一條「樵子五行志」句末頂真格斷句，撰人名誤植於前一條（1evcsy5vgy39c）之末，今回復歸於本條，前一條之著錄原文不動。",
+  "updated_at": "2026-08-12"
 }
