@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "唐書直筆新例",
+  "authors": [
+    {
+      "name": "呂夏卿",
+      "role": "撰",
+      "entity_id": "1j967avzn7z9o"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -23,5 +33,17 @@
     }
   ],
   "id": "1evcsx7vy4bgg",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「呂夏卿」及 juan_count（國史經籍志同條夾注「呂夏卿」互證）——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 dynasty「北宋」自動歸併"
 }

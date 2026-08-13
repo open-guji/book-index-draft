@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "正聲集",
+  "authors": [
+    {
+      "name": "孫翌",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +20,13 @@
     }
   ],
   "id": "1evcsz9ht7ta8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「孫翌」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13"
 }

@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "賦門魚鑰",
+  "authors": [
+    {
+      "name": "馬偁",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 15
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -16,5 +25,13 @@
     }
   ],
   "id": "1evcsz8131q0w",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 15
+    }
+  ],
+  "measure_info": "十五卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「馬偁」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13"
 }

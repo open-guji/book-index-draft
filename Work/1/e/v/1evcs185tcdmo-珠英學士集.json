@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "珠英學士集",
+  "authors": [
+    {
+      "name": "崔融",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -30,5 +39,13 @@
     }
   ],
   "id": "1evcs185tcdmo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「崔融」及 juan_count（國史經籍志同條作「（辜薩融集）」，與宋史藝文志「崔融」字形出入頗大，疑國史經籍志傳刻訛誤（崔融初唐修文館學士，主纂《珠英學士集》，史有明載），從宋史藝文志）——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13"
 }
