@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "十國紀年",
+  "authors": [
+    {
+      "name": "劉恕",
+      "role": "撰",
+      "entity_id": "1j967avzlck04"
+    }
+  ],
+  "juan_count": {
+    "number": 42
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcsx9o7g16o",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 42
+    }
+  ],
+  "measure_info": "四十二卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「劉恕《十國紀年》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「劉恕」及 juan_count（原文另有夾注 （（卷亡）），係異名或存疑注記，未取代正撰人）；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
+  "updated_at": "2026-08-13",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 dynasty「北宋」自動歸併"
 }

@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "醉鄉日月",
+  "authors": [
+    {
+      "name": "皇甫松",
+      "role": "撰",
+      "entity_id": "1j967da978di9"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcsye1wjh1c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「皇甫松《醉鄉日月》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「皇甫松」及 juan_count；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
+  "updated_at": "2026-08-13",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 dynasty「唐」自動歸併"
 }
