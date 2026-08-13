@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "易義",
+  "authors": [
+    {
+      "name": "謝湜",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +20,13 @@
     }
   ],
   "id": "1evcsw4y0jmkg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +37,7 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「謝湜」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-13",
   "_has_text": true
 }

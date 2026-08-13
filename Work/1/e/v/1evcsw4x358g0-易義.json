@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "易義",
+  "authors": [
+    {
+      "name": "彭汝礪",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl89id6"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,6 +22,13 @@
     }
   ],
   "id": "1evcsw4x358g0",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "resources": [
     {
       "name": "维基文库",
@@ -21,6 +39,9 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「彭汝礪」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13",
+  "_has_text": true,
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }
