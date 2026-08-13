@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "顧野王",
-  "dynasty": "清",
+  "dynasty": "南朝陳",
   "works": [
     {
       "work_id": "1evr5e3mezpij",
@@ -35,12 +35,9 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 523046,
-    "cbdb_match": "manual",
-    "cbdb_source": "curated: 玉篇（空 dynasty）"
-  },
+  "external_ids": {},
   "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "period": "nanbeichao",
+  "period_basis": "據 dynasty「南朝陳」（2026-08-13 南北朝探勘第二輪：顧野王（519-581，玉篇作者）：Work層dynasty本已正確（南朝陳），然Entity遭CBDB誤配「清」（curated:玉篇某清刻本），卸除並回復）",
+  "ai_note": " 2026-08-13：CBDB配對卸除（原cbdb_source: curated: 玉篇（空 dynasty）），顧野王（519-581，玉篇作者）：Work層dynasty本已正確（南朝陳），然Entity遭CBDB誤配「清」（curated:玉篇某清刻本），卸除並回復。"
 }
