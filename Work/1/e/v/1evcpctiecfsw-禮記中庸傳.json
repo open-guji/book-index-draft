@@ -19,12 +19,11 @@
   "id": "1evcpctiecfsw",
   "authors": [
     {
-      "name": "戴顯",
-      "dynasty": "明",
+      "name": "戴顒",
+      "dynasty": "南朝宋",
       "role": "撰",
       "note": "散騎常侍",
-      "entity_id": "1j96hjwlxny4f",
-      "dynasty_basis": "entity_propagation_r2:1j96hjwlxny4f"
+      "entity_id": "1j96hjwlxny4f"
     }
   ],
   "emendated_by": [
@@ -44,5 +43,5 @@
   ],
   "updated_at": "2026-08-08T18:18:57+00:00",
   "period": "nanbeichao",
-  "period_basis": "朝代「宋」有歧義（可為 nanbeichao／song），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：舊唐書經籍志、隋書經籍志、隋書經籍志考證"
+  "period_basis": "據 authors[0].dynasty「南朝宋」（2026-08-13 南北朝探勘第二輪：著錄載「宋散騎常侍戴顒撰」，name原作「戴顯」疑為「顒」之形近之誤，Entity遭CBDB誤配「明」（pending_accept），卸除並訂正）"
 }
