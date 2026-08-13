@@ -7,7 +7,8 @@
     {
       "name": "張光",
       "role": "撰",
-      "entity_id": "1j96h8rw6xrtu"
+      "entity_id": "1j96h8rw6xrtu",
+      "dynasty": "元"
     }
   ],
   "juan_count": {
@@ -33,7 +34,7 @@
     "祖言行龜鑒"
   ],
   "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」（2026-08-13 隋唐探勘：張光→張光祖：清史稿藝文志載「元張光祖祖言行龜鑒」，name原缺一「祖」字，且Entity遭CBDB誤配至唐）",
   "loss_status": "lost"
 }

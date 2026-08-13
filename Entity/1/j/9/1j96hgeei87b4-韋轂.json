@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "韋轂",
-  "dynasty": "唐",
+  "dynasty": "後蜀",
   "works": [
     {
       "work_id": "1evjy5qk6hm9s",
@@ -12,8 +12,8 @@
     }
   ],
   "external_ids": {},
-  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。",
+  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。 2026-08-13：CBDB配對卸除／period訂正（原cbdb_source: ），韋轂：才調集編者，Work層authors[0].dynasty已確立為「後蜀」，Entity遭CBDB誤配至唐。",
   "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併"
+  "period": "five-dynasties",
+  "period_basis": "據 dynasty「後蜀」（2026-08-13 隋唐探勘：韋轂：才調集編者，Work層authors[0].dynasty已確立為「後蜀」，Entity遭CBDB誤配至唐）"
 }

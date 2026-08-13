@@ -7,7 +7,8 @@
     {
       "name": "王邵",
       "role": "撰",
-      "entity_id": "1j96h8rw6xrun"
+      "entity_id": "1j96h8rw6xrun",
+      "dynasty": "唐"
     }
   ],
   "juan_count": {
@@ -31,6 +32,6 @@
   "measure_info": "一卷",
   "loss_status": "lost",
   "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」（2026-08-13 隋唐探勘：王邵：清史稿藝文志本身即明載「隋王邵讀書記」，period誤依來源志書「清」代填，Entity本已正確，訂正Work）"
 }
