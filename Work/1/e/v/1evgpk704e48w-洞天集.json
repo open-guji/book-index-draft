@@ -27,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-13 全庫同名異書核對：撰人 entity「王正範」朝代新據國史經籍志另條《續正聲集》夾注補為「後唐」，本條隨之 propagation 補 period。另按：本庫另有二條同題《洞天集》，撰人分作「王貞範」（宋史藝文志，二卷，1evcsxt1a8g00）與「韋莊」（宋史藝文志，五卷，1evcsz8k8w6io）——「王正範」與「王貞範」僅一字之差（正／貞），卷數本條與韋莊條同為五卷而與王貞範條（二卷）不同，是否三者互有關連（誤字／同人異名／真異書）證據不足以判定，未予處理，留待後續考證。",
   "id": "1evgpk704e48w",
   "measures": [
     {
@@ -36,5 +36,9 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-13",
+  "dynasty": "後唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 dynasty「後唐」自動歸併"
 }

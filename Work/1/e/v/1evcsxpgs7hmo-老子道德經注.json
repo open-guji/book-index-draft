@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "老子道德經注",
+  "authors": [
+    {
+      "name": "河上公",
+      "role": "撰",
+      "entity_id": "1j96a9e6few3k"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +21,17 @@
     }
   ],
   "id": "1evcsxpgs7hmo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「河上公」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13",
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 dynasty「西漢」自動歸併"
 }
