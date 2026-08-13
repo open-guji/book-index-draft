@@ -2,6 +2,18 @@
   "schema_version": 1,
   "type": "work",
   "title": "漢書音義",
+  "authors": [
+    {
+      "name": "韋昭",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96gmdzkugw0",
+      "original_name": "章昭"
+    }
+  ],
+  "juan_count": {
+    "number": 7
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,6 +23,13 @@
     }
   ],
   "id": "1evcpjoltbbpc",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 7
+    }
+  ],
+  "measure_info": "七卷",
   "resources": [
     {
       "name": "维基文库",
@@ -28,6 +47,9 @@
       "relation": "studies"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00",
-  "_has_text": true
+  "ai_note": "2026-08-13 全庫同名異書核對：撰人「章昭」訂正為「韋昭」——舊唐書經籍志原文「章」字為「韋」之形近訛字（韋昭字弘嗣，三國吳史學家，本庫既有多部《漢書音義》相關著作繫其名下，《漢書音義》七卷為其代表作之一，史有明載；「章昭」非本庫或史籍所見之獨立人物），indexed_by 原始引文保留「章昭」不動。",
+  "updated_at": "2026-08-13",
+  "_has_text": true,
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」"
 }

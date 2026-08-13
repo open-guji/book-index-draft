@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "漢書音義",
+  "authors": [
+    {
+      "name": "敬播",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96h8rw8hyiu"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
   "related_works": [
     {
       "id": "1euidlec1g8ow",
@@ -18,6 +29,13 @@
     }
   ],
   "id": "1evcucgftlaf4",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
   "resources": [
     {
       "name": "维基文库",
@@ -28,6 +46,9 @@
       ]
     }
   ],
-  "updated_at": "2026-07-29T13:46:48+00:00",
-  "_has_text": true
+  "ai_note": "2026-08-13 全庫同名異書核對：頂真格連書體例——新唐書藝文志原文緊承前一條「敬播注漢書四十卷」，「又漢書音義十二卷」承其撰人，補全 authors「敬播」及 juan_count。",
+  "updated_at": "2026-08-13",
+  "_has_text": true,
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
