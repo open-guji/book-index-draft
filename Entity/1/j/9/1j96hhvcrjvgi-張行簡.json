@@ -4,8 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "張行簡",
-  "dynasty": "唐",
-  "death_year": 846,
+  "dynasty": "金",
   "works": [
     {
       "work_id": "1ev3bblz0g6bk",
@@ -40,12 +39,9 @@
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 192038,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=6 (None-846)"
-  },
+  "external_ids": {},
   "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併"
+  "period": "liao-jin-yuan",
+  "period_basis": "據 dynasty「金」（2026-08-13 隋唐探勘：張行簡：欽定四庫全書總目/元史藝文志皆明載「金張行簡撰...大定十九年進士...事蹟具金史本傳」，Entity遭CBDB誤配至唐（8作品））",
+  "ai_note": " 2026-08-13：CBDB配對卸除／period訂正（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=6 (None-846)），張行簡：欽定四庫全書總目/元史藝文志皆明載「金張行簡撰...大定十九年進士...事蹟具金史本傳」，Entity遭CBDB誤配至唐（8作品）。"
 }

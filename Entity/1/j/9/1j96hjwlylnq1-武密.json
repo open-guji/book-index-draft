@@ -4,21 +4,16 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "武密",
-  "dynasty": "宋",
+  "dynasty": "唐",
   "works": [
     {
       "work_id": "1evgq1ijy9xq8",
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 119789,
-    "cbdb_match": "manual ; dynasty_fix: 唐→宋 per CBDB dy=15=宋 (D2 batch)",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=15"
-  },
+  "external_ids": {},
   "updated_at": "2026-08-09T09:00:59+00:00",
-  "dynasty_basis": "author_propagation:round1",
-  "period": "song",
-  "period_basis": "據 dynasty『宋』自動歸併（修正：CBDB 來源 cbdb_dy=15=宋；原誤標為『唐』，疑因『宋』字混淆——南朝宋/宋/唐 導致同名混淆）",
-  "ai_note": "[sui-tang-round1: period null->sui-tang; 據 dynasty=唐 派生]"
+  "period": "sui-tang",
+  "period_basis": "據 dynasty「唐」（2026-08-13 隋唐探勘：武密：國史經籍志、新唐書藝文志皆明載「唐武密」，CBDB誤配（pending_accept）改「宋」，卸除並回復）",
+  "ai_note": "[sui-tang-round1: period null->sui-tang; 據 dynasty=唐 派生] 2026-08-13：CBDB配對卸除（原cbdb_source: pending_accept: relaxed_unique cbdb_dy=15），武密：國史經籍志、新唐書藝文志皆明載「唐武密」，CBDB誤配（pending_accept）改「宋」，卸除並回復。"
 }

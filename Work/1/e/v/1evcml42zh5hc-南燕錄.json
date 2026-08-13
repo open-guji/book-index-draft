@@ -13,7 +13,8 @@
     {
       "name": "張詮",
       "role": "撰",
-      "entity_id": "1j96h8rw7k8xe"
+      "entity_id": "1j96h8rw7k8xe",
+      "dynasty": "晉"
     }
   ],
   "juan_count": {
@@ -37,7 +38,7 @@
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "period_basis": "據 authors[0].dynasty「晉」（2026-08-13 隋唐探勘：張詮：補晉書藝文志載「燕尚書郎張詮」（南燕，十六國政權，比照本庫既有慣例歸period=jin），Entity遭CBDB誤配）",
   "dynasty": "晉",
   "dynasty_basis": "period_fallback:jin→晉"
 }
