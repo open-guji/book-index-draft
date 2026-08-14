@@ -14,21 +14,16 @@
       "type": "號"
     }
   ],
-  "dynasty": "宋",
+  "dynasty": "金",
   "works": [
     {
       "work_id": "1evgc5f0kedq8",
       "role": "撰"
     }
   ],
-  "external_ids": {
-    "cbdb_id": 35292,
-    "cbdb_match": "manual ; dynasty_fix: 金→宋 per CBDB dy=15=宋 (D3 batch)",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=15"
-  },
+  "external_ids": {},
   "updated_at": "2026-08-09T09:33:12+00:00",
-  "dynasty_basis": "author_propagation:round1",
-  "period": "song",
-  "period_basis": "據 dynasty『宋』自動歸併（修正：CBDB 來源 cbdb_dy=15=宋；原誤標為『金』）",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生]"
+  "period": "liao-jin-yuan",
+  "period_basis": "據 dynasty「金」（2026-08-13 遼金元探勘：姚孝錫：元史藝文志「金姚孝錫雞肋集」，CBDB誤配（pending_accept）改「宋」，卸除並回復）",
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生] 2026-08-13：CBDB配對卸除（原cbdb_source: pending_accept: relaxed_unique cbdb_dy=15），姚孝錫：元史藝文志「金姚孝錫雞肋集」，CBDB誤配（pending_accept）改「宋」，卸除並回復。"
 }
