@@ -8,8 +8,7 @@
       "name": "韋昭",
       "role": "撰",
       "entity_id": "1j96gmdzkugw0",
-      "dynasty": "三國吳",
-      "dynasty_basis": "known_mislabel:round3(韋昭(204-273)，吳書撰者)"
+      "dynasty": "三國吳"
     }
   ],
   "juan_count": {
@@ -40,6 +39,6 @@
   ],
   "loss_status": "lost",
   "updated_at": "2026-08-08T14:20:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」（2026-08-13 清朝探勘：韋昭：來源「清史稿藝文志」等回溯型志書之著錄原文本身已明載古代朝代（三國吳），period僅因來源志書本身之朝代「清」被誤代填，以Entity既有正確分類為準訂正）"
 }
