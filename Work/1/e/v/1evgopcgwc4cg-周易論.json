@@ -2,6 +2,12 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易論",
+  "authors": [
+    {
+      "name": "陳臯",
+      "role": "撰"
+    }
+  ],
   "juan_count": {
     "number": 10
   },
@@ -20,7 +26,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved　解磁鐵：本檔原兼載本志 「《周易論》一卷」（今歸 1evgq26c1un0g），皆非本 work 之著錄——該志整理本各為之繫 id，而其 work 匯入時未生成，致其著錄併入本檔。今 work 既補建，去之。餘 1 條。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved　解磁鐵：本檔原兼載本志 「《周易論》一卷」（今歸 1evgq26c1un0g），皆非本 work 之著錄——該志整理本各為之繫 id，而其 work 匯入時未生成，致其著錄併入本檔。今 work 既補建，去之。餘 1 條。\n\n2026-08-13 全庫同名異書核對：補全 authors「陳臯」——author_info 已明載撰人，僅未截取入 authors 欄；本庫無同名 entity，未繫。",
   "id": "1evgopcgwc4cg",
   "measures": [
     {
@@ -36,5 +42,5 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-05T01:46:50+00:00"
+  "updated_at": "2026-08-13"
 }

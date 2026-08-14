@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易論",
+  "authors": [
+    {
+      "name": "鐘會",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96gx6wrw5xc"
+    }
+  ],
+  "juan_count": {
+    "number": 4
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,6 +22,13 @@
     }
   ],
   "id": "1evcpcsx90mww",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
   "related_works": [
     {
       "id": "1evl7l48e27ls",
@@ -18,5 +36,8 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「鐘會」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "updated_at": "2026-08-13",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」"
 }

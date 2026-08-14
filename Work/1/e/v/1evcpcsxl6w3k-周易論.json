@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易論",
+  "authors": [
+    {
+      "name": "應吉甫",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,6 +20,13 @@
     }
   ],
   "id": "1evcpcsxl6w3k",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "related_works": [
     {
       "id": "1evl7l48e27ls",
@@ -18,5 +34,6 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「應吉甫」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-13"
 }
