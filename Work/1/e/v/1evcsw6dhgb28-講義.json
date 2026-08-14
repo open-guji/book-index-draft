@@ -2,14 +2,32 @@
   "schema_version": 1,
   "type": "work",
   "title": "講義",
+  "juan_count": {
+    "number": 5
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
-      "title_info": "《講義》",
+      "title_info": "《講義》五卷",
       "summary": "《講義》五卷《三十家毛詩會解》一百卷（（吳純編，王安石解義））"
     }
   ],
   "id": "1evcsw6dhgb28",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "ai_note": "2026-08-13 全庫同名異書核對：原引文併存《三十家毛詩會解》一百卷（吳純編，王安石解義）之磁鐵，判該撰人夾注屬《三十家毛詩會解》而非本條《講義》，已拆出新建 1eww4cfe6boxt。《講義》本身撰人原文未載，證據不足，維持留白。",
+  "updated_at": "2026-08-13",
+  "related_works": [
+    {
+      "id": "1eww4cfe6boxt",
+      "title": "三十家毛詩會解",
+      "relation": "related"
+    }
+  ]
 }

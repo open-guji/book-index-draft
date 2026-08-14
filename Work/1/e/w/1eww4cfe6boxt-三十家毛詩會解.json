@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "三十家毛詩會解",
+  "authors": [
+    {
+      "name": "吳純",
+      "role": "編"
+    },
+    {
+      "name": "王安石",
+      "role": "解義",
+      "entity_id": "1j967avzk3lth"
+    }
+  ],
+  "juan_count": {
+    "number": 100
+  },
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《三十家毛詩會解》一百卷",
+      "summary": "《講義》五卷《三十家毛詩會解》一百卷（（吳純編，王安石解義））"
+    }
+  ],
+  "id": "1eww4cfe6boxt",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷",
+  "ai_note": "2026-08-13 全庫同名異書核對：從 1evcsw6dhgb28（講義）拆出新建——原記錄併存《講義》五卷與《三十家毛詩會解》一百卷二部不同之書（匯入時誤併為一 work，即「磁鐵」），夾注「吳純編，王安石解義」據上下文判屬《三十家毛詩會解》（吳純編纂彙集三十家詩解，王安石為其中撰解義），非《講義》之撰人。今拆出獨立成此記錄，補撰人；《講義》一書撰人仍缺，維持留白，兩記錄以 related_works 互見。共同撰人吳純朝代未知，未據王安石一人朝代代填 period，留白。",
+  "updated_at": "2026-08-13",
+  "related_works": [
+    {
+      "id": "1evcsw6dhgb28",
+      "title": "講義",
+      "relation": "related"
+    }
+  ]
+}

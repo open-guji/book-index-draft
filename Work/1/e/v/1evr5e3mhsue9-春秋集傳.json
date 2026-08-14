@@ -3,6 +3,14 @@
   "id": "1evr5e3mhsue9",
   "type": "work",
   "title": "春秋集傳",
+  "authors": [
+    {
+      "name": "蘇轍",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967avzk3ls7"
+    }
+  ],
   "juan_count": {
     "number": 12
   },
@@ -10,8 +18,11 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "春秋集傳"
+      "summary": "蘇轍撰。專本《左氏》，不得已乃取二傳、啖、趙。蓋以一時談經者不復信史，或失事實故也。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-13 全庫同名異書核對：indexed_by.summary 原僅存裸題「春秋集傳」，實為匯入時漏收整理本 collated_edition 之解題正文（撰人資訊即在正文開頭，體例為「撰人名+解題」，題名行本不含撰人），今據 collated_edition（source_bid=1ev3bb403quio，春秋類）補全引文並提取撰人「蘇轍」。",
+  "updated_at": "2026-08-13",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }
