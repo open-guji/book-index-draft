@@ -2,6 +2,19 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易論",
+  "authors": [
+    {
+      "name": "暨長成",
+      "role": "難"
+    },
+    {
+      "name": "暨仲容",
+      "role": "答"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,6 +24,13 @@
     }
   ],
   "id": "1evcpcsy2zf28",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
   "related_works": [
     {
       "id": "1evl7l48e27ls",
@@ -18,5 +38,6 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「暨長成」（難）「暨仲容」（答）及 juan_count——原文已明載二人以難答體合撰，僅未截取入 authors 欄；本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-13"
 }
