@@ -3,6 +3,13 @@
   "id": "1evr5e3mifbfe",
   "type": "work",
   "title": "詩格",
+  "authors": [
+    {
+      "name": "魏文帝",
+      "role": "託名",
+      "entity_id": "1j967afjav1wk"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -10,8 +17,9 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "詩格"
+      "summary": "題魏文帝，而所述詩或在沈約後，其為假託明矣。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-13 全庫同名異書核對：indexed_by.summary 原僅存裸題「詩格」，係匯入時漏收整理本正文，今補全引文——原文明言「題魏文帝，而所述詩或在沈約後，其為假託明矣」，即書題託名「魏文帝」而內容證偽，故 role 作「託名」，非真實撰人。",
+  "updated_at": "2026-08-13"
 }
