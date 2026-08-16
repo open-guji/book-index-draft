@@ -10,7 +10,19 @@
       "summary": "（（朱熹門人所記））張栻《孟子詳說》十七卷又"
     }
   ],
+  "authors": [
+    {
+      "name": "張栻",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967afjb6aex"
+    }
+  ],
+  "juan_count": {
+    "number": 17
+  },
   "id": "1evcsxoyermkg",
+  "ai_note": "2026-08-15 全庫同名異書核對（順帶訂正，發現於語錄組核對過程中）：句首「（朱熹門人所記）張栻」——夾注實屬上一條《語錄》四十三卷（朱熹之語錄）重複帶入之邊界瑕疵，「張栻」則為本條之領頭撰人（leading name），補撰人「張栻」及 juan_count，繫既有 entity。",
   "related_works": [
     {
       "id": "1ev7xm3w3445c",
@@ -18,5 +30,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-05-14T02:29:29-07:00",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation"
 }
