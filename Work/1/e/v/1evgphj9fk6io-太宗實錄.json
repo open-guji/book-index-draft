@@ -5,8 +5,18 @@
   "authors": [
     {
       "name": "錢若水",
-      "role": "撰",
+      "role": "修",
       "entity_id": "1j967da978dhe"
+    },
+    {
+      "name": "李沆",
+      "role": "修",
+      "dynasty": "北宋",
+      "entity_id": "1j96h8rw86q1z"
+    },
+    {
+      "name": "沈倫",
+      "role": "修"
     }
   ],
   "juan_count": {
@@ -19,6 +29,19 @@
       "title_info": "《太宗實錄》八十卷",
       "summary": "《太宗實錄》八十卷（錢若水）",
       "author_info": "錢若水"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《太宗實錄》",
+      "summary": "（（李沆、沈倫修））《太宗實錄》八十卷（（錢若水修））",
+      "merged_from": "1evcpcxam6lmo"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "錢若水等以至道三年十一月受命，咸平元年八月上之。九月而畢，人難其速。同修撰者給事中濟陰柴成務寶臣、秘閣校理丹陽吳淑正儀、直集賢院建安楊億大年。案億《傳》，書凡八十篇，而億獨草五十六卷。",
+      "merged_from": "1evr5e3mjzi1d"
     }
   ],
   "description": {
@@ -27,7 +50,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved　2026-08-15 全庫同名異書核對：併入 1evcpcxam6lmo 之宋史藝文志「（李沆、沈倫修）八十卷（錢若水修）」——卷數相符，李沆、沈倫為早期修撰者、錢若水為最終修成者，補為共同撰人（role「修」）；另併入 1evr5e3mjzi1d（直齋書錄解題，原僅裸題「太宗實錄」，經查 collated_edition 起居注類第34項補得完整正文，載「錢若水等以至道三年十一月受命…同修撰者…柴成務…吳淑…楊億」，確認即同書之詳細著錄），三源皆同書重出，逕併。",
   "id": "1evgphj9fk6io",
   "measures": [
     {
