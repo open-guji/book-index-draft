@@ -10,6 +10,22 @@
       "summary": "《太宗實錄》二十卷房玄齡撰。"
     }
   ],
+  "authors": [
+    {
+      "name": "房玄齡",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967cp1zdr17"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
   "id": "1evcpcxaedo1s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-15 全庫同名異書核對：補全 authors「房玄齡」（原文已明載僅未截取）及 juan_count，繫既有 entity；本卷數（二十卷）與本組另兩種四十卷（許敬宗／長孫無忌）、八十卷（錢若水等）本皆不同，判為另一較早之異本，非重出。",
+  "updated_at": "2026-04-29T16:51:33-07:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
 }
