@@ -28,6 +28,13 @@
       "title_info": "皇甫謐列女傳",
       "summary": "皇甫謐列女傳六卷",
       "merged_from": "1evcs0glxum80"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《列女傳》六卷",
+      "summary": "《列女傳》六卷皇甫謐撰。",
+      "merged_from": "1evcml3e3xb0g"
     }
   ],
   "authors": [
@@ -41,6 +48,15 @@
     "number": 6
   },
   "id": "1evcml3d8ec5c",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "列女傳六卷",
+      "summary": "列女傳六卷 皇甫撰\n皇甫謐有《高士》、《逸士傳》、《玄晏春秋》、《韋氏家傳》,並\n見前。\n《晉書》本傳:謐又撰《高士》、《逸士》、《列女》等傳,並重於世。\n《唐書·經籍志》:《列女傳》六卷,皇甫謐撰。\n《唐書藝文志》:皇甫謐《列女傳》六卷。\n章氏《考證》:《藝文類聚・人部》引一事,《太平御覽人事\n部》引三事,題皇甫謐《列女後傳》。《初學記》亦引之,無後\n字。又《御覽・人事部》引十三事,亦無後字。",
+      "merged_from": "1evcml3e3xb0g"
+    }
+  ],
   "measures": [
     {
       "unit": "卷",
@@ -74,10 +90,19 @@
       "indexed_by_moved": [
         "新唐書藝文志"
       ]
+    },
+    {
+      "id": "1evcml3e3xb0g",
+      "title": "列女傳",
+      "author": "皇甫謐",
+      "indexed_by_moved": [
+        "隋書經籍志"
+      ]
     }
   ],
   "ai_note": "合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：補晋書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「列女傳」全庫撞名，然撞名者撰人皆同為「皇甫謐」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　裸題「列女傳」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。",
   "original_title": "列女傳",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "period_fallback:jin→晉",
+  "ai_note2": "2026-08-15 全庫同名異書核對：合併裸題「列女傳」（1evcml3e3xb0g，隋書經籍志「六卷皇甫謐撰」，juan_count 原誤植七卷已一併訂正為六卷）——與本條同書同卷數重出，逕併，補入其 indexed_by／emendated_by。"
 }

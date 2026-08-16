@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "玄機分明要覽",
+  "authors": [
+    {
+      "name": "僧齊己",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +20,13 @@
     }
   ],
   "id": "1evcsz7wkqbk0",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「僧齊己」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；句末「又」引出下一條《詩格》一卷，仍屬僧齊己續作（該條原無 leading name，經溯源確認），已一併訂正；本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-13"
 }

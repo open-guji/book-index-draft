@@ -9,6 +9,16 @@
       "relation": "contains_text_of"
     }
   ],
+  "authors": [
+    {
+      "name": "賀蹤",
+      "role": "撰",
+      "entity_id": "1j96hf0bd9vk0"
+    }
+  ],
+  "juan_count": {
+    "number": 40
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -17,6 +27,7 @@
       "summary": "又四十卷"
     }
   ],
+  "ai_note": "2026-08-15 全庫同名異書核對：本條原文「又四十卷」句首「又」承前條之撰人鏈（1evcml372rugw 賀蹤本作 → 1evcubsh7a4n4 又九卷 → 本條又四十卷），本庫既有 related_works「contains_text_of」標記與 1evcml372rugw 同一撰人續作，今補全 authors「賀蹤」及 juan_count。",
   "id": "1evcubshmvzsw",
   "updated_at": "2026-07-29T13:46:48+00:00"
 }
