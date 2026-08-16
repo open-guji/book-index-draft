@@ -49,8 +49,7 @@
       "name": "沈瑩",
       "role": "撰",
       "entity_id": "1j967cp1zdr2m",
-      "dynasty": "三國吳",
-      "dynasty_basis": "known_mislabel:round3(沈瑩(?-280)，三國吳丹陽太守，撰臨海異物志)"
+      "dynasty": "三國吳"
     }
   ],
   "juan_count": {
@@ -73,8 +72,8 @@
   ],
   "measure_info": "一卷",
   "updated_at": "2026-08-08T14:20:19+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」（2026-08-13 三國魏晉period邊界獨立立項：沈瑩：Entity早已確立period=three-kingdoms，Work記錄未同步）",
   "merged_in": [
     {
       "id": "1evcs0k1nvta8",
@@ -88,6 +87,6 @@
     }
   ],
   "ai_note": "合併：題名「沈瑩臨海水土異物志」撰人折入題首（來源：三國藝文志、新唐書藝文志），與本條同書（撰人「沈瑩」已見本條 authors[]），裸題「臨海水土異物志」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "dynasty": "晉",
+  "dynasty": "三國吳",
   "dynasty_basis": "period_fallback:jin→晉"
 }
