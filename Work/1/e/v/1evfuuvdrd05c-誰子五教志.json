@@ -8,8 +8,7 @@
       "name": "譙周",
       "role": "撰",
       "dynasty": "三國蜀",
-      "entity_id": "1j96kegkid5vk",
-      "dynasty_basis": "manual:historical_figure(譙周(201-270)，字允南，三國蜀學者)"
+      "entity_id": "1j96a9ecduxa8"
     }
   ],
   "indexed_by": [
@@ -46,8 +45,8 @@
   "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「周」，今補全為「譙周」。據《三國志·蜀志·譙周傳》及案語「見《七録」。《隋志》著錄《譙子五教志》五卷為譙周撰。同書《誰子法訓》已修復為譙周（batch2），此條漏修今補。Entity primary_name已為譙周。",
   "loss_status": "lost",
   "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "晉",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國蜀」（2026-08-13 三國魏晉period邊界獨立立項：譙周：Entity分裂合併，既有正確Entity（201-270）早已確立period=three-kingdoms）",
+  "dynasty": "三國蜀",
   "dynasty_basis": "author_propagation:唯一作者朝代"
 }
