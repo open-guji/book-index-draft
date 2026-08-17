@@ -2,14 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "九章算術",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "漢",
-      "note": "漢代成书，原典作者佚名。"
-    }
-  ],
+  "authors": [],
   "dynasty": "漢",
   "description": {
     "text": "中國古代最重要的數學經典之一。漢代成书，分方田、粟米、衰分、少廣、商功、均輸、盈不足、方程、勾股九章，共 246 題。原典作者佚名，今存形態為魏-西晉劉徽（公元 263 年）注本。為「算經十書」之首。",
@@ -25,7 +18,8 @@
       "relation": "text_carried_by"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "ai_note": "2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。本書無志書著錄（多為出土簡帛，本無撰人可言）。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）"
 }

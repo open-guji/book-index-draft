@@ -3,13 +3,7 @@
   "id": "1ev3c1fmi0k5c",
   "type": "work",
   "title": "三國志辨誤",
-  "authors": [
-    {
-      "name": "不著撰人",
-      "role": "撰",
-      "dynasty": "宋"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -59,7 +53,7 @@
     }
   ],
   "measure_info": "三卷",
-  "ai_note": "作者「宋不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkq21ux7ojk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿024881）。阶段 5 兜底建立。",
+  "ai_note": "作者「宋不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkq21ux7ojk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿024881）。阶段 5 兜底建立。\n\n2026-08-17 撰人闕載：原作者欄作「不著撰人」——此為著錄語而非人名。著錄來源：欽定四庫全書總目。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿024881）。清乾隆四十六年武英殿聚珍本。",
     "sources": [
@@ -73,7 +67,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-07-29T03:47:56+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "dynasty": "宋",
+  "dynasty_basis": "2026-08-17：自作者欄「不著撰人（宋）」移入——該欄之名為著錄語非人名，清空前先存其朝代",
+  "period": "song",
+  "period_basis": "據 dynasty「宋」"
 }

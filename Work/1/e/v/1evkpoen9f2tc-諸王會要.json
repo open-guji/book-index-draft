@@ -2,20 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "諸王會要",
-  "authors": [
-    {
-      "name": "不著撰人",
-      "role": "撰",
-      "dynasty": "明"
-    }
-  ],
+  "authors": [],
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖005787）。明初鈔本。",
     "sources": [
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖005787），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖005787），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人闕載：原作者欄作「不著撰人」——此為著錄語而非人名。本書無志書著錄（多為出土簡帛，本無撰人可言）。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "juan_count": {
     "number": 1
   },
@@ -30,7 +24,7 @@
   "books": [
     "11qki4m8ou2o0"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

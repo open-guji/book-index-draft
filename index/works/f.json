@@ -1598,9 +1598,7 @@
   "title": "昭忠錄",
   "type": "Work",
   "path": "Work/1/e/v/1ev3bais3hmo0-昭忠錄.json",
-  "author": "不著撰人",
   "dynasty": "南宋",
-  "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
   "has_text": true,
@@ -3668,13 +3666,12 @@
   "title": "宣和畫譜",
   "type": "Work",
   "path": "Work/1/e/v/1ev3bbov6wgzk-宣和畫譜.json",
-  "author": "不著撰人",
-  "dynasty": null,
-  "role": "撰",
+  "dynasty": "宋",
   "juan_count": 20,
   "measure_info": "二十卷",
   "has_text": true,
-  "has_image": true
+  "has_image": true,
+  "period": "song"
  },
  "1ev3bbow9lwcg": {
   "id": "1ev3bbow9lwcg",
@@ -4324,9 +4321,6 @@
   "title": "歷代駙馬錄",
   "type": "Work",
   "path": "Work/1/e/v/1ev3bc7w9og00-歷代駙馬錄.json",
-  "author": "洪武中奉敕",
-  "dynasty": "明",
-  "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "ming"
@@ -7622,9 +7616,6 @@
   "title": "日講春秋解義",
   "type": "Work",
   "path": "Work/1/e/v/1ev3cx3rqqkg0-日講春秋解義.json",
-  "author": "敕撰",
-  "dynasty": "清",
-  "role": "撰",
   "has_text": true,
   "has_image": true,
   "period": "qing"
@@ -8254,8 +8245,6 @@
   "path": "Work/1/e/v/1ev7xkii5wlc0-周法.json",
   "juan_count": 9,
   "measure_info": "九篇",
-  "author": "佚名",
-  "role": "撰",
   "loss_status": "lost"
  },
  "1ev7xkijx9rls": {
@@ -8676,8 +8665,6 @@
   "title": "周易荀爽九家注",
   "type": "Work",
   "path": "Work/1/e/v/1evc5p8jufr40-周易荀爽九家注.json",
-  "author": "不著撰人",
-  "role": "編",
   "juan_count": 10,
   "measure_info": "十卷"
  },
@@ -10914,7 +10901,9 @@
   "dynasty": "三國吳",
   "role": "撰",
   "period": "three-kingdoms",
-  "juan_count": {"number": 7},
+  "juan_count": {
+   "number": 7
+  },
   "has_text": true
  },
  "1evcpjore0wzk": {
@@ -12372,7 +12361,9 @@
   "path": "Work/1/e/v/1evcsx7x6g0lc-史論.json",
   "author": "任諒",
   "role": "撰",
-  "juan_count": {"number": 3}
+  "juan_count": {
+   "number": 3
+  }
  },
  "1evcsx7zjnsw0": {
   "id": "1evcsx7zjnsw0",
@@ -12598,7 +12589,9 @@
   "dynasty": "南唐",
   "role": "撰",
   "period": "five-dynasties",
-  "juan_count": {"number": 15}
+  "juan_count": {
+   "number": 15
+  }
  },
  "1evcsxdorvq4g": {
   "id": "1evcsxdorvq4g",
@@ -13905,7 +13898,9 @@
   "path": "Work/1/e/v/1evcsy9maj1mo-算經.json",
   "author": "夏侯陽",
   "role": "撰",
-  "juan_count": {"number": 3}
+  "juan_count": {
+   "number": 3
+  }
  },
  "1evcsy9owspog": {
   "id": "1evcsy9owspog",
@@ -14017,7 +14012,9 @@
   "path": "Work/1/e/v/1evcsycbhe2gw-江東經略.json",
   "author": "李大著",
   "role": "撰",
-  "juan_count": {"number": 10}
+  "juan_count": {
+   "number": 10
+  }
  },
  "1evcsycok3xmo": {
   "id": "1evcsycok3xmo",
@@ -14070,7 +14067,9 @@
   "dynasty": "唐",
   "role": "撰",
   "period": "sui-tang",
-  "juan_count": {"number": 1},
+  "juan_count": {
+   "number": 1
+  },
   "has_text": true
  },
  "1evcsyep2wt1c": {
@@ -14394,7 +14393,9 @@
   "path": "Work/1/e/v/1evcsyntulxxc-幽憂子.json",
   "author": "廬照鄰",
   "role": "撰",
-  "juan_count": {"number": 3}
+  "juan_count": {
+   "number": 3
+  }
  },
  "1evcsynxinbpc": {
   "id": "1evcsynxinbpc",
@@ -14409,7 +14410,9 @@
   "path": "Work/1/e/v/1evcsyobqvr40-百篇.json",
   "author": "鬱渾",
   "role": "撰",
-  "juan_count": {"number": 1}
+  "juan_count": {
+   "number": 1
+  }
  },
  "1evcsyocn1728": {
   "id": "1evcsyocn1728",
@@ -14960,7 +14963,9 @@
   "path": "Work/1/e/v/1evcsz7mu6tj4-十三代史駁議.json",
   "author": "吳武陵",
   "role": "撰",
-  "juan_count": {"number": 12}
+  "juan_count": {
+   "number": 12
+  }
  },
  "1evcsz7oynym8": {
   "id": "1evcsz7oynym8",
@@ -15044,7 +15049,9 @@
   "dynasty": "北宋",
   "role": "撰",
   "period": "song",
-  "juan_count": {"number": 40}
+  "juan_count": {
+   "number": 40
+  }
  },
  "1evcszax3vqww": {
   "id": "1evcszax3vqww",
@@ -15078,7 +15085,9 @@
   "author": "范攄",
   "role": "撰",
   "juan_count": 5,
-  "additional_titles": ["文章龜鑒"]
+  "additional_titles": [
+   "文章龜鑒"
+  ]
  },
  "1evct4555d4hs": {
   "id": "1evct4555d4hs",
@@ -18043,9 +18052,6 @@
   "title": "徐宣衞臻盧毓傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfhce1vb85c-徐宣衞臻盧毓傳.json",
-  "author": "佚名",
-  "dynasty": "三國魏",
-  "role": "撰",
   "period": "three-kingdoms",
   "loss_status": "lost"
  },
@@ -31330,9 +31336,6 @@
   "title": "律",
   "type": "Work",
   "path": "Work/1/e/v/1evjr2ixoa1a8-律.json",
-  "author": "佚名",
-  "dynasty": null,
-  "role": "輯",
   "juan_count": 12,
   "measure_info": "十二卷",
   "has_image": true
@@ -38813,9 +38816,7 @@
   "title": "武英殿聚珍版書目錄",
   "type": "Work",
   "path": "Work/1/e/v/1evkpqxgcj5z4-武英殿聚珍版書目錄.json",
-  "author": "不著撰人",
-  "dynasty": null,
-  "role": "撰",
+  "dynasty": "清",
   "measure_info": "不分卷",
   "period": "qing"
  },
@@ -39201,8 +39202,6 @@
   "title": "眼科闡微",
   "type": "Work",
   "path": "Work/1/e/v/1evkpw1s7ew3k-眼科闡微.json",
-  "author": "不著撰人",
-  "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷"
  },
@@ -39434,8 +39433,6 @@
   "title": "大德濟陰方",
   "type": "Work",
   "path": "Work/1/e/v/1evkpy8u0f5ds-大德濟陰方.json",
-  "author": "不著撰人",
-  "role": "撰",
   "juan_count": 1,
   "measure_info": "存一卷"
  },
@@ -39598,8 +39595,6 @@
   "title": "江安縣志",
   "type": "Work",
   "path": "Work/1/e/v/1evkpzho8m680-江安縣志.json",
-  "author": "不著撰人",
-  "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷"
  },
@@ -40172,9 +40167,7 @@
   "title": "竹書紀年",
   "type": "Work",
   "path": "Work/1/e/v/1evqpdnrz483k-竹書紀年.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1evr5e3m6vj7v": {
@@ -42177,9 +42170,6 @@
   "title": "軍器則例",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m9ooa1-軍器則例.json",
-  "author": "敕撰",
-  "dynasty": "清",
-  "role": "撰",
   "juan_count": 14,
   "measure_info": "十四卷",
   "period": "qing"
@@ -42189,9 +42179,6 @@
   "title": "大清律續纂條例總類",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m9ooaa-大清律續纂條例總類.json",
-  "author": "敕撰",
-  "dynasty": "清",
-  "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "qing"
@@ -45261,9 +45248,6 @@
   "title": "日下舊聞考",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3meogxd-日下舊聞考.json",
-  "author": "敕撰",
-  "dynasty": "清",
-  "role": "撰",
   "juan_count": 20,
   "measure_info": "二十卷",
   "period": "qing"
@@ -45285,9 +45269,6 @@
   "title": "皇朝通典",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3meogy5-皇朝通典.json",
-  "author": "敕撰",
-  "dynasty": "清",
-  "role": "撰",
   "period": "qing"
  },
  "1evr5e3meogye": {
@@ -45592,8 +45573,6 @@
   "title": "琴雜說",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3mfaxx4-琴雜說.json",
-  "author": "不著",
-  "role": "著",
   "juan_count": 1,
   "measure_info": "一卷"
  },
@@ -45602,8 +45581,6 @@
   "title": "降聖引譜",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3mfaxxd-降聖引譜.json",
-  "author": "不著",
-  "role": "著",
   "juan_count": 1
  },
  "1evr5e3mfaxxt": {
@@ -45611,8 +45588,6 @@
   "title": "春秋精義",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3mfaxxt-春秋精義.json",
-  "author": "不著",
-  "role": "著",
   "juan_count": 30,
   "measure_info": "三十卷"
  },
@@ -48203,9 +48178,7 @@
   "title": "周公之琴舞",
   "type": "Work",
   "path": "Work/1/e/w/1ewozi6galwcr-周公之琴舞.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozi6jvu591": {
@@ -48220,9 +48193,7 @@
   "title": "筮法",
   "type": "Work",
   "path": "Work/1/e/w/1ewozjla9188x-筮法.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozjlfd78r2": {
@@ -48230,9 +48201,7 @@
   "title": "管仲",
   "type": "Work",
   "path": "Work/1/e/w/1ewozjlfd78r2-管仲.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozjm3qc37w": {
@@ -48247,9 +48216,7 @@
   "title": "成之聞之",
   "type": "Work",
   "path": "Work/1/e/w/1ewozqtztpbtf-成之聞之.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozqu2ubwuz": {
@@ -48257,9 +48224,7 @@
   "title": "語叢一",
   "type": "Work",
   "path": "Work/1/e/w/1ewozqu2ubwuz-語叢一.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozs5m9dyjh": {
@@ -48267,9 +48232,7 @@
   "title": "逸詩",
   "type": "Work",
   "path": "Work/1/e/w/1ewozs5m9dyjh-逸詩.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozs6989ljv": {
@@ -48277,9 +48240,7 @@
   "title": "顏淵問於孔子",
   "type": "Work",
   "path": "Work/1/e/w/1ewozs6989ljv-顏淵問於孔子.json",
-  "author": "佚名",
   "dynasty": "戰國",
-  "role": "撰",
   "period": "pre-qin"
  },
  "1ewozu3dihslo": {
@@ -48287,9 +48248,7 @@
   "title": "喪服圖",
   "type": "Work",
   "path": "Work/1/e/w/1ewozu3dihslo-喪服圖.json",
-  "author": "佚名",
-  "dynasty": "漢",
-  "role": "撰",
+  "dynasty": "西漢",
   "period": "qin-han"
  },
  "1ewozu3ujv41q": {
@@ -48297,9 +48256,7 @@
   "title": "養生方",
   "type": "Work",
   "path": "Work/1/e/w/1ewozu3ujv41q-養生方.json",
-  "author": "佚名",
-  "dynasty": "漢",
-  "role": "撰",
+  "dynasty": "西漢",
   "period": "qin-han"
  },
  "1ewozvrwflyj3": {
@@ -48314,9 +48271,7 @@
   "title": "日約",
   "type": "Work",
   "path": "Work/1/e/w/1ewozxko2w4ki-日約.json",
-  "author": "佚名",
-  "dynasty": "漢",
-  "role": "撰",
+  "dynasty": "西漢",
   "period": "qin-han"
  },
  "1evgpirlzlkao": {

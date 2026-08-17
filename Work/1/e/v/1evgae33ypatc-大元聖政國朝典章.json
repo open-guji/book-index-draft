@@ -2,13 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "大元聖政國朝典章",
-  "authors": [
-    {
-      "name": "不著撰人",
-      "role": "撰",
-      "dynasty": "元"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "補遼金元藝文志",
@@ -24,7 +18,7 @@
       "補遼金元藝文志"
     ]
   },
-  "ai_note": "補遼金元藝文志失名 作者「元不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkpyjzb8e80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀005836-005865）。阶段 5 兜底建立。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "補遼金元藝文志失名 作者「元不著撰人撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkpyjzb8e80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀005836-005865）。阶段 5 兜底建立。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-17 撰人闕載：原作者欄作「不著撰人」——此為著錄語而非人名。著錄來源：補遼金元藝文志。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "id": "1evgae33ypatc",
   "resources": [
     {
@@ -40,7 +34,7 @@
     "11qkhvf1j2fb4",
     "11qkhzqtyc6bk"
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "_has_text": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
