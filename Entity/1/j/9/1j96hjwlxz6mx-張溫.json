@@ -5,7 +5,6 @@
   "subtype": "people",
   "primary_name": "張溫",
   "dynasty": "三國吳",
-  "death_year": 892,
   "works": [
     {
       "work_id": "1evfhcgmgf8jk",
@@ -17,12 +16,12 @@
     }
   ],
   "external_ids": {
-    "cbdb_id": 186301,
+    "cbdb_id": 33688,
     "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=6 (None-892)"
+    "cbdb_source": "corrected_2026-08-16: 186301 → 33688"
   },
-  "ai_note": "2026-07-26：合併重複人物 Entity 1j96h8rw7k8xa。張溫為三國吳孫權太子太傅；原標唐誤。 被合併方的 CBDB 對應（1j96h8rw7k8xa:cbdb=33688）與本條不同，疑為自動匹配誤配到同名異代人物，未併入 external_ids，僅此記錄備查。　別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。",
-  "updated_at": "2026-08-08T11:51:59+00:00",
+  "ai_note": "2026-07-26：合併重複人物 Entity 1j96h8rw7k8xa。張溫為三國吳孫權太子太傅；原標唐誤。 被合併方的 CBDB 對應（1j96h8rw7k8xa:cbdb=33688）與本條不同，疑為自動匹配誤配到同名異代人物，未併入 external_ids，僅此記錄備查。　別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。\n\n2026-08-16 CBDB 假連結清理批一：原繫 186301（唐張温）。CBDB 33688 為三國吳吳縣張溫，生卒 193-230。本條原載卒年 892 係自誤配回填，一併清除。",
+  "updated_at": "2026-08-17T04:58:15+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國吳」自動歸併"
 }
