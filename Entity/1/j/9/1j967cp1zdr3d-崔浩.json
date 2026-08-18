@@ -19,6 +19,10 @@
     {
       "work_id": "1evdx90e8yrr4",
       "role": "撰"
+    },
+    {
+      "work_id": "1evc5p8lnocn4",
+      "role": "注"
     }
   ],
   "external_ids": {
@@ -26,7 +30,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
+  "ai_note": "2026-08-18 全庫同名異書核對：合併同名同朝代分裂 entity 1j96hlf1p92bk（1 作品《周易崔浩注》，role 注），二者 dynasty_basis 皆載「崔浩(381-450)，字伯淵，北魏太武帝時」，確係同一人，原記錄已於 2026-08-08 標記待合併（known_mislabel:round3）而未實際落地，今補行合併。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
   "period": "nanbeichao",
   "period_basis": "據 dynasty「北魏」自動歸併"
 }
