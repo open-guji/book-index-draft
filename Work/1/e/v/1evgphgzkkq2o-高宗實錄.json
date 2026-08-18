@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "高宗實錄",
+  "authors": [
+    {
+      "name": "韋述",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null
+    }
+  ],
   "juan_count": {
     "number": 30
   },
@@ -20,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-15 全庫同名異書核對：撰人本已見於引文「《高宗實錄》三十卷（韋述）」，僅頂層 authors 欄漏收，今補入。與組內另二部三十卷本（許敬宗，1evcpcxaum0ao；劉知幾，1evgphgx6f85c）撰人各異，暫不合併，詳見1evcpcxaum0ao之說明。",
   "id": "1evgphgzkkq2o",
   "measures": [
     {
@@ -29,5 +37,9 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-15"
 }
