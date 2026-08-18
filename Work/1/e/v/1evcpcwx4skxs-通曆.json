@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "通曆",
+  "authors": [
+    {
+      "name": "徐整",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96kecnze22o",
+      "note": "同人另有《三五曆紀》二卷，見新唐書藝文志雜史類同段「又通曆二卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -10,12 +29,19 @@
       "summary": "《通曆》二卷徐整撰。"
     },
     {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《通曆》",
-      "summary": "馬總《通曆》十卷柳芳"
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又通曆",
+      "summary": "又通曆二卷",
+      "note": "原文「又」承接同段前條「徐整三五曆紀二卷」，表同一撰人徐整另一著作。",
+      "merged_from": "1evcs0cul86ps"
     }
   ],
+  "ai_note": "2026-08-15 全庫同名異書核對：本條原混裝徐整二卷本與宋史藝文志「馬總《通曆》十卷」兩種不同撰人、卷數之著錄，馬總本之引文已拆分歸入既有記錄 1evr5e3mjd11r（該條原僅存裸題十五卷，今據直齋書錄解題整理本補全，二者互證確係同書）；本條僅留徐整二卷本，並補撰人「徐整」（原文本已明著，僅頂層 authors 欄漏收），另併入 1evcs0cul86ps（新唐書藝文志「又通曆二卷」，「又」承前條徐整《三五曆紀》，確係同一撰人同書），逕併，刪除該條。",
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
   "id": "1evcpcwx4skxs",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-15"
 }
