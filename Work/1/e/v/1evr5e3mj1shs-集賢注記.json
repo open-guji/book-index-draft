@@ -3,15 +3,68 @@
   "id": "1evr5e3mj1shs",
   "type": "work",
   "title": "集賢注記",
+  "authors": [
+    {
+      "name": "韋述",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96h8rw7vhgx"
+    }
+  ],
   "juan_count": {
     "number": 3
   },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "集賢注記"
+      "title_info": "《集賢注記》三卷",
+      "summary": "《集賢注記》三卷。唐集賢院學士京兆韋述撰。敘置院始末、學士名氏及院中故事。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "集賢注記三卷",
+      "summary": "集賢注記三卷",
+      "merged_from": "1evr5e3mfm6fk"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又集賢注記",
+      "summary": "又集賢注記三卷",
+      "merged_from": "1evcs0ewh1beo",
+      "note": "頂真格承接前一條「韋述御史臺記十卷」之撰人。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《集賢注記》二卷",
+      "summary": "《集賢注記》二卷（韋述）",
+      "author_info": "韋述",
+      "merged_from": "1evgphtug9csg",
+      "note": "卷數作二卷，與多數三卷本異，仍屬同書異卷數著錄。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《集賢注記》",
+      "summary": "韋述《集賢注記》二卷",
+      "merged_from": "1evcsxawaeiv4",
+      "note": "卷數作二卷，與多數三卷本異，仍屬同書異卷數著錄。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組5條分見直齋書錄解題、崇文總目、新唐書藝文志（頂真格承前條韋述御史臺記）、國史經籍志、宋史藝文志，撰人皆為韋述（唐集賢院學士），確係同書五方重出，逕併為一（以直齋書錄解題本為主，內容最詳），繫既有韋述 entity。卷數三卷（三源）／二卷（二源）互異，從多數定三卷，二卷本存 note。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
