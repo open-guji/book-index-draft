@@ -2,12 +2,36 @@
   "schema_version": 1,
   "type": "work",
   "title": "百家譜",
+  "authors": [
+    {
+      "name": "王僧孺",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
   "indexed_by": [
     {
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《百家譜》三十卷",
       "summary": "《百家譜》三十卷王僧孺撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《百家譜》三十卷",
+      "summary": "《百家譜》三十卷王僧孺撰。",
+      "merged_from": "1evcml2jmex34"
     }
   ],
   "id": "1evcpk05hz9q8",
@@ -19,5 +43,6 @@
       "summary": "百家譜三十卷 王僧 撰"
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-15 全庫同名異書核對：撰人本已見於引文「《百家譜》三十卷王僧孺撰」，僅頂層 authors 欄漏收，今補入；並併入 1evcml2jmex34 之舊唐書經籍志引文（原記錄混裝傅昭十五卷本與王僧孺三十卷本兩種不同著錄，傅昭部分已拆分歸入既有記錄 1evcml2jhqcxs，該記錄遂無獨有內容，逕予刪除）。",
+  "updated_at": "2026-08-15"
 }
