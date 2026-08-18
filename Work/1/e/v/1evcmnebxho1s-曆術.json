@@ -2,6 +2,23 @@
   "schema_version": 1,
   "type": "work",
   "title": "曆術",
+  "authors": [
+    {
+      "name": "王琛",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -10,6 +27,7 @@
       "summary": "《曆術》一卷王琛撰。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by 原文已明載撰人「王琛」，僅頂層 authors 欄漏收，今補入。隋書經籍志考證疑其即《隋書·滕王綸傳》所載術者王琛，本庫無同名 entity，未繫。",
   "id": "1evcmnebxho1s",
   "emendated_by": [
     {
