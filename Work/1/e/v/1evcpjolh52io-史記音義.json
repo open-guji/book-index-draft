@@ -2,15 +2,45 @@
   "schema_version": 1,
   "type": "work",
   "title": "史記音義",
+  "authors": [
+    {
+      "name": "劉伯莊",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da978dfp"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "又三十卷劉伯莊撰。",
       "summary": "又三十卷劉伯莊撰。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《史記音義》二十卷",
+      "summary": "唐崇賢館學士劉伯莊撰。貞觀初，奉敕講授，采鄹誕生、徐廣及隋柳顧言《音義》為此書。",
+      "merged_from": "1evr5e3mjzi6m"
     }
   ],
   "id": "1evcpjolh52io",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：原文已明載撰人「劉伯莊」，僅未截取入 authors 欄，今補全（舊唐書經籍志作三十卷）。另併入 1evr5e3mjzi6m（直齋書錄解題，原僅裸題「史記音義」二十卷），查其 collated_edition 補得完整正文「唐崇賢館學士劉伯莊撰。貞觀初，奉敕講授，采鄹誕生、徐廣及隋柳顧言《音義》為此書」，撰人相同，卷數雖異（二十卷／三十卷，蓋不同時代著錄之異），確係同書，逕併，刪除該條。",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
   "related_works": [
     {
       "id": "1eujfe7s94veo",
@@ -18,5 +48,5 @@
       "relation": "studies"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-15"
 }

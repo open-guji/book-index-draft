@@ -2,6 +2,16 @@
   "schema_version": 1,
   "type": "work",
   "title": "史記音義",
+  "authors": [
+    {
+      "name": "鄒誕生",
+      "role": "撰",
+      "entity_id": "1j96ha7c6j400"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,6 +21,14 @@
     }
   ],
   "id": "1evcpjolawbnk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：原文已明載撰人「鄒誕生」，僅未截取入 authors 欄，今補全，繫既有 entity（該 entity 朝代未載）。",
   "related_works": [
     {
       "id": "1eujfe7s94veo",
@@ -18,5 +36,5 @@
       "relation": "studies"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-15"
 }

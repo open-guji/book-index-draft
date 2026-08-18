@@ -3,15 +3,36 @@
   "id": "1evr5e3mkx7ok",
   "type": "work",
   "title": "春秋傳",
+  "authors": [
+    {
+      "name": "劉絢",
+      "role": "撰",
+      "dynasty": "北宋",
+      "note": "字質夫，程頤、程顥門人。"
+    }
+  ],
   "juan_count": {
-    "number": 2
+    "number": 12
   },
   "indexed_by": [
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "春秋傳"
+      "title_info": "《春秋傳》十二卷",
+      "summary": "劉絢質夫撰。二程門人，其師亟稱之。所解明正簡切。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：查 collated_edition 補得完整正文「劉絢質夫撰。二程門人……」，補撰人；原存 juan_count 誤作 2，實為「十二卷」中「十」字漏析所致（僅取末字「二」），今訂正為 12。本庫無「劉絢」同名 entity，未繫。",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "updated_at": "2026-08-15"
 }

@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "小集",
+  "authors": [
+    {
+      "name": "杜甫",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j968iupss3ll"
+    }
+  ],
+  "juan_count": {
+    "number": 6
+  },
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -17,5 +28,17 @@
     }
   ],
   "id": "1evcs14ifzvgg",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：緊接上一條「杜甫集六十卷」（1evcs14i52kg0），前後皆為李白、杜甫、岑參等唐代詩人別集，判為杜甫全集之外別行之選本／小集，補撰人及 juan_count（取新唐書藝文志六卷；宋史藝文志作一卷，蓋歷經散佚後之殘本，兩存於 indexed_by）。",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-15"
 }

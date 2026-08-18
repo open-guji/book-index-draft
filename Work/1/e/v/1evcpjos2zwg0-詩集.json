@@ -2,26 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "詩集",
+  "juan_count": {
+    "number": 5
+  },
   "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "又一百卷顏竣撰。",
-      "summary": "又一百卷顏竣撰。"
-    },
     {
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "詩集",
       "summary": "詩集五卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《詩集》十卷胡旦",
-      "summary": "《詩集》十卷胡旦"
     }
   ],
   "id": "1evcpjos2zwg0",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：本記錄之 work_id 於 collated_edition 中被舊唐書經籍志（顏竣百卷）、新唐書藝文志總集類（詩集二十卷，實即宋明帝1evcpjorpkp34，已改正）、宋史藝文志詩類、別集類數十處各具不同撰人或卷數之「《詩集》N卷」條目重複借用，係匯入時對無法歸屬之泛題「詩集」共用同一佔位 work_id 所致之大規模磁鐵。已將本記錄自身 indexed_by 中明確可考撰人者拆出：顏竣百卷本→1ewxghhuyfksh；胡旦十卷本→1ewxghhuyfksi。本記錄僅保留新唐書藝文志別集類「詩集五卷」（原文無撰人，查其上下文亦無「又」承續標記，未能考出撰人）。宋史藝文志詩類、別集類中另有沈銖十卷、王質一部、公乘億十卷等多筆同 work_id 誤植之異書尚未拆分，留待日後磁鐵專項清理。",
+  "updated_at": "2026-08-15"
 }

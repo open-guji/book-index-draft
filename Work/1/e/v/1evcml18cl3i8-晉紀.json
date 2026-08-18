@@ -55,8 +55,19 @@
   ]
  },
  "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evr5e3m8qyhb（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-13 全庫同名異書核對：併入獨立記錄 1evcpjzqbeqkg（隋書經籍志「《晉紀》四卷陸機撰」及其 emendated_by 考證），題名、撰人、卷數三者全合，確係同書重出，原記錄已刪除，其 emendated_by 一併移入本記錄。",
- "updated_at": "2026-08-10",
+ "resources": [
+  {
+   "name": "维基文库",
+   "id": "wikisource",
+   "url": "https://zh.wikisource.org/wiki/%E6%99%89%E7%B4%80",
+   "types": [
+    "text"
+   ]
+  }
+ ],
+ "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evr5e3m8qyhb（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-13 全庫同名異書核對：併入獨立記錄 1evcpjzqbeqkg（隋書經籍志「《晉紀》四卷陸機撰」及其 emendated_by 考證），題名、撰人、卷數三者全合，確係同書重出，原記錄已刪除，其 emendated_by 一併移入本記錄。\n\n2026-08-15 全庫同名異書核對：發現前次（2026-08-13）所稱「原記錄已刪除」實未執行——1evcpjzqbeqkg 檔案及索引項當時皆仍存在，今補完該次未竟之刪除，並補上其 resources（維基文庫）及 _has_text 標記。",
+ "_has_text": true,
+ "updated_at": "2026-08-15",
  "period": "jin",
  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
  "dynasty": "西晉",

@@ -2,6 +2,17 @@
   "schema_version": 1,
   "type": "work",
   "title": "小集",
+  "authors": [
+    {
+      "name": "元稹",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl89ibl"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -11,5 +22,17 @@
     }
   ],
   "id": "1evcs153j50jk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：句首「又」承接上一條「元氏長慶集一百卷」（1ev3bcv1d4k5c），元氏長慶集即元稹別集，屬同一撰人續作，補撰人及 juan_count，繫既有 entity「元稹」。",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-15"
 }
