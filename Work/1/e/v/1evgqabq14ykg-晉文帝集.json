@@ -5,12 +5,36 @@
   "juan_count": {
     "number": 2
   },
+  "authors": [
+    {
+      "name": "司馬昭",
+      "role": "撰",
+      "dynasty": "西晉",
+      "note": "晉文帝，追尊，未嘗親政稱帝。",
+      "entity_id": null
+    }
+  ],
   "indexed_by": [
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《文帝集》二卷",
       "summary": "《文帝集》二卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "文帝集",
+      "summary": "文帝集二卷",
+      "merged_from": "1evcs0yurc6ww",
+      "note": "同段前條「晉宣帝集五卷」（司馬懿）、後條「明帝集」「簡文帝集」，據此定為晉文帝司馬昭。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "文帝集三卷 謹按見《隋志》。",
+      "merged_from": "1evfuv1ylzegw",
+      "note": "卷數作三卷，與另二源二卷本異，同段前條「宣帝集五卷」（司馬懿）、後條「齊王攸集」（司馬攸，司馬昭子），確認同為司馬昭，仍屬同書異卷數著錄。"
     }
   ],
   "description": {
@@ -27,6 +51,10 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "本條之 work 於整理本匯入時鑄有 id 而未生成檔案，今據該志整理本 集類#740 補建。　前有類序「右吳」，次《𣈆宣帝集》，是晉文帝司馬昭。",
-  "updated_at": "2026-08-05T01:46:50+00:00"
+  "ai_note": "本條之 work 於整理本匯入時鑄有 id 而未生成檔案，今據該志整理本 集類#740 補建。　前有類序「右吳」，次《𣈆宣帝集》，是晉文帝司馬昭。\n\n2026-08-18 全庫同名異書核對：併入新唐書藝文志（二卷）及補晉書藝文志（三卷）二源之裸題「文帝集」（context 皆確認為司馬昭），補撰人司馬昭，本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」"
 }

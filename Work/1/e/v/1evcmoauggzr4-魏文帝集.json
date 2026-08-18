@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "魏文帝集",
+  "authors": [
+    {
+      "name": "曹丕",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j967afjav1wk"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -20,6 +28,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《魏文帝集》",
       "summary": "《魏文帝集》一卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "文帝集",
+      "summary": "文帝集十卷",
+      "merged_from": "1evcs0yan5mo0",
+      "note": "裸題「文帝集」，同段前條「魏武帝集」、後條「明帝集」「高貴鄉公集」，確認為魏文帝曹丕，卷數十卷與本記錄合，逕併。"
     }
   ],
   "juan_count": {
@@ -51,6 +67,18 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "ai_note": "2026-08-18 全庫同名異書核對：書題「魏文帝集」即以魏文帝（曹丕）諡號題名，撰人明確，補入 authors，繫既有曹丕 entity；並併入新唐書藝文志同卷數（十卷）裸題「文帝集」（同段前後條為魏武帝集、明帝集、高貴鄉公集，context 確認同人）。與 1evfteu17ubk0（三國藝文志、國史經籍志所載二十三卷本）為同書歷代卷數遞減之不同著錄階段，互見 related_works。",
+  "related_works": [
+    {
+      "id": "1evfteu17ubk0",
+      "title": "魏文帝集",
+      "relation": "related"
+    }
+  ],
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "_has_text": true,
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」"
 }
