@@ -7,8 +7,7 @@
     {
       "name": "超凡",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hjwlxcpi9"
+      "dynasty": "清"
     }
   ],
   "juan_count": {
@@ -33,5 +32,6 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": " 2026-08-17 清朝探勘round8：原entity_id所指胡尚英（明，字超凡，pending_accept低信度altname比對），WebSearch未能找到任何獨立佐證顯示胡尚英撰有此書；本輪同類「altname」比對（湘南／子性）驗證結果皆為誤連（實為他人書名之殘餘字被拆分為姓名），基於此pattern高度懷疑同屬誤連，解除entity_id繫連，真實身分待未來查核。"
 }

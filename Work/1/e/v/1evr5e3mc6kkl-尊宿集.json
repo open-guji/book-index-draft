@@ -5,10 +5,10 @@
   "title": "尊宿集",
   "authors": [
     {
-      "name": "聶光",
+      "name": "聶先",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j96hhvcr8mxd"
+      "entity_id": "1j96gx6h0eqdc"
     }
   ],
   "juan_count": {
@@ -33,5 +33,6 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "2026-08-17 清朝探勘round9：WebSearch確證撰人實為聶先（清康熙十八年編）",
+  "ai_note": " 2026-08-17 清朝探勘round9：WebSearch確證《續指月錄》為清康熙十八年（1679）聶先所編，本條原author.name「聶光」為著錄原文「聶先」之「先」誤讀「光」（形近致誤），訂正author.name並改連正確之聶先Entity（1j96gx6h0eqdc）。"
 }
