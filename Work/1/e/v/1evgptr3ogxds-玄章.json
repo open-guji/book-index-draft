@@ -2,6 +2,13 @@
   "schema_version": 1,
   "type": "work",
   "title": "玄章",
+  "authors": [
+    {
+      "name": "釋靈潤",
+      "role": "撰",
+      "entity_id": "1j96hg02ekydc"
+    }
+  ],
   "juan_count": {
     "number": 3
   },
@@ -11,16 +18,16 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《玄章》三卷",
       "summary": "《玄章》三卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又玄章",
+      "summary": "又玄章三卷",
+      "merged_from": "1evcs0oav7v9c",
+      "note": "頂真格承接前一條「靈潤涅槃義疏十三卷」之撰人。"
     }
   ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved　去重出著錄：本檔原載國史經籍志「《玄章》五卷」一條，而該志整理本以此條繫於 1evinbciyyjgg，彼處亦已載之，故此處為重出，去之。",
-  "id": "1evgptr3ogxds",
   "measures": [
     {
       "unit": "卷",
@@ -28,5 +35,7 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-04T16:30:08+00:00"
+  "ai_note": "从卷二 ambiguous 新建：unresolved　去重出著錄：本檔原載國史經籍志「《玄章》五卷」一條，而該志整理本以此條繫於 1evinbciyyjgg，彼處亦已載之，故此處為重出，去之。\n\n2026-08-18 全庫同名異書核對：核對國史經籍志鄰接著錄（前條「涅槃奚疏十三卷」釋靈潤），本條緊隨其後，與新唐書藝文志「又玄章三卷」（頂真格承靈潤涅槃義疏）互證，確係同書重出，逕併，補撰人釋靈潤，繫既有 entity。",
+  "id": "1evgptr3ogxds",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
