@@ -2,19 +2,32 @@
   "schema_version": 1,
   "type": "work",
   "title": "儀禮音",
-  "indexed_by": [
+  "authors": [
     {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《儀禮音》二卷",
-      "summary": "《儀禮音》二卷"
-    },
+      "name": "袁準",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "indexed_by": [
     {
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "儀禮音一卷 袁準。謹按見《舊唐志》。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：本條原混裝舊唐書經籍志「二卷」裸題與補晉書藝文志「一卷袁準」兩種不同卷數之著錄，卷數不合，非同書，予以拆分——舊唐志二卷本併入既有 1evgoq903z6yo（國史經籍志「李軌、劉昌宗」二卷本，卷數合），本條僅留袁準一卷本，並補撰人（原文本已明著，僅頂層 authors 欄漏收）。",
   "id": "1evcpctcybeo0",
   "related_works": [
     {
