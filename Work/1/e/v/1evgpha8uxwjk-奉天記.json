@@ -2,6 +2,13 @@
   "schema_version": 1,
   "type": "work",
   "title": "奉天記",
+  "authors": [
+    {
+      "name": "徐岱",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -12,6 +19,13 @@
       "title_info": "《奉天記》一卷",
       "summary": "《奉天記》一卷（徐岱記德宗幸奉天事。）",
       "author_info": "徐岱記德宗幸奉天事。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《奉天記》",
+      "summary": "徐岱《奉天記》一卷",
+      "merged_from": "1evcsxdkqqdj4"
     }
   ],
   "description": {
@@ -20,7 +34,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-18 全庫同名異書核對：與宋史藝文志同卷數（一卷）明載撰人「徐岱」之著錄合併，確係同書重出。本組另有賀楚《奉天記》一卷（`1evcsxd602y2o`）及崇文總目裸題一卷本（`1evr5e3mfay1d`），記同一「德宗幸奉天」史事而撰人有異，非同書，未予合併。本庫無徐岱同名 entity，未繫。",
   "id": "1evgpha8uxwjk",
   "measures": [
     {
@@ -29,5 +43,5 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

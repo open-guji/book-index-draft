@@ -2,14 +2,57 @@
   "schema_version": 1,
   "type": "work",
   "title": "縱橫集",
+  "authors": [
+    {
+      "name": "李緯",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《縱橫集》",
-      "summary": "李緯《縱橫集》二十卷"
+      "summary": "李緯《縱橫集》二十卷",
+      "note": "同段前條「王紹顏《軍書》十卷李緯」，「李緯」原繫句末，頂真格屬本條撰人。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "縱横集二十卷",
+      "summary": "縱横集二十卷",
+      "merged_from": "1evr5e3mhhlp5"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《縱橫集》二十卷",
+      "summary": "《縱橫集》二十卷（二禹採六國至生囂等說之詞）",
+      "author_info": "二禹採六國至生囂等說之詞",
+      "merged_from": "1evgq0bsxyl8g",
+      "note": "author_info 描述本書為輯錄戰國縱橫家說詞之選集，李緯當為編者。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《縱橫集》",
+      "summary": "《縱橫集》二十卷",
+      "merged_from": "1evcsxapveww0",
+      "note": "宋史藝文志史鈔類另有裸題重出著錄，卷數全合。"
     }
   ],
   "id": "1evcsz9cfdfy8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見宋史藝文志（2處著錄）、崇文總目、國史經籍志，卷數皆二十卷，撰人李緯見宋史藝文志文史類「王紹顏《軍書》十卷李緯」頂真格承接，確係同書重出，逕併為一。國史經籍志 author_info 描述本書性質為戰國縱橫家說詞輯錄，李緯應為編者。本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
