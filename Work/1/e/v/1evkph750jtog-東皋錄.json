@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "type": "work",
-  "title": "東錄",
+  "title": "東皋錄",
   "authors": [
     {
       "name": "釋妙聲",
@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫028860-028862），無同名 Work 故新建。 标题含PUA缺字符: 第2字为缺字符 U+E2D6 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫028860-028862），無同名 Work 故新建。 标题含PUA缺字符: 第2字为缺字符 U+E2D6 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 PUA 缺字訂正：原題「東錄」（含私用區缺字），訂正為「東皋錄」。依據：撰者釋妙聲（明）別集，外部檢索確證「東皋錄」，識典古籍亦存其書。皋字系統性缺字。",
   "juan_count": {
     "number": 3
   },
@@ -31,9 +31,10 @@
   "books": [
     "11qkhxp1zhm2o"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-18T01:03:34+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "original_title": "東錄"
 }
