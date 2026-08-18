@@ -30,7 +30,9 @@
     }
   ],
   "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
-  "loss_status": "lost"
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」或citation朝代字首 訂正（Round3）",
+  "loss_status": "lost",
+  "dynasty": "南朝宋",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round3：南朝宋僧慧琳（撰均善論等，宋文帝時人），庫中僅有唐代釋慧琳〔一切經音義作者〕entity，二者為同名異代之不同僧人，不可誤連，逕留空"
 }

@@ -35,6 +35,16 @@
   "loss_status": "lost",
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「周」或citation朝代字首 訂正（Round3）",
+  "authors": [
+    {
+      "name": "辛甲",
+      "role": "撰",
+      "dynasty": "周",
+      "entity_id": "1j96hex71ei9s"
+    }
+  ],
+  "dynasty": "周",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round3：辛甲（商末周初人，周太史），citation「周辛甲書」明載"
 }

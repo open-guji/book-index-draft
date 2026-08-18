@@ -5,9 +5,10 @@
   "title": "讕言",
   "authors": [
     {
-      "name": "佚名",
+      "name": "孔穿",
       "role": "撰",
-      "note": "《漢志》注：不知作者，陳人君法度。"
+      "dynasty": "周",
+      "entity_id": "1j96hehf4obnk"
     }
   ],
   "description": {
@@ -46,6 +47,8 @@
   "measure_info": "一卷",
   "loss_status": "lost",
   "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「周」或citation朝代字首 訂正（Round3）",
+  "dynasty": "周",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round3：孔穿（字子高，孔子六世孫，戰國時人），citation「周孔穿讕言」明載"
 }

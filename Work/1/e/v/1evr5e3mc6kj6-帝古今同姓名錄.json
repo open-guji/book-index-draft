@@ -5,9 +5,10 @@
   "title": "帝古今同姓名錄",
   "authors": [
     {
-      "name": "孝元",
+      "name": "梁元帝",
       "role": "撰",
-      "entity_id": "1j96h8rw6xrtr"
+      "dynasty": "梁",
+      "entity_id": "1j96hf83t28lc"
     }
   ],
   "juan_count": {
@@ -30,7 +31,9 @@
   ],
   "measure_info": "二卷",
   "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
-  "loss_status": "lost"
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「梁」或citation朝代字首 訂正（Round3）",
+  "loss_status": "lost",
+  "dynasty": "梁",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round3：梁元帝蕭繹《古今同姓名錄》，原entity_id所指崔永慶（朝鮮李朝儒者，字孝元，CBDB courtesy-name低信度誤配）與此書全然無涉，改連正確entity（梁元帝）"
 }
