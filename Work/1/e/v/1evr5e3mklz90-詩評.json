@@ -3,6 +3,14 @@
   "id": "1evr5e3mklz90",
   "type": "work",
   "title": "詩評",
+  "authors": [
+    {
+      "name": "□淳",
+      "role": "撰",
+      "entity_id": null,
+      "note": "原文「桂林僧（原闕）淳撰」，法名首字原本闕佚不可考，僅存末字「淳」，「桂林」為駐錫地非姓氏；以「□」代闕字。"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -10,8 +18,10 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "詩評"
+      "title_info": "《詩評》一卷",
+      "summary": "《詩評》一卷。桂林僧（原闕）淳撰。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題「詩評」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，原文明載撰人為「桂林僧（原闕）淳」，法名一字原闕，補入 authors（以「□」代闕字），與同組另二條（不知名氏本、鍾嶸本）非同書。",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
