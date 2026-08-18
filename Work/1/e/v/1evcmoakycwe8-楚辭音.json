@@ -2,6 +2,13 @@
   "schema_version": 1,
   "type": "work",
   "title": "楚辭音",
+  "authors": [
+    {
+      "name": "孟奧",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -29,5 +36,6 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-15 全庫同名異書核對：撰人本已見於引文「《楚辭音》一卷孟奧撰」，僅頂層 authors 欄漏收，今補入；孟奧生平無考（隋志考證：「孟奧始末未詳」），朝代未強斷。",
+  "updated_at": "2026-08-15"
 }
