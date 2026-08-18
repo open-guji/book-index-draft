@@ -2,14 +2,61 @@
   "schema_version": 1,
   "type": "work",
   "title": "聱書",
+  "authors": [
+    {
+      "name": "沈顏",
+      "role": "撰",
+      "dynasty": "唐",
+      "note": "字可鑄，沈傳師之孫，唐天復進士，仕南唐（偽吳），順義中為翰苑。",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《聱書》",
       "summary": "沈顏《聱書》十卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《聱書》十卷",
+      "summary": "《聱書》十卷。唐天復進士沈顏可鑄撰。傳師之孫，仕偽吳，順義中為翰苑。名「聱」者，以元結聱叟自況也。其文骫骳，而自序之語，極其矜負。",
+      "merged_from": "1evr5e3mi42sy",
+      "note": "indexed_by.summary 原僅存裸題，據 collated_edition 補全引文。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "聱書十卷",
+      "summary": "聱書十卷",
+      "merged_from": "1evr5e3mhhlu7"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《聱書》",
+      "summary": "《聱書》十卷",
+      "merged_from": "1evcsyss7hfr4",
+      "note": "宋史藝文志同段落另有裸題重出著錄，卷數全合。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見宋史藝文志（2處著錄）、直齋書錄解題（原漏收正文，據 collated_edition 補全，明載「沈顏可鑄撰」）、崇文總目，卷數皆十卷，撰人皆沈顏，確係同書重出，逕併為一。本庫無同名 entity，未繫。",
   "id": "1evcsxwjk1erk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

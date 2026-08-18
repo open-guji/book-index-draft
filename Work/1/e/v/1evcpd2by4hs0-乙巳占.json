@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "乙巳占",
+  "authors": [
+    {
+      "name": "李淳風",
+      "role": "撰",
+      "dynasty": "唐",
+      "note": "唐太史令，岐陽人。",
+      "entity_id": "1j967bgl6e33m"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -14,6 +33,29 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《乙巳占》",
       "summary": "李淳風《乙巳占》十卷又"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "乙巳占十卷",
+      "summary": "乙巳占十卷",
+      "merged_from": "1evr5e3mgjw2r"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《乙巳占》十卷",
+      "summary": "《乙巳占》十卷。唐太史令岐陽李淳風撰。起算上元乙已，故以名焉。",
+      "merged_from": "1evr5e3mjd0za",
+      "note": "indexed_by.summary 原僅存裸題，據 collated_edition 補全引文。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又乙巳占",
+      "summary": "又乙巳占十二卷",
+      "merged_from": "1evcs0riyvgu8",
+      "note": "頂真格承接前一條「李淳風釋周髀二卷」之撰人；卷數十二卷與另四源十卷異，屬同書著錄常見出入。"
     }
   ],
   "id": "1evcpd2by4hs0",
@@ -27,6 +69,11 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "ai_note": "2026-08-18 全庫同名異書核對：本組另3條（崇文總目、直齋書錄解題、新唐書藝文志）分別以裸題／頂真格著錄，撰人皆李淳風，卷數十卷（新唐志作十二卷，異），確係同書重出，逕併入本記錄，繫既有李淳風 entity。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
   "_has_text": true
 }
