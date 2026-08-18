@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "棋勢",
+  "authors": [
+    {
+      "name": "沈敞",
+      "role": "撰",
+      "entity_id": null,
+      "note": "隋志考證：「沈敞，始末未詳。案此疑即齊太子右率沈勃與王抗等四人明帝以為圍碁小中正者。」"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -11,7 +19,7 @@
     }
   ],
   "juan_count": {
-    "number": 8
+    "number": 10
   },
   "id": "1evcmndpw0f7k",
   "emendated_by": [
@@ -25,9 +33,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 8
+      "number": 10
     }
   ],
-  "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measure_info": "十卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：(1) 撰人「沈敞」本已見於引文，僅頂層 authors 欄漏收，今補入。(2) juan_count／measure_info 原誤作「八卷」，與 indexed_by／emendated_by 引文明載之「十卷」不符，經核對隋書經籍志整理本原文（第105節「《棋勢》十卷沈敞撰」）確為十卷，訂正卷數（此誤與鄰接1evcmndq1bgg0、1evcmndq6xq80同批同誤，疑為匯入時三條連續誤植為緊鄰之八卷本卷數，一併訂正）。",
+  "updated_at": "2026-08-15"
 }

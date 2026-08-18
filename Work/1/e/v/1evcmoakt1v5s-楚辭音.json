@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "楚辭音",
+  "authors": [
+    {
+      "name": "諸葛氏",
+      "role": "撰",
+      "dynasty": "劉宋",
+      "entity_id": null,
+      "note": "隋志考證疑即諸葛球，字幼玫，琅邪陽都人，事徵士關康之，復師徵士臧榮緒。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -14,6 +23,10 @@
     "number": 1
   },
   "id": "1evcmoakt1v5s",
+  "dynasty": "劉宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「劉宋」",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",
@@ -29,5 +42,6 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-15 全庫同名異書核對：撰人本已見於隋書經籍志考證引文「楚辭音一卷 宋處士諸葛氏撰」，僅頂層 authors 欄漏收，今補入。",
+  "updated_at": "2026-08-15"
 }
