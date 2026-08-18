@@ -5,14 +5,8 @@
   "title": "舊唐書",
   "authors": [
     {
-      "name": "劉昫等奉敕",
-      "role": "撰",
-      "dynasty": "後晉",
-      "entity_id": "1j96kfl8v39c0"
-    },
-    {
       "name": "劉昫",
-      "role": "等奉敕撰",
+      "role": "奉敕撰",
       "dynasty": "後晉",
       "entity_id": "1j96hlhu2zf28"
     }
@@ -222,8 +216,8 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evka9vye34sg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bab32ornk(劉昫等奉敕)（不同作者，故新建獨立 Work）。 | juan_count 冲突: src=37 tgt=200（取较大者）",
-  "updated_at": "2026-08-09T08:00:56+00:00",
+  "ai_note": "從 1evka9vye34sg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bab32ornk(劉昫等奉敕)（不同作者，故新建獨立 Work）。 | juan_count 冲突: src=37 tgt=200（取较大者）\n\n2026-08-16 作者欄黏連訂正：原著錄作「劉昫等奉敕」，係官銜／年號／合著之辭與人名黏連，今剝為「劉昫」，role 記「奉敕撰」以存敕修之實。依據：《舊唐書》劉昫等奉敕撰，該記錄已掛《舊唐書》。\n\n2026-08-16 作者欄去重：黏連 Entity 併入正條後，本 work 之 authors 出現指向同一 entity 之重複項，今併為一。",
+  "updated_at": "2026-08-17T05:11:47+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "five-dynasties",

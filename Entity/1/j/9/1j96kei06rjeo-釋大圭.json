@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "1j96kei06rjeo",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "釋大圭",
+  "dynasty": "元",
+  "works": [
+    {
+      "work_id": "1evgc0bts5ssg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgc0bvn9tkw",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 35484,
+    "cbdb_match": "auto",
+    "cbdb_source": "name_exact+dy_match+unique (batch2 2026-08-16)"
+  },
+  "updated_at": "2026-08-17T05:06:14+00:00",
+  "ai_note": "2026-08-08 Entity修復：原與Work關聯殘名：補遼金元藝文志明確「奉化人，徑山僧」即釋大圭（元，字恆白，號夢觀），缺釋字。\n\n2026-08-16 CBDB 繫連批二：繫 cbdb 35484。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：元，籍貫晉江。",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 dynasty「元」自動歸併"
+}

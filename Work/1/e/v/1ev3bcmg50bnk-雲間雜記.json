@@ -3,14 +3,7 @@
   "id": "1ev3bcmg50bnk",
   "type": "work",
   "title": "雲間雜記",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": null
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -31,10 +24,10 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
-  "ai_note": "2026-08-08 修：撰人原作「人」，今作「佚名」。四庫提要：「舊本題明人撰，不著名氏。……則國朝人撰矣。」「明人撰」=明朝人撰寫，「人」字非姓名，乃撰人不詳之標記。提要辨其實入清，仍不著名氏。現代目錄作「華亭佚名撰」。Entity原繫劉文耀，實為誤關聯，已置null。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "2026-08-08 修：撰人原作「人」，今作「佚名」。四庫提要：「舊本題明人撰，不著名氏。……則國朝人撰矣。」「明人撰」=明朝人撰寫，「人」字非姓名，乃撰人不詳之標記。提要辨其實入清，仍不著名氏。現代目錄作「華亭佚名撰」。Entity原繫劉文耀，實為誤關聯，已置null。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。著錄來源：欽定四庫全書總目。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "dynasty": "明",
   "dynasty_basis": "author_propagation"
 }

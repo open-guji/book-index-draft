@@ -2,15 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "方術傳注",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "注",
-      "dynasty": "三國魏",
-      "entity_id": "1j96kfmcts0zk",
-      "dynasty_basis": "indexed_by:三國藝文志"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "三國藝文志",
@@ -27,8 +19,8 @@
   },
   "id": "1evfhdckfawao",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-17 撰人闕載：原作者欄作「佚名」並繫於偽 Entity「佚名(魏)」——該 Entity 之名本是著錄語而非人名。《三國藝文志》著錄本書時即未載撰人。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。",
+  "updated_at": "2026-08-17T18:19:19+00:00",
   "period": "three-kingdoms",
   "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志",
   "dynasty": "三國魏",

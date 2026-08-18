@@ -5,10 +5,22 @@
   "title": "明會典",
   "authors": [
     {
-      "name": "弘治十年奉敕",
-      "role": "撰",
+      "name": "李東陽",
+      "role": "奉敕撰",
       "dynasty": "明",
-      "entity_id": "1j96henlwdbsw"
+      "entity_id": "1j967avzlnsjg"
+    },
+    {
+      "name": "焦芳",
+      "role": "奉敕撰",
+      "dynasty": "明",
+      "entity_id": "1jcd148482854"
+    },
+    {
+      "name": "楊廷和",
+      "role": "奉敕撰",
+      "dynasty": "明",
+      "entity_id": "1j967avzlz11n"
     }
   ],
   "indexed_by": [
@@ -60,12 +72,12 @@
     }
   ],
   "measure_info": "一百八十卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-17T18:19:19+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人考定：原作者欄作「弘治十年奉敕」，係著錄語而非人名，繫於偽 Entity。今據下列考定其纂修者。《四庫全書總目》：「明弘治十年奉敕撰……其總裁官為大學士李東陽、焦芳、楊廷和，副總裁官為吏部尚書梁儲，纂修官為翰林院學士毛紀、侍講學士傅珪，侍讀毛澄、朱希周，編修潘辰，並列銜卷首。」原作者欄「弘治十年奉敕」乃年號與著錄語黏連，非人名。"
 }

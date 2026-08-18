@@ -3,14 +3,7 @@
   "id": "1evr5e3m9oo96",
   "type": "work",
   "title": "辛酉工賑紀事",
-  "authors": [
-    {
-      "name": "敕撰",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96kfkx86scg"
-    }
-  ],
+  "authors": [],
   "juan_count": {
     "number": 18
   },
@@ -29,9 +22,10 @@
     }
   ],
   "measure_info": "十八卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-17T18:19:19+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-17 撰人闕載：原作者欄作「敕撰」並繫於偽 Entity「敕撰(清)」——該 Entity 之名本是著錄語而非人名。《清史稿藝文志》著錄原文作「敕撰」「御撰」「敕纂」之類——此乃記其奉敕官修之著錄語，非人名，該志本不著纂修者姓名。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。"
 }

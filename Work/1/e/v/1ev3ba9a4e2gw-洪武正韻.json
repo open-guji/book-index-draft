@@ -5,10 +5,16 @@
   "title": "洪武正韻",
   "authors": [
     {
-      "name": "洪武中奉敕",
-      "role": "撰",
+      "name": "樂韶鳳",
+      "role": "奉敕撰",
       "dynasty": "明",
-      "entity_id": "1j96ha5knqkg0"
+      "entity_id": "1jcf515129326"
+    },
+    {
+      "name": "宋濂",
+      "role": "奉敕撰",
+      "dynasty": "明",
+      "entity_id": "1j967avzlcjz2"
     }
   ],
   "indexed_by": [
@@ -58,7 +64,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：''）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：''）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人考定：原作者欄作「洪武中奉敕」，係著錄語而非人名，繫於偽 Entity。今據下列考定其纂修者。《四庫全書總目》：「明洪武中奉敕撰。時預纂修者為翰林侍講學士樂韶鳳、宋濂、待制王僎、修撰李淑允、編修朱右、趙塤、朱廉……書成於洪武八年，濂奉敕為之序。」原作者欄「洪武中奉敕」乃年號與著錄語黏連，非人名。",
   "measures": [
     {
       "unit": "卷",
@@ -66,7 +72,7 @@
     }
   ],
   "measure_info": "十六卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-17T18:19:19+00:00",
   "_has_text": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",

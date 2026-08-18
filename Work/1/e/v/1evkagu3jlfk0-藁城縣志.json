@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "藁城縣志",
+  "authors": [
+    {
+      "name": "李正儒",
+      "role": "纂修",
+      "dynasty": "明",
+      "entity_id": "1j98p58irrqbk"
+    }
+  ],
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007073-007074）。明嘉靖十三年刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  },
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 标题含PUA缺字符: 第2字为缺字符 U+F6A3 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 PUA 缺字訂正：原題「蒿木城縣志」（含私用區缺字），訂正為「藁城縣志」。依據：撰者李正儒（明）。本庫另有同一撰者所掛《稿城縣志》[1evke2cysd5hc]（民國二十三年鉛印本），藁/稿為同地異寫（河北藁城縣），故據以定此字。惟兩書版本相隔四百年（明嘉靖十三年刊本 vs 民國二十三年鉛印本），恐非一次纂修，「李正儒」是否為同一人尚待覈，此處僅訂正標題缺字，不改作者。",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "冊",
+      "number": 2
+    }
+  ],
+  "measure_info": "二冊",
+  "id": "1evkagu3jlfk0",
+  "books": [
+    "11qki4v8xwkjk"
+  ],
+  "updated_at": "2026-08-18T01:03:34+00:00",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "original_title": "蒿木城縣志"
+}

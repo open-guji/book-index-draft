@@ -2,14 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "孫子算經",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "南北朝",
-      "note": "南北朝（約公元 5 世紀）成书，原典作者佚名。"
-    }
-  ],
+  "authors": [],
   "dynasty": "南北朝",
   "description": {
     "text": "中國古代數學經典，「算經十書」之一。南北朝（約公元 4-5 世紀）成书，作者佚名（非春秋孫武所撰，與兵法《孫子》不同）。包含著名的「物不知其數」問題（中國剩餘定理之源）。今存形態為唐李淳風等注釋本。",
@@ -25,7 +18,8 @@
       "relation": "text_carried_by"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南北朝」"
+  "period_basis": "據 authors[0].dynasty「南北朝」",
+  "ai_note": "2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。本書無志書著錄（多為出土簡帛，本無撰人可言）。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）"
 }

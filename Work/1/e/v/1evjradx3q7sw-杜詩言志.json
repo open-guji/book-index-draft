@@ -2,13 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "杜詩言志",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "清"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "續修四庫全書",
@@ -27,7 +21,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。著錄來源：續修四庫全書。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "juan_count": {
     "number": 16
   },
@@ -53,8 +47,10 @@
       ]
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "_has_image": true,
   "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」"
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "2026-08-17：自作者欄「佚名（清）」移入——該欄之名為著錄語非人名，清空前先存其朝代"
 }

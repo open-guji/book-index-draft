@@ -2,14 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "寰宇通衢",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96kfkysoqo0"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "續修四庫全書",
@@ -28,7 +21,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3basnklon4(洪武中官)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3basnklon4(洪武中官)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」並繫於偽 Entity「佚名」——該 Entity 之名本是著錄語而非人名。《續修四庫全書》著錄原文作「佚名撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。",
   "juan_count": {
     "number": 0
   },
@@ -54,7 +47,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-17T18:19:19+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",

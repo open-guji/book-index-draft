@@ -2,13 +2,7 @@
   "schema_version": 1,
   "type": "work",
   "title": "雲謠集雜曲子",
-  "authors": [
-    {
-      "name": "佚名",
-      "role": "輯",
-      "dynasty": "唐"
-    }
-  ],
+  "authors": [],
   "indexed_by": [
     {
       "source": "續修四庫全書",
@@ -27,7 +21,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。著錄來源：續修四庫全書。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）",
   "juan_count": {
     "number": 1
   },
@@ -53,7 +47,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-17T18:21:15+00:00",
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
