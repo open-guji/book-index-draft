@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "九鏡射經",
+  "authors": [
+    {
+      "name": "韋韓",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "唐檢校太子詹事，同人另有《射訣》一卷，見直齋書錄解題同段下一條；宋史藝文志作「韋蘊」，二寫並存，未能確考孰是。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -12,9 +31,14 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "九鏡射經"
+      "summary": "《九鏡射經》一卷。唐檢校太子詹事韋韓撰。《制弓矢法》三篇，《射法》九篇。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by（直齋書錄解題）原僅存裸題「九鏡射經」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人韋韓；宋志作「韋蘊」，姓名異寫存於 note。",
   "id": "1evcsye2jy9s0",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-18"
 }

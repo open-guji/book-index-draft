@@ -3,6 +3,14 @@
   "id": "1evr5e3mjzi3r",
   "type": "work",
   "title": "老子解",
+  "authors": [
+    {
+      "name": "葉夢得",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967avzkq2v4"
+    }
+  ],
   "juan_count": {
     "number": 2
   },
@@ -10,8 +18,13 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "老子解"
+      "summary": "《老子解》二卷。葉夢得撰。其說曰：「孔子稱竊比於我老彭，孟子辟楊、墨，而不及老氏。老氏之書，孔、孟所不廢也。」所解生之徒十有三，死之徒十有三，以為四肢九竅，本《韓非子解老》之說。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題「老子解」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人葉夢得。",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "updated_at": "2026-08-18"
 }
