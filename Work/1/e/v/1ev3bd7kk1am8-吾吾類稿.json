@@ -25,6 +25,12 @@
       "source_bid": "1eve1ek5qq9kw",
       "title_info": "《吾吾類稿》三卷",
       "summary": "元吳皋吾吾類稿三卷"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "吾類稿",
+      "summary": "吳皋吾吾類稿三卷。"
     }
   ],
   "books": [
@@ -98,5 +104,5 @@
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] 2026-08-18 清史稿藝文志系統性排查Round2：併入 1evr5e3mdqr80（原題「吾類稿」，作者誤析為「皋吾」而誤連無關entity，實為吳皋《吾吾類稿》之重出著錄，疊字「吾吾」為原書題，非OCR衍）。"
 }

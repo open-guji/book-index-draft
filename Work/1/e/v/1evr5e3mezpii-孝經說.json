@@ -7,7 +7,8 @@
     {
       "name": "劉瓛",
       "role": "撰",
-      "entity_id": "1j96hl6pen9c0"
+      "entity_id": "1j96hl6pen9c0",
+      "dynasty": "齊"
     }
   ],
   "indexed_by": [
@@ -27,6 +28,6 @@
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「齊」（2026-08-18 清史稿藝文志系統性排查Round1：劉瓛（南齊經學家，字子珪，通五經），citation「齊劉瓛孝經說」明載，原entity誤配為清）"
 }

@@ -23,7 +23,17 @@
   ],
   "measure_info": "一卷",
   "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
-  "loss_status": "lost"
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「梁」訂正",
+  "loss_status": "lost",
+  "authors": [
+    {
+      "name": "梁元帝",
+      "role": "撰",
+      "dynasty": "梁",
+      "entity_id": "1j96hf83t28lc"
+    }
+  ],
+  "dynasty": "梁",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round2：citation「梁元帝纂要」，梁元帝（蕭繹，南朝梁）纂要為著名已佚類書，馬國翰有輯本"
 }

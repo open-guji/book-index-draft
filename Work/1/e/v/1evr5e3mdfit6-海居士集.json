@@ -2,12 +2,13 @@
   "schema_version": 1,
   "id": "1evr5e3mdfit6",
   "type": "work",
-  "title": "海居士集",
+  "title": "藏海居士集",
   "authors": [
     {
-      "name": "可藏",
+      "name": "吳可",
       "role": "撰",
-      "entity_id": "1j96heg3a8u80"
+      "dynasty": "宋",
+      "entity_id": "1j96hldqqnsao"
     }
   ],
   "juan_count": {
@@ -21,7 +22,7 @@
       "summary": "吳可藏海居士集二卷。"
     }
   ],
-  "ai_note": "清史稿藝文志集部別集類輯佚條目。 來源：清史稿藝文志集部別集類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "ai_note": "清史稿藝文志集部別集類輯佚條目。 來源：清史稿藝文志集部別集類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。 2026-08-18 清史稿藝文志系統性排查Round2：原title「海居士集」脫「藏」字，作者誤析為「可藏」而誤連無關entity，今訂正為吳可本人之《藏海居士集》，與其《藏海詩話》為兩部不同著作，非重出。",
   "measures": [
     {
       "unit": "卷",
@@ -30,7 +31,9 @@
   ],
   "measure_info": "二卷",
   "updated_at": "2026-08-07T15:25:19+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志",
-  "loss_status": "lost"
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」訂正",
+  "loss_status": "lost",
+  "dynasty": "宋",
+  "dynasty_basis": "2026-08-18 清史稿藝文志系統性排查Round2：citation「吳可藏海居士集二卷」，吳可（宋，字思道，號藏海居士）另有《藏海詩話》已著錄於庫，此為其居士集，非同書，逕訂正"
 }
