@@ -15,6 +15,14 @@
       "title_info": "《漢書音義》七卷",
       "summary": "《漢書音義》七卷（韋昭）",
       "author_info": "韋昭"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《漢書音義》七卷",
+      "summary": "《漢書音義》七卷章昭撰。",
+      "note": "「章昭」為「韋昭」形近訛字，見下 emendated_by 訂正說明。",
+      "merged_from": "1evcpjoltbbpc"
     }
   ],
   "authors": [
@@ -52,7 +60,18 @@
       "relation": "studies"
     }
   ],
-  "ai_note": "2026-08-11 秦漢同名異書核對／漢書音義組覆核：頂層 period／dynasty 缺漏，據 authors[0].dynasty「三國吳」補。",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8%E9%9F%B3%E7%BE%A9",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "ai_note": "2026-08-11 秦漢同名異書核對／漢書音義組覆核：頂層 period／dynasty 缺漏，據 authors[0].dynasty「三國吳」補。\n\n2026-08-15 全庫同名異書核對：併入 1evcpjoltbbpc（舊唐書經籍志「《漢書音義》七卷章昭撰」），「章昭」為「韋昭」形近訛字，撰人卷數皆合，確係同書重出，逕併，刪除該條。",
   "updated_at": "2026-08-11",
   "dynasty": "三國吳",
   "dynasty_basis": "author_propagation:唯一作者朝代",
