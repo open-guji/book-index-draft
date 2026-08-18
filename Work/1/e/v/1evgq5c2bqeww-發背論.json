@@ -4,9 +4,9 @@
   "title": "發背論",
   "authors": [
     {
-      "name": "僧智宣",
+      "name": "白之",
       "role": "撰",
-      "entity_id": "1j96hg9kb6m80"
+      "entity_id": null
     }
   ],
   "juan_count": {
@@ -16,18 +16,11 @@
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《發背論》一卷、又一卷",
-      "summary": "《發背論》一卷、又一卷（僧智宣；白之）",
-      "author_info": "僧智宣；白之"
+      "title_info": "《發背論》又一卷",
+      "summary": "《發背論》又一卷（白之）",
+      "note": "原記錄併存「《發背論》一卷、又一卷（僧智宣；白之）」二人各一卷之著錄，僧智宣一卷部分已併入 1evcsyjio3s3k（與宋史藝文志同書重出），本記錄僅留白之「又一卷」部分。"
     }
   ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
   "id": "1evgq5c2bqeww",
   "measures": [
     {
@@ -36,5 +29,13 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "related_works": [
+    {
+      "id": "1evcsyjio3s3k",
+      "title": "發背論",
+      "relation": "related"
+    }
+  ],
+  "ai_note": "2026-08-18 全庫同名異書核對：原記錄為國史經籍志「《發背論》一卷、又一卷（僧智宣；白之）」磁鐵，一次併存二人各一卷之著錄。僧智宣一卷與既有記錄 1evcsyjio3s3k（宋史藝文志）卷數撰人全合，確係同書重出，已併入彼記錄；本記錄僅保留白之「又一卷」部分，本庫無白之同名 entity，未繫。",
+  "updated_at": "2026-08-18"
 }
