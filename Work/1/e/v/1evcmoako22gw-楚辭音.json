@@ -2,12 +2,35 @@
   "schema_version": 1,
   "type": "work",
   "title": "楚辭音",
+  "authors": [
+    {
+      "name": "徐邈",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hl473bf9c"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《楚辭音》一卷",
       "summary": "《楚辭音》一卷徐邈撰。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "楚辭音一卷 徐 ,謹按見《隋志》。",
+      "note": "原條「一卷、又一卷（徐邈；釋道騫）」磁鐵合著兩書，道騫之一卷已見 1evcmoal9wohs，本條僅承其徐邈之部。",
+      "merged_from": "1evfuv1w3gkxs"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《楚辭音》一卷、又一卷",
+      "summary": "《楚辭音》一卷、又一卷（徐邈；釋道騫）",
+      "author_info": "徐邈；釋道騫",
+      "merged_from": "1evfuv1w3gkxs"
     }
   ],
   "juan_count": {
@@ -29,5 +52,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-15 全庫同名異書核對：撰人本已見於引文「《楚辭音》一卷徐邈撰」，僅頂層 authors 欄漏收，今補入，繫既有 entity（同 entity 另有論語音、春秋左氏傳音等徐邈音義系列著作）；並併入 1evfuv1w3gkxs（補晉書藝文志+國史經籍志「一卷、又一卷（徐邈；釋道騫）」磁鐵記錄），徐邈之部歸本條，道騫之部同時歸入既有 1evcmoal9wohs，刪除該磁鐵記錄。",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "updated_at": "2026-08-15"
 }

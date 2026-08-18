@@ -3,6 +3,14 @@
   "id": "1evr5e3mjo9i6",
   "type": "work",
   "title": "菊譜",
+  "authors": [
+    {
+      "name": "史正志",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl6pbmk"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -10,8 +18,21 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "菊譜"
+      "title_info": "《菊譜》一卷",
+      "summary": "史正志志道撰。孝廟朝為發運使者也。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-15 全庫同名異書核對：查 collated_edition 補得完整正文「史正志志道撰。孝廟朝為發運使者也」，補撰人，繫既有 entity（alt_names 含字「志道」相符）。按：原文「孝廟朝」指宋孝宗朝（1162-1189，南宋），與該 entity 現繫 dynasty「北宋」（cbdb index_year=1121 推定）不盡吻合，惟 1121 年生者孝宗朝在世非無可能（享壽六十餘），未強行更動既有 entity 朝代判定，留存此按供日後覆核。",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "updated_at": "2026-08-15"
 }

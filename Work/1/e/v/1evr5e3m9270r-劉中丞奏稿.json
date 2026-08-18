@@ -5,10 +5,10 @@
   "title": "劉中丞奏稿",
   "authors": [
     {
-      "name": "劉昆",
+      "name": "劉崐",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j96hjwlx1gy6"
+      "entity_id": "1j9939c04d608"
     }
   ],
   "juan_count": {
@@ -33,5 +33,6 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "2026-08-17 清朝探勘round10：WebSearch確證撰人實為晚清湖南巡撫劉崐",
+  "ai_note": " 2026-08-17 清朝探勘round10：WebSearch確證《劉中丞奏稿》撰人為劉崐（1808-1888，字玉崑，號韞齋，雲南景東人，道光二十一年進士，同治年間任湖南巡撫，清代官場俗稱巡撫為「中丞」，與書名合），原entity_id所指劉昆為明代同名人（pending_accept低信度比對），拆分建立新Entity。"
 }

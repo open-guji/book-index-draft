@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "四先生中庸解義",
+  "authors": [
+    {
+      "name": "程頤",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967da96x4xi"
+    },
+    {
+      "name": "呂大臨",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl6pbm8"
+    },
+    {
+      "name": "遊酢",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96hesz64zy8"
+    },
+    {
+      "name": "楊時",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967bgl5rlzc"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《四先生中庸解義》一卷",
+      "summary": "《禮記解》七十卷《四先生中庸解義》一卷（（程頤、呂大臨、遊酢、楊時撰））方愨"
+    }
+  ],
+  "id": "1ewwanm3lyrk1",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對：從 1evcsw6s33xts（禮記解）拆出新建——原記錄併存《禮記解》七十卷（方愨撰）與《四先生中庸解義》一卷（程頤、呂大臨、遊酢、楊時合撰，即「程門四先生」）二部不同之書，宋史藝文志連書體例致匯入誤併為一 work（磁鐵）。今拆出獨立成此記錄，兩記錄以 related_works 互見。",
+  "updated_at": "2026-08-13",
+  "related_works": [
+    {
+      "id": "1evcsw6s33xts",
+      "title": "禮記解",
+      "relation": "related"
+    }
+  ]
+}

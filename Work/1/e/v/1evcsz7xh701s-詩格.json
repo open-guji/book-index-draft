@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "詩格",
+  "authors": [
+    {
+      "name": "僧齊己",
+      "role": "撰"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +20,13 @@
     }
   ],
   "id": "1evcsz7xh701s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-13 全庫同名異書核對：本條原判無 leading name（前一條「僧齊己《玄機分明要覽》一卷又」句末以「又」承接，非單純語氣詞），今溯源確認本條實承僧齊己續作，補入 authors「僧齊己」及 juan_count；句末「李洞」屬下一條《賈島詩句圖》之撰人，已於前批訂正，與本條無涉。",
+  "updated_at": "2026-08-13"
 }

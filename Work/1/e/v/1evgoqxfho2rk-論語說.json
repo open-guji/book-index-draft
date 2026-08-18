@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "論語說",
+  "authors": [
+    {
+      "name": "洪興祖",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j967bgl7y9tv",
+      "note": "宋代經學家（1090-1155，跨北南宋），字慶善，著有《楚辭補注》，史傳載其另撰《論語說》。"
+    }
+  ],
   "juan_count": {
     "number": 10
   },
@@ -14,6 +23,7 @@
       "author_info": "□興祖"
     }
   ],
+  "ai_note": "2026-08-15 全庫同名異書核對：撰人名首字缺佚存「□興祖」，核以本庫既有 entity「洪興祖」（宋，字慶善，著《楚辭補注》，史傳載其另撰《論語說》）姓名、時代、著作皆合，補撰人，繫該 entity。",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
@@ -35,5 +45,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "updated_at": "2026-08-15"
 }

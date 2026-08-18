@@ -2,12 +2,36 @@
   "schema_version": 1,
   "type": "work",
   "title": "楚辭音",
+  "authors": [
+    {
+      "name": "釋道騫",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": null,
+      "note": "隋時僧人，善讀《楚辭》，能為楚聲，音韻清切。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《楚辭音》一卷",
       "summary": "《楚辭音》一卷釋道騫撰。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "楚辭音一卷 徐 ,謹按見《隋志》。",
+      "note": "原條「一卷、又一卷（徐邈；釋道騫）」磁鐵合著兩書，徐邈之一卷已見 1evcmoako22gw，本條僅承其道騫之部。",
+      "merged_from": "1evfuv1w3gkxs"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《楚辭音》一卷、又一卷",
+      "summary": "《楚辭音》一卷、又一卷（徐邈；釋道騫）",
+      "author_info": "徐邈；釋道騫",
+      "merged_from": "1evfuv1w3gkxs"
     }
   ],
   "juan_count": {
@@ -30,6 +54,10 @@
   ],
   "measure_info": "一卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「至今傳《楚辭》者,皆祖 公之《音》／而劉安、班固、賈之書世復\n不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「至今傳《楚辭》者,皆祖 公之《音》／而劉安、班固、賈之書世復\n不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-15 全庫同名異書核對：撰人本已見於引文「《楚辭音》一卷釋道騫撰」，僅頂層 authors 欄漏收，今補入；並併入 1evfuv1w3gkxs（補晉書藝文志+國史經籍志「一卷、又一卷（徐邈；釋道騫）」磁鐵記錄，合著徐邈、道騫兩家一卷本），道騫之部歸本條，徐邈之部同時歸入既有 1evcmoako22gw，刪除該磁鐵記錄。",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "updated_at": "2026-08-15"
 }
