@@ -5,12 +5,28 @@
   "juan_count": {
     "number": 85
   },
+  "authors": [
+    {
+      "name": "蕭綱",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j9678njjrbb5"
+    }
+  ],
   "indexed_by": [
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《簡文帝集》八十五卷",
       "summary": "《簡文帝集》八十五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "簡文帝集",
+      "summary": "簡文帝集八十卷",
+      "merged_from": "1evcs11t9g35s",
+      "note": "同段前條「武帝集」（梁武帝蕭衍）、後條「元帝集」（梁元帝蕭繹），確認為梁簡文帝蕭綱，卷數八十卷與本記錄八十五卷略異，屬同書歷代著錄之常見卷數出入，逕併。"
     }
   ],
   "description": {
@@ -27,6 +43,10 @@
     }
   ],
   "measure_info": "八十五卷",
-  "ai_note": "本條之 work 於整理本匯入時鑄有 id 而未生成檔案，今據該志整理本 集類#1324 補建。　前有類序「右齊」，次《梁武帝集》，是梁簡文帝。",
-  "updated_at": "2026-08-05T01:46:50+00:00"
+  "ai_note": "本條之 work 於整理本匯入時鑄有 id 而未生成檔案，今據該志整理本 集類#1324 補建。　前有類序「右齊」，次《梁武帝集》，是梁簡文帝。\n\n2026-08-18 全庫同名異書核對：併入新唐書藝文志同人裸題「簡文帝集」（八十卷），補撰人蕭綱，繫既有 entity。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」"
 }
