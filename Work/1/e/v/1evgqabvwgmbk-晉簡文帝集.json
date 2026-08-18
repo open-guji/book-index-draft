@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "晉簡文帝集",
+  "authors": [
+    {
+      "name": "司馬昱",
+      "role": "撰",
+      "dynasty": "東晉",
+      "note": "晉簡文帝，東晉第八位皇帝，元帝少子。",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《簡文帝集》五卷",
+      "summary": "《簡文帝集》五卷"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "簡文帝集五卷録一卷 謹按見《七録》。兩《唐志》著録。",
+      "merged_from": "1evfuv5ki9kao"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "簡文帝集",
+      "summary": "簡文帝集五卷",
+      "merged_from": "1evcs0yv44x6o",
+      "note": "同段前條「明帝集」（晉明帝司馬紹）、後條「孝武帝集」（晉孝武帝司馬曜），確認為晉簡文帝司馬昱。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "original_title": "簡文帝集",
+  "ai_note": "从卷二 ambiguous 新建：unresolved　解磁鐵：本檔原兼載本志 「《簡文帝集》八十五卷」（今歸 1evgqbiq72wow），皆非本 work 之著錄——該志整理本各為之繫 id，而其 work 匯入時未生成，致其著錄併入本檔。今 work 既補建，去之。餘 1 條。\n\n2026-08-18 全庫同名異書核對：核對國史經籍志鄰接著錄（前條「文帝集」司馬昭、「明帝集」司馬紹，後條「孝武帝集」司馬曜），確認為晉簡文帝司馬昱，題名改為「晉簡文帝集」以別於梁簡文帝集（`1evgqbiq72wow`），原題存 original_title；並併入補晉書藝文志、新唐書藝文志同卷數（五卷）之裸題「簡文帝集」。本庫無司馬昱同名 entity，未繫。",
+  "id": "1evgqabvwgmbk",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
+}
