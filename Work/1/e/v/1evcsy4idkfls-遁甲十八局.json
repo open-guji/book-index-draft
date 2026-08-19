@@ -8,8 +8,48 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《遁甲十八局》",
       "summary": "一行《遁甲十八局》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "遁甲十八局一卷",
+      "summary": "遁甲十八局一卷",
+      "merged_from": "1evr5e3mgjw69",
+      "note": "崇文總目一卷，卷數與宋志全合。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又遁甲十八局",
+      "summary": "又遁甲十八局一卷",
+      "merged_from": "1evcs0uljowe8",
+      "note": "新唐書藝文志作「又遁甲十八局一卷」，卷數與宋志全合。"
     }
   ],
   "id": "1evcsy4idkfls",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "一行",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da97jm2h",
+      "note": "宋史藝文志五行類此段為連續頂真格（前條「胡萬頃《太一遁甲萬勝時定主客立成訣》一卷一行」句末之名前置為本條撰人，本條句末無餘名，下條另起「司馬驤《遁甲符寶萬歲經圖曆》一卷」）。一行（683-727）唐高僧、天文曆算家。按本庫另有「僧一行」entity `1j96hg54cdgjk`（無朝代、無 CBDB），與本條所繫「釋一行」`1j967da97jm2h`（唐，CBDB 445419）疑為一人二條，待人物專項覈實。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志「一行《遁甲十八局》一卷」（頂真格所繫）、崇文總目一卷、新唐書藝文志「又遁甲十八局一卷」，三源皆一卷，同為一書，今合為一條並補撰人、繫 entity `1j967da97jm2h`。"
 }
