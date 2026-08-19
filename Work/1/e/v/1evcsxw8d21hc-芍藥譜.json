@@ -2,14 +2,39 @@
   "schema_version": 1,
   "type": "work",
   "title": "芍藥譜",
+  "authors": [
+    {
+      "name": "劉攽",
+      "role": "撰",
+      "entity_id": "1j967bgl7n18n"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《芍藥譜》",
       "summary": "劉攽《芍藥譜》一卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《芍藥譜》一卷",
+      "summary": "中書舍人清江劉攽貢父撰。",
+      "merged_from": "1evr5e3mkx7q0"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「劉攽《芍藥譜》一卷」，僅頂層 authors 欄漏收，今補入；併入直齋書錄解題（明載「中書舍人清江劉攽貢父撰」）。與同題孔武仲本、王觀本皆非同書，同名巧合（北宋三家各撰芍藥譜，直齋書錄解題原文自云「三家皆述維揚所產花之盛」）。",
   "id": "1evcsxw8d21hc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }

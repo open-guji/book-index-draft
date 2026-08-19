@@ -2,20 +2,32 @@
   "schema_version": 1,
   "type": "work",
   "title": "晉陽秋",
+  "authors": [
+    {
+      "name": "檀道鸞",
+      "role": "注",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《晉陽秋》二十卷",
       "summary": "《晉陽秋》二十卷檀道鸞注。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《晉陽秋》",
-      "summary": "孫盛《晉陽秋》三十卷杜延業"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：原記錄「磁鐵」合裝本則（檀道鸞注二十卷）與宋史藝文志（孫盛三十卷，卷數與既有三十二卷本相近，屬同書著錄常見出入）二則截然不同著錄，今拆分：宋志孫盛本移出併入既有記錄 `1evcml181z11c`，本條僅存檀道鸞注二十卷本，補撰人。檀道鸞為劉宋史家，另有《續晉陽秋》之作，與孫盛原書、後續注本之關係待考，姑仍原題留存。",
   "id": "1evcpjoo4noqo",
   "resources": [
     {
@@ -27,6 +39,6 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true
 }
