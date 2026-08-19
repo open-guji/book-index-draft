@@ -6,12 +6,27 @@
   "juan_count": {
     "number": 1
   },
+  "authors": [
+    {
+      "name": "李復圭",
+      "role": "撰",
+      "dynasty": "北宋",
+      "note": "字審言，李淑之子，集賢殿修撰。",
+      "entity_id": null
+    }
+  ],
   "indexed_by": [
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "紀聞"
+      "title_info": "《紀聞》一卷",
+      "summary": "《紀聞》一卷。集賢殿修撰李復圭審言撰。淑之子也。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題，據 collated_edition 補全引文，明載「集賢殿修撰李復圭審言撰」，補撰人；與同題另三本（唐牛肅十卷本）撰人卷數皆異，非同書。本庫無同名 entity，未繫。",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

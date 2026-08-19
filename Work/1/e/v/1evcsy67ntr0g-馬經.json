@@ -2,14 +2,41 @@
   "schema_version": 1,
   "type": "work",
   "title": "馬經",
+  "authors": [
+    {
+      "name": "常知非",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《馬經》",
-      "summary": "常知非《馬經》三卷穀神（（一作“鬼穀”））子"
+      "summary": "常知非《馬經》三卷穀神（（一作“鬼穀”））子",
+      "note": "句末「穀神（一作鬼穀）子」承接下一條「穀神子《辨養馬論》一卷」，非本條撰人誤植。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《馬經》",
+      "summary": "《馬經》三卷",
+      "merged_from": "1evcsy3pwh3pc",
+      "note": "宋史藝文志五行類另有裸題著錄，卷數全合，姑併，屬同書於志內重出。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「常知非《馬經》三卷」，僅頂層 authors 欄漏收，今補入；併入宋史藝文志五行類同卷數（三卷）裸題著錄。與同題另二本（一卷本，見 `1evcsyewgjrb4`）卷數異，非同書。本庫無同名 entity，未繫。",
   "id": "1evcsy67ntr0g",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

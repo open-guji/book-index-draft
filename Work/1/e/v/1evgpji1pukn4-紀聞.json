@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "紀聞",
+  "authors": [
+    {
+      "name": "牛肅",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null
+    }
+  ],
   "juan_count": {
     "number": 10
   },
@@ -12,6 +20,20 @@
       "title_info": "《紀聞》十卷",
       "summary": "《紀聞》十卷（唐牛肅記釋氏、道家異事。）",
       "author_info": "唐牛肅記釋氏、道家異事。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《紀聞》",
+      "summary": "牛肅《紀聞》十卷（（崔造注））",
+      "merged_from": "1evcsxz0sz20w"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "紀聞十卷",
+      "summary": "紀聞十卷",
+      "merged_from": "1evr5e3mfxf1y"
     }
   ],
   "description": {
@@ -20,7 +42,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-18 全庫同名異書核對：本組4條中3條分見國史經籍志、宋史藝文志、崇文總目，撰人皆唐牛肅，卷數皆十卷，確係同書重出，逕併為一，補撰人。第4條（直齋書錄解題「《紀聞》一卷。集賢殿修撰李復圭審言撰」，`1evr5e3mjd12u`）撰人卷數皆異，經核對原文確為另一人另一書，非同書，未予合併。本庫無牛肅同名 entity，未繫。",
   "id": "1evgpji1pukn4",
   "measures": [
     {
@@ -29,5 +51,9 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
