@@ -14,6 +14,22 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《集略》",
       "summary": "《集略》十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《集略》二十卷",
+      "summary": "《集略》二十卷",
+      "merged_from": "1evgqfym3o35s",
+      "note": "國史經籍志二十卷，卷數與隋志全合。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又集略",
+      "summary": "又集略三十卷",
+      "merged_from": "1evcs11xvtkow",
+      "note": "新唐書藝文志作「又集略三十卷」，「又」承上條「沈約集一百卷」之撰人，故本書為沈約所編。"
     }
   ],
   "juan_count": {
@@ -27,5 +43,20 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "沈約",
+      "role": "編",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967cp1zdr18",
+      "note": "新唐書藝文志此段作「沈約集一百卷／又集略三十卷／傅昭集十卷」，「又」承上條撰人沈約，故本書為沈約所編之總集。沈約（441-513）字休文，梁尚書令，撰《宋書》《四聲譜》等。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "loss_status": "partially_extant",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋志二十卷、國史經籍志二十卷、新唐志三十卷、宋志十卷，同為一書，今合為一條。撰人據新唐書藝文志「又」字承前之文例補入——該志「沈約集一百卷／又集略三十卷」，「又」承沈約，故本書為沈約所編總集，繫 entity `1j967cp1zdr18`。卷數三十／二十／十之遞減為歷代散佚之跡，loss_status 定 partially_extant，卷數從隋志、國史二十卷。"
 }
