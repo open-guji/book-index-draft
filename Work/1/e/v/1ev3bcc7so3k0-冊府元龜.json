@@ -49,6 +49,15 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "冊府元龜"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《册府元龜》一千卷",
+      "summary": "《册府元龜》一千卷（王欽若場者）",
+      "author_info": "王欽若場者",
+      "merged_from": "1evgq60kwx3pc",
+      "note": "撰人原作「王欽若場者」，乃「王欽若」之訛（或異寫），本條併入。"
     }
   ],
   "books": [
@@ -121,6 +130,14 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06065206.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "measures": [
@@ -136,12 +153,15 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evkps0pz6znk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善004274-004513）。阶段 5 兜底建立。",
-  "updated_at": "2026-08-09T09:17:26+00:00",
+  "ai_note": "從 1evkps0pz6znk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善004274-004513）。阶段 5 兜底建立。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgq60kwx3pc` 同題《冊府元龜》、同卷數 1000，撰人作「王欽若」與「王欽若場者」，僅一字之差（或一名含於另一名）。「王欽若場者」全庫僅 1 見而「王欽若」凡 8 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "dynasty": "北宋",
   "dynasty_basis": "据本轮 author.dynasty「北宋」补全",
   "period": "song",
-  "period_basis": "据本轮 author.dynasty「北宋」自动归并"
+  "period_basis": "据本轮 author.dynasty「北宋」自动归并",
+  "additional_titles": [
+    "册府元龜"
+  ]
 }

@@ -17,6 +17,15 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "序房內祕術一卷 葛洪。謹按見《隋志》。舊题“葛氏撰”,亦稚川之書。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《序房内祕術》一卷",
+      "summary": "《序房内祕術》一卷（葛氏）",
+      "author_info": "葛氏",
+      "merged_from": "1evgppl4n90cg",
+      "note": "撰人原作「葛氏」，乃「葛洪」之訛（或異寫），本條併入。"
     }
   ],
   "description": {
@@ -36,11 +45,12 @@
   ],
   "measure_info": "一卷",
   "additional_titles": [
-    "序房內祕術"
+    "序房內祕術",
+    "序房内祕術"
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgppl4n90cg` 同題《序房內秘術》、同卷數 1，撰人作「葛洪」與「葛氏」，僅一字之差（或一名含於另一名）。「葛氏」全庫僅 1 見而「葛洪」凡 59 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",

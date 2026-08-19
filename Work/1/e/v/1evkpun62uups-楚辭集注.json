@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善023125-023130）。阶段 5 兜底建立。 [ming-round1: 誤入明：移出 period=ming→song, dynasty=南宋（kind=known_figure）] [ming-round1: author(朱熹) dynasty null→南宋 (known_figure)]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善023125-023130）。阶段 5 兜底建立。 [ming-round1: 誤入明：移出 period=ming→song, dynasty=南宋（kind=known_figure）] [ming-round1: author(朱熹) dynasty null→南宋 (known_figure)]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgq9r6idwqo` 同題《楚辭集注》、同卷數 8，撰人作「朱熹」與「共熹」，僅一字之差（或一名含於另一名）。「共熹」全庫僅 1 見而「朱熹」凡 66 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 8
   },
@@ -29,11 +29,26 @@
   "measure_info": "八卷總評一卷",
   "id": "1evkpun62uups",
   "books": [
-    "11qkhtd7th5vk"
+    "11qkhtd7th5vk",
+    "11qki721gwwlc"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "song",
   "period_basis": "cross_check",
   "dynasty": "南宋",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《楚辭集註》八卷",
+      "summary": "《楚辭集註》八卷（共熹）",
+      "author_info": "共熹",
+      "merged_from": "1evgq9r6idwqo",
+      "note": "撰人原作「共熹」，乃「朱熹」之訛（或異寫），本條併入。"
+    }
+  ],
+  "additional_titles": [
+    "楚辭集註"
+  ]
 }

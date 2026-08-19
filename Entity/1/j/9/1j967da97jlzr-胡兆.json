@@ -7,13 +7,8 @@
   "dynasty": "宋",
   "works": [
     {
-      "work_id": "1evgpjrler4e8",
-      "role": "撰"
-    },
-    {
       "work_id": "1evcsxm3gy9kw",
-      "role": "撰",
-      "title": "秋浦志"
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -21,5 +16,6 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_15+work_recall_1.00+ambiguous_3+no_dynasty"
   },
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。"
 }

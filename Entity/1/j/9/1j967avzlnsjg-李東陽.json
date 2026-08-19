@@ -24,6 +24,10 @@
     {
       "name": "賓之",
       "type": "字"
+    },
+    {
+      "name": "李東陽等修",
+      "type": "訛名"
     }
   ],
   "dynasty": "明",
@@ -88,7 +92,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.29+unique"
   },
-  "updated_at": "2026-08-17T18:19:19+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "period_basis": "據 dynasty「明」自動歸併",
+  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「李東陽等修」（`1j96kfmkjl8g0`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
 }

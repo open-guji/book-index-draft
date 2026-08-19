@@ -71,10 +71,6 @@
       "role": "撰"
     },
     {
-      "work_id": "1ev4c1tmwqiv4",
-      "role": "撰"
-    },
-    {
       "work_id": "1evc5p8kc8a2o",
       "role": "注"
     },
@@ -97,7 +93,7 @@
       "work_id": "1evc5peno02kg"
     },
     {
-      "work_id": "1evc5peocz20w"
+      "work_id": "1evcpcuq62dxc"
     },
     {
       "work_id": "1evcmnet6cohs",
@@ -139,7 +135,7 @@
       "role": "注"
     },
     {
-      "work_id": "1evfa6p274kqo",
+      "work_id": "1ewux4kze7ri9",
       "role": "撰"
     },
     {
@@ -270,10 +266,6 @@
       "role": "注"
     },
     {
-      "work_id": "1ev7vo5ehfhts",
-      "role": "注"
-    },
-    {
       "work_id": "1evjqzcmd4jk0",
       "role": "注"
     },
@@ -354,19 +346,11 @@
       "role": "撰"
     },
     {
-      "work_id": "1evcpcuq62dxc",
-      "role": "注"
-    },
-    {
       "work_id": "1evcpcusi181s",
       "role": "撰"
     },
     {
       "work_id": "1evcsw6n98r9c",
-      "role": "注"
-    },
-    {
-      "work_id": "1evr5e3mfaxw2",
       "role": "注"
     },
     {
@@ -379,10 +363,6 @@
     {
       "work_id": "1evfubflfwwsg",
       "role": "撰"
-    },
-    {
-      "work_id": "1ewux4kze7ri9",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -390,8 +370,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《周禮》（撰人闕）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。",
-  "updated_at": "2026-08-08T11:51:57+00:00",
+  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《周禮》（撰人闕）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。\n\n2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 2 條，今改繫其存者。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 dynasty「東漢」（原作籠統，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）"
 }
