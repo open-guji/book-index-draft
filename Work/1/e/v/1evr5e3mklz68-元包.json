@@ -1,38 +1,45 @@
 {
- "schema_version": 1,
- "id": "1evr5e3mklz68",
- "type": "work",
- "title": "元包",
- "authors": [
-  {
-   "name": "衞元嵩",
-   "role": "撰",
-   "dynasty": "唐"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "summary": "唐衞元嵩撰。祕書少監武功蘇源明傳，四門助敎趙郡李江注。其書以八卦爲八篇首，而「一世」至「歸魂」各附其下。先《坤》，次《乾》，次《兌》、《艮》、《離》、《坎》、《巽》、《震》。《坤》曰太陰，《乾》曰太陽"
+  "schema_version": 1,
+  "id": "1evr5e3mklz68",
+  "type": "work",
+  "title": "元包",
+  "authors": [
+    {
+      "name": "衞元嵩",
+      "role": "撰",
+      "dynasty": "唐"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "衞元嵩元包",
-   "summary": "衞元嵩元包十卷"
-  }
- ],
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0783yhog（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "唐衞元嵩撰。祕書少監武功蘇源明傳，四門助敎趙郡李江注。其書以八卦爲八篇首，而「一世」至「歸魂」各附其下。先《坤》，次《乾》，次《兌》、《艮》、《離》、《坎》、《巽》、《震》。《坤》曰太陰，《乾》曰太陽"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "衞元嵩元包",
+      "summary": "衞元嵩元包十卷"
+    }
+  ],
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0783yhog（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "measure_info": "十卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ]
 }
