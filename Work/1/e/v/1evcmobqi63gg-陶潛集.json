@@ -14,6 +14,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "陶潛集",
       "summary": "陶潛集二十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "陶潜集十卷",
+      "summary": "陶潜集十卷",
+      "merged_from": "1evr5e3mhhlr3",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -35,6 +43,22 @@
     }
   ],
   "measure_info": "九卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「宋徵士《陶潛集》九卷（梁五卷，錄一卷）」、新唐志二十卷、崇文總目十卷，同為東晉陶潛別集，今合為一條並繫 entity `1j967bgl7n1av`。隋志本條下附他書「梁有……」云云為附注他書之通例，非本書異名。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "陶潜集"
+  ],
+  "authors": [
+    {
+      "name": "陶潛",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967bgl7n1av",
+      "note": "隋書經籍志題「宋徵士《陶潛集》九卷」，書名即撰人。陶潛（365-427）字元亮，號五柳先生。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "袁淑集",
       "summary": "袁淑集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《袁淑集》十一卷",
+      "summary": "《袁淑集》十一卷",
+      "merged_from": "1evgqb6im4xkw",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "十一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "袁淑",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j96keossrbwg",
+      "note": "隋書經籍志題「宋太尉《袁淑集》十一卷」，書名即撰人。袁淑（408-453）字陽源。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「宋太尉《袁淑集》十一卷並目錄（梁十卷，錄一卷）」、兩唐志十卷、國史經籍志十一卷，同為南朝宋袁淑別集，今合為一條並繫 entity `1j96keossrbwg`。"
 }

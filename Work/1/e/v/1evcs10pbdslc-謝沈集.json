@@ -13,12 +13,40 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "謝沈集十卷 謹按見《七録》。兩《唐志》均五卷。本書有傳。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《謝沈集》十卷",
+      "summary": "《謝沈集》十卷",
+      "merged_from": "1evgqas7ompz4",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcs10pbdslc",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "謝沈",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96a9eeaj4sg",
+      "note": "書名即撰人。補晉志案語「見《七錄》。兩《唐志》均五卷。本書有傳」。謝沈撰《後漢書》。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，新唐志五卷、補晉志十卷、國史經籍志十卷，同為東晉謝沈別集，今合為一條並繫 entity `1j96a9eeaj4sg`。"
 }
