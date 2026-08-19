@@ -18,5 +18,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉寔",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《春秋公羊違義》三卷劉實撰，劉晏注」，「實」即「寔」。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為劉寔《春秋公羊違義》三卷（劉晏注），與同志「《春秋公羊違義》三卷劉晏注」（`1evcpcubma6f4`）卷數全同而後者僅著注者，疑為同書之重出，然舊唐志既分列，姑並存互見。"
 }

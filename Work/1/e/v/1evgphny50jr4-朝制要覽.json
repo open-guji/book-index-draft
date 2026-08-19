@@ -17,6 +17,14 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "朝制要覽"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《朝制要覽》十五卷",
+      "summary": "《朝制要覽》十五卷（宋咸）",
+      "merged_from": "1evgpiiuws54w",
+      "note": "諸志同著《朝制要覽》，係一書互著（或重出），今合併。"
     }
   ],
   "description": {
@@ -33,6 +41,19 @@
     }
   ],
   "measure_info": "五十卷",
-  "ai_note": "解磁鐵：本檔原兼載本志 「《朝制要覽》十五卷」（今歸 1evgpiiuws54w），皆非本 work 之著錄——該志整理本各為之繫 id，而其 work 匯入時未生成，致其著錄併入本檔。今 work 既補建，去之。餘 2 條。",
-  "updated_at": "2026-08-05T01:46:50+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志同志兩出《朝制要覽》（十五卷、五十卷），皆注「宋咸」，撰人相同；直齋書錄解題亦著錄。卷數之異乃傳本之別，今合併並補撰人為宋咸。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "宋咸",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "國史經籍志兩出皆注「宋咸」。"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }
