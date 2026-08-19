@@ -8,8 +8,48 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《清邊前要》",
       "summary": "曾致堯《清邊前要》五十卷李至"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "清邊前要五十卷",
+      "summary": "清邊前要五十卷",
+      "merged_from": "1evr5e3mfxf33",
+      "note": "崇文總目五十卷，卷數與本條全合。"
     }
   ],
   "id": "1evcsxbkf3ym8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "曾致堯",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967da97jm2d",
+      "note": "宋史藝文志故事類原文即題「曾致堯《清邊前要》五十卷」（前條「田錫《三朝奏議》五卷」句末為卷數，故非頂真格前置而為本條自題）。曾致堯（947-1012）字正臣，南豐人，曾鞏祖父。"
+    }
+  ],
+  "juan_count": {
+    "number": 50
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 50
+    }
+  ],
+  "measure_info": "五十卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "related_works": [
+    {
+      "id": "1evcsyclafgu8",
+      "title": "清邊前要",
+      "relation": "related",
+      "note": "宋史藝文志兵書類「曾致堯《清邊前要》十卷」（頂真格所繫），撰人同而卷數異，或為節本，待考。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志故事類「曾致堯《清邊前要》五十卷」與崇文總目「清邊前要五十卷」卷數全合，同為一書，今合為一條並補撰人、繫 entity `1j967da97jm2d`。宋志兵書類另出「曾致堯《清邊前要》十卷」（見 `1evcsyclafgu8`，頂真格所繫），撰人同而卷數懸殊，或為節本、或係卷數傳寫之誤，宋志既分列二類，未敢遽合，互見待考。"
 }
