@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "虞翻集",
       "summary": "虞翻集三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《虞翻集》三卷",
+      "summary": "《虞翻集》三卷",
+      "merged_from": "1evgqa5eobf28",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "虞翻",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96kee06m9s0",
+      "note": "隋書經籍志題「後漢侍御史《虞翻集》二卷」，書名即撰人。虞翻（164-233）字仲翔，本漢末人而仕於孫吳，故隋志繫以漢官；本庫另有「虞翻」entity `1j96kefzwpb7k`（標晉），非是。"
+    }
+  ],
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「後漢侍御史《虞翻集》二卷（梁三卷，錄一卷）」、兩唐志三卷、國史經籍志三卷，同為三國吳虞翻別集，今合為一條並繫 entity `1j96kee06m9s0`。卷數之異隋志已自注「梁三卷，錄一卷」。"
 }

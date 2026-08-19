@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《王誕集》二卷",
       "summary": "晉司徒長史《王誕集》二卷梁有晉太尉諮議《劉簡之集》十卷，亡。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王誕集》二卷",
+      "summary": "《王誕集》二卷",
+      "merged_from": "1evgqb049xr7k",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -29,6 +37,19 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉司徒長史《王誕集》二卷」、國史經籍志二卷，同為東晉王誕別集，今合為一條並繫 entity `1j967cp21keub`。隋志本條下附「梁有晉太尉諮議《劉簡之集》十卷，亡」為附注他書之通例。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王誕",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp21keub",
+      "note": "隋書經籍志題「晉司徒長史《王誕集》二卷」，書名即撰人。本庫另有唐人「王誕」entity `1j96h8rw9fo76`，非是。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

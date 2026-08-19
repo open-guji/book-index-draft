@@ -14,8 +14,40 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "袁喬集",
       "summary": "袁喬集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《袁喬集》七卷",
+      "summary": "《袁喬集》七卷",
+      "merged_from": "1evgqaq5rkn40",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcpd6lmxu68",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "袁喬",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hli1fzw8w",
+      "note": "書名即撰人。袁喬（312-347）字彥叔，東晉益州刺史。"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志五卷、國史經籍志七卷，同為東晉袁喬別集，今合為一條並繫 entity `1j96hli1fzw8w`。"
 }

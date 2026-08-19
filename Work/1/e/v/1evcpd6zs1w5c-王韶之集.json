@@ -20,8 +20,40 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《王韶之集》二十四卷",
       "summary": "《王韶之集》二十四卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王韶之集》二十卷",
+      "summary": "《王韶之集》二十卷",
+      "merged_from": "1evgqb6cndnuo",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcpd6zs1w5c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王韶之",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j967cp1zdr2q",
+      "note": "書名即撰人。王韶之（380-435）字休泰，撰《晉安帝紀》。"
+    }
+  ],
+  "juan_count": {
+    "number": 24
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 24
+    }
+  ],
+  "measure_info": "二十四卷",
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，舊唐志二十四卷、新唐志二十卷、國史經籍志二十四卷及二十卷，同為南朝宋王韶之別集，今合為一條並繫 entity `1j967cp1zdr2q`。**本條原已收國史經籍志二十四卷之著錄，所併記錄則為同志二十卷之著錄，係國史經籍志一志兩收其異卷本**，非二書。"
 }

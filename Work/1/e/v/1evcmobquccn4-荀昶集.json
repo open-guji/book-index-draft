@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "荀昶集",
       "summary": "荀昶集十四卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《荀昶集》十五卷",
+      "summary": "《荀昶集》十五卷",
+      "merged_from": "1evgqb4lsb5kw",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,6 +49,19 @@
     }
   ],
   "measure_info": "十四卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「宋中書郎《荀昶集》十四卷（梁十五卷，錄一卷）」、兩唐志十四卷、國史經籍志十五卷，同為南朝宋荀昶別集，今合為一條並繫 entity `1j96heyzq0um8`。卷數之異隋志已自注「梁十五卷，錄一卷」。隋志本條下附「又有《卞伯玉集》五卷……」為附注他書之通例。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "荀昶",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j96heyzq0um8",
+      "note": "隋書經籍志題「宋中書郎《荀昶集》十四卷」，書名即撰人。本庫 entity 未著朝代，今據隋志補其朝代於 authors。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」"
 }
