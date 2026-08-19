@@ -2,6 +2,28 @@
   "schema_version": 1,
   "type": "work",
   "title": "總戎集",
+  "authors": [
+    {
+      "name": "顧臨",
+      "role": "撰",
+      "entity_id": null
+    },
+    {
+      "name": "梁燾",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -11,5 +33,6 @@
     }
   ],
   "id": "1evcsz9bgev40",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「顧臨、梁燾《總戎集》十卷」，僅頂層 authors 欄漏收，今補入。與同題另一本（沈常撰十卷本，見 `1evgqg67cdhc0`）同段緊鄰著錄而撰人各異，非同書。本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

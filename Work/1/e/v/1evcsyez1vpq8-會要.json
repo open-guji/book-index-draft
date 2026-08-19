@@ -2,6 +2,24 @@
   "schema_version": 1,
   "type": "work",
   "title": "會要",
+  "authors": [
+    {
+      "name": "陸機",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j967afj9av4f"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -10,6 +28,11 @@
       "summary": "陸機《會要》一卷"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「陸機《會要》一卷」，僅頂層 authors 欄漏收，今補入，繫既有陸機 entity（即前批「要覽」組已考訂之西晉陸機自序「省直之暇，乃集《要覽》」者，此為其別一著作）。與同題另三本（蘇冕四十卷本、國史經籍志明代八十卷本、晏袤□一百卷本）非同書。",
   "id": "1evcsyez1vpq8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

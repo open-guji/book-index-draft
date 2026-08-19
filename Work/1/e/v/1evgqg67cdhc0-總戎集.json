@@ -4,7 +4,7 @@
   "title": "總戎集",
   "authors": [
     {
-      "name": "増沈常",
+      "name": "沈常",
       "role": "撰",
       "entity_id": "1j96hge1r248w"
     }
@@ -19,6 +19,21 @@
       "title_info": "《總戎集》十卷",
       "summary": "《總戎集》十卷（増沈常集軍中詔龍表藏自戰國至隋）",
       "author_info": "増沈常集軍中詔龍表藏自戰國至隋"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《總戎集》",
+      "summary": "沈常《總戎集》十卷",
+      "merged_from": "1evcsz9b48lxc"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "總戎集十卷",
+      "summary": "總戎集十卷",
+      "merged_from": "1evr5e3mhhlp4",
+      "note": "裸題，卷數與沈常本全合，姑併；本組另有顧臨、梁燾合撰之十卷本（`1evcsz9bgev40`），二書同段緊鄰著錄而各具撰人，非同書。"
     }
   ],
   "description": {
@@ -27,7 +42,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-18 全庫同名異書核對：訂正撰人姓名「増沈常」為「沈常」——「増」為動詞（增補），非姓氏（詳見 entity ai_note）；併入宋史藝文志（明載沈常）、崇文總目（裸題，卷數合）二源，確係同書重出。",
   "id": "1evgqg67cdhc0",
   "measures": [
     {
@@ -36,5 +51,5 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
