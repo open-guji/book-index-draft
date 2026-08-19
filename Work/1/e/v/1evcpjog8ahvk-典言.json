@@ -8,8 +8,41 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《典言》四卷",
       "summary": "《典言》四卷李若等撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《典言》四卷",
+      "summary": "《典言》四卷（後齊荀士𫑅）",
+      "author_info": "後齊荀士𫑅",
+      "merged_from": "1evgpmt61wm4g",
+      "note": "諸志同著《典言》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpjog8ahvk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "authors": [
+    {
+      "name": "李若",
+      "role": "撰",
+      "dynasty": "北齊",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《典言》四卷李若等撰」；國史經籍志注「後齊荀士𫑅」，二志所題不同，今從舊唐志。"
+    }
+  ],
+  "dynasty": "北齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北齊」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、國史經籍志同著《典言》四卷，今合併。撰人舊唐志作「李若等」、國史經籍志注作「後齊荀士遜」，二說並存，今從舊唐志，異說存於所併之 indexed_by。"
 }

@@ -20,7 +20,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-19 全庫同名異書核對：本條為國史經籍志《周易音》一卷（注「晉李軌」），與補晉書藝文志《周易音》一卷（`1evfugvhc9b7k`）當即一書，二志所著撰人相合，今各補撰人為李軌並互指，俟後續一併裁定。",
   "id": "1evgopk6jatxc",
   "measures": [
     {
@@ -36,5 +36,18 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李軌",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "國史經籍志注「晉李𮜿」；補晉書藝文志作「尚書郎李軌，謹按見《隋志》」，𮜿即軌之異寫。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

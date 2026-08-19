@@ -18,5 +18,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "蕭衍",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《周易大義》二十卷梁武帝撰」，梁武帝即蕭衍。"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為梁武帝蕭衍《周易大義》二十卷，與隋書經籍志《周易大義》一卷（`1evcpjzw4jqio`）非一書，未予合併。"
 }

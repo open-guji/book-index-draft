@@ -18,5 +18,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "陸德明",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《周易文句義疏》二十四卷陸德明撰」。"
+    }
+  ],
+  "juan_count": {
+    "number": 24
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 24
+    }
+  ],
+  "measure_info": "二十四卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為陸德明《周易文句義疏》二十四卷，與同志梁蕃二十卷本（`1evcpcswx5m9s`）非一書，未予合併。"
 }
