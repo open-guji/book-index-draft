@@ -853,8 +853,9 @@ ID 用 64-bit snowflake 结构，3 bits 标识 type：
 **0-3 用于实体书目，4-7 用于抽象概念。** 见 `book_index_manager/id_generator.py`。
 
 草稿庫的 ID 為 13 字元（status=1），升格後的 Production ID 為 12 字元（status=0）。
-一條記錄升格後，草稿檔保留並記 `promoted_to` / `promoted_at`，
-**權威對照表是根目錄的 `promotions.json`**，欄位只是冗餘副本。
+一條記錄升格後，草稿檔保留並記 `_promoted_to` / `_promoted_at`（派生欄，故帶底線前綴，
+見〈記錄之共通欄位〉），**權威對照表是根目錄的 `promotions.json`**，欄位只是冗餘副本。
+`index/` 與 `promotions.json` 之欄**不加底線**（`promoted_to`）——整檔皆派生，欄再加底線是重複。
 校驗關聯是否懸空時，Production ID 不在草稿索引中屬正常，須併入白名單。
 
 ---
