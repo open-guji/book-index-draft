@@ -27,11 +27,23 @@
     {
       "work_id": "1ev3bclgp9fk0",
       "role": "撰"
+    },
+    {
+      "work_id": "1evgq0xbcskxs",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evkah22dqxhc",
+      "role": "纂修"
     }
   ],
-  "external_ids": {},
-  "updated_at": "2026-08-08T11:51:59+00:00",
+  "external_ids": {
+    "cbdb_id": 30592,
+    "cbdb_match": "auto",
+    "cbdb_source": "name_exact+dy_mismatch_19+work_recall_1.00+ambiguous_9+no_dynasty"
+  },
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」（2026-08-13 明朝探勘：許浩：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=20 (1693-1738)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming）",
-  "ai_note": " 2026-08-13：許浩：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=20 (1693-1738)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming"
+  "ai_note": "2026-08-13：許浩：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=20 (1693-1738)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j967da97jm28`（許浩，明），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
 }
