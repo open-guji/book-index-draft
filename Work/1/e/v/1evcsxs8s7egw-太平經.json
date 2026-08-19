@@ -8,6 +8,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《太平經》",
       "summary": "襄楷《太平經》一百七十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《太平經》百七十卷",
+      "summary": "《太平經》百七十卷",
+      "merged_from": "1evgpoghfq8lc",
+      "note": "國史經籍志《太平經》百七十卷，與宋志「襄楷《太平經》一百七十卷」同題同卷，今合併。"
     }
   ],
   "id": "1evcsxs8s7egw",
@@ -21,6 +29,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "juan_count": {
+    "number": 170
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 170
+    }
+  ],
+  "measure_info": "一百七十卷",
+  "authors": [
+    {
+      "name": "襄楷",
+      "role": "撰",
+      "dynasty": "東漢",
+      "entity_id": null,
+      "note": "宋史藝文志作「襄楷《太平經》一百七十卷」，前置撰人襄楷；襄楷為東漢桓帝時人，嘗上《太平清領書》。"
+    }
+  ],
+  "dynasty": "東漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志、宋史藝文志同著《太平經》百七十卷，今合併並據宋志前置撰人補為襄楷。"
 }
