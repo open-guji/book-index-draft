@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "謝萬集",
+  "authors": [
+    {
+      "name": "謝萬",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr2b",
+      "note": "隋書經籍志題「晉散騎常侍《謝萬集》」，謝萬（320-361）東晉人，謝安弟，官至豫州刺史、散騎常侍。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -14,6 +23,22 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《謝萬集》十卷",
       "summary": "《謝萬集》十卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "謝万集",
+      "summary": "謝万集十卷",
+      "merged_from": "1evcs10cggv0g",
+      "note": "「万」為「萬」之異體。卷數與舊唐志十卷全合。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《謝万集》十六卷",
+      "summary": "《謝万集》十六卷",
+      "merged_from": "1evgqarmtlr0g",
+      "note": "卷數與隋志十六卷全合。"
     }
   ],
   "juan_count": {
@@ -35,5 +60,10 @@
     }
   ],
   "measure_info": "十六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 全庫同名異書核對：據隋書經籍志題「晉散騎常侍《謝萬集》」補撰人謝萬（320-361，東晉謝安弟）；併入新唐書藝文志十卷本、國史經籍志十六卷本（「万」為「萬」之異體），3條併為1。卷數十六／十卷之異，隋志已自注「梁十卷」，屬同書歷代著錄之常見出入。",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }
