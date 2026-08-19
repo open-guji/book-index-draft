@@ -3,7 +3,15 @@
   "type": "work",
   "id": "1evfuv5lpnjsw",
   "title": "孝武帝集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "司馬曜",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": null,
+      "note": "晉孝武帝，簡文帝子。補晉書藝文志「孝武帝集二卷錄一卷（見《七録》）」；國史經籍志此條列於晉宣帝集、文帝集、明帝集、簡文帝集之後，齊王攸集之前，是晉孝武帝之集。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "補晋書藝文志",
@@ -34,10 +42,10 @@
   ],
   "measure_info": "二卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "2026-08-19 全庫同名異書核對：本條為晉孝武帝司馬曜集，與宋孝武帝劉駿之《孝武帝集》三十一卷（今併入 `1evcmobo4yb5s`《宋孝武帝集》）同題異書，未予合併。撰人據國史經籍志晉室諸帝編次之位補。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
