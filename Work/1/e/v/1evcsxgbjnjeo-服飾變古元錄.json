@@ -2,14 +2,62 @@
   "schema_version": 1,
   "type": "work",
   "title": "服飾變古元錄",
+  "authors": [
+    {
+      "name": "袁郊",
+      "role": "撰",
+      "dynasty": "唐",
+      "note": "字之儀，唐翰林學士，汝南人，宰相袁滋之子。",
+      "entity_id": "1j967bgl7n1b2"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《服飾變古元錄》",
       "summary": "袁郊《服飾變古元錄》三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《服飾變古元錄》三卷",
+      "summary": "《服飾變古元錄》三卷（袁）",
+      "author_info": "袁",
+      "merged_from": "1evgpijltor9c"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《服飾變古元錄》三卷",
+      "summary": "《服飾變古元錄》三卷。唐翰林學士汝南袁郊之儀撰。郊，宰相滋之子。《唐志》作一卷。",
+      "merged_from": "1evr5e3mjo9nn",
+      "note": "indexed_by.summary 原僅存裸題，據 collated_edition 補全引文；引文自述「《唐志》作一卷」，即與下條新唐書藝文志一卷本互證同書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又服飾變古元錄",
+      "summary": "又服飾變古元錄一卷",
+      "merged_from": "1evcs0hu8xa0w",
+      "note": "頂真格承接前一條「袁郊二儀實錄衣服名義圖」之撰人（同為袁郊）；卷數一卷與另三源三卷異，直齋書錄解題本條引文已自注「《唐志》作一卷」，確證同書。"
     }
   ],
   "id": "1evcsxgbjnjeo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見宋史藝文志、國史經籍志、直齋書錄解題（原漏收正文）、新唐書藝文志，撰人皆袁郊，直齋書錄解題引文並自注「《唐志》作一卷」明確互證新唐志一卷本與三卷本為同書，確係同書重出，逕併為一，繫既有袁郊 entity。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

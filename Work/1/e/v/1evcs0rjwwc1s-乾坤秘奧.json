@@ -2,6 +2,24 @@
   "schema_version": 1,
   "type": "work",
   "title": "乾坤秘奧",
+  "authors": [
+    {
+      "name": "李淳風",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl6e33m"
+    }
+  ],
+  "juan_count": {
+    "number": 7
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 7
+    }
+  ],
+  "measure_info": "七卷",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -15,11 +33,39 @@
       "title_info": "《乾坤祕奧》七卷",
       "summary": "《乾坤祕奧》七卷（李淳風）",
       "author_info": "李淳風"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《乾坤秘奧》",
+      "summary": "李淳風《乾坤秘奧》七卷",
+      "merged_from": "1evcsy16qk0e8"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "乾坤秘奥七卷",
+      "summary": "乾坤秘奥七卷",
+      "merged_from": "1evr5e3mgjw2t"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《乾坤秘奧》",
+      "summary": "李淳風《乾坤秘奧》一卷",
+      "merged_from": "1evcsy6txqeio",
+      "note": "宋史藝文志五行類另有著錄，卷數作一卷，與另四源七卷異，撰人同為李淳風，姑併，屬同書著錄常見出入。"
     }
   ],
   "id": "1evcs0rjwwc1s",
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見新唐書藝文志、國史經籍志（已明載李淳風）、宋史藝文志（2處著錄）、崇文總目，撰人皆李淳風，卷數多作七卷（宋志另一處作一卷），確係同書重出，逕併為一，繫既有李淳風 entity。",
   "additional_titles": [
-    "乾坤祕奧"
+    "乾坤祕奧",
+    "乾坤秘奥"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
