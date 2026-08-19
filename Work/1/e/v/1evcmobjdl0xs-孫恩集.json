@@ -13,6 +13,14 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "孫恩集五卷 謹按見《隋志》。本書有傳。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孫恩集》五卷",
+      "summary": "《孫恩集》五卷",
+      "merged_from": "1evgqaypwzg8w",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -34,10 +42,19 @@
     }
   ],
   "measure_info": "五卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批·撰人未入庫）：書名即撰人，隋志「晉《孫恩集》五卷」、補晉志五卷、國史經籍志五卷，同為孫恩別集，今合為一條並補撰人；本庫無「孫恩」entity，未繫。隋志條下附他書「梁有……亡」云云為附注他書之通例，非本書異名。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "孫恩",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "隋書經籍志題「晉《孫恩集》五卷」，書名即撰人。補晉志案語「見《隋志》。本書有傳」。 本庫無此 entity，未繫。"
+    }
+  ]
 }
