@@ -17,7 +17,7 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 2
   },
   "id": "1evcml1pt91j4",
   "emendated_by": [
@@ -31,9 +31,23 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 2
     }
   ],
-  "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measure_info": "二卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉氏",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "隋書經籍志明載「《江圖》二卷劉氏撰」。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為隋志、新唐志之劉氏《江圖》二卷。原 juan_count 誤作一（與同志張氏一卷本相混），今據著錄原文「《江圖》二卷」訂正為二。與隋志張氏《江圖》一卷（`1evcml1po98u8`）非一書，未予合併。"
 }

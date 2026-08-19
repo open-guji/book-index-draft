@@ -14,8 +14,40 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "妖瑞星圖一卷",
       "summary": "妖瑞星圖一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《妖瑞星圖》一卷",
+      "summary": "《妖瑞星圖》一卷",
+      "merged_from": "1evgq1kypmh34",
+      "note": "諸志同著《妖瑞星圖》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsy1jqrz7k",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "宋均",
+      "role": "注",
+      "dynasty": "東漢",
+      "entity_id": "1j969m70q2equ",
+      "note": "宋史藝文志作「宋均《妖瑞星圖》一卷」，前置撰人宋均（東漢注緯書者）。"
+    }
+  ],
+  "dynasty": "東漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志同著《妖瑞星圖》一卷，今合併並據宋志前置撰人補為宋均。"
 }
