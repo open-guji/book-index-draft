@@ -7,7 +7,7 @@
       "name": "釋法琳",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": null
+      "entity_id": "1j967da97jm0d"
     }
   ],
   "juan_count": {
@@ -43,7 +43,15 @@
       "note": "句首「又」頂真格承接前條「法琳辯正論八卷」，即同一法琳之另一卷數著錄，與三卷本互異，屬同書著錄常見出入。"
     }
   ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《破邪論》三卷釋法琳撰」，僅頂層 authors 欄漏收，今補入。與同題僧法作、楚南本（見 `1evinbb0p87i8`）、黃宗羲撰本（見 `1evjr34mflqm8`，清代）皆非同書，同名巧合。",
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《破邪論》三卷釋法琳撰」，僅頂層 authors 欄漏收，今補入。與同題僧法作、楚南本（見 `1evinbb0p87i8`）、黃宗羲撰本（見 `1evjr34mflqm8`，清代）皆非同書，同名巧合。\n\n2026-08-19 補：處理《辨正論》組時查得庫中已有「釋法琳」entity（`1j967da97jm0d`，572-640），今補繫。",
+  "related_works": [
+    {
+      "id": "1evgptlsa4ikg",
+      "title": "辨正論",
+      "relation": "related",
+      "note": "同撰人法琳之另一護法著作。"
+    }
+  ],
   "id": "1evcpd1fr4cu8",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
