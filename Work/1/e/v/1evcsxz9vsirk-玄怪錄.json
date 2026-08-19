@@ -15,6 +15,23 @@
       "summary": "玄怪錄",
       "merged_from": "1evr5e3mi42x4",
       "note": "諸志同著《玄怪錄》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《玄怪錄》十卷",
+      "summary": "《玄怪錄》十卷（牛僧孺）",
+      "author_info": "牛僧孺",
+      "merged_from": "1evgpjhwthhq8",
+      "note": "《玄怪錄》（牛僧孺）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "牛僧孺玄怪錄",
+      "summary": "牛僧孺玄怪錄十卷",
+      "merged_from": "1evgpjhwthhq8",
+      "note": "《玄怪錄》（牛僧孺）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcsxz9vsirk",
@@ -53,5 +70,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、直齋書錄解題同著《玄怪錄》十卷，今合併並據宋志前置撰人補為牛僧孺。"
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《玄怪錄》（牛僧孺，10卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgpjhwthhq8（國史經籍志、新唐書藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }
