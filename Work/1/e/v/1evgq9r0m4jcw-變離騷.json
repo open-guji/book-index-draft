@@ -20,7 +20,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"變離騷\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"變離騷\" 唯一候选无作者\n\n2026-08-19 全庫同名異書核對：本條為國史經籍志《變離騷》二十卷（注「晁補之」），與宋史藝文志《變離騷》一卷（`1evcsym9gegw0`，句末「黃銖」為領後撰人屬下條）卷數懸殊，未便逕併，並存互見。",
   "id": "1evgq9r0m4jcw",
   "measures": [
     {
@@ -29,5 +29,18 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "晁補之",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "國史經籍志注「晁𥙳之」，即晁補之。"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }

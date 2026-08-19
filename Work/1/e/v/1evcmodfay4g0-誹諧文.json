@@ -11,15 +11,29 @@
     }
   ],
   "juan_count": {
-    "number": 3
+    "number": 10
   },
   "id": "1evcmodfay4g0",
   "measures": [
     {
       "unit": "卷",
-      "number": 3
+      "number": 10
     }
   ],
-  "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measure_info": "十卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "袁淑",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "隋書經籍志明載「《誹諧文》十卷袁淑撰」。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為袁淑《誹諧文》十卷，與同志裸題之《誹諧文》三卷（`1evcmodf5n37k`）卷數異，隋志分列，非一書，未予合併。原 juan_count 誤作三（與同志三卷本相混），今據著錄原文訂正為十。"
 }

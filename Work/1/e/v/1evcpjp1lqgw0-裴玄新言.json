@@ -8,8 +8,40 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《新言》五卷",
       "summary": "《新言》五卷裴玄撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "裴玄新言",
+      "summary": "裴玄新言五卷",
+      "merged_from": "1evcs0pci91c0",
+      "note": "諸志同著《裴玄新言》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpjp1lqgw0",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "裴玄",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《新言》五卷裴玄撰」；新唐志以「撰人＋書名」立題作「裴玄新言五卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著裴玄《新言》五卷，新唐志以「撰人＋書名」立題而各建一條，今合併並補撰人為裴玄。"
 }

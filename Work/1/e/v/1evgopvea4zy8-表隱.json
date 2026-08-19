@@ -12,6 +12,14 @@
       "title_info": "《表隱》二卷",
       "summary": "《表隱》二卷（陳統）",
       "author_info": "陳統"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又表隱",
+      "summary": "又表隱二卷",
+      "merged_from": "1evcs07l1ok5c",
+      "note": "諸志同著《表隱》，係一書互著（或重出），今合併。"
     }
   ],
   "description": {
@@ -20,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"表隱\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、國史經籍志同著《表隱》二卷，今合併並據國史經籍志之注補撰人為陳統。",
   "id": "1evgopvea4zy8",
   "measures": [
     {
@@ -29,5 +37,18 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "陳統",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "國史經籍志注「陳統」。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }
