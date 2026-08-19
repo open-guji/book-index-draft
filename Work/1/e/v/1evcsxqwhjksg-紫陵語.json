@@ -2,14 +2,47 @@
   "schema_version": 1,
   "type": "work",
   "title": "紫陵語",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《紫陵語》",
       "summary": "《紫陵語》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "紫陵語一卷",
+      "summary": "紫陵語一卷。（闕）",
+      "merged_from": "1evr5e3mh6db3"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《紫陵語》一卷",
+      "summary": "《紫陵語》一卷",
+      "merged_from": "1evinbdekfaww"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《紫陵語》",
+      "summary": "（（《紫陵語》以下不知撰人））十朋",
+      "merged_from": "1evcsxr0m4jcw",
+      "note": "原整理本斷句錯誤，實為「《紫陵語》（以下不知撰人）十朋《請禱集》一卷」——「以下不知撰人」係指本書及以下數條皆撰人不可考之分類夾注，「十朋」實屬下一條《請禱集》一卷之撰人，非本條撰人誤植。"
     }
   ],
   "id": "1evcsxqwhjksg",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見宋史藝文志（2處著錄）、崇文總目、國史經籍志，卷數皆一卷，確係同書重出，逕併為一；原文夾注「以下不知撰人」明確本書撰人不可考，維持留白。",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }

@@ -2,14 +2,38 @@
   "schema_version": 1,
   "type": "work",
   "title": "弓訣",
+  "authors": [
+    {
+      "name": "李靖",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96gwf6eaf47"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《弓訣》",
-      "summary": "李靖《弓訣》一卷"
+      "summary": "李靖《弓訣》一卷",
+      "note": "前置撰人核對前一條「張子霄《神射訣》一卷李靖」，句末「李靖」頂真格屬本條撰人。"
     }
   ],
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「李靖《弓訣》一卷」（並經頂真格前條互證），僅頂層 authors 欄漏收，今補入，繫既有李靖 entity。與同題另一本（呂惠卿鄰接之匿名一卷本，見 `1evcsyekzw16o`）非同書——彼條句末「呂惠卿」屬下一條《弓試》之撰人，非本條，二者純屬題名巧合。",
   "id": "1evcsyejp2fpc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
