@@ -6,8 +6,9 @@
     {
       "name": "張瑋",
       "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hhvcrjvj2"
+      "dynasty": "金",
+      "entity_id": null,
+      "note": "明昌六年（金章宗年號，1195）禮部尚書張瑋，與明代人物張瑋（1453-1517）非同一人，先前誤繫其 entity，已訂正。"
     }
   ],
   "indexed_by": [
@@ -33,10 +34,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：張瑋（生卒1453-1517）：死於明建國(1368)後，Entity既有分類（明／ming）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
-  "dynasty": "明",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「金」",
+  "dynasty": "金",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-19 全庫同名異書核對：發覺本條撰人張瑋先前誤繫明代人物（1453-1517）之 entity，2026-08-13 批次因而據該 entity 錯誤朝代將本條 dynasty／period 由「金」改判為「明」；今查明本條所述「明昌六年，禮部尚書張瑋等進」之明昌六年為金章宗年號（1195），與明代人物張瑋無涉，訂正 dynasty／period 復原為「金」，並移除誤繫之 entity_id。"
 }
