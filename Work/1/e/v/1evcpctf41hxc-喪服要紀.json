@@ -11,5 +11,49 @@
     }
   ],
   "id": "1evcpctf41hxc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "賀循",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp21ketu",
+      "note": "舊唐書經籍志原文即題「賀循撰，庾蔚之注」。賀循（260-319）東晉會稽山陰人，精禮學，時稱「當世儒宗」。"
+    },
+    {
+      "name": "庾蔚之",
+      "role": "注",
+      "entity_id": "1j96ad6gc6fpc",
+      "note": "舊唐書經籍志原文即題「賀循撰，庾蔚之注」。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:撰者賀循之朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "related_works": [
+    {
+      "id": "1evcpctenhx4w",
+      "title": "喪服要紀",
+      "relation": "related",
+      "note": "舊唐書經籍志同題別本（五卷，謝微注）。"
+    },
+    {
+      "id": "1evcpctec9dkw",
+      "title": "喪服要紀",
+      "relation": "related",
+      "note": "舊唐書經籍志同題別本（一卷，王肅注）。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志禮類著錄同題《喪服要紀》三本——「五卷賀循撰，謝微注」、「十卷賀循撰，庾蔚之注」、「一卷王肅注」——**同一本經而注者、卷數各異**，乃三種不同注本，非重出，故三條並存互見，不合併。本條為十卷本，據原文補撰人／注者。"
 }

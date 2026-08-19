@@ -11,7 +11,7 @@
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 1
   },
   "id": "1evcmnesi064g",
   "emendated_by": [
@@ -25,10 +25,19 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 1
     }
   ],
-  "measure_info": "二卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "measure_info": "一卷",
+  "ai_note": "2026-08-19 全庫同名異書核對：本條為隋書經籍志五行類《五音相動法》一卷，與相鄰之二卷本（見 `1evcmnesbrf9c`）隋志分列，不合併。**附訂正卷數**：本條 juan_count 原誤作 2，與著錄原文「《五音相動法》一卷」不合，今改為 1。本條下附「梁有《風角五音占》五卷，京房撰，亡」為隋志附注梁時他書之通例，非本書異名。不著撰人。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [],
+  "related_works": [
+    {
+      "id": "1evcmnesbrf9c",
+      "title": "五音相動法",
+      "relation": "related",
+      "note": "隋書經籍志五行類相鄰別出之《五音相動法》二卷（已併國史經籍志二卷本）。"
+    }
+  ]
 }
