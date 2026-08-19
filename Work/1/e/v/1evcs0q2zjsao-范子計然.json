@@ -14,6 +14,14 @@
       "source_bid": "1evdiulq07rwg",
       "title_info": "范子計然",
       "summary": "周范蠡范子計然三卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《范子計然》十五卷",
+      "summary": "《范子計然》十五卷",
+      "merged_from": "1evgq0ibm8f7k",
+      "note": "卷數與新唐書藝文志本全合，逕併。"
     }
   ],
   "id": "1evcs0q2zjsao",
@@ -21,8 +29,30 @@
     {
       "name": "范蠡",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hf27y1rsw"
+      "dynasty": "春秋",
+      "entity_id": "1j96hexm4uo00"
+    }
+  ],
+  "juan_count": {
+    "number": 15
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 15
+    }
+  ],
+  "measure_info": "十五卷",
+  "related_works": [
+    {
+      "id": "1ewsa49rdnu3c",
+      "title": "范子計然",
+      "relation": "related"
+    },
+    {
+      "id": "1evr5e3mfaxvk",
+      "title": "范子計然",
+      "relation": "related"
     }
   ],
   "resources": [
@@ -35,10 +65,11 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "2026-08-18 全庫同名異書核對：發現並訂正撰人 entity 誤配——原繫 entity 1j96hf27y1rsw 之 dynasty 誤作「清」（源自 qing_round1 批次憑「清史稿藝文志」書名機械代填朝代之錯誤，未核實范蠡本人實為春秋越國大夫，與撰於清代之輯本原不相干），今改繫本庫既有正確之范蠡 entity（1j96hexm4uo00，dynasty「春秋」，historical_dict 判據），並刪除誤配之分裂 entity。另併入國史經籍志同卷數（十五卷）裸題著錄。與清史稿藝文志另一卷本（1evr5e3mfaxvk，前批已判定「同名書拆分創建」而刻意分立）、玉函山房輯佚書三卷輯本（1ewsa49rdnu3c，馬國翰清代重輯，非古本原編）皆屬同名輯佚異本，以 related_works 互見，未強行合併。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
   "_has_text": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「春秋」",
+  "dynasty": "春秋",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
