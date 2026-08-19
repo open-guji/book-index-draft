@@ -2,14 +2,34 @@
   "schema_version": 1,
   "type": "work",
   "title": "三略",
+  "authors": [
+    {
+      "name": "成氏",
+      "role": "注",
+      "entity_id": null,
+      "note": "隋書經籍志載《黃石公三略》「下邳神人撰，成氏注」，國史經籍志亦作「（成氏注）」，即此注本之注者。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《三略》",
-      "summary": "成氏注《三略》三卷"
+      "summary": "成氏注《三略》三卷",
+      "note": "前條「《三略秘要》三卷成氏注」句末之名即本條前置注者。"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：注者本已見於引文「成氏注《三略》三卷」，僅頂層 authors 欄漏收，今補入及補卷數。本條為《黃石公三略》（見 `1ev3bbeunt2bk`）之成氏注本，隋書經籍志、國史經籍志皆載該書「成氏注」，關係改繫為 studies。與同題宋官方校定本（`1evcsyb3fzri8`）、呂惠卿注本（`1evgq11brx8n4`）各為不同注／校本；原宋志「黃石公《三略》三卷」一條已併入《黃石公三略》主記錄。本庫無成氏 entity，未繫。",
   "id": "1evcsyb82ohkw",
   "resources": [
     {
@@ -25,10 +45,10 @@
     {
       "id": "1ev3bbeunt2bk",
       "title": "黃石公三略",
-      "relation": "related",
-      "note": "與之相關者為《黃石公三略》三卷。同書異題。著錄作《三略》，無撰人無卷數，疑本書之重出，待覈。"
+      "relation": "studies",
+      "note": "所注解者為《黃石公三略》三卷。成氏注本，隋書經籍志、國史經籍志皆載該書「成氏注」。"
     }
   ],
-  "updated_at": "2026-08-01T13:26:56+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true
 }

@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易講疏",
+  "authors": [
+    {
+      "name": "蕭衍",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967afjav1vw",
+      "note": "舊唐書經籍志作「梁武帝」，即梁武帝蕭衍。"
+    }
+  ],
+  "juan_count": {
+    "number": 35
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 35
+    }
+  ],
+  "measure_info": "三十五卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -10,7 +29,12 @@
       "summary": "《周易講疏》三十五卷梁武帝撰。"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《周易講疏》三十五卷梁武帝撰」，僅頂層 authors 欄漏收，今補入並繫既有蕭衍 entity。與同題陳張譏注三十卷本（見 `1evgopapra0ow`）撰人、卷數皆異，非同書。",
   "id": "1evcpcsujxtz4",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
   "related_works": [
     {
       "id": "1evl7l48e27ls",
@@ -18,5 +42,5 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }
