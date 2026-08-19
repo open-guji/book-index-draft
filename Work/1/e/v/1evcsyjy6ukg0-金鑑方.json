@@ -8,11 +8,43 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《金鑒方》",
       "summary": "孫廉《金鑒方》三卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "金鑑方三卷",
+      "summary": "金鑑方三卷",
+      "merged_from": "1evr5e3mg8nke",
+      "note": "諸志同著《金鑑方》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsyjy6ukg0",
   "additional_titles": [
     "金鑒方"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "authors": [
+    {
+      "name": "孫廉",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「孫廉《金鑒方》三卷」，前置撰人孫廉。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《金鑑（鑒）方》三卷，今合併並據宋志前置撰人補為孫廉。"
 }
