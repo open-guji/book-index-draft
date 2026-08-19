@@ -2,6 +2,28 @@
   "schema_version": 1,
   "type": "work",
   "title": "家祭儀",
+  "authors": [
+    {
+      "name": "呂大防",
+      "role": "撰",
+      "entity_id": "1j967da97jlzp"
+    },
+    {
+      "name": "呂大臨",
+      "role": "撰",
+      "entity_id": "1j967bgl6pbm8"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -10,6 +32,17 @@
       "summary": "（（元祐七年儀））呂大防、大臨《家祭儀》一卷"
     }
   ],
+  "description": {
+    "text": "元祐七年儀。",
+    "sources": [
+      "宋史藝文志"
+    ]
+  },
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「呂大防、大臨《家祭儀》一卷」（宋哲宗元祐七年所定家祭之儀），僅頂層 authors 欄漏收，今補入呂大防、呂大臨二人（藍田呂氏兄弟，以家禮著稱；呂大臨卒於元祐六年，元祐七年之儀或係其身後據兄弟舊訂稿本正式頒定，兩人並題，姑仍其舊）。與同題徐潤本、鄭正則本（唐代）朝代懸隔，非同書。",
   "id": "1evcsxgkr5kao",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors 朝代",
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }
