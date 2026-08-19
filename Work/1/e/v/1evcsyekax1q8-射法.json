@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《射法》",
       "summary": "黃損《射法》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "射法一卷",
+      "summary": "射法一卷",
+      "merged_from": "1evr5e3mfxf5i",
+      "note": "諸志同著《射法》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsyekax1q8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "黃損",
+      "role": "撰",
+      "dynasty": "後唐",
+      "entity_id": "1j969lr2spj56",
+      "note": "宋史藝文志作「黃損《射法》一卷」，前置撰人黃損。"
+    }
+  ],
+  "dynasty": "後唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「後唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《射法》一卷，今合併並據宋志前置撰人補為黃損。"
 }

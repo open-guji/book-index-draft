@@ -8,11 +8,43 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《事鑒》",
       "summary": "郭道規《事鑒》五十卷沈寥子"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "事鑑五十卷",
+      "summary": "事鑑五十卷",
+      "merged_from": "1evr5e3mfxf3y",
+      "note": "諸志同著《事鑑》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsyfvj6olc",
   "additional_titles": [
     "事鑒"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 50
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 50
+    }
+  ],
+  "measure_info": "五十卷",
+  "authors": [
+    {
+      "name": "郭道規",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「郭道規《事鑒》五十卷沈寥子」，前置撰人郭道規；句末「沈寥子」屬下條。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《事鑑》五十卷，今合併並據宋志前置撰人補為郭道規。"
 }
