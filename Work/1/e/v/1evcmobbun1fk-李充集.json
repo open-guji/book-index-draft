@@ -25,6 +25,14 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "李充集十五卷録一卷 謹按見《七錄》。《隋志》二十二卷,兩《唐志》十四卷。見本書《文苑傳》。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李充集》二十二卷",
+      "summary": "《李充集》二十二卷",
+      "merged_from": "1evgqaqqehfy8",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -46,9 +54,19 @@
     }
   ],
   "measure_info": "二十二卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "李充",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967a0kj9gzw",
+      "note": "隋書經籍志題「晉《李充集》」，書名即撰人。李充字弘度，東晉大著作郎，撰《翰林論》，訂四部分類。本庫另有「李充」entity 二條（`1j967da97jlzv` 隋、`1j96hlgbc318g` 無朝代），非是。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉《李充集》二十二卷（梁十五卷，錄一卷）」、兩唐志十四卷、補晉志十五卷、國史經籍志二十二卷，同為東晉李充別集，今合為一條並繫 entity `1j967a0kj9gzw`。"
 }

@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "李顒集",
       "summary": "李顒集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李顒集》十卷",
+      "summary": "《李顒集》十卷",
+      "merged_from": "1evgqasamg64g",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcmobebwwsg",
@@ -31,5 +39,29 @@
       "summary": "晉李顯集十卷録一卷\n李顯有《卦象數旨》六卷,見經部易家。\n《晉書·文苑·李充傳》:充子顯,亦有文義,多所述作。\n《唐書·經籍》、《藝文志》:《李顯集》十卷。\n馮氏《詩紀》輯存《經過路詩》、《涉湖詩》、《夏日詩》、《感冬篇》\n凡四首。\n嚴氏《全晉文编》曰:“李顯有《尚書注》十卷,集十卷。今存\n《雪賦》、《雷賦》、《悲四時賦》、《感興賦》、《凌仙賦》、《龜賦》、\n《鏡論》、《阮彥倫誌》,凡八篇。”"
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李顒",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96hlhx143r4",
+      "note": "隋書經籍志題「晉《李顒集》十卷」，書名即撰人。本庫「李顒」有四條 entity（清二、晉一、東晉一），今繫晉條 `1j96hlhx143r4`，餘待人物專項覈實。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉《李顒集》十卷（錄一卷）」、兩唐志、國史經籍志皆十卷，同為晉李顒別集，今合為一條並繫 entity `1j96hlhx143r4`。"
 }

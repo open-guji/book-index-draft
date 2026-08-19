@@ -14,8 +14,40 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "殷淳集",
       "summary": "殷淳集三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《殷淳集》二卷",
+      "summary": "《殷淳集》二卷",
+      "merged_from": "1evgqb5fown40",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcpd712vhmo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "殷淳",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "書名即撰人。殷淳（403-434）字粹遠，南朝宋人，撰《婦人集》。本庫「殷淳」entity `1j96h28x1zg21` 朝代標「南宋」（CBDB 46364），與南朝宋殷淳未能確為一人，故 entity_id 留空，待人物專項覈實。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志三卷、國史經籍志二卷，同為南朝宋殷淳別集，今合為一條；撰人本庫無可繫之 entity。"
 }
