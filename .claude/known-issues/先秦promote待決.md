@@ -78,15 +78,22 @@
 - 其餘 175 條多為 `ming`/`qing` 而見於宋元以前之志，疑為同題異書合併過度（磁鐵條目），
   需另立一輪處理。
 
-## 六、book-index-manager 兩處副作用（本輪繞開，未治本）
+## 六、book-index-manager 之缺陷（2026-08-19 已修，待發版）
 
-1. **`build_index_entry` 不輸出 `period`**（`book_index_manager/entry_extractor.py:154`）。
-   但 SCHEMA §period 明言「`period` 亦入 `index/works/*.json`」，且現有 shard 確實有此欄。
-   後果：任一次 `save_item` 都會把該條的 `period` 從索引抹掉；
-   **一次 `book-index reindex --target draft` 會把全庫七萬餘條的 `period` 一次抹光**。
-   本輪以 `scripts/promote-work/` 下的回填腳本繞開，未跑 reindex。
-2. **索引 shard 寫入用 `indent=2`，倉庫既有格式是 `indent=1`**。
-   後果：改一條就整個 shard 重排，5 條改動產生四十四萬行 diff。本輪寫回 `indent=1`。
+修在 `book-index-manager` 倉 `claude/fix-index-period-and-indent` 分支。
+**發版之前，本機舊 CLI 一跑 `reindex` 仍會重演下列破壞。**
 
-兩者都在 `book-index-manager` 倉，需另發版修。**修好之前，promote 流程第 4 步的
-`book-index reindex` 不可直接跑。**
+| 缺陷 | 後果 |
+|---|---|
+| `build_index_entry` 不產出 `period` / `loss_status` / `original_title` / `work_id` / `promoted_to` | 一次 reindex 抹掉全庫 40,738 條 period、23,109 條 work_id 等 |
+| `dynasty` 只讀 `authors[0]`，不看條目頂層欄位 | 2,139 條出土文獻（按設計無撰人）reindex 後丟朝代 |
+| shard 寫入固定 `indent=2`、不排序、無條件補尾換行 | 改一條產生四十四萬行 diff；每次 reindex 重新打亂 |
+| `validate_promotions` 的 E02/E03 只反向遍歷「檔案帶 promoted_to」者 | 74 條 tombstone 全丟 promoted_to 卻報 0 問題 |
+| 條目檔派生欄已改帶 `_` 前綴，代碼仍讀舊名 | 74 條已升格條目**寫保護全部失效**，可逕改草稿副本而不被攔 |
+| `promote --batch` 只跳過 `#` 起首之行，不剝行尾註釋 | 帶註釋的批次清單全條當成 ID，報 Invalid base36 ID shape |
+
+## 七、先秦 151 部已升格（2026-08-19）
+
+A/B/C 三批全部升格，明細見 overview
+`項目進展/古籍索引網站/版本梳理/先秦/11-先秦151部升格執行記錄.md`。
+本文 §一〜§五 所列各項**仍未處置**，與該輪無涉。
