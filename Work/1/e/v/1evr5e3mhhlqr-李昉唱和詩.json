@@ -12,6 +12,15 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "李昉唱和詩一卷",
       "summary": "李昉唱和詩一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李昉唱和詩》一卷",
+      "summary": "《李昉唱和詩》一卷（李仿等從駕至鎭陽選舊居作）",
+      "author_info": "李仿等從駕至鎭陽選舊居作",
+      "merged_from": "1evgqggw2zgn4",
+      "note": "《李昉唱和詩》二條係重出／互著，今合併。"
     }
   ],
   "measures": [
@@ -21,5 +30,19 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李昉",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "據題名補"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：崇文總目、國史經籍志同著《李昉唱和詩》一卷，係一書互著，今合併。國史經籍志注「李仿等從駕至鎭陽選舊居作」，「仿」即「昉」之訛。撰人據題名補為李昉。"
 }

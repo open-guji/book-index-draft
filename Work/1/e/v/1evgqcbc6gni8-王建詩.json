@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《王建詩》十卷",
       "summary": "《王建詩》十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "王建詩二卷",
+      "summary": "王建詩二卷",
+      "merged_from": "1evr5e3mhhluw",
+      "note": "諸志同著《王建詩》，係一書互著，今合併。"
     }
   ],
   "description": {
@@ -19,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"王建詩\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：《王建詩》為王建之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為王建。",
   "id": "1evgqcbc6gni8",
   "measures": [
     {
@@ -28,5 +36,18 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王建",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl89ibk",
+      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《王建詩》，撰人為王建。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
