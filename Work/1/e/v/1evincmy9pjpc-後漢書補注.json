@@ -23,5 +23,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-07-29T13:46:48+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "惠棟",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": null,
+      "note": "書目答問明載「二十四卷。惠棟。寶山李氏刻本……」"
+    }
+  ],
+  "juan_count": {
+    "number": 24
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 24
+    }
+  ],
+  "measure_info": "二十四卷",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為惠棟《後漢書補注》二十四卷，與同志侯康《後漢書補注》一卷（`1evincmzl5m9s`）非一書，未予合併。"
 }

@@ -8,11 +8,44 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《寶鑒絲綸》",
       "summary": "馮洪敏《寶鑒絲綸》二十卷胡旦"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "寳鑑絲綸二十卷",
+      "summary": "寳鑑絲綸二十卷",
+      "merged_from": "1evr5e3mfxf4y",
+      "note": "諸志同著《寶鑑絲綸》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsyg3em5ts",
   "additional_titles": [
-    "寶鑒絲綸"
+    "寶鑒絲綸",
+    "寳鑑絲綸"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "authors": [
+    {
+      "name": "馮洪敏",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「馮洪敏《寶鑒絲綸》二十卷胡旦」，前置撰人馮洪敏；句末「胡旦」屬下條。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《寶鑑絲綸》二十卷，今合併並據宋志前置撰人補為馮洪敏。"
 }

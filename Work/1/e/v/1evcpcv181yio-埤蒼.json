@@ -8,8 +8,40 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《埤蒼》三卷",
       "summary": "《埤蒼》三卷張揖撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又埤蒼",
+      "summary": "又埤蒼三卷",
+      "merged_from": "1evcs0acu6ry8",
+      "note": "諸志同著《埤蒼》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpcv181yio",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "張揖",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《埤蒼》三卷張揖撰」；新唐志承前作「又埤蒼三卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《埤蒼》三卷，今合併並據舊唐志補撰人為張揖。"
 }
