@@ -8,8 +8,53 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "疏",
       "summary": "疏十二卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《莊子疏》十二卷",
+      "summary": "《莊子疏》十二卷成玄英撰。",
+      "note": "卷數、撰人與新唐書藝文志「疏十二卷」（承上條成玄英）全合；該條原誤繫於舊唐志《莊子疏》七卷之記錄 `1evcpd14w0074`，今改繫本條。"
     }
   ],
   "id": "1evcs0mals45c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "成玄英",
+      "role": "疏",
+      "dynasty": "唐",
+      "entity_id": "1j96ha7r4zh1c",
+      "note": "新唐書藝文志此段作「道士成玄英注老子道德經二卷／又開題序訣義疏七卷／注莊子三十卷／疏十二卷」，諸條皆承首條撰人成玄英；舊唐書經籍志「《莊子疏》十二卷成玄英撰」明載其名，正相印證。"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "related_works": [
+    {
+      "id": "1evr5e3mkaqn3",
+      "title": "莊子疏",
+      "relation": "related",
+      "note": "直齋書錄解題著錄之成玄英《莊子疏》三十卷，與新唐志「注莊子三十卷」相當，即今傳《南華真經注疏》，與本條十二卷本非一。"
+    },
+    {
+      "id": "1evcpd14w0074",
+      "title": "莊子疏",
+      "relation": "related",
+      "note": "兩唐志所載不著撰人之《莊子疏》七卷。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：本條原僅存新唐書藝文志「疏十二卷」一條裸文。據該志文例（「道士成玄英注老子道德經二卷／又開題序訣義疏七卷／注莊子三十卷／疏十二卷」，諸條皆承成玄英），並據舊唐書經籍志明載之「《莊子疏》十二卷成玄英撰」，補撰人成玄英並繫 entity `1j96ha7r4zh1c`；該舊唐志條原誤繫於七卷本記錄 `1evcpd14w0074`，今改繫本條。成玄英另有三十卷本（新唐志作「注莊子三十卷」，直齋作《莊子疏》三十卷，即今傳《南華真經注疏》，見 `1evr5e3mkaqn3`），卷數懸殊，別為一目，以 related_works 互見。"
 }

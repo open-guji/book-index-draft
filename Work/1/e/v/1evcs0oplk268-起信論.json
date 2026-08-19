@@ -11,5 +11,37 @@
     }
   ],
   "id": "1evcs0oplk268",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "宗密",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "新唐書藝文志此段作「宗密禪源諸詮集一百一卷／又起信論二卷／起信論鈔三卷」，「又」承上條撰人宗密，故本書為宗密所撰之《起信論》疏解。宗密（780-841）華嚴宗五祖，號圭峰。本庫無此 entity。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "related_works": [
+    {
+      "id": "1evcsxqatsruo",
+      "title": "起信論",
+      "relation": "related",
+      "note": "宋史藝文志、崇文總目所載不著撰人之二卷本。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人據新唐書藝文志「又」字文例補入——該志作「宗密禪源諸詮集一百一卷／又起信論二卷／起信論鈔三卷」，「又」承宗密，故本書為宗密所撰《起信論》疏解（非馬鳴造之《大乘起信論》本經）。宋志、崇文總目另有不著撰人之二卷本（見 `1evcsxqatsruo`），不合併，互見。本庫無宗密 entity，未繫。"
 }
