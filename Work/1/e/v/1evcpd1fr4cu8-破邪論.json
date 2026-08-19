@@ -2,6 +2,24 @@
   "schema_version": 1,
   "type": "work",
   "title": "破邪論",
+  "authors": [
+    {
+      "name": "釋法琳",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -13,9 +31,23 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《破邪論》",
-      "summary": "（（僧灌頂纂，僧智顗修））僧法琳《破邪論》三卷又"
+      "summary": "（（僧灌頂纂，僧智顗修））僧法琳《破邪論》三卷又",
+      "note": "句末「又」屬下一條之頂真格連接詞，本條僧法琳三卷本自身完整。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又破邪論",
+      "summary": "又破邪論二卷",
+      "merged_from": "1evcs0nthd24g",
+      "note": "句首「又」頂真格承接前條「法琳辯正論八卷」，即同一法琳之另一卷數著錄，與三卷本互異，屬同書著錄常見出入。"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《破邪論》三卷釋法琳撰」，僅頂層 authors 欄漏收，今補入。與同題僧法作、楚南本（見 `1evinbb0p87i8`）、黃宗羲撰本（見 `1evjr34mflqm8`，清代）皆非同書，同名巧合。",
   "id": "1evcpd1fr4cu8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }

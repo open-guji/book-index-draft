@@ -2,14 +2,49 @@
   "schema_version": 1,
   "type": "work",
   "title": "類林",
+  "authors": [
+    {
+      "name": "於立政",
+      "role": "撰",
+      "entity_id": null,
+      "note": "宋史藝文志傳記類另一著錄作「於政立」，姓名前後字序互異，同題同卷數，確係同書重出，未能確考孰是。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《類林》",
       "summary": "於立政《類林》十卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《類林》",
+      "summary": "於政立《類林》十卷",
+      "merged_from": "1evcsxdim98g0",
+      "note": "宋志傳記類、類事類各著錄一次，撰人姓名字序互異（「於立政」／「於政立」），卷數全合，確係同書重出。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "類林十卷",
+      "summary": "類林十卷",
+      "merged_from": "1evr5e3mfxf3z",
+      "note": "裸題，卷數合，姑併。"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同書於傳記類、類事類各著錄一次，撰人姓名前後字序互異（「於政立」／「於立政」），卷數皆十卷全合，確係同書重出，併為一；又併入崇文總目裸題同卷數本。與同題裴子野撰三卷本（見 `1evgq0lh3xla8`）、明焦竑撰八卷本（見 `1evdid95vdc00`）皆非同書，同名巧合。",
   "id": "1evcsyfclrmrk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }

@@ -12,8 +12,15 @@
   }
  ],
  "juan_count": {
-  "number": 1
+  "number": 10
  },
+ "measures": [
+  {
+   "unit": "卷",
+   "number": 10
+  }
+ ],
+ "measure_info": "十卷",
  "indexed_by": [
   {
    "source": "清史稿藝文志",
@@ -33,10 +40,18 @@
    "source_bid": "1evcs059gkvls",
    "title_info": "李舟切韻",
    "summary": "李舟切韻十卷"
+  },
+  {
+   "source": "崇文總目",
+   "source_bid": "1ev3bb3xyygw0",
+   "title_info": "切韻十卷",
+   "summary": "切韻十卷",
+   "merged_from": "1evr5e3mfaxys",
+   "note": "裸題，卷數合，姑併。"
   }
  ],
- "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0b6gso3k（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "updated_at": "2026-08-10",
+ "ai_note": "清史稿藝文志經部小學類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部小學類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0b6gso3k（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 全庫同名異書核對：訂正 juan_count 欄位錯值（原誤作「一卷」，與國史經籍志、新唐書藝文志、崇文總目三源皆載之「十卷」不符，僅清史稿藝文志一源作「一卷」，以多數且較早之三源為準，訂正為十卷）；併入崇文總目裸題十卷本。",
+ "updated_at": "2026-08-19T00:00:00-07:00",
  "period": "sui-tang",
  "period_basis": "據 authors[0].dynasty「唐」",
  "loss_status": "lost",

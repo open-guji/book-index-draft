@@ -2,13 +2,24 @@
   "schema_version": 1,
   "type": "work",
   "title": "切韻",
-  "indexed_by": [
+  "authors": [
     {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《切韻》五卷",
-      "summary": "《切韻》五卷陸慈撰。"
-    },
+      "name": "丘世隆",
+      "role": "撰",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
@@ -16,6 +27,7 @@
       "summary": "《切韻》五卷丘世隆"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：原記錄「磁鐵」合裝本則（丘世隆）與舊唐書經籍志「陸慈撰」五卷本二則截然不同著錄，今拆分，舊唐志陸慈本移出併入既有記錄 `1evgorg83sfls`，本條僅存丘世隆本，補撰人。與陸慈本、李舟撰十卷本皆非同書，同名同卷數之巧合。",
   "id": "1evcpcv7mf3eo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }
