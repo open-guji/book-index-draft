@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "御史臺記",
+  "authors": [
+    {
+      "name": "韋述",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96h8rw7vhgx"
+    }
+  ],
   "juan_count": {
     "number": 10
   },
@@ -28,5 +36,10 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：author_info 已載「唐韋述」，僅頂層 authors 欄漏收，今補入，繫既有韋述 entity。與同題另一本（韓琬十二卷本，見 `1evcsxaw1nvnk`）非同書。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
