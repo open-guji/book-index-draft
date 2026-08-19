@@ -32,6 +32,18 @@
       "title_info": "明文在",
       "summary": "《明文在》一百卷。{{薛熙編。倪霱寫刻本。}}",
       "author_info": "薛熙編"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《明文在》一百卷",
+      "author_info": "清薛煕編",
+      "summary": "《明文在》一百卷。清薛煕編。遼寧大學圖書館藏清康煕三十二年古淥水園刻本。",
+      "edition": "遼寧大學圖書館藏清康煕三十二年古淥水園刻本",
+      "volume": "第399冊",
+      "section": "集部",
+      "merged_from": "1evjxoxobq70g",
+      "note": "撰人原作「薛煕」，乃「薛熙」之異寫或形訛，本條併入。"
     }
   ],
   "juan_count": {
@@ -81,11 +93,18 @@
   "books": [
     "11qkhu0bqh05c"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》第399冊（集部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  },
+  "ai_note": "2026-08-19 同題異撰人專項（二）：本條與 `1evjxoxobq70g` 同題《明文在》、同卷數 100，撰人分作「薛熙」「薛煕」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「薛熙」，異名之著錄並存於 indexed_by。"
 }

@@ -32,10 +32,27 @@
       "title_info": "龍龕手鑒",
       "summary": "《龍龕手鑒》四卷。{{遼僧行均。張丹鳴刻本，釋藏本。多佛書俗字。宋夏竦《古文四聲韻》五卷，汪啟淑刻本，全本汗簡不錄。}}",
       "author_info": "遼僧行均"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "行均龍龕手鑑四卷",
+      "author_info": "僧",
+      "summary": "遼行均（僧）龍龕手鑑四卷",
+      "merged_from": "1evgbsh4gobnk",
+      "note": "撰人原作「行均」，乃「僧行均」之異寫或形訛，本條併入。"
     }
   ],
   "books": [
-    "11q37ou55ul8g"
+    "11q37ou55ul8g",
+    "11qk4xwcsvjlu",
+    "11qkhun7u80zk",
+    "11qkhun8t6lts",
+    "11qkhun9ubugw",
+    "11qkhvy00ifwg",
+    "11qkhz9cbqt4w",
+    "11qkhz9dmvn5s",
+    "11qki43tbzke8"
   ],
   "juan_count": {
     "number": 4
@@ -73,6 +90,14 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/06052882.cn",
+      "types": [
+        "image"
+      ]
     }
   ],
   "measures": [
@@ -85,12 +110,18 @@
   "additional_titles": [
     "龍龕手鑒"
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「遼」",
   "dynasty": "遼",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→遼; 據 author.dynasty 集合補「遼」]"
+  "ai_note": "[ljy-round1: dynasty null→遼; 據 author.dynasty 集合補「遼」]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgbsh4gobnk` 同題《龍龕手鑑》、同卷數 4，撰人分作「僧行均」「行均」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「僧行均」，異名之著錄並存於 indexed_by。",
+  "description": {
+    "text": "僧",
+    "sources": [
+      "元史藝文志"
+    ]
+  }
 }

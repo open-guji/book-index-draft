@@ -31,6 +31,23 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "前定録一卷",
       "summary": "前定録一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《前定錄》一卷",
+      "summary": "《前定錄》一卷（唐鍾簵）",
+      "author_info": "唐鍾簵",
+      "merged_from": "1evgpjjkekao0",
+      "note": "撰人原作「鍾簵」，乃「鍾輅」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "鍾簵前定錄",
+      "summary": "鍾簵前定錄一卷",
+      "merged_from": "1evgpjjkekao0",
+      "note": "撰人原作「鍾簵」，乃「鍾輅」之異寫或形訛，本條併入。"
     }
   ],
   "books": [
@@ -127,12 +144,18 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "從 31hyr5d6e4mk3 合併。原註：作者「唐鍾輅撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "從 31hyr5d6e4mk3 合併。原註：作者「唐鍾輅撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgpjjkekao0` 同題《前定錄》、同卷數 1，撰人分作「鍾輅」「鍾簵」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「鍾輅」，異名之著錄並存於 indexed_by。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

@@ -20,19 +20,41 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "《論語義》二卷。禮部侍郎章貢曾幾吉父撰。胡文定門人也。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《論語義》二卷",
+      "summary": "《論語義》二卷（曽幾）",
+      "author_info": "曽幾",
+      "merged_from": "1evgoqyo3o1kw",
+      "note": "撰人原作「曽幾」，乃「曾幾」之異寫或形訛，本條併入。"
     }
   ],
-  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題「論語義」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人曾幾。",
+  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題「論語義」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人曾幾。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgoqyo3o1kw` 同題《論語義》、同卷數 2，撰人分作「曾幾」「曽幾」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「曾幾」，異名之著錄並存於 indexed_by。",
   "dynasty": "南宋",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
   "period_basis": "據 authors[0].dynasty「南宋」",
-  "updated_at": "2026-08-18",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "measure_info": "二卷",
   "measures": [
     {
       "unit": "卷",
       "number": 2
     }
-  ]
+  ],
+  "related_works": [
+    {
+      "id": "1ev7w0euvaeww",
+      "title": "論語",
+      "relation": "contains_text_of"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

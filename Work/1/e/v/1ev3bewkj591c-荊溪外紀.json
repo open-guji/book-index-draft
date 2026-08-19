@@ -35,6 +35,15 @@
       "edition": "北京師範大學圖書館藏清光緒宣統間武進盛氏刻常州先哲遺書本",
       "volume": "第382冊",
       "section": "集部"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《荆溪外紀》二十五卷",
+      "summary": "《荆溪外紀》二十五卷（沈敇）",
+      "author_info": "沈敇",
+      "merged_from": "1evgpjtsu0w74",
+      "note": "撰人原作「沈敇」，乃「沈敕」之異寫或形訛，本條併入。"
     }
   ],
   "juan_count": {
@@ -92,12 +101,21 @@
   "books": [
     "11qki4z0aj01s"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgpjtsu0w74` 同題《荊溪外紀》、同卷數 25，撰人分作「沈敕」「沈敇」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「沈敕」，異名之著錄並存於 indexed_by。",
+  "additional_titles": [
+    "荆溪外紀"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

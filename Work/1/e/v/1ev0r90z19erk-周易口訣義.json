@@ -32,6 +32,23 @@
       "title_info": "周易口訣義",
       "summary": "《周易口訣義》六卷。{{唐史徵。孫星衍刻《岱南閣叢書》本，《古經解匯函》重刻孫本。}}",
       "author_info": "史徵"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "周易口訣義六卷",
+      "summary": "周易口訣義六卷。河南史證撰不詳何代人其書直抄孔氏說以便講習故曰口訣",
+      "merged_from": "1evr5e3mfaxvr",
+      "note": "撰人原作「河南史證」，乃「史徴」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周易口訣義》六卷",
+      "summary": "《周易口訣義》六卷（唐史證）",
+      "author_info": "唐史證",
+      "merged_from": "1evgopdt7xnnk",
+      "note": "撰人原作「史證」，乃「史徴」之異寫或形訛，本條併入。"
     }
   ],
   "resources": [
@@ -118,12 +135,18 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3mfaxvr` 同題《周易口訣義》、同卷數 6，撰人分作「史徴」「河南史證」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「史徴」，異名之著錄並存於 indexed_by。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgopdt7xnnk` 同題《周易口訣義》、同卷數 6，撰人分作「史徴」「史證」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「史徴」，異名之著錄並存於 indexed_by。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

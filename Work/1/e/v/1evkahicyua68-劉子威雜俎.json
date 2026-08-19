@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjxmds47cw0(劉鳯)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjxmds47cw0(劉鳯)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evjxmds47cw0` 同題《劉子威雜俎》、同卷數 10，撰人分作「劉鳳」「劉鳯」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「劉鳳」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 10
   },
@@ -31,9 +31,23 @@
   "books": [
     "11qki58ee3hfk"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《劉子威雜俎》十卷",
+      "author_info": "明劉鳯輯",
+      "summary": "《劉子威雜俎》十卷。明劉鳯輯。遼寧省圖書館藏明萬曆劉鴻英刻本。",
+      "edition": "遼寧省圖書館藏明萬曆劉鴻英刻本",
+      "volume": "第182冊",
+      "section": "子部",
+      "merged_from": "1evjxmds47cw0",
+      "note": "撰人原作「劉鳯」，乃「劉鳳」之異寫或形訛，本條併入。"
+    }
+  ]
 }
