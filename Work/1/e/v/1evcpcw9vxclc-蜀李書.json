@@ -14,8 +14,40 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "蜀李書",
       "summary": "蜀李書九卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《蜀李書》九卷",
+      "summary": "《蜀李書》九卷",
+      "merged_from": "1evgph5myxnuo",
+      "note": "諸志同著《蜀李書》，係一書互著，今合併。"
     }
   ],
   "id": "1evcpcw9vxclc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "authors": [
+    {
+      "name": "常璩",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《蜀李書》九卷常璩撰」。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《蜀李書》九卷，今合併並據舊唐志補撰人為常璩。"
 }

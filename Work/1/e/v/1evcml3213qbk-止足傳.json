@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《止足傳》十卷",
       "summary": "《止足傳》十卷王子良撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又止足傳",
+      "summary": "又止足傳十卷",
+      "merged_from": "1evcs0ff0eosg",
+      "note": "諸志同著《止足傳》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "蕭子良",
+      "role": "撰",
+      "dynasty": "南朝齊",
+      "entity_id": "1j96hlh7xrbpc",
+      "note": "舊唐書經籍志明載「《止足傳》十卷王子良撰」，「王」為「蕭」之訛，即齊竟陵王蕭子良。"
+    }
+  ],
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《止足傳》十卷，今合併並據舊唐志補撰人為蕭子良（志作「王子良」，形訛）。"
 }

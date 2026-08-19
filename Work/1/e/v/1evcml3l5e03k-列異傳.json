@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《列異傳》三卷",
       "summary": "《列異傳》三卷張華撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又列異傳",
+      "summary": "又列異傳一卷",
+      "merged_from": "1evcs0qes2j28",
+      "note": "諸志同著《列異傳》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -45,6 +53,20 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "authors": [
+    {
+      "name": "曹丕",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j967afjav1wk",
+      "note": "隋書經籍志明載「《列異傳》三卷魏文帝撰」，魏文帝即曹丕；舊唐志作「張華撰」，二說並存，今從隋志。"
+    }
+  ],
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《列異傳》，三卷、一卷之異乃傳本之別，今合併。撰人隋志作魏文帝（曹丕）、舊唐志作張華，二說並存，今從隋志之較早者，異說存於所併之 indexed_by。"
 }

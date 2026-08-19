@@ -20,6 +20,29 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「獨有\n取于蘭氏,可知其書之精審,所惜散佚不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/十三州志.json，據本庫著錄之考證所引輯本序立，現為著錄層。",
-  "updated_at": "2026-08-05T15:55:32+00:00"
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「獨有\n取于蘭氏,可知其書之精審,所惜散佚不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/十三州志.json，據本庫著錄之考證所引輯本序立，現為著錄層。\n\n2026-08-19 全庫同名異書核對：本條為隋志闞駰《十三州志》十卷，與舊唐書經籍志同題十四卷本（`1evcpjoia9qm8`，亦題闞駰撰）撰人同而卷數異。二志所著或即一書之異本，然庫中既各建一條而卷數判然，姑並存互見，未予合併。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "闞駰",
+      "role": "撰",
+      "dynasty": "北涼",
+      "entity_id": "1j96h8rw8hyjd",
+      "note": "隋書經籍志明載「《十三州志》十卷闞駰撰」。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "北涼",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「北涼」"
 }

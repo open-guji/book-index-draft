@@ -14,8 +14,41 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "吳國志",
       "summary": "吳國志二十一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《吳國志》二十一卷",
+      "summary": "《吳國志》二十一卷（陳壽）",
+      "author_info": "陳壽",
+      "merged_from": "1evgpgszig64g",
+      "note": "諸志同著《吳國志》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpcw929szk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 21
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 21
+    }
+  ],
+  "measure_info": "二十一卷",
+  "authors": [
+    {
+      "name": "陳壽",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96h8rw7k8w8",
+      "note": "舊唐書經籍志明載「《吳國志》二十一卷陳壽撰，裴松之注」；國史經籍志注「陳壽」，二志相合。"
+    }
+  ],
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《吳國志》二十一卷，今合併並補撰人為陳壽（裴松之注）。"
 }

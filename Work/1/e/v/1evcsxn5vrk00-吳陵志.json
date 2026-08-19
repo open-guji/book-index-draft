@@ -8,8 +8,39 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《吳陵志》",
       "summary": "項預《吳陵志》十四卷朱端章"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "吳陵志",
+      "merged_from": "1evr5e3mjzi10",
+      "note": "諸志同著《吳陵志》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxn5vrk00",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "authors": [
+    {
+      "name": "項預",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「項預《吳陵志》十四卷朱端章」，前置撰人項預；句末「朱端章」屬下條。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、直齋書錄解題同著《吳陵志》，十卷、十四卷之異乃傳本之別，今合併並據宋志前置撰人補為項預。"
 }
