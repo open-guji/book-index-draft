@@ -2,14 +2,60 @@
   "schema_version": 1,
   "type": "work",
   "title": "五行陣圖",
+  "authors": [
+    {
+      "name": "符彥卿",
+      "role": "撰",
+      "dynasty": "北宋",
+      "note": "五代後周至北宋初名將，封魏王。",
+      "entity_id": null
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《五行陣圖》",
       "summary": "符彥卿《五行陣圖》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "五行陣圖一卷",
+      "summary": "五行陣圖一卷。（闕）",
+      "merged_from": "1evr5e3mfxf3b"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《五行陣圖》一卷",
+      "summary": "《五行陣圖》一卷",
+      "merged_from": "1evgq16ta0pvk"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《五行陣圖》",
+      "summary": "《五行陣圖》一卷",
+      "merged_from": "1evcsydildzb4",
+      "note": "宋史藝文志同段落另有裸題重出著錄，卷數全合。"
     }
   ],
   "id": "1evcsydpglxj4",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「符彥卿《五行陣圖》一卷」，僅頂層 authors 欄漏收，今補入；併入崇文總目、國史經籍志、宋史藝文志（另一裸題著錄）三方同卷數（一卷）著錄，確係同書重出，逕併為一。本庫無同名 entity，未繫。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }

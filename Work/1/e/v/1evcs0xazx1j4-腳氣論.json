@@ -2,17 +2,42 @@
   "schema_version": 1,
   "type": "work",
   "title": "腳氣論",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "脚氣論",
       "summary": "脚氣論一卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《腳氣論》",
+      "summary": "《腳氣論》一卷",
+      "merged_from": "1evcsylpcudq8"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "脚氣論一卷",
+      "summary": "脚氣論一卷",
+      "merged_from": "1evr5e3mg8nmm"
     }
   ],
   "id": "1evcs0xazx1j4",
   "additional_titles": [
     "脚氣論"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見新唐書藝文志、宋史藝文志、崇文總目、新唐書藝文志（另一處，三卷本），皆裸題未著撰人。三源同卷數（一卷）者確係同書重出，逕併為一。新唐書藝文志醫術類另有三卷本（`1evcs0xa84x6o`），位於本志同段不同位置（前後鄰接皆各自獨立之無撰人醫書著錄），卷數異，非同書，維持分立，皆留白。",
+  "updated_at": "2026-08-18T00:00:00-07:00"
 }
