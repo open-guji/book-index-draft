@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《齊職儀》五卷",
       "summary": "《齊職儀》五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《齊職儀》五卷",
+      "summary": "《齊職儀》五卷",
+      "merged_from": "1evgphpqx2i2o",
+      "note": "裸題，卷數合，姑併。"
     }
   ],
   "authors": [
@@ -36,5 +44,18 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 全庫同名異書核對：併入國史經籍志裸題五卷本。本條與同撰人王珪之之五十卷本（隋志、舊唐志著錄，見 `1evcml2behy4g`）卷數懸殊，或係節本／殘本，二條並存，以 related_works 互見。",
+  "related_works": [
+    {
+      "id": "1evcml2behy4g",
+      "title": "齊職儀",
+      "relation": "related",
+      "note": "同撰人王珪之之五十卷本（隋志明載「齊長水校尉王珪之撰」），卷數與本五卷本懸殊，關係待考。"
+    }
+  ],
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」"
 }

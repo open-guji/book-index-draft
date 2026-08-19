@@ -2,6 +2,24 @@
   "schema_version": 1,
   "type": "work",
   "title": "食經",
+  "authors": [
+    {
+      "name": "竺暄",
+      "role": "撰",
+      "entity_id": null,
+      "note": "舊唐書經籍志本條作「又四卷竺暄撰」，句首「又」承前條《食經》之題，撰人竺暄自明。"
+    }
+  ],
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,5 +29,6 @@
     }
   ],
   "id": "1evcpjovr1a80",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「又四卷竺暄撰」（句首「又」承前條《食經》之題），僅頂層 authors 欄漏收，今補入並補題名所省之卷數。與同題馬琬三卷本、崔浩九卷本、盧仁宗三卷本皆非同書。本庫無竺暄 entity，未繫。"
 }
