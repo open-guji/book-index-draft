@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《孫綽子》",
       "summary": "《孫綽子》十卷範泰"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孫綽子》十卷",
+      "summary": "《孫綽子》十卷",
+      "merged_from": "1evgpmx6ilgjk",
+      "note": "諸志同著《孫綽子》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxwor0k5c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "authors": [
+    {
+      "name": "孫綽",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "題名即「撰人＋子」之例，《孫綽子》為東晉孫綽所撰；宋志句末之范泰屬下條。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《孫綽子》十卷，今合併並據題名補撰人為孫綽。"
 }
