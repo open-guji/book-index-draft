@@ -14,11 +14,51 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "羅衮集三卷",
       "summary": "羅衮集三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《羅衮集》二卷",
+      "summary": "《羅衮集》二卷",
+      "merged_from": "1evgqc4po7xfk",
+      "note": "卷數與新唐書藝文志、宋史藝文志全合（「衮」為「袞」之俗體）。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《羅袞集》",
+      "summary": "《羅袞集》二卷",
+      "merged_from": "1evcsypdj7yf4",
+      "note": "卷數與新唐書藝文志、國史經籍志全合。"
     }
   ],
   "id": "1evcs15lww45c",
   "additional_titles": [
     "羅衮集"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "羅袞",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "書名即撰人。羅袞為唐末進士，官諫議大夫。諸志或作「羅衮」，「衮」為「袞」之俗體。本庫無此 entity。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人。新唐志二卷、崇文總目三卷、國史經籍志二卷、宋志二卷，同為唐末羅袞別集，今合為一條。崇文總目三卷之異乃傳本分卷不同。諸志或作「羅衮集」，「衮」為「袞」之俗體，收為 additional_titles。本庫無羅袞 entity，未繫。"
 }
