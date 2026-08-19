@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "劉歆集",
       "summary": "劉歆集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《劉歆集》五卷",
+      "summary": "《劉歆集》五卷",
+      "merged_from": "1evgqa15z34lc",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉歆",
+      "role": "撰",
+      "dynasty": "西漢",
+      "entity_id": "1j967a0kj9gy0",
+      "note": "隋書經籍志題「漢太中大夫《劉歆集》五卷」，書名即撰人。劉歆（?-23）字子駿，劉向之子，撰《七略》。"
+    }
+  ],
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「西漢」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢太中大夫《劉歆集》五卷」、兩唐志、國史經籍志皆五卷，同為西漢劉歆別集，今合為一條並繫 entity `1j967a0kj9gy0`。"
 }
