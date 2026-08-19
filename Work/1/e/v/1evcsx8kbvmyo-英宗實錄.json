@@ -17,10 +17,20 @@
     }
   ],
   "id": "1evcsx8kbvmyo",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'陳文'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]",
-  "updated_at": "2026-08-09T10:49:16+00:00",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'陳文'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 全庫同名異書核對：本條為磁鐵：兼載宋史藝文志《英宗實錄》三十卷（宋英宗，韓琦、曾公亮等修）與明史藝文志《英宗實錄》三百六十一卷（明英宗，陳文等修），析出須新建 Work，依庫例暫存俟裁。直齋書錄解題《英宗實錄》三十卷（`1evr5e3mjo9in`）即宋英宗實錄，俟拆分後再併。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
   "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "gazetteer_propagation",
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷"
 }

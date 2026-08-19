@@ -8,6 +8,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《征南錄》",
       "summary": "滕甫《征南錄》一卷馮炳"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《征南錄》一卷",
+      "summary": "《征南錄》一卷",
+      "merged_from": "1evgphegw4x6o",
+      "note": "諸志同著《征南錄》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxf4rtvr4",
@@ -21,6 +29,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "滕甫",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「滕甫《征南錄》一卷馮炳」，前置撰人滕甫（即滕元發）；句末「馮炳」屬下條。"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《征南錄》一卷，今合併並據宋志前置撰人補為滕甫。"
 }

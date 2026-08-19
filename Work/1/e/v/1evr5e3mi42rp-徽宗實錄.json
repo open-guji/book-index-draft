@@ -4,14 +4,43 @@
   "type": "work",
   "title": "徽宗實錄",
   "juan_count": {
-    "number": 150
+    "number": 200
   },
   "indexed_by": [
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "徽宗實錄"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《徽宗實錄》",
+      "summary": "《徽宗實錄》二百卷李燾重修",
+      "merged_from": "1evcsx8mlnta8",
+      "note": "諸志同著《徽宗實錄》，係一書互著（或重出），今合併。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李燾",
+      "role": "重修",
+      "dynasty": "南宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「《徽宗實錄》二百卷李燾重修」。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 200
+    }
+  ],
+  "measure_info": "二百卷",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、直齋書錄解題同著《徽宗實錄》，一百五十卷、二百卷之異乃初修與李燾重修本之別，今合併，卷數從重修之二百卷。"
 }
