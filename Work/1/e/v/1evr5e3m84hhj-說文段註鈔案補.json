@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3m84hhj",
+  "type": "work",
+  "title": "說文段註鈔案補",
+  "authors": [
+    {
+      "name": "桂馥",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j967a0kjkpix"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "補",
+      "summary": "《說文解字義證》五十卷，《說文段註鈔案》一卷，《補一卷。桂馥撰。"
+    }
+  ],
+  "ai_note": "短書名（1字），可能存在同名異書。 來源：清史稿藝文志經部小學類\n\n2026-08-19 部帙通名截題正名專項：本條原題「補」，乃著錄原文「《說文解字義證》五十卷，《說文段註鈔案》一卷，《補一卷。桂馥撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《說文段註鈔案補》，目錄原題記於 original_title。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "resources": [],
+  "emendated_by": [],
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "補",
+  "related_works": [
+    {
+      "id": "1evr5e3m84hhi",
+      "title": "說文段注鈔案",
+      "relation": "part_of"
+    }
+  ]
+}

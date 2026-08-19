@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mcht49",
+  "type": "work",
+  "title": "東苑詩鈔",
+  "authors": [
+    {
+      "name": "毛先舒",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j967afj9av4d"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "詩鈔",
+      "summary": "潠書八卷，思古堂集四卷，東苑文鈔二卷，詩鈔一卷，小匡文鈔四卷，蕊雲集一卷，晚唱一卷。毛先舒撰。"
+    }
+  ],
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志集部別集類\n\n2026-08-19 部帙通名截題正名專項：本條原題「詩鈔」，乃著錄原文「潠書八卷，思古堂集四卷，東苑文鈔二卷，詩鈔一卷，小匡文鈔四卷，蕊雲集一卷，晚唱一卷。毛先舒撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《東苑詩鈔》，目錄原題記於 original_title。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "詩鈔",
+  "related_works": [
+    {
+      "id": "1ev3be5vjisjk",
+      "title": "東苑文鈔",
+      "relation": "part_of"
+    }
+  ]
+}

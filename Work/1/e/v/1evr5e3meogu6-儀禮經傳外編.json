@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3meogu6",
+  "type": "work",
+  "title": "儀禮經傳外編",
+  "authors": [
+    {
+      "name": "姜兆錫",
+      "role": "編",
+      "dynasty": "清",
+      "entity_id": "1j9678gg6p98n"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "外編",
+      "summary": "《儀禮經傳內編二十三卷，《外編五卷。姜兆錫撰。"
+    }
+  ],
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類\n\n2026-08-19 部帙通名截題正名專項：本條原題「外編」，乃著錄原文「《儀禮經傳內編二十三卷，《外編五卷。姜兆錫撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《儀禮經傳外編》，目錄原題記於 original_title。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "外編",
+  "related_works": [
+    {
+      "id": "1ev3ba0qzt9fk",
+      "title": "儀禮經傳內編",
+      "relation": "part_of"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3m8qyhp",
+  "type": "work",
+  "title": "剿平三省邪匪方略附編",
+  "authors": [
+    {
+      "name": "慶桂",
+      "role": "編",
+      "dynasty": "清",
+      "entity_id": "1j96gx6c4cw00"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "附編",
+      "summary": "《剿平三省邪匪方略前編》三百六十一卷，《續編》三十六卷，《附編》十二卷。嘉慶十五年，慶桂等奉敕撰。"
+    }
+  ],
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志史部紀事本末類\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（清史稿藝文志：「附編」）所載之 12 卷不合，今據原文訂正。\n\n2026-08-19 部帙通名截題正名專項：本條原題「附編」，乃著錄原文「《剿平三省邪匪方略前編》三百六十一卷，《續編》三十六卷，《附編》十二卷。嘉慶十五年，慶桂等奉敕撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《剿平三省邪匪方略附編》，目錄原題記於 original_title。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "附編",
+  "related_works": [
+    {
+      "id": "1evr5e3m8qyho",
+      "title": "剿平三省邪匪方略前編",
+      "relation": "part_of"
+    }
+  ]
+}
