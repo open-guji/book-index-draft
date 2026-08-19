@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《續事始》",
       "summary": "劉睿《續事始》三卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "續事始五卷",
+      "summary": "續事始五卷",
+      "merged_from": "1evr5e3mfxf1g",
+      "note": "諸志同著《續事始》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxyj8k9hc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "authors": [
+    {
+      "name": "劉睿",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「劉睿《續事始》三卷」，前置撰人劉睿。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《續事始》，三卷、五卷之異乃傳本之別，今合併並據宋志前置撰人補為劉睿。"
 }

@@ -14,6 +14,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《老子指歸》",
       "summary": "嚴遵《老子指歸》十三卷王弼"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "老子指歸十三卷",
+      "summary": "老子指歸十三卷",
+      "merged_from": "1evr5e3mgv4mc",
+      "note": "諸志同著《老子指歸》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpjouq7a4g",
@@ -27,6 +35,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "juan_count": {
+    "number": 13
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 13
+    }
+  ],
+  "measure_info": "十三卷",
+  "authors": [
+    {
+      "name": "嚴遵",
+      "role": "撰",
+      "dynasty": "西漢",
+      "entity_id": null,
+      "note": "宋史藝文志作「嚴遵《老子指歸》十三卷王弼」，前置撰人嚴遵；舊唐志則作「馮廓撰」（馮廓為之注）。句末「王弼」屬下條。"
+    }
+  ],
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「西漢」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、宋史藝文志、崇文總目同著《老子指歸》十三卷，今合併並據宋志前置撰人補為嚴遵（舊唐志作馮廓撰，蓋馮廓為之注）。"
 }
