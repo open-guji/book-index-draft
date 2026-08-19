@@ -20,6 +20,21 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "伏滔集",
       "summary": "伏滔集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《伏滔集》十一卷",
+      "summary": "《伏滔集》十一卷",
+      "merged_from": "1evgqav2pvoxs",
+      "note": "卷數與隋書經籍志全合，係承錄同書。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "伏滔集十一卷 謹按見《隋志》。本書《文苑》有傳。",
+      "merged_from": "1evfuv9rjvj0g",
+      "note": "補晉書藝文志案語自云「見《隋志》」，即本條隋志所著錄之書。"
     }
   ],
   "juan_count": {
@@ -41,5 +56,19 @@
     }
   ],
   "measure_info": "十一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "伏滔",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp21keua",
+      "note": "隋書經籍志題「晉《伏滔集》十一卷」，書名即撰人。伏滔字玄度，平昌安丘人，桓溫參軍，太元中拜著作郎專掌國史，見《晉書·文苑傳》（隋書經籍志考證引）。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，四源（隋志、舊唐志、新唐志、國史經籍志、補晉書藝文志）所著錄同為東晉伏滔別集，今合為一條並補撰人、繫 entity `1j967cp21keua`。卷數十一卷（隋志「十一卷並目錄」，自注「梁五卷，錄一卷」）與兩唐志五卷之異，乃隋唐間傳本存佚不同，非別為一書；補晉志案語自云「見《隋志》」，國史經籍志卷數與隋志全合，皆承錄同書。"
 }

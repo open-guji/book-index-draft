@@ -11,5 +11,43 @@
     }
   ],
   "id": "1evcs0phsck5c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "崔豹",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96hfoci3uv4",
+      "note": "新唐書藝文志雜家類著錄「崔豹古今注三卷」，書名即撰人。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "related_works": [
+    {
+      "id": "1evcs0h874sn4",
+      "title": "崔豹古今注",
+      "relation": "related",
+      "note": "新唐書藝文志儀注類同題一卷本，同一書目而兩類重出，卷數不同，疑為單篇摘出之別行本。"
+    },
+    {
+      "id": "1evgq0d1sp79c",
+      "title": "崔豹古今注",
+      "relation": "related",
+      "note": "國史經籍志同題五卷本，卷數與本條三卷不合，待考。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，據新唐書藝文志雜家類「崔豹古今注三卷」補撰人並繫 entity `1j96hfoci3uv4`。三卷為《古今注》通行卷數。新唐志儀注類另著錄同題一卷（見 `1evcs0h874sn4`），同書而兩類重出，卷數不同，疑一卷本為輿服等篇之單行摘出；國史經籍志作五卷（見 `1evgq0d1sp79c`）。三本卷數互異，證據不足以判定分合，並存以 related_works 互見待考。"
 }

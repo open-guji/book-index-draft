@@ -13,6 +13,22 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "抱朴子內篇二十一卷 音一卷葛洪,謹按見《隋志》。洪《自序》謂:“內篇二十卷。”《舊唐志》同,《新志》存十卷,當非完帐。今世所行本仍二十卷。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "抱朴子内篇二十卷",
+      "summary": "抱朴子内篇二十卷",
+      "merged_from": "1evr5e3mfxf0a",
+      "note": "二十卷與葛洪《自序》「內篇二十卷」及今世通行本全合。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《抱朴子内篇》一十卷",
+      "summary": "《抱朴子内篇》一十卷",
+      "merged_from": "1evgpnled14ao",
+      "note": "國史經籍志作十卷，補晉書藝文志已指出「《新志》存十卷，當非完帙」，係殘本卷數。"
     }
   ],
   "id": "1evcs0m692zgg",
@@ -26,10 +42,33 @@
       ]
     }
   ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "葛洪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967bgl62uk3",
+      "note": "補晉書藝文志本條原文即題「葛洪」，並引洪《自序》「內篇二十卷」。葛洪（283-343）字稚川，號抱朴子，書名即其號。"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "additional_titles": [
+    "抱朴子内篇"
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人之號，補晉書藝文志本條原題「葛洪」並引洪《自序》「內篇二十卷」，據補撰人並繫 entity `1j967bgl62uk3`（東晉葛洪，283-343；本庫另有同名 entity `1j967avzn7z9s` 為南宋人，非是）。新唐志、崇文總目皆二十卷，國史經籍志十卷，補晉志已辨「《新志》存十卷，當非完帙。今世所行本仍二十卷」，故卷數之異為傳本殘全，同為一書，今合為一條，卷數從二十卷。"
 }

@@ -20,6 +20,22 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "吳均集",
       "summary": "吳均集二十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《吳均集》二十卷",
+      "summary": "《吳均集》二十卷",
+      "merged_from": "1evgqbmi3oiyo",
+      "note": "卷數與隋書經籍志全合，係承錄同書。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "吴均集十卷",
+      "summary": "吴均集十卷",
+      "merged_from": "1evr5e3mhhlr6",
+      "note": "崇文總目所錄十卷，係宋時所存殘本，《梁書》本傳明云均「著文集二十卷」，非別為一書。"
     }
   ],
   "juan_count": {
@@ -41,5 +57,22 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "吳均",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": null,
+      "note": "隋書經籍志題「梁奉朝請《吳均集》二十卷」，書名即撰人。吳均（469-520）字叔庠，文體清拔有古氣，時稱「吳均體」，見《梁書》《南史·文學傳》（隋書經籍志考證引）。本庫現有「吳均」entity `1j96h8rw7k8wb` 為清人（卒 1831，CBDB 78071），與梁人同名異實，不得相繫，故 entity_id 留空。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "additional_titles": [
+    "吴均集"
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，隋志、舊唐志、新唐志、國史經籍志皆作二十卷，崇文總目作十卷，同為南朝梁吳均別集，今合為一條並補撰人。《梁書》本傳云均「著文集二十卷」，故二十卷為原帙，崇文總目十卷乃北宋時所存殘本，卷數之異非別為一書。本庫「吳均」entity 為清人（卒 1831），同名異實，未繫。"
 }
