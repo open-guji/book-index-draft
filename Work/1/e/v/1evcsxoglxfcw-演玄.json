@@ -11,5 +11,37 @@
     }
   ],
   "id": "1evcsxoglxfcw",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "許洞",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl62ujl",
+      "note": "宋史藝文志儒家類此段為連續頂真格（前條「徐鉉《質論》一卷許洞」句末之名前置為本條撰人，本條句末「刁衎」則下屬「刁衎《本說》十卷」）。許洞（976-1015）字洞元，蘇州吳縣人，撰《虎鈐經》。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "related_works": [
+    {
+      "id": "1evcsxoqali4g",
+      "title": "演玄",
+      "relation": "related",
+      "note": "宋史藝文志、國史經籍志所載陳漸《演玄》（宋志七卷、國史一卷），撰人、卷數俱異。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人「許洞」據宋史藝文志儒家類頂真格文例確定並繫 entity `1j967bgl62ujl`。宋志同類別出「陳漸《演玄》七卷」（見 `1evcsxoqali4g`，已併國史經籍志本），撰人、卷數俱異，別為一書。二人皆推演揚雄《太玄》者，同時而各有其書。"
 }
