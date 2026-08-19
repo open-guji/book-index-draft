@@ -8,15 +8,47 @@
       "role": "撰",
       "dynasty": "唐",
       "entity_id": "1j967da97jlz5"
+    },
+    {
+      "name": "徐子光",
+      "role": "補注",
+      "dynasty": "北宋",
+      "entity_id": "1j96hfpqaghz4"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《補注蒙求》",
+      "summary": "《補注蒙求》八卷",
+      "merged_from": "1evcsyh2f2fb4",
+      "note": "卷數與本記錄全合，逕併。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《補注蒙求》",
+      "summary": "徐子光《補注蒙求》四卷又",
+      "merged_from": "1evcsyh22w64g",
+      "note": "與八卷本緊鄰同段著錄，明載撰人徐子光，句末「又」承接下一條之同題八卷本，四卷／八卷當為同一補注之不同卷帙版本，姑併，屬同書著錄常見出入。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《補注蒙求》八卷",
+      "summary": "《補注蒙求》八卷。徐子光撰。以李翰《蒙求》句為之注。本句之外，兼及其人他事。",
+      "merged_from": "1evr5e3mjo9id",
+      "note": "明確印證撰人徐子光、原著李翰句之關係，卷數八卷全合。"
     }
   ],
   "description": {
-    "text": "本書收入《中華再造善本》唐宋編（ZHSY000251）。宋刻本。",
+    "text": "本書收入《中華再造善本》唐宋編（ZHSY000251）。宋刻本。原書題「（唐）李翰　撰　（宋）徐子光　補注」——李翰所撰即原書《蒙求》，徐子光為之補注而成《補注蒙求》。",
     "sources": [
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evcsyh22w64g();1evcsyh2f2fb4()（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-18 全庫同名異書核對：原記錄僅列李翰（《蒙求》原著撰人）一人，經核對書影資源檔名「(唐)李翰　撰(宋)徐子光　補注」，補入徐子光（role「補注」）；並將宋史藝文志同段落之八卷本、四卷本二條著錄併入，確係同書重出。",
   "juan_count": {
     "number": 8
   },
@@ -31,7 +63,7 @@
   "books": [
     "11qk4xwct6s76"
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-18T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
