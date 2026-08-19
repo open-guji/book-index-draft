@@ -13,6 +13,25 @@
       "edition": "",
       "volume": "第432冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《平蜀記》•一卷",
+      "author_info": "不著撰人名氏",
+      "summary": "不著撰人名氏。載明洪武四年遣湯和等伐蜀，明昇出降事。後附劉基《平西蜀頌》一篇。末有《袁褧跋》，稱《定遠黃金開國功臣錄》，載平蜀事於潁川侯傅友德、德慶侯廖永忠《傳》中甚詳。惟平章楊璟《與明昇書》，乃詳於斯記雲。",
+      "edition": "戶部尚書王際華家藏本",
+      "merged_from": "1ev3baf3vv3sw",
+      "note": "原誤併入 `1ev3baf3vv3sw`（該條實為補晉書藝文志所著錄之東晉十卷本），今移歸本條。"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《平蜀記》一卷",
+      "author_info": "闕名 撰",
+      "summary": "《平蜀記》一卷。闕名 撰 北京圖書館藏明藍格鈔國朝典故本。",
+      "merged_from": "1ev3baf3vv3sw",
+      "note": "所據為明藍格鈔《國朝典故》本，《國朝典故》乃明人所輯明代掌故叢書，正與四庫總目所記明洪武平蜀事相合。"
     }
   ],
   "description": {
@@ -21,7 +40,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3baf3vv3sw();1evgpkaesyu4g()。",
+  "ai_note": "2026-08-19 全庫同名異書核對：本條為明人所撰《平蜀記》一卷，記洪武四年遣湯和、傅友德等伐蜀，明昇出降事，後附劉基《平西蜀頌》，末有袁褧跋。續修四庫全書據「明嘉靖袁氏嘉趣堂刻金聲玉振集本」影印，四庫全書總目著錄之王際華家藏本亦即袁褧刻本系統（提要明言「末有《袁褧跋》」），四庫全書存目叢書所據明藍格鈔《國朝典故》本亦同書，故三源合為一條。原四庫總目、存目叢書兩條誤併於 `1ev3baf3vv3sw`（實為補晉書藝文志之東晉十卷本），今移歸。四庫提要明言「不著撰人名氏」，撰人不可考，維持留白。",
   "juan_count": {
     "number": 1
   },
@@ -35,18 +54,75 @@
   "id": "1evjr0guy1yww",
   "resources": [
     {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0432%E5%86%8A.pdf",
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=504075",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext-1",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=407575",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlisishiwuyangxian",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6134",
       "metadata": {
-        "volume": 432
+        "edition": "萬曆四十五年(1617)陽羡陳于廷刻本",
+        "version": "v5",
+        "total_page": 18,
+        "paragraph_count": 16,
+        "has_translation": true,
+        "check_type": "粗校"
       },
       "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-jiajingershijiusansh",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY7057",
+      "metadata": {
+        "edition": "嘉靖二十九至三十年（1550-1551）吳縣袁氏嘉趣堂刻本",
+        "version": "v4",
+        "total_page": 18,
+        "paragraph_count": 18,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
         "image"
       ]
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00",
-  "_has_image": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_image": true,
+  "dynasty": "明",
+  "dynasty_basis": "著錄內容：所記為明洪武四年平蜀事",
+  "period": "ming",
+  "period_basis": "據 dynasty「明」",
+  "_has_text": true,
+  "related_works": [
+    {
+      "id": "1ev3baf3vv3sw",
+      "title": "平蜀記",
+      "relation": "related",
+      "note": "補晉書藝文志著錄之十卷本，記東晉桓溫平李勢事，與本條同題異書。"
+    },
+    {
+      "id": "1evgpkaesyu4g",
+      "title": "平蜀記",
+      "relation": "related",
+      "note": "崇文總目、國史經籍志著錄之一卷本，成書遠早於明，非本條之書。"
+    }
+  ]
 }

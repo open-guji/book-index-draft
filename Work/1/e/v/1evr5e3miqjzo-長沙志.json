@@ -11,7 +11,44 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "長沙志"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《長沙志》五十二卷",
+      "summary": "《長沙志》五十二卷",
+      "merged_from": "1evgpjwnblwxs",
+      "note": "卷數與直齋書錄解題全合，同為紹熙二年褚孝錫等所修之五十二卷本，今合併。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "褚孝錫",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": null,
+      "note": "直齋書錄解題：「郡守趙善俊以紹熙二年命教授褚孝錫等七人撰。」褚氏為主修者，其餘六人姓名未詳。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 52
+    }
+  ],
+  "measure_info": "五十二卷",
+  "dynasty": "南宋",
+  "dynasty_basis": "著錄內容：紹熙二年（1191）修",
+  "period": "song",
+  "period_basis": "據 dynasty「南宋」",
+  "related_works": [
+    {
+      "id": "1evcsxnc1pa80",
+      "title": "長沙志",
+      "relation": "related",
+      "note": "宋史藝文志著錄之「褚孝錫《長沙志》十一卷」，撰人與本條同，而卷數懸殊，或為節本、或係卷數傳寫之誤，亦或即直齋所載《續長沙志》十一卷之混題，待考。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：直齋書錄解題「《長沙志》五十二卷：郡守趙善俊以紹熙二年命教授褚孝錫等七人撰。時陳止齋將漕，相與考訂商略，故序言當與《長樂志》並也」，撰人、年代明確。國史經籍志同題五十二卷本（原 `1evgpjwnblwxs`）卷數全合，係承錄同書，今併入並據直齋補撰人。宋史藝文志別有「褚孝錫《長沙志》十一卷」（見 `1evcsxnc1pa80`），撰人相同而卷數懸殊，未敢遽合，以 related_works 互見待考。本庫無褚孝錫 entity，未繫。"
 }

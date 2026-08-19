@@ -11,7 +11,8 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《五代登科記》一卷",
       "summary": "《五代登科記》一卷（趙𫢺修）",
-      "author_info": "趙𫢺修"
+      "author_info": "趙𫢺修",
+      "note": "國史經籍志史類同卷已別出裸題「《五代登科記》一卷」（見 `1evcsxe5smkg0`），焦竑分列兩條，故本條當為別本。"
     }
   ],
   "description": {
@@ -28,5 +29,22 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "趙𫢺",
+      "role": "修",
+      "entity_id": null,
+      "note": "國史經籍志原注「趙𫢺修」。本庫無此 entity，生平未詳。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evcsxe5smkg0",
+      "title": "五代登科記",
+      "relation": "related",
+      "note": "宋史藝文志、直齋書錄解題、國史經籍志所載不著名氏之一卷本，直齋謂洪適並傳之。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人據國史經籍志原注「趙𫢺修」補入。焦竑於史類同卷既別出裸題「《五代登科記》一卷」（即宋志、直齋所載不著名氏本，見 `1evcsxe5smkg0`），又出本條，顯係視為兩書，故不合併，以 related_works 互見。趙𫢺生平未詳，本庫無 entity，未繫。"
 }
