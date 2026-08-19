@@ -38,6 +38,22 @@
       "summary": "相笏經一卷",
       "merged_from": "1evr5e3mgjw84",
       "note": "裸題，卷數合，姑併。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《相笏經》",
+      "summary": "《相笏經》三卷陳混掌",
+      "note": "《相笏經》（混掌）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。",
+      "merged_from": "1evcsy66wo3r4"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "相笏經三卷",
+      "summary": "相笏經三卷",
+      "merged_from": "1evcsy66wo3r4",
+      "note": "《相笏經》（混掌）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "description": {
@@ -46,15 +62,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-19 全庫同名異書核對：併入宋史藝文志一卷本（明載「陳混掌」，即本條撰人「混掌」冠以朝代之稱）、崇文總目裸題一卷本二源，確係同書重出。國史經籍志原句合載一卷、又三卷二種著錄，三卷部分非本書，另見 `1evcsy66wo3r4`（已據本條之「（陳混掌）」補撰人），以 related_works 互見。",
-  "related_works": [
-    {
-      "id": "1evcsy66wo3r4",
-      "title": "相笏經",
-      "relation": "related",
-      "note": "同撰人陳混掌之三卷本，國史經籍志「一卷、又三卷（陳混掌）」句合載二者。"
-    }
-  ],
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《相笏經》（混掌）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。",
   "id": "1evgq3jjf3gg0",
   "measures": [
     {

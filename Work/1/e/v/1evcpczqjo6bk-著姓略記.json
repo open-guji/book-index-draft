@@ -16,6 +16,15 @@
       "summary": "又著姓略記二十卷",
       "merged_from": "1evcs0j2qv5s0",
       "note": "諸志同著《著姓略記》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《著姓略記》二十卷",
+      "summary": "《著姓略記》二十卷（路敬淳）",
+      "author_info": "路敬淳",
+      "merged_from": "1evgpkgbtt3pc",
+      "note": "《著姓略記》（路敬淳）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "id": "1evcpczqjo6bk",
@@ -43,5 +52,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《著姓略記》，舊唐志十卷、新唐志二十卷，乃傳本分卷之異，今合併並據舊唐志補撰人為路敬淳。"
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《著姓略記》（路敬淳）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
 }

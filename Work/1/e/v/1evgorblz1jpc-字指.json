@@ -12,6 +12,29 @@
       "title_info": "《字指》二卷",
       "summary": "《字指》二卷（晉李□）",
       "author_info": "晉李□"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "title_info": "字指二卷",
+      "summary": "字指二卷\n朝議大夫李彤。謹按見《隋志》。",
+      "merged_from": "1evfugveyqadc",
+      "note": "《字指》（李彤）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "字指",
+      "summary": "晉李彤《字指》一卷。",
+      "merged_from": "1evilzh2y4ydc",
+      "note": "《字指》（李彤）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "字指二卷 朝議大夫李彤。謹按見《隋志》。",
+      "merged_from": "1evilzh2y4ydc",
+      "note": "《字指》（李彤）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "description": {
@@ -42,5 +65,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為國史經籍志《字指》二卷（注「晉李□」），與補晉書藝文志《字指》二卷（`1evfugveyqadc`）當即一書，姑並存互見。"
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《字指》（李彤）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
 }

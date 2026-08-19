@@ -24,6 +24,23 @@
       "summary": "《埤蒼》三卷張揖撰。梁有《廣蒼》一卷，樊恭撰，亡。",
       "merged_from": "1evc5per0ho8w",
       "note": "《埤蒼》與《埤蒼張揖撰》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "埤蒼",
+      "summary": "魏張揖《埤蒼》一卷。",
+      "merged_from": "1evr5e3meogvw",
+      "note": "《埤蒼》（張揖）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《埤蒼》三卷",
+      "summary": "《埤蒼》三卷（張楫）",
+      "author_info": "張楫",
+      "merged_from": "1evr5e3meogvw",
+      "note": "《埤蒼》（張揖）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "id": "1evcpcv181yio",
@@ -51,7 +68,7 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
-  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《埤蒼》，庫中別有題《埤蒼張揖撰》者（`1evc5per0ho8w`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《埤蒼》（張揖）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",

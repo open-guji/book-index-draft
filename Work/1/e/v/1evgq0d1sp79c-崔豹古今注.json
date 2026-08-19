@@ -11,6 +11,22 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《崔豹古今注》五卷",
       "summary": "《崔豹古今注》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "崔豹古今注",
+      "summary": "崔豹古今注三卷",
+      "merged_from": "1evcs0phsck5c",
+      "note": "《崔豹古今注》（崔豹）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "崔豹古今注",
+      "summary": "崔豹古今注一卷",
+      "merged_from": "1evcs0h874sn4",
+      "note": "《崔豹古今注》（崔豹）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "description": {
@@ -19,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，據國史經籍志「《崔豹古今注》五卷」補撰人並繫 entity `1j96hfoci3uv4`。崔豹《古今注》通行本三卷（新唐志雜家類同，見 `1evcs0phsck5c`），本條五卷未見他志著錄，或係焦竑鈔撮時卷數傳寫之誤，或別有五卷之析卷本，證據不足，並存待考。",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《崔豹古今注》（崔豹）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。",
   "id": "1evgq0d1sp79c",
   "measures": [
     {
@@ -41,19 +57,5 @@
   "dynasty": "西晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」",
-  "related_works": [
-    {
-      "id": "1evcs0phsck5c",
-      "title": "崔豹古今注",
-      "relation": "related",
-      "note": "新唐書藝文志雜家類同題三卷本，即《古今注》通行卷數。"
-    },
-    {
-      "id": "1evcs0h874sn4",
-      "title": "崔豹古今注",
-      "relation": "related",
-      "note": "新唐書藝文志儀注類同題一卷本。"
-    }
-  ]
+  "period_basis": "據 authors[0].dynasty「西晉」"
 }

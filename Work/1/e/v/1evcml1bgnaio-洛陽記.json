@@ -16,6 +16,23 @@
       "summary": "《洛陽記》一卷戴延之撰。",
       "merged_from": "1evcpjohpcu80",
       "note": "諸志同著《洛陽記》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《洛陽記》一卷",
+      "summary": "《洛陽記》一卷（戴延之）",
+      "author_info": "戴延之",
+      "merged_from": "1evgpjp1g4740",
+      "note": "《洛陽記》（戴延之）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "戴延之洛陽記",
+      "summary": "戴延之洛陽記一卷",
+      "merged_from": "1evgpjp1g4740",
+      "note": "《洛陽記》（戴延之）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "juan_count": {
@@ -62,5 +79,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、舊唐書經籍志同著《洛陽記》，四卷、一卷之異乃傳本殘全之別，今合併並據舊唐志補撰人為戴延之。"
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《洛陽記》（戴延之）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
 }
