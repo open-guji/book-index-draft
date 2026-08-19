@@ -4840,18 +4840,18 @@
   "period": "ming"
  },
  "1ev3bck7g5wjk": {
-  "type": "Work",
-  "juan_count": 18,
-  "role": "注",
-  "has_text": true,
-  "dynasty": "東晉",
-  "measure_info": "十八卷",
-  "has_image": true,
-  "period": "jin",
   "id": "1ev3bck7g5wjk",
-  "path": "Work/1/e/v/1ev3bck7g5wjk-山海經.json",
   "title": "山海經",
-  "author": "郭璞"
+  "type": "Work",
+  "path": "Work/1/e/v/1ev3bck7g5wjk-山海經.json",
+  "author": "郭璞",
+  "dynasty": "東晉",
+  "role": "注",
+  "juan_count": 18,
+  "measure_info": "十八卷",
+  "has_text": true,
+  "has_image": true,
+  "period": "jin"
  },
  "1ev3bckcsrbpc": {
   "type": "Work",
@@ -8424,10 +8424,15 @@
   "role": "撰",
   "juan_count": 20,
   "measure_info": "二十卷",
+  "additional_titles": [
+   "論語經",
+   "古論語",
+   "論"
+  ],
   "has_text": true,
   "has_image": true,
-  "period": "qing",
-  "loss_status": "lost"
+  "subtype": "book",
+  "period": "pre-qin"
  },
  "1ev7xkh6icbuo": {
   "type": "Work",
@@ -8752,14 +8757,16 @@
  },
  "1ev85dj2nnmkg": {
   "id": "1ev85dj2nnmkg",
-  "type": "Work",
-  "juan_count": 22,
   "title": "論語齊",
-  "dynasty": "齊",
-  "measure_info": "二十二篇",
+  "type": "Work",
   "path": "Work/1/e/v/1ev85dj2nnmkg-論語齊.json",
-  "loss_status": "partially_extant",
-  "period": "nanbeichao"
+  "juan_count": 22,
+  "measure_info": "二十二篇",
+  "additional_titles": [
+   "齊論語",
+   "齊論"
+  ],
+  "period": "pre-qin"
  },
  "1ev85dj5v5fk0": {
   "type": "Work",
@@ -9120,7 +9127,6 @@
   "additional_titles": [
    "圣證論王肅撰"
   ],
-  "period": null,
   "dynasty": null
  },
  "1evc5peocz20w": {
@@ -10933,7 +10939,6 @@
   "role": "撰",
   "dynasty": "宋、齊",
   "measure_info": "一卷",
-  "period": "nanbeichao",
   "id": "1evcpk0394t1c",
   "path": "Work/1/e/v/1evcpk0394t1c-毛詩集解敘義.json",
   "title": "毛詩集解敘義",
@@ -12855,7 +12860,8 @@
   "author": "鄭正則",
   "role": "撰",
   "juan_count": 1,
-  "measure_info": "一卷"
+  "measure_info": "一卷",
+  "period": "sui-tang"
  },
  "1evcsxgeaaj28": {
   "id": "1evcsxgeaaj28",
@@ -12889,7 +12895,8 @@
   "author": "呂大防",
   "role": "撰",
   "juan_count": 1,
-  "measure_info": "一卷"
+  "measure_info": "一卷",
+  "period": "song"
  },
  "1evcsxgvfeozk": {
   "id": "1evcsxgvfeozk",
@@ -28223,47 +28230,51 @@
  },
  "1evhmgacnv7y8": {
   "id": "1evhmgacnv7y8",
+  "title": "宮之奇諫假道",
   "type": "Work",
+  "path": "Work/1/e/v/1evhmgacnv7y8-宮之奇諫假道.json",
+  "author": "左丘明",
+  "dynasty": "春秋魯",
   "role": "作",
   "has_text": true,
-  "dynasty": "春秋魯",
   "subtype": "article",
-  "path": "Work/1/e/v/1evhmgacnv7y8-宮之奇諫假道.json",
-  "title": "宮之奇諫假道",
-  "author": "左丘明"
+  "period": "pre-qin"
  },
  "1evhmgahrercw": {
   "id": "1evhmgahrercw",
+  "title": "齊桓下拜受胙",
   "type": "Work",
+  "path": "Work/1/e/v/1evhmgahrercw-齊桓下拜受胙.json",
+  "author": "左丘明",
+  "dynasty": "春秋魯",
   "role": "作",
   "has_text": true,
-  "dynasty": "春秋魯",
   "subtype": "article",
-  "path": "Work/1/e/v/1evhmgahrercw-齊桓下拜受胙.json",
-  "title": "齊桓下拜受胙",
-  "author": "左丘明"
+  "period": "pre-qin"
  },
  "1evhmgeslqo00": {
   "id": "1evhmgeslqo00",
+  "title": "敬姜論勞逸",
   "type": "Work",
+  "path": "Work/1/e/v/1evhmgeslqo00-敬姜論勞逸.json",
+  "author": "左丘明",
+  "dynasty": "春秋魯",
   "role": "作",
   "has_text": true,
-  "dynasty": "春秋魯",
   "subtype": "article",
-  "path": "Work/1/e/v/1evhmgeslqo00-敬姜論勞逸.json",
-  "title": "敬姜論勞逸",
-  "author": "左丘明"
+  "period": "pre-qin"
  },
  "1evhmgjdih3b4": {
   "id": "1evhmgjdih3b4",
+  "title": "宋玉對楚王問",
   "type": "Work",
+  "path": "Work/1/e/v/1evhmgjdih3b4-宋玉對楚王問.json",
+  "author": "宋玉",
+  "dynasty": "先秦",
   "role": "作",
   "has_text": true,
-  "dynasty": "先秦",
   "subtype": "article",
-  "path": "Work/1/e/v/1evhmgjdih3b4-宋玉對楚王問.json",
-  "title": "宋玉對楚王問",
-  "author": "宋玉"
+  "period": "pre-qin"
  },
  "1evhmgjikgg00": {
   "type": "Work",
@@ -35525,14 +35536,15 @@
  },
  "1evkamy875erk": {
   "id": "1evkamy875erk",
-  "type": "Work",
-  "juan_count": 2,
-  "role": "撰",
-  "dynasty": "先秦",
-  "measure_info": "二冊",
-  "path": "Work/1/e/v/1evkamy875erk-韓子迂評.json",
   "title": "韓子迂評",
-  "author": "韓非"
+  "type": "Work",
+  "path": "Work/1/e/v/1evkamy875erk-韓子迂評.json",
+  "author": "韓非",
+  "dynasty": "先秦",
+  "role": "撰",
+  "juan_count": 2,
+  "measure_info": "二冊",
+  "period": "pre-qin"
  },
  "1evkan0tyeghs": {
   "id": "1evkan0tyeghs",
@@ -39652,7 +39664,6 @@
   "role": "譯",
   "dynasty": "西夏",
   "measure_info": "存卷七，卷九",
-  "period": "liao-jin-yuan",
   "id": "1evkq3zl06ha8",
   "path": "Work/1/e/v/1evkq3zl06ha8-金光明最勝王經.json",
   "title": "金光明最勝王經",

@@ -11,6 +11,11 @@
       "dynasty": "先秦",
       "entity_id": "1j96ha6py6n7k",
       "dynasty_basis": "entity_propagation:1j96ha6py6n7k"
+    },
+    {
+      "name": "戰國孫臏",
+      "role": "撰",
+      "dynasty": ""
     }
   ],
   "juan_count": {
@@ -29,6 +34,16 @@
       "section": "兵書略／兵權謀",
       "page": "KR2a0007_WYG_030-46b",
       "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。本條屬第二輪覆核——首輪未中，因底本用字或斷句與kanripo本小異（如竒／奇、逺／遠、歴／曆之屬），或因原句含「以、自、其、於、故、者」等字誤觸解析時區分著錄行與小序之判準，經以異體字表與比對後乃定。"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《孫臏兵法十六篇》",
+      "author_info": "戰國孫臏撰",
+      "summary": "《孫臏兵法十六篇》。戰國孫臏撰。影印1985年銀雀山漢墓竹简整理小組重編本。",
+      "edition": "影印1985年銀雀山漢墓竹简整理小組重編本",
+      "volume": "第959冊",
+      "section": "子部 兵家類"
     }
   ],
   "id": "1ev7xm2khqigw",
@@ -57,12 +72,28 @@
       "types": [
         "text"
       ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0959%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 959
+      },
+      "types": [
+        "image"
+      ]
     }
   ],
   "measures": [
     {
       "unit": "卷",
       "number": 30
+    },
+    {
+      "unit": "篇",
+      "number": 16
     }
   ],
   "measure_info": "三十卷",
@@ -78,7 +109,7 @@
     }
   ],
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。 | 從 1evjr3k5q21a8《孫臏兵法》合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。",
   "loss_status_note": "原作 lost，今改 partially_extant。與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。（覆核於存佚普查，非機讀。）",
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,
