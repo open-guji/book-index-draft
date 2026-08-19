@@ -9,12 +9,20 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "洪恩靈濟真人文集八卷",
       "summary": "元洪恩靈濟真人文集八卷"
+    },
+    {
+      "source": "補遼金元藝文志",
+      "source_bid": "1eve1ek5qq9kw",
+      "title_info": "洪恩靈濟真人文集八卷",
+      "summary": "元洪恩靈濟真人文集八卷",
+      "merged_from": "1evgaek4izmyo",
+      "note": "同題之另一著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
     "number": 8
   },
-  "ai_note": "元史藝文志失名 [ljy-round2: dynasty null→遼金元; 來源=元史藝文志]",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：元史藝文志、補遼金元藝文志所著錄同為一書，今合為一條（諸源皆不著撰人，維持留白）。元史藝文志與補遼金元藝文志著錄全同，係二志重出。",
   "id": "1evgc0ewxkw74",
   "measures": [
     {
@@ -23,9 +31,9 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-09T10:30:14+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：元史藝文志",
-  "dynasty": "遼金元",
-  "dynasty_basis": "gazetteer_propagation"
+  "period_basis": "據 authors[0].dynasty「元」",
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }
