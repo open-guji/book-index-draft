@@ -2,16 +2,31 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易新林",
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《周易新林》四卷",
       "summary": "《周易新林》四卷郭璞撰。梁有《周易雜占》十卷，葛洪撰。亡。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "周易新林四卷 郭璞。謹按見《隋志》。璞傳言:“又鈔京、費諸家要最,更撰《新林》十篇。”即此書。《日本現在書日》五行家載璞《周易新林占》三卷,當即此書。",
+      "merged_from": "1evfuv0v7l24g",
+      "note": "自注「謹按見《隋志》」，卷數四卷相合，確為同書。"
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 4
   },
   "id": "1evcmnfikmrk0",
   "emendated_by": [
@@ -25,10 +40,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 4
     }
   ],
-  "measure_info": "二卷",
+  "measure_info": "四卷",
   "related_works": [
     {
       "id": "1evl7l48e27ls",
@@ -36,6 +51,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "loss_status": "lost",
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-19 全庫同名異書核對：訂正 juan_count／measure_info 欄位錯值（原誤作「二卷」，與 title_info／emendated_by 皆載之「四卷」不合，今訂正）；撰人本已見於引文「郭璞撰」，僅頂層 authors 欄漏收，今補入；併入補晉書藝文志（自注「謹按見《隋志》」，卷數合），確係同書。與隋志本段另一郭璞撰九卷本（見 `1evcmnfiqvif4`）為隋志自身並列之兩種不同卷數著錄，非重出，維持獨立。",
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }
