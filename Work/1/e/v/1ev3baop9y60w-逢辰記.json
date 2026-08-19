@@ -3,7 +3,15 @@
   "id": "1ev3baop9y60w",
   "type": "work",
   "title": "逢辰記",
-  "authors": [],
+  "authors": [
+    {
+      "name": "呂頤浩",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": "1j967bgl8kqvy",
+      "note": "四庫總目提要引「《宋史·藝文志》著錄，注雲呂頤浩曆官次序」，是本書記呂頤浩歷官之事，撰人題呂頤浩。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -19,30 +27,30 @@
       "summary": "逢辰記",
       "merged_from": "1evr5e3mjzi64",
       "note": "直齋書錄解題「記建炎丞相呂頤浩元直事。孫昭問刻之廣德軍」，與四庫提要所述「呂頤浩曆官次序」「此記乃頤浩後人所撰」相合，卷數全同。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《逢辰記》三卷",
+      "summary": "《逢辰記》三卷",
+      "merged_from": "1evgpj7i5wi68",
+      "note": "諸志同著《逢辰記》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 3
   },
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 3
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "三卷",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "dynasty": "南宋",
-  "dynasty_basis": "著錄內容：所記為建炎丞相呂頤浩事，四庫提要謂「此記乃頤浩後人所撰」",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
-  "period_basis": "據 dynasty「南宋」",
-  "related_works": [
-    {
-      "id": "1evgpj7i5wi68",
-      "title": "逢辰記",
-      "relation": "related",
-      "note": "國史經籍志同題三卷本，卷數與本條一卷不合，待考。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：欽定四庫全書總目一卷本與直齋書錄解題一卷本同為一書，今合為一條。四庫提要「不著撰人名氏。《宋史·藝文志》著錄，注雲呂頤浩曆官次序……則此記乃頤浩後人所撰矣」，直齋「記建炎丞相呂頤浩元直事。孫昭問刻之廣德軍」，二說相合——所記為呂頤浩事而撰者為其後人，姓名不可考，故 authors 維持留白，僅據以定時代為南宋。國史經籍志同題三卷本（見 `1evgpj7i5wi68`）卷數不合，未敢遽合，互見待考。"
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：欽定四庫全書總目、直齋書錄解題、國史經籍志同著《逢辰記》，一卷、三卷之異乃傳本之別，今合併並據四庫提要補撰人為呂頤浩。"
 }

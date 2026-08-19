@@ -14,8 +14,39 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "燕南記三卷",
       "summary": "燕南記三卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "燕南記",
+      "merged_from": "1evr5e3mjzi6i",
+      "note": "諸志同著《燕南記》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxdaeyqkg",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "authors": [
+    {
+      "name": "穀況",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "宋史藝文志作「穀況《燕南記》三卷鄭澥」，前置撰人穀況；句末「鄭澥」屬下條。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、直齋書錄解題同著《燕南記》三卷，今合併並據宋志前置撰人補為穀況。"
 }

@@ -14,8 +14,41 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "西河記",
       "summary": "西河記二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《西河記》二卷",
+      "summary": "《西河記》二卷（喻歸記張重華事。）",
+      "author_info": "喻歸記張重華事。",
+      "merged_from": "1evgph6aezcow",
+      "note": "諸志同著《西河記》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpjoqefv28",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "authors": [
+    {
+      "name": "喻歸",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hf0twyhhc",
+      "note": "國史經籍志注「喻歸記張重華事」，隋志亦題喻歸撰；舊唐書經籍志作「段龜龍撰」，與其《涼記》相亂，當以喻歸為是。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《西河記》二卷，今合併。撰人舊唐志作段龜龍、國史經籍志注作喻歸——段龜龍所撰乃《涼記》，此當以喻歸為是，故從之，舊唐志之異說存於 indexed_by。"
 }

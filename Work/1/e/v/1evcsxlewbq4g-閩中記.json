@@ -14,8 +14,39 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "閩中記十卷",
       "summary": "閩中記十卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "閩中記",
+      "merged_from": "1evr5e3mklz50",
+      "note": "諸志同著《閩中記》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxlewbq4g",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "authors": [
+    {
+      "name": "林諝",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96hfu8i44cg",
+      "note": "宋史藝文志作「林諝《閩中記》十卷盧肇」，前置撰人林諝；句末「盧肇」屬下條。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、直齋書錄解題同著《閩中記》十卷，今合併並據宋志前置撰人補為林諝。"
 }

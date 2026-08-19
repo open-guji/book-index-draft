@@ -8,8 +8,40 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《二石記》二十卷",
       "summary": "《二石記》二十卷田融撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又二石記",
+      "summary": "又二石記二十卷",
+      "merged_from": "1evcs0c71fncw",
+      "note": "諸志同著《二石記》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpcwafa29s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "田融",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96kegl8wc1s",
+      "note": "舊唐書經籍志明載「《二石記》二十卷田融撰」；新唐志承前作「又二石記二十卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《二石記》二十卷，今合併。撰人據舊唐志補為田融（記後趙石勒、石虎事）。"
 }
