@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "略論",
+  "authors": [
+    {
+      "name": "張璠",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96hhvcr8mxf",
+      "note": "新唐書藝文志易類本條句首「又」頂真格承前條「張璠集解十卷」，即張璠《周易集解》之外別撰之《周易略論》。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -10,6 +29,11 @@
       "summary": "又略論一卷"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：核對新唐書藝文志易類原文，本條句首「又」頂真格承前條「張璠集解十卷」，補撰人張璠（西晉史學家，撰《後漢紀》《周易集解》），本書即其《周易略論》一卷。與同題僧玄憚二卷本（見 `1evgptqldu77k`）、楊上善三卷本（見 `1evcpd12865fk`）分屬易學、釋道二不同門類，非同書。",
   "id": "1evcs06yax3b4",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "updated_at": "2026-08-19T00:00:00-07:00"
 }
