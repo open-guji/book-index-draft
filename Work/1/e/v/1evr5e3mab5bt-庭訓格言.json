@@ -22,7 +22,7 @@
       "summary": "聖諭廣訓一卷。聖諭，聖祖御撰；廣訓，世宗推繹。庭訓格言一卷。雍正八年，世宗御纂。"
     }
   ],
-  "ai_note": "書名由「世宗推繹。庭訓格言一卷」修正為「庭訓格言」。",
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《庭訓格言》，庫中別有題《聖祖庭訓格言》者（`1evkpo960dhc0`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。",
   "measures": [
     {
       "unit": "卷",
@@ -32,11 +32,16 @@
   "measure_info": "一卷",
   "books": [
     "11qkhsao8i800",
-    "11qki2kya32f4"
+    "11qki2kya32f4",
+    "11qki3optbxts",
+    "11qki3oqsaio0"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "聖祖庭訓格言"
+  ]
 }

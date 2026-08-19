@@ -26,6 +26,20 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記新義疏》（賀瑒）",
+      "summary": "隋志二十卷",
+      "section": "禮記",
+      "juan": "卷一百四十",
+      "page": "KR2n0011_WYG_140-7a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evc5pd3xtvcw",
+      "note": "《禮記新義疏》與《禮記新義疏賀瑒撰》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
     }
   ],
   "id": "1evcpk00qaqyo",
@@ -52,11 +66,25 @@
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evcpk00qaqyo/fragments/禮記新義疏.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/禮記新義疏.json（該檔之值經人工校讀，非機讀所生）。",
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《禮記新義疏》，庫中別有題《禮記新義疏賀瑒撰》者（`1evc5pd3xtvcw`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。",
   "loss_status": "lost",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "禮記新義疏賀玚撰",
+    "禮記新義疏賀瑒撰"
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷"
 }
