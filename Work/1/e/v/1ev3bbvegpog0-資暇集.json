@@ -3,7 +3,15 @@
   "id": "1ev3bbvegpog0",
   "type": "work",
   "title": "資暇集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "李匡乂",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "書目答問明載「《資暇集》三卷。唐李匡乂」；四庫總目提要亦考其名之避諱異寫（作「李匡文」「李濟翁」），實一人。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -18,6 +26,13 @@
       "title_info": "資暇集",
       "summary": "《資暇集》三卷。{{唐李匡乂。《續百川》本。}}",
       "author_info": "李匡乂"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "資暇集",
+      "merged_from": "1evr5e3mj1seq",
+      "note": "直齋書錄解題《資暇集》，與四庫總目、書目答問所錄同書，今合併。直齋作二卷，四庫、書目答問皆作三卷，乃分卷之異。"
     }
   ],
   "books": [
@@ -115,7 +130,12 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：直齋書錄解題《資暇集》併入本條。撰人據書目答問「唐李匡乂」補；四庫總目提要於其名之避諱異寫（匡文、濟翁）辨之甚詳。"
 }

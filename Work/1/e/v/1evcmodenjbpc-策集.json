@@ -11,15 +11,29 @@
     }
   ],
   "juan_count": {
-    "number": 6
+    "number": 1
   },
   "id": "1evcmodenjbpc",
   "measures": [
     {
       "unit": "卷",
-      "number": 6
+      "number": 1
     }
   ],
-  "measure_info": "六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measure_info": "一卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "殷仲堪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96h8rw7k8xn",
+      "note": "隋書經籍志明載「《策集》一卷殷仲堪撰」。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：本條著錄原文作「《策集》一卷殷仲堪撰」，而 juan_count 原誤作六（與同志謝靈運六卷本相混），今訂正為一。與謝靈運《策集》六卷（`1evcmodet5lhc`）同題異書，撰人、卷數俱異，未予合併。"
 }
