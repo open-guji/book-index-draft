@@ -14,8 +14,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《張說集》",
       "summary": "《張說集》三十卷又"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《張說集》三十卷",
+      "summary": "《張說集》三十卷",
+      "merged_from": "1evgqbzb2dpmo",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcs14b6f08w",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "張說",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl7y9u4",
+      "note": "書名即撰人。張說（667-730）字道濟，唐開元名相，稱「燕許大手筆」。"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，新唐志二十卷、宋志三十卷、國史經籍志三十卷，同為唐張說別集，今合為一條並繫 entity `1j967bgl7y9u4`。卷數二十／三十之異為傳本分合，從宋志、國史三十卷。"
 }
