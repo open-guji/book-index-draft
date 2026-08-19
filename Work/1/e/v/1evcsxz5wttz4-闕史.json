@@ -2,14 +2,53 @@
   "schema_version": 1,
   "type": "work",
   "title": "闕史",
+  "authors": [
+    {
+      "name": "高彥休",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl7n1b1"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《闕史》",
-      "summary": "高彥休《闕史》三卷林思（（一作“黃仁望”））"
+      "summary": "高彥休《闕史》三卷林思（（一作“黃仁望”））",
+      "note": "句末「林思（一作黃仁望）」承接下一條，非本條撰人誤植。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "闕史三卷",
+      "summary": "闕史三卷",
+      "merged_from": "1evr5e3mfay27"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《闕史》三卷",
+      "summary": "《闕史》三卷（唐高彦休記大曆至乾符事。）",
+      "author_info": "唐高彦休記大曆至乾符事。",
+      "merged_from": "1evgphan6x6gw"
     }
   ],
   "id": "1evcsxz5wttz4",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「高彥休《闕史》三卷」，僅頂層 authors 欄漏收，今補入，繫既有高彥休 entity；併入崇文總目、國史經籍志同卷數（三卷）著錄，確係同書重出。本組另有《闕史》一卷本（`1evcsxynfycxs`，宋史藝文志「（並不知作者）《闕史》一卷（參寥子述）」），核對上下文屬另一組零散無名氏小說雜著（同段有《吳越會粹》《佛孝經》等亦皆「不知作者」），與本書撰人卷數皆異，非同書，未予合併。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

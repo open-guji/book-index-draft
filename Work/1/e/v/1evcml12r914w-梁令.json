@@ -2,6 +2,14 @@
   "schema_version": 1,
   "type": "work",
   "title": "梁令",
+  "authors": [
+    {
+      "name": "蔡法度",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j96gx70l8kxs"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -20,6 +28,27 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《梁令》",
       "summary": "《梁令》三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《梁令》三十卷",
+      "summary": "《梁令》三十卷",
+      "merged_from": "1evgpio841wxs"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又梁令",
+      "summary": "又梁令三十卷",
+      "merged_from": "1evcs0i2flatc"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "梁令三十卷",
+      "summary": "梁令三十卷",
+      "merged_from": "1evr5e3mfm6gs"
     }
   ],
   "juan_count": {
@@ -41,5 +70,10 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-18 全庫同名異書核對：本組4條分見國史經籍志、新唐書藝文志、崇文總目，卷數皆三十卷，與本記錄（隋志＋舊唐志「蔡法度撰」＋宋志三源已合併）全合，確係同書重出，逕併為一，繫既有蔡法度 entity。",
+  "updated_at": "2026-08-18T00:00:00-07:00",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」"
 }
