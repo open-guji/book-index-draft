@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1ev3bcfvzcwsg",
   "type": "work",
-  "title": "異物匯苑",
+  "title": "異物彙苑",
   "authors": [
     {
       "name": "王世貞",
@@ -29,6 +29,15 @@
       "edition": "故宮博物院圖書館藏明刻本",
       "volume": "第179冊",
       "section": "子部"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《異物彚苑》五卷",
+      "summary": "《異物彚苑》五卷（字文無）",
+      "author_info": "字文無",
+      "merged_from": "1evgq0i8wj56o",
+      "note": "國史經籍志之著錄。其注「（字文無）」不可解（蓋撰人注記之殘訛），俟考；本條實王世貞輯本（四庫總目、存目叢書並題王世貞，卷數同五卷）。原自成一 work，今併。"
     }
   ],
   "juan_count": {
@@ -74,5 +83,8 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《異物彙苑》五卷》→《異物彙苑》`1evgq0i8wj56o`。"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《異物彙苑》五卷》→《異物彙苑》`1evgq0i8wj56o`。 2026-08-20 附錄甲：正題「異物彙苑」（存目叢書、國史並作彙，四庫總目整理本作匯）。國史經籍志五卷本 work（`1evgq0i8wj56o`，撰人注殘訛作「字文無」）與本條一書，併入。",
+  "additional_titles": [
+    "異物匯苑"
+  ]
 }
