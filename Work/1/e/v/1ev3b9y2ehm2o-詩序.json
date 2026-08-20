@@ -81,7 +81,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "作者 \"周卜商撰\" 補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者 \"周卜商撰\" 補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-20 先秦 promote 前補關聯：本條原 related_works 全空，而其性質為《毛詩》序文之單行本，今補 contains_text_of →《詩經》d59ezak9zc3k，並於 production 側補反向 text_carried_by。按：本條（舊題卜商撰，四庫著錄二卷傳本）與《毛詩序》1evf18lor1vk0（衛宏撰，後漢藝文志著錄，已佚）雖同指毛詩序文，然一為傳世本、一為著錄之亡書，撰人與著錄之志皆異，main 已分立二條，此處從之，不合併。",
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,
   "_has_image": true,
@@ -93,5 +93,13 @@
       "欽定四庫全書總目",
       "經義考"
     ]
-  }
+  },
+  "related_works": [
+    {
+      "id": "d59ezak9zc3k",
+      "title": "詩經",
+      "relation": "contains_text_of",
+      "note": "《詩序》為《毛詩》各篇篇首之小序與《關雎》前之大序合輯單行之本，其文承自《詩經》傳本。"
+    }
+  ]
 }
