@@ -10,10 +10,9 @@
   "authors": [
     {
       "name": "河上公",
-      "role": "託名",
+      "role": "章句",
       "dynasty": "西漢",
-      "note": "託名漢文帝時隱者河上公。學界主流判東漢中後期至魏晉間道教徒所編。",
-      "entity_id": "1j96a9e6few3k"
+      "note": "託名。學界主流判東漢中後期至魏晉間道教徒編纂"
     }
   ],
   "dynasty": "西漢",
@@ -25,8 +24,13 @@
   },
   "related_works": [
     {
-      "id": "1evkaeh09axhc",
+      "id": "d59ezkx8dt6o",
       "title": "道德經",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "d59ezkx8dt6o",
+      "title": "老子",
       "relation": "contains_text_of"
     }
   ],
@@ -41,9 +45,53 @@
     }
   ],
   "id": "1evqp46oh0sg0",
-  "updated_at": "2026-08-20T00:00:00+00:00",
+  "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」且無 entity_id，2026-08-11 西漢探勘分期第三階段補繫並訂正）",
-  "ai_note": "2026-08-20：李零《簡帛古書與學術源流》第一講附錄「現存先秦兩漢古書一覽表」（修訂本頁 36）著錄本書之出土寫本／石刻本如次：敦煌本：P.2639，S.477、3926、4681；吐魯番本：日本出口常順藏本；石刻本：鎮江焦山寺唐刻河上本道德經幢。此諸本本庫尚未建 Book，亦未繫關係，暫記於此備考。編號釋例（同書頁 20 注〔1〕）：P＝伯希和，S＝斯坦因，Дx＝俄藏，大谷＝大谷光瑞，北圖＝中國國家圖書館，歷博＝中國歷史博物館，上博＝上海博物館，北大＝北京大學圖書館，敦研＝敦煌研究院。出處：李零《簡帛古書與學術源流》（修訂本），北京：生活·讀書·新知三聯書店，2008 年。"
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子》二卷河上公注。",
+      "summary": "《老子》二卷河上公注。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《漢河上公注老子》二卷",
+      "summary": "《漢河上公注老子》二卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《老子道德經注》",
+      "summary": "河上公《老子道德經注》一卷嚴遵"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子》二卷",
+      "summary": "《老子》二卷河上公注。"
+    }
+  ],
+  "ai_note": "從 1evcua6zf603k《老子河上公注》合併。 | 從 1evkpxj94h98g《老子注》合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫023917）。阶段 5 兜底建立。 | 從 1evgpn7pot340《漢河上公注老子》合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"漠河上公注老子\"->\"漢河上公注老子\" | 從 1evcsxpgs7hmo《老子道德經注》合併。原註：2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「河上公」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。 | juan_count 衝突: src=1 tgt=2（保留 target 值 2） | 2026-08-20 老子體系重整：題名 老子河上公章句 → 老子河上公章句；original_title 記原書書名《老子》。 | 2026-08-20 老子體系重整：舊唐書經籍志「《老子》二卷」原繫於磁鐵條目 1evcmnccovx1c《老子》，今歸本條。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    },
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "books": [
+    "11qkhx34xfsw0"
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measure_info": "二卷",
+  "original_title": "老子"
 }
