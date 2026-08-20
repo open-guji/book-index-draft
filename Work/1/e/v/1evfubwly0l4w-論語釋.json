@@ -47,7 +47,7 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "從 1evetxcypiyo0 合併。原註：亡佚。隋書經籍志「梁又有蔡系《論語釋》一卷，亡。，亡」。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "從 1evetxcypiyo0 合併。原註：亡佚。隋書經籍志「梁又有蔡系《論語釋》一卷，亡。，亡」。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。 2026-08-20 組5考證落空救回：考證「梁又有蔡系《論語釋》一卷，亡。」節原繫已刪之 work（`1evetxcypiyo0`），今歸本條。",
   "related_works": [
     {
       "id": "1ev7w0euvaeww",
@@ -56,9 +56,17 @@
     }
   ],
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁又有蔡系《論語釋》一卷，亡。",
+      "summary": "梁又有蔡系《論語釋》一卷,亡。\n《晉書·蔡誤傳》:誤,陳留考城人也,穆帝時司徒。溢文穆。\n長子劲,永嘉太守。少子系,有才學,位至撫軍長史。時簡文帝\n輔政,為撫軍將軍也。\n皇侃《義疏》序:江熙所集十三家,有晉撫軍長史濟陽蔡系字\n子叔。\n《世說雅量篇》注:蔡系字子叔,濟陽人,司徒 第二子,有\n文理,仕至撫軍長史。"
+    }
+  ]
 }
