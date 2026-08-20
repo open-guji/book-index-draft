@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "1evdxnrmm9bls",
+  "type": "work",
+  "title": "老子章句",
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "安丘望之老子章句",
+      "summary": "安丘望之老子章句二卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子章句》二卷",
+      "summary": "《老子章句》二卷安丘望之撰。",
+      "merged_from": "1evcpd0wm7lz4",
+      "note": "本著錄原繫題作「安丘望之老子章句」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《老子章句》二卷",
+      "summary": "《老子章句》二卷（母其望之）",
+      "author_info": "母其望之",
+      "merged_from": "1evcpd0wm7lz4",
+      "note": "本著錄原繫題作「安丘望之老子章句」之條，該題乃撰人冠於書名之首所成，今併入。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evcmnccovx1c",
+      "title": "老子",
+      "relation": "contains_text_of"
+    }
+  ],
+  "authors": [
+    {
+      "name": "安丘望之",
+      "role": "撰",
+      "entity_id": "1j96hf7r8g4xs"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "老子章句"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《老子章句》之 work（`1evcpd0wm7lz4`），與本條題名之差恰為本條撰人「安丘望之」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《老子章句》。",
+  "original_title": "安丘望之老子章句"
+}

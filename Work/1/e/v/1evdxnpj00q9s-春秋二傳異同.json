@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "1evdxnpj00q9s",
+  "type": "work",
+  "title": "春秋二傳異同",
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李鉉春秋二傳異同",
+      "summary": "李鉉春秋二傳異同十二卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋二傳異同》（李鉉）",
+      "summary": "唐志十二卷",
+      "section": "春秋",
+      "juan": "卷一百七十五",
+      "page": "KR2n0011_WYG_175-11b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋二傳異同》十一卷",
+      "summary": "《春秋二傳異同》十一卷李鉉撰。",
+      "merged_from": "1evcpcuf5y8lc",
+      "note": "本著錄原繫題作「李鉉春秋二傳異同」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《春秋二傳異同》十二卷",
+      "summary": "《春秋二傳異同》十二卷（李鉉）",
+      "author_info": "李鉉",
+      "merged_from": "1evcpcuf5y8lc",
+      "note": "本著錄原繫題作「李鉉春秋二傳異同」之條，該題乃撰人冠於書名之首所成，今併入。"
+    }
+  ],
+  "authors": [
+    {
+      "name": "李鉉",
+      "role": "撰",
+      "dynasty": "北齊",
+      "entity_id": "1j96h8rw86pzg"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
+  "related_works": [
+    {
+      "id": "1ev7w0eturncw",
+      "title": "春秋",
+      "relation": "contains_text_of"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北齊」",
+  "additional_titles": [
+    "春秋二傳異同"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《春秋二傳異同》之 work（`1evcpcuf5y8lc`），與本條題名之差恰為本條撰人「李鉉」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《春秋二傳異同》。",
+  "original_title": "李鉉春秋二傳異同"
+}
