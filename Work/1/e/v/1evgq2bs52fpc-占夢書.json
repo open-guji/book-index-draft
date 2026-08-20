@@ -40,6 +40,13 @@
    "source_bid": "1eve1eig5jn5s",
    "title_info": "周宣占夢書一卷",
    "summary": "周宣占夢書一卷。"
+  },
+  {
+   "source": "隋書經籍志",
+   "source_bid": "1ev85yncs9ibk",
+   "title_info": "《占夢書》一卷",
+   "summary": "《占夢書》一卷周宣等撰。",
+   "note": "此著錄（周宣等撰一卷）原誤附京房《占夢書》之記錄，今移歸。"
   }
  ],
  "description": {
@@ -57,12 +64,20 @@
   }
  ],
  "measure_info": "三卷",
- "updated_at": "2026-08-10",
+ "updated_at": "2026-08-20T00:00:00-07:00",
  "period": "three-kingdoms",
  "period_basis": "據 authors[0].dynasty「三國魏」（原authors[0]缺dynasty欄位，2026-08-11三國魏晉探勘據所繫Entity補入）",
  "dynasty": "三國魏",
  "dynasty_basis": "period_fallback:three-kingdoms→三國",
- "emendated_by": [],
+ "emendated_by": [
+  {
+   "source": "隋書經籍志考證",
+   "source_bid": "1evdlszdhf5z4",
+   "title_info": "《占夢書》一卷",
+   "summary": "占夢書一卷 周宣等撰\n《魏志》本傳:宣字孔和,樂安人。為郡吏。太守楊沛、東平劉\n植數使占夢。文帝亦數問之,以為中郎,屬太史。宣之敘夢,\n十中八九,世以比朱建平之相。明帝末年卒。案朱建平相書,本志、\n《七録》皆不見。\n《唐書·經籍志》:《占夢書》三卷,周宣撰。\n《唐書·藝文志》:周宣《占夢書》三卷,又二卷。\n案本傳載宣為楊沛、劉植占各一事,為文帝占三事,為或人\n占同夢 狗三事,末云“宣之敘夢,凡此類。其餘效不次\n列”。則其所次列者,皆本之此書。《太平御覽》九百二十\n四引周宣《夢書》占 鵡一事,亦傳所不次列也。此一卷題\n“周宣等”,則附有他家之術,與唐本不同。",
+   "note": "此考證條（周宣等撰）原誤附京房《占夢書》之記錄，今移歸。"
+  }
+ ],
  "books": [],
  "related_works": []
 }
