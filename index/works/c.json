@@ -8370,8 +8370,7 @@
   "has_text": true,
   "has_image": true,
   "subtype": "book",
-  "period": "qing",
-  "loss_status": "lost"
+  "period": "pre-qin"
  },
  "1ev7xkh6icbuo": {
   "id": "1ev7xkh6icbuo",
@@ -23411,16 +23410,6 @@
   "juan_count": 1,
   "measure_info": "一卷"
  },
- "1evgpjs0b0tmo": {
-  "id": "1evgpjs0b0tmo",
-  "title": "永陽志",
-  "type": "Work",
-  "path": "Work/1/e/v/1evgpjs0b0tmo-永陽志.json",
-  "author": "龔惟蕃",
-  "role": "撰",
-  "juan_count": 35,
-  "measure_info": "三十五卷"
- },
  "1evgpjshs0074": {
   "id": "1evgpjshs0074",
   "title": "唐𨵿中隴右山南九州别録",
@@ -26426,7 +26415,8 @@
   "title": "賦集",
   "type": "Work",
   "path": "Work/1/e/v/1evgq9rwyqy2o-賦集.json",
-  "author": "邊靈運",
+  "author": "謝靈運",
+  "dynasty": "南朝宋",
   "role": "撰",
   "juan_count": 92,
   "measure_info": "九十二卷"
@@ -26507,8 +26497,13 @@
   "title": "殷闡集",
   "type": "Work",
   "path": "Work/1/e/v/1evgqb0ph4zcw-殷闡集.json",
+  "author": "殷闡",
+  "dynasty": "晉",
+  "role": "撰",
   "juan_count": 10,
-  "measure_info": "十卷"
+  "measure_info": "十卷",
+  "period": "jin",
+  "loss_status": "lost"
  },
  "1evgqb0si2sxs": {
   "id": "1evgqb0si2sxs",
@@ -47379,7 +47374,7 @@
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "qin-han",
-  "loss_status": "lost"
+  "loss_status": "partially_extant"
  },
  "1ewsa4ae8smp1": {
   "id": "1ewsa4ae8smp1",
@@ -47961,5 +47956,29 @@
   "juan_count": 20,
   "measure_info": "二十卷",
   "period": "sui-tang"
+ },
+ "1ewyt38pin284": {
+  "id": "1ewyt38pin284",
+  "title": "儀禮綱目",
+  "type": "Work",
+  "path": "Work/1/e/w/1ewyt38pin284-儀禮綱目.json",
+  "author": "李如圭",
+  "dynasty": "宋",
+  "role": "撰",
+  "juan_count": 1,
+  "measure_info": "一卷",
+  "period": "song"
+ },
+ "1ewyt38qyggef": {
+  "id": "1ewyt38qyggef",
+  "title": "因說",
+  "type": "Work",
+  "path": "Work/1/e/w/1ewyt38qyggef-因說.json",
+  "author": "晁說之",
+  "dynasty": "宋",
+  "role": "撰",
+  "juan_count": 1,
+  "measure_info": "一卷",
+  "period": "song"
  }
 }
