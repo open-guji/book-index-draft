@@ -20,6 +20,14 @@
       "title_info": "《雜字要》三卷",
       "summary": "《雜字要》三卷（隋李少通。）",
       "author_info": "隋李少通。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《雜字要》三卷",
+      "summary": "《雜字要》三卷密州行參軍李少通撰。",
+      "merged_from": "1evc5pew910cg",
+      "note": "《雜字要》與《雜字要李少通撰》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
     }
   ],
   "description": {
@@ -36,10 +44,13 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「隋」",
   "dynasty": "隋",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]"
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《雜字要》，庫中別有題《雜字要李少通撰》者（`1evc5pew910cg`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。",
+  "additional_titles": [
+    "雜字要李少通撰"
+  ]
 }

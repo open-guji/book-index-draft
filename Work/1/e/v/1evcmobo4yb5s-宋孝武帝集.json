@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《宋孝武帝集》二十五卷",
       "summary": "《宋孝武帝集》二十五卷梁三十一卷，錄一卷。又有《宋廢帝景和集》十卷，錄一卷；《明帝集》三十三卷。亡。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孝武帝集》三十一卷",
+      "summary": "《孝武帝集》三十一卷",
+      "merged_from": "1evgqb2rzqfpc",
+      "note": "國史經籍志此條列於宋武帝集、文帝集之後，廢帝景和集、明帝集之前，是宋孝武帝劉駿之集；其卷數三十一，正合隋志自注「梁三十一卷，錄一卷」，與本條同書，今合併。"
     }
   ],
   "juan_count": {
@@ -29,6 +37,22 @@
     }
   ],
   "measure_info": "二十五卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-19 全庫同名異書核對：併入國史經籍志《孝武帝集》三十一卷（`1evgqb2rzqfpc`）。與晉孝武帝司馬曜之《孝武帝集》二卷（`1evfuv5lpnjsw`）非一書。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉駿",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "宋孝武帝，文帝第三子。隋志題《宋孝武帝集》二十五卷（梁三十一卷，錄一卷），國史經籍志於宋室諸帝之次題《孝武帝集》三十一卷。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "additional_titles": [
+    "孝武帝集"
+  ]
 }

@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "牛弘集",
       "summary": "牛弘集十二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《牛弘集》十二卷",
+      "summary": "《牛弘集》十二卷",
+      "merged_from": "1evgqbs1lkl4w",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "十二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "牛弘",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": "1j96gxo52xf62",
+      "note": "隋書經籍志題「吏部尚書《牛弘集》十二卷」，書名即撰人。牛弘（545-610）隋吏部尚書，請開獻書之路。"
+    }
+  ],
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「吏部尚書《牛弘集》十二卷」、兩唐志、國史經籍志皆十二卷，同為隋牛弘別集，今合為一條並繫 entity `1j96gxo52xf62`。"
 }

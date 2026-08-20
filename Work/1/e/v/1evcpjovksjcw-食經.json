@@ -2,6 +2,25 @@
   "schema_version": 1,
   "type": "work",
   "title": "食經",
+  "authors": [
+    {
+      "name": "崔浩",
+      "role": "撰",
+      "dynasty": "北魏",
+      "entity_id": "1j967cp1zdr3d",
+      "note": "《魏書·崔浩傳》載其母盧氏傳飲食之法，浩集而為《食經》並自為敘，即此書。"
+    }
+  ],
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
@@ -11,5 +30,10 @@
     }
   ],
   "id": "1evcpjovksjcw",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《食經》九卷崔浩撰」，僅頂層 authors 欄漏收，今補入並繫北魏崔浩 entity（庫中另有唐代同名 entity `1j96h8rw7k8yb`，卒 770，非其人）。與同題馬琬三卷本、盧仁宗三卷本、竺暄四卷本皆非同書，撰人、卷數各異。",
+  "dynasty": "北魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北魏」"
 }

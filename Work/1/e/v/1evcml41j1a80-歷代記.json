@@ -14,6 +14,15 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《歷代記》三十卷",
       "summary": "《歷代記》三十卷庾和之撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《歷代記》三十二卷",
+      "summary": "《歷代記》三十二卷（𢈔和之）",
+      "author_info": "𢈔和之",
+      "merged_from": "1evgph3cul340",
+      "note": "諸志同著《歷代記》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +44,19 @@
     }
   ],
   "measure_info": "三十二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "庾和之",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《歷代記》三十卷庾和之撰」，國史經籍志亦注「𢈔和之」。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、舊唐書經籍志、國史經籍志同著《歷代記》，三十二卷、三十卷之異乃傳本分卷之別，今合併並補撰人為庾和之。"
 }

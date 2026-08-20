@@ -1,49 +1,49 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "漢表",
- "authors": [
-  {
-   "name": "袁希之",
-   "role": "撰",
-   "entity_id": "1j96hfqgh56gw"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《漢表》十卷",
-   "summary": "《漢表》十卷（袁希之）",
-   "author_info": "袁希之"
+  "schema_version": 1,
+  "type": "work",
+  "title": "漢表",
+  "authors": [
+    {
+      "name": "袁希之",
+      "role": "撰",
+      "entity_id": "1j96hfqgh56gw"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "袁希之漢表",
-   "summary": "袁希之漢表十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"漢表\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ch1ni80（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpgwla1rsw",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《漢表》十卷",
+      "summary": "《漢表》十卷（袁希之）",
+      "author_info": "袁希之"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "袁希之漢表",
+      "summary": "袁希之漢表十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"漢表\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ch1ni80（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evgph8nmgetc`），據題名＋本志著錄＋卷數回收於本條，並補其著錄。",
+  "id": "1evgpgwla1rsw",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

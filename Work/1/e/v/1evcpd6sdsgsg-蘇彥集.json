@@ -14,8 +14,43 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "蘇彥集",
       "summary": "蘇彥集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《蘇彦集》十卷",
+      "summary": "《蘇彦集》十卷",
+      "merged_from": "1evgqawqbkyyo",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcpd6sdsgsg",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "蘇彦集"
+  ],
+  "authors": [
+    {
+      "name": "蘇彥",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96hfe6zizuo",
+      "note": "書名即撰人。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、國史經籍志（作「蘇彦集」）皆十卷，同為東晉蘇彥別集，今合為一條並繫 entity `1j96hfe6zizuo`。"
 }

@@ -13,6 +13,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《春秋谷梁傳義》十卷",
       "summary": "《春秋谷梁傳義》十卷徐邈撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋谷梁傳義》十二卷",
+      "summary": "《春秋谷梁傳義》十二卷徐邈注。",
+      "merged_from": "1evcpcud73da8",
+      "note": "本著錄原繫題作「春秋谷梁傳義」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -48,14 +56,15 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：春秋穀梁傳義系列，dynasty=晉 已正確，同 Entity 綁定。\n\n2026-08-09 題名重出 Round 2：合併空殼 Work 1evc5pe0558u8（春秋穀梁傳義徐邈撰）入本條；判準：春秋穀梁傳義徐邈撰 → 春秋穀梁傳義。",
-  "updated_at": "2026-08-09T18:59:07+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：春秋穀梁傳義系列，dynasty=晉 已正確，同 Entity 綁定。\n\n2026-08-09 題名重出 Round 2：合併空殼 Work 1evc5pe0558u8（春秋穀梁傳義徐邈撰）入本條；判準：春秋穀梁傳義徐邈撰 → 春秋穀梁傳義。\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《春秋谷梁傳義》之 work（`1evcpcud73da8`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：344-397，字仙民，東晉著名經學家，遍注群經）",
   "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "additional_titles": [
-    "春秋穀梁傳義徐邈撰"
+    "春秋穀梁傳義徐邈撰",
+    "春秋谷梁傳義"
   ],
   "emendated_by": [
     {

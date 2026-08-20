@@ -1,49 +1,60 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "歷代樂儀",
- "authors": [
-  {
-   "name": "徐景安",
-   "role": "撰",
-   "entity_id": "1j96h8rw86pzw"
-  }
- ],
- "juan_count": {
-  "number": 30
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《歷代樂儀》三十卷",
-   "summary": "《歷代樂儀》三十卷（徐景安）",
-   "author_info": "徐景安"
+  "schema_version": 1,
+  "type": "work",
+  "title": "歷代樂儀",
+  "authors": [
+    {
+      "name": "徐景安",
+      "role": "撰",
+      "entity_id": "1j96h8rw86pzw"
+    }
+  ],
+  "juan_count": {
+    "number": 30
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "徐景安歷代樂儀",
-   "summary": "徐景安歷代樂儀三十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《歷代樂儀》三十卷",
+      "summary": "《歷代樂儀》三十卷（徐景安）",
+      "author_info": "徐景安"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "徐景安歷代樂儀",
+      "summary": "徐景安歷代樂儀三十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "歴代樂儀三十卷",
+      "summary": "歴代樂儀三十卷。唐叶律郎徐景安撰總序律吕起周漢訖于唐著唐樂章差爲詳悉",
+      "merged_from": "1evr5e3mfaxwf",
+      "note": "撰人原作「郎徐景安」，乃「徐景安」之異寫或形訛，本條併入。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgoqj72zx8g",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs08mm7tvk（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3mfaxwf` 同題《歷代樂儀》、同卷數 30，撰人分作「徐景安」「郎徐景安」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「徐景安」，異名之著錄並存於 indexed_by。",
+  "additional_titles": [
+    "歴代樂儀"
   ]
- },
- "id": "1evgoqj72zx8g",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "measure_info": "三十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs08mm7tvk（撰人折入題名之異寫）併入本條（同題同撰人）。"
 }

@@ -1,48 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "千金方",
- "authors": [
-  {
-   "name": "孫思邈",
-   "role": "撰",
-   "dynasty": "唐"
-  }
- ],
- "description": {
-  "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀010697）。日本天保三年松本幸彥摹刻古鈔本。",
-  "sources": [
-   "國立故宮博物院善本舊籍"
-  ]
- },
- "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcmngnrn8cg(范世英);1evgq4u76tbeo(孫恩邈)（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0x4ljwn4（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "juan_count": {
-  "number": 1
- },
- "measures": [
-  {
-   "unit": "冊",
-   "number": 1
-  }
- ],
- "measure_info": "一冊",
- "id": "1evkanyq8hh4w",
- "books": [
-  "11qki083lr7r4"
- ],
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "indexed_by": [
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "孫思邈千金方",
-   "summary": "孫思邈千金方三十卷"
-  }
- ],
- "emendated_by": [],
- "related_works": []
+  "schema_version": 1,
+  "type": "work",
+  "title": "千金方",
+  "authors": [
+    {
+      "name": "孫思邈",
+      "role": "撰",
+      "dynasty": "唐"
+    }
+  ],
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀010697）。日本天保三年松本幸彥摹刻古鈔本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  },
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcmngnrn8cg(范世英);1evgq4u76tbeo(孫恩邈)（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0x4ljwn4（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（新唐書藝文志：「千金方」）所載之 30 卷不合，今據原文訂正。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgq4u76tbeo` 同題《千金方》、同卷數 30，撰人作「孫思邈」與「孫恩邈」，僅一字之差（或一名含於另一名）。「孫恩邈」全庫僅 1 見而「孫思邈」凡 27 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "id": "1evkanyq8hh4w",
+  "books": [
+    "11qki083lr7r4"
+  ],
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "孫思邈千金方",
+      "summary": "孫思邈千金方三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《千金方》三十卷",
+      "summary": "《千金方》三十卷（孫恩邈）",
+      "author_info": "孫恩邈",
+      "merged_from": "1evgq4u76tbeo",
+      "note": "撰人原作「孫恩邈」，乃「孫思邈」之訛（或異寫），本條併入。"
+    }
+  ],
+  "emendated_by": [],
+  "related_works": []
 }

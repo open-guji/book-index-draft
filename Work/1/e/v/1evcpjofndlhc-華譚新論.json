@@ -8,8 +8,40 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《新論》十卷",
       "summary": "《新論》十卷華譚撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "華譚新論",
+      "summary": "華譚新論十卷",
+      "merged_from": "1evcs0l4077cw",
+      "note": "諸志同著《華譚新論》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpjofndlhc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "華譚",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j967afjav1wj",
+      "note": "舊唐書經籍志明載「《新論》十卷華譚撰」；新唐書藝文志則題「華譚新論十卷」，是「撰人＋書名」之例。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著華譚《新論》十卷，新唐志以「撰人＋書名」立題而各建一條，今合併並補撰人為華譚。"
 }

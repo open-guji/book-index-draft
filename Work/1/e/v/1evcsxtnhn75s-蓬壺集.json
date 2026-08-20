@@ -8,8 +8,43 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《蓬壺集》",
       "summary": "陶植《蓬壺集》三卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "蓬壺集三卷",
+      "summary": "蓬壺集三卷",
+      "merged_from": "1evr5e3mgv4rf",
+      "note": "崇文總目三卷，卷數與宋志陶植本全合。"
     }
   ],
   "id": "1evcsxtnhn75s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "陶植",
+      "role": "撰",
+      "entity_id": "1j96kemf0ddds",
+      "note": "宋史藝文志原文即題「陶植《蓬壺集》三卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "related_works": [
+    {
+      "id": "1evcsytspxr7k",
+      "title": "蓬壺集",
+      "relation": "related",
+      "note": "宋史藝文志別集類另出不著撰人之《蓬壺集》一卷，卷數與本條不合，別為一書或別本，待考。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志「陶植《蓬壺集》三卷」與崇文總目「蓬壺集三卷」卷數全合，同為一書，今合為一條並補撰人、繫 entity `1j96kemf0ddds`。宋志別出不著撰人之《蓬壺集》一卷（見 `1evcsytspxr7k`），卷數不合，未敢遽合，互見待考。"
 }

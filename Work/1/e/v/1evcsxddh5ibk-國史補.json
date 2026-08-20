@@ -14,8 +14,56 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "國史補三卷",
       "summary": "國史補三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《國史補》三卷",
+      "summary": "《國史補》三卷（唐李趙記開元至長慶事。）",
+      "author_info": "唐李趙記開元至長慶事。",
+      "merged_from": "1evgphafzu7ls",
+      "note": "原注「唐李趙記開元至長慶事」，「李趙」當為「李肇」之形近訛字；同條書目答問已正作「唐李肇」。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "國史補",
+      "summary": "《國史補》三卷。{{唐李肇。得月簃翻明本，《津逮》本，《學津》本。}}",
+      "author_info": "李肇",
+      "merged_from": "1evgphafzu7ls"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "國史補",
+      "merged_from": "1evr5e3mkaqo4",
+      "note": "直齋原文：「唐學士李肇撰。」"
     }
   ],
   "id": "1evcsxddh5ibk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李肇",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967avzmwqr3",
+      "note": "宋史藝文志「李肇《國史補》三卷」、直齋書錄解題「唐學士李肇撰」、書目答問「唐李肇」三源相合。國史經籍志作「李趙」，為形近之訛。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志、書目答問、直齋書錄解題五源皆作三卷，同為唐李肇《國史補》（通稱《唐國史補》），今合為一條並補撰人、繫 entity `1j967avzmwqr3`。國史經籍志原注「唐李趙記開元至長慶事」，「李趙」乃「李肇」形近之訛，同條書目答問已正作「唐李肇」，直齋亦明作「唐學士李肇撰」。宋志本條句末「李潛用」依該志頂真格通例下屬次條，非本條撰人。"
 }

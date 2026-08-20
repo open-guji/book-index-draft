@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 19
+    "number": 2
   },
   "indexed_by": [
     {
@@ -28,9 +28,17 @@
       "summary": "《宋詩選》二卷"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」（2026-08-13 清朝探勘：曹學佺，引文確認為同一明末人物本人著作，period因啟發式誤植為qing，訂正）",
   "dynasty": "明",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 19，非諸志所著之任一數（清史稿藝文志作四十九卷；國史經籍志作二卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 二 卷，餘數之異存於各 indexed_by 之引文。"
 }

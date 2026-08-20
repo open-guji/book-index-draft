@@ -23,5 +23,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-07-29T13:46:48+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "侯康",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": null,
+      "note": "書目答問明載「一卷。侯康。《嶺南遺書》本。」"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為侯康《後漢書補注》一卷，與同志惠棟《後漢書補注》二十四卷（`1evincmy9pjpc`）撰人、卷數俱異，非一書，未予合併。"
 }

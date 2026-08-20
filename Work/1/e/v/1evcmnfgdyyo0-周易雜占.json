@@ -36,7 +36,7 @@
     }
   ],
   "juan_count": {
-    "number": 9
+    "number": 13
   },
   "id": "1evcmnfgdyyo0",
   "emendated_by": [
@@ -50,10 +50,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 9
+      "number": 13
     }
   ],
-  "measure_info": "九卷",
+  "measure_info": "十三卷",
   "related_works": [
     {
       "id": "d59ezakdey2o",
@@ -61,5 +61,6 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T16:13:13+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 9，非諸志所著之任一數（隋書經籍志作十三卷；舊唐書經籍志作八卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 十三 卷，餘數之異存於各 indexed_by 之引文。"
 }

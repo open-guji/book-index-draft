@@ -2,6 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "周易講疏",
+  "authors": [
+    {
+      "name": "張譏",
+      "role": "注",
+      "dynasty": "南朝陳",
+      "entity_id": "1j96gx6xx3hmo",
+      "note": "國史經籍志原文作「□張□」（前後各缺一字），據舊唐書經籍志同卷數（三十卷）之「張譏注」補足，所缺二字當為朝代「陳」與名「譏」。"
+    }
+  ],
   "juan_count": {
     "number": 30
   },
@@ -12,6 +21,30 @@
       "title_info": "《周易講疏》三十卷",
       "summary": "《周易講疏》三十卷（□張□。）",
       "author_info": "□張□。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《周易講疏》三十卷",
+      "summary": "《周易講疏》三十卷張譏注。",
+      "merged_from": "1evcpcsvcywhs",
+      "note": "明載「張譏注」，卷數與本條全合，正可補國史經籍志缺字之「□張□」。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "周易講疏",
+      "summary": "陳張譏《周易講疏》一卷。",
+      "merged_from": "1evr5e3meogtf",
+      "note": "《周易講疏》（張譏）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《周易講疏》三十卷",
+      "summary": "《周易講疏》三十卷陳諮議參軍張譏撰。",
+      "merged_from": "1evc5p8r4yby8",
+      "note": "題名原作「周易講疏張譏撰」，乃撰人折入題名之異寫，本條併入。"
     }
   ],
   "description": {
@@ -20,8 +53,12 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《周易講疏》（張譏）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。\n\n2026-08-19 題名重出專項（續）：隋書經籍志「《周易講疏》三十卷 陳國子祭酒張譏撰」，匯入時以撰人折入題名而作「周易講疏張譏撰」，與本條（國史經籍志、舊唐書經籍志、清史稿藝文志所著張譏《周易講疏》三十卷）題同撰人同卷數同，實一書之重出，今併。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：清史稿藝文志之「周易講疏」一節原繫於磁鐵條（`1evc5p8re07pc`），其題與本條合而本條非磁鐵，今改繫本條並補其著錄。",
   "id": "1evgopapra0ow",
+  "dynasty": "南朝陳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」",
   "measures": [
     {
       "unit": "卷",
@@ -36,5 +73,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "周易講疏張譏撰"
+  ],
+  "original_title": "周易講疏"
 }

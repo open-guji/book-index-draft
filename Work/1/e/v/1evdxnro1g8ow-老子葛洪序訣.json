@@ -17,6 +17,21 @@
       "title_info": "《道德經序訣》二卷",
       "summary": "《道德經序訣》二卷（葛洪）",
       "author_info": "葛洪"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子道德經序訣》二卷",
+      "summary": "《老子道德經序訣》二卷葛洪撰。",
+      "merged_from": "1evcpd0yt6neo",
+      "note": "本著錄原繫題作「葛洪老子道德經序訣」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "老子道德經序訣二卷 葛洪,謹按見兩《唐志》。",
+      "merged_from": "1evcpd0yt6neo",
+      "note": "本著錄原繫題作「葛洪老子道德經序訣」之條，該題乃撰人冠於書名之首所成，今併入。"
     }
   ],
   "related_works": [
@@ -51,10 +66,13 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
-  "ai_note": "2026-08-20 老子體系重整：題名 葛洪老子道德經序訣 → 老子葛洪序訣；original_title '道德經序訣' → 老子。注本統一作「老子＋撰者＋體裁」，original_title 記原書書名。志書原題見 indexed_by[].title_info。"
+  "additional_titles": [
+    "老子道德經序訣"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《老子道德經序訣》之 work（`1evcpd0yt6neo`），與本條題名之差恰為本條撰人「葛洪」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《老子道德經序訣》。 | 2026-08-20 合併 main 後重新落實老子系命名：題名作《老子葛洪序訣》，original_title 記原書書名《老子》。（main 側曾依「撰人非書名之一部」正為裸題並以 original_title 存志書原題，二規則相牴觸，經裁定從本規則；志書原題仍存於 indexed_by[].title_info。）"
 }

@@ -14,6 +14,22 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "谷永集",
       "summary": "谷永集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《谷永集》二卷",
+      "summary": "《谷永集》二卷",
+      "merged_from": "1evgqa0r7hzi8",
+      "note": "卷數與隋書經籍志全合。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《穀永集》五卷",
+      "summary": "《穀永集》五卷",
+      "merged_from": "1evcpd4mj0nb4",
+      "note": "舊唐書經籍志作「《穀永集》五卷」，「穀」為「谷」之繁化訛字，卷數與新唐志五卷同。"
     }
   ],
   "juan_count": {
@@ -35,6 +51,22 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，隋志二卷、國史經籍志二卷、新唐志五卷、舊唐志五卷（作「穀永集」，「穀」為「谷」之繁化訛字），同為西漢谷永別集，今合為一條並繫 entity `1j96hgf7owzr4`。卷數二／五之異為隋唐間傳本分合，非別為一書；卷數從隋志二卷。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "谷永",
+      "role": "撰",
+      "dynasty": "西漢",
+      "entity_id": "1j96hgf7owzr4",
+      "note": "隋書經籍志題「漢諫議大夫《谷永集》二卷」，書名即撰人。谷永字子雲，長安人，官至大司農，善言災異，時號「谷子雲筆札，樓君卿唇舌」（《漢書》本傳，隋書經籍志考證引）。隋志考證按語謂本傳不言其為諫議大夫，「此題諫議大夫，似因上文劉向、王襃而誤」。"
+    }
+  ],
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「西漢」",
+  "additional_titles": [
+    "穀永集"
+  ]
 }

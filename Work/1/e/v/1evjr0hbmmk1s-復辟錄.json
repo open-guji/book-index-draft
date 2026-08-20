@@ -19,6 +19,24 @@
       "edition": "影印浙江省圖書館藏明刻廣百川學海本",
       "volume": "第433冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《復辟錄》•一卷",
+      "author_info": "明楊暄撰",
+      "summary": "明楊暄撰。暄字廷獻，豐城人，景泰甲戌進士，官至浙江按察使。當徐有貞等奪門時，暄官御史，事皆目睹。又嘗劾曹吉祥、石亨，坐譴論戍，於二人事蹟，知之尤悉。故其辨于謙、王文之被誣，石亨、曹吉祥之恣肆，皆與史合。後附李賢《天順日錄》、祝允明《蘇材小纂》、陳循《辨冤疏》、葉盛《水東日記》、王瓊《雙溪雜記》數條，蓋皆同時親與其事者。故引以為據，明所述之不誣雲。",
+      "edition": "浙江吳玉墀家藏本",
+      "merged_from": "1ev3bafcdgfls",
+      "note": "撰人原作「楊暄」，乃「楊瑄」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《復辟錄》一卷",
+      "summary": "《復辟錄》一卷",
+      "merged_from": "1ev3bafcdgfls",
+      "note": "撰人原作「楊暄」，乃「楊瑄」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -27,7 +45,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bafcdgfls(楊暄)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bafcdgfls(楊暄)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1ev3bafcdgfls` 同題《復辟錄》、同卷數 1，撰人分作「楊瑄」「楊暄」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「楊瑄」，異名之著錄並存於 indexed_by。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evkpyfy74r28` 同題《復辟錄》、同卷數 1，撰人分作「楊瑄」「楊楦」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「楊瑄」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 1
   },
@@ -51,12 +69,83 @@
       "types": [
         "image"
       ]
+    },
+    {
+      "id": "wikisource",
+      "name": "维基文库",
+      "url": "https://zh.wikisource.org/wiki/復辟錄",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=701649",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6880",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v5",
+        "total_page": 24,
+        "paragraph_count": 36,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-keben-1",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY5886",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v5",
+        "total_page": 36,
+        "paragraph_count": 32,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlisishiwuyangxian",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6124",
+      "metadata": {
+        "edition": "萬曆四十五年(1617)陽羡陳于廷刻本",
+        "version": "v2",
+        "total_page": 122,
+        "paragraph_count": 1164,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "books": [
+    "11qkhzddxy7sw"
+  ],
+  "_has_text": true
 }

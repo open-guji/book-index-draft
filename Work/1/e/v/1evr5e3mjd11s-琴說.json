@@ -3,6 +3,15 @@
   "id": "1evr5e3mjd11s",
   "type": "work",
   "title": "琴說",
+  "authors": [
+    {
+      "name": "薛易簡",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96hfo3n3bpc",
+      "note": "直齋書錄解題明載「唐待詔薛易簡撰。衡州耒陽尉」。"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -10,8 +19,21 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "琴說"
+      "title_info": "《琴說》一卷",
+      "summary": "唐待詔薛易簡撰。衡州耒陽尉。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-19 全庫同名異書核對：原記錄僅存裸題「琴說」，係匯入時漏收正文，今據 collated_edition 補全引文並補撰人薛易簡（唐待詔，衡州耒陽尉）。與同題李勉本、鄭文祐本、隋志＋宋志本皆非同書。",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

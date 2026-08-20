@@ -8,8 +8,9 @@
       "name": "伏滔",
       "role": "撰",
       "dynasty": "東晉",
-      "entity_id": "1j96hfdogs3k0",
-      "dynasty_basis": "manual:historical_figure(伏滔，東晉文學家)"
+      "entity_id": "1j967cp21keua",
+      "dynasty_basis": "manual:historical_figure(伏滔，東晉文學家)",
+      "note": "補晉書藝文志原文殘作「伏 」（《水經注》引同），匯入時據以另建殘名 entity `1j96hfdogs3k0`，實即東晉伏滔，今改繫正條 entity。"
     }
   ],
   "indexed_by": [
@@ -26,8 +27,8 @@
     ]
   },
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「伏」，今補全為「伏滔」。據《晉書·文苑傳·伏滔》及案語「《水經注》引作伏某」。伏滔字玄度，平昌安丘人，東晉文人，《北征記》為其從桓溫北征紀行之作。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「伏」，今補全為「伏滔」。據《晉書·文苑傳·伏滔》及案語「《水經注》引作伏某」。伏滔字玄度，平昌安丘人，東晉文人，《北征記》為其從桓溫北征紀行之作。\n\n2026-08-19 全庫同名異書核對（附帶訂正）：撰人原繫殘名 entity `1j96hfdogs3k0`（由補晉書藝文志殘文「伏 」所生），與 CBDB 已比對之東晉伏滔正條 `1j967cp21keua` 實為一人，今合併改繫。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",

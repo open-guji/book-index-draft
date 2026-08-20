@@ -12,6 +12,14 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "曹松詩三卷",
       "summary": "曹松詩三卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《曹松詩》",
+      "summary": "《曹松詩》一卷",
+      "merged_from": "1evcsyrlsrqww",
+      "note": "諸志同著《曹松詩》，係一書互著，今合併。"
     }
   ],
   "measures": [
@@ -21,5 +29,19 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "曹松",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《曹松詩》，撰人為曹松。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：《曹松詩》為曹松之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為曹松。"
 }

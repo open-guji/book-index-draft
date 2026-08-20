@@ -1,49 +1,65 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "醉鄉日月",
- "authors": [
-  {
-   "name": "皇甫松",
-   "role": "撰",
-   "entity_id": "1j967da978di9"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《醉鄉日月》三卷",
-   "summary": "《醉鄉日月》三卷（皇甫松）",
-   "author_info": "皇甫松"
+  "schema_version": 1,
+  "type": "work",
+  "title": "醉鄉日月",
+  "authors": [
+    {
+      "name": "皇甫松",
+      "role": "撰",
+      "entity_id": "1j967da978di9"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "皇甫松醉鄉日月",
-   "summary": "皇甫松醉鄉日月三卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0r8bk1s0（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpi3l9fqio",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《醉鄉日月》三卷",
+      "summary": "《醉鄉日月》三卷（皇甫松）",
+      "author_info": "皇甫松"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "皇甫松醉鄉日月",
+      "summary": "皇甫松醉鄉日月三卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《醉鄉日月》",
+      "summary": "皇甫松《醉鄉日月》三卷張彥遠",
+      "merged_from": "1evcsye1wjh1c",
+      "note": "《醉鄉日月》（皇甫松）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《醉鄉日月》",
+      "summary": "皇甫松《醉鄉日月》三卷尹建峰",
+      "merged_from": "1evcsxznj41s0",
+      "note": "《醉鄉日月》（皇甫松）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《醉鄉日月》（皇甫松，3卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evcsye1wjh1c（宋史藝文志）；1evcsxznj41s0（宋史藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**",
+  "id": "1evgpi3l9fqio",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

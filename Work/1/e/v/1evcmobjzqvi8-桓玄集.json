@@ -20,6 +20,21 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "桓玄集",
       "summary": "桓玄集二十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《桓玄集》二十卷",
+      "summary": "《桓玄集》二十卷",
+      "merged_from": "1evgqazdnbz0g",
+      "note": "卷數與隋志、兩唐志全合。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "桓玄集二十卷 謹按見《隋志》。本書有傳。",
+      "merged_from": "1evfuvbti6k1s",
+      "note": "補晉書藝文志案語自云「見《隋志》。本書有傳」，即本條隋志所著錄之書。"
     }
   ],
   "juan_count": {
@@ -41,6 +56,19 @@
     }
   ],
   "measure_info": "二十卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，隋志、兩唐志、國史經籍志、補晉書藝文志五源皆二十卷，同為東晉桓玄別集，今合為一條並繫 entity `1j96ha6siw4jk`。補晉志案語自云「見《隋志》」。隋志本條下所附「梁有晉丹陽尹《卞範之集》五卷……光祿勳《卞承之集》十卷……亡」為隋志附注他書之通例，非本書之異名。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "桓玄",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96ha6siw4jk",
+      "note": "隋書經籍志題「晉《桓玄集》二十卷」，書名即撰人。桓玄（369-404）字敬道，桓溫之子，《晉書·叛逆傳》稱其「博綜藝術，善屬文」，《晉安帝紀》謂「玄文翰之美，高於一世」（隋書經籍志考證引）。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

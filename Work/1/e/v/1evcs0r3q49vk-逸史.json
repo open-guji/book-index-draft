@@ -46,7 +46,7 @@
       "dynasty": "清"
     }
   ],
-  "ai_note": "作者「清中井積善撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaobw5j7cw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0r3q49vk();1evcsxefhlvr4();1evcsxyoq5hc0()（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「清中井積善撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaobw5j7cw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0r3q49vk();1evcsxefhlvr4();1evcsxyoq5hc0()（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
   "description": {
     "text": "存疑目通俗小說。存疑目。清褚人穫隋唐演義自序云：「昔㯠庵袁先生曾示予所藏逸史，載隋煬帝、朱貴兒、唐明皇、楊玉環再世姻緣事，殊新異可喜。因與商酌編入本傳，以為一部之始終關目。」按：唐大中時盧肇曾撰逸史，其書至明已亡，不",
     "sources": [
@@ -58,10 +58,20 @@
   "books": [
     "11qki0d4jc6ww"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷"
 }

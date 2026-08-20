@@ -2,7 +2,15 @@
   "schema_version": 1,
   "type": "work",
   "title": "樂略",
-  "authors": [],
+  "authors": [
+    {
+      "name": "元殷",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《樂略》四卷元殷撰」；國史經籍志注「元慇」，慇即殷之異寫。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
@@ -15,6 +23,15 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《樂略》四卷",
       "summary": "《樂略》四卷元殷撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《樂略》四卷",
+      "summary": "《樂略》四卷（元慇）",
+      "author_info": "元慇",
+      "merged_from": "1evgoqit6xr0g",
+      "note": "諸志同著《樂略》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -40,5 +57,10 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-07-31T04:34:52+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、舊唐書經籍志、國史經籍志同著《樂略》四卷，今合併並補撰人為元殷。"
 }

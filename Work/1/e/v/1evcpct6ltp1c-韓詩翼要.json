@@ -15,6 +15,13 @@
       "title_info": "《韓詩翼要》十卷",
       "summary": "《韓詩翼要》十卷（侯苞）",
       "author_info": "侯苞"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《韓詩翼要》十卷",
+      "summary": "《韓詩翼要》十卷漢侯苞傳。",
+      "note": "本著錄原繫於磁鐵條「韓詩翼要侯苞撰」（`1evc5pcjhh1xc`），今歸本條。"
     }
   ],
   "id": "1evcpct6ltp1c",
@@ -26,9 +33,19 @@
       "entity_id": "1j9678njjg2rr"
     }
   ],
-  "ai_note": "作者「漢鄭玄撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/韓詩翼要.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "作者「漢鄭玄撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/韓詩翼要.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 磁鐵拆解專項（七）：「《韓詩翼要》十卷」一節原繫於磁鐵條（`1evc5pcjhh1xc`），今歸本條並補其著錄。",
   "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）"
+  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷"
 }

@@ -8,6 +8,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《太元經》十四卷",
       "summary": "《太元經》十四卷楊泉撰，劉緝注。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又太元經",
+      "summary": "又太元經十四卷",
+      "merged_from": "1evcs0l3q7lz4",
+      "note": "新唐書藝文志「又太元經十四卷」，與舊唐志同題同卷，今合併。"
     }
   ],
   "id": "1evcpd0okumf4",
@@ -21,6 +29,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "authors": [
+    {
+      "name": "楊泉",
+      "role": "撰",
+      "dynasty": "三國吳",
+      "entity_id": "1j96kegqemj9c",
+      "note": "舊唐書經籍志明載「《太元經》十四卷楊泉撰，劉緝注」。"
+    }
+  ],
+  "juan_count": {
+    "number": 14
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 14
+    }
+  ],
+  "measure_info": "十四卷",
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《太元經》十四卷，今合併。撰人據舊唐志補為楊泉，其書別有劉緝注。"
 }

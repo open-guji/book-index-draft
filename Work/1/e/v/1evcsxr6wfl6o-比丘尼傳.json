@@ -8,6 +8,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《比丘尼傳》",
       "summary": "僧寶唱《比丘尼傳》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又比丘尼傳",
+      "summary": "又比丘尼傳四卷",
+      "merged_from": "1evcs0nnbqkg0",
+      "note": "諸志同著《比丘尼傳》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxr6wfl6o",
@@ -21,6 +29,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "authors": [
+    {
+      "name": "寶唱",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": null,
+      "note": "宋史藝文志作「僧寶唱《比丘尼傳》五卷」，前置撰人釋寶唱。"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、宋史藝文志同著《比丘尼傳》，四卷、五卷之異乃傳本之別，今合併並據宋志前置撰人補為釋寶唱。"
 }

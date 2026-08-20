@@ -9,6 +9,23 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "安丘望之老子章句",
       "summary": "安丘望之老子章句二卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子章句》二卷",
+      "summary": "《老子章句》二卷安丘望之撰。",
+      "merged_from": "1evcpd0wm7lz4",
+      "note": "本著錄原繫題作「安丘望之老子章句」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《老子章句》二卷",
+      "summary": "《老子章句》二卷（母其望之）",
+      "author_info": "母其望之",
+      "merged_from": "1evcpd0wm7lz4",
+      "note": "本著錄原繫題作「安丘望之老子章句」之條，該題乃撰人冠於書名之首所成，今併入。"
     }
   ],
   "related_works": [
@@ -35,7 +52,10 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-07-29T13:46:48+00:00",
-  "original_title": "老子",
-  "ai_note": "2026-08-20 老子體系重整：題名 安丘望之老子章句 → 老子安丘望之章句；original_title None → 老子。注本統一作「老子＋撰者＋體裁」，original_title 記原書書名。"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "老子章句"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《老子章句》之 work（`1evcpd0wm7lz4`），與本條題名之差恰為本條撰人「安丘望之」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《老子章句》。 | 2026-08-20 合併 main 後重新落實老子系命名：題名作《老子安丘望之章句》，original_title 記原書書名《老子》。（main 側曾依「撰人非書名之一部」正為裸題並以 original_title 存志書原題，二規則相牴觸，經裁定從本規則；志書原題仍存於 indexed_by[].title_info。）",
+  "original_title": "老子"
 }

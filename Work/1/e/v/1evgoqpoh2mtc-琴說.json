@@ -19,6 +19,14 @@
       "title_info": "《琴說》一卷",
       "summary": "《琴說》一卷（李勉）",
       "author_info": "李勉"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《琴說》一卷",
+      "summary": "唐工部尚書李勉撰。",
+      "merged_from": "1evr5e3mjo9he",
+      "note": "明載「唐工部尚書李勉撰」，與本條國史經籍志「（李勉）」全合。"
     }
   ],
   "description": {
@@ -27,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"琴說\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：併入直齋書錄解題（明載「唐工部尚書李勉撰」）。本庫同題尚有鄭文祐一卷本（國史經籍志）、薛易簡一卷本（直齋，見 `1evr5e3mjd11s`）、隋志＋宋志一卷本（`1evc5pdh7q70g`），皆撰人各異之異書。",
   "id": "1evgoqpoh2mtc",
   "measures": [
     {
@@ -36,5 +44,9 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

@@ -21,6 +21,11 @@
       "id": "1evl1xugdoikg",
       "title": "孝經",
       "relation": "contains_text_of"
+    },
+    {
+      "id": "1ev3ba4h1auww",
+      "title": "孝經正文",
+      "relation": "part_of"
     }
   ],
   "juan_count": {
@@ -34,6 +39,14 @@
       "author_info": "國朝李之素撰",
       "summary": "國朝李之素撰。之素字定菴，麻城人。是書成於康熙丙辰。以朱子《古文孝經刊誤》為本。首為《正文》一卷，《經》文每章之後，綴以注釋數語，詞旨頗為淺略。次為《內傳》一卷，雜引經、史、子、集之言與《孝經》相證佐者。次為《外傳》三卷，則大舜以下迄於明末孝子行實也。",
       "edition": "湖北巡撫采進本"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "外傳",
+      "summary": "《孝經正文》一卷，《內傳》一卷，《外傳》一卷。李之素撰。",
+      "merged_from": "1evr5e3meogv4",
+      "note": "本著錄原別為一條，與本條同題同撰人而所出之志異，今併入。"
     }
   ],
   "measures": [
@@ -43,9 +56,13 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "外傳"
+  ],
+  "ai_note": "2026-08-20 同題同撰人跨志重出專項：本條與 `1evr5e3meogv4` 同題《孝經外傳》、同撰人「李之素」，而所繫之志互不相交，是一書為數志各著一次而匯入分為二條，今併。二條卷數異（3／1），出處不同志，依「跨志卷異即一書之異本」之判準仍為一書，並存其著錄。"
 }

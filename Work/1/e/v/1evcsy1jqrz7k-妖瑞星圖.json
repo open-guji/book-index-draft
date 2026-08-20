@@ -14,8 +14,50 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "妖瑞星圖一卷",
       "summary": "妖瑞星圖一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《妖瑞星圖》一卷",
+      "summary": "《妖瑞星圖》一卷",
+      "merged_from": "1evgq1kypmh34",
+      "note": "諸志同著《妖瑞星圖》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "宋均妖瑞星圖一卷· 均始末具經部孝經類。",
+      "summary": "宋均妖瑞星圖一卷· 均始末具經部孝經類。\n《崇文總目》天文占書類:“《妖瑞星圖》一卷,宋均撰。”《通志・藝文略》天文𮦀星占類:“《妖瑞星圖》一卷,宋均撰。”\n按此不知是否卽此宋均,今姑過而存之。",
+      "section": "子部／天文",
+      "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。",
+      "merged_from": "1evftes9bmkn4",
+      "note": "《妖瑞星圖》（宋均）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "id": "1evcsy1jqrz7k",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "宋均",
+      "role": "注",
+      "dynasty": "東漢",
+      "entity_id": "1j969m70q2equ",
+      "note": "宋史藝文志作「宋均《妖瑞星圖》一卷」，前置撰人宋均（東漢注緯書者）。"
+    }
+  ],
+  "dynasty": "東漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《妖瑞星圖》（宋均）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
 }

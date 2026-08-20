@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "王儉集",
       "summary": "王儉集六十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王儉集》六十卷",
+      "summary": "《王儉集》六十卷",
+      "merged_from": "1evgqbetlx534",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,6 +49,19 @@
     }
   ],
   "measure_info": "五十一卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「齊太尉《王儉集》五十一卷（梁六十卷）」、兩唐志六十卷、國史經籍志六十卷，同為南朝齊王儉別集，今合為一條並繫 entity `1j96keozk8fls`。卷數之異隋志已自注「梁六十卷」。隋志本條下附「又有齊東海太守《謝顥集》十六卷……」為附注他書之通例。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王儉",
+      "role": "撰",
+      "dynasty": "南朝齊",
+      "entity_id": "1j96keozk8fls",
+      "note": "隋書經籍志題「齊太尉《王儉集》五十一卷」，書名即撰人。王儉（452-489）撰《七志》。本庫另有「王儉」entity 二條（`1j967a0kiy8ev` 無朝代、`1j96hjwlxny4e` 清），非是。"
+    }
+  ],
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」"
 }

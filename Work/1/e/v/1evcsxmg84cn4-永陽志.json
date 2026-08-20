@@ -17,10 +17,29 @@
     }
   ],
   "id": "1evcsxmg84cn4",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'陳璉'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]",
-  "updated_at": "2026-08-09T10:49:16+00:00",
-  "period": "ming",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
-  "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'陳璉'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 全庫同名異書核對：本條為磁鐵：兼載宋史藝文志林票《永陽志》三十五卷與明史藝文志陳璉《永陽志》二十六卷，異人異書，析出須新建 Work，依庫例暫存俟裁。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "林票",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「林票《永陽志》三十五卷曾文」，前置撰人林票；句末「曾文」屬下條。本條兼載明史藝文志「陳璉《永陽志》二十六卷」，非一書。"
+    }
+  ],
+  "juan_count": {
+    "number": 35
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 35
+    }
+  ],
+  "measure_info": "三十五卷"
 }

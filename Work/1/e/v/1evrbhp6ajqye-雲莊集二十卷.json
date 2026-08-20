@@ -1,46 +1,46 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evrbhp6ajqye",
- "title": "雲莊集",
- "authors": [
-  {
-   "name": "曹協",
-   "role": "撰",
-   "dynasty": "宋",
-   "entity_id": "1j96hgg8o84jk"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "宋史藝文志補",
-   "source_bid": "1evfyhtrdkbnk",
-   "title_info": "雲莊集二十卷",
-   "summary": "雲莊集二十卷\n曹協撰。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evrbhp6ajqye",
+  "title": "雲莊集",
+  "authors": [
+    {
+      "name": "曹協",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96hgg8o84jk"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志補",
+      "source_bid": "1evfyhtrdkbnk",
+      "title_info": "雲莊集二十卷",
+      "summary": "雲莊集二十卷\n曹協撰。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "曹協雲庄集",
+      "summary": "曹協雲庄集五卷。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "曹協雲庄集",
-   "summary": "曹協雲庄集五卷。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "juan_count": {
-  "number": 5
- },
- "period": "song",
- "loss_status": "lost",
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mdqr5u（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "period_basis": "據 authors[0].dynasty「宋」"
+  "period": "song",
+  "loss_status": "lost",
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mdqr5u（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 5，與著錄原文（宋史藝文志補：「雲莊集」）所載之 20 卷不合，今據原文訂正。",
+  "period_basis": "據 authors[0].dynasty「宋」"
 }

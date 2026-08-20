@@ -16,6 +16,14 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "七曜曆數算經一卷 趙 ,謹按見《隋志》。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《七曜歷數算經》一卷",
+      "summary": "《七曜歷數算經》一卷趙匪攵撰。",
+      "merged_from": "1evcmnegjjx1c",
+      "note": "本著錄原繫題作「七曜歷數算經」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -35,10 +43,23 @@
   ],
   "measure_info": "一卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「趙」，今作「趙𢾅」。案語：「七曜曆數算經一卷 趙，見《隋志》。」《隋志》曆數類：「《七曜曆數算經》一卷，趙𢾅撰。」趙𢾅（𢾅同歡），南北朝天文學家。丁國鈞補志從趙𢾅說。Entity原繫趙（單字），已更正。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「趙」，今作「趙𢾅」。案語：「七曜曆數算經一卷 趙，見《隋志》。」《隋志》曆數類：「《七曜曆數算經》一卷，趙𢾅撰。」趙𢾅（𢾅同歡），南北朝天文學家。丁國鈞補志從趙𢾅說。Entity原繫趙（單字），已更正。\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《七曜歷數算經》之 work（`1evcmnegjjx1c`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《七曜歷數算經》一卷",
+      "summary": "七曜曆數算經一卷 趙撰\n趙 有《河西甲寅元曆》并《曆序》,並見前。",
+      "merged_from": "1evcmnegjjx1c",
+      "note": "本著錄原繫題作「七曜歷數算經」之條，該題與本條僅簡繁轉換取字之異，今併入。"
+    }
+  ],
+  "additional_titles": [
+    "七曜歷數算經"
+  ]
 }

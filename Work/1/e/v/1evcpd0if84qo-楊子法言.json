@@ -15,6 +15,15 @@
       "title_info": "《楊子法言》十三卷",
       "summary": "《楊子法言》十三卷（李軌注）",
       "author_info": "李軌注"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《楊子法言》十卷",
+      "summary": "《楊子法言》十卷（宋裏注）",
+      "author_info": "宋裏注",
+      "merged_from": "1evgpmr06ibk0",
+      "note": "諸志同著《楊子法言》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpd0if84qo",
@@ -28,6 +37,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "juan_count": {
+    "number": 13
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 13
+    }
+  ],
+  "measure_info": "十三卷",
+  "authors": [
+    {
+      "name": "揚雄",
+      "role": "撰",
+      "dynasty": "西漢",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《楊子法言》六卷楊雄撰」，楊即揚之異寫。國史經籍志分注李軌注本十三卷、宋咸注本十卷。"
+    }
+  ],
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「西漢」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、國史經籍志同著《楊子法言》，六卷、十卷、十三卷之異乃注家分卷之別（李軌注、宋咸注），今合併並補撰人為揚雄。"
 }

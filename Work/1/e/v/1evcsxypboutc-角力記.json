@@ -8,6 +8,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《角力記》",
       "summary": "調露子《角力記》一卷沈氏"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《角力記》一卷",
+      "summary": "《角力記》一卷",
+      "merged_from": "1evgq5xjcb75s",
+      "note": "諸志同著《角力記》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxypboutc",
@@ -21,6 +29,30 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "調露子",
+      "role": "撰",
+      "dynasty": "五代",
+      "entity_id": null,
+      "note": "宋史藝文志作「調露子《角力記》一卷沈氏」，前置撰人調露子；句末「沈氏」屬下條。"
+    }
+  ],
+  "dynasty": "五代",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「五代」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《角力記》一卷，今合併並據宋志前置撰人補為調露子。"
 }

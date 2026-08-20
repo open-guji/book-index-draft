@@ -15,6 +15,10 @@
     {
       "work_id": "1ev3badlmg0e8",
       "role": "撰"
+    },
+    {
+      "work_id": "1evga8te0plhc",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -22,9 +26,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_1.00+ambiguous_2"
   },
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "dynasty_basis": "author_propagation:round1",
   "period": "liao-jin-yuan",
   "period_basis": "synonym",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生]"
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生]\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hjwlyaf71`（王繪，金），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
 }

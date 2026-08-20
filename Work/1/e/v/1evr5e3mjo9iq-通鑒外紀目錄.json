@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mjo9iq",
+  "type": "work",
+  "title": "通鑒外紀目錄",
+  "juan_count": {
+    "number": 3
+  },
+  "indexed_by": [
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "目錄"
+    }
+  ],
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉恕",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967avzlck04",
+      "note": "直齋書錄解題編年類此條列於《通鑒外紀》十卷之後，解題全同（「秘書丞高安劉恕道原撰……」），是劉恕《通鑒外紀目錄》三卷。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：本條為直齋書錄解題《通鑒外紀》之《目錄》三卷（劉恕撰），題名於匯入時截作《目錄》。原 juan_count 誤作二十五，今據著錄原文「《目錄》三卷」訂正為三。與司馬光《資治通鑒》之《目錄》三十卷（`1evr5e3mj1sfc`）非一書，未予合併。\n\n2026-08-19 附屬部帙截題正名專項：本條原題《目錄》，乃直齋書錄解題編年類著錄《通鑒外紀》時所附之目錄，匯入時截其部帙之名為書名。今據解題正其題為《通鑒外紀目錄》，原題存於 additional_titles。",
+  "additional_titles": [
+    "目錄"
+  ]
+}

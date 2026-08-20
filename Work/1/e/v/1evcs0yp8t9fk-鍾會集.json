@@ -8,8 +8,40 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "鍾會集",
       "summary": "鍾會集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《鍾會集》十卷",
+      "summary": "《鍾會集》十卷",
+      "merged_from": "1evgqaa66a77k",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcs0yp8t9fk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "鍾會",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j967cp2196b2",
+      "note": "書名即撰人。鍾會（225-264）字士季，鍾繇之子。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，新唐志、國史經籍志皆十卷，同為三國魏鍾會別集，今合為一條並繫 entity `1j967cp2196b2`。"
 }

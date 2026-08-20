@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《魏彥深集》三卷",
       "summary": "著作郎《魏彥深集》三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《魏彦深集》三卷",
+      "summary": "《魏彦深集》三卷",
+      "merged_from": "1evgqbskfv9j4",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -29,5 +37,22 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "魏彦深集"
+  ],
+  "authors": [
+    {
+      "name": "魏彥深",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": "1j96hfqe2zojk",
+      "note": "隋書經籍志題「著作郎《魏彥深集》三卷」，書名即撰人。魏彥深即魏澹，隋著作郎，撰《魏書》。"
+    }
+  ],
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「著作郎《魏彥深集》三卷」、國史經籍志（作「魏彦深集」）三卷，同為隋魏彥深別集，今合為一條並繫 entity `1j96hfqe2zojk`。"
 }

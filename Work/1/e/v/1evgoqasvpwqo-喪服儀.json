@@ -21,6 +21,20 @@
       "title_info": "《喪服儀》一卷",
       "summary": "《喪服儀》一卷（晉衞瓘）",
       "author_info": "晉衞瓘"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "喪服儀一卷衛理,謹按見《隋志》。",
+      "merged_from": "1evfubifi7aww",
+      "note": "撰人原作「衛理」，乃「衞瓘」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《喪服儀》一卷",
+      "summary": "《喪服儀》一卷晉太保衛瓘撰。梁有《喪服要記》六卷，晉司空賀循撰；《喪服要問》六卷，劉德明撰；《喪服》三十一卷，宋員外郎散騎庾蔚之撰；《喪服要問》二卷，張耀撰；《喪服難問》六卷，崔凱撰；《喪服雜記》二十卷，伊氏撰；《喪服釋疑》二十卷，劉智撰。亡。",
+      "note": "本著錄原繫於磁鐵條「喪服儀衛瓘撰」（`1evc5pcxbnsw0`），今歸本條。"
     }
   ],
   "description": {
@@ -29,7 +43,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=衛理 vs anno=晉衞瓘",
+  "ai_note": "missing_reason: 作者冲突 work=衛理 vs anno=晉衞瓘\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evfubifi7aww` 同題《喪服儀》、同卷數 1，撰人分作「衞瓘」「衛理」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「衞瓘」，異名之著錄並存於 indexed_by。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《喪服儀》一卷」一節原繫於磁鐵條（`1evc5pcxbnsw0`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。",
   "id": "1evgoqasvpwqo",
   "measures": [
     {
@@ -38,9 +52,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-08T18:18:57+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "loss_status": "lost"
 }

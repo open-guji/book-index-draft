@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 14
+    "number": 64
   },
   "indexed_by": [
     {
@@ -35,10 +35,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 14
+      "number": 64
     }
   ],
-  "measure_info": "十四卷",
+  "measure_info": "六十四卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -66,10 +66,11 @@
     "11qkhu7a7sge8",
     "11qkhzx0duxa8"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 14，非諸志所著之任一數（清史稿藝文志作六十卷；續修四庫全書作六十四卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 六十四 卷，餘數之異存於各 indexed_by 之引文。"
 }

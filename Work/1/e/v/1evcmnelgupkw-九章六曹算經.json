@@ -20,6 +20,16 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「\n《四庫提要》著録《五曹算經》曰:“《唐志》始有甄鸞《五曹算\n經》,《隋書經籍志」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「\n《四庫提要》著録《五曹算經》曰:“《唐志》始有甄鸞《五曹算\n經》,《隋書經籍志」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷"
 }

@@ -26,6 +26,21 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《江總集》",
       "summary": "《江總集》七卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《江總集》三十卷",
+      "summary": "《江總集》三十卷",
+      "merged_from": "1evgqbsb2fqbk",
+      "note": "卷數與隋書經籍志全合。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "江總集",
+      "merged_from": "1evr5e3mjd0z5",
+      "note": "直齋原文：「陳尚書令考城江總總持撰……入隋，為上開府。《唐志集》三十卷，《中興書目》七卷，今惟存詩近百首雲。」直齋自明其一卷本乃南宋時所存殘帙，並列舉唐志三十卷、中興書目七卷，正與本條諸源卷數相承。"
     }
   ],
   "juan_count": {
@@ -47,5 +62,20 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "江總",
+      "role": "撰",
+      "dynasty": "南朝陳",
+      "entity_id": null,
+      "note": "隋書經籍志題「開府《江總集》三十卷」，直齋書錄解題「陳尚書令考城江總總持撰……入隋，為上開府」，書名即撰人。本庫無江總 entity。"
+    }
+  ],
+  "dynasty": "南朝陳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」",
+  "loss_status": "partially_extant",
+  "ai_note": "2026-08-19 全庫同名異書核對：書名即撰人，隋志三十卷、兩唐志二十卷、國史經籍志三十卷、宋志七卷、直齋一卷，同為陳江總（字總持，考城人，陳尚書令，入隋為上開府）別集，今合為一條。卷數遞減正是歷代散佚之跡，直齋已自言「《唐志集》三十卷，《中興書目》七卷，今惟存詩近百首雲」，四者相承一貫，非別為異書，故 loss_status 定 partially_extant，卷數從隋志三十卷。本庫無江總 entity，未繫。"
 }

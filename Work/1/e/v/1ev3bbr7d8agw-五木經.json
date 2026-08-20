@@ -29,6 +29,15 @@
       "edition": "元革 註 涵芬樓影印明萬曆刻夷門廣牘本",
       "volume": "第76冊",
       "section": "子部"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《五木經》一卷",
+      "summary": "《五木經》一卷（李翶撰元革注）",
+      "author_info": "李翶撰元革注",
+      "merged_from": "1evgq5umxqqdc",
+      "note": "撰人原作「李翶」，乃「李翱」之訛（或異寫），本條併入。"
     }
   ],
   "juan_count": {
@@ -91,12 +100,18 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgq5umxqqdc` 同題《五木經》、同卷數 1，撰人作「李翱」與「李翶」，僅一字之差（或一名含於另一名）。「李翶」全庫僅 1 見而「李翱」凡 8 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

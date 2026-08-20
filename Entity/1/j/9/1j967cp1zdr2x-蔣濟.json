@@ -7,7 +7,7 @@
   "dynasty": null,
   "works": [
     {
-      "work_id": "1evcmncp2msqo",
+      "work_id": "1evgpmraf5l34",
       "role": "撰"
     }
   ],
@@ -16,6 +16,7 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_0+work_recall_1.00+ambiguous_3+no_dynasty"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "dynasty_basis": "garbage_clean:未詳"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "dynasty_basis": "garbage_clean:未詳",
+  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96kem63heyo`（蔣濟，朝代闕），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n\n2026-08-19 同題異撰人專項：本條原繫之《蔣子萬機論》已判為他條同題同卷之重出而併，撰人歸於正名，故去其繫連。"
 }

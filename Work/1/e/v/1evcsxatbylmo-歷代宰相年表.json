@@ -4,12 +4,6 @@
   "title": "歷代宰相年表",
   "indexed_by": [
     {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《歷代宰相年表》",
-      "summary": "::右史鈔類七十四部，一千三百二十四卷。（（李燾《歷代宰相年表》以下不著錄八部，七十五卷））"
-    },
-    {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《歷代宰相年表》三十四卷",
@@ -18,5 +12,29 @@
     }
   ],
   "id": "1evcsxatbylmo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李燾",
+      "role": "撰",
+      "dynasty": "南宋",
+      "entity_id": null,
+      "note": "國史經籍志原注「（李燾）」。"
+    }
+  ],
+  "juan_count": {
+    "number": 34
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 34
+    }
+  ],
+  "measure_info": "三十四卷",
+  "dynasty": "南宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「南宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（附帶系統性訂正）：本條原兼收一則宋史藝文志「著錄」，其文實為史鈔類類末統計語「右史鈔類七十四部，一千三百二十四卷（李燾《歷代宰相年表》以下不著錄八部，七十五卷）」，乃匯入時將統計語誤析為書條所生，非真著錄（宋志明言此書「不著錄」），今刪去該引文並自整理本摘去繫連。本條實據國史經籍志「《歷代宰相年表》三十四卷（李燾）」而立，據補撰人、卷數。本庫無李燾 entity，未繫。"
 }

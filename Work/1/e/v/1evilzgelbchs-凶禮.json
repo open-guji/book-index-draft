@@ -36,15 +36,50 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《凶禮》一卷",
+      "summary": "《凶禮》一卷（𣈆孔行）",
+      "author_info": "𣈆孔行",
+      "merged_from": "1evgpie3p46ww",
+      "note": "《凶禮》（孔衍）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "title_info": "凶禮一卷",
+      "summary": "凶禮一卷\n孔。謹按見《隋志》。《通志藝文略》誤作“孔傅”。",
+      "merged_from": "1evfugvsft2io",
+      "note": "《凶禮》（孔衍）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "兇禮一卷",
+      "summary": "《凶礼》一卷（晋广陵相孔衍撰。）",
+      "merged_from": "1evc5pdbsy41s",
+      "note": "《凶禮》與《兇禮孔衍撰》乃同一書之二題（一冠撰人、一不冠），撰人相同，係重出，今合併。"
     }
   ],
-  "ai_note": "清史稿藝文志經部禮類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部禮類　輯佚檔：本書之輯佚著錄置於 fragments/凶禮.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項（續）：本條題《凶禮》，庫中別有題《兇禮孔衍撰》者（`1evc5pdbsy41s`）——長題恰為「撰人＋短題＋撰」，撰人相同，是同一書之二題，今合併。\n\n2026-08-19 輯佚檔繫連補記：本書之輯佚著錄見同目錄下 fragments/（`凶禮.json`）。",
   "type": "work",
   "id": "1evilzgelbchs",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "additional_titles": [
+    "兇禮孔衍撰"
+  ]
 }

@@ -3,7 +3,15 @@
   "id": "1ev3bb20vrklc",
   "type": "work",
   "title": "明宮史",
-  "authors": [],
+  "authors": [
+    {
+      "name": "呂毖",
+      "role": "撰",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「呂毖」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -21,7 +29,8 @@
     }
   ],
   "books": [
-    "11q37q6m8nvnk"
+    "11q37q6m8nvnk",
+    "11qkhwbruo3cw"
   ],
   "juan_count": {
     "number": 5
@@ -60,7 +69,14 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「呂毖」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-20 同題同撰人跨志重出專項：本條與 `1evkpx4r30g74` 同題《明宮史》、同撰人「呂毖」，而所繫之志互不相交，是一書為數志各著一次而匯入分為二條，今併。",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫014086-014087）。清乾隆間寫文淵閣四庫全書本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

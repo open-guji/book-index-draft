@@ -7,7 +7,9 @@
       "name": "李昉",
       "role": "撰",
       "dynasty": "北宋",
-      "dynasty_basis": "same_name_propagation:李昉->北宋"
+      "entity_id": "1j969lr2spj5a",
+      "dynasty_basis": "same_name_propagation:李昉->北宋",
+      "note": "著錄多作「李昉等」，直齋書錄解題稱「翰林承旨李昉等纂」，「等」謂其他未具名之纂修者。"
     }
   ],
   "indexed_by": [
@@ -20,6 +22,29 @@
       "edition": "影印南京圖書館藏清抄本",
       "volume": "第718冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《歷代宮殿名》一卷",
+      "summary": "翰林承旨李昉等纂。歷代及僭偽宮殿、門闕、樓觀、園苑、池館名，無不畢錄。",
+      "merged_from": "1evr5e3mjd109"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《歷代宮殿名》",
+      "summary": "李昉《歷代宮殿名》一卷樂史",
+      "merged_from": "1evcsxlomv85c",
+      "note": "句末「樂史」屬下一條之頂真格領頭撰人。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《歷代宮殿名》一卷",
+      "summary": "《歷代宮殿名》一卷（宋李昉）",
+      "author_info": "宋李昉",
+      "merged_from": "1evcsxlomv85c"
     }
   ],
   "description": {
@@ -28,7 +53,15 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「李昉等」，「等」謂李昉及其他未具名之纂修者，非姓名之一部，今剝離作「李昉」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「李昉等」，「等」謂李昉及其他未具名之纂修者，非姓名之一部，今剝離作「李昉」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。\n\n2026-08-19 全庫同名異書核對：前註所謂「同名異書（不同作者）」實皆同書——併入直齋書錄解題（「翰林承旨李昉等纂」，並詳述體例）、宋史藝文志、國史經籍志三源，4條中之3條併為1，並補繫既有李昉 entity。另崇文總目著錄「歴代宫殿名一百卷」（見 `1evr5e3mfm6ig`），卷數與諸志一卷本懸殊百倍，或為傳寫之訛、或別為一大型類書，證據不足以逕併，維持獨立存疑。",
+  "related_works": [
+    {
+      "id": "1evr5e3mfm6ig",
+      "title": "歷代宮殿名",
+      "relation": "related",
+      "note": "崇文總目一百卷本，卷數與本條一卷本懸殊，關係待考。"
+    }
+  ],
   "juan_count": {
     "number": 1
   },
@@ -54,7 +87,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T09:17:26+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "dynasty": "北宋",
   "dynasty_basis": "据本轮 author.dynasty「北宋」补全",

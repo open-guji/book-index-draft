@@ -42,22 +42,22 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 222，非諸志所著之任一數（欽定四庫全書總目作二百二十卷；明史藝文志作一百卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 二百二十 卷，餘數之異存於各 indexed_by 之引文。",
   "juan_count": {
-    "number": 222
+    "number": 220
   },
   "measures": [
     {
       "unit": "卷",
-      "number": 222
+      "number": 220
     }
   ],
-  "measure_info": "二百二十二卷 目錄二卷",
+  "measure_info": "二百二十卷",
   "id": "1evjxkkj2r56o",
   "additional_titles": [
     "史書纂畧"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

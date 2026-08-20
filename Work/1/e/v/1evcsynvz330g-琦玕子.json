@@ -8,8 +8,41 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《琦玕子》",
       "summary": "《琦玕子》一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《琦玕子》一卷",
+      "summary": "《琦玕子》一卷（元結）",
+      "author_info": "元結",
+      "merged_from": "1evgq0g7zztvk",
+      "note": "諸志同著《琦玕子》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsynvz330g",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "元結",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "國史經籍志注「元結」。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《琦玕子》一卷，今合併並據國史經籍志之注補撰人為元結。"
 }

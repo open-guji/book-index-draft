@@ -16,6 +16,39 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "史漢要集二卷 祠部郎王度,謹按見《隋志》。舊注云:“鈔《史記》,入《春秋》者不録。”史記正傳九卷 張 。謹按見《隋志》。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《史漢要集》二卷",
+      "summary": "《史漢要集》二卷晉祠部郎王蔑撰。抄《史記》，入《春秋》者不錄。",
+      "merged_from": "1evcml3xrvj0g",
+      "note": "撰人原作「王蔑」，乃「王度」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《史漢要集》二卷",
+      "summary": "《史漢要集》二卷王蔑撰。",
+      "merged_from": "1evcml3xrvj0g",
+      "note": "撰人原作「王蔑」，乃「王度」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《史漢要集》二卷",
+      "summary": "《史漢要集》二卷（王蔑）",
+      "author_info": "王蔑",
+      "merged_from": "1evcml3xrvj0g",
+      "note": "撰人原作「王蔑」，乃「王度」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王蔑史漢要集",
+      "summary": "王蔑史漢要集二卷",
+      "merged_from": "1evcml3xrvj0g",
+      "note": "撰人原作「王蔑」，乃「王度」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -35,10 +68,20 @@
   ],
   "measure_info": "二卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evcml3xrvj0g` 同題《史漢要集》、同卷數 2，撰人分作「王度」「王蔑」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「王度」，異名之著錄並存於 indexed_by。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "史漢要集二卷",
+      "summary": "史漢要集二卷晉祠部郎王蔑撰。抄《史記》入《春秋》者不録\n王蔑始末未詳。\n《唐書·經籍志》:《史漢要集》二卷,王蔑撰。\n《唐書·藝文志》:王蔑《史漢要集》二卷。\n章氏《考證》曰:“史漢”,一本作“史記'。”",
+      "merged_from": "1evcml3xrvj0g",
+      "note": "撰人原作「王蔑」，乃「王度」之異寫或形訛，本條併入。"
+    }
+  ]
 }

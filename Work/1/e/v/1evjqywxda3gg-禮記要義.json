@@ -41,7 +41,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 | 從 1evjy4rzn0lq8 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evgoqcm32hog(王安石)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 | 從 1evjy4rzn0lq8 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evgoqcm32hog(王安石)（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十三卷），今據以補。",
   "id": "1evjqywxda3gg",
   "resources": [
     {
@@ -68,10 +68,20 @@
     "11qk4xwcskb36",
     "11qkhv61ocuf4"
   ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "juan_count": {
+    "number": 33
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 33
+    }
+  ],
+  "measure_info": "三十三卷"
 }

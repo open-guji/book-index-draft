@@ -7,9 +7,42 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《大遼事跡》",
-      "summary": "趙誌忠《大遼事跡》十卷"
+      "summary": "趙誌忠《大遼事跡》十卷",
+      "note": "宋史藝文志雜家類此段連續頂真格：前條「劉振《通籍錄異》二十卷趙誌忠」句末之名即本條前置撰人。"
     }
   ],
   "id": "1evcsxxuok740",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "趙誌忠",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志雜家類此段為連續頂真格（前條「劉振《通籍錄異》二十卷趙誌忠」句末之名前置為本條撰人）。趙誌忠（趙志忠）本遼人，北宋仁宗時歸宋，具言遼事，故能撰此。本庫無此 entity。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "related_works": [
+    {
+      "id": "1evgadyvzdpfk",
+      "title": "大遼事跡",
+      "relation": "related",
+      "note": "補遼金元藝文志、元史藝文志所著錄之「遼大遼事蹟（金時高麗所進）」，不著撰人卷數，來歷與本條異，或即同書別本，待考。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人「趙誌忠」據宋史藝文志雜家類頂真格文例確定。趙志忠本遼人，北宋仁宗時歸宋，備言契丹事，別有《虜庭雜記》等，撰《大遼事跡》十卷正相稱。補遼金元藝文志、元史藝文志另著錄不題撰人之「大遼事蹟（金時高麗所進）」（見 `1evgadyvzdpfk`），來歷不同，未敢遽合，以 related_works 互見待考。本庫無趙誌忠 entity，未繫。"
 }

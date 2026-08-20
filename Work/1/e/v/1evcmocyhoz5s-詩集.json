@@ -1,48 +1,48 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "詩集",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《詩集》五十卷",
-   "summary": "《詩集》五十卷謝靈運撰。梁五十一卷。又有宋侍中張敷、袁淑補謝靈運《詩集》一百卷；又《詩集》百卷，並例、錄二卷，顏峻撰；《詩集》四十卷，宋明帝撰；《雜詩》七十九卷，江邃撰；《雜詩》二十卷，宋太子洗馬劉和注；《二晉雜詩》二十卷；《古今五言詩美文》五卷，荀綽撰；《詩鈔》十卷。亡。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "詩集",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《詩集》五十卷",
+      "summary": "《詩集》五十卷謝靈運撰。梁五十一卷。又有宋侍中張敷、袁淑補謝靈運《詩集》一百卷；又《詩集》百卷，並例、錄二卷，顏峻撰；《詩集》四十卷，宋明帝撰；《雜詩》七十九卷，江邃撰；《雜詩》二十卷，宋太子洗馬劉和注；《二晉雜詩》二十卷；《古今五言詩美文》五卷，荀綽撰；《詩鈔》十卷。亡。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《詩集》五十卷",
+      "summary": "《詩集》五十卷謝靈運撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "謝靈運詩集",
+      "summary": "謝靈運詩集五十卷"
+    }
+  ],
+  "authors": [
+    {
+      "name": "謝靈運",
+      "role": "撰",
+      "entity_id": "1j968k0je2uio"
+    }
+  ],
+  "juan_count": {
+    "number": 50
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《詩集》五十卷",
-   "summary": "《詩集》五十卷謝靈運撰。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "謝靈運詩集",
-   "summary": "謝靈運詩集五十卷"
-  }
- ],
- "authors": [
-  {
-   "name": "謝靈運",
-   "role": "撰",
-   "entity_id": "1j968k0je2uio"
-  }
- ],
- "juan_count": {
-  "number": 50
- },
- "id": "1evcmocyhoz5s",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 50
-  }
- ],
- "measure_info": "五十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs17px6dxc（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "id": "1evcmocyhoz5s",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 50
+    }
+  ],
+  "measure_info": "五十卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs17px6dxc（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 部帙通名截題正名專項：本條題「詩集」，出隋書經籍志總集類「《詩集》五十卷謝靈運撰」，乃謝靈運所編之總集，「詩集」為該書本題而非截題（隋志此條下注歷數張敷袁淑補本一百卷、顏峻百卷、宋明帝四十卷諸家同名之《詩集》，可證此題本為總集常名），故不改題。庫中同題諸條各有撰人、卷數，已別為記錄。"
 }

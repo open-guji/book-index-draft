@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mifbh7",
+  "type": "work",
+  "title": "水心集拾遺",
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "拾遺"
+    }
+  ],
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "original_title": "拾遺",
+  "authors": [
+    {
+      "name": "葉適",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "related_works": [
+    {
+      "id": "1ev3bd1ri5pts",
+      "title": "水心集",
+      "relation": "part_of"
+    }
+  ],
+  "ai_note": "2026-08-19 部帙通名截題正名專項：本條原題「拾遺」，出直齋書錄解題別集類上，居「《水心集》二十八卷」與「《別集》十六卷」之間，乃葉適《水心集》之拾遺一卷。整理本此三節皆繫於磁鐵條 `1evr5e3mi42xj`（題作「水心集》二十八卷、《拾遺》一卷、《別集」），本條則別為一 work，今正名並補撰人。"
+}

@@ -2,14 +2,26 @@
   "schema_version": 1,
   "type": "work",
   "title": "三略",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
   "indexed_by": [
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《三略》",
-      "summary": "校定《三略》三卷"
+      "summary": "校定《三略》三卷",
+      "note": "前條為「校定《吳子》二卷校定」，句末「校定」領本條；同段連書多部「校定」某書，蓋宋元豐間校定武經七書之官修本。"
     }
   ],
+  "ai_note": "2026-08-19 全庫同名異書核對：句首「校定」為著錄語（宋元豐間官方校定武經七書之標記，同段連書「校定《吳子》二卷」等），非人名，撰人不可考，維持留白，僅補卷數。本條為《黃石公三略》（見 `1ev3bbeunt2bk`）之官方校定本，關係改繫為 studies。與同題成氏注本（`1evcsyb82ohkw`）、呂惠卿注本（`1evgq11brx8n4`）各為不同注／校本。",
   "id": "1evcsyb3fzri8",
   "resources": [
     {
@@ -25,10 +37,10 @@
     {
       "id": "1ev3bbeunt2bk",
       "title": "黃石公三略",
-      "relation": "related",
-      "note": "與之相關者為《黃石公三略》三卷。同書異題。著錄作《三略》，無撰人無卷數，疑本書之重出，待覈。"
+      "relation": "studies",
+      "note": "所校定者為《黃石公三略》三卷。宋元豐間校定武經七書之官修本。"
     }
   ],
-  "updated_at": "2026-08-01T13:26:56+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true
 }

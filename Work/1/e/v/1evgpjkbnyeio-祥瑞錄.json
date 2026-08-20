@@ -20,7 +20,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"祥瑞錄\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"祥瑞錄\" 唯一候选无作者\n\n2026-08-19 全庫同名異書核對：本條為國史經籍志《祥瑞錄》三卷（注「魏徴」），與宋史藝文志《祥瑞錄》十卷（`1evcsxwu8x0jk`）卷數異、所繫撰人亦不同，未予合併。",
   "id": "1evgpjkbnyeio",
   "measures": [
     {
@@ -29,5 +29,18 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "魏徵",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967cp1zdr1z",
+      "note": "國史經籍志注「魏徴」。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

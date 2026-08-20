@@ -23,6 +23,32 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "《四書箋義纂要》十二卷",
       "summary": "元趙德四書箋義纂要十二卷"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《四書箋義纂要》十二卷",
+      "author_info": "宋趙悳撰",
+      "summary": "《四書箋義纂要》十二卷。宋趙悳撰。影印清道光二十四年錢氏刻守山閣叢書本。",
+      "edition": "影印清道光二十四年錢氏刻守山閣叢書本",
+      "volume": "第159冊",
+      "section": "经部 四書類",
+      "merged_from": "1evjqzf1jrpj4",
+      "note": "撰人原作「趙悳」，乃「趙德」之訛（或異寫），本條併入。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《四書箋義纂要》（趙悳）",
+      "summary": "十二卷（又紀遺一卷）",
+      "section": "四書",
+      "juan": "卷二百五十三",
+      "page": "KR2n0011_WYG_253-10b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evjqzf1jrpj4",
+      "note": "撰人原作「趙悳」，乃「趙德」之訛（或異寫），本條併入。"
     }
   ],
   "juan_count": {
@@ -42,10 +68,29 @@
     }
   ],
   "measure_info": "十二卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evke7lb06vi8` 同題《四書箋義纂要》、同卷數 12，撰人作「趙德」與「趙」，僅一字之差（或一名含於另一名）。「趙」全庫僅 1 見而「趙德」凡 5 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evjqzf1jrpj4` 同題《四書箋義纂要》、同卷數 12，撰人作「趙德」與「趙悳」，僅一字之差（或一名含於另一名）。「趙悳」全庫僅 1 見而「趙德」凡 5 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "books": [
+    "11qkhutxxozy8",
+    "11qkhv5zkteyo"
+  ],
+  "resources": [
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0159%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 159
+      },
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "_has_image": true
 }

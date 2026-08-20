@@ -3,6 +3,15 @@
   "id": "1evr5e3miqk1e",
   "type": "work",
   "title": "伊川集",
+  "authors": [
+    {
+      "name": "程頤",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967da96x4xi",
+      "note": "直齋書錄解題明載「崇政殿說書程頤正叔撰」。程頤世稱伊川先生，故以名集。"
+    }
+  ],
   "juan_count": {
     "number": 9
   },
@@ -10,8 +19,21 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "伊川集"
+      "title_info": "《伊川集》九卷",
+      "summary": "崇政殿說書程頤正叔撰。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷",
+  "ai_note": "2026-08-19 全庫同名異書核對：原記錄僅存裸題「伊川集」，係匯入時漏收正文，今據 collated_edition 補全引文並補撰人程頤（世稱伊川先生，官崇政殿說書）。與同題錢惟演撰五卷本（宋史藝文志＋國史經籍志，見 `1evcsyy9qimm8`）撰人、卷數皆異，非同書。",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」"
 }

@@ -21,8 +21,54 @@
       "title_info": "《理道要訣》十卷",
       "summary": "《理道要訣》十卷（杜佑）",
       "author_info": "杜佑"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "理道要訣",
+      "merged_from": "1evr5e3miqk0u",
+      "note": "諸志同著《理道要訣》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《理道要訣》十卷",
+      "summary": "《理道要訣》十卷（牡佑）",
+      "author_info": "牡佑",
+      "merged_from": "1evgpmy8tnwg0",
+      "note": "撰人原作「牡佑」，乃「杜佑」之訛（或異寫），本條併入。"
     }
   ],
   "id": "1evcsxwwa9s74",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "authors": [
+    {
+      "name": "杜佑",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967avzn7z7z",
+      "note": "宋史藝文志作「杜佑《理道要訣》十卷皇甫選注」、國史經籍志注「杜佑」，二志相合；條首「（（元結撰））」乃上條之注，句末「皇甫選注」屬下條。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志、直齋書錄解題同著《理道要訣》十卷，今合併。宋志之前置撰人與國史經籍志之注相合，並為杜佑。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgpmy8tnwg0` 同題《理道要訣》、同卷數 10，撰人作「杜佑」與「牡佑」，僅一字之差（或一名含於另一名）。「牡佑」全庫僅 1 見而「杜佑」凡 4 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

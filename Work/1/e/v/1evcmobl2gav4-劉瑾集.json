@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "劉瑾集",
       "summary": "劉瑾集八卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《劉瑾集》九卷",
+      "summary": "《劉瑾集》九卷",
+      "merged_from": "1evgqazvf8glc",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "九卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉瑾",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "隋書經籍志題「晉太常卿《劉瑾集》九卷」，書名即撰人。本庫「劉瑾」entity `1j967avzk3lse` 為元人（CBDB 33571），與晉太常卿劉瑾同名異實，不得相繫，故 entity_id 留空。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太常卿《劉瑾集》九卷（梁五卷）」、兩唐志八卷、國史經籍志九卷，同為東晉劉瑾別集，今合為一條；撰人本庫無可繫之 entity。"
 }

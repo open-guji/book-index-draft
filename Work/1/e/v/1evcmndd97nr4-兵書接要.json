@@ -43,6 +43,19 @@
   ],
   "measure_info": "十卷",
   "loss_status": "lost",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/兵書接要.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "updated_at": "2026-08-05T09:02:34+00:00"
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/兵書接要.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「魏武帝」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "武帝",
+      "role": "撰",
+      "dynasty": "魏",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「魏武帝」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「魏」"
 }

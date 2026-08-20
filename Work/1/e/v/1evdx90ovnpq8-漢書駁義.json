@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "1evdx90ovnpq8",
+  "type": "work",
+  "title": "漢書駁義",
+  "authors": [
+    {
+      "name": "劉寶",
+      "role": "撰",
+      "entity_id": "1j96h8rw7k8wo",
+      "dynasty": "晉"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉寶漢書駁義",
+      "summary": "劉寶漢書駁義二卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《漢書駁義》二卷",
+      "summary": "《漢書駁義》二卷劉寶撰。",
+      "merged_from": "1evcpcvj3pam8",
+      "note": "本著錄原繫題作「劉寶漢書駁義」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《漢書駁義》二卷",
+      "summary": "《漢書駁義》二卷（晉劉寳）",
+      "author_info": "晉劉寳",
+      "merged_from": "1evcpcvj3pam8",
+      "note": "本著錄原繫題作「劉寶漢書駁義」之條，該題乃撰人冠於書名之首所成，今併入。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "related_works": [
+    {
+      "id": "1euidlec1g8ow",
+      "title": "漢書",
+      "relation": "studies"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」（2026-08-13 隋唐探勘：劉寶：隋書經籍志/補晉書藝文志皆明載「晉安北將軍劉寶撰」，Entity遭CBDB誤配（pending_accept cbdb_dy=6, 600-665））",
+  "additional_titles": [
+    "漢書駁義"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《漢書駁義》之 work（`1evcpcvj3pam8`），與本條題名之差恰為本條撰人「劉寶」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《漢書駁義》。",
+  "original_title": "劉寶漢書駁義"
+}

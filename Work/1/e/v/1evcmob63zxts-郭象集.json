@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "郭象集",
       "summary": "郭象集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《郭象集》五卷",
+      "summary": "《郭象集》五卷",
+      "merged_from": "1evgqaj0knif4",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,6 +49,19 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太傅主簿《郭象集》二卷（梁五卷，錄一卷）」、兩唐志五卷、國史經籍志五卷，同為西晉郭象別集，今合為一條並繫 entity `1j967cp1zdr2g`。隋志本條下附他書「梁有……」云云為附注他書之通例，非本書異名。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "郭象",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j967cp1zdr2g",
+      "note": "隋書經籍志題「晉太傅主簿《郭象集》二卷」，書名即撰人。郭象（約252-312）注《莊子》。本庫 entity 未著朝代，今據隋志補其朝代於 authors。"
+    }
+  ],
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」"
 }

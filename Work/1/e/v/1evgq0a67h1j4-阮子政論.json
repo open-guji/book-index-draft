@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《阮子政論》五卷",
       "summary": "《阮子政論》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "阮子政論",
+      "summary": "阮子政論五卷",
+      "merged_from": "1evcs0oyr6nsw",
+      "note": "諸志同著《阮子政論》，係一書互著（或重出），今合併。"
     }
   ],
   "description": {
@@ -27,6 +35,19 @@
     }
   ],
   "measure_info": "五卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"阮子政證\"->\"阮子政論\"",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、國史經籍志同著《阮子政論》五卷，今合併並補撰人為阮武。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "阮武",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96hehgimakg",
+      "note": "隋書經籍志作「《阮子正論》五卷，魏清河太守阮武撰」，「政」「正」通；題名「阮子」即其人。"
+    }
+  ],
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」"
 }

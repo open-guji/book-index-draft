@@ -10,6 +10,15 @@
       "title_info": "大遼事迹",
       "author_info": "金時高麗所進",
       "summary": "遼大遼事迹（金時高麗所進）"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "大遼事蹟",
+      "author_info": "金時高麗所進",
+      "summary": "遼大遼事蹟（金時高麗所進）",
+      "merged_from": "1evgbvj83qrk0",
+      "note": "元史藝文志與補遼金元藝文志此條著錄文字全同（「遼大遼事蹟（金時高麗所進）」），係同一著錄之兩志重出。"
     }
   ],
   "description": {
@@ -18,14 +27,23 @@
       "補遼金元藝文志"
     ]
   },
-  "ai_note": "補遼金元藝文志失名 [ljy-round2: dynasty null→遼金元; 來源=補遼金元藝文志]",
+  "ai_note": "2026-08-19 全庫同名異書核對：補遼金元藝文志「遼大遼事迹（金時高麗所進）」與元史藝文志「遼大遼事蹟（金時高麗所進）」文字全同，係同一著錄之兩志重出，今合為一條（「迹」「蹟」為異體）。二志皆繫於遼、皆不著撰人，惟注其來歷為「金時高麗所進」。宋史藝文志別有「趙誌忠《大遼事跡》十卷」（見 `1evcsxxuok740`），有撰人有卷數，趙志忠為由遼歸宋之人，其書成於北宋仁宗時，與「金時高麗所進」之來歷不同；或為同書之別本，證據不足，未合併，以 related_works 互見待考。",
   "id": "1evgadyvzdpfk",
   "additional_titles": [
-    "大遼事迹"
+    "大遼事迹",
+    "大遼事蹟"
   ],
-  "updated_at": "2026-08-09T10:30:14+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補遼金元藝文志",
   "dynasty": "遼金元",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "gazetteer_propagation",
+  "related_works": [
+    {
+      "id": "1evcsxxuok740",
+      "title": "大遼事跡",
+      "relation": "related",
+      "note": "宋史藝文志雜家類「趙誌忠《大遼事跡》十卷」，有撰人有卷數，與本條「金時高麗所進」之來歷不同，或即同書之別本，待考。"
+    }
+  ]
 }

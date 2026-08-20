@@ -32,11 +32,21 @@
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "作者朝代訂正：原作「清」，今改「三國魏」。《舊唐書·經籍志》著錄「《春秋左氏經傳章句》三十卷董遇注」，董遇三國魏人。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏經傳章句.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "作者朝代訂正：原作「清」，今改「三國魏」。《舊唐書·經籍志》著錄「《春秋左氏經傳章句》三十卷董遇注」，董遇三國魏人。　輯佚檔：本書之輯佚著錄置於 fragments/春秋左氏經傳章句.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十卷），今據以補。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷"
 }

@@ -8,6 +8,13 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《草堂集》",
       "summary": "魏野《草堂集》二卷又"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "草堂集",
+      "merged_from": "1evr5e3miqjvm",
+      "note": "直齋原文：「處士巨鹿魏野仲先撰。」撰人、卷數與本條全合。"
     }
   ],
   "id": "1evcsyvmtfs3k",
@@ -21,6 +28,38 @@
       ]
     }
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "authors": [
+    {
+      "name": "魏野",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl89icf",
+      "note": "直齋書錄解題「處士巨鹿魏野仲先撰」；宋志別集類頂真格所繫撰人亦作魏野（前條「《奏議》二卷魏野」句末之名前置）。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "related_works": [
+    {
+      "id": "1evcsysgjc0lc",
+      "title": "草堂集",
+      "relation": "related",
+      "note": "宋史藝文志別集類別出「賈緯《草堂集》二十卷」，撰人、卷數俱異，別為一書。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：直齋書錄解題「《草堂集》二卷：處士巨鹿魏野仲先撰」與宋史藝文志「魏野《草堂集》二卷」（頂真格所繫）撰人、卷數全合，同為一書，今合為一條並繫 entity `1j967bgl89icf`。宋志別集類另有「賈緯《草堂集》二十卷」（見 `1evcsysgjc0lc`，五代人，其下即《續草堂集》十五卷），撰人、卷數俱異，別為一書，不合併。"
 }

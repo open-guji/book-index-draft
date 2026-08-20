@@ -8,8 +8,41 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《吳郡錢塘先賢傳》五卷",
       "summary": "《吳郡錢塘先賢傳》五卷吳均撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《吳郡錢塘先賢傳》五卷",
+      "summary": "《吳郡錢塘先賢傳》五卷（吳均）",
+      "author_info": "吳均",
+      "merged_from": "1evgpj016gmps",
+      "note": "諸志同著《吳郡錢塘先賢傳》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpcxyayxog",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "authors": [
+    {
+      "name": "吳均",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《吳郡錢塘先賢傳》五卷吳均撰」；國史經籍志注「吳均」，二志相合。庫中同名 entity 繫為清人，非其人，故不繫。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、國史經籍志同著《吳郡錢塘先賢傳》五卷，今合併並補撰人為吳均。"
 }

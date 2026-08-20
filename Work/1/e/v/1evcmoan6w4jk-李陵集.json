@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "李陵集",
       "summary": "李陵集二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李陵集》二卷",
+      "summary": "《李陵集》二卷",
+      "merged_from": "1evgqa09g7z0g",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,6 +49,19 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢騎都尉《李陵集》二卷」、兩唐志、國史經籍志皆二卷，同為西漢李陵別集，今合為一條並繫 entity `1j96keo3p3bb4`。隋志本條下附「梁有漢丞相《魏相集》二卷……亡」為附注他書之通例。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李陵",
+      "role": "撰",
+      "dynasty": "西漢",
+      "entity_id": "1j96keo3p3bb4",
+      "note": "隋書經籍志題「漢騎都尉《李陵集》二卷」，書名即撰人。"
+    }
+  ],
+  "dynasty": "西漢",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「西漢」"
 }

@@ -11,5 +11,37 @@
     }
   ],
   "id": "1evcsy1fbw6ps",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "陶弘景",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967bgl7y9th",
+      "note": "宋史藝文志天文類此段為連續頂真格（前條「《混天星圖》一卷陶隱居」句末之名前置為本條撰人）。「陶隱居」即陶弘景（456-536），自號華陽隱居，梁時著名道士、本草家、天文家。"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "related_works": [
+    {
+      "id": "1evcsy1g5uyv4",
+      "title": "天文星經",
+      "relation": "related",
+      "note": "宋志天文類同卷別出之裸題五卷本（已併入崇文總目五卷本），不著撰人。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人據宋史藝文志天文類頂真格文例確定為「陶隱居」，即陶弘景（456-536，自號華陽隱居），今據以繫 entity `1j967bgl7y9th`。宋志同類稍後別出裸題五卷本（見 `1evcsy1g5uyv4`，已併崇文總目本），卷數同而無撰人，宋志既分列，未敢遽合，互見待考。"
 }

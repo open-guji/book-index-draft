@@ -8,8 +8,47 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《逸人高士傳》八卷",
       "summary": "《逸人高士傳》八卷習鑿齒撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又逸人高士傳",
+      "summary": "又逸人高士傳八卷",
+      "merged_from": "1evcs0f9x6dxc",
+      "note": "諸志同著《逸人高士傳》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "逸人高士傳八卷 習鑿齒,謹按見兩《唐志》。",
+      "merged_from": "1evfuuo4eaq68",
+      "note": "《逸人高士傳》（習鑿齒）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcpcy53ozk0",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "習鑿齒",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr2o",
+      "note": "舊唐書經籍志明載「《逸人高士傳》八卷習鑿齒撰」。"
+    }
+  ],
+  "juan_count": {
+    "number": 8
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《逸人高士傳》（習鑿齒，8卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evfuuo4eaq68（補晋書藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }

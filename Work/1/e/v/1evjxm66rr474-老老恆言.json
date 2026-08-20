@@ -20,6 +20,16 @@
       "edition": "北京圖書館藏清乾隆三十八年自刻本",
       "volume": "第119冊",
       "section": "子部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《老老恒言》•五卷",
+      "author_info": "國朝曹廷棟撰",
+      "summary": "國朝曹廷棟撰。廷棟有《易准》，已著錄。是書皆言衰年頤養之法。前二卷詳晨昏動定之宜，次二卷列居處備用之要，末附粥譜一卷，借為調養之需。蓋廷棟年七十五時作也。",
+      "edition": "浙江巡撫采進本",
+      "merged_from": "1ev3bc7eqtu68",
+      "note": "撰人原作「曹廷棟」，乃「曹庭棟」之訛（或異寫），本條併入。"
     }
   ],
   "description": {
@@ -28,7 +38,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bc7eqtu68(曹廷棟)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bc7eqtu68(曹廷棟)（不同作者，故新建獨立 Work）。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1ev3bc7eqtu68` 同題《老老恆言》、同卷數 5，撰人作「曹庭棟」與「曹廷棟」，僅一字之差（或一名含於另一名）。「曹廷棟」全庫僅 1 見而「曹庭棟」凡 10 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 5
   },
@@ -40,9 +50,73 @@
   ],
   "measure_info": "五卷",
   "id": "1evjxm66rr474",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "老老恒言"
+  ],
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=4675731",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-guangxusixiushuisuns",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL01027208",
+      "metadata": {
+        "edition": "光緒四年秀水孫氏望雲仙館本",
+        "version": "v7",
+        "total_page": 225,
+        "paragraph_count": 216,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-qianlongsanshibazike",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02056995",
+      "metadata": {
+        "edition": "乾隆三十八年自刻本",
+        "version": "v5",
+        "total_page": 295,
+        "paragraph_count": 1925,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-caotingdongqingqianl",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/NGJ892411999012168120040",
+      "metadata": {
+        "edition": "曹庭棟清乾隆38年刻本",
+        "version": "v1",
+        "total_page": 296,
+        "paragraph_count": 2384,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "_has_image": true
 }

@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "何妥集",
       "summary": "何妥集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《何妥集》十卷",
+      "summary": "《何妥集》十卷",
+      "merged_from": "1evgqbs4qvqbk",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "何妥",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": "1j96hlfy0xreo",
+      "note": "隋書經籍志題「國子祭酒《何妥集》十卷」，書名即撰人。何妥字棲鳳，隋國子祭酒，撰《樂要》等。"
+    }
+  ],
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「國子祭酒《何妥集》十卷」、兩唐志、國史經籍志皆十卷，同為隋何妥別集，今合為一條並繫 entity `1j96hlfy0xreo`。"
 }

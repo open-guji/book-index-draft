@@ -19,12 +19,43 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "劉寶集三卷 謹按見《七録》。《晋百官名》《世說。德行篇》注。:“寶字道真,高平人。”馮翊太守孫楚集十二卷一卷謹按見《七錄》。《隋志》六卷,兩《唐志》十卷。本書有傳。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《劉寳集》三卷",
+      "summary": "《劉寳集》三卷",
+      "merged_from": "1evgqafn931ts",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "id": "1evcpd5ljs5c0",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
+  "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "additional_titles": [
+    "劉寳集"
+  ],
+  "authors": [
+    {
+      "name": "劉寶",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96h8rw7k8wo",
+      "note": "書名即撰人。補晉書藝文志案語引《世說·德行篇》注「寶字道真，高平人」。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、補晉書藝文志、國史經籍志（作「劉寳集」）皆三卷，同為晉劉寶別集，今合為一條並繫 entity `1j96h8rw7k8wo`。"
 }

@@ -18,5 +18,29 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李隆基",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《周易大衍論》三卷玄宗撰」，玄宗即李隆基。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為唐玄宗《周易大衍論》三卷，與同志王弼《周易大衍論》一卷（`1evcpcsxf9ds0`）撰人、卷數俱異，舊唐志分列，未予合併。"
 }

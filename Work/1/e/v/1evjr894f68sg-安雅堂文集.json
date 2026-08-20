@@ -29,6 +29,14 @@
       "edition": "影印復旦大學圖書館藏清康熙五年刻本",
       "volume": "第1404冊",
       "section": "集部 集部"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "文集",
+      "summary": "安雅堂詩不分卷，文集四卷，未刻稿十卷。宋琬撰。",
+      "merged_from": "1evr5e3mezpel",
+      "note": "本著錄原別為一條，與本條同題同撰人而所出之志異，今併入。"
     }
   ],
   "description": {
@@ -37,7 +45,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-20 同題同撰人跨志重出專項：本條與 `1evr5e3mezpel` 同題《安雅堂文集》、同撰人「宋琬」，而所繫之志互不相交，是一書為數志各著一次而匯入分為二條，今併。二條卷數異（2／4），出處不同志，依「跨志卷異即一書之異本」之判準仍為一書，並存其著錄。",
   "juan_count": {
     "number": 2
   },
@@ -75,10 +83,20 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ev3be6kvxgcg",
+      "title": "安雅堂詩",
+      "relation": "part_of"
+    }
+  ],
+  "additional_titles": [
+    "文集"
+  ]
 }

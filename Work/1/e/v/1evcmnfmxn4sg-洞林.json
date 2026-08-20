@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《洞林》三卷",
       "summary": "《洞林》三卷梁元帝撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又洞林",
+      "summary": "又洞林三卷",
+      "merged_from": "1evcs0tap5pfk",
+      "note": "諸志同著《洞林》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "蕭繹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967da978diu",
+      "note": "隋書經籍志、舊唐書經籍志皆明載「《洞林》三卷梁元帝撰」，梁元帝即蕭繹。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《洞林》三卷，今合併並補撰人為蕭繹（梁元帝）。"
 }

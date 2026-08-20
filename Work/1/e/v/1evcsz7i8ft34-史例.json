@@ -14,8 +14,56 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "史例三十卷",
       "summary": "史例三十卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "史例",
+      "merged_from": "1evr5e3mifbb9",
+      "note": "諸志同著《史例》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《史例》三卷",
+      "summary": "《史例》三卷（唐劉餗。；古魏史兩漢魏、吳、晉、宋、齊、梁、陳、後魏、北齊、隋、唐。）",
+      "author_info": "唐劉餗。；古魏史兩漢魏、吳、晉、宋、齊、梁、陳、後魏、北齊、隋、唐。",
+      "merged_from": "1evgpgwearqio",
+      "note": "《史例》（劉餗）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉餗史例",
+      "summary": "劉餗史例三卷",
+      "merged_from": "1evgpgwearqio",
+      "note": "《史例》（劉餗）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcsz7i8ft34",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "authors": [
+    {
+      "name": "劉餗",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "宋史藝文志作「劉餗《史例》三卷」，前置撰人劉餗。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《史例》（劉餗，3卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgpgwearqio（國史經籍志、新唐書藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }

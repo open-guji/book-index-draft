@@ -19,6 +19,14 @@
       "edition": "湖南圖書館藏明宣德元年內府刻本",
       "volume": "第119冊",
       "section": "子部"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《歷代臣鑒》三十七卷",
+      "summary": "《歷代臣鑒》三十七卷",
+      "merged_from": "1evggvq3xckqo",
+      "note": "撰人原作「明宣宗」，乃「宣宗朱瞻基」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -27,7 +35,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evggvq3xckqo` 同題《歷代臣鑑》、同卷數 37，撰人分作「宣宗朱瞻基」「明宣宗」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「宣宗朱瞻基」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 37
   },
@@ -40,11 +48,15 @@
   "measure_info": "三十七卷",
   "id": "1evjxm6q03h1c",
   "additional_titles": [
-    "歴代臣鑒"
+    "歴代臣鑒",
+    "歷代臣鑒"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "books": [
+    "11qkhur1y3x8g"
+  ]
 }

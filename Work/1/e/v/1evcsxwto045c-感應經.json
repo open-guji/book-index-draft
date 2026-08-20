@@ -11,5 +11,43 @@
     }
   ],
   "id": "1evcsxwto045c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李淳風",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl6e33m",
+      "note": "宋史藝文志雜家類此段為連續頂真格（前條「黃晞《聱隅書》十卷李淳風」句末之名前置為本條撰人，本條句末「魏徵」則下屬「魏徵《時務策》一卷」）。李淳風（602-670）唐太史令，撰《乙巳占》等。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "related_works": [
+    {
+      "id": "1evcsxz8fz4lc",
+      "title": "感應經",
+      "relation": "related",
+      "note": "宋史藝文志小說類託名東方朔之《感應經》三卷，卷數同而撰人異。"
+    },
+    {
+      "id": "1evr5e3mfxf1k",
+      "title": "感應經",
+      "relation": "related",
+      "note": "崇文總目裸題三卷本，無撰人可繫。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人「李淳風」據宋史藝文志雜家類頂真格文例確定並繫 entity `1j967bgl6e33m`。李淳風為唐太史令，精天文歷算術數，撰《乙巳占》，作《感應經》正相稱。宋志小說類另出託名東方朔之同題三卷本（見 `1evcsxz8fz4lc`），崇文總目又有裸題三卷本，三者卷數盡同而撰人各異，不合併，並存互見。"
 }

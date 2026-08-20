@@ -26,6 +26,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《庾信集》",
       "summary": "《庾信集》二十卷又"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《庾信集》二十一卷",
+      "summary": "《庾信集》二十一卷",
+      "merged_from": "1evgqbqfshfk0",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -48,6 +56,19 @@
   ],
   "measure_info": "二十一卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「《隋志》作二十一卷,皆\n已久佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「後周開府儀同《庾信集》二十一卷並錄」、兩唐志二十卷、宋志二十卷、國史經籍志二十一卷，同為北周庾信別集，今合為一條並繫 entity `1j98p56aww3cw`。卷數二十一／二十之異，隋志自注「並錄」，合錄一卷正二十一。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "庾信",
+      "role": "撰",
+      "dynasty": "北周",
+      "entity_id": "1j98p56aww3cw",
+      "note": "隋書經籍志題「後周開府儀同《庾信集》二十一卷」，書名即撰人。庾信（513-581）字子山，撰《哀江南賦》。"
+    }
+  ],
+  "dynasty": "北周",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北周」"
 }

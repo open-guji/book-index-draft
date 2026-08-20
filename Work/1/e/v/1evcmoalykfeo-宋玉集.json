@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《宋玉集》三卷",
       "summary": "楚大夫《宋玉集》三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《宋玉集》二卷",
+      "summary": "《宋玉集》二卷",
+      "merged_from": "1evgq9zlm4lq8",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -29,5 +37,19 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "宋玉",
+      "role": "撰",
+      "dynasty": "先秦",
+      "entity_id": "1j96glo90rdhf",
+      "note": "隋書經籍志題「楚大夫《宋玉集》三卷」，書名即撰人。宋玉為戰國楚辭賦家，屈原之後。"
+    }
+  ],
+  "dynasty": "先秦",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「先秦」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「楚大夫《宋玉集》三卷」、國史經籍志二卷，同為先秦宋玉別集，今合為一條並繫 entity `1j96glo90rdhf`。卷數三／二之異為傳本分合。"
 }

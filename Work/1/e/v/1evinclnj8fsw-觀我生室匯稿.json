@@ -9,7 +9,39 @@
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "《觀我生室匯稿》",
       "summary": "二十四卷。羅士琳。阮刻本。《十一種》，目列後。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《觀我生室匯稿》",
+      "summary": "。羅士琳著。有古書。",
+      "merged_from": "1evincuijrlkw",
+      "note": "《觀我生室匯稿》（羅士琳）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "羅士琳",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": null,
+      "note": "書目答問明載「二十四卷。羅士琳。阮刻本。《十一種》，目列後。」"
+    }
+  ],
+  "juan_count": {
+    "number": 24
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 24
+    }
+  ],
+  "measure_info": "二十四卷",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《觀我生室匯稿》（羅士琳）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
 }

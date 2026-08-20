@@ -27,8 +27,65 @@
       "title_info": "《春秋外傳國語》二十卷",
       "summary": "《春秋外傳國語》二十卷（賈逵。）",
       "author_info": "賈逵。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又二十一卷",
+      "summary": "又二十一卷",
+      "merged_from": "1evcpcugdyp6o",
+      "note": "諸志同著《春秋外傳國語》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "左丘明春秋外傳國語",
+      "summary": "左丘明春秋外傳國語二十卷",
+      "merged_from": "1evdxnp25imtc",
+      "note": "《春秋外傳國語》與《左丘明春秋外傳國語》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋外傳國語》（左丘明）",
+      "summary": "漢志二十一篇",
+      "section": "春秋",
+      "juan": "卷二百九",
+      "page": "KR2n0011_WYG_209-1a",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evdxnp25imtc",
+      "note": "《春秋外傳國語》與《左丘明春秋外傳國語》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
     }
   ],
   "id": "1evcpcufooh6o",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "左丘明",
+      "role": "撰",
+      "dynasty": "先秦",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《春秋外傳國語》二十卷左丘明撰」；崇文總目解題亦詳，並記韋昭解。"
+    }
+  ],
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "dynasty": "先秦",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「先秦」",
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《春秋外傳國語》，庫中別有題《左丘明春秋外傳國語》者（`1evdxnp25imtc`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。",
+  "additional_titles": [
+    "左丘明春秋外傳國語"
+  ]
 }
