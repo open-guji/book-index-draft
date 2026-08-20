@@ -1,92 +1,86 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "喪服圖",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "喪服圖一卷崔游,謹按見兩《唐志》,亦見本書遊傳。《隋志》誤“游” “逸”,不可據。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "喪服圖",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "喪服圖一卷崔游,謹按見兩《唐志》,亦見本書遊傳。《隋志》誤“游” “逸”,不可據。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《喪服圖》一卷",
+      "summary": "《喪服圖》一卷崔遊撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《喪服圖》一卷",
+      "summary": "《喪服圖》一卷（崔逸）",
+      "author_info": "崔逸"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《喪服圖》（崔游）",
+      "summary": "舊唐志一卷",
+      "section": "儀禮",
+      "juan": "卷一百三十六",
+      "page": "KR2n0011_WYG_136-6b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "崔游喪服圖",
+      "summary": "崔游喪服圖一卷"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《喪服圖》一卷",
-   "summary": "《喪服圖》一卷賀遊撰。"
+  "authors": [
+    {
+      "name": "崔游",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96h8rw86pzn",
+      "dynasty_basis": "entity_propagation_r2:1j96h8rw86pzn"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《喪服圖》一卷",
-   "summary": "《喪服圖》一卷崔遊撰。"
-  },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《喪服圖》一卷",
-   "summary": "《喪服圖》一卷（崔逸）",
-   "author_info": "崔逸"
-  },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《喪服圖》（崔游）",
-   "summary": "舊唐志一卷",
-   "section": "儀禮",
-   "juan": "卷一百三十六",
-   "page": "KR2n0011_WYG_136-6b",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "崔游喪服圖",
-   "summary": "崔游喪服圖一卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "崔游",
-   "role": "撰",
-   "dynasty": "西晉",
-   "entity_id": "1j96h8rw86pzn",
-   "dynasty_basis": "entity_propagation_r2:1j96h8rw86pzn"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "id": "1evfubjfrwz5s",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "ai_note": "從 1evgoqb9002kg 合併。原註：从卷二 ambiguous 新建：unresolved　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs07xbdcsg（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-11 秦漢同名異書核對／喪服圖組覆核：併入 1evcpk00c92io（隋書經籍志「賀遊撰」）——本條考證自載「按此似晉崔遊書也…《晉書·儒林傳》：崔遊字子相…撰《喪服圖》，行於世…《舊》、《新唐志》並載崔遊《喪服圖》一卷」，明證「賀遊」為「崔遊」之訛；併入 1evcpctg7zvgg（舊唐書經籍志「崔遊撰」）——正寫，同書一卷。「賀遊」獨立分裂之 Entity（1j96hf24qjytc）已作廢。",
- "loss_status": "lost",
- "updated_at": "2026-08-10",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "dynasty": "西晉",
- "dynasty_basis": "author_propagation:唯一作者朝代",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "喪服圖一卷 賀遊撰",
-   "summary": "賀遊始末未詳。\n按此似晉崔遊書也。《晉書·儒林傳》:“崔遊字子相,上黨\n人。少好儒術,魏末察孝廉,除相府舍人,出為氏池長,以\n病免。泰始初,武帝録敘文帝故府僚屬,就家拜郎中。年\n七十餘,猶敦學不倦。撰《喪服圖》,行於世,及劉元海\n位,命為御史太夫,固辭不就。卒於家,年九十三。”《舊》、\n《新唐志》並載崔遊《喪服圖》一卷。"
-  }
- ],
- "books": [],
- "related_works": []
+  "id": "1evfubjfrwz5s",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "從 1evgoqb9002kg 合併。原註：从卷二 ambiguous 新建：unresolved　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs07xbdcsg（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-11 秦漢同名異書核對／喪服圖組覆核：併入 1evcpk00c92io（隋書經籍志「賀遊撰」）——本條考證自載「按此似晉崔遊書也…《晉書·儒林傳》：崔遊字子相…撰《喪服圖》，行於世…《舊》、《新唐志》並載崔遊《喪服圖》一卷」，明證「賀遊」為「崔遊」之訛；併入 1evcpctg7zvgg（舊唐書經籍志「崔遊撰」）——正寫，同書一卷。「賀遊」獨立分裂之 Entity（1j96hf24qjytc）已作廢。\n\n2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本原以本 work 之 id 兼繫下列 1 節，各節之撰人與本條不合而與庫中他 work 相合，今各歸其主：《《喪服圖》一卷》→《喪服圖賀游撰》（賀游）`1evc5pd08ury8`。",
+  "loss_status": "lost",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "喪服圖一卷 賀遊撰",
+      "summary": "賀遊始末未詳。\n按此似晉崔遊書也。《晉書·儒林傳》:“崔遊字子相,上黨\n人。少好儒術,魏末察孝廉,除相府舍人,出為氏池長,以\n病免。泰始初,武帝録敘文帝故府僚屬,就家拜郎中。年\n七十餘,猶敦學不倦。撰《喪服圖》,行於世,及劉元海\n位,命為御史太夫,固辭不就。卒於家,年九十三。”《舊》、\n《新唐志》並載崔遊《喪服圖》一卷。"
+    }
+  ],
+  "books": [],
+  "related_works": []
 }

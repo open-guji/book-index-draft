@@ -33,6 +33,20 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《爾雅》三卷",
+      "summary": "《爾雅》三卷漢中散大夫樊光注。梁有漢劉歆，犍為文學、中黃門李巡《爾雅》各三卷，亡。",
+      "note": "整理本此節原繫已不存在之 work id `1evc5ped36juo`（歷次合併去之而繫連未隨改），今據題名＋卷數回收於本條。本著錄原繫磁鐵條「爾雅」（`1evkvljltyxvk`），其撰人「樊光」與本條合，今移歸。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《爾雅》六卷",
+      "summary": "《爾雅》六卷樊光注。",
+      "note": "整理本此節原繫已不存在之 work id `1evc5ped36juo`（歷次合併去之而繫連未隨改），今據題名唯一回收於本條。本著錄原繫磁鐵條「爾雅」（`1evkvljltyxvk`），其撰人「樊光」與本條合，今移歸。"
     }
   ],
   "description": {
@@ -41,7 +55,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"爾雅\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"爾雅\" 唯一候选无作者\n\n2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本「《爾雅》三卷」等 2 節原繫他條，其題核心與內文（或題中）之撰人「樊光」與本條相合，今歸本條。",
   "id": "1evgor7pkr01s",
   "measures": [
     {
@@ -60,7 +74,7 @@
   "additional_titles": [
     "爾雅"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「漢」（2026-08-13 隋唐探勘：樊光：國史經籍志明載「漢樊光注」爾雅，Entity遭CBDB誤配至唐）"
 }
