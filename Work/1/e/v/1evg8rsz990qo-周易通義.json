@@ -26,7 +26,7 @@
       "summary": "元黃超然（字立道，黃巖人）周易通義二十卷"
     }
   ],
-  "ai_note": "同名異書：已有 Work 作者為 [('1ev0r93vd0qo0', '方葇如', '清')]，本條作者 黃超然（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "同名異書：已有 Work 作者為 [('1ev0r93vd0qo0', '方葇如', '清')]，本條作者 黃超然（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。",
   "id": "1evg8rsz990qo",
   "resources": [
     {
@@ -45,10 +45,20 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷"
 }

@@ -18,10 +18,20 @@
     }
   ],
   "id": "1evinbfmjzi0w",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一百卷），今據以補。",
+  "juan_count": {
+    "number": 100
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷"
 }

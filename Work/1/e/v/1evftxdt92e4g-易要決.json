@@ -27,7 +27,7 @@
     }
   ],
   "id": "1evftxdt92e4g",
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",
   "emendated_by": [
@@ -38,5 +38,15 @@
       "summary": "易要決二卷。梁有《周易曆》、《周易初學 要法》各一卷。\n不著撰人。\n案此《易要決》二卷似即梁之《周易曆》一卷,《初學要法》\n一卷也,故不注云亡。"
     }
   ],
-  "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcmnfltzzsw（易要決）。本組 title=易要決，有 author 條之作者=許峻，noauthor 條 1evcmnfltzzsw 為志書連書省撰人體例（隋書經籍志），判定同書。共移入 1 個 indexed_by 記錄。"
+  "ai_note": "2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcmnfltzzsw（易要決）。本組 title=易要決，有 author 條之作者=許峻，noauthor 條 1evcmnfltzzsw 為志書連書省撰人體例（隋書經籍志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

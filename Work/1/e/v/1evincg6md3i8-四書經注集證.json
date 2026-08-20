@@ -28,7 +28,7 @@
       "dynasty": "清"
     }
   ],
-  "ai_note": "作者 \"清吳昌宗撰\" 補自《續修四庫全書》目錄。 | 解除誤繫於《尚書》之關聯：本書爲四書類著作，「書經」二字係「四書」與下文相接所生。",
+  "ai_note": "作者 \"清吳昌宗撰\" 補自《續修四庫全書》目錄。 | 解除誤繫於《尚書》之關聯：本書爲四書類著作，「書經」二字係「四書」與下文相接所生。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十九卷），今據以補。",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -46,10 +46,20 @@
   "books": [
     "11qkhu1l56sxs"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 19
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 19
+    }
+  ],
+  "measure_info": "十九卷"
 }

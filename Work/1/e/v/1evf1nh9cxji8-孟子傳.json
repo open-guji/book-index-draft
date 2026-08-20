@@ -25,7 +25,7 @@
       "author_info": "陳禾"
     }
   ],
-  "ai_note": "從 1ev3ba59txyww（張九成《孟子傳》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=陳 + name=禾，今合併為「陳禾」，朝代改為宋。據宋史藝文志 summary「陳禾《孟子傳》十四卷」、國史經籍志 author_info=陳禾 雙重確認。",
+  "ai_note": "從 1ev3ba59txyww（張九成《孟子傳》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-08 修：撰人原拆作 dynasty=陳 + name=禾，今合併為「陳禾」，朝代改為宋。據宋史藝文志 summary「陳禾《孟子傳》十四卷」、國史經籍志 author_info=陳禾 雙重確認。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十四卷），今據以補。",
   "id": "1evf1nh9cxji8",
   "related_works": [
     {
@@ -34,7 +34,17 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T00:00:00+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」"
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "juan_count": {
+    "number": 14
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 14
+    }
+  ],
+  "measure_info": "十四卷"
 }

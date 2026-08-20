@@ -62,12 +62,22 @@
       "summary": "天文書二卷。梁有《雜天文書》二十五卷。"
     }
   ],
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j96hjwlxny11=南朝宋柯洽，非本書明柯洽(字九疑，天臺人，洪武刻本)。需人工查 CBDB 建立正確 Entity 並關聯]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j96hjwlxny11=南朝宋柯洽，非本書明柯洽(字九疑，天臺人，洪武刻本)。需人工查 CBDB 建立正確 Entity 並關聯]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

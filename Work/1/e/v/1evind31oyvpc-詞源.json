@@ -30,7 +30,7 @@
       "dynasty_basis": "entity_propagation:1j967cp1zdr0r"
     }
   ],
-  "ai_note": "作者「宋張炎撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw9ce9reo 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「宋張炎撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw9ce9reo 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -54,10 +54,20 @@
   "books": [
     "11qkhuulnf1mo"
   ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

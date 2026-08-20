@@ -1,61 +1,71 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "物理論",
- "indexed_by": [
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《物理論》十六卷",
-   "summary": "《物理論》十六卷楊泉撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "物理論",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《物理論》十六卷",
+      "summary": "《物理論》十六卷楊泉撰。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "物理論",
+      "summary": "晉楊泉物理論一卷。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "物理論",
+      "summary": "《物理論》一卷。{{晉楊泉。《平津館》輯本。}}",
+      "author_info": "楊泉"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "楊泉物理論",
+      "summary": "楊泉物理論十六卷"
+    }
+  ],
+  "id": "1evcpd0oex43k",
+  "authors": [
+    {
+      "name": "楊泉",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j96hlhvk1reo"
+    }
+  ],
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E7%89%A9%E7%90%86%E8%AB%96",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "_has_text": true,
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0l3g80lc（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十六卷），今據以補。",
+  "juan_count": {
+    "number": 16
   },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "物理論",
-   "summary": "晉楊泉物理論一卷。"
-  },
-  {
-   "source": "書目答問",
-   "source_bid": "1evr5e3m9zwpo",
-   "title_info": "物理論",
-   "summary": "《物理論》一卷。{{晉楊泉。《平津館》輯本。}}",
-   "author_info": "楊泉"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "楊泉物理論",
-   "summary": "楊泉物理論十六卷"
-  }
- ],
- "id": "1evcpd0oex43k",
- "authors": [
-  {
-   "name": "楊泉",
-   "role": "撰",
-   "dynasty": "清",
-   "entity_id": "1j96hlhvk1reo"
-  }
- ],
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E7%89%A9%E7%90%86%E8%AB%96",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "updated_at": "2026-08-10",
- "_has_text": true,
- "period": "qing",
- "period_basis": "據 authors[0].dynasty「清」",
- "dynasty": "清",
- "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0l3g80lc（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 16
+    }
+  ],
+  "measure_info": "十六卷"
 }
