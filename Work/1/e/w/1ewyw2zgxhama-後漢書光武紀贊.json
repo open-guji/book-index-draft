@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "後漢書光武紀贊",
+  "id": "1ewyw2zgxhama",
+  "subtype": "article",
+  "authors": [
+    {
+      "name": "范曄",
+      "dynasty": "南朝宋",
+      "role": "作",
+      "entity_id": "1j96a3rlxwt8u"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty",
+  "related_works": [
+    {
+      "id": "1evi5uod20l4w",
+      "title": "昭明文選",
+      "relation": "collected_in"
+    }
+  ],
+  "ai_note": "文選卷五十所錄後漢書贊文，依庫例（公孫弘傳贊、宦者傳論等）篇目自為 work。其 id 原為後漢書主記錄所佔（記錄誤題「後漢書光武紀贊」而實為范曄後漢書），今主記錄正名，本篇別立。",
+  "updated_at": "2026-08-20T00:00:00-07:00"
+}
