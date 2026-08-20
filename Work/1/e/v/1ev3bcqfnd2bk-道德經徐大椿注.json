@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1ev3bcqfnd2bk",
   "type": "work",
-  "title": "道德經注",
+  "title": "道德經徐大椿注",
   "authors": [
     {
       "name": "徐大椿",
@@ -12,12 +12,6 @@
     }
   ],
   "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《道德經注》",
-      "summary": "（（河上公、葛仙公、鄭思遠、睿宗、玄宗疏））李若愚《道德經注》一卷喬諷"
-    },
     {
       "source": "欽定四庫全書總目",
       "source_bid": "d59dh3vo9af4",
@@ -44,6 +38,17 @@
       "id": "1ev3bcr5c97uo",
       "title": "陰符經注",
       "relation": "related"
+    },
+    {
+      "id": "d59ezkx8dt6o",
+      "title": "道德經",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1ewz0uopfhmv4",
+      "title": "道德經李若愚注",
+      "relation": "related",
+      "note": "同題異書。《宋志》著錄李若愚《道德經注》一卷，與本條（清徐大椿撰二卷）非一書，原誤併於本條，今析出。"
     }
   ],
   "resources": [
@@ -101,5 +106,10 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "道德經",
+  "additional_titles": [
+    "道德經注"
+  ],
+  "ai_note": "2026-08-20 同名異書析出並正名：本條原兼繫《宋史藝文志》「李若愚《道德經注》一卷」一節——彼為宋人之書，與本條清徐大椿撰二卷本非一書，今析出別立 1ewz0uopfhmv4。依「同名書用｛原典｝＋｛作者全名｝＋｛方式｝」之命名例，title 由《道德經注》正為《道德經徐大椿注》，原題入 additional_titles。"
 }
