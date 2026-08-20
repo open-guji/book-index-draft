@@ -5,15 +5,21 @@
   "original_title": "老子",
   "related_works": [
     {
-      "id": "1evcmnccovx1c",
+      "id": "1evkaeh09axhc",
       "title": "老子",
       "relation": "contains_text_of"
     },
     {
-      "id": "1evdxnrjor400",
+      "id": "1evcua71d35s0",
       "title": "蜀才注老子",
       "relation": "related",
       "note": "同書之重出。本條題《老子蜀才注》（書名在前），彼條題《蜀才注老子》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
+    },
+    {
+      "id": "1evcua71d35s0",
+      "title": "老子蜀才注",
+      "relation": "related",
+      "note": "同書之重出。本條題《蜀才注老子》（注者在前），彼條題《老子蜀才注》（書名在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。二條並存，留待去重專項合併。"
     }
   ],
   "indexed_by": [
@@ -22,14 +28,36 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《老子》二卷蜀才注。",
       "summary": "《老子》二卷蜀才注。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "蜀才注老子",
+      "summary": "蜀才注老子二卷"
     }
   ],
   "authors": [
     {
       "name": "蜀才",
       "entity_id": "1j96gx6w11r7k"
+    },
+    {
+      "name": "蜀才",
+      "role": "注",
+      "entity_id": "1j96gx6w11r7k"
     }
   ],
   "id": "1evcua71d35s0",
-  "updated_at": "2026-08-02T05:00:12+00:00"
+  "updated_at": "2026-08-02T05:00:12+00:00",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measure_info": "二卷",
+  "ai_note": "從 1evdxnrjor400《蜀才注老子》合併。原註：題名體例調整之撞題：本條依「書名在前、注者在後」之例當改題《老子蜀才注》，然庫中已有同題者（1evcua71d35s0），核其著錄乃同一注本自不同志書匯入，題名體例不同而書則一。撞題即查出重出，故不改題，改記重出，留待去重專項。"
 }

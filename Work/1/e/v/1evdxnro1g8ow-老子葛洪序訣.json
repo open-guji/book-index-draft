@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "1evdxnro1g8ow",
   "type": "work",
-  "title": "葛洪老子道德經序訣",
-  "original_title": "道德經序訣",
+  "title": "老子葛洪序訣",
+  "original_title": "老子",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -55,5 +55,6 @@
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-20 老子體系重整：題名 葛洪老子道德經序訣 → 老子葛洪序訣；original_title '道德經序訣' → 老子。注本統一作「老子＋撰者＋體裁」，original_title 記原書書名。志書原題見 indexed_by[].title_info。"
 }

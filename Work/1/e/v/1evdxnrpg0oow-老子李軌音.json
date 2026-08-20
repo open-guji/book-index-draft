@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "1evdxnrpg0oow",
   "type": "work",
-  "title": "李軌老子音",
-  "original_title": "老子音",
+  "title": "老子李軌音",
+  "original_title": "老子",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -31,7 +31,7 @@
   ],
   "related_works": [
     {
-      "id": "1evcmnccovx1c",
+      "id": "1evkaeh09axhc",
       "title": "老子",
       "relation": "contains_text_of"
     }
@@ -59,5 +59,6 @@
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-20 老子體系重整：題名 李軌老子音 → 老子李軌音；original_title '老子音' → 老子。注本統一作「老子＋撰者＋體裁」，original_title 記原書書名。志書原題見 indexed_by[].title_info。"
 }

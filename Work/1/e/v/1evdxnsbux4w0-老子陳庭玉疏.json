@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evdxnsbux4w0",
   "type": "work",
-  "title": "陳庭玉老子疏",
+  "title": "老子陳庭玉疏",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -13,7 +13,7 @@
   ],
   "related_works": [
     {
-      "id": "1evcmnccovx1c",
+      "id": "1evkaeh09axhc",
       "title": "老子",
       "relation": "contains_text_of"
     }
@@ -31,5 +31,6 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] | 2026-08-20 老子體系重整：題名 陳庭玉老子疏 → 老子陳庭玉疏；original_title None → 老子。注本統一作「老子＋撰者＋體裁」，original_title 記原書書名。",
+  "original_title": "老子"
 }
