@@ -3,7 +3,15 @@
   "id": "1ev3d5ppib11c",
   "type": "work",
   "title": "野谷詩稿",
-  "authors": [],
+  "authors": [
+    {
+      "name": "趙汝鐩",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「宋趙汝鐩撰」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
   "books": [
     "11q37taruz280"
   ],
@@ -66,5 +74,9 @@
   "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《野穀詩稿》•六卷》→《野穀詩稿》`1ev3bd2hczdog`。"
+  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《野穀詩稿》•六卷》→《野穀詩稿》`1ev3bd2hczdog`。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「宋趙汝鐩撰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」"
 }

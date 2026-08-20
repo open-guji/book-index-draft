@@ -3,7 +3,15 @@
   "id": "1ev3d5q9ifi80",
   "type": "work",
   "title": "毅齋集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "王洪",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「明王洪撰」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
   "books": [
     "11q37txv0i0ow"
   ],
@@ -43,13 +51,13 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'王洪'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'王洪'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「明王洪撰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
   "contained_in": [
     {
       "id": "8rlb6yi1ecqo"
     }
   ],
-  "updated_at": "2026-08-09T10:49:16+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",

@@ -26,7 +26,7 @@
     }
   ],
   "id": "1evcs0kawmscg",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "juan_count": {
     "number": 550
   },
@@ -37,5 +37,18 @@
     }
   ],
   "measure_info": "五百五十卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、書目答問、國史經籍志同著《括地志》，係一書互著（或重出），今合併。"
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、書目答問、國史經籍志同著《括地志》，係一書互著（或重出），今合併。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「魏王泰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "authors": [
+    {
+      "name": "王泰",
+      "role": "撰",
+      "dynasty": "魏",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「魏王泰」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「魏」"
 }

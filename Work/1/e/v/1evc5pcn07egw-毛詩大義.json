@@ -3,7 +3,15 @@
   "id": "1evc5pcn07egw",
   "type": "work",
   "title": "毛詩大義",
-  "authors": [],
+  "authors": [
+    {
+      "name": "武帝",
+      "role": "撰",
+      "dynasty": "梁",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「梁武帝」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
   "juan_count": {
     "number": 13
   },
@@ -54,6 +62,11 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "_has_text": true,
+  "dynasty": "梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「梁」",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「梁武帝」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-20 撰人補全專項（連帶）：本條與 `1evc5pcn4vym8` 題名恰成「短題 ↔ 短題＋撰人＋撰」之式（《毛詩大義》／《毛詩大義梁武帝撰》），撰人同為梁武帝；然**二者皆繫隋書經籍志之著錄而卷數異（十三卷／十一卷）**，依「同一志之內同題卷異而兩處分列即異書」之判準，不得逕併，記此以俟覆核隋志原文。"
 }

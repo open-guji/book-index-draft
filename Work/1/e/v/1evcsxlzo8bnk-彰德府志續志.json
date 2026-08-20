@@ -26,13 +26,22 @@
     }
   ],
   "id": "1evcsxlzo8bnk",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'郭朴'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 部帙通名截題正名專項：國史經籍志史類《續志》三卷（注「郭朴」）緊承《彰德府志》八卷，乃《彰德府志》之續，與本條明史藝文志「郭樸《續志》三卷」為一書，今併。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'郭朴'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 部帙通名截題正名專項：國史經籍志史類《續志》三卷（注「郭朴」）緊承《彰德府志》八卷，乃《彰德府志》之續，與本條明史藝文志「郭樸《續志》三卷」為一書，今併。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「郭朴」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "ming",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
   "dynasty": "明",
   "dynasty_basis": "gazetteer_propagation",
   "additional_titles": [
     "續志"
+  ],
+  "authors": [
+    {
+      "name": "郭朴",
+      "role": "撰",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「郭朴」補；著錄所給者為一，去朝代與職名後取之。"
+    }
   ]
 }
