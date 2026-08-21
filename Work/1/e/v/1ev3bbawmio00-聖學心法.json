@@ -25,6 +25,30 @@
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "《聖學心法》四卷永樂中編，為類四：曰君道、臣道、父道、子道。成祖制序。",
       "summary": "《聖學心法》四卷永樂中編，為類四：曰君道、臣道、父道、子道。成祖制序。"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《聖學心法》四卷",
+      "author_info": "明朱棣撰",
+      "summary": "《聖學心法》四卷。明朱棣撰。影印復旦大學圖書館藏明永樂七年內府刻本。",
+      "edition": "影印復旦大學圖書館藏明永樂七年內府刻本",
+      "volume": "第935冊",
+      "section": "子部 儒家類",
+      "merged_from": "1ev3bbawmio00",
+      "note": "「朱棣」為本條撰人「明成祖文皇帝」之本名（成祖為廟號，文皇帝為諡號），本條四庫提要、明志、另一條續修四庫全書、存目叢書四源皆指同一部永樂七年御製之書，卷數四卷全合。"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《聖學心法》四卷",
+      "author_info": "明成祖朱棣撰",
+      "summary": "《聖學心法》四卷。明成祖朱棣撰。北京師範大學圖書館清華大學圖書館藏明永樂七年內府刻本。",
+      "edition": "北京師範大學圖書館清華大學圖書館藏明永樂七年內府刻本",
+      "volume": "第6冊",
+      "section": "子部",
+      "merged_from": "1ev3bbawmio00",
+      "note": "「朱棣」為本條撰人「明成祖文皇帝」之本名（成祖為廟號，文皇帝為諡號），本條四庫提要、明志、另一條續修四庫全書、存目叢書四源皆指同一部永樂七年御製之書，卷數四卷全合。"
     }
   ],
   "juan_count": {
@@ -72,7 +96,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：''）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：''）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 B1 同名異書併池：併入 `1evjr329fb4zk`（聖學心法）。《聖學心法》明成祖朱棣撰：撰人欄「成祖文皇帝」為廟號＋諡號，「朱棣」為本名，同一人。另一條（續修四庫全書，影印明永樂七年內府刻本）逕作「朱棣」，今併。\n\n2026-08-21 B1 同名異書併池：併入 `1evkq43rmt1xc`（聖學心法）。同上，一併處置。",
   "measures": [
     {
       "unit": "卷",
@@ -80,11 +104,15 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "books": [
+    "11qki5r3o1h4w",
+    "11qki5r4rddkw"
+  ]
 }
