@@ -274,3 +274,57 @@ def desc_edition(text):
         if _DESC_EDITION.match(seg):
             return seg
     return None
+
+
+# ═══ 叢書之收書範圍：叢編自限所收之代者，其代即上限 ═══
+# 與 MODERN_REPRINT 之別：彼禁以「影印之年」為據（影印之年不限原書），
+# 此取「編者自定之收書下限」——二事不相妨。《續修四庫全書》1995 年影印，
+# 而其收書止於辛亥（1911），故所收者無一晚於 qing。
+COLLECTION_BOUND = {
+    '續修四庫全書':     ('qing',     '其書收錄止於辛亥（1911）以前之著作'),
+    '四庫全書存目叢書': ('qing',     '所收為《四庫總目》存目之書，皆乾隆以前'),
+    '中華再造善本':     ('qing',     '所收為唐宋金元明清之善本'),
+    # 馬國翰（1794–1857）。世稱其所輯為「唐以前佚書」，然實測所輯兼有
+    # 宋人之書（《太平寰宇記佚文》《桂海虞衡志佚文》《後山談叢佚文》等），
+    # 「唐以前」不足為據；可據者惟輯者之世。
+    '玉函山房輯佚書':   ('qing',     '馬國翰（1794–1857）所輯，其所輯之書必在咸豐以前'),
+}
+
+
+def collection_bound(blob):
+    """自描述／案語辨所屬叢編，返 (上限, 叢編名, 據語)。"""
+    if not blob:
+        return None, None, None
+    for name, (p, why) in COLLECTION_BOUND.items():
+        if name in blob:
+            return p, name, why
+    return None, None, None
+
+
+# ═══ 歧義朝代名：取諸解中最晚者為上限 ═══
+# 「宋」或劉宋（nanbeichao）或趙宋（song），無論何解皆不晚於 song——
+# 消歧不成，上限猶可得。此表之值即諸解中最晚之 period。
+AMBIGUOUS_LATEST = {
+    '宋': 'song',              # 南朝宋 | 北宋南宋
+    '魏': 'nanbeichao',        # 三國魏 | 北魏東魏西魏 | 冉魏
+    '周': 'five-dynasties',    # 西周東周 | 北周 | 武周 | 後周
+    '吳': 'five-dynasties',    # 三國吳 | 十國吳 | 吳越
+    '蜀': 'five-dynasties',    # 三國蜀 | 前蜀後蜀
+    '齊': 'nanbeichao',        # 戰國齊 | 南朝齊 | 北齊
+    '梁': 'five-dynasties',    # 南朝梁 西梁 | 後梁
+    '陳': 'nanbeichao',        # 戰國陳 | 南朝陳
+    '燕': 'nanbeichao',        # 戰國燕 | 前後南北燕
+    '涼': 'nanbeichao',        # 前後南北西涼
+    '漢': 'five-dynasties',    # 西漢東漢 | 蜀漢 | 成漢 | 後漢南漢北漢
+    '唐': 'five-dynasties',    # 唐 | 後唐
+    '晉': 'five-dynasties',    # 西晉東晉 | 後晉
+    '秦': 'nanbeichao',        # 秦 | 前秦後秦西秦
+    '西夏': 'liao-jin-yuan',
+    '宋末元初': 'liao-jin-yuan',
+    '江戶時代': 'qing',        # 日本江戶 1603–1868
+}
+
+
+def ambiguous_dynasty_bound(dynasty):
+    """歧義朝代名之上限；不在表者返 None。"""
+    return AMBIGUOUS_LATEST.get((dynasty or '').strip())
