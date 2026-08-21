@@ -37,5 +37,12 @@
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 本條連記附屬部帙：補遺。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。"
+  "ai_note": "2026-08-21 本條連記附屬部帙：補遺。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「詩考」，庫中有同題而非注本之條 `1ev3b9y86dnuo`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "related_works": [
+    {
+      "id": "1ev3b9y86dnuo",
+      "title": "詩考",
+      "relation": "contains_text_of"
+    }
+  ]
 }

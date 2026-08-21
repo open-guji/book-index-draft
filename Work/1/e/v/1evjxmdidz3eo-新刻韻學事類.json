@@ -5,9 +5,10 @@
   "authors": [
     {
       "name": "李攀龍",
-      "role": "輯",
+      "role": "舊題輯",
       "dynasty": "明",
-      "entity_id": "1j967bgl7n190"
+      "entity_id": "1j967bgl7n190",
+      "role_basis": "據著錄語「《新刻韻學事類》十二卷。明李攀龍輯。浙江圖書館藏明刻本。舊本題明李攀龍撰。分韻隸事，惟有上下平聲，蓋僅備律詩之用」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -36,7 +37,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「《新刻韻學事類》十二卷。明李攀龍輯。浙江圖書館藏明刻本。舊本題明李攀龍撰。分韻隸」，所題之人即本條 authors[0]，故其 role 由「輯」改標「舊題輯」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "juan_count": {
     "number": 12
   },
@@ -48,7 +49,7 @@
   ],
   "measure_info": "十二卷",
   "id": "1evjxmdidz3eo",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

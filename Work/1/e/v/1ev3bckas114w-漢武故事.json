@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "班固",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "東漢",
-      "entity_id": "1j967afjb6ae0"
+      "entity_id": "1j967afjb6ae0",
+      "role_basis": "據著錄語「《漢武故事》二卷班固《漢武故事》五卷蔡邕舊本題漢班固撰，然史不雲固有此書，《隋志》著錄傳記類中，亦不雲」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -157,8 +158,8 @@
     ]
   },
   "loss_status": "partially_extant",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/漢武故事.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/漢武故事.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 舊題撰人專項：著錄語作「《漢武故事》二卷班固《漢武故事》五卷蔡邕舊本題漢班固撰，然史不雲固有此書，《隋志」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qin-han",

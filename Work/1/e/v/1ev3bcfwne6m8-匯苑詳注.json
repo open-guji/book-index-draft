@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "王世貞",
-      "role": "輯",
+      "role": "舊題輯",
       "dynasty": "明",
-      "entity_id": "1j967avzlnsii"
+      "entity_id": "1j967avzlnsii",
+      "role_basis": "據著錄語「一名《類苑詳注》。舊本題明王世貞撰，鄒善長重訂。善長不知何許人。其書成於萬曆乙亥，」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -82,8 +83,8 @@
     }
   ],
   "measure_info": "三十六卷",
-  "ai_note": "作者 \"明王世貞輯\" 補自《四庫全書存目叢書》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "作者 \"明王世貞輯\" 補自《四庫全書存目叢書》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「一名《類苑詳注》。舊本題明王世貞撰，鄒善長重訂。善長不知何許人。其書成於萬曆乙亥」，所題之人即本條 authors[0]，故其 role 由「輯」改標「舊題輯」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",

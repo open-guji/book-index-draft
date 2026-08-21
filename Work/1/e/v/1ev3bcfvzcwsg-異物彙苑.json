@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "王世貞",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967avzlnsii"
+      "entity_id": "1j967avzlnsii",
+      "role_basis": "據著錄語「舊本題明王世貞撰。世貞有《弇山堂別集》，已著錄。是書分二十七門，」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -76,14 +77,14 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《異物彙苑》五卷》→《異物彙苑》`1evgq0i8wj56o`。 2026-08-20 附錄甲：正題「異物彙苑」（存目叢書、國史並作彙，四庫總目整理本作匯）。國史經籍志五卷本 work（`1evgq0i8wj56o`，撰人注殘訛作「字文無」）與本條一書，併入。",
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《異物彙苑》五卷》→《異物彙苑》`1evgq0i8wj56o`。 2026-08-20 附錄甲：正題「異物彙苑」（存目叢書、國史並作彙，四庫總目整理本作匯）。國史經籍志五卷本 work（`1evgq0i8wj56o`，撰人注殘訛作「字文無」）與本條一書，併入。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明王世貞撰。世貞有《弇山堂別集》，已著錄。是書分二十七門，」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "additional_titles": [
     "異物匯苑"
   ]

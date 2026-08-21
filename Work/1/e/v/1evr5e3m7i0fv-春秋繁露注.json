@@ -59,14 +59,21 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqzcdfavi8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（續修四庫全書：「春秋繁露注」）所載之 17 卷不合，今據原文訂正。",
+  "ai_note": "從 1evjqzcdfavi8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（續修四庫全書：「春秋繁露注」）所載之 17 卷不合，今據原文訂正。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋繁露」，庫中有同題而非注本之條 `1ev3ba3cbrojk`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
   "additional_titles": [
     "春秋繁露註"
   ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ev3ba3cbrojk",
+      "title": "春秋繁露",
+      "relation": "contains_text_of"
+    }
+  ]
 }

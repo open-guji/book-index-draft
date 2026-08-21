@@ -40,10 +40,17 @@
     }
   ],
   "id": "1evftejmltips",
-  "ai_note": "作者朝代訂正：原作「三國魏」，今改「三國吳」。《三國藝文志》著錄「韋昭 春秋外傳國語注二十二卷」，韋昭吳人，非魏。　loss_status 判為 lost，據本記錄之描述／著錄語：「自鄭眾《解詁》以下諸書並亡」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 機讀存佚判據核驗專項（scripts/loss-evidence-mismatch.py）：原判 lost 之判據「自鄭眾《解詁》以下諸書並亡」所論為鄭眾等家之《國語》注，非韋昭注。韋昭《國語注》為《國語》唯一完整傳世之古注，歷代刊行不絕（李零《簡帛古書與學術源流》第一講附錄史書類《國語》條即著「韋昭注」）。判據不成立且與事實相反，撤去 loss_status（欄位不存即今存或未考）。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "作者朝代訂正：原作「三國魏」，今改「三國吳」。《三國藝文志》著錄「韋昭 春秋外傳國語注二十二卷」，韋昭吳人，非魏。　loss_status 判為 lost，據本記錄之描述／著錄語：「自鄭眾《解詁》以下諸書並亡」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 機讀存佚判據核驗專項（scripts/loss-evidence-mismatch.py）：原判 lost 之判據「自鄭眾《解詁》以下諸書並亡」所論為鄭眾等家之《國語》注，非韋昭注。韋昭《國語注》為《國語》唯一完整傳世之古注，歷代刊行不絕（李零《簡帛古書與學術源流》第一講附錄史書類《國語》條即著「韋昭注」）。判據不成立且與事實相反，撤去 loss_status（欄位不存即今存或未考）。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋外傳國語」，庫中有同題而非注本之條 `1evcpcufooh6o`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國吳」",
   "dynasty": "三國吳",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1evcpcufooh6o",
+      "title": "春秋外傳國語",
+      "relation": "contains_text_of"
+    }
+  ]
 }

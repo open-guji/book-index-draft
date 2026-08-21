@@ -44,14 +44,15 @@
   "authors": [
     {
       "name": "辛棄疾",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "南宋",
       "entity_id": "1j967bgl70k7v",
-      "dynasty_basis": "entity_propagation:1j967bgl70k7v"
+      "dynasty_basis": "entity_propagation:1j967bgl70k7v",
+      "role_basis": "據著錄語「舊本題宋辛棄疾撰。棄疾字幼安，曆城人。官至龍圖閣待制，進樞密都承」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
-  "ai_note": "作者 \"宋辛棄疾撰\" 補自《四庫全書存目叢書》目錄。",
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "ai_note": "作者 \"宋辛棄疾撰\" 補自《四庫全書存目叢書》目錄。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題宋辛棄疾撰。棄疾字幼安，曆城人。官至龍圖閣待制，進樞密都承」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",

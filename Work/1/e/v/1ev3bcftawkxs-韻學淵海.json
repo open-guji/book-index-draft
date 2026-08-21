@@ -31,10 +31,12 @@
     }
   ],
   "measure_info": "十二卷",
-  "ai_note": "ai_note: 本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善004704-004711），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "ai_note: 本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善004704-004711），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "authenticity": "forged",
+  "authenticity_basis": "《欽定四庫全書總目》：「其書前無序例，名曰《新刊增補古今名家韻學淵海大成》。蓋取坊間偽託攀龍所著《韻學事類》、《詩學事類》二書合併成編。」"
 }

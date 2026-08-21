@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "鄧牧",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "元",
-      "entity_id": "1j967avzmwqq5"
+      "entity_id": "1j967avzmwqq5",
+      "role_basis": "據著錄語「舊本題元鄧牧撰。（案，牧以宋人入元，不仕而卒，據陶潛書晉之例，」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -91,12 +92,12 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題元鄧牧撰。（案，牧以宋人入元，不仕而卒，據陶潛書晉之例，」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

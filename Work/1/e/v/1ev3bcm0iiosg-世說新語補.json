@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "何良俊",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967bgl7bsp3"
+      "entity_id": "1j967bgl7bsp3",
+      "role_basis": "據著錄語「舊本題明何良俊撰補，王世貞刪定。良俊有《四友齋叢說》，世貞有《弇」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -69,8 +70,8 @@
     }
   ],
   "measure_info": "四卷",
-  "ai_note": "作者 \"明何良俊撰\" 補自《四庫全書存目叢書》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "作者 \"明何良俊撰\" 補自《四庫全書存目叢書》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明何良俊撰補，王世貞刪定。良俊有《四友齋叢說》，世貞有《弇」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",

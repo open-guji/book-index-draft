@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "張栻",
-      "role": "編",
+      "role": "舊題編",
       "dynasty": "南宋",
       "entity_id": "1j967afjb6aex",
-      "dynasty_basis": "entity_propagation:1j967afjb6aex"
+      "dynasty_basis": "entity_propagation:1j967afjb6aex",
+      "role_basis": "據著錄語「舊本題宋張栻編。考宋濂《潛溪集》有此書跋，謂前序不著姓氏，相傳」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -32,9 +33,10 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題宋張栻編。考宋濂《潛溪集》有此書跋，謂前序不著姓氏，相傳」，所題之人即本條 authors[0]，故其 role 由「編」改標「舊題編」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

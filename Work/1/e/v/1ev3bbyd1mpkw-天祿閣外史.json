@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "黃憲",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "東漢",
-      "entity_id": "1j96hjwlxny1c"
+      "entity_id": "1j96hjwlxny1c",
+      "role_basis": "據著錄語「舊本題漢黃憲撰。前有晉謝安，唐田宏、陸贄題詞。每篇又有宋韓洎贊」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -92,7 +93,7 @@
   "books": [
     "11qkhz4cplwjk"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qin-han",
@@ -103,5 +104,5 @@
       "《欽定四庫全書總目》子部雜家類"
     ]
   },
-  "ai_note": "2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。"
+  "ai_note": "2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題漢黃憲撰。前有晉謝安，唐田宏、陸贄題詞。每篇又有宋韓洎贊」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

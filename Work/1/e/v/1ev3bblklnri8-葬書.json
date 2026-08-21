@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "郭璞",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "東晉",
       "entity_id": "1j968k0jdrlz4",
-      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)"
+      "dynasty_basis": "manual:historical_figure(郭璞(276-324)，字景純，東晉文學家訓詁學家)",
+      "role_basis": "據著錄語「郭璞《葬書》一卷舊本題晉郭璞撰。璞有《爾雅注》，已著錄。葬地之說，莫知其所自來」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -91,12 +92,12 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
-  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwn825vk0 與 11q37r251a8sg 同指文淵閣寫本一實物，今併於後者。"
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwn825vk0 與 11q37r251a8sg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「郭璞《葬書》一卷舊本題晉郭璞撰。璞有《爾雅注》，已著錄。葬地之說，莫知其所自來」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

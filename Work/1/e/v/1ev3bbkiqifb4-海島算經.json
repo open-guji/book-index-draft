@@ -57,6 +57,15 @@
       "title_info": "劉徽海島算經",
       "summary": "劉徽海島算經一卷",
       "merged_from": "1evcs0rr3o2dc"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《海島筭經》一卷、又一卷",
+      "summary": "《海島筭經》一卷、又一卷（劉徽；李淳風）",
+      "author_info": "劉徽；李淳風",
+      "merged_from": "1evgorqvin3sw",
+      "note": "本著錄原別為一條，題因異體字／書名號而異，實為一書，今併入。"
     }
   ],
   "books": [
@@ -134,7 +143,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
@@ -150,7 +159,12 @@
       ]
     }
   ],
-  "ai_note": "合併：題名「劉徽海島算經」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉徽」已見本條 authors[]），裸題「海島算經」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
+  "ai_note": "合併：題名「劉徽海島算經」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉徽」已見本條 authors[]），裸題「海島算經」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。\n\n2026-08-21 異體字／書名號重出專項：庫中另有一條 `1evgorqvin3sw`，題「海島筭經」，撰人同，實為一書。**匯入去重之所以漏過，是因為比對用的字串不是真的那個字串**——二題只差一個異體字（或書名號之有無），字面不等，故各建一條。今併：取本條為存者，據「題用正字「算」，且著錄四源、實物三部」；併入著錄 1 條、實物 0 部、關聯 0 條，原題入 additional_titles。",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "additional_titles": [
+    "海島筭經"
+  ],
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

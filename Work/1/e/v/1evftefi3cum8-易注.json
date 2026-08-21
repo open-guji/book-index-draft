@@ -33,9 +33,17 @@
     }
   ],
   "id": "1evftefi3cum8",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1evgb8wkbpo1s",
+      "title": "易",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「易」，庫中有同題而非注本之條 `1evgb8wkbpo1s`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。"
 }

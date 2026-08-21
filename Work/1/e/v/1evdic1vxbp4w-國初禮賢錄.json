@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "劉基",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967avzlnsj2"
+      "entity_id": "1j967avzlnsj2",
+      "role_basis": "據著錄語「劉基《禮賢錄》一卷，《翊運錄》二卷《禮賢錄》一卷（劉基）舊本題明劉基撰。基字伯溫，青田人。元至順中舉進士。除高安」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "juan_count": {
@@ -43,7 +44,7 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "舊匹配結果為 GYL532yqanB（author+substr），經作者校驗後判定不匹配。 來源：明史藝文志。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "舊匹配結果為 GYL532yqanB（author+substr），經作者校驗後判定不匹配。 來源：明史藝文志。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「劉基《禮賢錄》一卷，《翊運錄》二卷《禮賢錄》一卷（劉基）舊本題明劉基撰。基字伯溫」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "measures": [
     {
       "unit": "卷",
@@ -86,7 +87,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",

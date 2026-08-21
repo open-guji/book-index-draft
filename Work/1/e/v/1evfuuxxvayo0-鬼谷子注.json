@@ -35,10 +35,17 @@
   ],
   "measure_info": "三卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「鬼谷子」，庫中有同題而非注本之條 `1ev3bbv3az9c0`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1ev3bbv3az9c0",
+      "title": "鬼谷子",
+      "relation": "contains_text_of"
+    }
+  ]
 }
