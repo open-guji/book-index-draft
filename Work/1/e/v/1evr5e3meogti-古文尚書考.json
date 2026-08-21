@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evr5e3meogti",
   "type": "work",
-  "title": "六經圖",
+  "title": "古文尚書考",
   "authors": [
     {
       "name": "惠棟",
@@ -39,7 +39,7 @@
       "section": "经部 書類"
     }
   ],
-  "ai_note": "書名由「古文尚書考」修正為「六經圖」（解析截取錯誤修正）。",
+  "ai_note": "書名由「古文尚書考」修正為「六經圖」（解析截取錯誤修正）。\n\n2026-08-21 B1 併池核對時發現：本條題名原作「六經圖」而三則著錄（清史稿、書目答問、續修四庫）全作「《古文尚書考》二卷。惠棟撰」，與題名不符——匯入時誤植他條之題。今正題名為「古文尚書考」，原題存 original_title。與《六經圖》諸真本（楊甲、江為龍、王皜等）無涉，非合併。",
   "measures": [
     {
       "unit": "卷",
@@ -70,10 +70,12 @@
     }
   ],
   "emendated_by": [],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "六經圖",
+  "additional_titles": []
 }
