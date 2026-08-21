@@ -28,15 +28,15 @@
     {
       "name": "僧智匠",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hf1zxxqf4"
+      "dynasty": "陳",
+      "entity_id": "1j96hf1zxxqf4",
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「陳僧智匠《古今樂錄》一卷。」"
     }
   ],
   "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「陳」（2026-08-21 訂正：原標「清」，據清史稿著錄語之朝代前綴改）",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang　**與現判之 period 相斥，存疑待覈**"
+  "ai_note": "2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「陳僧智匠《古今樂錄》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「陳」、period 為 nanbeichao。"
 }

@@ -44,3 +44,64 @@ def tightest(sources):
     """諸志中最緊之上限；無可據者返 None。"""
     bs = [BOUND[s][0] for s in sources if s in BOUND]
     return min(bs, key=lambda x: I[x]) if bs else None
+
+
+# ═══ dynasty → period 全表（規則1 粗粒度自消歧）═══
+# 判「兩個 dynasty 寫法是否同代」用此表，勿用他處之簡表——
+# 簡表缺「三國吳」「前涼」「齊梁」之屬，會把詳值誤判為異代而改壞。
+DYNASTY_PERIOD = {
+    # 先秦
+    '先秦': 'pre-qin', '上古': 'pre-qin', '上古傳說': 'pre-qin', '商': 'pre-qin',
+    '春秋': 'pre-qin', '戰國': 'pre-qin', '春秋魯': 'pre-qin', '春秋晉': 'pre-qin',
+    '春秋齊': 'pre-qin', '春秋吳': 'pre-qin', '春秋鄭': 'pre-qin', '春秋衛': 'pre-qin',
+    '戰國楚': 'pre-qin', '戰國齊': 'pre-qin', '戰國魏': 'pre-qin', '戰國趙': 'pre-qin',
+    '戰國韓': 'pre-qin', '戰國燕': 'pre-qin', '戰國秦': 'pre-qin',
+    # 秦漢
+    '秦': 'qin-han', '漢': 'qin-han', '東漢': 'qin-han', '西漢': 'qin-han',
+    '後漢': 'qin-han', '兩漢': 'qin-han', '新': 'qin-han',
+    # 三國
+    '三國': 'three-kingdoms', '三國魏': 'three-kingdoms', '曹魏': 'three-kingdoms',
+    '三國吳': 'three-kingdoms', '孫吳': 'three-kingdoms', '三國蜀': 'three-kingdoms',
+    '蜀漢': 'three-kingdoms',
+    # 晉（含十六國）
+    '晉': 'jin', '西晉': 'jin', '東晉': 'jin', '兩晉': 'jin',
+    '前秦': 'jin', '後秦': 'jin', '前涼': 'jin', '後涼': 'jin', '北涼': 'jin',
+    '西涼': 'jin', '南涼': 'jin', '前燕': 'jin', '後燕': 'jin', '南燕': 'jin',
+    '北燕': 'jin', '夏': 'jin', '成漢': 'jin', '十六國': 'jin',
+    # 南北朝
+    '南北朝': 'nanbeichao', '南朝': 'nanbeichao', '北朝': 'nanbeichao',
+    '劉宋': 'nanbeichao', '南朝宋': 'nanbeichao', '南齊': 'nanbeichao', '南朝齊': 'nanbeichao',
+    '南朝梁': 'nanbeichao', '南朝陳': 'nanbeichao', '齊梁': 'nanbeichao',
+    '北魏': 'nanbeichao', '後魏': 'nanbeichao', '東魏': 'nanbeichao', '西魏': 'nanbeichao',
+    '北齊': 'nanbeichao', '北周': 'nanbeichao',
+    # 隋唐
+    '隋': 'sui-tang', '唐': 'sui-tang', '隋唐': 'sui-tang',
+    # 五代十國
+    '五代': 'five-dynasties', '後梁': 'five-dynasties', '後唐': 'five-dynasties',
+    '後晉': 'five-dynasties', '後周': 'five-dynasties', '南唐': 'five-dynasties',
+    '前蜀': 'five-dynasties', '後蜀': 'five-dynasties', '吳越': 'five-dynasties',
+    # 宋
+    '北宋': 'song', '南宋': 'song',
+    # 遼金元
+    '遼': 'liao-jin-yuan', '金': 'liao-jin-yuan', '元': 'liao-jin-yuan',
+    '遼金元': 'liao-jin-yuan', '西夏': 'liao-jin-yuan',
+    # 明清近代
+    '明': 'ming', '清': 'qing', '國朝': 'qing', '皇朝': 'qing',
+    '中華民國': 'modern', '民國': 'modern', '中華人民共和國': 'modern',
+    '現代': 'modern', '近代': 'modern',
+}
+
+# 歧義寫法：單書此字不足以定代，須以 catalog_bound 或他證消歧
+AMBIGUOUS = {'宋', '魏', '周', '吳', '蜀', '齊', '梁', '陳', '燕', '涼', '漢後'}
+
+
+def same_period(a, b):
+    """兩個 dynasty 寫法是否同代。任一為歧義寫法或不在表中則返 None（不可判）。"""
+    if not a or not b:
+        return None
+    if a in AMBIGUOUS or b in AMBIGUOUS:
+        return None
+    pa, pb = DYNASTY_PERIOD.get(a), DYNASTY_PERIOD.get(b)
+    if pa is None or pb is None:
+        return None
+    return pa == pb
