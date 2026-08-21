@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdibui1y0ow(餘本);1evgoqtjg69ds(余本);31hyr4yqz8q6b(敕撰)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdibui1y0ow(餘本);1evgoqtjg69ds(余本);31hyr4yqz8q6b(敕撰)（不同作者，故新建獨立 Work）。\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3meogv3`（孝經集注）。《孝經集注》一卷：清史稿之著錄「雍正五年敕撰」，正指本條清世宗（雍正）敕撰之一卷本。今併，清史稿之著錄移入本條。",
   "juan_count": {
     "number": 1
   },
@@ -38,9 +38,19 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "孝經集註",
+      "summary": "《孝經集註》一卷。雍正五年敕撰。",
+      "merged_from": "1evkacz4glc74",
+      "note": "清史稿藝文志「《孝經集註》一卷。雍正五年敕撰」，與本條世宗（雍正）一卷本同書。"
+    }
+  ]
 }
