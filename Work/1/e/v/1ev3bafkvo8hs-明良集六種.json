@@ -24,7 +24,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "明良集五百卷",
-      "summary": "明良集五百卷"
+      "summary": "明良集五百卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 ming 之作、撰人霍韜，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "四庫全書存目叢書",
@@ -53,12 +55,10 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxk2m8cao0 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（四庫全書存目叢書：「明良集六種」）所載之 9 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 2 節，各題在庫中已別有其 work，今各歸其主：《《明良集》》→《明良集》`1evf1nhzs1mo0`、《《明良集》》→《明良集》`1evf1nhzs1mo0`。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《明良集五百卷》→《明良集》`1evgqgh8m1dkw`。",
+  "ai_note": "從 1evjxk2m8cao0 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（四庫全書存目叢書：「明良集六種」）所載之 9 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 2 節，各題在庫中已別有其 work，今各歸其主：《《明良集》》→《明良集》`1evf1nhzs1mo0`、《《明良集》》→《明良集》`1evf1nhzs1mo0`。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《明良集五百卷》→《明良集》`1evgqgh8m1dkw`。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "dynasty_basis": "author_propagation"
 }

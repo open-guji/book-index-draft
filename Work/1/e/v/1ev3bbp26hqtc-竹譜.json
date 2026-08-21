@@ -37,7 +37,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "竹譜一卷",
-      "summary": "竹譜一卷"
+      "summary": "竹譜一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 liao-jin-yuan 之作、撰人李衎，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "書目答問",
@@ -95,7 +97,7 @@
       ]
     }
   ],
-  "ai_note": "清史稿藝文志匹配：書名「竹譜」為短名（2字），已通過作者驗證。 | 從 31hyr5d6e4ml3 合併。原註：作者「元李衎撰」補自《國立故宮博物院善本舊籍》目錄。　繫連補記：《隋書經籍志考證》整理本有一節繫及本條（「《竹譜》一卷」），而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 考證注文對位專項：原繫之考證條「《竹譜》一卷」非本書之考證，今去。隋志考證之《竹譜》一卷（隋志不著名氏，舊唐志始題戴凱之）為晉戴凱之書；李衎《竹譜》十卷為元人書，不當繫。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwoywao74 與 11q37r6myy9s0 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "清史稿藝文志匹配：書名「竹譜」為短名（2字），已通過作者驗證。 | 從 31hyr5d6e4ml3 合併。原註：作者「元李衎撰」補自《國立故宮博物院善本舊籍》目錄。　繫連補記：《隋書經籍志考證》整理本有一節繫及本條（「《竹譜》一卷」），而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 考證注文對位專項：原繫之考證條「《竹譜》一卷」非本書之考證，今去。隋志考證之《竹譜》一卷（隋志不著名氏，舊唐志始題戴凱之）為晉戴凱之書；李衎《竹譜》十卷為元人書，不當繫。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwoywao74 與 11q37r6myy9s0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "measures": [
     {
       "unit": "卷",
@@ -109,7 +111,5 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "dynasty_basis": "author_propagation"
 }

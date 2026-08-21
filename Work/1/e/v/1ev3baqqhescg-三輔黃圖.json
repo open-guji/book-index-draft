@@ -15,19 +15,25 @@
       "source": "舊唐書經籍志",
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《三輔黃圖》一卷",
-      "summary": "《三輔黃圖》一卷"
+      "summary": "《三輔黃圖》一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《舊唐書經籍志》（上限 sui-tang），而本條為 ming 之作、撰人周頂，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "三輔黃圖",
-      "summary": "三輔黃圖一卷"
+      "summary": "三輔黃圖一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 ming 之作、撰人周頂，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《三輔黃圖》",
-      "summary": "《三輔黃圖》一卷"
+      "summary": "《三輔黃圖》一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人周頂，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "欽定四庫全書總目",
@@ -43,7 +49,9 @@
       "title_info": "三輔黃圖一卷",
       "summary": "三輔黃圖一卷\n三輔黃圖一卷\n玉海地理門引三輔黃圖序曰：孔子作春秋，築一臺，新一門，必書於經。今衰秦、漢以來，宮殿門闕、樓觀池苑，在關輔者著於篇，東都不與焉。隋書經籍志：黃圖一卷，記三輔宮觀、陵廟、明堂、辟雍、郊畤等事。唐經籍志：三輔黃圖一卷，藝文志同。孫星衍輯本序曰：三輔黃圖始見於隋經籍志，不著撰人。如淳、晉灼多引其文。劉昭注郡國志引黃圖云：下邽縣并鄭，桓帝西巡復之。則爲漢末人。其書亦名西京黃圖。",
       "section": "史部／地理類",
-      "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+      "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《後漢藝文志》（上限 qin-han），而本條為 ming 之作、撰人周頂，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "書目答問",
@@ -156,7 +164,7 @@
     }
   ],
   "measure_info": "六卷",
-  "ai_note": "作者「明周頂跋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaaam9xvy8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3baqqhescg();1evgpjotzzchs()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "作者「明周頂跋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaaam9xvy8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3baqqhescg();1evgpjotzzchs()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 4 節出於宋史藝文志、後漢藝文志、新唐書藝文志、舊唐書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善007243）。明成化十六年刊本。",
     "sources": [
@@ -169,7 +177,5 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "qin-han",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《後漢藝文志》（清姚振宗補後漢，斷代），故不晚於 qin-han　**與現判之 period 相斥，存疑待覈**"
+  "dynasty_basis": "author_propagation"
 }

@@ -10,7 +10,9 @@
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《易通》二卷",
-      "summary": "《易通》二卷"
+      "summary": "《易通》二卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 modern 之作、撰人劉次源，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "description": {
@@ -19,7 +21,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「民國劉次源撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke1mp2flkw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev0r91a4hxj4(趙以夫);1ev0r92tcvls0(方時化);1evgpmzikjyf4()（不同作者，故新建獨立 Work）。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「民國劉次源撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evke1mp2flkw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev0r91a4hxj4(趙以夫);1ev0r92tcvls0(方時化);1evgpmzikjyf4()（不同作者，故新建獨立 Work）。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於國史經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "id": "1evgpmzikjyf4",
   "measures": [
     {
@@ -41,7 +43,5 @@
   ],
   "updated_at": "2026-08-08T11:51:56+00:00",
   "period": "modern",
-  "period_basis": "據 authors[0].dynasty「民國」",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming　**與現判之 period 相斥，存疑待覈**"
+  "period_basis": "據 authors[0].dynasty「民國」"
 }

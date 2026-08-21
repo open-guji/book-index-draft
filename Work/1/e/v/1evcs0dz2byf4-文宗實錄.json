@@ -7,7 +7,9 @@
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "文宗實錄",
-      "summary": "文宗實錄四十卷"
+      "summary": "文宗實錄四十卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 qing 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "清史稿藝文志",
@@ -19,7 +21,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "文宗實錄四十卷",
-      "summary": "文宗實錄四十卷"
+      "summary": "文宗實錄四十卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 qing 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcs0dz2byf4",
@@ -29,7 +33,7 @@
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-17 撰人闕載：原作者欄作「敕撰」並繫於偽 Entity「敕撰(清)」——該 Entity 之名本是著錄語而非人名。《清史稿藝文志》著錄原文作「敕撰」「御撰」「敕纂」之類——此乃記其奉敕官修之著錄語，非人名，該志本不著纂修者姓名。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十卷），今據以補。",
+  "ai_note": "2026-08-17 撰人闕載：原作者欄作「敕撰」並繫於偽 Entity「敕撰(清)」——該 Entity 之名本是著錄語而非人名。《清史稿藝文志》著錄原文作「敕撰」「御撰」「敕纂」之類——此乃記其奉敕官修之著錄語，非人名，該志本不著纂修者姓名。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於崇文總目、新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "juan_count": {
     "number": 40
   },
@@ -39,7 +43,5 @@
       "number": 40
     }
   ],
-  "measure_info": "四十卷",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang　**與現判之 period 相斥，存疑待覈**"
+  "measure_info": "四十卷"
 }

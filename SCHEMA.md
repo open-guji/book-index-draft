@@ -507,9 +507,27 @@ catalog_bound 之真價值在**驗證**（實測查出 437 條 `period` 逾限�
   "in_note_of": "string (optional, Work ID：本書非該志之正文所著，而見於另一條之注)",
   "attested_status": "string (optional, 該目錄書對此書存佚之判：extant / lost / partial / not_seen)",
   "attested_status_raw": "string (optional, 該書原文之字：存／佚／闕／未見)",
-  "attested_status_note": "string (optional, 何以不上升為 loss_status)"
+  "attested_status_note": "string (optional, 何以不上升為 loss_status)",
+  "misattached": "boolean (optional, 本節非本書之著錄——同題異書誤併)",
+  "misattached_note": "string (何以判為錯掛，逐條可驗)"
 }
 ```
+
+`misattached` 之設（2026-08-21）：catalog_bound 覆驗查出一批 Work 之 `period` 逾其
+著錄志之上限，而該志之著錄語與本條撰人全不相干——同題異書被併為一條。
+如司馬光《書儀》（song）上掛著隋志「《書儀》二卷蔡超撰」，清禪一《法喜集》（qing）
+上掛著崇文總目「法喜集二卷」。
+
+**標而不刪，亦不為之新建 Work。** 節之所指究竟何書，多數只有光禿禿的書名與卷數
+（「明良集五百卷」），連撰人都無，除題名外無從配對，而題名相同正是當初誤併之由；
+為之新建二百餘條極薄之 Work 不可逆，且與「撤薄條目」之向相反。標記則資訊全存，
+日後考定即可升格。
+
+**計 `period_upper` 時跳過標記者**（`scripts/period_bounds.py` 之 `tightest()`）——
+否則本書之判永遠與非本書之著錄相斥。實測標 222 節（涉 177 條 Work），
+`period` 與 `period_upper` 相斥者由 216 降至 38。
+
+清單：`known-issues/著錄錯掛待建.json`。
 
 `attested_status` 之設（2026-08-06）：《經義考》逐書判其存佚（御製題：「次列題注曰存曰闕曰佚曰未見」），
 是本庫少見的成批存佚之據。**然不得逕改本記錄之 `loss_status`**——四庫御製題論此書自云

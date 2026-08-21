@@ -17,7 +17,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《廬山集》",
-      "summary": "（（不知作者））晉惠遠《廬山集》十卷"
+      "summary": "（（不知作者））晉惠遠《廬山集》十卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 liao-jin-yuan 之作、撰人董嗣杲，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "欽定四庫全書總目",
@@ -31,7 +33,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "廬山集十卷",
-      "summary": "廬山集十卷"
+      "summary": "廬山集十卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 liao-jin-yuan 之作、撰人董嗣杲，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "補遼金元藝文志",
@@ -130,8 +134,6 @@
   "emendated_by": [],
   "period": "liao-jin-yuan",
   "loss_status": "lost",
-  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mdqr79（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxiw49af4 與 11q37tgg5slc0 同指文淵閣寫本一實物，今併於後者。",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mdqr79（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxiw49af4 與 11q37tgg5slc0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於宋史藝文志、崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "period_basis": "據 authors[0].dynasty「元」"
 }

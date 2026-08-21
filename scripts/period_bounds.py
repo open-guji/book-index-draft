@@ -41,8 +41,19 @@ QING_JIYI = {'清史稿藝文志', '欽定四庫全書總目', '四庫全書總�
 
 
 def tightest(sources):
-    """諸志中最緊之上限；無可據者返 None。"""
-    bs = [BOUND[s][0] for s in sources if s in BOUND]
+    """諸志中最緊之上限；無可據者返 None。
+
+    sources 可為志書名之序列，亦可為 indexed_by 之節（dict）——後者會跳過
+    標了 misattached 的節（同題異書誤併，非本書之著錄，見 mark_misattached_nodes.py）。
+    """
+    bs = []
+    for s in sources:
+        if isinstance(s, dict):
+            if s.get('misattached'):
+                continue
+            s = s.get('source')
+        if s in BOUND:
+            bs.append(BOUND[s][0])
     return min(bs, key=lambda x: I[x]) if bs else None
 
 
@@ -86,13 +97,26 @@ DYNASTY_PERIOD = {
     '遼': 'liao-jin-yuan', '金': 'liao-jin-yuan', '元': 'liao-jin-yuan',
     '遼金元': 'liao-jin-yuan', '西夏': 'liao-jin-yuan',
     # 明清近代
-    '明': 'ming', '清': 'qing', '國朝': 'qing', '皇朝': 'qing',
+    '明': 'ming', '清': 'qing',
     '中華民國': 'modern', '民國': 'modern', '中華人民共和國': 'modern',
     '現代': 'modern', '近代': 'modern',
 }
 
 # 歧義寫法：單書此字不足以定代，須以 catalog_bound 或他證消歧
-AMBIGUOUS = {'宋', '魏', '周', '吳', '蜀', '齊', '梁', '陳', '燕', '涼', '漢後'}
+# 「國朝」「皇朝」「本朝」之義隨志書而異——《國史經籍志》（明焦竑）之「國朝」是明，
+# 《清史稿》之「國朝」是清。不可入 DYNASTY_PERIOD，須看所出之志。
+AMBIGUOUS = {'宋', '魏', '周', '吳', '蜀', '齊', '梁', '陳', '燕', '涼', '漢後',
+             '國朝', '皇朝', '本朝'}
+
+# 「國朝」之解：以著錄之志為據
+GUOCHAO = {
+    '國史經籍志': 'ming',        # 明焦竑
+    '明史藝文志': 'ming',
+    '欽定四庫全書總目': 'qing', '四庫全書總目': 'qing',
+    '清史稿藝文志': 'qing', '經義考': 'qing', '書目答問': 'qing',
+    '宋史藝文志': 'song', '崇文總目': 'song', '直齋書錄解題': 'song',
+    '新唐書藝文志': 'sui-tang', '舊唐書經籍志': 'sui-tang', '隋書經籍志': 'sui-tang',
+}
 
 
 def same_period(a, b):

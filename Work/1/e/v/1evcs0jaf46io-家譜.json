@@ -7,7 +7,9 @@
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "家譜",
-      "summary": "家譜一卷"
+      "summary": "家譜一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 song 之作、撰人楊侃，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "宋史藝文志",
@@ -21,7 +23,9 @@
       "title_info": "又家譜",
       "summary": "又家譜二十卷",
       "merged_from": "1evcs0j438xz4",
-      "note": "諸志同著《家譜》，係一書互著（或重出），今合併。"
+      "note": "諸志同著《家譜》，係一書互著（或重出），今合併。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 song 之作、撰人楊侃，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcs0jaf46io",
@@ -49,7 +53,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
   "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志同志兩出《家譜》（一卷、又二十卷），宋史藝文志亦著「楊侃《家譜》一卷」。今將二條合併，撰人據宋志補為楊侃；卷數之異存於所併之 indexed_by。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang　**與現判之 period 相斥，存疑待覈**"
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志同志兩出《家譜》（一卷、又二十卷），宋史藝文志亦著「楊侃《家譜》一卷」。今將二條合併，撰人據宋志補為楊侃；卷數之異存於所併之 indexed_by。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

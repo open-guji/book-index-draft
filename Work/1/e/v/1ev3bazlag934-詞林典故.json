@@ -22,7 +22,9 @@
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《詞林典故》一卷",
-      "summary": "《詞林典故》一卷"
+      "summary": "《詞林典故》一卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 qing 之作、撰人張廷玉，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "juan_count": {
@@ -119,7 +121,7 @@
     }
   ],
   "measure_info": "八卷",
-  "ai_note": "作者 \"清張廷玉等奉敕撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgphxlk5534 合併。原註：从卷二 ambiguous 新建：unresolved 作者「清張廷玉等奉敕撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "作者 \"清張廷玉等奉敕撰\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgphxlk5534 合併。原註：从卷二 ambiguous 新建：unresolved 作者「清張廷玉等奉敕撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於國史經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "books": [
     "11qkhwaqf4mbk",
     "11qki22b4xgcg",
@@ -137,7 +139,5 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming　**與現判之 period 相斥，存疑待覈**"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
 }

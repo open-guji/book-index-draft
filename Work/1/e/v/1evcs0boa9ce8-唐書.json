@@ -7,7 +7,9 @@
       "source": "新唐書藝文志",
       "source_bid": "1evcs059gkvls",
       "title_info": "唐書",
-      "summary": "唐書一百卷"
+      "summary": "唐書一百卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 song 之作、撰人歐陽修，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "宋史藝文志",
@@ -49,7 +51,7 @@
       "dynasty_basis": "entity_propagation:1j967avzk3ls6"
     }
   ],
-  "ai_note": "作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkadxc39zwg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0boa9ce8();1evgpguuievi8(呉兢);1evgpguwu2h34()（不同作者，故新建獨立 Work）。 | 從 1evgpguwu2h34 合併。原註：missing_reason: 短title \"唐書\" 唯一候选无作者 作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一百三十卷），今據以補。",
+  "ai_note": "作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkadxc39zwg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0boa9ce8();1evgpguuievi8(呉兢);1evgpguwu2h34()（不同作者，故新建獨立 Work）。 | 從 1evgpguwu2h34 合併。原註：missing_reason: 短title \"唐書\" 唯一候选无作者 作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一百三十卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿029113-029162）。清道光十六年重刊殿本。",
     "sources": [
@@ -81,7 +83,5 @@
       "number": 130
     }
   ],
-  "measure_info": "一百三十卷",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang　**與現判之 period 相斥，存疑待覈**"
+  "measure_info": "一百三十卷"
 }
