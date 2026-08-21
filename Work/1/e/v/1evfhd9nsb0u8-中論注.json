@@ -30,7 +30,7 @@
       "三國藝文志"
     ]
   },
-  "ai_note": "作者僅知姓任，名字不詳。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚普查：本條之文見輯家之名（嚴可均）而無一語言其輯此書——名之出現多在考證之引述中，引述不等於輯之。（《爾雅郭璞注》之輯佚檔即因「以人名見於描述為據而未問其語境」誤立而撤。）故不立檔，俟得確據再補。已覆核，後續普查不必重讀。",
+  "ai_note": "作者僅知姓任，名字不詳。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚普查：本條之文見輯家之名（嚴可均）而無一語言其輯此書——名之出現多在考證之引述中，引述不等於輯之。（《爾雅郭璞注》之輯佚檔即因「以人名見於描述為據而未問其語境」誤立而撤。）故不立檔，俟得確據再補。已覆核，後續普查不必重讀。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「中論」，庫中有同題而非注本之條 `1ev3bb77r63uo`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
   "id": "1evfhd9nsb0u8",
   "measures": [
     {
@@ -40,9 +40,16 @@
   ],
   "measure_info": "六卷",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1ev3bb77r63uo",
+      "title": "中論",
+      "relation": "contains_text_of"
+    }
+  ]
 }
