@@ -1,71 +1,71 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "琴書",
- "authors": [
-  {
-   "name": "趙惟暕",
-   "role": "撰",
-   "entity_id": "1j96hfo1wcmio"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《琴書》三卷",
-   "summary": "《琴書》三卷（趙惟暕）",
-   "author_info": "趙惟暕"
+  "schema_version": 1,
+  "type": "work",
+  "title": "琴書",
+  "authors": [
+    {
+      "name": "趙惟暕",
+      "role": "撰",
+      "entity_id": "1j96hfo1wcmio"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "趙惟暕琴書",
-   "summary": "趙惟暕琴書三卷"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《琴書》三卷",
+      "summary": "《琴書》三卷（趙惟暕）",
+      "author_info": "趙惟暕"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "趙惟暕琴書",
+      "summary": "趙惟暕琴書三卷"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "暕琴書",
+      "summary": "唐趙惟《暕琴書》一卷。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《琴書》三卷",
+      "summary": "唐待詔趙惟暕撰。稱前進士滁州全椒尉。",
+      "merged_from": "1evr5e3mjzi4r"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "琴書三卷",
+      "summary": "琴書三卷。唐翰林待詔趙惟𰖍撰略述琴製叙古諸典及善琴人姓名",
+      "merged_from": "1evr5e3mfaxwr",
+      "note": "「𰖍」為「暕」之訛寫。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "清史稿藝文志",
-   "source_bid": "1evdiulq07rwg",
-   "title_info": "暕琴書",
-   "summary": "唐趙惟《暕琴書》一卷。"
-  },
-  {
-   "source": "直齋書錄解題",
-   "source_bid": "1ev3bb403quio",
-   "title_info": "《琴書》三卷",
-   "summary": "唐待詔趙惟暕撰。稱前進士滁州全椒尉。",
-   "merged_from": "1evr5e3mjzi4r"
-  },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "琴書三卷",
-   "summary": "琴書三卷。唐翰林待詔趙惟𰖍撰略述琴製叙古諸典及善琴人姓名",
-   "merged_from": "1evr5e3mfaxwr",
-   "note": "「𰖍」為「暕」之訛寫。"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved　輯佚檔：本書之輯佚著錄置於 fragments/琴書.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs08punchs（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-10 撰人字首式重出候選覆核（特例）：「趙惟」撰人欄實為「趙惟暕」被截去「暕」字（「暕」誤併入題名「暕琴書」），併入本庫已核定之目標。",
- "id": "1evgoqpcsaqkg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "loss_status": "lost",
- "updated_at": "2026-08-19T00:00:00-07:00",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "ai_note": "从卷二 ambiguous 新建：unresolved　輯佚檔：本書之輯佚著錄置於 fragments/琴書.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs08punchs（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-10 撰人字首式重出候選覆核（特例）：「趙惟」撰人欄實為「趙惟暕」被截去「暕」字（「暕」誤併入題名「暕琴書」），併入本庫已核定之目標。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "id": "1evgoqpcsaqkg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }
