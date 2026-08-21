@@ -53,9 +53,10 @@ def merge_lists(dst, src, tag, note):
 
 # period_upper / period_upper_basis 不搬——那是 C 車道之欄，且 keeper 多已有硬 period，
 # 搬過去只是噪音。其餘欄位僅在 keeper 空缺時補入，屬合併之必要承接。
-SCALARS = ['juan_count', 'measures', 'measure_info', 'original_title', 'dynasty',
-           'dynasty_basis', 'period', 'period_basis',
-           'loss_status', 'description', 'subtype', 'fragments']
+# 只承接「作品身分」之欄。period／period_upper／dynasty 屬 C 車道、loss_status 與
+# description 屬 D 車道，一律不搬——搬了不只越界，還會把 loser 的誤判蓋到 keeper 上：
+# 《毛詩義疏》被併之條因清史稿「不著時代」被誤判成 period=qing，而 keeper 是隋志之書。
+SCALARS = ['juan_count', 'measures', 'measure_info', 'subtype', 'fragments']
 
 def main():
     plan = load(sys.argv[1])
@@ -102,6 +103,15 @@ def main():
             rw.append(r); have.add(r.get('id'))
         kd['related_works'] = [r for r in rw if r.get('id') not in (K, L)]
         if not kd['related_works']: del kd['related_works']
+        fix = job.get('keeper_author_fix')
+        if fix:
+            for a in kd.get('authors') or []:
+                if a.get('name') == fix['from']:
+                    a['name'] = fix['to']
+                    alt = a.setdefault('alt_names', [])
+                    if fix['from'] not in alt: alt.append(fix['from'])
+                    a['name_basis'] = fix['why']
+                    print(f"  正名 {fix['from']} → {fix['to']}")
         msg = job.get('ai_note') or ''
         kd['ai_note'] = ((kd.get('ai_note') or '') + ('\n\n' if kd.get('ai_note') else '')
                          + f'{today} B1 同名異書併池：併入 `{L}`（{kd.get("title")}）。{msg}')
@@ -170,6 +180,19 @@ def main():
                     wid = w.get('work_id') if isinstance(w, dict) else None
                     if wid in kauthors and name not in kauthors[wid]: dropped.append(wid)
                     else: keep.append(w)
+                else:
+                    # 留連者：keeper 撰人欄之 entity_id 若空，補之，否則生「人物→作品 單向」
+                    for w in keep:
+                        wid = w.get('work_id') if isinstance(w, dict) else None
+                        if wid in kauthors and name in kauthors[wid]:
+                            wp = IW[wid]['path']
+                            wd = load(wp); ch = False
+                            for a in wd.get('authors') or []:
+                                if a.get('name') == name and not a.get('entity_id'):
+                                    a['entity_id'] = d.get('id'); ch = True
+                            if ch:
+                                print(('寫' if apply else '擬') + f" 補 {wid} 撰人「{name}」entity_id={d.get('id')}")
+                                if apply: save(wp, wd)
                 if dropped:
                     d['works'] = keep
                     print(('寫' if apply else '擬') + f" 人物「{name}」解連 {dropped}"

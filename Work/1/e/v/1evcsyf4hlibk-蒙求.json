@@ -8,6 +8,27 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《蒙求》",
       "summary": "（（前白居易撰，後宋孔傳撰））李翰《蒙求》三卷白廷翰"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《蒙求》三卷",
+      "summary": "《蒙求》三卷（唐子瀚）",
+      "author_info": "唐子瀚",
+      "merged_from": "1evcsyf4hlibk",
+      "note": "國史經籍志「《蒙求》三卷（唐子瀚）」，「子瀚」乃「李瀚」之形訛（李／子形近），與本條同書。"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《蒙求》三卷",
+      "author_info": "唐李翰撰",
+      "summary": "《蒙求》三卷。唐李翰撰。影印山西應縣佛宮寺文物保管所藏遼刻本。",
+      "edition": "影印山西應縣佛宮寺文物保管所藏遼刻本",
+      "volume": "第1213冊",
+      "section": "子部 類書",
+      "merged_from": "1evcsyf4hlibk",
+      "note": "續修四庫全書「《蒙求》三卷。唐李翰撰」，「翰」「瀚」通用，卷數同三卷，與本條同書（影印遼刻本，其版本之別歸 Book）。"
     }
   ],
   "id": "1evcsyf4hlibk",
@@ -28,7 +49,7 @@
       "dynasty": "五代"
     }
   ],
-  "ai_note": "作者「五代李瀚撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaml18n7cw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsyf4hlibk();1evgortvuxb7k(子瀚);1evjr6dhyg1ds(李翰)（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「五代李瀚撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaml18n7cw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsyf4hlibk();1evgortvuxb7k(子瀚);1evjr6dhyg1ds(李翰)（不同作者，故新建獨立 Work）。\n\n2026-08-21 B1 同名異書併池：併入 `1evgortvuxb7k`（蒙求）。《蒙求》李瀚撰：國史志作「唐子瀚」（「李」訛作「子」）、續修四庫作「唐李翰」（瀚／翰通），卷數俱三卷，與宋志「李翰《蒙求》三卷」同書。今併二條，正名取「李瀚」。\n\n2026-08-21 B1 同名異書併池：併入 `1evjr6dhyg1ds`（蒙求）。同上，併續修四庫條；其所影印之遼刻本屬版本層，歸 Book 記之。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀004564）。日本平安末期寫本。",
     "sources": [
@@ -38,10 +59,20 @@
   "books": [
     "11qkhzmu8hqm8"
   ],
-  "updated_at": "2026-08-09T08:00:56+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "_has_text": true,
   "period": "five-dynasties",
   "period_basis": "據 authors[0].dynasty「五代」",
   "dynasty": "五代",
-  "dynasty_basis": "據唯一五代 author.dynasty「五代」補全"
+  "dynasty_basis": "據唯一五代 author.dynasty「五代」補全",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷"
 }
