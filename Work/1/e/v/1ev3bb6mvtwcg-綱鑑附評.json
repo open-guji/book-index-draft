@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "劉善",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "清",
-      "entity_id": "1j96hl9ckgr28"
+      "entity_id": "1j96hl9ckgr28",
+      "role_basis": "據著錄語「舊本題國朝劉善撰。善號黽齋，吉水人。考《江西通志》有劉善，臨川人」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -34,9 +35,10 @@
   "additional_titles": [
     "綱鑒附評"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題國朝劉善撰。善號黽齋，吉水人。考《江西通志》有劉善，臨川人」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

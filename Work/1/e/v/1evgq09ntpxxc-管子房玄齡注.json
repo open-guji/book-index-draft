@@ -26,7 +26,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者 \"唐房玄齡注\" 補自《中華再造善本》目錄。 本條實為《管子》之注本而書題僅作「管子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「管子房玄齡注」，原題記於 original_title。　《書目答問》：「《管子》尹知章注廿四卷。舊題唐房玄齡注。」今仍其舊題而記其實。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 作者 \"唐房玄齡注\" 補自《中華再造善本》目錄。 本條實為《管子》之注本而書題僅作「管子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「管子房玄齡注」，原題記於 original_title。　《書目答問》：「《管子》尹知章注廿四卷。舊題唐房玄齡注。」今仍其舊題而記其實。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 舊題撰人專項：著錄語作「《管子》十八卷《管子》尹知章注廿四卷。{{舊題唐房玄齡注。明趙用賢校本，即《管》」，所題之人即本條 authors[0]，故其 role 由「注」改標「舊題注」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "id": "1evgq09ntpxxc",
   "measures": [
     {
@@ -56,10 +56,11 @@
   "authors": [
     {
       "name": "房玄齡",
-      "role": "注",
+      "role": "舊題注",
       "dynasty": "唐",
       "note": "舊題房玄齡注，實為唐尹知章注，後人誤題",
-      "entity_id": "1j967cp1zdr17"
+      "entity_id": "1j967cp1zdr17",
+      "role_basis": "據著錄語「《管子》十八卷《管子》尹知章注廿四卷。{{舊題唐房玄齡注。明趙用賢校本，即《管》《韓》合刻本，附劉績補注」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "books": [
@@ -73,7 +74,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

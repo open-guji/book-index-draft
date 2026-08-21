@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "釋皎然",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j967cp1z2ihj"
+      "entity_id": "1j967cp1z2ihj",
+      "role_basis": "據著錄語「僧皎然《詩式》五卷又舊本題唐釋皎然撰。皎然有《杼山集》，已著錄。此本即附載集末。考陳」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -128,12 +129,12 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《詩式》五卷」一節原繫於磁鐵條（`1evr5e3mj1sjk`），其題與本條全合，今改繫本條並補其著錄。二者卷數異（5／1），出處不同志，依「跨志卷異即一書之異本」之判準仍為一書，並存其著錄。"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《詩式》五卷」一節原繫於磁鐵條（`1evr5e3mj1sjk`），其題與本條全合，今改繫本條並補其著錄。二者卷數異（5／1），出處不同志，依「跨志卷異即一書之異本」之判準仍為一書，並存其著錄。\n\n2026-08-21 舊題撰人專項：著錄語作「僧皎然《詩式》五卷又舊本題唐釋皎然撰。皎然有《杼山集》，已著錄。此本即附載集末。」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

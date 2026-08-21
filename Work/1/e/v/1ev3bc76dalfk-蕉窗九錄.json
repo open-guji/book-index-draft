@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "項元汴",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967bgl7bsps"
+      "entity_id": "1j967bgl7bsps",
+      "role_basis": "據著錄語「舊本題明項元汴撰。元汴字子京，秀水人。家藏書畫之富，甲於天下。今」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -95,14 +96,14 @@
       ]
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。",
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明項元汴撰。元汴字子京，秀水人。家藏書畫之富，甲於天下。今」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "juan_count": {
     "number": 9
   },

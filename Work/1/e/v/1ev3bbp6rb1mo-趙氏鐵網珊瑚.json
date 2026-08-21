@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "朱存理",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967bgl6e34m"
+      "entity_id": "1j967bgl6e34m",
+      "role_basis": "據著錄語「舊本題明朱存理撰。末有萬曆中常熟趙琦美跋，稱原從秦四麟家得《書品」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -64,8 +65,8 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "從 1evdid6aotbsw 合併。原註：舊匹配結果為 GYL55fpwycK（author+substr），經作者校驗後判定不匹配。 來源：明史藝文志。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwp6vs8hs 與 11q37r76lcb28 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "從 1evdid6aotbsw 合併。原註：舊匹配結果為 GYL55fpwycK（author+substr），經作者校驗後判定不匹配。 來源：明史藝文志。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwp6vs8hs 與 11q37r76lcb28 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明朱存理撰。末有萬曆中常熟趙琦美跋，稱原從秦四麟家得《書品」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",

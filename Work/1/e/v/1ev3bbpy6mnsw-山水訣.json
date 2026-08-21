@@ -38,7 +38,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "description": {
@@ -58,7 +58,9 @@
       ]
     }
   ],
-  "ai_note": "合併：題名「李成山水訣」撰人折入題首（來源：國史經籍志），與本條同書（撰人「李成」已見本條 authors[]），裸題「山水訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "合併：題名「李成山水訣」撰人折入題首（來源：國史經籍志），與本條同書（撰人「李成」已見本條 authors[]），裸題「山水訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "authenticity": "forged",
+  "authenticity_basis": "《欽定四庫全書總目》：「是書《宋志》及晁、陳書目皆不著錄，宋人諸家畫錄亦不言成有是書。殆後人依託其文與《王氏畫苑》所載嘉定中李澄叟《山水訣》大同小異。」"
 }

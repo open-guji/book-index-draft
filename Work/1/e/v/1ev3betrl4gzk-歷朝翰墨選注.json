@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "屠隆",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967bgl70k6p"
+      "entity_id": "1j967bgl70k6p",
+      "role_basis": "據著錄語「舊本題明屠隆撰。隆有《篇海類編》，已著錄。是書皆歷代尺牘，謬妄」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -47,11 +48,11 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxos87vx8g 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evjxos87vx8g 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明屠隆撰。隆有《篇海類編》，已著錄。是書皆歷代尺牘，謬妄」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "additional_titles": [
     "歴朝翰墨選註"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

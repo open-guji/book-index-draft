@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "朋九萬",
-      "role": "編",
+      "role": "舊題編",
       "dynasty": "宋",
-      "entity_id": "1j96hem3otnnk"
+      "entity_id": "1j96hem3otnnk",
+      "role_basis": "據著錄語「舊本題宋朋九萬編。即蘇軾御史台獄詞也。案周必大《二老堂詩話》曰：」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -57,13 +58,13 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "additional_titles": [
     "烏臺詩案"
   ],
-  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《烏臺詩案》之 work（`1evind2q2ovsw`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《烏臺詩案》之 work（`1evind2q2ovsw`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題宋朋九萬編。即蘇軾御史台獄詞也。案周必大《二老堂詩話》曰：」，所題之人即本條 authors[0]，故其 role 由「編」改標「舊題編」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "period_upper": "song",
   "period_upper_basis": "撰人朝代作「宋」，歧而未決；諸解中最晚者為 song，無論何解皆不晚於此"
 }

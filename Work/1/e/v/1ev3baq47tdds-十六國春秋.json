@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "崔鴻",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "北魏",
       "entity_id": "1j96hl8awt3wg",
-      "dynasty_basis": "known_mislabel:round3(崔鴻(?-525前)，字彥鸞，北魏，撰十六國春秋，非三國魏)"
+      "dynasty_basis": "known_mislabel:round3(崔鴻(?-525前)，字彥鸞，北魏，撰十六國春秋，非三國魏)",
+      "role_basis": "據著錄語「《十六國春秋》一百二十卷崔鴻撰。崔鴻十六國春秋一百二十卷舊本題魏崔鴻撰，實則明嘉興屠喬孫、項琳之偽本也。鴻作《十」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -213,8 +214,8 @@
     }
   ],
   "measure_info": "一百卷",
-  "ai_note": "從 1ev3baq4m6adc 合併。原註：作者「魏崔鴻撰」補自《國立故宮博物院善本舊籍》目錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw5v0dt6o 與 11q37pme0n1mo 同指文淵閣寫本一實物，今併於後者。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw5tx1wqo 與 11q37pmbkxczk 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-08T14:20:19+00:00",
+  "ai_note": "從 1ev3baq4m6adc 合併。原註：作者「魏崔鴻撰」補自《國立故宮博物院善本舊籍》目錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw5v0dt6o 與 11q37pme0n1mo 同指文淵閣寫本一實物，今併於後者。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw5tx1wqo 與 11q37pmbkxczk 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「《十六國春秋》一百二十卷崔鴻撰。崔鴻十六國春秋一百二十卷舊本題魏崔鴻撰，實則明嘉」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "nanbeichao",

@@ -5,9 +5,10 @@
   "authors": [
     {
       "name": "王渙",
-      "role": "輯",
+      "role": "舊題輯",
       "dynasty": "明",
-      "entity_id": "1j967cp20bgqf"
+      "entity_id": "1j967cp20bgqf",
+      "role_basis": "據著錄語「《兩晉南北奇談》六卷。明王渙輯。北京圖書館藏明刻本。舊本題宋王渙撰。渙為仁宗慶曆末睢陽五老之一。王辟之《澠水燕談」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -36,7 +37,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bapnwcr28(王渙)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bapnwcr28(王渙)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「《兩晉南北奇談》六卷。明王渙輯。北京圖書館藏明刻本。舊本題宋王渙撰。渙為仁宗慶曆」，所題之人即本條 authors[0]，故其 role 由「輯」改標「舊題輯」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "juan_count": {
     "number": 6
   },
@@ -48,7 +49,7 @@
   ],
   "measure_info": "六卷",
   "id": "1evjxkk327tvk",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

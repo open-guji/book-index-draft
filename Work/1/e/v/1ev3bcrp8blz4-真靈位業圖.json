@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "陶宏景",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "梁",
-      "entity_id": "1j96ha65ubbi8"
+      "entity_id": "1j96ha65ubbi8",
+      "role_basis": "據著錄語「舊本題梁陶宏景撰。宏景有《真誥》，已著錄。《真誥》見於唐、宋志，」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -50,9 +51,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題梁陶宏景撰。宏景有《真誥》，已著錄。《真誥》見於唐、宋志，」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

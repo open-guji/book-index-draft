@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "虞荔",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "南朝陳",
       "entity_id": "1j96hjwlxny14",
-      "dynasty_basis": "entity_propagation:1j96hjwlxny14"
+      "dynasty_basis": "entity_propagation:1j96hjwlxny14",
+      "role_basis": "據著錄語「舊本題梁虞荔撰。考《陳書•列傳》，荔字山披，會稽餘姚人。釋褐為」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -112,8 +113,8 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "從 1evcsw9zn3l6o 合併。原註：作者「梁虞荔撰」補自《國立故宮博物院善本舊籍》目錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwq7cd4ow 與 11q37rbwyq8lc 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "ai_note": "從 1evcsw9zn3l6o 合併。原註：作者「梁虞荔撰」補自《國立故宮博物院善本舊籍》目錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwq7cd4ow 與 11q37rbwyq8lc 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題梁虞荔撰。考《陳書•列傳》，荔字山披，會稽餘姚人。釋褐為」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "nanbeichao",

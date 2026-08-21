@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "歸有光",
-      "role": "編",
+      "role": "舊題編",
       "dynasty": "明",
-      "entity_id": "1j967avzmli64"
+      "entity_id": "1j967avzmli64",
+      "role_basis": "據著錄語「舊本題明歸有光編。有光有《易經淵旨》，已著錄。是編以自周至明子書」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -49,11 +50,11 @@
     }
   ],
   "measure_info": "二十六卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明歸有光編。有光有《易經淵旨》，已著錄。是編以自周至明子書」，所題之人即本條 authors[0]，故其 role 由「編」改標「舊題編」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

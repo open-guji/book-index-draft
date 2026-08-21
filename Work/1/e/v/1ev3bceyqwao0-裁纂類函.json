@@ -50,11 +50,13 @@
     }
   ],
   "measure_info": "一百六十卷",
-  "ai_note": "作者 \"元周宏道輯\" 補自《四庫全書存目叢書》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "ai_note": "作者 \"元周宏道輯\" 補自《四庫全書存目叢書》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "authenticity": "forged",
+  "authenticity_basis": "《欽定四庫全書總目》：「考道園《學古錄》不載此文，所謂宏道先生亦無所考。據其文意推之，蓋周必大《平園集》外尚有著述八十餘種不傳，奸黠書賈，因偽造此書，以依託求售。」"
 }

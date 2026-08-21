@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "顧炎武",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "清",
-      "entity_id": "1j967a0kjkphw"
+      "entity_id": "1j967a0kjkphw",
+      "role_basis": "據著錄語「舊本題國朝顧炎武撰，載吳震方《說鈴》中。然《說鈴》載炎武書四種，其」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -134,8 +135,8 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxkyghb5ds 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bayd4omio(顧炎武)（不同作者，故新建獨立 Work）。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 1evjxkyghb5ds 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bayd4omio(顧炎武)（不同作者，故新建獨立 Work）。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題國朝顧炎武撰，載吳震方《說鈴》中。然《說鈴》載炎武書四種，其」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
