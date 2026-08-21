@@ -11,8 +11,9 @@
 import json, glob, sys, os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from period_bounds import (BOUND, I, tightest, edition_bound,  # noqa: E402
-                           conflicts_with_bound)
+from period_bounds import (BOUND, I, ORD, tightest, edition_bound,  # noqa: E402
+                           conflicts_with_bound, excavation_bound,
+                           catalog_section_bound, desc_edition)
 
 APPLY = '--apply' in sys.argv
 ROOTS = ('/workspace/book-index-draft', '/workspace/book-index')
@@ -29,6 +30,7 @@ def main():
             BK[b['id']] = b
 
     n_cat = n_ed = n_conf = n_rm = 0
+    n_x = n_sec = n_fix = 0
     for root in ROOTS:
         for f in glob.glob(f'{root}/Work/*/*/*/*.json'):
             try:
@@ -45,18 +47,28 @@ def main():
             eb_pairs = [x for x in eb_pairs if x[0]]
             eb, ed = (min(eb_pairs, key=lambda x: I[x[0]]) if eb_pairs else (None, None))
 
-            src = None
-            if cb and eb:
-                if I[cb] <= I[eb]:
-                    ub, src = cb, 'catalog'
-                else:
-                    ub, src = eb, 'edition'
-            elif cb:
-                ub, src = cb, 'catalog'
-            elif eb:
-                ub, src = eb, 'edition'
+            desc = d.get('description') or {}
+            dtext = desc.get('text') or ''
+            dsrcs = desc.get('sources') or []
+            # 描述末之版本語（有本無 Book 者）——與 Book.edition 同為 edition_bound
+            de = desc_edition(dtext)
+            deb = edition_bound(de) if de else None
+            if deb and (not eb or I[deb] < I[eb]):
+                eb, ed = deb, de
+            # 出土批次
+            xb, xname = excavation_bound(
+                dtext + ' ' + ' '.join(x if isinstance(x, str) else (x.get('title') or '')
+                                       for x in dsrcs))
+            # 志書子目之斷代
+            sb, sname = catalog_section_bound(dsrcs)
+
+            cands = [(cb, 'catalog'), (eb, 'edition'), (xb, 'excavation'),
+                     (sb, 'section')]
+            cands = [c for c in cands if c[0]]
+            if cands:
+                ub, src = min(cands, key=lambda c: I[c[0]])
             else:
-                ub = None
+                ub, src = None, None
 
             p = d.get('period')
             old = d.get('period_upper')
@@ -73,6 +85,11 @@ def main():
                          and r.get('source') in BOUND and BOUND[r['source']][0] == ub]
                     basis = (f'catalog_bound：所繫諸志中最緊者為《{w[0]}》'
                              f'（{BOUND[w[0]][1]}），故不晚於 {ub}')
+                elif src == 'excavation':
+                    basis = (f'excavation_bound：本書出於{xname}——'
+                             f'簡帛抄寫之年不早於成書之年，故不晚於 {ub}')
+                elif src == 'section':
+                    basis = (f'catalog_bound：{sname}自標所收之代，故不晚於 {ub}')
                 else:
                     basis = (f'edition_bound：所掛版本中最早者為「{ed}」——'
                              f'版本之年不早於成書之年，故不晚於 {ub}')
@@ -83,10 +100,17 @@ def main():
                 elif not p:
                     d['period_upper'] = ub
                     d['period_upper_basis'] = basis
-                    if src == 'catalog':
-                        n_cat += 1
-                    else:
-                        n_ed += 1
+                    n_cat += src == 'catalog'
+                    n_ed += src == 'edition'
+                    n_x += src == 'excavation'
+                    n_sec += src == 'section'
+                    # 上限至軸首者即成定判：無更早之代可容，逕定 period
+                    if ub == ORD[0]:
+                        d['period'] = ub
+                        d['period_basis'] = basis.replace('故不晚於', '故定為')
+                        d.pop('period_upper', None)
+                        d.pop('period_upper_basis', None)
+                        n_fix += 1
                 elif old is not None:
                     d.pop('period_upper', None)
                     d.pop('period_upper_basis', None)
@@ -96,7 +120,9 @@ def main():
             if APPLY:
                 with open(f, 'w', encoding='utf-8', newline='\n') as fh:
                     fh.write(json.dumps(d, ensure_ascii=False, indent=2))
-    print(f'標 period_upper：據志 {n_cat}，據版本 {n_ed}，相斥存疑 {n_conf}，撤除 {n_rm}'
+    print(f'標 period_upper：據志 {n_cat}，據版本 {n_ed}，據出土 {n_x}，'
+          f'據子目 {n_sec}，相斥存疑 {n_conf}，撤除 {n_rm}；'
+          f'其中上限至軸首而逕定 period 者 {n_fix}'
           + ('' if APPLY else '  (dry-run)'))
 
 

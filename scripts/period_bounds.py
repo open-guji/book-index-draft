@@ -3,6 +3,8 @@
 一書見於某志，其時代不得晚於該志。只給上限，不給下限——早期志書亡佚極多，
 一部漢代之書可能遲至《宋史·藝文志》方首見著錄。
 """
+import re
+
 ORD = ['pre-qin', 'qin-han', 'three-kingdoms', 'jin', 'nanbeichao', 'sui-tang',
        'five-dynasties', 'song', 'liao-jin-yuan', 'ming', 'qing', 'modern']
 I = {p: i for i, p in enumerate(ORD)}
@@ -196,3 +198,79 @@ def conflicts_with_bound(period, bound):
     if not ps or not be:
         return False
     return ps[0] > be[1]
+
+
+# ═══ 出土文獻：簡帛之年即其抄寫之年，為成書之上限 ═══
+# 出土之本亦本也，與傳世刊本同理：抄本之年不早於成書之年。
+# 戰國竹書之上限即 pre-qin，而 pre-qin 為軸之首，上限至此即成定判——
+# 故此類逕定 period，不止標 upper。
+EXCAVATION = [
+    ('清華大學藏戰國竹簡', 'pre-qin', '戰國楚簡'),
+    ('清華大學藏戰國竹簡', 'pre-qin', '戰國楚簡'),
+    ('郭店楚墓竹簡', 'pre-qin', '戰國楚簡'),
+    ('上海博物館藏戰國楚竹書', 'pre-qin', '戰國楚簡'),
+    ('馬王堆', 'qin-han', '西漢初長沙馬王堆帛書'),
+    ('銀雀山', 'qin-han', '西漢銀雀山漢簡'),
+    ('定州漢墓', 'qin-han', '西漢定州漢簡'),
+    ('海昏', 'qin-han', '西漢海昏侯墓簡牘'),
+    ('睡虎地', 'qin-han', '秦睡虎地秦簡'),
+    ('里耶', 'qin-han', '秦里耶秦簡'),
+    ('張家山', 'qin-han', '西漢張家山漢簡'),
+    ('北京大學藏西漢竹書', 'qin-han', '西漢北大漢簡'),
+]
+
+
+def excavation_bound(blob):
+    """自描述文字（text + sources）辨出土批次，返 (上限, 批次名)。"""
+    if not blob:
+        return None, None
+    for key, p, name in EXCAVATION:
+        if key in blob:
+            return p, name
+    return None, None
+
+
+# ═══ 志書之子目斷代：目錄之類目自言其代者，即斷代之判 ═══
+# 孫楷第《中國通俗小說書目》雖為今人之作（catalog_bound 得 modern 而無用），
+# 其卷次類目「宋元部」「明清講史部」等自標所收之代，是為斷代之判。
+CATALOG_SECTION_BOUND = [
+    ('中國通俗小說書目', '宋元部', 'liao-jin-yuan', '宋元'),
+    ('中國通俗小說書目', '明清講史部', 'qing', '明清'),
+    ('中國通俗小說書目', '明清小說部', 'qing', '明清'),
+]
+# 存疑目、附錄之屬不入斷代之列
+CATALOG_SECTION_SKIP = ('存疑目', '附錄')
+
+
+def catalog_section_bound(sources):
+    """自 description.sources 之卷次類目取上限，返 (上限, 據語)。"""
+    for s in sources or []:
+        if isinstance(s, dict):
+            s = s.get('title') or ''
+        if not isinstance(s, str) or any(k in s for k in CATALOG_SECTION_SKIP):
+            continue
+        for cat, sec, p, era in CATALOG_SECTION_BOUND:
+            if cat in s and sec in s:
+                return p, f'《{cat}》{sec}'
+    return None, None
+
+
+# ═══ 自 description.text 取版本語 ═══
+# 有本無 Book 而版本語具於描述者（如故宮善本舊籍諸條），亦可據以定上限。
+# 限以「朝代冠首 + 版本術語收尾」且不含書名號者——含《》者多是稱引他書之本，
+# 非本書之本。
+_DESC_EDITION = re.compile(
+    r'^(宋|遼|金|元|明|清|民國|唐|隋|五代|日本[^\s，,]{0,6})'
+    r'[^《》，,、]{0,30}?'
+    r'(刊本|刻本|寫本|鈔本|抄本|印本|活字本|聚珍本|殿本|稿本|重刊本|覆刻本|影鈔本|'
+    r'景印本|縮印本|鉛印本|石印本)$')
+
+
+def desc_edition(text):
+    """自描述文字末尾取版本語；無者返 None。"""
+    if not text:
+        return None
+    for seg in reversed([s.strip() for s in re.split(r'[。；;]', text) if s.strip()]):
+        if _DESC_EDITION.match(seg):
+            return seg
+    return None
