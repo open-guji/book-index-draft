@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "文府",
- "authors": [
-  {
-   "name": "徐堅",
-   "role": "撰",
-   "entity_id": "1j969m70qdn9f"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《文府》二十卷",
-   "summary": "《文府》二十卷（徐堅集）",
-   "author_info": "徐堅集"
+  "schema_version": 1,
+  "type": "work",
+  "title": "文府",
+  "authors": [
+    {
+      "name": "徐堅",
+      "role": "撰",
+      "entity_id": "1j969m70qdn9f"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "徐堅文府",
-   "summary": "徐堅文府二十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"文府\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs1844sc8w（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgqg0qnmb5s",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《文府》二十卷",
+      "summary": "《文府》二十卷（徐堅集）",
+      "author_info": "徐堅集"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "徐堅文府",
+      "summary": "徐堅文府二十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"文府\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs1844sc8w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgqg0qnmb5s",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

@@ -22,7 +22,7 @@
       "title_info": "梁有《五經要義》十七卷，雷氏撰，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有《五經要義》十七卷，雷氏撰，亡。，亡」。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evetxcz70934/fragments/五經要義雷氏撰.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/五經要義雷氏撰.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-20 磁鐵拆解專項（七）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《五經要義》五卷》→《五經要義》`1evcpcus6hfy8`。",
+  "ai_note": "亡佚。隋書經籍志「梁有《五經要義》十七卷，雷氏撰，亡。，亡」。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evetxcz70934/fragments/五經要義雷氏撰.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/五經要義雷氏撰.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-20 磁鐵拆解專項（七）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《五經要義》五卷》→《五經要義》`1evcpcus6hfy8`。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 2 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "indexed_by": [
     {
       "source": "國史經籍志",
@@ -44,6 +44,8 @@
     "text": "梁十七卷，雷氏撰。",
     "sources": []
   },
-  "loss_status": "lost",
-  "updated_at": "2026-08-20T00:00:00-07:00"
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

@@ -1,61 +1,63 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "袖中記",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《袖中記》二卷",
-   "summary": "《袖中記》二卷沈約撰。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "袖中記",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《袖中記》二卷",
+      "summary": "《袖中記》二卷沈約撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《袖中記》一卷",
+      "summary": "《袖中記》一卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《袖中記》",
+      "summary": "沈約《袖中記》三卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "沈約袖中記",
+      "summary": "沈約袖中記二卷"
+    }
+  ],
+  "authors": [
+    {
+      "name": "沈約",
+      "role": "撰",
+      "entity_id": "1j967cp1zdr18"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《袖中記》一卷",
-   "summary": "《袖中記》一卷"
-  },
-  {
-   "source": "宋史藝文志",
-   "source_bid": "1evcsw4kt579c",
-   "title_info": "《袖中記》",
-   "summary": "沈約《袖中記》三卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "沈約袖中記",
-   "summary": "沈約袖中記二卷"
-  }
- ],
- "authors": [
-  {
-   "name": "沈約",
-   "role": "撰",
-   "entity_id": "1j967cp1zdr18"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "id": "1evcmnctm75ds",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "《袖中記》二卷",
-   "summary": "詳見下條「《袖中略集》一卷」考証。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-08-10",
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0pk3don4（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "id": "1evcmnctm75ds",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《袖中記》二卷",
+      "summary": "詳見下條「《袖中略集》一卷」考証。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-10",
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0pk3don4（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

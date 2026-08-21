@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "類文",
- "authors": [
-  {
-   "name": "庾自直",
-   "role": "撰",
-   "entity_id": "1j96hgdoukzy8"
-  }
- ],
- "juan_count": {
-  "number": 377
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《類文》三百七十七卷",
-   "summary": "《類文》三百七十七卷（庾自直集）",
-   "author_info": "庾自直集"
+  "schema_version": 1,
+  "type": "work",
+  "title": "類文",
+  "authors": [
+    {
+      "name": "庾自直",
+      "role": "撰",
+      "entity_id": "1j96hgdoukzy8"
+    }
+  ],
+  "juan_count": {
+    "number": 377
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "庾自直類文",
-   "summary": "庾自直類文三百七十七卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"類文\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs179s9r0g（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgqg0fb0o3k",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 377
-  }
- ],
- "measure_info": "三百七十七卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《類文》三百七十七卷",
+      "summary": "《類文》三百七十七卷（庾自直集）",
+      "author_info": "庾自直集"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "庾自直類文",
+      "summary": "庾自直類文三百七十七卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"類文\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs179s9r0g（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgqg0fb0o3k",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 377
+    }
+  ],
+  "measure_info": "三百七十七卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

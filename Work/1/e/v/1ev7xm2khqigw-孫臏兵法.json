@@ -10,12 +10,8 @@
       "name": "孫臏",
       "dynasty": "先秦",
       "entity_id": "1j96ha6py6n7k",
-      "dynasty_basis": "entity_propagation:1j96ha6py6n7k"
-    },
-    {
-      "name": "戰國孫臏",
-      "role": "撰",
-      "dynasty": ""
+      "dynasty_basis": "entity_propagation:1j96ha6py6n7k",
+      "role": "撰"
     }
   ],
   "juan_count": {
@@ -109,7 +105,7 @@
     }
   ],
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。 | 從 1evjr3k5q21a8《孫臏兵法》合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。 | 從 1evjr3k5q21a8《孫臏兵法》合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。　2026-08-20 撰人去重：authors 原有「孫臏」（繫 entity 1j96ha6py6n7k）與「戰國孫臏」（朝代空、無 entity）二條，後者為著錄語「戰國孫臏撰」未去朝代之殘，今刪，並為前者補 role「撰」。",
   "loss_status_note": "原作 lost，今改 partially_extant。與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。（覆核於存佚普查，非機讀。）",
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,

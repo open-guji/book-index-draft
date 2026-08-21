@@ -7,7 +7,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《杜詩》",
-      "summary": "王洙注《杜詩》三十六卷"
+      "summary": "王洙注《杜詩》三十六卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 liao-jin-yuan 之作、撰人鮮于樞，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcsz1rvbsow",
@@ -19,7 +21,7 @@
       "entity_id": "1j967da95zfc2"
     }
   ],
-  "ai_note": "作者「元鮮于樞編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka9jwtgm4g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsz1rvbsow()（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "作者「元鮮于樞編」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka9jwtgm4g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsz1rvbsow()（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善003470-003473）。明朱絲欄抄本。",
     "sources": [

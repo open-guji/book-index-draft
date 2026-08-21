@@ -25,7 +25,9 @@
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《孫子集注》十三卷",
-      "summary": "《孫子集注》十三卷"
+      "summary": "《孫子集注》十三卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 qing 之作、撰人鄧廷羅，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "related_works": [
@@ -47,5 +49,6 @@
       "unit": "卷",
       "number": 1
     }
-  ]
+  ],
+  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 1 節出於國史經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

@@ -74,8 +74,9 @@
     {
       "name": "范宣",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967cp1zdr3a"
+      "dynasty": "晉",
+      "entity_id": "1j967cp1zdr3a",
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「晉范宣《禮記音》一卷。」"
     }
   ],
   "related_works": [
@@ -86,8 +87,8 @@
     }
   ],
   "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」（2026-08-21 訂正：原標「清」，據清史稿著錄語之朝代前綴改）",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "juan_count": {
@@ -100,5 +101,5 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《禮記音》（范宣）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。"
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《禮記音》（范宣）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。\n\n2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「晉范宣《禮記音》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「晉」、period 為 jin。"
 }

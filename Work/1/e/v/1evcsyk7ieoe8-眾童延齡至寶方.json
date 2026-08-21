@@ -15,7 +15,9 @@
       "title_info": "又眾童延齡至寶方",
       "summary": "又眾童延齡至寶方十卷",
       "merged_from": "1evcs0xifff28",
-      "note": "諸志同著《眾童延齡至寶方》，係一書互著（或重出），今合併。"
+      "note": "諸志同著《眾童延齡至寶方》，係一書互著（或重出），今合併。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 song 之作、撰人姚和，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcsyk7ieoe8",
@@ -43,5 +45,5 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
   "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、宋史藝文志同著《眾童延齡至寶方》十卷，今合併並據宋志前置撰人補為姚和。"
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、宋史藝文志同著《眾童延齡至寶方》十卷，今合併並據宋志前置撰人補為姚和。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

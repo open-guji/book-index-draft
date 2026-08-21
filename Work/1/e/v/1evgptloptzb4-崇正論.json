@@ -1,50 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "崇正論",
- "authors": [
-  {
-   "name": "僧彥琮",
-   "role": "撰",
-   "entity_id": "1j96hfzuue0ow",
-   "original_name": "僧彦琮"
-  }
- ],
- "juan_count": {
-  "number": 6
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《崇正論》六卷",
-   "summary": "《崇正論》六卷（僧彦琮）",
-   "author_info": "僧彦琮"
+  "schema_version": 1,
+  "type": "work",
+  "title": "崇正論",
+  "authors": [
+    {
+      "name": "僧彥琮",
+      "role": "撰",
+      "entity_id": "1j96hfzuue0ow",
+      "original_name": "僧彦琮"
+    }
+  ],
+  "juan_count": {
+    "number": 6
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "僧彥琮崇正論",
-   "summary": "僧彥琮崇正論六卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"崇正論\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0npjnbi8（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgptloptzb4",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 6
-  }
- ],
- "measure_info": "六卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《崇正論》六卷",
+      "summary": "《崇正論》六卷（僧彦琮）",
+      "author_info": "僧彦琮"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "僧彥琮崇正論",
+      "summary": "僧彥琮崇正論六卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"崇正論\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0npjnbi8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgptloptzb4",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 6
+    }
+  ],
+  "measure_info": "六卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

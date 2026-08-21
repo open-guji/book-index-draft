@@ -1,44 +1,46 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evrbhp6ajr2v",
- "title": "北遊集",
- "authors": [
-  {
-   "name": "汪夢斗",
-   "role": "撰",
-   "dynasty": "元",
-   "entity_id": "1j967da96lwex",
-   "dynasty_basis": "entity_propagation_r2:1j967da96lwex"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "宋史藝文志補",
-   "source_bid": "1evfyhtrdkbnk",
-   "title_info": "北遊集二卷",
-   "summary": "北遊集二卷\n汪夢斗撰。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evrbhp6ajr2v",
+  "title": "北遊集",
+  "authors": [
+    {
+      "name": "汪夢斗",
+      "role": "撰",
+      "dynasty": "元",
+      "entity_id": "1j967da96lwex",
+      "dynasty_basis": "entity_propagation_r2:1j967da96lwex"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志補",
+      "source_bid": "1evfyhtrdkbnk",
+      "title_info": "北遊集二卷",
+      "summary": "北遊集二卷\n汪夢斗撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《汪夢斗北遊集》二卷",
+      "summary": "《汪夢斗北遊集》二卷"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《汪夢斗北遊集》二卷",
-   "summary": "《汪夢斗北遊集》二卷"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "juan_count": {
-  "number": 2
- },
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evgqdtsic740（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evgqdtsic740（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "period": "song",
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('汪夢斗', '元')] 指向 liao-jin-yuan，而本書見於《宋史藝文志補》——該志斷代著錄 song 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

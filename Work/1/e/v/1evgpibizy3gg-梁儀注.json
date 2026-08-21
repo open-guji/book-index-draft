@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "梁儀注",
- "authors": [
-  {
-   "name": "沈約",
-   "role": "撰",
-   "entity_id": "1j967cp1zdr18"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《梁儀注》十卷",
-   "summary": "《梁儀注》十卷（沈約）",
-   "author_info": "沈約"
+  "schema_version": 1,
+  "type": "work",
+  "title": "梁儀注",
+  "authors": [
+    {
+      "name": "沈約",
+      "role": "撰",
+      "entity_id": "1j967cp1zdr18"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "沈約梁儀注",
-   "summary": "沈約梁儀注十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"梁儀注\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0gymu1hc（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpibizy3gg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《梁儀注》十卷",
+      "summary": "《梁儀注》十卷（沈約）",
+      "author_info": "沈約"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "沈約梁儀注",
+      "summary": "沈約梁儀注十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"梁儀注\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0gymu1hc（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpibizy3gg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

@@ -30,7 +30,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "姓氏譜一卷",
-      "summary": "姓氏譜一卷。（闕）"
+      "summary": "姓氏譜一卷。（闕）",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 qing 之作、撰人李繩遠，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "juan_count": {
@@ -48,5 +50,5 @@
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-20 磁鐵拆解專項（八，題核心＋內文撰人）：整理本原以本 work 之 id 兼繫下列 1 節，各節內文之撰人與本條不合而與庫中他 work 相合，今各歸其主：《《姓氏譜》二百卷》→《姓氏譜》（許敬宗）`1evgpkfzxuqyo`。"
+  "ai_note": "2026-08-20 磁鐵拆解專項（八，題核心＋內文撰人）：整理本原以本 work 之 id 兼繫下列 1 節，各節內文之撰人與本條不合而與庫中他 work 相合，今各歸其主：《《姓氏譜》二百卷》→《姓氏譜》（許敬宗）`1evgpkfzxuqyo`。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

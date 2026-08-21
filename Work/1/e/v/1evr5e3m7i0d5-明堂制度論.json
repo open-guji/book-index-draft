@@ -7,9 +7,9 @@
     {
       "name": "李謐",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "後魏",
       "entity_id": "1j96hjwlx1gxw",
-      "dynasty_basis": "garbage_clean:only_mingqing_sources_or_none"
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「後魏李謐《明堂制度論》一卷。」"
     }
   ],
   "juan_count": {
@@ -35,7 +35,7 @@
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
-  "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　輯佚檔：本書之輯佚著錄置於 fragments/明堂制度論.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "清史稿藝文志經部禮類輯佚條目。 來源：清史稿藝文志經部禮類　輯佚檔：本書之輯佚著錄置於 fragments/明堂制度論.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 撰人朝代訂正：原作「闕」，period 為 None。《清史稿·藝文志》著錄語作「後魏李謐《明堂制度論》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「後魏」、period 為 nanbeichao。",
   "measures": [
     {
       "unit": "卷",
@@ -43,6 +43,8 @@
     }
   ],
   "measure_info": "一卷",
-  "loss_status": "lost",
-  "updated_at": "2026-08-08T14:20:19+00:00"
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-08T14:20:19+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「後魏」（2026-08-21 訂正：原標「闕」，據清史稿著錄語之朝代前綴改）"
 }

@@ -44,7 +44,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《續編》",
-      "summary": "《續編》一卷胡銓"
+      "summary": "《續編》一卷胡銓",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人范淶，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "明史藝文志",
@@ -136,7 +138,7 @@
   "books": [
     "11qki5aardon4"
   ],
-  "ai_note": "從 1evcsyz1s03cw 合併。原註：明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'范淶'）。 作者「明范淶撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evcsyz1s03cw 合併。原註：明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'范淶'）。 作者「明范淶撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,

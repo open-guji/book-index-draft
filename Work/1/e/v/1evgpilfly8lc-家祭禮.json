@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "家祭禮",
- "authors": [
-  {
-   "name": "孟詵",
-   "role": "撰",
-   "entity_id": "1j96h8rw86q2z"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《家祭禮》一卷",
-   "summary": "《家祭禮》一卷（孟詵）",
-   "author_info": "孟詵"
+  "schema_version": 1,
+  "type": "work",
+  "title": "家祭禮",
+  "authors": [
+    {
+      "name": "孟詵",
+      "role": "撰",
+      "entity_id": "1j96h8rw86q2z"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "孟詵家祭禮",
-   "summary": "孟詵家祭禮一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpilfly8lc",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"家𥙊禮\"→\"家祭禮\" (位置 1: \"𥙊\"→\"祭\")\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0hriwrgg（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《家祭禮》一卷",
+      "summary": "《家祭禮》一卷（孟詵）",
+      "author_info": "孟詵"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "孟詵家祭禮",
+      "summary": "孟詵家祭禮一卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpilfly8lc",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"家𥙊禮\"→\"家祭禮\" (位置 1: \"𥙊\"→\"祭\")\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0hriwrgg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

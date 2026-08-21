@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "輿地志",
- "authors": [
-  {
-   "name": "顧野王",
-   "role": "撰",
-   "entity_id": "1j968si3dt6v5"
-  }
- ],
- "juan_count": {
-  "number": 30
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《輿地志》三十卷",
-   "summary": "《輿地志》三十卷（顧野王）",
-   "author_info": "顧野王"
+  "schema_version": 1,
+  "type": "work",
+  "title": "輿地志",
+  "authors": [
+    {
+      "name": "顧野王",
+      "role": "撰",
+      "entity_id": "1j968si3dt6v5"
+    }
+  ],
+  "juan_count": {
+    "number": 30
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "顧野王輿地志",
-   "summary": "顧野王輿地志三十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"輿地志\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jxox4hs（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpjlmo3v9c",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 30
-  }
- ],
- "measure_info": "三十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《輿地志》三十卷",
+      "summary": "《輿地志》三十卷（顧野王）",
+      "author_info": "顧野王"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "顧野王輿地志",
+      "summary": "顧野王輿地志三十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"輿地志\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jxox4hs（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpjlmo3v9c",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

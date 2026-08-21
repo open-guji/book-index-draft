@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "格論",
- "authors": [
-  {
-   "name": "李仁實",
-   "role": "撰",
-   "entity_id": "1j96kekvg4ohs"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《格論》三卷",
-   "summary": "《格論》三卷（李仁實）",
-   "author_info": "李仁實"
+  "schema_version": 1,
+  "type": "work",
+  "title": "格論",
+  "authors": [
+    {
+      "name": "李仁實",
+      "role": "撰",
+      "entity_id": "1j96kekvg4ohs"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李仁實格論",
-   "summary": "李仁實格論三卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 作者冲突 work=呂雅 vs anno=李仁實\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0lk5qbcw（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpmuvtbzeo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《格論》三卷",
+      "summary": "《格論》三卷（李仁實）",
+      "author_info": "李仁實"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李仁實格論",
+      "summary": "李仁實格論三卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 作者冲突 work=呂雅 vs anno=李仁實\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0lk5qbcw（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpmuvtbzeo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

@@ -21,7 +21,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcml2ai19mo(應劭)。\n\n2026-08-20：補 loss_status=lost。原書全佚，今存者為輯本，見孫星衍等輯《漢官六種》（周天游點校，中華書局 1990）1—10 頁。據李零《簡帛古書與學術源流》第一講附錄「現存先秦兩漢古書一覽表」逐條對照。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcml2ai19mo(應劭)。\n\n2026-08-20：補 loss_status=lost。原書全佚，今存者為輯本，見孫星衍等輯《漢官六種》（周天游點校，中華書局 1990）1—10 頁。據李零《簡帛古書與學術源流》第一講附錄「現存先秦兩漢古書一覽表」逐條對照。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：文中明載某輯家輯有本書——「孫星衍等輯」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。",
   "juan_count": {
     "number": 1
   },
@@ -49,5 +49,7 @@
   ],
   "updated_at": "2026-08-20T00:00:00+00:00",
   "_has_image": true,
-  "loss_status": "lost"
+  "loss_status": "partially_extant",
+  "period_upper": "qing",
+  "period_upper_basis": "collection_bound：本書收入《續修四庫全書》——其書收錄止於辛亥（1911）以前之著作，故不晚於 qing"
 }

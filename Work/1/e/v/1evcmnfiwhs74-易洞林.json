@@ -25,7 +25,9 @@
     {
       "name": "郭璞",
       "role": "撰",
-      "entity_id": "1j968k0jdrlz4"
+      "entity_id": "1j968k0jdrlz4",
+      "dynasty": "晉",
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「晉郭璞《易洞林》一卷。」"
     }
   ],
   "juan_count": {
@@ -57,8 +59,10 @@
       ]
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/易洞林.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "loss_status": "partially_extant",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/易洞林.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 撰人朝代訂正：原作「闕」，period 為 None。《清史稿·藝文志》著錄語作「晉郭璞《易洞林》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「晉」、period 為 jin。",
   "updated_at": "2026-08-05T09:02:34+00:00",
-  "_has_text": true
+  "_has_text": true,
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」（2026-08-21 訂正：原標「闕」，據清史稿著錄語之朝代前綴改）"
 }

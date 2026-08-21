@@ -17,7 +17,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《樂府詩集》",
-      "summary": "《樂府詩集》一百卷李昌文"
+      "summary": "《樂府詩集》一百卷李昌文",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 liao-jin-yuan 之作、撰人郭茂倩，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "欽定四庫全書總目",
@@ -37,13 +39,14 @@
     {
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
-      "summary": "樂府詩集"
+      "summary": "樂府詩集",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 liao-jin-yuan 之作、撰人郭茂倩，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "books": [
     "11q37ugvxyygw",
     "11q7m1tdyo7b4",
-    "11qkhxxu1w35s",
     "11qkhyk64w5q8",
     "11qki0uu6o2kg",
     "11qk4xwcvooje"
@@ -162,8 +165,10 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "從 1evjy6kf7h728 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。",
+  "ai_note": "從 1evjy6kf7h728 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxxu1w35s 與 11q37ugvxyygw 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於宋史藝文志、直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "updated_at": "2026-08-08T18:18:57+00:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

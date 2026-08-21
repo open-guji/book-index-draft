@@ -51,7 +51,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《春秋集傳》",
-      "summary": "《春秋集傳》十五卷章拱之"
+      "summary": "《春秋集傳》十五卷章拱之",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 liao-jin-yuan 之作、撰人趙汸，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "經義考",
@@ -74,7 +76,6 @@
     "11q7m1rnttmo0",
     "11qkhtg7z7dvk",
     "11qkhvdh0hmo0",
-    "11qkhvrydlxc0",
     "11qkhy97ynzeo",
     "11qki2z5vq5fk"
   ],
@@ -127,7 +128,7 @@
     }
   ],
   "measure_info": "十五卷",
-  "ai_note": "從 1evct45kypzb4 合併。原註：作者「元趙汸輯」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "從 1evct45kypzb4 合併。原註：作者「元趙汸輯」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvrydlxc0 與 11q4716vyl98g 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "updated_at": "2026-08-09T09:33:12+00:00",
   "_has_text": true,
   "_has_image": true,

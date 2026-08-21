@@ -47,8 +47,9 @@
     {
       "name": "董勛",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hf1ywh98g"
+      "dynasty": "魏",
+      "entity_id": "1j96hf1ywh98g",
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「魏董勛《問禮俗》一卷。」"
     }
   ],
   "emendated_by": [
@@ -75,9 +76,9 @@
   },
   "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「魏」（2026-08-21 訂正：原標「清」，據清史稿著錄語之朝代前綴改）",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 3 節，各以卷數定其主，今各歸之：《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`、《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`、《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`。"
+  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 3 節，各以卷數定其主，今各歸之：《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`、《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`、《《問禮俗》十卷》→《問禮俗》`1evfubk1ru1a8`。\n\n2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「魏董勛《問禮俗》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「魏」、period 為 three-kingdoms。"
 }

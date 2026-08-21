@@ -22,7 +22,7 @@
       "summary": "梁何胤《毛詩隱義》一卷。"
     }
   ],
-  "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　輯佚檔：本書之輯佚著錄置於 fragments/毛詩隱義.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　輯佚檔：本書之輯佚著錄置於 fragments/毛詩隱義.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "measures": [
     {
       "unit": "卷",
@@ -37,7 +37,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "updated_at": "2026-08-06T22:59:42+00:00",
   "period": "nanbeichao",
   "period_basis": "據 authors[0].dynasty「南朝梁」（2026-08-13 清朝探勘：何胤：來源「清史稿藝文志」等回溯型志書之著錄原文本身已明載古代朝代（南朝梁），period僅因來源志書本身之朝代「清」被誤代填，以Entity既有正確分類為準訂正）"

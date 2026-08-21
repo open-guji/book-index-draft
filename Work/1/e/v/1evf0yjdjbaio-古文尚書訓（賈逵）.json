@@ -34,9 +34,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/古文尚書訓.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "loss_status": "partially_extant",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/古文尚書訓.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 補 original_title「古文尚書」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
   "updated_at": "2026-08-06T22:59:42+00:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」"
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "original_title": "古文尚書"
 }
