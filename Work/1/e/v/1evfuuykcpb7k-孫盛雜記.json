@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuykcpb7k",
+  "title": "孫盛雜記",
+  "authors": [
+    {
+      "name": "孫盛",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96glo90rdhc",
+      "dynasty_basis": "historical_dict:round2(孫盛(302-373)，字安國，東晉史學家)"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "雜記 孫盛謹按見裴氏《三國志注》。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 部帙裸題正名：本條原題「雜記」，補晉書藝文志雜家類逐條列書，各繫撰人，本條「孫盛《雜記》」自是一書，裴松之《三國志注》引之，非前條之部帙。今正題《孫盛雜記》。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "original_title": "雜記"
+}
