@@ -31,8 +31,11 @@ ROOTS = ('/workspace/book-index-draft', '/workspace/book-index')
 DUANDAI = {'後漢藝文志': 'qin-han', '三國藝文志': 'three-kingdoms', '補晋書藝文志': 'jin',
            '宋史藝文志補': 'song', '元史藝文志': 'liao-jin-yuan',
            '補遼金元藝文志': 'liao-jin-yuan', '明史藝文志': 'ming', '清史稿藝文志': 'qing'}
-# 著錄語自云轉錄他書者，該志未必親見，疑誤收
-HEARSAY = ('謹按見', '謹按據', '據《', '見《述古堂', '見他書')
+# 補志之體例，每條必注所出——「謹按見《七録》」「謹按見《隋志》」是常態，非誤收之兆。
+# 可疑者是引**後代私目**為據：晉人之書而以清錢曾《述古堂書目》為據，其時代之判即無根。
+# 判準：所引之目晚於該志之斷代者。
+LATE_SOURCES = ('述古堂書目', '也是園書目', '絳雲樓書目', '千頃堂書目',
+                '四庫全書總目', '天一閣書目', '愛日精廬', '鐵琴銅劍樓')
 # 著錄語提及某人而非謂其撰者（考證之定位語）
 NOT_AUTHOR = ('次', '在', '之後', '之前', '别有', '別有')
 
@@ -77,9 +80,10 @@ def main():
             tgt = min(early, key=lambda r: I[BOUND[r['source']][0]])
             src, ub = tgt['source'], BOUND[tgt['source']][0]
             summ = str(tgt.get('summary') or '')
-            if any(h in summ for h in HEARSAY):
+            if any(h in summ for h in LATE_SOURCES):
                 skipped.append({'id': d['id'], 'title': d.get('title'), '志': src,
-                                '語': summ[:120], '因': '著錄語自云轉錄他書，疑誤收'})
+                                '語': summ[:120],
+                                '因': '著錄語以後代私目為據，其時代之判無根，疑誤收'})
                 n_skip += 1
                 continue
             # 著錄語提其名而非謂其撰——考證之定位語（「按舊志次陳壽書之後」）
