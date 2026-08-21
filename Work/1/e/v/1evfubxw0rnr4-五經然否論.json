@@ -107,8 +107,8 @@
   "loss_status": "partially_extant",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/五經然否論.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《五經然否論》五卷」一節原繫於磁鐵條（`1evftehrchp1c`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。 2026-08-20 組5考證落空救回：考證「五經然否論五卷 晉散騎常侍譙周撰」節原繫已刪之 work（`1evc5pefug0lc`），今歸本條。 2026-08-20 撰人正字：護周乃譙周之訛。 2026-08-20 同書重出併：題含撰人之記錄（`1evftehrchp1c`）併入本條。 2026-08-20 撰人正字：護周乃譙周之訛，改指譙周正 entity。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
+  "period": "three-kingdoms",
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('譙周', '晉')] 指向 jin，而本書見於《三國藝文志》——該志斷代著錄 three-kingdoms 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「晉」",
   "dynasty": "晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "emendated_by": [

@@ -1,52 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "黃帝式經三十六用",
- "authors": [
-  {
-   "name": "曹氏",
-   "role": "撰",
-   "entity_id": "1j96h8rw9fo5d"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《黄帝式經三十六用》一卷",
-   "summary": "《黄帝式經三十六用》一卷（曹氏）",
-   "author_info": "曹氏"
+  "schema_version": 1,
+  "type": "work",
+  "title": "黃帝式經三十六用",
+  "authors": [
+    {
+      "name": "曹氏",
+      "role": "撰",
+      "entity_id": "1j96h8rw9fo5d"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "曹氏黃帝式經三十六用",
-   "summary": "曹氏黃帝式經三十六用一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgq2w5l04qo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"責帝式經三十六用\"->\"黄帝式經三十六用\"\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0to4oav4（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "additional_titles": [
-  "黄帝式經三十六用"
- ],
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《黄帝式經三十六用》一卷",
+      "summary": "《黄帝式經三十六用》一卷（曹氏）",
+      "author_info": "曹氏"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "曹氏黃帝式經三十六用",
+      "summary": "曹氏黃帝式經三十六用一卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgq2w5l04qo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"責帝式經三十六用\"->\"黄帝式經三十六用\"\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0to4oav4（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "additional_titles": [
+    "黄帝式經三十六用"
+  ],
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

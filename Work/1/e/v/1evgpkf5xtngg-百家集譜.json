@@ -1,49 +1,51 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "百家集譜",
- "authors": [
-  {
-   "name": "王儉",
-   "role": "撰",
-   "entity_id": "1j967a0kiy8ev"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《百家集譜》十卷",
-   "summary": "《百家集譜》十卷（王儉）",
-   "author_info": "王儉"
+  "schema_version": 1,
+  "type": "work",
+  "title": "百家集譜",
+  "authors": [
+    {
+      "name": "王儉",
+      "role": "撰",
+      "entity_id": "1j967a0kiy8ev"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "王儉百家集譜",
-   "summary": "王儉百家集譜十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0iw7i874（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpkf5xtngg",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《百家集譜》十卷",
+      "summary": "《百家集譜》十卷（王儉）",
+      "author_info": "王儉"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王儉百家集譜",
+      "summary": "王儉百家集譜十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0iw7i874（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpkf5xtngg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

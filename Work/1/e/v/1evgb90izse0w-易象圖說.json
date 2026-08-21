@@ -28,8 +28,8 @@
   "ai_note": "同名異書：已有 Work 作者為 [('吳脈鬯', '清')]，本條作者 許天錫（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
   "id": "1evgb90izse0w",
   "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：許天錫（生卒1461-1508）：死於明建國(1368)後，Entity既有分類（明／ming）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
+  "period": "liao-jin-yuan",
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('許天錫', '明')] 指向 ming，而本書見於《元史藝文志》——該志斷代著錄 liao-jin-yuan 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：許天錫（生卒1461-1508）：死於明建國(1368)後，E",
   "dynasty": "明",
   "dynasty_basis": "author_propagation"
 }
