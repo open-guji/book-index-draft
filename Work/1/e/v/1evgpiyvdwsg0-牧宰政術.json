@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "牧宰政術",
- "authors": [
-  {
-   "name": "蕭佚",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j96hfsrcyn0g"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《牧宰政術》二卷",
-   "summary": "《牧宰政術》二卷（唐蕭佚。）",
-   "author_info": "唐蕭佚。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "牧宰政術",
+  "authors": [
+    {
+      "name": "蕭佚",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96hfsrcyn0g"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "蕭佚牧宰政術",
-   "summary": "蕭佚牧宰政術二卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpiyvdwsg0",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0q0ry9s0（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《牧宰政術》二卷",
+      "summary": "《牧宰政術》二卷（唐蕭佚。）",
+      "author_info": "唐蕭佚。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "蕭佚牧宰政術",
+      "summary": "蕭佚牧宰政術二卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpiyvdwsg0",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0q0ry9s0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

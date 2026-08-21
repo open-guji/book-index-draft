@@ -1,52 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "符瑞圖",
- "authors": [
-  {
-   "name": "顧野王",
-   "role": "撰",
-   "dynasty": "南朝陳",
-   "entity_id": "1j968si3dt6v5"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《符瑞圖》十卷",
-   "summary": "《符瑞圖》十卷（陳顧野王）",
-   "author_info": "陳顧野王"
+  "schema_version": 1,
+  "type": "work",
+  "title": "符瑞圖",
+  "authors": [
+    {
+      "name": "顧野王",
+      "role": "撰",
+      "dynasty": "南朝陳",
+      "entity_id": "1j968si3dt6v5"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "顧野王符瑞圖",
-   "summary": "顧野王符瑞圖十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"符瑞圖\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0plsvfnk（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpjke4ak8w",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "period": "nanbeichao",
- "period_basis": "據 authors[0].dynasty「南朝陳」（2026-08-13 南北朝探勘第二輪：顧野王（519-581，玉篇作者）：Work層dynasty本已正確（南朝陳），然Entity遭CBDB誤配「清」（curated:玉篇某清刻本），卸除並回復）",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《符瑞圖》十卷",
+      "summary": "《符瑞圖》十卷（陳顧野王）",
+      "author_info": "陳顧野王"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "顧野王符瑞圖",
+      "summary": "顧野王符瑞圖十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"符瑞圖\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0plsvfnk（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpjke4ak8w",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-10",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」（2026-08-13 南北朝探勘第二輪：顧野王（519-581，玉篇作者）：Work層dynasty本已正確（南朝陳），然Entity遭CBDB誤配「清」（curated:玉篇某清刻本），卸除並回復）",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

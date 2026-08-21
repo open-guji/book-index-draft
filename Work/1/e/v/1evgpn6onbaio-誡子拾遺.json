@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "誡子拾遺",
- "authors": [
-  {
-   "name": "李恕",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j96h8rw8hyku"
-  }
- ],
- "juan_count": {
-  "number": 4
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《誡子拾遺》四卷",
-   "summary": "《誡子拾遺》四卷（唐李恕）",
-   "author_info": "唐李恕"
+  "schema_version": 1,
+  "type": "work",
+  "title": "誡子拾遺",
+  "authors": [
+    {
+      "name": "李恕",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96h8rw8hyku"
+    }
+  ],
+  "juan_count": {
+    "number": 4
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李恕誡子拾遺",
-   "summary": "李恕誡子拾遺四卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0qo8xo8w（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpn6onbaio",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 4
-  }
- ],
- "measure_info": "四卷",
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《誡子拾遺》四卷",
+      "summary": "《誡子拾遺》四卷（唐李恕）",
+      "author_info": "唐李恕"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李恕誡子拾遺",
+      "summary": "李恕誡子拾遺四卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0qo8xo8w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpn6onbaio",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

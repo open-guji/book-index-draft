@@ -1,65 +1,65 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "壇經",
- "authors": [
-  {
-   "name": "趙同珍",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j96hg70tei9s"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《壇經》一卷",
-   "summary": "《壇經》一卷（唐趙同珍）",
-   "author_info": "唐趙同珍"
+  "schema_version": 1,
+  "type": "work",
+  "title": "壇經",
+  "authors": [
+    {
+      "name": "趙同珍",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96hg70tei9s"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "趙同珍壇經",
-   "summary": "趙同珍壇經一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"壇經\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0uinqvi8（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgq3naicrnk",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "resources": [
-  {
-   "name": "维基文库",
-   "id": "wikisource",
-   "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E7%A5%96%E5%A3%87%E7%B6%93",
-   "types": [
-    "text"
-   ]
-  }
- ],
- "updated_at": "2026-08-10",
- "_has_text": true,
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《壇經》一卷",
+      "summary": "《壇經》一卷（唐趙同珍）",
+      "author_info": "唐趙同珍"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "趙同珍壇經",
+      "summary": "趙同珍壇經一卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"壇經\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0uinqvi8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgq3naicrnk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E7%A5%96%E5%A3%87%E7%B6%93",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "updated_at": "2026-08-10",
+  "_has_text": true,
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

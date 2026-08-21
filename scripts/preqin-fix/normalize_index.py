@@ -2,7 +2,9 @@
 """修复 save_item 对 index shard 的两处副作用：
   1. build_index_entry 不输出 period（SCHEMA §period 要求 period 亦入 index/works/*.json）
      -> 从条目文件回填
-  2. 写入用 indent=2，而仓库既有格式是 indent=1 -> 归一化回 indent=1
+  2. （已失效）原本用来把 indent=2 归一化回 indent=1。2026-08-21 全库统一改为
+     indent=2（见 SCHEMA.md〈JSON 書寫格式〉），此脚本改为写 indent=2；
+     格式归一化请改用 scripts/normalize_json_format.py
 只处理 git 报告被修改的 shard。
 """
 import json, os, subprocess, sys
@@ -31,7 +33,7 @@ for rel in changed:
             del entry['period']
             n += 1
     with open(rel, 'w', encoding='utf-8') as f:
-        json.dump(d, f, ensure_ascii=False, indent=1)
+        json.dump(d, f, ensure_ascii=False, indent=2)
 
     total_backfill += n
     print(f'{rel}: period 回填/同步 {n} 条')

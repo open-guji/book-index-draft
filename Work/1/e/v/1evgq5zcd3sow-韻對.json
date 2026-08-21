@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "韻對",
- "authors": [
-  {
-   "name": "高測",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j967da97uuj8"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《韻對》十卷",
-   "summary": "《韻對》十卷（唐高測）",
-   "author_info": "唐高測"
+  "schema_version": 1,
+  "type": "work",
+  "title": "韻對",
+  "authors": [
+    {
+      "name": "高測",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da97uuj8"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "高測韻對",
-   "summary": "高測韻對十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"韻對\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0vrssbgg（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgq5zcd3sow",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《韻對》十卷",
+      "summary": "《韻對》十卷（唐高測）",
+      "author_info": "唐高測"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "高測韻對",
+      "summary": "高測韻對十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"韻對\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0vrssbgg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgq5zcd3sow",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

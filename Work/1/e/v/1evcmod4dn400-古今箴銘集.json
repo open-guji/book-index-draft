@@ -1,59 +1,59 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "古今箴銘集",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《古今箴銘集》十四卷",
-   "summary": "《古今箴銘集》十四卷張湛撰。錄一卷。梁有《箴集》十六卷，《雜誡箴》二十四卷，《女箴》一卷，《女史箴圖》一卷，又有《銘集》十一卷，又陸少玄撰《佛像雜銘》十三卷，釋僧祐撰《箴器雜銘》五卷，亡。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "古今箴銘集",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《古今箴銘集》十四卷",
+      "summary": "《古今箴銘集》十四卷張湛撰。錄一卷。梁有《箴集》十六卷，《雜誡箴》二十四卷，《女箴》一卷，《女史箴圖》一卷，又有《銘集》十一卷，又陸少玄撰《佛像雜銘》十三卷，釋僧祐撰《箴器雜銘》五卷，亡。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《古今箴銘集》十三卷",
+      "summary": "《古今箴銘集》十三卷張湛撰。"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "张洪《古今箴铭集》十四卷",
+      "summary": "張洪《古今箴銘集》十四卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張湛古今箴銘集",
+      "summary": "張湛古今箴銘集十三卷"
+    }
+  ],
+  "authors": [
+    {
+      "name": "張湛",
+      "role": "撰",
+      "entity_id": "1j96kegu8a6tc",
+      "dynasty": "東晉"
+    }
+  ],
+  "juan_count": {
+    "number": 14
   },
-  {
-   "source": "舊唐書經籍志",
-   "source_bid": "1evcpbhmiqdj4",
-   "title_info": "《古今箴銘集》十三卷",
-   "summary": "《古今箴銘集》十三卷張湛撰。"
-  },
-  {
-   "source": "明史藝文志",
-   "source_bid": "1ev88ee9jw6ps",
-   "title_info": "张洪《古今箴铭集》十四卷",
-   "summary": "張洪《古今箴銘集》十四卷"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "張湛古今箴銘集",
-   "summary": "張湛古今箴銘集十三卷"
-  }
- ],
- "authors": [
-  {
-   "name": "張湛",
-   "role": "撰",
-   "entity_id": "1j96kegu8a6tc",
-   "dynasty": "東晉"
-  }
- ],
- "juan_count": {
-  "number": 14
- },
- "id": "1evcmod4dn400",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 14
-  }
- ],
- "measure_info": "十四卷",
- "updated_at": "2026-08-10",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：《列子注》作者，東晉人）",
- "dynasty": "東晉",
- "dynasty_basis": "entity_propagation",
- "ai_note": "[ming-round1: 誤入明：移出 period=ming→jin, dynasty=晉（kind=entity_misclass）] [ming-round1: author(張湛) dynasty null→晉 (依 Entity)]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17hjn56o（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "id": "1evcmod4dn400",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 14
+    }
+  ],
+  "measure_info": "十四卷",
+  "updated_at": "2026-08-10",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：《列子注》作者，東晉人）",
+  "dynasty": "東晉",
+  "dynasty_basis": "entity_propagation",
+  "ai_note": "[ming-round1: 誤入明：移出 period=ming→jin, dynasty=晉（kind=entity_misclass）] [ming-round1: author(張湛) dynasty null→晉 (依 Entity)]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17hjn56o（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

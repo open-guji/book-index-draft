@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "字海",
- "authors": [
-  {
-   "name": "武后",
-   "role": "撰",
-   "dynasty": "唐",
-   "entity_id": "1j96haa4m4w00"
-  }
- ],
- "juan_count": {
-  "number": 100
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《字海》一百卷",
-   "summary": "《字海》一百卷（唐武后）",
-   "author_info": "唐武后"
+  "schema_version": 1,
+  "type": "work",
+  "title": "字海",
+  "authors": [
+    {
+      "name": "武后",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96haa4m4w00"
+    }
+  ],
+  "juan_count": {
+    "number": 100
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "武后字海",
-   "summary": "武后字海一百卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"字海\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0aznrdog（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgorekgu7eo",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 100
-  }
- ],
- "measure_info": "一百卷",
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「唐」",
- "dynasty": "唐",
- "dynasty_basis": "author_propagation",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《字海》一百卷",
+      "summary": "《字海》一百卷（唐武后）",
+      "author_info": "唐武后"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "武后字海",
+      "summary": "武后字海一百卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"字海\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0aznrdog（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgorekgu7eo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷",
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }

@@ -1,54 +1,54 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "益州記",
- "authors": [
-  {
-   "name": "李充",
-   "role": "撰",
-   "dynasty": "隋",
-   "entity_id": "1j967da97jlzv"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《益州記》三卷",
-   "summary": "《益州記》三卷（隋李充）",
-   "author_info": "隋李充"
+  "schema_version": 1,
+  "type": "work",
+  "title": "益州記",
+  "authors": [
+    {
+      "name": "李充",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": "1j967da97jlzv"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "李充益州記",
-   "summary": "李充益州記三卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"益州記\" 唯一候选无作者 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jqdgu0w（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpjswptw5c",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-08-10",
- "period": "sui-tang",
- "period_basis": "據 authors[0].dynasty「隋」",
- "dynasty": "隋",
- "dynasty_basis": "author_propagation",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《益州記》三卷",
+      "summary": "《益州記》三卷（隋李充）",
+      "author_info": "隋李充"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李充益州記",
+      "summary": "李充益州記三卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"益州記\" 唯一候选无作者 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0jqdgu0w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpjswptw5c",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-10",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation",
+  "emendated_by": [],
+  "books": [],
+  "related_works": []
 }
