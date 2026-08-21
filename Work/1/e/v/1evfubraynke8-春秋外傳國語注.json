@@ -29,11 +29,15 @@
   },
   "authors": [
     {
-      "name": "孔衍",
+      "name": "孔晁",
       "role": "注",
       "dynasty": "西晉",
       "entity_id": "1j969m70q2eqs",
-      "dynasty_basis": "historical_dict:round2(孔衍(268-320)，字舒元，西晉末東晉初經學家，主要活動西晉)"
+      "dynasty_basis": "historical_dict:round2(孔衍(268-320)，字舒元，西晉末東晉初經學家，主要活動西晉)",
+      "alt_names": [
+        "孔衍"
+      ],
+      "name_basis": "補晉志本條考語作「孔」（姓後缺名，蓋傳鈔或OCR之殘）；經義考本條明著「（孔晁）」，據以補全。孔晁為西晉《國語》注家，與孔衍（東晉史家）非一人。"
     }
   ],
   "juan_count": {
@@ -48,8 +52,8 @@
   ],
   "measure_info": "二十卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「孔」，今補全為「孔衍」。同上。《春秋外傳國語注》二十卷見《隋志》。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋外傳國語」，庫中有同題而非注本之條 `1evcpcufooh6o`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
-  "updated_at": "2026-08-21T00:00:00-07:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「孔」，今補全為「孔衍」。同上。《春秋外傳國語注》二十卷見《隋志》。\n\n2026-08-21 B1 併池核對時發現：撰人欄原作「孔衍」，然本條補晉志考語僅作「孔」（名闕），經義考本條明著「（孔晁）」——孔晁為西晉《國語》注家（與虞翻、唐固、韋昭同輩），與東晉史家孔衍非一人。逕正之，非合併（同組虞翻、唐固、韋昭三家皆各自獨立，不動）。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋外傳國語」，庫中有同題而非注本之條 `1evcpcufooh6o`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",

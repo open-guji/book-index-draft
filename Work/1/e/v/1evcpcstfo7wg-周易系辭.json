@@ -18,7 +18,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "juan_count": {
     "number": 2
   },
@@ -29,7 +29,14 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-21 B1 併池核對時發現：authors 欄原空，然本條舊唐志著錄原文自書「謝萬注」，逕予補全（非合併）。同組「又二卷桓玄注」「又二卷荀諺注」「又二卷宋褰注」三條係另三家之異注，各自獨立，非本條之延續。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "謝萬",
+      "role": "注",
+      "note": "據本條著錄原文「《周易系辭》二卷謝萬注」補；authors 欄原缺，non-B1 merge 之逐條補全。"
+    }
+  ]
 }

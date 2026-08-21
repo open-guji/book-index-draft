@@ -19,6 +19,22 @@
       "title_info": "《神農本草》四卷",
       "summary": "《神農本草》四卷（雷公集注）",
       "author_info": "雷公集注"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《神農本草》四卷",
+      "summary": "《神農本草》四卷雷公集注。",
+      "merged_from": "1evgq4kvw2hhc",
+      "note": "隋志、新唐志之《神農本草》四卷本，其隋志節正文作「《神農本草》四卷雷公集注」，與本條同書同卷。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "神農本草",
+      "summary": "神農本草三卷",
+      "merged_from": "1evgq4kvw2hhc",
+      "note": "隋志、新唐志之《神農本草》四卷本，其隋志節正文作「《神農本草》四卷雷公集注」，與本條同書同卷。"
     }
   ],
   "description": {
@@ -27,7 +43,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-21 B1 同名異書併池：併入 `1evcmng936gow`（神農本草）。《神農本草》雷公集注四卷：隋志條未繫撰人，其正文明書「雷公集注」；國史志本條作「（雷公）」，同書。今併。",
   "id": "1evgq4kvw2hhc",
   "measures": [
     {
@@ -36,7 +52,24 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《神農本草》四卷",
+      "note": "隋志、新唐志之《神農本草》四卷本，其隋志節正文作「《神農本草》四卷雷公集注」，與本條同書同卷。",
+      "merged_from": "1evgq4kvw2hhc"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1ev7xm468brpc",
+      "title": "神農黃帝食禁",
+      "relation": "related",
+      "note": "本條為後世託名神農之本草書。漢志方技略經方類著錄《神農黃帝食禁》七卷，周壽昌以為「禁」係「藥」之形訛，原名當作《神農黃帝食藥》，即本書託名之所由。二者非一書，不得據以合併。"
+    }
+  ]
 }

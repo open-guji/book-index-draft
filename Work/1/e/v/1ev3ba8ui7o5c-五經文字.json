@@ -56,6 +56,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "張參五經文字",
       "summary": "張參五經文字三卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "五經文字三卷",
+      "summary": "五經文字三卷。初張叅拜詔與儒官校正經典乃取漢蔡邕石經許慎說文吕忱字林陸德明釋文命孝亷生顔傳鈔撮疑互取定儒師部爲一百六十非緣經見者略而不集",
+      "merged_from": "1ev3ba8ui7o5c",
+      "note": "本條崇文總目之著錄詳述張參奉詔校經之事，與本條所繫張參生平全合；撰人欄「者略而不」乃著錄原文末句「非緣經見者，略而不集」之殘片誤植，非人名。"
     }
   ],
   "books": [
@@ -124,14 +132,12 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0b3uj01s（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvxo2zwg0 與 11q37otd9cx6o 同指文淵閣寫本一實物，今併於後者。",
-  "emendated_by": [],
-  "related_works": []
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0b3uj01s（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvxo2zwg0 與 11q37otd9cx6o 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mfaxyb`（五經文字）。《五經文字》唐張參撰：另一條（崇文總目，三卷）之著錄詳述「張叅拜詔與儒官校正經典……」，與本條張參生平全合，同書；其撰人欄「者略而不」實為著錄原文句末「非緣經見者，略而不集」之殘片，匯入時誤植為撰人，非真有此人。今併，不留「者略而不」為別名。"
 }
