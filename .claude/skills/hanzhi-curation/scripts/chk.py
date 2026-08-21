@@ -380,3 +380,36 @@ for _p in glob.glob('Work/*/*/*/*.json'):
 print('period', dict(_pc), '不合', len(_pbad), '　基線 0')
 for _x in _pbad[:8]:
     print('  ', _x)
+
+# 索引分片格式護欄（並行前提，見 .claude/plans/升格並行方案.md §二、§六）
+# 舊 CLI 之 reindex 用固定 indent=2 且不排序，改一條即重排整檔，並行會話之間全檔衝突。
+# 各族既有格式不同（works 與 collections 為 indent=1，books 與 entities 為 2），
+# 此處以「與既有格式一致」為準，不是統一成某一個值。
+_IFMT = {'index/works': 1, 'index/books': 2, 'index/entities': 2, 'index/collections.json': 1}
+_ifmt = []
+for _p in sorted(glob.glob('index/*/*.json')) + ['index/collections.json']:
+    _fam = _p if _p in _IFMT else _p.rsplit('/', 1)[0]
+    _want = _IFMT.get(_fam)
+    if _want is None:
+        continue
+    try:
+        _raw = open(_p, encoding='utf-8').read()
+    except Exception:
+        continue
+    for _ln in _raw.split('\n')[1:]:
+        _m = _re.match(r'^( +)\S', _ln)
+        if _m:
+            if len(_m.group(1)) != _want:
+                _ifmt.append((_p, 'indent 不合既有格式', f"{len(_m.group(1))}≠{_want}"))
+            break
+    try:
+        _keys = list(json.loads(_raw).keys())
+    except Exception:
+        continue
+    if _keys != sorted(_keys):
+        _ifmt.append((_p, '鍵未按 id 排序', len(_keys)))
+print('索引分片格式（indent 合既有格式且鍵有序）不合', len(_ifmt),
+      '　基線 2（index/books/2.json 縮排為 1、index/works/7.json 鍵序亂，皆自匯入即然，'
+      '須俟無人並行時歸一化——歸一化本身是巨型 diff，並行中做代價最高）')
+for _x in _ifmt[:8]:
+    print('  ', _x)
