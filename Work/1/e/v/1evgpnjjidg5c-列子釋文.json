@@ -20,6 +20,13 @@
       "title_info": "《列子釋文》二卷",
       "summary": "《列子釋文》二卷（唐殷敬願）",
       "author_info": "唐殷敬願"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "列子釋文",
+      "merged_from": "1evgpnjjidg5c",
+      "note": "直齋書錄解題另立之無撰人二卷本，與本條國史經籍志唐殷敬願撰本卷數全合，同書。另有清任大椿二卷本乃清人另作之考異輯校本（考異一卷），非同一撰作，不併。"
     }
   ],
   "description": {
@@ -28,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=任大椿 vs anno=唐殷敬願 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 作者冲突 work=任大椿 vs anno=唐殷敬願 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mifbhd`（列子釋文）。2026-08-21 B2 併池：併入 `1evr5e3mifbhd`（直齋書錄解題，無撰人，二卷）。同書。清任大椿《列子釋文》二卷（清史稿藝文志）乃後世另作之輯校考異本，非唐殷敬願原書，未併。",
   "id": "1evgpnjjidg5c",
   "measures": [
     {
@@ -37,7 +44,7 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
