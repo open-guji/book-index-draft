@@ -15,6 +15,27 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《列子》八卷",
       "summary": "《列子》八卷（晋張湛注）"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "張湛注列子",
+      "summary": "張湛注列子八卷",
+      "note": "（2026-08-21 自重出條 1evcs0m19lj40 併入）"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《列子》八卷",
+      "summary": "《列子》八卷鄭之隱人列禦寇撰，東晉光祿勳張湛注。",
+      "note": "（2026-08-21 先秦磁鐵專項：自原典 d59ezahwgb9c 移入，張湛注本）"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《列子》八卷",
+      "summary": "《列子》八卷列禦寇撰，張湛注。",
+      "note": "（2026-08-21 先秦磁鐵專項：自原典 d59ezahwgb9c 移入，張湛注本）"
     }
   ],
   "authors": [
@@ -32,18 +53,18 @@
       "id": "d59ezahwgb9c",
       "title": "列子",
       "relation": "contains_text_of"
-    },
-    {
-      "id": "1evcs0m19lj40",
-      "title": "張湛注列子",
-      "relation": "related",
-      "note": "同書之重出。本條題《列子張湛注》（書名在前），彼條題《張湛注列子》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
     }
   ],
-  "ai_note": "《國史經籍志》等著錄之同一注本原另立殘條 1evinaxso0kqo（書題僅作「列子」，未標注者），經核為本作品，已併入並刪除。　正條原無作者，據併入之《國史經籍志》「《列子》八卷（晋張湛注）」補。",
+  "ai_note": "《國史經籍志》等著錄之同一注本原另立殘條 1evinaxso0kqo（書題僅作「列子」，未標注者），經核為本作品，已併入並刪除。　正條原無作者，據併入之《國史經籍志》「《列子》八卷（晋張湛注）」補。\n\n2026-08-21 先秦磁鐵專項·注本重出歸併：《張湛注列子》1evcs0m19lj40 併入本條（同為一注本，僅因志書題式異寫而重出），移入著錄 1 節。依「｛原典｝＋｛作者全名｝＋｛方式｝」之命名例，存本條之題。",
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：《列子注》作者，東晉人）",
   "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "merged_from": [
+    "1evcs0m19lj40"
+  ],
+  "additional_titles": [
+    "張湛注列子"
+  ]
 }
