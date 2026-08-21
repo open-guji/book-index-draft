@@ -410,12 +410,11 @@ for _p in glob.glob('**/*.json', recursive=True):
                 _JORD.append((_p, len(_k)))
         except Exception:
             pass
-print('JSON 縮排非 2', len(_JIND), '　基線 444（在飛分支所改之 Work 414／Book 12／index 18，'
-      '俟其合入 main 後補跑 normalize_json_format.py）')
+print('JSON 縮排非 2', len(_JIND), '　基線 0（2026-08-21 全庫歸一化竣工；'
+      '不為零即有工具用了別的縮排，修法：scripts/normalize_json_format.py）')
 for _x in _JIND[:5]:
     print('  ', _x)
-print('JSON 缺檔尾換行', len(_JNL), '　基線 27,142（俟在飛分支合入後一次掃平；'
-      '該分支之寫入器剝尾換行，此刻掃了會被推翻）')
-print('索引檔鍵未按 id 排序', len(_JORD), '　基線 1（index/works/7.json，4,624 鍵自匯入即亂）')
+print('JSON 缺檔尾換行', len(_JNL), '　基線 0（同上）')
+print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
