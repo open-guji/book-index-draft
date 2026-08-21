@@ -129,3 +129,70 @@ def same_period(a, b):
     if pa is None or pb is None:
         return None
     return pa == pb
+
+
+# ═══ 版本年代為時代上限（edition_bound）═══
+# 一書之刊本、寫本、鈔本，其年代不早於成書之年——故版本年代亦是時代上限。
+# 與 catalog_bound 同理而別源：彼據著錄之志，此據存世之本。
+#
+# **陷阱一：現代影印／整理本無用。** 「中華再造善本」「四庫全書存目叢書」
+# 「長沙馬王堆漢墓簡帛集成本」之年代皆現代，上限 modern 不排除任何事。
+# 故只取推得之上限早於 modern 者。
+#
+# **陷阱二：無年代之版本不可用。** 「鈔本」「舊鈔本」「日本鈔本」未著其年，
+# 不可據以定限。
+EDITION_BOUND = [
+    ('宋', 'song'), ('遼', 'liao-jin-yuan'), ('金', 'liao-jin-yuan'), ('元', 'liao-jin-yuan'),
+    ('明', 'ming'), ('清', 'qing'), ('民國', 'modern'), ('中華民國', 'modern'),
+    ('唐', 'sui-tang'), ('隋', 'sui-tang'), ('五代', 'five-dynasties'),
+    ('日本江戶', 'qing'), ('日本寬永', 'ming'), ('日本慶長', 'ming'),
+    ('日本元祿', 'qing'), ('日本享保', 'qing'), ('日本寶曆', 'qing'),
+    ('日本安永', 'qing'), ('日本天明', 'qing'), ('日本寬政', 'qing'),
+    ('日本文化', 'qing'), ('日本文政', 'qing'), ('日本天保', 'qing'),
+    ('日本弘化', 'qing'), ('日本嘉永', 'qing'), ('日本安政', 'qing'),
+    ('日本萬延', 'qing'), ('日本文久', 'qing'), ('日本元治', 'qing'),
+    ('日本慶應', 'qing'), ('日本明治', 'modern'), ('日本大正', 'modern'),
+    ('日本昭和', 'modern'),
+    ('朝鮮', None), ('高麗', None),          # 未著其年者不可用
+]
+# 現代影印／整理之叢編，其年代不限原書
+MODERN_REPRINT = ('中華再造善本', '四庫全書存目叢書', '續修四庫全書', '簡帛集成',
+                  '出土文獻', '影印', '景印', '整理本', '點校本', '排印本')
+
+
+def edition_bound(edition):
+    """自 edition 字串推時代上限；不可用者返 None。"""
+    if not edition:
+        return None
+    if any(m in edition for m in MODERN_REPRINT):
+        return None
+    for pre, p in EDITION_BOUND:
+        if edition.startswith(pre):
+            return p
+    return None
+
+
+# ═══ 各 period 之年代區間 ═══
+# `period` 是政權軸非時間軸（見 SCHEMA），song 與 liao-jin-yuan 全重疊 319 年。
+# 故比較「某上限是否與某 period 相斥」不可逕用 ORD 之序——遼行均《龍龕手鑑》
+# period 為 liao-jin-yuan 而有宋刻本，序上 song(7) < liao-jin-yuan(8) 似相斥，
+# 實則遼與宋同時，宋刻本正可載遼人之書。
+#
+# 正解：**相斥 iff period 之起年 > 上限之訖年**。
+PERIOD_YEARS = {
+    'pre-qin': (-2100, -221), 'qin-han': (-221, 220), 'three-kingdoms': (220, 280),
+    'jin': (265, 420), 'nanbeichao': (420, 589), 'sui-tang': (581, 907),
+    'five-dynasties': (907, 979), 'song': (960, 1279), 'liao-jin-yuan': (907, 1368),
+    'ming': (1368, 1644), 'qing': (1644, 1912), 'modern': (1912, 2100),
+}
+
+
+def conflicts_with_bound(period, bound):
+    """period 是否與某時代上限相斥——起年晚於上限之訖年方為相斥。"""
+    if not period or not bound:
+        return False
+    ps = PERIOD_YEARS.get(period)
+    be = PERIOD_YEARS.get(bound)
+    if not ps or not be:
+        return False
+    return ps[0] > be[1]
