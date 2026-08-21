@@ -535,8 +535,7 @@
   "juan_count": 12,
   "measure_info": "十二卷",
   "has_text": true,
-  "has_image": true,
-  "period": "song"
+  "has_image": true
  },
  "1ev3b9zjomw3k": {
   "id": "1ev3b9zjomw3k",
@@ -2126,7 +2125,7 @@
   "measure_info": "四十卷",
   "has_text": true,
   "has_image": true,
-  "period": "jin"
+  "period": "nanbeichao"
  },
  "1ev3barms5rsw": {
   "id": "1ev3barms5rsw",
@@ -2153,8 +2152,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "has_text": true,
-  "has_image": true,
-  "period": "liao-jin-yuan"
+  "has_image": true
  },
  "1ev3basnklon4": {
   "id": "1ev3basnklon4",
@@ -2396,6 +2394,7 @@
   "title": "異域志",
   "type": "Work",
   "path": "Work/1/e/v/1ev3baz0jhd6o-異域志.json",
+  "dynasty": "明",
   "juan_count": 1,
   "measure_info": "一卷",
   "has_text": true,
@@ -3853,6 +3852,7 @@
   "title": "灌畦暇語",
   "type": "Work",
   "path": "Work/1/e/v/1ev3bbwexx1q8-灌畦暇語.json",
+  "dynasty": "唐",
   "juan_count": 1,
   "measure_info": "一卷",
   "has_text": true,
@@ -5463,8 +5463,7 @@
   "juan_count": 8,
   "measure_info": "八卷",
   "has_text": true,
-  "has_image": true,
-  "period": "song"
+  "has_image": true
  },
  "1ev3bd4fpqxa8": {
   "id": "1ev3bd4fpqxa8",
@@ -8010,11 +8009,13 @@
   "title": "纂圖互注老子道德經",
   "type": "Work",
   "path": "Work/1/e/v/1ev794a8n13wg-纂圖互注老子道德經.json",
-  "author": "河上公",
-  "role": "注",
+  "author": "老子",
+  "dynasty": "先秦",
+  "role": "撰",
   "additional_titles": [
-   "纂圖互註老子道德經",
-   "纂圖互注道德經"
+   "老子",
+   "老子道德經",
+   "纂圖互註老子道德經"
   ],
   "has_text": true,
   "has_image": true,
@@ -8053,7 +8054,7 @@
   "juan_count": 11,
   "measure_info": "十一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkhj9tngg": {
   "id": "1ev7xkhj9tngg",
@@ -8086,8 +8087,7 @@
   "role": "撰",
   "juan_count": 37,
   "measure_info": "三十七篇",
-  "loss_status": "lost",
-  "original_title": "老子"
+  "loss_status": "lost"
  },
  "1ev7xkhpqooow": {
   "id": "1ev7xkhpqooow",
@@ -8098,8 +8098,7 @@
   "role": "撰",
   "juan_count": 6,
   "measure_info": "六篇",
-  "loss_status": "lost",
-  "original_title": "老子"
+  "loss_status": "lost"
  },
  "1ev7xkhq2uxvk": {
   "id": "1ev7xkhq2uxvk",
@@ -8112,7 +8111,7 @@
   "juan_count": 7,
   "measure_info": "七篇",
   "period": "pre-qin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkhqi5khs": {
   "id": "1ev7xkhqi5khs",
@@ -8136,7 +8135,7 @@
   "juan_count": 1,
   "measure_info": "一篇",
   "period": "pre-qin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkhvwmeww": {
   "id": "1ev7xkhvwmeww",
@@ -8149,7 +8148,7 @@
   "juan_count": 13,
   "measure_info": "十三篇",
   "period": "pre-qin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkhw8670g": {
   "id": "1ev7xkhw8670g",
@@ -8160,7 +8159,7 @@
   "juan_count": 57,
   "measure_info": "五十七篇",
   "period": "pre-qin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xki7m0s8w": {
   "id": "1ev7xki7m0s8w",
@@ -8207,7 +8206,7 @@
   "juan_count": 51,
   "measure_info": "五十一篇",
   "period": "pre-qin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkihgxlvk": {
   "id": "1ev7xkihgxlvk",
@@ -8220,7 +8219,7 @@
   "juan_count": 8,
   "measure_info": "八篇",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ev7xkiiv6tc0": {
   "id": "1ev7xkiiv6tc0",
@@ -8586,7 +8585,7 @@
   "juan_count": 15,
   "measure_info": "十五卷",
   "period": "qin-han",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "周易"
  },
  "1evc5p8mkri80": {
@@ -8663,7 +8662,7 @@
   "author": "崔靈恩",
   "juan_count": 24,
   "measure_info": "二十四卷",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "毛詩集注"
  },
  "1evc5pcm1vaps": {
@@ -8716,7 +8715,7 @@
   "author": "裴松之",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evc5pcxgcd1c": {
   "id": "1evc5pcxgcd1c",
@@ -8725,7 +8724,7 @@
   "path": "Work/1/e/v/1evc5pcxgcd1c-漢荊州刺史劉表新定禮.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evc5pd3j5pts": {
   "id": "1evc5pd3j5pts",
@@ -8776,7 +8775,7 @@
   "path": "Work/1/e/v/1evc5pdfsuigw-樂部.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evc5pdnkj56o": {
   "id": "1evc5pdnkj56o",
@@ -8797,10 +8796,9 @@
   "juan_count": 10,
   "measure_info": "十卷",
   "additional_titles": [
-   "何休左氏膏肓",
    "左氏膏肓"
   ],
-  "original_title": "春秋左氏傳"
+  "original_title": "春秋左氏膏肓何休撰"
  },
  "1evc5pdvyov0g": {
   "id": "1evc5pdvyov0g",
@@ -8835,7 +8833,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "集議孝經"
  },
  "1evc5pe5emakg": {
@@ -8849,7 +8847,7 @@
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "sui-tang",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "古文孝經述義"
  },
  "1evc5pe9iw0lc": {
@@ -8860,7 +8858,7 @@
   "author": "李充",
   "juan_count": 10,
   "measure_info": "十卷",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "論語"
  },
  "1evc5pe9t6uio": {
@@ -8900,7 +8898,7 @@
   "juan_count": 8,
   "measure_info": "八卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evc5peidwjr4": {
   "id": "1evc5peidwjr4",
@@ -9072,7 +9070,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcml1gjvlds": {
   "id": "1evcml1gjvlds",
@@ -9104,6 +9102,7 @@
   "title": "山海經音",
   "type": "Work",
   "path": "Work/1/e/v/1evcml1jt8tmo-山海經音.json",
+  "dynasty": "晉",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "jin"
@@ -9245,7 +9244,7 @@
   "has_text": true,
   "has_image": true,
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcml2behy4g": {
   "id": "1evcml2behy4g",
@@ -9321,6 +9320,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcml337k074-孝子傳.json",
   "author": "蕭廣濟",
+  "dynasty": "晉",
   "role": "撰",
   "juan_count": 15,
   "measure_info": "十五卷",
@@ -9413,6 +9413,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcml3ujr8xs-魏尚書.json",
   "author": "孔衍",
+  "dynasty": "晉",
   "role": "撰",
   "juan_count": 8,
   "measure_info": "八卷",
@@ -9442,6 +9443,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcml3zsal1c-漢書鈔.json",
   "author": "葛洪",
+  "dynasty": "晉",
   "role": "撰",
   "juan_count": 30,
   "measure_info": "三十卷",
@@ -9473,7 +9475,7 @@
   "role": "撰",
   "juan_count": 20,
   "measure_info": "二十卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcmnd0eaq68": {
   "id": "1evcmnd0eaq68",
@@ -9487,7 +9489,7 @@
   "measure_info": "一百二十卷",
   "has_text": true,
   "period": "three-kingdoms",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcmnd3z7qio": {
   "id": "1evcmnd3z7qio",
@@ -9991,6 +9993,7 @@
   "title": "毛伯成集",
   "type": "Work",
   "path": "Work/1/e/v/1evcmobmh0qv4-毛伯成集.json",
+  "dynasty": "晉",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin"
@@ -10260,7 +10263,7 @@
   "dynasty": "隋",
   "role": "撰",
   "period": "sui-tang",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "毛詩述義"
  },
  "1evcpctc681s0": {
@@ -10359,6 +10362,7 @@
   "title": "古論語義注譜",
   "type": "Work",
   "path": "Work/1/e/v/1evcpcum81erk-古論語義注譜.json",
+  "dynasty": "晉",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin"
@@ -10369,6 +10373,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcpcun4tbsw-論語釋疑.json",
   "author": "王弼",
+  "dynasty": "晉",
   "role": "撰",
   "juan_count": 3,
   "measure_info": "三卷",
@@ -10376,7 +10381,7 @@
    "論語釋疑王弼撰"
   ],
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcpcvcu0pvk": {
   "id": "1evcpcvcu0pvk",
@@ -10515,7 +10520,7 @@
   "path": "Work/1/e/v/1evcpcxwhf3ls-襄陽耆舊傳.json",
   "author": "習鑿齒",
   "role": "撰",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcpcxyj33sw": {
   "id": "1evcpcxyj33sw",
@@ -10668,7 +10673,7 @@
   "juan_count": 3,
   "measure_info": "三卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcpd10i1xc0": {
   "id": "1evcpd10i1xc0",
@@ -10747,6 +10752,7 @@
   "title": "太清神仙服食經",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd3x4fbpc-太清神仙服食經.json",
+  "dynasty": "晉",
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "jin"
@@ -11023,6 +11029,7 @@
   "title": "木連理頌",
   "type": "Work",
   "path": "Work/1/e/v/1evcpd8o1sg00-木連理頌.json",
+  "dynasty": "晉",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "jin"
@@ -11088,8 +11095,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "nanbeichao",
-  "loss_status": "lost"
+  "period": "nanbeichao"
  },
  "1evcpjp2i75ds": {
   "id": "1evcpjp2i75ds",
@@ -11375,6 +11381,7 @@
   "title": "魏文帝海內士品錄",
   "type": "Work",
   "path": "Work/1/e/v/1evcs0f1girr4-魏文帝海內士品錄.json",
+  "dynasty": "三國魏",
   "juan_count": 3,
   "measure_info": "三卷",
   "period": "three-kingdoms"
@@ -12617,7 +12624,7 @@
   "juan_count": 30,
   "measure_info": "三十卷",
   "period": "sui-tang",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcsw7tlrsao": {
   "id": "1evcsw7tlrsao",
@@ -13442,7 +13449,7 @@
   "path": "Work/1/e/v/1evcsxkwhmww0-十道記.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evcsxkzdkxs0": {
   "id": "1evcsxkzdkxs0",
@@ -13644,8 +13651,7 @@
   "id": "1evcsxpic2yv4",
   "title": "道德經音義",
   "type": "Work",
-  "path": "Work/1/e/v/1evcsxpic2yv4-道德經音義.json",
-  "original_title": "道德經"
+  "path": "Work/1/e/v/1evcsxpic2yv4-道德經音義.json"
  },
  "1evcsxpmygge8": {
   "id": "1evcsxpmygge8",
@@ -14717,6 +14723,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcsyeh5ao00-射經.json",
   "author": "張仲素",
+  "dynasty": "唐",
   "role": "撰",
   "juan_count": 3,
   "measure_info": "三卷",
@@ -14854,6 +14861,7 @@
   "title": "至孝通神集",
   "type": "Work",
   "path": "Work/1/e/v/1evcsygtn69kw-至孝通神集.json",
+  "dynasty": "明",
   "period": "ming"
  },
  "1evcsyhkjgem8": {
@@ -15680,6 +15688,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evcsz8jjapz4-正聲集.json",
   "author": "劉元濟",
+  "dynasty": "唐",
   "role": "撰",
   "juan_count": 5,
   "measure_info": "五卷",
@@ -15815,7 +15824,6 @@
   "path": "Work/1/e/v/1evcua6u3tj40-孝經韋昭注.json",
   "author": "韋昭",
   "dynasty": "三國吳",
-  "period": "three-kingdoms",
   "original_title": "孝經"
  },
  "1evcua72zgjcw": {
@@ -15846,11 +15854,7 @@
   "title": "莊子郭象注",
   "type": "Work",
   "path": "Work/1/e/v/1evcuc3vjz4lc-莊子郭象注.json",
-  "author": "郭象",
-  "additional_titles": [
-   "郭象注莊子"
-  ],
-  "original_title": "莊子"
+  "author": "郭象"
  },
  "1evcucgftlaf4": {
   "id": "1evcucgftlaf4",
@@ -16494,6 +16498,7 @@
   "title": "沙河行宮圖",
   "type": "Work",
   "path": "Work/1/e/v/1evdicdm1lq80-沙河行宮圖.json",
+  "dynasty": "明",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "ming"
@@ -16503,6 +16508,7 @@
   "title": "大明禮制",
   "type": "Work",
   "path": "Work/1/e/v/1evdicdpmiqkg-大明禮制.json",
+  "dynasty": "明",
   "juan_count": 25,
   "measure_info": "二十五卷",
   "period": "ming"
@@ -16548,6 +16554,7 @@
   "title": "相鑑",
   "type": "Work",
   "path": "Work/1/e/v/1evdicgepmww0-相鑑.json",
+  "dynasty": "明",
   "juan_count": 20,
   "measure_info": "二十卷",
   "additional_titles": [
@@ -17207,8 +17214,7 @@
   "role": "撰",
   "juan_count": 3,
   "measure_info": "三卷",
-  "period": "ming",
-  "original_title": "道德經"
+  "period": "ming"
  },
  "1evdidar61hj4": {
   "id": "1evdidar61hj4",
@@ -17300,6 +17306,7 @@
   "title": "張昱詩集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidegvo2dc-張昱詩集.json",
+  "dynasty": "明",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "ming"
@@ -17321,6 +17328,7 @@
   "title": "解開文集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidg60xl34-解開文集.json",
+  "dynasty": "明",
   "juan_count": 40,
   "measure_info": "四十卷",
   "period": "ming"
@@ -17342,6 +17350,7 @@
   "title": "林大同文集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidgef3aww-林大同文集.json",
+  "dynasty": "明",
   "juan_count": 9,
   "measure_info": "九卷",
   "period": "ming"
@@ -17351,6 +17360,7 @@
   "title": "任亨泰遺稿",
   "type": "Work",
   "path": "Work/1/e/v/1evdidgriqvpc-任亨泰遺稿.json",
+  "dynasty": "明",
   "juan_count": 2,
   "measure_info": "二卷",
   "additional_titles": [
@@ -17399,6 +17409,7 @@
   "title": "羅亨信集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidi4ioxds-羅亨信集.json",
+  "dynasty": "明",
   "juan_count": 12,
   "measure_info": "十二卷",
   "period": "ming"
@@ -17444,6 +17455,7 @@
   "title": "楊守陳全集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidkt8dwcg-楊守陳全集.json",
+  "dynasty": "明",
   "juan_count": 30,
   "measure_info": "三十卷",
   "period": "ming"
@@ -17477,6 +17489,7 @@
   "title": "錢福文集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidmiokq2o-錢福文集.json",
+  "dynasty": "明",
   "juan_count": 6,
   "measure_info": "六卷",
   "period": "ming"
@@ -17498,6 +17511,7 @@
   "title": "羅槩奏議",
   "type": "Work",
   "path": "Work/1/e/v/1evdidn7nk6io-羅槩奏議.json",
+  "dynasty": "明",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "ming"
@@ -17579,6 +17593,7 @@
   "title": "霍韜集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidrbqezgg-霍韜集.json",
+  "dynasty": "明",
   "juan_count": 15,
   "measure_info": "十五卷",
   "period": "ming"
@@ -17588,6 +17603,7 @@
   "title": "歐陽鐸集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidre4vpxc-歐陽鐸集.json",
+  "dynasty": "明",
   "juan_count": 22,
   "measure_info": "二十二卷",
   "period": "ming"
@@ -17693,6 +17709,7 @@
   "title": "諸大綬文集",
   "type": "Work",
   "path": "Work/1/e/v/1evdidwd7nwu8-諸大綬文集.json",
+  "dynasty": "明",
   "juan_count": 8,
   "measure_info": "八卷",
   "period": "ming"
@@ -17762,6 +17779,7 @@
   "title": "謝兆申詩文稿",
   "type": "Work",
   "path": "Work/1/e/v/1evdie2curugw-謝兆申詩文稿.json",
+  "dynasty": "明",
   "juan_count": 24,
   "measure_info": "二十四卷",
   "period": "ming"
@@ -18084,7 +18102,7 @@
    "論語"
   ],
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evetxcyu7itc": {
   "id": "1evetxcyu7itc",
@@ -18265,7 +18283,6 @@
   "role": "注",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "three-kingdoms",
   "loss_status": "lost"
  },
  "1evfhcccosr9c": {
@@ -18295,6 +18312,7 @@
   "title": "管寕別傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfhcem7apz4-管寕別傳.json",
+  "dynasty": "三國魏",
   "period": "three-kingdoms",
   "loss_status": "lost"
  },
@@ -18334,7 +18352,6 @@
   "additional_titles": [
    "風氣占軍决勝戰"
   ],
-  "period": "three-kingdoms",
   "loss_status": "lost"
  },
  "1evfhdctxeznk": {
@@ -18360,7 +18377,6 @@
   "role": "注",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "three-kingdoms",
   "loss_status": "lost"
  },
  "1evfhenlss3k0": {
@@ -18413,13 +18429,14 @@
    "周易註"
   ],
   "period": "three-kingdoms",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evftegjiwbnk": {
   "id": "1evftegjiwbnk",
   "title": "魏華舞歌",
   "type": "Work",
   "path": "Work/1/e/v/1evftegjiwbnk-魏華舞歌.json",
+  "dynasty": "三國",
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "three-kingdoms"
@@ -18475,6 +18492,7 @@
   "title": "費别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evftemv459ts-費别傳.json",
+  "dynasty": "三國",
   "period": "three-kingdoms"
  },
  "1evftenl3nhts": {
@@ -18505,14 +18523,14 @@
   "author": "鍾繇",
   "dynasty": "三國魏",
   "role": "注",
-  "period": "three-kingdoms",
-  "original_title": "老子"
+  "period": "three-kingdoms"
  },
  "1evftetuosmio": {
   "id": "1evftetuosmio",
   "title": "韋氏相印法",
   "type": "Work",
   "path": "Work/1/e/v/1evftetuosmio-韋氏相印法.json",
+  "dynasty": "三國",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "three-kingdoms"
@@ -18522,6 +18540,7 @@
   "title": "七佛神咒經",
   "type": "Work",
   "path": "Work/1/e/v/1evfteyy7330g-七佛神咒經.json",
+  "dynasty": "三國",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "three-kingdoms"
@@ -18541,6 +18560,7 @@
   "title": "虛元記",
   "type": "Work",
   "path": "Work/1/e/v/1evftf0gszo5c-虛元記.json",
+  "dynasty": "三國",
   "additional_titles": [
    "虚元記"
   ],
@@ -18551,6 +18571,7 @@
   "title": "詢化經",
   "type": "Work",
   "path": "Work/1/e/v/1evftf18e8sn4-詢化經.json",
+  "dynasty": "三國",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "three-kingdoms"
@@ -18560,6 +18581,7 @@
   "title": "服食禁忌經",
   "type": "Work",
   "path": "Work/1/e/v/1evftf1or9log-服食禁忌經.json",
+  "dynasty": "三國",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "three-kingdoms"
@@ -18569,6 +18591,7 @@
   "title": "劉元丹法",
   "type": "Work",
   "path": "Work/1/e/v/1evftf1vrhclc-劉元丹法.json",
+  "dynasty": "三國",
   "period": "three-kingdoms"
  },
  "1evftwye606ww": {
@@ -18689,7 +18712,7 @@
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evftyockc9vk": {
   "id": "1evftyockc9vk",
@@ -18700,7 +18723,7 @@
   "dynasty": "東漢",
   "role": "撰",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evftypng4f0g": {
   "id": "1evftypng4f0g",
@@ -18756,7 +18779,7 @@
   "dynasty": "前涼",
   "role": "撰",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfube1gdla8": {
   "id": "1evfube1gdla8",
@@ -19011,6 +19034,7 @@
   "title": "中興記",
   "type": "Work",
   "path": "Work/1/e/v/1evfuugcpz8xs-中興記.json",
+  "dynasty": "東晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19032,6 +19056,7 @@
   "title": "東關故事",
   "type": "Work",
   "path": "Work/1/e/v/1evfuujzzkwlc-東關故事.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19040,6 +19065,7 @@
   "title": "鄭太尉為尚書令故事",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuk218wsg-鄭太尉為尚書令故事.json",
+  "dynasty": "晉",
   "juan_count": 3,
   "measure_info": "三卷",
   "additional_titles": [
@@ -19053,6 +19079,7 @@
   "title": "咸寧故事",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuk8paeio-咸寧故事.json",
+  "dynasty": "西晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19088,6 +19115,7 @@
   "title": "晉百官名三",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuku5uqyo-晉百官名三.json",
+  "dynasty": "晉",
   "juan_count": 30,
   "measure_info": "三十卷",
   "additional_titles": [
@@ -19101,6 +19129,7 @@
   "title": "齊王功臣格",
   "type": "Work",
   "path": "Work/1/e/v/1evfuul5d5csg-齊王功臣格.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19173,7 +19202,7 @@
   "juan_count": 24,
   "measure_info": "二十四卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfuuotx9dds": {
   "id": "1evfuuotx9dds",
@@ -19193,6 +19222,7 @@
   "title": "曹志别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuup4p9clc-曹志别傳.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19201,6 +19231,7 @@
   "title": "夏仲御别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuupnrzfnk-夏仲御别傳.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19209,6 +19240,7 @@
   "title": "王處仲别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuupq5ighs-王處仲别傳謹按見御覽引書綱目.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19217,6 +19249,7 @@
   "title": "江别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuq16kbgg-江别傳謹按見御覽引書綱目.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19225,6 +19258,7 @@
   "title": "郭翻别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuqq5jrwg-郭翻别傳.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19233,6 +19267,7 @@
   "title": "鄧超别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuurbid9ts-鄧超别傳謹按見世說・言語篇注.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19241,6 +19276,7 @@
   "title": "傅咸别傳",
   "type": "Work",
   "path": "Work/1/e/v/1evfuusidbaww-傅咸别傳謹按原本北堂書鈔歎賞類引.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19274,6 +19310,7 @@
   "title": "摯氏世本",
   "type": "Work",
   "path": "Work/1/e/v/1evfuuursdnnk-摯氏世本.json",
+  "dynasty": "晉",
   "period": "jin",
   "loss_status": "lost"
  },
@@ -19335,7 +19372,7 @@
   "dynasty": "西晉",
   "role": "撰",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfuv01ad3i8": {
   "id": "1evfuv01ad3i8",
@@ -19366,6 +19403,7 @@
   "title": "光祿大夫劉頌集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv39al340-光祿大夫劉頌集.json",
+  "dynasty": "晉",
   "juan_count": 3,
   "measure_info": "三卷",
   "additional_titles": [
@@ -19379,16 +19417,18 @@
   "title": "南中郎長史應亨集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv44imn7k-南中郎長史應亨集.json",
+  "dynasty": "晉",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfuv45ogg00": {
   "id": "1evfuv45ogg00",
   "title": "太常卿摯虞集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv45ogg00-太常卿摯虞集.json",
+  "dynasty": "晉",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "jin",
@@ -19399,6 +19439,7 @@
   "title": "廷尉卿放集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv6h493b4-廷尉卿放集.json",
+  "dynasty": "晉",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "jin",
@@ -19409,16 +19450,18 @@
   "title": "衛尉張虞集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv7dv8f0g-衛尉張虞集.json",
+  "dynasty": "晉",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfuv7syzta8": {
   "id": "1evfuv7syzta8",
   "title": "魏興太守述集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv7syzta8-魏興太守述集.json",
+  "dynasty": "晉",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
@@ -19429,6 +19472,7 @@
   "title": "吳興孝廉紐滔集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv7yvvnr4-吳興孝廉紐滔集.json",
+  "dynasty": "晉",
   "juan_count": 5,
   "measure_info": "五卷",
   "additional_titles": [
@@ -19442,6 +19486,7 @@
   "title": "南中郎將桓嗣集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv97uocu8-南中郎將桓嗣集.json",
+  "dynasty": "晉",
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "jin",
@@ -19452,6 +19497,7 @@
   "title": "豫章太守王恪集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuv9i49c00-豫章太守王恪集.json",
+  "dynasty": "晉",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "jin",
@@ -19462,6 +19508,7 @@
   "title": "太傅從事中郎袁邵集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuva2px6o0-太傅從事中郎袁邵集.json",
+  "dynasty": "晉",
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "jin",
@@ -19472,6 +19519,7 @@
   "title": "車騎長史謝朗集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuva41zqbk-車騎長史謝朗集.json",
+  "dynasty": "晉",
   "juan_count": 6,
   "measure_info": "六卷",
   "period": "jin",
@@ -19482,16 +19530,18 @@
   "title": "衛軍諮議湛方生集",
   "type": "Work",
   "path": "Work/1/e/v/1evfuvc210u0w-衛軍諮議湛方生集.json",
+  "dynasty": "晉",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evfuvc39cj5s": {
   "id": "1evfuvc39cj5s",
   "title": "光祿大夫祖台之集十",
   "type": "Work",
   "path": "Work/1/e/v/1evfuvc39cj5s-光祿大夫祖台之集十.json",
+  "dynasty": "晉",
   "juan_count": 16,
   "measure_info": "十六卷",
   "additional_titles": [
@@ -19518,6 +19568,7 @@
   "title": "晉詔六",
   "type": "Work",
   "path": "Work/1/e/v/1evfuveu6n0n4-晉詔六.json",
+  "dynasty": "晉",
   "juan_count": 60,
   "measure_info": "六十卷",
   "additional_titles": [
@@ -19646,6 +19697,7 @@
   "title": "晉中興徵祥記",
   "type": "Work",
   "path": "Work/1/e/v/1evfuvk77ct1c-晉中興徵祥記.json",
+  "dynasty": "東晉",
   "additional_titles": [
    "晋中興徵祥記"
   ],
@@ -19657,6 +19709,7 @@
   "title": "晋功臣表",
   "type": "Work",
   "path": "Work/1/e/v/1evfuvkqzocn4-晉功臣表謹按見水經溫水篇注.json",
+  "dynasty": "晉",
   "additional_titles": [
    "晋功臣表謹按見《水經・溫水篇》注。"
   ],
@@ -19668,6 +19721,7 @@
   "title": "魏晉官名",
   "type": "Work",
   "path": "Work/1/e/v/1evfuvks801s0-魏晉官名.json",
+  "dynasty": "晉",
   "juan_count": 5,
   "measure_info": "五卷",
   "additional_titles": [
@@ -19789,6 +19843,7 @@
   "title": "春秋圖說",
   "type": "Work",
   "path": "Work/1/e/v/1evga0c1ncum8-春秋圖說.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evga0n8uuayo": {
@@ -19946,6 +20001,7 @@
   "title": "五經難字直音",
   "type": "Work",
   "path": "Work/1/e/v/1evga1wisnc3k-五經難字直音.json",
+  "dynasty": "遼金元",
   "juan_count": 5,
   "measure_info": "五卷",
   "period": "liao-jin-yuan"
@@ -20359,6 +20415,7 @@
   "title": "事林廣記",
   "type": "Work",
   "path": "Work/1/e/v/1evga7m8muscg-事林廣記.json",
+  "dynasty": "遼金元",
   "juan_count": 40,
   "measure_info": "四十卷",
   "has_text": true,
@@ -20374,8 +20431,7 @@
   "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷",
-  "period": "liao-jin-yuan",
-  "original_title": "老子"
+  "period": "liao-jin-yuan"
  },
  "1evga7mm9v2tc": {
   "id": "1evga7mm9v2tc",
@@ -20387,8 +20443,7 @@
   "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷",
-  "period": "liao-jin-yuan",
-  "original_title": "老子"
+  "period": "liao-jin-yuan"
  },
  "1evga7my72dq8": {
   "id": "1evga7my72dq8",
@@ -20794,6 +20849,7 @@
   "title": "張氏易解",
   "type": "Work",
   "path": "Work/1/e/v/1evgb8qll2eww-張氏易解.json",
+  "dynasty": "遼金元",
   "juan_count": 10,
   "measure_info": "十卷",
   "period": "liao-jin-yuan"
@@ -21128,7 +21184,7 @@
   "author": "胡一桂",
   "dynasty": "元",
   "role": "撰",
-  "period": "song"
+  "period": "liao-jin-yuan"
  },
  "1evgbvj0phc74": {
   "id": "1evgbvj0phc74",
@@ -21160,7 +21216,7 @@
   "author": "陶宗儀",
   "dynasty": "明",
   "role": "撰",
-  "period": "liao-jin-yuan"
+  "period": "ming"
  },
  "1evgbvl8lx5vk": {
   "id": "1evgbvl8lx5vk",
@@ -21189,6 +21245,7 @@
   "title": "省部政典舉要",
   "type": "Work",
   "path": "Work/1/e/v/1evgbvp3t4ykg-省部政典舉要.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbvp9ha5ts": {
@@ -21196,6 +21253,7 @@
   "title": "六條政類",
   "type": "Work",
   "path": "Work/1/e/v/1evgbvp9ha5ts-六條政類.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbvrinamtc": {
@@ -21249,6 +21307,7 @@
   "title": "刑統一覽",
   "type": "Work",
   "path": "Work/1/e/v/1evgbvuu2tczk-刑統一覽.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbvvn2boxs": {
@@ -21256,6 +21315,7 @@
   "title": "列女傳圖像",
   "type": "Work",
   "path": "Work/1/e/v/1evgbvvn2boxs-列女傳圖像.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbvxm0mm0w": {
@@ -21306,13 +21366,14 @@
   "additional_titles": [
    "藁城董氏世譜"
   ],
-  "period": "liao-jin-yuan"
+  "period": "ming"
  },
  "1evgbw0964v7k": {
   "id": "1evgbw0964v7k",
   "title": "古器類編",
   "type": "Work",
   "path": "Work/1/e/v/1evgbw0964v7k-古器類編.json",
+  "dynasty": "遼金元",
   "juan_count": 30,
   "measure_info": "三十卷",
   "period": "liao-jin-yuan"
@@ -21335,6 +21396,7 @@
   "title": "郡邑指掌",
   "type": "Work",
   "path": "Work/1/e/v/1evgbw12kxts0-郡邑指掌.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbw3ke5wcg": {
@@ -21347,13 +21409,14 @@
   "role": "撰",
   "juan_count": 7,
   "measure_info": "七卷",
-  "period": "liao-jin-yuan"
+  "period": "ming"
  },
  "1evgbw3q7m4u8": {
   "id": "1evgbw3q7m4u8",
   "title": "溫州路志",
   "type": "Work",
   "path": "Work/1/e/v/1evgbw3q7m4u8-溫州路志.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgbz8vfaha8": {
@@ -21410,8 +21473,7 @@
   "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷",
-  "period": "liao-jin-yuan",
-  "original_title": "道德經"
+  "period": "liao-jin-yuan"
  },
  "1evgbzlqaz400": {
   "id": "1evgbzlqaz400",
@@ -21542,6 +21604,7 @@
   "title": "王氏小兒形證方",
   "type": "Work",
   "path": "Work/1/e/v/1evgc06hurwu8-王氏小兒形證方.json",
+  "dynasty": "遼金元",
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "liao-jin-yuan"
@@ -21607,6 +21670,7 @@
   "title": "萬寶書山",
   "type": "Work",
   "path": "Work/1/e/v/1evgc2zl9pkhs-萬寶書山.json",
+  "dynasty": "遼金元",
   "juan_count": 38,
   "measure_info": "三十八卷",
   "period": "liao-jin-yuan"
@@ -21628,6 +21692,7 @@
   "title": "江浙延祐首科程文",
   "type": "Work",
   "path": "Work/1/e/v/1evgc3413u60w-江浙延祐首科程文.json",
+  "dynasty": "遼金元",
   "period": "liao-jin-yuan"
  },
  "1evgc35ndgwe8": {
@@ -21672,7 +21737,7 @@
   "role": "撰",
   "juan_count": 7,
   "measure_info": "七卷",
-  "period": "song"
+  "period": "liao-jin-yuan"
  },
  "1evgc5abx4oao": {
   "id": "1evgc5abx4oao",
@@ -22411,7 +22476,7 @@
    "韓詩内傳"
   ],
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evgopv0pbda8": {
   "id": "1evgopv0pbda8",
@@ -22823,8 +22888,7 @@
   "dynasty": "元",
   "role": "撰",
   "juan_count": 4,
-  "measure_info": "四卷",
-  "period": "liao-jin-yuan"
+  "measure_info": "四卷"
  },
  "1evgorim3o35s": {
   "id": "1evgorim3o35s",
@@ -24195,8 +24259,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evgpn9cm5urk-陳象古注老子.json",
   "juan_count": 2,
-  "measure_info": "二卷",
-  "original_title": "老子"
+  "measure_info": "二卷"
  },
  "1evgpncmquzgg": {
   "id": "1evgpncmquzgg",
@@ -24214,8 +24277,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evgpnd9ysi68-道德經纂疏.json",
   "juan_count": 20,
-  "measure_info": "二十卷",
-  "original_title": "道德經"
+  "measure_info": "二十卷"
  },
  "1evgpnddqvz0g": {
   "id": "1evgpnddqvz0g",
@@ -24223,8 +24285,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evgpnddqvz0g-道德經集義.json",
   "juan_count": 10,
-  "measure_info": "十卷",
-  "original_title": "道德經"
+  "measure_info": "十卷"
  },
  "1evgpneol3xfk": {
   "id": "1evgpneol3xfk",
@@ -25900,8 +25961,7 @@
   "additional_titles": [
    "周易集林律歴",
    "周易集林律曆"
-  ],
-  "period": "three-kingdoms"
+  ]
  },
  "1evgq23xv3ri8": {
   "id": "1evgq23xv3ri8",
@@ -26096,8 +26156,7 @@
   "measure_info": "二卷",
   "additional_titles": [
    "雜忌曆"
-  ],
-  "period": "three-kingdoms"
+  ]
  },
  "1evgq2yifzp4w": {
   "id": "1evgq2yifzp4w",
@@ -29111,8 +29170,7 @@
   "dynasty": "南朝宋",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "nanbeichao"
+  "subtype": "article"
  },
  "1evi5vprh80e8": {
   "id": "1evi5vprh80e8",
@@ -29147,8 +29205,7 @@
   "dynasty": "南朝梁",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "nanbeichao"
+  "subtype": "article"
  },
  "1evi5w0ax3zsw": {
   "id": "1evi5w0ax3zsw",
@@ -29194,8 +29251,7 @@
   "author": "繆襲",
   "dynasty": "三國魏",
   "role": "作",
-  "subtype": "article",
-  "period": "three-kingdoms"
+  "subtype": "article"
  },
  "1evi5we3oo1ds": {
   "id": "1evi5we3oo1ds",
@@ -29277,8 +29333,7 @@
   "dynasty": "三國魏",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "three-kingdoms"
+  "subtype": "article"
  },
  "1evi5x0h7hi4g": {
   "id": "1evi5x0h7hi4g",
@@ -29289,8 +29344,7 @@
   "dynasty": "南朝梁",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "nanbeichao"
+  "subtype": "article"
  },
  "1evi5x1epb8jk": {
   "id": "1evi5x1epb8jk",
@@ -29301,8 +29355,7 @@
   "dynasty": "三國魏",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "three-kingdoms"
+  "subtype": "article"
  },
  "1evi5x1pu3y0w": {
   "id": "1evi5x1pu3y0w",
@@ -29337,8 +29390,7 @@
   "dynasty": "南朝梁",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "nanbeichao"
+  "subtype": "article"
  },
  "1evi5xedxozy8": {
   "id": "1evi5xedxozy8",
@@ -29373,8 +29425,7 @@
   "dynasty": "南朝宋",
   "role": "作",
   "has_text": true,
-  "subtype": "article",
-  "period": "nanbeichao"
+  "subtype": "article"
  },
  "1evi64pdwp9mo": {
   "id": "1evi64pdwp9mo",
@@ -30127,7 +30178,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1eviii1fe01ds": {
   "id": "1eviii1fe01ds",
@@ -30156,7 +30207,7 @@
    "論語註"
   ],
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evilzh0bvabk": {
   "id": "1evilzh0bvabk",
@@ -30169,7 +30220,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evimvg3cgjy8": {
   "id": "1evimvg3cgjy8",
@@ -30567,7 +30618,7 @@
   "type": "Work",
   "path": "Work/1/e/v/1evinciyc26f4-新論.json",
   "has_text": true,
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evincjt2xon4": {
   "id": "1evincjt2xon4",
@@ -33886,8 +33937,7 @@
   "dynasty": "元",
   "role": "撰",
   "juan_count": 5,
-  "measure_info": "五卷",
-  "period": "liao-jin-yuan"
+  "measure_info": "五卷"
  },
  "1evjxmw4ugykg": {
   "id": "1evjxmw4ugykg",
@@ -35151,8 +35201,7 @@
   "dynasty": "南朝梁",
   "role": "撰",
   "juan_count": 1,
-  "measure_info": "一冊",
-  "period": "nanbeichao"
+  "measure_info": "一冊"
  },
  "1evkag3latlog": {
   "id": "1evkag3latlog",
@@ -38139,6 +38188,7 @@
   "title": "山東巡撫劄交諮議局議案法案及諮詢事件",
   "type": "Work",
   "path": "Work/1/e/v/1evkpqxw2rncw-山東巡撫劄交諮議局議案法案及諮詢事件.json",
+  "dynasty": "清",
   "measure_info": "不分卷",
   "period": "qing"
  },
@@ -39209,6 +39259,7 @@
   "title": "玉夏齋傳奇",
   "type": "Work",
   "path": "Work/1/e/v/1evkq4ckohce8-玉夏齋傳奇.json",
+  "dynasty": "清",
   "juan_count": 22,
   "measure_info": "二十二卷",
   "period": "qing"
@@ -39408,7 +39459,7 @@
   "juan_count": 16,
   "measure_info": "十六卷",
   "period": "song",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m6vjcl": {
   "id": "1evr5e3m6vjcl",
@@ -39421,7 +39472,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m6vjdm": {
   "id": "1evr5e3m6vjdm",
@@ -39477,7 +39528,7 @@
    "尚書五行傳註"
   ],
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m76rs3": {
   "id": "1evr5e3m76rs3",
@@ -39593,7 +39644,7 @@
    "毛詩拾遺郭璞撰"
   ],
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m76rv6": {
   "id": "1evr5e3m76rv6",
@@ -39634,7 +39685,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m76rw7": {
   "id": "1evr5e3m76rw7",
@@ -39684,7 +39735,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m76rxh": {
   "id": "1evr5e3m76rxh",
@@ -39797,7 +39848,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m7i0d9": {
   "id": "1evr5e3m7i0d9",
@@ -39961,10 +40012,11 @@
   "title": "晉繆協論語說",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m7t8ya-晉繆協論語說.json",
+  "dynasty": "晉",
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m7t8yq": {
   "id": "1evr5e3m7t8yq",
@@ -39980,7 +40032,7 @@
    "梁太史叔明論語註"
   ],
   "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m7t8z2": {
   "id": "1evr5e3m7t8z2",
@@ -40105,7 +40157,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m84hho": {
   "id": "1evr5e3m84hho",
@@ -40228,7 +40280,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m8fpxy": {
   "id": "1evr5e3m8fpxy",
@@ -40238,7 +40290,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3m8fpyj": {
   "id": "1evr5e3m8fpyj",
@@ -40404,6 +40456,7 @@
   "title": "太宗實錄",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m8fq3s-太宗實錄.json",
+  "dynasty": "清",
   "juan_count": 68,
   "measure_info": "六十八卷",
   "period": "qing"
@@ -40451,6 +40504,7 @@
   "title": "安南紀略",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m8qyhk-安南紀略.json",
+  "dynasty": "清",
   "juan_count": 32,
   "measure_info": "三十二卷",
   "period": "qing"
@@ -40520,6 +40574,7 @@
   "title": "仁宗睿皇帝聖訓",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m8qymp-仁宗睿皇帝聖訓.json",
+  "dynasty": "清",
   "juan_count": 110,
   "measure_info": "一百十卷",
   "period": "qing"
@@ -41101,6 +41156,7 @@
   "title": "事例",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m9oo82-事例.json",
+  "dynasty": "清",
   "juan_count": 20,
   "measure_info": "二十卷",
   "period": "qing"
@@ -41122,6 +41178,7 @@
   "title": "驗封司則例",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3m9oo8r-驗封司則例.json",
+  "dynasty": "清",
   "juan_count": 6,
   "measure_info": "六卷",
   "period": "qing"
@@ -41587,7 +41644,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mamdu0": {
   "id": "1evr5e3mamdu0",
@@ -41597,7 +41654,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mamdup": {
   "id": "1evr5e3mamdup",
@@ -41711,7 +41768,7 @@
   "measure_info": "一卷",
   "has_text": true,
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3maxman": {
   "id": "1evr5e3maxman",
@@ -41850,7 +41907,7 @@
   "juan_count": 6,
   "measure_info": "六卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3maxmfc": {
   "id": "1evr5e3maxmfc",
@@ -42083,7 +42140,7 @@
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "song",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mbk3en": {
   "id": "1evr5e3mbk3en",
@@ -42473,7 +42530,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mc6khs": {
   "id": "1evr5e3mc6khs",
@@ -42574,7 +42631,7 @@
   "measure_info": "二卷",
   "has_text": true,
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mc6kkf": {
   "id": "1evr5e3mc6kkf",
@@ -42683,7 +42740,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mcht04": {
   "id": "1evr5e3mcht04",
@@ -43441,7 +43498,7 @@
   "juan_count": 20,
   "measure_info": "二十卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mdqr7e": {
   "id": "1evr5e3mdqr7e",
@@ -43454,7 +43511,7 @@
   "juan_count": 24,
   "measure_info": "二十四卷",
   "period": "liao-jin-yuan",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mdqr86": {
   "id": "1evr5e3mdqr86",
@@ -43464,7 +43521,7 @@
   "juan_count": 2,
   "measure_info": "二卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3mdqr8f": {
   "id": "1evr5e3mdqr8f",
@@ -43990,7 +44047,7 @@
   "juan_count": 1,
   "measure_info": "三百卷",
   "period": "nanbeichao",
-  "loss_status": "partially_extant",
+  "loss_status": "lost",
   "original_title": "禮論"
  },
  "1evr5e3meogvl": {
@@ -44001,13 +44058,14 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qing",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1evr5e3meogwm": {
   "id": "1evr5e3meogwm",
   "title": "石峯堡紀略",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3meogwm-石峯堡紀略.json",
+  "dynasty": "清",
   "juan_count": 20,
   "measure_info": "二十卷",
   "additional_titles": [
@@ -44108,6 +44166,7 @@
   "title": "曲譜",
   "type": "Work",
   "path": "Work/1/e/v/1evr5e3mezpi1-曲譜.json",
+  "dynasty": "清",
   "juan_count": 14,
   "measure_info": "十四卷",
   "period": "qing"
@@ -44338,8 +44397,7 @@
   "author": "偽蜀喬諷",
   "role": "撰",
   "juan_count": 2,
-  "measure_info": "二卷",
-  "original_title": "道德經"
+  "measure_info": "二卷"
  },
  "1evr5e3mfxf0o": {
   "id": "1evr5e3mfxf0o",
@@ -45435,8 +45493,7 @@
   "dynasty": "梁",
   "role": "撰",
   "juan_count": 30,
-  "measure_info": "三十卷",
-  "period": "nanbeichao"
+  "measure_info": "三十卷"
  },
  "1evr5e3mifbes": {
   "id": "1evr5e3mifbes",
@@ -45463,8 +45520,7 @@
   "dynasty": "三國吳",
   "role": "注",
   "juan_count": 1,
-  "measure_info": "一卷",
-  "period": "three-kingdoms"
+  "measure_info": "一卷"
  },
  "1evr5e3mifbg5": {
   "id": "1evr5e3mifbg5",
@@ -45649,8 +45705,7 @@
   "dynasty": "三國吳",
   "role": "注",
   "juan_count": 3,
-  "measure_info": "三卷",
-  "period": "three-kingdoms"
+  "measure_info": "三卷"
  },
  "1evr5e3mj1si0": {
   "id": "1evr5e3mj1si0",
@@ -46084,8 +46139,7 @@
   "dynasty": "三國魏",
   "role": "注",
   "juan_count": 3,
-  "measure_info": "三卷",
-  "period": "three-kingdoms"
+  "measure_info": "三卷"
  },
  "1evr5e3mkaqq9": {
   "id": "1evr5e3mkaqq9",
@@ -46261,8 +46315,7 @@
   "dynasty": "元",
   "role": "撰",
   "juan_count": 2,
-  "measure_info": "二卷",
-  "period": "song"
+  "measure_info": "二卷"
  },
  "1evrbhp6a8idw": {
   "id": "1evrbhp6a8idw",
@@ -46306,8 +46359,7 @@
   "dynasty": "元",
   "role": "撰",
   "juan_count": 4,
-  "measure_info": "四卷",
-  "period": "song"
+  "measure_info": "四卷"
  },
  "1evrbhp6a8if9": {
   "id": "1evrbhp6a8if9",
@@ -46398,14 +46450,14 @@
   "dynasty": "南朝陳",
   "role": "撰",
   "juan_count": 10,
-  "measure_info": "十卷",
-  "period": "nanbeichao"
+  "measure_info": "十卷"
  },
  "1evrbhp6ajqxe": {
   "id": "1evrbhp6ajqxe",
   "title": "翰苑新書",
   "type": "Work",
   "path": "Work/1/e/v/1evrbhp6ajqxe-翰苑新書.json",
+  "dynasty": "宋",
   "juan_count": 70,
   "measure_info": "前集七十卷",
   "period": "song"
@@ -46526,8 +46578,7 @@
   "author": "汪元量",
   "dynasty": "元",
   "role": "撰",
-  "measure_info": "四卷",
-  "period": "song"
+  "measure_info": "四卷"
  },
  "1evrbhp6ajr3o": {
   "id": "1evrbhp6ajr3o",
@@ -46561,8 +46612,7 @@
   "dynasty": "元",
   "role": "撰",
   "juan_count": 2,
-  "measure_info": "二卷",
-  "period": "song"
+  "measure_info": "二卷"
  },
  "1evrbhp6auzhg": {
   "id": "1evrbhp6auzhg",
@@ -46682,6 +46732,7 @@
   "title": "大事記",
   "type": "Work",
   "path": "Work/1/e/w/1ewozvs7gntia-大事記.json",
+  "dynasty": "漢",
   "period": "qin-han"
  },
  "1ewozxkjlifpy": {
@@ -46689,6 +46740,7 @@
   "title": "揕輿",
   "type": "Work",
   "path": "Work/1/e/w/1ewozxkjlifpy-揕輿.json",
+  "dynasty": "漢",
   "period": "qin-han"
  },
  "1ewozxkri6v56": {
@@ -46703,6 +46755,7 @@
   "title": "六博棋譜",
   "type": "Work",
   "path": "Work/1/e/w/1ewozxl7uwfnh-六博棋譜.json",
+  "dynasty": "漢",
   "period": "qin-han"
  },
  "1ewpfe2ljclxd": {
@@ -46729,7 +46782,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "sui-tang",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa49zje5b5": {
   "id": "1ewsa49zje5b5",
@@ -46741,7 +46794,7 @@
   "role": "撰",
   "juan_count": 2,
   "measure_info": "二卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a1v1qwm": {
   "id": "1ewsa4a1v1qwm",
@@ -46754,7 +46807,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a26lj09": {
   "id": "1ewsa4a26lj09",
@@ -46767,7 +46820,7 @@
   "juan_count": 3,
   "measure_info": "三卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a3l5z0m": {
   "id": "1ewsa4a3l5z0m",
@@ -46780,7 +46833,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a3p822v": {
   "id": "1ewsa4a3p822v",
@@ -46793,7 +46846,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "sui-tang",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a5vvuze": {
   "id": "1ewsa4a5vvuze",
@@ -46804,7 +46857,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a6sns0y": {
   "id": "1ewsa4a6sns0y",
@@ -46816,8 +46869,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a83hdim": {
   "id": "1ewsa4a83hdim",
@@ -46829,8 +46881,7 @@
   "role": "撰",
   "juan_count": 4,
   "measure_info": "四卷",
-  "period": "nanbeichao",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4a8uy9bp": {
   "id": "1ewsa4a8uy9bp",
@@ -46843,7 +46894,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4abubw7j": {
   "id": "1ewsa4abubw7j",
@@ -46854,7 +46905,7 @@
   "role": "注",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4afn1u5t": {
   "id": "1ewsa4afn1u5t",
@@ -46867,7 +46918,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4amj7hv3": {
   "id": "1ewsa4amj7hv3",
@@ -46876,7 +46927,7 @@
   "path": "Work/1/e/w/1ewsa4amj7hv3-朗州圖經.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4amqp6wh": {
   "id": "1ewsa4amqp6wh",
@@ -46885,7 +46936,7 @@
   "path": "Work/1/e/w/1ewsa4amqp6wh-湖南風土記.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4aobids0": {
   "id": "1ewsa4aobids0",
@@ -46897,8 +46948,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "three-kingdoms",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4ard2ogs": {
   "id": "1ewsa4ard2ogs",
@@ -46911,7 +46961,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4ayzga00": {
   "id": "1ewsa4ayzga00",
@@ -46920,7 +46970,7 @@
   "path": "Work/1/e/w/1ewsa4ayzga00-晏子佚文.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4azlm4km": {
   "id": "1ewsa4azlm4km",
@@ -46933,7 +46983,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b0hrkj3": {
   "id": "1ewsa4b0hrkj3",
@@ -46942,7 +46992,7 @@
   "path": "Work/1/e/w/1ewsa4b0hrkj3-孫子佚文.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b26blxd": {
   "id": "1ewsa4b26blxd",
@@ -46955,7 +47005,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b3418ln": {
   "id": "1ewsa4b3418ln",
@@ -46964,7 +47014,7 @@
   "path": "Work/1/e/w/1ewsa4b3418ln-要術佚文.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b37guks": {
   "id": "1ewsa4b37guks",
@@ -46973,7 +47023,7 @@
   "path": "Work/1/e/w/1ewsa4b37guks-農桑衣食撮要佚文.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b5bxzoj": {
   "id": "1ewsa4b5bxzoj",
@@ -46986,7 +47036,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "jin",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b5fdlno": {
   "id": "1ewsa4b5fdlno",
@@ -46998,7 +47048,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b77ohkl": {
   "id": "1ewsa4b77ohkl",
@@ -47011,7 +47061,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "sui-tang",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4b8itbep": {
   "id": "1ewsa4b8itbep",
@@ -47023,9 +47073,7 @@
   "role": "撰",
   "juan_count": 1,
   "measure_info": "一卷",
-  "period": "three-kingdoms",
-  "loss_status": "partially_extant",
-  "original_title": "老子"
+  "loss_status": "lost"
  },
  "1ewsa4b9ecaa1": {
   "id": "1ewsa4b9ecaa1",
@@ -47038,7 +47086,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4beu22wq": {
   "id": "1ewsa4beu22wq",
@@ -47047,7 +47095,7 @@
   "path": "Work/1/e/w/1ewsa4beu22wq-尚書中候馬注.json",
   "juan_count": 1,
   "measure_info": "一卷",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4bg64mkm": {
   "id": "1ewsa4bg64mkm",
@@ -47060,7 +47108,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsa4bhxhsut": {
   "id": "1ewsa4bhxhsut",
@@ -47073,7 +47121,7 @@
   "juan_count": 1,
   "measure_info": "一卷",
   "period": "qin-han",
-  "loss_status": "partially_extant"
+  "loss_status": "lost"
  },
  "1ewsovslvvojt": {
   "id": "1ewsovslvvojt",
@@ -47463,70 +47511,6 @@
   "period": "qin-han",
   "loss_status": "lost"
  },
- "1ewyt38t8jv9o": {
-  "id": "1ewyt38t8jv9o",
-  "title": "春秋通旨",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt38t8jv9o-春秋通旨.json",
-  "author": "胡安國",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 1,
-  "measure_info": "一卷",
-  "period": "song"
- },
- "1ewyt38z6dfdl": {
-  "id": "1ewyt38z6dfdl",
-  "title": "李衛公備全集摭遺",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt38z6dfdl-李衛公備全集摭遺.json",
-  "juan_count": 1,
-  "measure_info": "一卷"
- },
- "1ewyt38zs81ei": {
-  "id": "1ewyt38zs81ei",
-  "title": "齊齋乙槁",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt38zs81ei-齊齋乙槁.json",
-  "author": "倪思",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 15,
-  "measure_info": "十五卷",
-  "period": "song"
- },
- "1ewyt390yzjtp": {
-  "id": "1ewyt390yzjtp",
-  "title": "兼山論著",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt390yzjtp-兼山論著.json",
-  "author": "倪思",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 30,
-  "measure_info": "三十卷",
-  "period": "song"
- },
- "1ewyt394bh5ic": {
-  "id": "1ewyt394bh5ic",
-  "title": "宏辭總類第四集",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt394bh5ic-宏辭總類第四集.json",
-  "juan_count": 9,
-  "measure_info": "九卷"
- },
- "1ewyt399je0j3": {
-  "id": "1ewyt399je0j3",
-  "title": "欒城第三集",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewyt399je0j3-欒城第三集.json",
-  "author": "蘇轍",
-  "dynasty": "宋",
-  "role": "撰",
-  "juan_count": 10,
-  "measure_info": "十卷",
-  "period": "song"
- },
  "1ewyw2zgxhamc": {
   "id": "1ewyw2zgxhamc",
   "title": "後漢書二十八將傳論",
@@ -47538,23 +47522,13 @@
   "subtype": "article",
   "period": "nanbeichao"
  },
- "1ewz02d1umqdj": {
-  "id": "1ewz02d1umqdj",
-  "title": "侍兒小名錄續",
-  "type": "Work",
-  "path": "Work/1/e/w/1ewz02d1umqdj-侍兒小名錄續.json",
-  "juan_count": 1,
-  "measure_info": "一卷",
-  "period": "song"
- },
  "1ewz0awiwb0uc": {
   "id": "1ewz0awiwb0uc",
   "title": "山谷年譜",
   "type": "Work",
   "path": "Work/1/e/w/1ewz0awiwb0uc-山谷年譜.json",
   "juan_count": 2,
-  "measure_info": "二卷",
-  "period": "song"
+  "measure_info": "二卷"
  },
  "1ewz0axbyxq8a": {
   "id": "1ewz0axbyxq8a",

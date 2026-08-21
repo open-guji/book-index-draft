@@ -240,7 +240,7 @@ for k,v in dang.most_common(6): print('  ',k,v)
 import re as _re
 _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略','别':'別','吴':'吳'})
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
-secmag=_c.Counter(); secmag_ex=[]
+secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter()
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -249,13 +249,16 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     own=f.split('/')[4]; m=_c.defaultdict(set)
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
+        # 版本附屬部帙（外集、附錄之屬）依 SCHEMA 不別立 Work，本就與母條共繫，非磁鐵
+        if sec.get('section_kind')=='附屬部帙': secpart[own]+=1; continue
         w=sec.get('work_id')
         if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
     for w,ts in m.items():
         if len(ts)>1:
             secmag[own]+=len(ts)
             if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
-print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()))
+print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()),
+      '　附屬部帙節（依 SCHEMA 與母條共繫，不計）',sum(secpart.values()))
 for k,v in secmag.most_common(6): print('  ',k,v)
 for x in secmag_ex: print('   例',x)
 

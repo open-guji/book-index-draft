@@ -37,8 +37,14 @@
   ],
   "measure_info": "二卷",
   "loss_status": "lost",
+<<<<<<< HEAD
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”\n案《書録解題》小說家、《四庫存目》雜家並有王績《補妬記》\n八卷,因古有虞通之」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
   "updated_at": "2026-08-05T05:03:40+00:00",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }
+=======
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”\n案《書録解題》小說家、《四庫存目》雜家並有王績《補妬記》\n八卷,因古有虞通之」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 機讀存佚判據核驗專項（scripts/loss-evidence-mismatch.py）：判據「《書錄解題》小說家、《四庫存目》雜家並有王績《補妬記》八卷」所論為王績之書，非虞通之《姑記》。本書《隋志》著錄而今不傳。判據不足為據，然亡佚之結論別有所本，loss_status 仍作 lost。",
+  "updated_at": "2026-08-05T05:03:40+00:00"
+}
+>>>>>>> origin/main
