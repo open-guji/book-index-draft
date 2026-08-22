@@ -5,10 +5,10 @@
   "title": "琴譜合璧",
   "authors": [
     {
-      "name": "任兆麟",
-      "role": "撰",
+      "name": "和素",
+      "role": "譯",
       "dynasty": "清",
-      "entity_id": "1j9678njjg2sb"
+      "name_basis": "原作「任兆麟」，本條清史稿引文「琴譜合璧十八卷。何素繙譯。弦歌古樂譜一卷，簫譜一卷。任兆麟撰」實混入兩部書之著錄，「任兆麟」乃《弦歌古樂譜》《簫譜》之撰人，非本書撰人；本條四庫提要通篇考「國朝和素取明楊掄所撰太古遺音重為繙譯」，逕正為「和素」。"
     }
   ],
   "indexed_by": [
@@ -29,7 +29,8 @@
     }
   ],
   "books": [
-    "11q37rbejq6tc"
+    "11q37rbejq6tc",
+    "11qkhwq1wykn4"
   ],
   "juan_count": {
     "number": 18
@@ -67,11 +68,12 @@
     }
   ],
   "measure_info": "十八卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-22T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-22 B1 同名異書併池：併入 `1evkpxd6ro1kw`（琴譜合璧）。2026-08-21 B2 併池：併入 `1evkpxd6ro1kw`（故宮善本著錄，和素撰，清乾隆間寫文淵閣四庫全書本，十八卷）。同書。另有明楊掄撰十卷本（故宮善本，明金陵唐錦池文林閣刊本）乃和素改編所本之原著《太古遺音》之明刊本，版本、語言、卷數皆異，不併。"
 }
