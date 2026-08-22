@@ -17,7 +17,7 @@
     }
   ],
   "id": "1evcsyyuj1p8g",
-  "updated_at": "2026-08-22T06:42:10.872471+00:00",
+  "updated_at": "2026-08-22T07:18:13.254073+00:00",
   "juan_count": {
     "number": 12
   },
@@ -32,5 +32,14 @@
   "period_upper": "song",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "period": "sui-tang",
-  "period_basis": "題名自著撰人「李若水」，據其朝代「唐」定代（庫中 Entity 1j96hjwlxny2d）。本條 authors 欄闕，撰人僅見於題名，故前此判準俱夠不著而留 null；authors 之補屬併池車道，此處只定代。（2026-08-22 C1）"
+  "period_basis": "據撰人李若水之朝代「唐」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。",
+  "authors": [
+    {
+      "name": "李若水",
+      "dynasty": "唐",
+      "role": "撰",
+      "entity_id": "1j96hjwlxny2d",
+      "name_basis": "撰人見於題名「李若水集」，繫庫中同名人物 1j96hjwlxny2d。（2026-08-22 C1）"
+    }
+  ]
 }

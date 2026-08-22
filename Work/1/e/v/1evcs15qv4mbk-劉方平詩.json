@@ -17,7 +17,7 @@
     }
   ],
   "id": "1evcs15qv4mbk",
-  "updated_at": "2026-08-22T06:42:10.870875+00:00",
+  "updated_at": "2026-08-22T07:18:13.254073+00:00",
   "juan_count": {
     "number": 1
   },
@@ -32,5 +32,14 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
   "period": "sui-tang",
-  "period_basis": "題名自著撰人「劉方平」，據其朝代「唐」定代（庫中 Entity 1j96a2z92wpvx）。本條 authors 欄闕，撰人僅見於題名，故前此判準俱夠不著而留 null；authors 之補屬併池車道，此處只定代。（2026-08-22 C1）"
+  "period_basis": "據撰人劉方平之朝代「唐」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。",
+  "authors": [
+    {
+      "name": "劉方平",
+      "dynasty": "唐",
+      "role": "撰",
+      "entity_id": "1j96a2z92wpvx",
+      "name_basis": "撰人見於題名「劉方平詩」，繫庫中同名人物 1j96a2z92wpvx。（2026-08-22 C1）"
+    }
+  ]
 }
