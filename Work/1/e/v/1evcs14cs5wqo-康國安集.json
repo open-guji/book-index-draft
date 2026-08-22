@@ -17,7 +17,7 @@
     }
   ],
   "id": "1evcs14cs5wqo",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-22T06:42:10.823647+00:00",
   "juan_count": {
     "number": 10
   },
@@ -30,5 +30,7 @@
   "measure_info": "十卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "sui-tang",
+  "period_basis": "題名自著撰人「康國安」，據其朝代「唐」定代（庫中 Entity 1j967da97uujk）。本條 authors 欄闕，撰人僅見於題名，故前此判準俱夠不著而留 null；authors 之補屬併池車道，此處只定代。（2026-08-22 C1）"
 }
