@@ -243,3 +243,20 @@ B2 併池批十八已將 `1evr5e3mfm6m7`（崇文總目、宋志「又」條）�
 做任何合併或拆分操作，宜請熟悉實錄類文獻及本庫既有記錄拆分機制之
 車道複核處理：唐文宗部分（四十卷）宜與 `1evgphhsa3gn4` 合併，清文宗
 部分（三百五十六卷）宜另立新條。
+
+## Entity／CBDB（非志書問題，交 match-cbdb-authors 或相關人物車道）：《蒲室集》撰人「大訢」「釋大」疑為同一元代僧人之碎片化 Entity
+
+B2 併池批二十一合併《蒲室集》三條（釋大／大訢／釋大訢）為一，keeper 撰人
+Entity 為 `1j96hjwlxny2i`（primary_name「釋大」，alt_names 別號「無外」，
+CBDB `cbdb_id: 52944`，`cbdb_match: manual`，`cbdb_source:
+pending_accept: relaxed_unique cbdb_dy=15`，另繫《蒲室集》一書）；合併時
+斷連之 Entity `1j96ha9bt6jgg`（primary_name「大訢」，無 CBDB 匹配，另繫
+《松雲普鑑》一書）。
+
+**疑點**：本條《蒲室集》四庫提要明文「元釋大撰。大字笑隱」——即「釋大」
+字號應為「笑隱」，然 keeper Entity 現記別號卻是「無外」，兩者不符，「釋大」
+Entity 之 CBDB pending 匹配可能本身有誤（或匹配到另一位號「無外」之元代
+僧人）。若「大訢」「釋大」確為同一人（笑隱大訢，元代僧人，撰有《蒲室集》
+《松雲普鑑》等），兩 Entity 應合併，並更正別號記錄與 CBDB 匹配。此屬
+Entity 資料層面之核實與可能合併，非本車道 Work 併池所能逕動，記入
+handoff 供 CBDB 匹配專項或人物資料車道複核。
