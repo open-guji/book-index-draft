@@ -26,6 +26,15 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "春秋正義三十六卷",
       "summary": "春秋正義三十六卷。唐國子祭酒孔頴達按漢張蒼賈誼尹咸鄭衆賈逵皆爲詁訓然叅用公糓二家至晉杜預專治左氏其後有沈文阿蘇寛劉炫皆據杜說貞觀中頴逹據劉學而損益之長孫無忌等又復損益其書乃定皇朝"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《春秋正義》三十六卷",
+      "summary": "《春秋正義》三十六卷（孔頴逹）",
+      "author_info": "孔頴逹",
+      "merged_from": "1evcpcu7tk8hs",
+      "note": "國史經籍志作「孔頴逹」，三十六卷；本條崇文總目引文自作「孔頴達」，「頴逹」與「頴達」皆「穎達」之異體字寫法，同書。"
     }
   ],
   "id": "1evcpcu7tk8hs",
@@ -37,13 +46,23 @@
       "entity_id": "1j98owze20tts"
     }
   ],
-  "ai_note": "作者 \"唐孔穎達撰\" 補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "作者 \"唐孔穎達撰\" 補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B1 同名異書併池：併入 `1evgopxqsyb5s`（春秋正義）。2026-08-21 B2 併池：併入 `1evgopxqsyb5s`（國史經籍志，孔頴逹撰，三十六卷）。「頴逹」為「穎達」之異體字寫法，本條崇文總目引文自作「孔頴達」，同書。另有元邱葵撰本（補遼金元藝文志）乃另一時代之別撰，題名巧合，不併。",
   "books": [
     "11qkhzn0uckjk"
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-22T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 36
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 36
+    }
+  ],
+  "measure_info": "三十六卷"
 }
