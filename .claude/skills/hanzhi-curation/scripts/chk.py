@@ -6,6 +6,7 @@ def li(k):
     for s in '0123456789abcdef': d.update(json.load(open(f'index/{k}s/{s}.json')))
     return d
 IW,IB=li('work'),li('book'); IC=json.load(open('index/collections.json'))
+IE=li('entitie')
 # Production ID ↔ Draft ID：庫中之互指有用 Production ID 者，比對前兩側俱須正規化。
 # 不正規化則 Book→Work、Work→Book 之單向數全為假象（曾誤判二次）。
 _PR=json.load(open('promotions.json'))['promotions']
@@ -20,7 +21,7 @@ SB={s:set(json.load(open(f'index/books/{s}.json'))) for s in '0123456789abcdef'}
 print('索引 Work',len(IW),'Book',len(IB),'Collection',len(IC))
 print('分片錯置 Work',sum(1 for k in IW if k not in SW[shard(k)]),
       ' Book',sum(1 for k in IB if k not in SB[shard(k)]))
-print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values()) if not os.path.exists(v['path'])))
+print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values())+list(IE.values()) if not os.path.exists(v['path'])),'　基線 0（含 entities；人物併池退役後索引殘留即現於此）')
 prod={v['production_id'] for v in json.load(open('promotions.json'))['promotions'].values()}
 ents=set()
 for p in glob.glob('Entity/*/*/*/*.json'):
@@ -39,6 +40,19 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
         if e.get('title')!=d.get('title'): mism.append(('title',i,e.get('title'),d.get('title')))
         if d.get('authors') and e.get('author')!=d['authors'][0].get('name'):
             mism.append(('author',i,e.get('author'),d['authors'][0].get('name')))
+        # 索引其餘可機械推出之欄，規則照抄 book-index-manager 的 build_index_entry：
+        # 空值不入索引，故一律以「或 None」比對。2026-08-22 實測：只比 path/title/
+        # author 時，全庫尚有 2,666 條索引與記錄檔不符而無人知——dynasty 1,882、
+        # original_title 680、work_id 45 皆在盲區。凡改記錄檔而未重建索引即生此漂移，
+        # 修法：以本工具重建（見 .claude/plans/並行作業總表.md S2 條）。
+        _a0=(d.get('authors') or [{}])[0]
+        _a0=_a0 if isinstance(_a0,dict) else {}
+        _want2={'dynasty':_a0.get('dynasty') or d.get('dynasty') or None,
+                'role':_a0.get('role') or None,
+                'original_title':d.get('original_title') or None}
+        if kind=='B': _want2['work_id']=d.get('work_id') or None
+        for _k,_v in _want2.items():
+            if (e.get(_k) or None)!=_v: mism.append((_k,i,e.get(_k),_v))
         # 派生欄位（底線起首）：重新生成後比對，不一致以生成值為準（issue #10）。
         # has_text 曾是「有的對、有的錯、大半沒有」——欄名與手寫欄無別，遂無人知其該不該在。
         _ts=set()
