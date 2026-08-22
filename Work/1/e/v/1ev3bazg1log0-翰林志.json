@@ -44,6 +44,13 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "李肇翰林志",
       "summary": "李肇翰林志一卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "翰林志",
+      "merged_from": "1ev3bazg1log0",
+      "note": "直齋書錄解題另立之無撰人一卷本，與本條四庫等多家詳載唐李肇撰本卷數全合，同書。本條宋志引文「《翰林志》一卷蘇易簡」之「蘇易簡」疑屬頂真格綴名（蘇易簡另有《續翰林志》），非本書撰人，記入 handoff。"
     }
   ],
   "books": [
@@ -142,14 +149,12 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "從 31hyr5d6di5kd 合併。原註：作者「唐李肇撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0eyoy2gw（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwagbh5hc 與 11q37q1hr3ls0 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-10",
+  "ai_note": "從 31hyr5d6di5kd 合併。原註：作者「唐李肇撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0eyoy2gw（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwagbh5hc 與 11q37q1hr3ls0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 B1 同名異書併池：併入 `1evr5e3mj1sil`（翰林志）。2026-08-21 B2 併池：併入 `1evr5e3mj1sil`（直齋書錄解題，無撰人，一卷）。同書。",
+  "updated_at": "2026-08-22T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "emendated_by": [],
-  "related_works": []
+  "dynasty_basis": "author_propagation"
 }
