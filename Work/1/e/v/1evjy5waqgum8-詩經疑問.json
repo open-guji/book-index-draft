@@ -16,13 +16,15 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evg9zr4ij7y8 合併。原註：同名異書：已有 Work 作者為 [('姚舜牧', '明')]，本條作者 朱倬（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evg9zr4ij7y8 合併。原註：同名異書：已有 Work 作者為 [('姚舜牧', '明')]，本條作者 朱倬（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B1 同名異書併池：併入 `1evke32b6ppts`（詩經疑問）。2026-08-21 B2 併池：併入 `1evke32b6ppts`（國立故宮博物院善本舊籍，題「朱孟章」撰，清康熙徐乾學輯刊通志堂經解本，七卷）。「朱孟章」即本條「字孟章」之朱倬，卷數全合，同書之通志堂經解刊本。另有明姚舜牧十二卷本（`1ev3b9yc8gq2o`）撰人、卷數俱異，係另一部同題書，不併。",
   "id": "1evjy5waqgum8",
   "books": [
     "11qk4xwcuqyv7",
     "11qkhvmwhdlvk",
     "11qkhuply5rls",
-    "11qkhy8248pvk"
+    "11qkhy8248pvk",
+    "11qkhtfey4v7k",
+    "11qki31pap4hs"
   ],
   "measures": [
     {
@@ -47,9 +49,12 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-22T00:00:00+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 7
+  }
 }
