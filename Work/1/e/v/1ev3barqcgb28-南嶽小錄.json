@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1ev3barqcgb28",
   "type": "work",
-  "title": "南嶽小錄",
+  "title": "南嶽小錄道士李沖昭撰",
   "authors": [
     {
       "name": "道士李沖昭",
@@ -25,6 +25,12 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "南嶽小錄一卷",
       "summary": "南嶽小錄一卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "道士李沖昭南岳小錄",
+      "summary": "道士李沖昭南岳小錄一卷"
     }
   ],
   "books": [
@@ -101,12 +107,18 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-22T08:35:02.277736+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw8f90buo 與 11q37px2shz40 同指文淵閣寫本一實物，今併於後者。"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw8f90buo 與 11q37px2shz40 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 併池：《道士李沖昭南岳小錄》1evcs0n94fuo0 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題（原短題作《南嶽小錄》，「南嶽小錄」係簡轉繁誤映射，正之），別題存於 additional_titles。",
+  "additional_titles": [
+    "南嶽小錄",
+    "道士李沖昭南岳小錄"
+  ],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

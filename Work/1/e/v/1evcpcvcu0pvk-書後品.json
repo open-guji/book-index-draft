@@ -36,6 +36,12 @@
       "author_info": "李嗣眞",
       "merged_from": "1evgorlqhevpc",
       "note": "撰人原作「李嗣眞」，與「李嗣真」為一名之異寫，本條併入。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李嗣真書後品",
+      "summary": "李嗣真書後品一卷"
     }
   ],
   "id": "1evcpcvcu0pvk",
@@ -49,7 +55,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-22T08:39:02.616650+00:00",
   "_has_text": true,
   "juan_count": {
     "number": 1
@@ -66,7 +72,7 @@
       "name": "李嗣真",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": null,
+      "entity_id": "1j967bgl6e34t",
       "note": "舊唐書經籍志明載「《書後品》一卷李嗣貞撰」，「貞」為「真」之避諱改字。宋志句末「王之明」屬下條。"
     }
   ],
@@ -74,11 +80,16 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、宋史藝文志、崇文總目、直齋書錄解題同著《書後品》一卷，今合併並據舊唐志補撰人為李嗣真。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgorlqhevpc` 同題《書後品》、同卷數 1，撰人分作「李嗣真」「李嗣眞」。「眞」「真」異體。二者實一書之重出，今併。",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、宋史藝文志、崇文總目、直齋書錄解題同著《書後品》一卷，今合併並據舊唐志補撰人為李嗣真。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgorlqhevpc` 同題《書後品》、同卷數 1，撰人分作「李嗣真」「李嗣眞」。「眞」「真」異體。二者實一書之重出，今併。\n\n2026-08-22 併池：《李嗣真書後品》1evcs0azyzx8g 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
       "國史經籍志"
     ]
-  }
+  },
+  "additional_titles": [
+    "李嗣真書後品"
+  ],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

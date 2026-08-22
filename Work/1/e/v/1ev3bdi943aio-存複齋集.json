@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1ev3bdi943aio",
   "type": "work",
-  "title": "存複齋集",
+  "title": "存復齋集",
   "authors": [
     {
       "name": "朱德潤",
@@ -32,6 +32,19 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "《存復齋集》十卷",
       "summary": "元朱德潤存復齋集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《朱德潤存復齋集》十卷",
+      "summary": "《朱德潤存復齋集》十卷"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "朱德潤存復齋集十卷",
+      "summary": "元朱德潤存復齋集十卷。",
+      "note": "本著錄原繫於磁鐵條「存複齋集」（`1ev3bdi943aio`），今歸本條。"
     }
   ],
   "juan_count": {
@@ -50,10 +63,16 @@
       "補遼金元藝文志"
     ]
   },
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-22T08:35:02.277736+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 2 節，各以卷數定其主，今各歸之：《朱德潤存復齋集十卷》→《朱德潤存復齋集》`1evgqe2imi9z4`、《朱德潤存復齋集十卷》→《朱德潤存復齋集》`1evgqe2imi9z4`。"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 2 節，各以卷數定其主，今各歸之：《朱德潤存復齋集十卷》→《朱德潤存復齋集》`1evgqe2imi9z4`、《朱德潤存復齋集十卷》→《朱德潤存復齋集》`1evgqe2imi9z4`。\n\n2026-08-22 併池：《朱德潤存復齋集》1evgqe2imi9z4 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題（原短題作《存複齋集》，「存複齋集」係簡轉繁誤映射，正之），別題存於 additional_titles。",
+  "additional_titles": [
+    "存複齋集",
+    "朱德潤存復齋集"
+  ],
+  "period_upper": "liao-jin-yuan",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《補遼金元藝文志》（清人補遼金元，斷代），故不晚於 liao-jin-yuan"
 }

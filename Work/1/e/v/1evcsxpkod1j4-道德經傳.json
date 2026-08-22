@@ -15,10 +15,16 @@
       "title_info": "《道德經傳》四卷",
       "summary": "《道德經傳》四卷（陸希聲）",
       "author_info": "陸希聲"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "陸希聲道德經傳",
+      "summary": "陸希聲道德經傳四卷"
     }
   ],
   "id": "1evcsxpkod1j4",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-22T08:39:02.616650+00:00",
   "juan_count": {
     "number": 4
   },
@@ -29,17 +35,22 @@
     }
   ],
   "measure_info": "四卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「陸希聲」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「陸希聲」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。\n\n2026-08-22 併池：《陸希聲道德經傳》1evcs0m9h79j4 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
   "authors": [
     {
       "name": "陸希聲",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
+      "entity_id": "1j967afjb6ae7",
       "note": "據本 work 諸著錄之 author_info「陸希聲」補；著錄所給者為一，去朝代與職名後取之。"
     }
   ],
   "original_title": "道德經",
   "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
+  "additional_titles": [
+    "陸希聲道德經傳"
+  ],
+  "period": "sui-tang",
+  "period_basis": "據撰人陸希聲之朝代「唐」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。"
 }

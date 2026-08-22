@@ -15,6 +15,12 @@
       "title_info": "《左氏釋疑》七卷",
       "summary": "《左氏釋疑》七卷（裴安時）",
       "author_info": "裴安時"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "裴安時左氏釋疑",
+      "summary": "裴安時左氏釋疑七卷"
     }
   ],
   "id": "1evcsw8ppyscg",
@@ -25,7 +31,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-22T08:39:02.616650+00:00",
   "juan_count": {
     "number": 7
   },
@@ -36,16 +42,21 @@
     }
   ],
   "measure_info": "七卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（七卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「裴安時」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（七卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「裴安時」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-22 併池：《裴安時左氏釋疑》1evcs09jckohs 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
   "authors": [
     {
       "name": "裴安時",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
+      "entity_id": "1j967da978dg7",
       "note": "據本 work 諸著錄之 author_info「裴安時」補；著錄所給者為一，去朝代與職名後取之。"
     }
   ],
   "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
+  "additional_titles": [
+    "裴安時左氏釋疑"
+  ],
+  "period": "sui-tang",
+  "period_basis": "據撰人裴安時之朝代「唐」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。"
 }
