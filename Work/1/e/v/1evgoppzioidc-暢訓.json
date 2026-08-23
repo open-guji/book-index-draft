@@ -11,15 +11,16 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 100
   },
   "indexed_by": [
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《暢訓》一卷、又百篇",
-      "summary": "《暢訓》一卷、又百篇（漢伏勝）",
-      "author_info": "漢伏勝"
+      "title_info": "《暢訓》百篇",
+      "summary": "《暢訓》百篇（漢伏勝）",
+      "author_info": "漢伏勝",
+      "note": "2026-08-23 A1 車道拆節：本志原一節多書「《暢訓》一卷、又百篇」今已拆為各自之節，本著錄條之 title_info 從所繫之節改記。"
     },
     {
       "source": "新唐書藝文志",
@@ -34,15 +35,15 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"暢訓\" 唯一候选无作者\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcs07blr4lc（暢訓）。本組 title=暢訓，有 author 條之作者=伏勝，noauthor 條 1evcs07blr4lc 為志書連書省撰人體例（新唐書藝文志），判定同書。共移入 1 個 indexed_by 記錄。",
+  "ai_note": "missing_reason: 短title \"暢訓\" 唯一候选无作者\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcs07blr4lc（暢訓）。本組 title=暢訓，有 author 條之作者=伏勝，noauthor 條 1evcs07blr4lc 為志書連書省撰人體例（新唐書藝文志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-23 A1 車道拆節：本條出於國史經籍志一節多書之著錄「《暢訓》…、又百篇…」——匯入取**首項之卷數**（1）而配**夾註首撰人**，是兩書之雜揉。夾註所配者為「又N卷」諸項（張丘建筭經·李淳風、墨子·樂臺、太公陰謀·魏武帝三例可外證），故本條實為第二項之書，卷數今從之改為 100。",
   "id": "1evgoppzioidc",
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 100
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "一百卷",
   "updated_at": "2026-08-08",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",

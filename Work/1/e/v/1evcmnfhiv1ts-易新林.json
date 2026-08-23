@@ -26,9 +26,10 @@
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《易新林》一卷、又四卷、又九卷",
-      "summary": "《易新林》一卷、又四卷、又九卷（漢許峻；郭穰）",
-      "author_info": "漢許峻；郭穰"
+      "title_info": "《易新林》四卷",
+      "summary": "《易新林》四卷（漢許峻）",
+      "author_info": "漢許峻",
+      "note": "2026-08-23 A1 車道拆節：本志原一節多書「《易新林》一卷、又四卷、又九卷」今已拆為各自之節，本著錄條之 title_info 從所繫之節改記。"
     },
     {
       "source": "經義考",
@@ -52,7 +53,7 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 4
   },
   "id": "1evcmnfhiv1ts",
   "emendated_by": [
@@ -66,10 +67,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 4
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "四卷",
   "updated_at": "2026-08-06T22:59:42+00:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」（原authors[0]缺dynasty欄位，2026-08-11西漢探勘延伸階段據所繫Entity補入）",
@@ -80,5 +81,5 @@
       "《後漢書·方術傳》"
     ]
   },
-  "ai_note": "2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。"
+  "ai_note": "2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。\n\n2026-08-23 A1 車道拆節：本條出於國史經籍志一節多書之著錄「《易新林》…、又四卷…」——匯入取**首項之卷數**（1）而配**夾註首撰人**，是兩書之雜揉。夾註所配者為「又N卷」諸項（張丘建筭經·李淳風、墨子·樂臺、太公陰謀·魏武帝三例可外證），故本條實為第二項之書，卷數今從之改為 4。"
 }
