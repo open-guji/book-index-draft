@@ -21,24 +21,25 @@
       "edition": "以上二種，編修勵守謙家藏本"
     },
     {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "四書釋地",
-      "summary": "《四書釋地》一卷，續》一卷，又續二卷，三續二卷，孟子生卒年月考》一卷。閻若璩撰。"
-    },
-    {
       "source": "書目答問",
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "四書釋地",
       "summary": "《四書釋地》一卷，《續》一卷，《又續》二卷，《三續》二卷。{{閻若璩。通行本，學海堂本。}}",
       "author_info": "《續》一卷，《又續》二卷，《三續》二卷"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "又續",
+      "summary": "《四書釋地》一卷，續》一卷，又續二卷，三續二卷，孟子生卒年月考》一卷。閻若璩撰。",
+      "note": "2026-08-23 A4 車道補立：清史稿一條連著數書，匯入切成數節而共繫一條；拆分之後母條原有之著錄條隨被析出之書移走，本條遂無自己的著錄，今據本志繫本條之節補。"
     }
   ],
   "books": [
     "11q37oq06uccg"
   ],
   "juan_count": {
-    "number": 1
+    "number": 2
   },
   "additional_works": [
     {
@@ -83,16 +84,23 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 2
     }
   ],
-  "measure_info": "一卷",
-  "ai_note": "從 31hyr4yqs29nt 合併。原註：短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部四書類 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvwbajjsw 與 11q37oq06uccg 同指文淵閣寫本一實物，今併於後者。",
+  "measure_info": "二卷",
+  "ai_note": "從 31hyr4yqs29nt 合併。原註：短書名（2字），可能存在同名異書。 來源：清史稿藝文志經部四書類 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvwbajjsw 與 11q37oq06uccg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條連著閻若璩五書（四書釋地一卷、續一卷、又續二卷、三續二卷、孟子生卒年月考一卷）。母條題作「四書釋地又續」，故留與「又續」相配，本條析出者為《四書釋地》一卷。析出 1ex06af5prl6s《四書釋地》。　卷數訂正：原作 1，乃同條他書之數，今從著錄改為 2。",
   "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06af5prl6s",
+      "title": "四書釋地",
+      "relation": "related"
+    }
+  ]
 }

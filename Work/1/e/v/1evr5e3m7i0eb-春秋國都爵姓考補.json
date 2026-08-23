@@ -18,8 +18,9 @@
     {
       "source": "清史稿藝文志",
       "source_bid": "1evdiulq07rwg",
-      "title_info": "春秋國都爵姓考",
-      "summary": "《春秋國都爵姓考》一卷，《補一卷。陳鵬撰。"
+      "title_info": "春秋國都爵姓考補",
+      "summary": "《春秋國都爵姓考》一卷，《補一卷。陳鵬撰。",
+      "note": "2026-08-23 A4 車道補立：清史稿一條連著數書，匯入切成數節而共繫一條；拆分之後母條原有之著錄條隨被析出之書移走，本條遂無自己的著錄，今據本志繫本條之節補。"
     }
   ],
   "measures": [
@@ -29,10 +30,17 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "從 31hyr4yqrr165 合併。原註：短書名（1字），可能存在同名異書。 來源：清史稿藝文志經部春秋類 書名由「補」修正為「春秋國都爵姓考補」。",
+  "ai_note": "從 31hyr4yqrr165 合併。原註：短書名（1字），可能存在同名異書。 來源：清史稿藝文志經部春秋類 書名由「補」修正為「春秋國都爵姓考補」。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條著「《春秋國都爵姓考》一卷，《補一卷。陳鵬撰。」，二書。析出 1ex06afai2l1l《春秋國都爵姓考》。",
   "updated_at": "2026-08-09T10:40:18+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06afai2l1l",
+      "title": "春秋國都爵姓考",
+      "relation": "related"
+    }
+  ]
 }

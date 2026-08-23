@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "豐鎬考信錄",
+  "id": "1ex06afn06sd4",
+  "authors": [
+    {
+      "name": "崔述",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j9678gg70hs2"
+    }
+  ],
+  "juan_count": {
+    "number": 8
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "豐鎬考信錄",
+      "summary": "考信錄提要二卷，補上古考信錄二卷，唐虞考信錄四卷，夏考信錄二卷，商考信錄二卷，豐鎬考信錄八卷，豐鎬別錄三卷，考古續說二卷，考信附錄二卷。崔述撰。",
+      "note": "2026-08-23 A4 車道據本志此節新立（一著錄多書之拆分）。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evr5e3m7t8z5",
+      "title": "洙泗考信錄",
+      "relation": "related"
+    }
+  ],
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-23 A4 車道磁鐵拆分（一著錄多書）：同上。本條自 1evr5e3m7t8z5（洙泗考信錄）析出，撰人、朝代、period 承母條（同撰人異書）。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}

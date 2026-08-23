@@ -16,12 +16,6 @@
   },
   "indexed_by": [
     {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "致曲術",
-      "summary": "洞方術圓解二卷，致曲術一卷，致曲術圖解一卷，萬象一原九卷。夏鸞翔撰。"
-    },
-    {
       "source": "續修四庫全書",
       "source_bid": "1evjk1whvmznk",
       "title_info": "《致曲術致曲圖解》一卷",
@@ -30,6 +24,13 @@
       "edition": "影印上海圖書館藏稿本",
       "volume": "第1047冊",
       "section": "子部 天文算法類"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "致曲術圖解",
+      "summary": "洞方術圓解二卷，致曲術一卷，致曲術圖解一卷，萬象一原九卷。夏鸞翔撰。",
+      "note": "2026-08-23 A4 車道補立：清史稿一條連著數書，匯入切成數節而共繫一條；拆分之後母條原有之著錄條隨被析出之書移走，本條遂無自己的著錄，今據本志繫本條之節補。"
     }
   ],
   "measures": [
@@ -59,11 +60,18 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjr4q62tvy8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "從 1evjr4q62tvy8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條連著夏鸞翔四書（洞方術圓解二卷、致曲術一卷、致曲術圖解一卷、萬象一原九卷）。析出 1ex06af6xs1s5《致曲術》。",
   "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06af6xs1s5",
+      "title": "致曲術",
+      "relation": "related"
+    }
+  ]
 }

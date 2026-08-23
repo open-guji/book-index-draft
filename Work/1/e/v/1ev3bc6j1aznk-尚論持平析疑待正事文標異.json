@@ -44,22 +44,10 @@
       "edition": "影印中國科學院圖書館藏清刻芙蓉城四種書本",
       "volume": "第1136冊",
       "section": "子部 雑家類"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "析疑待正",
-      "summary": "尚論持平二卷，析疑待正二卷，事文標異一卷。陸次雲撰。"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "事文標異",
-      "summary": "尚論持平二卷，析疑待正二卷，事文標異一卷。陸次雲撰。"
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 2
   },
   "additional_works": [
     {
@@ -136,10 +124,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 2
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "二卷",
   "description": {
     "text": "本書收入《四庫全書存目叢書》第115冊（子部）。",
     "sources": [
@@ -147,12 +135,24 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjxm4o8cfeo 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bc6j1aznk(陸次雲)（不同作者，故新建獨立 Work）。 | 從 1evjr5w98fe2o 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 2，與著錄原文（續修四庫全書：「尚論持平析疑待正事文標異」）所載之 1 卷不合，今據原文訂正。",
+  "ai_note": "從 1evjxm4o8cfeo 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bc6j1aznk(陸次雲)（不同作者，故新建獨立 Work）。 | 從 1evjr5w98fe2o 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 2，與著錄原文（續修四庫全書：「尚論持平析疑待正事文標異」）所載之 1 卷不合，今據原文訂正。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條著「尚論持平二卷，析疑待正二卷，事文標異一卷。陸次雲撰。」，三書。母條留首書《尚論持平》，其卷數從著錄改為二。析出 1ex06afnmnvh5《析疑待正》。　卷數訂正：原作 1，乃同條他書之數，今從著錄改為 2。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：同上，析出《事文標異》一卷。析出 1ex06afouzkm2《事文標異》。",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06afnmnvh5",
+      "title": "析疑待正",
+      "relation": "related"
+    },
+    {
+      "id": "1ex06afouzkm2",
+      "title": "事文標異",
+      "relation": "related"
+    }
+  ]
 }

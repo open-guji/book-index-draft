@@ -12,26 +12,35 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 3
   },
   "indexed_by": [
     {
       "source": "清史稿藝文志",
       "source_bid": "1evdiulq07rwg",
-      "title_info": "備忘錄",
-      "summary": "言行見聞錄四卷，備忘錄四卷，近古錄四卷，初學備忘錄三卷，經正錄一卷，原記一卷，答問一卷。張履祥撰。"
+      "title_info": "初學備忘錄",
+      "summary": "言行見聞錄四卷，備忘錄四卷，近古錄四卷，初學備忘錄三卷，經正錄一卷，原記一卷，答問一卷。張履祥撰。",
+      "note": "2026-08-23 A4 車道補立：清史稿一條連著數書，匯入切成數節而共繫一條；拆分之後母條原有之著錄條隨被析出之書移走，本條遂無自己的著錄，今據本志繫本條之節補。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 3
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "三卷",
   "updated_at": "2026-08-09T10:40:18+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06af21q7ep",
+      "title": "備忘錄",
+      "relation": "related"
+    }
+  ],
+  "ai_note": "2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條連著張履祥七書（言行見聞錄四卷、備忘錄四卷、近古錄四卷、初學備忘錄三卷、經正錄一卷、原記一卷、答問一卷），匯入切成數節而共繫一條。《備忘錄》四卷與《初學備忘錄》三卷是二書。析出 1ex06af21q7ep《備忘錄》。　卷數訂正：原作 1，乃同條他書之數，今從著錄改為 3。"
 }

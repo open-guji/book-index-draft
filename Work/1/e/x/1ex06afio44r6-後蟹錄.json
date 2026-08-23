@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "後蟹錄",
+  "id": "1ex06afio44r6",
+  "authors": [
+    {
+      "name": "孫之騄",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j967afj9av4b"
+    }
+  ],
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "後蟹錄",
+      "summary": "晴川蟹錄四卷，後蟹錄四卷。孫之騄撰。",
+      "note": "2026-08-23 A4 車道自 1ev3bbuv7flz4 移入（一著錄多書之拆分）。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1ev3bbuv7flz4",
+      "title": "晴川蟹錄後蟹錄續蟹錄",
+      "relation": "related"
+    }
+  ],
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條著「晴川蟹錄四卷，後蟹錄四卷。孫之騄撰。」，二書。本條自 1ev3bbuv7flz4（晴川蟹錄後蟹錄續蟹錄）析出，撰人、朝代、period 承母條（同撰人異書）。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}

@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 12
   },
   "indexed_by": [
     {
@@ -37,21 +37,15 @@
       "edition": "影印清道光七年趙銘彝刻本",
       "volume": "第144冊",
       "section": "经部 春秋類"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "春秋比",
-      "summary": "《春秋說略》十二卷，《春秋比》二卷。郝懿行撰。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 12
     }
   ],
-  "measure_info": "二卷",
+  "measure_info": "十二卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -80,11 +74,18 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqzaoaz2f4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「春秋說略春秋比」）所載之 2 卷不合，今據原文訂正。",
+  "ai_note": "從 1evjqzaoaz2f4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「春秋說略春秋比」）所載之 2 卷不合，今據原文訂正。\n\n2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條著「《春秋說略》十二卷，《春秋比》二卷。郝懿行撰。」，二書。母條留首書《春秋說略》，其卷數從著錄改為十二。析出 1ex06afd0a618《春秋比》。　卷數訂正：原作 2，乃同條他書之數，今從著錄改為 12。",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06afd0a618",
+      "title": "春秋比",
+      "relation": "related"
+    }
+  ]
 }

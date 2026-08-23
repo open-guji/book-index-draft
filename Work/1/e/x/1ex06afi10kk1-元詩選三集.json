@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "元詩選三集",
+  "id": "1ex06afi10kk1",
+  "authors": [
+    {
+      "name": "顧嗣立",
+      "role": "編",
+      "dynasty": "清",
+      "entity_id": "1j967afj9m3p8"
+    }
+  ],
+  "juan_count": {
+    "number": 111
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 111
+    }
+  ],
+  "measure_info": "一百十一卷",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "元詩選三集",
+      "summary": "元詩選三集一百十一卷，元詩選癸集十卷。顧嗣立編。",
+      "note": "2026-08-23 A4 車道自 1ev3benzpp62o 移入（一著錄多書之拆分）。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1ev3benzpp62o",
+      "title": "元詩選癸集",
+      "relation": "related"
+    }
+  ],
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條著「元詩選三集一百十一卷，元詩選癸集十卷。顧嗣立編。」，二書。本條自 1ev3benzpp62o（元詩選癸集）析出，撰人、朝代、period 承母條（同撰人異書）。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}

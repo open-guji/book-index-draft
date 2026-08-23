@@ -12,15 +12,9 @@
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 3
   },
   "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周官說",
-      "summary": "《周官記六卷，《周官說二卷，《周官說補三卷。庄存與撰。"
-    },
     {
       "source": "續修四庫全書",
       "source_bid": "1evjk1whvmznk",
@@ -30,15 +24,22 @@
       "edition": "影印浙江省圖書館藏清嘉慶八年味經齋刻道光七年增修彙印味經齋遺書本",
       "volume": "第80冊",
       "section": "经部 禮類"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "周官說補",
+      "summary": "《周官記六卷，《周官說二卷，《周官說補三卷。莊存與撰。",
+      "note": "2026-08-23 A4 車道補立：清史稿一條連著數書，匯入切成數節而共繫一條；拆分之後母條原有之著錄條隨被析出之書移走，本條遂無自己的著錄，今據本志繫本條之節補。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 3
     }
   ],
-  "measure_info": "二卷",
+  "measure_info": "三卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -66,5 +67,13 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex06afgvi0b4",
+      "title": "周官說",
+      "relation": "related"
+    }
+  ],
+  "ai_note": "2026-08-23 A4 車道磁鐵拆分（一著錄多書）：清史稿一條連著莊存與三書（周官記六卷、周官說二卷、周官說補三卷）。母條題作「周官說補」，其卷數從著錄改為三。析出 1ex06afgvi0b4《周官說》。　卷數訂正：原作 2，乃同條他書之數，今從著錄改為 3。"
 }
