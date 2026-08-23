@@ -25,6 +25,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "王智深宋紀",
       "summary": "王智深宋紀三十卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《宋紀》三十卷",
+      "summary": "《宋紀》三十卷王智深撰。",
+      "merged_from": "1evgpgy0trl6o",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，30卷，不著撰人）與本條（國史經籍志、新唐書藝文志，30卷，王智深撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -33,7 +41,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"宋紀\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0by2d14w（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "ai_note": "missing_reason: 短title \"宋紀\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0by2d14w（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcw3mv8xs`（宋紀）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpcw3mv8xs`（舊唐書經籍志，30卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evgpgy0trl6o",
   "measures": [
     {
@@ -42,10 +50,8 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-08-10",
-  "emendated_by": [],
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "books": [],
-  "related_works": [],
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }
