@@ -359,10 +359,22 @@ _OFF2 = ('將軍', '太守', '刺史', '尚書', '侍郎', '議郎', '中郎', '
 # 範衍：明錢一本書名，「衍《洪範》」之義，非姓——《經義考》掛源後始見（2026-08-23 補）
 _KEEP2 = {'範圍', '範式', '範例', '範疇', '範金', '範土', '範銅', '範模', '範衍'}
 _ovc = _c.Counter()
+# 整理本自陳 text_quality.grade == 'source' 者不驗——「原文照錄」謂其文未經
+# 簡繁往返，本驗所捕之過度轉換無從發生，而原本自有之用字反落網：《經義考》
+# 文淵閣本「日辰有十幹十二支」之幹是本字，「葉氏（世竒）範通」之範是洪範之
+# 範，「王氏（範）交廣春秋」之範是名不是姓。2026-08-23 立。
+_SRCDIRS = set()
+for _i in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+    try:
+        if (json.load(open(_i)).get('text_quality') or {}).get('grade') == 'source':
+            _SRCDIRS.add(os.path.dirname(_i))
+    except Exception:
+        pass
 _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
           + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
           + glob.glob('Work/*/*/*/*/fragments/*.json')
-          + glob.glob('Work/*/*/*/*/collated_edition/*.json')
+          + [_f for _f in glob.glob('Work/*/*/*/*/collated_edition/*.json')
+             if os.path.dirname(_f) not in _SRCDIRS]
           + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
 for _f in _FILES:
     try:
