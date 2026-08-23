@@ -1,7 +1,6 @@
 {
   "schema_version": 1,
   "type": "work",
-  "subtype": "chapter",
   "title": "稱",
   "authors": [],
   "description": {
@@ -15,15 +14,15 @@
     {
       "id": "1ev7xkhjkqygw",
       "title": "黃帝四經",
-      "relation": "part_of"
+      "relation": "related"
     }
   ],
   "books": [
     "11roszm8hicjt"
   ],
-  "ai_note": "據網路檢索資料建檔，未核原書。唐蘭以帛書此四篇即《漢志》道家《黃帝四經》四篇，學界或有異議，本庫暫從其說。",
+  "ai_note": "據網路檢索資料建檔，未核原書。唐蘭以帛書此四篇即《漢志》道家《黃帝四經》四篇，學界或有異議，本庫暫從其說。\n\n2026-08-23 改判：唐蘭比定（此四篇即《漢志》《黃帝四經》）未成定論，且四篇題皆帛書原有、文體各異，實為四書合抄於《老子》乙本卷前——去 subtype:chapter，獨立成書；與《漢志》亡佚條目《黃帝四經》（1ev7xkhjkqygw）之繫由 part_of 降為 related，比定說僅存文字層。",
   "id": "1ewozu3bb7img",
-  "updated_at": "2026-07-29T05:41:23+00:00",
+  "updated_at": "2026-08-23T09:47:59+00:00",
   "period_upper": "qin-han",
   "period_upper_basis": "excavation_bound：本書出於西漢初長沙馬王堆帛書——簡帛抄寫之年不早於成書之年，故不晚於 qin-han"
 }
