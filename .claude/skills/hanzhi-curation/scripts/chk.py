@@ -156,6 +156,10 @@ w2e={}
 for p in glob.glob('Work/*/*/*/*.json'):
     try: d=json.load(open(p))
     except Exception: continue
+    # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
+    # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
+    # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
+    if d.get('_promoted_to'): continue
     w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
 e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
            if x.get('work_id') in w2e and i not in w2e[x['work_id']])
@@ -281,6 +285,17 @@ except NameError:
         except Exception: pass
 import collections as _c
 dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+# 升格之後，整理本節之 work_id 由 rewrite_references 改指 production id，
+# 而 IW 只有 draft。只查 IW 則每升一條就把它的節全算成「落空」——
+# 實測升三條，落空由 312 漲到 336。故存在性以兩倉合計判。
+# _TITLE 已在前面建好（draft 索引 + production Work／Collection 之記錄檔）。
+_EXIST_W=set(IW)|set(_TITLE)
+_EXIST_B=set(IB)
+if _PR_ROOT:
+    for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if isinstance(_d,dict) and _d.get('id'): _EXIST_B.add(_d['id'])
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -292,14 +307,14 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
-            if w in IW: continue
+            if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
-            if w in IB: dang_is_book+=1
+            if w in _EXIST_B: dang_is_book+=1
         b=sec.get('book_id')
-        if isinstance(b,str) and b not in IB:
+        if isinstance(b,str) and b not in _EXIST_B:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
-        if isinstance(b,str) and b not in IB and b not in IW:
+        if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 for k,v in dang.most_common(6): print('  ',k,v)
