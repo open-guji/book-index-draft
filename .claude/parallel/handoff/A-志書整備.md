@@ -1124,3 +1124,19 @@ B6 車道處理 B3′ 遺留之「撰人名近似待覈」105 組，併 82、判
 本車道已就撰人欄逐條修訖二十八條（含缺字型「王□登」＝王穉登、「朱□」＝朱㮵等），
 餘七十一條或部件不成字、或合成後無可印證之人，未敢逕改，列於 `/tmp` 之外請 A 車道就原目錄核。
 逐條修法與其據記於各該 Work 之 `ai_note`（皆以「2026-08-23 B7 殘名撰人」起首，可 grep）。
+
+## 【B7 順手】上游「出土簡帛拆四條誤併」遺下之 Book 索引未改繫（2026-08-23）
+
+commit `dc7f31b12`（出土簡帛：拆四條誤併——馬王堆五星占／相馬經／雜療方、北大醫方）
+把四個 Book 改繫到新拆出之 Work，而 `index/books/*.json` 之 `work_id` 未隨之改，
+`chk.py` 報「索引欄位不符 4」。四條俱已驗明新 Work 之 `books[]` 確含該 Book，今逕正索引：
+
+| Book | 索引原值 | 已改為 |
+| --- | --- | --- |
+| `11roszmsf4xfl` | `1evcmngtfh728` | `1ex07zkvf9fcw` |
+| `11roszmf4xd7d` | `1evfuuzk0kdfk` | `1ex07zks59q0w` |
+| `11rot33iysb31` | `1evcsykhyjmyo` | `1ex07zkx36znk` |
+| `11roszmjvcxt4` | `1evgpi8pcbuv4` | `1ex07zktskt8g` |
+
+只改派生索引，未動 Work／Book 之實質欄。**拆條時記得跑一次索引同步**——
+`scripts/b1/postmerge_fix.py` 之第一段（books work_id）可直接借用。
