@@ -156,6 +156,10 @@ w2e={}
 for p in glob.glob('Work/*/*/*/*.json'):
     try: d=json.load(open(p))
     except Exception: continue
+    # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
+    # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
+    # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
+    if d.get('_promoted_to'): continue
     w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
 e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
            if x.get('work_id') in w2e and i not in w2e[x['work_id']])
@@ -314,7 +318,21 @@ except NameError:
         except Exception: pass
 import collections as _c
 # 叢書之節得繫 Collection（中國通俗小說書目卷九「叢書目」即是），亦非落空（2026-08-23 補）
-dang=_c.Counter(); dang_is_book=0; dang_ids=set(); dang_is_coll=0
+dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+# 升格之後，整理本節之 work_id 由 rewrite_references 改指 production id，
+# 而 IW 只有 draft。只查 IW 則每升一條就把它的節全算成「落空」——
+# 實測升三條，落空由 312 漲到 336。故存在性以兩倉合計判。
+# _TITLE 已在前面建好（draft 索引 + production Work／Collection 之記錄檔）。
+# 並收 draft 之 Collection（IC）——叢書之節繫叢書，亦是合法繫連（2026-08-23 補）。
+# promotions.json 之 production_id 亦須收——production 庫（../book-index）不在手邊時
+# _TITLE 建不出其記錄，只靠 _TITLE 則升格過之條的節全被誤報為落空（實測 252 條）。
+_EXIST_W=set(IW)|set(_TITLE)|set(IC)|set(prod)
+_EXIST_B=set(IB)
+if _PR_ROOT:
+    for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if isinstance(_d,dict) and _d.get('id'): _EXIST_B.add(_d['id'])
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -328,14 +346,14 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         # 升格之後，整理本之繫連改指 production id（四庫總目、隋志考證、先秦諸子等）。
         # 那不是落空——只查 IW 會把 200 餘條合法繫連誤報為缺陷（2026-08-23 訂）。
         for w in ws:
-            if w in IW or w in prod or w in IC: continue
+            if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
-            if w in IB: dang_is_book+=1
+            if w in _EXIST_B: dang_is_book+=1
         b=sec.get('book_id')
-        if isinstance(b,str) and b not in IB and b not in prod:
+        if isinstance(b,str) and b not in _EXIST_B and b not in prod:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
-        if isinstance(b,str) and b not in IB and b not in IW and b not in prod and b not in IC:
+        if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W and b not in prod:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book,
       '　（繫 Collection 者不計——叢書之節得繫 Collection）')
