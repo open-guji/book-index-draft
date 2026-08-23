@@ -65,6 +65,14 @@
       "edition": "影印宋刻本",
       "volume": "第1041冊",
       "section": "子部 天文算法類"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《孫子筭經》二卷",
+      "summary": "《孫子筭經》二卷",
+      "merged_from": "1ev3bbkhnhreo",
+      "note": "異體重出組：國史經籍志《孫子筭經》二卷（李淳風），與本條題名經異體歸一後全同——撰人同為李淳風、朝代同唐，而本條八家著錄俱作三卷，國史志之「二」當是「三」之訛。判為同書。"
     }
   ],
   "books": [
@@ -72,7 +80,9 @@
     "11q6si69pndhc",
     "11qkhtzd7i134",
     "11qki37w1gf0g",
-    "11qkhyvhf35ds"
+    "11qkhyvhf35ds",
+    "11qk4xwct6s62",
+    "11qkhup7ulwcg"
   ],
   "juan_count": {
     "number": 3
@@ -155,7 +165,7 @@
       ]
     }
   ],
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。 作者「唐李淳風等注釋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw6l1onb4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 | 從 1evke4tf1fdvk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwlz9x5vk 與 11q37qz8z79q8 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。 作者「唐李淳風等注釋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjvw6l1onb4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 | 從 1evke4tf1fdvk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwlz9x5vk 與 11q37qz8z79q8 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 B1 同名異書併池：併入 `1evgorq08q4g0`（孫子算經）。2026-08-23 B4 異體字重出併池：併入 `1evgorq08q4g0`（國史經籍志《孫子筭經》二卷（李淳風））。二題之別僅在異體字，歸一後全同；撰人同為李淳風、朝代同唐，而本條八家著錄俱作三卷，國史志之「二」當是「三」之訛。",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",
@@ -184,11 +194,14 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "孫子筭經"
+  ]
 }
