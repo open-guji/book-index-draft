@@ -38,6 +38,14 @@
       "attested_status": "extant",
       "attested_status_raw": "存",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《通易論》",
+      "summary": "阮嗣宗《通易論》一卷",
+      "merged_from": "1evfhb93ylm2o",
+      "note": "宋史藝文志「阮嗣宗《通易論》一卷」，「阮嗣宗」即本條「阮籍」之字（本條三國藝文志考語自引「《宋史·藝文志》：阮嗣宗《通易論》一卷」），卷數全合，同書。"
     }
   ],
   "description": {
@@ -46,7 +54,7 @@
       "三國藝文志"
     ]
   },
-  "ai_note": "識典原文作「諭」，或「論」之誤。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "識典原文作「諭」，或「論」之誤。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsw4nhlj40`（通易論）。2026-08-21 B2 併池：併入 `1evcsw4nhlj40`（宋史藝文志，題「阮嗣宗」撰，一卷）。「阮嗣宗」即本條阮籍之字，本條考語自引此則宋志著錄，同書。另有新唐志宋處宗一卷本（`1ewz06urkqccp`）撰人、時代俱異，不併。",
   "id": "1evfhb93ylm2o",
   "measures": [
     {
@@ -56,7 +64,7 @@
   ],
   "measure_info": "一卷",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」（阮籍（210-263）：與嵇康同屬竹林七賢，卒於晉代建立(265)前2年，dynasty原誤植「西晉」與死亡年份自相矛盾（史學界通常歸為三國魏人），訂正為三國魏/three-kingdoms（2026-08-13 三國魏晉period邊界獨立立項））",
   "dynasty": "三國魏",

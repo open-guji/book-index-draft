@@ -19,6 +19,13 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "春秋穀梁傳集解十二卷范。謹按見《隋志》。《釋文·敘録》、兩《唐志》均作“集注”。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "春秋穀梁傳集解",
+      "merged_from": "1evcpcualrev4",
+      "note": "直齋書錄解題無撰人十二卷本，題名「春秋穀梁傳集解」與本條全同，卷數與本條隋書經籍志「《春秋谷梁傳》十二卷范甯集解」、補晉書藝文志「春秋穀梁傳集解十二卷范〔寧〕」全合，同書。"
     }
   ],
   "id": "1evcpcualrev4",
@@ -60,10 +67,20 @@
     "穀梁傳范氏集解",
     "春秋穀梁傳"
   ],
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　2026-08-08 Batch14合併：原1evfubpwle0w0（同題同撰人（范寧，entity同），補晉志（十二卷）與隋志/舊唐志+考證著錄同一書）併入本條。",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　2026-08-08 Batch14合併：原1evfubpwle0w0（同題同撰人（范寧，entity同），補晉志（十二卷）與隋志/舊唐志+考證著錄同一書）併入本條。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mifbdh`（春秋穀梁傳集解）。2026-08-23 B2 併池：併入 `1evr5e3mifbdh`（直齋書錄解題，無撰人，十二卷）。題名與卷數皆與本條范寧集解十二卷本（隋志、補晉志雙證）全合，同書。另有晉胡納十卷本（`1evfubpi51fcw`，補晉志）撰人、卷數俱異，不併。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷"
 }
