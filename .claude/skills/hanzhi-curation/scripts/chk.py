@@ -129,6 +129,39 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)
 
+# 同上，但查 section 之單數 work_id（前一項只查複數 work_ids，是盲區——
+# 全庫繫連絕大多數走 work_id，2026-08-23 補）。升格之志其 source_bid 為 production id，
+# 故兩側俱經 promotions 正規化再比。
+import collections as _c2
+_P2D={v['production_id']:k for k,v in json.load(open('promotions.json'))['promotions'].items()}
+def _n(i): return _P2D.get(i,i)
+_wcache={}
+back=_c2.Counter()
+for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+    if f.endswith('collated_edition_index.json'): continue
+    try: cd=json.load(open(f))
+    except Exception: continue
+    if not isinstance(cd,dict): continue
+    src=f.split('/')[4]
+    for sec in cd.get('sections',[]):
+        if not isinstance(sec,dict) or sec.get('section_kind')=='附屬部帙': continue
+        # 只查書目體之節（type「书」）。總集選本（古文觀止、昭明文選、唐詩三百首之屬）
+        # 之節為「文」「詩」，輯佚書之節為 reconstruction——那些不走 indexed_by，不在此列。
+        if sec.get('type') not in (None,'书','書'): continue
+        w=sec.get('work_id')
+        if not isinstance(w,str): continue
+        e=IW.get(w)
+        if not e: continue
+        d2=_wcache.get(w)
+        if d2 is None:
+            try: d2=json.load(open(e['path']))
+            except Exception: continue
+            _wcache[w]=d2
+        if not any(_n(y.get('source_bid'))==_n(src) for y in (d2.get('emendated_by') or [])+(d2.get('indexed_by') or [])):
+            back[src]+=1
+print('整理本繫連（work_id）而 work 側無本志著錄',sum(back.values()),'　基線 2026-08-23 實測 538（其中 A1–A5 五志佔 429）')
+for k,v in back.most_common(8): print('  ',k,v)
+
 # 輯佚檔 fragments/*.json
 fbad=[]
 for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
