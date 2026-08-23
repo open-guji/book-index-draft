@@ -103,3 +103,16 @@
 其餘各項（人物↔作品雙向、Book↔Work、派生欄、JSON 格式、period 不合）**必須與基線全同**。
 批二初跑曾使「人物→作品 單向」13→15，因合併後留連之 entity 未回填 keeper 撰人欄之
 `entity_id`；已補入 `merge.py`，並手工修《詩評》鍾嶸、《說林》張大素二處。
+
+## merge.py 索引同步之一處已知漂移（2026-08-23 B4 第二批發現）
+
+`scripts/b1/merge.py` 合併後同步 `index/works/*.json`，其 `dynasty` 欄取自
+**Work 的 `dynasty` 欄**；而 `chk.py` 的重算值取自 **`authors[0].dynasty`**。
+二者在「書之時代與撰人之時代不同」時必然相左。
+
+實例：《江南錄》`1evcsxnyn5pts`，撰人徐鉉、湯悅為**南唐**舊臣，而書成於**宋**太宗時，
+故 Work 之 `dynasty` 作「宋」（`dynasty_basis` 記其據），索引之 `dynasty` 原作「南唐」。
+本批合併後 merge.py 把索引改寫為「宋」，`chk.py` 遂報「索引欄位不符 1」。已手工復原。
+
+**收工前必查**：每批合併後跑 `chk.py`，見「索引欄位不符」有 `dynasty` 一項，
+即以 `authors[0].dynasty` 為準改回索引，**不要動 Work 的 `dynasty`**（那是 C 車道的欄）。

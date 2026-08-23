@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evfuuzfl23uo",
+  "title": "棋九品序錄",
+  "authors": [
+    {
+      "name": "范汪等注",
+      "role": "撰",
+      "dynasty": "晉",
+      "entity_id": "1j96kfmi7xmv4"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "棋九品序録一卷 范汪等注。謹按見《隋志》。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《棋九品序錄》一卷",
+      "summary": "《棋九品序錄》一卷范汪等注。",
+      "merged_from": "1evfuuzfl23uo",
+      "note": "《棋九品序録》與《棋九品序錄》之別，僅在異體字（棋九品序録／棋九品序錄），題名歸一後全同；卷數全同（1卷）；彼條無撰人而本條作「范汪等注」。二者著錄異源（補晋書藝文志 ／ 隋書經籍志），非一志之內重出，而題、卷相合，判為同書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 B1 同名異書併池：併入 `1evcmndqmjlds`（棋九品序録）。2026-08-23 B4 異體字重出併池：併入 `1evcmndqmjlds`（隋書經籍志，題作《棋九品序錄》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；彼條無撰人而本條作「范汪等注」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《棋九品序録》，所用「棋九品序録」係著錄原文之異體；今正為通行之《棋九品序錄》，原形移入 additional_titles 備檢。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《棋九品序錄》一卷",
+      "summary": "碁九品序録一卷范汪等注\n范汪見前。\n案上文注云:“梁有《圍碁九品序録》五卷,范汪等撰,亡。”\n此一卷蓋又据别家書目抄入者。",
+      "merged_from": "1evfuuzfl23uo",
+      "note": "《棋九品序録》與《棋九品序錄》之別，僅在異體字（棋九品序録／棋九品序錄），題名歸一後全同；卷數全同（1卷）；彼條無撰人而本條作「范汪等注」。二者著錄異源（補晋書藝文志 ／ 隋書經籍志），非一志之內重出，而題、卷相合，判為同書。"
+    }
+  ],
+  "additional_titles": [
+    "棋九品序録"
+  ]
+}
