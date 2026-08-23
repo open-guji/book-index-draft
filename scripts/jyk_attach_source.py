@@ -21,6 +21,7 @@ import json, os, sys, collections, re
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from jyk_triage import nz, load_index, embedded_author
+import jyk_head_fix as HF
 
 DATA = '.claude/known-issues/經義考待裁.json'
 AMBIG = '.claude/known-issues/經義考掛源待覈.json'
@@ -34,7 +35,12 @@ NOTE = ('此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_st
 
 def targets(d, by_title, by_author, works):
     """回傳本條所指之 work id 列（空＝不掛，長度>1＝待覈）"""
-    ja, jt = nz(d.get('author')), nz(d.get('title'))
+    _f = HF.FIX.get(d['head'])
+    if _f:
+        _a = _f[0][0] if isinstance(_f[0], list) else _f[0]
+        ja, jt = nz(_a), nz(_f[1])
+    else:
+        ja, jt = nz(d.get('author')), nz(d.get('title'))
     if d['tier'] == '甲1':
         return [w['id'] for w in by_title.get(jt, []) if nz(w.get('author')) == ja]
     if d['tier'] == '甲4':

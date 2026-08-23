@@ -14,6 +14,12 @@
 **三、閘多一道**：撰人相同而其名嵌於庫題之中者（《周易董遇注》對《周易
 注》）不建——此是乙1 之失，三十一條建為重出而後刪，今立為閘。
 
+**近名之裁**：加 `--near-name-create` 則撰人近名者不擋而建，並於 ai_note 著
+其所近之庫條。乙1 有《隋志》《唐志》可資對勘，故立「題同、志同、卷數同」三
+合之判；乙2、丙不引前代志，三合無從施，非逐條覈他書不能定。二者取其可逆：
+併之則以甲之書繫乙之名，不可逆；別建則至多多一條可考之記錄，後之覈者併之未
+晚。庫規亦云「不得批量合併」。
+
 **四、`period` 仍不繫**。曾試以論斷所引之年號定代——取撰人名後百二十字內
 之首見年號——以庫中 Entity 為驗，準確率只 0.81：論斷屢引後人之語（漢人之
 書而王應麟曰、范仲淹序），其年號是引者之年非撰人之年。不足以充一欄之據。
@@ -73,14 +79,16 @@ def main():
     dupe = collections.defaultdict(list)
     for d in J:
         a, t, _ = fixed(d)
-        dupe[(nz(t), nz(a))].append(d)
+        dupe[(nz(t), nz(a[0] if isinstance(a, list) else a))].append(d)
 
     make, hold = [], []
     for (kt, ka), ds in dupe.items():
         d = ds[0]
         a, t, why = fixed(d)
+        a1 = a[0] if isinstance(a, list) else a
         g = []
-        if '&KR' in (a or '') or '&KR' in t:
+        near = None
+        if '&KR' in (a1 or '') or '&KR' in t:
             g.append('缺字碼未還原')
         if len(kt) < 2:
             g.append('題名過短')
@@ -100,7 +108,9 @@ def main():
                     g.append(f'庫中已有同題同撰（{w["id"]}）')
                     break
                 if wa and len(wa) == len(ka) and sum(x != y for x, y in zip(wa, ka)) == 1:
-                    g.append(f'形訛近名（庫作「{w.get("author")}」{w["id"]}）')
+                    near = (w.get('author'), w['id'], w['title'])
+                    if '--near-name-create' not in sys.argv:
+                        g.append(f'形訛近名（庫作「{w.get("author")}」{w["id"]}）')
                     break
             em = embedded_author(kt, ka, by_author)
             if em:
@@ -111,7 +121,7 @@ def main():
                              **{k: x[k] for k in ('head', 'author', 'title', 'lei',
                                                   'juan', 'page', 'status', 'attest', 'tier')}})
         else:
-            make.append((ds, a, t, why))
+            make.append((ds, a, t, why, near))
 
     print(f'{"／".join(sorted(tiers))} 未辦 {len(J)}；歸併同題同撰後 {len(dupe)} 種；'
           f'建 {len(make)}，待覈 {len(hold)}')
@@ -123,7 +133,7 @@ def main():
 
     shards = {s: json.load(open(f'index/works/{s}.json')) for s in '0123456789abcdef'}
     n = 0
-    for ds, a, t, why in make:
+    for ds, a, t, why, near in make:
         d = ds[0]
         wid = mkid(f"{d['juan']}|{d['page']}|{d['head']}", taken)
         path = f'Work/{wid[0]}/{wid[1]}/{wid[2]}/{wid}-{t}.json'
@@ -132,9 +142,16 @@ def main():
         note = AI_NOTE.format(lei=d['lei'], head=d['head'], cit=cit, status=d['status'])
         if why:
             note += '\n\n標目之正：' + why + '。'
+        if near:
+            note += (f'\n\n**撰人近名待覈**：庫中另有同題之《{near[2]}》繫「{near[0]}」'
+                     f'（{near[1]}），與本條撰人「{a1}」只一字之差。本條無前代志'
+                     '可資對勘（無志之異、無卷數之異可比），故不敢遽併——'
+                     '併之則以甲之書繫乙之名，不可逆；別建則至多多一條可考之'
+                     '記錄，後之覈者併之未晚。庫規亦云「不得批量合併」。')
         rec = {'schema_version': 1, 'type': 'work', 'title': t, 'id': wid}
         if a:
-            rec['authors'] = [{'name': a, 'role': None}]
+            rec['authors'] = [{'name': x, 'role': None}
+                              for x in (a if isinstance(a, list) else [a])]
         rec['ai_note'] = note
         rec['indexed_by'] = []
         for x in ds:
@@ -146,7 +163,7 @@ def main():
             summary = ((zhu + '\n' + lu) if zhu else lu).strip()
             rec['indexed_by'].append({
                 'source': SRC, 'source_bid': SRC_BID,
-                'title_info': f"《{t}》" + (f"（{a}）" if a else ''),
+                'title_info': f"《{t}》" + (f"（{'、'.join(a) if isinstance(a, list) else a}）" if a else ''),
                 'summary': summary, 'section': x['lei'], 'juan': x['juan'],
                 'page': x['page'], 'attested_status': STATUS[x['status']],
                 'attested_status_raw': x['status'], 'attested_status_note': NOTE})
@@ -156,7 +173,7 @@ def main():
             f.write('\n')
         e = {'id': wid, 'title': t, 'type': 'Work', 'path': path}
         if a:
-            e['author'] = a
+            e['author'] = a[0] if isinstance(a, list) else a
         shards[shard(wid)][wid] = e
         for x in ds:
             x['created_work'] = wid
