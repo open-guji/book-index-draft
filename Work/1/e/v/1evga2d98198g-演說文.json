@@ -2,7 +2,13 @@
   "schema_version": 1,
   "type": "work",
   "title": "演說文",
-  "authors": [],
+  "authors": [
+    {
+      "name": "庾黙",
+      "role": "撰",
+      "entity_id": "1j96hf8i3hbsw"
+    }
+  ],
   "indexed_by": [
     {
       "source": "補遼金元藝文志",
@@ -24,14 +30,25 @@
       "補遼金元藝文志"
     ]
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('庾黙', '')]，本條作者 梁有（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-10 撰人字首式重出候選覆核（特例）：原authors「梁有」實為補遼金元藝文志引文「元梁有演說文（不知時代）」中「梁有」二字（隋志體例常語「梁[代]有[此書]」）被誤析為撰人，非人名，已清空撰人欄。\n\n2026-08-10 撰人字首式重出候選覆核（特例）：原authors「梁有」實為補遼金元藝文志引文「元梁有演說文（不知時代）」中「梁有」二字（隋志體例常語「梁[代]有[此書]」）被誤析為撰人，非人名，已清空撰人欄。",
+  "ai_note": "同名異書：已有 Work 作者為 [('庾黙', '')]，本條作者 梁有（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-10 撰人字首式重出候選覆核（特例）：原authors「梁有」實為補遼金元藝文志引文「元梁有演說文（不知時代）」中「梁有」二字（隋志體例常語「梁[代]有[此書]」）被誤析為撰人，非人名，已清空撰人欄。\n\n2026-08-10 撰人字首式重出候選覆核（特例）：原authors「梁有」實為補遼金元藝文志引文「元梁有演說文（不知時代）」中「梁有」二字（隋志體例常語「梁[代]有[此書]」）被誤析為撰人，非人名，已清空撰人欄。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evetxczoss1s 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
   "id": "1evga2d98198g",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
   "emendated_by": [],
   "books": [],
-  "related_works": []
+  "related_works": [],
+  "loss_status": "partially_extant",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷"
 }
