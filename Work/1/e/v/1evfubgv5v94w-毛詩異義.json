@@ -31,11 +31,11 @@
   },
   "authors": [
     {
-      "name": "楊義",
+      "name": "楊乂",
       "role": "撰",
+      "name_basis": "原作「楊義」（取自《補晉書藝文志》之寫法）。隋書經籍志「《毛詩異義》二卷楊乂撰」（同條並記其《毛詩雜義》五卷亦楊乂撰）、國史經籍志「（楊乂）」二家並作「楊乂」，判為形訛，逕正為「楊乂」。",
       "dynasty": "晉",
-      "entity_id": "1j96ha8j2eups",
-      "original_name": "楊义"
+      "entity_id": "1j96ha8j2eups"
     }
   ],
   "juan_count": {
@@ -57,10 +57,23 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《毛詩異義》二卷」一節原繫於磁鐵條（`1evc5pcm6v3eo`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《毛詩異義》二卷」一節原繫於磁鐵條（`1evc5pcm6v3eo`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-23 B1 同名異書併池：併入 `1evc5pcm6v3eo`（毛詩異義）。2026-08-23 B2 併池：併入 `1evc5pcm6v3eo`（題名「毛詩異義楊乂撰」，隋書經籍志，楊乂撰，二卷）。此為撰人折入題名之殘條，所載隋志著錄與本條同一則，撰人卷數全合，同書。本條撰人於同批由訛形「楊義」正為「楊乂」後，此重出即由 chk.py「題名重出」浮現。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "毛詩異義二卷楊又撰梁有《毛詩雜義》五卷楊又撰亡",
+      "summary": "楊又有《卦序論》及《毛詩辯異》，並見前。",
+      "merged_from": "1evfubgv5v94w",
+      "note": "本條題名「毛詩異義楊乂撰」為撰人折入題名之殘條（original_title 已存正確短題「毛詩異義」），其隋書經籍志著錄與 keeper 所載同一則，撰人、卷數（二卷）全合，同書。"
+    }
+  ],
+  "additional_titles": [
+    "毛詩異義楊乂撰"
+  ]
 }

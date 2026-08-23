@@ -46,6 +46,11 @@
       "summary": "鄭棨開天傳信記一卷",
       "merged_from": "1evkpxitat5vk",
       "note": "撰人原作「鄭棨」，乃「鄭綮」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "開天傳信記"
     }
   ],
   "books": [
@@ -103,18 +108,20 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evkpxitat5vk` 同題《開天傳信記》、同卷數 1，撰人分作「鄭綮」「鄭棨」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「鄭綮」，異名之著錄並存於 indexed_by。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx2a00b9c 與 11q37scqdww74 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evkpxitat5vk` 同題《開天傳信記》、同卷數 1，撰人分作「鄭綮」「鄭棨」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「鄭綮」，異名之著錄並存於 indexed_by。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx2a00b9c 與 11q37scqdww74 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evr5e3mklzaf 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫023625）。清乾隆間寫文淵閣四庫全書本。",
     "sources": [
       "國立故宮博物院善本舊籍"
     ]
-  }
+  },
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song"
 }

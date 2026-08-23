@@ -24,12 +24,18 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《高堂隆相牛經》一卷",
       "summary": "《高堂隆相牛經》一卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《相牛經》一卷",
+      "summary": "《相牛經》一卷甯戚撰。"
     }
   ],
   "id": "1evftetwuips0",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「本以負重致遠未服 輜,故文不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgpi9nj4kqo（撰人折入題名之異寫）併入本條（同題同撰人）。",
-  "updated_at": "2026-08-10",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「本以負重致遠未服 輜,故文不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgpi9nj4kqo（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpd24rcrgg 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
@@ -46,5 +52,7 @@
       "unit": "卷",
       "number": 1
     }
-  ]
+  ],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

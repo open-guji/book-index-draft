@@ -3,7 +3,13 @@
   "id": "1ev3ba5o0xg5c",
   "type": "work",
   "title": "日講四書解義",
-  "authors": [],
+  "authors": [
+    {
+      "name": "拉薩哩",
+      "role": "等奉敕撰",
+      "dynasty": "清"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -20,7 +26,11 @@
   ],
   "books": [
     "11q37opdvdi4g",
-    "11q7m1rvkvsao"
+    "11q7m1rvkvsao",
+    "11qkhvw0maf40",
+    "11qkhyao5hczk",
+    "11qki2d99a7eo",
+    "11qki3rtgjk74"
   ],
   "juan_count": {
     "number": 26
@@ -74,12 +84,18 @@
     }
   ],
   "measure_info": "二十六卷",
-  "updated_at": "2026-08-17T18:19:19+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-17 撰人闕載：原作者欄作「敕撰」並繫於偽 Entity「敕撰(清)」——該 Entity 之名本是著錄語而非人名。《四庫全書總目》提要作「不著撰人名氏」或「舊本題某朝無名氏撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。"
+  "ai_note": "2026-08-17 撰人闕載：原作者欄作「敕撰」並繫於偽 Entity「敕撰(清)」——該 Entity 之名本是著錄語而非人名。《四庫全書總目》提要作「不著撰人名氏」或「舊本題某朝無名氏撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evkaczb1ighs 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿010808-010833）。清康熙十六年武英殿刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

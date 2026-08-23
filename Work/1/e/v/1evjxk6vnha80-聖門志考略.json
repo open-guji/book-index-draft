@@ -19,6 +19,14 @@
       "edition": "浙江圖書館藏清康煕刻本",
       "volume": "第79冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《聖門志考略》•二卷",
+      "author_info": "不著撰人名氏",
+      "summary": "不著撰人名氏。惟書中自稱其名曰淐。“檜樹”一條後稱崇禎三年庚午春，隨其大父登岱，詣孔林。“祀典”一條後稱康熙八年以廷對留京，則國朝人也。而考康熙庚戌進士題名碑，是科無名淐者，殆貢生也。其書雜抄闕裏諸志為之，殊不足以資考證。",
+      "edition": "兩江總督采進本"
     }
   ],
   "description": {
@@ -27,7 +35,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1ev3bajic1qf4 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "juan_count": {
     "number": 2
   },
@@ -42,9 +50,11 @@
   "additional_titles": [
     "聖門志考畧"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "period_upper": "qing",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《欽定四庫全書總目》（清紀昀等（1782）），故不晚於 qing"
 }

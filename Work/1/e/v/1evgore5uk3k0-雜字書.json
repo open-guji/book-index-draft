@@ -4,9 +4,10 @@
   "title": "雜字書",
   "authors": [
     {
-      "name": "僧正度",
+      "name": "釋正度",
       "role": "撰",
-      "entity_id": "1j96hfp2jsqo0"
+      "name_basis": "原作「僧正度」。「僧」為身分標記而非法號之一部，本庫僧人以「釋某」立目（如釋皎然、釋贊寧），逕依例改作「釋正度」。",
+      "entity_id": "1j96hezcnqx34"
     }
   ],
   "juan_count": {
@@ -25,6 +26,12 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "僧正度雜字書",
       "summary": "僧正度雜字書八卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《雜字書》八卷",
+      "summary": "《雜字書》八卷釋正度作。"
     }
   ],
   "description": {
@@ -33,7 +40,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"雜字書\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ao588ao（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "ai_note": "missing_reason: 短title \"雜字書\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0ao588ao（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcvfzbv28 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "id": "1evgore5uk3k0",
   "measures": [
     {
@@ -42,7 +49,7 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "emendated_by": [],
   "books": [],
   "related_works": [],

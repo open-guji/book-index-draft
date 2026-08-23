@@ -37,6 +37,12 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "王儉音義",
       "summary": "王儉音義四卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《尚書音義》四卷",
+      "summary": "《尚書音義》四卷王儉撰。"
     }
   ],
   "description": {
@@ -45,7 +51,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs07fv0nb4（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 部帙通名截題正名專項：本條原題「音義」，出國史經籍志經類，居「《今文尚書音》一卷」與「《古文尚書釋文》十三卷」之間，其後即「右音」之類末統計語，是本條為尚書之音書。本條別有著錄之 title_info 逕作「《尚書音義》（王儉）」，可證。今正名為《尚書音義》。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs07fv0nb4（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 部帙通名截題正名專項：本條原題「音義」，出國史經籍志經類，居「《今文尚書音》一卷」與「《古文尚書釋文》十三卷」之間，其後即「右音」之類末統計語，是本條為尚書之音書。本條別有著錄之 title_info 逕作「《尚書音義》（王儉）」，可證。今正名為《尚書音義》。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpct54rcow 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "id": "1evgops6nyosg",
   "measures": [
     {
@@ -54,10 +60,16 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "emendated_by": [],
   "books": [],
-  "related_works": [],
+  "related_works": [
+    {
+      "id": "1evd3dbcb0nb4",
+      "title": "偽古文尚書",
+      "relation": "studies"
+    }
+  ],
   "original_title": "音義",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"

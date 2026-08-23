@@ -5,10 +5,15 @@
   "title": "二曲集",
   "authors": [
     {
-      "name": "李容",
+      "name": "李顒",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j967a0klg4t2"
+      "entity_id": "1j967a0klg4t2",
+      "alt_names": [
+        "李顒",
+        "李容"
+      ],
+      "name_basis": "2026-08-22 B3 正名：原作「李容」，是「李顒」之形訛——前者於全庫不繫任何作品。訛形存 alt_names。"
     }
   ],
   "indexed_by": [
@@ -32,6 +37,26 @@
       "title_info": "二曲集",
       "summary": "《二曲集》二十二卷。{{李中孚。}}",
       "author_info": "李中孚"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《二曲集》二十六卷",
+      "author_info": "(清)李顒撰",
+      "summary": "《二曲集》二十六卷。(清)李顒撰。影印清康熙三十三年高爾公刻後印本。",
+      "edition": "影印清康熙三十三年高爾公刻後印本",
+      "volume": "第1410冊",
+      "section": "集部 集部"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《二曲集》二十六卷",
+      "author_info": "清李顒撰",
+      "summary": "《二曲集》二十六卷。清李顒撰。私藏清康煕三十二年鄭重高爾公刻本。",
+      "edition": "私藏清康煕三十二年鄭重高爾公刻本",
+      "volume": "第199冊",
+      "section": "集部"
     }
   ],
   "juan_count": {
@@ -95,13 +120,21 @@
   ],
   "measure_info": "二十二卷",
   "books": [
-    "11qkhtvj148hs"
+    "11qkhtvj148hs",
+    "11qki01xqiw3k"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T07:14:03.778622+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "description": {
+    "text": "本書收入《續修四庫全書》第1410冊（集部）。",
+    "sources": [
+      "續修四庫全書"
+    ]
+  },
+  "ai_note": "2026-08-22 B3 併池（撰人名近似）：1evjr8c3lxvy8 併入本條。撰人名「李容」為「李顒」之形訛——前者於全庫不繫任何作品，後者繫 8 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。"
 }

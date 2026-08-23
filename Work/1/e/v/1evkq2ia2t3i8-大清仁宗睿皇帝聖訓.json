@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿037046-037155）。阶段 5 兜底建立。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿037046-037155）。阶段 5 兜底建立。\n\n2026-08-22 B3 併池（藏本條重出）：1evkq1sxgcd1c 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
   "juan_count": {
     "number": 110
   },
@@ -28,11 +28,15 @@
   "measure_info": "一百一十卷",
   "id": "1evkq2ia2t3i8",
   "books": [
-    "11qki37gymqdc"
+    "11qki37gymqdc",
+    "11qki2hb8lkw0"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [],
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清道光四年武英殿刊本」——版本之年不早於成書之年，故不晚於 qing"
 }
