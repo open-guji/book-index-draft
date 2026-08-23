@@ -22,7 +22,8 @@
   ],
   "books": [
     "11q37p8no67ls",
-    "11qkhuu1xledc"
+    "11qkhuu1xledc",
+    "11qkhw1qvnkzk"
   ],
   "juan_count": {
     "number": 20
@@ -53,7 +54,7 @@
     }
   ],
   "measure_info": "二十卷",
-  "ai_note": "作者「清高宗乾隆敕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka9rw2li4g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bacacxfcw()（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「清高宗乾隆敕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka9rw2li4g 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bacacxfcw()（不同作者，故新建獨立 Work）。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpwue2fbb4 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 2→3）併入本條。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善004236-004256）。清內府朱絲欄寫本。",
     "sources": [
@@ -63,11 +64,13 @@
   "additional_titles": [
     "欽定石峰堡紀略"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清乾隆間寫文淵閣四庫全書本」——版本之年不早於成書之年，故不晚於 qing"
 }
