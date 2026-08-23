@@ -225,7 +225,10 @@ except NameError:
         try: IB.update(json.load(open(f'index/books/{_s}.json')))
         except Exception: pass
 import collections as _c
-dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+# SCHEMA〈ID 分配〉：「校驗關聯是否懸空時，Production ID 不在草稿索引中屬正常，
+# 須併入白名單。」此處原未白名單化，270 節（全庫 312 之 87%）因而誤報為落空——
+# 隋志之 26 節俱是先秦諸子升格後留下的 production id，一條缺陷也沒有。
+dang=_c.Counter(); dang_is_book=0; dang_ids=set(); promo=_c.Counter(); promo_ids=set()
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -238,16 +241,21 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
             if w in IW: continue
+            if w in prod: promo[f.split('/')[4]]+=1; promo_ids.add(w); continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in IB: dang_is_book+=1
         b=sec.get('book_id')
         if isinstance(b,str) and b not in IB:
+            if b in prod: promo[f.split('/')[4]]+=1; promo_ids.add(b); continue
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
         if isinstance(b,str) and b not in IB and b not in IW:
+            if b in prod: promo[f.split('/')[4]]+=1; promo_ids.add(b); continue
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 for k,v in dang.most_common(6): print('  ',k,v)
+print('　（另有指向 Production ID 者',sum(promo.values()),'節、相異 id',len(promo_ids),
+      '——依 SCHEMA 屬正常，不計入落空）')
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
 # （匯入時同名條目未分，如隋志四種卷數各異之《後漢書》皆繫一 id）
