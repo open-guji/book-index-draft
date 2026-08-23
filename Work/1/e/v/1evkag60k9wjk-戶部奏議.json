@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgq9lh8x1c0(王淨)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgq9lh8x1c0(王淨)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 B1 同名異書併池：併入 `1evgq9lh8x1c0`（戶部奏議）。2026-08-23 B6（B3′ 遺留）：併入 `1evgq9lh8x1c0`（國史經籍志《戶部奏議》四卷（王淨））。「淨」為「瓊」之形訛；明王瓊嘗任戶部尚書，有《戶部奏議》。",
   "juan_count": {
     "number": 2
   },
@@ -31,9 +31,20 @@
   "books": [
     "11qki4j2qwkcg"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《户部奏議》四卷",
+      "summary": "《户部奏議》四卷（王淨）",
+      "author_info": "王淨",
+      "merged_from": "1evkag60k9wjk",
+      "note": "B3′ 撰人名近似待覈組：彼條為國史經籍志《戶部奏議》四卷（王淨），與本條同題——「淨」為「瓊」之形訛；明王瓊嘗任戶部尚書，有《戶部奏議》。判為同書。"
+    }
+  ]
 }
