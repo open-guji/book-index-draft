@@ -20,6 +20,12 @@
       "edition": "影印國家圖書館藏明刻本",
       "volume": "第935冊",
       "section": "子部 儒家類"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《資世通訓》一卷",
+      "summary": "《資世通訓》一卷"
     }
   ],
   "description": {
@@ -28,7 +34,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evggvi4myqkg 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "juan_count": {
     "number": 1
   },
@@ -54,10 +60,12 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

@@ -50,6 +50,12 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "張彥遠歷代名畫記",
       "summary": "張彥遠歷代名畫記十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "歴代名畫記十卷",
+      "summary": "歴代名畫記十卷"
     }
   ],
   "books": [
@@ -134,8 +140,8 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "從 1evcsye290yrk 合併。原註：作者「唐張彥遠撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0v8qdgxs（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwo5t1hq8 與 11q37r4uzxdz4 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-10",
+  "ai_note": "從 1evcsye290yrk 合併。原註：作者「唐張彥遠撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0v8qdgxs（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwo5t1hq8 與 11q37r4uzxdz4 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evr5e3mg8nib 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
@@ -143,5 +149,10 @@
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
   "emendated_by": [],
-  "related_works": []
+  "related_works": [],
+  "additional_titles": [
+    "歴代名畫記"
+  ],
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song"
 }

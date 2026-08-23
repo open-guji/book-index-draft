@@ -19,6 +19,12 @@
       "edition": "中國科學院圖書館藏明萬曆四十八年閔氏松筠館刻朱墨套印本",
       "volume": "第29冊",
       "section": "子部"
+    },
+    {
+      "source": "四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《孫子參同》•五卷",
+      "summary": "此本不知何人所輯。前有凡例，又有萬曆庚申吳興松筠館主人序，亦不署姓名。其板用朱、墨二色，與世所稱閔版者同，疑為烏程閔氏刻也。所采注釋，列曹操、李筌、杜牧、王晳、張預、賈林、梅堯臣、陳皞、杜佑、孟氏、何氏、解元、張鏊、李材、黃治徵十五家。所采批評，列蘇洵、王圻、唐順之、王世貞、陳深、李贄、梅國楨、焦竑、郎文煥、陸宏祚十家，而卷中不盡見。卷中所見如茅坤、王鏊之類，卷首又不列名。其凡例稱卓吾子以《吳子》"
     }
   ],
   "description": {
@@ -27,7 +33,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1evcmttusquio(孫子參同)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1evcmttusquio(孫子參同)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcmttusquio 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "juan_count": {
     "number": 5
   },
@@ -50,9 +56,11 @@
       "note": "所注解者為《孫子》（漢志兵書略兵權謀類《吳孫子兵法》八十二篇之傳世本，今本十三篇）。明閔于忱輯《孫子參同》，收《四庫全書存目叢書》。"
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "qing",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing"
 }
