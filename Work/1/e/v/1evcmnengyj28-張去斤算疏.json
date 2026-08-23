@@ -8,6 +8,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《張去斤算疏》一卷",
       "summary": "《張去斤算疏》一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《張去斤筭疏》一卷",
+      "summary": "《張去斤筭疏》一卷",
+      "merged_from": "1evcmnengyj28",
+      "note": "《張去斤算疏》與《張去斤筭疏》之別，僅在異體字（張去斤算疏／張去斤筭疏），題名歸一後全同；卷數全同（1卷）；兩條俱不著撰人。二者著錄異源（隋書經籍志 ／ 國史經籍志），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
   "id": "1evcmnengyj28",
@@ -19,7 +27,7 @@
       "summary": "張去斤算數一卷\n張去斤,始末未詳。"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "juan_count": {
     "number": 1
   },
@@ -30,7 +38,10 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-23 B1 同名異書併池：併入 `1evgorqemw268`（張去斤算疏）。2026-08-23 B4 異體字重出併池：併入 `1evgorqemw268`（國史經籍志，題作《張去斤筭疏》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；兩條俱不著撰人。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "additional_titles": [
+    "張去斤筭疏"
+  ]
 }

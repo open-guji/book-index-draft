@@ -20,6 +20,14 @@
       "title_info": "《古今書録》四十卷",
       "summary": "《古今書録》四十卷（唐毋照）",
       "author_info": "唐毋照"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《古今書錄》",
+      "summary": "毋煚《古今書錄》四十卷李肇",
+      "merged_from": "1evgpknarcw74",
+      "note": "《古今書録》與《古今書錄》之別，僅在異體字（古今書録／古今書錄），題名歸一後全同；本條40卷而彼條不著卷數；彼條無撰人而本條作「毋照」。二者著錄異源（國史經籍志 ／ 宋史藝文志），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
   "description": {
@@ -36,10 +44,13 @@
     }
   ],
   "measure_info": "四十卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evcsxj8o4pa8`（古今書録）。2026-08-23 B4 異體字重出併池：併入 `1evcsxj8o4pa8`（宋史藝文志，題作《古今書錄》，不著卷數）。二題之別僅在異體字，歸一後全同，本條40卷而彼條不著卷數；彼條無撰人而本條作「毋照」。",
+  "additional_titles": [
+    "古今書錄"
+  ]
 }
