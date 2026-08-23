@@ -6,7 +6,10 @@
     {
       "name": "朱熹",
       "role": "撰",
-      "entity_id": "1j967cp1zdr19"
+      "entity_id": "1j967cp1zdr19",
+      "alt_names": [
+        "朱喜"
+      ]
     }
   ],
   "juan_count": {
@@ -52,11 +55,14 @@
       ]
     }
   ],
-  "updated_at": "2026-08-22T04:56:00.091104+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "_has_image": true,
-  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《中庸章句》一卷」一節原繫於磁鐵條（`1evr5e3mjd0y0`）。該磁鐵所兼繫之同題節不止一個 work 可當，然唯本條之卷數與之相合，故歸本條並補其著錄。",
+  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《中庸章句》一卷」一節原繫於磁鐵條（`1evr5e3mjd0y0`）。該磁鐵所兼繫之同題節不止一個 work 可當，然唯本條之卷數與之相合，故歸本條並補其著錄。\n\n2026-08-22 B3 併池（撰人名近似）：1evkafbfvn4e8 併入本條。撰人名「朱喜」為「朱熹」之形訛——前者於全庫不繫任何作品，後者繫 78 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "period_upper": "song",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
   "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「朱熹」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「朱熹」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）",
+  "books": [
+    "11qki41qw78xs"
+  ]
 }

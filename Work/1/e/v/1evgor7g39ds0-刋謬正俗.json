@@ -6,7 +6,10 @@
     {
       "name": "顏師古",
       "role": "撰",
-      "entity_id": "1j967avzlcjyd"
+      "entity_id": "1j967avzlcjyd",
+      "alt_names": [
+        "監顔師古"
+      ]
     }
   ],
   "juan_count": {
@@ -19,6 +22,12 @@
       "title_info": "《刋謬正俗》八卷",
       "summary": "《刋謬正俗》八卷（顏師古）",
       "author_info": "顏師古"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "刋謬正俗八卷",
+      "summary": "刋謬正俗八卷。唐秘書監顔師古撰采先儒及當世之言叅質訛謬而矯正之未終篇而師古殁其子始上之詔録藏秘閣 謹按鄭樵通志云刋謬正俗乃雜記經史惟第一篇起論語而崇文總目以爲論語類應知崇文所"
     }
   ],
   "description": {
@@ -27,7 +36,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=監顔師古 vs anno=顏師古",
+  "ai_note": "missing_reason: 作者冲突 work=監顔師古 vs anno=顏師古\n\n2026-08-22 B3 併池（撰人名近似）：1evr5e3mfaxy5 併入本條。撰人名「顏師古」「監顔師古」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "id": "1evgor7g39ds0",
   "measures": [
     {
@@ -36,7 +45,9 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }
