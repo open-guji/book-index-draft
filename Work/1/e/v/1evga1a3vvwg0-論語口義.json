@@ -21,13 +21,6 @@
     {
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語口義》十卷",
-      "summary": "《論語口義》十卷（□雱）",
-      "author_info": "□雱"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
       "title_info": "《論語口義》四卷",
       "summary": "《論語口義》四卷（歐陽□）",
       "merged_from": "1evinab3cod8g",
@@ -56,6 +49,11 @@
       "id": "1ev7w0euvaeww",
       "title": "論語",
       "relation": "contains_text_of"
+    },
+    {
+      "id": "1ex06d9pmfxfn",
+      "title": "論語口義",
+      "relation": "related"
     }
   ],
   "updated_at": "2026-08-20T00:00:00-07:00",
@@ -63,5 +61,5 @@
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條與 `1evinab3cod8g` 同題《論語口義》、同卷數 4，撰人作「歐陽溥」與「歐陽□」，僅一字之差（或一名含於另一名）；「歐陽□」為其訛（或異寫），二者實一書之重出，今併。"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條與 `1evinab3cod8g` 同題《論語口義》、同卷數 4，撰人作「歐陽溥」與「歐陽□」，僅一字之差（或一名含於另一名）；「歐陽□」為其訛（或異寫），二者實一書之重出，今併。\n\n2026-08-23 A1 車道磁鐵拆分：本節作「《論語口義》十卷（□雱）」，與歐陽溥四卷本同題而異書。析出 1ex06d9pmfxfn《論語口義》（王雱）。"
 }
