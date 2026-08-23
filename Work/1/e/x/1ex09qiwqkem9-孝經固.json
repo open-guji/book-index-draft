@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1ex09qiwqkem9",
+  "type": "work",
+  "title": "孝經固",
+  "authors": [
+    {
+      "name": "衞覬",
+      "role": "注",
+      "dynasty": "三國"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "衞　孝經固",
+      "section": "經部·孝經類",
+      "juan": "卷一",
+      "summary": "姚振宗《三國藝文志》經部孝經類著錄。節文引《魏志》本傳「字伯儒，河東安邑人」，其人即魏侍中衞覬（諡敬侯）；又引《古文苑》聞人牟準《衞敬侯碑陰文》「所注有《孝經固》」。宋章樵注疑「固」為「詁」之字誤，而姚氏兩處（此條與集部《衞覬集》條）俱作《孝經固》，故仍從姚氏之題。"
+    }
+  ],
+  "description": {
+    "text": "三國魏衞覬所注《孝經》。書亡，僅見於《古文苑》碑陰文與姚振宗《三國藝文志》之著錄。",
+    "sources": [
+      "三國藝文志"
+    ]
+  },
+  "ai_note": "2026-08-23 A10 車道收尾：本條為三國藝文志末一待覈之節。原以「撰人書名俱有缺訛」暫不繫。今據二證定之——①撰人：節文引《魏志》本傳「字伯儒，河東安邑人……封閺鄉侯……諡曰敬」，此魏衞覬之傳，故缺字補「覬」；②書名：姚振宗於集部《衞覬集》條自云「按衞敬侯所撰，今可見者，唯《孝經固》、《魏官儀》兩書」，兩處同題，故不從章樵「恐字誤」之說而改作《孝經解詁》。庫中《孝經解詁》（1evdibukfsa2o）是明陳深之書，非一書。",
+  "loss_status": "lost",
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-23T12:22:08+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation"
+}
