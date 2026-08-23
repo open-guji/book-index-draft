@@ -281,6 +281,19 @@ def main():
         save(sp, {k: d[k] for k in sorted(d)})
     print('index/works 已同步（摘除 %d、重寫 %d）' % (len(remap), len(set(remap.values()))))
 
+    # ---- related_works[].title 隨題改繫（keeper 之題可與被刪條之題不同）----
+    _T = {k: v.get('title') for k, v in idx_all('works').items()}
+    import json as _j
+    _T.update({k: v.get('title') for k, v in _j.load(open('index/collections.json')).items()})
+    nt = 0
+    for p2 in glob.glob('Work/*/*/*/*.json'):
+        d = load(p2); ch = False
+        for r in d.get('related_works') or []:
+            t = _T.get(r.get('id'))
+            if t and r.get('title') and r['title'] != t: r['title'] = t; ch = True
+        if ch: save(p2, d); nt += 1
+    print('related_works 題名同步', nt)
+
     # ---- index/books 之 work_id ----
     nb = 0
     for s in SH:

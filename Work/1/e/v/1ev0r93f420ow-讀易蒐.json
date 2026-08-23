@@ -41,6 +41,14 @@
       "attested_status": "extant",
       "attested_status_raw": "存",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "郑赓唐《读易搜》十二卷",
+      "summary": "鄭賡唐《讀易搜》十二卷",
+      "merged_from": "1ev0r93f420ow",
+      "note": "S 併池：讀易蒐／讀易搜"
     }
   ],
   "juan_count": {
@@ -85,12 +93,15 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxj0z4zk74 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev0r93f420ow(鄭賡唐);1evdibk4u6fb4(鄭賡唐)（不同作者，故新建獨立 Work）。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 1evjxj0z4zk74 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev0r93f420ow(鄭賡唐);1evdibk4u6fb4(鄭賡唐)（不同作者，故新建獨立 Work）。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evdibk4u6fb4`（讀易搜）。二條同題（蒐／搜通用而書題作蒐）同撰（鄭賡唐）同卷數（十二卷）：本條繫四庫總目、四庫全書存目叢書、經義考三源皆作《讀易蒐》，被刪條繫明史藝文志作《讀易搜》。四庫提要明其「《序》稱丁亥，蓋成於順治四年」，是入清之後所成，本條之朝代（清）亦與之合。存者取本條，被刪條所繫之明代鄭賡唐人物記錄已解其連。　被刪條之 description：明代經部易類著作。（源：明史藝文志）。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "讀易搜"
+  ]
 }

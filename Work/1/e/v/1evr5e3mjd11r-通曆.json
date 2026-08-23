@@ -8,7 +8,7 @@
       "name": "馬總",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": null,
+      "entity_id": "1j967bgl70k5s",
       "note": "字會元，泉州別駕，扶風人。原書十卷，止於隋代；今本十五卷，多出之五卷為後人所續。"
     }
   ],
@@ -28,19 +28,37 @@
       "summary": "馬總《通曆》十卷柳芳",
       "note": "宋志所著錄者為馬總原書十卷本，與直齋所見已增訂之十五卷本同源異本；句末「柳芳」屬下一條《唐曆》之領頭撰人。",
       "merged_from": "1evcpcwx4skxs"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《通歷》十卷",
+      "summary": "《通歷》十卷（馬總）",
+      "author_info": "馬總",
+      "merged_from": "1evr5e3mjd11r",
+      "note": "S 併池：通曆／通歷"
     }
   ],
-  "ai_note": "2026-08-15 全庫同名異書核對：indexed_by.summary 原僅存裸題「通曆」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人馬總。又併入 1evcpcwx4skxs 之宋史藝文志引文（同書馬總本，該記錄原混裝徐整二卷本與馬總十卷／十五卷本兩種不同著錄，已拆分，徐整之部留於原記錄）。",
+  "ai_note": "2026-08-15 全庫同名異書核對：indexed_by.summary 原僅存裸題「通曆」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人馬總。又併入 1evcpcwx4skxs 之宋史藝文志引文（同書馬總本，該記錄原混裝徐整二卷本與馬總十卷／十五卷本兩種不同著錄，已拆分，徐整之部留於原記錄）。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evgph1lmpukg`（通歷）。二條同題（曆／歷之異）同撰（唐馬總）。卷數十卷／十五卷之異出於異志，且直齋書錄解題已自釋之：「《通曆》十五卷…書本十卷，止於隋代。今書直至五代，增五卷者，後人所續也」——同一書之續增本，非二書。存者取直齋、宋志二源所題之「曆」，被刪條之國史經籍志著錄與人物繫連已遷入。　被刪條之 period_upper=ming，本條從缺，不越 C／D 車道而搬，俟其道補。",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
-  "updated_at": "2026-08-15",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "measure_info": "十五卷",
   "measures": [
     {
       "unit": "卷",
       "number": 15
     }
-  ]
+  ],
+  "additional_titles": [
+    "通歷"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }
