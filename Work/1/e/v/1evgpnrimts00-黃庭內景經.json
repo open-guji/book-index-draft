@@ -4,7 +4,7 @@
   "title": "黃庭內景經",
   "authors": [
     {
-      "name": "自履忠",
+      "name": "白履忠",
       "role": "撰",
       "dynasty": "唐",
       "entity_id": "1j96hfwu5b30g"
@@ -20,6 +20,15 @@
       "title_info": "《黃庭内景經》一卷",
       "summary": "《黃庭内景經》一卷（唐自履忠注）",
       "author_info": "唐自履忠注"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《黄庭内景經》一卷、又六卷",
+      "summary": "《黄庭内景經》一卷、又六卷（梁丘子注；五家注）",
+      "author_info": "梁丘子注；五家注",
+      "merged_from": "1evgpnrimts00",
+      "note": "國史經籍志《黃庭內景經》一卷「梁丘子注」（本庫撰人欄誤剝「梁」字作「丘子」），與本條同出國史經籍志之「唐自履忠注」一卷本同書——梁丘子即唐白履忠之號，「自履忠」為「白履忠」之形訛。同一著錄書中一稱其號、一稱其名，兩側互證。"
     }
   ],
   "description": {
@@ -39,10 +48,10 @@
   "additional_titles": [
     "黃庭内景經"
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evgpnreld6v4`（黃庭內景經）。2026-08-23 B1/B2 全量覆核：併入 `1evgpnreld6v4`（國史經籍志，原題「丘子」，一卷）。該條著錄原文作「梁丘子注」，撰人欄誤剝「梁」字；梁丘子即唐白履忠之號，本條「自履忠」為「白履忠」之形訛，今併為一並正撰人作「白履忠」。國史經籍志一稱其號一稱其名，兩側互證。\n\n2026-08-23 B1/B2 全量覆核：撰人「自履忠」正作「白履忠」——唐白履忠，號梁丘子，注《黃庭內景經》；「自」為「白」之形訛。同書之另一著錄（本記錄所併入者）原文作「梁丘子注」，一稱其名一稱其號，兩側互證。"
 }

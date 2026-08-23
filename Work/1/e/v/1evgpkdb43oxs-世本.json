@@ -19,6 +19,12 @@
       "title_info": "《世本》二卷",
       "summary": "《世本》二卷（劉向）",
       "author_info": "劉向"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《世本》二卷劉向撰。",
+      "summary": "《世本》二卷劉向撰。"
     }
   ],
   "description": {
@@ -27,7 +33,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-20：補 loss_status=lost。原書全佚，今存者為清人輯本（王謨等《世本八種》，商務印書館 1957）。SCHEMA：「後人之輯本不改其為全佚」。據李零《簡帛古書與學術源流》第一講附錄「現存先秦兩漢古書一覽表」逐條對照。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：文中明載有輯本——「今存者為清人輯」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。\n\n2026-08-21 秦漢段磁鐵覆核：自《世本》1ev7w0evl7400 移入「《世本》二卷劉向撰。」一節——隋志「《世本》二卷劉向撰」，劉向本自是一書，庫中別有其條。",
   "id": "1evgpkdb43oxs",
   "measures": [
     {
@@ -36,5 +42,8 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-20T00:00:00+00:00",
+  "loss_status": "partially_extant",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

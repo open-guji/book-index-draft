@@ -24,13 +24,57 @@
       "title_info": "《易學啟蒙》",
       "author_info": "字仲迂，浮梁人",
       "summary": "元吳迂（字仲迂，浮梁人）易學啟蒙"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "title_info": "《易學啟蒙》一卷",
+      "summary": "煥章閣待制侍講新安朱熹晦庵撰。初爲《易傳》，用王弼本。復以呂氏《古易經》爲《本義》，其大旨略同，而加詳焉，首列九圖，末著《揲法大略》，兼義理、占象而言。《啟蒙》之目曰：《本圖書》、《原卦畫》、《明蓍筮》，《考變占》，凡四篇。",
+      "note": "本著錄原繫於合刻數書（或連書題）之磁鐵條「易傳》十一卷、《本義》十二卷、《易學啟蒙」（`1evr5e3mi42t0`），今歸本條。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 liao-jin-yuan 之作、撰人吳迂，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易學啓䝉》（呉迂）",
+      "summary": "黄虞稷曰迂字仲迂浮梁人從饒雙峰學皇慶間浮梁知州郭郁延之爲師以訓學者人稱可堂先生汪克寛其門人也",
+      "section": "易",
+      "juan": "卷四十四",
+      "page": "KR2n0011_WYG_044-26a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易學啟蒙》",
+      "summary": "宋志三卷",
+      "section": "易",
+      "juan": "卷三十一",
+      "page": "KR2n0011_WYG_031-1b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "id": "1evg8rpwuoc1s",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《易學啟蒙》一卷」一節原繫於磁鐵條（`1evr5e3mi42t0`），其題與本條全合，今改繫本條並補其著錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷"
 }

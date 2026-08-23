@@ -12,12 +12,20 @@
     {
       "name": "畏齋",
       "type": "號"
+    },
+    {
+      "name": "遊桂",
+      "type": "異體"
     }
   ],
   "dynasty": "南宋",
   "works": [
     {
       "work_id": "1evgor6s7al8g",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evf1nnad1qf4",
       "role": "撰"
     }
   ],
@@ -26,8 +34,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_15+work_recall_1.00+unique+no_dynasty"
   },
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-23T07:53:10.885152+00:00",
   "dynasty_basis": "cbdb:index_year=1133→南宋",
   "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并"
+  "period_basis": "据 dynasty「南宋」自动归并",
+  "ai_note": "2026-08-22 E1 人物併池：1j96hf8op0x6o 併入本條。二者同名（或僅異體之別），併者無朝代而本條作「南宋」，生卒年不相斥，是同一人被拆成二條。"
 }

@@ -11,6 +11,22 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《梁式》二十卷",
       "summary": "《梁式》二十卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《梁式》",
+      "summary": "《梁式》二十卷",
+      "merged_from": "1evcsxhks4lc0",
+      "note": "國史經籍志與宋史藝文志、崇文總目所著《梁式》為一書，今合併。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "梁式二十卷",
+      "summary": "梁式二十卷",
+      "merged_from": "1evcsxhks4lc0",
+      "note": "國史經籍志與宋史藝文志、崇文總目所著《梁式》為一書，今合併。"
     }
   ],
   "description": {
@@ -19,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"梁式\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志、宋史藝文志、崇文總目同著《梁式》，係一書互著（或重出），今合併。",
   "id": "1evgpiqsr1clc",
   "measures": [
     {
@@ -28,5 +44,7 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
 }

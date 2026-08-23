@@ -3,12 +3,28 @@
   "type": "work",
   "id": "1evfuv91zcp34",
   "title": "桓溫要集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "桓溫",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "補晉書藝文志原題「桓温要集二十卷錄一卷」。本書為桓溫文之選本，與《桓溫集》十一卷別為一目。案語「見《七錄》。兩《唐志》著錄」。 本庫無此 entity，未繫。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "桓温要集二十卷錄一卷 謹按見《七錄》。兩《唐志》著録。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《桓溫要集》二十卷",
+      "summary": "《桓溫要集》二十卷",
+      "merged_from": "1evgqatira328",
+      "note": "同題之另一著錄，卷數與所併記錄相承。"
     }
   ],
   "description": {
@@ -31,10 +47,10 @@
     "桓温要集"
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：補晋書藝文志、國史經籍志所著錄同為一書，今合為一條並補撰人／編者「桓溫」；本庫無其 entity，未繫。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

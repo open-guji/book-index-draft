@@ -34,7 +34,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《易原》（趙振芳）",
-      "summary": "二卷",
+      "summary": "二卷\n徐盛全曰振芳山隂人其書自為序",
       "section": "易",
       "juan": "卷六十六",
       "page": "KR2n0011_WYG_066-6b",
@@ -83,12 +83,22 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxj2by2dxc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev0r914gcq9s(程大昌);1ev0r93nrkutc(趙振芳);1ev8mdbpepmo0(陳錫)（不同作者，故新建獨立 Work）。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 1evjxj2by2dxc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev0r914gcq9s(程大昌);1ev0r93nrkutc(趙振芳);1ev8mdbpepmo0(陳錫)（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

@@ -14,6 +14,19 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《春秋公羊、谷梁傳》十二卷",
       "summary": "《春秋公羊、谷梁傳》十二卷晉博士劉兆撰。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋公羊榖梁傳解詁》（劉兆）",
+      "summary": "隋志十二卷",
+      "section": "春秋",
+      "juan": "卷一百七十四",
+      "page": "KR2n0011_WYG_174-2b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "本條前次誤判為庫中所無而新建（1ex1oucwd6kis），旋覺庫題《春秋公羊、穀梁傳劉兆撰》是「經名＋撰人＋役」之式，撰人之名嵌於題中，故兩閘俱不中。今刪所建，改掛此處。"
     }
   ],
   "juan_count": {
@@ -41,15 +54,19 @@
   "measure_info": "十二卷",
   "related_works": [
     {
-      "id": "1ev7vo52r3ev4",
+      "id": "d59f1ioj1tz4",
       "title": "公羊傳",
       "relation": "contains_text_of"
     },
     {
-      "id": "1ev7vo5574c1s",
+      "id": "d59ezajtfrb4",
       "title": "穀梁傳",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-07-31T04:34:52+00:00"
+  "updated_at": "2026-08-22T04:56:00.093000+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，據其 Entity「劉兆」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

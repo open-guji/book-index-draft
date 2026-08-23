@@ -27,8 +27,42 @@
       "title_info": "《唐循資格》一卷",
       "summary": "《唐循資格》一卷（天寳中修。）",
       "author_info": "天寳中修。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王涯唐循資格",
+      "summary": "王涯唐循資格五卷"
     }
   ],
   "id": "1evcs0etou51c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T05:48:58.501766+00:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-22 B3 併池（一方無撰人型）：1evgphryzr2m8 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "王涯",
+      "role": "撰",
+      "entity_id": "1j967da96x4xu"
+    }
+  ],
+  "period": "sui-tang",
+  "period_basis": "撰人朝代闕，據其 Entity「王涯」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

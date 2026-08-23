@@ -19,6 +19,26 @@
       "edition": "涵芬樓影印清道光十一年六安晁氏木活字學海類編本",
       "volume": "第248冊",
       "section": "史部"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《楚書》",
+      "summary": "又《楚書》五卷鄭文寶",
+      "merged_from": "1ev3baycqbpj4",
+      "note": "撰人原作「陶晉楧」，乃「陶晉英」之異寫或形訛，本條併入。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人陶晉英，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《楚書》•一卷",
+      "author_info": "明陶晉楧撰",
+      "summary": "明陶晉楧撰。晉楧字若楧，秀水人。崇禎間嘗侍親官楚，因雜記湖南山水物產，間及古跡。然考證殊多疏漏，如辨《岣嶁碑》信楊慎所錄者為真本，則其他可知矣。",
+      "edition": "編修程晉芳家藏本",
+      "merged_from": "1ev3baycqbpj4",
+      "note": "撰人原作「陶晉楧」，乃「陶晉英」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -27,7 +47,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3baycqbpj4(陶晉楧)（不同作者，故新建獨立 Work）。 | 可能與 Work 1ev3baycqbpj4（陶晉楧(明)）重複：同題《楚書》同朝、作者名差一字。兩輪 web 搜索未定：未搜到陶晉英/楧具体生平；楚書另有陶汝鼐(宁乡人)同名作但作者全不同。 | 可能與 Work 1ev3baycqbpj4（陶晉楧(明)）重複：同題《楚書》同朝、作者名差一字。兩輪 web 搜索未定：无法核实，楧/英形近。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3baycqbpj4(陶晉楧)（不同作者，故新建獨立 Work）。 | 可能與 Work 1ev3baycqbpj4（陶晉楧(明)）重複：同題《楚書》同朝、作者名差一字。兩輪 web 搜索未定：未搜到陶晉英/楧具体生平；楚書另有陶汝鼐(宁乡人)同名作但作者全不同。 | 可能與 Work 1ev3baycqbpj4（陶晉楧(明)）重複：同題《楚書》同朝、作者名差一字。兩輪 web 搜索未定：无法核实，楧/英形近。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1ev3baycqbpj4` 同題《楚書》、同卷數 1，撰人分作「陶晉英」「陶晉楧」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「陶晉英」，異名之著錄並存於 indexed_by。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "juan_count": {
     "number": 1
   },
@@ -39,9 +59,20 @@
   ],
   "measure_info": "一卷",
   "id": "1evjxkydf4dmo",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=743444",
+      "types": [
+        "text"
+      ]
+    }
+  ],
+  "_has_text": true
 }

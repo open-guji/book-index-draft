@@ -7,18 +7,21 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《菊譜》",
-      "summary": "史正誌《菊譜》一卷任璹"
+      "summary": "史正誌《菊譜》一卷任璹",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 qing 之作、撰人弘皎，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcsxvu9terk",
   "authors": [
     {
-      "name": "弘皎",
+      "name": "史正誌",
       "role": "撰",
-      "dynasty": "清"
+      "dynasty": "宋",
+      "name_basis": "原作「弘皎」（清）而全無依據：本條僅繫一則著錄，即宋史藝文志「史正誌《菊譜》一卷任璹」，撰人明為南宋史正誌；句末「任璹」依宋志頂真格體例當屬下一條之撰人，非本條。清人不可能見錄於宋志，逕依著錄原文正之。"
     }
   ],
-  "ai_note": "作者「清弘皎撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka8gp5nnr4 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsxvu9terk();1evgpi7yp3lkw(范成大);1evgpi814ta80(劉蒙)（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「清弘皎撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka8gp5nnr4 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsxvu9terk();1evgpi7yp3lkw(范成大);1evgpi814ta80(劉蒙)（不同作者，故新建獨立 Work）。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 購善002596）。清乾隆九年春暉堂刊本。",
     "sources": [
@@ -29,8 +32,8 @@
     "11qkhuj111gxs"
   ],
   "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "period": "song",
+  "period_basis": "隨撰人由誤植之「弘皎」正為著錄原文所書之「史正誌」（宋人）而改（2026-08-23 B2 批四十九）。",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
 }

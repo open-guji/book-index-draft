@@ -8,7 +8,7 @@
       "name": "倪岳",
       "role": "撰",
       "dynasty": "明",
-      "entity_id": "1j967cp20xxqt"
+      "entity_id": "1j96het5tv94w"
     }
   ],
   "juan_count": {
@@ -20,6 +20,15 @@
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "倪岳《青溪漫稿》二十四卷",
       "summary": "倪嶽《青溪漫稿》二十四卷"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "author_info": "明倪嶽撰",
+      "summary": "明倪嶽撰。嶽字舜咨，錢塘人，徙居上元，南京禮部尚書謙之子也。登天順甲申進士，官至吏部尚書，諡文毅。事蹟具《明史》本傳。岳承其家學，研精典籍。明代父子俱入翰林，官九列，俱有文集傳世者，以倪氏為首。其居官不徇名譽，銓政平允，與王恕、彭韶等俱為孝宗時名臣。史稱其為禮部長貳時，禮文制度，率待嶽而決，論事未嘗苟同。前後陳請百餘事，軍國弊政，剔抉無遺。疏出，人多傳錄之。今集中疏議共五十九篇，與所謂百餘事者不合，疑刊集時已有所刪擇。然如《正祀典》、《陳災異》及《論西北用兵》諸奏，皆建白之最大者，已具在其中，所言簡切明達，得告君之體，頗有北宋諸賢奏議遺風。他文亦浩翰流轉，不屑為追章琢句之習。蓋當時正人在位，為明治全盛之時。故岳雖不以文名，而乘時發抒，類皆經世有本之言，如布帛菽粟之切於日用，亦可知文章之關乎氣運矣。",
+      "title_info": "《清谿漫稿》·二十四卷",
+      "merged_from": "1ev3d6ev3b2f4",
+      "note": "本著錄原繫題作「青谿漫稿」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -35,10 +44,54 @@
     }
   ],
   "measure_info": "二十四卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T07:44:49.274135+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《青谿漫稿》之 work（`1ev3d6ev3b2f4`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-20 磁鐵拆解專項（七）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《清谿漫稿》·二十四卷》→《清谿漫稿》`1ev3bdc5c35s0`。",
+  "books": [
+    "11q37u06rj7k0"
+  ],
+  "additional_titles": [
+    "清谿漫稿",
+    "青谿漫稿"
+  ],
+  "resources": [
+    {
+      "id": "wikisource-siku",
+      "name": "维基文库（四庫全書本）",
+      "url": "https://zh.wikisource.org/wiki/青谿漫稿_(四庫全書本)",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=392562",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-sikuquanshuben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/SK2994",
+      "metadata": {
+        "edition": "四庫全書本",
+        "version": "v7",
+        "total_page": 1386,
+        "paragraph_count": 1571,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "_has_image": true
 }

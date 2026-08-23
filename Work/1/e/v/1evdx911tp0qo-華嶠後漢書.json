@@ -40,21 +40,29 @@
   "measure_info": "三十一卷",
   "related_works": [
     {
-      "id": "1euidlec1g8ow",
+      "id": "d59f1iqd854w",
       "title": "漢書",
       "relation": "contains_text_of"
     },
     {
       "id": "1ev3c1fi6kdmo",
-      "title": "後漢書光武紀贊",
+      "title": "後漢書",
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/華嶠後漢書.json。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/華嶠後漢書.json。 2026-08-20 組5考證落空救回：考證「後漢書十七卷 華嶠撰」節原繫已刪之 work（`1evg6jisqb0g0`），今歸本條。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 4 家、已錄佚文 351 條、諸家所稱 174 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "後漢書十七卷 華嶠撰",
+      "summary": "後漢書十七卷本九十七卷,今殘缺。晉少府卿華 撰\n《晉書華表傳》:表,平原高唐人。父歆,為魏太尉。表六\n子: 、岑、嬌、鹽、澹、簡。 字叔駿,才學深博,少有令聞。\n文帝為大將軍,辟為緣屬,歷車騎從事中郎。泰始初,賜爵關\n內侯。元康初,封宜昌亭侯。誅楊駿,改封樂鄉侯,遷尚書。\n後以 博聞多識,屬書典,實有良史之志,轉祕書,為內臺\n中書、散騎、著作及治禮音律,天文數術,南省文章,門下撰\n集,皆典統之。初, 以《漢記》煩穢,慨然有改作之意。會為\n臺郎,典官制事,由是得偏觀祕籍,遂就其緒,起於光武,終於\n孝獻,一百九十五年,為帝紀十二卷、皇后紀二卷、十典十卷、\n傳七十卷,及三譜、序傳、目録,凡九十七卷。 以皇后配天\n作合,前史作《外戚傳》以繼末編,非其義也,故易為《皇后\n紀》,以次帝紀。又改志為典,以有《堯典》故也。而改名《漢\n後書》奏之。詔朝臣會議。時中書監苟晶、令和 、太常張\n華、侍中王濟咸以 "
+    }
+  ]
 }

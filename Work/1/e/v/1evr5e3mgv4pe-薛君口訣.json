@@ -21,5 +21,25 @@
       "author_info": "陳少微"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "authors": [
+    {
+      "name": "陳少微",
+      "role": "撰",
+      "dynasty": "唐",
+      "name_basis": "原作「少微」而 dynasty 誤標「陳」——此乃早期自動化流程「去朝代與職名後取之」誤將姓氏當作朝代前綴剝除所致（該註記原存於本欄）。本條國史經籍志引文明作「（陳少微）」，逕正為「陳少微」。"
+    }
+  ],
+  "dynasty": "陳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「陳」",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「陳少微」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。"
 }

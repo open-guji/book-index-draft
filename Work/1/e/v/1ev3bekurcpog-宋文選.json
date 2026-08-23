@@ -30,11 +30,14 @@
       "source": "國史經籍志",
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《宋文選》二十卷",
-      "summary": "《宋文選》二十卷"
+      "summary": "《宋文選》二十卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 qing 之作、撰人顧宸，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "books": [
-    "11q37ugoydon4"
+    "11q37ugoydon4",
+    "11qkhxxs6gtts"
   ],
   "juan_count": {
     "number": 32
@@ -89,11 +92,20 @@
     }
   ],
   "measure_info": "三十二卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 1 節出於國史經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpxu11c3cw 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清乾隆間寫文淵閣四庫全書本」——版本之年不早於成書之年，故不晚於 qing",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫032157-032172）。清乾隆間寫文淵閣四庫全書本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

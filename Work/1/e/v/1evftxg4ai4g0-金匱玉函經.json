@@ -39,7 +39,7 @@
     }
   ],
   "id": "1evftxg4ai4g0",
-  "updated_at": "2026-08-07T17:05:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",
   "merged_in": [
@@ -52,9 +52,26 @@
       ]
     }
   ],
-  "ai_note": "　合併：自 1evjr3n6j720w（《金匱玉函經》，張機）併入，2026-08-08——張機即張仲景本名（仲景為字），金匱玉函經同書兩 work_id，經人核准合併。",
+  "ai_note": "合併：自 1evjr3n6j720w（《金匱玉函經》，張機）併入，2026-08-08——張機即張仲景本名（仲景為字），金匱玉函經同書兩 work_id，經人核准合併。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（八卷），今據以補。",
   "books": [
     "11qkhzatydkw0",
     "11qkhzb3taeio"
+  ],
+  "juan_count": {
+    "number": 8
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 8
+    }
+  ],
+  "measure_info": "八卷",
+  "related_works": [
+    {
+      "id": "1evr5e3maxmad",
+      "title": "金匱玉函經注",
+      "relation": "text_carried_by"
+    }
   ]
 }

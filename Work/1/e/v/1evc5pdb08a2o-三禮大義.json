@@ -2,13 +2,33 @@
   "schema_version": 1,
   "type": "work",
   "title": "三禮大義",
-  "authors": [],
+  "authors": [
+    {
+      "name": "劉獻之",
+      "role": "撰",
+      "dynasty": "北魏",
+      "entity_id": null,
+      "note": "隋書經籍志考證引朱彝尊《經義考》「劉氏獻之《三禮大義》。《隋志》四卷，不著姓名」，並引《北史·儒林傳》「（劉獻之）博陵饒陽人……撰《三禮大義》四卷，《三傳略例》三卷，注《毛詩序義》一卷，行於世」，卷數全合。本庫無此 entity。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《三禮大義》四卷",
       "summary": "《三禮大義》四卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《三禮大義》（劉獻之）",
+      "summary": "隋志四巻（不著姓名）",
+      "section": "通禮",
+      "juan": "卷一百六十三",
+      "page": "KR2n0011_WYG_163-2b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "juan_count": {
@@ -34,5 +54,18 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-07-31T04:34:52+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "dynasty": "北魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北魏」",
+  "related_works": [
+    {
+      "id": "1evc5pdav8hds",
+      "title": "三禮大義",
+      "relation": "related",
+      "note": "隋書經籍志、國史經籍志所載之十三卷本，卷數與本條不合。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人據隋書經籍志考證所引《經義考》及《北史·儒林傳》補入——《北史》明載劉獻之「撰《三禮大義》四卷」，卷數與本條全合，故繫劉獻之（北魏博陵饒陽人，四海稱儒宗）。隋志另有十三卷本（見 `1evc5pdav8hds`，已併國史經籍志本），卷數不合，別為一書。本庫無劉獻之 entity，未繫。"
 }

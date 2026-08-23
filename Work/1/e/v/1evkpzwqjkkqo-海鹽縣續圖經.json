@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志005447-005456）。阶段 5 兜底建立。 | 可能與 Work 31hyr4yqtmgff（王為珪(清)）重複：同題《海鹽縣續圖經》同朝、作者名差一字。兩輪 web 搜索未定：冷僻条目无法核实。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志005447-005456）。阶段 5 兜底建立。 | 可能與 Work 31hyr4yqtmgff（王為珪(清)）重複：同題《海鹽縣續圖經》同朝、作者名差一字。兩輪 web 搜索未定：冷僻条目无法核实。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3m9dfli` 同題《海鹽縣續圖經》、同卷數 7，撰人分作「王如珪」「王為珪」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「王如珪」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 7
   },
@@ -30,9 +30,19 @@
   "books": [
     "11qki1co2mzuo"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "海鹽縣續圖經",
+      "summary": "海鹽縣續圖經七卷。王為珪撰。",
+      "merged_from": "1evr5e3m9dfli",
+      "note": "撰人原作「王為珪」，乃「王如珪」之異寫或形訛，本條併入。"
+    }
+  ]
 }

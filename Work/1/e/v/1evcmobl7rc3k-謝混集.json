@@ -14,6 +14,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "謝混集苑",
       "summary": "謝混集苑六十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《謝混集》三卷",
+      "summary": "《謝混集》三卷",
+      "merged_from": "1evgqazycqo74",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "謝混",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96gyqvihu68",
+      "note": "隋書經籍志題「晉左僕射《謝混集》三卷」，書名即撰人。謝混（?-412）字叔源，謝安之孫。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉左僕射《謝混集》三卷（梁五卷）」、國史經籍志三卷，同為東晉謝混別集，今合為一條並繫 entity `1j96gyqvihu68`。**待決**：本條 indexed_by 尚兼收新唐書藝文志「謝混集苑六十卷」——「集苑」乃謝混所編之總集，非其別集，卷數亦懸殊；析出須新建 Work，暫存俟裁。"
 }

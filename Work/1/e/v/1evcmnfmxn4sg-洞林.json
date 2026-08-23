@@ -14,6 +14,27 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《洞林》三卷",
       "summary": "《洞林》三卷梁元帝撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又洞林",
+      "summary": "又洞林三卷",
+      "merged_from": "1evcs0tap5pfk",
+      "note": "諸志同著《洞林》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《洞林》",
+      "summary": "隋志三卷\n元帝自序曰葢聞𤣥枵之野鬼方難測朱鳥之舍神道莫知而緹縵曉披既辨黃鍾之氣靈臺夕望便知玉井之色復以談乎天者雖絕名言之外存乎我者還居稱謂之中余㓜學星文多歴歳稔海中之書畧加尋究巫咸之說偏得研求雖紫微迢遞如觀掌握青龍顯晦易乎窺覽羡門五將亟經玩習韓終六王常所寳愛至如周王白雉之筮殷人飛燕之卜蓍名聚雪非關地極之山卦有密雲能擁西郊之氣文通七聖世經三古山陽王氏真解談𤣥河東郭生纔能射覆兼而両之竊自許矣",
+      "section": "易",
+      "juan": "卷十二",
+      "page": "KR2n0011_WYG_012-8b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "juan_count": {
@@ -35,5 +56,19 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "蕭繹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967da978diu",
+      "note": "隋書經籍志、舊唐書經籍志皆明載「《洞林》三卷梁元帝撰」，梁元帝即蕭繹。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《洞林》三卷，今合併並補撰人為蕭繹（梁元帝）。"
 }

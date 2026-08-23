@@ -6,13 +6,14 @@
   "authors": [
     {
       "name": "王奕",
-      "role": "撰",
-      "dynasty": "元"
+      "role": "舊題撰",
+      "dynasty": "元",
+      "role_basis": "據著錄語「舊本題南宋王奕撰。考集中《奠大成至聖文宣王》文，稱“至元二十六年」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。",
+      "entity_id": "1j967c147cly4"
     }
   ],
   "books": [
-    "11q37tja5l340",
-    "11qkhxk3g24u8"
+    "11q37tja5l340"
   ],
   "indexed_by": [
     {
@@ -27,6 +28,14 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "王奕玉斗山人集三卷",
       "summary": "元王奕玉斗山人集三卷"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《玉鬥山人集》•三卷",
+      "summary": null,
+      "note": "S 併池：玉斗山人集／玉鬥山人集",
+      "merged_from": "1ev3d5pw4h3i8"
     }
   ],
   "additional_titles": [
@@ -67,17 +76,27 @@
       ]
     }
   ],
-  "ai_note": "作者「元王奕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgc5k7l3y80 合併。原註：同名異書：已有 Work 作者為 [('', '')]，本條作者 王奕（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "作者「元王奕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgc5k7l3y80 合併。原註：同名異書：已有 Work 作者為 [('', '')]，本條作者 王奕（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《玉鬥山人集》•三卷》→《玉鬥山人集》`1ev3bd50myk1s`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxk3g24u8 與 11q37tja5l340 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題南宋王奕撰。考集中《奠大成至聖文宣王》文，稱“至元二十六年」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1ev3bd50myk1s`（玉鬥山人集）。二條同題（斗／鬥之異；玉斗謂玉製之斗，非鬥爭之鬥，「鬥」乃簡轉繁之過度轉換）同撰（王奕）同卷數（三卷）。二條所繫之四庫總目著錄語逐字全同，是同一著錄匯入兩次；本條別有元史藝文志「元王奕玉斗山人集三卷」，其字正作「斗」。四庫提要已考「奕食元祿久矣…題南宋者，誤也」，本條之朝代（元）亦與之合。存者取本條。",
   "contained_in": [
     {
       "id": "8rlb6yi1ecqo"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷"
 }

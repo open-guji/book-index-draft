@@ -8,13 +8,22 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《劉君內記》一卷",
       "summary": "《劉君內記》一卷王珍撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《劉君内記》一卷",
+      "summary": "《劉君内記》一卷（王珎）",
+      "author_info": "王珎",
+      "merged_from": "1evgpo6qdhz40",
+      "note": "撰人原作「王珎」，乃「王珍」之異寫或形訛，本條併入。"
     }
   ],
   "authors": [
     {
       "name": "王珍",
       "role": "撰",
-      "entity_id": "1j96h8rw7k8x7"
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7k8x7（清），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
     }
   ],
   "juan_count": {
@@ -36,5 +45,17 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "additional_titles": [
+    "劉君内記"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "2026-08-19 同題異撰人專項（二）：本條與 `1evgpo6qdhz40` 同題《劉君內記》、同卷數 1，撰人分作「王珍」「王珎」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「王珍」，異名之著錄並存於 indexed_by。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

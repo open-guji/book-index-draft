@@ -28,9 +28,27 @@
     }
   ],
   "id": "1evftef7hwutc",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「易」，庫中有同題而非注本之條 `1evgb8wkbpo1s`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "related_works": [
+    {
+      "id": "1evgb8wkbpo1s",
+      "title": "易",
+      "relation": "contains_text_of"
+    }
+  ]
 }

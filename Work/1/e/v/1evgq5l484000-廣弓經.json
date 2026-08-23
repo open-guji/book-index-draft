@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《廣弓經》一卷",
       "summary": "《廣弓經》一卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《廣弓經》",
+      "summary": "紀亶《廣弓經》一卷",
+      "merged_from": "1evcsye84z3ls",
+      "note": "宋史藝文志「紀亶《廣弓經》一卷」，與國史經籍志同題同卷，今合併。"
     }
   ],
   "description": {
@@ -19,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"廣弓經\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志、宋史藝文志同著《廣弓經》一卷，今合併並據宋志前置撰人補為紀亶。",
   "id": "1evgq5l484000",
   "measures": [
     {
@@ -28,5 +36,18 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "紀亶",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「紀亶《廣弓經》一卷」，前置撰人紀亶。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」"
 }

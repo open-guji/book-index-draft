@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "柳宗元",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j967bgl7y9sd"
+      "entity_id": "1j967bgl7y9sd",
+      "role_basis": "據著錄語「柳宗元《龍城錄》一卷舊本題唐柳宗元撰。宋葛嶠始編之柳集中，然《唐·藝文志》不著錄。何」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -119,8 +120,8 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evjr6oh076kg 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "從 1evjr6oh076kg 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 舊題撰人專項：著錄語作「柳宗元《龍城錄》一卷舊本題唐柳宗元撰。宋葛嶠始編之柳集中，然《唐·藝文志》不著錄」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

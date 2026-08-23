@@ -27,7 +27,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（藏本條重出）：1evkq3ou2wp34 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 0→5）併入本條。",
   "juan_count": {
     "number": 20
   },
@@ -39,9 +39,18 @@
   ],
   "measure_info": "二十卷",
   "id": "1evjxm6mojkzk",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "books": [
+    "11qki49qtonb4",
+    "11qki49rutvy8",
+    "11qki49svnw1s",
+    "11qki49tvvf28",
+    "11qki5i0gj20w"
+  ],
+  "period_upper": "ming",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「明永樂五年內府刊本」——版本之年不早於成書之年，故不晚於 ming"
 }

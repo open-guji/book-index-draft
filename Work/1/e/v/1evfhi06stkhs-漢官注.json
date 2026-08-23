@@ -22,8 +22,16 @@
     }
   ],
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 partially_extant，據：「通志藝文略：漢官五卷，應劭注，今存一卷」。本值經逐條精讀，非機讀批次。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "ai_note": "loss_status 判為 partially_extant，據：「通志藝文略：漢官五卷，應劭注，今存一卷」。本值經逐條精讀，非機讀批次。\n\n2026-08-21 補 original_title「漢官」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「漢官」，庫中有同題而非注本之條 `1evjr1uz5ehhc`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」"
+  "period_basis": "據 authors[0].dynasty「東漢」",
+  "original_title": "漢官",
+  "related_works": [
+    {
+      "id": "1evjr1uz5ehhc",
+      "title": "漢官",
+      "relation": "contains_text_of"
+    }
+  ]
 }

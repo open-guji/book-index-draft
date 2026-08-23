@@ -7,6 +7,49 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "問禮俗十卷 董助。謹按見《隋志》。助,魏人,入晋為議郎。《隋志》题“魏人”,誤。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《問禮俗》十卷",
+      "summary": "《問禮俗》十卷董勳撰。",
+      "note": "本著錄原繫於磁鐵條「問禮俗董勛撰」（`1evcpctm5i70g`），今歸本條。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《問禮俗》十卷",
+      "summary": "《問禮俗》十卷（董勛）",
+      "note": "本著錄原繫於磁鐵條「問禮俗董勛撰」（`1evcpctm5i70g`），今歸本條。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《問禮俗》十卷",
+      "summary": "《問禮俗》十卷董勳撰。",
+      "note": "本著錄原繫於磁鐵條「問禮俗董勛撰」（`1evcpctm5i70g`），今歸本條。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "問禮俗",
+      "summary": "魏董勛《問禮俗》一卷。",
+      "merged_from": "1evfubk1ru1a8",
+      "note": "本條題名「問禮俗董勛撰」為撰人折入題名之殘條（original_title 已存正確短題「問禮俗」），其隋書經籍志、舊唐書經籍志、國史經籍志三則著錄與 keeper 所載同一，撰人「董勛」即 keeper 之「董勳」（勛／勳同字異寫），同書；另攜清史稿藝文志、經義考二則為 keeper 所無，併後補入。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《問禮俗》（董勛）",
+      "summary": "隋志十巻",
+      "section": "通禮",
+      "juan": "卷一百六十六",
+      "page": "KR2n0011_WYG_166-14b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evfubk1ru1a8",
+      "note": "本條題名「問禮俗董勛撰」為撰人折入題名之殘條（original_title 已存正確短題「問禮俗」），其隋書經籍志、舊唐書經籍志、國史經籍志三則著錄與 keeper 所載同一，撰人「董勛」即 keeper 之「董勳」（勛／勳同字異寫），同書；另攜清史稿藝文志、經義考二則為 keeper 所無，併後補入。"
     }
   ],
   "description": {
@@ -17,11 +60,11 @@
   },
   "authors": [
     {
-      "name": "董助",
+      "name": "董勳",
       "role": "撰",
+      "name_basis": "原作「董助」（取自《補晉書藝文志》之寫法）。隋書經籍志、舊唐書經籍志並作「董勳撰」，國史經籍志作「董勛」，三家皆非「助」，判為形訛，逕正為「董勳」。",
       "dynasty": "西晉",
-      "entity_id": "1j96hfbcthr7k",
-      "dynasty_basis": "entity_propagation_r2:1j96hfbcthr7k"
+      "entity_id": "1j96hfbcthr7k"
     }
   ],
   "juan_count": {
@@ -35,11 +78,24 @@
     }
   ],
   "measure_info": "十卷",
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/問禮俗.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "updated_at": "2026-08-08T18:18:57+00:00",
+  "loss_status": "partially_extant",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/問禮俗.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《問禮俗》十卷」一節原繫於磁鐵條（`1evcpctm5i70g`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpctm5i70g`（問禮俗）。2026-08-23 B2 併池：併入 `1evcpctm5i70g`（題名「問禮俗董勛撰」，隋志、舊唐志、國史經籍志、清史稿藝文志、經義考五家，董勛撰）。此為撰人折入題名之殘條，三則著錄與本條同一，「董勛」「董勳」同字異寫，同書；清史稿、經義考二則為本條原所無，一併補入。本條撰人於同批由訛形「董助」正為「董勳」後，此重出即由 chk.py「題名重出」浮現。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "問禮俗十卷 董撰",
+      "summary": "嚴氏《全晉文編》曰:“董 仕魏,入晉為議郎。《北齊書·魏\n收傳》:“魏帝宴百僚,問何故名人日,皆莫能知。收對曰:晉\n議郎董助《答問禮俗》云正月一日為雞,二日為狗,三日為豬,\n四日為羊,五日為牛,六日為馬,七日為人。””\n《唐書·經籍志》:《問禮俗》十卷,董撰。\n《唐書·藝文志》:“董助《問禮俗》十卷。”\n①“家”,清光緒九年長沙刻本《玉函山房輯佚書》作“宗”。\n王氏《漢魏遺書鈔》曰:“今鈔出《荆楚歲時記》一條、《歲華紀\n麗》二條、《史記索隱》一條、《初學記》一條、《御览》六條、《通\n典》一條、《匡謬正俗》一條。”馬氏玉函山房亦輯存一本,凡十五條。",
+      "merged_from": "1evfubk1ru1a8",
+      "note": "本條題名「問禮俗董勛撰」為撰人折入題名之殘條（original_title 已存正確短題「問禮俗」），其隋書經籍志、舊唐書經籍志、國史經籍志三則著錄與 keeper 所載同一，撰人「董勛」即 keeper 之「董勳」（勛／勳同字異寫），同書；另攜清史稿藝文志、經義考二則為 keeper 所無，併後補入。"
+    }
+  ],
+  "additional_titles": [
+    "問禮俗董勛撰"
+  ]
 }

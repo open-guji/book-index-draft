@@ -8,15 +8,48 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《越王孝經新義》十卷",
       "summary": "《越王孝經新義》十卷任希古撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "任希古越王孝經新義",
+      "summary": "任希古越王孝經新義十卷",
+      "note": "自主經磁鐵拆出時補。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《越王孝經新義》（任希古）",
+      "summary": "唐志十卷\n龎元英曰新義者以越王為問目釋疏文之義高麗史光宗光徳十年秋遣使如周進越王孝經新義八卷",
+      "section": "孝經",
+      "juan": "卷二百二十四",
+      "page": "KR2n0011_WYG_224-9a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。朱彝尊著其撰人為「任希古」，是一源之言，未據以補 authors[]——繫人須另考。"
     }
   ],
   "id": "1evcpcukj64u8",
   "related_works": [
     {
-      "id": "1evl1xugdoikg",
+      "id": "d59f1iosq6tc",
       "title": "孝經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。 2026-08-21 新唐志四簇磁鐵拆解：「任希古越王孝經新義」節原繫主經之條，今歸本條。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

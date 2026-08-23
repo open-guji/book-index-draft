@@ -36,7 +36,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《周易注》（虞翻）",
-      "summary": "隋志九卷（釋文序録十卷）",
+      "summary": "隋志九卷（釋文序録十卷）\n吳志虞翻字仲翔會稽餘姚人嘗與少府孔融書并示以所著易注融答書曰易自啇瞿以來舛錯多矣去聖彌逺衆說騁辭曩聞延陵之禮樂近覩吾子之治易乃知東南之美非徒會稽之竹箭也孫權以爲騎都尉數犯顔諌爭權不能悦又性不恊俗多見謗毁坐徙丹陽涇縣權積怒非一遂徙翻交州雖處罪放而講學不倦門徒嘗數百人又爲論語國語訓注皆傳於世别傳曰翻初立易注奏上曰臣髙祖父故零陵太守光少治孟氏易曾祖父故平輿令成纘述其業至臣祖父鳯爲之最密臣先考故日南太守歆受本於鳳最有舊書世傳其業至臣五世臣生遇世亂長於軍旅習經於枹鼓之間講論於戎馬之上䝉先師之說依經立注又臣郡吏陳桃夢臣與道士相遇放髪披鹿裘布易六爻撓其三以飲臣臣乞盡吞之道士言易道在天三爻足矣豈臣受命應當知經所覧諸家解不離流俗義有不當實輙悉改定以就其正宋咸曰先儒如虞翻崔憬輩之用互體京房郎顗輩之用五行皆去聖人逺矣張根曰三代之書或曰連山或曰歸藏或曰周易而易之名莫之或改豈非變通之義不可易與此八卦所以爲易之本而三代同之也虞翻好易遇飲三之夢而不得其說猥曰易道在天三爻足矣豈真知易者哉朱震曰虞氏論象太密則失之於牽合牽合之弊或至於無說王應麟曰虞翻注說卦云乾坤五貴三賤故定位艮兌同氣相求故通氣震巽同聲相應故相薄坎戊離巳月……（下略。全文見《經義考》整理本 collated_edition/易.json，頁 KR2n0011_WYG_010-22a）",
       "section": "易",
       "juan": "卷十",
       "page": "KR2n0011_WYG_010-22a",
@@ -48,7 +48,7 @@
   "id": "1evftef5bvj0g",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
@@ -56,11 +56,21 @@
   "additional_titles": [
     "周易註"
   ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evftef5bvj0g/fragments/周易注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/周易注.json（該檔之值經人工校讀，非機讀所生）。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evftef5bvj0g/fragments/周易注.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/周易注.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 4 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國吳」",
   "dynasty": "三國吳",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 9
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 9
+    }
+  ],
+  "measure_info": "九卷"
 }

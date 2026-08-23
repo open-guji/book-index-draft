@@ -14,8 +14,48 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "茅山記一卷",
       "summary": "茅山記一卷。（闕）"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "茅山記",
+      "merged_from": "1evr5e3mklz8n",
+      "note": "諸志同著《茅山記》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《茅山記》一卷",
+      "summary": "《茅山記》一卷（宋陳倩）",
+      "author_info": "宋陳倩",
+      "merged_from": "1evgpk4ay5khs",
+      "note": "《茅山記》（陳倩）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcsxltbqm0w",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "陳倩",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967da97jm0b",
+      "note": "宋史藝文志作「陳倩《茅山記》一卷僧文政」，前置撰人陳倩；句末「僧文政」屬下條。"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《茅山記》（陳倩，1卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgpk4ay5khs（國史經籍志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }

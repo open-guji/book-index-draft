@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "冷謙",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j96hjwlxny27"
+      "entity_id": "1j96hjwlxny27",
+      "role_basis": "據著錄語「舊本題明冷謙撰。謙字啟敬，嘉興人。洪武初官太常協律郎。世或傳其」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -51,11 +52,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明冷謙撰。謙字啟敬，嘉興人。洪武初官太常協律郎。世或傳其」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

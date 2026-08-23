@@ -15,6 +15,18 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《尚書義疏》三十卷",
       "summary": "《尚書義疏》三十卷蕭詧司徒蔡大寶撰。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《尚書義疏》（蔡大寳）",
+      "summary": "隋志三十卷\n隋志大寳蕭詧司徒孔頴達曰古文近至隋初始流河朔其為正義者蔡大寳巢猗費甝顧彪劉焯劉炫",
+      "section": "書",
+      "juan": "卷七十八",
+      "page": "KR2n0011_WYG_078-3a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "juan_count": {
@@ -47,5 +59,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-07-31T04:34:52+00:00"
+  "updated_at": "2026-08-22T04:56:00.076527+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "nanbeichao",
+  "period_basis": "撰人朝代闕，據其 Entity「蔡大寶」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

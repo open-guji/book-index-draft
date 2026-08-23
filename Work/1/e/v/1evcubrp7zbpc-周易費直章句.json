@@ -9,7 +9,7 @@
       "relation": "contains_text_of"
     },
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
@@ -29,5 +29,18 @@
     }
   ],
   "id": "1evcubrp7zbpc",
-  "updated_at": "2026-07-29T13:46:48+00:00"
+  "updated_at": "2026-08-22T04:56:00.084349+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "period": "qin-han",
+  "period_basis": "撰人朝代闕，據其 Entity「費直」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁又有漢單父長費直注《周易》四卷，亡。",
+      "note": "2026-08-23 繫連補記：《隋書經籍志考證》整理本有一節（經部一·易類 第 4 節「梁又有漢單父長費直注《周易》四卷，亡。」）繫及本條，而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。"
+    }
+  ],
+  "ai_note": "2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evdmdh1bbf9c`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。"
 }

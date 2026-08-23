@@ -19,6 +19,15 @@
       "author_info": "明顧《山介》撰",
       "summary": "明顧《山介》撰。《山介》字彙堂，吳縣人。官至南安府知府，是編乃其官儋州時所著。凡風土、物產悉隨筆記之，共四十餘則，皆地志所已具。惟處置叛黎一節，敍述頗詳，為《蠻司合志》所未及雲。",
       "edition": "江蘇周厚堉家藏本"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《海槎餘錄》一卷",
+      "summary": "《海槎餘錄》一卷（顧玠）",
+      "author_info": "顧玠",
+      "merged_from": "1evgpk9u8v668",
+      "note": "撰人原作「顧玠」，乃「顧岕」之異寫或形訛，本條併入。"
     }
   ],
   "juan_count": {
@@ -108,12 +117,18 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "姓名訂正：撰人「顧《山介》」→「顧岕」。「山介」為「岕」之拆字，其字 Unicode U+5C95。四庫總目云「《山介》字彙堂，吳縣人，官至南安府知府」。本庫《海槎餘錄》另有二條：《國史經籍志》本作「顧玠」（玠為王旁，與岕形近而異，當是傳寫之異），《四庫全書存目叢書》本作「顧&amp;」係編碼佚失，三條同為一人。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "姓名訂正：撰人「顧《山介》」→「顧岕」。「山介」為「岕」之拆字，其字 Unicode U+5C95。四庫總目云「《山介》字彙堂，吳縣人，官至南安府知府」。本庫《海槎餘錄》另有二條：《國史經籍志》本作「顧玠」（玠為王旁，與岕形近而異，當是傳寫之異），《四庫全書存目叢書》本作「顧&amp;」係編碼佚失，三條同為一人。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgpk9u8v668` 同題《海槎餘錄》、同卷數 1，撰人分作「顧岕」「顧玠」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「顧岕」，異名之著錄並存於 indexed_by。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

@@ -27,9 +27,16 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《周易講疏》三十五卷",
       "summary": "《周易講疏》三十五卷梁武帝撰。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《周易講疏》三十五卷",
+      "summary": "《周易講疏》三十五卷梁武帝撰。",
+      "note": "本著錄原繫於磁鐵條「周易講疏梁武帝撰」（`1evc5p8r9mw3k`），今歸本條。"
     }
   ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《周易講疏》三十五卷梁武帝撰」，僅頂層 authors 欄漏收，今補入並繫既有蕭衍 entity。與同題陳張譏注三十卷本（見 `1evgopapra0ow`）撰人、卷數皆異，非同書。",
+  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《周易講疏》三十五卷梁武帝撰」，僅頂層 authors 欄漏收，今補入並繫既有蕭衍 entity。與同題陳張譏注三十卷本（見 `1evgopapra0ow`）撰人、卷數皆異，非同書。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《周易講疏》三十五卷」一節原繫於磁鐵條（`1evc5p8r9mw3k`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。",
   "id": "1evcpcsujxtz4",
   "dynasty": "南朝梁",
   "dynasty_basis": "author_propagation:唯一作者朝代",
@@ -37,10 +44,10 @@
   "period_basis": "據 authors[0].dynasty「南朝梁」",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-19T00:00:00-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00"
 }

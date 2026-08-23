@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "1evdx91pllq80",
+  "type": "work",
+  "title": "漢書問答",
+  "authors": [
+    {
+      "name": "沈遵",
+      "role": "撰",
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7vhgs（北宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "沈遵漢書問答",
+      "summary": "沈遵漢書問答五卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《漢書問答》",
+      "summary": "《漢書問答》五卷劉珍等",
+      "merged_from": "1evcsx9bfc8hs",
+      "note": "本著錄原繫題作「沈遵漢書問答」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "漢書問答五卷",
+      "summary": "漢書問答五卷。（闕）。唐沈遵行撰采諸儒爲漢書說者申釋其義有博聞之益然篇第頗差討求未獲闕劉傳以下諸篇",
+      "merged_from": "1evcsx9bfc8hs",
+      "note": "本著錄原繫題作「沈遵漢書問答」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《漢書問答》五卷",
+      "summary": "《漢書問答》五卷（沈遵）",
+      "author_info": "沈遵",
+      "merged_from": "1evcsx9bfc8hs",
+      "note": "本著錄原繫題作「沈遵漢書問答」之條，該題乃撰人冠於書名之首所成，今併入。"
+    }
+  ],
+  "juan_count": {
+    "number": 5
+  },
+  "related_works": [
+    {
+      "id": "d59f1iqd854w",
+      "title": "漢書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "additional_titles": [
+    "漢書問答"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《漢書問答》之 work（`1evcsx9bfc8hs`），與本條題名之差恰為本條撰人「沈遵」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《漢書問答》。",
+  "original_title": "沈遵漢書問答",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+}

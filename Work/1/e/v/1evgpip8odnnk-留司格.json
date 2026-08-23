@@ -3,7 +3,7 @@
   "type": "work",
   "title": "留司格",
   "juan_count": {
-    "number": 1
+    "number": 6
   },
   "indexed_by": [
     {
@@ -18,6 +18,22 @@
       "title_info": "留司格",
       "summary": "留司格一卷",
       "merged_from": "1evcs0i7wva4g"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《留司格》六卷",
+      "summary": "《留司格》六卷",
+      "merged_from": "1evgpipkvkjy8",
+      "note": "新唐書藝文志、國史經籍志（一卷）與新唐書藝文志、國史經籍志（六卷）所著《留司格》為一書，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "留司格",
+      "summary": "留司格六卷",
+      "merged_from": "1evgpipkvkjy8",
+      "note": "新唐書藝文志、國史經籍志（一卷）與新唐書藝文志、國史經籍志（六卷）所著《留司格》為一書，今合併。"
     }
   ],
   "description": {
@@ -26,14 +42,16 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved　解磁鐵：本檔原兼載本志 「《留司格》六卷」（今歸 1evgpipkvkjy8），皆非本 work 之著錄——該志整理本各為之繫 id，而其 work 匯入時未生成，致其著錄併入本檔。今 work 既補建，去之。餘 1 條。\n\n2026-08-18 全庫同名異書核對：與新唐書藝文志同卷數（一卷）之著錄合併，確係同書重出。本條與《留司格》六卷本（`1evgpipkvkjy8`）並見於國史經籍志史類、新唐書藝文志刑法類同段（與麟趾格、唐格、留本司行格、散頒格、新格、太極格等唐代律令格式並列），皆屬官修法典，原文未著撰人，維持留白。",
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、國史經籍志（一卷）、新唐書藝文志、國史經籍志（六卷）同著《留司格》，係一書互著（或重出），今合併。",
   "id": "1evgpip8odnnk",
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 6
     }
   ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-05T01:46:50+00:00"
+  "measure_info": "六卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

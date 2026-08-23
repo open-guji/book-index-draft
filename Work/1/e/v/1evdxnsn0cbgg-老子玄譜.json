@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "1evdxnsn0cbgg",
+  "type": "work",
+  "title": "老子玄譜",
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "劉道人老子玄譜",
+      "summary": "劉道人老子玄譜一卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《老子玄譜》一卷",
+      "summary": "《老子玄譜》一卷劉道人撰。",
+      "merged_from": "1evcpd0zun4lc",
+      "note": "本著錄原繫題作「劉道人老子玄譜」之條，該題乃撰人冠於書名之首所成，今併入。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "老子玄譜一卷 柴桑令劉遺民。謹按見《七録》。兩《唐志》作“劉道人”。《中興書》曰:“劉 之,一字遣民。”本書有驥之傳。",
+      "merged_from": "1evcpd0zun4lc",
+      "note": "本著錄原繫題作「劉道人老子玄譜」之條，該題乃撰人冠於書名之首所成，今併入。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "d59ezkx8dt6o",
+      "title": "道德經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "authors": [
+    {
+      "name": "劉道人",
+      "role": "撰",
+      "entity_id": "1j96hf7wp3n5s"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "老子玄譜"
+  ],
+  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《老子玄譜》之 work（`1evcpd0zun4lc`），與本條題名之差恰為本條撰人「劉道人」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《老子玄譜》。",
+  "original_title": "劉道人老子玄譜",
+  "period_upper": "jin",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《補晋書藝文志》（清人補晉，斷代），故不晚於 jin"
+}

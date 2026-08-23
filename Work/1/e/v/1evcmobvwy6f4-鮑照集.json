@@ -26,6 +26,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《鮑照集》",
       "summary": "《鮑照集》十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《鮑照集》十卷",
+      "summary": "《鮑照集》十卷",
+      "merged_from": "1evgqbb7xr5ds",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -47,6 +55,19 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「宋征虜記室參軍《鮑照集》十卷（梁六卷）」、兩唐志十卷、宋志十卷、國史經籍志十卷，同為南朝宋鮑照別集，今合為一條並繫 entity `1j968k0jdrlz9`。隋志本條下附他書「梁有……」云云為附注他書之通例，非本書異名。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "鮑照",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j968k0jdrlz9",
+      "note": "隋書經籍志題「宋征虜記室參軍《鮑照集》十卷」，書名即撰人。鮑照（約414-466）字明遠，撰《擬行路難》。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」"
 }

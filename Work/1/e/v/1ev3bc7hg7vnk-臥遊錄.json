@@ -5,10 +5,11 @@
   "title": "臥遊錄",
   "authors": [
     {
-      "name": "朱呂祖謙",
+      "name": "呂祖謙",
       "role": "撰",
       "dynasty": "宋",
-      "entity_id": "1j96heqv0joxs"
+      "entity_id": "1j96heqv0joxs",
+      "note": "撰人原作「朱呂祖謙」，衍一「朱」字（蓋「宋呂祖謙」之訛），今正。"
     }
   ],
   "indexed_by": [
@@ -34,6 +35,14 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "臥遊錄"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《卧游錄》二卷",
+      "summary": "《卧游錄》二卷（呂祖謙）",
+      "author_info": "呂祖謙",
+      "merged_from": "1evgq0vk0k0sg"
     }
   ],
   "juan_count": {
@@ -96,7 +105,22 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "additional_titles": [
+    "卧游錄",
+    "臥游錄"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "2026-08-20 磁鐵拆解專項（八）：國史經籍志《臥游錄》二卷（呂祖謙）與本條實一書，遊／游轉換歧出。跨志卷異即異本，今併。\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
+  "authenticity": "forged",
+  "authenticity_basis": "《欽定四庫全書總目》：「其言參差不倫，了無取義，祖謙必不如是之陋。此本出陳繼儒《普秘笈》中，殆明人依託也。」"
 }

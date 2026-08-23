@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "陳仲子",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "戰國齊",
       "entity_id": "1j96heq9428sg",
-      "dynasty_basis": "entity_propagation:1j96heq9428sg"
+      "dynasty_basis": "entity_propagation:1j96heq9428sg",
+      "role_basis": "據著錄語「舊本題齊陳仲子撰。王士禎《居易錄》曰：萬曆間學士，多撰偽書以欺世」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -60,9 +61,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「齊」"
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「戰國齊」（規則1 粗粒度自消歧）。訂正 nanbeichao：原派生誤將諸侯國「齊」讀作南朝齊／北齊。",
+  "ai_note": "period 訂正：nanbeichao → pre-qin。原基準「據 authors[0].dynasty「齊」」把春秋／戰國之齊國誤作南北朝之齊。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題齊陳仲子撰。王士禎《居易錄》曰：萬曆間學士，多撰偽書以欺世」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

@@ -7,17 +7,32 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《春秋考義》",
-      "summary": "《春秋考義》十三卷魏了翁"
+      "summary": "《春秋考義》十三卷魏了翁",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "明史藝文志",
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "梁寅《春秋考义》十卷",
       "summary": "樑寅《春秋考義》十卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋考義》（李心傳）",
+      "summary": "宋志十三卷",
+      "section": "春秋",
+      "juan": "卷一百八十八",
+      "page": "KR2n0011_WYG_188-10a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。朱彝尊著其撰人為「李心傳」，是一源之言，未據以補 authors[]——繫人須另考。"
     }
   ],
   "id": "1evcsw8tob01s",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'梁寅'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'梁寅'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "updated_at": "2026-08-09T10:49:16+00:00",
   "period": "ming",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",

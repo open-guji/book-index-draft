@@ -4,10 +4,11 @@
   "title": "孝經疏",
   "authors": [
     {
-      "name": "行冲",
+      "name": "元行冲",
       "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96haa1z8qv4"
+      "dynasty": "唐",
+      "entity_id": "1j967afjb6adz",
+      "name_basis": "原作「行冲」而 dynasty 誤標「元」——「元」實為撰人姓氏，非朝代。本條新唐書藝文志引文明作「元行沖御注孝經疏」，國史經籍志亦作「（元行冲）」，姓名為「元行沖（冲）」，唐開元間人，逕正。"
     }
   ],
   "juan_count": {
@@ -20,6 +21,15 @@
       "title_info": "《孝經疏》三卷",
       "summary": "《孝經疏》三卷（元行冲）",
       "author_info": "元行冲"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "元行沖御注孝經疏",
+      "summary": "元行沖御注孝經疏二卷",
+      "note": "國史三卷、新唐二卷，卷數並存。庫另有玉函輯本御注孝經疏（元行衝，一卷，`1ewsa49wlkp53`），與本條疑重出，俟裁。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 liao-jin-yuan 之作、撰人行冲，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "description": {
@@ -28,7 +38,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"孝經疏\" 唯一候选无作者 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "missing_reason: 短title \"孝經疏\" 唯一候选无作者 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] 2026-08-21 新唐志四簇磁鐵拆解：「元行沖御注孝經疏」節原繫主經之條，今歸本條。國史三卷、新唐二卷，卷數並存。庫另有玉函輯本御注孝經疏（元行衝，一卷，`1ewsa49wlkp53`），與本條疑重出，俟裁。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "id": "1evgoqtsvh7uo",
   "measures": [
     {
@@ -39,14 +49,14 @@
   "measure_info": "三卷",
   "related_works": [
     {
-      "id": "1evl1xugdoikg",
+      "id": "d59f1iosq6tc",
       "title": "孝經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "period": "sui-tang",
+  "period_basis": "隨 dynasty 由誤判之「元」訂正為「唐」而改（原 liao-jin-yuan 係據誤判朝代所推，2026-08-23 B2 批三十七）。",
+  "dynasty": "唐",
+  "dynasty_basis": "原標「元」，乃將撰人姓氏「元」（元行沖）誤判為朝代所致；撰人已於 2026-08-23 B2 批三十七正名為「元行冲」（唐開元間人，新唐志「元行沖御注孝經疏」自證），朝代隨之訂正為唐。"
 }

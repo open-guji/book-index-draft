@@ -1,52 +1,60 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "服內元氣訣",
- "authors": [
-  {
-   "name": "煙蘿子",
-   "role": "撰",
-   "entity_id": "1j96haaf60p34"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《服内元氣訣》一卷",
-   "summary": "《服内元氣訣》一卷（煙蘿子）",
-   "author_info": "煙蘿子"
+  "schema_version": 1,
+  "type": "work",
+  "title": "服內元氣訣",
+  "authors": [
+    {
+      "name": "煙蘿子",
+      "role": "撰",
+      "entity_id": "1j96haaf60p34"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "崇文總目",
-   "source_bid": "1ev3bb3xyygw0",
-   "title_info": "煙蘿子服内元氣訣一卷",
-   "summary": "煙蘿子服内元氣訣一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpolcwcgzk",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "additional_titles": [
-  "服内元氣訣"
- ],
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mgv4nx（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《服内元氣訣》一卷",
+      "summary": "《服内元氣訣》一卷（煙蘿子）",
+      "author_info": "煙蘿子"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "煙蘿子服内元氣訣一卷",
+      "summary": "煙蘿子服内元氣訣一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "服内元氣訣一卷",
+      "summary": "服内元氣訣一卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpolcwcgzk",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "additional_titles": [
+    "服内元氣訣"
+  ],
+  "updated_at": "2026-08-23T05:48:58.501766+00:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evr5e3mgv4nx（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-22 B3 併池（一方無撰人型）：1evr5e3mgv4o7 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song"
 }

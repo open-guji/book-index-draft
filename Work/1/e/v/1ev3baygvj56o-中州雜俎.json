@@ -8,7 +8,10 @@
       "name": "汪價",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j96heneluqyo"
+      "entity_id": "1j96heneluqyo",
+      "alt_names": [
+        "汪价"
+      ]
     }
   ],
   "indexed_by": [
@@ -25,6 +28,16 @@
       "source_bid": "1evdiulq07rwg",
       "title_info": "中州雜俎",
       "summary": "中州雜俎三十五卷。汪價撰。"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《中州雜俎》二十一卷",
+      "author_info": "清汪价撰",
+      "summary": "《中州雜俎》二十一卷。清汪价撰。北京大學圖書館藏民國十年安陽三怡堂排印本。",
+      "edition": "北京大學圖書館藏民國十年安陽三怡堂排印本",
+      "volume": "第249冊",
+      "section": "史部"
     }
   ],
   "juan_count": {
@@ -37,9 +50,16 @@
     }
   ],
   "measure_info": "三十五卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》第249冊（史部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  },
+  "ai_note": "2026-08-22 B3 併池（撰人名近似）：1evjxkz09bgg0 併入本條。撰人名「汪價」「汪价」僅異體之別，歸一後同名，故二條同書。併者之撰人寫法存於 authors[0].alt_names。"
 }

@@ -52,6 +52,14 @@
       "summary": "唐書經籍志：漢名臣奏又二十九卷。按舊志次陳壽書之後，故曰又二十九卷。新志與南臺奏事並在應劭之前，又别有陳壽漢名臣奏事三十卷，知此二十九卷在陳壽之前，新志固以爲漢人書矣。按此二十九卷與陳壽漢名臣奏事三十卷爲不同書，應爲漢代人所集，非陳壽所撰。",
       "section": "史部／刑法類",
       "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又二十九卷",
+      "summary": "又二十九卷",
+      "merged_from": "1evfuvfbxlslc",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志）不著撰人、亦不著卷數，本條（國史經籍志、宋史藝文志、後漢藝文志、新唐書藝文志、直齋書錄解題、舊唐書經籍志、補晋書藝文志）作「陳壽」撰、30卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -72,12 +80,14 @@
       "number": 30
     }
   ],
-  "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題，其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md「**魏名臣奏三十卷漢名臣奏三十卷**」下三段，段三「陳壽，謹按見《舊唐志》。《隋志》脫撰人名。」屬本書。　改題撞庫：本庫已有 ['1evgq9c8nk8w0', '1evcpcz9at5vk', '1evfhn07vk1s0', '1evr5e3miqk0a'] 題《漢名臣奏》，皆不著撰人，是重出而非同名異書，合併另案。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evgq9c8nk8w0（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evgq9c8nk8w0 為志書連書省撰人體例（國史經籍志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpcz9at5vk（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evcpcz9at5vk 為志書連書省撰人體例（舊唐書經籍志/新唐書藝文志/宋史藝文志），判定同書。共移入 3 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evr5e3miqk0a（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evr5e3miqk0a 為志書連書省撰人體例（直齋書錄解題），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evfhn07vk1s0（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evfhn07vk1s0 為志書連書省撰人體例（後漢藝文志），判定同書。共移入 1 個 indexed_by 記錄。",
+  "ai_note": "補晉志誤切訂正：本條原以撰人與謹按語為題，其書名併在前一著錄之粗體題中。今還其題與撰人。依據：md「**魏名臣奏三十卷漢名臣奏三十卷**」下三段，段三「陳壽，謹按見《舊唐志》。《隋志》脫撰人名。」屬本書。　改題撞庫：本庫已有 ['1evgq9c8nk8w0', '1evcpcz9at5vk', '1evfhn07vk1s0', '1evr5e3miqk0a'] 題《漢名臣奏》，皆不著撰人，是重出而非同名異書，合併另案。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evgq9c8nk8w0（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evgq9c8nk8w0 為志書連書省撰人體例（國史經籍志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evcpcz9at5vk（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evcpcz9at5vk 為志書連書省撰人體例（舊唐書經籍志/新唐書藝文志/宋史藝文志），判定同書。共移入 3 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evr5e3miqk0a（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evr5e3miqk0a 為志書連書省撰人體例（直齋書錄解題），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-08 同名異書核對 batch10：合併 src_work_id=1evfhn07vk1s0（漢名臣奏）。本組 title=漢名臣奏，有 author 條之作者=陳壽，noauthor 條 1evfhn07vk1s0 為志書連書省撰人體例（後漢藝文志），判定同書。共移入 1 個 indexed_by 記錄。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcz9gffnk`（漢名臣奏）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpcz9gffnk`（舊唐書經籍志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "emendated_by": [],
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "period_fallback:jin→晉",
+  "measure_info": "三十卷",
+  "period_upper": "qin-han",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《後漢藝文志》（清姚振宗補後漢，斷代），故不晚於 qin-han　**與現判之 period 相斥，存疑待覈**"
 }

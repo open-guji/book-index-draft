@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "王松年",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j96h8rw8hyl5"
+      "entity_id": "1j96h8rw8hyl5",
+      "role_basis": "據著錄語「王松年《仙苑編珠》一卷李昌齡舊本題唐王松年撰。松年，天臺道士。《文獻通考》作唐人，然書中有梁」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -124,12 +125,12 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 舊題撰人專項：著錄語作「王松年《仙苑編珠》一卷李昌齡舊本題唐王松年撰。松年，天臺道士。《文獻通考》作唐人」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

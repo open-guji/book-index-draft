@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "禮記文外大義",
+  "authors": [
+    {
+      "name": "褚暉",
+      "entity_id": "1j96heyrchlvk"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《禮記文外大義》二卷",
+      "summary": "《禮記文外大義》二卷秘書學士褚暉撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《禮記文外大義》三卷",
+      "summary": "《禮記文外大義》三卷（楮□。）",
+      "author_info": "楮□。",
+      "merged_from": "1evgoqc5xum80",
+      "note": "本著錄原繫題作「禮記文外大義褚暉撰」之條，該題乃撰人折入題名所成，今併入。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記文外大義》（禇暉）",
+      "summary": "隋志二卷\n隋志注暉秘書學士",
+      "section": "禮記",
+      "juan": "卷一百四十",
+      "page": "KR2n0011_WYG_140-9b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "description": {
+    "text": "秘书学士褚晖撰。",
+    "sources": []
+  },
+  "id": "1evc5pd515rsw",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "禮記文外大義二卷 祕書學士褚暉撰",
+      "summary": "《隋唐·儒林傳》:吴郡褚輝《北史》作“暉”。字高明,以三《禮》學稱\n於江南。 帝時, 天下儒術之士,悉集内史省,相次講論。輝\n博辨無能屈者,由是擢為太學博士。撰《禮疏》一百卷。\n錢氏《隋書考異》曰:“《經籍志》:《禮記文外大義》二卷。按\n《儒林傳》撰《禮疏》一百卷,與此互異。”"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "related_works": [
+    {
+      "id": "d59f1iofm800",
+      "title": "禮記",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "禮記文外大義"
+  ],
+  "ai_note": "2026-08-20 撰人折入題名專項：庫中別有題作《禮記文外大義》之 work（`1evgoqc5xum80`），與本條題名之差恰為本條撰人「褚暉」及一「撰」字——本條之題乃匯入時將志文之撰人綴於書名之後所成，二者實一書。今併，並正本條之題為《禮記文外大義》。\n\n2026-08-21 original_title 清雜訊：撤去「禮記文外大義」——與 title 全同，非本條所本之書題。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+}

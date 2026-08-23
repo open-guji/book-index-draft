@@ -23,7 +23,7 @@
     }
   ],
   "juan_count": {
-    "number": 3
+    "number": 1
   },
   "id": "1evcmnfc3598g",
   "emendated_by": [
@@ -37,10 +37,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 3
+      "number": 1
     }
   ],
-  "measure_info": "三卷",
+  "measure_info": "一卷",
   "related_works": [
     {
       "id": "1evcubrhko0lc",
@@ -48,6 +48,19 @@
       "relation": "text_carried_by"
     }
   ],
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-19 全庫同名異書核對：本條為隋志、兩唐志之王琛《遁甲開山圖》一卷（隋志自注「梁《遁甲開山經圖》一卷」），與隋志榮氏三卷本（`1evcmnf2qyo74`）非一書，未予合併。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王琛",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《遁甲開山圖》一卷王琛撰」。庫中同名 entity 繫為明人，非其人，故不繫。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

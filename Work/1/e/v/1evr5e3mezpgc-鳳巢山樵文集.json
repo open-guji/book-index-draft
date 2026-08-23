@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mezpgc",
+  "type": "work",
+  "title": "鳳巢山樵文集",
+  "authors": [
+    {
+      "name": "吳慈鶴",
+      "role": "撰",
+      "dynasty": "清",
+      "entity_id": "1j967afja8krn"
+    }
+  ],
+  "juan_count": {
+    "number": 4
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "文集",
+      "summary": "岑華居士詩八卷，鳳巢山樵詩十一卷，文集四卷。吳慈鶴撰。"
+    }
+  ],
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志集部別集類\n\n2026-08-19 部帙通名截題正名專項：本條原題「文集」，乃著錄原文「岑華居士詩八卷，鳳巢山樵詩十一卷，文集四卷。吳慈鶴撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《鳳巢山樵文集》，目錄原題記於 original_title。\n\n2026-08-21 original_title 清雜訊：撤去「文集」——通名之尾，非本條所本之書題。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1evr5e3md4a4x",
+      "title": "鳳巢山樵詩",
+      "relation": "part_of"
+    }
+  ]
+}

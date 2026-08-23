@@ -3,7 +3,7 @@
   "id": "11q37q5p4vtog",
   "type": "book",
   "title": "欽定皇朝通志",
-  "work_id": "1evkacps4p9mo",
+  "work_id": "1evr5e3meogy6",
   "contained_in": [
     {
       "id": "8rlb6yi1ecqo",
@@ -11,6 +11,9 @@
         644,
         645
       ]
+    },
+    {
+      "id": "1ahwlq4d3tjwg"
     }
   ],
   "resources": [
@@ -252,9 +255,31 @@
           "imagecount": 83
         }
       ]
+    },
+    {
+      "id": "npm-rarebooks",
+      "name": "國立故宮博物院善本古籍",
+      "short_name": "故宮善本",
+      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAxMzkzOC0wMTM5NjcifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
+      "types": [
+        "physical"
+      ],
+      "metadata": {
+        "item_id": "故庫013938-013967",
+        "acckey": "0592a595d2bfab1c1a370553f3f7f990"
+      }
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",
-  "updated_at": "2026-05-17T21:14:17-07:00",
-  "_has_image": true
+  "updated_at": "2026-08-23T06:47:08.697649+00:00",
+  "_has_image": true,
+  "section": "史部",
+  "metadata": {
+    "npm_item_id": "故庫013938-013967",
+    "npm_acckey": "0592a595d2bfab1c1a370553f3f7f990"
+  },
+  "merged_from": [
+    "11qkhwbfm88w0"
+  ],
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：Book 11qkhwbfm88w0（edition「清乾隆間寫文淵閣四庫全書本」，繫《國立故宮博物院善本舊籍》1ahwlq4d3tjwg，帶故宮著錄號 故庫013938-013967）併入本條。二者非兩部書——文淵閣《四庫全書》寫本原藏台北故宮，本條之 edition「欽定四庫全書·文淵閣本」著錄其於叢編中之冊次並繫維基共享影印，彼條著錄同一實物之故宮館藏，故合為一 Book，兩處著錄各存為 contained_in／resources。"
 }

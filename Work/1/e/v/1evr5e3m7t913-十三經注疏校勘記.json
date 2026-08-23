@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 15
+    "number": 245
   },
   "indexed_by": [
     {
@@ -30,15 +30,23 @@
       "edition": "影印南京圖書館藏清嘉慶阮氏文選樓刻本",
       "volume": "第181冊",
       "section": "经部 羣經總議類"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《十三經注疏校勘記》",
+      "summary": "二百四十三卷。阮元。原刻單行本，學海堂本，又散附阮刻注疏各卷之後。",
+      "merged_from": "1evr5e3m7t913",
+      "note": "S1 交棒之「注本專項同題待核」組：書目答問《十三經注疏校勘記》（無撰人）。同題全庫僅此二條，本條清史稿、續修四庫俱作阮元。二條同題而一為撰者、一為注／校／箋者，判為同書，撰人並存而各記其 role。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 15
+      "number": 245
     }
   ],
-  "measure_info": "十五卷",
+  "measure_info": "二百四十五卷",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -56,10 +64,11 @@
   "additional_titles": [
     "十三經註疏校勘記"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 15，與著錄原文（續修四庫全書：「十三經注疏校勘記」）所載之 245 卷不合，今據原文訂正。\n\n2026-08-23 B1 同名異書併池：併入 `1evinch3qge0w`（十三經注疏校勘記）。2026-08-23 B 車道（S1 交棒·注本專項同題待核）：併入 `1evinch3qge0w`。書目答問《十三經注疏校勘記》（無撰人）。同題全庫僅此二條，本條清史稿、續修四庫俱作阮元。"
 }

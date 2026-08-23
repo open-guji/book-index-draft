@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《李翰集》三十卷",
       "summary": "《李翰集》三十卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《李翰集》",
+      "summary": "《李翰集》一卷",
+      "merged_from": "1evcsynfekkxs",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "description": {
@@ -19,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"李翰集\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，國史經籍志三十卷、宋志一卷，同為唐李翰別集，今合為一條並繫 entity `1j967da97jlz5`。宋志一卷為宋時所存殘帙。",
   "id": "1evgqc1gbxe68",
   "measures": [
     {
@@ -28,5 +36,18 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李翰",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da97jlz5",
+      "note": "書名即撰人。李翰為唐大曆間文士，撰《張巡姚誾傳》。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

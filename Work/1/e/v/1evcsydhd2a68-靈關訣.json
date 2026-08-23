@@ -8,8 +8,44 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《靈關訣》",
       "summary": "李洿《靈關訣》二卷（（一名"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "靈闗訣二卷",
+      "summary": "靈闗訣二卷",
+      "merged_from": "1evr5e3mfxf3q",
+      "note": "諸志同著《靈關訣》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsydhd2a68",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "靈闗訣",
+    "靈關集益智"
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "authors": [
+    {
+      "name": "李洿",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96hg44g2znk",
+      "note": "宋史藝文志作「李洿《靈關訣》二卷」，前置撰人李洿。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《靈關訣》二卷，今合併並據宋志前置撰人補為李洿。\n\n2026-08-19 非書條誤析專項：宋史藝文志本條下之注「（（一名《靈關集益智》））」於匯入時被切為獨立書條（`1evcsydhnd43k`），今刪其條而以「靈關集益智」入本條之 additional_titles。"
 }

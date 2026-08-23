@@ -12,10 +12,22 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《論語集解》（梁億）",
-      "summary": null,
+      "summary": "姓譜億字伯安晉江人克家子以父任補官累遷通判福州嘗著論語集解上之袐府進官一秩",
       "section": "論語",
       "juan": "卷二百十八",
       "page": "KR2n0011_WYG_218-9b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《論語注釋》（梁覬）",
+      "summary": "七錄十卷",
+      "section": "論語",
+      "juan": "卷二百十二",
+      "page": "KR2n0011_WYG_212-6a",
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
@@ -49,13 +61,13 @@
   "measure_info": "十卷",
   "related_works": [
     {
-      "id": "1ev7w0euvaeww",
+      "id": "d59f1iopaku8",
       "title": "論語",
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「梁」，今補全為「梁覬」。據《隋書·經籍志》及案語「國子博士梁……東晉天水人」。《隋志》明載「晉國子博士梁覬注《論語》十卷」，《經典釋文·敘錄》同。馬國翰《玉函山房輯佚書》輯有《論語梁氏注釋》題梁覬撰。",
+  "loss_status": "partially_extant",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「梁」，今補全為「梁覬」。據《隋書·經籍志》及案語「國子博士梁……東晉天水人」。《隋志》明載「晉國子博士梁覬注《論語》十卷」，《經典釋文·敘錄》同。馬國翰《玉函山房輯佚書》輯有《論語梁氏注釋》題梁覬撰。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：文中明載某輯家輯有本書——「馬國翰《玉函山房輯佚書》輯」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。",
   "updated_at": "2026-08-08T14:05:56+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",

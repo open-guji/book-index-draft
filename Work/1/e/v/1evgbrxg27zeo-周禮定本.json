@@ -16,12 +16,21 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "邱葵周禮定本三卷",
       "summary": "元邱葵周禮定本三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周禮定本》三卷",
+      "summary": "《周禮定本》三卷（元丘葵）",
+      "author_info": "元丘葵",
+      "merged_from": "1evgoq72izrpc",
+      "note": "撰人原作「丘葵」，乃「邱葵」之訛（或異寫），本條併入。"
     }
   ],
   "juan_count": {
     "number": 3
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('舒芬', '明')]，本條作者 邱葵（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "同名異書：已有 Work 作者為 [('舒芬', '明')]，本條作者 邱葵（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evgoq72izrpc` 同題《周禮定本》、同卷數 3，撰人作「邱葵」與「丘葵」，僅一字之差（或一名含於另一名）。「丘葵」全庫僅 1 見而「邱葵」凡 9 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
   "id": "1evgbrxg27zeo",
   "measures": [
     {
@@ -32,14 +41,20 @@
   "measure_info": "三卷",
   "related_works": [
     {
-      "id": "1evl7nl7lsg00",
+      "id": "d59f1ioc6m0w",
       "title": "周禮",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

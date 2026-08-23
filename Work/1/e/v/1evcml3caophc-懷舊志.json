@@ -14,6 +14,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "懷舊志",
       "summary": "懷舊志九卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《懷舊志》九卷",
+      "summary": "《懷舊志》九卷",
+      "merged_from": "1evgpjccrm8sg",
+      "note": "諸志同著《懷舊志》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "九卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "蕭繹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967da978diu",
+      "note": "隋書經籍志明載「《懷舊志》九卷梁元帝撰」，梁元帝即蕭繹。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、新唐書藝文志、國史經籍志同著《懷舊志》九卷，今合併並據隋志補撰人為蕭繹。"
 }

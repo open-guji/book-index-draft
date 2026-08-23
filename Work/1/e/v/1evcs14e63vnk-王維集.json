@@ -14,8 +14,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《王維集》",
       "summary": "（（題鮑氏，不知名））《王維集》十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王維集》十卷",
+      "summary": "《王維集》十卷",
+      "merged_from": "1evgqbzzrot8g",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcs14e63vnk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "王維",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967bgl6e34u",
+      "note": "書名即撰人。王維（701-761）字摩詰。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，新唐志、宋志、國史經籍志皆十卷，同為唐王維別集，今合為一條並繫 entity `1j967bgl6e34u`。宋志本條句首括注「（題鮑氏，不知名）」乃承前條之注，非本書之注。"
 }

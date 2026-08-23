@@ -16,24 +16,23 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvl5k4fsw 與 11q37nzu09m2o 同指文淵閣寫本一實物，今併於後者。",
   "id": "1evjy5vet52io",
   "books": [
     "11qk4xwcufqbn",
     "11q37nzu09m2o",
     "11qkhulxbv37k",
-    "11qkhvl5k4fsw",
     "11qkhtf295fy8",
     "11qki32oibugw",
     "11qki05dozhts"
   ],
   "measures": [
     {
-      "unit": "冊",
-      "number": 5
+      "unit": "卷",
+      "number": 10
     }
   ],
-  "measure_info": "五冊",
+  "measure_info": "十卷",
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -61,6 +60,18 @@
       "title_info": "《尚書通考》十卷",
       "summary": "《尚書通考》十卷（黄鎮成）",
       "author_info": "黄鎮成"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《尚書通考》（黄鎮成）",
+      "summary": "十卷\n鎮成自序曰書載二帝三王之政政者心與事之所形也是故道德仁聖綂於心制作名物達於事内外之道合而帝王之政偹矣然綂乎心者先後古今脗合無二達於事者儀章器物因革無存故求帝王之心易而考帝王之事難矧後儒稽古不過以周為據而秦人滅學周典亦多殘缺迺欲以不完之文以徵隆古之舊斯益難矣然昔者紫陽夫子之敎必語學者以有業次如所謂堯舜典厯象日月星辰律度量衡五禮六樂禹貢山川洪範九疇之類須一一理㑹令透葢讀書窮理即器㑹通乃學者之當務也余方授兒輩以書間或有問不容立答則取關渉考究者㑹萃抄撮或不可言曉者規畫為圗以示之至衆家之説有所不通則間述臆見以附於下如舊圗舊説已偹者不復贅出其有未盡則隨條辨晰焉歲月積累寖成卷帙兒輩乃請次其顛末以便尋考名曰尚書通考竊謂學有本末道無精粗禮樂官名聖人猶問則讀是經者安得不求其故哉方將就正於博學君子然後退授於家俾得格致之助亦庶乎紫陽夫子之敎云爾",
+      "section": "書",
+      "juan": "卷八十六",
+      "page": "KR2n0011_WYG_086-15b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "resources": [
@@ -152,11 +163,14 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 10
+  }
 }

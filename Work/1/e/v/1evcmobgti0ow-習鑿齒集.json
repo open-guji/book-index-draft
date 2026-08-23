@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "習鑿齒集",
       "summary": "習鑿齒集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《習鑿齒集》五卷",
+      "summary": "《習鑿齒集》五卷",
+      "merged_from": "1evgqav5o0dmo",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "習鑿齒",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967cp1zdr2o",
+      "note": "隋書經籍志題「晉滎陽太守《習鑿齒集》五卷」，書名即撰人。習鑿齒撰《漢晉春秋》《襄陽耆舊記》。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉滎陽太守《習鑿齒集》五卷」、兩唐志、國史經籍志皆五卷，同為東晉習鑿齒別集，今合為一條並繫 entity `1j967cp1zdr2o`。"
 }

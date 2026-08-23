@@ -3,7 +3,14 @@
   "id": "1ev3bcr80pjpc",
   "type": "work",
   "title": "古老子",
-  "authors": [],
+  "authors": [
+    {
+      "name": "許劍道人",
+      "role": "手刊",
+      "dynasty": "元",
+      "note": "舊本題。卷首自題絕句署「壬子閏五題於申州傳舍」，末鈐「史垂名」「青史」二印。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -23,5 +30,22 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-05-17T16:27:21-07:00"
+  "updated_at": "2026-05-17T16:27:21-07:00",
+  "original_title": "道德經",
+  "description": {
+    "text": "《欽定四庫全書總目》著錄二卷，舊本題許劍道人手刊。卷首有自題絕句一首，稱壬子閏五題於申州傳舍，末鈐「史垂名」「青史」二小印；次為所畫老子像。是本為《道德經》之寫刊繪像本，非別一原典。",
+    "sources": [
+      "欽定四庫全書總目"
+    ]
+  },
+  "related_works": [
+    {
+      "id": "d59ezkx8dt6o",
+      "title": "道德經",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "2026-08-20 老子體系收束：本條為《道德經》之寫刊繪像本，非別一原典。補撰人、卷數、描述與 original_title，並繫於原典。題名《古老子》為四庫著錄之專名，依「專名優先」之例不改。",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

@@ -32,6 +32,41 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "禮記音一卷 炳。謹按見《七録》。《釋文·敘錄》亦著録。",
+      "merged_from": "1evfubmbf0k5c",
+      "note": "《禮記音》（范宣）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記音》（繆炳）",
+      "summary": "七錄一卷",
+      "section": "禮記",
+      "juan": "卷一百四十",
+      "page": "KR2n0011_WYG_140-3b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evfubmbf0k5c",
+      "note": "《禮記音》（范宣）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記解》（楊炳）",
+      "summary": null,
+      "section": "禮記",
+      "juan": "卷一百四十二",
+      "page": "KR2n0011_WYG_142-4a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "merged_from": "1evfubmbf0k5c",
+      "note": "《禮記音》（范宣）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
     }
   ],
   "id": "1evcpctix2oe8",
@@ -39,20 +74,32 @@
     {
       "name": "范宣",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967cp1zdr3a"
+      "dynasty": "晉",
+      "entity_id": "1j967cp1zdr3a",
+      "dynasty_basis": "清史稿藝文志著錄語之朝代前綴（2026-08-21 訂正）：「晉范宣《禮記音》一卷。」"
     }
   ],
   "related_works": [
     {
-      "id": "1evl7nlb2nda8",
+      "id": "d59f1iofm800",
       "title": "禮記",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」（2026-08-21 訂正：原標「清」，據清史稿著錄語之朝代前綴改）",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《禮記音》（范宣）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。\n\n2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「晉范宣《禮記音》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「晉」、period 為 jin。"
 }

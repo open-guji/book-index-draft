@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《慶曆編敕》",
       "summary": "賈昌朝《慶曆編敕》十二卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《慶曆編敕》",
+      "summary": "賈昌朝《慶曆編敕》、",
+      "merged_from": "1evcsxi88sr9c",
+      "note": "諸志同著《慶曆編敕》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxhv39r7k",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "賈昌朝",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "宋史藝文志兩出，皆作「賈昌朝《慶曆編敕》」，前置撰人賈昌朝；其一 summary 殘作「賈昌朝《慶曆編敕》、」。"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出「賈昌朝《慶曆編敕》」，其一卷數已殘，撰人相同，係重出，今合併。\n\n2026-08-21 本條連記附屬部帙：《總例》。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。"
 }

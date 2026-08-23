@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《產圖》一卷",
       "summary": "《產圖》一卷崔知悌撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《產圖》二卷",
+      "summary": "《產圖》二卷",
+      "merged_from": "1evgq3mv3ctts",
+      "note": "諸志同著《產圖》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "崔知悌",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《產圖》一卷崔知悌撰」。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、舊唐書經籍志、國史經籍志同著《產圖》，一卷、二卷之異乃傳本分卷之別，今合併並據舊唐志補撰人為崔知悌。"
 }

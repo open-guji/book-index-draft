@@ -20,6 +20,14 @@
       "source_bid": "1evdiulq07rwg",
       "title_info": "詩考補註",
       "summary": "《毛鄭詩釋》四卷，《鄭氏詩譜考正》一卷，《詩考補註》二卷，《補遺一卷，《毛詩陸疏校正》二卷，《詩集傳附釋一卷。丁晏撰。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《詩考補注》",
+      "summary": "二卷，《補遺》一卷。林伯桐。修本堂本。",
+      "merged_from": "1evr5e3m76rta",
+      "note": "同題二條而一方無撰人：彼條（書目答問）不著撰人、亦不著卷數，本條（清史稿藝文志）作「丁晏」撰、1卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
     }
   ],
   "measures": [
@@ -32,9 +40,17 @@
   "additional_titles": [
     "詩考補註"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-21 本條連記附屬部帙：補遺。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「詩考」，庫中有同題而非注本之條 `1ev3b9y86dnuo`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-23 B1 同名異書併池：併入 `1evincea1l79c`（詩考補注）。2026-08-23 B10（同題一方無撰人）：併入 `1evincea1l79c`（書目答問，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "related_works": [
+    {
+      "id": "1ev3b9y86dnuo",
+      "title": "詩考",
+      "relation": "contains_text_of"
+    }
+  ]
 }

@@ -5,10 +5,12 @@
   "title": "子華子",
   "authors": [
     {
-      "name": "人程本",
-      "role": "撰",
+      "name": "程本",
+      "role": "舊題撰",
       "dynasty": "晉",
-      "entity_id": "1j96heq26yvb4"
+      "entity_id": "1j96heq26yvb4",
+      "name_basis": "原作「人程本」，乃四庫提要「舊本題晉人程本撰」一語截去「晉」字之殘，逕正為「程本」。",
+      "role_basis": "據著錄語「《子華子》十卷（（自言程氏名本，字子華，晉國人。舊本題晉人程本撰。按程本之名見於《家語》，子華子之名見於《列子》」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -31,10 +33,19 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《子華子》十卷",
       "summary": "《子華子》十卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "子華子",
+      "merged_from": "1ev3bbv02jqps",
+      "note": "直齋書錄解題另立之無撰人十卷本，與本條宋志引文「《子華子》十卷（自言程氏名本，字子華，晉國人）」及國史經籍志十卷本卷數全合，同書。"
     }
   ],
   "books": [
-    "11q37rfrqneo0"
+    "11q37rfrqneo0",
+    "11qkhwrpl5r0g",
+    "11qkhzxlwaozk"
   ],
   "juan_count": {
     "number": 2
@@ -120,11 +131,12 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-22T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「《子華子》十卷（（自言程氏名本，字子華，晉國人。舊本題晉人程本撰。按程本之名見於」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-22 B1 同名異書併池：併入 `1evkananvbsow`（子華子）。2026-08-21 B2 併池：併入 `1evkananvbsow`（故宮善本著錄，程本撰，一卷，日本刊本）。同書之後世日本刊本。\n\n2026-08-22 B1 同名異書併池：併入 `1evr5e3mj1shb`（子華子）。2026-08-21 B2 併池：併入 `1evr5e3mj1shb`（直齋書錄解題，無撰人，十卷）。同書。本條 authors[0] 原記「人程本」，乃四庫提要「舊本題晉人程本撰」一語截去「晉」字之殘，逕正為「程本」。"
 }

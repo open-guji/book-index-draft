@@ -8,8 +8,48 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《補茶經》",
       "summary": "周絳《補茶經》一卷葉庭珪"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "補茶經",
+      "merged_from": "1evr5e3mjo9no",
+      "note": "直齋書錄解題《補茶經》，與宋志「周絳《補茶經》一卷」同書，今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《補茶經》一卷",
+      "summary": "《補茶經》一卷（周絳）",
+      "author_info": "周絳",
+      "merged_from": "1evgpi4gocikg",
+      "note": "《補茶經》（周絳）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcsxwb0vw8w",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "周絳",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j96h8rw86q2j",
+      "note": "宋史藝文志作「周絳《補茶經》一卷葉庭珪」，前置撰人周絳；句末「葉庭珪」屬下條。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《補茶經》（周絳，1卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgpi4gocikg（國史經籍志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }

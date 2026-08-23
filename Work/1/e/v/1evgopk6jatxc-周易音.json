@@ -12,6 +12,26 @@
       "title_info": "《周易音》一卷",
       "summary": "《周易音》一卷（晉李𮜿）",
       "author_info": "晉李𮜿"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "title_info": "周易音一卷",
+      "summary": "周易音一卷\n尚書郎李軌。謹按見《隋志》。《釋文敘録》云:“字宏範,江夏人,祠部郎,中都亭侯。”",
+      "merged_from": "1evfugvhc9b7k",
+      "note": "《周易音》（李軌）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易音》（李軌）",
+      "summary": "隋志一卷\n隋志東晋尚書郎李軌撰陸徳明曰軌字𢎞範江夏人東晋祠部郎中都亭侯",
+      "section": "易",
+      "juan": "卷十一",
+      "page": "KR2n0011_WYG_011-21a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "description": {
@@ -20,7 +40,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《周易音》（李軌，1卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evfugvhc9b7k（補晋書藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**",
   "id": "1evgopk6jatxc",
   "measures": [
     {
@@ -31,10 +51,23 @@
   "measure_info": "一卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "李軌",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "國史經籍志注「晉李𮜿」；補晉書藝文志作「尚書郎李軌，謹按見《隋志》」，𮜿即軌之異寫。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

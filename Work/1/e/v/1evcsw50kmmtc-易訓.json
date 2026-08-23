@@ -8,8 +8,61 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《易訓》",
       "summary": "宋鹹《易訓》三卷又《易補注》十卷又《劉牧王弼易辨》二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《易訓》三卷",
+      "summary": "《易訓》三卷（宋咸）",
+      "author_info": "宋咸",
+      "merged_from": "1evgopecuy60w",
+      "note": "國史經籍志「《易訓》三卷（宋咸）」，撰人、卷數與宋志全合（「咸」為「鹹」之簡寫）。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易訓》（宋咸）",
+      "summary": "宋志三卷",
+      "section": "易",
+      "juan": "卷十六",
+      "page": "KR2n0011_WYG_016-17b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "id": "1evcsw50kmmtc",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "宋鹹",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": null,
+      "note": "宋史藝文志易類原文即題「宋鹹《易訓》三卷又《易補注》十卷又《劉牧王弼易辨》二卷」，三書連書而共一撰人；國史經籍志原注作「（宋咸）」，「咸」為「鹹」之簡寫。宋鹹字貫之，北宋建陽人，天聖二年進士。本庫無此 entity。"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "related_works": [
+    {
+      "id": "1evcsw5brx8n4",
+      "title": "易訓",
+      "relation": "related",
+      "note": "宋史藝文志易類另出之《易訓》三十卷，據該志頂真格其撰人為倪思，卷數與本條懸殊，別為一書。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志易類「宋鹹《易訓》三卷又《易補注》十卷又《劉牧王弼易辨》二卷」（一條連書宋鹹三書）與國史經籍志「《易訓》三卷（宋咸）」撰人、卷數全合，同為一書，今合為一條並補撰人。宋志易類另出《易訓》三十卷（見 `1evcsw5brx8n4`），卷數懸殊，別為一書。附記：本條 indexed_by 之 summary 兼載宋鹹另二書之題名，係該志連書體例所致，非本書之異名。"
 }

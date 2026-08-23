@@ -12,15 +12,15 @@
     {
       "name": "非文",
       "type": "別名"
+    },
+    {
+      "name": "長張斐",
+      "type": "訛名"
     }
   ],
   "dynasty": "清",
   "birth_year": 1635,
   "works": [
-    {
-      "work_id": "1evcml112dr7k",
-      "role": "撰"
-    },
     {
       "work_id": "1evcml1172bcw",
       "role": "撰"
@@ -31,7 +31,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: auto_ambig cbdb_dy=20 (1635-None)"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
   "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "period_basis": "據 dynasty「清」自動歸併",
+  "ai_note": "2026-08-19 同題異撰人專項：庫中別有 entity「長張斐」（`1j96hfcoyjb40`），乃本人姓名之異寫或形訛，其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
 }

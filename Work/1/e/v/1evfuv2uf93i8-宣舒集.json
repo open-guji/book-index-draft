@@ -3,12 +3,28 @@
   "type": "work",
   "id": "1evfuv2uf93i8",
   "title": "宣舒集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "宣舒",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96hfb65ri0w",
+      "note": "書名即撰人。補晉書藝文志案語「見《七錄》。舒字幼驥，陳郡人，為宜城令。見《釋文·敘錄》。兩《唐志》著錄三卷，『舒』誤『紓』」。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "宣舒集五卷 謹按見《七録》。舒字幼驥,陳郡人,為宜城令。見《釋文・敘録》。兩《唐志》著録三卷,“舒”誤“聘”。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《宣舒集》五卷",
+      "summary": "《宣舒集》五卷",
+      "merged_from": "1evgqadumylts",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "description": {
@@ -28,10 +44,10 @@
   ],
   "measure_info": "五卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，補晉書藝文志、國史經籍志皆五卷，同為西晉宣舒別集，今合為一條並繫 entity `1j96hfb65ri0w`。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

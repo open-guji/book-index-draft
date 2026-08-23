@@ -8,12 +8,20 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《禦銓定漢書》八十一卷",
       "summary": "《禦銓定漢書》八十一卷郝處俊等撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "御銓定漢書",
+      "summary": "御銓定漢書八十七卷",
+      "merged_from": "1evdx91dpym0w",
+      "note": "諸志同著《御銓定漢書》，係一書互著，今合併。"
     }
   ],
   "id": "1evcpcvhcncw0",
   "related_works": [
     {
-      "id": "1euidlec1g8ow",
+      "id": "d59f1iqd854w",
       "title": "漢書",
       "relation": "contains_text_of"
     }
@@ -21,5 +29,29 @@
   "additional_titles": [
     "禦銓定漢書"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 87
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 87
+    }
+  ],
+  "measure_info": "八十七卷",
+  "authors": [
+    {
+      "name": "郝處俊",
+      "role": "奉敕撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《禦銓定漢書》八十一卷郝處俊等撰」。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《御銓定漢書》，舊唐志八十一卷、新唐志八十七卷，乃卷數著錄之異，今合併並據舊唐志補撰人為郝處俊等。"
 }

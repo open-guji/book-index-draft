@@ -6,6 +6,7 @@ def li(k):
     for s in '0123456789abcdef': d.update(json.load(open(f'index/{k}s/{s}.json')))
     return d
 IW,IB=li('work'),li('book'); IC=json.load(open('index/collections.json'))
+IE=li('entitie')
 # Production ID ↔ Draft ID：庫中之互指有用 Production ID 者，比對前兩側俱須正規化。
 # 不正規化則 Book→Work、Work→Book 之單向數全為假象（曾誤判二次）。
 _PR=json.load(open('promotions.json'))['promotions']
@@ -20,14 +21,36 @@ SB={s:set(json.load(open(f'index/books/{s}.json'))) for s in '0123456789abcdef'}
 print('索引 Work',len(IW),'Book',len(IB),'Collection',len(IC))
 print('分片錯置 Work',sum(1 for k in IW if k not in SW[shard(k)]),
       ' Book',sum(1 for k in IB if k not in SB[shard(k)]))
-print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values()) if not os.path.exists(v['path'])))
+# 目錄分片（`{Type}/{c1}/{c2}/{c3}/{ID}-{題}.json`，c1-c3 即 id 前三字元）。
+# 與上一行之「分片錯置」不是一回事——那查的是 index/ 之雜湊分片。
+# 立此驗之由：2026-08-23 查出五個 Work 檔落在 Work/1/e/v/ 而其 id 起首 1ewo，
+# 正位是 1/e/w；《后蒼孝經說》更是記錄檔在 1/e/v 而 fragments 目錄在 1/e/w，
+# 一條記錄裂在兩處。索引裡記的正是那個錯位置，故「索引欄位不符」比不出來，
+# 一直是綠的；而 qa_work 由 id 推路徑去找，遂報「兩倉都找不到」。
+_misdir=[p for t in ('Work','Book','Collection','Entity')
+         for p in glob.glob(t+'/*/*/*/*.json')
+         if list(os.path.basename(p).split('-',1)[0][:3])!=p.split('/')[1:4]]
+print('目錄分片錯置',len(_misdir),'　基線 0（id 前三字元須即其 c1/c2/c3 目錄）')
+for x in _misdir[:8]: print('  錯位',x)
+print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values())+list(IE.values()) if not os.path.exists(v['path'])),'　基線 0（含 entities；人物併池退役後索引殘留即現於此）')
 prod={v['production_id'] for v in json.load(open('promotions.json'))['promotions'].values()}
 ents=set()
 for p in glob.glob('Entity/*/*/*/*.json'):
     try: ents.add(json.load(open(p))['id'])
     except Exception: pass
 allids=set(IW)|set(IB)|set(IC)|prod|ents
-selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]; derived=[]; rwdrift=[]
+selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]; derived=[]; rwdrift=[]; rwdup=[]
+# 權威題名：draft 之 Work／Collection 索引，加 production 兩類記錄檔。
+_TITLE={k:v.get('title') for k,v in IW.items()}
+_TITLE.update({k:v.get('title') for k,v in IC.items()})
+_PR_ROOT=next((r for r in ('../book-index','book-index') if os.path.isdir(r+'/Work')),None)
+if _PR_ROOT:
+    for _t in ('Work','Collection'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json'%(_PR_ROOT,_t)):
+            try: _d=json.load(open(_p))
+            except Exception: continue
+            if isinstance(_d,dict) and _d.get('id') and _d.get('title'):
+                _TITLE.setdefault(_d['id'],_d['title'])
 b2w={}; w2b={}
 for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
     for p in glob.glob(pat):
@@ -39,6 +62,19 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
         if e.get('title')!=d.get('title'): mism.append(('title',i,e.get('title'),d.get('title')))
         if d.get('authors') and e.get('author')!=d['authors'][0].get('name'):
             mism.append(('author',i,e.get('author'),d['authors'][0].get('name')))
+        # 索引其餘可機械推出之欄，規則照抄 book-index-manager 的 build_index_entry：
+        # 空值不入索引，故一律以「或 None」比對。2026-08-22 實測：只比 path/title/
+        # author 時，全庫尚有 2,666 條索引與記錄檔不符而無人知——dynasty 1,882、
+        # original_title 680、work_id 45 皆在盲區。凡改記錄檔而未重建索引即生此漂移，
+        # 修法：以本工具重建（見 .claude/plans/並行作業總表.md S2 條）。
+        _a0=(d.get('authors') or [{}])[0]
+        _a0=_a0 if isinstance(_a0,dict) else {}
+        _want2={'dynasty':_a0.get('dynasty') or d.get('dynasty') or None,
+                'role':_a0.get('role') or None,
+                'original_title':d.get('original_title') or None}
+        if kind=='B': _want2['work_id']=d.get('work_id') or None
+        for _k,_v in _want2.items():
+            if (e.get(_k) or None)!=_v: mism.append((_k,i,e.get(_k),_v))
         # 派生欄位（底線起首）：重新生成後比對，不一致以生成值為準（issue #10）。
         # has_text 曾是「有的對、有的錯、大半沒有」——欄名與手寫欄無別，遂無人知其該不該在。
         _ts=set()
@@ -49,21 +85,34 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
         for _k,_v in _want.items():
             if (d.get(_k) or False)!=_v: derived.append((p,_k,d.get(_k),_v))
         if kind=='W':
+            _rwseen=set()
             for r in d.get('related_works') or []:
                 if not r or not r.get('id') or not r.get('relation'): nullrel+=1; continue
                 if r['id']==i: selfref+=1
                 if r['id'] not in allids: dang.append((p,r['id'],r.get('title')))
-                # related_works[].title 靠人工同步，必然漂移；不改結構，只報其數
-                elif r.get('title') and r['id'] in IW and r['title']!=IW[r['id']].get('title'):
-                    rwdrift.append((p,r['id'],r['title'],IW[r['id']].get('title')))
+                # related_works[].title 靠人工同步，必然漂移；不改結構，只報其數。
+                # 目標可以是 draft Work、production Work，或 Collection（collected_in
+                # 之對象即彙編）。原先只查 `r['id'] in IW`，於是 production 目標整條跳過
+                # ——《老子》正名《道德經》後 48 處舊題一條也沒報出來（2026-08-23 查出並修）。
+                elif r.get('title'):
+                    _t=_TITLE.get(r['id'])
+                    if _t and _t!=r['title']:
+                        rwdrift.append((p,r['id'],r['title'],_t))
+                # 同一 (id, relation) 出現兩次即冗餘。以 id 為鍵會誤報——《尚書大傳》
+                # 既 contains_text_of 又 studies《尚書》，二者俱真，關係不同即是兩件事。
+                _k=(r.get('id'),r.get('relation'))
+                if _k in _rwseen: rwdup.append((p,r.get('id'),r.get('relation')))
+                _rwseen.add(_k)
             for b in d.get('books') or []: w2b.setdefault(b,set()).add(i)
         else:
             if d.get('work_id'): b2w[i]=d['work_id']
 print('解析失敗',len(parse),'檔案未入索引',len(notidx),'索引欄位不符',len(mism))
 print('派生欄位與重算不符',len(derived),'　基線 0（不符即以重算值為準）')
 for x in derived[:8]: print('  派生',x)
-print('related_works[].title 漂移',len(rwdrift),'　基線 0')
+print('related_works[].title 漂移',len(rwdrift),'　基線 0（含 production／Collection 目標）')
 for x in rwdrift[:8]: print('  漂移',x)
+print('related_works (id,relation) 重複',len(rwdup),'　基線 0')
+for x in rwdup[:8]: print('  重複',x)
 for x in notidx[:10]: print('  未入索引',x)
 for x in mism[:15]: print('  不符',x)
 print('自我關聯',selfref,'空關聯',nullrel,'懸空關聯',len(dang))
@@ -71,6 +120,26 @@ for x in dang[:10]: print('  懸空',x)
 # 兩側俱經 promotions 正規化
 _w2b={}
 for b,ws in w2b.items(): _w2b.setdefault(nz(b),set()).update(nz(x) for x in ws)
+# 升格後 draft 只留五欄墓碑（無 books），本文記錄在 production。只掃 draft 之 books
+# 會把「Book 指向已升格之 Work」全報成單向——2026-08-23 實測 342 條中 339 條是此假陽性，
+# 真單向只 3 條（道德經漏收之三 Book），而假陽性把它們埋了。故併讀 production 之 books。
+_PROD_ROOT=next((r for r in ('../book-index','book-index') if os.path.isdir(r+'/Work')),None)
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Work/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if not isinstance(_d,dict) or not _d.get('id'): continue
+        for _b in (_d.get('books') or []):
+            _w2b.setdefault(nz(_b),set()).add(nz(_d['id']))
+    # Book 側同理：production 有自己的 Book 檔（升格時一併遷入），
+    # 只掃 draft 之 Book 會把它們全報成 Work→Book 單向。
+    for _p in glob.glob(_PROD_ROOT+'/Book/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if isinstance(_d,dict) and _d.get('id') and _d.get('work_id'):
+            b2w.setdefault(_d['id'],_d['work_id'])
+else:
+    print('  ※ 未見 production 庫（../book-index），Book→Work 單向數含升格假陽性')
 _b2w={nz(b):nz(w) for b,w in b2w.items()}
 ow=[(b,w) for b,w in _b2w.items() if w not in _w2b.get(b,set())]
 ww=[(b,w) for b,ws in _w2b.items() for w in ws if _b2w.get(b)!=w]
@@ -87,6 +156,10 @@ w2e={}
 for p in glob.glob('Work/*/*/*/*.json'):
     try: d=json.load(open(p))
     except Exception: continue
+    # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
+    # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
+    # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
+    if d.get('_promoted_to'): continue
     w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
 e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
            if x.get('work_id') in w2e and i not in w2e[x['work_id']])
@@ -212,6 +285,25 @@ except NameError:
         except Exception: pass
 import collections as _c
 dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+# 升格之後，整理本節之 work_id 由 rewrite_references 改指 production id，
+# 而 IW 只有 draft。只查 IW 則每升一條就把它的節全算成「落空」——
+# 實測升三條，落空由 312 漲到 336。故存在性以兩倉合計判。
+# _TITLE 已在前面建好（draft 索引 + production Work／Collection 之記錄檔）。
+#
+# 2026-08-23 補：**未掛 production 倉時，以 promotions.json 補其證**。
+# 本容器不掛 `../book-index`，_TITLE 之 production 部分遂為空，於是每升一條
+# 其節即全算落空——實測 08-19 升者致 200 節、08-20 致 87 節、08-23 致 190 節，
+# 落空由 322 漲到 475，而其中 438 節（58 個相異 id）所繫皆已升格之 production
+# id，非真損壞。`promotions.json` 即「彼倉確有此記錄」之在庫憑證，chk 之
+# 「懸空關聯」一驗其 allids 早已併入 prod（見上文），落空一驗未併，同一情形
+# 兩驗異判。今補之——掛了 production 倉時 _TITLE 自足，此項不過多一層保險。
+_EXIST_W=set(IW)|set(_TITLE)|prod
+_EXIST_B=set(IB)
+if _PR_ROOT:
+    for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if isinstance(_d,dict) and _d.get('id'): _EXIST_B.add(_d['id'])
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -223,14 +315,14 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
-            if w in IW: continue
+            if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
-            if w in IB: dang_is_book+=1
+            if w in _EXIST_B: dang_is_book+=1
         b=sec.get('book_id')
-        if isinstance(b,str) and b not in IB:
+        if isinstance(b,str) and b not in _EXIST_B:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
-        if isinstance(b,str) and b not in IB and b not in IW:
+        if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 for k,v in dang.most_common(6): print('  ',k,v)
@@ -240,7 +332,7 @@ for k,v in dang.most_common(6): print('  ',k,v)
 import re as _re
 _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略','别':'別','吴':'吳'})
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
-secmag=_c.Counter(); secmag_ex=[]
+secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter()
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -249,13 +341,16 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     own=f.split('/')[4]; m=_c.defaultdict(set)
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
+        # 版本附屬部帙（外集、附錄之屬）依 SCHEMA 不別立 Work，本就與母條共繫，非磁鐵
+        if sec.get('section_kind')=='附屬部帙': secpart[own]+=1; continue
         w=sec.get('work_id')
         if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
     for w,ts in m.items():
         if len(ts)>1:
             secmag[own]+=len(ts)
             if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
-print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()))
+print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()),
+      '　附屬部帙節（依 SCHEMA 與母條共繫，不計）',sum(secpart.values()))
 for k,v in secmag.most_common(6): print('  ',k,v)
 for x in secmag_ex: print('   例',x)
 
@@ -287,7 +382,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
             if 'fragments' in sec and (sec.get('coverage') or {}).get('level') is None:
                 fc.append((g,i,'section 有 fragments 而無 coverage.level——空陣列之歧義未消'))
     for w,locs in fwd.items():
-        if w not in IW: fc.append((f,w,'section 所繫 work 不存在')); continue
+        # 兩倉合計判存在：升格後 section 之 work_id 改指 production，只查 IW 會誤報。
+        if w not in _EXIST_W: fc.append((f,w,'section 所繫 work 不存在')); continue
+        if w not in IW: continue      # 已升格者，其輯佚檔隨資產目錄遷至 production，此處不再查
         fr=glob.glob('Work/*/*/*/%s/fragments/*.json'%w)
         if not fr: todo+=1; continue      # 非損壞，是待辦：目錄既言馬氏輯之，該 work 當有輯佚檔
         cs=json.load(open(fr[0])).get('collectors') or []
@@ -319,12 +416,27 @@ _OFF2 = ('將軍', '太守', '刺史', '尚書', '侍郎', '議郎', '中郎', '
          '長史', '郎中', '縣令', '太尉', '司徒', '司空', '僕射', '祭酒', '博士',
          '別駕', '從事', '校尉', '主簿', '舍人', '內史', '大夫', '常侍', '侍中',
          '中書', '學士', '給事', '功曹', '太常', '光祿', '諮議')
-_KEEP2 = {'範圍', '範式', '範例', '範疇', '範金', '範土', '範銅', '範模'}
+# 範衍：明錢一本書名，「衍《洪範》」之義，非姓——《經義考》掛源後始見（2026-08-23 補）
+# 範通（明葉世奇）、範數贊詞（明包萬有）同此，皆《洪範》之書，在《經義考》書類
+_KEEP2 = {'範圍', '範式', '範例', '範疇', '範金', '範土', '範銅', '範模',
+          '範衍', '範通', '範數'}
 _ovc = _c.Counter()
+# 整理本自陳 text_quality.grade == 'source' 者不驗——「原文照錄」謂其文未經
+# 簡繁往返，本驗所捕之過度轉換無從發生，而原本自有之用字反落網：《經義考》
+# 文淵閣本「日辰有十幹十二支」之幹是本字，「葉氏（世竒）範通」之範是洪範之
+# 範，「王氏（範）交廣春秋」之範是名不是姓。2026-08-23 立。
+_SRCDIRS = set()
+for _i in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+    try:
+        if (json.load(open(_i)).get('text_quality') or {}).get('grade') == 'source':
+            _SRCDIRS.add(os.path.dirname(_i))
+    except Exception:
+        pass
 _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
           + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
           + glob.glob('Work/*/*/*/*/fragments/*.json')
-          + glob.glob('Work/*/*/*/*/collated_edition/*.json')
+          + [_f for _f in glob.glob('Work/*/*/*/*/collated_edition/*.json')
+             if os.path.dirname(_f) not in _SRCDIRS]
           + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
 for _f in _FILES:
     try:
@@ -343,6 +455,10 @@ for _f in _FILES:
         if _t.count('硃'):
             _ovc['硃'] += _t.count('硃')
     for _i, _ch in enumerate(_raw):
+        # 括中只此一字者是名不是姓——姓在括外（《經義考》標目「王氏（範）交廣
+        # 春秋」即王範）。括號本在 _BOUND 之列，不除則此輩盡入。2026-08-23 立。
+        if _raw[_i - 1:_i] == '（' and _raw[_i + 1:_i + 2] == '）':
+            continue
         if _ch == '範' and _raw[_i:_i + 2] not in _KEEP2 \
                 and ((_raw[_i - 1] if _i else '\n') in _BOUND
                      or _raw[max(0, _i - 2):_i] in _OFF2):
@@ -377,3 +493,83 @@ for _p in glob.glob('Work/*/*/*/*.json'):
 print('period', dict(_pc), '不合', len(_pbad), '　基線 0')
 for _x in _pbad[:8]:
     print('  ', _x)
+
+# JSON 書寫格式護欄（見 SCHEMA.md〈JSON 書寫格式〉、.claude/plans/升格並行方案.md §六）
+# 格式不一致是並行時最大的機械衝突源：任一工具以自己的縮排整檔重寫，
+# 就把「可自動合併的行級改動」變成「整檔衝突」。約定：indent=2、檔尾一換行、
+# 鍵序不重排（索引檔另須按 id 有序）。修法：scripts/normalize_json_format.py
+_JIND, _JNL, _JORD = [], [], []
+for _p in glob.glob('**/*.json', recursive=True):
+    if _p.startswith(('node_modules', 'book-index/', '.claude/', '.git/')):
+        continue
+    try:
+        _raw = open(_p, encoding='utf-8').read()
+    except Exception:
+        continue
+    if not _raw.strip():
+        continue
+    for _ln in _raw.split('\n')[1:]:
+        _m = _re.match(r'^( +)\S', _ln)
+        if _m:
+            if len(_m.group(1)) != 2:
+                _JIND.append((_p, len(_m.group(1))))
+            break
+    if not _raw.endswith('\n'):
+        _JNL.append(_p)
+    if _p.startswith('index/'):
+        try:
+            _k = list(json.loads(_raw).keys())
+            if _k != sorted(_k):
+                _JORD.append((_p, len(_k)))
+        except Exception:
+            pass
+print('JSON 縮排非 2', len(_JIND), '　基線 0（2026-08-21 全庫歸一化竣工；'
+      '不為零即有工具用了別的縮排，修法：scripts/normalize_json_format.py）')
+for _x in _JIND[:5]:
+    print('  ', _x)
+print('JSON 缺檔尾換行', len(_JNL), '　基線 0（同上）')
+print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
+for _x in _JORD[:5]:
+    print('  ', _x)
+
+# ── production 之獨立一驗（2026-08-23 增） ─────────────────────────
+# 立此節之由：production **從無任何校驗在管**——本工具自始只跑 draft。
+# 遂積出三批各自無人知的缺陷，皆是靠人偶然發現的：
+#   15 條 books 指向 draft 併池已刪之 Book（4ebc62fc0d7 文淵閣雙錄歸併未跟進）
+#   51 處 related_works[].title 留著舊題（《老子》正名《道德經》等）
+#   43 條 (id, relation) 重複
+# 檢查項與 draft 同軸，只是換一個庫跑；production 記錄檔數少（六百餘），代價可忽略。
+if _PR_ROOT:
+    _pw={}; _pt=dict(_TITLE)
+    for _t in ('Work','Book','Collection','Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json'%(_PR_ROOT,_t)):
+            try: _d=json.load(open(_p))
+            except Exception: continue
+            if isinstance(_d,dict) and _d.get('id'):
+                _pw[_d['id']]=(_d,_p)
+                if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]
+    for _i,(_d,_p) in _pw.items():
+        if list(_i[:3])!=_p.split('/')[-4:-1]: _pdir.append(_p)
+        _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
+        if not _raw.endswith('\n'): _pfmt.append((_p,'缺檔尾換行'))
+        _seen=set()
+        for _r in (_d.get('related_works') or []):
+            if not isinstance(_r,dict): continue
+            _t2=_pt.get(_r.get('id'))
+            if _r.get('title') and _t2 and _t2!=_r['title']:
+                _pdrift.append((_i,_r['id'],_r['title'],_t2))
+            _k=(_r.get('id'),_r.get('relation'))
+            if _k in _seen: _pdup.append((_i,_k))
+            _seen.add(_k)
+        for _b in (_d.get('books') or []):
+            if _b not in _pw and _b not in IB: _pbk.append((_i,_b))
+    print('── production ──')
+    print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
+    for x in _pbk[:6]: print('     ',x)
+    print('  related_works[].title 漂移',len(_pdrift),'　基線 0')
+    for x in _pdrift[:6]: print('     ',x)
+    print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')
+    for x in _pdup[:6]: print('     ',x)
+    print('  目錄分片錯置',len(_pdir),'　基線 0')
+    print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')

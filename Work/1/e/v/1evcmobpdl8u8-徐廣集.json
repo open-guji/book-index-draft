@@ -25,6 +25,14 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "徐廣集十五卷録一卷 謹按見《隋志》。本書有傳。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《徐廣集》十五卷",
+      "summary": "《徐廣集》十五卷",
+      "merged_from": "1evgqb3m2ko3k",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -46,9 +54,19 @@
     }
   ],
   "measure_info": "十五卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "徐廣",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96h8rw7k8w2",
+      "note": "隋書經籍志題「宋太中大夫《徐廣集》十五卷」，書名即撰人。徐廣（352-425）字野民，撰《晉紀》。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「宋太中大夫《徐廣集》十五卷（錄一卷）」、兩唐志、補晉志、國史經籍志皆十五卷，同為東晉徐廣別集，今合為一條並繫 entity `1j96h8rw7k8w2`。"
 }

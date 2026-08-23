@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "魏收集",
       "summary": "魏收集七十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《魏收集》七十卷",
+      "summary": "《魏收集》七十卷",
+      "merged_from": "1evgqbpszujgg",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -42,7 +50,20 @@
   ],
   "measure_info": "六十八卷",
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「今存《魏孝靜帝禪位\n詔》、《册命齊王九錫文》、《禪位册》、《／又收傳有《南狩賦》、《聘游賦》、《皇居新殿臺賦》、《懷\n離」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　存佚訂正：loss_status 由 lost 改為 partially_extant——今存《魏孝靜帝禪位詔》《册命齊王九錫文》《禪位册》等篇，本傳又載《南狩賦》《聘游賦》諸目，是集散而篇存。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。　輯佚檔：本書之輯佚著錄置於 fragments/魏收集.json，據本庫著錄之考證所引輯本序立，現為著錄層。",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批·撰人未入庫）：書名即撰人，隋書經籍志、舊唐書經籍志、新唐書藝文志、國史經籍志諸源所載同為魏收別集，卷數雖或小異而相承，今合為一條並補撰人；本庫無「魏收」entity，未繫。\n\n2026-08-19 輯佚檔繫連補記：本書之輯佚著錄見同目錄下 fragments/（`魏收集.json`）。",
   "loss_status_note": "原作 lost，今改 partially_extant。今存《魏孝靜帝禪位詔》《册命齊王九錫文》《禪位册》等篇，本傳又載《南狩賦》《聘游賦》諸目，是集散而篇存。（覆核於存佚普查，非機讀。）",
-  "updated_at": "2026-08-05T15:55:32+00:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "魏收",
+      "role": "撰",
+      "dynasty": "北齊",
+      "entity_id": null,
+      "note": "書名即撰人。隋志題「北齊尚書僕射《魏收集》六十八卷」。魏收（507-572）撰《魏書》。 本庫無此 entity，未繫。"
+    }
+  ],
+  "dynasty": "北齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北齊」"
 }

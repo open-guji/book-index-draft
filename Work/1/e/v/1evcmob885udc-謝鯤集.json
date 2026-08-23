@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《謝鯤集》二卷",
       "summary": "《謝鯤集》二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《謝鯤集》二卷",
+      "summary": "《謝鯤集》二卷",
+      "merged_from": "1evgqalzk8p34",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "謝鯤",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "書名即撰人。隋志題「晉太常《謝鯤集》六卷（梁二卷）」。謝鯤（281-324）字幼輿。 本庫無此 entity，未繫。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批·撰人未入庫）：書名即撰人，隋書經籍志、舊唐書經籍志、國史經籍志諸源所載同為謝鯤別集，卷數雖或小異而相承，今合為一條並補撰人；本庫無「謝鯤」entity，未繫。"
 }

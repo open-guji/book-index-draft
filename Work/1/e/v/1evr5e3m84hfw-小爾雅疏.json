@@ -68,10 +68,21 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ev3ba9imamtc",
+      "title": "小爾雅",
+      "relation": "contains_text_of"
+    }
+  ],
+  "ai_note": "2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「小爾雅」，庫中有同題而非注本之條 `1ev3ba9imamtc`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-23 B1 同名異書併池：併入 `1evkpvlqbpssg`（小爾雅疏）。2026-08-23 B10（同題一方無撰人）：併入 `1evkpvlqbpssg`（無著錄，8卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "books": [
+    "11qkhu98tan7k"
+  ]
 }

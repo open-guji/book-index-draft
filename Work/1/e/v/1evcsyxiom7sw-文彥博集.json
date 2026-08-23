@@ -8,8 +8,43 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《文彥博集》",
       "summary": "《文彥博集》三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《文彦博集》四十卷",
+      "summary": "《文彦博集》四十卷",
+      "merged_from": "1evgqcs1616gw",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcsyxiom7sw",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "文彦博集"
+  ],
+  "authors": [
+    {
+      "name": "文彥博",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl89id5",
+      "note": "書名即撰人。文彥博（1006-1097）字寬夫，歷仕四朝，封潞國公，集通稱《潞公集》。"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，宋志三十卷、國史經籍志四十卷，同為北宋文彥博別集，今合為一條並繫 entity `1j967bgl89id5`。卷數三十／四十之異為傳本分合。"
 }

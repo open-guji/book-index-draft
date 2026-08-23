@@ -6,7 +6,10 @@
     {
       "name": "代宗朱祁鈺",
       "role": "撰",
-      "dynasty": "明"
+      "dynasty": "明",
+      "alt_names": [
+        "明代宗朱祁鈺"
+      ]
     }
   ],
   "indexed_by": [
@@ -27,7 +30,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（撰人名近似）：1evjy7pcv4xds 併入本條。撰人名「明代宗朱祁鈺」「代宗朱祁鈺」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "juan_count": {
     "number": 50
   },
@@ -40,11 +43,15 @@
   "measure_info": "五十卷",
   "id": "1evjxm6t03kzk",
   "additional_titles": [
-    "歴代君鑒"
+    "歴代君鑒",
+    "歷代君鑒"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "books": [
+    "11qk4xwcxk3rk"
+  ]
 }

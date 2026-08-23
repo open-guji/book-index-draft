@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "徐陵集",
       "summary": "徐陵集三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《徐陵集》三十卷",
+      "summary": "《徐陵集》三十卷",
+      "merged_from": "1evgqbqzcdkhs",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,7 +49,20 @@
     }
   ],
   "measure_info": "三十卷",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evcmockmkikg/fragments/徐陵集.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/徐陵集.json（該檔之值經人工校讀，非機讀所生）。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「陳尚書左僕射《徐陵集》三十卷」、兩唐志、國史經籍志皆三十卷，同為南朝陳徐陵別集，今合為一條並繫 entity `1j96h28x1zg1s`。\n\n2026-08-19 輯佚檔繫連補記：本書之輯佚著錄見同目錄下 fragments/（`徐陵集.json`）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 82 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "徐陵",
+      "role": "撰",
+      "dynasty": "南朝陳",
+      "entity_id": "1j96h28x1zg1s",
+      "note": "隋書經籍志題「陳尚書左僕射《徐陵集》三十卷」，書名即撰人。徐陵（507-583）字孝穆，編《玉臺新詠》。"
+    }
+  ],
+  "dynasty": "南朝陳",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」"
 }

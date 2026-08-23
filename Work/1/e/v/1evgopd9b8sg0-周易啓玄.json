@@ -19,6 +19,19 @@
       "title_info": "《周易啓玄》一卷",
       "summary": "《周易啓玄》一卷（張元）",
       "author_info": "張元"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易啟𤣥》（張轅）",
+      "summary": "宋志一卷\n程&KR1199;曰唐人張轅作周易啟𤣥曰老陽變成少隂老隂變成少陽趙汝禖曰張氏筮法初揲掛一次兩揲不掛左手不揲右手但以右手之蓍足滿左手之餘初揲餘一餘二足滿五餘三餘四足滿九次兩揲餘一餘二足滿四餘三餘四足滿八為九為六者各八為七為八者各二十四按次兩揲不掛則不合四營不掛右手則不合再扐且初變左餘一右必餘三左餘二右必餘二與掛而為五者乃左右揲四之所餘葢理之自然勢有不容易者今既不揲右但視左所餘而益之則多寡直可任情何必滿五滿九耶按紹興書目有之",
+      "section": "易",
+      "juan": "卷十五",
+      "page": "KR2n0011_WYG_015-14a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "《經義考》標目「張氏（轅）周易啟𤣥」與庫題《周易啓玄》題式不同而是一書，見 jyk_yi1_hold_tables.py 之裁"
     }
   ],
   "description": {
@@ -37,10 +50,14 @@
   "measure_info": "一卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "撰人 Entity 之代：張元（清）——同人名下他書 {'qing': 1} 佐證一致",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

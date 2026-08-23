@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "劉恂",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j967avzmli6h"
+      "entity_id": "1j967avzmli6h",
+      "role_basis": "據著錄語「劉恂《嶺表錄異》三卷舊本題唐劉恂撰。宋僧贊寧《筍譜》，稱恂於唐昭宗朝出為廣州司馬。」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -62,7 +63,6 @@
   ],
   "books": [
     "11q37pym0vncw",
-    "11qkhw969nshs",
     "11qki2lony7eo"
   ],
   "juan_count": {
@@ -150,14 +150,14 @@
     }
   ],
   "measure_info": "三卷",
-  "ai_note": "從 31hyr5d6e4mkf 合併。原註：作者「唐劉恂撰」補自《國立故宮博物院善本舊籍》目錄。　合併：題名「劉恂嶺表錄異」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉恂」已見本條 authors[]），裸題「嶺表錄異」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "從 31hyr5d6e4mkf 合併。原註：作者「唐劉恂撰」補自《國立故宮博物院善本舊籍》目錄。　合併：題名「劉恂嶺表錄異」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「劉恂」已見本條 authors[]），裸題「嶺表錄異」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw969nshs 與 11q37pym0vncw 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「劉恂《嶺表錄異》三卷舊本題唐劉恂撰。宋僧贊寧《筍譜》，稱恂於唐昭宗朝出為廣州司馬」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

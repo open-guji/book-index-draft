@@ -53,6 +53,22 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "隋書八十五卷",
       "summary": "隋書八十五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《隋書》八十五卷",
+      "summary": "《隋書》八十五卷（長孫無忌）",
+      "author_info": "長孫無忌",
+      "merged_from": "1ev3c1fwupwqo",
+      "note": "國史經籍志《隋書》八十五卷（長孫無忌）。本條四庫提要自云「至天聖中重刊，始定以領修者爲主，分題徵及無忌也」——魏徵、長孫無忌乃同一部八十五卷《隋書》之兩種題署，同書。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "隋書",
+      "merged_from": "1ev3c1fwupwqo",
+      "note": "直齋書錄解題《隋書》裸條八十五卷。同題八十五卷者併長孫無忌條後僅餘本條（另一條為張太素三十二卷，卷數不合），裸條唯本條可繫。"
     }
   ],
   "books": [
@@ -63,7 +79,6 @@
     "11qk4xwcsvjmr",
     "11qk4xwcsvjms",
     "11qkhsfnanxts",
-    "11qkhvzx3pc74",
     "11qkhybwezu2o",
     "11qkhynxx4ge8",
     "11qkhynz4tog0",
@@ -190,11 +205,6 @@
       "relation": "collected_in"
     },
     {
-      "id": "1ev85yncs9ibk",
-      "title": "隋書·經籍志",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evcpcyzmrk74",
       "title": "隋書禮",
       "relation": "text_carried_by"
@@ -230,11 +240,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evgpgupwz3ls",
-      "title": "隋書",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evjr03wen6yo",
       "title": "隋書地理志考證補遺",
       "relation": "studied_by"
@@ -265,8 +270,8 @@
     }
   ],
   "measure_info": "八十五卷",
-  "ai_note": "作者 \"唐魏徵等撰\" 補自《中華再造善本》目錄。 | 從 1evcs0bgr04cg 合併。原註：作者「唐魏徵撰」補自《國立故宮博物院善本舊籍》目錄。　撰人「等」字剝離：著錄作「魏徵等」，「等」謂魏徵及其他未具名之纂修者，非姓名之一部，今剝離作「魏徵」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "作者 \"唐魏徵等撰\" 補自《中華再造善本》目錄。 | 從 1evcs0bgr04cg 合併。原註：作者「唐魏徵撰」補自《國立故宮博物院善本舊籍》目錄。　撰人「等」字剝離：著錄作「魏徵等」，「等」謂魏徵及其他未具名之纂修者，非姓名之一部，今剝離作「魏徵」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvzx3pc74 與 11q37p02pf3eo 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 B1 同名異書併池：併入 `1evgpgupwz3ls`（隋書）。2026-08-23 B1/B2 全量覆核：併入 `1evgpgupwz3ls`（國史經籍志，長孫無忌，八十五卷）。本條四庫提要自云天聖重刊「始定以領修者爲主，分題徵及無忌」，魏徵、長孫無忌為同一部八十五卷《隋書》之兩種題署，同書。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mjo9n8`（隋書）。2026-08-23 B1/B2 全量覆核：併入 `1evr5e3mjo9n8`（直齋書錄解題裸條，八十五卷）。同題八十五卷者併長孫無忌條後僅本條一家，另一張太素條三十二卷不合，裸條唯繫本條。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

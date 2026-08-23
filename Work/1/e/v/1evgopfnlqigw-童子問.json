@@ -6,7 +6,7 @@
     {
       "name": "歐陽修",
       "role": "撰",
-      "entity_id": "1j967a0klg4s4"
+      "entity_id": "1j967avzk3ls6"
     }
   ],
   "juan_count": {
@@ -27,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=黃文澍 vs anno=歐陽修\n\n2026-08-08 修：撰人「歐陽」補全為「歐陽修」。據indexed_by author_info=歐陽修。",
+  "ai_note": "missing_reason: 作者冲突 work=黃文澍 vs anno=歐陽修\n\n2026-08-08 修：撰人「歐陽」補全為「歐陽修」。據indexed_by author_info=歐陽修。\n\n2026-08-19 歐陽修父子混繫分拆專項：本書撰人歐陽修，原繫於父子混繫之 entity `1j967a0klg4s4`（CBDB 23427，由殘名「歐陽」補題而生），今改繫真正之歐陽修 entity `1j967avzk3ls6`（CBDB 1384，生 1007 卒 1072）。",
   "id": "1evgopfnlqigw",
   "measures": [
     {
@@ -36,5 +36,9 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-08T00:00:00+00:00"
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "period": "song",
+  "period_basis": "撰人 Entity 之代：歐陽修（北宋）——同人名下他書 {'song': 296} 佐證一致",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

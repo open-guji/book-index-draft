@@ -20,6 +20,22 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "五都賦",
       "summary": "五都賦五卷"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "五都賦五卷 并録 張衡及左思撰,謹按見《隋志》。",
+      "merged_from": "1evcmocvdbjls",
+      "note": "補晉書藝文志「五都賦五卷 并録 張衡及左思撰，謹按見《隋志》」——考語自云其撰人、卷數皆據本條隋志之著錄（「五都賦六卷並錄。張衡及左思撰」，六卷含五卷正文並一卷錄），非另有異本，同書。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《五都賦》五卷",
+      "summary": "《五都賦》五卷（張撕左患徑）",
+      "author_info": "張撕左患徑",
+      "merged_from": "1evcmocvdbjls",
+      "note": "國史經籍志「五都賦五卷（張撕左患徑）」，「張撕左患徑」四字文理不通，判為「張衡左思」四字之形訛／傳鈔訛變（撕≈衡、患徑≈思之訛），卷數（五卷）與本條隋志「五卷並錄」正文卷數全合，同書。"
     }
   ],
   "authors": [
@@ -40,5 +56,10 @@
     }
   ],
   "measure_info": "六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-22T00:00:00+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "qin-han",
+  "period_basis": "撰人朝代闕，據其 Entity「張衡」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "ai_note": "2026-08-22 B1 同名異書併池：併入 `1evfuve0ru22o`（五都賦）。2026-08-21 B2 併池：併入 `1evfuve0ru22o`（補晉書藝文志，張衡及左思撰，五卷並錄，考語自云「謹按見《隋志》」，即本條隋志著錄之覆述）。同書。\n\n2026-08-22 B1 同名異書併池：併入 `1evgq9selnmyo`（五都賦）。2026-08-21 B2 併池：併入 `1evgq9selnmyo`（國史經籍志，題「張撕左患徑」撰，五卷）。「張撕左患徑」判為「張衡左思」之形訛，同書。"
 }

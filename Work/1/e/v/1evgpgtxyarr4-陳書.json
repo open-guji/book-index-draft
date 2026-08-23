@@ -1,55 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "陳書",
- "authors": [
-  {
-   "name": "傅縡",
-   "role": "撰",
-   "entity_id": "1j96ha7su5zi8"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《陳書》三卷",
-   "summary": "《陳書》三卷（傅縡）",
-   "author_info": "傅縡"
+  "schema_version": 1,
+  "type": "work",
+  "title": "陳書",
+  "authors": [
+    {
+      "name": "傅縡",
+      "role": "撰",
+      "entity_id": "1j96ha7su5zi8"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "傅縡陳書",
-   "summary": "傅縡陳書三卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"陳書\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0bhypce8（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpgtxyarr4",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "related_works": [
-  {
-   "id": "1ev3c1fsow000",
-   "title": "陳書",
-   "relation": "contains_text_of"
-  }
- ],
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《陳書》三卷",
+      "summary": "《陳書》三卷（傅縡）",
+      "author_info": "傅縡"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "傅縡陳書",
+      "summary": "傅縡陳書三卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"陳書\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0bhypce8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgpgtxyarr4",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "related_works": [
+    {
+      "id": "1ev3c1fsow000",
+      "title": "陳書",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "何晏集",
       "summary": "何晏集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《何晏集》十一卷",
+      "summary": "《何晏集》十一卷",
+      "merged_from": "1evgqa93pa8zk",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "十一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "何晏",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96ad6aoyy2o",
+      "note": "隋書經籍志題「魏尚書《何晏集》十一卷」，書名即撰人。何晏（?-249）字平叔，正始玄學代表，注《論語》。"
+    }
+  ],
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「魏尚書《何晏集》十一卷（梁十卷，錄一卷）」、兩唐志十卷、國史經籍志十一卷，同為三國魏何晏別集，今合為一條並繫 entity `1j96ad6aoyy2o`。卷數十一／十之異，隋志已自注「梁十卷，錄一卷」，合之正十一卷。"
 }

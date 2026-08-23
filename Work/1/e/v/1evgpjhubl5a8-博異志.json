@@ -1,49 +1,96 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "博異志",
- "authors": [
-  {
-   "name": "谷神子",
-   "role": "撰",
-   "entity_id": "1j96h8rw8hyjc"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《博異志》三卷",
-   "summary": "《博異志》三卷（谷神子）",
-   "author_info": "谷神子"
+  "schema_version": 1,
+  "type": "work",
+  "title": "博異志",
+  "authors": [
+    {
+      "name": "谷神子",
+      "role": "撰",
+      "entity_id": "1j96h8rw8hyjc"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "谷神子博異志",
-   "summary": "谷神子博異志三卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"博異志\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0quyjcow（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpjhubl5a8",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《博異志》三卷",
+      "summary": "《博異志》三卷（谷神子）",
+      "author_info": "谷神子"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "谷神子博異志",
+      "summary": "谷神子博異志三卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《博異志》",
+      "summary": "、《博異志》一卷（（穀神子纂，不知姓））費袞",
+      "merged_from": "1evcsxzs147pc",
+      "note": "撰人原作「穀神子」，乃「谷神子」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "博異志三卷",
+      "summary": "博異志三卷",
+      "merged_from": "1evcsxzs147pc",
+      "note": "撰人原作「穀神子」，乃「谷神子」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "博異志",
+      "merged_from": "1evcsxzs147pc",
+      "note": "撰人原作「穀神子」，乃「谷神子」之異寫或形訛，本條併入。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"博異志\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0quyjcow（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evcsxzs147pc` 同題《博異志》、同卷數 3，撰人分作「谷神子」「穀神子」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「谷神子」，異名之著錄並存於 indexed_by。",
+  "id": "1evgpjhubl5a8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-22T04:56:00.078325+00:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "resources": [
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%9A%E7%95%B0%E5%BF%97",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "id": "internet-archive",
+      "url": "https://archive.org/details/boyizhi00zhen",
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "_has_image": true,
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "liao-jin-yuan",
+  "period_basis": "撰人朝代闕，據其 Entity「張志素」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

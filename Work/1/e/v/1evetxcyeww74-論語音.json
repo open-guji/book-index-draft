@@ -22,7 +22,7 @@
       "title_info": "梁又有《論語音》二卷，徐 等撰，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁又有《論語音》二卷，徐 等撰，亡。，亡」。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：國史經籍志 author_info=徐邈；經義考題名作《論語音》（徐邈）雙重確認。",
+  "ai_note": "亡佚。隋書經籍志「梁又有《論語音》二卷，徐 等撰，亡。，亡」。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：國史經籍志 author_info=徐邈；經義考題名作《論語音》（徐邈）雙重確認。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcum1snwg 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "indexed_by": [
     {
       "source": "國史經籍志",
@@ -78,6 +78,17 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《論語音》二卷",
+      "summary": "《論語音》二卷徐邈撰。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "論語音二卷 徐 等撰,謹按見《七録》。"
     }
   ],
   "measures": [
@@ -90,12 +101,12 @@
   "resources": [],
   "related_works": [
     {
-      "id": "1ev7w0euvaeww",
+      "id": "d59f1iopaku8",
       "title": "論語",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：344-397，字仙民，東晉著名經學家，遍注群經）",
   "dynasty": "東晉",

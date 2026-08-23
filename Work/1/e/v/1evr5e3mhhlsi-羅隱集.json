@@ -12,6 +12,14 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "羅隱集二十卷",
       "summary": "羅隱集二十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《羅隱集》二十卷",
+      "summary": "《羅隱集》二十卷",
+      "merged_from": "1evgqc5wx7myo",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "measures": [
@@ -31,6 +39,20 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "_has_text": true,
+  "authors": [
+    {
+      "name": "羅隱",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96h024mpyio",
+      "note": "書名即撰人。羅隱（833-909）字昭諫，唐末詩人，撰《讒書》。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，崇文總目、國史經籍志皆二十卷，同為唐羅隱別集，今合為一條並繫 entity `1j96h024mpyio`。"
 }

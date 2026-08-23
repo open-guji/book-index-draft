@@ -8,8 +8,40 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "杜正倫集",
       "summary": "杜正倫集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《杜正倫集》十卷",
+      "summary": "《杜正倫集》十卷",
+      "merged_from": "1evgqbyj7g8ao",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcs1468sz5s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "杜正倫",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da97jm0x",
+      "note": "書名即撰人。杜正倫（?-658）隋末舉秀才，唐太宗朝中書令。本庫 entity 標「隋」，係其早年之朝代，其著述行世則在唐。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，新唐志、國史經籍志皆十卷，同為唐杜正倫別集，今合為一條並繫 entity `1j967da97jm0x`。"
 }

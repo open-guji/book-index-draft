@@ -14,6 +14,14 @@
       "title_info": "《禮記音》二卷",
       "summary": "《禮記音》二卷（李軌）",
       "author_info": "李軌"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又二卷李軌撰。",
+      "summary": "又二卷李軌撰。",
+      "merged_from": "1evfubm0heb5s",
+      "note": "舊唐志「又二卷李軌撰」承前省題之條，與本條同書；補晉志本條自記「兩《唐志》仍著録二卷」。"
     }
   ],
   "description": {
@@ -28,7 +36,8 @@
       "role": "注",
       "dynasty": "西晉",
       "entity_id": "1j969m70q2eqw",
-      "dynasty_basis": "entity_propagation_r2:1j969m70q2eqw"
+      "dynasty_basis": "entity_propagation_r2:1j969m70q2eqw",
+      "note": "據本條之原題「又二卷李軌撰。」——志文「又N卷，某某注／撰」承前省題，其名即本書之撰人或注家。"
     }
   ],
   "juan_count": {
@@ -44,14 +53,14 @@
   "measure_info": "二卷",
   "related_works": [
     {
-      "id": "1evl7nlb2nda8",
+      "id": "d59f1iofm800",
       "title": "禮記",
       "relation": "contains_text_of"
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T18:18:57+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 B1 同名異書併池：併入 `1evcpctj98xkw`（禮記音）。《禮記音》李軌本：舊唐志作「又二卷李軌撰」，補晉志本條考語自記「兩《唐志》仍著録二卷」，二者同指李軌《禮記音》二卷，非二書。今併，正主取補晉志本（有卷數、朝代、entity）。",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",

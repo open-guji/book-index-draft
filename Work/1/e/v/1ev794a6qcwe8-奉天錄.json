@@ -130,9 +130,17 @@
       "title_info": "趙元一奉天錄",
       "summary": "趙元一奉天錄四卷",
       "merged_from": "1evcs0d9wha0w"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "奉天録四卷",
+      "summary": "奉天録四卷",
+      "merged_from": "1ev794a6qcwe8",
+      "note": "《奉天錄》與《奉天録》之別，僅在異體字（奉天錄／奉天録），題名歸一後全同；卷數全同（4卷）；彼條無撰人而本條作「趙元一」。二者著錄異源（宋史藝文志、新唐書藝文志、書目答問、直齋書錄解題、續修四庫全書 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
@@ -148,7 +156,20 @@
       ]
     }
   ],
-  "ai_note": "合併：題名「趙元一奉天錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「趙元一」已見本條 authors[]），裸題「奉天錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "合併：題名「趙元一奉天錄」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「趙元一」已見本條 authors[]），裸題「奉天錄」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四卷），今據以補。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfay1f`（奉天錄）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfay1f`（崇文總目，題作《奉天録》，4卷）。二題之別僅在異體字，歸一後全同，卷數全同（4卷）；彼條無撰人而本條作「趙元一」。",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 4
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "additional_titles": [
+    "奉天録"
+  ]
 }

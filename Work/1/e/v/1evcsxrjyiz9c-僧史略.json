@@ -8,8 +8,43 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《僧史略》",
       "summary": "僧讚寧《僧史略》三卷僧道原"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "僧史畧三卷",
+      "summary": "僧史畧三卷",
+      "merged_from": "1evr5e3mh6da9",
+      "note": "諸志同著《僧史略》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsxrjyiz9c",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "additional_titles": [
+    "僧史畧"
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "authors": [
+    {
+      "name": "釋贊寧",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967bgl7y9t5",
+      "name_basis": "原作「贊寧」。本庫僧人以「釋某」立目（如釋英、釋大訢），本條撰人為僧，庫中已有其 Entity「釋贊寧」，逕依例補「釋」字並改繫。"
+    }
+  ],
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《僧史略》三卷，今合併並據宋志前置撰人補為釋贊寧。"
 }

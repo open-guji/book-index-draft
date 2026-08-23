@@ -2,11 +2,12 @@
   "schema_version": 1,
   "id": "1ev7xkhqvkruo",
   "type": "work",
-  "title": "李氏春秋",
+  "title": "春秋",
   "authors": [
     {
       "name": "李氏",
-      "role": "撰"
+      "role": "撰",
+      "entity_id": "1j96h8rw8hyl3"
     }
   ],
   "description": {
@@ -30,9 +31,15 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《李氏春秋》二篇",
       "summary": "《李氏春秋》二篇"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "春秋",
+      "summary": "周李氏春秋一卷。"
     }
   ],
-  "ai_note": "來源：溫浚源《漢書藝文志講要》。 同書在國史經籍志之著錄原另立殘條 1evgpmp53f8qo（皆無版本、單一來源，書題與本條同），經核為同一部書之異志著錄，已併入本條 indexed_by 並刪除殘條。 卷篇數據《漢志》本條補。他志之著錄不足以易之：焦竑《國史經籍志》所記篇數係照錄《漢志》，非獨立著錄；《清史稿藝文志》所記「一卷」乃清人輯佚本，非原書之數。 原無作者欄。據《漢志》本條書題補作者「李氏」（撰）。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1ev7xkhqvkruo/fragments/李氏春秋.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/李氏春秋.json（該檔之值經人工校讀，非機讀所生）。",
+  "ai_note": "來源：溫浚源《漢書藝文志講要》。 同書在國史經籍志之著錄原另立殘條 1evgpmp53f8qo（皆無版本、單一來源，書題與本條同），經核為同一部書之異志著錄，已併入本條 indexed_by 並刪除殘條。 卷篇數據《漢志》本條補。他志之著錄不足以易之：焦竑《國史經籍志》所記篇數係照錄《漢志》，非獨立著錄；《清史稿藝文志》所記「一卷」乃清人輯佚本，非原書之數。 原無作者欄。據《漢志》本條書題補作者「李氏」（撰）。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1ev7xkhqvkruo/fragments/李氏春秋.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/李氏春秋.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-19 題名重出（長題＝撰人＋短題）專項：本條為漢書藝文志《李氏春秋》二卷（春秋家李氏之書）。庫中別有清史稿藝文志《春秋》一卷（`1evr5e3mezpc2`，撰人亦作「李氏」）——長題雖恰為「撰人＋短題」，然二者時代相去二千年，「李氏」云者各為其代之人，非同一撰人，故不合併。**此為本型判準之唯一反例：撰人之姓氏相同而非同一人。**\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-22 併池：《春秋》1evr5e3mezpc2 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題（原短題作《李氏春秋》，「李氏春秋」係簡轉繁誤映射，正之），別題存於 additional_titles。",
   "juan_count": {
     "number": 2
   },
@@ -43,6 +50,20 @@
     }
   ],
   "measure_info": "二篇",
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T18:14:29+00:00"
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-22T08:39:02.616650+00:00",
+  "period_upper": "qin-han",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《漢書藝文志》（班固《漢書》成於東漢建初，本劉歆《七略》），故不晚於 qin-han",
+  "additional_titles": [
+    "李氏春秋"
+  ],
+  "related_works": [
+    {
+      "id": "1evcpjojkgv0g",
+      "title": "春秋傳",
+      "relation": "text_carried_by"
+    }
+  ],
+  "period": "pre-qin",
+  "period_basis": "2026-08-10 補全：周（清史稿藝文志「周李氏春秋一卷」）"
 }

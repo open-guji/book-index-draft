@@ -6,8 +6,9 @@
   "authors": [
     {
       "name": "杜公瞻",
-      "role": "撰",
-      "dynasty": "隋"
+      "role": "舊題撰",
+      "dynasty": "隋",
+      "role_basis": "據著錄語「杜公瞻《編珠》四卷祖孝徵《編珠》二卷，舊本題隋杜公瞻撰。《補遺》二卷，《續編珠》二卷，則國朝康熙戊寅詹」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -40,8 +41,7 @@
     }
   ],
   "books": [
-    "11q37rst86vb4",
-    "11qkhwxb2j5kw"
+    "11q37rst86vb4"
   ],
   "juan_count": {
     "number": 2
@@ -137,14 +137,14 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "作者「隋杜公瞻撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgq5zu5bitc 合併。原註：missing_reason: 短title \"編珠\" 唯一候选无作者 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]",
+  "ai_note": "作者「隋杜公瞻撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgq5zu5bitc 合併。原註：missing_reason: 短title \"編珠\" 唯一候选无作者 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwxb2j5kw 與 11q37rst86vb4 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「杜公瞻《編珠》四卷祖孝徵《編珠》二卷，舊本題隋杜公瞻撰。《補遺》二卷，《續編珠》」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

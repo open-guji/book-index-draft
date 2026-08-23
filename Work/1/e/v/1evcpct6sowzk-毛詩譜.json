@@ -7,13 +7,33 @@
       "source": "舊唐書經籍志",
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《毛詩譜》二卷",
-      "summary": "《毛詩譜》二卷鄭玄撰。"
+      "summary": "《毛詩譜》二卷鄭玄撰。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《舊唐書經籍志》（上限 sui-tang），而本條為 qing 之作、撰人胡元儀，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "清史稿藝文志",
       "source_bid": "1evdiulq07rwg",
       "title_info": "毛詩譜",
       "summary": "《毛詩譜》一卷。胡元儀撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《毛詩譜》二卷",
+      "summary": "《毛詩譜》二卷（太叔求）",
+      "note": "本著錄原繫於磁鐵條「毛詩譜太叔求注」（`1evc5pckpsr28`），今歸本條。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 qing 之作、撰人胡元儀，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《毛詩譜》二卷",
+      "summary": "《毛詩譜》二卷太叔求及劉炫注。",
+      "note": "本著錄原繫於磁鐵條「毛詩譜太叔求注」（`1evc5pckpsr28`），今歸本條。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《隋書經籍志》（上限 sui-tang），而本條為 qing 之作、撰人胡元儀，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     }
   ],
   "id": "1evcpct6sowzk",
@@ -27,14 +47,25 @@
   ],
   "related_works": [
     {
-      "id": "1evl7hsxvr7cw",
+      "id": "d59ezak9zc3k",
       "title": "詩經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-20 磁鐵拆解專項（七）：「《毛詩譜》二卷」一節原繫於磁鐵條（`1evc5pckpsr28`），今歸本條並補其著錄。\n\n2026-08-21 著錄錯掛標記：本條所繫 3 節出於國史經籍志、舊唐書經籍志、隋書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

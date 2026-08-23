@@ -11,6 +11,26 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《王元感孝經注》一卷",
       "summary": "《王元感孝經注》一卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王元感注孝經",
+      "summary": "王元感注孝經一卷",
+      "note": "自主經磁鐵拆出時補。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《注孝經》（王元感）",
+      "summary": "唐志一卷\n舊唐書長安三年元感表進書禮春秋并所注孝經草稾請官給紙寫上祕閣詔曰王元感質性溫敏博聞强記手不釋卷老而彌篤犄前達之失究先聖之㫖是謂儒宗不可多得可太子司議郎兼集賢學士",
+      "section": "孝經",
+      "juan": "卷二百二十四",
+      "page": "KR2n0011_WYG_224-9b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "本條前次誤判為庫中所無而新建（1exlpeyhsngo5），旋覺庫題《王元感孝經注》是「經名＋撰人＋役」之式，撰人之名嵌於題中，故兩閘俱不中。今刪所建，改掛此處。"
     }
   ],
   "description": {
@@ -29,10 +49,24 @@
   "measure_info": "一卷",
   "related_works": [
     {
-      "id": "1evl1xugdoikg",
+      "id": "d59f1iosq6tc",
       "title": "孝經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-22T07:18:13.254073+00:00",
+  "ai_note": "2026-08-21 新唐志四簇磁鐵拆解：「王元感注孝經」節原繫主經之條，今歸本條。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "sui-tang",
+  "period_basis": "據撰人王元感之朝代「唐」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。",
+  "authors": [
+    {
+      "name": "王元感",
+      "dynasty": "唐",
+      "role": "撰",
+      "entity_id": "1j967da978dg4",
+      "name_basis": "撰人見於題名「王元感孝經注」，繫庫中同名人物 1j967da978dg4。（2026-08-22 C1）"
+    }
+  ]
 }

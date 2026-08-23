@@ -1,60 +1,72 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "論語注",
- "indexed_by": [
-  {
-   "source": "補晋書藝文志",
-   "source_bid": "1evfu57n5n37k",
-   "summary": "論語注十卷益州刺史袁喬,謹按見《七録》。兩《唐志》著録。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "論語注",
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "論語注十卷益州刺史袁喬,謹按見《七録》。兩《唐志》著録。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《袁喬論語注》十卷",
+      "summary": "《袁喬論語注》十卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《論語注釋》（袁喬）",
+      "summary": "七錄十卷",
+      "section": "論語",
+      "juan": "卷二百十二",
+      "page": "KR2n0011_WYG_212-6a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《袁喬論語注》十卷",
-   "summary": "《袁喬論語注》十卷"
-  }
- ],
- "description": {
-  "text": "已亡佚。",
-  "sources": [
-   "補晋書藝文志"
-  ]
- },
- "authors": [
-  {
-   "name": "袁喬",
-   "role": "注",
-   "dynasty": "東晉",
-   "entity_id": "1j96hli1fzw8w",
-   "dynasty_basis": "entity_propagation_r2:1j96hli1fzw8w"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "id": "1evfubvhpyp6o",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "related_works": [
-  {
-   "id": "1ev7w0euvaeww",
-   "title": "論語",
-   "relation": "contains_text_of"
-  }
- ],
- "loss_status": "lost",
- "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgoqvr9hpmo（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "updated_at": "2026-08-10",
- "period": "jin",
- "period_basis": "據 authors[0].dynasty「晉」",
- "dynasty": "東晉",
- "dynasty_basis": "author_propagation:唯一作者朝代",
- "emendated_by": [],
- "books": []
+  "authors": [
+    {
+      "name": "袁喬",
+      "role": "注",
+      "dynasty": "東晉",
+      "entity_id": "1j96hli1fzw8w",
+      "dynasty_basis": "entity_propagation_r2:1j96hli1fzw8w"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "id": "1evfubvhpyp6o",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "related_works": [
+    {
+      "id": "d59f1iopaku8",
+      "title": "論語",
+      "relation": "contains_text_of"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgoqvr9hpmo（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "updated_at": "2026-08-10",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [],
+  "books": []
 }

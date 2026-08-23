@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "崔銑",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
-      "entity_id": "1j967afjbhix0"
+      "entity_id": "1j967afjbhix0",
+      "role_basis": "據著錄語「舊本題明崔銑撰。銑有《讀易餘言》，已著錄。此書凡分十篇。核檢其」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -29,6 +30,18 @@
       "edition": "中國科學院圖書館藏明嘉靖吳郡袁氏嘉趣堂刻金聲玉振集本",
       "volume": "第186冊",
       "section": "经部"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《小爾雅》（崔銑）",
+      "summary": "一卷\n袁褧曰周公作爾雅擬之者若埤雅方言是已少渠研精古典緝成新編曰小者謙之之辭也因鋟之木俾釋注者有所考焉",
+      "section": "擬經",
+      "juan": "卷二百八十",
+      "page": "KR2n0011_WYG_280-11b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "juan_count": {
@@ -47,8 +60,8 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxjtimgykg 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3ba9imamtc();1evgor8wby6m8(楚孔鮒)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "從 1evjxjtimgykg 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3ba9imamtc();1evgor8wby6m8(楚孔鮒)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明崔銑撰。銑有《讀易餘言》，已著錄。此書凡分十篇。核檢其」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

@@ -37,8 +37,9 @@
   ],
   "books": [
     "11q37oq9l7l6o",
-    "11qkhvwfi8vsw",
-    "11qkhsmeqiozk"
+    "11qkhsmeqiozk",
+    "11qkhu9n25jpc",
+    "11qkhua54zcao"
   ],
   "juan_count": {
     "number": 10
@@ -106,12 +107,14 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evkps7b024u8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善006624-006629）。阶段 5 兜底建立。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 1evkps7b024u8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善006624-006629）。阶段 5 兜底建立。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvwfi8vsw 與 11q37oq9l7l6o 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpvqem6ry8 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 2→4）併入本條。",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清尚德堂刊本」——版本之年不早於成書之年，故不晚於 qing"
 }

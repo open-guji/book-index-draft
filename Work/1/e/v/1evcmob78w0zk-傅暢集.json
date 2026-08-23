@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "傅暢集",
       "summary": "傅暢集五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《傅暢集》十五卷",
+      "summary": "《傅暢集》十五卷",
+      "merged_from": "1evgqakxaqfwg",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "傅暢",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j967cp21keu3",
+      "note": "隋書經籍志題「晉秘書丞《傅暢集》五卷」，書名即撰人。傅暢字世道，傅祗之子，撰《晉諸公贊》。"
+    }
+  ],
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉秘書丞《傅暢集》五卷」、兩唐志五卷、國史經籍志十五卷，同為西晉傅暢別集，今合為一條並繫 entity `1j967cp21keu3`。國史經籍志作十五卷，較諸志多十卷，蓋「五」上誤衍「十」字，姑存其異。"
 }

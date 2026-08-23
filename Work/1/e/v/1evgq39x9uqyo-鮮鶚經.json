@@ -12,6 +12,14 @@
       "title_info": "《鮮鶚經》十卷",
       "summary": "《鮮鶚經》十卷（星禽術送遙子作）",
       "author_info": "星禽術送遙子作"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《鮮鶚經》",
+      "summary": "逍遙子《鮮鶚經》三卷（（不知姓名））",
+      "merged_from": "1evcsy5czg54w",
+      "note": "宋史藝文志「逍遙子《鮮鶚經》三卷」，與國史經籍志《鮮鶚經》十卷同書，今合併。"
     }
   ],
   "description": {
@@ -20,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"鮮鶚經\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志《鮮鶚經》十卷注「星禽術送遙子作」，宋史藝文志《鮮鶚經》三卷前置撰人「逍遙子」並注「不知姓名」——「送遙子」乃「逍遙子」之形訛，二志互證為一書，今合併並補撰人。",
   "id": "1evgq39x9uqyo",
   "measures": [
     {
@@ -29,5 +37,18 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "逍遙子",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「逍遙子《鮮鶚經》三卷（（不知姓名））」；國史經籍志注「星禽術送遙子作」，「送遙子」即「逍遙子」之訛。二志互證，撰人號逍遙子而姓名不傳。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」"
 }

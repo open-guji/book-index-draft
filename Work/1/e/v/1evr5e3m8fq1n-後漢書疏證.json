@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 10
+    "number": 30
   },
   "indexed_by": [
     {
@@ -35,10 +35,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 10
+      "number": 30
     }
   ],
-  "measure_info": "十卷",
+  "measure_info": "三十卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -63,20 +63,21 @@
   ],
   "related_works": [
     {
-      "id": "1euidlec1g8ow",
+      "id": "d59f1iqd854w",
       "title": "漢書",
       "relation": "studies"
     },
     {
       "id": "1ev3c1fi6kdmo",
-      "title": "後漢書光武紀贊",
+      "title": "後漢書",
       "relation": "studies"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 10，與著錄原文（清史稿藝文志：「後漢書疏證」）所載之 30 卷不合，今據原文訂正。"
 }

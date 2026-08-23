@@ -32,11 +32,22 @@
       "title_info": "大學證文",
       "summary": "《大學證文》四卷。{{毛奇齡。《西河集》本。}}",
       "author_info": "毛奇齡"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《大學證文》（毛竒齡）",
+      "summary": "四巻",
+      "section": "禮記",
+      "juan": "卷一百六十一",
+      "page": "KR2n0011_WYG_161-20a",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "books": [
-    "11q37opxw4ge8",
-    "11qkhvwa8glj4"
+    "11q37opxw4ge8"
   ],
   "juan_count": {
     "number": 4
@@ -89,5 +100,6 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvwa8glj4 與 11q37opxw4ge8 同指文淵閣寫本一實物，今併於後者。"
 }

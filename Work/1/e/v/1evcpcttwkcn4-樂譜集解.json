@@ -32,9 +32,9 @@
       "entity_id": "1j969m70q2eqz"
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/樂譜集解.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「蕭吉樂譜集解」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「蕭吉」已見本條 authors[]），裸題「樂譜集解」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "loss_status": "partially_extant",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/樂譜集解.json，據《玉函山房輯佚書》目錄立，現為著錄層。　合併：題名「蕭吉樂譜集解」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「蕭吉」已見本條 authors[]），裸題「樂譜集解」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「隋」（2026-08-13 清朝探勘：蕭吉（?-614，隋朝太常博士，著五行大義）：書目答問/清史稿藝文志皆明確標示「隋蕭吉」，Entity原dynasty誤植「明」，訂正）",
   "merged_in": [
@@ -49,5 +49,15 @@
     }
   ],
   "dynasty": "隋",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 20
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷"
 }

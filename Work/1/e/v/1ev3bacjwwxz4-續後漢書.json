@@ -43,12 +43,20 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《續後漢書》",
-      "summary": "蕭常《續後漢書》四十二卷李杞"
+      "summary": "蕭常《續後漢書》四十二卷李杞",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 liao-jin-yuan 之作、撰人郝經，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《續後漢書》•九十卷",
+      "summary": null,
+      "note": "本著錄原繫於磁鐵條「蕭氏續後漢書」（`1ev3bacjhxjwg`），今歸本條。"
     }
   ],
   "books": [
-    "11q37pan652ww",
-    "11qkhw2ancni8"
+    "11q37pan652ww"
   ],
   "juan_count": {
     "number": 90
@@ -70,20 +78,20 @@
       ]
     }
   ],
-  "ai_note": "從 1evct42ixkhz4 合併。原註：作者「元郝經撰」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "從 1evct42ixkhz4 合併。原註：作者「元郝經撰」補自《國立故宮博物院善本舊籍》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：欽定四庫全書總目之「《續後漢書》•九十卷」一節原繫於磁鐵條（`1ev3bacjhxjwg`）。該磁鐵所兼繫之同題節不止一個 work 可當，然唯本條之卷數與之相合，故歸本條並補其著錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhw2ancni8 與 11q37pan652ww 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "related_works": [
     {
-      "id": "1euidlec1g8ow",
+      "id": "d59f1iqd854w",
       "title": "漢書",
       "relation": "contains_text_of"
     },
     {
       "id": "1ev3c1fi6kdmo",
-      "title": "後漢書光武紀贊",
+      "title": "後漢書",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",

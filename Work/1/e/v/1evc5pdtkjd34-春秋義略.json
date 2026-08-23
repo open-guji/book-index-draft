@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "春秋義略",
+  "authors": [
+    {
+      "name": "張沖",
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7vhgu（清），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《春秋義略》三十卷",
+      "summary": "《春秋義略》三十卷陳右軍將軍張沖撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋義略》二十七卷",
+      "summary": "《春秋義略》二十七卷沈文阿撰。",
+      "merged_from": "1evcpcu7735ds",
+      "note": "本著錄原繫題作「春秋義略張沖撰」之條，該題乃撰人折入題名所成，今併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《春秋義略》十四卷",
+      "summary": "《春秋義略》十四卷（董敦逸）",
+      "author_info": "董敦逸",
+      "merged_from": "1evcpcu7735ds",
+      "note": "本著錄原繫題作「春秋義略張沖撰」之條，該題乃撰人折入題名所成，今併入。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋義畧》（張沖）",
+      "summary": "隋志三十卷\n隋書陳右軍將軍北史張沖字叔𤣥吳郡人仕陳為左中郎將非其好也乃覃思經典撰春秋義畧異於杜氏七十餘事",
+      "section": "春秋",
+      "juan": "卷一百七十五",
+      "page": "KR2n0011_WYG_175-7b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "description": {
+    "text": "陈右军将军张冲撰。",
+    "sources": []
+  },
+  "id": "1evc5pdtkjd34",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "春秋義略三十卷 陳右軍將軍張沖撰",
+      "summary": "春秋義略三十卷 陳右軍將軍張沖撰\n《隋書》《北史·儒林傳》:張沖字叔玄,吴郡人。仕陳,為左中\n郎將。非其好也,乃覃思經典,撰《春秋義略》,異於杜氏七十\n餘事。《喪服義》三卷、《孝經義》三卷、《前漢音義》十二卷。\n官至漢王侍讀。\n《唐書·經籍志》:《春秋左氏義略》三十卷,張沖撰。\n《唐書·藝文志》:張沖《左氏義略》三十卷。\n按《隋書》、《北史·儒林傳》皆不載其仕陳為右軍將軍。史\n略之也。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "additional_titles": [
+    "春秋義略"
+  ],
+  "ai_note": "2026-08-20 撰人折入題名專項：庫中別有題作《春秋義略》之 work（`1evcpcu7735ds`），與本條題名之差恰為本條撰人「張沖」及一「撰」字——本條之題乃匯入時將志文之撰人綴於書名之後所成，二者實一書。今併，並正本條之題為《春秋義略》。\n\n2026-08-21 original_title 清雜訊：撤去「春秋義略」——與 title 全同，非本條所本之書題。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+}

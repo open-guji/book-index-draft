@@ -6,8 +6,7 @@
   "title": "周禮",
   "authors": [],
   "juan_count": {
-    "number": 6,
-    "description": "天官、地官、春官、夏官、秋官、冬官（《冬官》亡，西漢補以《考工記》）"
+    "number": 42
   },
   "description": {
     "text": "原名《周官》，述周代設官分職之制，分天官、地官、春官、夏官、秋官、冬官（已亡，漢補《考工記》）六篇。傳為周公所作，近代學者多認為是戰國學者所撰。漢初藏於秘府，劉歆始尊為《禮經》，置博士。歷代注疏：漢馬融、鄭玄注（鄭注今存，附入《周禮注疏》），唐賈公彥《周禮正義》（合鄭注成《周禮注疏》入十三經注疏），宋王安石《周官新義》，清孫詒讓《周禮正義》（清代集大成）。",
@@ -17,7 +16,7 @@
       "孫詒讓《周禮正義》"
     ]
   },
-  "ai_note": "新建原典 Work（戰國學者撰，傳為周公所作）。 | 從 1evkpwe09u5mo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000076-000077）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dq35ts0（catalog: 故殿034773-034787，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 2 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。 | 從 1ev7vo59vzpxc《周禮》合併：二目所指同為《周禮》經文本身，內容無別（鄭玄注本另有專目，見 related_works），故併爲一。併入著錄：漢書藝文志、明史藝文志、崇文總目、書目答問。原掛該目之《新唐書藝文志》「沈重周禮義疏」一條，係以注者立目，已移歸 1evc5pcu03wu8《周官禮義疏沈重撰》。　作者欄留空之故：《周官經》六篇：舊傳周公所作，而近代學者多以為戰國學者所撰，二說並存，故不補。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['崇文總目', '書目答問', '漢書藝文志'] needs-review (gazetteer_propagation)]",
+  "ai_note": "新建原典 Work（戰國學者撰，傳為周公所作）。 | 從 1evkpwe09u5mo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故善000076-000077）。無作者信息。阶段 5 兜底建立。 | 2026-07-26：合併蔣衡（清）手寫石拓故宮善本目錄版本條目 1evkq2dq35ts0（catalog: 故殿034773-034787，清乾隆五十八年國子監石拓懋勤殿蔣衡書十三經之一）入本 Work，其 2 個 Book 的 work_id 均改指本 Work 並補上蔣衡 authors 信息。 | 從 1ev7vo59vzpxc《周禮》合併：二目所指同為《周禮》經文本身，內容無別（鄭玄注本另有專目，見 related_works），故併爲一。併入著錄：漢書藝文志、明史藝文志、崇文總目、書目答問。原掛該目之《新唐書藝文志》「沈重周禮義疏」一條，係以注者立目，已移歸 1evc5pcu03wu8《周官禮義疏沈重撰》。　作者欄留空之故：《周官經》六篇：舊傳周公所作，而近代學者多以為戰國學者所撰，二說並存，故不補。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['崇文總目', '書目答問', '漢書藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 6，非諸志所著之任一數（崇文總目作十二卷；書目答問作四十二卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 四十二 卷，餘數之異存於各 indexed_by 之引文。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《周禮》十二卷」一節原繫於磁鐵條（`1evr5e3mjd14n`），其題與本條全合，今改繫本條並補其著錄。二者卷數異（12／42），出處不同志，依「跨志卷異即一書之異本」之判準仍為一書，並存其著錄。\n\n2026-08-20 磁鐵拆解專項（八，題核心＋內文撰人）：整理本原以本 work 之 id 兼繫下列 1 節，各節內文之撰人與本條不合而與庫中他 work 相合，今各歸其主：《《周禮》十二卷》→《周禮》（鄭康成）`1evr5e3mjd14n`。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於崇文總目、漢書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-21 版本年代覆驗（edition_bound）：原 period=ming，而本條所掛版本之年代早於該代——版本之年不早於成書之年，故相斥。《周禮》為先秦經典（《漢志》著錄《周官經》六篇）。有宋婺州刻本者，宋刻先秦之書，版本上限 song 是「不晚於」，非成書之代——不可機械取上限 今改 period 為 pre-qin。",
   "related_works": [
     {
       "id": "1ahwtau87mm80",
@@ -280,7 +279,7 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evcpctccgsn4",
+      "id": "1evgoq6tcfgg0",
       "title": "周禮義決",
       "relation": "text_carried_by"
     },
@@ -305,7 +304,7 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evcsw6tv3l6o",
+      "id": "1evga0n1rtf5s",
       "title": "周禮解義",
       "relation": "text_carried_by"
     },
@@ -455,11 +454,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evga0n1rtf5s",
-      "title": "周禮解義",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evgbrsbfcoao",
       "title": "周禮經傳",
       "relation": "text_carried_by"
@@ -487,11 +481,6 @@
     {
       "id": "1evgbrxg27zeo",
       "title": "周禮定本",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoq66f4074",
-      "title": "周禮疏",
       "relation": "text_carried_by"
     },
     {
@@ -530,16 +519,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evgoq6orax34",
-      "title": "周禮綱目",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoq6tcfgg0",
-      "title": "周禮義決",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evgoq6vmivb4",
       "title": "周禮辨疑",
       "relation": "studied_by"
@@ -552,11 +531,6 @@
     {
       "id": "1evgoq708wcu8",
       "title": "周禮考注",
-      "relation": "text_carried_by"
-    },
-    {
-      "id": "1evgoq72izrpc",
-      "title": "周禮定本",
       "relation": "text_carried_by"
     },
     {
@@ -595,11 +569,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evilzg406l8g",
-      "title": "周禮音",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evincctgq58g",
       "title": "周禮注",
       "relation": "text_carried_by"
@@ -610,7 +579,7 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evincee0v4lc",
+      "id": "1evr5e3m76rvo",
       "title": "周禮釋注",
       "relation": "text_carried_by"
     },
@@ -750,11 +719,6 @@
       "relation": "text_carried_by"
     },
     {
-      "id": "1evr5e3m76rvo",
-      "title": "周禮釋注",
-      "relation": "text_carried_by"
-    },
-    {
       "id": "1evr5e3m76rvs",
       "title": "周禮補注",
       "relation": "text_carried_by"
@@ -839,7 +803,9 @@
       "summary": "《周官經》六篇。王莽時劉歆置博士。",
       "section": "六藝略／禮",
       "page": "KR2a0007_WYG_030-8a",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
+      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《漢書藝文志》（上限 qin-han），而本條為 ming 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "明史藝文志",
@@ -851,7 +817,9 @@
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "周禮十二卷",
-      "summary": "周禮十二卷"
+      "summary": "周禮十二卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 ming 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "書目答問",
@@ -870,14 +838,16 @@
   ],
   "measures": [
     {
-      "unit": "篇",
-      "number": 6
+      "unit": "卷",
+      "number": 42
     }
   ],
-  "measure_info": "六篇",
-  "updated_at": "2026-08-09T10:49:16+00:00",
-  "period": "ming",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
+  "measure_info": "四十二卷",
+  "updated_at": "2026-08-23T06:47:08.697649+00:00",
+  "period": "pre-qin",
+  "period_basis": "edition_bound 覆驗訂正（2026-08-21）：原判 ming 與所存版本之年代相斥。《周禮》為先秦經典（《漢志》著錄《周官經》六篇）。有宋婺州刻本者，宋刻先秦之書，版本上限 song 是「不晚於」，非成書之代——不可機械取上限",
   "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "gazetteer_propagation",
+  "_promoted_to": "d59f1ioc6m0w",
+  "_promoted_at": "2026-08-23T13:30:29Z"
 }

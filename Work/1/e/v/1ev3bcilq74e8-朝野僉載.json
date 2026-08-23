@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "張鷟",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j967bgl7bsrh"
+      "entity_id": "1j967bgl7bsrh",
+      "role_basis": "據著錄語「張鷟《朝野僉載》二十卷又舊本題唐張鷟撰。鷟有《龍筋鳳髓判》，已著錄。此書《新唐書·藝文」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -54,7 +55,6 @@
   ],
   "books": [
     "11q37s48geu4g",
-    "11qkhwz96vaio",
     "11qkhzo361hj4"
   ],
   "juan_count": {
@@ -141,8 +141,8 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evkamo531a80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。　合併：題名「張鷟朝野僉載」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「張鷟」已見本條 authors[]），裸題「朝野僉載」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "從 1evkamo531a80 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。　合併：題名「張鷟朝野僉載」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「張鷟」已見本條 authors[]），裸題「朝野僉載」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwz96vaio 與 11q37s48geu4g 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「張鷟《朝野僉載》二十卷又舊本題唐張鷟撰。鷟有《龍筋鳳髓判》，已著錄。此書《新唐書」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",

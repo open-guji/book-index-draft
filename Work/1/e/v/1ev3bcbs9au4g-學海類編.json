@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "曹溶",
-      "role": "編",
+      "role": "舊題編",
       "dynasty": "清",
-      "entity_id": "1j967a0kl4w8b"
+      "entity_id": "1j967a0kl4w8b",
+      "role_basis": "據著錄語「舊本題國朝曹溶編。溶有《崇禎五十宰相傳》，已著錄。此編裒輯唐、宋」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -42,11 +43,12 @@
   "books": [
     "11qki07z42adc"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題國朝曹溶編。溶有《崇禎五十宰相傳》，已著錄。此編裒輯唐、宋」，所題之人即本條 authors[0]，故其 role 由「編」改標「舊題編」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

@@ -32,6 +32,36 @@
       "title_info": "周易口訣義",
       "summary": "《周易口訣義》六卷。{{唐史徵。孫星衍刻《岱南閣叢書》本，《古經解匯函》重刻孫本。}}",
       "author_info": "史徵"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "周易口訣義六卷",
+      "summary": "周易口訣義六卷。河南史證撰不詳何代人其書直抄孔氏說以便講習故曰口訣",
+      "merged_from": "1evr5e3mfaxvr",
+      "note": "撰人原作「河南史證」，乃「史徴」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周易口訣義》六卷",
+      "summary": "《周易口訣義》六卷（唐史證）",
+      "author_info": "唐史證",
+      "merged_from": "1evgopdt7xnnk",
+      "note": "撰人原作「史證」，乃「史徴」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易口訣義（宋志作史文徽）》（史證）",
+      "summary": "宋志六卷\n崇文總目河南史證撰不詳何代人其書直鈔孔氏疏以便講習故曰口訣晁公武曰史證抄注疏以便講習田氏乃以為魏鄭公撰誤也陳振孫曰三朝史志有其書非唐則五代人也避諱作證字",
+      "section": "易",
+      "juan": "卷十五",
+      "page": "KR2n0011_WYG_015-16a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "《經義考》標目「史氏（證）周易口訣義（宋志作史文徽）」與庫題《周易口訣義》題式不同而是一書，見 jyk_yi1_hold_tables.py 之裁"
     }
   ],
   "resources": [
@@ -99,7 +129,9 @@
   ],
   "books": [
     "11q33j9e23gg0",
-    "11q6si5afir5s"
+    "11q6si5afir5s",
+    "11qkhvfrcydj4",
+    "11qki2pgr3t34"
   ],
   "juan_count": {
     "number": 6
@@ -113,17 +145,23 @@
   "measure_info": "六卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3mfaxvr` 同題《周易口訣義》、同卷數 6，撰人分作「史徴」「河南史證」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「史徴」，異名之著錄並存於 indexed_by。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgopdt7xnnk` 同題《周易口訣義》、同卷數 6，撰人分作「史徴」「史證」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「史徴」，異名之著錄並存於 indexed_by。\n\n2026-08-21 B1 同名異書併池：併入 `1evkadj0puolc`（周易口訣義）。《周易口訣義》史徴撰：本條四庫提要逐一考辨「史徴」「史徵」「史文徽」「史之徴」諸異寫之由（徽徴形近而譌、之文形近而譌），定為「史徴」。同組「史徵」四卷本（清乾隆武英殿聚珍本）即此書之另一刻本，今併。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

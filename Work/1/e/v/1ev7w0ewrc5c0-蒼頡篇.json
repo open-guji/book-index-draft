@@ -57,7 +57,7 @@
     }
   ],
   "id": "1ev7w0ewrc5c0",
-  "ai_note": "漢志「《蒼頡》一篇。上七章，秦丞相李斯作；《爰歷》六章，車府令趙高作；《博學》七章，太史令胡母敬作。」秦代字書，已亡佚。漢興合三篇並爲《蒼頡篇》，斷六十字為一章，凡五十五章。來源：溫浚源《漢書藝文志講要》。 | 從 1evr5e3m8fpxj《秦李斯等倉頡篇》合併（同書異錄）。併入著錄：秦李斯等倉頡篇。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1ev7w0ewrc5c0/fragments/蒼頡篇.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/蒼頡篇.json（該檔之值經人工校讀，非機讀所生）。 | 2026-08-11：應使用者要求，仿《尚書》/堯典章節作品之例，補 subtype=book，並於本書之下新建 subtype=chapter 之章節作品《爰歷篇》（1ewutru6eauwx，趙高作六章）、《博學篇》（1ewutru6eauwy，胡母敬作七章），以 has_part／part_of 雙向關聯之。二篇漢志本無獨立著錄（合於「蒼頡一篇」一目），新建之著錄依據見本書 authors 及 emendated_by 所引《説文敘》。",
+  "ai_note": "漢志「《蒼頡》一篇。上七章，秦丞相李斯作；《爰歷》六章，車府令趙高作；《博學》七章，太史令胡母敬作。」秦代字書，已亡佚。漢興合三篇並爲《蒼頡篇》，斷六十字為一章，凡五十五章。來源：溫浚源《漢書藝文志講要》。 | 從 1evr5e3m8fpxj《秦李斯等倉頡篇》合併（同書異錄）。併入著錄：秦李斯等倉頡篇。　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1ev7w0ewrc5c0/fragments/蒼頡篇.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/蒼頡篇.json（該檔之值經人工校讀，非機讀所生）。 | 2026-08-11：應使用者要求，仿《尚書》/堯典章節作品之例，補 subtype=book，並於本書之下新建 subtype=chapter 之章節作品《爰歷篇》（1ewutru6eauwx，趙高作六章）、《博學篇》（1ewutru6eauwy，胡母敬作七章），以 has_part／part_of 雙向關聯之。二篇漢志本無獨立著錄（合於「蒼頡一篇」一目），新建之著錄依據見本書 authors 及 emendated_by 所引《説文敘》。\n\n2026-08-20：loss_status 由 lost 改 partially_extant。本條 description 自述「唐以後全書散亡……二十世紀以來居延、敦煌、阜陽、水泉子等地陸續出土漢簡《蒼頡篇》殘章」，且本條已轄二出土簡本 Book（阜陽漢簡整理本，殘片一百二十餘號存五百餘字；北京大學藏西漢竹書整理本，竹簡 86 枚存 1300 餘字）。SCHEMA：「原書久佚而賴簡帛復見者，其狀態即 extant 或 partially_extant」。按：李零《簡帛古書與學術源流》第一講附錄一覽表僅列王國維輯本，然該表自云「不包括簡帛本（將於下編各講分別介紹）」，故以之核存佚會系統性低估賴出土復見之書，此條即其例。",
   "emendated_by": [
     {
       "source": "漢藝文志考證",
@@ -134,8 +134,10 @@
     "11rot1b24ftwd",
     "11rot338f7qit"
   ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00+00:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「秦」"
+  "period_basis": "據 authors[0].dynasty「秦」",
+  "_promoted_to": "d59f1il8fnk0",
+  "_promoted_at": "2026-08-23T13:24:31Z"
 }

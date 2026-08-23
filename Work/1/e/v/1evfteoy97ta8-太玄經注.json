@@ -23,10 +23,22 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "太玄經注十二卷 范望,謹按見兩《唐志》。望字叔明。《文獻通》作“十卷”。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《太𤣥經注》（范望）",
+      "summary": "唐志十二卷（通考十卷）\n望自序曰子雲著𤣥桓譚以為絶倫張衡以擬五經非諸子之傳也自侯芭受業之後希有傳者建安中宋衷陸績各以淵通之才窮核道眞為十篇解釋之文字繁猥今以陸為本録宋所長訓理其義為十卷晁公武曰呉范望叔明注以首分居本經之上以測散處贊辭之下其前又有陸績序以子雲為聖人云",
+      "section": "擬經",
+      "juan": "卷二百六十九",
+      "page": "KR2n0011_WYG_269-3b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "id": "1evfteoy97ta8",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國吳」",
   "juan_count": {
@@ -34,7 +46,14 @@
   },
   "loss_status": "lost",
   "measure_info": "十二卷",
-  "ai_note": "2026-08-08 Batch15合併：原1evfuuw8ygum8（補晉志vs三國藝文志+補晉志，范望同人同書）併入本條。\n",
+  "ai_note": "2026-08-08 Batch15合併：原1evfuuw8ygum8（補晉志vs三國藝文志+補晉志，范望同人同書）併入本條。\n\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「太玄經」，庫中有同題而非注本之條 `1ev3bblady7ls`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
   "dynasty": "三國吳",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1ev3bblady7ls",
+      "title": "太玄經",
+      "relation": "contains_text_of"
+    }
+  ]
 }

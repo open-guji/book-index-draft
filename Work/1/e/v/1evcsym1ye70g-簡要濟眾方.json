@@ -8,6 +8,15 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《簡要濟眾方》",
       "summary": "周應《簡要濟眾方》五卷王素"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《簡要濟衆方》五卷",
+      "summary": "《簡要濟衆方》五卷（周應）",
+      "author_info": "周應",
+      "merged_from": "1evcsym1ye70g",
+      "note": "S 併池：簡要濟眾方／簡要濟衆方"
     }
   ],
   "id": "1evcsym1ye70g",
@@ -15,9 +24,34 @@
     {
       "name": "周應",
       "role": "等撰",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "entity_id": "1j96h8rw9fo5r"
     }
   ],
-  "ai_note": "作者「宋周應等撰」補自《國立故宮博物院善本舊籍》目錄。",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "ai_note": "作者「宋周應等撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evgq4zx3ozk0`（簡要濟衆方）。二條同題（眾／衆異體）同撰（周應）同卷數（五卷）：被刪條繫國史經籍志「《簡要濟衆方》五卷（周應）」，本條繫宋史藝文志「周應《簡要濟眾方》五卷」。異志同卷數而題唯異體之差，一書。存者取用字正之「眾」，被刪條之卷數、Book 與人物繫連已遷入。　被刪條之 period=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷",
+  "additional_titles": [
+    "簡要濟衆方"
+  ],
+  "books": [
+    "11qkhzkhdi680"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

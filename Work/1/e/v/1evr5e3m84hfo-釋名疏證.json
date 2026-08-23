@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 8
   },
   "indexed_by": [
     {
@@ -32,13 +32,21 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 8
     }
   ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "measure_info": "八卷",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（清史稿藝文志：「釋名疏證」）所載之 8 卷不合，今據原文訂正。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「釋名」，庫中有同題而非注本之條 `1ev3ba8nib5s0`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "related_works": [
+    {
+      "id": "d59f1iqtrpxc",
+      "title": "釋名",
+      "relation": "contains_text_of"
+    }
+  ]
 }

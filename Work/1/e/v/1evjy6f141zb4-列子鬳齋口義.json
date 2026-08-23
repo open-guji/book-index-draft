@@ -17,7 +17,7 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evkaajg2gl4w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evkaajg2gl4w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-23 列子系重出合併：併入《列子口義》1evgpnjch7zls（國史經籍志八卷）與《列子囗齋口義》1evjr3ac0xmo0（續修四庫二卷，囗＝鬳缺字）。三條同為南宋林希逸《列子鬳齋口義》一書，卷數之異乃各本分卷不同（元刻本、明刊本、續修影印元刻本各異），不繫定卷數。補 contains_text_of →《列子》d59ezahwgb9c（口義為隨文解義之注本，載原文）。",
   "id": "1evjy6f141zb4",
   "books": [
     "11qk4xwcvdg05",
@@ -36,5 +36,41 @@
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《列子口義》八卷",
+      "summary": "《列子口義》八卷（林希逸）",
+      "author_info": "林希逸",
+      "note": "（2026-08-23 自重出條 1evgpnjch7zls 併入。《列子口義》即《鬳齋口義》之省題，撰人同為林希逸；跨志卷異〔八卷／二卷〕不作二書之證。）"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《列子囗齋口義》二卷",
+      "author_info": "宋林希逸撰",
+      "summary": "《列子囗齋口義》二卷。宋林希逸撰。影印國家圖書館藏元刻本。",
+      "edition": "影印國家圖書館藏元刻本",
+      "volume": "第958冊",
+      "section": "子部 道家類",
+      "note": "（2026-08-23 自重出條 1evjr3ac0xmo0 併入。「囗齋」乃「鬳齋」之缺字——林希逸號鬳齋，續修四庫目錄之著錄語明作「宋林希逸撰」。）"
+    }
+  ],
+  "additional_titles": [
+    "列子口義",
+    "列子囗齋口義"
+  ],
+  "merged_from": [
+    "1evgpnjch7zls",
+    "1evjr3ac0xmo0"
+  ],
+  "related_works": [
+    {
+      "id": "d59ezahwgb9c",
+      "title": "列子",
+      "relation": "contains_text_of"
+    }
+  ]
 }

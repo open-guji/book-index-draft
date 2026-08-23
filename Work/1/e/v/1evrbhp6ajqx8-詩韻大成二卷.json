@@ -9,7 +9,7 @@
       "role": "撰",
       "dynasty": "明",
       "entity_id": "1j96hhvcrv40e",
-      "dynasty_basis": "entity_propagation_r2:1j96hhvcrv40e"
+      "dynasty_basis": "《宋史藝文志補》著錄語明書其名，該志斷代輯 song 之作（2026-08-21）"
     }
   ],
   "indexed_by": [
@@ -27,5 +27,11 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-08T18:18:57+00:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "juan_count": {
+    "number": 2
+  },
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-21 撰人時代訂正（斷代補志）：本條撰人胡繼宗原標「明」，period ming，而《宋史藝文志補》明書其名——該志專輯 song 之作，今從志改 period 為 song。dynasty 原值存而不改（史料轉錄，改之則失其所本），其可疑已記於此。",
+  "period": "song",
+  "period_basis": "斷代補志著錄語明書撰人之名（2026-08-21）：《宋史藝文志補》「詩韻大成二卷\n胡繼宗撰。」——該志斷代輯 song 之作，收其人即斷其屬該代。原標 dynasty「明」、period ming"
 }

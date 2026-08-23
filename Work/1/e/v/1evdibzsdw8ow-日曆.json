@@ -3,7 +3,15 @@
   "id": "1evdibzsdw8ow",
   "type": "work",
   "title": "日曆",
-  "authors": [],
+  "authors": [
+    {
+      "name": "詹同",
+      "role": "編",
+      "dynasty": "明",
+      "entity_id": null,
+      "note": "明史藝文志原文即題「洪武中，詹同等編，具載太祖徵討平定之績，禮樂治道之詳」。本庫無此 entity。"
+    }
+  ],
   "juan_count": {
     "number": 100
   },
@@ -21,7 +29,7 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "多個同名候選均不匹配（Multiple candidates (2), none matched author '': GYTbY5hQDTM(), GYTbYMduZDh()），新建Work。 來源：明史藝文志。 [ming-round2: dynasty null→明; 唯一志=明史藝文志 (本朝斷代志 gazetteer_propagation)]",
+  "ai_note": "2026-08-19 全庫同名異書核對：據明史藝文志「《日曆》一百卷，洪武中，詹同等編，具載太祖徵討平定之績，禮樂治道之詳」補編者詹同。同題另有唐朱樸一卷本（`1evcsxdhek0e8`）、宋朝國史所修一百八十冊本（`1evcsx8odngn4`），「日曆」為史官逐日記事之通名，三者截然異書。本庫無詹同 entity，未繫。",
   "measures": [
     {
       "unit": "卷",
@@ -29,9 +37,23 @@
     }
   ],
   "measure_info": "一百卷",
-  "updated_at": "2026-08-09T10:49:16+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
+  "period_basis": "據 dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "著錄內容：明史藝文志「洪武中，詹同等編」",
+  "related_works": [
+    {
+      "id": "1evcsxdhek0e8",
+      "title": "日曆",
+      "relation": "related",
+      "note": "宋史藝文志傳記類「朱樸《日曆》一卷」，唐人所撰。"
+    },
+    {
+      "id": "1evcsx8odngn4",
+      "title": "日曆",
+      "relation": "related",
+      "note": "宋史藝文志編年類宋朝國史所修「又《日曆》一百八十冊」。"
+    }
+  ]
 }

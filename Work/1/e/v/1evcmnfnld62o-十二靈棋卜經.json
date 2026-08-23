@@ -35,7 +35,9 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　loss_status 判為 lost，據本記錄之描述／著錄語：「而《宋志》别有李進注《靈\n棋經》一卷,則今已失傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　loss_status 判為 lost，據本記錄之描述／著錄語：「而《宋志》别有李進注《靈\n棋經》一卷,則今已失傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 機讀存佚判據核驗專項（scripts/loss-evidence-mismatch.py）：判據「《宋志》別有李進注《靈棋經》一卷，則今已失傳」所論為李進注本，非本書。本書《隋志》《國史經籍志》著錄而今不傳（今傳《靈棋經》一卷非此本）。判據不足為據，然亡佚之結論別有所本，loss_status 仍作 lost。",
   "loss_status": "lost",
-  "updated_at": "2026-08-05T05:03:40+00:00"
+  "updated_at": "2026-08-05T05:03:40+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

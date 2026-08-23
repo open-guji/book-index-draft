@@ -11,5 +11,42 @@
     }
   ],
   "id": "1evcpctec9dkw",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-22T04:56:00.084197+00:00",
+  "authors": [
+    {
+      "name": "王肅",
+      "role": "注",
+      "entity_id": "1j96glo90rdhd",
+      "note": "舊唐書經籍志原文即題「《喪服要紀》一卷王肅注」，未著撰人。王肅（195-256）三國魏經學家，精禮學。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "1evcpctenhx4w",
+      "title": "喪服要紀",
+      "relation": "related",
+      "note": "舊唐書經籍志同題別本（五卷，謝微注）。"
+    },
+    {
+      "id": "1evcpctf41hxc",
+      "title": "喪服要紀",
+      "relation": "related",
+      "note": "舊唐書經籍志同題別本（十卷，庾蔚之注）。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志禮類著錄同題《喪服要紀》三本——「五卷賀循撰，謝微注」、「十卷賀循撰，庾蔚之注」、「一卷王肅注」——**同一本經而注者、卷數各異**，乃三種不同注本，非重出，故三條並存互見，不合併。本條為一卷本，據原文補撰人／注者。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "period": "three-kingdoms",
+  "period_basis": "撰人朝代闕，據其 Entity「王肅」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

@@ -33,6 +33,13 @@
       "edition": "影印湖北省圖書館藏清嘉慶孫氏刻問經堂叢書本",
       "volume": "第826冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《諡法》三卷",
+      "summary": "《諡法》三卷劉熙撰。",
+      "note": "本著錄原繫於磁鐵條「謚法劉熙撰」（`1evc5pejo3o5c`），今歸本條。"
     }
   ],
   "resources": [
@@ -49,10 +56,21 @@
       ]
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "dynasty": "漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」"
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-20 磁鐵拆解專項（七）：「《諡法》三卷」一節原繫於磁鐵條（`1evc5pejo3o5c`），今歸本條並補其著錄。"
 }

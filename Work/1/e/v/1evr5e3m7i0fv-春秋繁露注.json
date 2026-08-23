@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 11
+    "number": 17
   },
   "indexed_by": [
     {
@@ -30,15 +30,23 @@
       "edition": "影印上海圖書館藏稿本",
       "volume": "第150冊",
       "section": "经部 春秋類"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《春秋繁露注》",
+      "summary": "十七卷。凌曙注。《古經解匯函》本。",
+      "merged_from": "1evr5e3m7i0fv",
+      "note": "同題二條而一方無撰人：彼條（書目答問）不著撰人、亦不著卷數，本條（清史稿藝文志、續修四庫全書）作「凌曙」撰、17卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 11
+      "number": 17
     }
   ],
-  "measure_info": "十一卷",
+  "measure_info": "十七卷",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -59,14 +67,21 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqzcdfavi8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "從 1evjqzcdfavi8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（續修四庫全書：「春秋繁露注」）所載之 17 卷不合，今據原文訂正。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋繁露」，庫中有同題而非注本之條 `1ev3ba3cbrojk`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-23 B1 同名異書併池：併入 `1evincftc5jb4`（春秋繁露注）。2026-08-23 B10（同題一方無撰人）：併入 `1evincftc5jb4`（書目答問，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "additional_titles": [
     "春秋繁露註"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "d59f1iqqc3y8",
+      "title": "春秋繁露",
+      "relation": "contains_text_of"
+    }
+  ]
 }

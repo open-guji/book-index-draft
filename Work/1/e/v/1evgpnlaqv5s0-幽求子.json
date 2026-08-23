@@ -1,50 +1,60 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "幽求子",
- "authors": [
-  {
-   "name": "杜夷",
-   "role": "撰",
-   "entity_id": "1j96ha7i683cw"
-  }
- ],
- "juan_count": {
-  "number": 20
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《幽求子》二十卷",
-   "summary": "《幽求子》二十卷（杜夷）",
-   "author_info": "杜夷"
+  "schema_version": 1,
+  "type": "work",
+  "title": "幽求子",
+  "authors": [
+    {
+      "name": "杜夷",
+      "role": "撰",
+      "entity_id": "1j96ha7i683cw"
+    }
+  ],
+  "juan_count": {
+    "number": 20
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "杜夷幽求子",
-   "summary": "杜夷幽求子三十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"幽求子\" 唯一候选无作者　輯佚檔：本書之輯佚著錄置於 fragments/幽求子.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0mo6ai9s（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgpnlaqv5s0",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 20
-  }
- ],
- "measure_info": "二十卷",
- "loss_status": "lost",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《幽求子》二十卷",
+      "summary": "《幽求子》二十卷（杜夷）",
+      "author_info": "杜夷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "杜夷幽求子",
+      "summary": "杜夷幽求子三十卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《幽求子》三十卷",
+      "summary": "《幽求子》三十卷杜夷撰。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"幽求子\" 唯一候选无作者　輯佚檔：本書之輯佚著錄置於 fragments/幽求子.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0mo6ai9s（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcpd19w3xmo 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
+  "id": "1evgpnlaqv5s0",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 20
+    }
+  ],
+  "measure_info": "二十卷",
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，據其 Entity「杜夷」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

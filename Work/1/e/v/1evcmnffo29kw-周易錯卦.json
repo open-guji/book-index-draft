@@ -20,6 +20,29 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《周易錯卦》八卷",
       "summary": "《周易錯卦》八卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易錯卦》",
+      "summary": "隋志五行家七卷（七録經部八卷）",
+      "section": "易",
+      "juan": "卷七",
+      "page": "KR2n0011_WYG_007-1b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《周易錯》八卷（京房）",
+      "summary": "《周易大義》一卷梁有《周易錯》八卷，京房撰；《周易日月變例》六卷，虞翻、陸績撰；《周易卦象數旨》六卷，東晉樂安亭侯李顒撰；《周易爻》一卷，馬揩撰。亡。",
+      "in_note_of": "1evcpjzw4jqio",
+      "attested_status": "lost",
+      "attested_status_raw": "亡",
+      "note": "本書於《隋志》無獨立條目，只見於《周易大義》一條之注——隋志之例，正文著隋時見存之書，而以注記梁時尚存、隋時已亡者，故 `summary` 是那一整行（首書名是正文之書，非本 work），`in_note_of` 指其所寄。2026-08-10 裁定本條與庫中此記錄同書而未別建，其由：與既有「周易錯卦」（京房，1evcmnffo29kw）同撰人，題目一字之差，卷數變體（隋志7卷／梁8卷／國史經籍志8卷，本條8卷與後兩者合），判為同書之異記"
     }
   ],
   "authors": [
@@ -50,10 +73,14 @@
   "measure_info": "七卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-22T04:56:00.104502+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "qin-han",
+  "period_basis": "撰人朝代闕，據其 Entity「京房」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

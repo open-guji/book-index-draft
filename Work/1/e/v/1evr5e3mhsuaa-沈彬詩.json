@@ -12,6 +12,14 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "沈彬詩二卷",
       "summary": "沈彬詩二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《沈彬詩》二卷",
+      "summary": "《沈彬詩》二卷",
+      "merged_from": "1evgqcirttzb4",
+      "note": "諸志同著《沈彬詩》，係一書互著，今合併。"
     }
   ],
   "measures": [
@@ -21,5 +29,19 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "沈彬",
+      "role": "撰",
+      "dynasty": "五代",
+      "entity_id": null,
+      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《沈彬詩》，撰人為沈彬。"
+    }
+  ],
+  "dynasty": "五代",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「五代」",
+  "ai_note": "2026-08-19 全庫同名異書核對：《沈彬詩》為沈彬之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為沈彬。"
 }

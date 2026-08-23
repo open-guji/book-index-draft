@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 7
   },
   "indexed_by": [
     {
@@ -37,15 +37,28 @@
       "edition": "影印國家圖書館藏清刻本",
       "volume": "第108冊",
       "section": "经部 禮類"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《孔子三朝記》",
+      "summary": "漢志七篇",
+      "section": "論語",
+      "juan": "卷二百二十一",
+      "page": "KR2n0011_WYG_221-14b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 7
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "七卷",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -60,16 +73,9 @@
       ]
     }
   ],
-  "related_works": [
-    {
-      "id": "1evr5e3meogue",
-      "title": "孔子三朝記目錄",
-      "relation": "has_part"
-    }
-  ],
-  "loss_status": "lost",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/孔子三朝記.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "loss_status": "partially_extant",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/孔子三朝記.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（清史稿藝文志：「孔子三朝記」）所載之 7 卷不合，今據原文訂正。 2026-08-21 本條連記附屬部帙：目錄。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-23 存佚車道：loss_status 由 lost 改 partially_extant。本條有輯佚檔 fragments/孔子三朝記.json（據《玉函山房輯佚書》目錄立），依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之準（凡有文存世即 partially_extant，一字不存方為 lost），本條不當作全佚。08-21 改判批次未及本條。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",

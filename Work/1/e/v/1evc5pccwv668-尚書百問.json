@@ -31,13 +31,19 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《尚書百問》（顧歡）",
-      "summary": "隋志一卷",
+      "summary": "隋志一卷\n隋志齊太學博士顧歡撰",
       "section": "書",
       "juan": "卷七十七",
       "page": "KR2n0011_WYG_077-18a",
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《尚書百問》一卷",
+      "summary": "《尚書百問》一卷顧歡撰。"
     }
   ],
   "juan_count": {
@@ -66,7 +72,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「齊」"
+  "period_basis": "據 authors[0].dynasty「齊」",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "ai_note": "2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpct35a0ao 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。"
 }

@@ -19,6 +19,14 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又三卷孫邈撰。",
+      "summary": "又三卷孫邈撰。",
+      "merged_from": "1evfubrp8rf28",
+      "note": "舊唐書經籍志「又三卷孫邈撰」——本條補晉書藝文志考語明云「春秋左氏傳音三卷 徐〔邈〕，謹按見《隋志》。兩《唐志》誤作『孫魂』」，即已判定兩唐志之「孫邈（魂）」為「徐邈」之訛；卷數（三卷）亦全合，同書。"
     }
   ],
   "description": {
@@ -48,14 +56,14 @@
   "measure_info": "三卷",
   "related_works": [
     {
-      "id": "1ev7vo50ar94w",
+      "id": "d59ezak6jq4g",
       "title": "左傳",
       "relation": "contains_text_of"
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：春秋左氏傳音，補晋書藝文志、徐邈史傳本有《左氏音》三卷；同 Entity 綁定。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人「徐」補全為「徐邈」。據同 Entity（1j96keg2utzwg）之其他 Work（論語音 author_info=徐邈、楚辭音 author_info=徐邈；釋道騫）交叉驗證，且徐邈（東晉）本有五經音義系列著作。dynasty=晉 原已正確。\n個案依據：春秋左氏傳音，補晋書藝文志、徐邈史傳本有《左氏音》三卷；同 Entity 綁定。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcu05mgao`（春秋左氏傳音）。2026-08-23 B1／B2 全量覆核：併入 `1evcpcu05mgao`（舊唐書經籍志「又三卷孫邈撰」）。本條補晉書藝文志考語自云「兩《唐志》誤作『孫魂』」，已明判唐志之孫邈為徐邈之訛，卷數全合，同書。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「東晉」（原作籠統「晉」，2026-08-11 晉朝探勘分期第一階段訂正：344-397，字仙民，東晉著名經學家，遍注群經）",
   "dynasty": "東晉",

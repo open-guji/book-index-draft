@@ -4,9 +4,10 @@
   "title": "尚書誼詁",
   "authors": [
     {
-      "name": "馬其昶撰",
+      "name": "馬其昶",
       "role": "撰",
-      "dynasty": ""
+      "dynasty": "",
+      "name_basis": "原作「馬其昶撰」，係著錄動詞「撰」被連入姓名欄（該條著錄原文作「馬其昶撰撰」，動詞重出可證），逕正為「馬其昶」並以 role 記其職。"
     }
   ],
   "indexed_by": [
@@ -60,6 +61,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00",
-  "_has_image": true
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "_has_image": true,
+  "period": "qing",
+  "period_basis": "撰人「馬其昶」庫中同名 Entity 唯一（清，CBDB 70985）——本條 authors 未繫 entity_id，繫人屬 B 車道，此處只定代",
+  "period_upper": "qing",
+  "period_upper_basis": "collection_bound：本書收入《續修四庫全書》——其書收錄止於辛亥（1911）以前之著作，故不晚於 qing"
 }

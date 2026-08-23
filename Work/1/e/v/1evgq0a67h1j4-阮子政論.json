@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《阮子政論》五卷",
       "summary": "《阮子政論》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "阮子政論",
+      "summary": "阮子政論五卷",
+      "merged_from": "1evcs0oyr6nsw",
+      "note": "諸志同著《阮子政論》，係一書互著（或重出），今合併。"
     }
   ],
   "description": {
@@ -27,6 +35,28 @@
     }
   ],
   "measure_info": "五卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"阮子政證\"->\"阮子政論\"",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、國史經籍志同著《阮子政論》五卷，今合併並補撰人為阮武。\n\n2026-08-22 D3：本書之輯佚著錄置於 Work/1/e/v/1evgq0a67h1j4/fragments/阮子政論.json。\n\n2026-08-23 母條輯佚檔相違裁定（known-issues 第七節）：loss_status 補 partially_extant。本書傳本斷絕而確有其文存世（輯佚檔載輯家：馬國翰），依 SCHEMA 2026-08-21 訂正之準（凡有文存世即 partially_extant，傳本斷絕之事由輯佚檔之存在承載）。",
+  "updated_at": "2026-08-23T08:04:47.930386+00:00",
+  "authors": [
+    {
+      "name": "阮武",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96hehgimakg",
+      "note": "隋書經籍志作「《阮子正論》五卷，魏清河太守阮武撰」，「政」「正」通；題名「阮子」即其人。"
+    }
+  ],
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "emendated_by": [
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "title_info": "阮子政論一卷",
+      "summary": "2026-08-22 D3 複測所繫，見該叢書整理本 子編·法家類.json 第 4 節。"
+    }
+  ],
+  "loss_status": "partially_extant"
 }

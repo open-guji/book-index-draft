@@ -3,7 +3,15 @@
   "id": "1ev3bcsh46sxs",
   "type": "work",
   "title": "徐仙翰藻",
-  "authors": [],
+  "authors": [
+    {
+      "name": "徐知證",
+      "role": "撰",
+      "dynasty": "南唐",
+      "entity_id": null,
+      "note": "四庫總目提要明云「所載皆唐末徐溫二子知證、知諤詩文」，本欄僅著其首，知諤見案語。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -73,7 +81,15 @@
     }
   ],
   "measure_info": "十四卷",
-  "updated_at": "2026-07-28T14:32:58+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "books": [
+    "11qki5ih7aayo"
+  ],
+  "dynasty": "南唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「南唐」",
+  "ai_note": "2026-08-19 全庫同名異書核對：欽定四庫全書總目《徐仙翰藻》十四卷與另一無著錄來源之同題二卷條，今合併。所載為徐溫二子知證、知諤之詩文，authors 僅著其首。"
 }

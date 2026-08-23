@@ -1,56 +1,67 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "梁皇帝實錄",
- "indexed_by": [
-  {
-   "source": "隋書經籍志",
-   "source_bid": "1ev85yncs9ibk",
-   "title_info": "《梁皇帝實錄》三卷",
-   "summary": "《梁皇帝實錄》三卷周興嗣撰。記武帝事。"
+  "schema_version": 1,
+  "type": "work",
+  "title": "梁皇帝實錄",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《梁皇帝實錄》三卷",
+      "summary": "《梁皇帝實錄》三卷周興嗣撰。記武帝事。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《梁皇帝實錄》二卷",
+      "summary": "《梁皇帝實錄》二卷（周興嗣）",
+      "author_info": "周興嗣"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "周興嗣梁皇帝實錄",
+      "summary": "周興嗣梁皇帝實錄二卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《梁皇帝實錄》三卷",
+      "summary": "《梁皇帝實錄》三卷周興嗣撰。",
+      "merged_from": "1evcml3ww1bls",
+      "note": "本條為整理本另立之無撰人 stub，其節「《梁皇帝實錄》三卷」正文明書「《梁皇帝實錄》三卷周興嗣撰。」，與本條同書。"
+    }
+  ],
+  "authors": [
+    {
+      "name": "周興嗣",
+      "role": "撰",
+      "entity_id": "1j96h28x1o7id"
+    }
+  ],
+  "juan_count": {
+    "number": 3
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《梁皇帝實錄》二卷",
-   "summary": "《梁皇帝實錄》二卷（周興嗣）",
-   "author_info": "周興嗣"
-  },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "周興嗣梁皇帝實錄",
-   "summary": "周興嗣梁皇帝實錄二卷"
-  }
- ],
- "authors": [
-  {
-   "name": "周興嗣",
-   "role": "撰",
-   "entity_id": "1j96h28x1o7id"
-  }
- ],
- "juan_count": {
-  "number": 3
- },
- "id": "1evcml3ww1bls",
- "emendated_by": [
-  {
-   "source": "隋書經籍志考證",
-   "source_bid": "1evdlszdhf5z4",
-   "title_info": "梁皇帝實錄三卷",
-   "summary": "梁皇帝實録三卷 周興嗣撰。記武帝事。\n周興嗣有《千字文》,見經部小學類。\n《梁書·文學傳》:天監中,興嗣為員外散騎侍郎,佐撰國史。\n十二年,遷給事中,撰史如故。普通二年卒。所撰《皇帝實\n録》、《皇德記》等百餘卷。\n《唐書·經籍志》起居注類:《梁皇帝實錄》三卷,周興嗣撰。\n《唐書·藝文志》實錄類:周興嗣《梁皇帝實錄》二卷。"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 3
-  }
- ],
- "measure_info": "三卷",
- "updated_at": "2026-08-10",
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0dsi1b7k（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "id": "1evcml3ww1bls",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁皇帝實錄三卷",
+      "summary": "梁皇帝實録三卷 周興嗣撰。記武帝事。\n周興嗣有《千字文》,見經部小學類。\n《梁書·文學傳》:天監中,興嗣為員外散騎侍郎,佐撰國史。\n十二年,遷給事中,撰史如故。普通二年卒。所撰《皇帝實\n録》、《皇德記》等百餘卷。\n《唐書·經籍志》起居注類:《梁皇帝實錄》三卷,周興嗣撰。\n《唐書·藝文志》實錄類:周興嗣《梁皇帝實錄》二卷。"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-22T04:56:00.115690+00:00",
+  "books": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0dsi1b7k（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 B1 同名異書併池：併入 `1evcpjottqlmo`（梁皇帝實錄）。《梁皇帝實錄》周興嗣撰：整理本另立之無撰人條，其節正文明書撰人「周興嗣」，與本條同卷（3卷）同書，今併。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "nanbeichao",
+  "period_basis": "撰人朝代闕，據其 Entity「周興嗣」之 dynasty「南朝梁」傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

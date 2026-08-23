@@ -5,8 +5,9 @@
   "title": "老子集解",
   "authors": [
     {
-      "name": "郎中程韶",
+      "name": "程韶",
       "role": "撰",
+      "name_basis": "原作「郎中程韶」，將官銜「郎中」混入姓名欄。本條著錄原文以官銜冠於姓名之前，逕正為「程韶」。",
       "dynasty": "晉",
       "entity_id": "1j96hfe1wx62o"
     }
@@ -35,10 +36,11 @@
   ],
   "measure_info": "二卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。",
   "updated_at": "2026-08-08T13:35:31+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "original_title": "老子"
 }

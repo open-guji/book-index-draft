@@ -28,16 +28,38 @@
       "title_info": "《春秋左傳音》三卷",
       "summary": "《春秋左傳音》三卷（魏嵇康）",
       "author_info": "魏嵇康"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋左傳音》",
+      "summary": "七錄三巻\n隋書梁有服䖍杜預音三巻",
+      "section": "春秋",
+      "juan": "卷一百七十三",
+      "page": "KR2n0011_WYG_173-20a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
-  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "ai_note": "清史稿藝文志經部春秋類輯佚條目。 來源：清史稿藝文志經部春秋類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：《清史稿·藝文志》各部類下有「輯佚」子目，著錄清人所輯之本；本條見於該子目，是其文賴輯本存世——「藝文志經部春秋類輯佚條目」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。",
   "related_works": [
     {
-      "id": "1ev7vo50ar94w",
+      "id": "d59ezak6jq4g",
       "title": "左傳",
       "relation": "contains_text_of"
     }
   ],
   "updated_at": "2026-08-08T14:05:56+00:00",
-  "loss_status": "lost"
+  "loss_status": "partially_extant",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

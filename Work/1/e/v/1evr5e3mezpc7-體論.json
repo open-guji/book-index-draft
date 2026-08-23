@@ -21,9 +21,16 @@
       "source_bid": "1evdiulq07rwg",
       "title_info": "體論",
       "summary": "魏杜恕體論一卷。"
+    },
+    {
+      "source": "三國藝文志",
+      "source_bid": "1eve1eig5jn5s",
+      "title_info": "《體論》",
+      "section": "子部／撰著",
+      "section_basis": "類目自整理本推得——一節之類是其前最近之「结语」而不以「右」起、不以「總說」終者；以既繫之 399 節驗之，合 399、不合 0"
     }
   ],
-  "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。",
+  "ai_note": "清史稿藝文志子部儒家類輯佚條目。 短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部儒家類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：《清史稿·藝文志》各部類下有「輯佚」子目，著錄清人所輯之本；本條見於該子目，是其文賴輯本存世——「藝文志子部儒家類輯佚條目」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。",
   "measures": [
     {
       "unit": "卷",
@@ -32,5 +39,7 @@
   ],
   "measure_info": "一卷",
   "updated_at": "2026-08-08T13:35:31+00:00",
-  "loss_status": "lost"
+  "loss_status": "partially_extant",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

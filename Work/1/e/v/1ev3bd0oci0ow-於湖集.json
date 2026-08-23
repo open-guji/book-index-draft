@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1ev3bd0oci0ow",
   "type": "work",
-  "title": "於湖集",
+  "title": "于湖集",
   "authors": [
     {
       "name": "張孝祥",
@@ -25,6 +25,12 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "於湖集"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《張孝祥于湖集》四十卷",
+      "summary": "《張孝祥于湖集》四十卷"
     }
   ],
   "juan_count": {
@@ -75,7 +81,6 @@
   ],
   "books": [
     "11q7m1t1gk000",
-    "11qkhxdr65fr4",
     "11qkhyi273sao",
     "11q37t3rhan0g"
   ],
@@ -86,12 +91,24 @@
     }
   ],
   "measure_info": "四十卷",
-  "ai_note": "從 1ev3d6egf5jb4 合併。原註：作者「宋張孝祥撰」補自《國立故宮博物院善本舊籍》目錄。",
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "ai_note": "從 1ev3d6egf5jb4 合併。原註：作者「宋張孝祥撰」補自《國立故宮博物院善本舊籍》目錄。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxdr65fr4 與 11q37t3rhan0g 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 併池：《張孝祥于湖集》1evgqdecfdpfk 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題（原短題作《於湖集》，「於湖集」係簡轉繁誤映射，正之），別題存於 additional_titles。",
+  "updated_at": "2026-08-22T08:35:02.277736+00:00",
   "_has_text": true,
   "_has_image": true,
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "additional_titles": [
+    "於湖集",
+    "張孝祥于湖集"
+  ],
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

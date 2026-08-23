@@ -15,7 +15,9 @@
       "source": "隋書經籍志",
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《儀禮義疏》六卷",
-      "summary": "《儀禮義疏》六卷"
+      "summary": "《儀禮義疏》六卷",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《隋書經籍志》（上限 sui-tang），而本條為 qing 之作、撰人鄂爾泰，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "清史稿藝文志",
@@ -62,7 +64,7 @@
   "measure_info": "六卷",
   "related_works": [
     {
-      "id": "1evl7nl9gl88w",
+      "id": "d59ezak3445c",
       "title": "儀禮",
       "relation": "contains_text_of"
     }
@@ -117,13 +119,12 @@
       ]
     }
   ],
-  "ai_note": "從 1ev3b9zfdt6o0 合併。原註：作者「清鄂爾泰等奉敕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaorevp2ps 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3b9zfdt6o0()（不同作者，故新建獨立 Work）。",
+  "ai_note": "從 1ev3b9zfdt6o0 合併。原註：作者「清鄂爾泰等奉敕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaorevp2ps 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3b9zfdt6o0()（不同作者，故新建獨立 Work）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvovbmfwg 與 11q37o7c2eww0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於隋書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "books": [
     "11q37o7c2eww0",
     "11q7m1rr7vf28",
     "11qkhy9udvo5c",
-    "11qki28utq1vk",
-    "11qkhvovbmfwg"
+    "11qki28utq1vk"
   ],
   "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,

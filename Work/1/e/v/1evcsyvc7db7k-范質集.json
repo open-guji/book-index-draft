@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《范質集》",
       "summary": "《范質集》三十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《范質集》三十卷",
+      "summary": "《范質集》三十卷",
+      "merged_from": "1evgqclr2h1q8",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "id": "1evcsyvc7db7k",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "范質",
+      "role": "撰",
+      "dynasty": "五代",
+      "entity_id": "1j967da978dh5",
+      "note": "書名即撰人。范質（911-964）字文素，後周宰相，入宋為相。"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "dynasty": "五代",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「五代」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，宋志、國史經籍志皆三十卷，同為五代范質別集，今合為一條並繫 entity `1j967da978dh5`。"
 }

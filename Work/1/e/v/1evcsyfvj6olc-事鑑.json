@@ -8,11 +8,62 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《事鑒》",
       "summary": "郭道規《事鑒》五十卷沈寥子"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "事鑑五十卷",
+      "summary": "事鑑五十卷",
+      "merged_from": "1evr5e3mfxf3y",
+      "note": "諸志同著《事鑑》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《事鑑》五十卷",
+      "summary": "《事鑑》五十卷（唐郭道規）",
+      "author_info": "唐郭道規",
+      "merged_from": "1evgq5z0jc3r4",
+      "note": "《事鑑》（郭道規）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "郭道規事鑑",
+      "summary": "郭道規事鑑五十卷",
+      "merged_from": "1evgq5z0jc3r4",
+      "note": "《事鑑》（郭道規）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "id": "1evcsyfvj6olc",
   "additional_titles": [
     "事鑒"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-22T04:56:00.079888+00:00",
+  "juan_count": {
+    "number": 50
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 50
+    }
+  ],
+  "measure_info": "五十卷",
+  "authors": [
+    {
+      "name": "郭道規",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「郭道規《事鑒》五十卷沈寥子」，前置撰人郭道規；句末「沈寥子」屬下條。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《事鑑》（郭道規，50卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgq5z0jc3r4（國史經籍志、新唐書藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人郭道規原標「宋」，period song，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "nanbeichao",
+  "period_basis": "撰人朝代「宋」有歧義，而上限 sui-tang 排除其晚解，故必 nanbeichao（2026-08-22 C1）"
 }

@@ -19,6 +19,24 @@
       "edition": "福建省圖書館藏明祁氏淡生堂鈔本",
       "volume": "第255冊",
       "section": "史部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《瀛涯勝覽》•一卷",
+      "author_info": "明馬觀撰",
+      "summary": "明馬觀撰。觀不知何許人。書中多記鄭和出使時事，則作於永樂以後也。所記海外諸番曰占城，曰爪哇，曰舊港國，曰暹羅，曰滿剌加，曰啞魯國，曰蘇門答剌，曰那孤兒，曰黎代，曰喃勃裏，曰鍚蘭，曰小葛蘭，曰阿枝，曰古俚，曰溜山，曰祖法兒，曰阿丹國，曰榜葛剌國，曰忽魯謨廝國，凡十九國，而為篇十八。其那孤兒國附見蘇門答剌後，以其微也。各載其疆域、道裏、風俗、物產，亦略及沿革。大抵與史傳相出入。",
+      "edition": "兩江總督采進本",
+      "merged_from": "1ev3baz2p7gg0",
+      "note": "撰人原作「馬觀」，乃「馬歡」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "马欢《瀛涯胜览》一卷",
+      "summary": "馬歡《瀛涯勝覽》一卷",
+      "merged_from": "1ev3baz2p7gg0",
+      "note": "撰人原作「馬觀」，乃「馬歡」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -27,7 +45,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3baz2p7gg0(馬觀)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3baz2p7gg0(馬觀)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1ev3baz2p7gg0` 同題《瀛涯勝覽》、同卷數 1，撰人分作「馬歡」「馬觀」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「馬歡」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 1
   },
@@ -39,9 +57,80 @@
   ],
   "measure_info": "一卷",
   "id": "1evjxl0txu39c",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "resources": [
+    {
+      "id": "wikisource",
+      "name": "维基文库",
+      "url": "https://zh.wikisource.org/wiki/瀛涯勝覽",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=428579",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-wanlisishiwuyangxian",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY6156",
+      "metadata": {
+        "edition": "萬曆四十五年(1617)陽羡陳于廷刻本",
+        "version": "v8",
+        "total_page": 95,
+        "paragraph_count": 130,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-keben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/HY5944",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v4",
+        "total_page": 48,
+        "paragraph_count": 75,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "shidianguji-keben-1",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02052676",
+      "metadata": {
+        "edition": "刻本",
+        "version": "v4",
+        "total_page": 90,
+        "paragraph_count": 99,
+        "has_translation": true,
+        "check_type": "粗校"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "_has_image": true
 }

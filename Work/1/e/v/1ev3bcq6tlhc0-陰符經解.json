@@ -25,8 +25,7 @@
     "number": 1
   },
   "books": [
-    "11q4717uhvgu8",
-    "11qkhx32741s0"
+    "11q4717uhvgu8"
   ],
   "resources": [
     {
@@ -88,12 +87,19 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "作者「唐李筌注」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "作者「唐李筌注」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx32741s0 與 11q4717uhvgu8 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「陰符經」，庫中有同題而非注本之條 `1evr5e3mfxf03`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "related_works": [
+    {
+      "id": "1evr5e3mfxf03",
+      "title": "陰符經",
+      "relation": "contains_text_of"
+    }
+  ]
 }

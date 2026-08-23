@@ -14,6 +14,21 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《忠臣傳》三十卷",
       "summary": "《忠臣傳》三十卷梁元帝撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又忠臣傳",
+      "summary": "又忠臣傳三十卷",
+      "merged_from": "1evcs0fnfi48w",
+      "note": "諸志同著《忠臣傳》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《忠臣傳》三十卷",
+      "summary": "《忠臣傳》三十卷（梁元帝）",
+      "author_info": "梁元帝"
     }
   ],
   "juan_count": {
@@ -35,5 +50,28 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
+  "authors": [
+    {
+      "name": "蕭繹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967da978diu",
+      "note": "隋書經籍志、舊唐書經籍志皆明載「《忠臣傳》三十卷梁元帝撰」，梁元帝即蕭繹。",
+      "alt_names": [
+        "元帝"
+      ]
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《忠臣傳》三十卷，今合併並補撰人為蕭繹（梁元帝）。\n\n2026-08-22 B3 併池（撰人名近似）：1evgpj2cqxu68 併入本條。二條撰人所繫 entity 相同而書名之寫法異（本名與字號之別），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

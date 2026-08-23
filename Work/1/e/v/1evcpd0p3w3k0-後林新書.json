@@ -8,8 +8,40 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《後林新書》十卷",
       "summary": "《後林新書》十卷虞喜撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又後林新書",
+      "summary": "又後林新書十卷",
+      "merged_from": "1evcs0l4im7eo",
+      "note": "諸志同著《後林新書》，係一書互著，今合併。"
     }
   ],
   "id": "1evcpd0p3w3k0",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "虞喜",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《後林新書》十卷虞喜撰」；新唐志承前作「又後林新書十卷」。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著《後林新書》十卷，今合併並據舊唐志補撰人為虞喜。"
 }

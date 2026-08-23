@@ -4,9 +4,9 @@
   "title": "泉南錄",
   "authors": [
     {
-      "name": "僧洞源",
+      "name": "釋洞源",
       "role": "撰",
-      "entity_id": "1j96hfu949yww"
+      "name_basis": "原作「僧洞源」。「僧」為身分標記而非法號之一部，本庫僧人以「釋某」立目（如釋皎然、釋贊寧），逕依例改作「釋洞源」。"
     }
   ],
   "juan_count": {
@@ -19,6 +19,12 @@
       "title_info": "《泉南錄》一卷",
       "summary": "《泉南錄》一卷（僧洞源）",
       "author_info": "僧洞源"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《泉南錄》",
+      "summary": "《泉南錄》二卷"
     }
   ],
   "description": {
@@ -27,7 +33,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"泉南錄\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"泉南錄\" 唯一候选无作者\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcsxms0yby8 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
   "id": "1evgpjxwerxmo",
   "measures": [
     {
@@ -36,5 +42,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

@@ -22,7 +22,7 @@
       "summary": "唐崔憬《周易探元》三卷。"
     }
   ],
-  "ai_note": "清史稿藝文志經部易類輯佚條目。 來源：清史稿藝文志經部易類　輯佚檔：本書之輯佚著錄置於 fragments/周易探元.json，據《玉函山房輯佚書》目錄立，現為著錄層。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "清史稿藝文志經部易類輯佚條目。 來源：清史稿藝文志經部易類　輯佚檔：本書之輯佚著錄置於 fragments/周易探元.json，據《玉函山房輯佚書》目錄立，現為著錄層。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "measures": [
     {
       "unit": "卷",
@@ -32,12 +32,12 @@
   "measure_info": "三卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",

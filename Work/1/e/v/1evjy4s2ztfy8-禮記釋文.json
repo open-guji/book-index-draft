@@ -16,7 +16,7 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evr5e3mi42ti` 同題《禮記釋文》、同卷數 4，撰人作「陸德明」與「睦德明」，僅一字之差（或一名含於另一名）。「睦德明」全庫僅 1 見而「陸德明」凡 23 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 4
   },
@@ -33,12 +33,12 @@
   ],
   "related_works": [
     {
-      "id": "1evl7nlb2nda8",
+      "id": "d59f1iofm800",
       "title": "禮記",
       "relation": "studies"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "indexed_by": [
     {
       "source": "經義考",
@@ -51,6 +51,13 @@
       "attested_status": "extant",
       "attested_status_raw": "存",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "唐睦德明撰。",
+      "merged_from": "1evr5e3mi42ti",
+      "note": "撰人原作「睦德明」，乃「陸德明」之訛（或異寫），本條併入。"
     }
   ],
   "period": "sui-tang",

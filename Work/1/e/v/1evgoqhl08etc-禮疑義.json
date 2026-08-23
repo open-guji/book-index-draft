@@ -7,7 +7,7 @@
       "name": "周捨",
       "role": "撰",
       "dynasty": "南朝梁",
-      "entity_id": "1j96hhvcrv409"
+      "entity_id": "1j96gx6z1zksg"
     }
   ],
   "juan_count": {
@@ -68,7 +68,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=周舍 vs anno=梁周捨　合併：裸題「禮疑義」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：清史稿藝文志、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　合併：裸題「禮疑義」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　本書之輯佚著錄置於 Work/1/e/v/1evgoqhl08etc/fragments/禮疑義.json（原掛於併入之 1evcpctq1cidc，今移置本目錄）。　合併：另查得已早以「書名+撰人+方式」建檔之第四條 1evc5pd9yrsw0《禮疑義周舍撰》（隋書經籍志五十二卷，與本條juan_count相合，另有隋書經籍志考證之emendated_by），本輪普查因原以「裸題全庫比對」未及已消歧格式之同名條，補查得之，逕併——撰人字首式重出候選 Phase 2b 補正（2026-08-07）。　按：本條authors[].entity_id（1j96hhvcrv409）與併入之1evc5pd9yrsw0原繫之entity（1j96gx6z1zksg，「正覽周舍撰」1evcmnc9v4jy8所用者相同）不一致——周舍/周捨在庫中似仍有多個entity記錄未歸一，entity合併須另裁，非本次所及。",
+  "ai_note": "missing_reason: 作者冲突 work=周舍 vs anno=梁周捨　合併：裸題「禮疑義」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：清史稿藝文志、舊唐書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　合併：裸題「禮疑義」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　本書之輯佚著錄置於 Work/1/e/v/1evgoqhl08etc/fragments/禮疑義.json（原掛於併入之 1evcpctq1cidc，今移置本目錄）。　合併：另查得已早以「書名+撰人+方式」建檔之第四條 1evc5pd9yrsw0《禮疑義周舍撰》（隋書經籍志五十二卷，與本條juan_count相合，另有隋書經籍志考證之emendated_by），本輪普查因原以「裸題全庫比對」未及已消歧格式之同名條，補查得之，逕併——撰人字首式重出候選 Phase 2b 補正（2026-08-07）。　按：本條authors[].entity_id（1j96hhvcrv409）與併入之1evc5pd9yrsw0原繫之entity（1j96gx6z1zksg，「正覽周舍撰」1evcmnc9v4jy8所用者相同）不一致——周舍/周捨在庫中似仍有多個entity記錄未歸一，entity合併須另裁，非本次所及。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "id": "1evgoqhl08etc",
   "measures": [
     {
@@ -78,7 +78,7 @@
   ],
   "measure_info": "五十二卷",
   "updated_at": "2026-08-08T18:18:57+00:00",
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "period": "nanbeichao",
   "period_basis": "（2026-08-13 隋唐探勘：周捨《禮疑義》：Work層authors[0].dynasty原誤植「唐」（entity_propagation_r2），訂正為南朝梁）",
   "merged_in": [

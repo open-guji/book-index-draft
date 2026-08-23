@@ -35,7 +35,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《三禮圖》（夏侯伏朗）",
-      "summary": "唐志十二巻",
+      "summary": "唐志十二巻\n張彦逺曰隋文帝開皇二十年勅有司撰左武候執旗侍官夏侯朗畵",
       "section": "通禮",
       "juan": "卷一百六十三",
       "page": "KR2n0011_WYG_163-5a",
@@ -50,10 +50,20 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgoqhwmtn9c 合併。原註：从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "從 1evgoqhwmtn9c 合併。原註：从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十二卷），今據以補。 2026-08-20 落空節救回專項：本條 1 節之原繫 work 已不存（早期合併未回指），今以題核心＋內文撰人（夏侯伏朗）覆核歸本條。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷"
 }

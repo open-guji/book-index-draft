@@ -37,6 +37,18 @@
     {
       "source": "宋史藝文志補",
       "source_bid": "1evfyhtrdkbnk"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易學啓䝉通釋》（胡方平）",
+      "summary": "二卷",
+      "section": "易",
+      "juan": "卷四十",
+      "page": "KR2n0011_WYG_040-1a",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "resources": [
@@ -117,7 +129,6 @@
     "11q33j9xkfeo0",
     "11q7m1rbdw35s",
     "11qkhtdy47xfk",
-    "11qkhvhbua800",
     "11qkhy6hd8ikg",
     "11qki24ebk6io",
     "11qk4xwcu4hti"
@@ -138,8 +149,10 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "從 1evjy5tuz80sg 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。",
-  "updated_at": "2026-08-08T18:18:57+00:00",
+  "ai_note": "從 1evjy5tuz80sg 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《周易啟蒙通釋二卷》→《周易啟蒙通釋》`1evg8rp42np4w`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvhbua800 與 11q33j9xkfeo0 同指文淵閣寫本一實物，今併於後者。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "period": "song",
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('胡方平', '元')] 指向 liao-jin-yuan，而本書見於《宋史藝文志補》——該志斷代著錄 song 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

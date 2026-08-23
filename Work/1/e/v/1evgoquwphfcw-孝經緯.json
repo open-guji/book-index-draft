@@ -18,6 +18,13 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《孝經緯》五卷",
       "summary": "《孝經緯》五卷宋均注。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "注孝經緯",
+      "summary": "注孝經緯五卷",
+      "note": "舊唐、國史並題「孝經緯五卷宋均注」，新唐但云注孝經緯，同書。"
     }
   ],
   "description": {
@@ -26,7 +33,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"孝經緯\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"孝經緯\" 唯一候选无作者 2026-08-21 新唐志四簇磁鐵拆解：「注孝經緯」節原繫主經之條，今歸本條。舊唐、國史並題「孝經緯五卷宋均注」，新唐但云注孝經緯，同書。",
   "id": "1evgoquwphfcw",
   "measures": [
     {
@@ -35,5 +42,24 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "related_works": [
+    {
+      "id": "1evfdseqf01z4",
+      "title": "孝經緯注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfdsekza9ds",
+      "title": "孝經緯注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfteilop1q8",
+      "title": "孝經緯注",
+      "relation": "text_carried_by"
+    }
+  ]
 }

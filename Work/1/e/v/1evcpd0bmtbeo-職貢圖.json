@@ -20,8 +20,56 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "職貢圖一卷",
       "summary": "職貢圖一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《職貢圖》三卷",
+      "summary": "《職貢圖》三卷",
+      "merged_from": "1evgpk9mljv28",
+      "note": "諸志同著《職貢圖》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《職貢圖》一卷",
+      "summary": "《職貢圖》一卷（梁元帝）",
+      "author_info": "梁元帝"
     }
   ],
   "id": "1evcpd0bmtbeo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "authors": [
+    {
+      "name": "蕭繹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967da978diu",
+      "note": "舊唐書經籍志明載「《職貢圖》一卷梁元帝撰」；宋史藝文志亦作「梁元帝《職貢圖》一卷」。梁元帝即蕭繹。",
+      "alt_names": [
+        "元帝"
+      ]
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、宋史藝文志、崇文總目、國史經籍志同著《職貢圖》，一卷、三卷之異乃傳本之別，今合併並補撰人為蕭繹（梁元帝）。\n\n2026-08-22 B3 併池（撰人名近似）：1evgpk9k0udq8 併入本條。二條撰人所繫 entity 相同而書名之寫法異（本名與字號之別），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

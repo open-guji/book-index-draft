@@ -23,7 +23,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《韓詩章句》（杜瓊）",
-      "summary": null,
+      "summary": "蜀志瓊字伯瑜成都人仕至大鴻臚太常少受學於任安精究其術譙周問當塗高之䜟答曰魏闕名也當塗而高聖人取類而言耳周未逹瓊又曰古者名官職不言曹自漢以來名官盡言曹吏言屬曹卒言侍曹殆天意也著韓詩章句十餘萬言不教諸子内學無傳業者",
       "section": "詩",
       "juan": "卷一百一",
       "page": "KR2n0011_WYG_101-11b",
@@ -33,10 +33,17 @@
     }
   ],
   "id": "1evftefv7mwhs",
-  "ai_note": "考證回削：《三國藝文志》整理本匯入時未於子條標題處斷開（此志子條之題黏於前句之尾，不另起行），本條之 summary 原摻入其下數書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "考證回削：《三國藝文志》整理本匯入時未於子條標題處斷開（此志子條之題黏於前句之尾，不另起行），本條之 summary 原摻入其下數書之考證，今回削為本條自身之考證。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「韓詩」，庫中有同題而非注本之條 `1evcpct5c91q8`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國蜀」",
   "dynasty": "三國蜀",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1evcpct5c91q8",
+      "title": "韓詩",
+      "relation": "contains_text_of"
+    }
+  ]
 }

@@ -14,8 +14,38 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "劉毅集",
       "summary": "劉毅集二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《劉毅集》二卷",
+      "summary": "《劉毅集》二卷",
+      "merged_from": "1evgqadct6ozk",
+      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
     }
   ],
   "id": "1evcpd5fha134",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "劉毅",
+      "role": "撰",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "書名即撰人。按東漢、西晉、東晉皆有名劉毅者（本庫「劉毅」entity `1j96kefeu6n7k` 標東漢），諸志不著其時代，未能斷為何人，故 entity_id 留空。"
+    }
+  ],
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、國史經籍志皆二卷，同為劉毅別集，今合為一條；撰人本庫無可繫之 entity。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

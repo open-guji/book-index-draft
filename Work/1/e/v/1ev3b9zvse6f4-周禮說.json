@@ -16,7 +16,9 @@
       "source": "宋史藝文志",
       "source_bid": "1evcsw4kt579c",
       "title_info": "《周禮說》",
-      "summary": "《周禮說》五卷徐煥"
+      "summary": "《周禮說》五卷徐煥",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人徐即登，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
     },
     {
       "source": "欽定四庫全書總目",
@@ -41,6 +43,18 @@
       "edition": "浙江圖書館藏明萬曆刻本",
       "volume": "第82冊",
       "section": "经部"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周禮説》（徐即登）",
+      "summary": "十四卷\n即登自序曰周禮一書聖人治天下之大經大法而何儒者之疑信叅焉無論宇文周新莽王安石竊附之而未效即如議建都於洛誥疑列爵於周官詆理財於太宰或謂其略於大而詳於細或謂其詳於制度而不及道化嚴於職守而濶略於人主之身往往疑其非聖人之書此蓋外涉其藩而未入其扄其不知無惑已昔揚子以衆言之淆亂折諸聖而曰在則人亡則書今周公往矣周禮之書固在也冠各官之篇首不曰設官分職以為民極乎是故治教禮政刑事六典分之為各職治之法也合之為民極治之本也極也者詩所云四方之極洪範所謂皇建其有極用敷錫厥庶民者也此自堯舜執中以来聖聖相承以治天下而周公用之輔相成王以致太平是書也其公已試之成法耶若謂出於漢儒之附㑹豈惟非劉歆所能恐董賈亦莫之能也愚故斷周禮為聖人之書不必考其六典之詳而惟於為民極之一言决之也予之説非能有加於訓詁之舊而推信其為周公之書則據兹經文斷自已見而不敢狥諸儒疑似之論也後之欲損益周禮以復古治者其尚考信於斯",
+      "section": "周禮",
+      "juan": "卷一百二十八",
+      "page": "KR2n0011_WYG_128-1b",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "juan_count": {
@@ -84,7 +98,7 @@
   ],
   "related_works": [
     {
-      "id": "1evl7nl7lsg00",
+      "id": "d59f1ioc6m0w",
       "title": "周禮",
       "relation": "contains_text_of"
     }
@@ -96,5 +110,5 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
 }

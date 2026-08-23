@@ -9,8 +9,8 @@
       "role": "撰",
       "dynasty": null,
       "note": "姚振宗謂「謝氏不詳何人」。",
-      "entity_id": "1j967cp1zdr2d",
-      "dynasty_basis": "garbage_clean:不詳"
+      "dynasty_basis": "garbage_clean:不詳",
+      "name_basis": "2026-08-22 C1：原繫 1j967cp1zdr2d（清），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
     }
   ],
   "juan_count": {
@@ -28,6 +28,19 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《謝氏毛詩譜鈔》一卷",
       "summary": "《謝氏毛詩譜鈔》一卷"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《謝氏毛詩譜鈔》",
+      "summary": "隋志一卷",
+      "section": "詩",
+      "juan": "卷一百三",
+      "page": "KR2n0011_WYG_103-3b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "emendated_by": [
@@ -47,10 +60,12 @@
   "measure_info": "一卷",
   "related_works": [
     {
-      "id": "1evl7hsxvr7cw",
+      "id": "d59ezak9zc3k",
       "title": "詩經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T11:51:55+00:00"
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

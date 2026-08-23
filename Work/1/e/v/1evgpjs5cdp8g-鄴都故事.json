@@ -1,50 +1,52 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "鄴都故事",
- "authors": [
-  {
-   "name": "馬溫",
-   "role": "撰",
-   "entity_id": "1j96hftv6yuio",
-   "original_name": "馬温"
-  }
- ],
- "juan_count": {
-  "number": 2
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《鄴都故事》二卷",
-   "summary": "《鄴都故事》二卷（馬温）",
-   "author_info": "馬温"
+  "schema_version": 1,
+  "type": "work",
+  "title": "鄴都故事",
+  "authors": [
+    {
+      "name": "馬溫",
+      "role": "撰",
+      "entity_id": "1j96hftv6yuio",
+      "original_name": "馬温"
+    }
+  ],
+  "juan_count": {
+    "number": 2
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "馬溫鄴都故事",
-   "summary": "馬溫鄴都故事二卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "id": "1evgpjs5cdp8g",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 2
-  }
- ],
- "measure_info": "二卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0kivhvk0（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《鄴都故事》二卷",
+      "summary": "《鄴都故事》二卷（馬温）",
+      "author_info": "馬温"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "馬溫鄴都故事",
+      "summary": "馬溫鄴都故事二卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpjs5cdp8g",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0kivhvk0（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

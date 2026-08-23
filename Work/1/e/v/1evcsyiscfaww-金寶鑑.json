@@ -8,11 +8,44 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《金寶鑒》",
       "summary": "衛嵩《金寶鑒》三卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "金寳鑑一卷",
+      "summary": "金寳鑑一卷",
+      "merged_from": "1evr5e3mg8nji",
+      "note": "諸志同著《金寶鑑》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcsyiscfaww",
   "additional_titles": [
-    "金寶鑒"
+    "金寶鑒",
+    "金寳鑑"
   ],
-  "updated_at": "2026-05-18T00:03:58-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "authors": [
+    {
+      "name": "衛嵩",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「衛嵩《金寶鑒》三卷」，前置撰人衛嵩。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《金寶鑑》，一卷、三卷之異乃傳本之別，今合併並據宋志前置撰人補為衛嵩。"
 }

@@ -3,7 +3,13 @@
   "id": "1ev3bah1spjpc",
   "type": "work",
   "title": "火警或問",
-  "authors": [],
+  "authors": [
+    {
+      "name": "世宗朱厚熜",
+      "role": "撰",
+      "dynasty": "明"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -17,6 +23,16 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《火警或問》一卷",
       "summary": "《火警或問》一卷"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《火警或問》一卷",
+      "author_info": "明世宗朱厚熜撰",
+      "summary": "《火警或問》一卷。明世宗朱厚熜撰。北京大學圖書館藏明鈔宸章集錄本。",
+      "edition": "北京大學圖書館藏明鈔宸章集錄本",
+      "volume": "第57冊",
+      "section": "史部"
     }
   ],
   "juan_count": {
@@ -29,5 +45,16 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-05-17T16:27:21-07:00"
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》第57冊（史部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  },
+  "ai_note": "2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evjxpjr365mo 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。"
 }

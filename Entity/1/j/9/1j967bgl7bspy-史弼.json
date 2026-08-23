@@ -15,14 +15,22 @@
     {
       "work_id": "1ev3bc7nipzwg",
       "role": "編"
+    },
+    {
+      "work_id": "1evga67jwysjk",
+      "role": "撰"
     }
   ],
   "external_ids": {
     "cbdb_id": 101533,
     "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+ambiguous_2"
+    "cbdb_source": "name_exact+dy_match+work_recall_1.00+ambiguous_2",
+    "cbdb_id_alt": [
+      207408
+    ]
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併"
+  "period_basis": "據 dynasty「元」自動歸併",
+  "ai_note": "2026-08-19 重複人物 entity 專項：庫中別有同名同代之記錄 `1j96hjwlyaf6i`（CBDB 207408，生 None），本條 CBDB 101533、生 None。**二者 CBDB id 互異**，是史傳所載之兩人，非重出，不合併。元之世同名者多，凡 CBDB id 各異而生卒可別者，一概判為二人。\n\n2026-08-23 E1 同名同代人物併池：併入同名同代之 `1j96hjwlyaf6i`（CBDB 207408，繫《省己錄》一卷）。斷為一人之由：《元史藝文志》著「元史弼（字君佐）省己錄一卷」，《四庫總目·景行錄》著「舊本題元史弼編。弼字君佐，自號紫微老人，博野人。官至福建行省平章政事」——二條所繫之書，志書與四庫皆繫於「元史弼，字君佐，號紫微老人」一人，字、號、里貫、官歷俱合。被併條之別名「企愚」出 CBDB 207408，與二處所載之「君佐」相牴，不取；其 id 存 cbdb_id_alt。"
 }

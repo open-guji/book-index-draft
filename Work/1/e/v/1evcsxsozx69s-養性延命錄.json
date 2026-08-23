@@ -52,8 +52,20 @@
       "dynasty_basis": "entity_propagation:1j967bgl7y9th"
     }
   ],
-  "ai_note": "作者 \"梁陶弘景撰\" 補自《續修四庫全書》目錄。",
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "ai_note": "作者 \"梁陶弘景撰\" 補自《續修四庫全書》目錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
-  "_has_image": true
+  "_has_image": true,
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

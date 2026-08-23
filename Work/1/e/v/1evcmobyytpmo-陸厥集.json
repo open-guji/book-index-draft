@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "陸厥集",
       "summary": "陸厥集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《陸厥集》八卷",
+      "summary": "《陸厥集》八卷",
+      "merged_from": "1evgqbhpebrb4",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "陸厥",
+      "role": "撰",
+      "dynasty": "南朝齊",
+      "entity_id": "1j968k0je2uiq",
+      "note": "隋書經籍志題「齊後軍法曹參軍《陸厥集》八卷」，書名即撰人。陸厥（472-499）字韓卿，與沈約論聲律。"
+    }
+  ],
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「齊後軍法曹參軍《陸厥集》八卷（梁十卷）」、兩唐志十卷、國史經籍志八卷，同為南朝齊陸厥別集，今合為一條並繫 entity `1j968k0je2uiq`。"
 }

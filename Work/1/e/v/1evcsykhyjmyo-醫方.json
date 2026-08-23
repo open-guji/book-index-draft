@@ -11,5 +11,29 @@
     }
   ],
   "id": "1evcsykhyjmyo",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T09:47:59+00:00",
+  "authors": [
+    {
+      "name": "楊太仆",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「楊太仆《醫方》一卷沈承澤」，前置撰人楊太仆；句末「沈承澤」屬下條。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志之《醫方》一卷與另一無著錄來源之同題條，今合併並據宋志前置撰人補為楊太仆。\n\n2026-08-23 拆分：2026-08-19 所併「無著錄來源之同題條」實為北大藏西漢竹書《醫方》條——竹簡篇名係整理者擬題，與本書（宋楊太仆撰）同名純屬巧合。今依 SCHEMA〈同題二條〉之五拆出另立「醫方（北大漢簡）」（1ex07zkx36znk）。本條復為宋志著錄條目。"
 }

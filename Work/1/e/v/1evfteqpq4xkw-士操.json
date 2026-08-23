@@ -18,12 +18,40 @@
       "summary": "魏文帝士操一卷\n《隋書·經籍志》:“《士操》一卷,魏文帝撰。”《唐·經籍志》同。《藝文志》:“魏文帝《士操》一卷。”按魏武諱操,而魏文著書不諱操,未喻其故。",
       "section": "子部／名家",
       "section_basis": "類目據 `Work/1/e/v/1eve1eig5jn5s/collated_edition/` 之整理本（《二十五史藝文經籍志考補萃編》第九卷 PDF OCR）斷之——姚振宗《三國藝文志》分經史子集四部，部下以「结语」標記家派或子類（如「孟氏易」「費氏易」「不知家數」），書名後或有「右X家Y部」之結語可自驗小計，然無如《後漢藝文志》之正式四十四類劃分，故 section 僅記至部／家（或子類）一級，非正式書目分類名。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對原文。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《士操》一卷",
+      "summary": "《士操》一卷魏文帝撰。",
+      "merged_from": "1evfteqpq4xkw",
+      "note": "本條舊唐志裸題「士操」一卷，與本條（三國藝文志，魏文帝曹丕）全合。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《士操》一卷",
+      "summary": "《士操》一卷（兒亥帝）",
+      "author_info": "兒亥帝",
+      "merged_from": "1evfteqpq4xkw",
+      "note": "本條國史經籍志撰人「兒亥帝」疑係「魏文帝」之殘訛（帝字尚存），卷數一卷與本條合，本組確據僅曹丕（魏文帝）一家。"
     }
   ],
   "id": "1evfteqpq4xkw",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-21 B1 同名異書併池：併入 `1evcpd1l1ucqo`（士操）。《士操》魏文帝曹丕撰：舊唐志裸題一卷併入（同組國史志「兒亥帝」條疑亦「魏文帝」之殘訛，一併歸入）。\n\n2026-08-21 B1 同名異書併池：併入 `1evgq0ax4ow74`（士操）。同上，一併處置：「兒亥帝」來歷存疑，記此待覈，然本組確據僅魏文帝一家。"
 }

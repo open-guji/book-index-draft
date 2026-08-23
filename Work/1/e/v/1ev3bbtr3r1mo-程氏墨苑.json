@@ -9,6 +9,13 @@
       "role": "撰",
       "dynasty": "明",
       "entity_id": "1j96hepur598g"
+    },
+    {
+      "name": "程大約",
+      "role": "撰",
+      "dynasty": "明",
+      "note": "字幼博，又字君房",
+      "entity_id": "1j967c148wsnw"
     }
   ],
   "indexed_by": [
@@ -29,6 +36,26 @@
       "edition": "影印明萬曆程氏滋蘭堂刻本",
       "volume": "第1114冊",
       "section": "子部 譜録類"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "程君房《墨苑》十卷",
+      "summary": "程君房《墨苑》十卷",
+      "merged_from": "1evcsyeeieiv4",
+      "note": "明史藝文志「程君房墨苑十卷」原誤附李孝美墨苑之記錄，今移歸程氏墨苑（君房即程大約字）。"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《程氏墨苑》十四卷",
+      "author_info": "明程大約撰",
+      "summary": "《程氏墨苑》十四卷。明程大約撰。北京圖書館藏明萬曆程氏滋蘭堂刻本。",
+      "edition": "北京圖書館藏明萬曆程氏滋蘭堂刻本",
+      "volume": "第79冊",
+      "section": "子部",
+      "merged_from": "1evjxluen2134",
+      "note": "原自成一記錄（撰人題程大約），與本條一書——大約字幼博，又字君房，今併，卷數並存。"
     }
   ],
   "juan_count": {
@@ -87,12 +114,22 @@
     }
   ],
   "measure_info": "十二卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-20 組6：明志程君房墨苑十卷之節與著錄歸本條；程大約記錄（`1evjxluen2134`）併入（同人同書）。",
+  "books": [
+    "11qk4xwcwb5mb",
+    "11qki5r7hdw5c"
+  ],
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》第79冊（子部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  }
 }

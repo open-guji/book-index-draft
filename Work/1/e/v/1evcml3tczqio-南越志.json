@@ -26,6 +26,22 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "南越志七卷",
       "summary": "南越志七卷"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "南越志",
+      "merged_from": "1evr5e3mj1shc",
+      "note": "諸志同著《南越志》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《南越志》五卷",
+      "summary": "《南越志》五卷（宋沈懷逺）",
+      "author_info": "宋沈懷逺",
+      "merged_from": "1evcml3tczqio",
+      "note": "國史經籍志「《南越志》五卷（宋沈懷逺）」，「逺」為「遠」之異體，卷數與本條舊唐志「五卷沈懷遠撰」合，同書。"
     }
   ],
   "juan_count": {
@@ -47,5 +63,19 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-21T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "沈懷遠",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《南越志》五卷沈懷遠撰」；隋志作「沈氏撰」，宋志作「沈懷遠《南越志》五卷」，三志相合。"
+    }
+  ],
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、舊唐書經籍志、宋史藝文志、崇文總目、直齋書錄解題同著《南越志》，卷數五、七、八各異，乃傳本分卷之別，今合併並補撰人為沈懷遠。\n\n2026-08-21 B1 同名異書併池：併入 `1evgpjxchrtvk`（南越志）。《南越志》沈懷遠撰：本條隋志考證詳載沈懷遠生平（吳興武康人，坐事徙廣州，撰《南越志》）；國史志之條撰人作「沈懷逺」，「逺」為「遠」之異體字，卷數五卷與本條舊唐志之數合。今併。"
 }

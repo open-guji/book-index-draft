@@ -8,6 +8,20 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《吳郡記》一卷",
       "summary": "《吳郡記》一卷顧夷撰。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《吳郡記》二卷",
+      "summary": "《吳郡記》二卷晉本州主簿顧夷撰。",
+      "note": "整理本此節原繫已不存在之 work id `1evcml1i500sg`（歷次合併去之而繫連未隨改），今據題名唯一回收於本條。"
+    },
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《吳郡記》二卷",
+      "summary": "吴郡記一卷 顧夷撰\n顧夷有《周易難王輔嗣義》,見經部易類。\n《後漢書·順帝本紀》:永建四年,是歲,分會稽為吴郡。亦詳見\n後朱育《會稽土地記》條下。\n章氏《考證》:《後漢書・楚王英傳》注引顧夷《吴地記》。《史\n記·高祖紀》集解引顧夷曰:“餘杭者,秦始皇經此立為縣。”\n《漢書·伍被傳》注、《後漢書・彭修傳》注、《北堂書鈔酒食\n部》、《初學記·地部》並引《吴地記》,不著顧夷名。",
+      "note": "整理本此節原繫已不存在之 work id `1evcml1i500sg`（歷次合併去之而繫連未隨改），今據題名唯一回收於本條。"
     }
   ],
   "authors": [
@@ -18,7 +32,7 @@
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 1
   },
   "id": "1evcml1d7p88w",
   "emendated_by": [
@@ -32,9 +46,14 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 1
     }
   ],
-  "measure_info": "二卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "measure_info": "一卷",
+  "updated_at": "2026-08-22T04:56:00.075241+00:00",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 2，與著錄原文（隋書經籍志：「吳郡記」）所載之 1 卷不合，今據原文訂正。\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcml1i500sg`），據題名唯一回收於本條，並補其著錄。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，據其 Entity「顧夷」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

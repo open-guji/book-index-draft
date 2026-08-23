@@ -24,6 +24,18 @@
       "title_info": "易",
       "summary": "《易》九卷，王韓注，附《略例》一卷。《書》十三卷，孔傳。《詩》二十卷，毛傳、鄭箋。《春秋左氏傳》三十卷，杜集解。《禮記》二十卷，鄭注。",
       "author_info": "王韓注，附《略例》一卷。《書》十三卷，孔傳。《詩》二十卷，毛傳、鄭箋。《春秋左氏傳》三十卷，杜集解。《禮記》二十卷，鄭注"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《庖易》（彭絲）",
+      "summary": "江西通志彭絲字魯叔安福人宋江陵教授應龍之子",
+      "section": "易",
+      "juan": "卷四十四",
+      "page": "KR2n0011_WYG_044-17a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "description": {
@@ -43,11 +55,38 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "related_works": [
+    {
+      "id": "1evfteijkj56o",
+      "title": "易注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evr5e3meogt5",
+      "title": "易章句",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evfteffz6y2o",
+      "title": "易傳",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evftefi3cum8",
+      "title": "易注",
+      "relation": "text_carried_by"
+    },
+    {
+      "id": "1evftef7hwutc",
+      "title": "易傳",
+      "relation": "text_carried_by"
+    }
+  ]
 }

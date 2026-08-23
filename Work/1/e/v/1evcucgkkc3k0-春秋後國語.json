@@ -4,7 +4,7 @@
   "title": "春秋後國語",
   "related_works": [
     {
-      "id": "1ev7w0eturncw",
+      "id": "d59ezajq05c0",
       "title": "春秋",
       "relation": "contains_text_of"
     }
@@ -27,12 +27,45 @@
       "title_info": "《春秋後國語》十卷",
       "summary": "《春秋後國語》十卷（孔衍）",
       "author_info": "孔衍"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋後國語》",
+      "summary": "唐志十卷\n劉知幾曰孔衍以戰國策所書未為盡善乃引太史公所記參其異同刪彼二家聚為一錄號為春秋後語除二周及宋衞中山所留者七國而已始自秦孝公終於楚漢之際比於春秋亦盡二百四十餘年行事始衍撰春秋時國語復撰春秋後語勒成二書各為十卷今行世者惟後語存焉楊宗吾曰宋乾道中南詔使者見廣南人言其國有五經廣注春秋後語",
+      "section": "擬經",
+      "juan": "卷二百七十七",
+      "page": "KR2n0011_WYG_277-12a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "id": "1evcucgkkc3k0",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "period_fallback:jin→晉",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「孔衍」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "authors": [
+    {
+      "name": "孔衍",
+      "role": "撰",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「孔衍」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ]
 }

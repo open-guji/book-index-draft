@@ -20,8 +20,50 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "符瑞圖十卷",
       "summary": "符瑞圖十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《符瑞圖》十卷",
+      "summary": "《符瑞圖》十卷（陳顧野王）",
+      "author_info": "陳顧野王"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "顧野王符瑞圖",
+      "summary": "顧野王符瑞圖十卷"
     }
   ],
   "id": "1evcpd1y98s1s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evgpjke4ak8w 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "顧野王",
+      "role": "撰",
+      "dynasty": "南朝陳",
+      "entity_id": "1j968si3dt6v5"
+    }
+  ],
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝陳」（2026-08-13 南北朝探勘第二輪：顧野王（519-581，玉篇作者）：Work層dynasty本已正確（南朝陳），然Entity遭CBDB誤配「清」（curated:玉篇某清刻本），卸除並回復）",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

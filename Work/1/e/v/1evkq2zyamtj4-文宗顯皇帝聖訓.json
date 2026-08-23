@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故滿000016-000075，002086-002135）。阶段 5 兜底建立。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故滿000016-000075，002086-002135）。阶段 5 兜底建立。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3m8qymr`（文宗顯皇帝聖訓）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3m8qymr`（清史稿藝文志，110卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "juan_count": {
     "number": 110
   },
@@ -30,11 +30,22 @@
   "books": [
     "11qki3oikdjpc",
     "11qki3pttw4qo",
-    "11qki3rdcvvgg"
+    "11qki3rdcvvgg",
+    "11qki2b9vonpc"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "文宗顯皇帝聖訓",
+      "summary": "文宗顯皇帝聖訓一百十卷。同治五年敕編。",
+      "merged_from": "1evkq2zyamtj4",
+      "note": "同題二條而一方無撰人：彼條（清史稿藝文志，110卷，不著撰人）與本條（，110卷，穆宗撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
+    }
+  ]
 }

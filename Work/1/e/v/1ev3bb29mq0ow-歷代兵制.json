@@ -31,11 +31,19 @@
       "title_info": "歷代兵制",
       "summary": "《歷代兵制》八卷。{{宋陳傅良。《守山閣》本，《金壺》本。}}",
       "author_info": "陳傅良"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《歴代兵制》八卷",
+      "summary": "《歴代兵制》八卷（陳傳良）",
+      "author_info": "陳傳良",
+      "merged_from": "1evgq15oswy68",
+      "note": "《歷代兵制》（陳傅良）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "books": [
-    "11q37q7w98agw",
-    "11qkhwc9hks8w"
+    "11q37q7w98agw"
   ],
   "juan_count": {
     "number": 8
@@ -138,12 +146,15 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evkpx4wtcb9c 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫014354-014355）。阶段 5 兜底建立。",
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《歷代兵制》（陳傅良，8卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgq15oswy68（國史經籍志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。** 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwc9hks8w 與 11q37q7w98agw 同指文淵閣寫本一實物，今併於後者。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
+  "additional_titles": [
+    "歴代兵制"
+  ]
 }

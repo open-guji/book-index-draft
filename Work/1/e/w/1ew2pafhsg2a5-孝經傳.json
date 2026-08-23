@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "1ew2pafhsg2a5",
+  "type": "work",
+  "title": "孝經傳",
+  "authors": [
+    {
+      "name": "任奉古",
+      "role": "撰",
+      "dynasty": "宋"
+    }
+  ],
+  "description": {
+    "text": "《宋史·藝文志》著錄「《孝經傳》一卷任奉古」。任奉古生平未詳。書已佚。與同題之魏文侯本（先秦）、嚴畯本（三國吳）、王朗本（三國魏）、白責本（元）皆為同名異書。",
+    "sources": [
+      "宋史藝文志"
+    ]
+  },
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《孝經傳》",
+      "summary": "《孝經傳》一卷任奉古"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "related_works": [
+    {
+      "id": "d59f1iosq6tc",
+      "title": "孝經",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1evcsw8wfkgsg",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，戰國魏文侯本"
+    },
+    {
+      "id": "1ewhu66go9095",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，三國吳嚴畯本"
+    },
+    {
+      "id": "1evftehe0py4g",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，三國魏王朗本"
+    },
+    {
+      "id": "1evgbs6dwtqtc",
+      "title": "孝經傳",
+      "relation": "related",
+      "note": "同題異書，元白責本"
+    }
+  ],
+  "loss_status": "lost",
+  "ai_note": "2026-08-10：自 1evcsw8wfkgsg（原「孝經傳」三書合一之磁鐵）拆出，見該條 ai_note。",
+  "updated_at": "2026-08-10T00:00:00+00:00",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」"
+}

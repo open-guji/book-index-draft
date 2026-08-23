@@ -19,13 +19,20 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《五經大義》（戴逵）",
-      "summary": "隋志三卷",
+      "summary": "隋志三卷\n晉書戴逵字安道譙國人師事范宣徙居㑹稽之剡縣孝武帝時以散騎常侍國子博士累徴不就郡縣敦廹乃逃於吳王珣請徴為國子祭酒復不至",
       "section": "羣經",
       "juan": "卷二百四十",
       "page": "KR2n0011_WYG_240-6a",
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《五經大義》三卷",
+      "summary": "《五經大義》三卷戴逵撰。梁有《通五經》五卷，王氏撰；《五經諮疑》八卷，周楊撰；《五經異同評》一卷，賀緌撰；《五經秘表要》三卷。亡。",
+      "note": "本著錄原繫於磁鐵條「五經大義戴逵撰」（`1evc5peg9feo0`），今歸本條。"
     }
   ],
   "description": {
@@ -54,9 +61,9 @@
     }
   ],
   "measure_info": "三卷",
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/五經大義.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人「戴」補全為「戴逵」。據author_info=戴逵。",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "loss_status": "partially_extant",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/五經大義.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-08 修：撰人「戴」補全為「戴逵」。據author_info=戴逵。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《五經大義》三卷」一節原繫於磁鐵條（`1evc5peg9feo0`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",

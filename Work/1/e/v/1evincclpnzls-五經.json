@@ -20,7 +20,7 @@
       "dynasty_basis": "manual:historical_figure(王弼(226-249)，字輔嗣，三國魏玄學家)"
     }
   ],
-  "ai_note": "作者「魏王弼註」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaeabup8g0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evincclpnzls()（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「魏王弼註」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaeabup8g0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evincclpnzls()（不同作者，故新建獨立 Work）。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpwjhkfxts 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→8）併入本條。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿033908-033977）。清乾隆四十八年武英殿仿宋刊本。",
     "sources": [
@@ -28,7 +28,28 @@
     ]
   },
   "books": [
-    "11qki34vnascg"
+    "11qki34vnascg",
+    "11qkhv2z1nzls",
+    "11qkhv32s79q8",
+    "11qkhvaupkmps",
+    "11qkhvaxw4q2o",
+    "11qkhvb12dkw0",
+    "11qki2wvfik1s",
+    "11qki354cdt6o"
   ],
-  "updated_at": "2026-08-08T13:35:31+00:00"
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "period_upper": "ming",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「明嘉靖間復宋刊巾箱本」——版本之年不早於成書之年，故不晚於 ming",
+  "juan_count": {
+    "number": 0
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 0
+    }
+  ],
+  "measure_info": "不分卷"
 }

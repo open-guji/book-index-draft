@@ -45,7 +45,7 @@
     "number": 31
   },
   "id": "1evcml19l816o",
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。　輯佚檔：本書之輯佚著錄置於 fragments/三十國春秋.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。　輯佚檔：本書之輯佚著錄置於 fragments/三十國春秋.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 2 個異題 section，各題在庫中皆已別有其 work（且該 work 具本志之著錄、卷數相合），係匯入時繫連落於通名之誤，今各歸其主：《蕭方三十國春秋》→ `1evdxnowh270g`、《武敏之三十國春秋》→ `1evdxnp0qmy9s`。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 duandai 規則清史稿漏洞訂正：撤原判 period=qing。本條兼繫他志，其上限為 sui-tang，與 duandai 據清史稿所定之 qing 相斥。 Entity 線索：題名前綴「三十」period=['ming']（僅供覆核參考，未逕用）。 待逐條覆核，清單見 .claude/known-issues/duandai清史稿漏洞待覈.json",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",
@@ -68,8 +68,8 @@
       "relation": "text_carried_by"
     }
   ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：清史稿藝文志"
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

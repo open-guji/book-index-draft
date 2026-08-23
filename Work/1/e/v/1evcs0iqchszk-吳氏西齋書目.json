@@ -15,8 +15,43 @@
       "title_info": "《吳氏西齋書目》一卷",
       "summary": "《吳氏西齋書目》一卷（唐吳兢）",
       "author_info": "唐吳兢"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "呉氏西齋書目一卷",
+      "summary": "呉氏西齋書目一卷",
+      "merged_from": "1evcs0iqchszk",
+      "note": "《吳氏西齋書目》與《呉氏西齋書目》之別，僅在異體字（吳氏西齋書目／呉氏西齋書目），題名歸一後全同；卷數全同（1卷）；彼條無撰人而本條作「吳兢」。二者著錄異源（國史經籍志、新唐書藝文志 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
   "id": "1evcs0iqchszk",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐吳兢」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfxez9`（吳氏西齋書目）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfxez9`（崇文總目，題作《呉氏西齋書目》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；彼條無撰人而本條作「吳兢」。",
+  "authors": [
+    {
+      "name": "吳兢",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「唐吳兢」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "additional_titles": [
+    "呉氏西齋書目"
+  ]
 }

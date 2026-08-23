@@ -47,9 +47,18 @@
       "dynasty_basis": "entity_propagation:1j967da978diu"
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「其本皆\n不傳,此本為《永樂大典》所載,又元人葉森所增補者也」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T18:11:45+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「其本皆\n不傳,此本為《永樂大典》所載,又元人葉森所增補者也」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evgpjfw02juo`），據題名＋本志著錄＋卷數回收於本條，並補其著錄。\n\n2026-08-21 機讀存佚判據核驗專項（scripts/loss-evidence-mismatch.py）：原判 lost 之判據「其本皆不傳，此本為《永樂大典》所載，又元人葉森所增補者也」出四庫提要，其「其本皆不傳」指梁元帝一卷原本及陸善經三卷續廣本之各本不傳，而下文正謂今本賴《永樂大典》以存，提要且云「尚可考見元帝之原本」。機讀截取前半而失其後半，判斷反於原意。今本為輾轉附益之增補傳世本，非輯佚本，亦非全佚，撤去 loss_status。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "nanbeichao",
-  "period_basis": "朝代「梁」有歧義（可為 nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：國史經籍志、新唐書藝文志、舊唐書經籍志、隋書經籍志、隋書經籍志考證"
+  "period_basis": "朝代「梁」有歧義（可為 nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：國史經籍志、新唐書藝文志、舊唐書經籍志、隋書經籍志、隋書經籍志考證",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷"
 }

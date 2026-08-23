@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "鄭景望",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "宋",
-      "entity_id": "1j96heqljdb7k"
+      "entity_id": "1j96heqljdb7k",
+      "role_basis": "據著錄語「舊本題宋鄭景望撰。商濬刻之《稗海》中。厲鶚《宋詩紀事》亦曰：景望」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -49,6 +50,9 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-05-17T16:27:21-07:00",
-  "_has_text": true
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "_has_text": true,
+  "period_upper": "song",
+  "period_upper_basis": "撰人朝代作「宋」，歧而未決；諸解中最晚者為 song，無論何解皆不晚於此",
+  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題宋鄭景望撰。商濬刻之《稗海》中。厲鶚《宋詩紀事》亦曰：景望」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

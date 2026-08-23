@@ -21,5 +21,26 @@
       "author_info": "宋黄克明。"
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "authors": [
+    {
+      "name": "黄克明",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「宋黄克明。」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「宋黄克明。」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。"
 }

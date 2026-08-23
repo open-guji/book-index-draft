@@ -11,6 +11,14 @@
       "source_bid": "1ev3bb4qxubr4",
       "title_info": "《十道圖》十卷",
       "summary": "《十道圖》十卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又十道圖",
+      "summary": "又十道圖十卷",
+      "merged_from": "1evcs0kd2o45c",
+      "note": "國史經籍志與新唐書藝文志所著《十道圖》為一書，今合併。"
     }
   ],
   "description": {
@@ -19,7 +27,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"十道圖\" 唯一候选无作者",
+  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志、新唐書藝文志同著《十道圖》，係一書互著（或重出），今合併。諸志皆未著撰人，維持留白。",
   "id": "1evgpjlro7sow",
   "measures": [
     {
@@ -28,5 +36,7 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

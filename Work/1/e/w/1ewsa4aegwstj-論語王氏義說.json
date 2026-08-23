@@ -3,7 +3,7 @@
   "type": "work",
   "title": "論語王氏義說",
   "id": "1ewsa4aegwstj",
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "authors": [
     {
       "name": "王肅",
@@ -16,6 +16,8 @@
     "number": 1
   },
   "measure_info": "一卷",
-  "ai_note": "本 work 據《玉函山房輯佚書》目錄（光緒九年長沙嫏嬛館補校刊本）新建——該叢書正編論語類著錄「論語王氏義說一卷」，而本庫先前無同題之 work。所記止於目錄所有（題、卷數、撰人、朝代），撰人未繫 entity——目錄只給人名，繫人須另考。loss_status 記為 lost：馬氏既為之輯，其書清時已佚。本書之輯佚著錄見同目錄下 fragments/。",
-  "updated_at": "2026-08-08T14:05:56+00:00"
+  "ai_note": "本 work 據《玉函山房輯佚書》目錄（光緒九年長沙嫏嬛館補校刊本）新建——該叢書正編論語類著錄「論語王氏義說一卷」，而本庫先前無同題之 work。所記止於目錄所有（題、卷數、撰人、朝代），撰人未繫 entity——目錄只給人名，繫人須另考。loss_status 記為 lost：馬氏既為之輯，其書清時已佚。本書之輯佚著錄見同目錄下 fragments/。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
+  "updated_at": "2026-08-08T14:05:56+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

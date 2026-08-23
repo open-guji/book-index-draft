@@ -7,7 +7,8 @@
     {
       "name": "邵彬儒",
       "role": "評輯",
-      "entity_id": "1j96ha9uypreo"
+      "entity_id": "1j96ha9uypreo",
+      "dynasty": "清"
     }
   ],
   "description": {
@@ -19,8 +20,7 @@
     ]
   },
   "juan_count": {
-    "number": 4,
-    "description": "二卷十一則+二集二卷七則"
+    "number": 2
   },
   "indexed_by": [
     {
@@ -34,16 +34,13 @@
     {
       "unit": "卷",
       "number": 2
-    },
-    {
-      "unit": "則",
-      "number": 11
-    },
-    {
-      "unit": "集",
-      "number": 2
     }
   ],
-  "measure_info": "二卷十一則二集",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "measure_info": "二卷",
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 4，與著錄原文（中國通俗小說書目：「俗話傾談」）所載之 2 卷不合，今據原文訂正。",
+  "period": "qing",
+  "period_basis": "著錄原文自書撰人朝代：《中國通俗小說書目》「\n清邵彬儒撰」",
+  "period_upper": "qing",
+  "period_upper_basis": "catalog_bound：《中國通俗小說書目》明清小說部自標所收之代，故不晚於 qing"
 }

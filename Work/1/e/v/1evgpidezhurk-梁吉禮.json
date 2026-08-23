@@ -20,6 +20,14 @@
       "title_info": "《梁吉禮》十八卷",
       "summary": "《梁吉禮》十八卷（明山賓）",
       "author_info": "明山賓"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《梁吉禮》十八卷",
+      "summary": "《梁吉禮》十八卷明山賓等撰。",
+      "merged_from": "1evgpidezhurk",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，18卷，不著撰人）與本條（國史經籍志，18卷，山賓撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -28,7 +36,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"梁吉禮\" 唯一候选无作者 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "missing_reason: 短title \"梁吉禮\" 唯一候选无作者 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcyxccwsg`（梁吉禮）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpcyxccwsg`（舊唐書經籍志，18卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evgpidezhurk",
   "measures": [
     {
@@ -37,7 +45,7 @@
     }
   ],
   "measure_info": "十八卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

@@ -28,7 +28,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《五經對訣》（趙英）",
-      "summary": "唐志四卷",
+      "summary": "唐志四卷\n唐書注英龍朔中汲令",
       "section": "羣經",
       "juan": "卷二百四十一",
       "page": "KR2n0011_WYG_241-5a",
@@ -55,9 +55,7 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
+  "updated_at": "2026-08-22T04:56:00.124965+00:00",
   "merged_in": [
     {
       "id": "1evcs0a74smio",
@@ -69,7 +67,11 @@
       ]
     }
   ],
-  "ai_note": "合併：題名「趙英五經對訣」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「趙英」已見本條 authors[]），裸題「五經對訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "合併：題名「趙英五經對訣」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「趙英」已見本條 authors[]），裸題「五經對訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人趙英原標「元」，period liao-jin-yuan，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "liao-jin-yuan",
+  "period_basis": "據撰人朝代「元」；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

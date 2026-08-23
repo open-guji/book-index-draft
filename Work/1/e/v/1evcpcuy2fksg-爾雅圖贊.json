@@ -20,13 +20,12 @@
   "id": "1evcpcuy2fksg",
   "authors": [
     {
-      "name": "趙岐",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j96hl7dua03k"
+      "name": "江灌",
+      "role": "注",
+      "dynasty": "東晉"
     }
   ],
-  "ai_note": "作者「漢趙岐撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/爾雅圖贊.json，據《玉函山房輯佚書》目錄立，現為著錄層。",
+  "ai_note": "作者「漢趙岐撰」補自《國立故宮博物院善本舊籍》目錄。　輯佚檔：本書之輯佚著錄置於 fragments/爾雅圖贊.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 秦漢段磁鐵覆核（三）：撰人由「趙岐」正作「江灌」——本條二節：舊唐志「《爾雅圖贊》二卷江灌注」、國史經籍志「（江瓘）」，皆作江灌（瓘）；「漢趙岐撰」出《國立故宮博物院善本舊籍》目錄，別無所據。從志不從目錄。按：《爾雅圖贊》本郭璞之作，二志所著錄者是江灌注本，原撰郭璞未見於本條諸節，未逕補。",
   "related_works": [
     {
       "id": "1evkvljltyxvk",
@@ -34,8 +33,18 @@
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：108-201，東漢經學家，注《孟子》）"
+  "loss_status": "partially_extant",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period": "jin",
+  "period_basis": "撰人訂正為江灌（東晉）後隨之改",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

@@ -23,7 +23,7 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《周易注》（荀輝）",
-      "summary": "七録十卷",
+      "summary": "七録十卷\n荀氏家傳輝字景文（又云字長倩）太子中庶子與賈充共定晉律又作易集解魏志輝官至虎賁中郎將",
       "section": "易",
       "juan": "卷十",
       "page": "KR2n0011_WYG_010-21a",
@@ -47,15 +47,25 @@
   "id": "1evftefk9e6f4",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-10T00:00:00+00:00",
-  "ai_note": "2026-08-10 秦漢同名異書核對覆核：本條之 indexed_by（三國藝文志所引張璠《集解》序）已載「苟輝,字景文...晉太子中庶子...七志云注易十卷」——「太子中庶子」（1evfubb2fjgg0，補晉書藝文志，十卷）即其本傳所載之官銜，非另一人；「荀煇」（1evgop8msg83k，國史經籍志，十卷，苟／荀、煇／輝皆形近異寫）亦同一人。三條卷數盡合十卷，逕併入本條。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "ai_note": "2026-08-10 秦漢同名異書核對覆核：本條之 indexed_by（三國藝文志所引張璠《集解》序）已載「苟輝,字景文...晉太子中庶子...七志云注易十卷」——「太子中庶子」（1evfubb2fjgg0，補晉書藝文志，十卷）即其本傳所載之官銜，非另一人；「荀煇」（1evgop8msg83k，國史經籍志，十卷，苟／荀、煇／輝皆形近異寫）亦同一人。三條卷數盡合十卷，逕併入本條。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷"
 }

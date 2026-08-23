@@ -6,10 +6,11 @@
   "authors": [
     {
       "name": "干寶",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "東晉",
       "entity_id": "1j96a9e1axn28",
-      "dynasty_basis": "manual:historical_figure(干寶(?-336)，字令升，東晉史學家)"
+      "dynasty_basis": "manual:historical_figure(干寶(?-336)，字令升，東晉史學家)",
+      "role_basis": "據著錄語「《搜神記》三十卷干寶撰。《搜神記》三十卷干寶撰。舊本題晉干寶撰。寶字令升，新蔡人。元帝時以著作郎領國史，遷散騎」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -36,7 +37,6 @@
   ],
   "books": [
     "11q37sbrodxq8",
-    "11qkhx1wcdjpc",
     "11qkhsjrbnbi8"
   ],
   "juan_count": {
@@ -148,8 +148,8 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "從 1evka802yws8w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr6od83pq8(影印國家圖書館藏明萬曆富春堂刻本)（不同作者，故新建獨立 Work）。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "從 1evka802yws8w 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evjr6od83pq8(影印國家圖書館藏明萬曆富春堂刻本)（不同作者，故新建獨立 Work）。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx1wcdjpc 與 11q37sbrodxq8 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「《搜神記》三十卷干寶撰。《搜神記》三十卷干寶撰。舊本題晉干寶撰。寶字令升，新蔡人」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-22 B3 同名異書核對：與 1evjr6od83pq8 同題而未予合併——本條所繫隋志、舊唐志之著錄語作《搜神記》三十卷、四庫作二十卷，而題名為明代增補本《新刻出像增補搜神記》——本條自身即混裝原書與增補本之著錄，須先釐清，不可再併。",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "jin",

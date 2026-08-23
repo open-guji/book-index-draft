@@ -25,6 +25,19 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "周易統略五卷 少府卿鄒湛。謹按見《隋志》。兩《唐志》作“《周易統略論》三卷”。《通志藝文略》亦有“論”字。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易綂畧》（鄒湛）",
+      "summary": "隋志五卷（新舊唐志綂畧論三卷）\n晋書鄒湛字潤甫南陽新野人仕魏歴通事郎太學愽士太康中為散騎常侍國子祭酒轉少府",
+      "section": "易",
+      "juan": "卷十一",
+      "page": "KR2n0011_WYG_011-2a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "本條前次誤判為庫中所無而新建（1exgxelnc4h6o），旋覺庫題《周易統略鄒湛撰》是「經名＋撰人＋役」之式，撰人之名嵌於題中，故兩閘俱不中。今刪所建，改掛此處。"
     }
   ],
   "juan_count": {
@@ -48,7 +61,7 @@
   "measure_info": "五卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
@@ -59,8 +72,8 @@
       "補晋書藝文志"
     ]
   },
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/周易統略鄒湛撰.json。",
+  "loss_status": "partially_extant",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/周易統略鄒湛撰.json。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "updated_at": "2026-08-08T18:18:57+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",

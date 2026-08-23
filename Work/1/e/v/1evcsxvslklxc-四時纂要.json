@@ -76,8 +76,8 @@
       "entity_id": "1j967bgl7n18l"
     }
   ],
-  "ai_note": "作者 \"唐韓鄂撰\" 補自《續修四庫全書》目錄。　合併：題名「韓鄂四時纂要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韓鄂」已見本條 authors[]），裸題「四時纂要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "作者 \"唐韓鄂撰\" 補自《續修四庫全書》目錄。　合併：題名「韓鄂四時纂要」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「韓鄂」已見本條 authors[]），裸題「四時纂要」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五卷），今據以補。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
@@ -94,5 +94,15 @@
     }
   ],
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 5
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 5
+    }
+  ],
+  "measure_info": "五卷"
 }

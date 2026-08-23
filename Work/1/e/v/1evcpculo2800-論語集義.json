@@ -13,19 +13,51 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "論語集義十卷 尚書中兵郎崔豹。謹按見《七錄》。《隋志》八卷,《釋文·敘録》云:“豹字正熊,燕國人。”兩《唐志》作“論語大義解”。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《論語集義（唐志作大義）》（崔豹）",
+      "summary": "隋志八卷（七録釋文十菤）\n陸徳明曰豹字正熊燕國人晉尚書左兵中郎",
+      "section": "論語",
+      "juan": "卷二百十二",
+      "page": "KR2n0011_WYG_212-1b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "id": "1evcpculo2800",
   "related_works": [
     {
-      "id": "1ev7w0euvaeww",
+      "id": "d59f1iopaku8",
       "title": "論語",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "authors": [
+    {
+      "name": "崔豹",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": null,
+      "note": "舊唐書經籍志作「《論語集義》十卷盈氏撰」；補晉書藝文志考云「尚書中兵郎崔豹。謹按見《七錄》」，二說並存，今從補晉志之考。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為《論語集義》十卷，舊唐志題「盈氏」、補晉書藝文志考為崔豹撰，今從補晉志。與國史經籍志《論語集義》三十四卷（`1evgoqyt0cd1c`）卷數懸殊，未予合併。"
 }

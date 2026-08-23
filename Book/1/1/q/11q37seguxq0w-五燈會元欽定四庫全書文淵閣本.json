@@ -3,11 +3,14 @@
   "id": "11q37seguxq0w",
   "type": "book",
   "title": "五燈會元",
-  "work_id": "1ev3bcpvuqa68",
+  "work_id": "1evgc0bk8hips",
   "contained_in": [
     {
       "id": "8rlb6yi1ecqo",
       "volume_index": 1053
+    },
+    {
+      "id": "1ahwlq4d3tjwg"
     }
   ],
   "resources": [
@@ -127,9 +130,31 @@
           "imagecount": 242
         }
       ]
+    },
+    {
+      "id": "npm-rarebooks",
+      "name": "國立故宮博物院善本古籍",
+      "short_name": "故宮善本",
+      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAyMzg3MS0wMjM4OTAifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
+      "types": [
+        "physical"
+      ],
+      "metadata": {
+        "item_id": "故庫023871-023890",
+        "acckey": "5aea8bca2d5a26e310916a88c7b6bb15"
+      }
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",
   "updated_at": "2026-05-17T20:40:27-07:00",
-  "_has_image": true
+  "_has_image": true,
+  "section": "史部",
+  "metadata": {
+    "npm_item_id": "故庫023871-023890",
+    "npm_acckey": "5aea8bca2d5a26e310916a88c7b6bb15"
+  },
+  "merged_from": [
+    "11qkhx2z6spa8"
+  ],
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：Book 11qkhx2z6spa8（edition「清乾隆間寫文淵閣四庫全書本」，繫《國立故宮博物院善本舊籍》1ahwlq4d3tjwg，帶故宮著錄號 故庫023871-023890）併入本條。二者非兩部書——文淵閣《四庫全書》寫本原藏台北故宮，本條之 edition「欽定四庫全書·文淵閣本」著錄其於叢編中之冊次並繫維基共享影印，彼條著錄同一實物之故宮館藏，故合為一 Book，兩處著錄各存為 contained_in／resources。"
 }

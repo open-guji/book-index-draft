@@ -176,12 +176,14 @@
       "明史藝文志"
     ]
   },
-  "ai_note": "從 1evdid1o0394w 合併。原註：作者「唐李淳風撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "ai_note": "從 1evdid1o0394w 合併。原註：作者「唐李淳風撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "authenticity": "forged",
+  "authenticity_basis": "《欽定四庫全書總目》：「錢曾《讀書敏求記》有淳風《天文占書類要》四卷，《乾坤變異錄》四卷。夫古書日亡而日少，淳風之書獨愈遠而愈增，其為術家依託，大概可見矣。」"
 }

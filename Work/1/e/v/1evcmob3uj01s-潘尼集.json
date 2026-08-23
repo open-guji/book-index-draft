@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "潘尼集",
       "summary": "潘尼集十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《潘尼集》十卷",
+      "summary": "《潘尼集》十卷",
+      "merged_from": "1evgqag7x8su8",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,5 +49,19 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "潘尼",
+      "role": "撰",
+      "dynasty": "西晉",
+      "entity_id": "1j96ad6llc8w0",
+      "note": "隋書經籍志題「晉太常卿《潘尼集》十卷」，書名即撰人。潘尼字正叔，潘岳之侄，世稱「兩潘」。"
+    }
+  ],
+  "dynasty": "西晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「西晉」",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太常卿《潘尼集》十卷」、兩唐志、國史經籍志皆十卷，同為西晉潘尼別集，今合為一條並繫 entity `1j96ad6llc8w0`。"
 }

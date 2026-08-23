@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《內典博要》三十卷",
       "summary": "《內典博要》三十卷虞孝景撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又內典博要",
+      "summary": "又內典博要三十卷",
+      "merged_from": "1evcs0nk2dc74",
+      "note": "諸志同著《內典博要》，係一書互著（或重出），今合併。"
     }
   ],
   "juan_count": {
@@ -35,5 +43,19 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "虞孝景",
+      "role": "撰",
+      "dynasty": "隋",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《內典博要》三十卷虞孝景撰」；新唐志承前作「又內典博要三十卷」。"
+    }
+  ],
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、兩唐志同著《內典博要》三十卷，今合併並據舊唐志補撰人為虞孝景。"
 }

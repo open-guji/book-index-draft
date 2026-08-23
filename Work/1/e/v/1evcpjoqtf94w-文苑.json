@@ -14,8 +14,57 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "孔逭《文苑》十九卷蕭統",
       "summary": "孔逭《文苑》十九卷蕭統"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又文苑",
+      "summary": "又文苑六卷",
+      "merged_from": "1evcs093ks0e8",
+      "note": "諸志同著《文苑》，係一書互著（或重出），今合併。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《文苑》一百卷",
+      "summary": "《文苑》一百卷孔道撰。",
+      "merged_from": "1evcmocrwgmbk",
+      "note": "撰人原作「孔道」，乃「孔逭」之異寫或形訛，本條併入。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《文苑》一百卷",
+      "summary": "《文苑》一百卷（孔追集）",
+      "author_info": "孔追集",
+      "merged_from": "1evcmocrwgmbk",
+      "note": "撰人原作「孔道」，乃「孔逭」之異寫或形訛，本條併入。"
     }
   ],
   "id": "1evcpjoqtf94w",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "孔逭",
+      "role": "撰",
+      "dynasty": "南朝齊",
+      "entity_id": null,
+      "note": "舊唐書經籍志明載「《文苑》一百卷孔逭撰」；宋志亦作「孔逭《文苑》十九卷」。句末「蕭統」屬下條。"
+    }
+  ],
+  "juan_count": {
+    "number": 100
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 100
+    }
+  ],
+  "measure_info": "一百卷",
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」",
+  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、新唐書藝文志、宋史藝文志同著《文苑》，一百卷、十九卷、六卷之異乃傳本殘全之別，今合併並補撰人為孔逭。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evcmocrwgmbk` 同題《文苑》、同卷數 100，撰人分作「孔逭」「孔道」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「孔逭」，異名之著錄並存於 indexed_by。"
 }

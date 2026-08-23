@@ -14,6 +14,19 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《易解》",
       "summary": "《易解》十卷程達"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《易解》（程逵）",
+      "summary": "宋志十卷\n江西通志程逵字彦通浮梁人新安文獻志程克俊傳父逵登政和二年進士不樂仕授徒里中逺近來者至不能容乃建鄉校立宣聖祠朔望春秋奠謁習為禮容相師成俗有易解十卷論孟解十卷五經解題二十卷學者號九龍先生贈太師",
+      "section": "易",
+      "juan": "卷二十二",
+      "page": "KR2n0011_WYG_022-11a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "《經義考》標目「程氏（逵）易解」與庫題《易解》題式不同而是一書，見 jyk_yi1_hold_tables.py 之裁"
     }
   ],
   "juan_count": {
@@ -28,5 +41,7 @@
   "measure_info": "十卷",
   "ai_note": "2026-08-11 全庫同名異書核對／易解組覆核：補全 authors「程達」及 juan_count；本庫另有「程達」entity（1j967bgl7bsqb）為明代人（1545年生），與本條所繫宋史藝文志之宋人程達顯非同一人，故未繫 entity_id，朝代據宋史藝文志之斷代性質定為宋。",
   "id": "1evct45fvswzk",
-  "updated_at": "2026-08-11"
+  "updated_at": "2026-08-11",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
 }

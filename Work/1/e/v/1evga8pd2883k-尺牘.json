@@ -16,12 +16,20 @@
       "source_bid": "1eve1ek5qq9kw",
       "title_info": "韓諤尺牘一卷",
       "summary": "元韓諤尺牘一卷"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "韓調尺牘一卷",
+      "summary": "元韓調尺牘一卷",
+      "merged_from": "1evgc31kl4ge8",
+      "note": "撰人原作「韓調」，乃「韓諤」之異寫或形訛，本條併入。"
     }
   ],
   "juan_count": {
     "number": 1
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 韓諤（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 韓諤（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgc31kl4ge8` 同題《尺牘》、同卷數 1，撰人分作「韓諤」「韓調」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「韓諤」，異名之著錄並存於 indexed_by。",
   "id": "1evga8pd2883k",
   "measures": [
     {
@@ -30,9 +38,9 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：韓諤（生卒1322-1380）：死於明建國(1368)後，Entity既有分類（明／ming）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "liao-jin-yuan",
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('韓諤', '明')] 指向 ming，而本書見於《元史藝文志》——該志斷代著錄 liao-jin-yuan 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：韓諤（生卒1322-1380）：死於明建國(1368)後，En",
   "dynasty": "明",
   "dynasty_basis": "author_propagation"
 }

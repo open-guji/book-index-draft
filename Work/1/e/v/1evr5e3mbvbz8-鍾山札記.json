@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 17
+    "number": 4
   },
   "indexed_by": [
     {
@@ -30,15 +30,23 @@
       "edition": "影印復旦大學圖書館藏清抱經堂叢書本",
       "volume": "第1149冊",
       "section": "子部 雑家類"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《鐘山札記》",
+      "summary": "四卷，《龍城札記》四卷。盧文弨。《抱經堂》本。",
+      "merged_from": "1evincjl50b28",
+      "note": "本著錄原繫題作「鐘山札記」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 17
+      "number": 4
     }
   ],
-  "measure_info": "十七卷",
+  "measure_info": "四卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -61,10 +69,14 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 17，與著錄原文（清史稿藝文志：「鍾山札記」）所載之 4 卷不合，今據原文訂正。\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《鐘山札記》之 work（`1evincjl50b28`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "additional_titles": [
+    "鐘山札記"
+  ]
 }

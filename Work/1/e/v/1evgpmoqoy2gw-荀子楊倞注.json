@@ -26,6 +26,20 @@
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "荀子",
       "summary": "《荀子》楊倞注二十卷。{{謝墉校本。通行蘇州王氏刻《十子全書》本即謝校本。儒。}}"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "楊倞注荀子",
+      "summary": "楊倞注荀子二十卷",
+      "note": "（2026-08-21 自重出條 1evcs0le45wqo 併入）"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《荀子》",
+      "summary": "楊倞注《荀子》二十卷黎錞",
+      "note": "（2026-08-21 先秦磁鐵專項：自原典 d59ezahp9urk 移入，楊倞注本）"
     }
   ],
   "description": {
@@ -34,7 +48,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞 本條實為《荀子》之注本而書題僅作「荀子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「荀子楊倞注」，原題記於 original_title。　《國史經籍志》刻本作「切倞注」，「切」為「楊」之訛；《書目答問》正作「《荀子》楊倞注二十卷」。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 作者冲突 work=荀況 vs anno=切倞 本條實為《荀子》之注本而書題僅作「荀子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「荀子楊倞注」，原題記於 original_title。　《國史經籍志》刻本作「切倞注」，「切」為「楊」之訛；《書目答問》正作「《荀子》楊倞注二十卷」。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 先秦磁鐵專項·注本重出歸併：《楊倞注荀子》1evcs0le45wqo 併入本條（同為一注本，僅因志書題式異寫而重出），移入著錄 1 節。依「｛原典｝＋｛作者全名｝＋｛方式｝」之命名例，存本條之題。",
   "id": "1evgpmoqoy2gw",
   "measures": [
     {
@@ -46,7 +60,7 @@
   "original_title": "荀子",
   "related_works": [
     {
-      "id": "1ev3bb72dbqio",
+      "id": "d59ezahp9urk",
       "title": "荀子",
       "relation": "contains_text_of"
     }
@@ -55,5 +69,11 @@
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "merged_from": [
+    "1evcs0le45wqo"
+  ],
+  "additional_titles": [
+    "楊倞注荀子"
+  ]
 }

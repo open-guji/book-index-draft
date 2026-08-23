@@ -5,10 +5,11 @@
   "authors": [
     {
       "name": "王逵",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "明",
       "dynasty_basis": "四庫全書總目提要詳考：舊本題宋王逵撰，糾正為『明黃姬水《貧士傳》載王逵錢塘人，足一跛，洪武永樂間人』——與三個宋王逵（仁宗時轉運使/天禧進士濮陽人/紹興中淄州人）均不吻合；書中引趙緣督(至元後)，必非宋人",
-      "entity_id": "1j967bgl70k5j"
+      "entity_id": "1j967bgl70k5j",
+      "role_basis": "據著錄語「舊本題宋王逵撰。案宋有三王逵，其一王逵，不知何許人，仁宗時官江」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "description": {
@@ -17,7 +18,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019517）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人王逵與庫中人物記錄（1j967bgl70k5j）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j967bgl70k5j=北宋王逵(991~1072，真宗仁宗時官員)，四庫總目詳細考證此書作者係明初錢塘王逵(洪武永樂間)，引趙緣督說已至元後，不可能為北宋王逵。需人工查 CBDB 建立正確 Entity 並關聯]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019517）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人王逵與庫中人物記錄（1j967bgl70k5j）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j967bgl70k5j=北宋王逵(991~1072，真宗仁宗時官員)，四庫總目詳細考證此書作者係明初錢塘王逵(洪武永樂間)，引趙緣督說已至元後，不可能為北宋王逵。需人工查 CBDB 建立正確 Entity 並關聯] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwvv033ls 與 11q37rp5xyqkg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題宋王逵撰。案宋有三王逵，其一王逵，不知何許人，仁宗時官江」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
   "juan_count": {
     "number": 1
   },
@@ -30,7 +31,6 @@
   "measure_info": "一卷",
   "id": "1evkpxffmr7k0",
   "books": [
-    "11qkhwvv033ls",
     "11q37rp5xyqkg"
   ],
   "indexed_by": [
@@ -43,7 +43,7 @@
       "edition": "兩淮鹽政采進本"
     }
   ],
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",

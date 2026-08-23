@@ -19,6 +19,14 @@
       "title_info": "《阮咸譜》一卷",
       "summary": "《阮咸譜》一卷（蔡逸撰。）",
       "author_info": "蔡逸撰。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《阮鹹譜》",
+      "summary": "《阮鹹譜》一卷吳仁傑",
+      "merged_from": "1evcsw7kdc1s0",
+      "note": "本著錄原繫題作「阮鹹譜」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -27,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"阮咸譜\" 唯一候选无作者",
+  "ai_note": "missing_reason: 短title \"阮咸譜\" 唯一候选无作者\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《阮鹹譜》之 work（`1evcsw7kdc1s0`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
   "id": "1evgoqqv1ptz4",
   "measures": [
     {
@@ -36,5 +44,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "additional_titles": [
+    "阮鹹譜"
+  ],
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
 }

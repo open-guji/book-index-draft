@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 14
+    "number": 24
   },
   "indexed_by": [
     {
@@ -30,15 +30,23 @@
       "edition": "影印上海圖書館藏清嘉慶九年馮集梧刻本",
       "volume": "第270冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《後漢書補注》",
+      "summary": "二十四卷。惠棟。寶山李氏刻本，《粵雅堂》本，馮集梧刻本。",
+      "merged_from": "1evincmy9pjpc",
+      "note": "《後漢書補注》（惠棟）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 14
+      "number": 24
     }
   ],
-  "measure_info": "十四卷",
+  "measure_info": "二十四卷",
   "resources": [
     {
       "id": "wikimedia-commons-xuxiu",
@@ -58,23 +66,24 @@
   ],
   "related_works": [
     {
-      "id": "1euidlec1g8ow",
+      "id": "d59f1iqd854w",
       "title": "漢書",
       "relation": "contains_text_of"
     },
     {
       "id": "1ev3c1fi6kdmo",
-      "title": "後漢書光武紀贊",
+      "title": "後漢書",
       "relation": "contains_text_of"
     }
   ],
   "additional_titles": [
     "後漢書補註"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《後漢書補注》（惠棟，24卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evincmy9pjpc（書目答問）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
 }

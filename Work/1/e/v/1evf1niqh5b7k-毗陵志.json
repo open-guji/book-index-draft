@@ -22,9 +22,30 @@
       "title_info": "《毗陵志》十二卷",
       "summary": "《毗陵志》十二卷（鄒補之）",
       "author_info": "鄒補之"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "毗陵志",
+      "merged_from": "1evf1niqh5b7k",
+      "note": "本條為整理本另立之無撰人 stub，其節「《毗陵志》十二卷」正文明書「教授三山鄒補之撰。」，與本條同書。"
     }
   ],
-  "ai_note": "從 1ev3bau3no7pc（王㒜《毗陵志》）拆分。不同作者的同名書被錯誤合併。",
+  "ai_note": "從 1ev3bau3no7pc（王㒜《毗陵志》）拆分。不同作者的同名書被錯誤合併。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十二卷），今據以補。\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mjzi2u`（毗陵志）。《毗陵志》鄒補之撰：整理本另立之無撰人條，其節正文明書撰人「鄒補之」，與本條同卷（12卷）同書，今併。",
   "id": "1evf1niqh5b7k",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-22T04:56:00.131962+00:00",
+  "juan_count": {
+    "number": 12
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 12
+    }
+  ],
+  "measure_info": "十二卷",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
+  "period": "song",
+  "period_basis": "撰人朝代闕，據其 Entity「鄒補之」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
 }

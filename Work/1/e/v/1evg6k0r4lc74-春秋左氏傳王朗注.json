@@ -9,7 +9,7 @@
       "role": "注",
       "dynasty": "三國魏",
       "note": "東海郡（一作東海郯）人。司徒。注《易》、《春秋》、《孝經》、《周官傳》。",
-      "entity_id": "1j96keh348fls",
+      "entity_id": "1j96kee2c14hs",
       "dynasty_basis": "entity_propagation:round2:1j96keh348fls"
     }
   ],
@@ -35,10 +35,34 @@
   "measure_info": "十二卷",
   "related_works": [
     {
-      "id": "1ev7vo50ar94w",
+      "id": "d59ezak6jq4g",
       "title": "左傳",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T14:05:56+00:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《春秋左氏傳》十二卷",
+      "summary": "《春秋左氏傳》十二卷魏司徒王朗撰。",
+      "note": "本著錄原繫磁鐵條「左傳」（`1ev7vo50ar94w`），其撰人「王朗」與本條合，今歸本條。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《春秋左氏傳注》（王朗）",
+      "summary": "隋志十二卷（唐志十卷）",
+      "section": "春秋",
+      "juan": "卷一百七十三",
+      "page": "KR2n0011_WYG_173-1b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    }
+  ],
+  "ai_note": "2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本「《春秋左氏傳》十二卷」等 1 節原繫他條，其題核心與內文（或題中）之撰人「王朗」與本條相合，今歸本條。",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

@@ -15,15 +15,58 @@
       "title_info": "《周易新注本義》十四卷",
       "summary": "《周易新注本義》十四卷（唐薛仁貴）",
       "author_info": "唐薛仁貴"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "薛仁貴周易新注本義",
+      "summary": "薛仁貴周易新注本義十四卷",
+      "note": "本著錄原繫磁鐵條「周易王弼注」（`1ev7xm5b3sge8`），其撰人「薛仁貴」與本條合，今歸本條。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易新注本義》（薛仁貴）",
+      "summary": "唐志十四卷\n舊唐書仁貴絳州龍門人右領軍衛將軍檢校代州都督贈左驍衛將軍歐陽棐曰苖仁客撰薛仁貴碑云薛禮字仁貴河東汾陽人",
+      "section": "易",
+      "juan": "卷十四",
+      "page": "KR2n0011_WYG_014-9b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "id": "1evcpcswkzd34",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "juan_count": {
+    "number": 14
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 14
+    }
+  ],
+  "measure_info": "十四卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十四卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐薛仁貴」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本「薛仁貴周易新注本義」等 1 節原繫他條，其題核心與內文（或題中）之撰人「薛仁貴」與本條相合，今歸本條。",
+  "authors": [
+    {
+      "name": "薛仁貴",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「唐薛仁貴」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

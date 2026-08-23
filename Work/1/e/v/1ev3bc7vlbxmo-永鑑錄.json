@@ -19,6 +19,14 @@
       "title_info": "《永鑒錄》一卷",
       "summary": "《永鑒錄》一卷（訓親藩）",
       "author_info": "訓親藩"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《永鑑錄》二卷",
+      "summary": "《永鑑錄》二卷（訓諸藩）",
+      "merged_from": "1evggvs8pq7eo",
+      "note": "欽定四庫全書總目、國史經籍志（永鑒錄一卷，訓親藩）與國史經籍志（永鑑錄二卷，訓諸藩）所著《永鑑錄》為一書，今合併。"
     }
   ],
   "juan_count": {
@@ -34,10 +42,10 @@
   "additional_titles": [
     "永鑒錄"
   ],
-  "updated_at": "2026-08-17T18:19:19+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-17 撰人闕載：原作者欄作「洪武中奉敕」並繫於偽 Entity「洪武中奉敕」——該 Entity 之名本是著錄語而非人名。《四庫全書總目》提要作「不著撰人名氏」或「舊本題某朝無名氏撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。"
+  "ai_note": "2026-08-19 全庫同名異書核對：欽定四庫全書總目、國史經籍志（永鑒錄一卷，訓親藩）、國史經籍志（永鑑錄二卷，訓諸藩）同著《永鑑錄》，係一書互著（或匯入重出），今合併。撰人諸志皆闕，維持留白。"
 }

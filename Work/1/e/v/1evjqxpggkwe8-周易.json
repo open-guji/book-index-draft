@@ -19,6 +19,22 @@
       "edition": "影印國家圖書館分館藏清孔氏嶽雪樓抄本",
       "volume": "第4冊",
       "section": "经部 易類"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《周易》四卷",
+      "summary": "《周易》四卷晉儒林從事黃穎注。梁有十卷，今殘缺。",
+      "note": "本著錄原繫於磁鐵條「周易黃穎注」（`1evc5p8m6el8g`），今歸本條。",
+      "misattached": true,
+      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《隋書經籍志》（上限 sui-tang），而本條為 liao-jin-yuan 之作、撰人董中行，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周易》四卷",
+      "summary": "《周易》四卷（漢費直章句）",
+      "note": "本著錄原繫於磁鐵條「費氏易」（`1evgop23738jk`），今歸本條。"
     }
   ],
   "description": {
@@ -27,7 +43,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev7xm5b3sge8();1evgop1yrw7i8(亰房);1evgop20z6hhc(孟喜)。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev7xm5b3sge8();1evgop1yrw7i8(亰房);1evgop20z6hhc(孟喜)。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《周易》四卷」一節原繫於磁鐵條（`1evc5p8m6el8g`、`1evgop23738jk`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於隋書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
   "juan_count": {
     "number": 4
   },
@@ -55,12 +71,12 @@
   ],
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",

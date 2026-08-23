@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "伏勝",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "西漢",
-      "entity_id": "1j967afjbsrjd"
+      "entity_id": "1j967afjbsrjd",
+      "role_basis": "據著錄語「，合更求完善本。漢志傳四十一篇（隋志三卷）《尚書》之傳，舊題漢伏勝撰。鄭玄《尚書大傳序》謂伏生為秦博士，至文帝時」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -61,7 +62,6 @@
   ],
   "books": [
     "11q37o1iults0",
-    "11qkhvm2ia800",
     "11qki0rxchqm8"
   ],
   "juan_count": {
@@ -148,12 +148,12 @@
   "measure_info": "四卷",
   "related_works": [
     {
-      "id": "1evl7fct2ezgg",
+      "id": "d59ezajmkjcw",
       "title": "尚書",
       "relation": "contains_text_of"
     },
     {
-      "id": "1evl7fct2ezgg",
+      "id": "d59ezajmkjcw",
       "title": "尚書",
       "relation": "studies"
     },
@@ -163,9 +163,20 @@
       "relation": "text_carried_by"
     }
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）"
+  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "loss_status": "partially_extant",
+  "ai_note": "2026-08-20：補 loss_status=lost。原書全佚，今存者為清人輯本七家：盧見曾／盧文弨《雅雨堂藏書》本、孔廣林《鄭學十八種》本、陳壽祺《叢書集成初編》本、袁鈞／袁堯年《鄭氏佚書》本、皮錫瑞《清經解續編》本、黃奭《漢學堂叢書》本、王闓運《靈鶼閣叢書》本。據李零《簡帛古書與學術源流》第一講附錄「現存先秦兩漢古書一覽表」逐條對照。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：文中明載有輯本——「今存者為清人輯」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhvm2ia800 與 11q37o1iults0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。\n\n2026-08-21 舊題撰人專項：著錄語作「，合更求完善本。漢志傳四十一篇（隋志三卷）《尚書》之傳，舊題漢伏勝撰。鄭玄《尚書」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "description": {
+    "text": "《尚書》之傳，舊題漢伏勝撰。鄭玄《尚書大傳序》謂伏生為秦博士，至文帝時年且百歲，張生、歐陽生從其受學，生歿後數子各論所聞、以己意彌縫其闕，別撰大義，因經屬指，名之曰《傳》——故此書實張生、歐陽生一派所述，源出伏生而非伏生自撰。劉向校書得而上之，凡四十一篇，詮次為八十三篇。其文或說《尚書》，或不說《尚書》，多存漢初經說之舊。《漢志》載《傳》四十一篇，《隋志》三卷鄭玄注，《書錄解題》四卷。今傳二本：杭州三卷本雜采類書所引裒輯成編而漫無端緒，揚州四卷本兼存鄭注，校以《洪範政鑒》所引一一符合，非依託。",
+    "sources": [
+      "《欽定四庫全書總目》經部書類",
+      "《直齋書錄解題》"
+    ]
+  },
+  "_promoted_to": "d59f1irabaps",
+  "_promoted_at": "2026-08-23T13:36:09Z"
 }

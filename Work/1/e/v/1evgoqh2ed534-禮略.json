@@ -1,61 +1,63 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "禮略",
- "authors": [
-  {
-   "name": "杜肅",
-   "role": "撰",
-   "entity_id": "1j96h8rw86pzt"
-  }
- ],
- "juan_count": {
-  "number": 10
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《禮略》十卷",
-   "summary": "《禮略》十卷（杜肅）",
-   "author_info": "杜肅"
+  "schema_version": 1,
+  "type": "work",
+  "title": "禮略",
+  "authors": [
+    {
+      "name": "杜肅",
+      "role": "撰",
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw86pzt（明），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "經義考",
-   "source_bid": "1ev3bb43bv4lc",
-   "title_info": "《禮略》（杜肅）",
-   "summary": "唐志十卷",
-   "section": "通禮",
-   "juan": "卷一百六十六",
-   "page": "KR2n0011_WYG_166-16a",
-   "attested_status": "lost",
-   "attested_status_raw": "佚",
-   "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《禮略》十卷",
+      "summary": "《禮略》十卷（杜肅）",
+      "author_info": "杜肅"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮略》（杜肅）",
+      "summary": "唐志十卷\n崇文總目唐京兆府櫟陽尉杜肅撰采古經義下逮當世概舉沿革附禮見文以其言約㫖詳故自題禮略云",
+      "section": "通禮",
+      "juan": "卷一百六十六",
+      "page": "KR2n0011_WYG_166-16a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "杜肅禮略",
+      "summary": "杜肅禮略十卷"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "杜肅禮略",
-   "summary": "杜肅禮略十卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs08blh7gg（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgoqh2ed534",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs08blh7gg（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "id": "1evgoqh2ed534",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

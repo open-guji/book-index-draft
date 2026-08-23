@@ -19,12 +19,40 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "桓玄傳二卷 謹按見《隋志》。据《宋書·苟伯子傳》,知《傳》為伯子撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《桓玄傳》二卷",
+      "summary": "《桓玄傳》二卷",
+      "merged_from": "1evgpj5l7pekg",
+      "note": "諸志同著《桓玄傳》，係一書互著（或重出），今合併。"
     }
   ],
   "id": "1evcpcyeg6t4w",
-  "updated_at": "2026-08-08T14:20:19+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "東晉",
-  "dynasty_basis": "biography_subject:桓玄→東晉"
+  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('荀伯子', '南朝宋')] 指向 nanbeichao，而本書見於《補晋書藝文志》——該志斷代著錄 jin 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「南朝宋」",
+  "dynasty": "南朝宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "authors": [
+    {
+      "name": "荀伯子",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": null,
+      "note": "補晉書藝文志明云「据《宋書·苟伯子傳》,知《傳》為伯子撰」，苟即荀之訛，撰人為荀伯子。"
+    }
+  ],
+  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、補晉書藝文志、國史經籍志同著《桓玄傳》二卷，今合併並據補晉志之考補撰人為荀伯子。"
 }

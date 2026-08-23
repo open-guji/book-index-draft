@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "元好問",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "金",
-      "entity_id": "1j967bgl70k7g"
+      "entity_id": "1j967bgl70k7g",
+      "role_basis": "據著錄語「舊本題金元好問撰。考好問著述存者有《遺山集》、《中州集》、《續夷」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -36,7 +37,7 @@
   },
   "related_works": [
     {
-      "id": "1ev3bc1sat3b4",
+      "id": "1evgq61zahvr4",
       "title": "古今考",
       "relation": "part_of"
     }
@@ -74,12 +75,12 @@
     }
   ],
   "measure_info": "九卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T07:10:33.926634+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「金」",
   "dynasty": "金",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題金元好問撰。考好問著述存者有《遺山集》、《中州集》、《續夷」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

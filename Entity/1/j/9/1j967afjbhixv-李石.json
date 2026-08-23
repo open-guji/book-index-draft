@@ -12,6 +12,10 @@
     {
       "name": "知幾",
       "type": "字"
+    },
+    {
+      "name": "作石",
+      "type": "訛名"
     }
   ],
   "dynasty": "北宋",
@@ -40,6 +44,11 @@
     {
       "work_id": "1ev3bckvrfbpc",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcsykyxf20w",
+      "role": "撰",
+      "title": "司牧安驥集"
     }
   ],
   "external_ids": {
@@ -47,8 +56,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.50+ambiguous_2"
   },
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "dynasty_basis": "cbdb:birth/death_name=北宋",
   "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并"
+  "period_basis": "据 dynasty「北宋」自动归并",
+  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「作石」（`1j96hg1mfd81s`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
 }

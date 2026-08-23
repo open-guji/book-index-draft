@@ -24,20 +24,40 @@
       "source_bid": "1eve1ei9whji8",
       "title_info": "程曾孟子章句",
       "summary": "程曾孟子章句范書儒林傳：曾著書百餘篇，皆五經通難，又作孟子章句。馬國翰輯本序曰：孟子程氏章句，隋志不著錄，佚在隋前，諸書亦絶少徴引。惟宋熙時子所注孟子外書第三篇引有一，則子所引。按孟子外書自趙臺卿始，闢而不取，前此固未嘗有議及之者。程秀升卒於建初中，遠在臺卿之前。今觀外書中所注，知其本猶是漢志之十一篇。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《孟子章句》（程曽）",
+      "summary": "後漢書程曾字秀升豫章南昌人著書百餘篇皆五經通難又作孟子章句建初三年舉孝亷遷海西令",
+      "section": "孟子",
+      "juan": "卷二百三十二",
+      "page": "KR2n0011_WYG_232-9a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
-  "ai_note": "清史稿藝文志經部四書類輯佚條目。 來源：清史稿藝文志經部四書類　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evilzgxq83cw/fragments/孟子章句.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/孟子章句.json（該檔之值經人工校讀，非機讀所生）。",
+  "ai_note": "清史稿藝文志經部四書類輯佚條目。 來源：清史稿藝文志經部四書類　輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evilzgxq83cw/fragments/孟子章句.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/孟子章句.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 補 original_title「孟子」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
   "type": "work",
   "id": "1evilzgxq83cw",
   "related_works": [
     {
-      "id": "1ev7xm3w3445c",
+      "id": "d59ezajwvda8",
       "title": "孟子",
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "updated_at": "2026-08-06T22:59:42+00:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）"
+  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "measure_info": "一卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "original_title": "孟子"
 }

@@ -6,9 +6,10 @@
   "authors": [
     {
       "name": "劉向",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "西漢",
-      "entity_id": "1j9678njjg2rq"
+      "entity_id": "1j9678njjg2rq",
+      "role_basis": "據著錄語「劉向《列仙傳》三卷王褒舊本題漢劉向撰。紀古來仙人自赤松子至元俗凡七十一人，人系以贊，」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
     }
   ],
   "indexed_by": [
@@ -60,8 +61,7 @@
     }
   ],
   "books": [
-    "11q37sgg6nugw",
-    "11qkhx3spnqww"
+    "11q37sgg6nugw"
   ],
   "juan_count": {
     "number": 2
@@ -169,7 +169,7 @@
       "國史經籍志"
     ]
   },
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qin-han",
@@ -181,5 +181,6 @@
       "title_info": "列仙傳贊三卷；列仙傳贊二卷",
       "summary": "列仙傳贊三卷；列仙傳贊二卷"
     }
-  ]
+  ],
+  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 2 節，各題在庫中已別有其 work，今各歸其主：《《列仙傳》二卷》→《列仙傳》`1evgpo2vb9z40`、《《列仙傳賛》二卷》→《列仙傳賛》`1evgpo2ndnu2o`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx3spnqww 與 11q37sgg6nugw 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「劉向《列仙傳》三卷王褒舊本題漢劉向撰。紀古來仙人自赤松子至元俗凡七十一人，人系以」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
 }

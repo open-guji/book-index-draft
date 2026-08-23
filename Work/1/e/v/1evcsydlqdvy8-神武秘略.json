@@ -8,8 +8,41 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《神武秘略》",
       "summary": "仁宗《神武秘略》十卷又"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《神武祕略》十卷",
+      "summary": "《神武祕略》十卷（宋仁宗）",
+      "author_info": "宋仁宗",
+      "merged_from": "1evcsydlqdvy8",
+      "note": "國史經籍志「（宋仁宗）」十卷本，「仁宗」與本條「趙禎」（宋仁宗本名）同一人，卷數全合，同書。"
     }
   ],
   "id": "1evcsydlqdvy8",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-22T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "趙禎",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967da97jm29",
+      "note": "宋史藝文志作「仁宗《神武秘略》十卷又」，前置撰人宋仁宗，趙禎即宋仁宗。"
+    }
+  ],
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為宋仁宗《神武秘略》十卷，與國史經籍志《神武祕略》二十卷（`1evgq14k0kmww`）卷數倍蓰，未便逕併，並存互見。\n\n2026-08-22 B1 同名異書併池：併入 `1evgq15ds6br4`（神武秘略）。2026-08-21 B2 併池：併入 `1evgq15ds6br4`（國史經籍志，題「仁宗」撰，十卷）。「仁宗」即本條「趙禎」，宋仁宗本名，同書。另有國史經籍志無撰人二十卷本（`1evgq14k0kmww`）卷數不合，且本條宋志引文「仁宗《神武秘略》十卷又」句末「又」字疑另接下條內容，未併，記入 handoff。"
 }

@@ -25,6 +25,27 @@
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "刘凤《续吴先贤赞》十五卷",
       "summary": "劉鳳《續吳先賢贊》十五卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《續吳先賢讚》一卷",
+      "summary": "《續吳先賢讚》一卷（劉鳯）",
+      "author_info": "劉鳯",
+      "merged_from": "1ev3bamtmknwg",
+      "note": "S 併池：續吳先賢贊／續吳先賢讚"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《續吳先賢讚》十五卷",
+      "author_info": "明劉鳯撰",
+      "summary": "《續吳先賢讚》十五卷。明劉鳯撰。中國科學院圖書館藏明萬曆刻本。",
+      "edition": "中國科學院圖書館藏明萬曆刻本",
+      "volume": "第95冊",
+      "section": "史部",
+      "merged_from": "1ev3bamtmknwg",
+      "note": "S 併池：續吳先賢贊／續吳先賢讚"
     }
   ],
   "juan_count": {
@@ -99,12 +120,21 @@
   "books": [
     "11qki4og5o16o"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evgpj16z0gzk`（續吳先賢讚）。二條同題（贊／讚通用）同撰（明劉鳳；被刪條作「劉鳯」，鳯乃鳳之訛形）。被刪條繫國史經籍志一卷、四庫全書存目叢書十五卷（明萬曆刻本），本條繫四庫總目十五卷與明史藝文志十五卷——十五卷者三見，一卷者當是著錄之省，非二書。存者取撰人正名「劉鳳」且卷數不誤之本條；被刪條所繫之「劉鳯」人物記錄已解其連。　被刪條之 period_upper=ming，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "additional_titles": [
+    "續吳先賢讚"
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }

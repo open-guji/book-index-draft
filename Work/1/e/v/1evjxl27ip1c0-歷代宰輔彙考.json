@@ -20,6 +20,23 @@
       "edition": "北京圖書館藏清鈔本",
       "volume": "第259冊",
       "section": "史部"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《歷代宰輔彙考》八卷",
+      "summary": "《歷代宰輔彙考》八卷。清萬斯同撰。影印國家圖書館藏清抄本。",
+      "note": "本著錄原繫於磁鐵條「歷代宰輔匯考」（`1ev3bb07o3r40`），今歸本條。"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《歷代宰輔匯考》•八卷",
+      "author_info": "國朝萬斯同撰",
+      "summary": "國朝萬斯同撰。斯同有《聲韻源流考》，已著錄。是編取秦、漢以迄元、明宰輔，分職系名，以便檢核。其於官制增損異同之處，亦間附案語，頗為簡明。然不著拜罷年月，視諸史表例頗為簡略。又如唐代使相，以其為藩鎮加官，俱不載錄，是也。然如李克用、朱全忠、王智興、李載義、韓建等之位冠三師，亦只屬優以空銜，並未嘗入輔左右，而顧一概列之。則義例亦未能盡歸畫一也。",
+      "edition": "浙江巡撫采進本",
+      "merged_from": "1evjxl27ip1c0",
+      "note": "S 併池：歷代宰輔彙考／歷代宰輔匯考"
     }
   ],
   "description": {
@@ -28,7 +45,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《歷代宰輔彙考》八卷」一節原繫於磁鐵條（`1ev3bb07o3r40`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1ev3bb07o3r40`（歷代宰輔匯考）。二條同題（彙／匯異體）同撰（萬斯同）同卷數（八卷）。二條各繫《續修四庫全書》「《歷代宰輔彙考》八卷」，其著錄語逐字全同，是同一著錄匯入兩次。存者取用字正之「彙」（彙考謂類聚而考之，非「匯」），且 2026-08-20 磁鐵拆解已將該節歸本條。",
   "juan_count": {
     "number": 8
   },
@@ -41,11 +58,27 @@
   "measure_info": "八卷",
   "id": "1evjxl27ip1c0",
   "additional_titles": [
-    "歴代宰輔彙攷"
+    "歴代宰輔彙攷",
+    "歷代宰輔匯考"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "resources": [
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0746%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 746
+      },
+      "types": [
+        "image"
+      ]
+    }
+  ],
+  "_has_image": true
 }

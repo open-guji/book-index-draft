@@ -4,9 +4,9 @@
   "title": "詩翼",
   "authors": [
     {
-      "name": "何元適",
+      "name": "何無適",
       "role": "撰",
-      "dynasty": "元",
+      "dynasty": "宋",
       "entity_id": "1j96ha9co318g"
     }
   ],
@@ -15,7 +15,8 @@
       "source": "補遼金元藝文志",
       "source_bid": "1eve1ek5qq9kw",
       "title_info": "何元適詩翼四卷",
-      "summary": "元何元適詩翼四卷"
+      "summary": "元何元適詩翼四卷",
+      "note": "補遼金元誤題「元何元適」，實宋何無適（四庫總目）。"
     }
   ],
   "juan_count": {
@@ -29,10 +30,17 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "period": "song",
+  "period_basis": "四庫總目：舊本題宋何無適、倪希程同撰（詩準之翼），補遼金元誤收作元",
+  "dynasty": "宋",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] 2026-08-20 附錄甲：撰人正名何元適→何無適（宋），與《詩準》相配之書（四庫總目合著錄「詩准三卷附錄一卷詩翼四卷」）。",
+  "related_works": [
+    {
+      "id": "1ev3beok7m680",
+      "title": "詩準",
+      "relation": "related"
+    }
+  ]
 }

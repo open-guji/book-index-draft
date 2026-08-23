@@ -37,6 +37,15 @@
   ],
   "measure_info": "一卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00"
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「了本生死經」，庫中有同題而非注本之條 `1evgpqrjmm7eo`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "updated_at": "2026-08-21T00:00:00-07:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "related_works": [
+    {
+      "id": "1evgpqrjmm7eo",
+      "title": "了本生死經",
+      "relation": "contains_text_of"
+    }
+  ]
 }

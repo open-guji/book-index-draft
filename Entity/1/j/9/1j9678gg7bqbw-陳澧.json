@@ -52,6 +52,10 @@
     {
       "name": "識月軒",
       "type": "號"
+    },
+    {
+      "name": "陳灃",
+      "type": "異體"
     }
   ],
   "dynasty": "清",
@@ -135,10 +139,6 @@
       "role": "撰"
     },
     {
-      "work_id": "1evka7pk4vev4",
-      "role": "撰"
-    },
-    {
       "work_id": "1evka7pp267eo",
       "role": "撰"
     },
@@ -149,14 +149,30 @@
     {
       "work_id": "1evkpppx2xf5s",
       "role": "撰"
+    },
+    {
+      "work_id": "1evka7o1lrym8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evka7og4b7y8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evr5e3md4a8a",
+      "role": "撰"
     }
   ],
   "external_ids": {
     "cbdb_id": 54955,
     "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_0.73+ambiguous_3"
+    "cbdb_source": "name_exact+dy_match+work_recall_0.73+ambiguous_3",
+    "cbdb_id_alt": [
+      56430
+    ]
   },
-  "updated_at": "2026-08-08T11:51:57+00:00",
+  "updated_at": "2026-08-23T07:56:04.343478+00:00",
   "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "period_basis": "據 dynasty「清」自動歸併",
+  "ai_note": "2026-08-22 E1 人物併池（歸一順序訂正後補捕）：1j967afja8ksc 併入本條。二名（陳澧／陳灃）僅異體之別，朝代同、生卒年不相斥。前批因先簡化後套異體表而漏捕，順序訂正後方見。\n\n2026-08-23 B6：補繫《東塾集》`1evr5e3md4a8a`（該 work 撰人原誤作「陳灃」，今正）；並去 works 中之重出項。"
 }

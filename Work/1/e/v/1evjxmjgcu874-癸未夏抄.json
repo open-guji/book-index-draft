@@ -19,6 +19,16 @@
       "edition": "北京圖書館藏清鈔本",
       "volume": "第244冊",
       "section": "子部"
+    },
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《癸未夏抄》•四卷",
+      "author_info": "明釋靜福撰",
+      "summary": "明釋靜福撰。靜福，錢塘人。所謂癸未，蓋崇禎十六年也。其書抄撮諸家說部，亦間載其所見聞，頗無倫次。惟多載緇徒惡跡，不為其教少諱，視儒家堅持門戶者為猶賢焉。",
+      "edition": "兩淮鹽政采進本",
+      "merged_from": "1ev3bcmesmjgg",
+      "note": "撰人原作「釋靜福」，乃「靜福」之異寫或形訛，本條併入。"
     }
   ],
   "description": {
@@ -27,7 +37,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bcmesmjgg(釋靜福)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bcmesmjgg(釋靜福)（不同作者，故新建獨立 Work）。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1ev3bcmesmjgg` 同題《癸未夏抄》、同卷數 4，撰人分作「靜福」「釋靜福」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「靜福」，異名之著錄並存於 indexed_by。",
   "juan_count": {
     "number": 4
   },
@@ -39,9 +49,37 @@
   ],
   "measure_info": "四卷",
   "id": "1evjxmjgcu874",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "CText",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=7202391",
+      "types": [
+        "text"
+      ]
+    },
+    {
+      "id": "shidianguji-chaoben",
+      "name": "识典古籍",
+      "url": "https://www.shidianguji.com/book/CADAL02060114",
+      "metadata": {
+        "edition": "鈔本",
+        "version": "v2",
+        "total_page": 319,
+        "paragraph_count": 3160,
+        "check_type": "AI整理"
+      },
+      "types": [
+        "text",
+        "image"
+      ]
+    }
+  ],
+  "_has_text": true,
+  "_has_image": true
 }

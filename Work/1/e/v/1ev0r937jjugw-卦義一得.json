@@ -39,6 +39,19 @@
       "edition": "影印清華大學圖書館藏清順治來氏倘湖小築刻本",
       "volume": "第17冊",
       "section": "经部 易類"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《卦義一得》",
+      "summary": "二卷\n齊維籓曰先生於易靜觀動玩故其言渾而辨澤而精約而有本標曰一得得其一萬斯畢矣陸元輔曰集之字元成崇禎庚辰進士安慶府推官",
+      "section": "易",
+      "juan": "卷六十四",
+      "page": "KR2n0011_WYG_064-26a",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "resources": [
@@ -117,12 +130,22 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqxtv8bb40 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev0r937jjugw(來集之)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "ai_note": "從 1evjqxtv8bb40 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev0r937jjugw(來集之)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷"
 }

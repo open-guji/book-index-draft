@@ -20,6 +20,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "桓溫集",
       "summary": "桓溫集二十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《桓溫集》四十三卷",
+      "summary": "《桓溫集》四十三卷",
+      "merged_from": "1evgqatfu3400",
+      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
     }
   ],
   "juan_count": {
@@ -41,6 +49,19 @@
     }
   ],
   "measure_info": "十一卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉大司馬《桓溫集》十一卷（梁有四十三卷）」、兩唐志二十卷、國史經籍志四十三卷，同為東晉桓溫別集，今合為一條並繫 entity `1j968iupuca9u`。卷數之異隋志已自注「梁有四十三卷」，國史經籍志正合梁本之數。隋志本條下附「又有《桓溫要集》二十卷……」為附注他書之通例。",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "桓溫",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j968iupuca9u",
+      "note": "隋書經籍志題「晉大司馬《桓溫集》十一卷」，書名即撰人。桓溫（312-373）字元子。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」"
 }

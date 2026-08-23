@@ -1,43 +1,45 @@
 {
- "schema_version": 1,
- "type": "work",
- "id": "1evrbhp6ajr20",
- "title": "東山集",
- "authors": [
-  {
-   "name": "葛紹體",
-   "role": "撰",
-   "dynasty": "宋",
-   "entity_id": "1j969lr2t0rpd"
-  }
- ],
- "indexed_by": [
-  {
-   "source": "宋史藝文志補",
-   "source_bid": "1evfyhtrdkbnk",
-   "title_info": "東山集十卷",
-   "summary": "東山集十卷\n葛紹體撰。"
+  "schema_version": 1,
+  "type": "work",
+  "id": "1evrbhp6ajr20",
+  "title": "東山集",
+  "authors": [
+    {
+      "name": "葛紹體",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1j969lr2t0rpd"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "宋史藝文志補",
+      "source_bid": "1evfyhtrdkbnk",
+      "title_info": "東山集十卷",
+      "summary": "東山集十卷\n葛紹體撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《葛紹體東山集》十卷",
+      "summary": "《葛紹體東山集》十卷"
+    }
+  ],
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "updated_at": "2026-08-10",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "juan_count": {
+    "number": 10
   },
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《葛紹體東山集》十卷",
-   "summary": "《葛紹體東山集》十卷"
-  }
- ],
- "measures": [
-  {
-   "unit": "卷",
-   "number": 10
-  }
- ],
- "measure_info": "十卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": [],
- "juan_count": {
-  "number": 10
- },
- "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evgqdr5q95a8（撰人折入題名之異寫）併入本條（同題同撰人）。"
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evgqdr5q95a8（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志補》（清人補），故不晚於 song"
 }

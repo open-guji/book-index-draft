@@ -32,9 +32,16 @@
       "title_info": "《周易注》十卷",
       "summary": "《周易注》十卷（鄭玄）",
       "author_info": "鄭玄"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "鄭玄注周易",
+      "summary": "鄭玄注周易十卷",
+      "note": "自主經磁鐵拆出時補。"
     }
   ],
-  "ai_note": "同名書拆分創建。原文：漢鄭玄《周易註》三卷。 | 從 1evgop2rlh14w 合併。原註：从卷二 ambiguous 新建：B2:多个模糊作者匹配",
+  "ai_note": "同名書拆分創建。原文：漢鄭玄《周易註》三卷。 | 從 1evgop2rlh14w 合併。原註：从卷二 ambiguous 新建：B2:多个模糊作者匹配\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。 2026-08-21 新唐志四簇磁鐵拆解：「鄭玄注周易」節原繫主經之條，今歸本條。 2026-08-21 本條連記附屬部帙：補遺。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-21 補 original_title「周易」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
   "description": {
     "text": "《國史經籍志》收錄。",
     "sources": [
@@ -43,7 +50,7 @@
   },
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
@@ -51,7 +58,18 @@
   "additional_titles": [
     "周易註"
   ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）"
+  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "original_title": "周易"
 }

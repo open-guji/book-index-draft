@@ -37,5 +37,7 @@
   ],
   "measure_info": "八卷",
   "updated_at": "2026-08-08",
-  "ai_note": "2026-08-08 修復二字殘名：國史經籍志明確「吳廷舉」（明梧州蒼梧人，字獻臣，號东湖，正德間官），缺吳字，dyn吳更正為明。\n\n2026-08-08 補記：原關聯 Entity 1j96hjwlylnqg（張相侯）為錯誤關聯，已置entity_id=null，待新建正確Entity。"
+  "ai_note": "2026-08-08 修復二字殘名：國史經籍志明確「吳廷舉」（明梧州蒼梧人，字獻臣，號东湖，正德間官），缺吳字，dyn吳更正為明。\n\n2026-08-08 補記：原關聯 Entity 1j96hjwlylnqg（張相侯）為錯誤關聯，已置entity_id=null，待新建正確Entity。",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

@@ -29,12 +29,34 @@
       "edition": "上海圖書館藏明萬曆三十五年史學遷刻本",
       "volume": "第184冊",
       "section": "经部"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《樂經以俟録》（瞿九思）",
+      "summary": "六册\n按瞿氏論樂史學遷序之雖經鏤板然巻帙未定非完書也",
+      "section": "通禮",
+      "juan": "卷一百六十七",
+      "page": "KR2n0011_WYG_167-13a",
+      "attested_status": "extant",
+      "attested_status_raw": "存",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十六卷），今據以補。",
+  "juan_count": {
+    "number": 16
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 16
+    }
+  ],
+  "measure_info": "十六卷"
 }

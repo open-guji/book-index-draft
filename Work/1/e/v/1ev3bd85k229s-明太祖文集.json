@@ -3,7 +3,15 @@
   "id": "1ev3bd85k229s",
   "type": "work",
   "title": "明太祖文集",
-  "authors": [],
+  "authors": [
+    {
+      "name": "朱元璋",
+      "role": "撰",
+      "dynasty": "明",
+      "entity_id": null,
+      "note": "四庫全書總目、明史藝文志所錄之明太祖御製文集，撰人即明太祖朱元璋。 本庫無此 entity，未繫。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -60,7 +68,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'大艤'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：欽定四庫全書總目、明史藝文志、（無著錄來源之兜底記錄）所著錄同為一書，今合為一條並補撰人／編者「朱元璋」；本庫無其 entity，未繫。所併記錄為無著錄來源之兜底條目，卷數全合。四庫提要「明巡按直隸督學御史姚士觀、南京戶部督儲主事沈鈇仝校刊，分十八類」。\n\n2026-08-19 Book 繫連補記：Book `11qkhxonlbocg` 之 work_id 指向本條而本條之 books 未載，是單向之繫，今補其反向。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxonlbocg 與 11q37tsub17nk 同指文淵閣寫本一實物，今併於後者。",
   "measures": [
     {
       "unit": "卷",
@@ -68,11 +76,11 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-08-09T10:49:16+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
+  "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -6,6 +6,10 @@
   "primary_name": "朱申",
   "alt_names": [
     {
+      "name": "南伯",
+      "type": "字"
+    },
+    {
       "name": "熙時子",
       "type": "號"
     },
@@ -31,16 +35,33 @@
     {
       "work_id": "1evrbhp6a8iet",
       "role": "撰"
+    },
+    {
+      "work_id": "1ev3ba3equw3k",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ev3ba4ell69s",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjxjimjgz5s",
+      "role": "撰"
     }
   ],
   "external_ids": {
     "cbdb_id": 39349,
     "cbdb_match": "manual",
-    "cbdb_source": "manual+pid_39349_朱申_dy15"
+    "cbdb_source": "manual+pid_39349_朱申_dy15",
+    "cbdb_id_alt": [
+      101904
+    ]
   },
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "dynasty_basis": "author_propagation:round1",
   "period": "liao-jin-yuan",
   "period_basis": "synonym",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]"
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]\n\n2026-08-19 重複人物 entity 專項：庫中別有同名同代之記錄 `1j967avzkq2vt`（CBDB 101904，生 1260），本條 CBDB 39349、生 None。**二者 CBDB id 互異**，是史傳所載之兩人，非重出，不合併。元之世同名者多，凡 CBDB id 各異而生卒可別者，一概判為二人。\n\n2026-08-23 E1 同名同代人物併池：併入同名同代之 `1j967avzkq2vt`（CBDB 101904，1260–1318，繫《春秋左傳句解》《孝經句解》《音點春秋左傳詳節句解》）。斷為一人之由：《四庫總目》於《春秋左傳句解》《孝經句解》二提要皆云「元朱申撰。申有《周禮句解》，已著錄」——明指與存條所繫《周禮句解》同出一人；又存條所繫《春秋左傳節解》，王鏊序題作「宋魯齋朱申周翰注釋」，《元史藝文志》著「元朱申（字周翰）孝經句解一卷」，兩側之書同歸「周翰」一人。所著之「句解」一系相合而無相牴。生卒與別名「南伯」隨併入（出 CBDB 101904），其 id 存 cbdb_id_alt。",
+  "birth_year": 1260,
+  "death_year": 1318
 }

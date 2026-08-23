@@ -7,6 +7,27 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "禮記音二卷國子助教尹毅,謹按見《七録》。兩《唐志》仍著録二卷,《釋文敘録》作“十卷”,云:“毅,東晋天水人。”"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又二卷尹毅撰。",
+      "summary": "又二卷尹毅撰。",
+      "merged_from": "1evfublxn0gzk",
+      "note": "舊唐志「又二卷尹毅撰」承前省題之條，與本條同書；補晉志本條自記「兩《唐志》仍著録二卷」。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《禮記音》（尹穀）",
+      "summary": "七錄二卷（唐志同釋文序錄一卷）",
+      "section": "禮記",
+      "juan": "卷一百四十",
+      "page": "KR2n0011_WYG_140-4b",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "《經義考》標目「尹氏（穀）禮記音」與庫題《禮記音》題式不同而是一書，見 jyk_yi1_hold_tables.py 之裁"
     }
   ],
   "description": {
@@ -21,7 +42,8 @@
       "role": "注",
       "dynasty": "西晉",
       "entity_id": "1j96ha7rz9hq8",
-      "dynasty_basis": "entity_propagation_r2:1j96ha7rz9hq8"
+      "dynasty_basis": "entity_propagation_r2:1j96ha7rz9hq8",
+      "note": "據本條之原題「又二卷尹毅撰。」——志文「又N卷，某某注／撰」承前省題，其名即本書之撰人或注家。"
     }
   ],
   "juan_count": {
@@ -37,14 +59,14 @@
   "measure_info": "二卷",
   "related_works": [
     {
-      "id": "1evl7nlb2nda8",
+      "id": "d59f1iofm800",
       "title": "禮記",
       "relation": "contains_text_of"
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T18:18:57+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 B1 同名異書併池：併入 `1evcpctjf6fwg`（禮記音）。《禮記音》尹毅本：舊唐志作「又二卷尹毅撰」，補晉志本條考語自記「國子助教尹毅……兩《唐志》仍著録二卷」，同書。今併，正主取補晉志本。",
+  "updated_at": "2026-08-21T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",

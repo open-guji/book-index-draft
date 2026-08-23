@@ -1,49 +1,57 @@
 {
- "schema_version": 1,
- "type": "work",
- "title": "字旨篇",
- "authors": [
-  {
-   "name": "郭訓",
-   "role": "撰",
-   "entity_id": "1j96h8rw86q0j"
-  }
- ],
- "juan_count": {
-  "number": 1
- },
- "indexed_by": [
-  {
-   "source": "國史經籍志",
-   "source_bid": "1ev3bb4qxubr4",
-   "title_info": "《字旨篇》一卷",
-   "summary": "《字旨篇》一卷（郭訓）",
-   "author_info": "郭訓"
+  "schema_version": 1,
+  "type": "work",
+  "title": "字旨篇",
+  "authors": [
+    {
+      "name": "郭訓",
+      "role": "撰",
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw86q0j（明），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
   },
-  {
-   "source": "新唐書藝文志",
-   "source_bid": "1evcs059gkvls",
-   "title_info": "郭訓字旨篇",
-   "summary": "郭訓字旨篇一卷"
-  }
- ],
- "description": {
-  "text": "《國史經籍志》收錄。",
-  "sources": [
-   "國史經籍志"
-  ]
- },
- "ai_note": "missing_reason: 短title \"字旨篇\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0am2migw（撰人折入題名之異寫）併入本條（同題同撰人）。",
- "id": "1evgordyn5w5c",
- "measures": [
-  {
-   "unit": "卷",
-   "number": 1
-  }
- ],
- "measure_info": "一卷",
- "updated_at": "2026-08-10",
- "emendated_by": [],
- "books": [],
- "related_works": []
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《字旨篇》一卷",
+      "summary": "《字旨篇》一卷（郭訓）",
+      "author_info": "郭訓"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "郭訓字旨篇",
+      "summary": "郭訓字旨篇一卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《字旨篇》一卷",
+      "summary": "《字旨篇》一卷郭訓撰。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "missing_reason: 短title \"字旨篇\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0am2migw（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcv3k0sn4 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "id": "1evgordyn5w5c",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
+  "emendated_by": [],
+  "books": [],
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }

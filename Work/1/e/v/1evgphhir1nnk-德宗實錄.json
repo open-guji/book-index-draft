@@ -19,6 +19,14 @@
       "title_info": "《德宗實錄》五十卷",
       "summary": "《德宗實錄》五十卷（裴垍）",
       "author_info": "裴垍"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "德宗實録五十卷",
+      "summary": "德宗實録五十卷",
+      "merged_from": "1evgphhir1nnk",
+      "note": "異體重出組：崇文總目《德宗實録》五十卷裸條，與本條題名經異體歸一後全同——同題五十卷者唯本條裴垍《德宗實錄》。判為同書。"
     }
   ],
   "description": {
@@ -27,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=宣統時敕 vs anno=裴垍",
+  "ai_note": "missing_reason: 作者冲突 work=宣統時敕 vs anno=裴垍\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfay0c`（德宗實錄）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfay0c`（崇文總目《德宗實録》五十卷裸條）。二題之別僅在異體字，歸一後全同；同題五十卷者唯本條裴垍《德宗實錄》。",
   "id": "1evgphhir1nnk",
   "measures": [
     {
@@ -36,5 +44,12 @@
     }
   ],
   "measure_info": "五十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "period": "sui-tang",
+  "period_basis": "撰人 Entity 之代：裴垍（Entity 1j96h8rw86q1x），並經 CBDB c_personid 171253 覆驗相符",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "additional_titles": [
+    "德宗實録"
+  ]
 }

@@ -21,8 +21,44 @@
       "title_info": "《經史釋題》二卷",
       "summary": "《經史釋題》二卷（唐李肇）",
       "author_info": "唐李肇"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《經史釋題》（李肇）",
+      "summary": "唐志一卷\n崇文總目唐李肇撰起九經下至唐代實錄列篇帙之凡槩釋其題王應麟曰其序云經以學令爲定以藝文志爲編史以史通爲凖各列其題從而釋之",
+      "section": "羣經",
+      "juan": "卷二百四十一",
+      "page": "KR2n0011_WYG_241-18a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
     }
   ],
   "id": "1evcsw9lzs268",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "juan_count": {
+    "number": 2
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 2
+    }
+  ],
+  "measure_info": "二卷",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐李肇」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "authors": [
+    {
+      "name": "李肇",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": null,
+      "note": "據本 work 諸著錄之 author_info「唐李肇」補；著錄所給者為一，去朝代與職名後取之。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」"
 }

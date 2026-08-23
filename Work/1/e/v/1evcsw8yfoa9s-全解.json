@@ -8,8 +8,40 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《全解》",
       "summary": "《全解》一卷沈處厚"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《全解》一卷",
+      "summary": "《全解》一卷",
+      "merged_from": "1evcsw8yfoa9s",
+      "note": "同題二條而一方無撰人：彼條（國史經籍志，1卷，不著撰人）與本條（宋史藝文志，1卷，沈處厚撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "id": "1evcsw8yfoa9s",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "沈處厚",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": null,
+      "note": "宋史藝文志作「《全解》一卷沈處厚」，所繫撰人沈處厚。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為沈處厚《全解》一卷，與國史經籍志裸題之《全解》一卷（`1evgpnawh0m4g`）卷數同而該志未著撰人、亦未著所解之經，未便逕併，並存互見。\n\n2026-08-23 B1 同名異書併池：併入 `1evgpnawh0m4g`（全解）。2026-08-23 B10（同題一方無撰人）：併入 `1evgpnawh0m4g`（國史經籍志，1卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。"
 }

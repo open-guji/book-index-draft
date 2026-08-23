@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mdfimp",
+  "type": "work",
+  "title": "舒藝室詩存",
+  "authors": [
+    {
+      "name": "張文虎",
+      "role": "編",
+      "dynasty": "清",
+      "entity_id": "1j967a0kjvy1p"
+    }
+  ],
+  "juan_count": {
+    "number": 7
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "詩存",
+      "summary": "舒藝室雜著甲編二卷，乙編二卷，賸稿一卷，詩存七卷。張文虎撰。"
+    }
+  ],
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志集部別集類\n\n2026-08-19 部帙通名截題正名專項：本條原題「詩存」，乃著錄原文「舒藝室雜著甲編二卷，乙編二卷，賸稿一卷，詩存七卷。張文虎撰。」中之附屬部帙名，非完整書名。今據同條（或緊接之前條）之母書名補為《舒藝室詩存》，目錄原題記於 original_title。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 7
+    }
+  ],
+  "measure_info": "七卷",
+  "updated_at": "2026-08-19T00:00:00-07:00",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "dynasty": "清",
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "詩存",
+  "related_works": [
+    {
+      "id": "1evr5e3mdfimm",
+      "title": "舒藝室雜著甲編",
+      "relation": "part_of"
+    }
+  ]
+}

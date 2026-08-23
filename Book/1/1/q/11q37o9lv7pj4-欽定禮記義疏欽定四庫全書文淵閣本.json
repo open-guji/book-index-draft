@@ -12,6 +12,9 @@
         125,
         126
       ]
+    },
+    {
+      "id": "1ahwlq4d3tjwg"
     }
   ],
   "resources": [
@@ -605,6 +608,19 @@
           "imagecount": 130
         }
       ]
+    },
+    {
+      "id": "npm-rarebooks",
+      "name": "國立故宮博物院善本古籍",
+      "short_name": "故宮善本",
+      "url": "https://rarebooks-maps.npm.edu.tw/index.php?act=Archive/search/1-20/eyJwYWdlaW5nIjogIjEtMjAiLCAic2VhcmNoIjogW3siZmllbGQiOiAiQ21uTnVtYmVyIiwgInZhbHVlIjogIlx1NjU0NVx1NWVhYjAwMjczMC0wMDI3OTEifV0sICJwcWZpbHRlciI6IFtdLCAidHBmaWx0ZXIiOiB7fX0%3D",
+      "types": [
+        "physical"
+      ],
+      "metadata": {
+        "item_id": "故庫002730-002791",
+        "acckey": "dfa4af9f8708e42b1ee0b8048224cbd4"
+      }
     }
   ],
   "edition": "欽定四庫全書·文淵閣本",
@@ -612,5 +628,14 @@
     "欽定礼記義疏"
   ],
   "updated_at": "2026-05-18T00:03:58-07:00",
-  "_has_image": true
+  "_has_image": true,
+  "section": "經部",
+  "metadata": {
+    "npm_item_id": "故庫002730-002791",
+    "npm_acckey": "dfa4af9f8708e42b1ee0b8048224cbd4"
+  },
+  "merged_from": [
+    "11qkhvpn6jx8g"
+  ],
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：Book 11qkhvpn6jx8g（edition「清乾隆間寫文淵閣四庫全書本」，繫《國立故宮博物院善本舊籍》1ahwlq4d3tjwg，帶故宮著錄號 故庫002730-002791）併入本條。二者非兩部書——文淵閣《四庫全書》寫本原藏台北故宮，本條之 edition「欽定四庫全書·文淵閣本」著錄其於叢編中之冊次並繫維基共享影印，彼條著錄同一實物之故宮館藏，故合為一 Book，兩處著錄各存為 contained_in／resources。"
 }

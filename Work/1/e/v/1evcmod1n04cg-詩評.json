@@ -14,13 +14,25 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "詩評",
       "summary": "詩評三卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《詩評》",
+      "summary": "鍾嶸《詩評》一卷任昉",
+      "merged_from": "1evcmod1n04cg",
+      "note": "宋史藝文志作「鍾嶸《詩評》一卷」（其後「任昉」係下一條之撰人），與隋志《詩評》三卷鍾嶸撰同書，卷數之異乃著錄之異。"
     }
   ],
   "authors": [
     {
-      "name": "鐘嶸",
+      "name": "鍾嶸",
       "role": "撰",
-      "entity_id": "1j96hf1qwzoxs"
+      "entity_id": "1j96hew3tk5c0",
+      "alt_names": [
+        "鐘嶸"
+      ],
+      "name_basis": "「鐘」為「鍾」之簡轉繁過度轉換（鍾嶸字仲偉，梁人，《詩品》一名《詩評》之作者）；原形存 alt_names。"
     }
   ],
   "juan_count": {
@@ -34,5 +46,10 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-22T04:56:00.085903+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "ai_note": "2026-08-21 B1 同名異書併池：併入 `1evct44h1wmww`（詩評）。《詩評》（一名《詩品》）鍾嶸撰：隋志三卷、宋志一卷，同書異著錄。併宋志條入隋志本，並正撰人作「鍾嶸」——原作「鐘嶸」，乃簡轉繁之過度轉換。",
+  "period": "nanbeichao",
+  "period_basis": "撰人朝代闕，據其 Entity「鍾嶸」之 dynasty「南朝梁」傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

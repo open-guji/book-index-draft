@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "古文尚書",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又十卷姜道盛集注。",
+      "summary": "又十卷姜道盛集注。"
+    }
+  ],
+  "id": "1evcpct0w4b28",
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "authors": [
+    {
+      "name": "姜道盛",
+      "role": "集注",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "據本條之原題「又十卷姜道盛集注。」——志文「又N卷，某某注／撰」承前省題，其名即本書之撰人或注家。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evcpct0e0jk0",
+      "title": "古文尚書孔安國撰",
+      "relation": "same_title_source"
+    }
+  ],
+  "ai_note": "2026-08-20 承前省題（「又N卷某某撰」）正名專項：本條原題「又十卷姜道盛集注。」，乃志文承前省題之語——某志著一書之後，別本則但云「又N卷，某某注／撰」，不復書題。匯入時全取此語為題，遂不成書名。今據整理本上溯至最近一個不以「又」起首之節，得其書名《古文尚書》，正之；撰人補「姜道盛」（集注），原題記於 original_title。本條與前條同題而撰人異，是同一書之別本／別注，各為一 work。\n\n2026-08-21 original_title 清雜訊：撤去「又十卷姜道盛集注。」——志書原文殘片，非本條所本之書題。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+}

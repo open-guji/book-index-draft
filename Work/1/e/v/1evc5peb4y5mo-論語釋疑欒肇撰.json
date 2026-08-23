@@ -27,13 +27,20 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《論語釋疑》（欒肇）",
-      "summary": "隋志十卷",
+      "summary": "隋志十卷\n隋志晉尚書郎欒肇撰",
       "section": "論語",
       "juan": "卷二百十二",
       "page": "KR2n0011_WYG_212-2b",
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "欒肇論語釋",
+      "summary": "欒肇論語釋十卷",
+      "note": "隋志題論語釋疑，新唐題論語釋，同書。"
     }
   ],
   "juan_count": {
@@ -61,10 +68,15 @@
   "measure_info": "十卷",
   "related_works": [
     {
-      "id": "1ev7w0euvaeww",
+      "id": "d59f1iopaku8",
       "title": "論語",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-06T16:13:13+00:00"
+  "updated_at": "2026-08-22T04:56:00.092688+00:00",
+  "ai_note": "2026-08-21 新唐志四簇磁鐵拆解：「欒肇論語釋」節原繫主經之條，今歸本條。隋志題論語釋疑，新唐題論語釋，同書。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "jin",
+  "period_basis": "撰人朝代闕，據其 Entity「欒肇」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

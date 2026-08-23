@@ -7,7 +7,10 @@
       "name": "張鳯翼",
       "role": "輯",
       "dynasty": "明",
-      "entity_id": "1j98p56shxczk"
+      "entity_id": "1j967bgl6e345",
+      "alt_names": [
+        "張鳳翼"
+      ]
     }
   ],
   "indexed_by": [
@@ -38,6 +41,14 @@
       "edition": "影印明萬曆十三年信陽王氏刻本",
       "volume": "第1064冊",
       "section": "子部 術數類"
+    },
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "張鳳翼《夢佔類考》十二卷",
+      "summary": "張鳳翼《夢佔類考》十二卷",
+      "merged_from": "1evjxlrgoauio",
+      "note": "S 併池：夢占類考／夢佔類考"
     }
   ],
   "description": {
@@ -46,7 +57,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bboflcjr4(張鳳翼);1evdid43r0uf4(張鳳翼)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3bboflcjr4(張鳳翼);1evdid43r0uf4(張鳳翼)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evdid43r0uf4`（夢佔類考）。二條同題（占／佔之異；卜夢之字當作占）同撰（明張鳳翼）同卷數（十二卷）。本條繫四庫全書存目叢書、四庫總目、續修四庫全書三源，皆作《夢占類考》十二卷；被刪條繫明史藝文志作《夢佔類考》十二卷。存者取用字正之「占」，且源多。按：本條撰人欄作「張鳯翼」，「鳯」為「鳳」之訛形，其正名當作張鳳翼（已入 alt_names）；正名及其人物記錄（1j98p56shxczk／1j967cp20mp7g 同為一人）之併，屬 E 車道，此處只記不改，被刪條所繫之人物記錄已解其連以免生單向。　被刪條之 description：明代子部五行類著作。（源：明史藝文志）。",
   "juan_count": {
     "number": 12
   },
@@ -129,11 +140,14 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "夢佔類考"
+  ]
 }

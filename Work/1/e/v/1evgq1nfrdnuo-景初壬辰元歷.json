@@ -19,6 +19,14 @@
       "title_info": "《景初壬辰元歷》一卷",
       "summary": "《景初壬辰元歷》一卷（楊左）",
       "author_info": "楊左"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《景初壬辰元曆》一卷",
+      "summary": "《景初壬辰元曆》一卷楊沖撰。",
+      "merged_from": "1evcmne94o0lc",
+      "note": "本著錄原繫題作「景初壬辰元曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -35,5 +43,21 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-20T00:00:00-07:00",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "《景初壬辰元曆》一卷",
+      "summary": "景初壬辰元曆一卷 楊沖撰\n汪氏《推步諸術考》:案《隋經籍志》既有楊偉《景初術》,又\n有楊沖《景初壬辰元術》一卷,當是複出。\n案《景初曆》曆元本是壬辰,此又云《壬辰元曆》,故汪氏以\n為複出。楊沖之“沖”,亦疑草寫“偉”字之誤。",
+      "merged_from": "1evcmne94o0lc",
+      "note": "本著錄原繫題作「景初壬辰元曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
+    }
+  ],
+  "additional_titles": [
+    "景初壬辰元曆"
+  ],
+  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《景初壬辰元曆》之 work（`1evcmne94o0lc`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
 }

@@ -8,6 +8,19 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《周易占事》十二卷",
       "summary": "《周易占事》十二卷漢魏郡太守京房撰。"
+    },
+    {
+      "source": "經義考",
+      "source_bid": "1ev3bb43bv4lc",
+      "title_info": "《周易占事》",
+      "summary": "隋志五行家十二卷",
+      "section": "易",
+      "juan": "卷七",
+      "page": "KR2n0011_WYG_007-2a",
+      "attested_status": "lost",
+      "attested_status_raw": "佚",
+      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
+      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "authors": [
@@ -38,10 +51,15 @@
   "measure_info": "十二卷",
   "related_works": [
     {
-      "id": "1evl7l48e27ls",
+      "id": "d59ezakdey2o",
       "title": "周易",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-14T02:29:29-07:00"
+  "updated_at": "2026-08-22T04:56:00.109467+00:00",
+  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：本條為合刻數書之磁鐵，整理本原以本 work 之 id 兼繫其各節。下列 1 節之題與卷數在庫中皆已別有其 work，今各歸其主：《《周易占》十二卷》→《周易占》`1evgq24k0yby8`。",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "period": "qin-han",
+  "period_basis": "撰人朝代闕，據其 Entity「京房」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
 }

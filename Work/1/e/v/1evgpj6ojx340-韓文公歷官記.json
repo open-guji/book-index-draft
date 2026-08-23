@@ -6,7 +6,9 @@
     {
       "name": "張敦頤",
       "role": "撰",
-      "entity_id": "1j96h8rw8hyiw"
+      "entity_id": "1j967avzmli6j",
+      "dynasty": "北宋",
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw8hyiw（清），其代晚於本書上限 song，是同名異代之誤繫；改繫 1j967avzmli6j（北宋）。"
     }
   ],
   "juan_count": {
@@ -24,6 +26,14 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "韓文公歷官記"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《韓文公曆官記》",
+      "summary": "《韓文公曆官記》一卷（（程俱撰））羅誘（（一作「羅綺」））",
+      "merged_from": "1evcsxfei258g",
+      "note": "本著錄原繫題作「韓文公曆官記」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "description": {
@@ -40,5 +50,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-05-14T02:04:40-07:00"
+  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "additional_titles": [
+    "韓文公曆官記"
+  ],
+  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《韓文公曆官記》之 work（`1evcsxfei258g`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song"
 }

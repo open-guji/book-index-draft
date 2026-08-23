@@ -29,13 +29,30 @@
       "source": "經義考",
       "source_bid": "1ev3bb43bv4lc",
       "title_info": "《春秋三傳論》（韓益）",
-      "summary": "隋志十卷",
+      "summary": "隋志十卷\n隋書魏大長春秋韓益撰",
       "section": "春秋",
       "juan": "卷一百七十三",
       "page": "KR2n0011_WYG_173-3a",
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《春秋三傳論》十卷",
+      "summary": "《春秋三傳論》十卷韓益撰。",
+      "merged_from": "1evcpcudw2cqo",
+      "note": "《春秋三傳論韓益撰》與《春秋三傳論》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《春秋三傳論》十卷",
+      "summary": "《春秋三傳論》十卷（魏、韓益。）",
+      "author_info": "魏、韓益。",
+      "merged_from": "1evcpcudw2cqo",
+      "note": "《春秋三傳論韓益撰》與《春秋三傳論》乃同一書之二題（一冠撰人、一不冠），撰人相容，係重出，今合併。"
     }
   ],
   "juan_count": {
@@ -61,9 +78,13 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」（原authors[0]缺dynasty欄位，2026-08-11三國魏晉探勘據所繫Entity補入）",
   "dynasty": "三國魏",
-  "dynasty_basis": "period_fallback:three-kingdoms→三國"
+  "dynasty_basis": "period_fallback:three-kingdoms→三國",
+  "additional_titles": [
+    "春秋三傳論"
+  ],
+  "ai_note": "2026-08-19 題名重出（長題＝撰人＋短題）專項：本條題《春秋三傳論韓益撰》，庫中別有題《春秋三傳論》者（`1evcpcudw2cqo`）——長題恰為「撰人＋短題」而撰人相容，是同一書之二題，非二書。此型因索引 title 不同而不入同名異書核對之掃描，今別為專項清之。"
 }

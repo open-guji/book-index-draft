@@ -4,7 +4,12 @@
   "subtype": "people",
   "primary_name": "寇宗奭",
   "dynasty": "北宋",
-  "alt_names": [],
+  "alt_names": [
+    {
+      "name": "冦宗奭",
+      "type": "訛名"
+    }
+  ],
   "works": [
     {
       "work_id": "1evjr3pgraha8",
@@ -25,8 +30,9 @@
     "cbdb_source": "name+dy_match+unique freq=4"
   },
   "id": "1j98p17aswq9s",
-  "updated_at": "2026-08-09T09:23:31+00:00",
+  "updated_at": "2026-08-19T00:00:00-07:00",
   "dynasty_basis": "author_round3_manual_propagation:北宋",
   "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并"
+  "period_basis": "据 dynasty「北宋」自动归并",
+  "ai_note": "2026-08-19 同題異撰人專項：庫中別有 entity「冦宗奭」（`1j96hg8cw9edc`），乃本人姓名之異寫或形訛，其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
 }

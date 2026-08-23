@@ -20,9 +20,21 @@
       "source_bid": "1evdiulq07rwg",
       "title_info": "藝概",
       "summary": "藝概六卷。劉熙載撰。"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《藝槩》六卷",
+      "author_info": "(清)劉熙載撰",
+      "summary": "《藝槩》六卷。(清)劉熙載撰。影印清同治刻古桐書屋六種本。",
+      "edition": "影印清同治刻古桐書屋六種本",
+      "volume": "第1714冊",
+      "section": "集部 集部",
+      "merged_from": "1evr5e3me1zur",
+      "note": "S 併池：藝概／藝槩"
     }
   ],
-  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志集部詩文評類",
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志集部詩文評類\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evjrajyjrif4`（藝槩）。二條同題（概／槩異體）同撰（清劉熙載）同卷數（六卷）：被刪條繫續修四庫全書之清同治刻古桐書屋六種本，本條繫清史稿藝文志。存者取用字正之「概」。",
   "measures": [
     {
       "unit": "卷",
@@ -38,12 +50,34 @@
       "types": [
         "text"
       ]
+    },
+    {
+      "id": "wikimedia-commons-xuxiu",
+      "name": "維基共享 續修四庫全書 PDF",
+      "short_name": "維基共享",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1714%E5%86%8A.pdf",
+      "metadata": {
+        "volume": 1714
+      },
+      "types": [
+        "image"
+      ]
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "additional_titles": [
+    "藝槩"
+  ],
+  "description": {
+    "text": "本書收入《續修四庫全書》第1714冊（集部）。",
+    "sources": [
+      "續修四庫全書"
+    ]
+  },
+  "_has_image": true
 }

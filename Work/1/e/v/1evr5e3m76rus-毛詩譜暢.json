@@ -22,7 +22,7 @@
       "summary": "吳徐整《毛詩譜暢》一卷。"
     }
   ],
-  "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　輯佚檔：本書之輯佚著錄置於 fragments/毛詩譜暢.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-16 懸空作者繫連訂正：原繫 entity 1j969m70pr668，該記錄已不存（索引與檔案俱無）；本書撰人徐整為三國吳人，改繫其正條 1j96kecnze22o。",
+  "ai_note": "清史稿藝文志經部詩類輯佚條目。 來源：清史稿藝文志經部詩類　輯佚檔：本書之輯佚著錄置於 fragments/毛詩譜暢.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-16 懸空作者繫連訂正：原繫 entity 1j969m70pr668，該記錄已不存（索引與檔案俱無）；本書撰人徐整為三國吳人，改繫其正條 1j96kecnze22o。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
   "measures": [
     {
       "unit": "卷",
@@ -32,12 +32,12 @@
   "measure_info": "一卷",
   "related_works": [
     {
-      "id": "1evl7hsxvr7cw",
+      "id": "d59ezak9zc3k",
       "title": "詩經",
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
+  "loss_status": "partially_extant",
   "updated_at": "2026-08-18T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 清史稿藝文志citation朝代字首「吳」（2026-08-18 清史稿藝文志系統性排查Round1：citation朝代字首「吳」，無entity衝突，直接訂正；entity_id沿用2026-08-16已訂正之正確繫連）"

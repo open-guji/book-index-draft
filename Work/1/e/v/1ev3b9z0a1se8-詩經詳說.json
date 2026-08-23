@@ -47,18 +47,28 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxjbzdi7sw 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3b9z0a1se8(冉覲祖)（不同作者，故新建獨立 Work）。",
+  "ai_note": "從 1evjxjbzdi7sw 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3b9z0a1se8(冉覲祖)（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九十四卷），今據以補。",
   "related_works": [
     {
-      "id": "1evl7hsxvr7cw",
+      "id": "d59ezak9zc3k",
       "title": "詩經",
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_text": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "juan_count": {
+    "number": 94
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 94
+    }
+  ],
+  "measure_info": "九十四卷"
 }
