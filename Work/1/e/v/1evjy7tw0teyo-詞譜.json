@@ -15,16 +15,36 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：31hyr4yqzv77j(敕撰)（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「王奕清等」，「等」謂王奕清及其他未具名之纂修者，非姓名之一部，今剝離作「王奕清」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：31hyr4yqzv77j(敕撰)（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「王奕清等」，「等」謂王奕清及其他未具名之纂修者，非姓名之一部，今剝離作「王奕清」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mezpi0`（詞譜）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3mezpi0`（清史稿藝文志，不著撰人，40卷）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evjy7tw0teyo",
   "books": [
     "11qk4xwcxk3sr",
     "11qki2gd3zitc",
     "11qki5ii9zqbk"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "詞譜",
+      "summary": "詞譜四十卷。康熙五十四年御定。",
+      "merged_from": "1evjy7tw0teyo",
+      "note": "同題二條而一方無撰人：彼條（清史稿藝文志）不著撰人而作40卷，本條（）作「王奕清」撰、不著卷數。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又所著之卷數為孤證，無他家可繫，判為同書。"
+    }
+  ],
+  "juan_count": {
+    "number": 40
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 40
+    }
+  ],
+  "measure_info": "四十卷"
 }

@@ -20,6 +20,21 @@
       "title_info": "《六帖》三十卷",
       "summary": "《六帖》三十卷（唐于政立）",
       "author_info": "唐于政立"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "六帖三十卷",
+      "summary": "六帖三十卷",
+      "merged_from": "1evgq5yxltw5c",
+      "note": "同題二條而一方無撰人：彼條（崇文總目、直齋書錄解題，30卷，不著撰人）與本條（國史經籍志，30卷，于政立撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "六帖",
+      "merged_from": "1evgq5yxltw5c",
+      "note": "同題二條而一方無撰人：彼條（崇文總目、直齋書錄解題，30卷，不著撰人）與本條（國史經籍志，30卷，于政立撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -28,7 +43,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"六帖\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 短title \"六帖\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfxf44`（六帖）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3mfxf44`（崇文總目、直齋書錄解題，30卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evgq5yxltw5c",
   "measures": [
     {
@@ -37,7 +52,7 @@
     }
   ],
   "measure_info": "三十卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",

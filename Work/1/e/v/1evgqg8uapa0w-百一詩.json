@@ -27,6 +27,21 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "應璩百一詩",
       "summary": "應璩百一詩八卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《百一詩》八卷",
+      "summary": "《百一詩》八卷應璩撰。",
+      "merged_from": "1evgqg8uapa0w",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志、補晋書藝文志，8卷，不著撰人）與本條（國史經籍志、新唐書藝文志，8卷，應璩撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "百一詩二卷 蜀郡太守李彪,謹按見《七録》。",
+      "merged_from": "1evgqg8uapa0w",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志、補晋書藝文志，8卷，不著撰人）與本條（國史經籍志、新唐書藝文志，8卷，應璩撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -35,7 +50,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"百一詩\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17mvm39c（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "ai_note": "missing_reason: 短title \"百一詩\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs17mvm39c（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpd8xw2sjk`（百一詩）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpd8xw2sjk`（舊唐書經籍志、補晋書藝文志，8卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evgqg8uapa0w",
   "measures": [
     {
@@ -54,11 +69,9 @@
       ]
     }
   ],
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
-  "emendated_by": [],
   "books": [],
-  "related_works": [],
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
 }

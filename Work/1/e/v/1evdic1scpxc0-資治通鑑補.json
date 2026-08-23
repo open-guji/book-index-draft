@@ -30,6 +30,14 @@
       "edition": "影印上海辭書出版社圖書館藏清光緒二年盛氏思補樓活字印本",
       "volume": "第341冊",
       "section": "史部 史部"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "《資治通鑑補》",
+      "summary": "二百九十四卷。嚴衍。附《刊誤》二卷。童和豫。咸豐元年江夏童氏活字本，印行不多。",
+      "merged_from": "1evdic1scpxc0",
+      "note": "同題二條而一方無撰人：彼條（書目答問，294卷，不著撰人）與本條（明史藝文志、續修四庫全書，294卷，嚴衍撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -62,11 +70,15 @@
   "additional_titles": [
     "資治通鑒補"
   ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 270，與著錄原文（續修四庫全書：「資治通鑑補」）所載之 294 卷不合，今據原文訂正。"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 270，與著錄原文（續修四庫全書：「資治通鑑補」）所載之 294 卷不合，今據原文訂正。\n\n2026-08-23 B1 同名異書併池：併入 `1evincnxg3bi8`（資治通鑑補）。2026-08-23 B10（同題一方無撰人）：併入 `1evincnxg3bi8`（書目答問，294卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "books": [
+    "11qkhzom853i8",
+    "11qki07b6jb40"
+  ]
 }
