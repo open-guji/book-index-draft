@@ -47,8 +47,9 @@
   "period_basis": "據 authors[0].dynasty「陳」（2026-08-21 訂正：原標「清」，據清史稿著錄語之朝代前綴改）",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「陳僧智匠《古今樂錄》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「陳」、period 為 nanbeichao。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsw754w3cw`（古今樂錄）。2026-08-23 B4 異體字重出併池：併入 `1evcsw754w3cw`（宋史藝文志作《古今樂録》）。二題之別僅在異體字，歸一後全同；撰人之異在於——撰人俱作釋智匠，卷數俱不著。全庫同題僅此二條，同書。\n\n2026-08-23 B 車道併池：本條之輯佚檔隨所併入之條遷入本目錄，檔位 `Work/1/e/v/1evcpcttjrmdc/fragments/古今樂録.json`，檔內 work_id 已隨路徑改繫。",
+  "ai_note": "2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「陳僧智匠《古今樂錄》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「陳」、period 為 nanbeichao。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsw754w3cw`（古今樂錄）。2026-08-23 B4 異體字重出併池：併入 `1evcsw754w3cw`（宋史藝文志作《古今樂録》）。二題之別僅在異體字，歸一後全同；撰人之異在於——撰人俱作釋智匠，卷數俱不著。全庫同題僅此二條，同書。\n\n2026-08-23 B 車道併池：本條之輯佚檔隨所併入之條遷入本目錄，檔位 `Work/1/e/v/1evcpcttjrmdc/fragments/古今樂録.json`，檔內 work_id 已隨路徑改繫。\n\n2026-08-23 母條輯佚檔相違裁定（known-issues 第七節）：loss_status 補 partially_extant。本書傳本斷絕而確有其文存世（輯佚檔載輯家：馬國翰），依 SCHEMA 2026-08-21 訂正之準（凡有文存世即 partially_extant，傳本斷絕之事由輯佚檔之存在承載）。",
   "additional_titles": [
     "古今樂録"
-  ]
+  ],
+  "loss_status": "partially_extant"
 }

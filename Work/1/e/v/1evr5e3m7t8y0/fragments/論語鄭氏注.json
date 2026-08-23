@@ -1,6 +1,6 @@
 {
   "work_id": "1evr5e3m7t8y0",
-  "title": "論語注",
+  "title": "論語鄭氏注",
   "type": "fragments",
   "schema_version": 2,
   "coverage": {
@@ -20,6 +20,11 @@
       "source": "後漢藝文志",
       "source_bid": "1eve1ei9whji8",
       "field": "emendated_by"
+    },
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "field": "collated_edition"
     }
   ],
   "collectors": [
@@ -30,8 +35,34 @@
       "count_unit": null,
       "statement": null,
       "note": "考證但稱其名，未載輯本序，條數未詳。",
-      "basis": "考證著其輯本或稱其名",
-      "work_id": "1evjr68pzxog0"
+      "basis": "考證著其輯本或稱其名；玉函山房輯佚書目錄（光緒九年長沙嫏嬛館補校刊本）著錄本書",
+      "work_id": "1evjr68pzxog0",
+      "sections": [
+        {
+          "file": "經編·論語類.json",
+          "index": 6,
+          "title": "論語鄭氏注十卷",
+          "part": "main",
+          "juan_no": 43,
+          "lei": "論語類"
+        },
+        {
+          "file": "續編·子編·十三經漢注.json",
+          "index": 16,
+          "title": "論語鄭氏注一卷",
+          "part": "supplement",
+          "juan_no": null,
+          "lei": "十三經漢注"
+        },
+        {
+          "file": "續編·經編·論語孟子類.json",
+          "index": 2,
+          "title": "論語鄭氏注一卷",
+          "part": "supplement",
+          "juan_no": null,
+          "lei": "論語孟子類"
+        }
+      ]
     },
     {
       "collector": "王謨",
@@ -47,7 +78,7 @@
   "cited_in_summary": [],
   "cited_in_summary_note": "resolved 為假者，謂該處之佚文尚未析出為 fragments 之條目；得文本後逐條析出，乃改為真。count 為空者，考證未言其數。",
   "fragments": [],
-  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。",
+  "ai_note": "本檔為輯佚著錄層，自考證本文機讀生成：輯本序取引號內全文，條數取序中「凡／共／得 N 條」，出處取「《某書》[卷]引」而限於類書、古注、政書之屬。考證未言者一律留空，不以他書推補。得輯本原書或類書文本後，當逐條補 fragments 之 text 並改 coverage.level 為文本層。　loss_status 由中文值「全佚」遷為枚舉 lost（見 SCHEMA「loss_status 枚舉」）。 2026-08-23 先秦遺留清理：併 1ewsa4ae4qjms 之玉函山房著錄層（馬國翰 sections）入本檔，一書一檔。",
   "statement_note": "本 statement 由本檔已有之欄（collectors、coverage、cited_in_summary、based_on）連綴而成，未引外據。",
   "schema_ref": "SCHEMA.md#輯佚檔fragments"
 }
