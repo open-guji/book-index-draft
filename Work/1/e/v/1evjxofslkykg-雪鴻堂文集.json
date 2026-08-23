@@ -21,16 +21,6 @@
       "section": "集部"
     },
     {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《雪鴻堂文集》四卷",
-      "author_info": "清李鍾璧撰",
-      "summary": "《雪鴻堂文集》四卷。清李鍾璧撰。北京大學圖書館藏清康煕五十七年刻雪鴻堂全集本。",
-      "edition": "北京大學圖書館藏清康煕五十七年刻雪鴻堂全集本",
-      "volume": "第261冊",
-      "section": "集部"
-    },
-    {
       "source": "欽定四庫全書總目",
       "source_bid": "d59dh3vo9af4",
       "title_info": "《雪鴻堂文集》·二卷",
@@ -46,7 +36,7 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3be7yauw3k(李蕃)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3be7yauw3k(李蕃)（不同作者，故新建獨立 Work）。\n\n2026-08-23 A2 車道磁鐵拆分：李鍾璧《雪鴻堂文集》四卷與其弟李鍾峩之二卷本、其父李蕃之十八卷本同刻於康熙五十七年《雪鴻堂全集》，而各為一集。析出 1ex066qzzlp1k《雪鴻堂文集》。",
   "juan_count": {
     "number": 2
   },
@@ -62,5 +52,12 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex066qzzlp1k",
+      "title": "雪鴻堂文集",
+      "relation": "related"
+    }
+  ]
 }

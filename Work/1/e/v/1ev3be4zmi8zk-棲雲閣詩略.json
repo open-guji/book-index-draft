@@ -15,31 +15,13 @@
     {
       "source": "欽定四庫全書總目",
       "source_bid": "d59dh3vo9af4",
-      "title_info": "《棲雲閣詩》•十六卷、《拾遺》•三卷",
+      "title_info": "《棲雲閣詩略》•",
       "author_info": "國朝高珩撰",
-      "summary": "國朝高珩撰。珩字蔥佩，號念東，晚號“紫霞道人”。前明崇禎癸未進士；入國朝，官至刑部侍郎。王士禎《居易錄》，稱其生平撰著，不減萬篇。是集，為趙執信所編；又《拾遺》三卷，則宋弼所輯。其詩多率意而成，故往往近元、白《長慶集》體。",
-      "edition": "山東巡撫采進本"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "棲雲閣詩",
-      "summary": "棲雲閣詩十六卷。高珩撰。"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《栖雲閣詩》十六卷 拾遺三卷 文集十五卷",
-      "author_info": "清高珩撰",
-      "summary": "《栖雲閣詩》十六卷 拾遺三卷 文集十五卷。清高珩撰。上海師範大學圖書館藏清乾隆三年四十四年刻合印本。",
-      "edition": "上海師範大學圖書館藏清乾隆三年四十四年刻合印本",
-      "volume": "第199冊",
-      "section": "集部"
+      "summary": "國朝高珩撰。此集猶抄寫之本，以各體編次，不分卷數，題曰男之駰、之駒同校閱，蓋未刻全集以前，其家錄存之稿也。",
+      "edition": "無卷數，編修勵守謙家藏本",
+      "note": "2026-08-23 A2 車道補立：本條原有之著錄條已隨磁鐵拆分移出，今據本志繫本條之節補其自己的著錄。"
     }
   ],
-  "juan_count": {
-    "number": 16
-  },
   "additional_works": [
     {
       "book_title": "拾遺",
@@ -72,25 +54,26 @@
       ]
     }
   ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
+  "measure_info": "不分卷",
   "description": {
     "text": "本書收入《四庫全書存目叢書》第199冊（集部）。",
     "sources": [
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxntf4y5mo 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3be4zmi8zk(高珩)（不同作者，故新建獨立 Work）。",
+  "ai_note": "從 1evjxntf4y5mo 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3be4zmi8zk(高珩)（不同作者，故新建獨立 Work）。\n\n2026-08-23 A2 車道磁鐵拆分：母條題名作《棲雲閣詩略》，而其卷數（十六）與三條著錄（四庫總目「《棲雲閣詩》•十六卷、《拾遺》•三卷」、清史稿「棲雲閣詩」、存目叢書「《栖雲閣詩》十六卷 拾遺三卷 文集十五卷」）所指皆是《棲雲閣詩》十六卷本；《棲雲閣詩略》則是未刻全集以前其家錄存之稿本，不分卷。故析出者是十六卷本，母條留與《詩略》相配——如此不必動母條之題名（題名屬併池車道）。析出 1ex066qtx3ksj《棲雲閣詩》。　卷數訂正：原作十六卷，乃《棲雲閣詩》之數（隨新條移出）；本書提要自言「不分卷數」，今改記「不分卷」。",
   "updated_at": "2026-08-09T10:40:18+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex066qtx3ksj",
+      "title": "棲雲閣詩",
+      "relation": "related"
+    }
+  ]
 }

@@ -62,7 +62,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "作者「明華察等撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkald2fzfnk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3berxei2o0()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "作者「明華察等撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkald2fzfnk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3berxei2o0()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 A2 車道磁鐵拆分：《皇華集》乃明使與朝鮮文臣唱酬之作，歷朝各有其集，朝鮮國所刊。本節之十三卷本錄天順、成化、弘治、正德、嘉靖十朝之詩，與所繫之二卷本（正德十六年唐皋、史道奉使，朝鮮國王李懌命編）非一書。析出 1ex066quyvais《皇華集》。\n\n2026-08-23 A2 車道磁鐵拆分：存目叢書所影印之《皇華集》二十四卷（明朝鮮官府編，明朝鮮銅活字本），卷數與四庫總目所著之二卷本、十三卷本皆異，別是一編。析出 1ex066qw5bked《皇華集》。",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖019140-019144）。清初檇李曹氏倦圃抄本。",
     "sources": [
@@ -78,5 +78,17 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "related_works": [
+    {
+      "id": "1ex066quyvais",
+      "title": "皇華集",
+      "relation": "related"
+    },
+    {
+      "id": "1ex066qw5bked",
+      "title": "皇華集",
+      "relation": "related"
+    }
+  ]
 }

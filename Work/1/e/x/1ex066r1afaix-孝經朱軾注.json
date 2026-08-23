@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "孝經朱軾注",
+  "id": "1ex066r1afaix",
+  "authors": [
+    {
+      "name": "朱軾",
+      "role": "注",
+      "dynasty": "清"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "indexed_by": [
+    {
+      "source": "欽定四庫全書總目",
+      "source_bid": "d59dh3vo9af4",
+      "title_info": "《孝經》•一卷",
+      "author_info": "國朝朱軾注",
+      "summary": "國朝朱軾注。軾有《周易傳義合訂》，已著錄。是編用吳澄考定之本，而略為推衍其義。凡不題姓名者，皆澄原文。凡稱“軾按”者，皆所加也。前有《自序》，又有梁份、殷元福二《序》。份《序》稱“其書不標目第，自稱曰朱某學。公，大儒也，大臣也，而捴謙若是”云云。按漢儒傳經如梁邱氏《易》、夏侯氏《尚書》之類，多不立名目，軾蓋從此例。又何休注《公羊傳》，稱“何休學”，亦非軾所自創也。",
+      "edition": "江西巡撫采進本",
+      "note": "2026-08-23 A2 車道據本志此節新立（磁鐵拆分）。"
+    }
+  ],
+  "related_works": [
+    {
+      "id": "1evl1xugdoikg",
+      "title": "孝經",
+      "relation": "studies"
+    }
+  ],
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-23 A2 車道磁鐵拆分：本節之提要為「國朝朱軾注……用吳澄考定之本而略為推衍其義」，是注本，非《孝經》白文。依 SCHEMA〈原典與注本〉別立 Work。本條自 1evl1xugdoikg 析出，著錄條 1 條隨節移入。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}

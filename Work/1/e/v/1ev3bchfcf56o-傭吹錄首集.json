@@ -53,10 +53,17 @@
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxmflvj4lc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evjxmflvj4lc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 A2 車道磁鐵拆分：《傭吹錄二集》二十一卷（康熙求是堂刻本）與《傭吹錄首集》二十卷（康熙四年古秋堂刻本）別為一刻。四庫總目本作一條著錄二書（《傭吹錄首集》·二十卷、《次集》·二十一卷），匯入時併為一條。析出 1ex066qxin286《傭吹錄二集》。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "related_works": [
+    {
+      "id": "1ex066qxin286",
+      "title": "傭吹錄二集",
+      "relation": "followed_by"
+    }
+  ]
 }
