@@ -20,6 +20,14 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《吳章》二卷",
       "summary": "《吳章》二卷陸機撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《吳章》一卷",
+      "summary": "《吳章》一卷",
+      "merged_from": "1evfubyqlef40",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，1卷，不著撰人）與本條（國史經籍志、補晋書藝文志、隋書經籍志，2卷，陸機撰）題名全同、著錄異源，卷數僅差一（1／2）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。"
     }
   ],
   "description": {
@@ -48,13 +56,13 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "從 1evgoraf7ud4w 合併。原註：missing_reason: 短title \"吳章\" 唯一候选无作者　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-09 題名重出 Round 1：合併空殼 Work 1evc5perrnbi8（吳章陸機撰）入本條；判準：吳章陸機撰 → 吳章。",
+  "ai_note": "從 1evgoraf7ud4w 合併。原註：missing_reason: 短title \"吳章\" 唯一候选无作者　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-09 題名重出 Round 1：合併空殼 Work 1evc5perrnbi8（吳章陸機撰）入本條；判準：吳章陸機撰 → 吳章。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcva9b8jk`（吳章）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evcpcva9b8jk`（舊唐書經籍志，1卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。",
   "additional_titles": [
     "吴章",
     "吳章陸機撰"
   ],
   "loss_status": "lost",
-  "updated_at": "2026-08-09T18:40:25+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
