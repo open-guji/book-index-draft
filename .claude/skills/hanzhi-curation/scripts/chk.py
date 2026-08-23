@@ -298,7 +298,11 @@ dang=_c.Counter(); dang_is_book=0; dang_ids=set()
 # 「懸空關聯」一驗其 allids 早已併入 prod（見上文），落空一驗未併，同一情形
 # 兩驗異判。今補之——掛了 production 倉時 _TITLE 自足，此項不過多一層保險。
 _EXIST_W=set(IW)|set(_TITLE)|prod
-_EXIST_B=set(IB)
+# Book 側同理——`book_id` 亦有指已升格之 production Book 者（《脂硯齋重評石頭
+# 記》諸本之屬）。promotions.json 之 type 分 work／book，此處不分而全取：
+# id 空間本不相犯，多取無害而少取則生誤報。2026-08-23 立。
+_EXIST_B=set(IB)|prod
+_COLL=set(IC); _sec2coll=0; _coll_ids=set()
 if _PR_ROOT:
     for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
         try: _d=json.load(open(_p))
@@ -315,6 +319,14 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
+            # 指 Collection 者不是落空——其標的在庫，只是欄名不當。
+            # 《中國通俗小說書目》卷九附錄二〈叢書目〉之節（《四大奇書》《前後
+            # 七國志》《怡園五種》之屬）本是叢書，庫中以 Collection 記之，而
+            # 節仍用 work_id 一欄。SCHEMA〈整理本 section 的三個指涉欄位〉只列
+            # work_id／book_id／target_bid，無指 Collection 者——**當否立
+            # collection_id 一欄是 SCHEMA 之事，屬單線車道**，故此處不併入
+            # _EXIST_W（併之則此事自此隱沒），另立一數以存其目。2026-08-23 立。
+            if w in _COLL: _sec2coll+=1; _coll_ids.add(w); continue
             if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in _EXIST_B: dang_is_book+=1
@@ -325,6 +337,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
+print('整理本節之 work_id 實指 Collection',_sec2coll,'相異 id',len(_coll_ids),
+      '　基線 13（《中國通俗小說書目》叢書目；SCHEMA 未收 collection_id 一欄，待單線車道裁）')
 for k,v in dang.most_common(6): print('  ',k,v)
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
