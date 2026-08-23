@@ -39,7 +39,18 @@ for p in glob.glob('Entity/*/*/*/*.json'):
     try: ents.add(json.load(open(p))['id'])
     except Exception: pass
 allids=set(IW)|set(IB)|set(IC)|prod|ents
-selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]; derived=[]; rwdrift=[]
+selfref=nullrel=0; dang=[]; notidx=[]; mism=[]; parse=[]; derived=[]; rwdrift=[]; rwdup=[]
+# 權威題名：draft 之 Work／Collection 索引，加 production 兩類記錄檔。
+_TITLE={k:v.get('title') for k,v in IW.items()}
+_TITLE.update({k:v.get('title') for k,v in IC.items()})
+_PR_ROOT=next((r for r in ('../book-index','book-index') if os.path.isdir(r+'/Work')),None)
+if _PR_ROOT:
+    for _t in ('Work','Collection'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json'%(_PR_ROOT,_t)):
+            try: _d=json.load(open(_p))
+            except Exception: continue
+            if isinstance(_d,dict) and _d.get('id') and _d.get('title'):
+                _TITLE.setdefault(_d['id'],_d['title'])
 b2w={}; w2b={}
 for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
     for p in glob.glob(pat):
@@ -74,21 +85,34 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
         for _k,_v in _want.items():
             if (d.get(_k) or False)!=_v: derived.append((p,_k,d.get(_k),_v))
         if kind=='W':
+            _rwseen=set()
             for r in d.get('related_works') or []:
                 if not r or not r.get('id') or not r.get('relation'): nullrel+=1; continue
                 if r['id']==i: selfref+=1
                 if r['id'] not in allids: dang.append((p,r['id'],r.get('title')))
-                # related_works[].title 靠人工同步，必然漂移；不改結構，只報其數
-                elif r.get('title') and r['id'] in IW and r['title']!=IW[r['id']].get('title'):
-                    rwdrift.append((p,r['id'],r['title'],IW[r['id']].get('title')))
+                # related_works[].title 靠人工同步，必然漂移；不改結構，只報其數。
+                # 目標可以是 draft Work、production Work，或 Collection（collected_in
+                # 之對象即彙編）。原先只查 `r['id'] in IW`，於是 production 目標整條跳過
+                # ——《老子》正名《道德經》後 48 處舊題一條也沒報出來（2026-08-23 查出並修）。
+                elif r.get('title'):
+                    _t=_TITLE.get(r['id'])
+                    if _t and _t!=r['title']:
+                        rwdrift.append((p,r['id'],r['title'],_t))
+                # 同一 (id, relation) 出現兩次即冗餘。以 id 為鍵會誤報——《尚書大傳》
+                # 既 contains_text_of 又 studies《尚書》，二者俱真，關係不同即是兩件事。
+                _k=(r.get('id'),r.get('relation'))
+                if _k in _rwseen: rwdup.append((p,r.get('id'),r.get('relation')))
+                _rwseen.add(_k)
             for b in d.get('books') or []: w2b.setdefault(b,set()).add(i)
         else:
             if d.get('work_id'): b2w[i]=d['work_id']
 print('解析失敗',len(parse),'檔案未入索引',len(notidx),'索引欄位不符',len(mism))
 print('派生欄位與重算不符',len(derived),'　基線 0（不符即以重算值為準）')
 for x in derived[:8]: print('  派生',x)
-print('related_works[].title 漂移',len(rwdrift),'　基線 0')
+print('related_works[].title 漂移',len(rwdrift),'　基線 0（含 production／Collection 目標）')
 for x in rwdrift[:8]: print('  漂移',x)
+print('related_works (id,relation) 重複',len(rwdup),'　基線 0')
+for x in rwdup[:8]: print('  重複',x)
 for x in notidx[:10]: print('  未入索引',x)
 for x in mism[:15]: print('  不符',x)
 print('自我關聯',selfref,'空關聯',nullrel,'懸空關聯',len(dang))
@@ -519,3 +543,45 @@ print('JSON 缺檔尾換行', len(_JNL), '　基線 0（同上）')
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
+
+# ── production 之獨立一驗（2026-08-23 增） ─────────────────────────
+# 立此節之由：production **從無任何校驗在管**——本工具自始只跑 draft。
+# 遂積出三批各自無人知的缺陷，皆是靠人偶然發現的：
+#   15 條 books 指向 draft 併池已刪之 Book（4ebc62fc0d7 文淵閣雙錄歸併未跟進）
+#   51 處 related_works[].title 留著舊題（《老子》正名《道德經》等）
+#   43 條 (id, relation) 重複
+# 檢查項與 draft 同軸，只是換一個庫跑；production 記錄檔數少（六百餘），代價可忽略。
+if _PR_ROOT:
+    _pw={}; _pt=dict(_TITLE)
+    for _t in ('Work','Book','Collection','Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json'%(_PR_ROOT,_t)):
+            try: _d=json.load(open(_p))
+            except Exception: continue
+            if isinstance(_d,dict) and _d.get('id'):
+                _pw[_d['id']]=(_d,_p)
+                if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]
+    for _i,(_d,_p) in _pw.items():
+        if list(_i[:3])!=_p.split('/')[-4:-1]: _pdir.append(_p)
+        _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
+        if not _raw.endswith('\n'): _pfmt.append((_p,'缺檔尾換行'))
+        _seen=set()
+        for _r in (_d.get('related_works') or []):
+            if not isinstance(_r,dict): continue
+            _t2=_pt.get(_r.get('id'))
+            if _r.get('title') and _t2 and _t2!=_r['title']:
+                _pdrift.append((_i,_r['id'],_r['title'],_t2))
+            _k=(_r.get('id'),_r.get('relation'))
+            if _k in _seen: _pdup.append((_i,_k))
+            _seen.add(_k)
+        for _b in (_d.get('books') or []):
+            if _b not in _pw and _b not in IB: _pbk.append((_i,_b))
+    print('── production ──')
+    print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
+    for x in _pbk[:6]: print('     ',x)
+    print('  related_works[].title 漂移',len(_pdrift),'　基線 0')
+    for x in _pdrift[:6]: print('     ',x)
+    print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')
+    for x in _pdup[:6]: print('     ',x)
+    print('  目錄分片錯置',len(_pdir),'　基線 0')
+    print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')
