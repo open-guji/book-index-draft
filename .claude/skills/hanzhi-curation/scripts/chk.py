@@ -289,7 +289,15 @@ dang=_c.Counter(); dang_is_book=0; dang_ids=set()
 # 而 IW 只有 draft。只查 IW 則每升一條就把它的節全算成「落空」——
 # 實測升三條，落空由 312 漲到 336。故存在性以兩倉合計判。
 # _TITLE 已在前面建好（draft 索引 + production Work／Collection 之記錄檔）。
-_EXIST_W=set(IW)|set(_TITLE)
+#
+# 2026-08-23 補：**未掛 production 倉時，以 promotions.json 補其證**。
+# 本容器不掛 `../book-index`，_TITLE 之 production 部分遂為空，於是每升一條
+# 其節即全算落空——實測 08-19 升者致 200 節、08-20 致 87 節、08-23 致 190 節，
+# 落空由 322 漲到 475，而其中 438 節（58 個相異 id）所繫皆已升格之 production
+# id，非真損壞。`promotions.json` 即「彼倉確有此記錄」之在庫憑證，chk 之
+# 「懸空關聯」一驗其 allids 早已併入 prod（見上文），落空一驗未併，同一情形
+# 兩驗異判。今補之——掛了 production 倉時 _TITLE 自足，此項不過多一層保險。
+_EXIST_W=set(IW)|set(_TITLE)|prod
 _EXIST_B=set(IB)
 if _PR_ROOT:
     for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
