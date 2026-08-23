@@ -236,15 +236,17 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         ws=[sec['work_id']] if isinstance(sec.get('work_id'),str) else []
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
+        # 升格之後，整理本之繫連改指 production id（四庫總目、隋志考證、先秦諸子等）。
+        # 那不是落空——只查 IW 會把 200 餘條合法繫連誤報為缺陷（2026-08-23 訂）。
         for w in ws:
-            if w in IW: continue
+            if w in IW or w in prod: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in IB: dang_is_book+=1
         b=sec.get('book_id')
-        if isinstance(b,str) and b not in IB:
+        if isinstance(b,str) and b not in IB and b not in prod:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
-        if isinstance(b,str) and b not in IB and b not in IW:
+        if isinstance(b,str) and b not in IB and b not in IW and b not in prod:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 for k,v in dang.most_common(6): print('  ',k,v)
