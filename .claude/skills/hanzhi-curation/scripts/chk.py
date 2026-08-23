@@ -85,6 +85,26 @@ for x in dang[:10]: print('  懸空',x)
 # 兩側俱經 promotions 正規化
 _w2b={}
 for b,ws in w2b.items(): _w2b.setdefault(nz(b),set()).update(nz(x) for x in ws)
+# 升格後 draft 只留五欄墓碑（無 books），本文記錄在 production。只掃 draft 之 books
+# 會把「Book 指向已升格之 Work」全報成單向——2026-08-23 實測 342 條中 339 條是此假陽性，
+# 真單向只 3 條（道德經漏收之三 Book），而假陽性把它們埋了。故併讀 production 之 books。
+_PROD_ROOT=next((r for r in ('../book-index','book-index') if os.path.isdir(r+'/Work')),None)
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Work/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if not isinstance(_d,dict) or not _d.get('id'): continue
+        for _b in (_d.get('books') or []):
+            _w2b.setdefault(nz(_b),set()).add(nz(_d['id']))
+    # Book 側同理：production 有自己的 Book 檔（升格時一併遷入），
+    # 只掃 draft 之 Book 會把它們全報成 Work→Book 單向。
+    for _p in glob.glob(_PROD_ROOT+'/Book/*/*/*/*.json'):
+        try: _d=json.load(open(_p))
+        except Exception: continue
+        if isinstance(_d,dict) and _d.get('id') and _d.get('work_id'):
+            b2w.setdefault(_d['id'],_d['work_id'])
+else:
+    print('  ※ 未見 production 庫（../book-index），Book→Work 單向數含升格假陽性')
 _b2w={nz(b):nz(w) for b,w in b2w.items()}
 ow=[(b,w) for b,w in _b2w.items() if w not in _w2b.get(b,set())]
 ww=[(b,w) for b,ws in _w2b.items() for w in ws if _b2w.get(b)!=w]
