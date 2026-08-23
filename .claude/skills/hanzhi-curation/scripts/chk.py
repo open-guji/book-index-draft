@@ -278,7 +278,8 @@ except NameError:
         try: IB.update(json.load(open(f'index/books/{_s}.json')))
         except Exception: pass
 import collections as _c
-dang=_c.Counter(); dang_is_book=0; dang_ids=set()
+# 叢書之節得繫 Collection（中國通俗小說書目卷九「叢書目」即是），亦非落空（2026-08-23 補）
+dang=_c.Counter(); dang_is_book=0; dang_ids=set(); dang_is_coll=0
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -292,16 +293,17 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         # 升格之後，整理本之繫連改指 production id（四庫總目、隋志考證、先秦諸子等）。
         # 那不是落空——只查 IW 會把 200 餘條合法繫連誤報為缺陷（2026-08-23 訂）。
         for w in ws:
-            if w in IW or w in prod: continue
+            if w in IW or w in prod or w in IC: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in IB: dang_is_book+=1
         b=sec.get('book_id')
         if isinstance(b,str) and b not in IB and b not in prod:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
-        if isinstance(b,str) and b not in IB and b not in IW and b not in prod:
+        if isinstance(b,str) and b not in IB and b not in IW and b not in prod and b not in IC:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
-print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
+print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book,
+      '　（繫 Collection 者不計——叢書之節得繫 Collection）')
 for k,v in dang.most_common(6): print('  ',k,v)
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
