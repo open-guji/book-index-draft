@@ -8,7 +8,10 @@
       "name": "歐幾里得",
       "role": "撰",
       "dynasty": null,
-      "dynasty_basis": "garbage_clean:西洋"
+      "dynasty_basis": "garbage_clean:西洋",
+      "alt_names": [
+        "西洋歐幾里得撰"
+      ]
     }
   ],
   "indexed_by": [
@@ -32,10 +35,21 @@
       "title_info": "幾何原本",
       "summary": "《幾何原本》六卷。{{明徐光啟譯。又《海山仙館》本。全書十五卷，餘九卷未譯，今始譯行。}}",
       "author_info": "徐光啟譯"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《幾何原本》十五卷",
+      "author_info": "西洋歐幾里得撰撰",
+      "summary": "《幾何原本》十五卷。西洋歐幾里得撰撰。影印復旦大學圖書館藏清同治四年金陵刻本。",
+      "edition": "影印復旦大學圖書館藏清同治四年金陵刻本",
+      "volume": "第1300冊",
+      "section": "子部 西學譯著類"
     }
   ],
   "books": [
-    "11q37r05b77cw"
+    "11q37r05b77cw",
+    "11qkhwmdte4u8"
   ],
   "juan_count": {
     "number": 6
@@ -123,7 +137,7 @@
       ]
     }
   ],
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'利瑪竇'）。 作者「西洋歐幾里得撰」補自《國立故宮博物院善本舊籍》目錄。",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'利瑪竇'）。 作者「西洋歐幾里得撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-22 B3 併池（撰人名近似）：1evjvw84ruuio 併入本條。撰人名「西洋歐幾里得撰」「歐幾里得」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "measures": [
     {
       "unit": "卷",
@@ -131,9 +145,15 @@
     }
   ],
   "measure_info": "六卷",
-  "updated_at": "2026-08-08T11:51:55+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "_has_text": true,
   "_has_image": true,
   "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《明史藝文志》（清張廷玉等（1739），只錄明人著述，斷代），故不晚於 ming"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《明史藝文志》（清張廷玉等（1739），只錄明人著述，斷代），故不晚於 ming",
+  "description": {
+    "text": "本書收入《續修四庫全書》第1300冊（子部）。",
+    "sources": [
+      "續修四庫全書"
+    ]
+  }
 }

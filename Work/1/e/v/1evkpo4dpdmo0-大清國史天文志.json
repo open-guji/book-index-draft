@@ -6,7 +6,10 @@
     {
       "name": "清  國史館",
       "role": "編",
-      "dynasty": "清"
+      "dynasty": "清",
+      "alt_names": [
+        "國史館"
+      ]
     }
   ],
   "description": {
@@ -15,7 +18,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿033316-033331），無同名 Work 故新建。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿033316-033331），無同名 Work 故新建。\n\n2026-08-22 B3 併池（撰人名近似）：1evkq2ab5j85c 併入本條。撰人名「清  國史館」「國史館」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "juan_count": {
     "number": 16
   },
@@ -28,11 +31,14 @@
   "measure_info": "十六卷",
   "id": "1evkpo4dpdmo0",
   "books": [
-    "11qki340exzpc"
+    "11qki340exzpc",
+    "11qki33yjiqdc",
+    "11qki33zgx4hs"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": []
 }

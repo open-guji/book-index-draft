@@ -8,7 +8,10 @@
       "name": "宋無",
       "role": "撰",
       "dynasty": "元",
-      "entity_id": "1j96afeuq5clc"
+      "entity_id": "1j96afeuq5clc",
+      "alt_names": [
+        "宋旡"
+      ]
     }
   ],
   "indexed_by": [
@@ -35,7 +38,8 @@
     }
   ],
   "books": [
-    "11q37tn20mio0"
+    "11q37tn20mio0",
+    "11qkhxluh25fk"
   ],
   "juan_count": {
     "number": 1
@@ -120,12 +124,12 @@
       "補遼金元藝文志"
     ]
   },
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（撰人名近似）：1evkpxpzg2ebk 併入本條。撰人名「宋旡」為「宋無」之形訛——前者於全庫不繫任何作品，後者繫 5 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。"
 }
