@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "晉書",
+  "id": "1ex09ambyyp05",
+  "juan_count": {
+    "number": 110
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 110
+    }
+  ],
+  "measure_info": "一百十卷",
+  "indexed_by": [
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《晉書》一百一十卷",
+      "summary": "《晉書》一百一十卷臧榮緒撰。",
+      "note": "2026-08-23 A6 車道磁鐵拆分：據本節新立。兩唐志同題而卷數（或撰人、注者）異者，依 SCHEMA〈志書之「又」例〉是別本或他家之書，各為一書；題冠注者名者（「趙岐注孟子」「李百藥北齊書」），依 SCHEMA〈原典與注本〉注本各自成 Work，不併入原典。"
+    }
+  ],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫等（945）），故不晚於 sui-tang",
+  "ai_note": "2026-08-23 A6 車道磁鐵拆分：本節原與他節共繫 `1ev3c1fonfev4`（題《晉書》）。兩唐志同題而卷數（或撰人、注者）異者，依 SCHEMA〈志書之「又」例〉是別本或他家之書，各為一書；題冠注者名者（「趙岐注孟子」「李百藥北齊書」），依 SCHEMA〈原典與注本〉注本各自成 Work，不併入原典。故據本節新立。　本志不著成書之年，只記 period_upper，不設 period、不繫 entity。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}
