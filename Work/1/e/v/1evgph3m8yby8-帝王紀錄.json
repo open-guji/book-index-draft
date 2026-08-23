@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "帝王紀錄",
+  "authors": [
+    {
+      "name": "禇無量",
+      "role": "撰",
+      "entity_id": "1j96hfqsgj56o"
+    }
+  ],
+  "juan_count": {
+    "number": 3
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《帝王紀録》三卷",
+      "summary": "《帝王紀録》三卷（禇無量）",
+      "author_info": "禇無量"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《帝王紀錄》三卷",
+      "summary": "《帝王紀錄》三卷",
+      "merged_from": "1evgph3m8yby8",
+      "note": "《帝王紀録》與《帝王紀錄》之別，僅在異體字（帝王紀録／帝王紀錄），題名歸一後全同；卷數全同（3卷）；彼條無撰人而本條作「禇無量」。二者著錄異源（國史經籍志 ／ 舊唐書經籍志），非一志之內重出，而題、卷相合，判為同書。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgph3m8yby8",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "additional_titles": [
+    "帝王紀録"
+  ],
+  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evcpcx299tz4`（帝王紀録）。2026-08-23 B4 異體字重出併池：併入 `1evcpcx299tz4`（舊唐書經籍志，題作《帝王紀錄》，3卷）。二題之別僅在異體字，歸一後全同，卷數全同（3卷）；彼條無撰人而本條作「禇無量」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《帝王紀録》，所用「帝王紀録」係著錄原文之異體；今正為通行之《帝王紀錄》，原形移入 additional_titles 備檢。"
+}

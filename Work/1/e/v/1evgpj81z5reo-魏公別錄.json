@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "魏公別錄",
+  "authors": [
+    {
+      "name": "王嵓叟",
+      "role": "撰",
+      "entity_id": "1j96hft5mg0lc"
+    }
+  ],
+  "juan_count": {
+    "number": 4
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《魏公别錄》四卷",
+      "summary": "《魏公别錄》四卷（王嵓叟）",
+      "author_info": "王嵓叟"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "魏公別錄",
+      "merged_from": "1evgpj81z5reo",
+      "note": "《魏公别錄》與《魏公別錄》之別，僅在異體字（魏公别錄／魏公別錄），題名歸一後全同；卷數全同（4卷）；彼條無撰人而本條作「王嵓叟」。二者著錄異源（國史經籍志 ／ 直齋書錄解題），非一志之內重出，而題、卷相合，判為同書。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpj81z5reo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 4
+    }
+  ],
+  "measure_info": "四卷",
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "additional_titles": [
+    "魏公别錄"
+  ],
+  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evr5e3miqjwm`（魏公别錄）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3miqjwm`（直齋書錄解題，題作《魏公別錄》，4卷）。二題之別僅在異體字，歸一後全同，卷數全同（4卷）；彼條無撰人而本條作「王嵓叟」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《魏公别錄》，所用「魏公别錄」係著錄原文之異體；今正為通行之《魏公別錄》，原形移入 additional_titles 備檢。"
+}
