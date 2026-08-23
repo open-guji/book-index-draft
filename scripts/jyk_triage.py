@@ -31,6 +31,7 @@ import json, glob, collections, re, sys, bisect, os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 from magnet_lib import VARIANT
+import jyk_head_fix as _HF
 import opencc
 
 T2S = opencc.OpenCC('t2s')
@@ -48,7 +49,11 @@ EXTRA = str.maketrans({'叅': '參', '刋': '刊', '𤣥': '玄', '恱': '悅', 
                        '熈': '熙', '纉': '纘', '挍': '校', '寗': '寧', '廸': '迪',
                        '寛': '寬', '隂': '陰', '飬': '養', '祗': '祇', '讐': '讎',
                        '苖': '苗', '隚': '鏜', '蘓': '蘇', '沉': '沈', '禇': '褚',
-                       '潁': '穎', '夣': '夢', '槩': '概'})
+                       '潁': '穎', '夣': '夢', '槩': '概',
+                       # 2026-08-23 三補：乙2、丙入閘時所見
+                       '黄': '黃', '隠': '隱', '栢': '柏', '卲': '邵', '囬': '回',
+                       '壡': '叡', '惪': '德', '爲': '為', '衞': '衛', '刦': '劫',
+                       '踈': '疏', '揔': '總', '緫': '總', '綂': '統', '䇿': '策'})
 
 ORD = {'西漢': 1, '漢': 1, '東漢': 2, '三國魏': 3, '三國吳': 3, '三國蜀': 3,
        '西晉': 4, '晉': 4, '東晉': 5, '前涼': 5, '南朝宋': 6, '南朝齊': 6,
@@ -158,7 +163,13 @@ def main():
     # ── 分流 ──
     for d in D:
         era = '≤元' if d['_hi'] <= CUT else ('明清' if d['_lo'] > CUT else '跨界')
-        ja, jt = nz(d.get('author')), nz(d.get('title'))
+        # 標目正誤表（jyk_head_fix）既正之條，以正後之撰人、正題比對
+        _f = _HF.FIX.get(d['head'])
+        if _f:
+            _a = _f[0][0] if isinstance(_f[0], list) else _f[0]
+            ja, jt = nz(_a), nz(_f[1])
+        else:
+            ja, jt = nz(d.get('author')), nz(d.get('title'))
         cands = by_title.get(jt, [])
         cas = [nz(x.get('author')) for x in cands]
         sub = []
