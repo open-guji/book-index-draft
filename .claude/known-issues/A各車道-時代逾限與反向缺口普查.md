@@ -93,7 +93,14 @@
 
 ## 跑法
 
-腳本 `.claude/skills/hanzhi-curation/scripts/` 尚未收，暫存作業會話。要領：
+腳本已收：`.claude/skills/hanzhi-curation/scripts/lane_audit.py`。
+
+```
+python3 .claude/skills/hanzhi-curation/scripts/lane_audit.py        # 全部
+python3 .claude/skills/hanzhi-curation/scripts/lane_audit.py A8 --list   # 一條車道並逐條列出
+```
+
+其要領：
 
 1. 建 `IW`（work 索引）與 `D2P`（draft→production，取自 `promotions.json`）。
 2. 遍歷 `Work/*/*/*/<志 id>/collated_edition/*.json` 之 sections。
