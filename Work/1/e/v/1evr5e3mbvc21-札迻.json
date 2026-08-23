@@ -32,7 +32,7 @@
       "section": "子部 雑家類"
     }
   ],
-  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部雜家類",
+  "ai_note": "短書名（2字），可能存在同名異書。 來源：清史稿藝文志子部雜家類\n\n2026-08-22 B3 併池（藏本條重出）：1evkpvmo53bb4 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
   "measures": [
     {
       "unit": "卷",
@@ -63,12 +63,21 @@
     }
   ],
   "books": [
-    "11qkhzmjdzv28"
+    "11qkhzmjdzv28",
+    "11qkhu9bom70g"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清光緒二十年刊二十一年修補本」——版本之年不早於成書之年，故不晚於 qing",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善039313-039316）。清光緒二十年刊二十一年修補本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }
