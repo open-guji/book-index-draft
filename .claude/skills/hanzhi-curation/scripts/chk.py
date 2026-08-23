@@ -21,6 +21,17 @@ SB={s:set(json.load(open(f'index/books/{s}.json'))) for s in '0123456789abcdef'}
 print('索引 Work',len(IW),'Book',len(IB),'Collection',len(IC))
 print('分片錯置 Work',sum(1 for k in IW if k not in SW[shard(k)]),
       ' Book',sum(1 for k in IB if k not in SB[shard(k)]))
+# 目錄分片（`{Type}/{c1}/{c2}/{c3}/{ID}-{題}.json`，c1-c3 即 id 前三字元）。
+# 與上一行之「分片錯置」不是一回事——那查的是 index/ 之雜湊分片。
+# 立此驗之由：2026-08-23 查出五個 Work 檔落在 Work/1/e/v/ 而其 id 起首 1ewo，
+# 正位是 1/e/w；《后蒼孝經說》更是記錄檔在 1/e/v 而 fragments 目錄在 1/e/w，
+# 一條記錄裂在兩處。索引裡記的正是那個錯位置，故「索引欄位不符」比不出來，
+# 一直是綠的；而 qa_work 由 id 推路徑去找，遂報「兩倉都找不到」。
+_misdir=[p for t in ('Work','Book','Collection','Entity')
+         for p in glob.glob(t+'/*/*/*/*.json')
+         if list(os.path.basename(p).split('-',1)[0][:3])!=p.split('/')[1:4]]
+print('目錄分片錯置',len(_misdir),'　基線 0（id 前三字元須即其 c1/c2/c3 目錄）')
+for x in _misdir[:8]: print('  錯位',x)
 print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values())+list(IE.values()) if not os.path.exists(v['path'])),'　基線 0（含 entities；人物併池退役後索引殘留即現於此）')
 prod={v['production_id'] for v in json.load(open('promotions.json'))['promotions'].values()}
 ents=set()
@@ -396,10 +407,22 @@ _OFF2 = ('將軍', '太守', '刺史', '尚書', '侍郎', '議郎', '中郎', '
 # 範衍：明錢一本書名，「衍《洪範》」之義，非姓——《經義考》掛源後始見（2026-08-23 補）
 _KEEP2 = {'範圍', '範式', '範例', '範疇', '範金', '範土', '範銅', '範模', '範衍'}
 _ovc = _c.Counter()
+# 整理本自陳 text_quality.grade == 'source' 者不驗——「原文照錄」謂其文未經
+# 簡繁往返，本驗所捕之過度轉換無從發生，而原本自有之用字反落網：《經義考》
+# 文淵閣本「日辰有十幹十二支」之幹是本字，「葉氏（世竒）範通」之範是洪範之
+# 範，「王氏（範）交廣春秋」之範是名不是姓。2026-08-23 立。
+_SRCDIRS = set()
+for _i in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+    try:
+        if (json.load(open(_i)).get('text_quality') or {}).get('grade') == 'source':
+            _SRCDIRS.add(os.path.dirname(_i))
+    except Exception:
+        pass
 _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
           + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
           + glob.glob('Work/*/*/*/*/fragments/*.json')
-          + glob.glob('Work/*/*/*/*/collated_edition/*.json')
+          + [_f for _f in glob.glob('Work/*/*/*/*/collated_edition/*.json')
+             if os.path.dirname(_f) not in _SRCDIRS]
           + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
 for _f in _FILES:
     try:

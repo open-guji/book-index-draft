@@ -108,6 +108,24 @@ Work 層的 `parent_works` 已由 `related_works[].relation == "part_of"` 取代
 `target_bid` 之名易生誤解——它不是「本條所指的 book」，而是考證的對象。
 凡欲記「本條所指為某具體版本」，一律用 `book_id`。
 
+#### 整理本之 `text_quality.grade`
+
+`collated_edition_index.json` 之 `text_quality.grade` 記其文之來歷與可信度：
+
+| 值 | 義 |
+|---|---|
+| `source` | **原文照錄**，未經簡繁往返，未加標點。如《經義考》之 kanripo KR2n0011 本 |
+| `fine` | 精校標點本 |
+| `rough` | 粗校標點本（識典古籍之屬） |
+| `ocr` | OCR 未校 |
+| `placeholder` | 只有骨架，正文未入 |
+| `none` | 無文本 |
+
+`source` 一級另有一效：`chk.py` 之「簡轉繁過度轉換」一驗**跳過**此類整理本。
+該驗所捕者是簡→繁往返之誤，原文照錄者無從發生，而原本自有之用字反要落網
+——《經義考》文淵閣本「日辰有十幹十二支」之「幹」是本字，「葉氏（世竒）範
+通」之「範」是洪範之範，「王氏（範）交廣春秋」之「範」是名不是姓。
+
 #### 輯佚檔（`fragments`）
 
 置於 `Work/{c1}/{c2}/{c3}/{id}/fragments/{title}.json`，`schema_version: 2`。
