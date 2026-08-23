@@ -4,9 +4,15 @@
   "title": "涇野先生文集",
   "authors": [
     {
-      "name": "呂楠",
+      "name": "呂柟",
       "role": "撰",
-      "dynasty": "明"
+      "dynasty": "明",
+      "alt_names": [
+        "呂柟",
+        "呂楠"
+      ],
+      "entity_id": "1j967afjbhiy7",
+      "name_basis": "2026-08-22 B3 正名：原作「呂楠」，是「呂柟」之形訛——前者於全庫不繫任何作品。訛形存 alt_names。"
     }
   ],
   "indexed_by": [
@@ -21,14 +27,14 @@
       "section": "集部 集部"
     },
     {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《涇野先生文集》三十八卷",
-      "author_info": "(明)呂楠撰",
-      "summary": "《涇野先生文集》三十八卷。(明)呂楠撰。影印華東師大圖書館藏明萬曆二十年刻本。",
-      "edition": "影印華東師大圖書館藏明萬曆二十年刻本",
-      "volume": "第1337冊",
-      "section": "集部 集部"
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《涇野先生文集》三十六卷",
+      "author_info": "明呂柟撰",
+      "summary": "《涇野先生文集》三十六卷。明呂柟撰。湖南圖書館藏明嘉靖三十四年于德昌刻本。",
+      "edition": "湖南圖書館藏明嘉靖三十四年于德昌刻本",
+      "volume": "第59冊",
+      "section": "集部"
     }
   ],
   "description": {
@@ -37,7 +43,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（撰人名近似）：1evjxn6dsnsow 併入本條。撰人名「呂楠」為「呂柟」之形訛——前者於全庫不繫任何作品，後者繫 27 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "juan_count": {
     "number": 38
   },
@@ -75,7 +81,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T07:14:03.778622+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",

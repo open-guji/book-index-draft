@@ -9,7 +9,10 @@
       "role": "撰",
       "dynasty": "南宋",
       "entity_id": "1j96h8rw9fo7f",
-      "dynasty_basis": "entity_propagation:1j96h8rw9fo7f"
+      "dynasty_basis": "entity_propagation:1j96h8rw9fo7f",
+      "alt_names": [
+        "金盈之"
+      ]
     }
   ],
   "indexed_by": [
@@ -18,6 +21,16 @@
       "source_bid": "1evfyhtrdkbnk",
       "title_info": "醉翁談錄八卷",
       "summary": "醉翁談錄八卷\n盈之撰。"
+    },
+    {
+      "source": "續修四庫全書",
+      "source_bid": "1evjk1whvmznk",
+      "title_info": "《醉翁談錄》五卷",
+      "author_info": "宋金盈之撰",
+      "summary": "《醉翁談錄》五卷。宋金盈之撰。影印宛委別藏清抄本。",
+      "edition": "影印宛委別藏清抄本",
+      "volume": "第1166冊",
+      "section": "子部 雑家類"
     }
   ],
   "measures": [
@@ -27,7 +40,7 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "dynasty": "南宋",
   "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
   "period": "song",
@@ -35,5 +48,16 @@
   "juan_count": {
     "number": 8
   },
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（八卷），今據以補。"
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（八卷），今據以補。\n\n2026-08-22 B3 併池（撰人名近似）：1evjr63ftahog 併入本條。撰人名「盈之」「金盈之」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
+  "books": [
+    "11qkhuwhu59fk"
+  ],
+  "period_upper": "song",
+  "period_upper_basis": "撰人朝代作「宋」，歧而未決；諸解中最晚者為 song，無論何解皆不晚於此",
+  "description": {
+    "text": "本書收入《續修四庫全書》第1166冊（子部）。",
+    "sources": [
+      "續修四庫全書"
+    ]
+  }
 }

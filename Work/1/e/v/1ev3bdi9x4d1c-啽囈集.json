@@ -8,7 +8,10 @@
       "name": "宋無",
       "role": "撰",
       "dynasty": "元",
-      "entity_id": "1j96afeuq5clc"
+      "entity_id": "1j96afeuq5clc",
+      "alt_names": [
+        "宋旡"
+      ]
     }
   ],
   "indexed_by": [
@@ -19,6 +22,16 @@
       "author_info": "元宋無撰",
       "summary": "元宋無撰。無有《翠寒集》，已著錄。是集始於《禹鼎》，終於《留夢炎》，每事為七言絕句一章，凡一百一首。各敘其始末於詩後，如自注然。詠史詩肇於班固。厥後詞人間作，往往一唱三歎，托意於語言之外。至周曇、胡曾，詞旨淺近，古法遂微。無詩頗可觀，而此集亦不免以論為詩之病。其中如《金明池》、《龜胡琴》、《婢勝兒》之類，旁摭小說，亦殊氾濫也。",
       "edition": "內府藏本"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《啽囈集》一卷",
+      "author_info": "元宋旡撰",
+      "summary": "《啽囈集》一卷。元宋旡撰。南京圖書館藏明刻本。",
+      "edition": "南京圖書館藏明刻本",
+      "volume": "第23冊",
+      "section": "集部"
     }
   ],
   "juan_count": {
@@ -73,12 +86,18 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（撰人名近似）：1evjxmwo4oqo0 併入本條。撰人名「宋旡」為「宋無」之形訛——前者於全庫不繫任何作品，後者繫 5 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》第23冊（集部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  }
 }

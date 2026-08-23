@@ -55,10 +55,6 @@
       "role": "撰"
     },
     {
-      "work_id": "1ev3bc1sat3b4",
-      "role": "撰"
-    },
-    {
       "work_id": "1ev3bc1sz5log",
       "role": "撰"
     },
@@ -112,8 +108,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.67+unique"
   },
-  "updated_at": "2026-08-22T08:35:02.277736+00:00",
+  "updated_at": "2026-08-23T07:12:09.263602+00:00",
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并"
+  "period_basis": "据 dynasty「南宋」自动归并",
+  "ai_note": "2026-08-22 B3：撤去 works[] 中不再以本人為撰人之條目（併池後該書已改繫正名之人物）。"
 }

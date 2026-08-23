@@ -7,7 +7,10 @@
       "name": "祝泌",
       "role": "撰",
       "dynasty": "元",
-      "entity_id": "1j96gmdzl5pfr"
+      "entity_id": "1j96gmdzl5pfr",
+      "alt_names": [
+        "程泌"
+      ]
     }
   ],
   "indexed_by": [
@@ -25,10 +28,31 @@
     }
   ],
   "id": "1evga6f08omps",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（撰人名近似）：1evkaaz3xey2o 併入本條。撰人名「程泌」為「祝泌」之形訛——前者於全庫不繫任何作品，後者繫 6 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
+  "books": [
+    "11qkhv77z0g74"
+  ],
+  "period_upper": "song",
+  "period_upper_basis": "撰人朝代作「宋」，歧而未決；諸解中最晚者為 song，無論何解皆不晚於此",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "冊",
+      "number": 1
+    }
+  ],
+  "measure_info": "一冊",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善010681）。清嘉慶間阮元進呈影宋鈔本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }

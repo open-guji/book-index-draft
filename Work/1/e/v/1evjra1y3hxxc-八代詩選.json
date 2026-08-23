@@ -7,7 +7,10 @@
       "name": "王闓運",
       "role": "輯",
       "dynasty": "",
-      "entity_id": "1j968r2jhr282"
+      "entity_id": "1j968r2jhr282",
+      "alt_names": [
+        "王誾運"
+      ]
     }
   ],
   "indexed_by": [
@@ -28,7 +31,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-22 B3 併池（撰人名近似）：1evkanq0jx9fk 併入本條。撰人名「王誾運」為「王闓運」之形訛——前者於全庫不繫任何作品，後者繫 13 部，故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
   "juan_count": {
     "number": 20
   },
@@ -54,8 +57,13 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14T02:04:40-07:00",
+  "updated_at": "2026-08-23T07:10:10.967817+00:00",
   "_has_image": true,
   "period_upper": "qing",
-  "period_upper_basis": "collection_bound：本書收入《續修四庫全書》——其書收錄止於辛亥（1911）以前之著作，故不晚於 qing"
+  "period_upper_basis": "collection_bound：本書收入《續修四庫全書》——其書收錄止於辛亥（1911）以前之著作，故不晚於 qing",
+  "books": [
+    "11qki04gzvlds"
+  ],
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」"
 }
