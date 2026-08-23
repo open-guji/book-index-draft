@@ -347,18 +347,23 @@ import re as _re
 _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略','别':'別','吴':'吳'})
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
 secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter()
+# 磁鐵須按「整理本」累計，不得按單檔——一書之諸卷各成一檔，
+# 舊法於檔內建表，故跨卷之磁鐵（兩唐志《何晏集》／《何晏集解》分在二卷）一概查不出。
+# 2026-08-23 補此第四個校驗盲區。
+_M=_c.defaultdict(lambda: _c.defaultdict(set))
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
     except Exception: continue
     if not isinstance(cd,dict): continue
-    own=f.split('/')[4]; m=_c.defaultdict(set)
+    own=f.split('/')[4]
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
         # 版本附屬部帙（外集、附錄之屬）依 SCHEMA 不別立 Work，本就與母條共繫，非磁鐵
         if sec.get('section_kind')=='附屬部帙': secpart[own]+=1; continue
         w=sec.get('work_id')
-        if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
+        if isinstance(w,str) and w in IW and sec.get('title'): _M[own][w].add(_nz(sec['title']))
+for own,m in _M.items():
     for w,ts in m.items():
         if len(ts)>1:
             secmag[own]+=len(ts)
