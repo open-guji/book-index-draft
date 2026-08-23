@@ -57,14 +57,20 @@
     {
       "work_id": "1ev3be5e9etxc",
       "role": "撰"
+    },
+    {
+      "work_id": "1evc5pcba6k1s"
     }
   ],
   "external_ids": {
     "cbdb_id": 65738,
     "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_0.67+unique"
+    "cbdb_source": "name_exact+dy_match+work_recall_0.67+unique",
+    "cbdb_id_alt": [
+      77299
+    ]
   },
-  "ai_note": "拆出同名異代之人物 1jae2gjvdhybs（晉李顒）：本記錄原兼繫兩人之書。晉李顒。與清李顒（1627-1705，二曲先生）同名異代。\n\n2026-08-19 重複人物 entity 專項：庫中別有同名同代之記錄 `1j96hlf8e89og`（CBDB 77299，生 1760），本條 CBDB 65738、生 1627。**二者 CBDB id 互異**，是史傳所載之兩人，非重出，不合併。清之世同名者多，凡 CBDB id 各異而生卒可別者，一概判為二人。",
+  "ai_note": "拆出同名異代之人物 1jae2gjvdhybs（晉李顒）：本記錄原兼繫兩人之書。晉李顒。與清李顒（1627-1705，二曲先生）同名異代。\n\n2026-08-19 重複人物 entity 專項：庫中別有同名同代之記錄 `1j96hlf8e89og`（CBDB 77299，生 1760），本條 CBDB 65738、生 1627。**二者 CBDB id 互異**，是史傳所載之兩人，非重出，不合併。清之世同名者多，凡 CBDB id 各異而生卒可別者，一概判為二人。\n\n2026-08-23 E1 同名同代人物併池：併入同名同代之 `1j96hlf8e89og`（CBDB 77299，繫《尚書集解李顒注》）。斷為一人之由：二條之字皆「中孚」、號皆「二曲」——《四庫總目·四書反身錄》云「國朝李顒撰。顒字中孚，盩厔人……『二曲』者，顒之別號」，即存條之清初關中大儒李顒（1627–1705）。被併條之生卒 1760–1812 出 CBDB 77299（auto_placeholder_upgrade／minimal_entity_backfill），與字號所指之人相牴，不取；其 id 存 cbdb_id_alt。",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qing",
   "period_basis": "據 dynasty「清」自動歸併"
