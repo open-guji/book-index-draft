@@ -20,16 +20,6 @@
       "edition": "影印上海辭書出版社圖書館藏清光緒二十一年吳重熹刻本",
       "volume": "第902冊",
       "section": "史部 史部"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《攈古錄》二十卷",
-      "author_info": "清吳式芬撰",
-      "summary": "《攈古錄》二十卷。清吳式芬撰。影印清末刻本。",
-      "edition": "影印清末刻本",
-      "volume": "第895冊",
-      "section": "史部 史部"
     }
   ],
   "description": {
@@ -38,7 +28,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-23 A5 車道磁鐵拆分：《攈古錄》二十卷（清末刻本）與《攈古錄金文》三卷（光緒二十一年吳重熹刻本）是二書。析出 1ex062r2dhczo《攈古錄》，本志繫之之節 1 個與著錄條 1 條隨之移出。",
   "juan_count": {
     "number": 3
   },
@@ -81,5 +71,12 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex062r2dhczo",
+      "title": "攈古錄",
+      "relation": "related"
+    }
+  ]
 }

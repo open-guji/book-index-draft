@@ -28,7 +28,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-23 A5 車道磁鐵拆分：《巢林筆談續編》二卷（乾隆三十四年刻本）與正編六卷（乾隆三十年蓼懷閣刻本）別為一刻；依 SCHEMA〈版本附屬部帙〉「曾否單行」之判準，續編既有獨立之刻本，當別立 Work。析出 1ex062r4wbf2f《巢林筆談續編》，本志繫之之節 1 個與著錄條 1 條隨之移出。",
   "juan_count": {
     "number": 6
   },
@@ -59,5 +59,12 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex062r4wbf2f",
+      "title": "巢林筆談續編",
+      "relation": "followed_by"
+    }
+  ]
 }

@@ -16,27 +16,11 @@
   },
   "indexed_by": [
     {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "金石萃編",
-      "summary": "金石萃編一百六十卷。王昶撰。"
-    },
-    {
       "source": "書目答問",
       "source_bid": "1evr5e3m9zwpo",
       "title_info": "金石萃編",
       "summary": "《金石萃編》一百二十七卷。{{王昶。原刻本。嚴可均編平津館《金石萃編正續》三十一卷，未刊。}}",
       "author_info": "王昶"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《金石萃編》一百六十卷",
-      "author_info": "清王昶撰",
-      "summary": "《金石萃編》一百六十卷。清王昶撰。影印清嘉慶十年刻同治錢寶傳等補修本。",
-      "edition": "影印清嘉慶十年刻同治錢寶傳等補修本",
-      "volume": "第887冊",
-      "section": "史部 史部"
     },
     {
       "source": "續修四庫全書",
@@ -99,11 +83,18 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjr2qbjnpq8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 10，與著錄原文（續修四庫全書：「金石萃編未刻稿」）所載之 3 卷不合，今據原文訂正。",
+  "ai_note": "從 1evjr2qbjnpq8 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 10，與著錄原文（續修四庫全書：「金石萃編未刻稿」）所載之 3 卷不合，今據原文訂正。\n\n2026-08-23 A5 車道磁鐵拆分：本志六節著《金石萃編》一百六十卷（嘉慶十年刻同治錢寶傳等補修本），《金石萃編未刻稿》三卷則是民國七年羅振玉影印嘉草軒叢書本，二者非一書。母條題名雖作「未刻稿」，其清史稿與書目答問二著錄條之 title_info 皆作「金石萃編」，正是正編之著錄——清史稿一條屬本車道所轄，隨新條移入；書目答問一條非本車道所轄，仍其舊（已記 handoff）。析出 1ex062r0cr2f7《金石萃編》，本志繫之之節 6 個與著錄條 2 條隨之移出。",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "related_works": [
+    {
+      "id": "1ex062r0cr2f7",
+      "title": "金石萃編",
+      "relation": "related"
+    }
+  ]
 }

@@ -24,16 +24,6 @@
     {
       "source": "續修四庫全書",
       "source_bid": "1evjk1whvmznk",
-      "title_info": "《吾學編》六十九卷",
-      "author_info": "明鄭曉撰",
-      "summary": "《吾學編》六十九卷。明鄭曉撰。影印國家圖書館藏明隆慶元年鄭履淳刻本。",
-      "edition": "影印國家圖書館藏明隆慶元年鄭履淳刻本",
-      "volume": "第424冊",
-      "section": "史部 史部"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
       "title_info": "《吾學編餘》",
       "author_info": "明鄭曉撰",
       "summary": "《吾學編餘》。明鄭曉撰。影印南京圖書館藏明抄本。",
@@ -94,11 +84,18 @@
     "11qki4exaq9kw",
     "11qki4eyuwzcw"
   ],
-  "ai_note": "從 1evjr0fekzugw 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 | 從 1evkag2es1ts0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evjr0fekzugw 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 | 從 1evkag2es1ts0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 A5 車道磁鐵拆分：《吾學編》六十九卷（明隆慶元年鄭履淳刻本）與《吾學編餘》（明抄本）是二書。析出 1ex062qzmudc2《吾學編》，本志繫之之節 1 個與著錄條 1 條隨之移出。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "related_works": [
+    {
+      "id": "1ex062qzmudc2",
+      "title": "吾學編",
+      "relation": "preceded_by"
+    }
+  ]
 }
