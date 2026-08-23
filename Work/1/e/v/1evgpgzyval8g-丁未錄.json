@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "丁未錄",
+  "authors": [
+    {
+      "name": "李丙",
+      "role": "撰",
+      "entity_id": "1j96kekupa9s0"
+    }
+  ],
+  "juan_count": {
+    "number": 200
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《丁未録》二百卷",
+      "summary": "《丁未録》二百卷（李丙）",
+      "author_info": "李丙"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《丁未錄》",
+      "summary": "李丙《丁未錄》二百卷李心傳",
+      "merged_from": "1evgpgzyval8g",
+      "note": "《丁未録》與《丁未錄》之別，僅在異體字（丁未録／丁未錄），題名歸一後全同；本條200卷而彼條不著卷數；彼條無撰人而本條作「李丙」。二者著錄異源（國史經籍志 ／ 宋史藝文志、直齋書錄解題），非一志之內重出，而題、卷相合，判為同書。"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "丁未錄",
+      "merged_from": "1evgpgzyval8g",
+      "note": "《丁未録》與《丁未錄》之別，僅在異體字（丁未録／丁未錄），題名歸一後全同；本條200卷而彼條不著卷數；彼條無撰人而本條作「李丙」。二者著錄異源（國史經籍志 ／ 宋史藝文志、直齋書錄解題），非一志之內重出，而題、卷相合，判為同書。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpgzyval8g",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 200
+    }
+  ],
+  "measure_info": "二百卷",
+  "updated_at": "2026-08-23T00:00:00+00:00",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "additional_titles": [
+    "丁未録"
+  ],
+  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evcsx93kj8cg`（丁未録）。2026-08-23 B4 異體字重出併池：併入 `1evcsx93kj8cg`（宋史藝文志、直齋書錄解題，題作《丁未錄》，不著卷數）。二題之別僅在異體字，歸一後全同，本條200卷而彼條不著卷數；彼條無撰人而本條作「李丙」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《丁未録》，所用「丁未録」係著錄原文之異體；今正為通行之《丁未錄》，原形移入 additional_titles 備檢。"
+}

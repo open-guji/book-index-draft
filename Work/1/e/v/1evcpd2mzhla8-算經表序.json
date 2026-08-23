@@ -14,10 +14,18 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "算經表序",
       "summary": "算經表序一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《筭經表序》一卷",
+      "summary": "《筭經表序》一卷",
+      "merged_from": "1evcpd2mzhla8",
+      "note": "《算經表序》與《筭經表序》之別，僅在異體字（算經表序／筭經表序），題名歸一後全同；卷數全同（1卷）；兩條俱不著撰人。二者著錄異源（新唐書藝文志、舊唐書經籍志 ／ 國史經籍志），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
   "id": "1evcpd2mzhla8",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "juan_count": {
     "number": 1
   },
@@ -28,7 +36,10 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-23 B1 同名異書併池：併入 `1evgorr2peu4g`（算經表序）。2026-08-23 B4 異體字重出併池：併入 `1evgorr2peu4g`（國史經籍志，題作《筭經表序》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；兩條俱不著撰人。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "additional_titles": [
+    "筭經表序"
+  ]
 }

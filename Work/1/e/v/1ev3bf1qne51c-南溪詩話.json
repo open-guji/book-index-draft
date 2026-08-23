@@ -18,12 +18,20 @@
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "程启充《南溪诗话》三卷",
       "summary": "程啟充《南溪詩話》三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《南谿詩話》二卷",
+      "summary": "《南谿詩話》二卷",
+      "merged_from": "1ev3bf1qne51c",
+      "note": "《南溪詩話》與《南谿詩話》之別，僅在異體字（南溪詩話／南谿詩話），題名歸一後全同；卷數全同（2卷）；兩條俱不著撰人。二者著錄異源（明史藝文志、欽定四庫全書總目 ／ 國史經籍志），非一志之內重出，而題、卷相合，判為同書。"
     }
   ],
   "juan_count": {
     "number": 2
   },
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'程啟充'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]",
+  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'程啟充'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['欽定四庫全書總目'] needs-review (gazetteer_propagation)]\n\n2026-08-23 B1 同名異書併池：併入 `1evgqgt4h9qtc`（南溪詩話）。2026-08-23 B4 異體字重出併池：併入 `1evgqgt4h9qtc`（國史經籍志，題作《南谿詩話》，2卷）。二題之別僅在異體字，歸一後全同，卷數全同（2卷）；兩條俱不著撰人。",
   "measures": [
     {
       "unit": "卷",
@@ -31,9 +39,12 @@
     }
   ],
   "measure_info": "二卷",
-  "updated_at": "2026-08-09T10:49:16+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "ming",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
   "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation"
+  "dynasty_basis": "gazetteer_propagation",
+  "additional_titles": [
+    "南谿詩話"
+  ]
 }
