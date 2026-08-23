@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故滿000899-000968，001227-001261，001902-001906）。阶段 5 兜底建立。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故滿000899-000968，001227-001261，001902-001906）。阶段 5 兜底建立。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3m8qymp`（仁宗睿皇帝聖訓）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3m8qymp`（清史稿藝文志，110卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "juan_count": {
     "number": 110
   },
@@ -28,11 +28,22 @@
   "measure_info": "一百一十卷",
   "id": "1evkq30k16rcw",
   "books": [
-    "11qki3pusjh1c"
+    "11qki3pusjh1c",
+    "11qki2azav4zk"
   ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "仁宗睿皇帝聖訓",
+      "summary": "仁宗睿皇帝聖訓一百十卷。道光四年敕編。",
+      "merged_from": "1evkq30k16rcw",
+      "note": "同題二條而一方無撰人：彼條（清史稿藝文志，110卷，不著撰人）與本條（，110卷，宣宗撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
+    }
+  ]
 }

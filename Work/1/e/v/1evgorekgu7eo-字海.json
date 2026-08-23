@@ -26,6 +26,14 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "武后字海",
       "summary": "武后字海一百卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《字海》一百卷",
+      "summary": "《字海》一百卷大聖天后撰。",
+      "merged_from": "1evgorekgu7eo",
+      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，100卷，不著撰人）與本條（國史經籍志、新唐書藝文志，100卷，武后撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
     }
   ],
   "description": {
@@ -34,7 +42,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"字海\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0aznrdog（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "ai_note": "missing_reason: 短title \"字海\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0aznrdog（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcv2pqry8`（字海）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpcv2pqry8`（舊唐書經籍志，100卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "id": "1evgorekgu7eo",
   "measures": [
     {
@@ -43,12 +51,10 @@
     }
   ],
   "measure_info": "一百卷",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "emendated_by": [],
-  "books": [],
-  "related_works": []
+  "books": []
 }

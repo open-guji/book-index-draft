@@ -34,11 +34,21 @@
       "relation": "collected_in"
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evcsw99gq58g`（釋言）。2026-08-23 B10（同題一方無撰人）：併入 `1evcsw99gq58g`（宋史藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "indexed_by": [
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《釋言》",
+      "summary": "《釋言》十卷黃祖舜",
+      "merged_from": "1evhntapzv1mo",
+      "note": "同題二條而一方無撰人：彼條（宋史藝文志）不著撰人、亦不著卷數，本條（）作「韓愈」撰、不著卷數。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
+    }
+  ]
 }
