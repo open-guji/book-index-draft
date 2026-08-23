@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evr5e3m6vj7r",
   "type": "work",
-  "title": "周易內傳周易外傳",
+  "title": "周易內傳",
   "authors": [
     {
       "name": "王夫之",
@@ -12,15 +12,9 @@
     }
   ],
   "juan_count": {
-    "number": 7
+    "number": 6
   },
   "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周易外傳",
-      "summary": "《周易稗疏四卷，《考異一卷，《周易內傳》六卷，《發例一卷，《周易大象解一卷，《周易外傳七卷。王夫之撰。"
-    },
     {
       "source": "續修四庫全書",
       "source_bid": "1evjk1whvmznk",
@@ -41,10 +35,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 7
+      "number": 6
     }
   ],
-  "measure_info": "七卷",
+  "measure_info": "六卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -84,11 +78,12 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqxurodbsw 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（續修四庫全書：「周易內傳周易外傳」）所載之 7 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《周易外傳》→《周易外傳》`1evg8rov0ry0w`。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "ai_note": "從 1evjqxurodbsw 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（續修四庫全書：「周易內傳周易外傳」）所載之 7 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《周易外傳》→《周易外傳》`1evg8rov0ry0w`。\n\n[M3磁鐵 2026-08-23] 周易外傳一節已別繫既有之《周易外傳》，其著錄語隨之移出。\n\n[M3磁鐵 2026-08-23] 原題「周易內傳周易外傳」係清史稿一條連著王夫之六書而題名未拆之跡；外傳一節已別繫，本條存周易內傳六卷。",
+  "updated_at": "2026-08-23T18:23:20+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "周易內傳周易外傳"
 }
