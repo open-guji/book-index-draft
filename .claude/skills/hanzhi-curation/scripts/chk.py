@@ -374,7 +374,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
             if 'fragments' in sec and (sec.get('coverage') or {}).get('level') is None:
                 fc.append((g,i,'section 有 fragments 而無 coverage.level——空陣列之歧義未消'))
     for w,locs in fwd.items():
-        if w not in IW: fc.append((f,w,'section 所繫 work 不存在')); continue
+        # 兩倉合計判存在：升格後 section 之 work_id 改指 production，只查 IW 會誤報。
+        if w not in _EXIST_W: fc.append((f,w,'section 所繫 work 不存在')); continue
+        if w not in IW: continue      # 已升格者，其輯佚檔隨資產目錄遷至 production，此處不再查
         fr=glob.glob('Work/*/*/*/%s/fragments/*.json'%w)
         if not fr: todo+=1; continue      # 非損壞，是待辦：目錄既言馬氏輯之，該 work 當有輯佚檔
         cs=json.load(open(fr[0])).get('collectors') or []

@@ -102,3 +102,35 @@
 > 「梁有演說文」誤析出「梁有」、「太康三年地記」誤析出「太康」。
 > 若不逐條反查出處原文，此類錯誤將長期留存而不被 `chk.py` 任何校驗捕捉
 > （撰人格式合法、entity 存在、僅語義有誤）。
+
+## 不是缺陷、別去「修」的
+
+| 現象 | 說明 |
+|---|---|
+| 帛書《黃帝四經》四篇（經法 `1ewozu39wyb5w`、十六經 `1ewozu3akzkzq`、稱 `1ewozu3bb7img`、道原 `1ewozu3c1fg96`）無 `subtype: chapter`，與母條 `1ev7xkhjkqygw` 之關係作 `related` 而非 `part_of`／`has_part` | **使用者有意如此**（2026-08-23 確認）。曾被當成「併池所致之退化」報出，不是。索引側之 `subtype` 隨之消失是 reindex 照記錄檔重算之果，正確。 |
+
+## 升格遺留：draft 側之資產目錄
+
+`promote` 把 draft 之資產目錄（`{id}/fragments`、`{id}/collated_edition`）
+**整體物理拷貝**到 production，而**不刪 draft 原件**；接著 `rewrite_references`
+又把留下來那份的 `work_id` 改指 production id——於是「路徑在 draft、
+內文自稱 production」，`chk` 之「輯佚檔 work_id 與路徑不符」即現。
+
+2026-08-23 實測，已升格 239 條中留有 draft 資產目錄者 **5 條**（production 皆已有同一份）：
+
+| draft id | production | draft 側檔數 | 處置 |
+|---|---|---:|---|
+| `1ev7w0ewrc5c0` 蒼頡篇 | `d59f1il8fnk0` | 1（fragments） | **已刪**（與 production 逐字節相同） |
+| `1eujf2fs4v280` 欽定四庫全書總目 | `d59dh3vo9af4` | 537（collated_edition） | **不動** |
+| `11pj8xx6ouk1s` | `96maqpn6dc` | 94 | **不動** |
+| `1agpxlq9l8nb4` | `8rlb6yi1ecqo` | 1 | **不動** |
+| `1ahjf6q3b8hds` | `8rlb6yk66qdc` | 1 | **不動** |
+
+**為何 fragments 刪而 collated_edition 不刪**：`chk` 之整理本各項掃的是
+`Work/*/*/*/*/collated_edition/*.json`，即 **draft 側那一份**；四庫總目那 537 檔
+仍在整理車道手上，刪之則整理本諸驗全部落空。輯佚檔則無此牽連，且此前
+莊子／慎子／墨子／商子四條同型殘留刪後全綠，有先例。
+
+**未決**：promote 該不該在拷貝後刪 draft 原件？刪則 collated_edition 的整理流程
+要一併改到 production 側去掃；不刪則每升一條帶 fragments 的書就多一條不符。
+現行辦法是升格後手動刪 fragments、留 collated_edition。此事牽動整理車道，宜與之議定。
