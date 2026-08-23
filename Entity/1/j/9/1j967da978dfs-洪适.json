@@ -28,6 +28,10 @@
     {
       "name": "盤洲",
       "type": "號"
+    },
+    {
+      "name": "洪適",
+      "type": "異體"
     }
   ],
   "dynasty": "南宋",
@@ -53,15 +57,31 @@
     {
       "work_id": "1ev794ae3ddkw",
       "role": "撰"
+    },
+    {
+      "work_id": "1ev3bb46jzeo0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ev3bb473ncw0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ev3bd1jl61vk",
+      "role": "撰"
     }
   ],
   "external_ids": {
     "cbdb_id": 870,
     "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_mismatch_15+work_recall_0.25+unique+no_dynasty"
+    "cbdb_source": "name_exact+dy_mismatch_15+work_recall_0.25+unique+no_dynasty",
+    "cbdb_id_alt": [
+      97673
+    ]
   },
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-23T07:44:34.017344+00:00",
   "dynasty_basis": "cbdb:death_name=南宋(跨)",
   "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并"
+  "period_basis": "据 dynasty「南宋」自动归并",
+  "ai_note": "2026-08-22 E1 人物併池：1j967avzn7z98 併入本條。二者之名僅異體之別（洪适／洪適），朝代同，生卒年不相斥，是同一人被拆成二條。異體之名存 alt_names；CBDB 另予之 id 存 external_ids.cbdb_id_alt。"
 }
