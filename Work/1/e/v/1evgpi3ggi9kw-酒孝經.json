@@ -39,6 +39,24 @@
       "title_info": "劉炫酒孝經",
       "summary": "劉炫酒孝經一卷",
       "note": "本著錄原繫磁鐵條「孝經」（`1evl1xugdoikg`），其撰人「劉炫」與本條合，今歸本條。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《酒孝經》一卷",
+      "summary": "《酒孝經》一卷劉炫定撰。"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《酒孝經》",
+      "summary": "（（侯莫陳邈妻鄭氏撰））皇甫松《酒孝經》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "酒孝經一卷",
+      "summary": "酒孝經一卷"
     }
   ],
   "description": {
@@ -47,7 +65,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"酒孝經\" 唯一候选无作者\n\n2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本「劉炫酒孝經」等 1 節原繫他條，其題核心與內文（或題中）之撰人「劉炫」與本條相合，今歸本條。",
+  "ai_note": "missing_reason: 短title \"酒孝經\" 唯一候选无作者\n\n2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本「劉炫酒孝經」等 1 節原繫他條，其題核心與內文（或題中）之撰人「劉炫」與本條相合，今歸本條。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpd27nascg 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "id": "1evgpi3ggi9kw",
   "measures": [
     {
@@ -56,9 +74,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「隋」",
   "dynasty": "隋",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

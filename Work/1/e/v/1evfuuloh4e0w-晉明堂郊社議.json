@@ -16,6 +16,12 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "晋明堂郊社議三卷 孔晃等撰。謹按見兩《唐志》。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《晉明堂郊社議》三卷",
+      "summary": "《晉明堂郊社議》三卷孔朝等撰。"
     }
   ],
   "description": {
@@ -37,11 +43,13 @@
   "additional_titles": [
     "晋明堂郊社議"
   ],
-  "ai_note": "撰人「等」字剝離：著錄作「孔晃等」，「等」謂孔晃及其他未具名之纂修者，非姓名之一部，今剝離作「孔晃」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "撰人「等」字剝離：著錄作「孔晃等」，「等」謂孔晃及其他未具名之纂修者，非姓名之一部，今剝離作「孔晃」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcz3mnym8 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

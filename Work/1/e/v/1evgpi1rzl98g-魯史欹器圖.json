@@ -34,6 +34,12 @@
       "summary": "《魯史欹器圖》一卷儀同劉微注。",
       "merged_from": "1evcmnd84f668",
       "note": "撰人原作「劉微」，乃「劉徽」之訛（或異寫），本條併入。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《魯史欹器圖》一卷",
+      "summary": "《魯史欹器圖》一卷劉徽撰。"
     }
   ],
   "description": {
@@ -42,7 +48,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0l6v7im8（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evcmnd84f668` 同題《魯史欹器圖》、同卷數 1，撰人作「劉徽」與「劉微」，僅一字之差（或一名含於另一名）。「劉微」全庫僅 2 見而「劉徽」凡 9 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0l6v7im8（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evcmnd84f668` 同題《魯史欹器圖》、同卷數 1，撰人作「劉徽」與「劉微」，僅一字之差（或一名含於另一名）。「劉微」全庫僅 2 見而「劉徽」凡 9 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpjog1f9xc 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "id": "1evgpi1rzl98g",
   "measures": [
     {
@@ -51,7 +57,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「隋」",
   "dynasty": "隋",
@@ -67,5 +73,7 @@
     }
   ],
   "books": [],
-  "related_works": []
+  "related_works": [],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
 }

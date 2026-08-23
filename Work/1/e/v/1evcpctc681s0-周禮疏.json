@@ -20,6 +20,18 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "周禮疏五十卷",
       "summary": "周禮疏五十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《周禮疏》五十卷",
+      "summary": "《周禮疏》五十卷（唐賈公彦）",
+      "author_info": "唐賈公彦"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "唐賈公彥撰。其序《周禮》廢興起於成帝劉歆，而成於鄭康成。又言鄭眾以為《書周官》，即此《周官也》，失之矣。《書》止一篇，《周禮》乃六篇，文異數萬，非《書》類，是則然矣。但《周禮》六官，實本於《周官》，《"
     }
   ],
   "id": "1evcpctc681s0",
@@ -30,7 +42,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "juan_count": {
     "number": 50
   },
@@ -41,7 +53,27 @@
     }
   ],
   "measure_info": "五十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五十卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五十卷），今據以補。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evgoq66f4074 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "books": [
+    "11qk4xwcskb2z"
+  ],
+  "authors": [
+    {
+      "name": "賈公彥",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j96haa0o3wu8",
+      "original_name": "賈公彦"
+    }
+  ],
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }
