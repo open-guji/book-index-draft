@@ -82,6 +82,26 @@ def load_index(sub):
     return out
 
 
+def embedded_author(jt, ja, by_author):
+    """庫題以「經名＋撰人＋役」立題者，撰人之名嵌於題中，既非全等亦不互為
+    子串（《周易董遇注》對《周易注》）。剔去其名（或姓）後再比，容尾綴之
+    「撰」「著」，並容字序之異（《周易朱異集注》對《集注周易》）。
+    此閘是 2026-08-23 補立——初版無之，遂有三十一條重建為重出。"""
+    if not ja or len(jt) < 2:
+        return []
+    out = []
+    for w in by_author.get(ja, []):
+        lt = nz(w.get('title'))
+        for name in (ja, ja[:2], ja[:1]):
+            if not name or name not in lt:
+                continue
+            r = re.sub(r'(撰|著)$', '', lt.replace(name, '', 1))
+            if r == jt or sorted(r) == sorted(jt):
+                out.append(w)
+            break
+    return out
+
+
 def segment(seq):
     """依錨之驟降切段，回傳每段之 index 列"""
     out, cur, mx = [], [], 0
@@ -152,6 +172,9 @@ def main():
             tier = '甲3'                      # 題合而一方闕撰人——待逐條裁
         elif sub:
             tier = '甲2'                      # 撰人同、題互子串
+        elif embedded_author(jt, ja, by_author):
+            tier = '甲4'                      # 撰人同、其名嵌於庫題之中
+            sub = embedded_author(jt, ja, by_author)
         else:
             # 題合而撰人俱有且不同者亦落此——依《SCHEMA》同題異撰是二書，當新建
             has_cit = any(c in ''.join(d['attest'] or []) for c in CIT)
@@ -168,7 +191,7 @@ def main():
 
     json.dump(D, open(DATA, 'w'), ensure_ascii=False, indent=1)
     c = collections.Counter(d['tier'] for d in D)
-    for t in ['甲1', '甲2', '甲3', '乙1', '乙2', '丙1', '丙2']:
+    for t in ['甲1', '甲2', '甲3', '甲4', '乙1', '乙2', '丙1', '丙2']:
         print(f'{t} {c[t]:5d}')
     print('合計', len(D))
 
