@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "文集",
+  "id": "1ex08h1lm4s5b",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "indexed_by": [
+    {
+      "source": "明史藝文志",
+      "source_bid": "1ev88ee9jw6ps",
+      "title_info": "《文集》十卷",
+      "summary": "《文集》十卷",
+      "note": "2026-08-23 A7 車道拆節後新立：本節原作「《胡松奏疏》五卷，《文集》十卷」，一節數書，今拆為 2 節。"
+    }
+  ],
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《明史·藝文志》（清張廷玉等（1739），著錄有明一代之著述），故不晚於 ming",
+  "ai_note": "2026-08-23 A7 車道拆節：本志一條連著數書「《胡松奏疏》五卷，《文集》十卷」，匯入併為一節而只繫一個 work，今拆為 2 節，本條為其第 2 項。　本志著錄不著朝代，故只記 period_upper，不設 period、不繫 entity。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}
