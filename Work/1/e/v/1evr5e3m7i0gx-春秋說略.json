@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evr5e3m7i0gx",
   "type": "work",
-  "title": "春秋說略春秋比",
+  "title": "春秋說略",
   "authors": [
     {
       "name": "郝懿行",
@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 2
+    "number": 12
   },
   "indexed_by": [
     {
@@ -37,21 +37,15 @@
       "edition": "影印清道光七年趙銘彝刻本",
       "volume": "第144冊",
       "section": "经部 春秋類"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "春秋比",
-      "summary": "《春秋說略》十二卷，《春秋比》二卷。郝懿行撰。"
     }
   ],
   "measures": [
     {
       "unit": "卷",
-      "number": 2
+      "number": 12
     }
   ],
-  "measure_info": "二卷",
+  "measure_info": "十二卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -80,11 +74,12 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqzaoaz2f4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「春秋說略春秋比」）所載之 2 卷不合，今據原文訂正。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "從 1evjqzaoaz2f4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「春秋說略春秋比」）所載之 2 卷不合，今據原文訂正。\n\n[M3磁鐵 2026-08-23] 清史稿此條連著「春秋說略十二卷，春秋比二卷。郝懿行撰」二書，二節共繫一 work；本 work 兼繫書目答問「春秋說略」，是說略之條，故留繫說略而別立春秋比。\n\n[M3磁鐵 2026-08-23] 本條所繫清史稿、書目答問著錄語皆作「春秋說略」；原題「春秋說略春秋比」係連書未拆之跡，春秋比已別立。",
+  "updated_at": "2026-08-23T18:23:20+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "春秋說略春秋比"
 }

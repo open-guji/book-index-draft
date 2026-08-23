@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evr5e3m7i0du",
   "type": "work",
-  "title": "音分古義附",
+  "title": "音分古義",
   "authors": [
     {
       "name": "戴煦",
@@ -12,7 +12,7 @@
     }
   ],
   "juan_count": {
-    "number": 1
+    "number": 2
   },
   "indexed_by": [
     {
@@ -35,10 +35,10 @@
   "measures": [
     {
       "unit": "卷",
-      "number": 1
+      "number": 2
     }
   ],
-  "measure_info": "一卷",
+  "measure_info": "二卷",
   "resources": [
     {
       "name": "Internet Archive",
@@ -61,11 +61,12 @@
       ]
     }
   ],
-  "ai_note": "從 31hyr4yqrr15n 合併。原註：短書名（1字），可能存在同名異書。 來源：清史稿藝文志經部樂類 書名由「附」修正為「音分古義附」。",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "ai_note": "從 31hyr4yqrr15n 合併。原註：短書名（1字），可能存在同名異書。 來源：清史稿藝文志經部樂類 書名由「附」修正為「音分古義附」。\n\n[M3磁鐵 2026-08-23] 清史稿此條作「音分古義二卷，附一卷。戴煦撰」，《附》係隨本而存之附屬部帙，依 SCHEMA 甲類不別立 work，二節共繫是；原題「音分古義附」係連書未拆之跡，今正為母書之名。",
+  "updated_at": "2026-08-23T18:23:20+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "音分古義附"
 }
