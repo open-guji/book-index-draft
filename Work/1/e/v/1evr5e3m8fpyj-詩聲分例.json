@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evr5e3m8fpyj",
   "type": "work",
-  "title": "詩聲類詩聲分例",
+  "title": "詩聲分例",
   "authors": [
     {
       "name": "孔廣森",
@@ -15,12 +15,6 @@
     "number": 1
   },
   "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "詩聲類",
-      "summary": "《詩聲類》十二卷，《詩聲分例》一卷。孔廣森撰。"
-    },
     {
       "source": "書目答問",
       "source_bid": "1evr5e3m9zwpo",
@@ -80,11 +74,12 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "從 1evjqzxwd6ccg 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「詩聲類詩聲分例」）所載之 1 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《詩聲類》→《詩聲類》`1evkpvqvu42rk`。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "ai_note": "從 1evjqzxwd6ccg 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（續修四庫全書：「詩聲類詩聲分例」）所載之 1 卷不合，今據原文訂正。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《詩聲類》→《詩聲類》`1evkpvqvu42rk`。\n\n[M3磁鐵 2026-08-23] 詩聲類一節已別繫既有之《詩聲類》十二卷，其著錄語隨之移出。\n\n[M3磁鐵 2026-08-23] 原題「詩聲類詩聲分例」係清史稿一條連著二書而題名未拆之跡；詩聲類一節已別繫，本條存詩聲分例一卷。",
+  "updated_at": "2026-08-23T18:23:20+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "original_title": "詩聲類詩聲分例"
 }
