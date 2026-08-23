@@ -28,7 +28,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"河東記\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 短title \"河東記\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B3 併池（一方無撰人型）：1evgpjx04c6ps 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。",
   "id": "1evgq0mwggy68",
   "measures": [
     {
@@ -47,10 +47,12 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T05:48:58.501766+00:00",
   "_has_text": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
 }

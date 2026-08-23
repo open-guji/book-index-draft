@@ -38,9 +38,26 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T05:48:58.501766+00:00",
   "period": "jin",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "period_fallback:jin→晉",
+  "authors": [
+    {
+      "name": "葛洪",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j967bgl62uk3",
+      "dynasty_basis": "manual:historical_figure(葛洪(283-343)，字稚川，東晉道教學者)"
+    }
+  ],
+  "loss_status": "lost",
+  "description": {
+    "text": "已亡佚。",
+    "sources": [
+      "補晋書藝文志"
+    ]
+  },
+  "ai_note": "2026-08-22 B3 併池（一方無撰人型）：1evfuugsiee4g 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。"
 }
