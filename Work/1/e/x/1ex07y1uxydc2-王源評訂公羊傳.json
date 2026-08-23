@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "王源評訂公羊傳",
+  "id": "1ex07y1uxydc2",
+  "original_title": "公羊傳",
+  "authors": [
+    {
+      "name": "王源",
+      "role": "評訂",
+      "dynasty": "清"
+    }
+  ],
+  "measure_info": "不分卷",
+  "indexed_by": [
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《公羊傳》不分卷 穀梁傳不分卷",
+      "summary": "《公羊傳》不分卷 穀梁傳不分卷。淸 王源 評訂 大連市圖書館藏淸康煕五十五年刻本。",
+      "section": "经部",
+      "edition": "大連市圖書館藏淸康煕五十五年刻本",
+      "author_info": "清王源評訂",
+      "note": "2026-08-23 A2 車道拆節後新立：本節原作「《公羊傳》不分卷 穀梁傳不分卷。淸王源評訂」，一節二書，今拆為二節。"
+    }
+  ],
+  "description": {
+    "text": "本書收入《四庫全書存目叢書》（经部）。",
+    "sources": [
+      "四庫全書存目叢書"
+    ]
+  },
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "ai_note": "2026-08-23 A2 車道拆節：本節原繫《公羊傳》白文本，而本節所著者是清王源之評訂本——依 SCHEMA〈原典與注本〉，評訂本自為一 Work，繫於原典。今據本節新立。待繫 `contains_text_of`／`studies` 至原典（`related_works` 屬併池車道，已記 handoff）。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}
