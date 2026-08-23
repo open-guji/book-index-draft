@@ -5703,7 +5703,10 @@
     "measure_info": "二十卷",
     "has_text": true,
     "has_image": true,
-    "period": "liao-jin-yuan"
+    "period": "liao-jin-yuan",
+    "additional_titles": [
+      "劉敏中中庵集"
+    ]
   },
   "1ev3bd62tyww0": {
     "id": "1ev3bd62tyww0",
@@ -9862,7 +9865,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcmnfpyw6ww-東方朔書.json",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "period": "qin-han",
+    "author": "東方朔",
+    "dynasty": "西漢",
+    "role": "撰"
   },
   "1evcmnft4ikn4": {
     "id": "1evcmnft4ikn4",
@@ -10044,7 +10051,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcmoammwxs0-東方朔集.json",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "period": "qin-han",
+    "author": "東方朔",
+    "dynasty": "西漢",
+    "role": "撰"
   },
   "1evcmoanum5ts": {
     "id": "1evcmoanum5ts",
@@ -10113,7 +10124,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcmobsnw6ps-裴松之集.json",
     "juan_count": 13,
-    "measure_info": "十三卷"
+    "measure_info": "十三卷",
+    "period": "nanbeichao",
+    "author": "裴松之",
+    "dynasty": "南朝宋",
+    "role": "撰"
   },
   "1evcmoc5z1gjk": {
     "id": "1evcmoc5z1gjk",
@@ -10142,7 +10157,11 @@
     "id": "1evcmoc7wym80",
     "title": "蕭子範集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcmoc7wym80-蕭子範集.json"
+    "path": "Work/1/e/v/1evcmoc7wym80-蕭子範集.json",
+    "period": "nanbeichao",
+    "author": "蕭子範",
+    "dynasty": "南朝梁",
+    "role": "撰"
   },
   "1evcmocbw8jk0": {
     "id": "1evcmocbw8jk0",
@@ -10687,7 +10706,11 @@
     "path": "Work/1/e/v/1evcpd1btpurk-登真隱訣.json",
     "author": "陶弘景",
     "role": "撰",
-    "has_text": true
+    "has_text": true,
+    "additional_titles": [
+      "陶弘景登真隱訣"
+    ],
+    "period": "nanbeichao"
   },
   "1evcpd1ensge8": {
     "id": "1evcpd1ensge8",
@@ -10992,13 +11015,18 @@
   },
   "1evcpd8sqntvk": {
     "id": "1evcpd8sqntvk",
-    "title": "古今詔集",
+    "title": "古今詔集李義府撰",
     "type": "Work",
     "path": "Work/1/e/v/1evcpd8sqntvk-古今詔集.json",
     "author": "李義府",
     "role": "撰",
     "juan_count": 100,
-    "measure_info": "一百卷"
+    "measure_info": "一百卷",
+    "additional_titles": [
+      "古今詔集",
+      "李義府古今詔集"
+    ],
+    "period": "sui-tang"
   },
   "1evcpd8sx7ta8": {
     "id": "1evcpd8sx7ta8",
@@ -11115,12 +11143,6 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcs081bkzr4-荀萬秋禮雜鈔略.json"
   },
-  "1evcs083vz8jk": {
-    "id": "1evcs083vz8jk",
-    "title": "元延明三禮宗略",
-    "type": "Work",
-    "path": "Work/1/e/v/1evcs083vz8jk-元延明三禮宗略.json"
-  },
   "1evcs08xh0xz4": {
     "id": "1evcs08xh0xz4",
     "title": "方範經例",
@@ -11234,12 +11256,6 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcs0brnzw8w-紀年.json"
   },
-  "1evcs0c46fc3k": {
-    "id": "1evcs0c46fc3k",
-    "title": "張敦素建元曆",
-    "type": "Work",
-    "path": "Work/1/e/v/1evcs0c46fc3k-張敦素建元曆.json"
-  },
   "1evcs0c6fw9vk": {
     "id": "1evcs0c6fw9vk",
     "title": "和包漢趙紀",
@@ -11286,7 +11302,11 @@
     "id": "1evcs0dh390cg",
     "title": "公沙仲穆大和野史",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0dh390cg-公沙仲穆大和野史.json"
+    "path": "Work/1/e/v/1evcs0dh390cg-公沙仲穆大和野史.json",
+    "period": "sui-tang",
+    "author": "公沙仲穆",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evcs0dvg5zwg": {
     "id": "1evcs0dvg5zwg",
@@ -11353,17 +11373,15 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcs0f7t0hds-陸凱吳國先賢傳.json"
   },
-  "1evcs0fcbycxs": {
-    "id": "1evcs0fcbycxs",
-    "title": "陽休之幽州古今人物志",
-    "type": "Work",
-    "path": "Work/1/e/v/1evcs0fcbycxs-陽休之幽州古今人物志.json"
-  },
   "1evcs0g9xixvk": {
     "id": "1evcs0g9xixvk",
     "title": "顏師古安興貴家傳",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0g9xixvk-顏師古安興貴家傳.json"
+    "path": "Work/1/e/v/1evcs0g9xixvk-顏師古安興貴家傳.json",
+    "period": "sui-tang",
+    "author": "顏師古",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evcs0gf5r1fk": {
     "id": "1evcs0gf5r1fk",
@@ -11375,7 +11393,11 @@
     "id": "1evcs0gjtopog",
     "title": "李德裕異域歸忠傳",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0gjtopog-李德裕異域歸忠傳.json"
+    "path": "Work/1/e/v/1evcs0gjtopog-李德裕異域歸忠傳.json",
+    "period": "sui-tang",
+    "author": "李德裕",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evcs0gmgkutc": {
     "id": "1evcs0gmgkutc",
@@ -11686,7 +11708,11 @@
     "id": "1evcs0p53zlz4",
     "title": "賈大隱注公孫龍子",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs0p53zlz4-賈大隱注公孫龍子.json"
+    "path": "Work/1/e/v/1evcs0p53zlz4-賈大隱注公孫龍子.json",
+    "period": "sui-tang",
+    "author": "賈大隱",
+    "dynasty": "唐",
+    "role": "注"
   },
   "1evcs0p7cu2o0": {
     "id": "1evcs0p7cu2o0",
@@ -12099,7 +12125,11 @@
     "id": "1evcs1579zj7k",
     "title": "皇甫湜集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcs1579zj7k-皇甫湜集.json"
+    "path": "Work/1/e/v/1evcs1579zj7k-皇甫湜集.json",
+    "period": "sui-tang",
+    "author": "皇甫湜",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evcs159yfv28": {
     "id": "1evcs159yfv28",
@@ -14799,7 +14829,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcsynfpt4hs-孟浩然詩.json",
     "juan_count": 3,
-    "measure_info": "三卷"
+    "measure_info": "三卷",
+    "period": "sui-tang",
+    "author": "孟浩然",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evcsynl8naio": {
     "id": "1evcsynl8naio",
@@ -15105,7 +15139,11 @@
     "id": "1evcsyvyjgmio",
     "title": "鄭文寶集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsyvyjgmio-鄭文寶集.json"
+    "path": "Work/1/e/v/1evcsyvyjgmio-鄭文寶集.json",
+    "period": "song",
+    "author": "鄭文寶",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsyw26vj7k": {
     "id": "1evcsyw26vj7k",
@@ -15209,13 +15247,21 @@
     "id": "1evcsyy6xdqm8",
     "title": "李昭玘集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsyy6xdqm8-李昭玘集.json"
+    "path": "Work/1/e/v/1evcsyy6xdqm8-李昭玘集.json",
+    "period": "song",
+    "author": "李昭玘",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsyy8pzv28": {
     "id": "1evcsyy8pzv28",
     "title": "張舜民集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsyy8pzv28-張舜民集.json"
+    "path": "Work/1/e/v/1evcsyy8pzv28-張舜民集.json",
+    "period": "song",
+    "author": "張舜民",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsyye2la80": {
     "id": "1evcsyye2la80",
@@ -15235,7 +15281,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcsyyxdfjeo-翟汝文集.json",
     "juan_count": 30,
-    "measure_info": "三十卷"
+    "measure_info": "三十卷",
+    "period": "song",
+    "author": "翟汝文",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsyz0bvgn4": {
     "id": "1evcsyz0bvgn4",
@@ -15283,7 +15333,11 @@
     "id": "1evcsz0k13y80",
     "title": "劉安節文集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsz0k13y80-劉安節文集.json"
+    "path": "Work/1/e/v/1evcsz0k13y80-劉安節文集.json",
+    "period": "song",
+    "author": "劉安節",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsz0n2d0cg": {
     "id": "1evcsz0n2d0cg",
@@ -15339,7 +15393,11 @@
     "id": "1evcsz1eb4n40",
     "title": "葛勝仲集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsz1eb4n40-葛勝仲集.json"
+    "path": "Work/1/e/v/1evcsz1eb4n40-葛勝仲集.json",
+    "period": "song",
+    "author": "葛勝仲",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evcsz1hyuscg": {
     "id": "1evcsz1hyuscg",
@@ -15387,13 +15445,21 @@
     "id": "1evcsz22me29s",
     "title": "鄭剛中文集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsz22me29s-鄭剛中文集.json"
+    "path": "Work/1/e/v/1evcsz22me29s-鄭剛中文集.json",
+    "period": "song",
+    "author": "鄭剛中",
+    "dynasty": "南宋",
+    "role": "撰"
   },
   "1evcsz2a5yiv4": {
     "id": "1evcsz2a5yiv4",
     "title": "張孝祥文集",
     "type": "Work",
-    "path": "Work/1/e/v/1evcsz2a5yiv4-張孝祥文集.json"
+    "path": "Work/1/e/v/1evcsz2a5yiv4-張孝祥文集.json",
+    "period": "song",
+    "author": "張孝祥",
+    "dynasty": "南宋",
+    "role": "撰"
   },
   "1evcsz2dxfim8": {
     "id": "1evcsz2dxfim8",
@@ -17935,7 +18001,7 @@
   },
   "1evfhdazscs1s": {
     "id": "1evfhdazscs1s",
-    "title": "藥錄",
+    "title": "藥錄李譡之撰",
     "type": "Work",
     "path": "Work/1/e/v/1evfhdazscs1s-藥錄.json",
     "author": "李譡之",
@@ -17944,7 +18010,11 @@
     "juan_count": 3,
     "measure_info": "三卷",
     "period": "three-kingdoms",
-    "loss_status": "lost"
+    "loss_status": "lost",
+    "additional_titles": [
+      "藥錄",
+      "李譡之藥錄"
+    ]
   },
   "1evfhdbzxp4ow": {
     "id": "1evfhdbzxp4ow",
@@ -22202,7 +22272,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgopn8g2znk-趙汝談書說.json",
     "juan_count": 3,
-    "measure_info": "三卷"
+    "measure_info": "三卷",
+    "period": "song",
+    "author": "趙汝談",
+    "dynasty": "南宋",
+    "role": "撰"
   },
   "1evgopnsomvi8": {
     "id": "1evgopnsomvi8",
@@ -24955,7 +25029,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgptocyo4xs-竺道生法師十四科元贊義記.json",
     "juan_count": 1,
-    "measure_info": "一卷"
+    "measure_info": "一卷",
+    "period": "jin",
+    "author": "竺道生",
+    "dynasty": "晉",
+    "role": "撰"
   },
   "1evgptoyy9yio": {
     "id": "1evgptoyy9yio",
@@ -25733,7 +25811,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgq38yfn8cg-東方朔珞琭賦䟽.json",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "period": "qin-han",
+    "author": "東方朔",
+    "dynasty": "西漢",
+    "role": "撰"
   },
   "1evgq3c61tji8": {
     "id": "1evgq3c61tji8",
@@ -25898,7 +25980,11 @@
     "measure_info": "一卷",
     "additional_titles": [
       "張仲景脉經"
-    ]
+    ],
+    "period": "qin-han",
+    "author": "張仲景",
+    "dynasty": "東漢",
+    "role": "撰"
   },
   "1evgq48rqf8xs": {
     "id": "1evgq48rqf8xs",
@@ -25983,7 +26069,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgq4hpyg7pc-皇甫謐三部鍼灸經.json",
     "juan_count": 12,
-    "measure_info": "十二卷"
+    "measure_info": "十二卷",
+    "period": "jin",
+    "author": "皇甫謐",
+    "dynasty": "西晉",
+    "role": "撰"
   },
   "1evgq4iazpxj4": {
     "id": "1evgq4iazpxj4",
@@ -26415,7 +26505,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgq9ow83tog-陳紹儒圉漕疏要.json",
     "juan_count": 2,
-    "measure_info": "二卷"
+    "measure_info": "二卷",
+    "period": "ming",
+    "author": "陳紹儒",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgq9pjkpwjk": {
     "id": "1evgq9pjkpwjk",
@@ -26853,7 +26947,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqd02giu4g-范純仁集.json",
     "juan_count": 20,
-    "measure_info": "二十卷"
+    "measure_info": "二十卷",
+    "period": "song",
+    "author": "范純仁",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evgqd43uxb7k": {
     "id": "1evgqd43uxb7k",
@@ -26861,7 +26959,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqd43uxb7k-劉安節集.json",
     "juan_count": 4,
-    "measure_info": "四卷"
+    "measure_info": "四卷",
+    "period": "song",
+    "author": "劉安節",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evgqd4cx4av4": {
     "id": "1evgqd4cx4av4",
@@ -26904,7 +27006,11 @@
     "measure_info": "十卷",
     "additional_titles": [
       "趙彦端介菴集"
-    ]
+    ],
+    "period": "song",
+    "author": "趙彥端",
+    "dynasty": "南宋",
+    "role": "撰"
   },
   "1evgqdh8fwhs0": {
     "id": "1evgqdh8fwhs0",
@@ -26989,7 +27095,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqdy44rgn4-陳宜甫秋巖集.json",
     "juan_count": 1,
-    "measure_info": "一卷"
+    "measure_info": "一卷",
+    "period": "liao-jin-yuan",
+    "author": "陳宜甫",
+    "dynasty": "元",
+    "role": "撰"
   },
   "1evgqeax3gnb4": {
     "id": "1evgqeax3gnb4",
@@ -27046,7 +27156,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqepgtsq9s-陳獻章白沙集.json",
     "juan_count": 22,
-    "measure_info": "二十二卷"
+    "measure_info": "二十二卷",
+    "period": "ming",
+    "author": "陳獻章",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqeq29qlmo": {
     "id": "1evgqeq29qlmo",
@@ -27078,7 +27192,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqeyc2g268-王九思漢陂集.json",
     "juan_count": 16,
-    "measure_info": "十六卷"
+    "measure_info": "十六卷",
+    "period": "ming",
+    "author": "王九思",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqeyxomoe8": {
     "id": "1evgqeyxomoe8",
@@ -27188,7 +27306,11 @@
     "measure_info": "二十卷",
     "additional_titles": [
       "康太和留省藁"
-    ]
+    ],
+    "period": "ming",
+    "author": "康太和",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqfnxwetj4": {
     "id": "1evgqfnxwetj4",
@@ -27204,7 +27326,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqfo42z0u8-駱文盛兩溪集.json",
     "juan_count": 7,
-    "measure_info": "七卷"
+    "measure_info": "七卷",
+    "period": "ming",
+    "author": "駱文盛",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqfoz039xc": {
     "id": "1evgqfoz039xc",
@@ -27231,7 +27357,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqfq02u0ow-王漸逵靑蘿集.json",
     "juan_count": 20,
-    "measure_info": "二十卷"
+    "measure_info": "二十卷",
+    "period": "ming",
+    "author": "王漸逵",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqfqiopaf4": {
     "id": "1evgqfqiopaf4",
@@ -27263,7 +27393,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqftvopyww-洪朝選靜菴集.json",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "period": "ming",
+    "author": "洪朝選",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqfv34kwe8": {
     "id": "1evgqfv34kwe8",
@@ -27290,7 +27424,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgqfvv6dlog-王世懋奉常集.json",
     "juan_count": 54,
-    "measure_info": "五十四卷"
+    "measure_info": "五十四卷",
+    "period": "ming",
+    "author": "王世懋",
+    "dynasty": "明",
+    "role": "撰"
   },
   "1evgqg5bf1p8g": {
     "id": "1evgqg5bf1p8g",
@@ -28841,11 +28979,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5xfgrswzk-宋文皇帝元皇后哀策文.json",
     "author": "顏延之",
-    "dynasty": "唐",
+    "dynasty": "南朝宋",
     "role": "作",
     "has_text": true,
     "subtype": "article",
-    "period": "sui-tang"
+    "period": "nanbeichao"
   },
   "1evi5xgyo41kw": {
     "id": "1evi5xgyo41kw",
@@ -28865,11 +29003,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evi5xh9gf9c0-祭屈原文.json",
     "author": "顏延之",
-    "dynasty": "唐",
+    "dynasty": "南朝宋",
     "role": "作",
     "has_text": true,
     "subtype": "article",
-    "period": "sui-tang"
+    "period": "nanbeichao"
   },
   "1evi64rxkq4g0": {
     "id": "1evi64rxkq4g0",
@@ -43658,7 +43796,11 @@
     "path": "Work/1/e/v/1evr5e3mdqr5v-林季仲竹軒雜箸.json",
     "juan_count": 6,
     "measure_info": "六卷",
-    "loss_status": "partially_extant"
+    "loss_status": "partially_extant",
+    "period": "song",
+    "author": "林季仲",
+    "dynasty": "北宋",
+    "role": "撰"
   },
   "1evr5e3mdqr7h": {
     "id": "1evr5e3mdqr7h",
@@ -44787,7 +44929,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evr5e3mfxf3e-諸葛亮武侯十六䇿.json",
     "juan_count": 1,
-    "measure_info": "一卷"
+    "measure_info": "一卷",
+    "period": "three-kingdoms",
+    "author": "諸葛亮",
+    "dynasty": "三國蜀",
+    "role": "撰"
   },
   "1evr5e3mfxf46": {
     "id": "1evr5e3mfxf46",
@@ -45531,7 +45677,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evr5e3mhhlsm-皮日休文藪.json",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "period": "sui-tang",
+    "author": "皮日休",
+    "dynasty": "唐",
+    "role": "撰"
   },
   "1evr5e3mhhltn": {
     "id": "1evr5e3mhhltn",
@@ -46128,7 +46278,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evr5e3mjd0yi-劉涓子神仙遺論.json",
     "juan_count": 10,
-    "measure_info": "十卷"
+    "measure_info": "十卷",
+    "period": "jin",
+    "author": "劉涓子",
+    "dynasty": "東晉",
+    "role": "撰"
   },
   "1evr5e3mjd0yy": {
     "id": "1evr5e3mjd0yy",

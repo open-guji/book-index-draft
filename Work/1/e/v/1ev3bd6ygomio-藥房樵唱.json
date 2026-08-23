@@ -32,6 +32,19 @@
       "source_bid": "1eve1ek8wcnb4",
       "title_info": "《葯房樵唱》三卷",
       "summary": "元吳景奎葯房樵唱三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《吳景奎葯房樵唱》三卷",
+      "summary": "《吳景奎葯房樵唱》三卷"
+    },
+    {
+      "source": "元史藝文志",
+      "source_bid": "1eve1ek8wcnb4",
+      "title_info": "吳景奎葯房樵唱三卷",
+      "summary": "元吳景奎葯房樵唱三卷。",
+      "note": "本著錄原繫於磁鐵條「藥房樵唱」（`1ev3bd6ygomio`），今歸本條。"
     }
   ],
   "books": [
@@ -125,12 +138,17 @@
       "補遼金元藝文志"
     ]
   },
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-22T08:35:02.277736+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《吳景奎葯房樵唱三卷》→《吳景奎葯房樵唱》`1evgqe29jdkow`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxmx7f7y8 與 11q37tpb8tngg 同指文淵閣寫本一實物，今併於後者。"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《吳景奎葯房樵唱三卷》→《吳景奎葯房樵唱》`1evgqe29jdkow`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxmx7f7y8 與 11q37tpb8tngg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 併池：《吳景奎葯房樵唱》1evgqe29jdkow 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
+  "additional_titles": [
+    "吳景奎葯房樵唱"
+  ],
+  "period_upper": "liao-jin-yuan",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《元史藝文志》（清錢大昕補元，斷代），故不晚於 liao-jin-yuan"
 }
