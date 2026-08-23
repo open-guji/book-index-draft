@@ -15,7 +15,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-22 B3 併池（藏本條重出）：1evkq3pqnyigw 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→3）併入本條。",
   "juan_count": {
     "number": 35
   },
@@ -28,7 +28,9 @@
   "measure_info": "三十五冊",
   "id": "1evkab90xgrnk",
   "books": [
-    "11qkhvabef4zk"
+    "11qkhvabef4zk",
+    "11qki4cxg9wjk",
+    "11qki4cygso3k"
   ],
   "related_works": [
     {
@@ -37,9 +39,12 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [],
+  "period_upper": "liao-jin-yuan",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「元刊本」——版本之年不早於成書之年，故不晚於 liao-jin-yuan"
 }

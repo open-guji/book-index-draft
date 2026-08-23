@@ -29,7 +29,8 @@
   ],
   "books": [
     "11q37udrinz7k",
-    "11qkhtwgki5mo"
+    "11qkhtwgki5mo",
+    "11qkhu8x3w9vk"
   ],
   "juan_count": {
     "number": 20
@@ -142,12 +143,20 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-23T06:04:29.719957+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxwuwg0zk 與 11q37udrinz7k 同指文淵閣寫本一實物，今併於後者。"
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxwuwg0zk 與 11q37udrinz7k 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpvi5vvi80 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 2→3）併入本條。",
+  "period_upper": "qing",
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「清乾隆四十三年武林繡墨齋颺錦齋刊本」——版本之年不早於成書之年，故不晚於 qing",
+  "description": {
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善038769-038774）。清乾隆四十三年武林繡墨齋颺錦齋刊本。",
+    "sources": [
+      "國立故宮博物院善本舊籍"
+    ]
+  }
 }
