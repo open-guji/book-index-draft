@@ -16,6 +16,14 @@
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
       "summary": "列仙讚序一卷 郭元祖,謹按見《隋志》。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《列仙贊序》一卷",
+      "summary": "《列仙贊序》一卷郭元祖撰。",
+      "merged_from": "1evfuunwosr9c",
+      "note": "S 併池：列仙讚序／列仙贊序"
     }
   ],
   "description": {
@@ -35,10 +43,23 @@
   ],
   "measure_info": "一卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evcml3ir8i68`（列仙贊序）。二條同題（讚／贊通用）同撰（郭元祖）同卷數（一卷）。本條所繫《補晉書藝文志》自注「謹按見《隋志》」，被刪條所繫即《隋書經籍志》「《列仙贊序》一卷郭元祖撰」——補晉志明言其所本即隋志，同一書無疑。存者取有硬朝代（晉）與存佚判定之本條，被刪條之隋志著錄與考證已全數遷入。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "列仙贊序一卷",
+      "summary": "列仙讚序一卷 郭元祖撰\n郭元祖有《列仙傳贊》,見前。\n案此一卷當是前二卷之序目,亦或在前二卷中。以書名、\n卷數稍不同,遂又别出其目。",
+      "merged_from": "1evfuunwosr9c",
+      "note": "S 併池：列仙讚序／列仙贊序"
+    }
+  ],
+  "additional_titles": [
+    "列仙贊序"
+  ]
 }

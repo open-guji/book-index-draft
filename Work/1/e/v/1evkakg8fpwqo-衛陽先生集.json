@@ -16,9 +16,9 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evjxniihcidc`（衞陽先生集）。二條同題（衛／衞異體）同撰（周世選）。本條所掛為明崇禎壬申（五年）故城周氏家刊本，被刪條所繫四庫全書存目叢書著錄「《衞陽先生集》十四卷…明崇禎五年周承芳刻本」——同年同刊，一書。存者取用字正之「衛」。按：本條原 juan_count 作 6、measure_info 作「六冊」，乃冊數而非卷數；今據所併之存目著錄改為十四卷，冊數之說已見所掛 Book。　被刪條之 description：本書收入《四庫全書存目叢書》第136冊（集部）。（源：四庫全書存目叢書）。",
   "juan_count": {
-    "number": 6
+    "number": 14
   },
   "measures": [
     {
@@ -26,14 +26,31 @@
       "number": 6
     }
   ],
-  "measure_info": "六冊",
+  "measure_info": "十四卷",
   "id": "1evkakg8fpwqo",
   "books": [
     "11qki6pw0g2kg"
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《衞陽先生集》十四卷",
+      "author_info": "明周世選撰",
+      "summary": "《衞陽先生集》十四卷。明周世選撰。北京大學圖書館藏明崇禎五年周承芳刻本。",
+      "edition": "北京大學圖書館藏明崇禎五年周承芳刻本",
+      "volume": "第136冊",
+      "section": "集部",
+      "merged_from": "1evkakg8fpwqo",
+      "note": "S 併池：衛陽先生集／衞陽先生集"
+    }
+  ],
+  "additional_titles": [
+    "衞陽先生集"
+  ]
 }

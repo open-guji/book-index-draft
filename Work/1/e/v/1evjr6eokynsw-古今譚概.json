@@ -20,6 +20,18 @@
       "edition": "影印明刻本",
       "volume": "第1195冊",
       "section": "子部 雑家類"
+    },
+    {
+      "source": "四庫全書存目叢書",
+      "source_bid": "1evjxczyavy80",
+      "title_info": "《古今譚槩》三十六卷",
+      "author_info": "明馮夢龍輯",
+      "summary": "《古今譚槩》三十六卷。明馮夢龍輯。北京大學圖書館藏明刻本。",
+      "edition": "北京大學圖書館藏明刻本",
+      "volume": "第136冊",
+      "section": "子部",
+      "merged_from": "1evjr6eokynsw",
+      "note": "S 併池：古今譚概／古今譚槩"
     }
   ],
   "description": {
@@ -28,7 +40,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evjxm828kmww`（古今譚槩）。二條同題（概／槩異體）同撰（馮夢龍輯）同卷數（三十六卷）：本條繫續修四庫全書之明刻本，被刪條繫四庫全書存目叢書之明刻本。存者取用字正之「概」。　被刪條之 description：本書收入《四庫全書存目叢書》第136冊（子部）。（源：四庫全書存目叢書）。",
   "juan_count": {
     "number": 36
   },
@@ -54,10 +66,13 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "古今譚槩"
+  ]
 }
