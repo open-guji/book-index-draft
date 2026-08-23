@@ -8,7 +8,8 @@
       "name": "李筌",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": "1j967afjb6ae9"
+      "entity_id": "1j967afjb6ae9",
+      "note": "據本 work 諸著錄之 author_info「李筌」補；著錄所給者為一，去朝代與職名後取之。"
     }
   ],
   "indexed_by": [
@@ -31,6 +32,23 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "又太白陰經",
       "summary": "又太白陰經十卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "太白隂經二卷",
+      "summary": "太白隂經二卷",
+      "merged_from": "1ev3bbewp5tz4",
+      "note": "S 併池：太白陰經／太白隂經"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《太白隂經》十卷",
+      "summary": "《太白隂經》十卷（李筌）",
+      "author_info": "李筌",
+      "merged_from": "1ev3bbewp5tz4",
+      "note": "S 併池：太白陰經／太白隂經"
     }
   ],
   "books": [
@@ -145,13 +163,16 @@
     }
   ],
   "measure_info": "八卷",
-  "ai_note": "從 1evcs0sy7z7r4 合併。原註：作者「唐李筌撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 partially_extant，據：「考《唐書•藝文志》、《宋史•藝文志》皆雲《太白陰經》十卷，而此本止八卷，疑非完帙」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwhmahn28 與 11q37qnctcu0w 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "從 1evcs0sy7z7r4 合併。原註：作者「唐李筌撰」補自《國立故宮博物院善本舊籍》目錄。　loss_status 判為 partially_extant，據：「考《唐書•藝文志》、《宋史•藝文志》皆雲《太白陰經》十卷，而此本止八卷，疑非完帙」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwhmahn28 與 11q37qnctcu0w 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evr5e3mfxf32`（太白隂經）。二條同題（陰／隂異體）同撰（李筌）。卷數八卷／二卷／十卷之異出於異志（本條繫宋志十卷、四庫總目八卷、新唐志十卷；被刪條繫崇文總目二卷、國史經籍志十卷），跨志卷數本多歧，不作二書之證；四庫提要已明言「《唐志》《宋志》皆云十卷，而此本止八卷，疑非完帙」，是傳本殘全之別。存者取用字正之「陰」，且源多。　被刪條之 period_upper=song，本條從缺，不越 C／D 車道而搬，俟其道補。",
   "loss_status": "partially_extant",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "additional_titles": [
+    "太白隂經"
+  ]
 }

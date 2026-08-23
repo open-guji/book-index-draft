@@ -31,6 +31,14 @@
       "source_bid": "1eve1eig5jn5s",
       "title_info": "鍾會周易盡神論一卷",
       "summary": "鍾會周易盡神論一卷。"
+    },
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《周易盡神論》一卷",
+      "summary": "《周易盡神論》一卷魏司空鐘會撰。梁有《周易無互體論》三卷，鐘會撰，亡。",
+      "merged_from": "1evdmn7qmsjr4",
+      "note": "S 併池：周易盡神論鍾會撰／鐘會撰"
     }
   ],
   "emendated_by": [
@@ -62,10 +70,13 @@
     ]
   },
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evc5p8nru96o`（周易盡神論鐘會撰）。二條同題（鍾／鐘之異；鍾會之姓當作鍾）同撰同卷數（一卷），所繫皆《隋書經籍志》「《周易盡神論》一卷魏司空鍾會撰。梁有《周易無互體論》三卷…」，逐字相同，是同一著錄匯入兩次（一為簡轉繁時取字不一）。存者取用字正之「鍾」，且別有三國藝文志一源與隋志考證。　被刪條之 description：魏司空钟会撰。梁有《周易无互体论》三卷，钟会撰，亡。（源：）；被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "updated_at": "2026-08-23T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志、隋書經籍志、隋書經籍志考證",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "additional_titles": [
+    "周易盡神論鐘會撰"
+  ]
 }
