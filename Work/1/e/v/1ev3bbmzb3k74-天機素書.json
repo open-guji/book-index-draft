@@ -37,5 +37,11 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題唐邱延翰撰。延翰字翼之，聞喜人。《通志•藝文略》載延翰《玉」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題唐邱延翰撰。延翰字翼之，聞喜人。《通志•藝文略》載延翰《玉」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-23 秦代推進：description 據四庫提要補寫——本條係堪輿書，與黃石公素書題名偶同，特記以免日後誤併。",
+  "description": {
+    "text": "舊題唐邱延翰撰之堪輿書，即《陰陽天機書》之屬（宋吳景鸞進表所稱）。與託名黃石公之《素書》無涉，題名偶同。四庫提要入術數類存目。今存（存目傳本）。",
+    "sources": [
+      "欽定四庫全書總目"
+    ]
+  }
 }
