@@ -31,9 +31,29 @@
       "field": "indexed_by"
     }
   ],
-  "collectors": [],
+  "collectors": [
+    {
+      "collector": "馬國翰",
+      "work": "玉函山房輯佚書",
+      "work_id": "1evjr68pzxog0",
+      "sections": [
+        {
+          "file": "續編·子編·五行類.json",
+          "index": 24,
+          "title": "晉起居注一卷",
+          "part": "supplement",
+          "juan_no": null,
+          "lei": "五行類"
+        }
+      ],
+      "count": null,
+      "count_unit": null,
+      "basis": "玉函山房輯佚書目錄（光緒九年長沙嫏嬛館補校刊本）著錄本書",
+      "note": "所輯條數、佚文出處目錄不載，須俟輯本正文。"
+    }
+  ],
   "fragments": [],
-  "ai_note": "本檔立於「已佚而無輯佚檔」之普查，其據為本庫著錄中明言此書有輯本之語，照錄於 collectors[].basis。條數未取——所據之語未言其數，且輯本序中之數未必是該輯家所得，故為 null，俟讀輯本正文再定。",
+  "ai_note": "本檔立於「已佚而無輯佚檔」之普查，其據為本庫著錄中明言此書有輯本之語，照錄於 collectors[].basis。條數未取——所據之語未言其數，且輯本序中之數未必是該輯家所得，故為 null，俟讀輯本正文再定。\n\n2026-08-22 D3 複測：補記馬國翰《玉函山房輯佚書》輯之——該叢書整理本本輪繫得本書（B3′ 併池消解同題之後候選收斂為唯一）。",
   "collection_attested": [
     {
       "basis": "本庫著錄之文，原文：「章氏此輯本頗可觀，惜乎其不傳」",

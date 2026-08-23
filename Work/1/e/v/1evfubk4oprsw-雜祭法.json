@@ -41,12 +41,19 @@
     }
   ],
   "measure_info": "六卷",
-  "ai_note": "作者姓名訂正：原作「盧謀」，係形近而訛，今改「盧諶」。《雜祭法》撰者，他志著錄作盧諶，「謀」為「諶」之形訛。　原繫人物 1j96hfbddgxz4（名作「盧謀」）已改指 1j967a0kiy8et。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　2026-08-08 Batch14合併：原1evr5e3m7i0cw（同題同撰人（盧諶，entity同），清史稿（一卷輯佚本）與補晉志（六卷原書）著錄同一書，卷數異為原書與輯本之別）併入本條。",
+  "ai_note": "作者姓名訂正：原作「盧謀」，係形近而訛，今改「盧諶」。《雜祭法》撰者，他志著錄作盧諶，「謀」為「諶」之形訛。　原繫人物 1j96hfbddgxz4（名作「盧謀」）已改指 1j967a0kiy8et。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　2026-08-08 Batch14合併：原1evr5e3m7i0cw（同題同撰人（盧諶，entity同），清史稿（一卷輯佚本）與補晉志（六卷原書）著錄同一書，卷數異為原書與輯本之別）併入本條。\n\n2026-08-22 D3：本書之輯佚著錄置於 Work/1/e/v/1evfubk4oprsw/fragments/雜祭法.json。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-23T08:04:47.930386+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
-  "emendated_by": null,
+  "emendated_by": [
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "title_info": "雜祭法一卷",
+      "summary": "2026-08-22 D3 複測所繫，見該叢書整理本 經編·通禮類.json 第 4 節。"
+    }
+  ],
   "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代"
 }
