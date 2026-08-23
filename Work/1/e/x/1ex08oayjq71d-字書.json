@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "字書",
+  "id": "1ex08oayjq71d",
+  "juan_count": {
+    "number": 3
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "measure_info": "三卷",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "《字書》三卷",
+      "summary": "《字書》三卷",
+      "note": "2026-08-23 A9 車道磁鐵拆分：據本節新立。隋志之體例作「《書名》卷數　撰人撰」，撰人在卷數之後；同題而卷數、撰人異者，依 SCHEMA〈志書之「又」例〉是別本或他家之書，各為一書，非重出。"
+    }
+  ],
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "ai_note": "2026-08-23 A9 車道磁鐵拆分：本志「《字書》三卷」一節原與他節共繫 `1evc5pev1y9ds`，而其卷數（或撰人）與之不合——隋志之體例作「《書名》卷數　撰人撰」，撰人在卷數之後；同題而卷數、撰人異者，依 SCHEMA〈志書之「又」例〉是別本或他家之書，各為一書，非重出。故據本節新立。　本志著錄不著成書之年，故只記 period_upper，不設 period、不繫 entity。",
+  "updated_at": "2026-08-23T00:00:00-07:00"
+}
