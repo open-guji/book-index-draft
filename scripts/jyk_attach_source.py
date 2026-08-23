@@ -12,6 +12,7 @@
   甲1 題與撰人俱合
   甲2 撰人同而題名互為子串（「易洞林」對「周易洞林」）
       ＋庫方題名夾撰人者（「王文獻孝經詳解」對「王氏（文獻）孝經詳解」）
+  甲4 撰人同而其名嵌於庫題之中（「春秋左氏傳王朗注」對「春秋左氏傳注」）
 
 一條對庫中二書以上者一律不掛，另出待覈之目——同題同撰而庫有二條，是庫
 中重出之疑，當先併而後掛，不可兩邊各掛一源。
@@ -19,7 +20,7 @@
 import json, os, sys, collections, re
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from jyk_triage import nz, load_index
+from jyk_triage import nz, load_index, embedded_author
 
 DATA = '.claude/known-issues/經義考待裁.json'
 AMBIG = '.claude/known-issues/經義考掛源待覈.json'
@@ -36,6 +37,10 @@ def targets(d, by_title, by_author, works):
     ja, jt = nz(d.get('author')), nz(d.get('title'))
     if d['tier'] == '甲1':
         return [w['id'] for w in by_title.get(jt, []) if nz(w.get('author')) == ja]
+    if d['tier'] == '甲4':
+        # 庫題以「經名＋撰人＋役」立題，撰人之名嵌於題中（《春秋左氏傳王朗注》
+        # 對《春秋左氏傳注》）。2026-08-23 補立之閘，見 jyk_triage。
+        return [w['id'] for w in embedded_author(jt, ja, by_author)]
     if d['tier'] == '甲2':
         if d.get('same_author_sub'):
             return [x[0] for x in d['same_author_sub']]
@@ -64,7 +69,7 @@ def main():
     D = json.load(open(DATA))
     plan, ambig = collections.defaultdict(list), []
     for d in D:
-        if d['tier'] not in ('甲1', '甲2'):
+        if d['tier'] not in ('甲1', '甲2', '甲4'):
             continue
         ids = targets(d, by_title, by_author, works)
         if not ids:
@@ -110,7 +115,7 @@ def main():
     if apply:
         json.dump(ambig, open(AMBIG, 'w'), ensure_ascii=False, indent=1)
         for d in D:
-            if d['tier'] in ('甲1', '甲2'):
+            if d['tier'] in ('甲1', '甲2', '甲4'):
                 ids = targets(d, by_title, by_author, works)
                 if len(ids) == 1:
                     d['attached_to'] = ids[0]
