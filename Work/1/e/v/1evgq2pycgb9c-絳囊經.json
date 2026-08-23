@@ -20,6 +20,12 @@
       "title_info": "《絳囊經》一卷",
       "summary": "《絳囊經》一卷（唐馬融）",
       "author_info": "唐馬融"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《絳囊經》",
+      "summary": "馬雄《絳囊經》一卷"
     }
   ],
   "description": {
@@ -28,7 +34,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"絳囊經\" 唯一候选无作者 作者繫連改指：原繫人物 1j9678gg70ht8，該記錄實混同名而異代之兩人；本書撰者為唐之馬融，今改指新立人物 1jae2gjvhv9y3。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "missing_reason: 短title \"絳囊經\" 唯一候选无作者 作者繫連改指：原繫人物 1j9678gg70ht8，該記錄實混同名而異代之兩人；本書撰者為唐之馬融，今改指新立人物 1jae2gjvhv9y3。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcsy4z17b40 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
   "id": "1evgq2pycgb9c",
   "measures": [
     {
@@ -37,9 +43,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
 }

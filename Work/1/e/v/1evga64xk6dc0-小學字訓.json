@@ -16,12 +16,18 @@
       "source_bid": "1eve1ek5qq9kw",
       "title_info": "程端蒙小學字訓一卷",
       "summary": "元程端蒙小學字訓一卷"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《小學字訓》",
+      "summary": "《小學字訓》一卷呂祖謙"
     }
   ],
   "juan_count": {
     "number": 1
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 程端蒙（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 程端蒙（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcswaqsflz4 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
   "id": "1evga64xk6dc0",
   "measures": [
     {
@@ -30,9 +36,11 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
   "period": "song",
   "period_basis": "據 authors[0].dynasty「南宋」（2026-08-13 遼金元/明邊界人口獨立立項：程端蒙（生卒1143-1191）：死於元建國(1271)前，Entity既有分類（南宋／song）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
   "dynasty": "南宋",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
 }

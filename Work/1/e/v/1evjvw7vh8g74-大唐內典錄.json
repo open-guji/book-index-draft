@@ -20,6 +20,12 @@
       "edition": "影印華東師大圖書館藏清順治十八年嘉興楞嚴寺刻徑山藏本",
       "volume": "第1289冊",
       "section": "子部 宗教類"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "大唐內典錄",
+      "summary": "大唐內典錄十卷"
     }
   ],
   "description": {
@@ -28,7 +34,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcs0odiqhhc 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
   "juan_count": {
     "number": 10
   },
@@ -54,10 +60,12 @@
       ]
     }
   ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
+  "updated_at": "2026-08-23T06:46:46.606177+00:00",
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
 }
