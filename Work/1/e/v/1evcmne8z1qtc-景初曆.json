@@ -8,6 +8,21 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《景初曆》三卷",
       "summary": "《景初曆》三卷晉楊偉撰。梁有《景初曆術》二卷，《景初曆》法三卷，又一本五卷，並楊偉撰；並《景初曆略要》二卷。亡。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "楊偉,謹按見《七録》。家大人曰:“舊注云:“又一本五卷。疑並 楊偉,謹按見《七録》。家大人曰:“舊注云:“又一本五卷。疑並上二卷為一書,非别有增益也,不再著録。”景初壬辰元曆一卷 楊冲,謹按見《隋志》。",
+      "section": "丙部子録／層數類",
+      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《景初歴法》三卷",
+      "summary": "《景初歴法》三卷",
+      "merged_from": "1evgq1sfiid4w",
+      "note": "本著錄原繫題作「景初歷法」之條，該題與本條僅簡繁轉換取字之異，今併入。"
     }
   ],
   "id": "1evcmne8z1qtc",
@@ -30,7 +45,7 @@
     }
   ],
   "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-24 J3(2)-乙 異題同書之併（形己）：楊偉《景初曆》三卷，《補晉志》《國史經籍志》題「景初曆法」。（併入者 id 1evfuv0k5wq2o，題「景初曆法」）",
   "authors": [
     {
       "name": "楊偉",
@@ -42,5 +57,10 @@
   "dynasty": "晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
+  "period_basis": "據 authors[0].dynasty「晉」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。",
+  "additional_titles": [
+    "景初歴法",
+    "景初歷法",
+    "景初曆法"
+  ]
 }

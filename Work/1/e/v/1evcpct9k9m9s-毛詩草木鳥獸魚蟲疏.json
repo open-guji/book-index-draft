@@ -8,6 +8,20 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《毛詩草木鳥獸魚蟲疏》二卷",
       "summary": "《毛詩草木鳥獸魚蟲疏》二卷陸璣撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《草木鳥獸魚蟲疏》二卷",
+      "summary": "《草木鳥獸魚蟲疏》二卷（陸璣）",
+      "author_info": "陸璣"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "陸璣草木鳥獸魚蟲疏",
+      "summary": "陸璣草木鳥獸魚蟲疏二卷",
+      "merged_from": "1evcs07lsu7eo"
     }
   ],
   "id": "1evcpct9k9m9s",
@@ -29,7 +43,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-24 J3(2)-乙 異題同書之併（形己）：陸璣《毛詩草木鳥獸蟲魚疏》二卷。《國史經籍志》《新唐志》省「毛詩」二字。（併入者 id 1evgopwelq3gg，題「草木鳥獸魚蟲疏」）",
   "authors": [
     {
       "name": "陸璣",
@@ -42,5 +56,8 @@
   "dynasty": "三國吳",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國吳」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 three-kingdoms。"
+  "period_basis": "據 authors[0].dynasty「三國吳」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 three-kingdoms。",
+  "additional_titles": [
+    "草木鳥獸魚蟲疏"
+  ]
 }
