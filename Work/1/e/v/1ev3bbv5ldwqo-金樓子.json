@@ -5,11 +5,12 @@
   "title": "金樓子",
   "authors": [
     {
-      "name": "孝元皇帝",
+      "name": "蕭繹",
       "role": "撰",
       "dynasty": "南朝梁",
       "entity_id": "1j96hla38mpz4",
-      "dynasty_basis": "entity_propagation:1j96hla38mpz4"
+      "dynasty_basis": "entity_propagation:1j96hla38mpz4",
+      "name_basis": "N6 壞名正名（2026-08-24）：本欄原作「孝元皇帝」。「孝元皇帝」是梁元帝之諡號，非其名。《欽定四庫全書總目》「梁孝元皇帝撰…其在藩時嘗自號金樓子」，《隋書經籍志》《舊唐書經籍志》並作「梁元帝撰」，其名蕭繹。"
     }
   ],
   "indexed_by": [
@@ -148,15 +149,21 @@
   ],
   "measure_info": "六卷",
   "description": {
-    "text": "《國史經籍志》收錄。",
+    "text": "梁元帝蕭繹撰。繹在藩時自號金樓子，因以名書。隋唐宋諸志皆著十卷（四庫提要作二十卷），晁公武《讀書志》謂其書十五篇，是宋代尚無闕佚；明初漸湮，明季竟亡。今本六卷十四篇乃四庫館臣自《永樂大典》輯出（所據為元至正間刊本，序目均備）。書中《著書》《聚書》二篇記其藏書著述之事，為六朝書史之要籍。",
     "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志",
+      "宋史藝文志",
+      "欽定四庫全書總目",
+      "崇文總目",
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgq0clxgx6o 合併。原註：missing_reason: 作者冲突 work=孝元皇帝 vs anno=梁元帝",
+  "ai_note": "從 1evgq0clxgx6o 合併。原註：missing_reason: 作者冲突 work=孝元皇帝 vs anno=梁元帝\n\nN6 description 補全（2026-08-24 南北朝 description 專項，著錄 ≥4 源者全補）：所據為本條所繫著錄之引文及通行學術常識，未覆核原書。\n\nN6 壞名正名（2026-08-24，補 description 途中撞出）：authors 之名有形訛／異體／號諡誤入，今正之，判據記於 authors[].name_basis。",
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "nanbeichao",
-  "period_basis": "朝代「梁」有歧義（可為 nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：國史經籍志、宋史藝文志、崇文總目、書目答問、欽定四庫全書總目、舊唐書經籍志、隋書經籍志、隋書經籍志考證"
+  "period_basis": "朝代「梁」有歧義（可為 nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：國史經籍志、宋史藝文志、崇文總目、書目答問、欽定四庫全書總目、舊唐書經籍志、隋書經籍志、隋書經籍志考證",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1ev3bbv5ldwqo-金樓子.json"
 }

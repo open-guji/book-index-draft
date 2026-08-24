@@ -6,7 +6,9 @@
     {
       "name": "賀㻛",
       "role": "撰",
-      "entity_id": "1j96hfnjkgy68"
+      "entity_id": "1j96hfnjkgy68",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hfnjkgy68`（賀㻛）之 dynasty「梁」。其據見該 entity 之 dynasty_basis。 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -39,7 +41,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "2026-08-08 Batch15合併：原1evetxcz4icqo（經義考+考證vs國史經籍志+經義考，同人同書）併入本條。\n从卷二 ambiguous 新建：unresolved",
+  "ai_note": "2026-08-08 Batch15合併：原1evetxcz4icqo（經義考+考證vs國史經籍志+經義考，同人同書）併入本條。\n从卷二 ambiguous 新建：unresolved\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN4 朝代名歸一（2026-08-24）：賀㻛「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evgor4sm7chs",
   "measures": [
     {
@@ -60,5 +62,6 @@
   "period_upper": "ming",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "period": "nanbeichao",
-  "period_basis": "經義考稱《七錄》著錄，七錄成於梁，賀㻛（瑒）為梁代經學家　複審採納：賀瑒為梁代經學家，七錄成於梁，兩端相合（2026-08-24 B1 medium 複審）"
+  "period_basis": "經義考稱《七錄》著錄，七錄成於梁，賀㻛（瑒）為梁代經學家　複審採納：賀瑒為梁代經學家，七錄成於梁，兩端相合（2026-08-24 B1 medium 複審）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgor4sm7chs-五經異同評.json"
 }

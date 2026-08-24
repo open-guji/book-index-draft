@@ -6,8 +6,9 @@
     {
       "name": "蕭衍",
       "role": "撰",
-      "dynasty": "梁",
-      "entity_id": "1j967afjav1vw"
+      "dynasty": "南朝梁",
+      "entity_id": "1j967afjav1vw",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -28,7 +29,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 修復：「武帝[梁]」=梁武帝蕭衍，朝代「梁」被誤拆為朝代欄+帝號為名。國史經籍志原文「梁武帝」即蕭衍（464-549），著《孝子傳》三十卷。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-08 修復：「武帝[梁]」=梁武帝蕭衍，朝代「梁」被誤拆為朝代欄+帝號為名。國史經籍志原文「梁武帝」即蕭衍（464-549），著《孝子傳》三十卷。\n\nN4 朝代名歸一（2026-08-24）：蕭衍「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evgpj1gsd3wg",
   "measures": [
     {
@@ -39,5 +40,6 @@
   "measure_info": "三十卷",
   "updated_at": "2026-08-09",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgpj1gsd3wg-孝子傳.json"
 }

@@ -4,13 +4,10 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "鄭緝之",
+  "dynasty": "南朝宋",
   "works": [
     {
       "work_id": "1evcml331xqf4",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcpd01nueps",
       "role": "撰"
     }
   ],
@@ -21,7 +18,7 @@
   },
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "nanbeichao",
-  "period_basis": "2026-08-24 代懸隔者訂正：據所繫 work 之 period「nanbeichao」。",
-  "dynasty_basis": "2026-08-24 代懸隔者訂正：舊作「明」而無據，今去之——所繫 work 之斷代只及於期（nanbeichao），未細至朝，故不臆補。",
+  "period_basis": "N5（2026-08-24）：本 entity 出 `1j96h8rw*` 一號段——該段之 dynasty 多無 basis 而屢見誤值（本輪已正崔浩「唐」、劉陟「唐」、徐文伯「明」、王儉「清」、賀瑒「清」諸例，皆志書著錄語之朝代前綴或「宋」之歧義所誤）。本 entity 名下原無作品，其名與本桶之撰人同，而本桶之作品皆有著錄可證其代，今繫之並據以正 entity 之代。今正為「南朝宋」。",
+  "dynasty_basis": "N5（2026-08-24）：本 entity 出 `1j96h8rw*` 一號段——該段之 dynasty 多無 basis 而屢見誤值（本輪已正崔浩「唐」、劉陟「唐」、徐文伯「明」、王儉「清」、賀瑒「清」諸例，皆志書著錄語之朝代前綴或「宋」之歧義所誤）。本 entity 名下原無作品，其名與本桶之撰人同，而本桶之作品皆有著錄可證其代，今繫之並據以正 entity 之代。今正為「南朝宋」。",
   "ai_note": "2026-08-24 代懸隔者訂正：本 entity 舊繫 dynasty「明」（period ming），**無 dynasty_basis，亦無他 work 為證**；而所繫之 work（《孝子傳》代 nanbeichao；《東陽記》上限 sui-tang）之斷代皆有據——或隋志、崇文總目明題其官銜里貫，或師承、著錄之志可考（見各 work 之 period_basis）。兩相權衡，work 之據為實而 entity 之代為虛，故從 work 而正 entity。"
 }

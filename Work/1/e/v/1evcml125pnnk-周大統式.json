@@ -41,15 +41,17 @@
     {
       "name": "蘇綽",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "北周",
       "entity_id": "1j96kelg31hc0",
       "note": "據本 work 諸著錄之 author_info「蘇綽」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蘇綽」而無 entity_id，今繫 `1j96kelg31hc0`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蘇綽」而無 entity_id，今繫 `1j96kelg31hc0`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。",
+      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：蘇綽（498-546），北周大行臺度支尚書，《後周書》有傳。"
     }
   ],
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「蘇綽」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「蘇綽」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "「大統」為西魏文帝年號，蘇綽即西魏度支尚書、六條詔書作者，此為大統間官式（2026-08-24 R3 引文定代）"
+  "period_basis": "「大統」為西魏文帝年號，蘇綽即西魏度支尚書、六條詔書作者，此為大統間官式（2026-08-24 R3 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml125pnnk-周大統式.json"
 }

@@ -7,7 +7,9 @@
       "name": "信都芳",
       "role": "撰",
       "entity_id": "1j96heh6dpvk0",
-      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「後魏信都芳」。《國史經籍志》著錄語作「（後魏信都芳）」——「後魏」為朝代前綴；信都為複姓，信都芳，北魏曆算家，《北齊書·方伎傳》有傳。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96haa2f5ukg`（primary_name「後魏信都芳」），今改繫 `1j96heh6dpvk0`（「信都芳」）。「後魏」為朝代前綴；信都為複姓。"
+      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「後魏信都芳」。《國史經籍志》著錄語作「（後魏信都芳）」——「後魏」為朝代前綴；信都為複姓，信都芳，北魏曆算家，《北齊書·方伎傳》有傳。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96haa2f5ukg`（primary_name「後魏信都芳」），今改繫 `1j96heh6dpvk0`（「信都芳」）。「後魏」為朝代前綴；信都為複姓。",
+      "dynasty": "北魏",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96heh6dpvk0`（信都芳）之 dynasty「北魏」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -42,5 +44,5 @@
   "period": "nanbeichao",
   "period_basis": "著錄題「後魏信都芳」，信都芳為北魏曆算家（2026-08-24 R3二輪 引文定代）",
   "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq2gkgdiww-遯甲經.json",
-  "ai_note": "N3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。"
+  "ai_note": "N3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。"
 }

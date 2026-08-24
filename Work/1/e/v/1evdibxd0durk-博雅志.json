@@ -51,7 +51,7 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0pukrlds（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人李文成原標「明」，period ming，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0pukrlds（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人李文成原標「明」，period ming，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。\n\n2026-08-24 隋唐 T2·頂層 dynasty 殘留髒值清理：《博雅志》：頂層 dynasty「明」是 author_propagation 之遺留——其所自之明代 entity `1j96hjwlxz6ki` 已於 2026-08-22 C1 判為同名異代之誤繫而解其繫，authors[0].dynasty 遂空，則此傳播值亦失其據，今去之。本條 period 仍 sui-tang（三志所著題名撰人卷數全同，源出新唐志之唐人李文成撰）。索引取值之序是 authors[0].dynasty 優先，故此欄之誤不為 chk 所報（其驗只及索引與記錄之合），然以之作統計則失真。",
   "emendated_by": [],
   "books": [],
   "related_works": [],

@@ -47,7 +47,7 @@
       "note": "自禮記義疏磁鐵拆出時補。"
     }
   ],
-  "ai_note": "同名書拆分創建。原文：後周熊安生《禮記義疏》四卷。 [five-dynasties-round2: period five-dynasties->nanbeichao, dynasty None->北周; 周熊安生之「周」為北周朝代前綴，非五代後周] [five-dynasties-round2: period nanbeichao->nanbeichao, dynasty 北周->北周; 周熊安生之「周」為北周朝代前綴，非五代後周]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十卷），今據以補。 2026-08-20 組6禮記義疏拆分：舊唐志（及新唐志「又」節）之熊安生本節與著錄歸本條。\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。",
+  "ai_note": "同名書拆分創建。原文：後周熊安生《禮記義疏》四卷。 [five-dynasties-round2: period five-dynasties->nanbeichao, dynasty None->北周; 周熊安生之「周」為北周朝代前綴，非五代後周] [five-dynasties-round2: period nanbeichao->nanbeichao, dynasty 北周->北周; 周熊安生之「周」為北周朝代前綴，非五代後周]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十卷），今據以補。 2026-08-20 組6禮記義疏拆分：舊唐志（及新唐志「又」節）之熊安生本節與著錄歸本條。\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
   "related_works": [
     {
       "id": "d59f1iofm800",
@@ -70,5 +70,14 @@
     }
   ],
   "measure_info": "四十卷",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evr5e3mezpj0-禮記義疏.json"
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evr5e3mezpj0-禮記義疏.json",
+  "description": {
+    "text": "北周熊安生撰，40卷。諸志所著卷數不一：《國史經籍志》、《經義考》、《舊唐書經籍志》作四十卷；《清史稿藝文志》作四卷。本條見於4家著錄：《清史稿藝文志》、《國史經籍志》、《經義考》、《舊唐書經籍志》。",
+    "sources": [
+      "清史稿藝文志",
+      "國史經籍志",
+      "經義考",
+      "舊唐書經籍志"
+    ]
+  }
 }

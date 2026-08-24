@@ -6,8 +6,9 @@
     {
       "name": "呉均",
       "role": "撰",
-      "dynasty": "梁",
-      "entity_id": "1j96hfqknlkao"
+      "dynasty": "南朝梁",
+      "entity_id": "1j96hfqknlkao",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -47,7 +48,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=吳均 vs anno=梁呉均\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《吳均齊春秋》→《吳均齊春秋》`1evcml197stts`。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《齊春秋》三卷」一節原繫於磁鐵條（`1evcml197stts`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。",
+  "ai_note": "missing_reason: 作者冲突 work=吳均 vs anno=梁呉均\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《吳均齊春秋》→《吳均齊春秋》`1evcml197stts`。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《齊春秋》三卷」一節原繫於磁鐵條（`1evcml197stts`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\nN4 朝代名歸一（2026-08-24）：呉均「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evgpgy34hh4w",
   "measures": [
     {
@@ -58,5 +59,6 @@
   "measure_info": "三卷",
   "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgpgy34hh4w-齊春秋.json"
 }

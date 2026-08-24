@@ -7,7 +7,9 @@
       "name": "王逸",
       "role": "撰",
       "entity_id": "1j96hfnkr8glc",
-      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「齊王逸」。《國史經籍志》著錄語作「（齊王逸。）」——「齊」為朝代前綴。按：此王逸與東漢《楚辭章句》之王逸同名異代。"
+      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「齊王逸」。《國史經籍志》著錄語作「（齊王逸。）」——「齊」為朝代前綴。按：此王逸與東漢《楚辭章句》之王逸同名異代。",
+      "dynasty": "南朝齊",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hfnkr8glc`（王逸）之 dynasty「南朝齊」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -28,7 +30,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=王逡之 vs anno=齊王逸\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。",
+  "ai_note": "missing_reason: 作者冲突 work=王逡之 vs anno=齊王逸\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "id": "1evgoqa3cr9j4",
   "measures": [
     {

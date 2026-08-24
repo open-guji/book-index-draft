@@ -35,7 +35,9 @@
     {
       "name": "賈執",
       "role": "撰",
-      "entity_id": "1j96h28x1o7ic"
+      "entity_id": "1j96h28x1o7ic",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96h28x1o7ic`（賈執）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -57,11 +59,21 @@
     }
   ],
   "measure_info": "一百卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　loss_status 判為 lost，據本記錄之描述／著錄語：「\n案《四庫提要》有曰:“《隋書·經籍志》有賈執《姓氏英賢\n譜》一百卷,其書久佚,」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 B1 同名異書併池：併入 `1evcs0ixjkruo`（姓氏英賢譜）。2026-08-23 B10（同題一方無撰人）：併入 `1evcs0ixjkruo`（新唐書藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　loss_status 判為 lost，據本記錄之描述／著錄語：「\n案《四庫提要》有曰:“《隋書·經籍志》有賈執《姓氏英賢\n譜》一百卷,其書久佚,」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-23 B1 同名異書併池：併入 `1evcs0ixjkruo`（姓氏英賢譜）。2026-08-23 B10（同題一方無撰人）：併入 `1evcs0ixjkruo`（新唐書藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
   "loss_status": "lost",
   "updated_at": "2026-08-23T00:00:00+00:00",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「賈執」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「賈執」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml2k4iolc-姓氏英賢譜.json",
+  "description": {
+    "text": "南朝梁賈執撰，100卷。《隋書經籍志》；《舊唐書經籍志》；《國史經籍志》；《新唐書藝文志》皆作一百卷。本條見於4家著錄：《隋書經籍志》、《舊唐書經籍志》、《國史經籍志》、《新唐書藝文志》。原書已佚。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志",
+      "國史經籍志",
+      "新唐書藝文志"
+    ]
+  }
 }

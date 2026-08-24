@@ -143,12 +143,21 @@
     }
   ],
   "measure_info": "六卷",
-  "ai_note": "作者「唐羅隱撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "作者「唐羅隱撰」補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 ≥4 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字；敘錄之引文截其前二句（不逾一百五十字）。未覆核原書。生成之法見 `.claude/skills/curate-dynasty` 之記。何以機械撮之：本桶待補者七百餘條而材料大半止於著錄語，逐條手撰不可行，而放著不補則升格後 production 內盡是空條；**卷數之異同正是著錄條最有價值的信息**——諸志所著不同，即其書歷代殘闕之跡。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "《化書》六卷，唐羅隱撰。《宋史藝文志》、《欽定四庫全書總目》、《崇文總目》所著卷數一致（六卷）。《欽定四庫全書總目》敘曰：「舊本題曰齊邱子，稱南唐宋齊邱撰。宋張耒跋其書，遂謂齊邱犬鼠之雄，蓋不足道。晁公武亦以齊邱所撰著於錄。然宋碧虛子陳景元跋，稱舊傳陳摶言，譚峭景昇在終南著化書。因游三茅，曆建康，見齊邱有道骨，因以授之。曰是書之化，其化無窮。願子序之，流於後世。於是杖靸而去。齊邱遂奪為己有而序之。」今存。",
+    "sources": [
+      "宋史藝文志",
+      "欽定四庫全書總目",
+      "崇文總目",
+      "直齋書錄解題"
+    ]
+  }
 }
