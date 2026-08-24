@@ -7,7 +7,9 @@
       "name": "王珪",
       "role": "撰",
       "dynasty": "元",
-      "dynasty_basis": "元史藝文志：『王珪道德經注』，字君璋，常熟人（元人）"
+      "dynasty_basis": "元史藝文志：『王珪道德經注』，字君璋，常熟人（元人）",
+      "entity_id": "1j967bgl89icn",
+      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「王珪」而無 entity_id，庫中同名唯一（`1j967bgl89icn`）。entity 代 song 與本書 liao-jin-yuan 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
     }
   ],
   "indexed_by": [
@@ -27,7 +29,7 @@
   },
   "ai_note": "同名異書：已有 Work 作者為 [('李道純', '元'), ('徐大椿', '清')]，本條作者 王珪（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j967bgl89icn=北宋王珪(1019~1085，字禹玉，華陽人，北宋宰相)，字號籍貫朝代均不符！本書作者係元王珪(字君璋，常熟人)。需人工查 CBDB 建立正確 Entity 並關聯] 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。",
   "id": "1evgbzfgq57uo",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",

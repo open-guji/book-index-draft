@@ -8,13 +8,15 @@
       "name": "嵇康",
       "role": "撰",
       "dynasty": "晉",
-      "name_basis": "2026-08-24 J3(3)：見 ai_note"
+      "name_basis": "2026-08-24 J3(3)：見 ai_note\n\n2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「嵇康」而無 entity_id，庫中同名唯一（`1j967a0kj9gyf`）。entity 代 three-kingdoms 與本書 jin 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。",
+      "entity_id": "1j967a0kj9gyf"
     },
     {
       "name": "周續之",
       "role": "撰",
       "dynasty": "晉",
-      "name_basis": "2026-08-24 J3(3)：見 ai_note"
+      "name_basis": "2026-08-24 J3(3)：見 ai_note\n\n2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「周續之」而無 entity_id，庫中同名唯一（`1j96ha489ydc0`）。entity 代 nanbeichao 與本書 jin 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。",
+      "entity_id": "1j96ha489ydc0"
     }
   ],
   "indexed_by": [
@@ -44,7 +46,7 @@
   "measure_info": "三卷",
   "loss_status": "lost",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-24 J3(3) 壞名清理：撰人「康撰」正為「嵇康」（形丙）：《補晉志》「聖賢高士傳讚三卷 康撰，周續之注」——「康」是嵇康之省（《隋志》作「嵇康撰，周續之注」）。　撰人「周續之注」正為「周續之」（形乙）：「注」是其役。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "晉",
