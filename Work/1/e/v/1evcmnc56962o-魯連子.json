@@ -51,7 +51,18 @@
   "measure_info": "五卷",
   "loss_status": "partially_extant",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「”案\n“勢數”疑書中之篇目,今佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚檔：本書之輯佚著錄置於 fragments/魯連子.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）",
-  "updated_at": "2026-08-05T09:02:34+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "魯仲連",
+      "role": "撰",
+      "dynasty": "戰國齊",
+      "entity_id": "1j96ad6eb4wlc",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《魯連子》五卷魯仲連撰。」，尾名「魯仲連」即其撰人。庫中同名 entity 唯一（`1j96ad6eb4wlc`，代「戰國齊」），故繫之。"
+    }
+  ],
+  "dynasty": "戰國齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "pre-qin",
+  "period_basis": "據 authors[0].dynasty「戰國齊」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 pre-qin。"
 }

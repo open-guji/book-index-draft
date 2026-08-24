@@ -14,6 +14,14 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《真人水鏡》十卷",
       "summary": "《真人水鏡》十卷陶弘景撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "陶弘景真人水鏡",
+      "summary": "陶弘景真人水鏡十卷",
+      "merged_from": "1evcmndi59i4g",
+      "note": "與《陶弘景真人水鏡》同指一書，撰人並「陶弘景」，卷數亦合，今併之。"
     }
   ],
   "juan_count": {
@@ -35,7 +43,22 @@
     }
   ],
   "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "陶弘景",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j967bgl7y9th",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《真人水鏡》十卷陶弘景撰。」，尾名「陶弘景」即其撰人。庫中同名 entity 唯一（`1j967bgl7y9th`，代「南朝梁」），故繫之。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 nanbeichao。",
+  "additional_titles": [
+    "陶弘景真人水鏡"
+  ],
+  "ai_note": "2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs0sq1xo1s`（陶弘景真人水鏡）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《陶弘景真人水鏡》（1evcs0sq1xo1s）。二條撰人並「陶弘景」，卷數亦合（十卷）。長題《陶弘景真人水鏡》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《真人水鏡》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。"
 }

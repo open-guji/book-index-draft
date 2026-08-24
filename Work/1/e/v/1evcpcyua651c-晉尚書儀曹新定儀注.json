@@ -18,7 +18,7 @@
   ],
   "id": "1evcpcyua651c",
   "related_works": [],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 41
   },
@@ -30,6 +30,17 @@
   ],
   "measure_info": "四十一卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十一卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "authors": [
+    {
+      "name": "徐廣",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j96h8rw7k8w2",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《晉尚書儀曹新定儀注》四十一卷徐廣撰。」，尾名「徐廣」即其撰人。庫中同名 entity 唯一（`1j96h8rw7k8w2`，代「東晉」），故繫之。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
 }
