@@ -64,11 +64,12 @@
     }
   ],
   "measure_info": "四十三卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-24T02:37:53+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "ai_note": "[N3磁鐵 2026-08-24 裁：不拆]《四庫全書總目》於一書而有二本者，前後各出一條，後條題「別本某某」，其提要正以「與前一本」比而言之——**是同書之二本，非二書**。依 SCHEMA，版本之別不立新 Work，其異當記於 Book，故二節共繫是。本條之證：《別本學文堂集》四十七卷（浙江巡撫采進本）提要曰「與前一本大同小異。然兩本皆無總目，疑皆隨作隨刊之本，非其全帙也」——四庫自言其為一書二本。\n\n附記：此型之節（四庫「別本」）本不當計入 chk 之 section 級磁鐵，然 chk 只免「附屬部帙」一類，故仍現於其數。若欲歸零，須另立一 `section_kind`（如「別本」）而 chk 免之——此涉 SCHEMA 與校驗工具，非本輪（磁鐵）之權，記此以俟。"
 }
