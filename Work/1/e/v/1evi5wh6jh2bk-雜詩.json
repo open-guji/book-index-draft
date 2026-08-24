@@ -35,5 +35,12 @@
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "description": {
+    "text": "王讚五言雜詩。「朔風動秋草，邊馬有歸心」為其起句。《文選》卷二十九「雜詩」類收之。撰人王讚，晉司隸校尉，事跡略見《晉書·文苑傳》。",
+    "sources": [
+      "文選"
+    ]
+  },
+  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。"
 }

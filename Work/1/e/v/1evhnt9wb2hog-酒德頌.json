@@ -40,5 +40,13 @@
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "description": {
+    "text": "劉伶頌。自敘大人先生「以天地為一朝，萬期為須臾」，銜杯漱醪而藐視禮法，為竹林名士風度之寫照。《文選》卷四十七「頌」類收之，《正續古文辭類纂》亦錄。撰人劉伶，字伯倫。",
+    "sources": [
+      "正續古文辭類纂",
+      "文選"
+    ]
+  },
+  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。"
 }
