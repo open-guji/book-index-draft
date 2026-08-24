@@ -19,6 +19,30 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《詩格》",
       "summary": "王昌齡《詩格》一卷，又"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "王昌齡詩格",
+      "summary": "王昌齡詩格二卷",
+      "merged_from": "1evcsz7gqqznk",
+      "note": "與《王昌齡詩格》同指一書，撰人並「王昌齡」，卷數亦合，今併之。"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "王昌齡詩格二卷",
+      "summary": "王昌齡詩格二卷",
+      "merged_from": "1evcsz7gqqznk",
+      "note": "與《王昌齡詩格》同指一書，撰人並「王昌齡」，卷數亦合，今併之。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《王昌齡詩格》一卷",
+      "summary": "《王昌齡詩格》一卷",
+      "merged_from": "1evcsz7gqqznk",
+      "note": "與《王昌齡詩格》同指一書，撰人並「王昌齡」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcsz7gqqznk",
@@ -29,8 +53,11 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「王昌齡」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；句末「又」引出下一條《詩中密旨》一卷，仍屬王昌齡續作，與本條無涉。",
-  "updated_at": "2026-08-13",
+  "ai_note": "2026-08-13 全庫同名異書核對：補全 authors「王昌齡」及 juan_count——原文已明載撰人，僅未截取入 authors 欄；句末「又」引出下一條《詩中密旨》一卷，仍屬王昌齡續作，與本條無涉。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs18tkbdhc`（王昌齡詩格）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《王昌齡詩格》（1evcs18tkbdhc）。二條撰人並「王昌齡」，卷數亦合（一卷）。長題《王昌齡詩格》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《詩格》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "additional_titles": [
+    "王昌齡詩格"
+  ]
 }

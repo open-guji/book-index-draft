@@ -55,7 +55,7 @@
       "note": "本著錄原繫於磁鐵條「穆天子傳注」（`1ev3bck8raqkg`），今歸本條。"
     }
   ],
-  "updated_at": "2026-08-21T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "measure_info": "六卷",
   "measures": [
     {
@@ -64,8 +64,6 @@
     }
   ],
   "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《穆天子傳》六卷」一節原繫於磁鐵條（`1ev3bck8raqkg`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-23 描述補全專項（C 級 desc 全空批次）：description 由空補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\n\n2026-08-23：補 authors: []（欄位原整個缺失，qa_work REQ01 報 FAIL）。空陣列＝無撰人，合本庫出土文獻之通例（汲冢竹書本無撰人可言）；郭璞注本是否別立或以注者入 authors，屬撰人層決策，交 B 車道。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "related_works": [
     {
       "id": "1evr5e3mc6kjf",
@@ -86,5 +84,17 @@
       "欽定四庫全書總目"
     ]
   },
-  "authors": []
+  "authors": [
+    {
+      "name": "郭璞",
+      "role": "撰",
+      "dynasty": "東晉",
+      "entity_id": "1j968k0jdrlz4",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《穆天子傳》六卷郭璞撰。」，尾名「郭璞」即其撰人。庫中同名 entity 唯一（`1j968k0jdrlz4`，代「東晉」），故繫之。"
+    }
+  ],
+  "dynasty": "東晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「東晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
 }

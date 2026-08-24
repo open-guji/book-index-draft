@@ -8,6 +8,13 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《神仙遺論》",
       "summary": "劉涓子《神仙遺論》十卷（（東蜀李頓錄））宇文士及"
+    },
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "summary": "劉涓子神仙遺論",
+      "merged_from": "1evcsyicxqlmo",
+      "note": "與《劉涓子神仙遺論》同指一書，撰人並「劉涓子」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcsyicxqlmo",
@@ -24,5 +31,19 @@
   "dynasty": "東晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」。本條原以《宋史藝文志》為上限（song），今得撰人，收窄至 jin。撰書相符之由見 authors[].name_basis。"
+  "period_basis": "據 authors[0].dynasty「東晉」。本條原以《宋史藝文志》為上限（song），今得撰人，收窄至 jin。撰書相符之由見 authors[].name_basis。",
+  "juan_count": {
+    "number": 10
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 10
+    }
+  ],
+  "measure_info": "十卷",
+  "additional_titles": [
+    "劉涓子神仙遺論"
+  ],
+  "ai_note": "2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evr5e3mjd0yi`（劉涓子神仙遺論）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《劉涓子神仙遺論》（1evr5e3mjd0yi）。二條撰人並「劉涓子」，卷數亦合（十卷）。長題《劉涓子神仙遺論》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《神仙遺論》，故以短題之條為正。　被刪條之 period_upper=song，本條從缺，不越 C／D 車道而搬，俟其道補。"
 }

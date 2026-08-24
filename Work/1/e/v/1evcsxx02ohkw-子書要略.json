@@ -14,6 +14,14 @@
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "子書要略一卷",
       "summary": "子書要略一卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "盧藏用子書要略",
+      "summary": "盧藏用子書要略一卷",
+      "merged_from": "1evcsxx02ohkw",
+      "note": "與《盧藏用子書要略》同指一書，撰人並「盧藏用」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcsxx02ohkw",
@@ -28,7 +36,7 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs0pvad1xc`（盧藏用子書要略）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《盧藏用子書要略》（1evcs0pvad1xc）。二條撰人並「盧藏用」，卷數亦合（一卷）。長題《盧藏用子書要略》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《子書要略》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
   "authors": [
     {
       "name": "盧藏用",
@@ -41,5 +49,8 @@
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。"
+  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。",
+  "additional_titles": [
+    "盧藏用子書要略"
+  ]
 }

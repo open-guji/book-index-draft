@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "juan_count": {
     "number": 38
@@ -34,6 +34,17 @@
   ],
   "measure_info": "三十八卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十八卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "authors": [
+    {
+      "name": "魚豢",
+      "role": "撰",
+      "dynasty": "三國魏",
+      "entity_id": "1j96ha8ag4yrk",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《魏略》三十八卷魚豢撰。」，尾名「魚豢」即其撰人。庫中同名 entity 唯一（`1j96ha8ag4yrk`，代「三國魏」），故繫之。"
+    }
+  ],
+  "dynasty": "三國魏",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國魏」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 three-kingdoms。"
 }

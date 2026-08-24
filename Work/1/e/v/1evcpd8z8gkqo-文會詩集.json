@@ -8,10 +8,26 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《文會詩集》四卷",
       "summary": "《文會詩集》四卷徐伯陽撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "徐伯陽文會詩集",
+      "summary": "徐伯陽文會詩集四卷",
+      "merged_from": "1evcpd8z8gkqo",
+      "note": "與《徐伯陽文會詩集》同指一書，撰人並「徐伯陽」，卷數亦合，今併之。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《徐伯陽文會詩集》四卷",
+      "summary": "《徐伯陽文會詩集》四卷",
+      "merged_from": "1evcpd8z8gkqo",
+      "note": "與《徐伯陽文會詩集》同指一書，撰人並「徐伯陽」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcpd8z8gkqo",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 4
   },
@@ -22,7 +38,21 @@
     }
   ],
   "measure_info": "四卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四卷），今據以補。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs17olf2tc`（徐伯陽文會詩集）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《徐伯陽文會詩集》（1evcs17olf2tc）。二條撰人並「徐伯陽」，卷數亦合（四卷）。長題《徐伯陽文會詩集》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《文會詩集》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "authors": [
+    {
+      "name": "徐伯陽",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j96h8rw7k8yd",
+      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《文會詩集》四卷徐伯陽撰。」，尾名「徐伯陽」即其撰人。庫中同名 entity 唯一（`1j96h8rw7k8yd`，代「南朝梁」），故繫之。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 nanbeichao。",
+  "additional_titles": [
+    "徐伯陽文會詩集"
+  ]
 }
