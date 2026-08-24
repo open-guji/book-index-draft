@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "晉史草",
+  "authors": [
+    {
+      "name": "蕭子顯",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j96ad6gqul8g",
+      "dynasty_basis": "entity_propagation:1j96ad6gqul8g"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《𣈆史草》三十卷",
+      "summary": "《𣈆史草》三十卷（梁蕭子顯）",
+      "author_info": "梁蕭子顯"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgpgt47bk00",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-08-08T18:11:45+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "additional_titles": [
+    "𣈆史草"
+  ],
+  "ai_note": "2026-08-24 J3(1) 異體歸一：題名之「𣈆」是「晉」之古文異體，本庫題名一律用正體。舊題已入 additional_titles，各志實有之著錄形不失。（本字不在 chk.py 之異體表，亦不在 known-issues 異體重出之 209 組中，故此前未被查出。）"
+}
