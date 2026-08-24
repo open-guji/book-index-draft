@@ -21,11 +21,23 @@ DELAY = float(os.environ.get('CBDB_DELAY', '1.0'))
 
 
 def fetch(name, retries=3):
+    """查一名。
+
+    **空回應即「無此人」，非錯誤**——CBDB 於查無記錄之名返回空 body。
+    初版把它當解析失敗而重試三次加退避，每個查無之名遂耗九秒有餘，
+    是本腳本初跑奇慢之由（庫中待查之名過半查無記錄）。
+    """
     url = f'{API}?name={urllib.parse.quote(name)}&o=json'
     for i in range(retries):
         try:
-            with urllib.request.urlopen(url, timeout=45) as r:
-                return json.loads(r.read().decode('utf-8'))
+            with urllib.request.urlopen(url, timeout=30) as r:
+                body = r.read().decode('utf-8').strip()
+            if not body:
+                return {}
+            try:
+                return json.loads(body)
+            except ValueError:
+                return {}
         except Exception as e:
             if i == retries - 1:
                 return {'_error': str(e)}

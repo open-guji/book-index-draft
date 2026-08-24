@@ -14,7 +14,8 @@
 `.claude/known-issues/R3-引文定代-待覈.json`。low/null 不記（無據）。
 已寫入者記 `.claude/known-issues/R3-引文定代-已寫入.json`。
 
-用法：python3 scripts/apply_quote_dating_r3.py <batches_dir> [--apply]
+用法：python3 scripts/apply_quote_dating_r3.py <batches_dir> [--prefix P] [--apply]
+      --prefix 批次檔名前綴，預設 batch（第二輪之批用 r2）
 """
 import json, glob, os, re, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -40,15 +41,18 @@ def compatible(period, upper):
 def main():
     bdir = sys.argv[1]
     apply_ = '--apply' in sys.argv
+    pref = 'batch'
+    if '--prefix' in sys.argv:
+        pref = sys.argv[sys.argv.index('--prefix') + 1]
 
     inputs = {}
-    for f in sorted(glob.glob(os.path.join(bdir, 'batch_*.json'))):
+    for f in sorted(glob.glob(os.path.join(bdir, f'{pref}_*.json'))):
         if f.endswith('.result.json'):
             continue
         for e in json.load(open(f)):
             inputs[e['id']] = e
     results = {}
-    for f in sorted(glob.glob(os.path.join(bdir, 'batch_*.result.json'))):
+    for f in sorted(glob.glob(os.path.join(bdir, f'{pref}_*.result.json'))):
         for r in json.load(open(f)):
             results[r['id']] = r
     print(f'輸入 {len(inputs)}　結果 {len(results)}')
@@ -111,7 +115,7 @@ def main():
             continue
         basis = r.get('basis') or ''
         d['period'] = got
-        d['period_basis'] = f'{basis}（2026-08-24 R3 引文定代）'
+        d['period_basis'] = f'{basis}（2026-08-24 {tag} 引文定代）'
         d['updated_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         with open(p, 'w', encoding='utf-8', newline='\n') as fh:
             fh.write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
@@ -123,12 +127,13 @@ def main():
     for s, obj in IW.items():
         with open(f'index/works/{s}.json', 'w', encoding='utf-8', newline='\n') as f:
             f.write(json.dumps(obj, ensure_ascii=False, indent=2) + '\n')
-    with open('.claude/known-issues/R3-引文定代-已寫入.json', 'w', encoding='utf-8') as f:
+    tag = 'R3' if pref == 'batch' else 'R3二輪'
+    with open(f'.claude/known-issues/{tag}-引文定代-已寫入.json', 'w', encoding='utf-8') as f:
         json.dump({'_說明': 'R3 據志書引文（科第年號／朝代表述／師承）判讀而寫入之 period。'
                             '判語存 period_basis，逐條可驗。',
                    '條目': applied}, f, ensure_ascii=False, indent=2)
         f.write('\n')
-    with open('.claude/known-issues/R3-引文定代-待覈.json', 'w', encoding='utf-8') as f:
+    with open(f'.claude/known-issues/{tag}-引文定代-待覈.json', 'w', encoding='utf-8') as f:
         json.dump({'_說明': 'R3 引文判讀 medium 置信、或 high 而與上限／撰人欄相牴者。'
                             '未寫入 period，須逐條人工覈。',
                    '條目': review}, f, ensure_ascii=False, indent=2)
