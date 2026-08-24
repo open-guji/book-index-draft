@@ -92,6 +92,7 @@ def main():
         print('（dry-run，加 --apply 方寫入）')
         return
 
+    tag = 'R3' if pref == 'batch' else 'R3二輪'
     IW = {}
     for s in '0123456789abcdef':
         IW[s] = json.load(open(f'index/works/{s}.json'))
@@ -127,7 +128,6 @@ def main():
     for s, obj in IW.items():
         with open(f'index/works/{s}.json', 'w', encoding='utf-8', newline='\n') as f:
             f.write(json.dumps(obj, ensure_ascii=False, indent=2) + '\n')
-    tag = 'R3' if pref == 'batch' else 'R3二輪'
     with open(f'.claude/known-issues/{tag}-引文定代-已寫入.json', 'w', encoding='utf-8') as f:
         json.dump({'_說明': 'R3 據志書引文（科第年號／朝代表述／師承）判讀而寫入之 period。'
                             '判語存 period_basis，逐條可驗。',
