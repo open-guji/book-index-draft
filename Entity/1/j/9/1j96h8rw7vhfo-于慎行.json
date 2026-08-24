@@ -73,6 +73,10 @@
     {
       "work_id": "1ev3bdxixog00",
       "role": "撰"
+    },
+    {
+      "work_id": "1ex2g6mabnoxh",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -80,8 +84,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: auto_ambig cbdb_dy=19 (1545-1607)"
   },
-  "ai_note": "合併重複人物 Entity 1j967avzn7za8（原名「於慎行」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「于愼行」（`1j967da97jlzz`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "合併重複人物 Entity 1j967avzn7za8（原名「於慎行」）：該記錄係簡繁轉換工具將姓氏過度轉換而衍生之同人重複條目，朝代與所繫作品皆合，今併入本條。\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「于愼行」（`1j967da97jlzz`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併"
 }

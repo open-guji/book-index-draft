@@ -11,14 +11,15 @@
     }
   ],
   "id": "1evcpctj306ps",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "authors": [
     {
       "name": "謝慈",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
-      "note": "據本條之原題「又二卷謝慈撰。」——志文「又N卷，某某注／撰」承前省題，其名即本書之撰人或注家。"
+      "entity_id": "1j96hehqvbn5s",
+      "note": "據本條之原題「又二卷謝慈撰。」——志文「又N卷，某某注／撰」承前省題，其名即本書之撰人或注家。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「謝慈」而無 entity_id，今繫 `1j96hehqvbn5s`——庫中以此為別名（alt_names）者唯一。其代「三國吳」與本書之上限不相斥。"
     }
   ],
   "related_works": [
@@ -29,6 +30,6 @@
     }
   ],
   "ai_note": "2026-08-20 承前省題（「又N卷某某撰」）正名專項：本條原題「又二卷謝慈撰。」，乃志文承前省題之語——某志著一書之後，別本則但云「又N卷，某某注／撰」，不復書題。匯入時全取此語為題，遂不成書名。今據整理本上溯至最近一個不以「又」起首之節，得其書名《禮記音》，正之；撰人補「謝慈」（撰），原題記於 original_title。本條與前條同題而撰人異，是同一書之別本／別注，各為一 work。\n\n2026-08-21 original_title 清雜訊：撤去「又二卷謝慈撰。」——志書原文殘片，非本條所本之書題。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period": "three-kingdoms",
+  "period_basis": "據撰人「謝慈」（entity `1j96hehqvbn5s`，代「三國吳」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
 }

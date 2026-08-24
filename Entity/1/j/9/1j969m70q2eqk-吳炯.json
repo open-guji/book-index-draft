@@ -31,6 +31,14 @@
     {
       "work_id": "1ev3bbwua3uo0",
       "role": "撰"
+    },
+    {
+      "work_id": "1exoodj1twejx",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex27kh8lix9t",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -38,8 +46,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: 明吳炯 best"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hjwlxny19`（吳炯，明），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
+  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hjwlxny19`（吳炯，明），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
 }

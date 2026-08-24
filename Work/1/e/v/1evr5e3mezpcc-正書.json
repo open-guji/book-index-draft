@@ -35,7 +35,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "loss_status": "partially_extant",
   "period_upper": "qing",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《清史稿藝文志》（民國趙爾巽等（1927），著錄清人著述），故不晚於 qing",
@@ -44,7 +44,8 @@
       "name": "范鎮",
       "role": "撰",
       "dynasty": "北宋",
-      "name_basis": "《經義考》「范氏（鎮）正書」，論斷引《宋史》「范鎮字景仁，成都華陽人，舉進士禮部奏名第一……封蜀郡公，諡忠文」。"
+      "name_basis": "《經義考》「范氏（鎮）正書」，論斷引《宋史》「范鎮字景仁，成都華陽人，舉進士禮部奏名第一……封蜀郡公，諡忠文」。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「范鎮」而無 entity_id，今繫 `1j96h8rw86pzx`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。",
+      "entity_id": "1j96h8rw86pzx"
     }
   ],
   "dynasty": "北宋",

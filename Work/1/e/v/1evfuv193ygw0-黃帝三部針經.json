@@ -8,7 +8,9 @@
       "name": "皇甫謐",
       "role": "撰",
       "dynasty": "西晉",
-      "dynasty_basis": "manual:historical_figure(皇甫謐(215-282)，字士安，西晉醫學家史學家)"
+      "dynasty_basis": "manual:historical_figure(皇甫謐(215-282)，字士安，西晉醫學家史學家)",
+      "entity_id": "1j967avzlz13b",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「皇甫謐」而無 entity_id，今繫 `1j967avzlz13b`——庫中 primary_name 同之者唯一。其代「西晉」與本書已定之代「jin」相合。"
     }
   ],
   "indexed_by": [
@@ -41,7 +43,7 @@
   },
   "ai_note": "著錄誤切復原：本條原題《黃帝》、作者欄作「經十三卷 皇甫謐」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「經十三卷 皇甫謐」實為書名與卷數之殘文，非人名。原文當作「黃帝三部針經十三卷 皇甫謐」，缺「針」字。注文云「即《七錄》十二卷之《黃帝甲乙經》也，本有《音》一卷，《唐志》並計之，故云十三卷」，即皇甫謐《針灸甲乙經》。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。 按：本書原被偽人物 Entity 1j96hfelnzri8（名作「經十三卷 皇甫謐」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "西晉",
