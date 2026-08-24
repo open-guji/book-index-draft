@@ -4953,7 +4953,7 @@
     "path": "Entity/1/j/9/1j96h8rw86q29-張和卿.json",
     "dynasty": "明",
     "cbdb_id": 237848,
-    "period": "ming"
+    "period": "song"
   },
   "1j96h8rw86q2y": {
     "id": "1j96h8rw86q2y",
@@ -7192,7 +7192,13 @@
     "subtype": "people",
     "primary_name": "祖瑩",
     "path": "Entity/1/j/9/1j96hg4mleolc-祖瑩.json",
-    "dynasty": "北魏"
+    "dynasty": "北魏",
+    "alt_names": [
+      {
+        "name": "後魏溷瑩",
+        "type": "著錄形"
+      }
+    ]
   },
   "1j96hg5u8rb40": {
     "id": "1j96hg5u8rb40",
@@ -10539,14 +10545,6 @@
     "path": "Entity/1/j/c/1jcf515129615-日魏皓.json",
     "period": "qing"
   },
-  "1jcf51512961e": {
-    "id": "1jcf51512961e",
-    "type": "entity",
-    "subtype": "people",
-    "primary_name": "明宣宗",
-    "path": "Entity/1/j/c/1jcf51512961e-明宣宗.json",
-    "period": "ming"
-  },
   "1jcf51512961u": {
     "id": "1jcf51512961u",
     "type": "entity",
@@ -13545,6 +13543,33 @@
     "subtype": "people",
     "primary_name": "屠寄",
     "path": "Entity/1/j/c/1jcf515129abk-屠寄.json",
+    "period": "qing"
+  },
+  "1jcf515129acl": {
+    "id": "1jcf515129acl",
+    "type": "entity",
+    "subtype": "collective",
+    "primary_name": "北洋洋務局",
+    "path": "Entity/1/j/c/1jcf515129acl-北洋洋務局.json",
+    "dynasty": "清",
+    "period": "qing"
+  },
+  "1jcf515129adm": {
+    "id": "1jcf515129adm",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "勞平甫",
+    "path": "Entity/1/j/c/1jcf515129adm-勞平甫.json",
+    "dynasty": "清",
+    "period": "qing"
+  },
+  "1jcf515129aen": {
+    "id": "1jcf515129aen",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "張宗柟",
+    "path": "Entity/1/j/c/1jcf515129aen-張宗柟.json",
+    "dynasty": "清",
     "period": "qing"
   }
 }

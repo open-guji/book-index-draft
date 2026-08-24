@@ -32,6 +32,10 @@
     {
       "name": "長春真人",
       "type": "號"
+    },
+    {
+      "name": "明宣宗",
+      "type": "廟號"
     }
   ],
   "dynasty": "明",
@@ -77,6 +81,18 @@
     {
       "work_id": "1evkq2fqqyhvk",
       "role": "撰"
+    },
+    {
+      "work_id": "1exm23ov195mq",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjxmxaa82kg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjxm6q03h1c",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -87,5 +103,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 7 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 7 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 帝王 entity 重出歸併：併入「明宣宗」（`1jcf51512961e`）。本日補 entity 之際，以廟號「明宣宗」別立一條，而庫中早有以本名「朱瞻基」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。"
 }
