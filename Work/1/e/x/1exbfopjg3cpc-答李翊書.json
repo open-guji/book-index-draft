@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "答李翊書",
+  "id": "1exbfopjg3cpc",
+  "authors": [
+    {
+      "name": "韓愈",
+      "role": "作",
+      "dynasty": "唐"
+    }
+  ],
+  "subtype": "article",
+  "related_works": [
+    {
+      "id": "1evhnqciqrwu8",
+      "title": "正續古文辭類纂",
+      "relation": "collected_in"
+    },
+    {
+      "id": "1ev3bemtmuhvk",
+      "title": "唐宋八大家文鈔",
+      "relation": "collected_in"
+    }
+  ],
+  "indexed_by": [],
+  "ai_note": "[N3磁鐵 2026-08-24] 選本之整理本以**一篇一 work** 為例（同卷他篇無一不然），而本篇原與《重答李翊書》共繫一條（`1evhnrsbd60hs`）——匯入時題首相同之二篇未分。《正續古文辭類纂》卷二十九〈答李翊書〉在第九節、〈重答李翊書〉在第十六節，中隔〈答劉正夫書〉〈與馮宿論文書〉諸篇，「重答」別為一書，今別立。`period`／`loss_status`／`authors[].entity_id` 不繫（新建之條依庫規不擅補）。",
+  "updated_at": "2026-08-24T02:53:07+00:00"
+}
