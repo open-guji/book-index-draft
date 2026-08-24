@@ -39,13 +39,21 @@
       "title_info": "《三十國春秋》三十卷",
       "summary": "《三十國春秋》三十卷（蕭方等撰。起漢建安，訖晉元熈。）",
       "author_info": "蕭方等撰。起漢建安，訖晉元熈。"
+    },
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "title_info": "三十國春秋一卷",
+      "summary": "三十國春秋一卷　第None帙，卷None",
+      "section": "補編·子編／五行類",
+      "juan_count": "1卷"
     }
   ],
   "juan_count": {
     "number": 31
   },
   "id": "1evcml19l816o",
-  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。　輯佚檔：本書之輯佚著錄置於 fragments/三十國春秋.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 2 個異題 section，各題在庫中皆已別有其 work（且該 work 具本志之著錄、卷數相合），係匯入時繫連落於通名之誤，今各歸其主：《蕭方三十國春秋》→ `1evdxnowh270g`、《武敏之三十國春秋》→ `1evdxnp0qmy9s`。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 duandai 規則清史稿漏洞訂正：撤原判 period=qing。本條兼繫他志，其上限為 sui-tang，與 duandai 據清史稿所定之 qing 相斥。 Entity 線索：題名前綴「三十」period=['ming']（僅供覆核參考，未逕用）。 待逐條覆核，清單見 .claude/known-issues/duandai清史稿漏洞待覈.json",
+  "ai_note": "清史稿藝文志匹配：書名精確匹配但無作者資訊可驗證（無作者，唯一候選）。　輯佚檔：本書之輯佚著錄置於 fragments/三十國春秋.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：整理本原以本 work 之 id 兼繫下列 2 個異題 section，各題在庫中皆已別有其 work（且該 work 具本志之著錄、卷數相合），係匯入時繫連落於通名之誤，今各歸其主：《蕭方三十國春秋》→ `1evdxnowh270g`、《武敏之三十國春秋》→ `1evdxnp0qmy9s`。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 duandai 規則清史稿漏洞訂正：撤原判 period=qing。本條兼繫他志，其上限為 sui-tang，與 duandai 據清史稿所定之 qing 相斥。 Entity 線索：題名前綴「三十」period=['ming']（僅供覆核參考，未逕用）。 待逐條覆核，清單見 .claude/known-issues/duandai清史稿漏洞待覈.json\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",

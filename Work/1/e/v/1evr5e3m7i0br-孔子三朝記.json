@@ -50,6 +50,14 @@
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
       "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
+    },
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "title_info": "孔子三朝記一卷",
+      "summary": "孔子三朝記一卷　第8帙，卷80",
+      "section": "補編／經編論語類",
+      "juan_count": "1卷"
     }
   ],
   "measures": [
@@ -74,7 +82,7 @@
     }
   ],
   "loss_status": "partially_extant",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/孔子三朝記.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（清史稿藝文志：「孔子三朝記」）所載之 7 卷不合，今據原文訂正。 2026-08-21 本條連記附屬部帙：目錄。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-23 存佚車道：loss_status 由 lost 改 partially_extant。本條有輯佚檔 fragments/孔子三朝記.json（據《玉函山房輯佚書》目錄立），依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之準（凡有文存世即 partially_extant，一字不存方為 lost），本條不當作全佚。08-21 改判批次未及本條。",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/孔子三朝記.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 1，與著錄原文（清史稿藝文志：「孔子三朝記」）所載之 7 卷不合，今據原文訂正。 2026-08-21 本條連記附屬部帙：目錄。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-23 存佚車道：loss_status 由 lost 改 partially_extant。本條有輯佚檔 fragments/孔子三朝記.json（據《玉函山房輯佚書》目錄立），依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之準（凡有文存世即 partially_extant，一字不存方為 lost），本條不當作全佚。08-21 改判批次未及本條。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）",
   "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_image": true,
   "period": "qing",

@@ -39,12 +39,12 @@
     }
   ],
   "measure_info": "四卷",
-  "updated_at": "2026-08-24T11:30:38.264262+00:00",
+  "updated_at": "2026-08-24T11:49:49.170156+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
   "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 B1 同名異書併池：併入 `1evcsx94uqcqo`（讀史）。2026-08-23 B10（同題一方無撰人）：併入 `1evcsx94uqcqo`（宋史藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\n2026-08-24 摘去所繫之《宋史藝文志》一節——本條是明人之書，不可能見於元脫脫所修之宋志。本節作「一百篇李孟傳《讀史》十卷崔敦詩」——「一百篇」是前節 #140《通鑒補遺》之卷數，「李孟傳」是本節撰人，「崔敦詩」屬下節 #142《通鑒要覽》（崔敦詩《通鑒要覽》正合）。舊主 `1evdic73ew2yo` 是明楊以任《讀史四集》四卷（明志著錄），與此無涉。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《明史藝文志》（清張廷玉等（1739），只錄明人著述，斷代），故不晚於 ming。（2026-08-24 C1 訂正：舊上限緣於已從 indexed_by 摘去之早志節點，其 basis 未隨之重算，遂與現判之 period 顯示相斥——實則本條之著錄本無早志，重算即得。）"
 }
