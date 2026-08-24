@@ -14,7 +14,8 @@
 複審 209 條中弃 65（誤配率 31%）——若逕落機器結果，四百餘條中約百三十條是錯的。
 故本腳本只讀複審之 adopt=true 者。
 
-用法：python3 scripts/apply_cbdb_review.py <review_dir> [--apply]
+用法：python3 scripts/apply_cbdb_review.py <review_dir> [--prefix P] [--apply]
+      --prefix 批次檔名前綴，預設 cr（第二批用 cr2）
 """
 import json, glob, os, sys, datetime, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -33,15 +34,18 @@ def compatible(period, upper):
 def main():
     rdir = sys.argv[1]
     apply_ = '--apply' in sys.argv
+    pref = 'cr'
+    if '--prefix' in sys.argv:
+        pref = sys.argv[sys.argv.index('--prefix') + 1]
 
     src = {}
-    for f in sorted(glob.glob(os.path.join(rdir, 'cr_*.json'))):
+    for f in sorted(glob.glob(os.path.join(rdir, f'{pref}_*.json'))):
         if f.endswith('.result.json'):
             continue
         for e in json.load(open(f)):
             src[e['id']] = e
     dec = {}
-    for f in sorted(glob.glob(os.path.join(rdir, 'cr_*.result.json'))):
+    for f in sorted(glob.glob(os.path.join(rdir, f'{pref}_*.result.json'))):
         for r in json.load(open(f)):
             dec[r['id']] = r
     print(f'機器候選 {len(src)}　複審結果 {len(dec)}')
@@ -95,7 +99,7 @@ def main():
                              f'——{r.get("reason") or ""}'
                              + (f'；上限 {d["period_upper"]} 覆驗不相斥'
                                 if d.get('period_upper') else '')
-                             + '（2026-08-24 A2 CBDB＋複審）')
+                             + f'（2026-08-24 {"A2" if pref == "cr" else "B5"} CBDB＋複審）')
         d['updated_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         with open(p, 'w', encoding='utf-8', newline='\n') as f:
             f.write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
@@ -105,7 +109,8 @@ def main():
     for s, obj in IW.items():
         with open(f'index/works/{s}.json', 'w', encoding='utf-8', newline='\n') as f:
             f.write(json.dumps(obj, ensure_ascii=False, indent=2) + '\n')
-    with open('.claude/known-issues/A2-CBDB複審棄置.json', 'w', encoding='utf-8') as f:
+    tag = 'A2' if pref == 'cr' else 'B5'
+    with open(f'.claude/known-issues/{tag}-CBDB複審棄置.json', 'w', encoding='utf-8') as f:
         json.dump({'_說明': 'CBDB 按名匹配而複審判為不可採者。多為同名異人'
                             '（CBDB 之名不能自證其為同一人），或 CBDB 僅一條孤證而別無旁證。'
                             '此清單亦是 name-only 匹配之誤配樣本，可供日後改進判準。',
