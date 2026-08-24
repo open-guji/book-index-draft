@@ -382,6 +382,7 @@ _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略',
                     '眞':'真','敎':'教','牋':'箋','隠':'隱'})
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
 secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter(); secalt=_c.Counter()
+secdup=_c.Counter()
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -395,6 +396,10 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         # 「別本」同此（SCHEMA 2026-08-24 增）：四庫別出之「別本某某」與其正條
         # 同指一書，共繫是裁定之果，非匯入未分之遺
         if sec.get('section_kind')=='別本': secalt[own]+=1; continue
+        # 「一書兩著」同此（SCHEMA 2026-08-24 增）：書目自身一書兩出其目
+        # （題同而卷數異，或題異而同指），與正條共繫是裁定之果。
+        # SCHEMA〈別本〉節「不及者二」所指即此，今補其欄。
+        if sec.get('section_kind')=='一書兩著': secdup[own]+=1; continue
         w=sec.get('work_id')
         if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
     for w,ts in m.items():
@@ -403,7 +408,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
 print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()),
       '　附屬部帙節（依 SCHEMA 與母條共繫，不計）',sum(secpart.values()),
-      '　別本節（同上）',sum(secalt.values()))
+      '　別本節（同上）',sum(secalt.values()),
+      '　一書兩著節（同上）',sum(secdup.values()))
 for k,v in secmag.most_common(6): print('  ',k,v)
 for x in secmag_ex: print('   例',x)
 
