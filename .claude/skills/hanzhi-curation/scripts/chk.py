@@ -319,7 +319,7 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
-            # 指 Collection 者不是落空——其標的在庫，只是欄名不當。
+            # 叢書當用 collection_id（SCHEMA 2026-08-23 增），不得用 work_id。此數當恆為 0。
             # 《中國通俗小說書目》卷九附錄二〈叢書目〉之節（《四大奇書》《前後
             # 七國志》《怡園五種》之屬）本是叢書，庫中以 Collection 記之，而
             # 節仍用 work_id 一欄。SCHEMA〈整理本 section 的三個指涉欄位〉只列
@@ -330,6 +330,10 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in _EXIST_B: dang_is_book+=1
+        # collection_id（SCHEMA 2026-08-23 增）之存在性
+        _c=sec.get('collection_id')
+        if isinstance(_c,str) and _c not in _COLL:
+            dang[f.split('/')[4]]+=1; dang_ids.add(_c)
         b=sec.get('book_id')
         if isinstance(b,str) and b not in _EXIST_B:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
@@ -338,7 +342,7 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 print('整理本節之 work_id 實指 Collection',_sec2coll,'相異 id',len(_coll_ids),
-      '　基線 13（《中國通俗小說書目》叢書目；SCHEMA 未收 collection_id 一欄，待單線車道裁）')
+      '　基線 0（叢書當用 collection_id，見 SCHEMA〈整理本 section 的四個指涉欄位〉）')
 for k,v in dang.most_common(6): print('  ',k,v)
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
