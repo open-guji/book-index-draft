@@ -2766,18 +2766,6 @@
     "juan_count": 42,
     "measure_info": "四十二卷"
   },
-  "1ev3bb2gnk8ow": {
-    "id": "1ev3bb2gnk8ow",
-    "title": "別本漢舊儀",
-    "type": "Work",
-    "path": "Work/1/e/v/1ev3bb2gnk8ow-別本漢舊儀.json",
-    "author": "議郎東海衛宏敬仲",
-    "dynasty": "漢",
-    "role": "撰",
-    "juan_count": 2,
-    "measure_info": "二卷",
-    "period": "qin-han"
-  },
   "1ev3bb2pt6ubk": {
     "id": "1ev3bb2pt6ubk",
     "title": "諡苑",
@@ -8296,7 +8284,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xkhh0z6rk-鉤盾冗從李步昌.json",
     "author": "李步昌",
-    "dynasty": "漢",
+    "dynasty": "西漢",
     "role": "撰",
     "juan_count": 8,
     "measure_info": "八篇",
@@ -8423,7 +8411,7 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xm2rx8w00-車郎張豐賦.json",
     "author": "張豐",
-    "dynasty": "漢",
+    "dynasty": "西漢",
     "role": "撰",
     "juan_count": 3,
     "measure_info": "三篇",
@@ -8972,8 +8960,10 @@
     "author": "宋均",
     "juan_count": 7,
     "measure_info": "七卷",
-    "period": "qin-han",
-    "original_title": "孝經援神契"
+    "period": "three-kingdoms",
+    "original_title": "孝經援神契",
+    "dynasty": "三國魏",
+    "role": "注"
   },
   "1evc5pewzk6io": {
     "id": "1evc5pewzk6io",
@@ -9025,12 +9015,17 @@
     "title": "漢舊儀",
     "type": "Work",
     "path": "Work/1/e/v/1evcml0tkopvk-漢舊儀.json",
-    "author": "衛敬仲",
+    "author": "衛宏",
     "role": "撰",
     "juan_count": 4,
     "measure_info": "四卷",
     "period": "qin-han",
-    "loss_status": "partially_extant"
+    "loss_status": "partially_extant",
+    "dynasty": "東漢",
+    "additional_titles": [
+      "漢官舊儀",
+      "別本漢舊儀"
+    ]
   },
   "1evcml0tr8pa8": {
     "id": "1evcml0tr8pa8",
@@ -9584,7 +9579,8 @@
     "juan_count": 17,
     "measure_info": "十七卷",
     "period": "qin-han",
-    "loss_status": "partially_extant"
+    "loss_status": "partially_extant",
+    "dynasty": "東漢"
   },
   "1evcmncs7bgu8": {
     "id": "1evcmncs7bgu8",
@@ -10341,7 +10337,7 @@
     "role": "撰",
     "juan_count": 6,
     "measure_info": "六卷",
-    "period": "qin-han"
+    "period": "jin"
   },
   "1evcmod2oglj4": {
     "id": "1evcmod2oglj4",
@@ -18505,11 +18501,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evfhcd9gpslc-列女傳注.json",
     "author": "趙母",
-    "dynasty": "漢",
+    "dynasty": "三國吳",
     "role": "注",
     "juan_count": 7,
     "measure_info": "七卷",
-    "period": "qin-han",
+    "period": "three-kingdoms",
     "loss_status": "lost"
   },
   "1evfhceaqmzuo": {
@@ -22811,7 +22807,8 @@
     "role": "撰",
     "juan_count": 4,
     "measure_info": "四卷",
-    "period": "qin-han"
+    "period": "qin-han",
+    "dynasty": "東漢"
   },
   "1evgoprme5urk": {
     "id": "1evgoprme5urk",
@@ -24776,7 +24773,8 @@
     "role": "撰",
     "juan_count": 20,
     "measure_info": "二十卷",
-    "period": "qin-han"
+    "period": "qin-han",
+    "dynasty": "西漢"
   },
   "1evgpkmg7z30g": {
     "id": "1evgpkmg7z30g",
@@ -48780,7 +48778,8 @@
     "juan_count": 1,
     "measure_info": "一卷",
     "period": "qin-han",
-    "loss_status": "partially_extant"
+    "loss_status": "partially_extant",
+    "dynasty": "三國魏"
   },
   "1ewsa4aighyiy": {
     "id": "1ewsa4aighyiy",
@@ -48877,7 +48876,7 @@
     "type": "Work",
     "path": "Work/1/e/w/1ewsa4asj7pt3-韓詩趙氏義.json",
     "author": "趙煜",
-    "dynasty": "漢",
+    "dynasty": "東漢",
     "role": "撰",
     "juan_count": 1,
     "measure_info": "一卷",
@@ -49037,7 +49036,7 @@
     "type": "Work",
     "path": "Work/1/e/w/1ewsa4bg22jid-韓詩趙氏學.json",
     "author": "趙煜",
-    "dynasty": "漢",
+    "dynasty": "東漢",
     "role": "撰",
     "juan_count": 1,
     "measure_info": "一卷",
@@ -49345,7 +49344,10 @@
     "role": "撰",
     "juan_count": 1,
     "measure_info": "一卷",
-    "loss_status": "lost"
+    "loss_status": "lost",
+    "additional_titles": [
+      "天文志雜佔"
+    ]
   },
   "1ewz06ursj9xm": {
     "id": "1ewz06ursj9xm",

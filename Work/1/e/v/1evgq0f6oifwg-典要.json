@@ -6,9 +6,10 @@
     {
       "name": "王曉",
       "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96h8rw86pzf",
-      "dynasty_basis": "entity_propagation_r2:1j96h8rw86pzf"
+      "dynasty": "宋",
+      "entity_id": null,
+      "dynasty_basis": "entity_propagation_r2:1j96h8rw86pzf",
+      "name_basis": "《國史經籍志》著「《典要》三卷（**宋**王曉）」，明書其代；《崇文總目》（1041）復已錄之。"
     }
   ],
   "juan_count": {
@@ -37,7 +38,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"典要\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfxf4u`（典要）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3mfxf4u`（崇文總目，3卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "ai_note": "missing_reason: 短title \"典要\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfxf4u`（典要）。2026-08-23 B10（同題一方無撰人）：併入 `1evr5e3mfxf4u`（崇文總目，3卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\n2026-08-24 period 相斥覆裁：《國史經籍志》著「（**宋**王曉）」，《崇文總目》（1041）復已錄之，是宋人之書；前此 dynasty 作「明」，period 遂誤 ming。\n\n**並解其 entity 之繫**：庫中「王曉」entity `1j96h8rw86pzf` 繫 cbdb 205806、生 1540，是**明人**，名下別有《春秋原要》《南華真經提綱》二書（皆出國史志而不著代）。宋王曉與明王曉當是二人，然本輪無據可分其二書之歸屬，故只解本條之繫而不動該 entity，交人物道。",
   "id": "1evgq0f6oifwg",
   "measures": [
     {
@@ -46,9 +47,9 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」——《國史經籍志》著「（宋王曉）」，且《崇文總目》（1041）已錄之",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代"
 }

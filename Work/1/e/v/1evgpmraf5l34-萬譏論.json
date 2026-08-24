@@ -6,7 +6,7 @@
     {
       "name": "蔣濟",
       "role": "撰",
-      "entity_id": "1j967cp1zdr2x",
+      "entity_id": "1j96keesd3j7k",
       "dynasty": "三國魏",
       "dynasty_basis": "known_mislabel:round3(蔣濟(?-249)，三國魏)"
     }
@@ -37,7 +37,8 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-08-08T14:20:19+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "ai_note": "2026-08-24：`authors[].entity_id` 由 `1j967cp1zdr2x` 改指 `1j96keesd3j7k`。前者已於某輪人物併池中退役而本條未隨遷，指向已不存在之 entity；庫中「蔣濟」今唯 `1j96keesd3j7k`（三國魏）一條。**此型 chk 現無驗**——「work 指向已退役 entity」只在該 entity 一側亦宣稱其書時才由〈人物→作品 單向〉間接照出；本條與《古文官書衛敬仲撰》即以此法查出，宜於 chk 補一驗。"
 }

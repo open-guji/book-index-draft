@@ -53,8 +53,8 @@
       "relation": "contains_text_of"
     }
   ],
-  "loss_status": "lost",
-  "ai_note": "2026-08-11 秦漢同名異書核對／孝經注組覆核：本條原僅 authors 空白、indexed_by 摘要過簡（僅「孝經注」二字），其 collated_edition 原文已明「漢鄭康成撰」，補撰人鄭玄。同組另兩條同題異名之孤例——1evgoqrg7o3y8（國史經籍志「鄭玄孝經注」一卷）、1evr5e3m7t8va（清史稿藝文志輯佚「漢鄭玄孝經註」一卷）——皆同書一卷、皆因標題自帶撰人名而 authors 欄漏填，非另書，併入本條為 indexed_by。loss_status 據清史稿輯佚條目慣例定為 lost。\n\n2026-08-21 補 original_title「孝經」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
+  "loss_status": "partially_extant",
+  "ai_note": "2026-08-11 秦漢同名異書核對／孝經注組覆核：本條原僅 authors 空白、indexed_by 摘要過簡（僅「孝經注」二字），其 collated_edition 原文已明「漢鄭康成撰」，補撰人鄭玄。同組另兩條同題異名之孤例——1evgoqrg7o3y8（國史經籍志「鄭玄孝經注」一卷）、1evr5e3m7t8va（清史稿藝文志輯佚「漢鄭玄孝經註」一卷）——皆同書一卷、皆因標題自帶撰人名而 authors 欄漏填，非另書，併入本條為 indexed_by。loss_status 據清史稿輯佚條目慣例定為 lost。\n\n2026-08-21 補 original_title「孝經」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補/訂 partially_extant：清人輯本與敦煌寫本殘卷存——有文存世（舊值 lost 據清代之見聞，今訂）。",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「漢」",
   "dynasty": "漢",
@@ -67,5 +67,13 @@
       "number": 1
     }
   ],
-  "original_title": "孝經"
+  "original_title": "孝經",
+  "description": {
+    "text": "題漢鄭玄注《孝經》一卷。相承云康成作注而《鄭志》目錄不載，先儒並疑之（陸澄譏之，劉知幾設十二驗以辨其非）；直齋已詳其疑。原書中土久佚，清人有輯本（臧庸《孝經鄭氏解》等），敦煌出唐寫本《孝經鄭注》殘卷、日本亦有傳本，真偽之辨遂為專門公案。",
+    "sources": [
+      "直齋書錄解題",
+      "經義考",
+      "清史稿藝文志"
+    ]
+  }
 }
