@@ -178,6 +178,19 @@ e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
 w_only=sum(1 for w,es in w2e.items() for i in es
            if i in ent and not any(x.get('work_id')==w for x in (ent[i].get('works') or [])))
 print('人物→作品 單向',e_only,' 作品→人物 單向',w_only)
+# work 之 authors[].entity_id 指向已不存在（多是併池退役而未隨遷）之 entity。
+# 2026-08-24 立此驗：舊法只在該 entity 一側亦宣稱其書時，才由上一行間接照出；
+# 若兩側俱未宣稱，則全無人知。實測查出二條（古文官書衛敬仲撰、萬譏論）。
+_deadent=[]
+for _w,_e in IW.items():
+    try: _d=json.load(open(_e['path']))
+    except Exception: continue
+    for _a in (_d.get('authors') or []):
+        if not isinstance(_a,dict): continue
+        _i=_a.get('entity_id')
+        if isinstance(_i,str) and _i and _i not in IE: _deadent.append((_w,_a.get('name'),_i))
+print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0')
+for x in _deadent[:8]: print('  ',x)
 
 # 整理本 section 之 work_ids ↔ work 之 emendated_by
 import ast
