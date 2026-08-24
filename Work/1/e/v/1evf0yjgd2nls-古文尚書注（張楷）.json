@@ -31,19 +31,6 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《古文尚書注》",
-      "summary": "隋志十一卷（新舊唐書志十卷）\n陸徳明曰梅賾上孔氏傳古文尚書云舜典一篇時以王肅注頗類孔氏故取王注從慎徽五典以下為舜典以續孔傳徐仙民亦音此本劉知幾曰王肅注今文尚書大與古文孔傳相類或肅私見其本而獨秘之乎按唐志有尚書答問三卷當即隋志義問孔晁采鄭康成及肅叅以已見者也",
-      "section": "書",
-      "juan": "卷七十七",
-      "page": "KR2n0011_WYG_077-12b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
-      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "description": {
@@ -59,9 +46,9 @@
       "relation": "contains_text_of"
     }
   ],
-  "ai_note": "作者繫連改指：原繫人物 1j96hjwlxz6mm，該記錄實混同名而異代之兩人；本書撰者為東漢之張楷，今改指新立人物 1jae2gjvfzuoj。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 補 original_title「古文尚書」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
+  "ai_note": "作者繫連改指：原繫人物 1j96hjwlxz6mm，該記錄實混同名而異代之兩人；本書撰者為東漢之張楷，今改指新立人物 1jae2gjvfzuoj。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 補 original_title「古文尚書」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n[N3磁鐵 2026-08-24]《經義考》卷七十七「古文尚書注 隋志十一卷」原共繫本條，實承其前「王氏（肅）尚書駮議」省撰人，是王肅之注，今改繫《尚書王肅注》`1evc5pcb5hzwg`。",
   "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
+  "updated_at": "2026-08-24T02:11:35+00:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",
   "original_title": "古文尚書"
