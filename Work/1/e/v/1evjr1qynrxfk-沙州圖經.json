@@ -21,7 +21,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」並繫於偽 Entity「佚名」——該 Entity 之名本是著錄語而非人名。《續修四庫全書》著錄原文作「佚名撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」並繫於偽 Entity「佚名」——該 Entity 之名本是著錄語而非人名。《續修四庫全書》著錄原文作「佚名撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。\n\n2026-08-24 隋唐 T7：period_basis 改述——原稱「據 authors[0].dynasty」而 authors 空，其據懸空。",
   "id": "1evjr1qynrxfk",
   "resources": [
     {
@@ -40,7 +40,7 @@
   "updated_at": "2026-08-17T18:19:19+00:00",
   "_has_image": true,
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
+  "period_basis": "本條不著撰人（《續修四庫全書》：「唐佚名撰」）。period 作 sui-tang，其據是**所繫著錄自書其代**——續修四庫影印敦煌石室遺書殘本而題「唐佚名撰」；沙州即敦煌，圖經是唐代州郡地志之體。本欄原作「據 authors[0].dynasty「唐」」而 authors 空，其據懸空，今改述。",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation"
 }

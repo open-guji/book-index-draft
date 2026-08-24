@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T7·著錄源補記：本條 desc 自明其所出（「本書收入《國立故宮博物院善本舊籍》（統一編號…）」）而 indexed_by 竟空，二欄自相矛盾——升格前檢查遂報「無著錄源亦無關聯，此條何所據而立」。今據 desc 補其著錄一節，source 從庫中既有之形「國立故宮博物院善本舊籍」（已見於《廣韻》等八節），summary 存統一編號與版本語。**按**：本條尚無 Book——故宮所藏是實物而本庫未為之建 Book，是「有著錄而無實物之繫」，交 Book 建檔車道。",
   "juan_count": {
     "number": 10
   },
@@ -36,5 +36,12 @@
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "類箋唐王右丞詩集十卷文集四卷外編",
+      "summary": "明嘉靖三十五年錫山顧氏奇字齋刊本。故善009619-009628。"
+    }
+  ]
 }
