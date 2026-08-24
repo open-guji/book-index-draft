@@ -37,8 +37,14 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.33+unique"
   },
-  "ai_note": "繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。　繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
+  "ai_note": "繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。　繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 J3(6) Entity 同名分裂併池：併入 1j96heiib9qf4（primary_name「晉傅休奕」，dynasty「None」，works 0 條）。據：傅玄（217–278），字休奕，北地泥陽人，晉司隸校尉，撰《傅子》。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
-  "period_basis": "據 dynasty「西晉」自動歸併"
+  "period_basis": "據 dynasty「西晉」自動歸併",
+  "aliases": [
+    {
+      "name": "晉傅休奕",
+      "type": "異體"
+    }
+  ]
 }
