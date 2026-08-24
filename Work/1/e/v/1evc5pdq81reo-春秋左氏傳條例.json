@@ -29,8 +29,11 @@
     "number": 25
   },
   "description": {
-    "text": "《春秋左氏传条例》二十五卷",
-    "sources": []
+    "text": "西漢劉歆撰。歆治《左氏春秋》，引傳文以解經、轉相發明，章句義理備焉（《漢書·楚元王傳》），為《左氏》立學官之首倡。《隋志》著錄二十五卷，《舊唐志》二十卷。書佚。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志"
+    ]
   },
   "id": "1evc5pdq81reo",
   "emendated_by": [
@@ -59,5 +62,9 @@
   "dynasty": "西漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。"
+  "period_basis": "據 authors[0].dynasty「西漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
+  "loss_status": "lost",
+  "ai_note": "2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
+  "_promoted_to": "d59f25dg14hs",
+  "_promoted_at": "2026-08-24T15:41:06Z"
 }
