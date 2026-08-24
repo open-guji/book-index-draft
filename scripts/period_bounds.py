@@ -220,9 +220,23 @@ EXCAVATION = [
 ]
 
 
-def excavation_bound(blob):
-    """自描述文字（text + sources）辨出土批次，返 (上限, 批次名)。"""
+# 今人就出土文獻所作之釋文／校釋／研究，**不是出土文獻本身**——
+# 其書成於發掘之後，簡帛之年不為其上限。書名帶此類語者即是。
+# （實測攔下《馬王堆帛書周易經傳釋文》廖名春撰一條：其 description 本已明言
+#  「爲今人整理研究之作，非帛書本身」，而關鍵詞「馬王堆」仍令其上限誤作 qin-han。）
+EXCAVATION_MODERN = re.compile(
+    r'釋文|校釋|考釋|彙釋|集釋|校注|校證|彙校|新證|研究|整理|集成|'
+    r'通解|今譯|譯注|讀本|索引|文字編|導論|概論')
+
+
+def excavation_bound(blob, title=None):
+    """自描述文字（text + sources）辨出土批次，返 (上限, 批次名)。
+
+    title 給出時，書名帶今人著述之語者不適用——今人之釋文非出土之物。
+    """
     if not blob:
+        return None, None
+    if title and EXCAVATION_MODERN.search(title):
         return None, None
     for key, p, name in EXCAVATION:
         if key in blob:
