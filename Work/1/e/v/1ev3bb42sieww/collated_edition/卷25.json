@@ -30,7 +30,8 @@
       "type": "书",
       "content": "路九同滄通齋集二十卷⟨錢仲子上元人通山知縣⟩",
       "author_info": "錢仲子上元人通山知縣",
-      "_title_only": "路九同滄通齋集"
+      "_title_only": "路九同滄通齋集",
+      "_no_author": "待考"
     },
     {
       "title": "馬汝賢印湖先生集",
@@ -47,7 +48,8 @@
       "type": "书",
       "content": "汪朝仕習庵文集⟨開化人⟩",
       "author_info": "開化人",
-      "_title_only": "汪朝仕習庵文集"
+      "_title_only": "汪朝仕習庵文集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "詹景鳳西遊稿",
@@ -89,7 +91,10 @@
       "title": "又瀫陽詩集五卷",
       "level": 3,
       "type": "书",
-      "content": "又瀫陽詩集五卷"
+      "content": "又瀫陽詩集五卷",
+      "_author": "趙志臯",
+      "_title_only": "瀫陽詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "王家屏復宿山房集四十卷",
@@ -140,7 +145,10 @@
       "title": "又大泌山人全集一百三十四卷",
       "level": 3,
       "type": "书",
-      "content": "又大泌山人全集一百三十四卷"
+      "content": "又大泌山人全集一百三十四卷",
+      "_author": "李維楨",
+      "_title_only": "大泌山人全集",
+      "_author_src": "又條承上"
     },
     {
       "title": "方沆猗蘭堂集十六卷",
@@ -182,7 +190,10 @@
       "title": "又詩集二十卷",
       "level": 3,
       "type": "书",
-      "content": "又詩集二十卷"
+      "content": "又詩集二十卷",
+      "_author": "于慎行",
+      "_title_only": "詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "劉伯燮鶴鳴集二十七卷",
@@ -190,8 +201,11 @@
       "type": "书",
       "content": "劉伯燮鶴鳴集二十七卷⟨字元甫孝感人⟩",
       "author_info": "字元甫孝感人",
-      "_author": "劉伯",
-      "_title_only": "燮鶴鳴集"
+      "_author": "劉伯燮",
+      "_title_only": "鶴鳴集",
+      "_flags": [
+        "撰人已改切"
+      ]
     },
     {
       "title": "蔡文範青門先生文集十八卷",
@@ -242,7 +256,10 @@
       "title": "又詩集十八卷",
       "level": 3,
       "type": "书",
-      "content": "又詩集十八卷"
+      "content": "又詩集十八卷",
+      "_author": "沈一貫",
+      "_title_only": "詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "陳于陛萬卷樓稿",
@@ -257,7 +274,10 @@
       "title": "又閒雲館别編十九卷",
       "level": 3,
       "type": "书",
-      "content": "又閒雲館别編十九卷"
+      "content": "又閒雲館别編十九卷",
+      "_author": "陳于陛",
+      "_title_only": "閒雲館别編",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈思孝繼小草堂稿二十卷",
@@ -283,14 +303,20 @@
       "type": "书",
       "content": "劉紹䘏臨安集⟨令臨安時作字缺安陸人雲南按察司僉事⟩",
       "author_info": "令臨安時作字缺安陸人雲南按察司僉事",
-      "_author": "劉紹",
-      "_title_only": "䘏臨安集"
+      "_author": "劉紹䘏",
+      "_title_only": "臨安集",
+      "_flags": [
+        "撰人已改切"
+      ]
     },
     {
       "title": "又瀟湘集",
       "level": 3,
       "type": "书",
-      "content": "又瀟湘集"
+      "content": "又瀟湘集",
+      "_author": "劉紹䘏",
+      "_title_only": "瀟湘集",
+      "_author_src": "又條承上"
     },
     {
       "title": "范謙雙柏堂集",
@@ -299,7 +325,14 @@
       "content": "范謙雙柏堂集⟨字含虚豐城人禮部尚書贈太子少保諡文恪⟩",
       "author_info": "字含虚豐城人禮部尚書贈太子少保諡文恪",
       "_author": "范謙",
-      "_title_only": "雙柏堂集"
+      "_title_only": "雙柏堂集",
+      "_split_alt": [
+        "范謙雙",
+        "柏堂集"
+      ],
+      "_flags": [
+        "撰人切點存疑"
+      ]
     },
     {
       "title": "帥機垂楊館集四十卷",
@@ -404,19 +437,28 @@
       "title": "又蘭陰稿五卷",
       "level": 3,
       "type": "书",
-      "content": "又蘭陰稿五卷"
+      "content": "又蘭陰稿五卷",
+      "_author": "喻均",
+      "_title_only": "蘭陰稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又仙都稿一卷",
       "level": 3,
       "type": "书",
-      "content": "又仙都稿一卷"
+      "content": "又仙都稿一卷",
+      "_author": "喻均",
+      "_title_only": "仙都稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又虎林稿四卷",
       "level": 3,
       "type": "书",
-      "content": "又虎林稿四卷"
+      "content": "又虎林稿四卷",
+      "_author": "喻均",
+      "_title_only": "虎林稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "李逢陽翰峯遺稿二卷",
@@ -466,7 +508,10 @@
       "title": "又還山草四卷",
       "level": 3,
       "type": "书",
-      "content": "又還山草四卷"
+      "content": "又還山草四卷",
+      "_author": "劉元卿",
+      "_title_only": "還山草",
+      "_author_src": "又條承上"
     },
     {
       "title": "卜鏜三華館集",
@@ -490,19 +535,28 @@
       "title": "又南遊草",
       "level": 3,
       "type": "书",
-      "content": "又南遊草"
+      "content": "又南遊草",
+      "_author": "夏久安",
+      "_title_only": "南遊草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又閩中草",
       "level": 3,
       "type": "书",
-      "content": "又閩中草"
+      "content": "又閩中草",
+      "_author": "夏久安",
+      "_title_only": "閩中草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又冰玉軒集",
       "level": 3,
       "type": "书",
-      "content": "又冰玉軒集"
+      "content": "又冰玉軒集",
+      "_author": "夏久安",
+      "_title_only": "冰玉軒集",
+      "_author_src": "又條承上"
     },
     {
       "title": "顧所有漆園歸咏",
@@ -526,19 +580,28 @@
       "title": "又張陽和文選八卷",
       "level": 3,
       "type": "书",
-      "content": "又張陽和文選八卷"
+      "content": "又張陽和文選八卷",
+      "_author": "張元忭",
+      "_title_only": "張陽和文選",
+      "_author_src": "又條承上"
     },
     {
       "title": "又山游漫稿",
       "level": 3,
       "type": "书",
-      "content": "又山游漫稿"
+      "content": "又山游漫稿",
+      "_author": "張元忭",
+      "_title_only": "山游漫稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又不二齋文選六卷",
       "level": 3,
       "type": "书",
-      "content": "又不二齋文選六卷"
+      "content": "又不二齋文選六卷",
+      "_author": "張元忭",
+      "_title_only": "不二齋文選",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄧以讚鄧定宇集四卷",
@@ -553,7 +616,10 @@
       "title": "又鄧文潔佚稿八卷",
       "level": 3,
       "type": "书",
-      "content": "又鄧文潔佚稿八卷"
+      "content": "又鄧文潔佚稿八卷",
+      "_author": "鄧以讚",
+      "_title_only": "鄧文潔佚稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "黄洪憲碧山學士集二十一卷",
@@ -561,7 +627,12 @@
       "type": "书",
       "content": "黄洪憲碧山學士集二十一卷⟨字懋忠秀水人少詹事兼侍讀學士掌院事⟩",
       "author_info": "字懋忠秀水人少詹事兼侍讀學士掌院事",
-      "_title_only": "黄洪憲碧山學士集"
+      "_title_only": "碧山學士集",
+      "_author": "黄洪憲",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "唐鶴徵南遊稿一卷",
@@ -576,7 +647,10 @@
       "title": "又北游稿一卷",
       "level": 3,
       "type": "书",
-      "content": "又北游稿一卷"
+      "content": "又北游稿一卷",
+      "_author": "唐鶴徵",
+      "_title_only": "北游稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "郭子章閩草十六卷",
@@ -591,67 +665,100 @@
       "title": "又留草十卷",
       "level": 3,
       "type": "书",
-      "content": "又留草十卷"
+      "content": "又留草十卷",
+      "_author": "郭子章",
+      "_title_only": "留草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又蜀草十四卷",
       "level": 3,
       "type": "书",
-      "content": "又蜀草十四卷"
+      "content": "又蜀草十四卷",
+      "_author": "郭子章",
+      "_title_only": "蜀草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又浙草十六卷",
       "level": 3,
       "type": "书",
-      "content": "又浙草十六卷"
+      "content": "又浙草十六卷",
+      "_author": "郭子章",
+      "_title_only": "浙草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又晉草十卷",
       "level": 3,
       "type": "书",
-      "content": "又晉草十卷"
+      "content": "又晉草十卷",
+      "_author": "郭子章",
+      "_title_only": "晉草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又楚草十三卷",
       "level": 3,
       "type": "书",
-      "content": "又楚草十三卷"
+      "content": "又楚草十三卷",
+      "_author": "郭子章",
+      "_title_only": "楚草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又閩藩草九卷",
       "level": 3,
       "type": "书",
-      "content": "又閩藩草九卷"
+      "content": "又閩藩草九卷",
+      "_author": "郭子章",
+      "_title_only": "閩藩草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又家草八卷",
       "level": 3,
       "type": "书",
-      "content": "又家草八卷"
+      "content": "又家草八卷",
+      "_author": "郭子章",
+      "_title_only": "家草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又黔草三十七卷",
       "level": 3,
       "type": "书",
-      "content": "又黔草三十七卷"
+      "content": "又黔草三十七卷",
+      "_author": "郭子章",
+      "_title_only": "黔草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又養草七卷",
       "level": 3,
       "type": "书",
-      "content": "又養草七卷"
+      "content": "又養草七卷",
+      "_author": "郭子章",
+      "_title_only": "養草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又苫草六卷",
       "level": 3,
       "type": "书",
-      "content": "又苫草六卷"
+      "content": "又苫草六卷",
+      "_author": "郭子章",
+      "_title_only": "苫草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又傳草二十四卷",
       "level": 3,
       "type": "书",
-      "content": "又傳草二十四卷"
+      "content": "又傳草二十四卷",
+      "_author": "郭子章",
+      "_title_only": "傳草",
+      "_author_src": "又條承上"
     },
     {
       "title": "劉臺精忠堂稿三卷",
@@ -675,7 +782,10 @@
       "title": "又詩集六卷",
       "level": 3,
       "type": "书",
-      "content": "又詩集六卷"
+      "content": "又詩集六卷",
+      "_author": "趙用賢",
+      "_title_only": "詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "丁賔丁清惠公遺集六卷",
@@ -683,7 +793,8 @@
       "type": "书",
       "content": "丁賔丁清惠公遺集六卷⟨字缺嘉善人南京工部尚書⟩",
       "author_info": "字缺嘉善人南京工部尚書",
-      "_title_only": "丁賔丁清惠公遺集"
+      "_title_only": "丁賔丁清惠公遺集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "洪烝來鶴軒佚稿",
@@ -707,7 +818,10 @@
       "title": "又中林集",
       "level": 3,
       "type": "书",
-      "content": "又中林集"
+      "content": "又中林集",
+      "_author": "郭子直",
+      "_title_only": "中林集",
+      "_author_src": "又條承上"
     },
     {
       "title": "馮時可元成選集八十三卷",
@@ -722,37 +836,55 @@
       "title": "又北征集十六卷",
       "level": 3,
       "type": "书",
-      "content": "又北征集十六卷"
+      "content": "又北征集十六卷",
+      "_author": "馮時可",
+      "_title_only": "北征集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又西征集十四卷",
       "level": 3,
       "type": "书",
-      "content": "又西征集十四卷"
+      "content": "又西征集十四卷",
+      "_author": "馮時可",
+      "_title_only": "西征集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又金閶集十卷",
       "level": 3,
       "type": "书",
-      "content": "又金閶集十卷"
+      "content": "又金閶集十卷",
+      "_author": "馮時可",
+      "_title_only": "金閶集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又巖棲稿三卷",
       "level": 3,
       "type": "书",
-      "content": "又巖棲稿三卷"
+      "content": "又巖棲稿三卷",
+      "_author": "馮時可",
+      "_title_only": "巖棲稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又石湖稿二卷",
       "level": 3,
       "type": "书",
-      "content": "又石湖稿二卷"
+      "content": "又石湖稿二卷",
+      "_author": "馮時可",
+      "_title_only": "石湖稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又茹茹稿二卷",
       "level": 3,
       "type": "书",
-      "content": "又茹茹稿二卷"
+      "content": "又茹茹稿二卷",
+      "_author": "馮時可",
+      "_title_only": "茹茹稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "王祖嫡王先生文集三十七卷",
@@ -769,7 +901,8 @@
       "type": "书",
       "content": "蔣夢雷彩雲編二卷⟨字汝奮福清人⟩",
       "author_info": "字汝奮福清人",
-      "_title_only": "蔣夢雷彩雲編"
+      "_title_only": "蔣夢雷彩雲編",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "劉伯淵灌息亭集",
@@ -848,7 +981,8 @@
       "type": "书",
       "content": "宋存徳鴻雪稿⟨字惟一江寧人⟩",
       "author_info": "字惟一江寧人",
-      "_title_only": "宋存徳鴻雪稿"
+      "_title_only": "宋存徳鴻雪稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "吳中行賜餘堂集十四卷",
@@ -863,7 +997,10 @@
       "title": "又復庵太史娛悦詩抄一卷",
       "level": 3,
       "type": "书",
-      "content": "又復庵太史娛悦詩抄一卷"
+      "content": "又復庵太史娛悦詩抄一卷",
+      "_author": "吳中行",
+      "_title_only": "復庵太史娛悦詩抄",
+      "_author_src": "又條承上"
     },
     {
       "title": "侯堯封鉄庵遺稿",
@@ -888,7 +1025,8 @@
       "level": 3,
       "type": "书",
       "content": "隆慶",
-      "_title_only": "隆慶"
+      "_title_only": "隆慶",
+      "_no_author": "待考"
     },
     {
       "title": "邵傅朴巔集二卷",
@@ -903,7 +1041,10 @@
       "title": "又青門集六卷",
       "level": 3,
       "type": "书",
-      "content": "又青門集六卷"
+      "content": "又青門集六卷",
+      "_author": "邵傅",
+      "_title_only": "青門集",
+      "_author_src": "又條承上"
     },
     {
       "title": "朱正初朱光禄集二卷",
@@ -938,7 +1079,8 @@
       "type": "书",
       "content": "邢徳健崑源藏稿⟨字汝行嵊縣人⟩",
       "author_info": "字汝行嵊縣人",
-      "_title_only": "邢徳健崑源藏稿"
+      "_title_only": "邢徳健崑源藏稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "陳鳴鳳鍾吾集",
@@ -953,7 +1095,10 @@
       "title": "又荆溪集",
       "level": 3,
       "type": "书",
-      "content": "又荆溪集"
+      "content": "又荆溪集",
+      "_author": "陳鳴鳳",
+      "_title_only": "荆溪集",
+      "_author_src": "又條承上"
     },
     {
       "title": "李應徵青蓮館集",
@@ -968,49 +1113,73 @@
       "title": "又澄逺堂集",
       "level": 3,
       "type": "书",
-      "content": "又澄逺堂集"
+      "content": "又澄逺堂集",
+      "_author": "李應徵",
+      "_title_only": "澄逺堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又偶寄軒集",
       "level": 3,
       "type": "书",
-      "content": "又偶寄軒集"
+      "content": "又偶寄軒集",
+      "_author": "李應徵",
+      "_title_only": "偶寄軒集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又藿園集",
       "level": 3,
       "type": "书",
-      "content": "又藿園集"
+      "content": "又藿園集",
+      "_author": "李應徵",
+      "_title_only": "藿園集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又寄苕漫草",
       "level": 3,
       "type": "书",
-      "content": "又寄苕漫草"
+      "content": "又寄苕漫草",
+      "_author": "李應徵",
+      "_title_only": "寄苕漫草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又薊易寓言",
       "level": 3,
       "type": "书",
-      "content": "又薊易寓言"
+      "content": "又薊易寓言",
+      "_author": "李應徵",
+      "_title_only": "薊易寓言",
+      "_author_src": "又條承上"
     },
     {
       "title": "又河梁集",
       "level": 3,
       "type": "书",
-      "content": "又河梁集"
+      "content": "又河梁集",
+      "_author": "李應徵",
+      "_title_only": "河梁集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又兩都集",
       "level": 3,
       "type": "书",
-      "content": "又兩都集"
+      "content": "又兩都集",
+      "_author": "李應徵",
+      "_title_only": "兩都集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又汗漫㳺集",
       "level": 3,
       "type": "书",
-      "content": "又汗漫㳺集"
+      "content": "又汗漫㳺集",
+      "_author": "李應徵",
+      "_title_only": "汗漫㳺集",
+      "_author_src": "又條承上"
     },
     {
       "title": "周從龍繹聖堂稿",
@@ -1043,7 +1212,10 @@
       "title": "又拙拙集",
       "level": 3,
       "type": "书",
-      "content": "又拙拙集"
+      "content": "又拙拙集",
+      "_author": "王應昌",
+      "_title_only": "拙拙集",
+      "_author_src": "又條承上"
     },
     {
       "title": "祭立身星山遯叟文集八卷",
@@ -1051,7 +1223,8 @@
       "type": "书",
       "content": "祭立身星山遯叟文集八卷⟨字師曾浙江平陽人⟩",
       "author_info": "字師曾浙江平陽人",
-      "_title_only": "祭立身星山遯叟文集"
+      "_title_only": "祭立身星山遯叟文集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "孫繼臯柏潭集十卷",
@@ -1084,7 +1257,10 @@
       "title": "又居業次編五卷",
       "level": 3,
       "type": "书",
-      "content": "又居業次編五卷"
+      "content": "又居業次編五卷",
+      "_author": "孫鑛",
+      "_title_only": "居業次編",
+      "_author_src": "又條承上"
     },
     {
       "title": "陶允宜鏡心堂集十六卷",
@@ -1099,7 +1275,10 @@
       "title": "又陶駕部選稿十五卷",
       "level": 3,
       "type": "书",
-      "content": "又陶駕部選稿十五卷"
+      "content": "又陶駕部選稿十五卷",
+      "_author": "陶允宜",
+      "_title_only": "陶駕部選稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄒迪光調象庵稿四十卷",
@@ -1114,49 +1293,73 @@
       "title": "又鬱儀樓集五十四卷",
       "level": 3,
       "type": "书",
-      "content": "又鬱儀樓集五十四卷"
+      "content": "又鬱儀樓集五十四卷",
+      "_author": "鄒迪光",
+      "_title_only": "鬱儀樓集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又鷦鷯集六卷",
       "level": 3,
       "type": "书",
-      "content": "又鷦鷯集六卷"
+      "content": "又鷦鷯集六卷",
+      "_author": "鄒迪光",
+      "_title_only": "鷦鷯集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又羼提齋稿八卷",
       "level": 3,
       "type": "书",
-      "content": "又羼提齋稿八卷"
+      "content": "又羼提齋稿八卷",
+      "_author": "鄒迪光",
+      "_title_only": "羼提齋稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又青藜館集四卷",
       "level": 3,
       "type": "书",
-      "content": "又青藜館集四卷"
+      "content": "又青藜館集四卷",
+      "_author": "鄒迪光",
+      "_title_only": "青藜館集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又始青閣稿二十四卷",
       "level": 3,
       "type": "书",
-      "content": "又始青閣稿二十四卷"
+      "content": "又始青閣稿二十四卷",
+      "_author": "鄒迪光",
+      "_title_only": "始青閣稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又二酉園稿八卷",
       "level": 3,
       "type": "书",
-      "content": "又二酉園稿八卷"
+      "content": "又二酉園稿八卷",
+      "_author": "鄒迪光",
+      "_title_only": "二酉園稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又石語齋集二十八卷",
       "level": 3,
       "type": "书",
-      "content": "又石語齋集二十八卷"
+      "content": "又石語齋集二十八卷",
+      "_author": "鄒迪光",
+      "_title_only": "石語齋集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又愚公谷乗八卷",
       "level": 3,
       "type": "书",
-      "content": "又愚公谷乗八卷"
+      "content": "又愚公谷乗八卷",
+      "_author": "鄒迪光",
+      "_title_only": "愚公谷乗",
+      "_author_src": "又條承上"
     },
     {
       "title": "李三才雙鶴軒詩集",
@@ -1171,7 +1374,10 @@
       "title": "又鷦鷯軒集一卷",
       "level": 3,
       "type": "书",
-      "content": "又鷦鷯軒集一卷"
+      "content": "又鷦鷯軒集一卷",
+      "_author": "李三才",
+      "_title_only": "鷦鷯軒集",
+      "_author_src": "又條承上"
     },
     {
       "title": "林兆珂挈朋稿一卷",
@@ -1195,13 +1401,19 @@
       "title": "又黄門集三卷",
       "level": 3,
       "type": "书",
-      "content": "又黄門集三卷"
+      "content": "又黄門集三卷",
+      "_author": "陳與郊",
+      "_title_only": "黄門集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又蘋州集八卷",
       "level": 3,
       "type": "书",
-      "content": "又蘋州集八卷"
+      "content": "又蘋州集八卷",
+      "_author": "陳與郊",
+      "_title_only": "蘋州集",
+      "_author_src": "又條承上"
     },
     {
       "title": "南憲仲廣川集四卷",
@@ -1225,13 +1437,19 @@
       "title": "又棣萼北窻吟稿十三卷",
       "level": 3,
       "type": "书",
-      "content": "又棣萼北窻吟稿十三卷"
+      "content": "又棣萼北窻吟稿十三卷",
+      "_author": "謝杰",
+      "_title_only": "棣萼北窻吟稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又白雲編二卷",
       "level": 3,
       "type": "书",
-      "content": "又白雲編二卷"
+      "content": "又白雲編二卷",
+      "_author": "謝杰",
+      "_title_only": "白雲編",
+      "_author_src": "又條承上"
     },
     {
       "title": "吕坤去偽齋集十四卷",
@@ -1239,7 +1457,8 @@
       "type": "书",
       "content": "吕坤去偽齋集十四卷⟨字新吾寧陵人刑部左侍郎⟩",
       "author_info": "字新吾寧陵人刑部左侍郎",
-      "_title_only": "吕坤去偽齋集"
+      "_title_only": "吕坤去偽齋集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "邢侗來禽館集二十八卷",
@@ -1264,13 +1483,19 @@
       "level": 3,
       "type": "书",
       "content": "又支子耕餘⟨缺⟩",
-      "author_info": "缺"
+      "author_info": "缺",
+      "_author": "支大綸",
+      "_title_only": "支子耕餘",
+      "_author_src": "又條承上"
     },
     {
       "title": "又支華苹文集四十卷",
       "level": 3,
       "type": "书",
-      "content": "又支華苹文集四十卷"
+      "content": "又支華苹文集四十卷",
+      "_author": "支大綸",
+      "_title_only": "支華苹文集",
+      "_author_src": "又條承上"
     },
     {
       "title": "范守已御龍子集七十八卷",
@@ -1278,7 +1503,12 @@
       "type": "书",
       "content": "范守已御龍子集七十八卷⟨字缺洧川人⟩",
       "author_info": "字缺洧川人",
-      "_title_only": "范守已御龍子集"
+      "_title_only": "御龍子集",
+      "_author": "范守已",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "趙南星趙忠毅公集二十四卷",
@@ -1338,7 +1568,10 @@
       "title": "又平蠻詩",
       "level": 3,
       "type": "书",
-      "content": "又平蠻詩"
+      "content": "又平蠻詩",
+      "_author": "詹思謙",
+      "_title_only": "平蠻詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "余國賔詩叢集",
@@ -1346,7 +1579,8 @@
       "type": "书",
       "content": "余國賔詩叢集⟨字叔賢衢州西安人⟩",
       "author_info": "字叔賢衢州西安人",
-      "_title_only": "余國賔詩叢集"
+      "_title_only": "余國賔詩叢集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "游樸藏山集十二卷",
@@ -1381,13 +1615,19 @@
       "title": "又需沙詩稿",
       "level": 3,
       "type": "书",
-      "content": "又需沙詩稿"
+      "content": "又需沙詩稿",
+      "_author": "范淶",
+      "_title_only": "需沙詩稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又人蜀詩紀",
       "level": 3,
       "type": "书",
-      "content": "又人蜀詩紀"
+      "content": "又人蜀詩紀",
+      "_author": "范淶",
+      "_title_only": "人蜀詩紀",
+      "_author_src": "又條承上"
     },
     {
       "title": "朱期至王屋山人集",
@@ -1458,7 +1698,8 @@
       "type": "书",
       "content": "龎一徳雙瀑堂稿⟨字與䖍南海人知府嵩子嘉魚知縣⟩",
       "author_info": "字與䖍南海人知府嵩子嘉魚知縣",
-      "_title_only": "龎一徳雙瀑堂稿"
+      "_title_only": "龎一徳雙瀑堂稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "林章林初文全集十五卷",
@@ -1500,7 +1741,10 @@
       "title": "又春懷小草",
       "level": 3,
       "type": "书",
-      "content": "又春懷小草"
+      "content": "又春懷小草",
+      "_author": "金九成",
+      "_title_only": "春懷小草",
+      "_author_src": "又條承上"
     },
     {
       "title": "薛承勛覆缶集",
@@ -1596,7 +1840,10 @@
       "title": "又宗伯集八十一卷",
       "level": 3,
       "type": "书",
-      "content": "又宗伯集八十一卷"
+      "content": "又宗伯集八十一卷",
+      "_author": "馮琦",
+      "_title_only": "宗伯集",
+      "_author_src": "又條承上"
     },
     {
       "title": "周汝登海門先生文録十二卷",
@@ -1629,13 +1876,19 @@
       "title": "又隨槎集",
       "level": 3,
       "type": "书",
-      "content": "又隨槎集"
+      "content": "又隨槎集",
+      "_author": "王豫",
+      "_title_only": "隨槎集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又楚游客問",
       "level": 3,
       "type": "书",
-      "content": "又楚游客問"
+      "content": "又楚游客問",
+      "_author": "王豫",
+      "_title_only": "楚游客問",
+      "_author_src": "又條承上"
     },
     {
       "title": "張斗致覺堂集",
@@ -1668,7 +1921,10 @@
       "title": "又光裕堂集九卷",
       "level": 3,
       "type": "书",
-      "content": "又光裕堂集九卷"
+      "content": "又光裕堂集九卷",
+      "_author": "陳性學",
+      "_title_only": "光裕堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "魏允貞魏伯子集四卷",
@@ -1694,7 +1950,12 @@
       "type": "书",
       "content": "丁此吕世美堂稿⟨字右武新建人⟩",
       "author_info": "字右武新建人",
-      "_title_only": "丁此吕世美堂稿"
+      "_title_only": "世美堂稿",
+      "_author": "丁此吕",
+      "_author_src": "詞庫補切·又條題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "徐三重天真齋草",
@@ -1736,7 +1997,10 @@
       "title": "又廷中草",
       "level": 3,
       "type": "书",
-      "content": "又廷中草"
+      "content": "又廷中草",
+      "_author": "江東之",
+      "_title_only": "廷中草",
+      "_author_src": "又條承上"
     },
     {
       "title": "何爾健應文集",
@@ -1744,7 +2008,8 @@
       "type": "书",
       "content": "何爾健應文集⟨字乾室曹州人大理寺寺丞⟩",
       "author_info": "字乾室曹州人大理寺寺丞",
-      "_title_only": "何爾健應文集"
+      "_title_only": "何爾健應文集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "曾乾亨",
@@ -1752,7 +2017,8 @@
       "type": "书",
       "content": "曾乾亨⟨缺⟩",
       "author_info": "缺",
-      "_title_only": "曾乾亨"
+      "_title_only": "曾乾亨",
+      "_no_author": "待考"
     },
     {
       "title": "馬玉麟靜觀堂稿三十八卷",
@@ -1794,7 +2060,10 @@
       "title": "又兩京浪游集",
       "level": 3,
       "type": "书",
-      "content": "又兩京浪游集"
+      "content": "又兩京浪游集",
+      "_author": "孫成名",
+      "_title_only": "兩京浪游集",
+      "_author_src": "又條承上"
     },
     {
       "title": "陳承翁憑枕編",
@@ -1847,7 +2116,8 @@
       "type": "书",
       "content": "黄克纘數馬集五十一卷⟨字紹夫晉江人太子太保戎政尚書⟩",
       "author_info": "字紹夫晉江人太子太保戎政尚書",
-      "_title_only": "黄克纘數馬集"
+      "_title_only": "黄克纘數馬集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "姜士昌雪柏堂集八卷",
@@ -1871,7 +2141,10 @@
       "title": "又詩集八卷",
       "level": 3,
       "type": "书",
-      "content": "又詩集八卷"
+      "content": "又詩集八卷",
+      "_author": "余寅",
+      "_title_only": "詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "顧憲成涇臯藏稿十二卷",
@@ -1895,7 +2168,10 @@
       "title": "又光禄遺稿",
       "level": 3,
       "type": "书",
-      "content": "又光禄遺稿"
+      "content": "又光禄遺稿",
+      "_author": "董嗣成",
+      "_title_only": "光禄遺稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈堯中沈司冦集",
@@ -1937,25 +2213,37 @@
       "title": "又漁仙襍著一卷",
       "level": 3,
       "type": "书",
-      "content": "又漁仙襍著一卷"
+      "content": "又漁仙襍著一卷",
+      "_author": "龍膺",
+      "_title_only": "漁仙襍著",
+      "_author_src": "又條承上"
     },
     {
       "title": "又湟中詩一卷",
       "level": 3,
       "type": "书",
-      "content": "又湟中詩一卷"
+      "content": "又湟中詩一卷",
+      "_author": "龍膺",
+      "_title_only": "湟中詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "又淪㶏集八卷",
       "level": 3,
       "type": "书",
-      "content": "又淪㶏集八卷"
+      "content": "又淪㶏集八卷",
+      "_author": "龍膺",
+      "_title_only": "淪㶏集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又九芝集",
       "level": 3,
       "type": "书",
-      "content": "又九芝集"
+      "content": "又九芝集",
+      "_author": "龍膺",
+      "_title_only": "九芝集",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈子來寧逺山房存詩",
@@ -1979,25 +2267,37 @@
       "title": "又池塘草",
       "level": 3,
       "type": "书",
-      "content": "又池塘草"
+      "content": "又池塘草",
+      "_author": "馬維",
+      "_title_only": "池塘草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又得月樓詩草",
       "level": 3,
       "type": "书",
-      "content": "又得月樓詩草"
+      "content": "又得月樓詩草",
+      "_author": "馬維",
+      "_title_only": "得月樓詩草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又羼提編",
       "level": 3,
       "type": "书",
-      "content": "又羼提編"
+      "content": "又羼提編",
+      "_author": "馬維",
+      "_title_only": "羼提編",
+      "_author_src": "又條承上"
     },
     {
       "title": "又詹詹稿",
       "level": 3,
       "type": "书",
-      "content": "又詹詹稿"
+      "content": "又詹詹稿",
+      "_author": "馬維",
+      "_title_only": "詹詹稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "楊于庭楊道行集二十二卷",
@@ -2021,13 +2321,19 @@
       "title": "又南征集二卷",
       "level": 3,
       "type": "书",
-      "content": "又南征集二卷"
+      "content": "又南征集二卷",
+      "_author": "章嘉禎",
+      "_title_only": "南征集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又中林草",
       "level": 3,
       "type": "书",
-      "content": "又中林草"
+      "content": "又中林草",
+      "_author": "章嘉禎",
+      "_title_only": "中林草",
+      "_author_src": "又條承上"
     },
     {
       "title": "周孔教周懷魯先生集",
@@ -2071,7 +2377,8 @@
       "type": "书",
       "content": "許□綱羣玉山房集⟨字張之東陽人⟩",
       "author_info": "字張之東陽人",
-      "_title_only": "許□綱羣玉山房集"
+      "_title_only": "許□綱羣玉山房集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "鍾羽正掖垣叢稿",
@@ -2086,7 +2393,10 @@
       "title": "又崇雅堂集",
       "level": 3,
       "type": "书",
-      "content": "又崇雅堂集"
+      "content": "又崇雅堂集",
+      "_author": "鍾羽正",
+      "_title_only": "崇雅堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "南企仲痴醒子三十卷",
@@ -2101,7 +2411,10 @@
       "title": "又玉几山房稿十卷",
       "level": 3,
       "type": "书",
-      "content": "又玉几山房稿十卷"
+      "content": "又玉几山房稿十卷",
+      "_author": "南企仲",
+      "_title_only": "玉几山房稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "丁繼嗣蒼虬館集",
@@ -2125,7 +2438,10 @@
       "title": "又山塞吟",
       "level": 3,
       "type": "书",
-      "content": "又山塞吟"
+      "content": "又山塞吟",
+      "_author": "邢雲路",
+      "_title_only": "山塞吟",
+      "_author_src": "又條承上"
     },
     {
       "title": "車大任車子仁集二十卷",
@@ -2167,7 +2483,10 @@
       "title": "又問夜草七卷",
       "level": 3,
       "type": "书",
-      "content": "又問夜草七卷"
+      "content": "又問夜草七卷",
+      "_author": "項應祥",
+      "_title_only": "問夜草",
+      "_author_src": "又條承上"
     },
     {
       "title": "王徳新儆所先生集",
@@ -2218,7 +2537,10 @@
       "title": "又江州餘草四卷",
       "level": 3,
       "type": "书",
-      "content": "又江州餘草四卷"
+      "content": "又江州餘草四卷",
+      "_author": "于孔兼",
+      "_title_only": "江州餘草",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄧元錫潛學稿十七卷",
@@ -2241,13 +2563,19 @@
       "title": "又存稿",
       "level": 3,
       "type": "书",
-      "content": "又存稿"
+      "content": "又存稿",
+      "_author": "張萱",
+      "_title_only": "存稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又彚稿",
       "level": 3,
       "type": "书",
-      "content": "又彚稿"
+      "content": "又彚稿",
+      "_author": "張萱",
+      "_title_only": "彚稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "何三畏漱六齋集四十八卷",
@@ -2262,13 +2590,19 @@
       "title": "又芝園居廬集",
       "level": 3,
       "type": "书",
-      "content": "又芝園居廬集"
+      "content": "又芝園居廬集",
+      "_author": "何三畏",
+      "_title_only": "芝園居廬集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又鳳山拜石堂稿",
       "level": 3,
       "type": "书",
-      "content": "又鳳山拜石堂稿"
+      "content": "又鳳山拜石堂稿",
+      "_author": "何三畏",
+      "_title_only": "鳳山拜石堂稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "來知徳釡山詩集",
@@ -2276,13 +2610,15 @@
       "type": "书",
       "content": "來知徳釡山詩集⟨字矣鮮梁山人⟩",
       "author_info": "字矣鮮梁山人",
-      "_title_only": "來知徳釡山詩集"
+      "_title_only": "來知徳釡山詩集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又瞿塘日録三十卷",
       "level": 3,
       "type": "书",
-      "content": "又瞿塘日録三十卷"
+      "content": "又瞿塘日録三十卷",
+      "_title_only": "瞿塘日録"
     },
     {
       "title": "黄士奇賔筵集",
@@ -2290,7 +2626,8 @@
       "type": "书",
       "content": "黄士奇賔筵集⟨字孺正象山人⟩",
       "author_info": "字孺正象山人",
-      "_title_only": "黄士奇賔筵集"
+      "_title_only": "黄士奇賔筵集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "張應宿樗里子集",
@@ -2316,7 +2653,8 @@
       "type": "书",
       "content": "賈嶼華山客集十卷⟨字魯玉渭南人⟩",
       "author_info": "字魯玉渭南人",
-      "_title_only": "賈嶼華山客集"
+      "_title_only": "賈嶼華山客集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "王皥如雞跖集",
@@ -2325,7 +2663,14 @@
       "content": "王皥如雞跖集⟨字翁淳朝邑人⟩",
       "author_info": "字翁淳朝邑人",
       "_author": "王皥",
-      "_title_only": "如雞跖集"
+      "_title_only": "如雞跖集",
+      "_split_alt": [
+        "王皥如",
+        "雞跖集"
+      ],
+      "_flags": [
+        "撰人切點存疑"
+      ]
     },
     {
       "title": "朱國祚介石齋集",
@@ -2360,43 +2705,66 @@
       "type": "书",
       "content": "葉向髙蒼霞草二十卷⟨字進卿福清人少師兼太子太師吏部尚書中極殿大學士贈太師諡文忠⟩",
       "author_info": "字進卿福清人少師兼太子太師吏部尚書中極殿大學士贈太師諡文忠",
-      "_title_only": "葉向髙蒼霞草"
+      "_title_only": "蒼霞草",
+      "_author": "葉向髙",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "又詩草八卷",
       "level": 3,
       "type": "书",
-      "content": "又詩草八卷"
+      "content": "又詩草八卷",
+      "_author": "葉向髙",
+      "_title_only": "詩草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又續草二十二卷",
       "level": 3,
       "type": "书",
-      "content": "又續草二十二卷"
+      "content": "又續草二十二卷",
+      "_author": "葉向髙",
+      "_title_only": "續草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又餘草十四卷",
       "level": 3,
       "type": "书",
-      "content": "又餘草十四卷"
+      "content": "又餘草十四卷",
+      "_author": "葉向髙",
+      "_title_only": "餘草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又小草篇一卷",
       "level": 3,
       "type": "书",
-      "content": "又小草篇一卷"
+      "content": "又小草篇一卷",
+      "_author": "葉向髙",
+      "_title_only": "小草篇",
+      "_author_src": "又條承上"
     },
     {
       "title": "又賜歸篇一卷",
       "level": 3,
       "type": "书",
-      "content": "又賜歸篇一卷"
+      "content": "又賜歸篇一卷",
+      "_author": "葉向髙",
+      "_title_only": "賜歸篇",
+      "_author_src": "又條承上"
     },
     {
       "title": "又紀游篇一卷",
       "level": 3,
       "type": "书",
-      "content": "又紀游篇一卷"
+      "content": "又紀游篇一卷",
+      "_author": "葉向髙",
+      "_title_only": "紀游篇",
+      "_author_src": "又條承上"
     },
     {
       "title": "岳元聲潛初子集十二卷",
@@ -2411,7 +2779,10 @@
       "title": "又潛初襍著十卷",
       "level": 3,
       "type": "书",
-      "content": "又潛初襍著十卷"
+      "content": "又潛初襍著十卷",
+      "_author": "岳元聲",
+      "_title_only": "潛初襍著",
+      "_author_src": "又條承上"
     },
     {
       "title": "于若瀛弗告堂集十六卷",
@@ -2426,7 +2797,10 @@
       "title": "又霱雲館全集",
       "level": 3,
       "type": "书",
-      "content": "又霱雲館全集"
+      "content": "又霱雲館全集",
+      "_author": "于若瀛",
+      "_title_only": "霱雲館全集",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄒徳溥鄒太史全集五十卷",
@@ -2434,13 +2808,15 @@
       "type": "书",
       "content": "鄒徳溥鄒太史全集五十卷⟨字汝光安福人太子洗馬卒于家以講官諭祭⟩",
       "author_info": "字汝光安福人太子洗馬卒于家以講官諭祭",
-      "_title_only": "鄒徳溥鄒太史全集"
+      "_title_only": "鄒徳溥鄒太史全集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又匍匐吟",
       "level": 3,
       "type": "书",
-      "content": "又匍匐吟"
+      "content": "又匍匐吟",
+      "_title_only": "匍匐吟"
     },
     {
       "title": "王三省潼谷堂集十卷",
@@ -2464,13 +2840,19 @@
       "title": "又忠勤堂集",
       "level": 3,
       "type": "书",
-      "content": "又忠勤堂集"
+      "content": "又忠勤堂集",
+      "_author": "張應揚",
+      "_title_only": "忠勤堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又澄清堂集",
       "level": 3,
       "type": "书",
-      "content": "又澄清堂集"
+      "content": "又澄清堂集",
+      "_author": "張應揚",
+      "_title_only": "澄清堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "邵庶滌玄館稿",
@@ -2489,25 +2871,29 @@
       "type": "书",
       "content": "黄居中二酉齋詩六卷⟨字明立晋江人南京國子監丞⟩",
       "author_info": "字明立晋江人南京國子監丞",
-      "_title_only": "黄居中二酉齋詩"
+      "_title_only": "黄居中二酉齋詩",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又千頃齋初集二十五卷",
       "level": 3,
       "type": "书",
-      "content": "又千頃齋初集二十五卷"
+      "content": "又千頃齋初集二十五卷",
+      "_title_only": "千頃齋初集"
     },
     {
       "title": "又二集四十卷",
       "level": 3,
       "type": "书",
-      "content": "又二集四十卷"
+      "content": "又二集四十卷",
+      "_title_only": "二集"
     },
     {
       "title": "又三集四卷",
       "level": 3,
       "type": "书",
-      "content": "又三集四卷"
+      "content": "又三集四卷",
+      "_title_only": "三集"
     },
     {
       "title": "曽仕鑑慶厯集二卷",
@@ -2515,13 +2901,15 @@
       "type": "书",
       "content": "曽仕鑑慶厯集二卷⟨字人倩南海人戸部主事⟩",
       "author_info": "字人倩南海人戸部主事",
-      "_title_only": "曽仕鑑慶厯集"
+      "_title_only": "曽仕鑑慶厯集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又公車集一卷",
       "level": 3,
       "type": "书",
-      "content": "又公車集一卷"
+      "content": "又公車集一卷",
+      "_title_only": "公車集"
     },
     {
       "title": "陳邦訓玄感軒草",
@@ -2549,8 +2937,11 @@
       "type": "书",
       "content": "李先縉景璧集十九卷⟨字衷一晋江人解元⟩",
       "author_info": "字衷一晋江人解元",
-      "_author": "李先",
-      "_title_only": "縉景璧集"
+      "_author": "李先縉",
+      "_title_only": "景璧集",
+      "_flags": [
+        "撰人已改切"
+      ]
     },
     {
       "title": "唐文獻占星堂集十六卷",
@@ -2568,7 +2959,14 @@
       "content": "楊道賔楊文恪公集三十三卷⟨字惟彦晋江人一甲第二人禮部左侍郎兼翰林院學士贈尚書諡文恪⟩",
       "author_info": "字惟彦晋江人一甲第二人禮部左侍郎兼翰林院學士贈尚書諡文恪",
       "_author": "楊道",
-      "_title_only": "賔楊文恪公集"
+      "_title_only": "賔楊文恪公集",
+      "_split_alt": [
+        "楊道賔",
+        "楊文恪公集"
+      ],
+      "_flags": [
+        "撰人切點存疑"
+      ]
     },
     {
       "title": "袁宗道白蘇齋類稿二十四卷",
@@ -2594,7 +2992,8 @@
       "type": "书",
       "content": "黄承□盟鷗堂集十四卷⟨字履常秀水人巡撫福建右副都御史⟩",
       "author_info": "字履常秀水人巡撫福建右副都御史",
-      "_title_only": "黄承□盟鷗堂集"
+      "_title_only": "黄承□盟鷗堂集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "何喬逺鏡山全集",
@@ -2609,38 +3008,56 @@
       "title": "又萬厯集三十三卷",
       "level": 3,
       "type": "书",
-      "content": "又萬厯集三十三卷"
+      "content": "又萬厯集三十三卷",
+      "_author": "何喬",
+      "_title_only": "萬厯集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又萬厯後集八卷",
       "level": 3,
       "type": "书",
-      "content": "又萬厯後集八卷"
+      "content": "又萬厯後集八卷",
+      "_author": "何喬",
+      "_title_only": "萬厯後集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又萬厯三集四卷",
       "level": 3,
       "type": "书",
-      "content": "又萬厯三集四卷"
+      "content": "又萬厯三集四卷",
+      "_author": "何喬",
+      "_title_only": "萬厯三集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又泰昌集四卷",
       "level": 3,
       "type": "书",
-      "content": "又泰昌集四卷"
+      "content": "又泰昌集四卷",
+      "_author": "何喬",
+      "_title_only": "泰昌集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又天啟集十八卷",
       "level": 3,
       "type": "书",
-      "content": "又天啟集十八卷"
+      "content": "又天啟集十八卷",
+      "_author": "何喬",
+      "_title_only": "天啟集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又崇禎集",
       "level": 3,
       "type": "书",
       "content": "又崇禎集⟨缺⟩",
-      "author_info": "缺"
+      "author_info": "缺",
+      "_author": "何喬",
+      "_title_only": "崇禎集",
+      "_author_src": "又條承上"
     },
     {
       "title": "祝以豳詒美堂集二十四卷",
@@ -2657,7 +3074,8 @@
       "type": "书",
       "content": "劉黄裳藏徴館集十五卷⟨字□之光州人兵部郎中贊畫宋應昌軍事⟩",
       "author_info": "字□之光州人兵部郎中贊畫宋應昌軍事",
-      "_title_only": "劉黄裳藏徴館集"
+      "_title_only": "劉黄裳藏徴館集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "王徳完",
@@ -2665,7 +3083,8 @@
       "type": "书",
       "content": "王徳完⟨缺⟩",
       "author_info": "缺",
-      "_title_only": "王徳完"
+      "_title_only": "王徳完",
+      "_no_author": "待考"
     },
     {
       "title": "王士昌鏡園藏草",
@@ -2680,7 +3099,10 @@
       "title": "又投荒草",
       "level": 3,
       "type": "书",
-      "content": "又投荒草"
+      "content": "又投荒草",
+      "_author": "王士昌",
+      "_title_only": "投荒草",
+      "_author_src": "又條承上"
     },
     {
       "title": "周獻臣鷽林外編四十四卷",
@@ -2695,7 +3117,10 @@
       "title": "又别編一卷",
       "level": 3,
       "type": "书",
-      "content": "又别編一卷"
+      "content": "又别編一卷",
+      "_author": "周獻臣",
+      "_title_only": "别編",
+      "_author_src": "又條承上"
     },
     {
       "title": "黄汝良河干集十卷",
@@ -2703,7 +3128,8 @@
       "type": "书",
       "content": "黄汝良河干集十卷⟨字明起晋江人太子太傅禮部尚書掌詹事府事⟩",
       "author_info": "字明起晋江人太子太傅禮部尚書掌詹事府事",
-      "_title_only": "黄汝良河干集"
+      "_title_only": "黄汝良河干集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "陳埜海陵集",
@@ -2718,7 +3144,10 @@
       "title": "又演連珠",
       "level": 3,
       "type": "书",
-      "content": "又演連珠"
+      "content": "又演連珠",
+      "_author": "陳埜",
+      "_title_only": "演連珠",
+      "_author_src": "又條承上"
     },
     {
       "title": "薛三才薛恭敏公集",
@@ -2751,43 +3180,64 @@
       "title": "又逍遥集二十卷",
       "level": 3,
       "type": "书",
-      "content": "又逍遥集二十卷"
+      "content": "又逍遥集二十卷",
+      "_author": "錢士鰲",
+      "_title_only": "逍遥集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又薄遊集",
       "level": 3,
       "type": "书",
-      "content": "又薄遊集"
+      "content": "又薄遊集",
+      "_author": "錢士鰲",
+      "_title_only": "薄遊集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又似僧草",
       "level": 3,
       "type": "书",
-      "content": "又似僧草"
+      "content": "又似僧草",
+      "_author": "錢士鰲",
+      "_title_only": "似僧草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又搶榆集",
       "level": 3,
       "type": "书",
-      "content": "又搶榆集"
+      "content": "又搶榆集",
+      "_author": "錢士鰲",
+      "_title_only": "搶榆集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又退食吟",
       "level": 3,
       "type": "书",
-      "content": "又退食吟"
+      "content": "又退食吟",
+      "_author": "錢士鰲",
+      "_title_only": "退食吟",
+      "_author_src": "又條承上"
     },
     {
       "title": "又淮上篇",
       "level": 3,
       "type": "书",
-      "content": "又淮上篇"
+      "content": "又淮上篇",
+      "_author": "錢士鰲",
+      "_title_only": "淮上篇",
+      "_author_src": "又條承上"
     },
     {
       "title": "又釋擔志遺文童子問附錄",
       "level": 3,
       "type": "书",
-      "content": "又釋擔志遺文童子問附錄"
+      "content": "又釋擔志遺文童子問附錄",
+      "_author": "錢士鰲",
+      "_title_only": "釋擔志遺文童子問附錄",
+      "_author_src": "又條承上"
     },
     {
       "title": "吳應賔學易齋集",
@@ -2883,19 +3333,28 @@
       "title": "又永和集",
       "level": 3,
       "type": "书",
-      "content": "又永和集"
+      "content": "又永和集",
+      "_author": "項良",
+      "_title_only": "永和集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又敖陽集",
       "level": 3,
       "type": "书",
-      "content": "又敖陽集"
+      "content": "又敖陽集",
+      "_author": "項良",
+      "_title_only": "敖陽集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又芝水集",
       "level": 3,
       "type": "书",
-      "content": "又芝水集"
+      "content": "又芝水集",
+      "_author": "項良",
+      "_title_only": "芝水集",
+      "_author_src": "又條承上"
     },
     {
       "title": "陶涵中清酣草",
@@ -2912,7 +3371,8 @@
       "type": "书",
       "content": "朱尚賔竹廬編三卷⟨字澹營長興人⟩",
       "author_info": "字澹營長興人",
-      "_title_only": "朱尚賔竹廬編"
+      "_title_only": "朱尚賔竹廬編",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "葛文炳日甓園集",
@@ -2945,7 +3405,10 @@
       "title": "又續集三十五卷",
       "level": 3,
       "type": "书",
-      "content": "又續集三十五卷"
+      "content": "又續集三十五卷",
+      "_author": "焦竑",
+      "_title_only": "續集",
+      "_author_src": "又條承上"
     },
     {
       "title": "吳道南吳文恪公集二十二卷",
@@ -2969,7 +3432,10 @@
       "title": "又歇庵集二十卷",
       "level": 3,
       "type": "书",
-      "content": "又歇庵集二十卷"
+      "content": "又歇庵集二十卷",
+      "_author": "陶望齡",
+      "_title_only": "歇庵集",
+      "_author_src": "又條承上"
     },
     {
       "title": "董其昌容臺集十四卷",
@@ -2984,7 +3450,10 @@
       "title": "又别集六卷",
       "level": 3,
       "type": "书",
-      "content": "又别集六卷"
+      "content": "又别集六卷",
+      "_author": "董其昌",
+      "_title_only": "别集",
+      "_author_src": "又條承上"
     },
     {
       "title": "馮從吾少墟文集二十二卷",
@@ -3010,7 +3479,8 @@
       "type": "书",
       "content": "傅新徳傅文恪公集七卷⟨字明甫定襄人戊子解元歴官太常寺卿管國子監祭酒事贈禮部右侍郎諡文恪⟩",
       "author_info": "字明甫定襄人戊子解元歴官太常寺卿管國子監祭酒事贈禮部右侍郎諡文恪",
-      "_title_only": "傅新徳傅文恪公集"
+      "_title_only": "傅新徳傅文恪公集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "陳所藴竹素堂藏稿十四卷",
@@ -3025,7 +3495,10 @@
       "title": "又續稿二十卷",
       "level": 3,
       "type": "书",
-      "content": "又續稿二十卷"
+      "content": "又續稿二十卷",
+      "_author": "陳所藴",
+      "_title_only": "續稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "黄輝詒春堂集六卷",
@@ -3033,13 +3506,15 @@
       "type": "书",
       "content": "黄輝詒春堂集六卷⟨字昭素一字平倩南充人少詹事兼侍讀學士⟩",
       "author_info": "字昭素一字平倩南充人少詹事兼侍讀學士",
-      "_title_only": "黄輝詒春堂集"
+      "_title_only": "黄輝詒春堂集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又鉄庵詩選一卷",
       "level": 3,
       "type": "书",
-      "content": "又鉄庵詩選一卷"
+      "content": "又鉄庵詩選一卷",
+      "_title_only": "鉄庵詩選"
     },
     {
       "title": "區大相太史詩集二十七卷",
@@ -3092,7 +3567,8 @@
       "type": "书",
       "content": "髙克正木天遺稿二十八卷⟨字朝憲海澄人⟩",
       "author_info": "字朝憲海澄人",
-      "_title_only": "髙克正木天遺稿"
+      "_title_only": "髙克正木天遺稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "王志逺□亭集十卷",
@@ -3125,13 +3601,19 @@
       "title": "又岝㟧山堂集",
       "level": 3,
       "type": "书",
-      "content": "又岝㟧山堂集"
+      "content": "又岝㟧山堂集",
+      "_author": "徐應簧",
+      "_title_only": "岝㟧山堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又遊覽吟編",
       "level": 3,
       "type": "书",
-      "content": "又遊覽吟編"
+      "content": "又遊覽吟編",
+      "_author": "徐應簧",
+      "_title_only": "遊覽吟編",
+      "_author_src": "又條承上"
     },
     {
       "title": "戈用泰適適軒集",
@@ -3149,19 +3631,32 @@
       "content": "郝敬山草堂集⟨缺⟩",
       "author_info": "缺",
       "_author": "郝敬",
-      "_title_only": "山草堂集"
+      "_title_only": "山草堂集",
+      "_split_alt": [
+        "郝敬山",
+        "草堂集"
+      ],
+      "_flags": [
+        "撰人切點存疑"
+      ]
     },
     {
       "title": "又小山草十卷",
       "level": 3,
       "type": "书",
-      "content": "又小山草十卷"
+      "content": "又小山草十卷",
+      "_author": "郝敬",
+      "_title_only": "小山草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又嘯歌二卷",
       "level": 3,
       "type": "书",
-      "content": "又嘯歌二卷"
+      "content": "又嘯歌二卷",
+      "_author": "郝敬",
+      "_title_only": "嘯歌",
+      "_author_src": "又條承上"
     },
     {
       "title": "章士雅薄游十卷",
@@ -3265,19 +3760,28 @@
       "title": "又河上篇",
       "level": 3,
       "type": "书",
-      "content": "又河上篇"
+      "content": "又河上篇",
+      "_author": "許仲譽",
+      "_title_only": "河上篇",
+      "_author_src": "又條承上"
     },
     {
       "title": "又落花詩",
       "level": 3,
       "type": "书",
-      "content": "又落花詩"
+      "content": "又落花詩",
+      "_author": "許仲譽",
+      "_title_only": "落花詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "又月令敘事詩",
       "level": 3,
       "type": "书",
-      "content": "又月令敘事詩"
+      "content": "又月令敘事詩",
+      "_author": "許仲譽",
+      "_title_only": "月令敘事詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "彭汝賢醉匠篇一卷",
@@ -3285,13 +3789,15 @@
       "type": "书",
       "content": "彭汝賢醉匠篇一卷⟨號紫雲台州人⟩",
       "author_info": "號紫雲台州人",
-      "_title_only": "彭汝賢醉匠篇"
+      "_title_only": "彭汝賢醉匠篇",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又莊舄吟一卷",
       "level": 3,
       "type": "书",
-      "content": "又莊舄吟一卷"
+      "content": "又莊舄吟一卷",
+      "_title_only": "莊舄吟"
     },
     {
       "title": "金孚兑存笥集",
@@ -3299,7 +3805,12 @@
       "type": "书",
       "content": "金孚兑存笥集⟨字吉所太平人⟩",
       "author_info": "字吉所太平人",
-      "_title_only": "金孚兑存笥集"
+      "_title_only": "存笥集",
+      "_author": "金孚兑",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "顧天埈顧太史集八卷",
@@ -3314,31 +3825,46 @@
       "title": "又越鐫二十一卷",
       "level": 3,
       "type": "书",
-      "content": "又越鐫二十一卷"
+      "content": "又越鐫二十一卷",
+      "_author": "顧天埈",
+      "_title_only": "越鐫",
+      "_author_src": "又條承上"
     },
     {
       "title": "又楚編續集十卷",
       "level": 3,
       "type": "书",
-      "content": "又楚編續集十卷"
+      "content": "又楚編續集十卷",
+      "_author": "顧天埈",
+      "_title_only": "楚編續集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又蘭江集二十二卷",
       "level": 3,
       "type": "书",
-      "content": "又蘭江集二十二卷"
+      "content": "又蘭江集二十二卷",
+      "_author": "顧天埈",
+      "_title_only": "蘭江集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又遼海集二卷",
       "level": 3,
       "type": "书",
-      "content": "又遼海集二卷"
+      "content": "又遼海集二卷",
+      "_author": "顧天埈",
+      "_title_only": "遼海集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又西湖小草十卷",
       "level": 3,
       "type": "书",
-      "content": "又西湖小草十卷"
+      "content": "又西湖小草十卷",
+      "_author": "顧天埈",
+      "_title_only": "西湖小草",
+      "_author_src": "又條承上"
     },
     {
       "title": "畢自嚴石隱園藏稿",
@@ -3400,7 +3926,12 @@
       "type": "书",
       "content": "范應賔水部集十三卷⟨字缺秀水人⟩",
       "author_info": "字缺秀水人",
-      "_title_only": "范應賔水部集"
+      "_title_only": "水部集",
+      "_author": "范應賔",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "董復亨繁露園集二十二卷",
@@ -3469,49 +4000,73 @@
       "title": "又解脱集四卷",
       "level": 3,
       "type": "书",
-      "content": "又解脱集四卷"
+      "content": "又解脱集四卷",
+      "_author": "袁宏道",
+      "_title_only": "解脱集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又瀟碧堂集二十卷",
       "level": 3,
       "type": "书",
-      "content": "又瀟碧堂集二十卷"
+      "content": "又瀟碧堂集二十卷",
+      "_author": "袁宏道",
+      "_title_only": "瀟碧堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又瓶花齋集十卷",
       "level": 3,
       "type": "书",
-      "content": "又瓶花齋集十卷"
+      "content": "又瓶花齋集十卷",
+      "_author": "袁宏道",
+      "_title_only": "瓶花齋集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又華嵩遊草二卷",
       "level": 3,
       "type": "书",
-      "content": "又華嵩遊草二卷"
+      "content": "又華嵩遊草二卷",
+      "_author": "袁宏道",
+      "_title_only": "華嵩遊草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又桃源咏一卷",
       "level": 3,
       "type": "书",
-      "content": "又桃源咏一卷"
+      "content": "又桃源咏一卷",
+      "_author": "袁宏道",
+      "_title_only": "桃源咏",
+      "_author_src": "又條承上"
     },
     {
       "title": "又廣陵集一卷",
       "level": 3,
       "type": "书",
-      "content": "又廣陵集一卷"
+      "content": "又廣陵集一卷",
+      "_author": "袁宏道",
+      "_title_only": "廣陵集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又敝篋集二卷",
       "level": 3,
       "type": "书",
-      "content": "又敝篋集二卷"
+      "content": "又敝篋集二卷",
+      "_author": "袁宏道",
+      "_title_only": "敝篋集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又破研齋集二卷",
       "level": 3,
       "type": "书",
-      "content": "又破研齋集二卷"
+      "content": "又破研齋集二卷",
+      "_author": "袁宏道",
+      "_title_only": "破研齋集",
+      "_author_src": "又條承上"
     },
     {
       "title": "江盈科雪濤閣集十四卷",
@@ -3537,7 +4092,8 @@
       "type": "书",
       "content": "髙克正木天遺稿二十八卷⟨字朝憲海澄人翰林院檢討⟩",
       "author_info": "字朝憲海澄人翰林院檢討",
-      "_title_only": "髙克正木天遺稿"
+      "_title_only": "髙克正木天遺稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "嚴廷儀蒿城集",
@@ -3561,7 +4117,10 @@
       "title": "又續集二卷",
       "level": 3,
       "type": "书",
-      "content": "又續集二卷"
+      "content": "又續集二卷",
+      "_author": "謝肇淛",
+      "_title_only": "續集",
+      "_author_src": "又條承上"
     },
     {
       "title": "王樂善鷃適軒詩稿",
@@ -3576,7 +4135,10 @@
       "title": "又扣角集",
       "level": 3,
       "type": "书",
-      "content": "又扣角集"
+      "content": "又扣角集",
+      "_author": "王樂善",
+      "_title_only": "扣角集",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈㴶沈文定公集二十卷",
@@ -3652,13 +4214,19 @@
       "title": "又藏真館集四卷",
       "level": 3,
       "type": "书",
-      "content": "又藏真館集四卷"
+      "content": "又藏真館集四卷",
+      "_author": "陳薦夫",
+      "_title_only": "藏真館集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又羣玉樓集八十四卷",
       "level": 3,
       "type": "书",
-      "content": "又羣玉樓集八十四卷"
+      "content": "又羣玉樓集八十四卷",
+      "_author": "陳薦夫",
+      "_title_only": "羣玉樓集",
+      "_author_src": "又條承上"
     },
     {
       "title": "朱之蕃使朝鮮稿四卷",
@@ -3673,25 +4241,37 @@
       "title": "又紀勝詩一卷",
       "level": 3,
       "type": "书",
-      "content": "又紀勝詩一卷"
+      "content": "又紀勝詩一卷",
+      "_author": "朱之蕃",
+      "_title_only": "紀勝詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "又南還襍著一卷",
       "level": 3,
       "type": "书",
-      "content": "又南還襍著一卷"
+      "content": "又南還襍著一卷",
+      "_author": "朱之蕃",
+      "_title_only": "南還襍著",
+      "_author_src": "又條承上"
     },
     {
       "title": "又廷試䇿一卷",
       "level": 3,
       "type": "书",
-      "content": "又廷試䇿一卷"
+      "content": "又廷試䇿一卷",
+      "_author": "朱之蕃",
+      "_title_only": "廷試䇿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又落花詩一卷",
       "level": 3,
       "type": "书",
-      "content": "又落花詩一卷"
+      "content": "又落花詩一卷",
+      "_author": "朱之蕃",
+      "_title_only": "落花詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "湯賔尹睡庵初集六卷",
@@ -3699,7 +4279,12 @@
       "type": "书",
       "content": "湯賔尹睡庵初集六卷⟨字嘉賔宣城人㑹元一甲第二人南京國子監祭酒⟩",
       "author_info": "字嘉賔宣城人㑹元一甲第二人南京國子監祭酒",
-      "_title_only": "湯賔尹睡庵初集"
+      "_title_only": "睡庵初集",
+      "_author": "湯賔尹",
+      "_author_src": "詞庫補切·庫內題名",
+      "_flags": [
+        "撰人係補切·待覆"
+      ]
     },
     {
       "title": "孫慎行玄晏齋集十卷",
@@ -3741,43 +4326,64 @@
       "title": "又襍文序一卷",
       "level": 3,
       "type": "书",
-      "content": "又襍文序一卷"
+      "content": "又襍文序一卷",
+      "_author": "王思任",
+      "_title_only": "襍文序",
+      "_author_src": "又條承上"
     },
     {
       "title": "又詩文序一卷",
       "level": 3,
       "type": "书",
-      "content": "又詩文序一卷"
+      "content": "又詩文序一卷",
+      "_author": "王思任",
+      "_title_only": "詩文序",
+      "_author_src": "又條承上"
     },
     {
       "title": "又歴游記一卷",
       "level": 3,
       "type": "书",
-      "content": "又歴游記一卷"
+      "content": "又歴游記一卷",
+      "_author": "王思任",
+      "_title_only": "歴游記",
+      "_author_src": "又條承上"
     },
     {
       "title": "又廬游一卷",
       "level": 3,
       "type": "书",
-      "content": "又廬游一卷"
+      "content": "又廬游一卷",
+      "_author": "王思任",
+      "_title_only": "廬游",
+      "_author_src": "又條承上"
     },
     {
       "title": "又虞山咏一卷",
       "level": 3,
       "type": "书",
-      "content": "又虞山咏一卷"
+      "content": "又虞山咏一卷",
+      "_author": "王思任",
+      "_title_only": "虞山咏",
+      "_author_src": "又條承上"
     },
     {
       "title": "又律陶一卷",
       "level": 3,
       "type": "书",
-      "content": "又律陶一卷"
+      "content": "又律陶一卷",
+      "_author": "王思任",
+      "_title_only": "律陶",
+      "_author_src": "又條承上"
     },
     {
       "title": "又謔庵文飯一卷",
       "level": 3,
       "type": "书",
-      "content": "又謔庵文飯一卷"
+      "content": "又謔庵文飯一卷",
+      "_author": "王思任",
+      "_title_only": "謔庵文飯",
+      "_author_src": "又條承上"
     },
     {
       "title": "蔡復一爨餘駢語六卷",
@@ -3817,13 +4423,19 @@
       "title": "又六欲軒稿十八卷",
       "level": 3,
       "type": "书",
-      "content": "又六欲軒稿十八卷"
+      "content": "又六欲軒稿十八卷",
+      "_author": "賀燦然",
+      "_title_only": "六欲軒稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又六欲軒襍著一卷",
       "level": 3,
       "type": "书",
-      "content": "又六欲軒襍著一卷"
+      "content": "又六欲軒襍著一卷",
+      "_author": "賀燦然",
+      "_title_only": "六欲軒襍著",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈琦珠樹軒稿",
@@ -3845,7 +4457,10 @@
       "title": "又雙鳬草",
       "level": 3,
       "type": "书",
-      "content": "又雙鳬草"
+      "content": "又雙鳬草",
+      "_author": "陸錫恩",
+      "_title_only": "雙鳬草",
+      "_author_src": "又條承上"
     },
     {
       "title": "徐時遊鳩兹集七卷",
@@ -3860,13 +4475,19 @@
       "title": "又啜墨亭集十二卷",
       "level": 3,
       "type": "书",
-      "content": "又啜墨亭集十二卷"
+      "content": "又啜墨亭集十二卷",
+      "_author": "徐時",
+      "_title_only": "啜墨亭集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又逸我堂餘稿",
       "level": 3,
       "type": "书",
-      "content": "又逸我堂餘稿"
+      "content": "又逸我堂餘稿",
+      "_author": "徐時",
+      "_title_only": "逸我堂餘稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "陳之龍水月山房集二卷",
@@ -3899,7 +4520,10 @@
       "title": "又漱玊堂集",
       "level": 3,
       "type": "书",
-      "content": "又漱玊堂集"
+      "content": "又漱玊堂集",
+      "_author": "應時",
+      "_title_only": "漱玊堂集",
+      "_author_src": "又條承上"
     },
     {
       "title": "王萬祚樹瓢鳴二卷",
@@ -3931,7 +4555,10 @@
       "title": "又杜完三詩稿五卷",
       "level": 3,
       "type": "书",
-      "content": "又杜完三詩稿五卷"
+      "content": "又杜完三詩稿五卷",
+      "_author": "杜士全",
+      "_title_only": "杜完三詩稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "南師仲玄麓堂集五十卷",
@@ -3947,7 +4574,10 @@
       "title": "又集杜詩五卷",
       "level": 3,
       "type": "书",
-      "content": "又集杜詩五卷"
+      "content": "又集杜詩五卷",
+      "_author": "南師仲",
+      "_title_only": "集杜詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄭懷魁葵圃集三十卷",
@@ -3979,7 +4609,10 @@
       "title": "又湖畔逸農遺稿",
       "level": 3,
       "type": "书",
-      "content": "又湖畔逸農遺稿"
+      "content": "又湖畔逸農遺稿",
+      "_author": "劉元珍",
+      "_title_only": "湖畔逸農遺稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "謝廷諒薄游草二十四卷",
@@ -3994,25 +4627,37 @@
       "title": "又清暉館集二卷",
       "level": 3,
       "type": "书",
-      "content": "又清暉館集二卷"
+      "content": "又清暉館集二卷",
+      "_author": "謝廷諒",
+      "_title_only": "清暉館集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又帯櫑編",
       "level": 3,
       "type": "书",
-      "content": "又帯櫑編"
+      "content": "又帯櫑編",
+      "_author": "謝廷諒",
+      "_title_only": "帯櫑編",
+      "_author_src": "又條承上"
     },
     {
       "title": "又起東草",
       "level": 3,
       "type": "书",
-      "content": "又起東草"
+      "content": "又起東草",
+      "_author": "謝廷諒",
+      "_title_only": "起東草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又逢掖集",
       "level": 3,
       "type": "书",
-      "content": "又逢掖集"
+      "content": "又逢掖集",
+      "_author": "謝廷諒",
+      "_title_only": "逢掖集",
+      "_author_src": "又條承上"
     },
     {
       "title": "周元周長卿集",
@@ -4074,7 +4719,8 @@
       "type": "书",
       "content": "莊學曽遵時堂集⟨字仲肩鄞縣人⟩",
       "author_info": "字仲肩鄞縣人",
-      "_title_only": "莊學曽遵時堂集"
+      "_title_only": "莊學曽遵時堂集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "查應光麗﨑軒集",
@@ -4100,19 +4746,28 @@
       "title": "又寒松齋稿",
       "level": 3,
       "type": "书",
-      "content": "又寒松齋稿"
+      "content": "又寒松齋稿",
+      "_author": "趙秉忠",
+      "_title_only": "寒松齋稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又歸鴻館稿",
       "level": 3,
       "type": "书",
-      "content": "又歸鴻館稿"
+      "content": "又歸鴻館稿",
+      "_author": "趙秉忠",
+      "_title_only": "歸鴻館稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又武陵稿",
       "level": 3,
       "type": "书",
-      "content": "又武陵稿"
+      "content": "又武陵稿",
+      "_author": "趙秉忠",
+      "_title_only": "武陵稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "陳邦瞻荷華山房摘稿七卷",
@@ -4135,7 +4790,10 @@
       "title": "又詩集四卷",
       "level": 3,
       "type": "书",
-      "content": "又詩集四卷"
+      "content": "又詩集四卷",
+      "_author": "丘禾實",
+      "_title_only": "詩集",
+      "_author_src": "又條承上"
     },
     {
       "title": "龔三益木庵稿四卷",
@@ -4165,13 +4823,19 @@
       "title": "又南中集四卷",
       "level": 3,
       "type": "书",
-      "content": "又南中集四卷"
+      "content": "又南中集四卷",
+      "_author": "鄧渼",
+      "_title_only": "南中集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又紅泉集四卷",
       "level": 3,
       "type": "书",
-      "content": "又紅泉集四卷"
+      "content": "又紅泉集四卷",
+      "_author": "鄧渼",
+      "_title_only": "紅泉集",
+      "_author_src": "又條承上"
     },
     {
       "title": "周如磐澹志齋集",
@@ -4195,7 +4859,8 @@
       "level": 3,
       "type": "书",
       "content": "祁伯裕餘清館集",
-      "_title_only": "祁伯裕餘清館集"
+      "_title_only": "祁伯裕餘清館集",
+      "_no_author": "待考"
     },
     {
       "title": "張維樞澹然齋集三十卷",
@@ -4219,13 +4884,19 @@
       "title": "又盧隱集六卷",
       "level": 3,
       "type": "书",
-      "content": "又盧隱集六卷"
+      "content": "又盧隱集六卷",
+      "_author": "洪瞻祖",
+      "_title_only": "盧隱集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又郎潛集六卷",
       "level": 3,
       "type": "书",
-      "content": "又郎潛集六卷"
+      "content": "又郎潛集六卷",
+      "_author": "洪瞻祖",
+      "_title_only": "郎潛集",
+      "_author_src": "又條承上"
     },
     {
       "title": "鄧雲霄百花洲集二卷",
@@ -4239,19 +4910,28 @@
       "title": "又京華元夕詩一卷",
       "level": 3,
       "type": "书",
-      "content": "又京華元夕詩一卷"
+      "content": "又京華元夕詩一卷",
+      "_author": "鄧雲霄",
+      "_title_only": "京華元夕詩",
+      "_author_src": "又條承上"
     },
     {
       "title": "又漱玊齋類稿",
       "level": 3,
       "type": "书",
-      "content": "又漱玊齋類稿"
+      "content": "又漱玊齋類稿",
+      "_author": "鄧雲霄",
+      "_title_only": "漱玊齋類稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "又秋興集",
       "level": 3,
       "type": "书",
-      "content": "又秋興集"
+      "content": "又秋興集",
+      "_author": "鄧雲霄",
+      "_title_only": "秋興集",
+      "_author_src": "又條承上"
     },
     {
       "title": "沈孝徴□暢閣集十二卷",
@@ -4259,7 +4939,8 @@
       "type": "书",
       "content": "沈孝徴□暢閣集十二卷⟨字公亷海鹽人河南按察副使⟩",
       "author_info": "字公亷海鹽人河南按察副使",
-      "_title_only": "沈孝徴□暢閣集"
+      "_title_only": "沈孝徴□暢閣集",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "畢懋康管涔集二卷",
@@ -4308,7 +4989,10 @@
       "title": "又漪漪館稿",
       "level": 3,
       "type": "书",
-      "content": "又漪漪館稿"
+      "content": "又漪漪館稿",
+      "_author": "張履正",
+      "_title_only": "漪漪館稿",
+      "_author_src": "又條承上"
     },
     {
       "title": "阮自華霧靈山人集",
@@ -4324,19 +5008,22 @@
       "level": 3,
       "type": "书",
       "content": "曹徴庸冰雪軒集",
-      "_title_only": "曹徴庸冰雪軒集"
+      "_title_only": "曹徴庸冰雪軒集",
+      "_no_author": "待考"
     },
     {
       "title": "又客語",
       "level": 3,
       "type": "书",
-      "content": "又客語"
+      "content": "又客語",
+      "_title_only": "客語"
     },
     {
       "title": "又廣陵遊記",
       "level": 3,
       "type": "书",
-      "content": "又廣陵遊記"
+      "content": "又廣陵遊記",
+      "_title_only": "廣陵遊記"
     },
     {
       "title": "陳允升燃藜閣遺稿",
@@ -4369,13 +5056,19 @@
       "title": "又鳴籟草",
       "level": 3,
       "type": "书",
-      "content": "又鳴籟草"
+      "content": "又鳴籟草",
+      "_author": "魏尚忠",
+      "_title_only": "鳴籟草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又醉吟草",
       "level": 3,
       "type": "书",
-      "content": "又醉吟草"
+      "content": "又醉吟草",
+      "_author": "魏尚忠",
+      "_title_only": "醉吟草",
+      "_author_src": "又條承上"
     },
     {
       "title": "楊希聖楊翰林賸馥",
@@ -4410,7 +5103,10 @@
       "title": "又續集一卷",
       "level": 3,
       "type": "书",
-      "content": "又續集一卷"
+      "content": "又續集一卷",
+      "_author": "尹伸",
+      "_title_only": "續集",
+      "_author_src": "又條承上"
     },
     {
       "title": "謝廷讚綠屋游草十五卷",
@@ -4425,19 +5121,28 @@
       "title": "又玉馬軒集",
       "level": 3,
       "type": "书",
-      "content": "又玉馬軒集"
+      "content": "又玉馬軒集",
+      "_author": "謝廷讚",
+      "_title_only": "玉馬軒集",
+      "_author_src": "又條承上"
     },
     {
       "title": "又歩丘草",
       "level": 3,
       "type": "书",
-      "content": "又歩丘草"
+      "content": "又歩丘草",
+      "_author": "謝廷讚",
+      "_title_only": "歩丘草",
+      "_author_src": "又條承上"
     },
     {
       "title": "又霞繼亭集",
       "level": 3,
       "type": "书",
-      "content": "又霞繼亭集"
+      "content": "又霞繼亭集",
+      "_author": "謝廷讚",
+      "_title_only": "霞繼亭集",
+      "_author_src": "又條承上"
     },
     {
       "title": "許光祚詩六卷",
@@ -4445,7 +5150,8 @@
       "type": "书",
       "content": "許光祚詩六卷⟨字靈長錢塘人寜國府推官⟩",
       "author_info": "字靈長錢塘人寜國府推官",
-      "_title_only": "許光祚詩"
+      "_title_only": "許光祚詩",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "趙維寰雪廬焚餘草十四卷",
@@ -4517,14 +5223,16 @@
       "content": "髙攀龍髙子遺書十二卷⟨字雲從無錫人刑部侍郎都察院左都御史坐忤逆奄削籍被逮赴水死贈太子少保兵部尚書諡忠憲⟩",
       "author_info": "字雲從無錫人刑部侍郎都察院左都御史坐忤逆奄削籍被逮赴水死贈太子少保兵部尚書諡忠憲",
       "_title_only": "髙攀龍髙子遺書",
-      "_split_from": "髙攀龍髙子遺書十二卷又未刻稿"
+      "_split_from": "髙攀龍髙子遺書十二卷又未刻稿",
+      "_no_author": "有其人而名不可切"
     },
     {
       "title": "又未刻稿六卷",
       "level": 3,
       "type": "书",
       "content": "又未刻稿六卷",
-      "_split_from": "髙攀龍髙子遺書十二卷又未刻稿"
+      "_split_from": "髙攀龍髙子遺書十二卷又未刻稿",
+      "_title_only": "未刻稿"
     }
   ]
 }
