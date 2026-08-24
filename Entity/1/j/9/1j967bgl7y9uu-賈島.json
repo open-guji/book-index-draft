@@ -44,6 +44,10 @@
     {
       "work_id": "1evcs160wwnwg",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcsz7sd0zk0",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -51,8 +55,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.50+unique"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 dynasty「唐」自動歸併",
-  "ai_note": "2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《小集》），是單向之繫，今補其反向。"
+  "ai_note": "2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《小集》），是單向之繫，今補其反向。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。"
 }
