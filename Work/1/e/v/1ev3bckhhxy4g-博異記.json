@@ -77,12 +77,18 @@
   ],
   "measure_info": "一卷",
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 partially_extant，據：「蓋亦鈔合而成，非完帙也」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3：撰人正作「谷神子」（號），其姓名四庫提要自言不著，馮廓、鄭還古二說並存待考，見 authors[].name_basis。",
+  "ai_note": "loss_status 判為 partially_extant，據：「蓋亦鈔合而成，非完帙也」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3：撰人正作「谷神子」（號），其姓名四庫提要自言不著，馮廓、鄭還古二說並存待考，見 authors[].name_basis。\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 1–3 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字。未覆核原書。使用者本輪之裁定是「只補頭部約 766 條」，而機械撮述之法成本極低（不費人力，且所組織者皆本條已有之信息），故不止於頭部——凡材料足以成文者（有敘錄，或諸志卷數有異同）皆補之；材料不足者（無敘錄而諸志卷數又一致）仍不生成——其 desc 止是覆述著錄，讀者從 indexed_by 一望即知，寫與不寫同。",
   "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "sui-tang",
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "《博異記》一卷，舊題唐谷神子撰。《欽定四庫全書總目》敘曰：「舊本題唐穀神子還古撰，不著姓氏。考晁公武《讀書志》載《老子指歸》十三卷，亦題穀神子注，不著姓氏。而《唐書·藝文志》有馮廓注《老子指歸》十三卷，與公武所言書名卷數皆合，則穀神子其馮廓歟？胡應麟《二酉綴遺》則曰：唐有詩人鄭還古，嘗為殷七七作傳。其人正晚唐，而殷傳文與事皆類，是書蓋其作也。其說亦似有依據。」原書已佚，有輯本或佚文存。",
+    "sources": [
+      "欽定四庫全書總目"
+    ]
+  }
 }
