@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "type": "work",
-  "title": "三禮目錄鄭玄撰",
+  "title": "三禮目錄",
   "original_title": "三禮目錄",
   "indexed_by": [
     {
@@ -74,7 +74,7 @@
       "清史稿藝文志"
     ]
   },
-  "ai_note": "作者朝代訂正：原作「清」，今改「漢」。《舊唐書·經籍志》著錄「《三禮目錄》一卷鄭玄注」，鄭玄漢人。原作「清」當緣輯本或刊本之年代而誤。 2026-08-20 組5考證落空救回：考證「三禮目錄一卷 鄭玄撰」節原繫已刪之 work（`1evc5pdahta0w`），今歸本條。\n\n2026-08-21 錯繫承接：Book 11qki0sbbzitc《三禮目錄》（漢魏遺書鈔本）原誤繫 1evcpctqlbp4w，今改繫本條。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補 partially_extant：原帙不單行而佚，王謨等輯本存七十餘條——有文存世。",
+  "ai_note": "作者朝代訂正：原作「清」，今改「漢」。《舊唐書·經籍志》著錄「《三禮目錄》一卷鄭玄注」，鄭玄漢人。原作「清」當緣輯本或刊本之年代而誤。 2026-08-20 組5考證落空救回：考證「三禮目錄一卷 鄭玄撰」節原繫已刪之 work（`1evc5pdahta0w`），今歸本條。\n\n2026-08-21 錯繫承接：Book 11qki0sbbzitc《三禮目錄》（漢魏遺書鈔本）原誤繫 1evcpctqlbp4w，今改繫本條。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補 partially_extant：原帙不單行而佚，王謨等輯本存七十餘條——有文存世。\n\n2026-08-24 升格前正名：題名原作「三禮目錄鄭玄撰」——是撰人折入題名之形，出各志「《三禮目錄》（某某）」之著錄被機械併連所致，非書之本題。諸志所題皆作「三禮目錄」（見 indexed_by 各節之 title_info）。今正題為「三禮目錄」，舊形入 additional_titles 以存其著錄之貌；撰人已在 authors，不必再繫於題。",
   "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：127-200，東漢經學家）",
@@ -89,5 +89,10 @@
   "books": [
     "11qki0sbbzitc"
   ],
-  "loss_status": "partially_extant"
+  "loss_status": "partially_extant",
+  "additional_titles": [
+    "三禮目錄鄭玄撰"
+  ],
+  "_promoted_to": "d59f2092ixog",
+  "_promoted_at": "2026-08-24T09:46:42Z"
 }

@@ -5,9 +5,14 @@
   "authors": [
     {
       "name": "張機",
-      "role": "撰",
+      "role": "原著",
       "dynasty": "東漢",
       "entity_id": "1j96ad68m1zpc"
+    },
+    {
+      "name": "朱光被",
+      "role": "撰",
+      "dynasty": "清"
     }
   ],
   "description": {
@@ -16,7 +21,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-21 補 original_title「金匱要略」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-21 補 original_title「金匱要略」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 升格前斷代訂正（注疏本繫年之據，從成編之世）：本條 period 原按最早之注者（漢人）定為 qin-han，誤。依 SCHEMA〈坊刻編本是獨立 Work〉之判準——成書之結構與內容與原書不一致者即新 Work，而其連帶三則明定「period 從成編之世」——注疏本非漢人之書，乃後世疏家取經、注而別為一書者，斷代當從疏成之世。今改繫 qing，補朱光被「撰」（庫中未立其 Entity，俟清代段補），張機 role 改「原著」。",
   "juan_count": {
     "number": 4
   },
@@ -32,7 +37,7 @@
     "11qkhzasmxibk"
   ],
   "updated_at": "2026-08-07T17:05:31+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "period": "qing",
+  "period_basis": "成編之世：清朱光被撰《金匱要略正義》，詮釋漢張機《金匱要略》之作。所繫張機乃所釋之原著者。",
   "original_title": "金匱要略"
 }

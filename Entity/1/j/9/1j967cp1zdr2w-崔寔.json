@@ -7,10 +7,6 @@
   "dynasty": "東漢",
   "works": [
     {
-      "work_id": "1evcmnckozyf4",
-      "role": "撰"
-    },
-    {
       "work_id": "1evcmnd3z7qio",
       "role": "撰"
     },
@@ -25,10 +21,6 @@
     {
       "work_id": "1evilzhardrsw",
       "role": "撰"
-    },
-    {
-      "work_id": "1ewsa4asvdyzu",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -39,5 +31,5 @@
   "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 dynasty「東漢」自動歸併",
-  "ai_note": "2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《崔寔正論》），是單向之繫，今補其反向。"
+  "ai_note": "2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《崔寔正論》），是單向之繫，今補其反向。\n\n2026-08-24 清理已併退役之繫連：1evcmnckozyf4《正論》、1ewsa4asvdyzu《崔寔正論》二條已併入 1evilzhardrsw《政論》（一書三題），今去其殘留。"
 }
