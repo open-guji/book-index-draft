@@ -49,5 +49,7 @@
   ],
   "measure_info": "一卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-21 撰人朝代訂正：原作「清」，period 為 qing。《清史稿·藝文志》著錄語作「齊劉瓛《毛詩序義》一卷。」——其式為「朝代＋撰人＋書名＋卷數」，撰人朝代明書於前。今據以改 dynasty 為「齊」、period 為 nanbeichao。\n\nN4 朝代名歸一（2026-08-24）：劉瓛「齊」→「南朝齊」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。\n\nN4 work.dynasty 訂正（2026-08-24）：頂層 dynasty 與撰人之代相牴，原作「清」而撰人作「南朝齊」，今從撰人。N4（2026-08-24）：本欄原作「清」，係《清史稿藝文志》（或明志）著錄語之朝代前綴被誤讀為著錄之朝代所生——其著錄語作「清某某《書名》」而該字實是所著之書之時代前綴，非本志之代。2026-08-21 已於 authors 側訂正而 work 頂層之欄未隨，今補。今取 authors[0].dynasty「南朝齊」。",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcpct8u1on4-毛詩序義.json"
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcpct8u1on4-毛詩序義.json",
+  "_promoted_to": "d59f284bg6ps",
+  "_promoted_at": "2026-08-24T18:51:09Z"
 }
