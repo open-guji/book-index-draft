@@ -42,7 +42,18 @@
     }
   ],
   "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "唐瑾",
+      "role": "撰",
+      "dynasty": "北周",
+      "entity_id": "1j967cp1zdr3c",
+      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《國史經籍志》之著錄題撰人「唐瑾」，庫中同名 entity 唯一（`1j967cp1zdr3c`，代「北周」）。唐瑾，北周人，《周書》有傳；《婦人書儀》為六朝書儀之屬，代與書合。"
+    }
+  ],
+  "dynasty": "北周",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北周」。本條原以《國史經籍志》為上限（sui-tang），今得撰人，收窄至 nanbeichao。撰書相符之由見 authors[].name_basis。"
 }

@@ -23,6 +23,10 @@
     {
       "work_id": "1evgoruf1e8sg",
       "role": "撰"
+    },
+    {
+      "work_id": "1ev3bacnac9a8",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -30,8 +34,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_15+work_recall_0.33+unique+no_dynasty"
   },
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty_basis": "cbdb:index_year=1144→南宋",
   "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并"
+  "period_basis": "据 dynasty「南宋」自动归并",
+  "ai_note": "2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。"
 }

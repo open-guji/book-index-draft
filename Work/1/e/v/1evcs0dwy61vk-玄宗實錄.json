@@ -18,7 +18,7 @@
     }
   ],
   "id": "1evcs0dwy61vk",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 100
   },
@@ -30,6 +30,17 @@
   ],
   "measure_info": "一百卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一百卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "authors": [
+    {
+      "name": "元載",
+      "role": "撰",
+      "dynasty": "唐",
+      "entity_id": "1j967da96x4x6",
+      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「元載」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967da96x4x6`，代「唐」），故補之。"
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「sui-tang」，不相斥。"
 }

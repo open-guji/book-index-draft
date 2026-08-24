@@ -17,7 +17,7 @@
     }
   ],
   "id": "1evcpjow3u0hs",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 17
   },
@@ -30,5 +30,13 @@
   "measure_info": "十七卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十七卷），今據以補。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "華佗",
+      "role": "舊題撰",
+      "entity_id": "1j96ha8gx0000",
+      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》著錄題「華佗」，然此乃依託之名，非其實撰。華佗方書早佚，後世醫方託其名者不絕。\n\n依 SCHEMA〈舊題撰人 ≠ 實際撰人〉，role 作「舊題撰」，不以其代為本書之代；period_upper「sui-tang」仍留。"
+    }
+  ]
 }

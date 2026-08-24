@@ -25,6 +25,14 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "子鈔"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "庾仲容子鈔",
+      "summary": "庾仲容子鈔三十卷",
+      "merged_from": "1evcmnd04mdc0",
+      "note": "《新唐書藝文志》著錄作「庾仲容子鈔三十卷」，撰人與書名相連而無點斷，匯入時誤以撰人冠於題上，遂別出一條。今併入《子鈔》。"
     }
   ],
   "juan_count": {
@@ -53,8 +61,22 @@
       "relation": "text_carried_by"
     }
   ],
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs0pnzj8jk`（庾仲容子鈔）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《庾仲容子鈔》（1evcs0pnzj8jk）。新唐志不加點斷，「庾仲容子鈔三十卷」實即《子鈔》三十卷；本條宋志正作「庾仲容《子鈔》三十卷」，卷數與撰人並合。按《子鈔》一書兩系：隋志之二十卷本繫庾仲容，其注云「梁有《子鈔》十五卷，沈約撰，亡」，舊唐志三十卷本則誤繫沈約——庾書實三十卷，宋志、新唐志可證。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "庾仲容",
+      "role": "撰",
+      "dynasty": "南朝齊",
+      "entity_id": "1j967cp1zdr2y",
+      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》之著錄題撰人「庾仲容」，庫中同名 entity 唯一（`1j967cp1zdr2y`，代「南朝齊」）。庾仲容《子鈔》三十卷，《隋志》《南史》並著錄，無可疑。"
+    }
+  ],
+  "dynasty": "南朝齊",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝齊」。本條原以《宋史藝文志》為上限（sui-tang），今得撰人，收窄至 nanbeichao。撰書相符之由見 authors[].name_basis。",
+  "additional_titles": [
+    "庾仲容子鈔"
+  ]
 }

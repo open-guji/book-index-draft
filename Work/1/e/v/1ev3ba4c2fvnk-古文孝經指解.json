@@ -3,7 +3,15 @@
   "id": "1ev3ba4c2fvnk",
   "type": "work",
   "title": "古文孝經指解",
-  "authors": [],
+  "authors": [
+    {
+      "name": "司馬光",
+      "role": "撰",
+      "dynasty": "北宋",
+      "entity_id": "1j967afjb6aef",
+      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「司馬光」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967afjb6aef`，代「北宋」），故補之。"
+    }
+  ],
   "indexed_by": [
     {
       "source": "宋史藝文志",
@@ -75,8 +83,10 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-05-17T16:27:21-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
+  "dynasty": "北宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「北宋」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「song」，不相斥。"
 }

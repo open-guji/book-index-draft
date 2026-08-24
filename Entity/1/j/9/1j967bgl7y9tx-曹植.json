@@ -165,6 +165,10 @@
     {
       "work_id": "1evcpd4it3u9s",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcsy8nmk9vk",
+      "role": "舊題撰"
     }
   ],
   "external_ids": {
@@ -172,8 +176,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國魏」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。"
+  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。"
 }

@@ -11,7 +11,18 @@
     }
   ],
   "id": "1evcsxxzvjchs",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "authors": [
+    {
+      "name": "江淹",
+      "role": "撰",
+      "dynasty": "南朝梁",
+      "entity_id": "1j96keohdnshs",
+      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》之著錄題撰人「江淹」，庫中同名 entity 唯一（`1j96keohdnshs`，代「南朝梁」）。江淹《銅劍讚》，今存《江文通集》，無可疑。"
+    }
+  ],
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝梁」。本條原以《宋史藝文志》為上限（song），今得撰人，收窄至 nanbeichao。撰書相符之由見 authors[].name_basis。"
 }
