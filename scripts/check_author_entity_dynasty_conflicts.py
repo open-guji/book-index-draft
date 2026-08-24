@@ -5,9 +5,15 @@ C1: 跨表檢查：Work.author 有 entity_id 時，比對 author.dynasty 與 Ent
 """
 import json, os, sys
 
+# 倉根自本檔位置推得，不寫死容器路徑——舊值 /workspace/... 在別的容器
+# 佈局下寫成，移倉之後 glob 掃不到任何檔而**靜默地什麼都不做**。
+# 2026-08-24 已為此漏掉 4,121 條 period_upper，見 plans/全庫普查 附二。
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_PROD = os.path.join(os.path.dirname(_ROOT), 'book-index')
+
 # 先把 Entity 讀入內存
 entities = {}
-for root, _, files in os.walk("/workspace/Entity"):
+for root, _, files in os.walk(os.path.join(_ROOT, "Entity")):
     for f in files:
         if f.endswith(".json"):
             fp = os.path.join(root, f)
@@ -23,7 +29,7 @@ print(f"[INFO] 已載入 {len(entities)} 個人物 Entity")
 # 檢查 Work
 conflicts = []  # (work_id, title, author_name, author_dynasty, eid, entity_name, entity_dynasty)
 checked = 0
-for root, _, files in os.walk("/workspace/Work"):
+for root, _, files in os.walk(os.path.join(_ROOT, "Work")):
     for f in files:
         if not f.endswith(".json"): continue
         fp = os.path.join(root, f)

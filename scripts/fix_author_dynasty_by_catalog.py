@@ -25,8 +25,14 @@ import json, glob, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from period_bounds import BOUND, I, tightest, DYNASTY_PERIOD  # noqa: E402
 
+# 倉根自本檔位置推得，不寫死容器路徑——舊值 /workspace/... 在別的容器
+# 佈局下寫成，移倉之後 glob 掃不到任何檔而**靜默地什麼都不做**。
+# 2026-08-24 已為此漏掉 4,121 條 period_upper，見 plans/全庫普查 附二。
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_PROD = os.path.join(os.path.dirname(_ROOT), 'book-index')
+
 APPLY = '--apply' in sys.argv
-ROOTS = ('/workspace/book-index-draft', '/workspace/book-index')
+ROOTS = (_ROOT, _PROD)
 
 DUANDAI = {'後漢藝文志': 'qin-han', '三國藝文志': 'three-kingdoms', '補晋書藝文志': 'jin',
            '宋史藝文志補': 'song', '元史藝文志': 'liao-jin-yuan',
@@ -42,7 +48,7 @@ NOT_AUTHOR = ('次', '在', '之後', '之前', '别有', '別有')
 
 def entity_index():
     idx = {}
-    for f in glob.glob('/workspace/book-index-draft/Entity/*/*/*/*.json'):
+    for f in glob.glob(os.path.join(_ROOT, 'Entity/*/*/*/*.json')):
         try:
             e = json.load(open(f, encoding='utf-8'))
         except Exception:
@@ -135,8 +141,9 @@ def main():
     print(f'\n斷代補志逕定 {n_dd}，通代志撤 period 標 upper {n_tong}，疑誤收跳過 {n_skip}'
           + ('' if APPLY else '  (dry-run)'))
     if APPLY and skipped:
-        json.dump(skipped, open('/workspace/book-index-draft/.claude/known-issues/'
-                                '志書疑誤收.json', 'w', encoding='utf-8'),
+        json.dump(skipped,
+                  open(os.path.join(_ROOT, '.claude/known-issues/志書疑誤收.json'),
+                       'w', encoding='utf-8'),
                   ensure_ascii=False, indent=1)
 
 

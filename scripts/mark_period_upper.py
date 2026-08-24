@@ -17,7 +17,14 @@ from period_bounds import (BOUND, I, ORD, tightest, edition_bound,  # noqa: E402
                            collection_bound, ambiguous_dynasty_bound)
 
 APPLY = '--apply' in sys.argv
-ROOTS = ('/workspace/book-index-draft', '/workspace/book-index')
+# 未掛 production 倉（../book-index）時，其側 Book 之 edition 讀不到，
+# 上限遂算不出而落入「撤除」一支——那是假陽性，會刪掉本來對的上限。
+# --only-missing：只補未標者，一概不改、不撤已標之值。
+ONLY_MISSING = '--only-missing' in sys.argv
+# 倉根自本檔推得，不寫死容器路徑（舊值 /workspace/... 在別的容器佈局下寫成，
+# 移倉之後即掃不到任何檔，遂使此後新建之 work 一概未標上限）
+_R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOTS = (_R, os.path.join(os.path.dirname(_R), 'book-index'))
 
 
 def main():
@@ -39,6 +46,8 @@ def main():
             except Exception:
                 continue
             if d.get('_promoted_to'):
+                continue
+            if ONLY_MISSING and d.get('period_upper') is not None:
                 continue
             nodes = d.get('indexed_by') or []
             cb = tightest(nodes)
@@ -82,7 +91,7 @@ def main():
             p = d.get('period')
             old = d.get('period_upper')
             if not ub or (ub == 'modern' and not p):
-                if old is not None:
+                if old is not None and not ONLY_MISSING:
                     d.pop('period_upper', None)
                     d.pop('period_upper_basis', None)
                     n_rm += 1
@@ -128,7 +137,7 @@ def main():
                         d.pop('period_upper', None)
                         d.pop('period_upper_basis', None)
                         n_fix += 1
-                elif old is not None:
+                elif old is not None and not ONLY_MISSING:
                     d.pop('period_upper', None)
                     d.pop('period_upper_basis', None)
                     n_rm += 1
@@ -136,7 +145,8 @@ def main():
                     continue
             if APPLY:
                 with open(f, 'w', encoding='utf-8', newline='\n') as fh:
-                    fh.write(json.dumps(d, ensure_ascii=False, indent=2))
+                    # 檔尾須有換行——chk〈JSON 缺檔尾換行〉基線為 0
+                    fh.write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
     print(f'標 period_upper：據志 {n_cat}，據版本 {n_ed}，據出土 {n_x}，'
           f'據子目 {n_sec}，據叢編 {n_col}，據歧義朝代 {n_amb}，'
           f'相斥存疑 {n_conf}，撤除 {n_rm}；'
