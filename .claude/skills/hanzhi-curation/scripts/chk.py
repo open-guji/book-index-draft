@@ -382,6 +382,7 @@ _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略',
                     '眞':'真','敎':'教','牋':'箋','隠':'隱'})
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
 secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter(); secalt=_c.Counter()
+secdup=_c.Counter()
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
@@ -395,6 +396,10 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         # 「別本」同此（SCHEMA 2026-08-24 增）：四庫別出之「別本某某」與其正條
         # 同指一書，共繫是裁定之果，非匯入未分之遺
         if sec.get('section_kind')=='別本': secalt[own]+=1; continue
+        # 「一書兩著」同此（SCHEMA 2026-08-24 增）：書目自身一書兩出其目
+        # （題同而卷數異，或題異而同指），與正條共繫是裁定之果。
+        # SCHEMA〈別本〉節「不及者二」所指即此，今補其欄。
+        if sec.get('section_kind')=='一書兩著': secdup[own]+=1; continue
         w=sec.get('work_id')
         if isinstance(w,str) and w in IW and sec.get('title'): m[w].add(_nz(sec['title']))
     for w,ts in m.items():
@@ -403,7 +408,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if len(secmag_ex)<6: secmag_ex.append((own,w,IW[w]['title'],sorted(ts)[:4]))
 print('整理本 section 級磁鐵（異題共指一 work 之題數）',sum(secmag.values()),
       '　附屬部帙節（依 SCHEMA 與母條共繫，不計）',sum(secpart.values()),
-      '　別本節（同上）',sum(secalt.values()))
+      '　別本節（同上）',sum(secalt.values()),
+      '　一書兩著節（同上）',sum(secdup.values()))
 for k,v in secmag.most_common(6): print('  ',k,v)
 for x in secmag_ex: print('   例',x)
 
@@ -471,8 +477,11 @@ _OFF2 = ('將軍', '太守', '刺史', '尚書', '侍郎', '議郎', '中郎', '
          '中書', '學士', '給事', '功曹', '太常', '光祿', '諮議')
 # 範衍：明錢一本書名，「衍《洪範》」之義，非姓——《經義考》掛源後始見（2026-08-23 補）
 # 範通（明葉世奇）、範數贊詞（明包萬有）同此，皆《洪範》之書，在《經義考》書類
+# 範軒（林大同《範軒文集》，齋號）、範東（劉隅《範東集》）、範秘（「陽明正範秘書」）
+# ——《千頃堂書目》整理本之底本是維基文庫四庫本，原文照錄，此三處是本字非過度轉換；
+# JSON 之引號正在姓位判準之界上，故凡 _title_only 以「範」起首者皆被收（2026-08-24 補）
 _KEEP2 = {'範圍', '範式', '範例', '範疇', '範金', '範土', '範銅', '範模',
-          '範衍', '範通', '範數'}
+          '範衍', '範通', '範數', '範軒', '範東', '範秘'}
 _ovc = _c.Counter()
 # 整理本自陳 text_quality.grade == 'source' 者不驗——「原文照錄」謂其文未經
 # 簡繁往返，本驗所捕之過度轉換無從發生，而原本自有之用字反落網：《經義考》
@@ -485,6 +494,20 @@ for _i in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json')
             _SRCDIRS.add(os.path.dirname(_i))
     except Exception:
         pass
+# ── 暫排除之整理本 ────────────────────────────────────────────────
+# 《千頃堂書目》整理本 1ev3bb42sieww 曾暫排除於格式與簡轉繁二驗之外（2026-08-24
+# 使用者裁定）。其三事今已收束：①生成之法已改為 indent=2＋檔尾換行；②卷30
+# 「趙汝範奏疏一卷」之誤切已正，並查明此係名表法之一類系統性誤（三字名之前二字
+# 恰為 CBDB 另一真人）；③校本 text_適園叢書本/ 之「范」姓誤作「範」143 字，
+# 已據底本逐字改回。故排除撤銷，_SKIPDIR 置空。（2026-08-24）
+_SKIPDIR = None
+_skipped = {'簡轉繁': 0, '格式': 0}
+
+
+def _isskip(_p):
+    return bool(_SKIPDIR) and _p.replace('\\', '/').startswith(_SKIPDIR)
+
+
 _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
           + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
           + glob.glob('Work/*/*/*/*/fragments/*.json')
@@ -492,6 +515,9 @@ _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
              if os.path.dirname(_f) not in _SRCDIRS]
           + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
 for _f in _FILES:
+    if _isskip(_f):
+        _skipped['簡轉繁'] += 1
+        continue
     try:
         _raw = open(_f).read()
     except Exception:
@@ -575,6 +601,9 @@ for _p in glob.glob('**/*.json', recursive=True):
             if len(_m.group(1)) != 2:
                 _JIND.append((_p, len(_m.group(1))))
             break
+    if _isskip(_p):
+        _skipped['格式'] += 1
+        continue
     if not _raw.endswith('\n'):
         _JNL.append(_p)
     if _p.startswith('index/'):
@@ -589,6 +618,10 @@ print('JSON 縮排非 2', len(_JIND), '　基線 0（2026-08-21 全庫歸一化�
 for _x in _JIND[:5]:
     print('  ', _x)
 print('JSON 缺檔尾換行', len(_JNL), '　基線 0（同上）')
+if any(_skipped.values()):
+    print(f"  ※ 《千頃堂書目》整理本暫排除：簡轉繁 {_skipped['簡轉繁']} 檔、"
+          f"格式 {_skipped['格式']} 檔（使用者 2026-08-24 裁定；"
+          f"待辦見 known-issues/千頃堂書目整理本-待其主收束.json）")
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
