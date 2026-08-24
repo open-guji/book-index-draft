@@ -386,6 +386,106 @@
     {
       "work_id": "1evcsxoxhzpj4",
       "role": "撰"
+    },
+    {
+      "work_id": "1ewz0awj51o1y",
+      "role": "輯"
+    },
+    {
+      "work_id": "1exphxgln82hm",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex2t62tn2g7p",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exzds28hh5fe",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exjnbz55ibuy",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exuprhnypxhf",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exr0f1d9f2bo",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exl7hdlrnwpu",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exy5ygh3g7vq",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex154oqttww8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exc8yy8949r8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exfmndxljxb7",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exl30yk18rm0",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exli0vqngeun",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exuhyz6nam4d",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exoi0dospmmq",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exei2b62fail",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex1r23q6vsfj",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evkpun62uups",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evr5e3mj1sev",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcsxoww53i8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjy5tf2fk00",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjy5tn8h3pc",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgoqf4t2ha8",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evkpwrf1wf0g",
+      "role": "刪定"
     }
   ],
   "external_ids": {
@@ -393,7 +493,7 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_mismatch_15+work_recall_0.14+unique+no_dynasty"
   },
-  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《詩經》（撰人孔子）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。\n\n2026-08-19 同題異撰人專項：本條原繫之《楚辭集注》已判為他條同題同卷之重出而併，撰人歸於正名，故去其繫連。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 2 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 直齋解題抽撰人：新收 2 部 work 之繫。",
+  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《詩經》（撰人孔子）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。\n\n2026-08-19 同題異撰人專項：本條原繫之《楚辭集注》已判為他條同題同卷之重出而併，撰人歸於正名，故去其繫連。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 2 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 直齋解題抽撰人：新收 2 部 work 之繫。\n2026-08-24 補繫 entity：新收 25 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",

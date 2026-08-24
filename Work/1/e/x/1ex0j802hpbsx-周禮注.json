@@ -8,8 +8,9 @@
       "name": "鄭康成",
       "role": "注",
       "dynasty": null,
-      "entity_id": null,
-      "note": "直齋書錄解題本條作「漢鄭康成撰」，其書為《周禮》之注，故 role 作注。entity_id 依 N1 之例不繫。"
+      "entity_id": "1j9678njjg2rr",
+      "note": "直齋書錄解題本條作「漢鄭康成撰」，其書為《周禮》之注，故 role 作注。entity_id 依 N1 之例不繫。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「鄭康成」而無 entity_id，今繫 `1j9678njjg2rr`——庫中以此為別名（alt_names）者唯一。其代「東漢」與本書已定之代「qin-han」相合。"
     }
   ],
   "indexed_by": [
@@ -39,5 +40,5 @@
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
   "period": "qin-han",
   "period_basis": "漢鄭康成（鄭玄）撰（2026-08-24 R3 引文定代）",
-  "updated_at": "2026-08-24T09:25:53.590831+00:00"
+  "updated_at": "2026-08-24T00:00:00+00:00"
 }

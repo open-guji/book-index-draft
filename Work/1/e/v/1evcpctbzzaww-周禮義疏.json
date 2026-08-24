@@ -18,7 +18,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 40
   },
@@ -30,13 +30,14 @@
   ],
   "measure_info": "四十卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（四十卷），今據以補。\n\n2026-08-24：補撰人沈重，據自身著錄語。**本條非《經義考》所著韓邦奇、魏校之《周禮義疏》**——彼別立一條。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
   "authors": [
     {
       "name": "沈重",
       "role": "撰",
-      "name_basis": "《舊唐書經籍志》著錄語作「《周禮義疏》四十卷**沈重**撰」——撰人本在自身著錄語中。"
+      "name_basis": "《舊唐書經籍志》著錄語作「《周禮義疏》四十卷**沈重**撰」——撰人本在自身著錄語中。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「沈重」而無 entity_id，今繫 `1j96h8rw86pzv`——庫中 primary_name 同之者唯一。其代「北周」與本書之上限不相斥。",
+      "entity_id": "1j96h8rw86pzv"
     }
-  ]
+  ],
+  "period": "nanbeichao",
+  "period_basis": "據撰人「沈重」（entity `1j96h8rw86pzv`，代「北周」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
 }

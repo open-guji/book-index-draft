@@ -18,7 +18,7 @@
     }
   ],
   "id": "1evcs0iqkaqkg",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 3
   },
@@ -35,10 +35,11 @@
       "name": "杜信",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「杜信」補；著錄所給者為一，去朝代與職名後取之。"
+      "entity_id": "1j967da978dgu",
+      "note": "據本 work 諸著錄之 author_info「杜信」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「杜信」而無 entity_id，今繫 `1j967da978dgu`——庫中 primary_name 同之者唯一。其代「唐」與本書之上限不相斥。"
     }
   ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period": "sui-tang",
+  "period_basis": "據撰人「杜信」（entity `1j967da978dgu`，代「唐」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
 }

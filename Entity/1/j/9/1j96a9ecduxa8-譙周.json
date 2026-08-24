@@ -89,6 +89,14 @@
     {
       "work_id": "1evcpd0nfyj9c",
       "role": "撰"
+    },
+    {
+      "work_id": "1ewsa4aep0yy1",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evftep8ssdts",
+      "role": "撰"
     }
   ],
   "external_ids": {},
@@ -99,5 +107,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國蜀」自動歸併",
-  "ai_note": "2026-08-13：三國魏晉period邊界獨立立項：併入primary_name殘缺為單字「周」之分裂Entity（1j96kegkid5vk）。\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hecwu7ke8`（譙周，三國蜀），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n\n2026-08-20 磁鐵拆解專項八之二：本條原繫之書已併入他條而撰人歸於正名，故去其落空之繫連 1 條。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。"
+  "ai_note": "2026-08-13：三國魏晉period邊界獨立立項：併入primary_name殘缺為單字「周」之分裂Entity（1j96kegkid5vk）。\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hecwu7ke8`（譙周，三國蜀），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n\n2026-08-20 磁鐵拆解專項八之二：本條原繫之書已併入他條而撰人歸於正名，故去其落空之繫連 1 條。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
 }
