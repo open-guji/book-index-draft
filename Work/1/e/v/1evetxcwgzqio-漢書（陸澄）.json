@@ -23,7 +23,7 @@
       "title_info": "梁有陸澄注《漢書》一百二卷"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有陸澄注《漢書》一百二卷，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有陸澄注《漢書》一百二卷，亡」。\n\nN1 著錄回填（2026-08-24）：本條係隋志注中亡書拆建之條，其著錄原文原只記於 ai_note 而未落成 indexed_by，故 check_promote 報「無著錄源亦無關聯」。今據《隋書經籍志》整理本（source_bid 1ev85yncs9ibk）之母節「《漢疏》四卷」回填 indexed_by，in_note_of 記其所寄之母條。判據即該節之 content 原文，逐字可覆核。",
   "measures": [
     {
       "unit": "卷",
@@ -42,5 +42,14 @@
   "dynasty": "南朝齊",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝齊」——「梁有」為隋書經籍志固定表述格式（指梁代國家藏書目錄有著錄），非撰人本身朝代；陸澄實為劉宋至南齊人（見《南齊書》本傳「仕宋，至御史中丞。入齊，累遷國子祭酒」）"
+  "period_basis": "據 authors[0].dynasty「南朝齊」——「梁有」為隋書經籍志固定表述格式（指梁代國家藏書目錄有著錄），非撰人本身朝代；陸澄實為劉宋至南齊人（見《南齊書》本傳「仕宋，至御史中丞。入齊，累遷國子祭酒」）",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "陸澄注《漢書》一百二卷",
+      "summary": "《漢疏》四卷梁有漢書孟康音九卷，劉孝標注《漢書》一百四十卷，陸澄注《漢書》一百二卷，梁元帝注《漢書》一百一十五卷，並亡。",
+      "in_note_of": "1evcml1yy962o"
+    }
+  ]
 }

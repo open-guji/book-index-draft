@@ -23,7 +23,7 @@
       "title_info": "梁有劉孝標注《漢書》一百四十卷"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有劉孝標注《漢書》一百四十卷，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有劉孝標注《漢書》一百四十卷，亡」。\n\nN1 著錄回填（2026-08-24）：本條係隋志注中亡書拆建之條，其著錄原文原只記於 ai_note 而未落成 indexed_by，故 check_promote 報「無著錄源亦無關聯」。今據《隋書經籍志》整理本（source_bid 1ev85yncs9ibk）之母節「《漢疏》四卷」回填 indexed_by，in_note_of 記其所寄之母條。判據即該節之 content 原文，逐字可覆核。",
   "measures": [
     {
       "unit": "卷",
@@ -43,5 +43,14 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "nanbeichao",
   "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "ai_note_fix": "2026-08-11 秦漢同名異書核對／漢書組覆核：發現 entity「劉峻」（1j969m70q2eqv）原 dynasty 誤標「明」（與其 cbdb_source「南梁刘孝标」自相矛盾），已一併訂正為「南朝梁」，詳見該 Entity 檔。"
+  "ai_note_fix": "2026-08-11 秦漢同名異書核對／漢書組覆核：發現 entity「劉峻」（1j969m70q2eqv）原 dynasty 誤標「明」（與其 cbdb_source「南梁刘孝标」自相矛盾），已一併訂正為「南朝梁」，詳見該 Entity 檔。",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "source_bid": "1ev85yncs9ibk",
+      "title_info": "劉孝標注《漢書》一百四十卷",
+      "summary": "《漢疏》四卷梁有漢書孟康音九卷，劉孝標注《漢書》一百四十卷，陸澄注《漢書》一百二卷，梁元帝注《漢書》一百一十五卷，並亡。",
+      "in_note_of": "1evcml1yy962o"
+    }
+  ]
 }
