@@ -432,7 +432,8 @@
     "measure_info": "一卷",
     "has_text": true,
     "has_image": true,
-    "period": "song"
+    "period": "song",
+    "loss_status": "partially_extant"
   },
   "1ev3b9x6xperk": {
     "id": "1ev3b9x6xperk",
@@ -1415,7 +1416,8 @@
     "measure_info": "十三卷",
     "has_text": true,
     "has_image": true,
-    "period": "qin-han"
+    "period": "qin-han",
+    "promoted_to": "d59f206kbcow"
   },
   "1ev3ba8oapr7k": {
     "id": "1ev3ba8oapr7k",
@@ -2947,7 +2949,8 @@
     "measure_info": "三十二卷",
     "has_text": true,
     "has_image": true,
-    "period": "qing"
+    "period": "qing",
+    "has_collated": true
   },
   "1ev3bb4gew8ao": {
     "id": "1ev3bb4gew8ao",
@@ -3123,7 +3126,8 @@
     "measure_info": "十二卷",
     "has_text": true,
     "has_image": true,
-    "period": "qin-han"
+    "period": "qin-han",
+    "promoted_to": "d59f208wwnwg"
   },
   "1ev3bb85em41s": {
     "id": "1ev3bb85em41s",
@@ -4925,14 +4929,13 @@
     "author": "王逸",
     "dynasty": "東漢",
     "role": "撰",
-    "original_title": "楚辭章句别本",
-    "juan_count": {
-      "number": 17
-    },
+    "juan_count": 17,
     "measure_info": "十七卷",
     "has_text": true,
     "has_image": true,
-    "period": "qin-han"
+    "period": "qin-han",
+    "original_title": "楚辭章句别本",
+    "promoted_to": "d59f206bkphc"
   },
   "1ev3bctcd62o0": {
     "id": "1ev3bctcd62o0",
@@ -8084,11 +8087,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1ev7xkig4jtog-張蒼.json",
     "author": "張蒼",
+    "dynasty": "西漢",
     "juan_count": 16,
     "measure_info": "十六篇",
     "period": "qin-han",
-    "loss_status": "lost",
-    "dynasty": "西漢"
+    "loss_status": "lost"
   },
   "1ev7xkiggq2v4": {
     "id": "1ev7xkiggq2v4",
@@ -8270,6 +8273,7 @@
     "has_text": true,
     "has_image": true,
     "period": "qin-han",
+    "loss_status": "partially_extant",
     "original_title": "尚書"
   },
   "1ev85ditaukg0": {
@@ -9484,11 +9488,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcmnffo29kw-周易錯卦.json",
     "author": "京房",
+    "dynasty": "西漢",
     "role": "撰",
     "juan_count": 7,
     "measure_info": "七卷",
-    "period": "qin-han",
-    "dynasty": "西漢"
+    "period": "qin-han"
   },
   "1evcmnfhcxji8": {
     "id": "1evcmnfhcxji8",
@@ -9496,11 +9500,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcmnfhcxji8-易內神筮.json",
     "author": "費直",
+    "dynasty": "西漢",
     "role": "撰",
     "juan_count": 2,
     "measure_info": "二卷",
-    "period": "qin-han",
-    "dynasty": "西漢"
+    "period": "qin-han"
   },
   "1evcmnfikmrk0": {
     "id": "1evcmnfikmrk0",
@@ -10215,26 +10219,30 @@
     "type": "Work",
     "path": "Work/1/e/v/1evcpcuqn8fsw-詩緯.json",
     "author": "宋均",
+    "dynasty": "三國魏",
     "role": "注",
     "juan_count": 18,
     "measure_info": "十八卷",
     "additional_titles": [
       "詩緯宋均注"
-    ],
-    "dynasty": "三國魏"
+    ]
   },
   "1evcpcusi181s": {
     "id": "1evcpcusi181s",
-    "title": "六藝論鄭玄撰",
+    "title": "六藝論",
     "type": "Work",
-    "path": "Work/1/e/v/1evcpcusi181s-六藝論鄭玄撰.json",
+    "path": "Work/1/e/v/1evcpcusi181s-六藝論.json",
     "author": "鄭玄",
     "dynasty": "東漢",
     "role": "撰",
+    "additional_titles": [
+      "六藝論鄭玄撰"
+    ],
     "has_text": true,
     "period": "qin-han",
     "loss_status": "partially_extant",
-    "original_title": "六藝論"
+    "original_title": "六藝論",
+    "promoted_to": "d59f209sfmrk"
   },
   "1evcpcv5losu8": {
     "id": "1evcpcv5losu8",
@@ -10487,12 +10495,13 @@
     "path": "Work/1/e/v/1evcpd2lpagw0-數術記遺.json",
     "author": "徐岳",
     "dynasty": "東漢",
-    "role": "撰",
+    "role": "舊題撰",
     "juan_count": 1,
     "measure_info": "一卷",
     "has_text": true,
     "has_image": true,
-    "period": "qin-han"
+    "period": "qin-han",
+    "promoted_to": "d59f209drh8g"
   },
   "1evcpd2pf79xc": {
     "id": "1evcpd2pf79xc",
@@ -12179,7 +12188,8 @@
     "dynasty": "東漢",
     "role": "注",
     "has_text": true,
-    "period": "qin-han"
+    "period": "qin-han",
+    "promoted_to": "d59f206pxmgw"
   },
   "1evcsw6nt7y0w": {
     "id": "1evcsw6nt7y0w",
@@ -18065,7 +18075,8 @@
     "author": "鄭玄",
     "dynasty": "東漢",
     "role": "駮",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evfdsed6nx1c": {
     "id": "1evfdsed6nx1c",
@@ -18075,7 +18086,8 @@
     "author": "鄭玄",
     "dynasty": "東漢",
     "role": "注",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evfe1884rjsw": {
     "id": "1evfe1884rjsw",
@@ -18180,21 +18192,24 @@
     "author": "荀爽",
     "dynasty": "東漢",
     "role": "撰",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evfhgv2eb7k0": {
     "id": "1evfhgv2eb7k0",
     "title": "元和故事",
     "type": "Work",
     "path": "Work/1/e/v/1evfhgv2eb7k0-元和故事.json",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evfhgv70dgjk": {
     "id": "1evfhgv70dgjk",
     "title": "漢舊事",
     "type": "Work",
     "path": "Work/1/e/v/1evfhgv70dgjk-漢舊事.json",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evfhmzxogyyo": {
     "id": "1evfhmzxogyyo",
@@ -18461,6 +18476,7 @@
     "dynasty": "東漢",
     "role": "撰",
     "period": "qin-han",
+    "loss_status": "partially_extant",
     "original_title": "太玄經"
   },
   "1evftwyuhs1s0": {
@@ -18525,7 +18541,8 @@
     "author": "李梵",
     "dynasty": "東漢",
     "role": "撰",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evftxd01fw1s": {
     "id": "1evftxd01fw1s",
@@ -18612,7 +18629,8 @@
     "author": "荀爽",
     "dynasty": "東漢",
     "role": "撰",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evftypeq3ojk": {
     "id": "1evftypeq3ojk",
@@ -18622,7 +18640,8 @@
     "author": "邊讓",
     "dynasty": "東漢",
     "role": "撰",
-    "period": "qin-han"
+    "period": "qin-han",
+    "loss_status": "partially_extant"
   },
   "1evftyrxc1l34": {
     "id": "1evftyrxc1l34",
@@ -22275,11 +22294,11 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgoq0jgd0qo-榖梁廢疾.json",
     "author": "何休",
+    "dynasty": "東漢",
     "role": "撰",
     "juan_count": 3,
     "measure_info": "三卷",
-    "period": "qin-han",
-    "dynasty": "東漢"
+    "period": "qin-han"
   },
   "1evgoq2nc9yww": {
     "id": "1evgoq2nc9yww",
@@ -22728,14 +22747,14 @@
     "type": "Work",
     "path": "Work/1/e/v/1evgorph44m4g-九章雜算文.json",
     "author": "劉祐",
+    "dynasty": "東漢",
     "role": "撰",
     "juan_count": 1,
     "measure_info": "一卷",
     "additional_titles": [
       "九章雜筭文"
     ],
-    "period": "qin-han",
-    "dynasty": "東漢"
+    "period": "qin-han"
   },
   "1evgorpqoqlts": {
     "id": "1evgorpqoqlts",
@@ -46940,7 +46959,8 @@
     "role": "撰",
     "juan_count": 2,
     "measure_info": "二卷",
-    "period": "qin-han"
+    "period": "qin-han",
+    "promoted_to": "d59f209v8rnk"
   },
   "1evr5e3mjd0ym": {
     "id": "1evr5e3mjd0ym",
@@ -47953,12 +47973,12 @@
     "type": "Work",
     "path": "Work/1/e/w/1ewsa4aa39ygw-春秋緯文耀鉤.json",
     "author": "宋均",
+    "dynasty": "三國魏",
     "role": "注",
     "juan_count": 1,
     "measure_info": "一卷",
     "period": "qin-han",
-    "loss_status": "partially_extant",
-    "dynasty": "三國魏"
+    "loss_status": "partially_extant"
   },
   "1ewsa4acpuv2v": {
     "id": "1ewsa4acpuv2v",
@@ -48256,12 +48276,12 @@
     "type": "Work",
     "path": "Work/1/e/w/1ewsa4bfiela8-春秋緯合讖圖.json",
     "author": "宋均",
+    "dynasty": "三國魏",
     "role": "注",
     "juan_count": 1,
     "measure_info": "一卷",
     "period": "qin-han",
-    "loss_status": "partially_extant",
-    "dynasty": "三國魏"
+    "loss_status": "partially_extant"
   },
   "1ewsovsmscd1n": {
     "id": "1ewsovsmscd1n",
@@ -48365,8 +48385,8 @@
     "role": "撰",
     "juan_count": 2,
     "measure_info": "二卷",
-    "loss_status": "lost",
-    "period": "nanbeichao"
+    "period": "nanbeichao",
+    "loss_status": "lost"
   },
   "1ewsovv088tz7": {
     "id": "1ewsovv088tz7",
@@ -48377,8 +48397,8 @@
     "role": "撰",
     "juan_count": 30,
     "measure_info": "三十卷",
-    "loss_status": "lost",
-    "period": "nanbeichao"
+    "period": "nanbeichao",
+    "loss_status": "lost"
   },
   "1ewsovv3hxaru": {
     "id": "1ewsovv3hxaru",
