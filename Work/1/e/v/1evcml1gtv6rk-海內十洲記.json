@@ -41,7 +41,8 @@
     {
       "name": "東方朔",
       "role": "撰",
-      "entity_id": "1j96a9e8piayo"
+      "entity_id": "1j96a9e8piayo",
+      "dynasty": "西漢"
     }
   ],
   "juan_count": {
@@ -156,7 +157,7 @@
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "authenticity": "forged",
   "authenticity_basis": "《隋書經籍志》：「射虎事，案《文選》應貞晉武帝《華林園集》詩李善注，引《洛陽圖經》曰，華林園在城內東北隅，魏明帝起，名芳林園，齊王芳改為華林。武帝時安有是號？蓋六朝詞人所依託。」",
-  "ai_note": "2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。",
+  "ai_note": "2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\n\n2026-08-24 兩漢H8（斷代收尾）：撰人 dynasty 補正——東方朔補「西漢」。無考者仍留空／留「漢」，不強判。",
   "period": "qin-han",
   "period_basis": "撰人朝代闕，據其 Entity「東方朔」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
   "description": {

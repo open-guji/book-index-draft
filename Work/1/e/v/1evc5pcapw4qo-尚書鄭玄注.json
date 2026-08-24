@@ -6,7 +6,8 @@
   "authors": [
     {
       "name": "鄭玄",
-      "entity_id": "1j9678njjg2rr"
+      "entity_id": "1j9678njjg2rr",
+      "dynasty": "東漢"
     }
   ],
   "indexed_by": [
@@ -56,5 +57,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "qin-han",
-  "period_basis": "撰人朝代闕，據其 Entity「鄭玄」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「鄭玄」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "ai_note": "2026-08-24 兩漢H8（斷代收尾）：撰人 dynasty 補正——鄭玄補「東漢」。無考者仍留空／留「漢」，不強判。"
 }
