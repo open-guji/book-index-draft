@@ -52,6 +52,7 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id') and _d.get('title'):
                 _TITLE.setdefault(_d['id'],_d['title'])
 b2w={}; w2b={}
+_WKB={}   # work id → 其 books 欄是否有值（Book→Work 單向之墓碑判別用）
 for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
     for p in glob.glob(pat):
         try: d=json.load(open(p))
@@ -103,6 +104,7 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
                 _k=(r.get('id'),r.get('relation'))
                 if _k in _rwseen: rwdup.append((p,r.get('id'),r.get('relation')))
                 _rwseen.add(_k)
+            _WKB[i]=bool(d.get('books'))
             for b in d.get('books') or []: w2b.setdefault(b,set()).add(i)
         else:
             if d.get('work_id'): b2w[i]=d['work_id']
@@ -138,11 +140,21 @@ if _PROD_ROOT:
         except Exception: continue
         if isinstance(_d,dict) and _d.get('id') and _d.get('work_id'):
             b2w.setdefault(_d['id'],_d['work_id'])
-else:
-    print('  ※ 未見 production 庫（../book-index），Book→Work 單向數含升格假陽性')
 _b2w={nz(b):nz(w) for b,w in b2w.items()}
 ow=[(b,w) for b,w in _b2w.items() if w not in _w2b.get(b,set())]
 ww=[(b,w) for b,ws in _w2b.items() for w in ws if _b2w.get(b)!=w]
+# 未掛 production 倉時，升格之 work 在 draft 只餘五欄墓碑（無 books），
+# 其 Book 之 work_id 仍指之，遂全報成單向。此非缺陷，是本文不在此倉——
+# 而 promotions.json 就在庫內，足以逐條認出，不必真掛 production。
+# 2026-08-24 實測：342 條單向**無一例外**皆此型，真單向 0。
+if not _PROD_ROOT:
+    _tomb={k for k,v in _PR.items() if v.get('type')=='work'}
+    _sup=[(b,w) for b,w in ow if w in _tomb and not _WKB.get(w)]
+    ow=[x for x in ow if x not in set(_sup)]
+    if _sup:
+        print(f'  ※ 未見 production 庫（../book-index）；'
+              f'Book→Work 單向中 {len(_sup)} 條指向已升格之墓碑，本文在 production，'
+              f'不計入（憑 promotions.json 認出）')
 print('Book→Work 單向',len(ow),' Work→Book 單向',len(ww))
 for x in ow[:5]: print('  B→W',x)
 for x in ww[:5]: print('  W→B',x)
@@ -298,7 +310,11 @@ dang=_c.Counter(); dang_is_book=0; dang_ids=set()
 # 「懸空關聯」一驗其 allids 早已併入 prod（見上文），落空一驗未併，同一情形
 # 兩驗異判。今補之——掛了 production 倉時 _TITLE 自足，此項不過多一層保險。
 _EXIST_W=set(IW)|set(_TITLE)|prod
-_EXIST_B=set(IB)
+# Book 側同理——`book_id` 亦有指已升格之 production Book 者（《脂硯齋重評石頭
+# 記》諸本之屬）。promotions.json 之 type 分 work／book，此處不分而全取：
+# id 空間本不相犯，多取無害而少取則生誤報。2026-08-23 立。
+_EXIST_B=set(IB)|prod
+_COLL=set(IC); _sec2coll=0; _coll_ids=set()
 if _PR_ROOT:
     for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
         try: _d=json.load(open(_p))
@@ -315,9 +331,21 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         v=sec.get('work_ids')
         if isinstance(v,list): ws+=[x for x in v if isinstance(x,str)]
         for w in ws:
+            # 叢書當用 collection_id（SCHEMA 2026-08-23 增），不得用 work_id。此數當恆為 0。
+            # 《中國通俗小說書目》卷九附錄二〈叢書目〉之節（《四大奇書》《前後
+            # 七國志》《怡園五種》之屬）本是叢書，庫中以 Collection 記之，而
+            # 節仍用 work_id 一欄。SCHEMA〈整理本 section 的三個指涉欄位〉只列
+            # work_id／book_id／target_bid，無指 Collection 者——**當否立
+            # collection_id 一欄是 SCHEMA 之事，屬單線車道**，故此處不併入
+            # _EXIST_W（併之則此事自此隱沒），另立一數以存其目。2026-08-23 立。
+            if w in _COLL: _sec2coll+=1; _coll_ids.add(w); continue
             if w in _EXIST_W: continue
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in _EXIST_B: dang_is_book+=1
+        # collection_id（SCHEMA 2026-08-23 增）之存在性
+        _cid=sec.get('collection_id')
+        if isinstance(_cid,str) and _cid not in _COLL:
+            dang[f.split('/')[4]]+=1; dang_ids.add(_cid)
         b=sec.get('book_id')
         if isinstance(b,str) and b not in _EXIST_B:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
@@ -325,6 +353,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
         if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
+print('整理本節之 work_id 實指 Collection',_sec2coll,'相異 id',len(_coll_ids),
+      '　基線 0（叢書當用 collection_id，見 SCHEMA〈整理本 section 的四個指涉欄位〉）')
 for k,v in dang.most_common(6): print('  ',k,v)
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work

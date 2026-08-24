@@ -24,8 +24,14 @@ import json, glob, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from period_bounds import BOUND, I  # noqa: E402
 
+# 倉根自本檔位置推得，不寫死容器路徑——舊值 /workspace/... 在別的容器
+# 佈局下寫成，移倉之後 glob 掃不到任何檔而**靜默地什麼都不做**。
+# 2026-08-24 已為此漏掉 4,121 條 period_upper，見 plans/全庫普查 附二。
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_PROD = os.path.join(os.path.dirname(_ROOT), 'book-index')
+
 APPLY = '--apply' in sys.argv
-ROOTS = ('/workspace/book-index-draft', '/workspace/book-index')
+ROOTS = (_ROOT, _PROD)
 
 
 def main():
@@ -74,7 +80,7 @@ def main():
                     fh.write(json.dumps(d, ensure_ascii=False, indent=2))
     print(f'標記 {marked} 節，涉 {len({x["原繫"] for x in lst})} 條 Work')
     if APPLY:
-        json.dump(lst, open('/workspace/book-index-draft/.claude/known-issues/著錄錯掛待建.json',
+        json.dump(lst, open(os.path.join(_ROOT, '.claude/known-issues/著錄錯掛待建.json'),
                             'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
