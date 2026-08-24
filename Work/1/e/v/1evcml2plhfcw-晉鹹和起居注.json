@@ -48,5 +48,13 @@
   "dynasty": "西晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
+  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。",
+  "description": {
+    "text": "李軌（西晉）撰。十六卷；諸志所著之數有異，別作十八卷。見著錄於《隋書經籍志》《舊唐書經籍志》。其著錄之文，《隋書經籍志》作「《晉鹹和起居注》十六卷李軌撰」。經注之屬。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志"
+    ]
+  },
+  "ai_note": "2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。"
 }

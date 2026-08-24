@@ -29,7 +29,7 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
+  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "authors": [
     {
@@ -43,5 +43,11 @@
   "dynasty": "三國魏",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 three-kingdoms。"
+  "period_basis": "據 authors[0].dynasty「三國魏」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 three-kingdoms。",
+  "description": {
+    "text": "魏文帝（三國魏）撰。一卷。見著錄於《隋書經籍志》。其著錄之文，《隋書經籍志》作「《士品》一卷魏文帝撰」。本書惟《隋書經籍志》一志著錄，別無他證。撰人魏文帝之爵里事跡，諸志不載。《隋書經籍志》唐初貞觀顯慶間官修，本書之目賴之以存。",
+    "sources": [
+      "隋書經籍志"
+    ]
+  }
 }
