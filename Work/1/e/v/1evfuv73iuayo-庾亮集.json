@@ -9,7 +9,9 @@
       "role": "撰",
       "dynasty": "東晉",
       "note": "太尉",
-      "dynasty_basis": "historical_dict:round2(庾亮(289-340)，字元規，東晉外戚)"
+      "dynasty_basis": "historical_dict:round2(庾亮(289-340)，字元規，東晉外戚)",
+      "entity_id": "1j968iupuca9t",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「庾亮」而無 entity_id，今繫 `1j968iupuca9t`——庫中 primary_name 同之者唯一。其代「東晉」與本書已定之代「jin」相合。"
     }
   ],
   "indexed_by": [
@@ -63,7 +65,7 @@
   "measure_info": "21卷",
   "ai_note": "2026-08-08 Batch16合併：原1evcmoba6301s（連書省撰人：庾亮集以庾亮起首，無撰人條來自新唐書藝文志,舊唐書經籍志,隋書經籍志,隋書經籍志考證）併入本條。\n2026-08-08 Batch16合併：原1evgqaov2yygw（連書省撰人：庾亮集以庾亮起首，無撰人條來自國史經籍志）併入本條。\n著錄誤切復原：本條原題《太尉》、作者欄作「亮集二十一卷」，係《補晉書藝文志》著錄原文「官銜＋姓名＋集＋卷數」連寫而源文本有缺字，匯入時於缺字處切開所致——「亮集二十一卷」實為書名與卷數之殘文，非人名。原文當作「太尉庾亮集二十一卷」，缺「庾」字。庾亮（289-340）字元規，成帝時官至司空、都督江荊豫諸州軍事，贈太尉。今依著錄原文重建標題與卷數並補作者。著錄原文完整保存於 indexed_by。　按：庫中已有同題記錄 1evcmoba6301s、1evgqaov2yygw，係他志（隋志、兩唐志、國史經籍志等）匯入所建，當為一書之重出，留待去重專項合併；本條所補之作者與官銜可供彼處參用。 按：本書原被偽人物 Entity 1j96hfey71og0（名作「亮集二十一卷」）之 works 欄單向認領，該名係著錄連寫誤切所遺之卷數殘文，非人名，其記錄已刪。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
   "loss_status": "lost",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "emendated_by": [

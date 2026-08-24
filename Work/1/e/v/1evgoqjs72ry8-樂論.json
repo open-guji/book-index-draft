@@ -6,7 +6,8 @@
     {
       "name": "沈括",
       "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j967bgl6pbny（北宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+      "name_basis": "2026-08-22 C1：原繫 1j967bgl6pbny（北宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「沈括」而無 entity_id，今繫 `1j967bgl6pbny`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。",
+      "entity_id": "1j967bgl6pbny"
     }
   ],
   "juan_count": {
@@ -45,7 +46,7 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-24T11:30:38.264262+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "song",
   "period_basis": "隋志《樂論》題衛尉少卿蕭吉撰，與國史經籍志所題北宋沈括撰人明為二人，是二書。（2026-08-24 B4 同題異書逐條裁）"
 }

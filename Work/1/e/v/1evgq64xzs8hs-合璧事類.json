@@ -35,14 +35,15 @@
   ],
   "measure_info": "一百卷",
   "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"合鸞事類\"->\"合璧事類\"\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「謝維新」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "updated_at": "2026-08-24T09:26:54.286867+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "authors": [
     {
       "name": "謝維新",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「謝維新」補；著錄所給者為一，去朝代與職名後取之。"
+      "entity_id": "1j96ha6b01ips",
+      "note": "據本 work 諸著錄之 author_info「謝維新」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「謝維新」而無 entity_id，今繫 `1j96ha6b01ips`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
     }
   ],
   "period_upper": "ming",

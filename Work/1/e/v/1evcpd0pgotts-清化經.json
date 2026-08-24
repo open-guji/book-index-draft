@@ -8,6 +8,13 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《清化經》十卷",
       "summary": "《清化經》十卷蔡洪撰。"
+    },
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "1evfu57n5n37k",
+      "summary": "蔡氏清化經十卷 蔡洪,謹按見《七録》。《世說・言語篇》注引洪《集録》云:“洪字叔開,吴郡人,有才辨,初仕吴朝。太康中,本州從事,舉秀才。”王隱《晋書》曰:“洪書稱經,蓋擬《易》而作。”《御覽》引書綱目作“清化論”,誤。兩《唐志》著録。",
+      "section": "丙部子録／儒家類",
+      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
     }
   ],
   "id": "1evcpd0pgotts",
@@ -22,7 +29,7 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-24 J3(2)-乙 異題同書之併（形甲）：蔡洪《清化經》十卷。（按：與同人之《化清經》一卷非一書，卷數與題皆異，各存。）（併入者 id 1evfuuvo9omio，題「蔡氏清化經」）",
   "authors": [
     {
       "name": "蔡洪",
@@ -35,5 +42,8 @@
   "dynasty": "西晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
+  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。",
+  "additional_titles": [
+    "蔡氏清化經"
+  ]
 }

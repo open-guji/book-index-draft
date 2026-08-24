@@ -7,7 +7,8 @@
       "name": "羅振玉",
       "role": "錄",
       "dynasty": "",
-      "name_basis": "原作「羅振玉錄」，係著錄動詞「錄」被連入姓名欄（該條著錄原文作「羅振玉錄撰」，動詞重出可證），逕正為「羅振玉」並以 role 記其職。"
+      "name_basis": "原作「羅振玉錄」，係著錄動詞「錄」被連入姓名欄（該條著錄原文作「羅振玉錄撰」，動詞重出可證），逕正為「羅振玉」並以 role 記其職。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「羅振玉」而無 entity_id，今繫 `1j98p5bg1jxfk`——庫中 primary_name 同之者唯一。其代「清」與本書已定之代「qing」相合。",
+      "entity_id": "1j98p5bg1jxfk"
     }
   ],
   "indexed_by": [
@@ -54,7 +55,7 @@
       ]
     }
   ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_image": true,
   "period": "qing",
   "period_basis": "撰人「羅振玉」庫中同名 Entity 唯一（清，CBDB 56741）——本條 authors 未繫 entity_id，繫人屬 B 車道，此處只定代",

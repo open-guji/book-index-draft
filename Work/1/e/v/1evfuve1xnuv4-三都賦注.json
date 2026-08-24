@@ -5,10 +5,11 @@
   "title": "三都賦注",
   "authors": [
     {
-      "name": "張載、劉 、衛環",
+      "name": "張載",
       "role": "注",
       "dynasty": "晉",
-      "entity_id": "1j96hffgdxk3k"
+      "entity_id": "1j96hffgdxk3k",
+      "name_basis": "2026-08-24 J3(3)：見 ai_note"
     }
   ],
   "indexed_by": [
@@ -37,7 +38,7 @@
   ],
   "measure_info": "三卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「三都賦」，庫中有同題而非注本之條 `1evcpd8mupp1c`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「三都賦」，庫中有同題而非注本之條 `1evcpd8mupp1c`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-24 J3(3) 壞名清理：撰人「張載、劉 、衛環」正為「張載」（形丁）：《補晉志》按語引《晉書·左思傳》「張載為注，魏都劉逵注，吳蜀衛瓘又為作略解」——本欄之文是三人連書之殘，取其首之張載。（劉逵、衛瓘二人未補，俟撰人車道。）",
   "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",

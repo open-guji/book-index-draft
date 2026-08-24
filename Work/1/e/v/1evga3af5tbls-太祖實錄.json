@@ -7,7 +7,8 @@
       "name": "完顏宗弼",
       "role": "撰",
       "dynasty": "金",
-      "entity_id": null
+      "entity_id": "1j967da96lwci",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「完顏宗弼」而無 entity_id，今繫 `1j967da96lwci`——庫中 primary_name 同之者唯一。其代「金」與本書已定之代「liao-jin-yuan」相合。"
     }
   ],
   "indexed_by": [
@@ -34,7 +35,7 @@
   },
   "ai_note": "同名異書：已有 Work 作者為 [('董倫', '明')]，本條作者 宗弼（金），另建 | 從 1evgbvfx8tp8g 合併。原註：同名異書：已有 Work 作者為 [('', ''), ('董倫', '明'), ('宗弼', '金')]，本條作者 完顏宗弼（金），另建\n\n2026-08-08 修復二字殘名：元史藝文志明確「金完顏宗弼太祖實錄二十卷（皇統八年進）」，完顏勖（1099-1157）字勉道，原名完顏宗弼，女真名烏野，金代史家。\n\n2026-08-08 補記：原關聯 Entity 1j96hjwlyaf61（舒庭謨）為錯誤關聯，已置entity_id=null，待新建正確Entity。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]",
   "id": "1evga3af5tbls",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「金」",
   "dynasty": "金",

@@ -7,20 +7,22 @@
     {
       "name": "曹植",
       "role": "作",
-      "dynasty": "三國魏"
+      "dynasty": "三國魏",
+      "entity_id": "1j967bgl7y9tx",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「曹植」而無 entity_id，今繫 `1j967bgl7y9tx`——庫中 primary_name 同之者唯一。其代「三國魏」與本書已定之代「three-kingdoms」相合。"
     }
   ],
   "subtype": "article",
   "related_works": [
     {
-      "id": "1evi5uod20l4w",
-      "title": "昭明文選",
+      "id": "1evcmocs9vtog",
+      "title": "文選",
       "relation": "collected_in"
     }
   ],
   "indexed_by": [],
   "ai_note": "[N3磁鐵 2026-08-24] 選本之整理本以**一篇一 work** 為例（同卷他篇無一不然），而本篇原與《又贈丁儀王粲》共繫一條（`1evi5vq2geg3k`）——匯入時題首相同之二篇未分。《文選》卷二十四曹植一串作〈贈徐幹〉〈贈丁儀〉〈贈王粲〉〈又贈丁儀王粲〉〈贈白馬王彪〉〈贈丁翼〉，〈贈丁儀〉與〈又贈丁儀王粲〉判然二篇（前者五言十六句，後者別為一首），今別立。`period`／`loss_status`／`authors[].entity_id` 不繫（新建之條依庫規不擅補）。",
-  "updated_at": "2026-08-24T04:34:30.804322+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據撰人朝代「三國魏」（2026-08-24 R2）"
 }

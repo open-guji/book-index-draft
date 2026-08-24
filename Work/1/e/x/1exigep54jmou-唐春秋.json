@@ -6,7 +6,9 @@
   "authors": [
     {
       "name": "呉兢",
-      "role": null
+      "role": null,
+      "entity_id": "1j96haa7obnr4",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「呉兢」而無 entity_id，今繫 `1j96haa7obnr4`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
     }
   ],
   "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書擬經類著錄「呉氏（兢）唐春秋」。庫中雖有同題之《唐春秋》，然彼不著撰人而本條著「呉兢」，同題異撰是二書，故別建。\n\n`period`／`loss_status`／`role`／`entity_id` 不繫，其由與本輪所建諸條同（見《經義考待裁分流方案》）。",
@@ -29,5 +31,5 @@
   "period_upper_basis": "catalog_bound：《經義考》之著錄語作「唐志三十卷」，是朱彝尊記唐志著錄本書。一書見於某志，其時代不得晚於該志（SCHEMA〈period_upper〉上限之六源第一），故上限 sui-tang。**只是上限，不得當下限用**——早期志書亡佚極多，一部漢代之書可能遲至《宋史·藝文志》方首見著錄。此是轉引：所據非該志原文，是朱彝尊之引，覆按時當回原志。",
   "period": "sui-tang",
   "period_basis": "唐書本傳：吳兢景龍間任史事，開元中成書（2026-08-24 R3 引文定代）",
-  "updated_at": "2026-08-24T09:25:54.025854+00:00"
+  "updated_at": "2026-08-24T00:00:00+00:00"
 }

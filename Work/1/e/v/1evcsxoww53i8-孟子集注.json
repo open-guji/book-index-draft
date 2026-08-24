@@ -44,7 +44,7 @@
       "relation": "contains_text_of"
     }
   ],
-  "updated_at": "2026-08-24T09:26:15.314306+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《孟子集注》十四卷」一節原繫於磁鐵條（`1evr5e3mkaqnv`），其題與本條全合，今改繫本條並補其著錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十四卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「朱熹」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
   "juan_count": {
     "number": 14
@@ -61,8 +61,9 @@
       "name": "朱熹",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「朱熹」補；著錄所給者為一，去朝代與職名後取之。"
+      "entity_id": "1j967cp1zdr19",
+      "note": "據本 work 諸著錄之 author_info「朱熹」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱熹」而無 entity_id，今繫 `1j967cp1zdr19`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
     }
   ],
   "period_upper": "song",

@@ -46,6 +46,18 @@
       "attested_status": "lost",
       "attested_status_raw": "亡",
       "note": "本書於《隋志》無獨立條目，只見於《神農本草》一條之注——隋志之例，正文著隋時見存之書，而以注記梁時尚存、隋時已亡者，故 `summary` 是那一整行（首書名是正文之書，非本 work），`in_note_of` 指其所寄。2026-08-10 裁定本條與庫中此記錄同書而未別建，其由：與既有「吳普本草」（1evfhdb2tlu68）同卷數，題僅多「華佗弟子」，同書（2026-08-22 D3：1evgq4l2fff28 已併入 1evfhdb2tlu68，id 隨之更新）"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《吳氏本草因》六卷",
+      "summary": "《吳氏本草因》六卷吳普撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "吳氏本草因",
+      "summary": "吳氏本草因六卷"
     }
   ],
   "description": {
@@ -63,7 +75,7 @@
   ],
   "measure_info": "六卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgq4l2fff28（撰人折入題名之異寫）併入本條（同題同撰人）。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evgq4l2fff28（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-24 J3(2)-乙 異題同書之併（形甲）：吳普《本草》六卷。「吳氏本草因」之「吳氏」是撰人冠首、「因」是「音」之訛或衍。（併入者 id 1evcpd3ublo8w，題「吳氏本草因」）",
   "updated_at": "2026-08-10",
   "period": "three-kingdoms",
   "period_basis": "朝代「魏」有歧義（可為 three-kingdoms／nanbeichao），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：三國藝文志",
@@ -71,5 +83,8 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "emendated_by": [],
   "books": [],
-  "related_works": []
+  "related_works": [],
+  "additional_titles": [
+    "吳氏本草因"
+  ]
 }

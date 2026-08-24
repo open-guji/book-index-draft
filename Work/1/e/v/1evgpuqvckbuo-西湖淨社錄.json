@@ -6,7 +6,8 @@
     {
       "name": "有常",
       "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j96h8rw8hylh（中華民國），其代晚於本書上限 ming，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw8hylh（中華民國），其代晚於本書上限 ming，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「有常」而無 entity_id，今繫 `1j96h8rw8hylh`——庫中以此為別名（alt_names）者唯一。其代「中華民國」與本書之上限不相斥。",
+      "entity_id": "1j96h8rw8hylh"
     }
   ],
   "juan_count": {
@@ -35,7 +36,7 @@
     }
   ],
   "measure_info": "三卷",
-  "updated_at": "2026-08-23T05:22:40.066063+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "modern",
+  "period_basis": "據撰人「有常」（entity `1j96h8rw8hylh`，代「中華民國」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
 }
