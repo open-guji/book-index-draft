@@ -57,11 +57,12 @@
   "additional_titles": [
     "黃鐘律"
   ],
-  "ai_note": "2026-08-20 撰人折入題名專項：庫中別有題作《黃鐘律》之 work（`1evcpjzz6416o`），與本條題名之差恰為本條撰人「梁武帝」及一「撰」字——本條之題乃匯入時將志文之撰人綴於書名之後所成，二者實一書。今併，並正本條之題為《黃鐘律》。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
+  "ai_note": "2026-08-20 撰人折入題名專項：庫中別有題作《黃鐘律》之 work（`1evcpjzz6416o`），與本條題名之差恰為本條撰人「梁武帝」及一「撰」字——本條之題乃匯入時將志文之撰人綴於書名之後所成，二者實一書。今併，並正本條之題為《黃鐘律》。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN7 loss_status（2026-08-24 南北朝存佚專項，路一：隋志「梁有…亡」）：判為 lost。所繫《隋書經籍志》之注文明言其書梁時尚存而隋時已亡，且其句之主語即本條（本條之題或撰人見於「梁有」之後）——判據原文：「梁有《鐘律緯》六卷，梁武帝撰，亡。」。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判：一字不存方為 lost；本條無輯佚檔亦無存文之證，故從隋志之判。",
   "original_title": "黃鐘律梁武帝撰",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
   "period_basis": "撰人朝代闕，據其 Entity「蕭衍」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5pdk9lq80-黃鐘律.json"
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5pdk9lq80-黃鐘律.json",
+  "loss_status": "lost"
 }
