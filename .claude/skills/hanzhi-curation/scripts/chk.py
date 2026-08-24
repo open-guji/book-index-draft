@@ -52,6 +52,7 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id') and _d.get('title'):
                 _TITLE.setdefault(_d['id'],_d['title'])
 b2w={}; w2b={}
+_WKB={}   # work id → 其 books 欄是否有值（Book→Work 單向之墓碑判別用）
 for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
     for p in glob.glob(pat):
         try: d=json.load(open(p))
@@ -103,6 +104,7 @@ for kind,pat,idx in (('W','Work/*/*/*/*.json',IW),('B','Book/*/*/*/*.json',IB)):
                 _k=(r.get('id'),r.get('relation'))
                 if _k in _rwseen: rwdup.append((p,r.get('id'),r.get('relation')))
                 _rwseen.add(_k)
+            _WKB[i]=bool(d.get('books'))
             for b in d.get('books') or []: w2b.setdefault(b,set()).add(i)
         else:
             if d.get('work_id'): b2w[i]=d['work_id']
@@ -138,11 +140,21 @@ if _PROD_ROOT:
         except Exception: continue
         if isinstance(_d,dict) and _d.get('id') and _d.get('work_id'):
             b2w.setdefault(_d['id'],_d['work_id'])
-else:
-    print('  ※ 未見 production 庫（../book-index），Book→Work 單向數含升格假陽性')
 _b2w={nz(b):nz(w) for b,w in b2w.items()}
 ow=[(b,w) for b,w in _b2w.items() if w not in _w2b.get(b,set())]
 ww=[(b,w) for b,ws in _w2b.items() for w in ws if _b2w.get(b)!=w]
+# 未掛 production 倉時，升格之 work 在 draft 只餘五欄墓碑（無 books），
+# 其 Book 之 work_id 仍指之，遂全報成單向。此非缺陷，是本文不在此倉——
+# 而 promotions.json 就在庫內，足以逐條認出，不必真掛 production。
+# 2026-08-24 實測：342 條單向**無一例外**皆此型，真單向 0。
+if not _PROD_ROOT:
+    _tomb={k for k,v in _PR.items() if v.get('type')=='work'}
+    _sup=[(b,w) for b,w in ow if w in _tomb and not _WKB.get(w)]
+    ow=[x for x in ow if x not in set(_sup)]
+    if _sup:
+        print(f'  ※ 未見 production 庫（../book-index）；'
+              f'Book→Work 單向中 {len(_sup)} 條指向已升格之墓碑，本文在 production，'
+              f'不計入（憑 promotions.json 認出）')
 print('Book→Work 單向',len(ow),' Work→Book 單向',len(ww))
 for x in ow[:5]: print('  B→W',x)
 for x in ww[:5]: print('  W→B',x)
