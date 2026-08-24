@@ -70,10 +70,11 @@
       "name": "班固",
       "role": "撰",
       "dynasty": "東漢",
-      "note": "東漢明帝建初四年（79年）白虎觀會議後奉敕撰。"
+      "note": "東漢明帝建初四年（79年）白虎觀會議後奉敕撰。",
+      "entity_id": "1j967afjb6ae0"
     }
   ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",
   "measure_info": "十卷",
@@ -97,5 +98,14 @@
     "11qkhydw5e41s",
     "11qk4xwcvdfz3",
     "11qkhzy1gafi8"
+  ],
+  "emendated_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "白虎通六卷",
+      "summary": "",
+      "note": "姚振宗《隋書經籍志考證》經部八·論語類「白虎通六卷」條（考證所據之志為《隋志》，target_bid 1ev85yncs9ibk）。2026-08-24 補：`186c79f6e1`（兩漢H3-S）自 `1ev3bbvch8c1s` 移入本條六源著錄之後，該考證之節已繫本條而本條無其記錄，chk〈整理本繫連而 work 側無記錄〉遂由 0 升 1。今補回。"
+    }
   ]
 }
