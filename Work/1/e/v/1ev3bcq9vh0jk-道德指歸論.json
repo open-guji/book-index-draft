@@ -6,7 +6,7 @@
   "authors": [
     {
       "name": "嚴遵",
-      "role": "撰",
+      "role": "舊題撰",
       "dynasty": "西漢",
       "entity_id": "1j967bgl7y9tc"
     }
@@ -91,7 +91,7 @@
   "_has_image": true,
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
-  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx35lsb9c 與 11q37sf0fgc1s 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 兩漢H1：與《老子指歸》1evcpjouq7a4g 建 related 互繫，不併之由見彼條 ai_note 及 related note。",
+  "ai_note": "2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhx35lsb9c 與 11q37sf0fgc1s 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 秦漢段補描述：據本條所繫著錄之考證文撮述，所出之志已記於 description.sources。\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 兩漢H1：與《老子指歸》1evcpjouq7a4g 建 related 互繫，不併之由見彼條 ai_note 及 related note。\n\n2026-08-24 升格前體例歸一（authors[].role 舊題式）：本條 description 已明記其書「舊題」某某撰而歷代辨其偽（或非其人所作），而 authors[].role 仍作直陳之「撰」，與 SCHEMA〈authenticity〉「舊題某某撰者，authors[].role = 舊題撰」之體例不合。今改為「舊題撰」——所改者只是題署之形，不改其斷代：託名之書，傳統目錄學一律繫於所託之世（隋志、四庫皆列漢），本庫從之；此與同日訂正之「注疏本從成編之世」不同型——注疏本之疏是後人新撰之文，託名之書則無新撰者可繫。　按：本條 description 自明「舊題漢嚴遵（君平）撰」。",
   "description": {
     "text": "《老子》之注，舊題漢嚴遵（君平）撰，成都人，以卜筮為業而終身不仕，揚雄嘗從之遊。以黃老之旨解《老子》，分《道經》《德經》而各指其歸，故名「指歸」。《隋志》著錄十一卷，新舊《唐志》作《老子指歸》十四卷（另有馮廓注十三卷）。原書已殘，今傳六卷（或作七卷）僅存《德經》部分之論，《道經》之解久佚。為現存最早之《老子》系統詮釋，於漢代道家思想所存甚要。",
     "sources": [
