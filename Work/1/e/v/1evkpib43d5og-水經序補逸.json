@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀004458），無同名 Work 故新建。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀004458），無同名 Work 故新建。\n\nN1 著錄回填（2026-08-24）：本條之據是《國立故宮博物院善本舊籍》目錄，原只記於 description 與 ai_note 而未落成 indexed_by，故報「無著錄源亦無關聯」。今依本庫故宮條之通例（source「國立故宮博物院善本舊籍」＋統一編號入 section）補之。按：故觀004458 是《群書拾補》一部之編號，其實物已繫同批之《新唐書糾謬校補》（1evkpiavic7wg，Book 11qkhzlvajdhc），本條係同一部叢書中之另一種，故自身無 Book。**又，本條之撰人作酈道元而書實為清盧文弨補逸，period 當否從成編之世（qing），留 N3 斷代專項裁。**",
   "juan_count": {
     "number": 1
   },
@@ -30,5 +30,14 @@
   "id": "1evkpib43d5og",
   "updated_at": "2026-08-08T11:51:57+00:00",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「後魏」"
+  "period_basis": "據 authors[0].dynasty「後魏」",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "source_bid": null,
+      "title_info": "水經序補逸",
+      "summary": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀004458）。清乾隆五十五年盧氏抱經堂刊群書拾補之一。",
+      "section": "統一編號 故觀004458"
+    }
+  ]
 }
