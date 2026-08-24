@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1j96hfoox3oqo",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "楊方",
+  "works": [
+    {
+      "work_id": "1evgor4q6swe8",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {},
+  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。\n\n2026-08-24 J7(3) Entity 正名：primary_name 由「晉王芳」正為「楊方」——朝代冠首；且《補晉志》此人之書題「高涼太守楊方」並引其自序，焦竑之「王芳」是「楊方」之訛（見 J3(3)）。此與 J3(3) 作品側之壞名清理同一形（官爵／朝代／職名黏入名首、著錄語誤入名欄），作品側已正而 entity 側未同步，今補。舊形存於 aliases。",
+  "updated_at": "2026-08-02T09:07:48+00:00",
+  "aliases": [
+    {
+      "name": "晉王芳",
+      "type": "著錄原形"
+    }
+  ]
+}

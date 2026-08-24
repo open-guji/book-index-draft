@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "陳元靚",
-  "dynasty": "南朝陳",
+  "dynasty": "南宋",
   "works": [
     {
       "work_id": "1ev3baqksn400",
@@ -21,11 +21,16 @@
     {
       "work_id": "1evgq0i0tlyww",
       "role": "撰"
+    },
+    {
+      "work_id": "1evjr6g7hsjy8",
+      "role": "編"
     }
   ],
   "external_ids": {},
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "dynasty_basis": "author_propagation:round1",
-  "period": "nanbeichao",
-  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hg20z5fk0`（陳元靚，南朝陳），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "dynasty_basis": "N3（2026-08-24）：原作「南朝陳」，係著錄語「（陳元靚）」之「陳」被當作南朝陳之朝代前綴而剝離所致（南朝四代國號皆常見漢姓，本庫 known-issues〈南北朝文獻探勘〉已記此 bug 型）。陳為姓氏：《欽定四庫全書總目》《歲時廣記》條「宋陳元靚撰…則理宗時人矣」，其人南宋末建陽人。本 entity 名下四書（歲時廣記、事林廣記、纂圖增新群書類要事林廣記、博聞錄）皆南宋之作，無一例外。",
+  "period": "song",
+  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hg20z5fk0`（陳元靚，南朝陳），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。",
+  "period_basis": "N3（2026-08-24）：原作「南朝陳」，係著錄語「（陳元靚）」之「陳」被當作南朝陳之朝代前綴而剝離所致（南朝四代國號皆常見漢姓，本庫 known-issues〈南北朝文獻探勘〉已記此 bug 型）。陳為姓氏：《欽定四庫全書總目》《歲時廣記》條「宋陳元靚撰…則理宗時人矣」，其人南宋末建陽人。本 entity 名下四書（歲時廣記、事林廣記、纂圖增新群書類要事林廣記、博聞錄）皆南宋之作，無一例外。"
 }

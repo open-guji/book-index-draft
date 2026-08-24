@@ -4,9 +4,11 @@
   "title": "無上秘要存",
   "authors": [
     {
-      "name": "北周武帝宇文邕敕",
-      "role": "輯",
-      "dynasty": ""
+      "name": "宇文邕",
+      "role": "敕輯",
+      "dynasty": "",
+      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「北周武帝宇文邕敕」。《續修四庫全書》著錄語作「北周武帝宇文邕敕輯」——「北周武帝」為朝代＋帝號，「敕輯」為其役；其名宇文邕。\n\n2026-08-24 新建 entity `1jcf515129ac7` 並繫之。北周武帝之本名。《無上秘要》武帝敕撰，本條所題正其名，非廟號，故立為人。",
+      "entity_id": "1jcf515129ac7"
     }
   ],
   "indexed_by": [
@@ -37,7 +39,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。",
   "juan_count": {
     "number": 68
   },
@@ -75,10 +77,11 @@
       ]
     }
   ],
-  "updated_at": "2026-08-24T09:26:55.046868+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_image": true,
   "period_upper": "qing",
   "period_upper_basis": "collection_bound：本書收入《續修四庫全書》——其書收錄止於辛亥（1911）以前之著作，故不晚於 qing",
   "period": "nanbeichao",
-  "period_basis": "續修四庫明題「北周武帝宇文邕敕輯」，北周屬南北朝（2026-08-24 R3 引文定代）"
+  "period_basis": "續修四庫明題「北周武帝宇文邕敕輯」，北周屬南北朝（2026-08-24 R3 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evjr70dbz4lc-無上秘要存.json"
 }

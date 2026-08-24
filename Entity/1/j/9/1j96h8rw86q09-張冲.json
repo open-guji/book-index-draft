@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "張冲",
-  "dynasty": "清",
+  "dynasty": "南朝陳",
   "birth_year": 1691,
   "works": [
     {
@@ -26,6 +26,14 @@
     {
       "work_id": "1evdxnpddqy9s",
       "role": "撰"
+    },
+    {
+      "work_id": "1exbp56a79utf",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exx8gzbpzoa2",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -37,13 +45,14 @@
     ]
   },
   "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併",
+  "period": "nanbeichao",
+  "period_basis": "N3（2026-08-24）：原作 '清'。張沖（張冲）南朝陳人，隋志著《論語義疏》二卷張沖撰，《經義考》著其《孝經義》《春秋義略》。本 entity 之代原作「清」，據 CBDB c_personid 79949 而來，係同名異代誤配（與馬樞、徐文伯同型）。名下五書皆其書，無一清人之作。",
   "alt_names": [
     {
       "name": "張沖",
       "type": "異體"
     }
   ],
-  "ai_note": "2026-08-22 E1 人物併池：1j96h8rw7vhgu 併入本條。二者之名僅異體之別（張冲／張沖），朝代同，生卒年不相斥，是同一人被拆成二條。異體之名存 alt_names；CBDB 另予之 id 存 external_ids.cbdb_id_alt。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-22 E1 人物併池：1j96h8rw7vhgu 併入本條。二者之名僅異體之別（張冲／張沖），朝代同，生卒年不相斥，是同一人被拆成二條。異體之名存 alt_names；CBDB 另予之 id 存 external_ids.cbdb_id_alt。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 2 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。",
+  "dynasty_basis": "N3（2026-08-24）：原作 '清'。張沖（張冲）南朝陳人，隋志著《論語義疏》二卷張沖撰，《經義考》著其《孝經義》《春秋義略》。本 entity 之代原作「清」，據 CBDB c_personid 79949 而來，係同名異代誤配（與馬樞、徐文伯同型）。名下五書皆其書，無一清人之作。"
 }
