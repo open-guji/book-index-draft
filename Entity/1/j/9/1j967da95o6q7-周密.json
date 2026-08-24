@@ -169,6 +169,10 @@
     {
       "work_id": "1evrbhp6auzgn",
       "role": "撰"
+    },
+    {
+      "work_id": "1evr5e3med89j",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -176,6 +180,6 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.27+unique"
   },
-  "ai_note": "2026-07-26：合併重複人物 Entity 1j967bgl70k5n。周密(1232-1298)歷宋入元。 被合併方的 CBDB 對應（1j967bgl70k5n:cbdb=687382）與本條不同，疑為自動匹配誤配到同名異代人物，未併入 external_ids，僅此記錄備查。",
-  "updated_at": "2026-08-03T02:25:39+00:00"
+  "ai_note": "2026-07-26：合併重複人物 Entity 1j967bgl70k5n。周密(1232-1298)歷宋入元。 被合併方的 CBDB 對應（1j967bgl70k5n:cbdb=687382）與本條不同，疑為自動匹配誤配到同名異代人物，未併入 external_ids，僅此記錄備查。\n\n2026-08-24 剝字之名收束：本庫有一批 entity 其 primary_name 是自《清史稿藝文志》連文按二字截出者（「齊熙朱子讀書法四卷」截作「熙朱」、「宋庠…」截作「庠宋」、「宋嚴用和濟生方」截作「嚴用」），而所繫 work 之撰人欄本已正。此輩仍認領其 work 而 work 不回指，遂現於 chk〈人物→作品 單向〉。\n\n本條收《浩然齋雅談》`1evr5e3med89j` 之繫，並退役壞條 `1j96hegygez28`（primary_name「密浩」）。",
+  "updated_at": "2026-08-24T00:00:00+00:00"
 }
