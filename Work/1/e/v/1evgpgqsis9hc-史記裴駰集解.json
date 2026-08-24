@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "史記裴駰集解",
+  "authors": [
+    {
+      "name": "裴駰",
+      "role": "撰",
+      "dynasty": "南朝宋",
+      "entity_id": "1j96hf2ud9gjk"
+    }
+  ],
+  "juan_count": {
+    "number": 80
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《史記》八十卷",
+      "summary": "《史記》八十卷（宋裴駰注。）",
+      "author_info": "宋裴駰注。"
+    },
+    {
+      "source": "書目答問",
+      "source_bid": "1evr5e3m9zwpo",
+      "title_info": "史記",
+      "summary": "《史記》一百三十卷。{{晉裴駰集解，唐司馬貞索隱，唐張守節正義。汲古本、掃葉本無索隱、正義。}}",
+      "author_info": "裴駰集解"
+    },
+    {
+      "source": "宋史藝文志",
+      "source_bid": "1evcsw4kt579c",
+      "title_info": "《史記》",
+      "summary": "司馬遷《史記》一百三十卷（（裴駰等集注））又"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\nN2 併條（2026-08-24，異題同書專項）：src「史記裴駰等集注」（宋史藝文志）與本條（國史經籍志《史記》八十卷、書目答問）同指裴駰《史記集解》八十卷，撰人同、書同，異題而一書，今併。按 preflight 之同題掃描抓不到此型（題名不同），係按「撰人＋卷數」聚類所得。\n\nN2 併條（2026-08-24，異題同書專項）：正名：原題作「史記」而撰人為裴駰，與司馬遷原典（production d59…）同題易混。裴駰所撰之名，隋志作「《史記》八十卷宋南中郎外兵參軍裴駰注」、宋志作「史記裴駰等集注」、通行稱《史記集解》，今取「史記裴駰集解」為正題，諸志原題入 additional_titles。",
+  "id": "1evgpgqsis9hc",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 80
+    }
+  ],
+  "measure_info": "八十卷",
+  "related_works": [
+    {
+      "id": "d59f20aowb9c",
+      "title": "史記",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-06T22:59:42+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南朝宋」",
+  "additional_titles": [
+    "史記裴駰等集注",
+    "史記"
+  ],
+  "merged_from": [
+    "1evcua78ho8ao"
+  ]
+}

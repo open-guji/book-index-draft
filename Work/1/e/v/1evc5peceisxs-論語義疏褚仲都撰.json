@@ -15,6 +15,32 @@
       "source_bid": "1ev85yncs9ibk",
       "title_info": "《論語義疏》十卷",
       "summary": "《論語義疏》十卷褚仲都撰。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《論語講疏》十卷",
+      "summary": "《論語講疏》十卷褚仲都撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "褚仲都講疏",
+      "summary": "褚仲都講疏十卷"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "梁褚仲都論語義疏",
+      "summary": "梁褚仲都論語義疏》一卷。"
+    },
+    {
+      "source": "玉函山房輯佚書",
+      "source_bid": "1evjr68pzxog0",
+      "title_info": "論語褚氏義疏一卷",
+      "summary": "論語褚氏義疏一卷（梁褚仲都撰）　第5帙，卷46",
+      "section": "經編／論語類",
+      "juan_count": "1卷"
     }
   ],
   "juan_count": {
@@ -48,9 +74,22 @@
     }
   ],
   "updated_at": "2026-08-22T04:56:00.086649+00:00",
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《論語義疏》十卷》→《論語義疏》`1ev3ba574v5z4`。",
+  "ai_note": "2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《論語義疏》十卷》→《論語義疏》`1ev3ba574v5z4`。\n\nN2 併條（2026-08-24，異題同書專項）：src「論語講疏」十卷（舊唐書經籍志「《論語講疏》十卷褚仲都撰」）與本條（隋書經籍志「《論語義疏》十卷褚仲都撰」）題實同（義疏／講疏一書兩名）、卷同（十）、撰人同，異志而一書，今併。\n\nN2 併條（2026-08-24，異題同書專項）：src「褚仲都講疏」十卷出《新唐書藝文志》**論語類**（整理本節在論語類.json，原文「褚仲都講疏十卷」），即本條之書（隋志《論語義疏》十卷褚仲都撰）。題、卷、撰人、部類俱合，今併。與易類十六卷本各歸其主，見周易講疏條之按。\n\nN2 併條（2026-08-24，異題同書專項）：src「梁褚仲都論語義疏」一卷係《清史稿藝文志》經部四書類**輯佚**子目之條（清人輯本一卷）。輯本不另立 Work，其事由本條 fragments/ 承載，今併。\n\nN2 併條（2026-08-24，異題同書專項）：src「論語褚氏義疏」一卷是《玉函山房輯佚書》第5帙卷46 之輯本（馬國翰輯，目錄明著「梁褚仲都撰」）。輯本不另立 Work，今併，輯佚檔隨遷。\n\n併入之輯佚檔已遷入本條 fragments/：論語褚氏義疏.json（遷入）\n\nN2 loss_status（2026-08-24）：本輪併入輯本條後，本條有輯佚檔 論語褚氏義疏.json，是其文確有存世者。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判——凡有文存世即 partially_extant，一字不存方為 lost——由 None 改為 partially_extant。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「褚仲都」之 dynasty「南朝梁」傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「褚仲都」之 dynasty「南朝梁」傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "additional_titles": [
+    "論語講疏",
+    "褚仲都講疏",
+    "梁褚仲都論語義疏",
+    "論語褚氏義疏"
+  ],
+  "merged_from": [
+    "1evcpcup81ips",
+    "1evcs09wpwm4g",
+    "1evr5e3m7t8yr",
+    "1ewsa4ah7jshr"
+  ],
+  "loss_status": "partially_extant"
 }

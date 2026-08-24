@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "後漢書劉昭補注",
+  "authors": [
+    {
+      "name": "劉昭補",
+      "role": "撰",
+      "dynasty": "梁",
+      "entity_id": "1j96hfq9dhtkw"
+    }
+  ],
+  "juan_count": {
+    "number": 58
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《後漢書》五十八卷",
+      "summary": "《後漢書》五十八卷（梁劉昭補注。）",
+      "author_info": "梁劉昭補注。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《後漢書》五十八卷劉昭補注。",
+      "summary": "《後漢書》五十八卷劉昭補注。"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-24 兩漢收束：解除與班固《漢書》d59f1iqd854w 之關聯——原係題名子串（「漢書」）誤捕，本書非漢書之衍生。\n\nN2 併條（2026-08-24，異題同書專項）：src「後漢書劉昭補注」（舊唐書經籍志《後漢書》五十八卷劉昭補注）與本條（國史經籍志《後漢書》五十八卷）題實同、卷同（五十八）、撰人同（劉昭），異志而一書，今併。\n\nN2 併條（2026-08-24，異題同書專項）：正名：原題作「後漢書」而所繫之人為劉昭（補注者），與范曄原典（1ev3c1fi6kdmo）同題易混。取舊唐書經籍志之著錄形「後漢書劉昭補注」為正題，原題入 additional_titles。",
+  "id": "1evgpgsfatzwg",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 58
+    }
+  ],
+  "measure_info": "五十八卷",
+  "related_works": [
+    {
+      "id": "1ev3c1fi6kdmo",
+      "title": "後漢書",
+      "relation": "contains_text_of"
+    },
+    {
+      "id": "1evdx9174f0n4",
+      "title": "劉昭補注後漢書",
+      "relation": "related",
+      "note": "同書之重出。本條題《後漢書劉昭補注》（書名在前），彼條題《劉昭補注後漢書》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
+    }
+  ],
+  "updated_at": "2026-07-29T13:46:48+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "additional_titles": [
+    "後漢書劉昭補注",
+    "後漢書"
+  ],
+  "merged_from": [
+    "1evcua6wyilts"
+  ]
+}
