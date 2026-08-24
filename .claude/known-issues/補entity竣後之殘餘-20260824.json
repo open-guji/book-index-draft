@@ -1,650 +1,4484 @@
 {
-  "_說明": "補 entity 竣事之後，authors[] 尚無 entity_id 者。其名仍存於 authors[].name，不因未繫而失。凡十類，各記其所以未繫。",
+  "_說明": "補 entity 竣事之後，authors[] 尚無 entity_id 者。其名仍存於 authors[].name，不因未繫而失。凡八類，各記其所以未繫。",
   "_日期": "2026-08-24",
-  "_條目數": 958,
-  "_異名數": 605,
-  "一·庫中同名多人，三事（撰人朝代／period／上限）皆不足以定其一": {
-    "_件數": 51,
-    "件": [
-      "何承天",
-      "俞琰",
-      "劉孝孫",
-      "劉宏",
-      "劉彧",
-      "劉炳",
-      "劉肅",
-      "吳雲",
-      "呂博",
-      "周氏",
-      "宋均",
-      "崔浩",
-      "張方",
-      "張燾",
-      "張綱",
-      "張綸",
-      "張載",
-      "張鑑",
-      "方鳳",
-      "李充",
-      "李康",
-      "李廣",
-      "李恕",
-      "李泰",
-      "李清",
-      "李舜臣",
-      "李賢",
-      "李顒",
-      "杜光庭",
-      "楊偉",
-      "樂產",
-      "王弼",
-      "王時敏",
-      "王洙",
-      "王珣",
-      "王肅",
-      "王褒",
-      "王逢",
-      "王道",
-      "王鎡",
-      "皇侃",
-      "胡旦",
-      "胡訥",
-      "葛洪",
-      "虞翻",
-      "許淑",
-      "趙文",
-      "趙湘",
-      "陳深",
-      "陳經",
-      "黃鶴"
-    ]
+  "_條目數": 524,
+  "_異名數": 355,
+  "_按": "「二甲」一類最須留意——其代晚於本書者未必相斥，後人校輯注評前人之書乃常事（如清盧文弨校唐韋應物集）。欲進，須逐條別其為校輯抑或同名異人。",
+  "一·同名多人，三事皆不足以定其一": {
+    "_件數": 61,
+    "件": {
+      "何承天": [
+        {
+          "work_id": "1evcpcv0c7r40",
+          "title": "纂文",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "俞琰": [
+        {
+          "work_id": "1evjr7elqyio0",
+          "title": "林屋山人漫藳附錄",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "劉孝孫": [
+        {
+          "work_id": "1evcpd926whz4",
+          "title": "古今類序詩苑",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "劉宏": [
+        {
+          "work_id": "1evcs116c4mww",
+          "title": "小集",
+          "period": "nanbeichao",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "劉實": [
+        {
+          "work_id": "1ev3bcf5hfoqo",
+          "title": "敏求機要",
+          "period": "song",
+          "period_upper": null,
+          "role": "舊題撰"
+        },
+        {
+          "work_id": "1evcpcu1f73ls",
+          "title": "春秋左氏條例",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "劉彧": [
+        {
+          "work_id": "1evcpcxxag64g",
+          "title": "長沙舊邦傳贊",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "劉欽": [
+        {
+          "work_id": "1evcpd1qqx9mo",
+          "title": "劉欽新義",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "劉氏": [
+        {
+          "work_id": "1evcsyk17h5hc",
+          "title": "五藏旁通遵（（一作“導”））養方",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxyp1e0w0",
+          "title": "耳目記",
+          "period": "five-dynasties",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcml1pt91j4",
+          "title": "江圖",
+          "period": "nanbeichao",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsy7b3sa2o",
+          "title": "三曆會同",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "劉炳": [
+        {
+          "work_id": "1evke26ybwwsg",
+          "title": "任邱縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "劉球": [
+        {
+          "work_id": "1evcsxe9a3ytc",
+          "title": "劉鄜王事實",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjy4vf0vjls",
+          "title": "隸韻十卷碑目",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "劉肅": [
+        {
+          "work_id": "1evcsx9eydtkw",
+          "title": "唐新語",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "吳雲": [
+        {
+          "work_id": "1ewywfxayaebp",
+          "title": "天文志雜占",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmndxkvx1c",
+          "title": "天文志",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd2b95ibk",
+          "title": "天文雜占",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "呂博": [
+        {
+          "work_id": "1evcsyi3axy4g",
+          "title": "金縢玉匱針經",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "周氏": [
+        {
+          "work_id": "1exa59eazt99z",
+          "title": "論語解",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "宋均": [
+        {
+          "work_id": "1evcpcuqt5y4g",
+          "title": "禮緯",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        },
+        {
+          "work_id": "1evcs09y7lfk0",
+          "title": "易緯宋均注",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        },
+        {
+          "work_id": "1evcpcur5nfuo",
+          "title": "春秋緯",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        },
+        {
+          "work_id": "1evgoquwphfcw",
+          "title": "孝經緯",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        }
+      ],
+      "崔浩": [
+        {
+          "work_id": "1evcpd2hudv5s",
+          "title": "曆疏",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "張方": [
+        {
+          "work_id": "1exv6zcab41gr",
+          "title": "夏時考異",
+          "period": null,
+          "period_upper": "song",
+          "role": null
+        }
+      ],
+      "張洪": [
+        {
+          "work_id": "1evr5e3mezpi5",
+          "title": "項氏家說附錄",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張燾": [
+        {
+          "work_id": "1evkpvysvc7pc",
+          "title": "津門雜記",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張綱": [
+        {
+          "work_id": "1evcsxc8z40zk",
+          "title": "列聖孝治類編",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張綸": [
+        {
+          "work_id": "1exof2bsy1odn",
+          "title": "四書原",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "張載": [
+        {
+          "work_id": "1evcsxokxdlvk",
+          "title": "正蒙書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張鑑": [
+        {
+          "work_id": "1evgpihp48av4",
+          "title": "宋東宮儀記",
+          "period": "nanbeichao",
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "張預": [
+        {
+          "work_id": "1evcsycu0g7b4",
+          "title": "集注百將傳",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "方鳳": [
+        {
+          "work_id": "1evkq0bumtv5s",
+          "title": "青城縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "朱朴": [
+        {
+          "work_id": "1evcs16azmf40",
+          "title": "朱朴詩",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李充": [
+        {
+          "work_id": "1evcpd158sqgw",
+          "title": "釋莊子論",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "李康": [
+        {
+          "work_id": "1evr5e3mhhlqf",
+          "title": "玉臺後集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsx9dufg1s",
+          "title": "唐明皇政錄",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李廣": [
+        {
+          "work_id": "1evcsxsw12mtc",
+          "title": "中指真訣",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsydz0woow",
+          "title": "射評要錄",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李恕": [
+        {
+          "work_id": "1ex23fz0j0m2y",
+          "title": "五經㫄注",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exitfbz3m5s2",
+          "title": "書旁注",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exi2cjxq81e2",
+          "title": "孟子旁注",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evjqxqpzz9c0",
+          "title": "易經旁訓",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李泰": [
+        {
+          "work_id": "1evcs0kawmscg",
+          "title": "括地志",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李清": [
+        {
+          "work_id": "1exwrwp27g7u2",
+          "title": "中庸章句詳説",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evjr0jvkbrpc",
+          "title": "三垣筆記補遺附識附識補遺",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr3bjqs5j4",
+          "title": "折獄新語",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李舜臣": [
+        {
+          "work_id": "1exoobnqunq95",
+          "title": "詩序考",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex4skelv8ot0",
+          "title": "五經字義",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex9d2egokr4c",
+          "title": "家塾編次論語",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exlrbcg8owmy",
+          "title": "羣經義",
+          "period": "song",
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1exscxr0iw6v8",
+          "title": "尚書小傳",
+          "period": "song",
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1evcmttw62ccg",
+          "title": "江東十鑑",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李賢": [
+        {
+          "work_id": "1exswx6otzyxb",
+          "title": "讀詩記",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "李顒": [
+        {
+          "work_id": "1exu2bvm47owq",
+          "title": "周易卦象數㫖",
+          "period": "jin",
+          "period_upper": "nanbeichao",
+          "role": null
+        },
+        {
+          "work_id": "1evcpct0pkbnk",
+          "title": "古文尚書",
+          "period": "jin",
+          "period_upper": "sui-tang",
+          "role": "集注"
+        }
+      ],
+      "杜光庭": [
+        {
+          "work_id": "1evcsxsenuark",
+          "title": "二十四化詩",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsx9zva7sw",
+          "title": "帝王年代州郡長曆",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsyfcw2gow",
+          "title": "曆代忠諫書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxpjkeo00",
+          "title": "道德經廣聖義疏",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxyr9x91c",
+          "title": "虯須客傳",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "楊偉": [
+        {
+          "work_id": "1ewsovsj5jxfn",
+          "title": "桑丘先生書",
+          "period": "jin",
+          "period_upper": "jin",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcszao12a68",
+          "title": "虢郡文齊集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evgphkzgnwn4",
+          "title": "三朝訓鑑圖",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmne8z1qtc",
+          "title": "景初曆",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "樂產": [
+        {
+          "work_id": "1evcpd2uquzgg",
+          "title": "王佐秘珠",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd3bhm8e8",
+          "title": "神樞靈轄",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "王俅": [
+        {
+          "work_id": "1evkpid5r248w",
+          "title": "春渚紀聞補闕",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王弼": [
+        {
+          "work_id": "1evcpcun4tbsw",
+          "title": "論語釋疑",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王時敏": [
+        {
+          "work_id": "1ex33eqsoe5lq",
+          "title": "四書說",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evjr4unmrh1c",
+          "title": "王奉常書畫題跋",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王曉": [
+        {
+          "work_id": "1evgq0f6oifwg",
+          "title": "典要",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王洙": [
+        {
+          "work_id": "1evcs0syhcc1s",
+          "title": "青囊括",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "王珣": [
+        {
+          "work_id": "1evcpd6jc7y80",
+          "title": "王珣集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王綸": [
+        {
+          "work_id": "1evcsz371xn9c",
+          "title": "瑤台集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王肅": [
+        {
+          "work_id": "1evcpct279534",
+          "title": "尚書釋駁",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpct7bqe4g",
+          "title": "毛詩雜義駁",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpct7hnwg0",
+          "title": "毛詩問難",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpct21bmrk",
+          "title": "尚書答問",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        }
+      ],
+      "王褒": [
+        {
+          "work_id": "1ewywfxc51wqy",
+          "title": "象經",
+          "period": "nanbeichao",
+          "period_upper": null,
+          "role": "注"
+        },
+        {
+          "work_id": "1evcsxs18mxvk",
+          "title": "桐柏真人王君外傳",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王逢": [
+        {
+          "work_id": "1exfjxrte99cf",
+          "title": "復書",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "王道": [
+        {
+          "work_id": "1exajflxcq3x4",
+          "title": "詩億",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evcsyk8y82kg",
+          "title": "外台秘要乳石方",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王鎡": [
+        {
+          "work_id": "1exlzcwxg3nft",
+          "title": "易象寳鑑",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "皇侃": [
+        {
+          "work_id": "1evcpctfvtm9s",
+          "title": "喪服文句義",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "胡旦": [
+        {
+          "work_id": "1exykr764yflk",
+          "title": "毛詩演聖論",
+          "period": "song",
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1evr5e3mfaxzd",
+          "title": "漢春秋問答",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxak0ehog",
+          "title": "五代史略",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsyg3qsf0g",
+          "title": "將帥要略",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsw4uay22o",
+          "title": "易演聖通論",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsx9kopon4",
+          "title": "唐乘",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsw9l2owlc",
+          "title": "演聖通論",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "胡訥": [
+        {
+          "work_id": "1exs63xo22zpq",
+          "title": "春秋榖梁傳集解",
+          "period": null,
+          "period_upper": "nanbeichao",
+          "role": null
+        },
+        {
+          "work_id": "1evcsxdu8j8cg",
+          "title": "孝行錄",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "葛洪": [
+        {
+          "work_id": "1evcsyiclvkzk",
+          "title": "肘後備急百一方",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evr5e3mgv4mg",
+          "title": "葛仙翁序",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxs2zdn28",
+          "title": "金木萬靈訣",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "虞翻": [
+        {
+          "work_id": "1evcmnfmbha80",
+          "title": "易律曆",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsy2mfw3k0",
+          "title": "京房周易律曆",
+          "period": null,
+          "period_upper": "song",
+          "role": "注"
+        }
+      ],
+      "許淑": [
+        {
+          "work_id": "1exebpgt7c2to",
+          "title": "左氏傳注解",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "趙文": [
+        {
+          "work_id": "1evjxkmrb1zi8",
+          "title": "建陽縣誌",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "趙湘": [
+        {
+          "work_id": "1evcsxx1rjri8",
+          "title": "補政忠言",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "陳深": [
+        {
+          "work_id": "1ex6bsroqkikr",
+          "title": "春秋然疑",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "陳經": [
+        {
+          "work_id": "1exwl45vothgn",
+          "title": "詩經講義",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "黃鶴": [
+        {
+          "work_id": "1evjr7657efi8",
+          "title": "黃氏集千家注杜工部詩史補遺",
+          "period": "song",
+          "period_upper": "song",
+          "role": "集註"
+        }
+      ]
+    }
   },
-  "七·帝號廟號后妃": {
-    "_件數": 21,
-    "件": [
-      "世宗",
-      "世宗朱厚熜",
-      "世祖",
-      "仁宗",
-      "代宗朱祁鈺",
-      "太宗",
-      "太祖朱元璋",
-      "宣宗朱瞻基",
-      "德宗",
-      "徽宗",
-      "文宗",
-      "文帝",
-      "明成祖永樂",
-      "武帝集朝臣",
-      "清聖祖玄燁",
-      "清高宗弘曆",
-      "真宗",
-      "穆宗",
-      "西梁孝明帝",
-      "高宗",
-      "高宗弘曆敕"
-    ]
+  "七·字元之殘／名有缺字": {
+    "_件數": 12,
+    "件": {
+      "[某]": [
+        {
+          "work_id": "1evfuvcxycm4g",
+          "title": "[某]集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "徐&amp;": [
+        {
+          "work_id": "1evjxkdaj169s",
+          "title": "榕陰新檢",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "朱當&amp;": [
+        {
+          "work_id": "1evjxl331nwg0",
+          "title": "改元考",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李國&amp;": [
+        {
+          "work_id": "1evjxnp3qbtog",
+          "title": "李文敏公遺集定本",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "林庭&amp;": [
+        {
+          "work_id": "1evjxpkgh505c",
+          "title": "江西通志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "沈&amp;": [
+        {
+          "work_id": "1evjxl5bcrvnk",
+          "title": "南船紀",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjxkrpg4jr4",
+          "title": "吳江水考",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王&amp;": [
+        {
+          "work_id": "1evjxn0znzmrk",
+          "title": "王文肅公集",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王[某]": [
+        {
+          "work_id": "1evfuvarown40",
+          "title": "王[某]集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "祁承[火+業]": [
+        {
+          "work_id": "1evjr0fhb0d1c",
+          "title": "宋西事案",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "祁承囗藏並": [
+        {
+          "work_id": "1evjr2s71ey2o",
+          "title": "澹生堂藏書目藏書約庚申整書小記庚申整書例略",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "謝[某]": [
+        {
+          "work_id": "1evfuv611ucqo",
+          "title": "謝[某]集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "顧&amp;": [
+        {
+          "work_id": "1evjxl0wygoao",
+          "title": "海槎餘錄",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ]
+    }
   },
   "三·匿名之語": {
-    "_件數": 22,
-    "件": [
-      "不著傳人",
-      "不著撰人，[元]李士傑",
-      "不著撰者",
-      "不著編人",
-      "不著編人，[清]洪錫璜",
-      "不著選輯人",
-      "不詳",
-      "不詳纂修人",
-      "不詳，[清]焦應旂",
-      "囗佚名",
-      "季名未詳",
-      "施名未詳",
-      "明不著編人",
-      "未詳",
-      "林名未詳",
-      "楊名未詳",
-      "樊名未詳",
-      "洪名未詳",
-      "王名未詳",
-      "纂修人名氏不詳",
-      "耿名未詳",
-      "魯川胡名未詳"
-    ]
+    "_件數": 19,
+    "件": {
+      "不著傳人": [
+        {
+          "work_id": "1evkpquzf5atc",
+          "title": "魁本排字通併禮部韻注",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpyw80r7y8",
+          "title": "秘傳眼科龍木總論",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "不著撰者": [
+        {
+          "work_id": "1evkpvans60ow",
+          "title": "歷代女才子手簡",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpw7i3zbpc",
+          "title": "新鐫古本批評繡像三世報隔簾花影",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpwgxtapkw",
+          "title": "增入諸儒議論杜氏通典詳節",
+          "period": null,
+          "period_upper": "liao-jin-yuan",
+          "role": "撰"
+        }
+      ],
+      "不著編人": [
+        {
+          "work_id": "1evkpqwqcegw0",
+          "title": "順治十一年順天府鄉試中式題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkq4f2dnbwg",
+          "title": "胡先生陰陽備用",
+          "period": null,
+          "period_upper": "liao-jin-yuan",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqx5x0ohs",
+          "title": "順治十二年中式武舉題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpypm68j5s",
+          "title": "東大寺獻物帳",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqx0oskxs",
+          "title": "順治十七年順天府武鄉試題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqwaljif4",
+          "title": "順治十二年會試中式題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqxlh0f0g",
+          "title": "二十八經同函",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkq43f42dj4",
+          "title": "晦庵先生朱文公語錄",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqxb2qvpc",
+          "title": "順治十五年中式武舉題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqu8sjim8",
+          "title": "金華菴案牘新編",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqnpaxdkw",
+          "title": "大清縉紳全書",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpqwfqc000",
+          "title": "順治十七年中式武舉題名",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpw4p3rvuo",
+          "title": "歷代畫像傳",
+          "period": null,
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpygn6qolc",
+          "title": "大藏目錄",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "不著選輯人": [
+        {
+          "work_id": "1ev3belna08ao",
+          "title": "詩家鼎臠",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "不詳": [
+        {
+          "work_id": "1evkpuilxwjr4",
+          "title": "舊刊新疆輿圖",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpuigit88w",
+          "title": "西夏歷代沿革志",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpujdygav4",
+          "title": "溫宿府鄉土志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpuj8if9q8",
+          "title": "新疆陝甘奏稿",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpuib180e8",
+          "title": "西夏志略",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpugpod728",
+          "title": "烏里雅蘇台志略",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "不詳纂修人": [
+        {
+          "work_id": "1evkq0ihuct8g",
+          "title": "河陰縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpz4bhwohs",
+          "title": "敦煌縣志",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpz4jpieww",
+          "title": "玉門縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "囗佚名": [
+        {
+          "work_id": "1evjr28l7cum8",
+          "title": "常稅則例",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr1y5v445c",
+          "title": "最新清國文武官制表",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        }
+      ],
+      "季名未詳": [
+        {
+          "work_id": "1exivwm328nc3",
+          "title": "古文孝經指解詳説",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "施名未詳": [
+        {
+          "work_id": "1exfcn2xzo69g",
+          "title": "周易辨疑",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "明不著編人": [
+        {
+          "work_id": "1evkpwiemwetc",
+          "title": "唐十大家集",
+          "period": "ming",
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "未詳": [
+        {
+          "work_id": "1evinab0k5ybk",
+          "title": "論語說",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evfubsd85tkw",
+          "title": "孝經注",
+          "period": "jin",
+          "period_upper": null,
+          "role": "注"
+        },
+        {
+          "work_id": "1evinab4p25fk",
+          "title": "孟子解",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evinab1x67ls",
+          "title": "論語傳",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "林名未詳": [
+        {
+          "work_id": "1ex4s3rkn6n8k",
+          "title": "齊人歸魯侵田説",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex2fj2ls2jup",
+          "title": "不郊猶三望説",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "楊名未詳": [
+        {
+          "work_id": "1exh3g1mxk9qw",
+          "title": "春秋質疑",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "樊名未詳": [
+        {
+          "work_id": "1ex7fb4rzvira",
+          "title": "易麈",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "洪名未詳": [
+        {
+          "work_id": "1exyso27y5urq",
+          "title": "四書說約",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex1lluxey573",
+          "title": "周易翼義",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "王名未詳": [
+        {
+          "work_id": "1exw5zghaxhro",
+          "title": "春秋左翼",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex5w90cs4t9r",
+          "title": "洪範讜義",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "纂修人名氏不詳": [
+        {
+          "work_id": "1evkpz518o9a8",
+          "title": "會寧縣志",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "耿名未詳": [
+        {
+          "work_id": "1exbxgxo2esjq",
+          "title": "述古易",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "魯川胡名未詳": [
+        {
+          "work_id": "1ex2ldmpqm2er",
+          "title": "中庸大學說要",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        }
+      ]
+    }
   },
-  "九·標點或拉丁（多人連書或夾注）": {
-    "_件數": 94,
-    "件": [
-      "(題唐)溫庭筠",
-      "(題宋)陳應行",
-      "Aggadhammalankara",
-      "Ariyavamsa",
-      "Mahakassapa",
-      "Nandamālā",
-      "akkhiṇāvaṁ Sayadew Ashin Ariyālaṅkāra",
-      "仇遠(清)顧維岳",
-      "仇遠撰(清)鮑廷博",
-      "伏滔、袁豹、謝靈運等",
-      "俞鼎、俞經",
-      "傅山撰(清)丁寶銓",
-      "僧；惟勁",
-      "全祖望撰(清)史夢蛟",
-      "劉氏、周氏等",
-      "劉逢祿撰(清)劉承寬",
-      "卓人月(明)徐士俊",
-      "吳偉業撰(清)靳榮藩",
-      "吳德旋撰(清)呂璜",
-      "周密撰(清)江昱疏證",
-      "周邦彥撰(宋)陳元龍",
-      "唐寅撰(明)何大成",
-      "喬吉撰(明)李開先",
-      "孫銳撰(元)趙時遠",
-      "尹喜、張林亭",
-      "張可久撰(清)勞平甫",
-      "張惠言輯(清)董毅續",
-      "張楚叔(明)張旭初",
-      "張炎撰(清)江昱疏證",
-      "張為撰(清)袁甯珍",
-      "張綖撰(明)謝天瑞",
-      "張逸、楊諤",
-      "徐&amp;",
-      "徐慶卿輯(清)李玉更定",
-      "徐慶卿輯(清)鈕少雅訂",
-      "徐渭撰(明)袁宏道評點",
-      "徐渭撰(清)徐沁",
-      "戴覺、李丁",
-      "戴震撰(清)段玉裁撰札記",
-      "曾季霾撰(清)胡珽撰(清)董金鑑",
-      "朱彜尊撰(清)姚祖恩",
-      "朱彝尊撰(清)李富孫",
-      "朱當&amp;",
-      "李國&amp;",
-      "李書雲輯(清)朱素臣",
-      "李燾、洪邁",
-      "李璟(南唐)李煜",
-      "杜應芳(明)胡承詔",
-      "林庭&amp;",
-      "柳是撰(清)袁瑛",
-      "楊維楨撰(清)樓卜瀍",
-      "沈&amp;",
-      "沈麐撰(清)沈自晉重定",
-      "湯顯祖撰(明)徐渭評",
-      "王&amp;",
-      "王士禛撰(清)張宗柟",
-      "王實甫(元)關漢卿",
-      "王曇撰(清)徐渭仁",
-      "王柏心撰(清)彭崧毓",
-      "王英撰(明)王祐",
-      "王著，[明]張鶴鳴",
-      "王豫(清)阮亨",
-      "王錫純輯(清)李秀雲拍正",
-      "田鎬、尹植",
-      "盛昱撰(清)楊鍾羲",
-      "祁彪佳撰(清)魏畊校定",
-      "祝誠撰(清)胡珽撰(清)董金鑑",
-      "聶先(清)曾王孫",
-      "臧懋循輯(明)陶宗儀",
-      "蔡松年撰(金)魏道明",
-      "薩都拉撰(清)薩龍光編",
-      "許槤評選(清)黎經誥",
-      "譚元春撰(明)徐汧評(明)張澤評",
-      "趙�A",
-      "邵亨貞撰(明)汪稷",
-      "邵�A久",
-      "鄒祗謨(清)王士禛",
-      "釋不空，元",
-      "釋寒山子,元",
-      "錢泰吉撰(清)錢應溥",
-      "錢謙益撰(清)錢曾箋",
-      "鍾惺撰(明)陸雲龍評",
-      "鐘惺選(明李光祚",
-      "阮元(清)楊秉初",
-      "陸長庚（誤指元代道士）",
-      "韓絳、吳充",
-      "顧&amp;",
-      "顧從敬、錢允治輯(明)錢允治、陳仁錫箋釋",
-      "顧炎武撰(清)徐嘉",
-      "顧貞觀(清)納蘭性德",
-      "黃宗羲撰(清)全祖望",
-      "黃景仁撰(清)黃志述撰考異附錄",
-      "，一名",
-      "，又"
-    ]
+  "二乙·其代早於本書或逾其上限——疑同名異人": {
+    "_件數": 86,
+    "件": {
+      "丘浚": [
+        {
+          "work_id": "1evcsywihefwg",
+          "title": "觀時感事詩",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "何楷": [
+        {
+          "work_id": "1evcpd1shz7cw",
+          "title": "何子",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "倪濤": [
+        {
+          "work_id": "1evcsyz9nqt4w",
+          "title": "玉溪集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "傅岩": [
+        {
+          "work_id": "1evcsxmyhi4n4",
+          "title": "鄖城志",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "傅氏": [
+        {
+          "work_id": "1ev7xkhozu9z4",
+          "title": "老子傅氏經說",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "撰"
+        }
+      ],
+      "元淮": [
+        {
+          "work_id": "1evke1qrrywow",
+          "title": "柘城縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "劉佑": [
+        {
+          "work_id": "1evcmndhqwl4w",
+          "title": "陰策",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "劉傳": [
+        {
+          "work_id": "1evjqzkgjnls0",
+          "title": "漢魏石經考",
+          "period": "qing",
+          "period_upper": null,
+          "role": "傳"
+        }
+      ],
+      "劉濟": [
+        {
+          "work_id": "1evcsyg1jtdkw",
+          "title": "九經類議（（一作“義”））",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "劉霖": [
+        {
+          "work_id": "1evkpz5ztinls",
+          "title": "隨州志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "司馬光": [
+        {
+          "work_id": "1evcsxbsz76rk",
+          "title": "日錄",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "吳文英": [
+        {
+          "work_id": "1evjqywczqeww",
+          "title": "壽櫟廬儀禮奭固禮事圖",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "吳氏": [
+        {
+          "work_id": "1evcsz1w1s6io",
+          "title": "符川集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "吳炳": [
+        {
+          "work_id": "1evkpnod54lxc",
+          "title": "應州續志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        },
+        {
+          "work_id": "1evkpl5es88hs",
+          "title": "宜川縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        },
+        {
+          "work_id": "1evkpmr4hyi2o",
+          "title": "隴州續志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "呂佐周": [
+        {
+          "work_id": "1evcsy8qmkdts",
+          "title": "地論七曜",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "周武": [
+        {
+          "work_id": "1evcsw92yaxa8",
+          "title": "正義",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "周鼎": [
+        {
+          "work_id": "1evjr5cpa3shs",
+          "title": "餐菊齋棋評",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "孫洙": [
+        {
+          "work_id": "1evcsz96kzhts",
+          "title": "褒恤雜錄",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcszawsbytc",
+          "title": "褒題集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張元": [
+        {
+          "work_id": "1evcsw57eaebk",
+          "title": "周易發題",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張先": [
+        {
+          "work_id": "1evkphm1eb56o",
+          "title": "張子野詞二卷補遺",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkphn9ly70g",
+          "title": "貞居詞一卷補遺",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張光祖": [
+        {
+          "work_id": "1evkpyzzi27ls",
+          "title": "南陽縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "張晉": [
+        {
+          "work_id": "1evcsy2n3xdds",
+          "title": "周易繚繞詞",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張端": [
+        {
+          "work_id": "1evcsxu3s63uo",
+          "title": "金液還丹悟真篇",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "張鼎": [
+        {
+          "work_id": "1evjqydnh1s00",
+          "title": "易漢學舉要訂誤",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "徐毅": [
+        {
+          "work_id": "1evjr5h1big3k",
+          "title": "歙硯輯考",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "施惠": [
+        {
+          "work_id": "1evkpm3yghips",
+          "title": "宜興荊谿縣新志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "易靜": [
+        {
+          "work_id": "1evcsybqmoc1s",
+          "title": "神機武略歌",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "曹鄴": [
+        {
+          "work_id": "1evkpikvgtyps",
+          "title": "祠部郎中曹鄴詩集",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李思聰": [
+        {
+          "work_id": "1evcsxu3gxkao",
+          "title": "道門三界詠",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李瑾": [
+        {
+          "work_id": "1evke2fbpum80",
+          "title": "涇州志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "李若水": [
+        {
+          "work_id": "1ev3d6eary1og",
+          "title": "忠愍集",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李遂": [
+        {
+          "work_id": "1evcsy5ous0sg",
+          "title": "通玄三命論",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李遠": [
+        {
+          "work_id": "1evr5e3mj1sfk",
+          "title": "青唐錄",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李鎮": [
+        {
+          "work_id": "1evgpgr2w435s",
+          "title": "史記",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "梁棟": [
+        {
+          "work_id": "1evkpnwkifmdc",
+          "title": "含山縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "楊名": [
+        {
+          "work_id": "1evcsyfkt24n4",
+          "title": "廣（（一作“唐”））略新書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "楊希範": [
+        {
+          "work_id": "1exz0wj8p7yol",
+          "title": "左氏摘元",
+          "period": null,
+          "period_upper": "song",
+          "role": null
+        }
+      ],
+      "楊椿": [
+        {
+          "work_id": "1evcsz0mdp9fk",
+          "title": "芸室文集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "楊浚": [
+        {
+          "work_id": "1evgphn2ojkzk",
+          "title": "聖典",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "毛憲": [
+        {
+          "work_id": "1evcsxm6byku8",
+          "title": "信安志",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "毛文晏": [
+        {
+          "work_id": "1evcsysjhrxts",
+          "title": "昌城後寓集",
+          "period": "five-dynasties",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "江本": [
+        {
+          "work_id": "1evcsyaufcykg",
+          "title": "一位算法",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "汪楫": [
+        {
+          "work_id": "1evcsxgq2t9ts",
+          "title": "鄉飲規約",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "汪藻": [
+        {
+          "work_id": "1evke3mcl2scg",
+          "title": "繡蝶盦詞鈔",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "沈彬": [
+        {
+          "work_id": "1evr5e3mhsuaa",
+          "title": "沈彬詩",
+          "period": "five-dynasties",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjxn0j9pvk0",
+          "title": "沈蘭軒集",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "沈括": [
+        {
+          "work_id": "1evcsxzu75ji8",
+          "title": "筆談",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "溫庭筠": [
+        {
+          "work_id": "1evcsyfphm9z4",
+          "title": "學海",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王元正": [
+        {
+          "work_id": "1evr5e3mgv4p6",
+          "title": "出生入死法",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxstqnzeo",
+          "title": "清虛子龍虎丹",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王叔和": [
+        {
+          "work_id": "1evkam8s5dxq8",
+          "title": "鍥王氏秘傳叔和圖注釋義脈訣評林捷徑統宗",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王庭": [
+        {
+          "work_id": "1evcsz1ujgw00",
+          "title": "雲壑集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王弘": [
+        {
+          "work_id": "1evjr5wdevrwg",
+          "title": "山志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王彥威": [
+        {
+          "work_id": "1evjr0m1ww45c",
+          "title": "西巡大事記",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王彬": [
+        {
+          "work_id": "1evkpkx820s8w",
+          "title": "海鹽縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        },
+        {
+          "work_id": "1evkq10tvc6ww",
+          "title": "江山縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "王愷": [
+        {
+          "work_id": "1evkpn0pzh69s",
+          "title": "遂昌縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "王氏": [
+        {
+          "work_id": "1evd2f9wr5wxs",
+          "title": "農家王氏",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmncvxjif4",
+          "title": "四時錄",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpcv4d1v5s",
+          "title": "文字要說",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "注"
+        }
+      ],
+      "王澄": [
+        {
+          "work_id": "1evcsy7kun0n4",
+          "title": "陰陽二宅集要",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsy6cr21vk",
+          "title": "二宅心鑑",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王濟": [
+        {
+          "work_id": "1evjrbab50m4g",
+          "title": "連環記",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evke3ub8zjeo",
+          "title": "扶荔生覆瓿集",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王珍": [
+        {
+          "work_id": "1evcml3igmfpc",
+          "title": "劉君內記",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "王瓘": [
+        {
+          "work_id": "1evcsx99kuosg",
+          "title": "廣軒轅本紀",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxmc9s4xs",
+          "title": "北道刊誤志",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王行": [
+        {
+          "work_id": "1ewom0lt5clj7",
+          "title": "王行孝經說",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsw9144m4g",
+          "title": "孝經同異",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王起": [
+        {
+          "work_id": "1evke4n1j6znk",
+          "title": "淨綠軒詞",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王述之": [
+        {
+          "work_id": "1evgopxfb1mv4",
+          "title": "春秋左氏經傳解",
+          "period": "qing",
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "王錡": [
+        {
+          "work_id": "1evcsxxhspjwg",
+          "title": "動書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsw4yaj7y8",
+          "title": "周易口訣",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "范氏": [
+        {
+          "work_id": "1ewui7y1rg5xf",
+          "title": "擬周易說",
+          "period": null,
+          "period_upper": "nanbeichao",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evc5p8nfcrgg",
+          "title": "周易音范氏撰",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "董史": [
+        {
+          "work_id": "1evke47wbo35s",
+          "title": "漸齋詩鈔",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "董子平": [
+        {
+          "work_id": "1evcsy40mlnnk",
+          "title": "太陰三命秘訣",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "許氏": [
+        {
+          "work_id": "1evcmne4j88ow",
+          "title": "夏氏日旁氣",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "謝氏": [
+        {
+          "work_id": "1ex0e1hlur7k9",
+          "title": "禮記音義隱",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpk0302xa8",
+          "title": "謝氏毛詩譜鈔",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcml3pon474",
+          "title": "鬼神列傳",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "賀氏": [
+        {
+          "work_id": "1evcpd8qvv1mo",
+          "title": "會稽先賢贊",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcml2ykva4g",
+          "title": "會稽先賢像贊",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpcxuohqm8",
+          "title": "會稽太守像贊",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "趙氏": [
+        {
+          "work_id": "1evcmndgh0pa8",
+          "title": "兵書要序",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1ev7xkigu5a80",
+          "title": "趙氏",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "撰"
+        }
+      ],
+      "趙起": [
+        {
+          "work_id": "1evke4hn4ugw0",
+          "title": "約園詞稿",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "郭昭度": [
+        {
+          "work_id": "1evgpmxi7248w",
+          "title": "治書",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "郭璞": [
+        {
+          "work_id": "1evke64zy68zk",
+          "title": "山海經箋疏",
+          "period": "qing",
+          "period_upper": null,
+          "role": "注"
+        }
+      ],
+      "鄭僑": [
+        {
+          "work_id": "1evkpnumjeio0",
+          "title": "上虞縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "鄭居中": [
+        {
+          "work_id": "1evkpu8jl9b0g",
+          "title": "府谷縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "釋智海": [
+        {
+          "work_id": "1evcmnfczlxq8",
+          "title": "陽遁甲",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "陳昉": [
+        {
+          "work_id": "1evcsxf9dkw74",
+          "title": "北庭須知",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "陳汝霖": [
+        {
+          "work_id": "1evkq10cuwl4w",
+          "title": "太平縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "陳良弼": [
+        {
+          "work_id": "1evjr2f6iitq8",
+          "title": "水師輯要",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陳謙": [
+        {
+          "work_id": "1evkpz35hv56o",
+          "title": "正定縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        },
+        {
+          "work_id": "1evkpsbhcdvk0",
+          "title": "真定縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evke4arijbwg",
+          "title": "巢蚊睫齋詩稿",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陸勳": [
+        {
+          "work_id": "1ev3bcmv3goow",
+          "title": "陸氏集異記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陸時雍": [
+        {
+          "work_id": "1evcszc4373ls",
+          "title": "宏詞總類前後集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "顏之推": [
+        {
+          "work_id": "1evcpd0r327eo",
+          "title": "家訓",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "高舉": [
+        {
+          "work_id": "1evcsxp9mzy0w",
+          "title": "帝道書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "黃寬": [
+        {
+          "work_id": "1evkpl4cgjbi8",
+          "title": "平利縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "黃浚": [
+        {
+          "work_id": "1evkpj7e6bcao",
+          "title": "滕縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ]
+    }
   },
-  "二·庫中有其人而代懸隔，疑同名異人或一方之代有誤": {
-    "_件數": 211,
-    "件": [
-      "丘浚",
-      "丘濬",
-      "任預",
-      "何士信",
-      "何楷",
-      "何若愚",
-      "何英",
-      "倪濤",
-      "傅岩",
-      "傅昭",
-      "傅氏",
-      "傅霖",
-      "元淮",
-      "元行沖",
-      "劉佑",
-      "劉傳",
-      "劉吉",
-      "劉嚴",
-      "劉實",
-      "劉岳",
-      "劉彞",
-      "劉懋",
-      "劉欽",
-      "劉氏",
-      "劉濟",
-      "劉球",
-      "劉瑾",
-      "劉翔",
-      "劉霖",
-      "劉顯",
-      "劉黻",
-      "包愷",
-      "司馬光",
-      "吳均",
-      "吳文英",
-      "吳景賢",
-      "吳氏",
-      "吳炳",
-      "吳襲",
-      "呂佐周",
-      "周子良",
-      "周武",
-      "周滿",
-      "周雲",
-      "周鼎",
-      "嚴用和",
-      "孫升",
-      "孫汝聽",
-      "孫洙",
-      "宋琨",
-      "張元",
-      "張先",
-      "張光祖",
-      "張和卿",
-      "張弼",
-      "張戩",
-      "張敏",
-      "張敘",
-      "張晉",
-      "張果",
-      "張氏",
-      "張洪",
-      "張端",
-      "張賓",
-      "張預",
-      "張鼎",
-      "張齊賢",
-      "徐景安",
-      "徐毅",
-      "徐鐸",
-      "成毅",
-      "施惠",
-      "易靜",
-      "晏嬰",
-      "曹志",
-      "朱朴",
-      "李中",
-      "李元弼",
-      "李助",
-      "李師聖",
-      "李思慎",
-      "李思聰",
-      "李文成",
-      "李暹",
-      "李朴",
-      "李治",
-      "李洞",
-      "李瑾",
-      "李若水",
-      "李行",
-      "李衡",
-      "李遂",
-      "李遠",
-      "李鎮",
-      "杜肅",
-      "林越",
-      "柳開",
-      "梁億",
-      "梁棟",
-      "楊名",
-      "楊希範",
-      "楊復",
-      "楊時",
-      "楊椿",
-      "楊浚",
-      "楊瓚",
-      "楊維德",
-      "楊繪",
-      "楊輝",
-      "樊深",
-      "殷淳",
-      "毛憲",
-      "毛文晏",
-      "江本",
-      "汪楫",
-      "汪藻",
-      "沈括",
-      "沈遵",
-      "溫庭筠",
-      "王佑",
-      "王俅",
-      "王元正",
-      "王叔和",
-      "王嬰",
-      "王孫",
-      "王崇",
-      "王庭",
-      "王弘",
-      "王彥威",
-      "王彬",
-      "王愷",
-      "王曉",
-      "王權",
-      "王氏",
-      "王澄",
-      "王濟",
-      "王珍",
-      "王琛",
-      "王琦",
-      "王瓘",
-      "王瓚",
-      "王略",
-      "王祐",
-      "王筠",
-      "王綸",
-      "王育",
-      "王行",
-      "王豫",
-      "王賓",
-      "王起",
-      "王述之",
-      "王錡",
-      "王震",
-      "王鴻",
-      "盧文弨",
-      "程達",
-      "程頤",
-      "羅潛",
-      "范氏",
-      "范泉",
-      "荀翽",
-      "董史",
-      "董子平",
-      "蕭韶",
-      "虞綽",
-      "袁凱",
-      "袁王壽",
-      "袁褧",
-      "許復",
-      "許氏",
-      "謝氏",
-      "賀氏",
-      "趙恆",
-      "趙氏",
-      "趙起",
-      "邵思",
-      "邵綱",
-      "郭伸",
-      "郭昭度",
-      "郭璞",
-      "郭訓",
-      "鄭僑",
-      "鄭居中",
-      "鄭玄",
-      "鄭綺",
-      "鄭緝之",
-      "釋智海",
-      "釋法藏",
-      "釋法雲",
-      "錢學",
-      "陳嗣古",
-      "陳堯道",
-      "陳奇",
-      "陳昉",
-      "陳汝霖",
-      "陳沂",
-      "陳炳",
-      "陳紀",
-      "陳良弼",
-      "陳謙"
-    ]
+  "二甲·其代晚於本書——或後人校輯，或同名異人": {
+    "_件數": 34,
+    "件": {
+      "丘濬": [
+        {
+          "work_id": "1evcsycpgkm4g",
+          "title": "征蠻議",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsya81e800",
+          "title": "霸國環周立成曆",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsy0t11tkw",
+          "title": "洛陽貴尚錄",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "何士信": [
+        {
+          "work_id": "1evkalh83c6ww",
+          "title": "增修箋注妙選群英草堂詩餘",
+          "period": null,
+          "period_upper": "song",
+          "role": "選編"
+        },
+        {
+          "work_id": "1evkalherox6o",
+          "title": "精選名賢詞話草堂詩餘",
+          "period": null,
+          "period_upper": "song",
+          "role": "選編"
+        },
+        {
+          "work_id": "1evjrapg760w0",
+          "title": "增修箋注妙選群英草堂詩餘前集後集",
+          "period": "song",
+          "period_upper": "song",
+          "role": "輯"
+        }
+      ],
+      "何若愚": [
+        {
+          "work_id": "1evkamhe3evb4",
+          "title": "新刊子午流注鍼經",
+          "period": "five-dynasties",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "元行沖": [
+        {
+          "work_id": "1evcpczl57bwg",
+          "title": "群書四錄",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "劉吉": [
+        {
+          "work_id": "1evcszaklgb28",
+          "title": "江南續又玄集",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "劉瑾": [
+        {
+          "work_id": "1evcmobl2gav4",
+          "title": "劉瑾集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "吳景賢": [
+        {
+          "work_id": "1evcmnggw41kw",
+          "title": "論病源候論",
+          "period": "sui-tang",
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "周雲": [
+        {
+          "work_id": "1evjr4di3m5mo",
+          "title": "神道大編象宗華天五星",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張敏": [
+        {
+          "work_id": "1evcmob3jwxkw",
+          "title": "張敏集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張敘": [
+        {
+          "work_id": "1evcsxi5eq5mo",
+          "title": "熙寧葬式",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張果": [
+        {
+          "work_id": "1evcsxsxgksg0",
+          "title": "紫靈丹砂表",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsw4yykhs0",
+          "title": "周易罔象成名圖",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcs0mucjh1c",
+          "title": "罔象成名圖",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "曹志": [
+        {
+          "work_id": "1evcpd5gynlz4",
+          "title": "曹志集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李中": [
+        {
+          "work_id": "1evcsz2uu49vk",
+          "title": "碧雲集",
+          "period": "sui-tang",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "李元弼": [
+        {
+          "work_id": "1evcsxiw79g5c",
+          "title": "縣法",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr1xys38cg",
+          "title": "作邑自箴",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李師聖": [
+        {
+          "work_id": "1evkpgmtrwem8",
+          "title": "產育寶慶集方",
+          "period": "song",
+          "period_upper": null,
+          "role": "等編"
+        }
+      ],
+      "李治": [
+        {
+          "work_id": "1evcs12z7ayo0",
+          "title": "高宗集",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李洞": [
+        {
+          "work_id": "1evcs16bolekg",
+          "title": "李洞詩",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsz7xtzqbk",
+          "title": "賈島詩句圖",
+          "period": "sui-tang",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "林越": [
+        {
+          "work_id": "1evjxkkcp0hds",
+          "title": "兩漢雋言",
+          "period": "song",
+          "period_upper": "song",
+          "role": "輯"
+        }
+      ],
+      "柳開": [
+        {
+          "work_id": "1evr5e3mhhltq",
+          "title": "河東先生集",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "楊時": [
+        {
+          "work_id": "1evcs0dctd0jk",
+          "title": "開成紀事",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "楊輝": [
+        {
+          "work_id": "1evinckijpo1s",
+          "title": "續古摘奇算法",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkaawmcb1mo",
+          "title": "楊氏算法",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkapepouku8",
+          "title": "楊輝算法",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王佑": [
+        {
+          "work_id": "1evcmob2ciy2o",
+          "title": "王佑集",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsyvdhvo5c",
+          "title": "襄陽風景古遺跡詩",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王崇": [
+        {
+          "work_id": "1evfuuhgx3f9c",
+          "title": "蜀書",
+          "period": "jin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王權": [
+        {
+          "work_id": "1evcsxlizchz4",
+          "title": "大梁夷門記",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxeicm70g",
+          "title": "汴州記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王琛": [
+        {
+          "work_id": "1evcmnf6fmj28",
+          "title": "六情決",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd3bu3q4g",
+          "title": "祿命書",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmnebxho1s",
+          "title": "曆術",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmnfydd5a8",
+          "title": "推產婦何時產法",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmnfc3598g",
+          "title": "遁甲開山圖",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd341smbk",
+          "title": "九宮行棋立成",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd2eke5ts",
+          "title": "周天象曆",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmnetstrls",
+          "title": "九州行棋立成法",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmnf1dyeww",
+          "title": "黃帝九元遁甲",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd32gzfgg",
+          "title": "風角六情訣",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "王琦": [
+        {
+          "work_id": "1evincx6hog74",
+          "title": "李太白集注",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王震": [
+        {
+          "work_id": "1evcsxm8wo268",
+          "title": "閬苑記",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsyxg9j08w",
+          "title": "元豐懷遇集",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "盧文弨": [
+        {
+          "work_id": "1evkpicb48p34",
+          "title": "韋蘇州集校正拾遺",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "程頤": [
+        {
+          "work_id": "1exqjbngkmf6s",
+          "title": "春秋傳",
+          "period": "jin",
+          "period_upper": null,
+          "role": null
+        }
+      ],
+      "袁凱": [
+        {
+          "work_id": "1ewui7y1rreli",
+          "title": "袁凱集",
+          "period": "nanbeichao",
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "趙恆": [
+        {
+          "work_id": "1evcsynmq0veo",
+          "title": "御集",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "釋法藏": [
+        {
+          "work_id": "1evke5g8xkw74",
+          "title": "大乘起信論義記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr6q3qoq9s",
+          "title": "大乘起信論義記別記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr6jgjh0qo",
+          "title": "大方廣佛華嚴探玄記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陳嗣古": [
+        {
+          "work_id": "1evcua75leyv4",
+          "title": "老子嗣古注",
+          "period": "nanbeichao",
+          "period_upper": "sui-tang",
+          "role": null
+        }
+      ],
+      "陳堯道": [
+        {
+          "work_id": "1ex4zqy36o5no",
+          "title": "大學說",
+          "period": null,
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1ex6k5eudxuri",
+          "title": "中庸説",
+          "period": "song",
+          "period_upper": "song",
+          "role": null
+        }
+      ]
+    }
   },
-  "五·某氏泛稱": {
-    "_件數": 32,
-    "件": [
-      "伏氏",
-      "侯氏",
-      "倚雲氏",
-      "卞氏",
-      "印月氏",
-      "夏氏",
-      "宋氏",
-      "宰氏",
-      "常氏",
-      "徐氏",
-      "成氏",
-      "晁氏",
-      "晏氏",
-      "曾氏",
-      "朱氏",
-      "杜氏",
-      "武氏",
-      "殖氏",
-      "洪氏",
-      "石氏",
-      "董氏",
-      "蔡氏",
-      "諸葛氏",
-      "譚凌氏",
-      "費氏",
-      "賈氏",
-      "郝氏",
-      "鄧氏",
-      "陳氏",
-      "饒氏",
-      "高氏",
-      "黃氏"
-    ]
-  },
-  "八·OCR 訛字": {
-    "_件數": 9,
-    "件": [
-      "朱憲火節",
-      "朱睦木钫挈",
-      "朱謀土岙韋",
-      "朱謀土韋",
-      "林廷手昂",
-      "王王工凡",
-      "祁承火钫業",
-      "祁承火業",
-      "陳荀大纕"
-    ]
-  },
-  "六·年號": {
+  "五·年號": {
     "_件數": 5,
-    "件": [
-      "元康",
-      "建隆",
-      "承光",
-      "景泰",
-      "至元"
-    ]
+    "件": {
+      "元康": [
+        {
+          "work_id": "1evcsxqidd8g0",
+          "title": "中觀論三十六門勢疏",
+          "period": "sui-tang",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "建隆": [
+        {
+          "work_id": "1evcsxr3rqx34",
+          "title": "雍熙禪頌",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "承光": [
+        {
+          "work_id": "1evkacqn09c00",
+          "title": "欽定國子監則例",
+          "period": "qing",
+          "period_upper": null,
+          "role": "等奉敕續撰"
+        }
+      ],
+      "景泰": [
+        {
+          "work_id": "1evcsyg4cn11c",
+          "title": "邊臣要略",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "至元": [
+        {
+          "work_id": "1evgbzzajovls",
+          "title": "太醫院新編本草",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ]
+    }
   },
-  "十·連書二人以上、殘語、其他": {
-    "_件數": 115,
-    "件": [
-      "[某]",
-      "[清]詹堅",
-      "[清]陳坤",
-      "[清]響泉",
-      "七十八冊",
-      "之奇少穎",
-      "之英",
-      "五十篇",
-      "仁孝皇后徐氏",
-      "以此本為",
-      "傑達麻卡村金寺之第一寂靜",
-      "共二十七卷",
-      "共二卷",
-      "凌旭清吳堃安",
-      "刻端平二年閩川黃壯猷",
-      "則天皇后",
-      "劉沆",
-      "十冊韓絳",
-      "卞寶第清李瀚章",
-      "又言弼",
-      "叔明",
-      "吳先主孫氏",
-      "吳純",
-      "周南清呂臨",
-      "周希孟",
-      "周武帝敕",
-      "嚴州人",
-      "四篇沈彬",
-      "娷",
-      "孟郊賈島",
-      "孫巽",
-      "安成煬王",
-      "寰宇聖顯公",
-      "山西省政府",
-      "崇德元年敕",
-      "希遷撰宗美注",
-      "師古",
-      "康有為撰麥仲華",
-      "康熙六十一年",
-      "張家木岙鼎",
-      "張寶",
-      "張海",
-      "張漢",
-      "張雲表巢禪門退須",
-      "徐?",
-      "徐囗",
-      "徐彥",
-      "戴笠清吳殳",
-      "抱樸子",
-      "持錫杖法附",
-      "政和御注",
-      "文德皇后",
-      "文靖",
-      "於公甫",
-      "於濆",
-      "於立政",
-      "於逖",
-      "於霆",
-      "明粲",
-      "是光乂",
-      "曾國荃清張煦",
-      "有劉啟明",
-      "未著撰人",
-      "李攀龍王世貞",
-      "李煜妻周氏",
-      "李見",
-      "東父",
-      "林",
-      "梁丘子",
-      "沈作?",
-      "沈家本榮銓修徐宗亮蔡啟盛",
-      "沈彬",
-      "沈遘沈括沈遼",
-      "沈錫",
-      "為光",
-      "無著撰人",
-      "王[某]",
-      "王以寧",
-      "王德信關漢卿",
-      "王材郭鎜",
-      "王皞",
-      "瑤識三十論附",
-      "甄鸞注徐嶽",
-      "祁承[火+業]",
-      "祁承囗藏並",
-      "秘閣修",
-      "穆彰阿清潘錫恩",
-      "空的權威內文",
-      "端木賜",
-      "羨門",
-      "考察政治大臣",
-      "者清徹",
-      "至正十五年刻明",
-      "萬青黎周家楣",
-      "蕭應植清陳景塤",
-      "虞卿",
-      "袁大化修王樹柟王學曾",
-      "親光等菩薩",
-      "許克昌清畢法",
-      "謝[某]",
-      "謝啟昆清胡虔",
-      "趙瓚王佐",
-      "趙與泌宋黃巖孫",
-      "鄭杰輯陳衍補訂",
-      "鄭顒明陳文",
-      "重修五百卷",
-      "長庚",
-      "閻浮提勝旗",
-      "陳光",
-      "陳彭年等重",
-      "陳旉秦觀",
-      "靜同劉字十",
-      "韓琮",
-      "顧與沐記略清顧樞",
-      "高似孫張戒"
-    ]
+  "八·連書數人、殘語、其他未裁": {
+    "_件數": 54,
+    "件": {
+      "凌旭清吳堃安": [
+        {
+          "work_id": "1evjr3u9egl4w",
+          "title": "臨症辨似附察舌辨症歌",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "劉沆": [
+        {
+          "work_id": "1evcsxjg2pd6o",
+          "title": "書目",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsxkd666m8",
+          "title": "劉氏家譜",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpnl134sn4",
+          "title": "臨潁縣續志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "卞寶第清李瀚章": [
+        {
+          "work_id": "1evjr1e4g4kjk",
+          "title": "［光緒」湖南通志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "吳升宋處": [
+        {
+          "work_id": "1evcsyjjo02kg",
+          "title": "新修鍾乳論",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "吳純": [
+        {
+          "work_id": "1eww4cfe6boxt",
+          "title": "三十家毛詩會解",
+          "period": "song",
+          "period_upper": "song",
+          "role": "編"
+        },
+        {
+          "work_id": "1ex329ff28ozi",
+          "title": "三十家毛詩㑹解",
+          "period": null,
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1evkpl500buv4",
+          "title": "紫陽縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "周南清呂臨": [
+        {
+          "work_id": "1evjr4ma1c2kg",
+          "title": "安居金鏡",
+          "period": "qing",
+          "period_upper": null,
+          "role": "輯"
+        }
+      ],
+      "周希孟": [
+        {
+          "work_id": "1ex1y0r84tc8w",
+          "title": "易義",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exxly6uco0qd",
+          "title": "春秋緫例",
+          "period": "song",
+          "period_upper": "song",
+          "role": null
+        },
+        {
+          "work_id": "1ev3bep3umolc",
+          "title": "姑蘇雜詠",
+          "period": "ming",
+          "period_upper": null,
+          "role": "編"
+        }
+      ],
+      "孟郊賈島": [
+        {
+          "work_id": "1evjy72rac000",
+          "title": "寒瘦集",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "孫巽": [
+        {
+          "work_id": "1evkplx3w9c00",
+          "title": "金鄉縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        },
+        {
+          "work_id": "1evcsxmh0iy2o",
+          "title": "夏國樞要",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "康有為撰麥仲華": [
+        {
+          "work_id": "1evjr0u4bndvk",
+          "title": "戊戌奏稿",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "輯"
+        }
+      ],
+      "張家木岙鼎": [
+        {
+          "work_id": "1evkpjmki3uv4",
+          "title": "恩施縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "張寶": [
+        {
+          "work_id": "1evke6jcak54w",
+          "title": "泛槎圖",
+          "period": "qing",
+          "period_upper": null,
+          "role": "繪撰"
+        },
+        {
+          "work_id": "1evcmnecm5eyo",
+          "title": "曆術",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "張海": [
+        {
+          "work_id": "1evcsykzi0pvk",
+          "title": "小兒醫方妙選",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evke2tz8wn40",
+          "title": "西藏紀述",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        },
+        {
+          "work_id": "1evkpnwq6w268",
+          "title": "英山縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        },
+        {
+          "work_id": "1evkq0qlgtb0g",
+          "title": "當塗縣志",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "等修"
+        }
+      ],
+      "張漢": [
+        {
+          "work_id": "1ex4wavh3vxum",
+          "title": "辨虛",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evkpizkr95vk",
+          "title": "眉州屬志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "徐彥": [
+        {
+          "work_id": "1evkaose4vzeo",
+          "title": "欽定公羊注疏",
+          "period": "qing",
+          "period_upper": null,
+          "role": "疏"
+        },
+        {
+          "work_id": "1evc5pdwcfaww",
+          "title": "春秋公羊疏",
+          "period": "sui-tang",
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkaoi3a0xs0",
+          "title": "春秋公羊傳注疏",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "疏"
+        }
+      ],
+      "戴笠清吳殳": [
+        {
+          "work_id": "1evjr0kq7gfeo",
+          "title": "懷陵流寇始終錄附錄",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "曾國荃清張煦": [
+        {
+          "work_id": "1evjr19ifr08w",
+          "title": "[光緒]山西通志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "朱憲火節": [
+        {
+          "work_id": "1evkajbr4gidc",
+          "title": "種蓮歲稿",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "朱睦木钫挈": [
+        {
+          "work_id": "1evkq42tyqkn4",
+          "title": "萬卷堂家藏藝文目",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "朱謀土岙韋": [
+        {
+          "work_id": "1evkpwrpl5r0g",
+          "title": "駢雅",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "朱謀土韋": [
+        {
+          "work_id": "1evkq3w7wq6tc",
+          "title": "邃古記",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李攀龍王世貞": [
+        {
+          "work_id": "1evjy7edng9vk",
+          "title": "鐫翰林考正國朝七子詩集注解",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李見": [
+        {
+          "work_id": "1exqjli5mijxu",
+          "title": "易樞",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evr5e3mg8nim",
+          "title": "骰子選格",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "林廷手昂": [
+        {
+          "work_id": "1evkahce94qo0",
+          "title": "江西通志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "等修"
+        }
+      ],
+      "沈家本榮銓修徐宗亮蔡啟盛": [
+        {
+          "work_id": "1evjr1gatbe2o",
+          "title": "［光緒］重修天津府志",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "纂"
+        }
+      ],
+      "沈遘沈括沈遼": [
+        {
+          "work_id": "1evjy7kau81s0",
+          "title": "沈氏三先生文集",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "沈錫": [
+        {
+          "work_id": "1evcsxij7cpvk",
+          "title": "崇寧改修法度",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkagyg4o1ds",
+          "title": "華亭縣志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "王以寧": [
+        {
+          "work_id": "1evkagad0cpog",
+          "title": "督學王公奏議",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkab2thqhog",
+          "title": "王周士詞",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "王德信關漢卿": [
+        {
+          "work_id": "1evjy721a7aww",
+          "title": "張深之先生正北西廂秘本",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjy74f1njsw",
+          "title": "西廂記",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "王材郭鎜": [
+        {
+          "work_id": "1evjy7donj3sw",
+          "title": "皇明太學志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "王王工凡": [
+        {
+          "work_id": "1evkpzv9vwdts",
+          "title": "欒城縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "王皞": [
+        {
+          "work_id": "1evcsxbnl1kw0",
+          "title": "言行錄",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsx9lfvbwg",
+          "title": "唐餘錄",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "甄鸞注徐嶽": [
+        {
+          "work_id": "1evcsyahgdxxc",
+          "title": "大衍算術法",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "祁承火钫業": [
+        {
+          "work_id": "1evka8bue0etc",
+          "title": "祁承火钫業致兒輩書札",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "祁承火業": [
+        {
+          "work_id": "1evkphpgruuio",
+          "title": "澹生堂藏書約",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkakud3jjls",
+          "title": "澹生堂集",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "穆彰阿清潘錫恩": [
+        {
+          "work_id": "1evjr176022gw",
+          "title": "大清一統志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "端木賜": [
+        {
+          "work_id": "1exd7gn0s300s",
+          "title": "詩傳僞本",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evkphv8na5fk",
+          "title": "端木詩傳",
+          "period": "pre-qin",
+          "period_upper": "five-dynasties",
+          "role": "撰"
+        }
+      ],
+      "萬青黎周家楣": [
+        {
+          "work_id": "1evjr1cwypgcg",
+          "title": "［光緒］順天府志附錄",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "蕭應植清陳景塤": [
+        {
+          "work_id": "1evjr1dxc5z40",
+          "title": "[乾隆]瓊州府志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "袁大化修王樹柟王學曾": [
+        {
+          "work_id": "1evjr19ydh6o0",
+          "title": "［宣統］新疆圖志",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "纂"
+        }
+      ],
+      "許克昌清畢法": [
+        {
+          "work_id": "1evjr4436e4n4",
+          "title": "外科證治全書卷末",
+          "period": "qing",
+          "period_upper": null,
+          "role": "輯"
+        }
+      ],
+      "謝啟昆清胡虔": [
+        {
+          "work_id": "1evjr1d7z4u80",
+          "title": "[嘉慶]廣西通志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "趙瓚王佐": [
+        {
+          "work_id": "1evjy6rx4xxq8",
+          "title": "弘治貴州圖經新志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "趙與泌宋黃巖孫": [
+        {
+          "work_id": "1evjr1c04aio0",
+          "title": "［寶祐］仙溪志",
+          "period": "song",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "鄭杰輯陳衍補訂": [
+        {
+          "work_id": "1evjraewy59fk",
+          "title": "閩詩錄甲集乙集丙集丁集戊集",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "鄭顒明陳文": [
+        {
+          "work_id": "1evjr1ctru4g0",
+          "title": "［景泰］雲南圖經志書",
+          "period": "ming",
+          "period_upper": null,
+          "role": "纂"
+        }
+      ],
+      "陳光": [
+        {
+          "work_id": "1ex4utsgj1slq",
+          "title": "六經講解",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evcs16hk8av4",
+          "title": "陳光詩",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陳旉秦觀": [
+        {
+          "work_id": "1evjy6vgqtg5c",
+          "title": "農書·蠶書·耕織圖詩",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "陳荀大纕": [
+        {
+          "work_id": "1evkq0df0q3nk",
+          "title": "吳江縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "陸長庚（誤指元代道士）": [
+        {
+          "work_id": "1evgosn1pfqio",
+          "title": "封神演義",
+          "period": "ming",
+          "period_upper": null,
+          "role": "傳奇彙考舊說"
+        }
+      ],
+      "靜同劉字十": [
+        {
+          "work_id": "1evinbbni6c5c",
+          "title": "三教平心論",
+          "period": "liao-jin-yuan",
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "韓琮": [
+        {
+          "work_id": "1evcs15z5uq68",
+          "title": "韓琮詩",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpjz4av7cw",
+          "title": "建寧縣志",
+          "period": "qing",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "顧與沐記略清顧樞": [
+        {
+          "work_id": "1evjr0yjnzgg0",
+          "title": "顧端文公年譜譜首",
+          "period": "ming",
+          "period_upper": null,
+          "role": "編"
+        }
+      ],
+      "高似孫張戒": [
+        {
+          "work_id": "1evjy7jy5jv28",
+          "title": "剡溪詩話歲寒堂詩話",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ]
+    }
   },
-  "四·機構職名": {
-    "_件數": 45,
-    "件": [
-      "中國科學院圖書館",
-      "中國第一歷史檔案館",
-      "僧神會",
-      "兵部",
-      "兵部武選司",
-      "劉仁會",
-      "包會",
-      "北洋洋務局",
-      "吏部考功司",
-      "吳升宋處",
-      "四庫全書存目叢書編纂委員會",
-      "國史館",
-      "墾務調查局",
-      "太醫院",
-      "孫中山先生葬事籌備處",
-      "學部",
-      "學部圖書局",
-      "學部編譯圖書局",
-      "學部總務司案牘科",
-      "廣東參謀處",
-      "張處",
-      "律例館",
-      "教育世界社",
-      "朝鮮迎接天使都監",
-      "樞密院",
-      "欽天監",
-      "河南通志館",
-      "清  國史館",
-      "清室善後委員會故宮博物院",
-      "清度支部",
-      "玄會",
-      "王嘉會",
-      "王時會",
-      "禮部",
-      "禮部太常寺",
-      "續修四庫全書編纂委員會",
-      "美赫士編譯",
-      "蔡夢弼會",
-      "農工商部",
-      "遼寧省檔案館",
-      "郵傳部",
-      "釋高會",
-      "陶奕會",
-      "韓嘉會",
-      "鳳林書院"
-    ]
+  "六·逐條裁定不建": {
+    "_件數": 52,
+    "件": {
+      "akkhiṇāvaṁ Sayadew Ashin Ariyālaṅkāra": [
+        {
+          "work_id": "1evkpva5e3ojk",
+          "title": "Saddānissaya dakkhiṇāvaṁ",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "七十八冊": [
+        {
+          "work_id": "1evcsx8p0fsao",
+          "title": "德祐事跡日記",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "之奇少穎": [
+        {
+          "work_id": "1evr5e3mj1sff",
+          "title": "拙齋書集解",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "之英": [
+        {
+          "work_id": "1evjqyx5tmh34",
+          "title": "壽櫟廬儀禮奭固",
+          "period": "qing",
+          "period_upper": "qing",
+          "role": "撰"
+        }
+      ],
+      "五十篇": [
+        {
+          "work_id": "1evcsyupknxfk",
+          "title": "舒亶文集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "以此本為": [
+        {
+          "work_id": "1evcsz1dx2yo0",
+          "title": "非有齋類槁",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "傑達麻卡村金寺之第一寂靜": [
+        {
+          "work_id": "1evkpv2py81s0",
+          "title": "攝律義",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "共二十七卷": [
+        {
+          "work_id": "1evcsynop6z9c",
+          "title": "徵宗御製崇觀宸奎集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "共二卷": [
+        {
+          "work_id": "1evcsxi8sry0w",
+          "title": "武學敕令格式",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "刻端平二年閩川黃壯猷": [
+        {
+          "work_id": "1evjy55uycf0g",
+          "title": "諸儒鳴道",
+          "period": "song",
+          "period_upper": "song",
+          "role": "修"
+        }
+      ],
+      "劉氏、周氏等": [
+        {
+          "work_id": "1ex0dp6hu9atj",
+          "title": "琴譜",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "又言弼": [
+        {
+          "work_id": "1evr5e3mifbfq",
+          "title": "周易窮微",
+          "period": null,
+          "period_upper": "song",
+          "role": "著"
+        }
+      ],
+      "叔明": [
+        {
+          "work_id": "1ewsa4ah3sxz2",
+          "title": "論語太史氏集解",
+          "period": "nanbeichao",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "嚴州人": [
+        {
+          "work_id": "1evgbzvsaidxc",
+          "title": "王氏範圍要訣",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "太宗": [
+        {
+          "work_id": "1evcsxpdjgqgw",
+          "title": "文明政化",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "娷": [
+        {
+          "work_id": "1ev7xm5d5581s",
+          "title": "娷",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "題"
+        }
+      ],
+      "安成煬王": [
+        {
+          "work_id": "1ewsovut65nsk",
+          "title": "安成煬王集",
+          "period": null,
+          "period_upper": "nanbeichao",
+          "role": "撰"
+        }
+      ],
+      "寰宇聖顯公": [
+        {
+          "work_id": "1evkalmd0iby8",
+          "title": "新編孔夫子周遊列國大成麒麟記",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "山西省政府": [
+        {
+          "work_id": "1evke2djdej28",
+          "title": "山西省六政調查表",
+          "period": "modern",
+          "period_upper": null,
+          "role": "纂修"
+        }
+      ],
+      "崇德元年敕": [
+        {
+          "work_id": "1evjr0b096jgg",
+          "title": "大清太祖承天廣運聖德神功肇紀立極仁孝武皇帝實錄",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "師古": [
+        {
+          "work_id": "1evcsxam307i8",
+          "title": "三國志質疑",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "康熙六十一年": [
+        {
+          "work_id": "1evr5e3mezpj2",
+          "title": "千叟宴詩",
+          "period": "qing",
+          "period_upper": null,
+          "role": "敕編"
+        },
+        {
+          "work_id": "1ev3benmouq68",
+          "title": "御定千叟宴詩",
+          "period": "qing",
+          "period_upper": null,
+          "role": "敕編"
+        }
+      ],
+      "張雲表巢禪門退須": [
+        {
+          "work_id": "1evinbeqzgg74",
+          "title": "玄中語霣",
+          "period": null,
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "徐?": [
+        {
+          "work_id": "1evjr80nqmcxs",
+          "title": "鼇峯集",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "徐囗": [
+        {
+          "work_id": "1evjr53vj5a0w",
+          "title": "萬峯閣指法閟箋",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr53judds0",
+          "title": "大還閣琴譜谿山琴況",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evjr2tg8yadc",
+          "title": "紅雨樓題跋",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "持錫杖法附": [
+        {
+          "work_id": "1evinb3mmo2kg",
+          "title": "得道梯澄錫杖經",
+          "period": null,
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "政和御注": [
+        {
+          "work_id": "1evinaxwiapds",
+          "title": "列子注",
+          "period": "song",
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "文靖": [
+        {
+          "work_id": "1evcsy40bzl6o",
+          "title": "通玄五命新括",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "有劉啟明": [
+        {
+          "work_id": "1evcsy78odtz4",
+          "title": "占候雲賦式",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "未著撰人": [
+        {
+          "work_id": "1evkpwbe3wydc",
+          "title": "說帖",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李□□": [
+        {
+          "work_id": "1evinaav3ton4",
+          "title": "集解周易",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "李煜妻周氏": [
+        {
+          "work_id": "1evcsyet0mjnk",
+          "title": "係蒙小葉子格",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "東父": [
+        {
+          "work_id": "1ev7xm2y944jk",
+          "title": "東父",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "題"
+        }
+      ],
+      "林": [
+        {
+          "work_id": "1evcsz7n6d2ps",
+          "title": "史論",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "沈作?": [
+        {
+          "work_id": "1evkpgeelz1ts",
+          "title": "寓簡",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "海蟾子": [
+        {
+          "work_id": "1evgpp3yrxfr4",
+          "title": "還金篇",
+          "period": "sui-tang",
+          "period_upper": "song",
+          "role": "舊題撰"
+        }
+      ],
+      "為光": [
+        {
+          "work_id": "1evjr58ys2m80",
+          "title": "絃索備考",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "無著撰人": [
+        {
+          "work_id": "1evkq45rrvhfk",
+          "title": "太乙集成",
+          "period": null,
+          "period_upper": "ming",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpvx6rmznk",
+          "title": "定國誌安邦中集",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpvx1cuwow",
+          "title": "新鐫後續繡像五虎平南狄青演傳",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evkpw89xz3eo",
+          "title": "苗蠻圖",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "瑤識三十論附": [
+        {
+          "work_id": "1evinb9rk6rk0",
+          "title": "成唯識寶生論",
+          "period": null,
+          "period_upper": "ming",
+          "role": "撰"
+        }
+      ],
+      "秘閣修": [
+        {
+          "work_id": "1evr5e3mklz7f",
+          "title": "吳園易解",
+          "period": "song",
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "空的權威內文": [
+        {
+          "work_id": "1evkpyqlhm3nk",
+          "title": "太平聖惠方",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "者清徹": [
+        {
+          "work_id": "1evr5e3mh6dbv",
+          "title": "金陵塔寺記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "至正十五年刻明": [
+        {
+          "work_id": "1evjy6lrr6whs",
+          "title": "文心雕龍 二冊 南朝·梁劉勰撰",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "修"
+        }
+      ],
+      "虞卿": [
+        {
+          "work_id": "1ev7w0f0adqf4",
+          "title": "春秋虞氏微傳",
+          "period": "pre-qin",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1ev7xkie5dpts",
+          "title": "虞氏春秋",
+          "period": "pre-qin",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "谷神子": [
+        {
+          "work_id": "1ev3bckhhxy4g",
+          "title": "博異記",
+          "period": "sui-tang",
+          "period_upper": null,
+          "role": "舊題撰"
+        }
+      ],
+      "趙�A": [
+        {
+          "work_id": "1evka9rh1yha8",
+          "title": "四書箋義",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "邵�A久": [
+        {
+          "work_id": "1evkarzarx9fk",
+          "title": "六安州志",
+          "period": "ming",
+          "period_upper": null,
+          "role": "等纂修"
+        }
+      ],
+      "重修五百卷": [
+        {
+          "work_id": "1evcsx8m3k1s0",
+          "title": "神宗實錄",
+          "period": "ming",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "長庚": [
+        {
+          "work_id": "1evkpkq8nm6f4",
+          "title": "鶴峯州志續修",
+          "period": "qing",
+          "period_upper": null,
+          "role": "等修"
+        }
+      ],
+      "閻浮提勝旗": [
+        {
+          "work_id": "1evkpv0qciby8",
+          "title": "比丘律波逸提注，大品注",
+          "period": null,
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "，一名": [
+        {
+          "work_id": "1evcsxkzx8w00",
+          "title": "新集地理書",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "，又": [
+        {
+          "work_id": "1evcsz7h2m0ao",
+          "title": "詩中密旨",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ]
+    },
+    "案語": {
+      "akkhiṇāvaṁ Sayadew Ashin Ariyālaṅkāra": "巴利文長語，含尊稱與職名，未能定其名",
+      "七十八冊": "卷冊之數",
+      "之奇少穎": "疑「名＋字」而其姓不明",
+      "之英": "殘語",
+      "五十篇": "篇數之語",
+      "以此本為": "校語之殘",
+      "傑達麻卡村金寺之第一寂靜": "寺名＋語",
+      "共二十七卷": "卷數之語",
+      "共二卷": "卷數之語",
+      "刻端平二年閩川黃壯猷": "刻工題記",
+      "劉氏、周氏等": "某氏泛稱之連書",
+      "又言弼": "殘語",
+      "叔明": "字也，庫中三人共之，未能定",
+      "嚴州人": "籍貫＋人",
+      "太宗": "廟號，庫中五人共之；其書著錄於宋志，唐宋兩可",
+      "娷": "單字，未詳",
+      "安成煬王": "封謚",
+      "寰宇聖顯公": "封號之殘",
+      "山西省政府": "機構",
+      "崇德元年敕": "紀年＋敕",
+      "師古": "字也（顏師古之字），庫中同以此為別名者二人，未能定",
+      "康熙六十一年": "紀年",
+      "張雲表巢禪門退須": "殘語",
+      "徐?": "名有缺字",
+      "徐囗": "名有缺字",
+      "持錫杖法附": "書題之殘",
+      "政和御注": "年號＋役字",
+      "文靖": "諡也，庫中以此為諡者二十六人，不能定",
+      "有劉啟明": "「有」字衍，殘語",
+      "未著撰人": "匿名之語",
+      "李□□": "名有缺字",
+      "李煜妻周氏": "某某妻某氏",
+      "東父": "同上",
+      "林": "單字，未詳",
+      "沈作?": "名有缺字",
+      "海蟾子": "號也（劉海蟾），庫中無其人，然「子」結之號須別考",
+      "為光": "殘語",
+      "無著撰人": "匿名之語",
+      "瑤識三十論附": "書題之殘",
+      "秘閣修": "機構＋役字",
+      "空的權威內文": "機譯之語，非人名",
+      "者清徹": "殘語",
+      "至正十五年刻明": "紀年＋刻語",
+      "虞卿": "同上",
+      "谷神子": "號也，唐鄭還古與張志素並用此號，未能定",
+      "趙�A": "字元之殘",
+      "邵�A久": "字元之殘",
+      "重修五百卷": "卷數之語",
+      "長庚": "同上",
+      "閻浮提勝旗": "佛典之語",
+      "，一名": "著錄之連接語",
+      "，又": "著錄之連接語"
+    }
+  },
+  "四·某氏泛稱": {
+    "_件數": 32,
+    "件": {
+      "伏氏": [
+        {
+          "work_id": "1evcpjodb3itc",
+          "title": "周易集林",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcsyiweid4w",
+          "title": "醫苑",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "侯氏": [
+        {
+          "work_id": "1evcsxw0yhdkw",
+          "title": "萱堂香譜",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "倚雲氏": [
+        {
+          "work_id": "1evke66inton4",
+          "title": "新刊繡像昇仙傳演義",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "卞氏": [
+        {
+          "work_id": "1evcpd8uqrncw",
+          "title": "七林集",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "印月氏": [
+        {
+          "work_id": "1evkap2axg3y8",
+          "title": "問奇草",
+          "period": "qing",
+          "period_upper": null,
+          "role": "著"
+        }
+      ],
+      "夏氏": [
+        {
+          "work_id": "1ex1ptl96nspa",
+          "title": "讀易十字樞",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "宋氏": [
+        {
+          "work_id": "1exiisnkchbtm",
+          "title": "周官音義",
+          "period": "jin",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "宰氏": [
+        {
+          "work_id": "1ev7xkif3ptkw",
+          "title": "宰氏",
+          "period": null,
+          "period_upper": "qin-han",
+          "role": "撰"
+        }
+      ],
+      "常氏": [
+        {
+          "work_id": "1ex538bmlbyew",
+          "title": "易學圖",
+          "period": "liao-jin-yuan",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "徐氏": [
+        {
+          "work_id": "1ex0e2fetlkox",
+          "title": "脈經",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcmngn6f3eo",
+          "title": "效驗方",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evetxcyfjda8",
+          "title": "古論語義注譜",
+          "period": "jin",
+          "period_upper": "sui-tang",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evc5pcxvbr40",
+          "title": "喪服制要徐氏撰",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": null
+        },
+        {
+          "work_id": "1evcsylv8ha0w",
+          "title": "黃帝脈經指下秘訣",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        },
+        {
+          "work_id": "1evcpd3rdgzk0",
+          "title": "脈經訣",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "成氏": [
+        {
+          "work_id": "1evcsyb82ohkw",
+          "title": "三略",
+          "period": null,
+          "period_upper": "song",
+          "role": "注"
+        }
+      ],
+      "晁氏": [
+        {
+          "work_id": "1evcsxzsyilts",
+          "title": "談助",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "晏氏": [
+        {
+          "work_id": "1evcsy7qn5ji8",
+          "title": "辨氣色上面詩",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "曾氏": [
+        {
+          "work_id": "1evcsxjeaeha8",
+          "title": "史監",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "朱氏": [
+        {
+          "work_id": "1exbsw6vnjk0b",
+          "title": "易義",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "杜氏": [
+        {
+          "work_id": "1evcpd2zesnpc",
+          "title": "新易林占",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "武氏": [
+        {
+          "work_id": "1evcpd2yc38cg",
+          "title": "武氏周易雜占",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "殖氏": [
+        {
+          "work_id": "1evcml3ptmww0",
+          "title": "志怪記",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "洪氏": [
+        {
+          "work_id": "1evcsxxpw979c",
+          "title": "雜家",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "石氏": [
+        {
+          "work_id": "1evcsy0ym2neo",
+          "title": "星簿讚曆",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "董氏": [
+        {
+          "work_id": "1exyrvh8xjz6w",
+          "title": "易傳覺",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "蔡氏": [
+        {
+          "work_id": "1exj5h66thy67",
+          "title": "毛詩音",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex9ler0n9fub",
+          "title": "禮辨名記",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "諸葛氏": [
+        {
+          "work_id": "1evcmoakt1v5s",
+          "title": "楚辭音",
+          "period": "nanbeichao",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "譚凌氏": [
+        {
+          "work_id": "1evkpipkpya68",
+          "title": "青湘樓詩選",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "費氏": [
+        {
+          "work_id": "1exmbv7v6t1ts",
+          "title": "春秋歸",
+          "period": "liao-jin-yuan",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evcsz0pfksn4",
+          "title": "芸山居士文集",
+          "period": null,
+          "period_upper": "song",
+          "role": "撰"
+        }
+      ],
+      "賈氏": [
+        {
+          "work_id": "1evcs0hx64934",
+          "title": "葬王播儀",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "郝氏": [
+        {
+          "work_id": "1exfmrm7xe4y2",
+          "title": "周易述解",
+          "period": "song",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "鄧氏": [
+        {
+          "work_id": "1evkppr37nim8",
+          "title": "嶺南叢述",
+          "period": "qing",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "陳氏": [
+        {
+          "work_id": "1ex1de9h55kiv",
+          "title": "春秋類編傳集",
+          "period": "liao-jin-yuan",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exqz4ht41t0z",
+          "title": "春秋解義",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1ex5eat0xpw8t",
+          "title": "五經直音",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exfdy7ypvu5m",
+          "title": "大衍易數",
+          "period": "liao-jin-yuan",
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1exhz53c2zvry",
+          "title": "春秋世家",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        },
+        {
+          "work_id": "1evcsykwg56o0",
+          "title": "經驗方",
+          "period": "song",
+          "period_upper": null,
+          "role": "撰"
+        },
+        {
+          "work_id": "1evga4lbtsnwg",
+          "title": "陳氏崇孝集",
+          "period": "liao-jin-yuan",
+          "period_upper": null,
+          "role": "撰"
+        }
+      ],
+      "饒氏": [
+        {
+          "work_id": "1ex52891xdk6j",
+          "title": "五經纂要",
+          "period": "ming",
+          "period_upper": "qing",
+          "role": null
+        }
+      ],
+      "高氏": [
+        {
+          "work_id": "1evcpk08o84jk",
+          "title": "列女傳",
+          "period": null,
+          "period_upper": "sui-tang",
+          "role": "撰"
+        }
+      ],
+      "黃氏": [
+        {
+          "work_id": "1exxr92ybicwc",
+          "title": "春臺易圖",
+          "period": null,
+          "period_upper": "qing",
+          "role": null
+        }
+      ]
+    }
   }
 }

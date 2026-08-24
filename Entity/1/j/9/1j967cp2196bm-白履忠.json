@@ -8,6 +8,10 @@
     {
       "name": "梁丘子",
       "type": "別名"
+    },
+    {
+      "name": "自履忠",
+      "type": "形訛"
     }
   ],
   "dynasty": "唐",
@@ -19,6 +23,18 @@
     {
       "work_id": "1evcs14f4fzeo",
       "role": "撰"
+    },
+    {
+      "work_id": "1evgpnrimts00",
+      "role": "注"
+    },
+    {
+      "work_id": "1evr5e3mh6d6p",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcsxpti4mio",
+      "role": "注"
     }
   ],
   "external_ids": {
@@ -26,7 +42,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-22T07:18:13.254073+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併"
+  "period_basis": "據 dynasty「唐」自動歸併",
+  "ai_note": "2026-08-24 entity 重出歸併：併入同名之條（`1j96hfwu5b30g`）。二條並題「白履忠」、並繫唐、並以「梁丘子」為號，本是一人而庫中兩出。被併之條又有別名「自履忠」——「自」乃「白」之形訛，一併收入 alt_names。"
 }
