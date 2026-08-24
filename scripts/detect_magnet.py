@@ -8,10 +8,16 @@ import json, glob, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from magnet_lib import node_conflicts, is_commentary
 
+# 倉根自本檔位置推得，不寫死容器路徑——舊值 /workspace/... 在別的容器
+# 佈局下寫成，移倉之後 glob 掃不到任何檔而**靜默地什麼都不做**。
+# 2026-08-24 已為此漏掉 4,121 條 period_upper，見 plans/全庫普查 附二。
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_PROD = os.path.join(os.path.dirname(_ROOT), 'book-index')
+
 
 def run(period):
     rows = []
-    for root in ('/workspace/book-index-draft', '/workspace/book-index'):
+    for root in (_ROOT, _PROD):
         for f in glob.glob(f'{root}/Work/*/*/*/*.json'):
             try:
                 d = json.load(open(f, encoding='utf-8'))

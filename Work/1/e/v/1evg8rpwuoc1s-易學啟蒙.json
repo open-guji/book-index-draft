@@ -45,28 +45,15 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《易學啟蒙》",
-      "summary": "宋志三卷",
-      "section": "易",
-      "juan": "卷三十一",
-      "page": "KR2n0011_WYG_031-1b",
-      "attested_status": "extant",
-      "attested_status_raw": "存",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
-      "note": "題與庫題全等而撰人一方闕。庫中同題只此一條，亦無他條同指，所引之志與卷數與庫方不相牴，故繫於此。"
     }
   ],
   "id": "1evg8rpwuoc1s",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T02:11:38+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《易學啟蒙》一卷」一節原繫於磁鐵條（`1evr5e3mi42t0`），其題與本條全合，今改繫本條並補其著錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《易學啟蒙》一卷」一節原繫於磁鐵條（`1evr5e3mi42t0`），其題與本條全合，今改繫本條並補其著錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n[N3磁鐵 2026-08-24]《經義考》卷三十一「易學啟蒙 宋志三卷」原共繫本條，其前條為朱熹《周易本義》，是朱子書，今別立 `1exei2b62fail`。（本條另掛《直齋書錄解題》「《易學啟蒙》一卷」一著錄，前輪已標 misattached；所指或即朱子書，然直齋作一卷而此作三卷，未敢遽併，仍待覈。）",
   "juan_count": {
     "number": 1
   },
