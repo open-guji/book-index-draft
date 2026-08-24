@@ -4,10 +4,11 @@
   "title": "襲集",
   "authors": [
     {
-      "name": "魏散騎常侍",
+      "name": "繆襲",
       "role": "撰",
       "dynasty": "三國魏",
-      "entity_id": "1j96hf9xvxse8"
+      "entity_id": "1j96hf9xvxse8",
+      "name_basis": "2026-08-24 J3(3)：見 ai_note"
     }
   ],
   "indexed_by": [
@@ -25,5 +26,6 @@
   "period": "three-kingdoms",
   "period_basis": "據 authors[0].dynasty「三國魏」",
   "dynasty": "三國魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-24 J3(3) 壞名清理：撰人「魏散騎常侍」正為「繆襲」（形甲丙）：《三國藝文志》「魏散騎常侍□ 襲集五卷錄一卷」，所引《魏志》劉劭附傳「同時東海繆襲亦有才學」、鍾嶸《詩品》「熙伯挽歌」（熙伯是繆襲之字）——其人繆襲，為 OCR 所奪其姓。"
 }

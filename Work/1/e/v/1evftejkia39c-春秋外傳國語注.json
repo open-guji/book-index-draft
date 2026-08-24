@@ -50,14 +50,9 @@
       "id": "1evcpcufooh6o",
       "title": "春秋外傳國語",
       "relation": "contains_text_of"
-    },
-    {
-      "id": "1evcpcufooh6o",
-      "title": "春秋外傳國語",
-      "relation": "same_title_source"
     }
   ],
-  "ai_note": "2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋外傳國語」，庫中有同題而非注本之條 `1evcpcufooh6o`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-24 J3(2)-乙 異題同書之併（形丁）：唐固注《春秋外傳國語》。（併入者 id 1evcpcugjw7i8，題「春秋外傳國語」）",
+  "ai_note": "2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「春秋外傳國語」，庫中有同題而非注本之條 `1evcpcufooh6o`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-24 J3(2)-乙 異題同書之併（形丁）：唐固注《春秋外傳國語》。（併入者 id 1evcpcugjw7i8，題「春秋外傳國語」）\n\n2026-08-24 J3(4) 詞表外關聯詞裁定：`same_title_source` 不在 SCHEMA〈關聯詞表〉之內。此詞是 2026-08-20「承前省題正名專項」所造，記「本條之題自某條上溯而得」——是**題名之來歷**，非書與書之關係，故不當居 related_works。今分二治：目標已有他關聯者（如注本已繫 contains_text_of 於其原典），本行為贅，去之；無他關聯者改用詞表之兜底詞 `related`，而以 note 存其來歷，使「二條同題而撰人異，是同一書之別注／別本」之判不失。",
   "additional_titles": [
     "春秋外傳國語"
   ]
