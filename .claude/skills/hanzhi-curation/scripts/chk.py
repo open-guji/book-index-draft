@@ -331,9 +331,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             dang[f.split('/')[4]]+=1; dang_ids.add(w)
             if w in _EXIST_B: dang_is_book+=1
         # collection_id（SCHEMA 2026-08-23 增）之存在性
-        _c=sec.get('collection_id')
-        if isinstance(_c,str) and _c not in _COLL:
-            dang[f.split('/')[4]]+=1; dang_ids.add(_c)
+        _cid=sec.get('collection_id')
+        if isinstance(_cid,str) and _cid not in _COLL:
+            dang[f.split('/')[4]]+=1; dang_ids.add(_cid)
         b=sec.get('book_id')
         if isinstance(b,str) and b not in _EXIST_B:
             dang[f.split('/')[4]]+=1; dang_ids.add(b)
