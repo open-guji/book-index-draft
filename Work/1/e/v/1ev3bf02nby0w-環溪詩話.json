@@ -3,14 +3,6 @@
   "id": "1ev3bf02nby0w",
   "type": "work",
   "title": "環溪詩話",
-  "authors": [
-    {
-      "name": "名氏",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hew4cadxc"
-    }
-  ],
   "indexed_by": [
     {
       "source": "欽定四庫全書總目",
@@ -113,14 +105,10 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-21T00:00:00+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 B1 同名異書併池：併入 `1evr5e3mkaqlr`（環溪詩話）。《環溪詩話》一卷，不著撰人氏名：直齋裸題一卷與本條合，今併。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song　**與現判之 period 相斥，存疑待覈**"
+  "period": "song",
+  "period_basis": "《直齋書錄解題》（1249）已著錄，且四庫提要言其「皆品評吳沆之詩」「蓋其後人所追記」——吳沆宋人，其後人追記之書不得晚於直齋著錄之年，故定 song",
+  "ai_note": "2026-08-21 B1 同名異書併池：併入 `1evr5e3mkaqlr`（環溪詩話）。《環溪詩話》一卷，不著撰人氏名：直齋裸題一卷與本條合，今併。\n\n2026-08-24 period 相斥覆裁：**撤去撰人「名氏」——此非人名**，是四庫提要「不著撰人名氏」與清史稿「不著撰人名氏環溪詩話一卷」之殘尾，匯入時誤截為姓名，復由之派生 dynasty「清」與 period「qing」，遂與《直齋書錄解題》（1249）所給之上限 song 相斥。本條實不著撰人，period 依直齋之著錄與提要所述定 song。所繫之 entity「名氏」`1j96hew4cadxc`（其 works 唯本條）一併退役。"
 }

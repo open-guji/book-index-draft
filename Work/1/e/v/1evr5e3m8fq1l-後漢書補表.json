@@ -38,11 +38,6 @@
   "measure_info": "八卷",
   "related_works": [
     {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    },
-    {
       "id": "1ev3c1fi6kdmo",
       "title": "後漢書",
       "relation": "contains_text_of"
@@ -53,5 +48,5 @@
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（書目答問：「後漢書補表」）所載之 8 卷不合，今據原文訂正。"
+  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 11，與著錄原文（書目答問：「後漢書補表」）所載之 8 卷不合，今據原文訂正。\n\n2026-08-24 兩漢收束：解除與班固《漢書》d59f1iqd854w 之關聯——原係題名子串（「漢書」）誤捕，本書非漢書之衍生。"
 }

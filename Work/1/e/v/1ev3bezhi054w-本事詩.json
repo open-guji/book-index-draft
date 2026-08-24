@@ -5,10 +5,11 @@
   "title": "本事詩",
   "authors": [
     {
-      "name": "徐釚",
+      "name": "孟棨",
       "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967afj9xc7e"
+      "dynasty": "唐",
+      "entity_id": "1j967da97uujq",
+      "name_basis": "《國史經籍志》「《本事詩》一卷（唐孟棨集）」、《宋史藝文志》「孟啟《本事詩》一卷」（啟／棨一人，四庫提要謂「諸家稱引並作啟，疑誤也」）、《崇文總目》「本事詩一卷」，卷數皆一卷，與四庫著錄之孟棨本合。"
     }
   ],
   "indexed_by": [
@@ -17,8 +18,7 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "孟啟《本事詩》一卷盧環",
       "summary": "孟啟《本事詩》一卷盧環",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 qing 之作、撰人徐釚，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+      "link_basis": "2026-08-24 撤 misattached。8-21 覆驗以「本節上限 song 而本條為 qing 之作、撰人徐釚」判其錯掛，然**本條之 qing 與徐釚正是錯掛所生**——清史稿「本事詩十二卷。徐釚撰。」一節誤繫本條，撰人遂由孟棨改成徐釚，period 隨之為 qing，覆驗程序再據此 qing 反把真的宋志、崇文二節判為錯掛。今清史稿一節已歸其主（`1evjradjks0e8`，徐釚十二卷本），撰人復為孟棨，本節與之題、卷（一卷）俱合，是本條之正著錄。"
     },
     {
       "source": "欽定四庫全書總目",
@@ -28,23 +28,26 @@
       "edition": "兩江總督采進本"
     },
     {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "本事詩",
-      "summary": "本事詩十二卷。徐釚撰。"
-    },
-    {
       "source": "崇文總目",
       "source_bid": "1ev3bb3xyygw0",
       "title_info": "本事詩一卷",
       "summary": "本事詩一卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 qing 之作、撰人徐釚，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
+      "link_basis": "2026-08-24 撤 misattached。8-21 覆驗以「本節上限 song 而本條為 qing 之作、撰人徐釚」判其錯掛，然**本條之 qing 與徐釚正是錯掛所生**——清史稿「本事詩十二卷。徐釚撰。」一節誤繫本條，撰人遂由孟棨改成徐釚，period 隨之為 qing，覆驗程序再據此 qing 反把真的宋志、崇文二節判為錯掛。今清史稿一節已歸其主（`1evjradjks0e8`，徐釚十二卷本），撰人復為孟棨，本節與之題、卷（一卷）俱合，是本條之正著錄。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《本事詩》一卷",
+      "summary": "《本事詩》一卷（唐孟棨集）",
+      "author_info": "唐孟棨集",
+      "merged_from": "1ev3bezhi054w",
+      "note": "本著錄原繫另一條唐孟棨《本事詩》一卷，與本條同書，今併。"
     }
   ],
   "books": [
     "11q37uumbdi4g",
-    "11qkhse1i79c0"
+    "11qkhse1i79c0",
+    "11qkhy1x7nqio"
   ],
   "juan_count": {
     "number": 1
@@ -138,6 +141,14 @@
         "text",
         "image"
       ]
+    },
+    {
+      "name": "维基文库",
+      "id": "wikisource",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E4%BA%8B%E8%A9%A9",
+      "types": [
+        "text"
+      ]
     }
   ],
   "measures": [
@@ -147,12 +158,18 @@
     }
   ],
   "measure_info": "一卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 2 節出於宋史藝文志、崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 2 節出於宋史藝文志、崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 A 車道著錄錯掛：**本條是唐孟棨《本事詩》一卷，非清徐釚之十二卷本**。\n\n錯掛之鏈凡四層，環環相因：清史稿「本事詩十二卷。徐釚撰。」一節誤繫本條 → 撰人由孟棨改作徐釚 → dynasty／period 隨之為清 → 8-21「catalog_bound 覆驗」見宋志、崇文之上限（song）與 period（qing）相斥，**反把那兩節真著錄判為錯掛**。今自源頭拆之：清史稿一節歸 `1evjradjks0e8`（續修四庫所收徐釚十二卷本），撰人復為孟棨，二節之 misattached 並撤。\n\n**可記之一則**：`misattached` 之判以 period 為據，而 period 每是由撰人派生；撰人若錯，覆驗會把真的判成假的。凡見一條之 misattached 節與其餘節同題同卷者，當先疑其撰人。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evgqgdbanocg`（本事詩）。2026-08-24 A 車道：`1evgqgdbanocg` 併入本條。二者同是唐孟棨《本事詩》一卷——彼條出《國史經籍志》「《本事詩》一卷（唐孟棨集）」，本條出《宋史藝文志》「孟啟《本事詩》一卷」、《崇文總目》「本事詩一卷」、《欽定四庫全書總目》，題、卷（一卷）、撰人三者皆合。\n\n**二條之所以久未併**，正因本條之撰人先前被錯掛之清史稿節改成「徐釚（清）」——彼條之 ai_note 自記「missing_reason: 作者冲突 work=徐釚 vs anno=唐孟棨」，是當時已覺其異而不得其解。今錯掛既拆，撰人復為孟棨，二條之為一書遂明。",
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  }
 }
