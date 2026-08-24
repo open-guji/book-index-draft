@@ -102,6 +102,8 @@ DYNASTY_PERIOD = {
     '明': 'ming', '清': 'qing',
     '中華民國': 'modern', '民國': 'modern', '中華人民共和國': 'modern',
     '現代': 'modern', '近代': 'modern',
+    '宋末元初': 'liao-jin-yuan',  # 非歧義——指宋元之交確定之世，非「宋」字之歧讀，
+                                    # 逕定即可（原僅入 AMBIGUOUS_LATEST 供上限用，2026-08-24 補正）
 }
 
 # 歧義寫法：單書此字不足以定代，須以 catalog_bound 或他證消歧
