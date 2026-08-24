@@ -22,7 +22,7 @@
     }
   ],
   "measure_info": "十二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十二卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十二卷），今據以補。\n\n2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
   "authors": [
     {
       "name": "賈逵",
@@ -35,5 +35,14 @@
   "dynasty": "東漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。"
+  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
+  "description": {
+    "text": "東漢賈逵撰，十二卷。逵字景伯，父徽受《左氏》於劉歆，逵悉傳父業，兼通五家《穀梁》之說，明帝、章帝並重之，嘗奉詔撰《歐陽》《大小夏侯尚書》《古文同異》及《齊》《魯》《韓詩》與《毛氏》異同。本書合《左氏》《公羊》《穀梁》三家之經而為詁訓。書佚。",
+    "sources": [
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "lost",
+  "_promoted_to": "d59f25dgnlky",
+  "_promoted_at": "2026-08-24T15:41:08Z"
 }
