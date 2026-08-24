@@ -36,6 +36,10 @@
     {
       "name": "高皇帝",
       "type": "別名"
+    },
+    {
+      "name": "明太祖",
+      "type": "廟號"
     }
   ],
   "dynasty": "明",
@@ -101,6 +105,26 @@
     {
       "work_id": "1ev3bd85k229s",
       "role": "撰"
+    },
+    {
+      "work_id": "1exjwjdzb56ns",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evdiccpx3hmo",
+      "role": "敕撰"
+    },
+    {
+      "work_id": "1evka7e9ecdfk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjxpktv3ev4",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjxmpjjxgjk",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -111,5 +135,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 帝王 entity 重出歸併：併入「明太祖」（`1jcf5151293b4`）。本日補 entity 之際，以廟號「明太祖」別立一條，而庫中早有以本名「朱元璋」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。"
 }
