@@ -21,6 +21,10 @@
     {
       "work_id": "1ewsa4a7rmcvf",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcpctix2oe8",
+      "role": "撰"
     }
   ],
   "external_ids": {},
@@ -31,5 +35,5 @@
   "period": "jin",
   "period_basis": "據 dynasty「晉」自動歸併",
   "dynasty_basis": "author_propagation:round1",
-  "ai_note": "2026-08-11：三國魏晉探勘訂正——范宣為東晉知名經學家（字宣子，陳留人），Entity原CBDB誤配清代同名人物，dynasty改為「東晉」。 2026-08-11：三國魏晉探勘——與1j96hl45038cg（同名范宣，dynasty誤作「清」，實其一work題名逕作「晉范宣禮論難」）合併。\n\n2026-08-19 同題異撰人專項（附）：指向已併去之 work 而回溯不得（或新目標不反指本條）者 1 條，今去之。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《禮記范氏音》），是單向之繫，今補其反向。"
+  "ai_note": "2026-08-11：三國魏晉探勘訂正——范宣為東晉知名經學家（字宣子，陳留人），Entity原CBDB誤配清代同名人物，dynasty改為「東晉」。 2026-08-11：三國魏晉探勘——與1j96hl45038cg（同名范宣，dynasty誤作「清」，實其一work題名逕作「晉范宣禮論難」）合併。\n\n2026-08-19 同題異撰人專項（附）：指向已併去之 work 而回溯不得（或新目標不反指本條）者 1 條，今去之。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《禮記范氏音》），是單向之繫，今補其反向。\n\n2026-08-24 J3(6) Entity 同名分裂併池：併入 1j967cp1zdr3a（primary_name「范宣」，dynasty「東晉」，works 1 條）。據：范宣，東晉陳留人，字宣子，戴逵之師。二 entity dynasty 皆「東晉」。**併入之條所繫之 cbdb_id 649473 不隨併**——本人物前輪已查出「Entity 原 CBDB 誤配清代同名人物」（見 2026-08-11 三國魏晉探勘記），此號同屬待覈之列，記入 known-issues 而不承之。"
 }
