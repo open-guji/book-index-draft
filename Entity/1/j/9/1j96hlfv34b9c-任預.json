@@ -4,13 +4,30 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "任預",
-  "works": [],
+  "works": [
+    {
+      "work_id": "1evc5pd6pekn4",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evc5pd6uplvk",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcpctoez4sg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evc5pd9os7i8",
+      "role": "撰"
+    }
+  ],
   "external_ids": {
     "cbdb_id": 74437,
     "cbdb_match": "auto_placeholder_upgrade",
     "cbdb_source": "minimal_entity_backfill"
   },
-  "dynasty": "清",
+  "dynasty": "南朝宋",
   "birth_year": 1853,
   "death_year": 1901,
   "alt_names": [
@@ -23,7 +40,9 @@
       "type": "別名"
     }
   ],
-  "updated_at": "2026-08-23T05:22:40.066063+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "nanbeichao",
+  "period_basis": "據 dynasty「南朝宋」自動歸併（2026-08-24 訂正）",
+  "dynasty_basis": "2026-08-24 代懸隔者訂正：據所繫 work 之 authors[].dynasty「南朝宋」；舊作「清」而無據，今正。",
+  "ai_note": "2026-08-24 代懸隔者訂正：本 entity 舊繫 dynasty「清」（period qing），**無 dynasty_basis，亦無他 work 為證**；而所繫之 work（《禮論條牒》代 nanbeichao；《禮論帖》上限 sui-tang；《禮論抄》代 nanbeichao）之斷代皆有據——或隋志、崇文總目明題其官銜里貫，或師承、著錄之志可考（見各 work 之 period_basis）。兩相權衡，work 之據為實而 entity 之代為虛，故從 work 而正 entity。"
 }
