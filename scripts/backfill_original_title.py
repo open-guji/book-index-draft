@@ -11,6 +11,12 @@ import json, glob, re, sys, os, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from magnet_lib import norm  # noqa: E402
 
+# 倉根自本檔位置推得，不寫死容器路徑——舊值 /workspace/... 在別的容器
+# 佈局下寫成，移倉之後 glob 掃不到任何檔而**靜默地什麼都不做**。
+# 2026-08-24 已為此漏掉 4,121 條 period_upper，見 plans/全庫普查 附二。
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_PROD = os.path.join(os.path.dirname(_ROOT), 'book-index')
+
 APPLY = '--apply' in sys.argv
 PERIODS = [a for a in sys.argv[1:] if not a.startswith('--')] or ['qin-han']
 
@@ -53,7 +59,7 @@ def strip_tail(title, names, titles):
 def main():
     W = []
     titles = set()
-    for root in ('/workspace/book-index-draft', '/workspace/book-index'):
+    for root in (_ROOT, _PROD):
         for f in glob.glob(f'{root}/Work/*/*/*/*.json'):
             try:
                 d = json.load(open(f, encoding='utf-8'))
