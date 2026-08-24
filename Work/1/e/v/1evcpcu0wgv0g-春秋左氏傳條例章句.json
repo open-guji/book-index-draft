@@ -29,7 +29,7 @@
     }
   ],
   "measure_info": "九卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。\n\n2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
   "authors": [
     {
       "name": "鄭眾",
@@ -42,5 +42,14 @@
   "dynasty": "東漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。"
+  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
+  "description": {
+    "text": "東漢鄭眾撰，九卷。眾字仲師，鄭興之子，世稱「先鄭」，從父受《左氏春秋》，明《三統歷》，作《春秋難記條例》（《後漢書》本傳），即本書。與其父鄭興同為《左氏》學東漢之宗。書佚。",
+    "sources": [
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "lost",
+  "_promoted_to": "d59f25dgcd1h",
+  "_promoted_at": "2026-08-24T15:41:07Z"
 }

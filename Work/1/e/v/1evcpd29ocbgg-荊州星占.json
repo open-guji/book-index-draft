@@ -22,7 +22,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-22 B3 同名異書核對：與 1evcpd29tyl8g 同題而未予合併——《舊唐書經籍志》之「又N卷某某撰」是志書之「又」例——同題而別是一書（別本或他家所撰），非重出。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-22 B3 同名異書核對：與 1evcpd29tyl8g 同題而未予合併——《舊唐書經籍志》之「又N卷某某撰」是志書之「又」例——同題而別是一書（別本或他家所撰），非重出。\n\n2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
   "authors": [
     {
       "name": "劉表",
@@ -35,5 +35,14 @@
   "dynasty": "東漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。"
+  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
+  "description": {
+    "text": "東漢劉表撰，二卷。表為荊州牧，開立學官、博求儒士，集綦毋闓、宋忠等撰《五經章句》，號「荊州學派」；本書亦其時荊州人士之作，故以州名冠之。《隋志》另著劉叡《荊州星占》，二書之別當覆核。書佚。",
+    "sources": [
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "lost",
+  "_promoted_to": "d59f25dgcd1d",
+  "_promoted_at": "2026-08-24T15:41:07Z"
 }

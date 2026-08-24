@@ -22,7 +22,7 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
   "authors": [
     {
       "name": "仲長統",
@@ -35,5 +35,14 @@
   "dynasty": "東漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。"
+  "period_basis": "據 authors[0].dynasty「東漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
+  "description": {
+    "text": "東漢仲長統撰，一卷。統字公理，山陽高平人，著《昌言》三十四篇論治亂；本書贊其鄉邦兗州山陽之先賢，與《汝南先賢傳》《陳留耆舊傳》同為漢末郡國人物志之屬。書佚。",
+    "sources": [
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "lost",
+  "_promoted_to": "d59f25dgnlkx",
+  "_promoted_at": "2026-08-24T15:41:08Z"
 }
