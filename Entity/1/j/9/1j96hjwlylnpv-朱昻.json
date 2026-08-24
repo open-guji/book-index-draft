@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "朱昻",
-  "dynasty": "明",
+  "dynasty": "北宋",
   "works": [
     {
       "work_id": "1evgpmwkc4f0g",
@@ -12,11 +12,14 @@
     }
   ],
   "external_ids": {
-    "cbdb_id": 283715,
     "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=19"
+    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=19",
+    "cbdb_id_alt": [
+      283715
+    ]
   },
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "song",
+  "period_basis": "據 dynasty「北宋」",
+  "ai_note": "2026-08-24：dynasty 由「明」正為「北宋」。本 entity 名下唯《資理論》一書，而《國史經籍志》著「（宋朱昻）」、《崇文總目》（1041）已錄之，是北宋朱昂（925–1007）。原 cbdb_id 283715 所帶之「明」與此相牴，移入 `external_ids.cbdb_id_alt` 待 CBDB 道覈，不採其斷言。"
 }
