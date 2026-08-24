@@ -19,15 +19,15 @@
   ],
   "id": "1evcsxjnstt6o",
   "ai_note": "[QA-fix 2026-04-20] 从 1evgpkpzk68lc 合并; 卷三 □=籯；索引已有 1evcsxjnstt6o《鄱陽吳氏籯金堂書目》，合并 indexed_by\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「吳良嗣」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。 2026-08-20 國史落空收束：「《□金堂書目》三卷」節歸本條。題首字殘（□＝籯），即鄱陽吳氏籯金堂書目（吳良嗣）。\n\n2026-08-24 J2(a) 著錄括注誤剖：本書題名自著「鄱陽吳氏籯金堂書目」——吳氏即藏書之家，鄱陽（饒州）宋時屬江南東路。焦竑括注「（吳良嗣）」之吳即此姓。原 authors[0].name 作「良嗣」，是誤剖所遺。　本條 period 由 three-kingdoms 改 song，dynasty 由 吳 改 宋，authors[0].name 由「良嗣」正為「吳良嗣」。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "authors": [
     {
       "name": "吳良嗣",
       "role": "撰",
       "dynasty": "宋",
-      "entity_id": null,
+      "entity_id": "1jcf5151294mt",
       "note": "據本 work 諸著錄之 author_info「吳良嗣」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 J2(a)：見 ai_note"
+      "name_basis": "2026-08-24 J2(a)：見 ai_note\n\n2026-08-24 新建 entity `1jcf5151294mt` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
     }
   ],
   "dynasty": "宋",
