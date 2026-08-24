@@ -4,10 +4,10 @@
   "title": "注文選",
   "authors": [
     {
-      "name": "呂延濟等五臣",
+      "name": "呂延濟等",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": "1j96kfmlaqvpc"
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「呂延濟等五臣」）：《國史經籍志》「（唐呂延濟等五臣注；李善注；公孫羅注）」——「五臣」是呂延濟、劉良、張銑、呂向、李周翰五人之通稱，非名之一部。"
     }
   ],
   "juan_count": {
@@ -41,5 +41,5 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：《國史經籍志》「（唐呂延濟等五臣注；李善注；公孫羅注）」——「五臣」是呂延濟、劉良、張銑、呂向、李周翰五人之通稱，非名之一部。志書著錄語之修飾成分（官名、道號、封號、性別標注、國別、朝代前綴）隨名一併取入 authors[].name，非其名。"
 }

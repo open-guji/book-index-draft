@@ -3,14 +3,6 @@
   "id": "1evr5e3mfxf05",
   "type": "work",
   "title": "陰符經辨命論",
-  "authors": [
-    {
-      "name": "人所作因",
-      "role": "編",
-      "dynasty": "唐",
-      "entity_id": "1j96heigv53pc"
-    }
-  ],
   "juan_count": {
     "number": 1
   },
@@ -31,8 +23,8 @@
   "measure_info": "一卷",
   "updated_at": "2026-08-09T09:00:59+00:00",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
+  "period_basis": "本條 authors 舊有「人所作因」而實非人名（見 ai_note），今空。period 仍 sui-tang——其據是所繫著錄之志（崇文總目）所著錄者皆唐人唐事，且著錄語自明其時。",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄（純著錄語，非人名）：《崇文總目》原文：「陰符經辨命論一卷。唐張果傳，或曰果於道藏得此傳，不詳何代人所作，因編次而正之，今別為古字，蓋當時道書所得之本也。」——「人所作因」是自「不詳何代人所作」與「因編次」二句之交割處誤截，非人名。本書之傳者是張果（唐玄宗朝方士），而崇文總目自言「不詳何代人所作」，故撰人當空。"
 }

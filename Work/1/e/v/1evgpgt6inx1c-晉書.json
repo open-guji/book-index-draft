@@ -4,10 +4,11 @@
   "title": "晉書",
   "authors": [
     {
-      "name": "太宗命群臣",
-      "role": "撰",
+      "name": "房玄齡等",
+      "role": "奉敕撰",
       "dynasty": "唐",
-      "entity_id": "1j96hfqbqplvk"
+      "entity_id": "1j967cp1zdr17",
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「太宗命群臣」）：《國史經籍志》「《𣈆書》一百三十卷（唐太宗命群臣撰。）」——括注所記者是修書之緣起（太宗命群臣撰），非撰人之名。《晉書》房玄齡、褚遂良等奉敕撰，太宗自為宣、武二帝及陸機、王羲之四論，故舊題「御撰」，然其撰人當著房玄齡等。。"
     }
   ],
   "juan_count": {
@@ -41,7 +42,7 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 J3(1) 異體歸一：題名之「𣈆」是「晉」之古文異體，本庫題名一律用正體。舊題已入 additional_titles，各志實有之著錄形不失。（本字不在 chk.py 之異體表，亦不在 known-issues 異體重出之 209 組中，故此前未被查出。）",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 J3(1) 異體歸一：題名之「𣈆」是「晉」之古文異體，本庫題名一律用正體。舊題已入 additional_titles，各志實有之著錄形不失。（本字不在 chk.py 之異體表，亦不在 known-issues 異體重出之 209 組中，故此前未被查出。）\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：《國史經籍志》「《𣈆書》一百三十卷（唐太宗命群臣撰。）」——括注所記者是修書之緣起（太宗命群臣撰），非撰人之名。《晉書》房玄齡、褚遂良等奉敕撰，太宗自為宣、武二帝及陸機、王羲之四論，故舊題「御撰」，然其撰人當著房玄齡等。",
   "additional_titles": [
     "𣈆書"
   ]
