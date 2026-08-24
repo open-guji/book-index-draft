@@ -17,7 +17,7 @@
     }
   ],
   "id": "1evcpd1f7rn5s",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 3
   },
@@ -29,6 +29,17 @@
   ],
   "measure_info": "三卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "authors": [
+    {
+      "name": "甄鸞",
+      "role": "撰",
+      "dynasty": "北周",
+      "entity_id": "1j96haa5hnuv4",
+      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》之著錄題撰人「甄鸞」，庫中同名 entity 唯一（`1j96haa5hnuv4`，代「北周」）。甄鸞《笑道論》，《廣弘明集》全載，無可疑。"
+    }
+  ],
+  "dynasty": "北周",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「北周」。本條原以《宋史藝文志》為上限（sui-tang），今得撰人，收窄至 nanbeichao。撰書相符之由見 authors[].name_basis。"
 }

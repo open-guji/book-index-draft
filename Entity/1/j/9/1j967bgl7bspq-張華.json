@@ -70,6 +70,10 @@
       "work_id": "1evcsy0z6d2ps",
       "role": "撰",
       "title": "小象賦"
+    },
+    {
+      "work_id": "1evcsxlbw0dmo",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -77,7 +81,7 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.20+unique"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 dynasty「西晉」自動歸併",
   "alt_names": [
@@ -86,5 +90,5 @@
       "type": "訛名"
     }
   ],
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「豪華」（`1j96hfebgwoow`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
+  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「豪華」（`1j96hfebgwoow`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。"
 }

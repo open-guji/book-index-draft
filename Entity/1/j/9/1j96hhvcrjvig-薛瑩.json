@@ -21,10 +21,14 @@
     {
       "work_id": "1evftey0s2hhc",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcsyocbsni8",
+      "role": "撰"
     }
   ],
-  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=180473（pending_accept: relaxed_ambig cbdb_dy=6 (None-756)），據以填入朝代「唐」、生卒 None~756。所繫作品著錄作三國吳或晉，薛瑩（?-282）吳人，入晉。今卸除 CBDB 全部斷言，朝代改作「三國吳」。原值悉錄於此，可逆。\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hfq8skx6o`（薛瑩，三國吳），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=180473（pending_accept: relaxed_ambig cbdb_dy=6 (None-756)），據以填入朝代「唐」、生卒 None~756。所繫作品著錄作三國吳或晉，薛瑩（?-282）吳人，入晉。今卸除 CBDB 全部斷言，朝代改作「三國吳」。原值悉錄於此，可逆。\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hfq8skx6o`（薛瑩，三國吳），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國吳」自動歸併"
 }
