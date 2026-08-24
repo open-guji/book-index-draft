@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1evdxnqnjxmv4",
   "type": "work",
-  "title": "韋述唐春秋",
+  "title": "唐春秋",
   "indexed_by": [
     {
       "source": "新唐書藝文志",
@@ -21,6 +21,13 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《唐春秋》二十卷",
+      "summary": "《唐春秋》二十卷（韋述）",
+      "author_info": "韋述"
     }
   ],
   "authors": [
@@ -46,5 +53,9 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3·撰人字首式重出：自 `1evgpgz224lq8`《唐春秋》併入——彼繫焦竑《國史經籍志》「《唐春秋》二十卷（韋述）」，本條繫《新唐書藝文志》「韋述唐春秋三十卷」並《經義考》「唐志三十卷」，撰人同為韋述。**卷數從新唐志之三十卷**：焦竑之二十卷孤證，而《經義考》所引唐志亦作三十，焦竑抄撮舊目而訛（skill 坑 6：其孤證不足以立一書）。\n\n2026-08-24 隋唐 T3 正題（原作「韋述唐春秋」）：《新唐書藝文志》之著錄語以撰人起首（「韋述唐春秋三十卷」），匯入時全取為題，遂使撰人折入題首。撰人韋述已在 authors[]，裸題「唐春秋」全庫無同名之異書（併入之焦竑條即用此裸題），今正之。",
+  "additional_titles": [
+    "唐春秋",
+    "韋述唐春秋"
+  ]
 }

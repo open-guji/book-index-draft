@@ -8,6 +8,12 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《懸鏡》十卷",
       "summary": "《懸鏡》十卷李淳風撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《李淳風懸鏡》千卷",
+      "summary": "《李淳風懸鏡》千卷"
     }
   ],
   "id": "1evcpd2v6s35s",
@@ -22,7 +28,7 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-24 隋唐 T3·撰人字首式重出：自 `1evgq1a2cbnr4`《李淳風懸鏡》併入——題以撰人起首，裸題即本條，撰人同為李淳風，全庫此裸題無同名之異書。**卷數之異記此備考**：焦竑《國史經籍志》作「千卷」，而《舊唐書經籍志》作十卷；千卷之數於一書為不倫（唐人術數之書無此鉅帙），當是焦竑之訛（「十」「千」形近，或涉上下條而衍），今從舊唐志之十卷。",
   "authors": [
     {
       "name": "李淳風",
@@ -35,5 +41,8 @@
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 sui-tang。"
+  "period_basis": "據 authors[0].dynasty「唐」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 sui-tang。",
+  "additional_titles": [
+    "李淳風懸鏡"
+  ]
 }
