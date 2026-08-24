@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "王述之",
-  "dynasty": "清",
+  "dynasty": "晉",
   "works": [
     {
       "work_id": "1evc5pdqmeoe8"
@@ -16,6 +16,8 @@
     "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=20"
   },
   "updated_at": "2026-08-23T05:22:40.066063+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併"
+  "period": "jin",
+  "period_basis": "據 dynasty「晉」（2026-08-24 J2(b) 訂正 qing_round1 之污染）",
+  "dynasty_basis": "2026-08-24 J2(b)：見 ai_note",
+  "ai_note": "2026-08-24 J2(b) qing_round1 斷代污染訂正：本欄之值出自清代整理 round1 之機械步（dynasty_basis 自陳「period=qing 且非通用作者 dynasty 唯一为「清」」／「據 dynasty「清」自動歸併」），其後本條之 period 已改判而 dynasty 未隨，遂成 work.dynasty「清」而 authors[0].dynasty 為晉代之矛盾。今訂正。據：王述之，《隋志》著錄其《春秋左氏經傳通解》，晉人。　dynasty 由「清」改「晉」，period 由 qing 改 jin。"
 }
