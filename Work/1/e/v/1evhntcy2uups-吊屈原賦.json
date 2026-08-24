@@ -27,10 +27,26 @@
       "id": "1evhnqciqrwu8",
       "title": "正續古文辭類纂",
       "relation": "collected_in"
+    },
+    {
+      "id": "1evi5uod20l4w",
+      "title": "昭明文選",
+      "relation": "collected_in"
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：前200-前168，西漢文帝時人）"
+  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：前200-前168，西漢文帝時人）",
+  "additional_titles": [
+    "弔屈原文"
+  ],
+  "ai_note": "\n\n2026-08-24 單篇文同篇異題歸併：1evi5xgtde1og「弔屈原文」併入本條。賈誼謫長沙渡湘水而吊屈原，《漢書》本傳作「吊屈原賦」，《文選》入「吊文」類故題「弔屈原文」，一篇二題。按單篇文之體例，一篇為總集所並收者當立一 Work 而以多個 `collected_in` 繫其所入之集，不當因各集題名互異而分立數條。所併之 collected_in 已合。",
+  "merged_in": [
+    {
+      "id": "1evi5xgtde1og",
+      "title": "弔屈原文",
+      "author": "賈誼"
+    }
+  ]
 }

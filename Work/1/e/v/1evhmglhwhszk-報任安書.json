@@ -40,10 +40,26 @@
       "id": "1evhnqciqrwu8",
       "title": "正續古文辭類纂",
       "relation": "collected_in"
+    },
+    {
+      "id": "1evi5uod20l4w",
+      "title": "昭明文選",
+      "relation": "collected_in"
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：前145-前86，西漢太史令，《史記》作者）"
+  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：前145-前86，西漢太史令，《史記》作者）",
+  "additional_titles": [
+    "報任少卿書"
+  ],
+  "ai_note": "\n\n2026-08-24 單篇文同篇異題歸併：1evi5x2hmjj0g「報任少卿書」併入本條。司馬遷報任安（字少卿）書，《文選》題「報任少卿書」，《古文觀止》《類纂》題「報任安書」，一篇二題。按單篇文之體例，一篇為總集所並收者當立一 Work 而以多個 `collected_in` 繫其所入之集，不當因各集題名互異而分立數條。所併之 collected_in 已合。",
+  "merged_in": [
+    {
+      "id": "1evi5x2hmjj0g",
+      "title": "報任少卿書",
+      "author": "司馬遷"
+    }
+  ]
 }

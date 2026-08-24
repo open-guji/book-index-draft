@@ -27,10 +27,26 @@
       "id": "1evi5uod20l4w",
       "title": "昭明文選",
       "relation": "collected_in"
+    },
+    {
+      "id": "1evhmcmmhp2bk",
+      "title": "古文觀止",
+      "relation": "collected_in"
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）"
+  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "additional_titles": [
+    "鄒陽獄中上梁王書"
+  ],
+  "ai_note": "\n\n2026-08-24 單篇文同篇異題歸併：1evhmgmmb3ocg「鄒陽獄中上梁王書」併入本條。鄒陽從梁孝王，為羊勝公孫詭所讒下獄，乃從獄中上書自明，《文選》題「獄中上書自明」，《古文觀止》題「鄒陽獄中上梁王書」（撰人折入題名），一篇二題。按單篇文之體例，一篇為總集所並收者當立一 Work 而以多個 `collected_in` 繫其所入之集，不當因各集題名互異而分立數條。所併之 collected_in 已合。",
+  "merged_in": [
+    {
+      "id": "1evhmgmmb3ocg",
+      "title": "鄒陽獄中上梁王書",
+      "author": "鄒陽"
+    }
+  ]
 }

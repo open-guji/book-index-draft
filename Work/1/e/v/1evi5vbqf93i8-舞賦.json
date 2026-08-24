@@ -27,10 +27,26 @@
       "id": "1evi5uod20l4w",
       "title": "昭明文選",
       "relation": "collected_in"
+    },
+    {
+      "id": "1evhnqciqrwu8",
+      "title": "正續古文辭類纂",
+      "relation": "collected_in"
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）"
+  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
+  "additional_titles": [
+    "傅武仲舞賦"
+  ],
+  "ai_note": "\n\n2026-08-24 單篇文同篇異題歸併：1evhnt8ns6wao「傅武仲舞賦」併入本條。傅毅字武仲，《正續古文辭類纂》題「傅武仲舞賦」是撰人字折入題名之形，《文選》題「舞賦」。按單篇文之體例，一篇為總集所並收者當立一 Work 而以多個 `collected_in` 繫其所入之集，不當因各集題名互異而分立數條。所併之 collected_in 已合。",
+  "merged_in": [
+    {
+      "id": "1evhnt8ns6wao",
+      "title": "傅武仲舞賦",
+      "author": "傅毅"
+    }
+  ]
 }
