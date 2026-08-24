@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1ex0j802hpbsx",
+  "type": "work",
+  "title": "周禮注",
+  "authors": [
+    {
+      "name": "鄭康成",
+      "role": "注",
+      "dynasty": null,
+      "entity_id": null,
+      "note": "直齋書錄解題本條作「漢鄭康成撰」，其書為《周禮》之注，故 role 作注。entity_id 依 N1 之例不繫。"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "直齋書錄解題",
+      "source_bid": "1ev3bb403quio",
+      "section": "禮類",
+      "title_info": "《周禮注》十二卷",
+      "summary": "漢鄭康成撰。案《藝文志》，《周官經》六篇，本注雲「王莽時劉歆置博士」。顏師古曰：「即今之《周禮》也，亡其《冬官》，以《考工記》足之。」",
+      "author_info": "漢鄭康成撰",
+      "note": "直齋此條連著「《周禮》十二卷、《周禮注》十二卷」二書而解題共一則，匯入時整條之文給了每一節，二節遂共繫一 work（磁鐵）。依 SCHEMA〈原典與注本〉注本各自成 Work，今別出。"
+    }
+  ],
+  "juan_count": {
+    "number": 12
+  },
+  "measure_info": "十二卷",
+  "ai_note": "2026-08-24 磁鐵 N1 別出：直齋書錄解題 禮類 第 14 節《周禮注》十二卷。其母條第 13 節《周禮》十二卷留繫 1evr5e3mjd14n。period／loss_status／entity_id 依 N1 之例不繫。",
+  "related_works": [
+    {
+      "id": "1evl7nl7lsg00",
+      "relation": "contains_text_of",
+      "title": "周禮"
+    }
+  ],
+  "period_upper": "song",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song"
+}

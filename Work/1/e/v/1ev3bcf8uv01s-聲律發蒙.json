@@ -68,12 +68,12 @@
     }
   ],
   "measure_info": "五卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
+  "updated_at": "2026-08-24T02:37:53+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n[N3磁鐵 2026-08-24 裁：不拆]《四庫全書總目》於一書而有二本者，前後各出一條，後條題「別本某某」，其提要正以「與前一本」比而言之——**是同書之二本，非二書**。依 SCHEMA，版本之別不立新 Work，其異當記於 Book，故二節共繫是。本條之證：《別本聲律發蒙》六卷（編修周永年家藏本）提要曰「元祝明撰。原書二卷。此本作五卷，蓋後人所分。末附歌一卷」——與五卷本同出祝明《聲律啟蒙》，所異者後人之分卷與所附續補（潘瑛續／黃石居士歌、馬崇儒重訂）。\n\n附記：此型之節（四庫「別本」）本不當計入 chk 之 section 級磁鐵，然 chk 只免「附屬部帙」一類，故仍現於其數。若欲歸零，須另立一 `section_kind`（如「別本」）而 chk 免之——此涉 SCHEMA 與校驗工具，非本輪（磁鐵）之權，記此以俟。"
 }
