@@ -568,8 +568,8 @@
         "dynasty": null
       }
     ],
-    "裁": "待覈（2026-08-24 據已明，只候 B 車道執行）",
-    "由": "2026-08-24 覆裁。N1 已拆 1evcmndxkvx1c（正題《天文志》十二卷）與 1ewywfxayaebp（《天文志雜占》一卷），二者題卷俱異，本二書。所餘之問只一：1evdid2c11udc（明志，明人吳雲）是否即 1ewywfxayaebp（隋志）。二者題、卷、撰人三者全同，而前者之「明」無獨立之據（因志斷代而定其代，再因其代而自動配得明人，cbdb 自陳 pending_accept: auto_ambig）。疑明志誤收前代書，已入 known-issues/志書疑誤收.json。當併而以 1ewywfxayaebp 為 keeper；併須連帶退役一 entity，屬他道，故只記不併。"
+    "裁": "併",
+    "由": "2026-08-24 覆裁。N1 已拆 1evcmndxkvx1c（正題《天文志》十二卷）與 1ewywfxayaebp（《天文志雜占》一卷），二者題卷俱異，本二書。所餘之問只一：1evdid2c11udc（明志，明人吳雲）是否即 1ewywfxayaebp（隋志）。二者題、卷、撰人三者全同，而前者之「明」無獨立之據（因志斷代而定其代，再因其代而自動配得明人，cbdb 自陳 pending_accept: auto_ambig）。疑明志誤收前代書，已入 known-issues/志書疑誤收.json。當併而以 1ewywfxayaebp 為 keeper；併須連帶退役一 entity，屬他道，故只記不併。 ｜ 2026-08-24 辦訖：車道解散後補辦。`1evdid2c11udc` 併入 `1ewywfxayaebp`（keeper 之著錄出隋志，早且備），並退役偽 entity 吳雲（明，`1j96h8rw7vhgb`，其 works 唯被併之條，cbdb_source 自陳 pending_accept: auto_ambig）；keeper 之 authors[].dynasty／entity_id 一併撤去——本書出隋志，其吳雲是隋以前人，非生於 1463 之明人。"
   },
   {
     "title": "太白陰經",
