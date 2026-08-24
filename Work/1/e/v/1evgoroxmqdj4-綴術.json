@@ -6,7 +6,9 @@
     {
       "name": "祖冲之",
       "role": "撰",
-      "entity_id": "1j96haa51qr5s"
+      "entity_id": "1j96haa51qr5s",
+      "dynasty": "南朝齊",
+      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：祖沖之（429-500），南朝齊長水校尉，《南齊書·文學傳》有傳。"
     }
   ],
   "juan_count": {
@@ -43,7 +45,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"綴術\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcmnelw5c74`（綴術）。2026-08-23 B10（同題一方無撰人）：併入 `1evcmnelw5c74`（舊唐書經籍志、隋書經籍志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
+  "ai_note": "missing_reason: 短title \"綴術\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcmnelw5c74`（綴術）。2026-08-23 B10（同題一方無撰人）：併入 `1evcmnelw5c74`（舊唐書經籍志、隋書經籍志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
   "id": "1evgoroxmqdj4",
   "measures": [
     {
@@ -66,5 +68,6 @@
     }
   ],
   "period": "nanbeichao",
-  "period_basis": "知名人物：祖沖之，南朝宋齊算學家，撰《綴術》（2026-08-24 R3二輪 引文定代）"
+  "period_basis": "知名人物：祖沖之，南朝宋齊算學家，撰《綴術》（2026-08-24 R3二輪 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgoroxmqdj4-綴術.json"
 }

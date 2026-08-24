@@ -28,7 +28,9 @@
     {
       "name": "陶弘景",
       "role": "撰",
-      "entity_id": "1j967bgl7y9th"
+      "entity_id": "1j967bgl7y9th",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967bgl7y9th`（陶弘景）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -51,9 +53,10 @@
   ],
   "measure_info": "一卷",
   "updated_at": "2026-08-22T04:56:00.103559+00:00",
-  "ai_note": "2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcmndv7o4qo`、`1evgq1ee68mbk`），據題名＋本志著錄＋卷數回收於本條，並補其著錄。",
+  "ai_note": "2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcmndv7o4qo`、`1evgq1ee68mbk`），據題名＋本志著錄＋卷數回收於本條，並補其著錄。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「陶弘景」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「陶弘景」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcmndu9n9j4-天儀說要.json"
 }

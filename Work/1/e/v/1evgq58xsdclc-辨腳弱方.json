@@ -6,7 +6,9 @@
     {
       "name": "徐文伯",
       "role": "撰",
-      "entity_id": "1j96h8rw7k8y5"
+      "entity_id": "1j96h8rw7k8y5",
+      "dynasty": "南朝宋",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw7k8y5`（徐文伯）之 dynasty「南朝宋」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -52,5 +54,8 @@
   "period": "nanbeichao",
   "period_basis": "隋書經籍志節於梁人醫書敘錄中明確列有「《徐文伯辨腳弱方》一卷」，人名書名卷數三者完全吻合；徐文伯為南朝宋齊間名醫（徐氏世醫家族，《南史》有傳）。原判「明」僅據同名下他書之弱證統計佐證，係同名明代異人誤配。（2026-08-24 C1 上限漂移覆核，原判 ming 改正）",
   "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq58xsdclc-辨腳弱方.json",
+  "ai_note": "N4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN7 loss_status（2026-08-24 南北朝存佚專項，路一：隋志「梁有…亡」）：判為 lost。所繫《隋書經籍志》之注文明言其書梁時尚存而隋時已亡，且其句之主語即本條（本條之題或撰人見於「梁有」之後）——判據原文：「梁有《徐叔響療腳弱雜方》八卷，《徐文伯辨腳弱方》一卷，《甘浚之療癰疽金創要方》十四卷，《甘浚之療癰疽毒惋雜病方》三卷，《甘伯齊療癰疽金創方》十五卷。亡。」。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判：一字不存方為 lost；本條無輯佚檔亦無存文之證，故從隋志之判。",
+  "loss_status": "lost"
 }

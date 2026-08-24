@@ -4,15 +4,24 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "王祐",
-  "dynasty": "東漢",
+  "dynasty": "宋",
   "works": [
     {
       "work_id": "d59f24ly7lz6",
       "role": "撰"
+    },
+    {
+      "work_id": "1ewyw310u7h8r",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evjr7i0l5ibk",
+      "role": "輯"
     }
   ],
-  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=198138（pending_accept: relaxed_ambig cbdb_dy=19 (1422-None)），據以填入朝代「明」、生卒 1422~None、字號別名 二／宗吉。本人物所繫作品之著錄朝代皆作「東漢」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。",
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "qin-han",
-  "period_basis": "據 dynasty「東漢」自動歸併"
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=198138（pending_accept: relaxed_ambig cbdb_dy=19 (1422-None)），據以填入朝代「明」、生卒 1422~None、字號別名 二／宗吉。本人物所繫作品之著錄朝代皆作「東漢」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。\n\n2026-08-24 代懸隔者訂正：本 entity 舊繫 dynasty「東漢」（period qin-han），**無 dynasty_basis，亦無他 work 為證**；而所繫之 work（《王祐集》代 song）之斷代皆有據——或隋志、崇文總目明題其官銜里貫，或師承、著錄之志可考（見各 work 之 period_basis）。兩相權衡，work 之據為實而 entity 之代為虛，故從 work 而正 entity。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "song",
+  "period_basis": "據 dynasty「宋」自動歸併（2026-08-24 訂正）",
+  "dynasty_basis": "2026-08-24 代懸隔者訂正：據所繫 work 之 authors[].dynasty「宋」；舊作「東漢」而無據，今正。"
 }

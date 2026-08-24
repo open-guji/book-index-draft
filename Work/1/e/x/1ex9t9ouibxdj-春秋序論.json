@@ -8,10 +8,12 @@
       "name": "樂遜",
       "role": null,
       "entity_id": "1jcf5151293f0",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293f0` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
+      "name_basis": "2026-08-24 新建 entity `1jcf5151293f0` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
+      "dynasty": "北周",
+      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：樂遜，北周人，《後周書》有傳（武帝時為太學博士）。"
     }
   ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書春秋類著錄「樂氏（遜）春秋序論」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「佚」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。",
+  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書春秋類著錄「樂氏（遜）春秋序論」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「佚」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
   "indexed_by": [
     {
       "source": "經義考",
@@ -30,5 +32,6 @@
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《經義考》（清朱彝尊（1700）），故不晚於 qing",
   "period": "nanbeichao",
   "period_basis": "知名人物：樂遜（498-567），北周太學博士，《周書·儒林傳》有傳，北周在南北朝之內（2026-08-24 R3二輪 引文定代）",
-  "updated_at": "2026-08-24T00:00:00+00:00"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "_path": "/home/user/book-index-draft/Work/1/e/x/1ex9t9ouibxdj-春秋序論.json"
 }

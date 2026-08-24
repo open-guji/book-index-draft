@@ -6,7 +6,9 @@
   "authors": [
     {
       "name": "姚規",
-      "entity_id": "1j96hf7f5035s"
+      "entity_id": "1j96hf7f5035s",
+      "dynasty": "齊梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hf7f5035s`（姚規）之 dynasty「齊梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "indexed_by": [
@@ -78,9 +80,10 @@
       "summary": "馬氏玉函山房輯本序曰：「姚規，不詳何人。《隋志》有《周易》七卷，姚規注。不著何代，蓋隋時已無考。但系於梁何胤、伏曼容、朱异之下，當是齊、梁間人。《唐志》不著錄，亡佚已久。李鼎《集解》引一節，說言互體，蓋亦治鄭、虞學者。」\n按姚氏規及傅氏，馬竹吾皆以為齊、梁間人。竊以謂姚氏以下四家，次梁人之後，皆後魏、北齊人也。本志編次別集一類，亦以梁後次北魏、北齊、後周，以迄陳、隋。又每於北朝人書，多不著其時代、爵里，此其例之略可尋究者。"
     }
   ],
-  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「周易姚規撰」與本條「周易姚規注」同出隋書經籍志《周易》七卷姚規注一節（二條之 indexed_by 皆隋志七卷＋經義考《周易注》（姚規）），係「撰人折入題名」之一書兩建，今併。src 之輯佚檔隨遷。\n\n併入之輯佚檔已遷入本條 fragments/：周易姚規撰.json（遷入）\n\nN2 loss_status（2026-08-24）：本輪併入輯本條後，本條有輯佚檔 周易姚規撰.json，是其文確有存世者。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判——凡有文存世即 partially_extant，一字不存方為 lost——由 None 改為 partially_extant。",
+  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「周易姚規撰」與本條「周易姚規注」同出隋書經籍志《周易》七卷姚規注一節（二條之 indexed_by 皆隋志七卷＋經義考《周易注》（姚規）），係「撰人折入題名」之一書兩建，今併。src 之輯佚檔隨遷。\n\n併入之輯佚檔已遷入本條 fragments/：周易姚規撰.json（遷入）\n\nN2 loss_status（2026-08-24）：本輪併入輯本條後，本條有輯佚檔 周易姚規撰.json，是其文確有存世者。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判——凡有文存世即 partially_extant，一字不存方為 lost——由 None 改為 partially_extant。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "merged_from": [
     "1evdmdl4i0s8w"
   ],
-  "loss_status": "partially_extant"
+  "loss_status": "partially_extant",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5p8kk17nk-周易姚規注.json"
 }

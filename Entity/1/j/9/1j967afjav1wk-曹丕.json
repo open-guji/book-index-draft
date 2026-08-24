@@ -20,6 +20,10 @@
     {
       "name": "文皇帝",
       "type": "諡號"
+    },
+    {
+      "name": "魏文帝",
+      "type": "廟號"
     }
   ],
   "dynasty": "三國魏",
@@ -93,6 +97,22 @@
     {
       "work_id": "1evr5e3mifbfe",
       "role": "託名"
+    },
+    {
+      "work_id": "1evcpd2prdj40",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcmnc8dqz28",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcmnclre58g",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcpcxqoa3nk",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -100,8 +120,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "altname_exact+dy_match+work_recall_0.67+unique"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "ai_note": "2026-08-08 Entity合併：原曹丕(1j96hjwlxz6n5)為同一人之分裂Entity，已合併。\n\n2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 2 條，今改繫其存者。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "ai_note": "2026-08-08 Entity合併：原曹丕(1j96hjwlxz6n5)為同一人之分裂Entity，已合併。\n\n2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 2 條，今改繫其存者。\n\n2026-08-24 帝王 entity 重出歸併：併入「魏文帝」（`1jcf5151299yu`）。本日補 entity 之際，以廟號「魏文帝」別立一條，而庫中早有以本名「曹丕」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國魏」自動歸併"
 }

@@ -6,7 +6,9 @@
   "authors": [
     {
       "name": "皇侃",
-      "entity_id": "1j96a9e5iy7ls"
+      "entity_id": "1j96a9e5iy7ls",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96a9e5iy7ls`（皇侃）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "indexed_by": [
@@ -67,8 +69,9 @@
   "additional_titles": [
     "喪服文句義䟽"
   ],
-  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「喪服文句義䟽」（國史經籍志十卷）與本條（隋書經籍志十卷、經義考）題同（疏／䟽異體）、卷同、撰人同（皇侃），異志而一書，今併。",
+  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「喪服文句義䟽」（國史經籍志十卷）與本條（隋書經籍志十卷、經義考）題同（疏／䟽異體）、卷同、撰人同（皇侃），異志而一書，今併。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "merged_from": [
     "1evgoq9wgad4w"
-  ]
+  ],
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5pcwrddkw-喪服文句義疏皇侃撰.json"
 }

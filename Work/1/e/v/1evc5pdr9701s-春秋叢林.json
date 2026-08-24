@@ -6,10 +6,11 @@
     {
       "name": "李謐",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "北魏",
       "entity_id": "1j96hjwlx1gxw",
       "note": "據本 work 諸著錄之 author_info「李謐」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「李謐」而無 entity_id，今繫 `1j96hjwlx1gxw`——庫中 primary_name 同之者唯一。其代「北魏」與本書已定之代「nanbeichao」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「李謐」而無 entity_id，今繫 `1j96hjwlx1gxw`——庫中 primary_name 同之者唯一。其代「北魏」與本書已定之代「nanbeichao」相合。",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hjwlx1gxw`（李謐）之 dynasty「北魏」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "indexed_by": [
@@ -49,8 +50,13 @@
     "number": 12
   },
   "description": {
-    "text": "《春秋丛林》十二卷",
-    "sources": []
+    "text": "北魏李謐撰，12卷。《隋書經籍志》；《舊唐書經籍志》；《國史經籍志》；《經義考》皆作十二卷。本條見於4家著錄：《隋書經籍志》、《舊唐書經籍志》、《國史經籍志》、《經義考》。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志",
+      "國史經籍志",
+      "經義考"
+    ]
   },
   "id": "1evc5pdr9701s",
   "emendated_by": [
@@ -69,9 +75,10 @@
   ],
   "measure_info": "十二卷",
   "updated_at": "2026-08-24T00:00:00+00:00",
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「李謐」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「李謐」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "經義考引冊府元龜：李謐涿郡人，徵拜著作佐郎辭以授弟郁，即北魏逸士李謐（2026-08-24 R3 引文定代）"
+  "period_basis": "經義考引冊府元龜：李謐涿郡人，徵拜著作佐郎辭以授弟郁，即北魏逸士李謐（2026-08-24 R3 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5pdr9701s-春秋叢林.json"
 }

@@ -6,8 +6,9 @@
     {
       "name": "劉被",
       "role": "撰",
-      "dynasty": "梁",
-      "entity_id": "1j96hfok7al8g"
+      "dynasty": "南朝梁",
+      "entity_id": "1j96hfok7al8g",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -28,7 +29,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 作者冲突 work=梁太尉參軍劉被 vs anno=梁劉被\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evetxcywe6m8` 同題《孔志》、同卷數 10，撰人分作「劉被」「梁太尉參軍劉被」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「劉被」，異名之著錄並存於 indexed_by。",
+  "ai_note": "missing_reason: 作者冲突 work=梁太尉參軍劉被 vs anno=梁劉被\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evetxcywe6m8` 同題《孔志》、同卷數 10，撰人分作「劉被」「梁太尉參軍劉被」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「劉被」，異名之著錄並存於 indexed_by。\n\nN4 朝代名歸一（2026-08-24）：劉被「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evgor0oxe800",
   "measures": [
     {
@@ -49,5 +50,6 @@
     }
   ],
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgor0oxe800-孔志.json"
 }

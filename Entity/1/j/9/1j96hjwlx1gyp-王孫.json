@@ -10,16 +10,21 @@
       "type": "字"
     }
   ],
-  "dynasty": "唐",
   "birth_year": 600,
   "death_year": 661,
-  "works": [],
+  "works": [
+    {
+      "work_id": "1evd67dg7ccg0",
+      "role": "撰"
+    }
+  ],
   "external_ids": {
     "cbdb_id": 139245,
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=6 (600-661)"
   },
-  "updated_at": "2026-08-08T11:51:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period_basis": "代待考——舊值已去，見 dynasty_basis。",
+  "dynasty_basis": "2026-08-24 代懸隔者訂正：舊作「唐」而無據，且與所繫 work 之 period_upper 相斥（qin-han），今去之，其代待考。",
+  "ai_note": "2026-08-24 代懸隔者訂正：本 entity 舊繫 dynasty「唐」（period sui-tang），**無 dynasty_basis，亦無他 work 為證**；而所繫之 work（《王孫》上限 qin-han）之斷代皆有據——或隋志、崇文總目明題其官銜里貫，或師承、著錄之志可考（見各 work 之 period_basis）。兩相權衡，work 之據為實而 entity 之代為虛，故從 work 而正 entity。"
 }

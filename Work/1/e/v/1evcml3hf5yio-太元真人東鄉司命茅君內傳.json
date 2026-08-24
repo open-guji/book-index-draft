@@ -40,5 +40,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「李遵」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「李遵」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "ai_note": "N4 存疑（2026-08-24）：本條撰人「李遵」所繫 entity `1j967da97jm1d` 之代作「唐」，與本條之代（nanbeichao，據隋志著錄「《太元真人東鄉司命茅君內傳》一卷弟子李遵撰」）相牴。該 entity 名下另有《太元真人茅君內傳》《三茅君內傳》（皆 sui-tang）與《九章算術》——《九章算術》與李遵無涉，疑其為聚合誤配之 entity。本輪不強判：authors[].dynasty 留空，其代之判與該 entity 之拆併交人物併池車道。"
 }
