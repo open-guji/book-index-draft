@@ -26,16 +26,7 @@
   ],
   "id": "1evcpd5fha134",
   "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "劉毅",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96kefeu6n7k",
-      "note": "書名即撰人。按東漢、西晉、東晉皆有名劉毅者（本庫「劉毅」entity `1j96kefeu6n7k` 標東漢），諸志不著其時代，未能斷為何人，故 entity_id 留空。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「劉毅」而無 entity_id，今繫 `1j96kefeu6n7k`——庫中 primary_name 同之者唯一。其代「東漢」與本書之上限不相斥。"
-    }
-  ],
+  "authors": [],
   "juan_count": {
     "number": 2
   },
@@ -46,7 +37,5 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、國史經籍志皆二卷，同為劉毅別集，今合為一條；撰人本庫無可繫之 entity。",
-  "period": "qin-han",
-  "period_basis": "據撰人「劉毅」（entity `1j96kefeu6n7k`，代「東漢」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、國史經籍志皆二卷，同為劉毅別集，今合為一條；撰人本庫無可繫之 entity。\n\n2026-08-24 漢代收束·誤入漢桶清出：本條由另一路「宋志頂真格抽撰人／舊唐志逐條抽撰人／補繫 entity」作業繫上漢代撰人，period 隨之收窄至 qin-han，而其書實非漢代之物。庫中已有《光祿大夫劉毅集》`1evfuv2oiohkw`（二卷，period jin）——西晉劉毅字仲雄，官司隸校尉、光祿大夫，即《舊唐志》《新唐志》《國史經籍志》所著二卷本之撰人。所繫東漢「劉毅」`1j96kefeu6n7k` 是同名之偶合。本條與 `1evfuv2oiohkw` 疑為重出，一併交晉車道。\n今解 authors[].entity_id 之繫、去 period／period_basis／dynasty，待該車道以著錄原文重判。登記見 `.claude/known-issues/H10-宋志頂真格誤繫漢代撰人-20260824.json`。"
 }

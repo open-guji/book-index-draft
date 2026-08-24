@@ -34,6 +34,20 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《禮答問》十卷",
+      "summary": "《禮答問》十卷何佟之撰。"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "又禮答問",
+      "summary": "又禮答問十卷",
+      "merged_from": "1evcs082d1gxs",
+      "note": "隋書經籍志、舊唐書經籍志與新唐書藝文志所著《禮答問》為一書，今合併。"
     }
   ],
   "juan_count": {
@@ -63,5 +77,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「何佟之」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「何佟之」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "ai_note": "N2 著錄回歸（2026-08-24）：《隋書經籍志》禮類連著《禮答問》二條——「《禮答問》十二卷」（不著撰人）與「《禮答問》十卷何佟之撰。梁二十卷」——本庫據以立二 work（1evc5pd8ewbnk／1evc5pd8jw4cg）。而《舊唐書經籍志》「《禮答問》十卷何佟之撰」、《新唐書藝文志》「又禮答問十卷」所著皆是**十卷本**，2026-08-19 之同名異書核對誤併入十二卷條。今以卷數為據回歸十卷條。十二卷條所餘者為隋志自身之著錄。（本條為受方：得舊唐、新唐二源。）"
 }

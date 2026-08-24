@@ -34,6 +34,27 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
+    },
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "禮記義疏",
+      "summary": "梁皇侃《禮記義疏》四卷。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《禮記義疏》九十九卷",
+      "summary": "《禮記義疏》九十九卷（皇侃）",
+      "author_info": "皇侃"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《禮記義疏》五十卷",
+      "summary": "《禮記義疏》五十卷皇侃撰。",
+      "merged_from": "1evc5pd4ct9fk",
+      "note": "自禮記義疏磁鐵拆出，皇侃五十卷。"
     }
   ],
   "juan_count": {
@@ -70,5 +91,12 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「皇侃」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「皇侃」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "additional_titles": [
+    "禮記義疏"
+  ],
+  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「禮記義疏」（清史稿藝文志、國史經籍志九十九卷、經義考、舊唐書經籍志五十卷）與本條（隋書經籍志四十八卷、國史經籍志《禮記講䟽》四十八卷、經義考）同為皇侃《禮記義疏》。二條之經義考著錄且同作「《禮記義疏》（皇侃）」，是同一書之互著。卷數四十八／五十／九十九之異：隋志四十八為最早，舊唐五十次之，國史經籍志九十九之數孤出——依既有判例（焦竑《國史經籍志》抄撮舊目、訛誤極多，其孤證不足以立一書），不據以別為二書。今併，本條仍以隋志四十八卷為正。\n\nN2 一書兩著（2026-08-24）：《國史經籍志》經類兩出本書——「《禮記義疏》九十九卷」與「《禮記講䟽》四十八卷」——今二節俱繫本條，前者已標 section_kind「一書兩著」，故 chk〈整理本 section 級磁鐵〉不計。",
+  "merged_from": [
+    "1evr5e3mezpiy"
+  ]
 }
