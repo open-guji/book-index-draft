@@ -7,7 +7,9 @@
     {
       "name": "謝靈運",
       "role": "作",
-      "dynasty": "南朝宋"
+      "dynasty": "南朝宋",
+      "entity_id": "1j968k0je2uio",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「謝靈運」而無 entity_id，今繫 `1j968k0je2uio`——庫中 primary_name 同之者唯一。其代「南朝宋」與本書已定之代「nanbeichao」相合。"
     }
   ],
   "subtype": "article",
@@ -20,7 +22,7 @@
   ],
   "indexed_by": [],
   "ai_note": "[N3磁鐵 2026-08-24] 選本之整理本以**一篇一 work** 為例（同卷他篇無一不然），而本篇原與《擬魏太子鄴中集詩八首》共繫一條（`1evi5wofkzk74`）——匯入時題首相同之二篇未分。〈擬魏太子鄴中集詩八首〉之下逐篇立目——〈魏太子〉〈王粲〉〈陳琳〉〈徐幹〉〈劉楨〉〈應瑒〉〈阮瑀〉〈平原侯植〉，其後七篇庫中既已各有其 work（王粲 `1evi5woqp5slc` 以下），獨首篇〈魏太子〉與總題共繫，今別立。`period`／`loss_status`／`authors[].entity_id` 不繫（新建之條依庫規不擅補）。",
-  "updated_at": "2026-08-24T04:34:30.803537+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "nanbeichao",
   "period_basis": "據撰人朝代「南朝宋」（2026-08-24 R2）"
 }

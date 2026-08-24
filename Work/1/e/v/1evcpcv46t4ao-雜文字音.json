@@ -18,7 +18,7 @@
     }
   ],
   "id": "1evcpcv46t4ao",
-  "updated_at": "2026-08-20T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "juan_count": {
     "number": 7
   },
@@ -35,10 +35,11 @@
       "name": "王延",
       "role": "撰",
       "dynasty": null,
-      "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「王延」補；著錄所給者為一，去朝代與職名後取之。"
+      "entity_id": "1j96kegdu0fls",
+      "note": "據本 work 諸著錄之 author_info「王延」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「王延」而無 entity_id，今繫 `1j96kegdu0fls`——庫中 primary_name 同之者唯一。其代「晉」與本書之上限不相斥。"
     }
   ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period": "jin",
+  "period_basis": "據撰人「王延」（entity `1j96kegdu0fls`，代「晉」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
 }

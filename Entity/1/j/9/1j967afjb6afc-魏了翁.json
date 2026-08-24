@@ -101,6 +101,22 @@
     {
       "work_id": "1ev3d6ekc8su8",
       "role": "撰"
+    },
+    {
+      "work_id": "1ex8yx79wmn9q",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex9hexpzx9pz",
+      "role": "撰"
+    },
+    {
+      "work_id": "1ex16hegp7fq6",
+      "role": "撰"
+    },
+    {
+      "work_id": "1exuscck0qxr7",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -108,9 +124,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.67+unique"
   },
-  "updated_at": "2026-08-23T07:12:09.263602+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-22 B3：撤去 works[] 中不再以本人為撰人之條目（併池後該書已改繫正名之人物）。"
+  "ai_note": "2026-08-22 B3：撤去 works[] 中不再以本人為撰人之條目（併池後該書已改繫正名之人物）。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
 }

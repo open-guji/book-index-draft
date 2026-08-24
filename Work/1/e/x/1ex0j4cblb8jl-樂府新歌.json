@@ -6,7 +6,9 @@
   "authors": [
     {
       "name": "崔子發",
-      "role": "撰"
+      "role": "撰",
+      "entity_id": "1j96gyqsgmayo",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「崔子發」而無 entity_id，今繫 `1j96gyqsgmayo`——庫中 primary_name 同之者唯一。其代「北齊」與本書之上限不相斥。"
     }
   ],
   "juan_count": {
@@ -30,6 +32,7 @@
     }
   ],
   "ai_note": "2026-08-24 N2 磁鐵專項（宋隋唐志系）新建：本條自隋書經籍志「《樂府新歌》十卷」一節析出——該節原與 1evcmod423bwg《樂府新歌》殷僧首二卷本共繫。隋志總集類兩著《樂府新歌》而撰人異（崔子發／殷僧首）、卷數異，姚振宗《隋書經籍志考證》亦各為一條考之（十卷本云「崔子發有《齊記》,見史部古史類」，二卷本考殷僧首事）。依 SCHEMA〈同題二條〉，撰人異即二書。　欄位一概取志文所明著者（題、卷數、撰人），period／loss_status／entity_id 不繫。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "period": "nanbeichao",
+  "period_basis": "據撰人「崔子發」（entity `1j96gyqsgmayo`，代「北齊」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。",
+  "updated_at": "2026-08-24T00:00:00+00:00"
 }

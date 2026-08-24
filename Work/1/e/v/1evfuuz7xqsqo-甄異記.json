@@ -8,8 +8,9 @@
       "name": "戴祚",
       "role": "撰",
       "dynasty": "東晉",
-      "entity_id": null,
-      "dynasty_basis": "historical_dict:round2(戴祚，字延之，東晉)"
+      "entity_id": "1j96hf0hry8zk",
+      "dynasty_basis": "historical_dict:round2(戴祚，字延之，東晉)",
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「戴祚」而無 entity_id，今繫 `1j96hf0hry8zk`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
     }
   ],
   "indexed_by": [
@@ -29,7 +30,7 @@
   },
   "loss_status": "lost",
   "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-08 修：撰人原作「戴」，今補全為「戴祚」。據《新唐書·藝文志》及案語「見《新唐志」。《新唐志》明題「戴祚《甄異傳》三卷」，《隋志》作「晉西戎主簿戴祚撰」。戴祚與戴逵（字安道）為不同人，原Entity繫戴逵有誤，已置null待建新Entity。",
-  "updated_at": "2026-08-08T14:05:56+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
   "dynasty": "東晉",

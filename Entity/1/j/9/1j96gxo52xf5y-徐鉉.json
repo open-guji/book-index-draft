@@ -41,6 +41,10 @@
     {
       "work_id": "1evcsyentc5q8",
       "role": "撰"
+    },
+    {
+      "work_id": "1evgph6xx7pc0",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -51,5 +55,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "five-dynasties",
   "period_basis": "據 dynasty「南唐」自動歸併",
-  "ai_note": "2026-08-19 人物合併：庫中原另有同名記錄 `1j96kepz4z4e8`（朝代作「唐」，係 author_propagation 據《徐公文集》著錄推得，無 CBDB），實即本人（徐鉉 917-992，字鼎臣，南唐舊臣入宋）；朝代之異乃「唐」「南唐」之混，非二人。今併入並刪除該條，其作品《徐公文集》`1evka7d7frf9c` 改繫本條。\n2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。"
+  "ai_note": "2026-08-19 人物合併：庫中原另有同名記錄 `1j96kepz4z4e8`（朝代作「唐」，係 author_propagation 據《徐公文集》著錄推得，無 CBDB），實即本人（徐鉉 917-992，字鼎臣，南唐舊臣入宋）；朝代之異乃「唐」「南唐」之混，非二人。今併入並刪除該條，其作品《徐公文集》`1evka7d7frf9c` 改繫本條。\n2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
 }

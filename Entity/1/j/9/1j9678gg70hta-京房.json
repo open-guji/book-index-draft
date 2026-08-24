@@ -116,6 +116,10 @@
     {
       "work_id": "1evcpd2wcaneo",
       "role": "撰"
+    },
+    {
+      "work_id": "1ex0j3cuolc75",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -126,5 +130,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qin-han",
   "period_basis": "據 dynasty「西漢」自動歸併",
-  "ai_note": "2026-08-19 人物繫連補記：庫中有 3 書之 authors[].entity_id 指向本條而本條之 works 未載（《周易京氏章句》《易京氏章句》《京氏易佔》），是單向之繫，今補其反向。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。"
+  "ai_note": "2026-08-19 人物繫連補記：庫中有 3 書之 authors[].entity_id 指向本條而本條之 works 未載（《周易京氏章句》《易京氏章句》《京氏易佔》），是單向之繫，今補其反向。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
 }
