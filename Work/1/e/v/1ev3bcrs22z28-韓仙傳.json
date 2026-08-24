@@ -5,10 +5,10 @@
   "title": "韓仙傳",
   "authors": [
     {
-      "name": "瑤華帝君韓若雲",
+      "name": "韓若雲",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": "1j96hesn306ps"
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「瑤華帝君韓若雲」）：《欽定四庫全書總目》「舊本題唐瑤華帝君韓若雲撰」——「瑤華帝君」是封號。"
     }
   ],
   "indexed_by": [
@@ -66,7 +66,7 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：《欽定四庫全書總目》「舊本題唐瑤華帝君韓若雲撰」——「瑤華帝君」是封號。志書著錄語之修飾成分（官名、道號、封號、性別標注、國別、朝代前綴）隨名一併取入 authors[].name，非其名。",
   "authenticity": "forged",
   "authenticity_basis": "《欽定四庫全書總目》：「而愈集秦嶺藍關一詩題雲，示侄孫湘，亦不雲侄。與此傳皆不合，其為偽託明矣。」"
 }

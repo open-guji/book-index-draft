@@ -5,10 +5,10 @@
   "title": "金丹詩訣",
   "authors": [
     {
-      "name": "純陽真人呂岩",
+      "name": "呂岩",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": "1j96hesml7nr4"
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「純陽真人呂岩」）：《欽定四庫全書總目》「舊本題唐純陽真人呂岩撰」——「純陽真人」是道號。"
     }
   ],
   "indexed_by": [
@@ -75,5 +75,5 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：《欽定四庫全書總目》「舊本題唐純陽真人呂岩撰」——「純陽真人」是道號。志書著錄語之修飾成分（官名、道號、封號、性別標注、國別、朝代前綴）隨名一併取入 authors[].name，非其名。"
 }

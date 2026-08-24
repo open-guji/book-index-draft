@@ -5,10 +5,11 @@
   "title": "巢氏諸病源候論",
   "authors": [
     {
-      "name": "大業中太醫博士巢元方等奉詔",
+      "name": "巢元方",
       "role": "撰",
       "dynasty": "隋",
-      "entity_id": "1j96kfltwo7pc"
+      "entity_id": "1j967da97uuis",
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「大業中太醫博士巢元方等奉詔」）：「大業中」是年號、「太醫博士」是官名、「等奉詔」是撰述之式。"
     }
   ],
   "indexed_by": [
@@ -66,7 +67,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgq4ajry134 合併。原註：missing_reason: 作者冲突 work=大業中太醫博士巢元方等奉詔 vs anno=隋巢元方 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwin9hjb4 與 11q37qpsbjs3k 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "從 1evgq4ajry134 合併。原註：missing_reason: 作者冲突 work=大業中太醫博士巢元方等奉詔 vs anno=隋巢元方 [sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwin9hjb4 與 11q37qpsbjs3k 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：「大業中」是年號、「太醫博士」是官名、「等奉詔」是撰述之式。志書著錄語之修飾成分（官名、道號、封號、性別標注、國別、朝代前綴）隨名一併取入 authors[].name，非其名。",
   "additional_titles": [
     "巢氏諸病源候總論"
   ],

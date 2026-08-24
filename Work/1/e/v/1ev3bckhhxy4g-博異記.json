@@ -5,10 +5,10 @@
   "title": "博異記",
   "authors": [
     {
-      "name": "谷神子還古",
-      "role": "撰",
+      "name": "谷神子",
+      "role": "舊題撰",
       "dynasty": "唐",
-      "entity_id": "1j96hes1fvuv4"
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「谷神子還古」）：《欽定四庫全書總目》「舊本題唐穀神子還古撰，不著姓氏」——提要自言其**不著姓氏**，則「還古」非姓名之全，「谷神子」是其號。提要下文考之：晁公武《讀書志》載《老子指歸》十三卷亦題穀神子注而不著姓氏，《唐書·藝文志》有馮廓注《老子指歸》十三卷，書名卷數皆合，疑穀神子即馮廓；胡應麟《二酉綴遺》則謂唐有詩人鄭還古。二說並存，未能定，故存其號而 role 作「舊題撰」，不強繫 entity。"
     }
   ],
   "indexed_by": [
@@ -77,7 +77,7 @@
   ],
   "measure_info": "一卷",
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 partially_extant，據：「蓋亦鈔合而成，非完帙也」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
+  "ai_note": "loss_status 判為 partially_extant，據：「蓋亦鈔合而成，非完帙也」。本值經逐條精讀，非機讀批次。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3：撰人正作「谷神子」（號），其姓名四庫提要自言不著，馮廓、鄭還古二說並存待考，見 authors[].name_basis。",
   "updated_at": "2026-08-09T09:00:59+00:00",
   "_has_text": true,
   "_has_image": true,

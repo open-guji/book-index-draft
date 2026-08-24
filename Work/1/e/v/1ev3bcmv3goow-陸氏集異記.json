@@ -5,10 +5,10 @@
   "title": "陸氏集異記",
   "authors": [
     {
-      "name": "比部郎中陸勳",
+      "name": "陸勳",
       "role": "撰",
       "dynasty": "唐",
-      "entity_id": "1j96hes6yq0w0"
+      "name_basis": "2026-08-24 隋唐 T3 正名（原作「比部郎中陸勳」）：《欽定四庫全書總目》「舊本題唐比部郎中陸勳撰」——「比部郎中」是官名。"
     }
   ],
   "indexed_by": [
@@ -36,5 +36,5 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T3·著錄語誤入撰人名欄：《欽定四庫全書總目》「舊本題唐比部郎中陸勳撰」——「比部郎中」是官名。志書著錄語之修飾成分（官名、道號、封號、性別標注、國別、朝代前綴）隨名一併取入 authors[].name，非其名。"
 }
