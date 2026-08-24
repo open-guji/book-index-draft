@@ -5,7 +5,9 @@
   "authors": [
     {
       "name": "梁武帝",
-      "entity_id": "1j967afjav1vw"
+      "entity_id": "1j967afjav1vw",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967afjav1vw`（蕭衍）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "indexed_by": [
@@ -51,5 +53,6 @@
       "note": "2026-08-23 繫連補記：《隋書經籍志考證》整理本有一節（經部一·易類 第 91 節「周易繫辭義疏一卷 梁武帝撰」）繫及本條，而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。"
     }
   ],
-  "ai_note": "2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evdmppb711j4`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。"
+  "ai_note": "2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evdmppb711j4`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5p8s1f0g0-周易系辭義疏梁武帝撰.json"
 }

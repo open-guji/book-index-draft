@@ -6,7 +6,9 @@
     {
       "name": "陶弘景",
       "role": "撰",
-      "entity_id": "1j967bgl7y9th"
+      "entity_id": "1j967bgl7y9th",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967bgl7y9th`（陶弘景）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -54,9 +56,10 @@
     "帝王年曆",
     "陶弘景帝王年曆"
   ],
-  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《帝王年曆》之 work（`1evcpcx0xiiv4`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-22 併池：《陶弘景帝王年曆》1evcs0cw6z37k 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
+  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《帝王年曆》之 work（`1evcpcx0xiiv4`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-22 併池：《陶弘景帝王年曆》1evcs0cw6z37k 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「陶弘景」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「陶弘景」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgph1spfhts-帝王年歷.json"
 }

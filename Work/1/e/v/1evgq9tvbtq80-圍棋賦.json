@@ -6,8 +6,9 @@
     {
       "name": "尹帝",
       "role": "撰",
-      "dynasty": "梁",
-      "entity_id": "1j96hgd163wg0"
+      "dynasty": "南朝梁",
+      "entity_id": "1j96hgd163wg0",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -34,7 +35,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"圍棋賦\" 唯一候选无作者\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcmocwl0rnk 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "ai_note": "missing_reason: 短title \"圍棋賦\" 唯一候选无作者\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcmocwl0rnk 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。\n\nN4 朝代名歸一（2026-08-24）：尹帝「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evgq9tvbtq80",
   "measures": [
     {
@@ -47,5 +48,6 @@
   "period": "nanbeichao",
   "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq9tvbtq80-圍棋賦.json"
 }

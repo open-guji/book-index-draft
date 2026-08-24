@@ -6,7 +6,9 @@
     {
       "name": "陸澄",
       "role": "撰",
-      "entity_id": "1j96hlgxmm5ts"
+      "entity_id": "1j96hlgxmm5ts",
+      "dynasty": "南朝齊",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hlgxmm5ts`（陸澄）之 dynasty「南朝齊」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -43,7 +45,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"地理書\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcml1hqyccg`（地理書）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evcml1hqyccg`（舊唐書經籍志、隋書經籍志，149卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。",
+  "ai_note": "missing_reason: 短title \"地理書\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcml1hqyccg`（地理書）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evcml1hqyccg`（舊唐書經籍志、隋書經籍志，149卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "id": "1evgpjl2tafb4",
   "measures": [
     {
@@ -66,5 +68,6 @@
       "merged_from": "1evgpjl2tafb4",
       "note": "同題二條而一方無撰人：彼條（舊唐書經籍志、隋書經籍志，149卷，不著撰人）與本條（國史經籍志，150卷，陸澄撰）題名全同、著錄異源，卷數僅差一（149／150）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。"
     }
-  ]
+  ],
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgpjl2tafb4-地理書.json"
 }

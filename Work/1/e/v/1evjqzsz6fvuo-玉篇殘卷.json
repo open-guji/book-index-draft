@@ -6,9 +6,10 @@
     {
       "name": "顧野王",
       "role": "撰",
-      "dynasty": "梁",
+      "dynasty": "南朝梁",
       "entity_id": "1j968si3dt6v5",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「顧野王」而無 entity_id，今繫 `1j968si3dt6v5`——庫中 primary_name 同之者唯一。其代「南朝陳」與本書已定之代「nanbeichao」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「顧野王」而無 entity_id，今繫 `1j968si3dt6v5`——庫中 primary_name 同之者唯一。其代「南朝陳」與本書已定之代「nanbeichao」相合。",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "indexed_by": [
@@ -29,7 +30,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\nN4 朝代名歸一（2026-08-24）：顧野王「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "id": "1evjqzsz6fvuo",
   "resources": [
     {
@@ -48,5 +49,6 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_image": true,
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evjqzsz6fvuo-玉篇殘卷.json"
 }

@@ -7,7 +7,9 @@
     {
       "name": "衛元嵩",
       "role": "撰",
-      "entity_id": "1j96hep4o7f9c"
+      "entity_id": "1j96hep4o7f9c",
+      "dynasty": "北周",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hep4o7f9c`（衛元嵩）之 dynasty「北周」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -70,9 +72,10 @@
   ],
   "updated_at": "2026-08-22T04:56:00.084548+00:00",
   "_has_text": true,
-  "ai_note": "2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3mklz68` 同題《元包》、同卷數 10，撰人分作「衛元嵩」「衞元嵩」。「衞」「衛」異體。二者實一書之重出，今併。",
+  "ai_note": "2026-08-19 同題異撰人專項（二）：本條與 `1evr5e3mklz68` 同題《元包》、同卷數 10，撰人分作「衛元嵩」「衞元嵩」。「衞」「衛」異體。二者實一書之重出，今併。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「衛元嵩」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「衛元嵩」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evr5e3mfaxvo-元包.json"
 }

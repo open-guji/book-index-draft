@@ -27,7 +27,9 @@
     {
       "name": "劉義慶",
       "role": "撰",
-      "entity_id": "1j969m70q2eqx"
+      "entity_id": "1j969m70q2eqx",
+      "dynasty": "南朝宋",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j969m70q2eqx`（劉義慶）之 dynasty「南朝宋」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -57,5 +59,6 @@
   "additional_titles": [
     "劉義慶徐州先賢傳讚"
   ],
-  "ai_note": "2026-08-22 併池：《劉義慶徐州先賢傳讚》1evcs0fatn2f4 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。"
+  "ai_note": "2026-08-22 併池：《劉義慶徐州先賢傳讚》1evcs0fatn2f4 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml2vr3x1c-徐州先賢傳贊.json"
 }

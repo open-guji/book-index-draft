@@ -21,7 +21,9 @@
     {
       "name": "山謙之",
       "role": "撰",
-      "entity_id": "1j96ha79n2ku8"
+      "entity_id": "1j96ha79n2ku8",
+      "dynasty": "南朝宋",
+      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：山謙之，南朝宋人，撰《南徐州記》《吳興記》諸地記，隋志著錄。"
     }
   ],
   "juan_count": {
@@ -47,5 +49,7 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "山謙之通稱劉宋著作郎，撰吳興記、南徐州記，然隋志未書時代。　複審採納：山謙之通稱劉宋著作郎，撰吳興記、南徐州記，人代無異說。（2026-08-24 B1 medium 複審）"
+  "period_basis": "山謙之通稱劉宋著作郎，撰吳興記、南徐州記，然隋志未書時代。　複審採納：山謙之通稱劉宋著作郎，撰吳興記、南徐州記，人代無異說。（2026-08-24 B1 medium 複審）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml1d1rpxc-吳興記.json",
+  "ai_note": "N4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。"
 }

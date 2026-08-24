@@ -29,7 +29,9 @@
     {
       "name": "盧辯",
       "role": "撰",
-      "entity_id": "1j96ha7jwcbgg"
+      "entity_id": "1j96ha7jwcbgg",
+      "dynasty": "北周",
+      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：盧辯，北周大將軍（隋志「後周大將軍盧辯撰」），《後周書》載其承蘇綽之業成《六官》。"
     }
   ],
   "juan_count": {
@@ -52,7 +54,7 @@
   ],
   "measure_info": "五卷",
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「後\n周盧辨撰《稱謂》五卷,惜今不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0pihms5c（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgor9k1czr4` 同題《稱謂》、同卷數 5，撰人分作「盧辯」「盧辨」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「盧辯」，異名之著錄並存於 indexed_by。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「後\n周盧辨撰《稱謂》五卷,惜今不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0pihms5c（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgor9k1czr4` 同題《稱謂》、同卷數 5，撰人分作「盧辯」「盧辨」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「盧辯」，異名之著錄並存於 indexed_by。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
   "updated_at": "2026-08-24T11:06:12.474460+00:00",
   "books": [],
   "related_works": [],
@@ -65,5 +67,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "隋志明題「後周大將軍盧辯撰」，後周即北周（2026-08-24 R3二輪 引文定代）"
+  "period_basis": "隋志明題「後周大將軍盧辯撰」，後周即北周（2026-08-24 R3二輪 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcmncsj6hhc-稱謂.json"
 }

@@ -38,7 +38,9 @@
     {
       "name": "明山賓",
       "role": "撰",
-      "entity_id": "1j96hezdptvcw"
+      "entity_id": "1j96hezdptvcw",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hezdptvcw`（明山賓）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -69,7 +71,8 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "2026-08-22 B3 併池（一方無撰人型）：1evgpidhel2bk 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。",
+  "ai_note": "2026-08-22 B3 併池（一方無撰人型）：1evgpidhel2bk 併入本條。二者同題、同卷數，且無撰人之一方所繫之志，本條已有其著錄語——是志書連書省撰人之體例所致之重出，非原典與注本之別（本條撰人之 role 非注／傳／疏）。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "period": "nanbeichao",
-  "period_basis": "題稱梁吉禮，隋志書「明山賓撰」，明山賓乃梁尚書，奉敕定梁禮（2026-08-24 R3二輪 引文定代）"
+  "period_basis": "題稱梁吉禮，隋志書「明山賓撰」，明山賓乃梁尚書，奉敕定梁禮（2026-08-24 R3二輪 引文定代）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml0ur4zr4-梁吉禮儀注.json"
 }

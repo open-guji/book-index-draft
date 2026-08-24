@@ -29,19 +29,21 @@
     }
   ],
   "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「梁簡文帝」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「梁簡文帝」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\nN4 朝代名歸一（2026-08-24）：work「梁」→「南朝梁」；簡文帝「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "authors": [
     {
       "name": "簡文帝",
       "role": "撰",
-      "dynasty": "梁",
+      "dynasty": "南朝梁",
       "entity_id": "1j9678njjrbb5",
       "note": "據本 work 諸著錄之 author_info「梁簡文帝」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「簡文帝」而無 entity_id，今繫 `1j9678njjrbb5`——庫中以此為別名（alt_names）者唯一。其代「南朝梁」與本書已定之代「nanbeichao」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「簡文帝」而無 entity_id，今繫 `1j9678njjrbb5`——庫中以此為別名（alt_names）者唯一。其代「南朝梁」與本書已定之代「nanbeichao」相合。",
+      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
-  "dynasty": "梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "dynasty": "南朝梁",
+  "dynasty_basis": "author_propagation:唯一作者朝代 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」"
+  "period_basis": "據 authors[0].dynasty「梁」",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcpd112143k-老子私記.json"
 }
