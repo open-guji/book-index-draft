@@ -27,10 +27,26 @@
       "id": "1evhnqciqrwu8",
       "title": "正續古文辭類纂",
       "relation": "collected_in"
+    },
+    {
+      "id": "1evhmcmmhp2bk",
+      "title": "古文觀止",
+      "relation": "collected_in"
     }
   ],
   "updated_at": "2026-08-06T22:59:42+00:00",
   "_has_text": true,
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第二階段訂正：宣帝時人）"
+  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第二階段訂正：宣帝時人）",
+  "additional_titles": [
+    "路溫舒尚德緩刑書"
+  ],
+  "ai_note": "\n\n2026-08-24 單篇文同篇異題歸併：1evhmgn1mcrnk「路溫舒尚德緩刑書」併入本條。路溫舒上宣帝書言尚德緩刑，《古文觀止》題「路溫舒尚德緩刑書」（撰人折入題名），《類纂》題「上德緩刑書」，一篇二題。按單篇文之體例，一篇為總集所並收者當立一 Work 而以多個 `collected_in` 繫其所入之集，不當因各集題名互異而分立數條。所併之 collected_in 已合。",
+  "merged_in": [
+    {
+      "id": "1evhmgn1mcrnk",
+      "title": "路溫舒尚德緩刑書",
+      "author": "路溫舒"
+    }
+  ]
 }
