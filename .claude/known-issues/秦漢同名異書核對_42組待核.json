@@ -1,25 +1,28 @@
 [
- {
-  "title": "蜀志",
-  "ids": [
-   "1evcml1hhwglc",
-   "1evgpjt46l7uo"
-  ],
-  "note": "系統匯入時已自我標記衝突（1evgpjt46l7uo之ai_note: missing_reason 作者冲突 work=常寬 vs anno=後漢韋寛）——常寬（晉）有隋書經籍志考證詳引華陽國志之堅實佐證，韋寛（後漢）僅國史經籍志孤證且「蜀」作為政權後漢時尚未成立，年代可疑，然非本庫可獨斷之事，待核"
- },
- {
-  "title": "忠經",
-  "ids": [
-   "1evgpmxxxalmo",
-   "1ev3bb8ojiuww"
-  ],
-  "note": "「海鵬」（1evgpmxxxalmo，國史經籍志孤證，一卷）與傳統歸屬之馬融（1ev3bb8ojiuww，六方著錄，一卷）撰人不同，字形不類，無法判定是否為國史經籍志之誤或另有其人，待核"
- },
- {
-  "title": "戰國策",
-  "ids": [
-   "1evgq0bkwwu80"
-  ],
-  "note": "2026-08-10 已裁決其餘 4 條：1ev7vo5ltthxc（劉向原典）保留；1evgq0bnnjtvk（吳師道，十卷）併入 1ev3bad43wn40「戰國策校注」；1evr5e3mi42um（無撰人，三十卷）併入 1ev7vo5ltthxc 為 indexed_by；1evka8kw1yl8g（穆文熙纂注，明）改題「戰國策纂注」消歧。過程中另牽出 1evcpk0a1jmdc/1evjy50nku48w/1evr5e3mkaqlx/1evcs0ce8im80 四條既有磁鐵（詳見 scripts/dedupe_zhanguoce.py），一併清理。僅存 1evgq0bkwwu80（國史經籍志，十卷，撰人題「飭斬三」）未能裁決——「飭斬三」非真實姓名字樣，整理本逐字轉錄亦然，非本輪之訛；circumstantial evidence（同出國史經籍志、同十卷、緊鄰吳師道補正條）高度疑為「鮑彪」之訛，然無法排除為另一佚名注家，未逕行合併，已加 related 存疑關聯指向「戰國策鮑彪注」(1evcpk0a1jmdc)，仍待人核《國史經籍志》原始文本裁定。"
- }
+  {
+    "title": "蜀志",
+    "ids": [
+      "1evcml1hhwglc",
+      "1evgpjt46l7uo"
+    ],
+    "note": "系統匯入時已自我標記衝突（1evgpjt46l7uo之ai_note: missing_reason 作者冲突 work=常寬 vs anno=後漢韋寛）——常寬（晉）有隋書經籍志考證詳引華陽國志之堅實佐證，韋寛（後漢）僅國史經籍志孤證且「蜀」作為政權後漢時尚未成立，年代可疑，然非本庫可獨斷之事，待核",
+    "resolution": "2026-08-24 裁定：1evgpjt46l7uo 併入 1evcml1hhwglc（常寬）。國史經籍志「後漢韋寛」判為焦志／OCR 之撰人訛字：同題同一卷、同蜀地地志之列，韋寛別無旁見。"
+  },
+  {
+    "title": "忠經",
+    "ids": [
+      "1evgpmxxxalmo",
+      "1ev3bb8ojiuww"
+    ],
+    "note": "「海鵬」（1evgpmxxxalmo，國史經籍志孤證，一卷）與傳統歸屬之馬融（1ev3bb8ojiuww，六方著錄，一卷）撰人不同，字形不類，無法判定是否為國史經籍志之誤或另有其人，待核",
+    "resolution": "2026-08-24 覆核：維持 2026-08-08 之判——海鵬實有其人（四庫總目引《玉海》宋《兩朝志》），與舊題馬融者兩書不併。現態自洽（entity 即海鵬），結案。"
+  },
+  {
+    "title": "戰國策",
+    "ids": [
+      "1evgq0bkwwu80"
+    ],
+    "note": "2026-08-10 已裁決其餘 4 條：1ev7vo5ltthxc（劉向原典）保留；1evgq0bnnjtvk（吳師道，十卷）併入 1ev3bad43wn40「戰國策校注」；1evr5e3mi42um（無撰人，三十卷）併入 1ev7vo5ltthxc 為 indexed_by；1evka8kw1yl8g（穆文熙纂注，明）改題「戰國策纂注」消歧。過程中另牽出 1evcpk0a1jmdc/1evjy50nku48w/1evr5e3mkaqlx/1evcs0ce8im80 四條既有磁鐵（詳見 scripts/dedupe_zhanguoce.py），一併清理。僅存 1evgq0bkwwu80（國史經籍志，十卷，撰人題「飭斬三」）未能裁決——「飭斬三」非真實姓名字樣，整理本逐字轉錄亦然，非本輪之訛；circumstantial evidence（同出國史經籍志、同十卷、緊鄰吳師道補正條）高度疑為「鮑彪」之訛，然無法排除為另一佚名注家，未逕行合併，已加 related 存疑關聯指向「戰國策鮑彪注」(1evcpk0a1jmdc)，仍待人核《國史經籍志》原始文本裁定。",
+    "resolution": "2026-08-24 裁定：1evgq0bkwwu80 併入 1evcpk0a1jmdc（鮑彪注）。「飭斬三」判為「鮑彪注」之 OCR 訛——本葉撰人括注訛亂殆遍（皇南謚生、尹知童主、吳師道注生），而焦志縱橫家實有鮑彪注、吳師道注相鄰兩行，卷數同。"
+  }
 ]
