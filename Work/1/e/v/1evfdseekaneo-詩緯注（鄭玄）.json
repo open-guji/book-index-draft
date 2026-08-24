@@ -25,12 +25,13 @@
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",
   "original_title": "詩緯",
-  "ai_note": "2026-08-21 補 original_title「詩緯」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「詩緯」，庫中有同題而非注本之條 `1evcpcuqhm60w`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。",
+  "ai_note": "2026-08-21 補 original_title「詩緯」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-21 原典注本繫連專項：本條 authors[0] 之 role 為「注」，是注本；其題去注疏尾綴得「詩緯」，庫中有同題而非注本之條 `1evcpcuqhm60w`，即其原典，今繫 `contains_text_of`，原典側繫 `text_carried_by`。見 SCHEMA〈原典與注本〉。\n\n2026-08-24 兩漢H6（後漢藝文志獨源逐條批）：loss_status 判 partially_extant——趙在翰七緯輯有鄭氏氾歷樞注——有文存世（判據見 indexed_by[].summary 之按語）。",
   "related_works": [
     {
       "id": "1evcpcuqhm60w",
       "title": "詩緯",
       "relation": "contains_text_of"
     }
-  ]
+  ],
+  "loss_status": "partially_extant"
 }
