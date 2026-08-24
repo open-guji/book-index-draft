@@ -32,6 +32,10 @@
     {
       "name": "體天弘道高明廣運聖武神功純仁至孝文皇帝",
       "type": "諡號"
+    },
+    {
+      "name": "明成祖",
+      "type": "廟號"
     }
   ],
   "dynasty": "明",
@@ -49,6 +53,18 @@
     {
       "work_id": "1evjr6ww98wsg",
       "role": "撰"
+    },
+    {
+      "work_id": "1evkaeh6no2dc",
+      "role": "編"
+    },
+    {
+      "work_id": "1evkaemwxcgsg",
+      "role": "序"
+    },
+    {
+      "work_id": "1evkabnjx9og0",
+      "role": "敕撰"
     }
   ],
   "external_ids": {
@@ -56,7 +72,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "updated_at": "2026-08-08T11:51:58+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "period_basis": "據 dynasty「明」自動歸併",
+  "ai_note": "2026-08-24 帝王 entity 重出歸併：併入「明成祖」（`1jcf5151293b5`）。本日補 entity 之際，以廟號「明成祖」別立一條，而庫中早有以本名「朱棣」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。"
 }
