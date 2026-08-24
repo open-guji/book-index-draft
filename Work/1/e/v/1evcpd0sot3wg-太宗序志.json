@@ -14,6 +14,12 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "太宗序志",
       "summary": "太宗序志一卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《唐太宗序志》一卷",
+      "summary": "《唐太宗序志》一卷"
     }
   ],
   "id": "1evcpd0sot3wg",
@@ -28,7 +34,7 @@
     }
   ],
   "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-24 隋唐 T8 收尾·撰人字首式重出：自 `1evgpmtnldp1c`《唐太宗序志》併入——彼繫焦竑《國史經籍志》而題冠「唐太宗」，本條繫《舊唐書經籍志》「《太宗序志》一卷太宗撰」與《新唐書藝文志》「太宗序志一卷」，卷數同（一卷），撰人同（唐太宗）。焦竑之題冠代與帝號，非別是一書。",
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
   "authors": [
@@ -40,5 +46,10 @@
     }
   ],
   "period": "sui-tang",
-  "period_basis": "撰人朝代闕，據其 Entity「李世民」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「李世民」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "additional_titles": [
+    "唐太宗序志"
+  ],
+  "_promoted_to": "d59f2axcwkqo",
+  "_promoted_at": "2026-08-24T22:05:22Z"
 }
