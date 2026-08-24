@@ -31,6 +31,14 @@
     {
       "work_id": "1evcmnea4vjls",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcmocuaavpc",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evgpilwmp2ww",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -38,8 +46,8 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "ai_note": "2026-08-18 全庫同名異書核對：合併同名同朝代分裂 entity 1j96hlf1p92bk（1 作品《周易崔浩注》，role 注），二者 dynasty_basis 皆載「崔浩(381-450)，字伯淵，北魏太武帝時」，確係同一人，原記錄已於 2026-08-08 標記待合併（known_mislabel:round3）而未實際落地，今補行合併。\n\n2026-08-19 全庫同名異書核對：補繫《食經》九卷（舊唐書經籍志明載「崔浩撰」；《魏書》本傳載其母盧氏傳飲食之法，浩集為《食經》並自敘）。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《曆術》），是單向之繫，今補其反向。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "ai_note": "2026-08-18 全庫同名異書核對：合併同名同朝代分裂 entity 1j96hlf1p92bk（1 作品《周易崔浩注》，role 注），二者 dynasty_basis 皆載「崔浩(381-450)，字伯淵，北魏太武帝時」，確係同一人，原記錄已於 2026-08-08 標記待合併（known_mislabel:round3）而未實際落地，今補行合併。\n\n2026-08-19 全庫同名異書核對：補繫《食經》九卷（舊唐書經籍志明載「崔浩撰」；《魏書》本傳載其母盧氏傳飲食之法，浩集為《食經》並自敘）。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《曆術》），是單向之繫，今補其反向。\n2026-08-24 同名消歧：新收 1 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "nanbeichao",
   "period_basis": "據 dynasty「北魏」自動歸併"
 }

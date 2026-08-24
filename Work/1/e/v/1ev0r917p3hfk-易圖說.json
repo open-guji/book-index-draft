@@ -7,9 +7,9 @@
     {
       "name": "吳仁傑",
       "role": "撰",
-      "dynasty": "南朝宋",
+      "dynasty": "南宋",
       "entity_id": "1j967afjb6af4",
-      "dynasty_basis": "entity_propagation:1j967afjb6af4"
+      "dynasty_basis": "N3（2026-08-24）：原作「南朝宋」，係「宋」之歧義誤判。《欽定四庫全書總目》「《易圖說》三卷…宋吳仁傑撰。仁傑字鬥南，昆山人」"
     }
   ],
   "indexed_by": [
@@ -90,6 +90,9 @@
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,
   "_has_image": true,
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period": "song",
+  "period_basis": "據撰人吳仁傑之代「南宋」。《欽定四庫全書總目》「《易圖說》三卷…宋吳仁傑撰。仁傑字鬥南，昆山人」（2026-08-24 N3 訂正：原作 nanbeichao）",
+  "dynasty": "南宋",
+  "dynasty_basis": "N3（2026-08-24）：撰人吳仁傑為南宋人，非劉宋。《欽定四庫全書總目》「《易圖說》三卷…宋吳仁傑撰。仁傑字鬥南，昆山人」",
+  "ai_note": "N3 period 訂正（2026-08-24）：本條 period 原繫 nanbeichao，其由是撰人吳仁傑之 entity 斷代誤作「南朝宋」（「宋」之歧義：劉宋／趙宋）。《欽定四庫全書總目》「《易圖說》三卷…宋吳仁傑撰。仁傑字鬥南，昆山人」"
 }

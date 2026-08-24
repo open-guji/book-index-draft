@@ -36,8 +36,9 @@
   ],
   "measure_info": "三十卷",
   "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "nanbeichao",
-  "period_basis": "撰人 Entity 之代：李延壽（Entity 1j96h8rw86q1o），並經 CBDB c_personid 175064 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "period": "sui-tang",
+  "period_basis": "《國史經籍志》「《太宗正典》三十卷（李延壽）」——李延壽，唐初史官，《南史》《北史》之撰者，其書記唐太宗之政典。本條 period_basis 稱「據撰人 Entity 李延壽並經 CBDB 覆驗」，而該 Entity 之 period 正作 sui-tang，本條 period 卻仍作 nanbeichao，是回填之漏。（2026-08-24 N3 訂正：原作 nanbeichao）",
+  "dynasty": "唐",
+  "dynasty_basis": "《國史經籍志》「《太宗正典》三十卷（李延壽）」——李延壽，唐初史官，《南史》《北史》之撰者，其書記唐太宗之政典。本條 period_basis 稱「據撰人 Entity 李延壽並經 CBDB 覆驗」，而該 Entity 之 period 正作 sui-tang，本條 period 卻仍作 nanbeichao，是回填之漏。",
+  "ai_note": "N3 period 訂正（2026-08-24 南北朝斷代專項）：本條 period 原繫 nanbeichao，其由是撰人姓氏被早期自動化流程當作朝代前綴（南朝四代國號宋齊梁陳、北朝魏齊周皆常見漢姓，此為本朝特有之系統性風險）。authors[].dynasty 前此已訂正，而 period 未隨之改——本輪補之。\n本條之判：《國史經籍志》「《太宗正典》三十卷（李延壽）」——李延壽，唐初史官，《南史》《北史》之撰者，其書記唐太宗之政典。本條 period_basis 稱「據撰人 Entity 李延壽並經 CBDB 覆驗」，而該 Entity 之 period 正作 sui-tang，本條 period 卻仍作 nanbeichao，是回填之漏。"
 }
