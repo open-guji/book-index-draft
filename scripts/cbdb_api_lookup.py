@@ -7,12 +7,14 @@
 **只取無歧義者**：一名而 CBDB 有多人且朝代不一者，記為 ambiguous 不用——
 同名異人是本庫既有之患，寧缺毋濫。
 
-限流：預設每秒 1 次，失敗指數退避。cache 落地，可斷點續跑。
+限流：單進程多線程（預設 6 並發），失敗指數退避。cache 定期落地，可斷點續跑。
+**不可多進程共寫一個 cache**——實測會互相覆蓋（本腳本初版之誤）。
 
-用法：python3 scripts/cbdb_api_lookup.py <todo.json> <cache.json> [--limit N]
+用法：python3 scripts/cbdb_api_lookup.py <todo.json> <cache.json> [--limit N] [--workers N]
       todo.json 每條須有 "name"
 """
 import json, sys, time, os, urllib.parse, urllib.request
+from concurrent.futures import ThreadPoolExecutor
 
 API = 'https://cbdb.fas.harvard.edu/cbdbapi/person.php'
 DELAY = float(os.environ.get('CBDB_DELAY', '1.0'))
@@ -73,12 +75,21 @@ def main():
         names = names[:limit]
     print(f'待查 {len(names)}（cache 已有 {len(cache)}）', flush=True)
 
-    for i, n in enumerate(names, 1):
-        cache[n] = summarize(fetch(n))
-        if i % 25 == 0 or i == len(names):
-            json.dump(cache, open(cache_p, 'w'), ensure_ascii=False, indent=1)
-            print(f'  {i}/{len(names)} 已存', flush=True)
-        time.sleep(DELAY)
+    workers = 6
+    if '--workers' in sys.argv:
+        workers = int(sys.argv[sys.argv.index('--workers') + 1])
+
+    def job(n):
+        return n, summarize(fetch(n))
+
+    done = 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for n, res in ex.map(job, names):
+            cache[n] = res
+            done += 1
+            if done % 50 == 0 or done == len(names):
+                json.dump(cache, open(cache_p, 'w'), ensure_ascii=False, indent=1)
+                print(f'  {done}/{len(names)} 已存', flush=True)
     json.dump(cache, open(cache_p, 'w'), ensure_ascii=False, indent=1)
 
     hit = sum(1 for v in cache.values() if v)
