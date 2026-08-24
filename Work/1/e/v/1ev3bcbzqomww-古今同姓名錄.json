@@ -5,11 +5,12 @@
   "title": "古今同姓名錄",
   "authors": [
     {
-      "name": "孝元皇帝",
+      "name": "蕭繹",
       "role": "撰",
       "dynasty": "南朝梁",
       "entity_id": "1j96hla38mpz4",
-      "dynasty_basis": "entity_propagation:1j96hla38mpz4"
+      "dynasty_basis": "entity_propagation:1j96hla38mpz4",
+      "name_basis": "N6 壞名正名（2026-08-24）：本欄原作「孝元皇帝」。「孝元皇帝」是梁元帝之諡號，非其名。《欽定四庫全書總目》「梁孝元皇帝撰…其在藩時嘗自號金樓子」，《隋書經籍志》《舊唐書經籍志》並作「梁元帝撰」，其名蕭繹。"
     }
   ],
   "indexed_by": [
@@ -89,5 +90,6 @@
   "_has_image": true,
   "period": "nanbeichao",
   "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evr5e3mklz9x`（古今同姓名錄）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evr5e3mklz9x`（直齋書錄解題，1卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。"
+  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evr5e3mklz9x`（古今同姓名錄）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evr5e3mklz9x`（直齋書錄解題，1卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。\n\nN6 壞名正名（2026-08-24，補 description 途中撞出）：authors 之名有形訛／異體／號諡誤入，今正之，判據記於 authors[].name_basis。",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1ev3bcbzqomww-古今同姓名錄.json"
 }
