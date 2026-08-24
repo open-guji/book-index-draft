@@ -10926,15 +10926,17 @@
     "title": "晉永嘉流士",
     "type": "Work",
     "path": "Work/1/e/v/1evcpcxmxfkzk-晉永嘉流士.json",
-    "author": "衛禹",
-    "dynasty": "西晉",
-    "role": "撰",
     "juan_count": 13,
     "measure_info": "十三卷",
+    "author": "衛禹",
+    "role": "撰",
+    "period": "jin",
+    "dynasty": "西晉",
     "additional_titles": [
-      "𣈆永嘉流士"
-    ],
-    "period": "jin"
+      "𣈆永嘉流士",
+      "晋永嘉流士十",
+      "晉永嘉流士十"
+    ]
   },
   "1evcpcy1qkwsg": {
     "id": "1evcpcy1qkwsg",
@@ -11564,7 +11566,10 @@
     "role": "撰",
     "juan_count": 3,
     "measure_info": "三卷",
-    "period": "jin"
+    "period": "jin",
+    "additional_titles": [
+      "春秋公羊違義"
+    ]
   },
   "1evcs099w0ruo": {
     "id": "1evcs099w0ruo",
@@ -18896,20 +18901,6 @@
     "measure_info": "八卷",
     "period": "nanbeichao"
   },
-  "1evdx9135gbuo": {
-    "id": "1evdx9135gbuo",
-    "title": "謝沈後漢書",
-    "type": "Work",
-    "path": "Work/1/e/v/1evdx9135gbuo-謝沈後漢書.json",
-    "author": "謝沈",
-    "dynasty": "東晉",
-    "role": "撰",
-    "juan_count": 102,
-    "measure_info": "一百零二卷",
-    "has_text": true,
-    "period": "jin",
-    "loss_status": "partially_extant"
-  },
   "1evdxnqf89tds": {
     "id": "1evdxnqf89tds",
     "title": "鮑衡卿宋春秋",
@@ -20665,22 +20656,6 @@
     "dynasty": "東晉",
     "juan_count": 5,
     "measure_info": "五卷",
-    "period": "jin",
-    "loss_status": "lost"
-  },
-  "1evfuvfbxlslc": {
-    "id": "1evfuvfbxlslc",
-    "title": "漢名臣奏",
-    "type": "Work",
-    "path": "Work/1/e/v/1evfuvfbxlslc-陳壽謹按見舊唐志隋志脫撰人名.json",
-    "author": "陳壽",
-    "dynasty": "晉",
-    "role": "撰",
-    "juan_count": 30,
-    "measure_info": "三十卷",
-    "additional_titles": [
-      "陳壽,謹按見《舊唐志》。《隋志》脱撰人名。"
-    ],
     "period": "jin",
     "loss_status": "lost"
   },
@@ -24492,18 +24467,6 @@
     "juan_count": 10,
     "measure_info": "十卷"
   },
-  "1evgpgxhvq29s": {
-    "id": "1evgpgxhvq29s",
-    "title": "𣈆紀",
-    "type": "Work",
-    "path": "Work/1/e/v/1evgpgxhvq29s-𣈆紀.json",
-    "author": "王粲",
-    "dynasty": "三國魏",
-    "role": "撰",
-    "juan_count": 11,
-    "measure_info": "十一卷",
-    "period": "three-kingdoms"
-  },
   "1evgpgzwf9o1s": {
     "id": "1evgpgzwf9o1s",
     "title": "興遺史",
@@ -24658,18 +24621,6 @@
     "additional_titles": [
       "江南李氏事迹"
     ]
-  },
-  "1evgph8q0ao74": {
-    "id": "1evgph8q0ao74",
-    "title": "世語",
-    "type": "Work",
-    "path": "Work/1/e/v/1evgph8q0ao74-世語.json",
-    "author": "郭頒",
-    "dynasty": "西晉",
-    "role": "撰",
-    "juan_count": 10,
-    "measure_info": "十卷",
-    "period": "jin"
   },
   "1evgph8zg83r4": {
     "id": "1evgph8zg83r4",
@@ -30043,19 +29994,6 @@
     "has_text": true,
     "subtype": "article",
     "period": "song"
-  },
-  "1evi5uod20l4w": {
-    "id": "1evi5uod20l4w",
-    "title": "昭明文選",
-    "type": "Work",
-    "path": "Work/1/e/v/1evi5uod20l4w-昭明文選.json",
-    "author": "蕭統",
-    "dynasty": "南朝梁",
-    "role": "編",
-    "measure_info": "六十卷",
-    "has_text": true,
-    "period": "nanbeichao",
-    "has_collated": true
   },
   "1evi5v4v88l4w": {
     "id": "1evi5v4v88l4w",
@@ -38624,18 +38562,6 @@
     "measure_info": "一卷",
     "period": "jin"
   },
-  "1evkphvhlqakg": {
-    "id": "1evkphvhlqakg",
-    "title": "三墳",
-    "type": "Work",
-    "path": "Work/1/e/v/1evkphvhlqakg-三墳.json",
-    "author": "阮咸",
-    "dynasty": "東晉",
-    "role": "注",
-    "juan_count": 1,
-    "measure_info": "一卷",
-    "period": "jin"
-  },
   "1evkphwdamo00": {
     "id": "1evkphwdamo00",
     "title": "雅尚齋遵生八牋",
@@ -41858,7 +41784,9 @@
     "juan_count": 1,
     "measure_info": "一卷",
     "period": "nanbeichao",
-    "loss_status": "partially_extant"
+    "loss_status": "partially_extant",
+    "author": "僧慧琳",
+    "role": "撰"
   },
   "1evr5e3m7t8zn": {
     "id": "1evr5e3m7t8zn",
