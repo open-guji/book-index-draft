@@ -6,9 +6,8 @@
     {
       "name": "宋均",
       "role": "撰",
-      "dynasty": "三國吳",
-      "entity_id": "1j96hllwr9s00",
-      "dynasty_basis": "indexed_by:三國藝文志"
+      "dynasty": "東漢",
+      "entity_id": "1j969m70q2equ"
     }
   ],
   "juan_count": {
@@ -69,8 +68,8 @@
     }
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-24 宋均案：撰人由「三國吳」正為東漢（冊府河內太守之文與範書本傳合），改繫後漢宋均 entity；姚振宗收入三國藝文志蓋因與注緯宋均相混，記其異。",
   "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國吳」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period": "qin-han",
+  "period_basis": "冊府元龜：「宋均為河內太守，撰孝經皇義一卷」——即後漢宋均（範書本傳歷官辰陽長、九江／河內太守），非注緯之魏宋均；前值 three-kingdoms／三國吳無據。"
 }
