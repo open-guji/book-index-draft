@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "id": "1exd2939vrm9r",
+  "title": "禽經",
+  "authors": [
+    {
+      "name": "張華",
+      "role": "注",
+      "dynasty": "晉",
+      "name_basis": "《玉函山房輯佚書》續編·子編·藝術類著「禽經一卷」，其節之元資料自著撰人「張華」、役「注」、代「晉」。"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "loss_status": "partially_extant",
+  "description": {
+    "text": "已亡佚，今存馬國翰輯本。",
+    "sources": [
+      "玉函山房輯佚書"
+    ]
+  },
+  "ai_note": "2026-08-24 D3 玉函山房未繫節專項：據《玉函山房輯佚書》續編·子編·藝術類第 12 節新建。\n\n**前判「不可決」之由已不成立**：舊記云「本庫同題二條，逐條考之仍不可決……候選中有不著撰人者，無從比」——是隻比題名與撰人之有無，而未取**該節元資料自著之撰人與役**。今取之，本節明著撰人「張華」、役「注」，而庫中同題諸條無一撰人與之相合，依 SCHEMA〈同題異撰是二書〉當別立。\n\n**此與《周易王氏注》一案同型**：馬國翰每以姓立題（「周易王氏注」三見而各屬一王、「周易王氏義」四見而屬王濟、王宏、王嗣宗、王充），只比題名必誤。\n\n所記止於目錄所有（題、卷數、撰人、役、朝代）；撰人未繫 entity——目錄只給人名，繫人須另考。輯佚著錄見同目錄下 fragments/。\n\n**役是「注」非「撰」**：《禽經》舊題師曠撰、張華注，庫中師曠本 `1ev3bbtcalpts` 已具其條，本條是張華之注本，以 `contains_text_of` 繫之。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "related_works": [
+    {
+      "id": "1ev3bbtcalpts",
+      "title": "禽經",
+      "relation": "contains_text_of"
+    }
+  ]
+}
