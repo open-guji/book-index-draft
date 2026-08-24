@@ -1,149 +1,87 @@
 {
-  "_說明": "R3 引文判讀（2026-08-24）中浮出：引文內證（刊本紀年／官修之年／撰人生平）與本條 period_upper 相斥。**不是斷代之誤，多是同題異書誤併**——上限出於某早志所著錄之同題書，而引文所述乃另一晚出之書，二者繫於一 work。與 period上限與現判相斥-20260824.md 之甲型同源。\n\n當拆不當改：拆屬 B 車道（同題異書併池），須逐條裁，本輪只記不動（欄位級所有權；本庫定例不得批量合併）。",
-  "條目": [
+  "_說明": "R3 引文判讀（2026-08-24）浮出之「上限與引文相斥」9 條，逐條查其上限之由後分三型。丙型已於本輪處理（period_upper 欄之內），甲乙二型不在本欄之權，交棒。",
+  "甲_同題異書誤併_交B車道": [
     {
       "id": "1evjr725gma68",
       "title": "冶金錄",
-      "authors": [
-        "美阿發滿撰"
-      ],
-      "period_upper_現值": "song",
-      "引文所示之代": "qing",
-      "confidence": "low",
-      "basis": "續修四庫著錄美阿發滿撰、清末江南製造總局刻本，當為清末譯著；惟與 upper=song 矛盾（直齋《冶金錄》當屬另書）",
-      "evidence": "影印華東師大圖書館藏清末江南製造總局刻本",
+      "何以判其為二書": "直齋所著錄者是宋人之書，而續修四庫所收乃清末江南製造總局刻美國阿發滿撰譯著——二書同題而已",
+      "period_upper": "song",
+      "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
       "所繫之志": [
-        "description",
-        "直齋書錄解題",
-        "續修四庫全書"
+        "續修四庫全書",
+        "直齋書錄解題"
       ]
     },
     {
       "id": "1evgoqjs72ry8",
       "title": "樂論",
-      "authors": [
-        "沈括"
-      ],
-      "period_upper_現值": "sui-tang",
-      "引文所示之代": "song",
-      "confidence": "low",
-      "basis": "國史經籍志題沈括（北宋）撰，然隋志所載《樂論》為衛尉少卿蕭吉撰之另書；且與 upper=sui-tang 矛盾",
-      "evidence": "《樂論》一卷（沈括）",
+      "何以判其為二書": "隋志所載《樂論》是衛尉少卿蕭吉撰，國史經籍志題沈括（北宋）撰——二書同題",
+      "period_upper": "sui-tang",
+      "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
       "所繫之志": [
-        "description",
         "國史經籍志",
         "隋書經籍志"
       ]
     },
     {
+      "id": "1evdibxd0durk",
+      "title": "博雅志",
+      "何以判其為二書": "新唐志與明史藝文志皆題李文成《博雅志》，而明志是斷代志（99% 明人著述）——或同名異人，或一志誤收，須辨",
+      "period_upper": "sui-tang",
+      "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+      "所繫之志": [
+        "明史藝文志",
+        "國史經籍志",
+        "新唐書藝文志"
+      ]
+    }
+  ],
+  "乙_撰人朝代著錄錯_交撰人車道": [
+    {
       "id": "1ev3bazjo2vi8",
       "title": "禮部志稿",
-      "authors": [
-        "俞汝"
-      ],
-      "period_upper_現值": "song",
-      "引文所示之代": "ming",
-      "confidence": "low",
-      "basis": "四庫明言明泰昌元年官修、據俞汝楫纂修，當為明；惟與所記 upper=song 矛盾（upper 疑誤）",
-      "evidence": "明泰昌元年官修…俞汝楫纂修《禮部志書》",
-      "所繫之志": [
-        "欽定四庫全書總目"
-      ]
+      "撰人": "俞汝",
+      "現記dynasty": "宋",
+      "實": "撰人實明俞汝楫（四庫明言明泰昌元年官修）。dynasty 誤作「宋」，upper=song 即由此歧義取最晚解而來，改撰人朝代則上限自解",
+      "period_upper": "song"
     },
     {
       "id": "1evkaip2wg7b4",
       "title": "袖珍方",
-      "authors": [
-        "朱橚"
-      ],
-      "period_upper_現值": "song",
-      "引文所示之代": "ming",
-      "confidence": "low",
-      "basis": "知名人物：朱橚為明周定王，洪武間命李恒等編《袖珍方》，故宮著錄明正德四年刊本；與 upper=song 矛盾",
-      "evidence": "明正德四年御用太監廖氏串州刊本",
-      "所繫之志": [
-        "description"
-      ]
+      "撰人": "朱橚",
+      "現記dynasty": "宋",
+      "實": "撰人實明周定王朱橚（洪武間命李恒等編）。dynasty 誤作「宋」",
+      "period_upper": "song"
     },
     {
       "id": "1evkamba2o3cw",
       "title": "禪林寶訓筆說",
-      "authors": [
-        "釋智祥"
-      ],
-      "period_upper_現值": "song",
-      "引文所示之代": null,
-      "confidence": "low",
-      "basis": "《禪林寶訓》為南宋淨善重集，而《筆說》撰者智祥實為清初僧，清乾隆十五年刊，作者朝代與版本矛盾",
-      "evidence": "清乾隆十五年集貲刊本",
-      "所繫之志": [
-        "description"
-      ]
-    },
-    {
-      "id": "1evdibxd0durk",
-      "title": "博雅志",
-      "authors": [
-        "李文成"
-      ],
-      "period_upper_現值": "sui-tang",
-      "引文所示之代": null,
-      "confidence": "low",
-      "basis": "新唐志已著錄，而庫中說明稱明代著作，兩者矛盾；李文成生平無考",
-      "evidence": "李文成博雅志十三卷",
-      "所繫之志": [
-        "description",
-        "國史經籍志",
-        "新唐書藝文志",
-        "明史藝文志"
-      ]
-    },
-    {
-      "id": "1evjqxrn2tlog",
-      "title": "馬王堆帛書周易經傳釋文",
-      "authors": [
-        "廖名春"
-      ],
-      "period_upper_現值": "qin-han",
-      "引文所示之代": "modern",
-      "confidence": "low",
-      "basis": "釋文為今人廖名春所作、收入續修四庫，實為現代整理之作；然庫中 upper=qin-han(帛書本身年代)，與判定矛盾故降信度",
-      "evidence": "廖名春所作馬王堆帛書《周易》經傳釋文…爲今人整理研究之作",
-      "所繫之志": [
-        "description",
-        "續修四庫全書"
-      ]
+      "撰人": "釋智祥",
+      "現記dynasty": "宋",
+      "實": "《禪林寶訓》為南宋淨善重集，而《筆說》撰者智祥是清初僧（清乾隆十五年刊）。dynasty 誤作「宋」，蓋自原書之代誤植",
+      "period_upper": "song"
     },
     {
       "id": "1evkpyj90hmo0",
       "title": "劉向新序纂注",
-      "authors": [
-        "武井驥"
-      ],
-      "period_upper_現值": "song",
-      "引文所示之代": "qing",
-      "confidence": "low",
-      "basis": "武井驥為日本江戶後期學者，日本文政五年（1822）刊，按年當清道光初；與原記「宋」及 upper=song 矛盾，疑原著者朝代著錄有誤",
-      "evidence": "日本文政壬午(五年)長沼源賴氏天籟館刊本",
-      "所繫之志": [
-        "description"
-      ]
+      "撰人": "武井驥",
+      "現記dynasty": "宋",
+      "實": "武井驥是日本江戶後期學者（文政五年／1822 刊，當清道光初）。dynasty 誤作「宋」",
+      "period_upper": "song"
+    }
+  ],
+  "丙_已處理或留記": [
+    {
+      "id": "1evjqxrn2tlog",
+      "title": "馬王堆帛書周易經傳釋文",
+      "處置": "✅ 本輪已改",
+      "說明": "excavation_bound 只認關鍵詞「馬王堆」而未辨釋文與帛書。已於 period_bounds.py 加 EXCAVATION_MODERN 護欄（書名帶釋文／校釋／研究等今人著述語者不適用），撤其 qin-han 上限，定 period=modern。全庫掃 excavation_bound 命中 23 條，誤判僅此 1 條，餘 22 條皆真帛書篇目（《衷》《要》《經法》之屬）。"
     },
     {
       "id": "1evjqye30f1fk",
       "title": "易經古本",
-      "authors": [
-        "廖平"
-      ],
-      "period_upper_現值": "qing",
-      "引文所示之代": "modern",
-      "confidence": "medium",
-      "basis": "廖平（1852—1932）晚年易學著作，民國四年（1915）存古書局刻六譯館叢書本；與 upper=qing 相接，或當繫清末",
-      "evidence": "民國四年存古書局刻新訂六譯館叢書本",
-      "所繫之志": [
-        "description",
-        "續修四庫全書"
-      ]
+      "處置": "留記不改",
+      "說明": "廖平（1852—1932）晚年易學，民國四年（1915）存古書局刻六譯館叢書本。collection_bound 以續修四庫收書止於辛亥為據給 upper=qing，而此本刻於 1915——或叢編破例，或著錄之年有誤。廖平學術主體在清末，判 qing 亦可，判 modern 亦可，此是清末民初之際的邊界情形，非規則之漏。"
     }
   ]
 }

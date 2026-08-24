@@ -68,7 +68,8 @@ def main():
             # 出土批次
             xb, xname = excavation_bound(
                 dtext + ' ' + ' '.join(x if isinstance(x, str) else (x.get('title') or '')
-                                       for x in dsrcs))
+                                       for x in dsrcs),
+                d.get('title'))
             # 志書子目之斷代
             sb, sname = catalog_section_bound(dsrcs)
             # 叢編之收書範圍（描述或案語所記）
