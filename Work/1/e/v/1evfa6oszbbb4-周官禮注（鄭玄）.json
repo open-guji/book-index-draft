@@ -47,13 +47,15 @@
     }
   ],
   "description": {
-    "text": "已亡佚。",
+    "text": "東漢鄭玄注《周官禮》（周禮）十二卷（《隋志》）。玄自序：世祖以來鄭興、鄭眾、衛宏、賈逵、馬融皆作周禮解詁，玄贊而辨之以成此注。今存完帙——《十三經注疏》周禮注疏即用鄭注（賈公彥疏），書目答問著得齋校本六卷。",
     "sources": [
-      "後漢藝文志"
+      "後漢藝文志",
+      "經義考",
+      "書目答問"
     ]
   },
-  "ai_note": "從 1evgoq61ulxxc 合併。原註：从卷二 ambiguous 新建：B3:多候选 author=鄭玄 count=4　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《周官禮》十二卷》→《周官禮》`1evgoq5zkij28`。\n\n2026-08-21 補 original_title「周官禮」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
-  "loss_status": "lost",
+  "ai_note": "從 1evgoq61ulxxc 合併。原註：从卷二 ambiguous 新建：B3:多候选 author=鄭玄 count=4　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《周官禮》十二卷》→《周官禮》`1evgoq5zkij28`。\n\n2026-08-21 補 original_title「周官禮」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補/改 extant：鄭玄周禮注今存完帙（十三經注疏本）——舊值 lost 係機讀之誤，明寫 extant 以推翻。",
+  "loss_status": "extant",
   "updated_at": "2026-08-20T00:00:00-07:00",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「東漢」",

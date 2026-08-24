@@ -63,5 +63,13 @@
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
   "period_basis": "據 authors[0].dynasty「西漢」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢太中大夫《劉歆集》五卷」、兩唐志、國史經籍志皆五卷，同為西漢劉歆別集，今合為一條並繫 entity `1j967a0kj9gy0`。"
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢太中大夫《劉歆集》五卷」、兩唐志、國史經籍志皆五卷，同為西漢劉歆別集，今合為一條並繫 entity `1j967a0kj9gy0`。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補/改 partially_extant：移讓太常博士書等存漢書本傳——有文存世。",
+  "description": {
+    "text": "西漢劉歆（字子駿，後名秀，劉向子，王莽國師）文集。《隋志》五卷。移讓太常博士書（爭立古文經之名文）、與揚雄書存於漢書本傳及全漢文。原集亡佚。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "partially_extant"
 }

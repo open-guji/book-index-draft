@@ -49,7 +49,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢騎都尉《李陵集》二卷」、兩唐志、國史經籍志皆二卷，同為西漢李陵別集，今合為一條並繫 entity `1j96keo3p3bb4`。隋志本條下附「梁有漢丞相《魏相集》二卷……亡」為附注他書之通例。",
+  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「漢騎都尉《李陵集》二卷」、兩唐志、國史經籍志皆二卷，同為西漢李陵別集，今合為一條並繫 entity `1j96keo3p3bb4`。隋志本條下附「梁有漢丞相《魏相集》二卷……亡」為附注他書之通例。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。\nloss_status 補/改 partially_extant：答蘇武書、與蘇武詩存文選（真偽有議）——有文存世。",
   "updated_at": "2026-08-19T00:00:00-07:00",
   "authors": [
     {
@@ -63,5 +63,13 @@
   "dynasty": "西漢",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」"
+  "period_basis": "據 authors[0].dynasty「西漢」",
+  "description": {
+    "text": "西漢李陵（字少卿，隴西成紀人，騎都尉，降匈奴）名下文集，《隋志》二卷。答蘇武書（文選收，劉知幾、蘇軾以下多疑後人擬作）及與蘇武詩諸篇傳世，真偽聚訟。原集亡佚。",
+    "sources": [
+      "隋書經籍志",
+      "舊唐書經籍志"
+    ]
+  },
+  "loss_status": "partially_extant"
 }
