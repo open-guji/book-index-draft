@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3m8fq3q",
+  "type": "work",
+  "title": "舊五代史",
+  "authors": [
+    {
+      "name": "薛居正",
+      "dynasty": "宋",
+      "role": "等撰"
+    }
+  ],
+  "juan_count": {
+    "number": 150
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "正等舊五代史",
+      "summary": "宋薛居正等舊五代史一百五十卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志史部正史類輯佚條目。 來源：清史稿藝文志史部正史類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 10，與著錄原文（清史稿藝文志：「正等舊五代史」）所載之 150 卷不合，今據原文訂正。 2026-08-21 本條連記附屬部帙：目錄。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\n2026-08-24 B2 著錄分詞訂正：舊記 title「正等舊五代史」、撰人 [('薛居正', '宋')]——原文「宋薛居正等舊五代史一百五十卷」，宋薛居正等撰《舊五代史》；「正」字誤切入書名，「等」字表官修眾手，role 作等撰。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 150
+    }
+  ],
+  "measure_info": "一百五十卷",
+  "related_works": [
+    {
+      "id": "1ev3bab4kdl34",
+      "title": "舊五代史",
+      "relation": "contains_text_of"
+    }
+  ],
+  "updated_at": "2026-08-24T11:30:00.895001+00:00",
+  "loss_status": "lost",
+  "period": "song",
+  "period_basis": "《清史稿藝文志》明題「宋薛居正等舊五代史」，薛居正（912-981）為北宋宰相，故 amb「宋」為趙宋。（2026-08-24 R3二輪 引文定代）"
+}

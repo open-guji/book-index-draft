@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3m9dfk1",
+  "type": "work",
+  "title": "括地誌",
+  "authors": [
+    {
+      "name": "濮王泰",
+      "dynasty": "唐",
+      "role": "等撰"
+    }
+  ],
+  "juan_count": {
+    "number": 1
+  },
+  "indexed_by": [
+    {
+      "source": "清史稿藝文志",
+      "source_bid": "1evdiulq07rwg",
+      "title_info": "泰等括地誌",
+      "summary": "唐濮王泰等括地誌一卷。"
+    }
+  ],
+  "ai_note": "清史稿藝文志史部地理類輯佚條目。 來源：清史稿藝文志史部地理類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：《清史稿·藝文志》各部類下有「輯佚」子目，著錄清人所輯之本；本條見於該子目，是其文賴輯本存世——「藝文志史部地理類輯佚條目」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。\n\n2026-08-24 B2 著錄分詞訂正：舊記 title「泰等括地誌」、撰人 [('濮王泰', '唐')]——原文「唐濮王泰等括地誌一卷」，即唐太宗子李泰（封濮王）等撰《括地誌》；「泰」字誤切入書名，「等」字表眾手成書，role 作等撰。",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "updated_at": "2026-08-24T11:30:00.895001+00:00",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」（2026-08-13 隋唐探勘：濮王：Entity遭CBDB誤配至同諡號之北宋宗室趙允讓（995-1059），著錄明載「唐濮王泰」，實為唐太宗子李泰，著括地誌）",
+  "loss_status": "partially_extant",
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation"
+}
