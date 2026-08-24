@@ -12,7 +12,9 @@
     {
       "source": "補晋書藝文志",
       "source_bid": "1evfu57n5n37k",
-      "summary": "紀氏家紀一卷 紀友,謹按見《隋志》。友為紀瞻孫,官至廷尉,本書附在瞻傳。"
+      "summary": "紀氏家紀一卷 紀友,謹按見《隋志》。友為紀瞻孫,官至廷尉,本書附在瞻傳。",
+      "section": "乙部史録／雜傳類",
+      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
     },
     {
       "source": "國史經籍志",
@@ -26,7 +28,8 @@
     {
       "name": "紀友",
       "role": "撰",
-      "entity_id": "1j967avzkq2wh"
+      "entity_id": null,
+      "dynasty": "晉"
     }
   ],
   "juan_count": {
@@ -52,5 +55,6 @@
   "period": "jin",
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
   "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉"
+  "dynasty_basis": "period_fallback:jin→晉",
+  "ai_note": "2026-08-24 J2(b) entity 誤繫：本條 authors[0]「紀友」原繫 Entity 1j967avzkq2wh，而該 entity 之 primary_name 是「蔣永修」（清順治進士），其另四作品《孝經集解》《蔣慎齋遇集》《蒞楚學記》《日懷堂奏疏》period 皆 qing——非本條之人。《隋志》《補晉志》皆作「紀友撰」，補晉志並云「友為紀瞻孫，官至廷尉，本書附在瞻傳」，是晉人。今去其誤繫之 entity_id，補 dynasty「晉」；庫中尚無紀友之 entity，俟人物車道補立再繫。"
 }

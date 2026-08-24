@@ -4,7 +4,7 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "姚信",
-  "dynasty": "清",
+  "dynasty": "三國吳",
   "works": [
     {
       "work_id": "1evcpd28udjb4",
@@ -17,7 +17,8 @@
     "cbdb_source": "name_exact+dy_match+unique (batch2 2026-08-16)"
   },
   "updated_at": "2026-08-17T05:06:14+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併",
-  "ai_note": "2026-08-16 CBDB 繫連批二：繫 cbdb 699168。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：清，籍貫武進。"
+  "period": "three-kingdoms",
+  "period_basis": "據 dynasty「三國吳」（2026-08-24 J2(b) 訂正 qing_round1 之污染）",
+  "ai_note": "2026-08-16 CBDB 繫連批二：繫 cbdb 699168。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：清，籍貫武進。\n\n2026-08-24 J2(b) qing_round1 斷代污染訂正：本欄之值出自清代整理 round1 之機械步（dynasty_basis 自陳「period=qing 且非通用作者 dynasty 唯一为「清」」／「據 dynasty「清」自動歸併」），其後本條之 period 已改判而 dynasty 未隨，遂成 work.dynasty「清」而 authors[0].dynasty 為晉代之矛盾。今訂正。據：姚信，吳太常，撰《昕天論》。（本 entity 與 1j96hlf0ypw5c「姚信·吴」係同名分裂，併池留待 J3。）　dynasty 由「清」改「三國吳」，period 由 qing 改 three-kingdoms。",
+  "dynasty_basis": "2026-08-24 J2(b)：見 ai_note"
 }

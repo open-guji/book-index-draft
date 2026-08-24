@@ -8,6 +8,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《荊台集》",
       "summary": "孫光憲《荊台集》四十卷又"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "孫光憲荆臺集四十卷",
+      "summary": "孫光憲荆臺集四十卷",
+      "merged_from": "1evcsysdpvw1s",
+      "note": "與《荊台集》同指一書，並四十卷，撰人並孫光憲，今併之。"
     }
   ],
   "id": "1evcsysdpvw1s",
@@ -24,5 +32,17 @@
   "dynasty": "北宋",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。"
+  "period_basis": "據 authors[0].dynasty「北宋」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。",
+  "juan_count": 40,
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 40
+    }
+  ],
+  "measure_info": "四十卷",
+  "additional_titles": [
+    "孫光憲荊臺集"
+  ],
+  "ai_note": "2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evr5e3mhsuda`（孫光憲荊臺集）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《孫光憲荊臺集》（1evr5e3mhsuda）。《崇文總目》著錄作「孫光憲荆臺集四十卷」，撰人與書名相連而無點斷，匯入時誤以撰人冠於題上；《宋史藝文志》正作「孫光憲《荊台集》四十卷」，卷數合。\n\n本條舊無卷數，今據二志補作四十卷。又「台」「臺」一字之異體，崇文總目作「臺」，宋志作「台」，本條題從宋志，「荊臺集」已入 additional_titles。　被刪條之 period_upper=song，本條從缺，不越 C／D 車道而搬，俟其道補。"
 }

@@ -23,6 +23,14 @@
       "summary": "《漢書音義》七卷章昭撰。",
       "note": "「章昭」為「韋昭」形近訛字，見下 emendated_by 訂正說明。",
       "merged_from": "1evcpjoltbbpc"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "韋昭漢書音義",
+      "summary": "韋昭漢書音義七卷",
+      "merged_from": "1evcml1wwl5vk",
+      "note": "與《韋昭漢書音義》同指一書，撰人並「韋昭」，卷數亦合，今併之。"
     }
   ],
   "authors": [
@@ -71,10 +79,13 @@
     }
   ],
   "_has_text": true,
-  "ai_note": "2026-08-11 秦漢同名異書核對／漢書音義組覆核：頂層 period／dynasty 缺漏，據 authors[0].dynasty「三國吳」補。\n\n2026-08-15 全庫同名異書核對：併入 1evcpjoltbbpc（舊唐書經籍志「《漢書音義》七卷章昭撰」），「章昭」為「韋昭」形近訛字，撰人卷數皆合，確係同書重出，逕併，刪除該條。",
-  "updated_at": "2026-08-11",
+  "ai_note": "2026-08-11 秦漢同名異書核對／漢書音義組覆核：頂層 period／dynasty 缺漏，據 authors[0].dynasty「三國吳」補。\n\n2026-08-15 全庫同名異書核對：併入 1evcpjoltbbpc（舊唐書經籍志「《漢書音義》七卷章昭撰」），「章昭」為「韋昭」形近訛字，撰人卷數皆合，確係同書重出，逕併，刪除該條。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evdx90csu51c`（韋昭漢書音義）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《韋昭漢書音義》（1evdx90csu51c）。二條撰人並「韋昭」，卷數亦合（七卷）。長題《韋昭漢書音義》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《漢書音義》，故以短題之條為正。",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty": "三國吳",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國吳」"
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "additional_titles": [
+    "韋昭漢書音義"
+  ]
 }

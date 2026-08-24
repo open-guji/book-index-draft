@@ -8,6 +8,22 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《入道表》",
       "summary": "賀知章《入道表》一卷"
+    },
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "賀知章入道表一卷",
+      "summary": "賀知章入道表一卷",
+      "merged_from": "1evcsynwlk64g",
+      "note": "與《賀知章入道表》同指一書，撰人並「賀知章」，卷數亦合，今併之。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《賀知章入道表》一卷",
+      "summary": "《賀知章入道表》一卷",
+      "merged_from": "1evcsynwlk64g",
+      "note": "與《賀知章入道表》同指一書，撰人並「賀知章」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcsynwlk64g",
@@ -24,5 +40,19 @@
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。"
+  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。",
+  "juan_count": {
+    "number": 1
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 1
+    }
+  ],
+  "measure_info": "一卷",
+  "additional_titles": [
+    "賀知章入道表"
+  ],
+  "ai_note": "2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evr5e3mhsuc6`（賀知章入道表）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《賀知章入道表》（1evr5e3mhsuc6）。二條撰人並「賀知章」，卷數亦合（一卷）。長題《賀知章入道表》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《入道表》，故以短題之條為正。　被刪條之 period_upper=song，本條從缺，不越 C／D 車道而搬，俟其道補。"
 }

@@ -14,6 +14,14 @@
       "source_bid": "1evcsw4kt579c",
       "title_info": "《本草音義》",
       "summary": "李含光《本草音義》五卷"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "李含光本草音義",
+      "summary": "李含光本草音義二卷",
+      "merged_from": "1evcpjovev11c",
+      "note": "與《李含光本草音義》同指一書，撰人並「李含光」，卷數亦合，今併之。"
     }
   ],
   "id": "1evcpjovev11c",
@@ -28,7 +36,7 @@
     }
   ],
   "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs0x3vyg3k`（李含光本草音義）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《李含光本草音義》（1evcs0x3vyg3k）。二條撰人並「李含光」，卷數亦合（二卷）。長題《李含光本草音義》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《本草音義》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
   "authors": [
     {
       "name": "李含光",
@@ -41,5 +49,8 @@
   "dynasty": "唐",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。"
+  "period_basis": "據 authors[0].dynasty「唐」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。",
+  "additional_titles": [
+    "李含光本草音義"
+  ]
 }
