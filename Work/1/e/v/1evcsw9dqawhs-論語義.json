@@ -7,7 +7,9 @@
       "name": "陳儀之",
       "role": "撰",
       "entity_id": "1j96hjwlylnp6",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「陳儀之」而無 entity_id，今繫 `1j96hjwlylnp6`——庫中 primary_name 同之者唯一。其代「南朝陳」與本書之上限不相斥。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「陳儀之」而無 entity_id，今繫 `1j96hjwlylnp6`——庫中 primary_name 同之者唯一。其代「南朝陳」與本書之上限不相斥。",
+      "dynasty": "南朝陳",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hjwlylnp6`（陳儀之）之 dynasty「南朝陳」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -22,7 +24,7 @@
     }
   ],
   "id": "1evcsw9dqawhs",
-  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「陳儀之」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
+  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「陳儀之」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "measures": [
     {
       "unit": "卷",
@@ -39,5 +41,6 @@
   ],
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "nanbeichao",
-  "period_basis": "據撰人「陳儀之」（entity `1j96hjwlylnp6`，代「南朝陳」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
+  "period_basis": "據撰人「陳儀之」（entity `1j96hjwlylnp6`，代「南朝陳」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcsw9dqawhs-論語義.json"
 }

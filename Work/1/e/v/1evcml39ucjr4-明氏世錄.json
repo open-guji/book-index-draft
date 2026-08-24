@@ -33,7 +33,9 @@
     {
       "name": "明粲",
       "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7k8x2（宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「明粲」而無 entity_id，今繫 `1j96h8rw7k8x2`——庫中以此為別名（alt_names）者唯一。其代「宋」與本書已定之代「nanbeichao」相合。\n\nN3（2026-08-24）：撤去 entity `1j96h8rw7k8x2` 之繫連——該 entity 之 primary_name 是「晏乂」（宋），僅以「明粲」為其字（alt_names）而收，與本條隋志所著「梁信武記室明粲」是同名（字）異代之二人。2026-08-24 之「補繫 entity」以 alt_names 相配，屬 README 所戒之「entity 誤配名實不符」型。庫中無合代之同名 entity，故留空待考。"
+      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7k8x2（宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「明粲」而無 entity_id，今繫 `1j96h8rw7k8x2`——庫中以此為別名（alt_names）者唯一。其代「宋」與本書已定之代「nanbeichao」相合。\n\nN3（2026-08-24）：撤去 entity `1j96h8rw7k8x2` 之繫連——該 entity 之 primary_name 是「晏乂」（宋），僅以「明粲」為其字（alt_names）而收，與本條隋志所著「梁信武記室明粲」是同名（字）異代之二人。2026-08-24 之「補繫 entity」以 alt_names 相配，屬 README 所戒之「entity 誤配名實不符」型。庫中無合代之同名 entity，故留空待考。",
+      "dynasty": "南朝梁",
+      "dynasty_basis": "N4 引文定代（2026-08-24 南北朝斷代收尾）：本條所繫著錄之引文於撰人名前緊接朝代語「梁明粲」，據以定其代。（抽法：於本條自身之 indexed_by 內搜撰人名，取其前不跨句、十二字內之朝代語；一條之內所得須唯一方採。）"
     }
   ],
   "juan_count": {
@@ -59,5 +61,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "隋志明記「梁信武記室明粲撰」，梁即南朝蕭梁（2026-08-24 R3 引文定代）"
+  "period_basis": "隋志明記「梁信武記室明粲撰」，梁即南朝蕭梁（2026-08-24 R3 引文定代）",
+  "ai_note": "N4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據本條著錄引文中撰人名前之朝代語定之，判據原文記於 authors[].dynasty_basis。"
 }

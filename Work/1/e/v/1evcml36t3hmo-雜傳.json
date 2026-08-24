@@ -22,7 +22,9 @@
     {
       "name": "陸澄",
       "role": "撰",
-      "entity_id": "1j96hlgxmm5ts"
+      "entity_id": "1j96hlgxmm5ts",
+      "dynasty": "南朝齊",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hlgxmm5ts`（陸澄）之 dynasty「南朝齊」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -38,7 +40,7 @@
       "merged_from": "1evcml36y3abk"
     }
   ],
-  "ai_note": "2026-08-15 全庫同名異書核對：合併裸題「雜傳」1evcml36y3abk（隋書經籍志「十九卷陸澄撰」）——卷數、撰人皆與本條（國史經籍志）相符，同書重出，逕併。",
+  "ai_note": "2026-08-15 全庫同名異書核對：合併裸題「雜傳」1evcml36y3abk（隋書經籍志「十九卷陸澄撰」）——卷數、撰人皆與本條（國史經籍志）相符，同書重出，逕併。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "measures": [
     {
       "unit": "卷",
@@ -50,5 +52,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「陸澄」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「陸澄」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml36t3hmo-雜傳.json"
 }

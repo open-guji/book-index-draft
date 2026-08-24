@@ -20,7 +20,9 @@
     {
       "name": "謝靈運",
       "role": "集",
-      "entity_id": "1j968k0je2uio"
+      "entity_id": "1j968k0je2uio",
+      "dynasty": "南朝宋",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j968k0je2uio`（謝靈運）之 dynasty「南朝宋」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -38,5 +40,7 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「謝靈運」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「謝靈運」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcmod5ppnnk-七集.json",
+  "ai_note": "N4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。"
 }

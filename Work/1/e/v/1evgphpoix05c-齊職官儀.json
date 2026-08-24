@@ -7,7 +7,9 @@
       "name": "王珪之",
       "role": "撰",
       "entity_id": "1j96hezz62z9c",
-      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「齊王珪之」。《新唐書藝文志》作「王珪之齊職官儀五十卷」，其名即「王珪之」；《國史經籍志》之「齊王珪之」乃朝代前綴＋人名。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96hfrfaq800`（primary_name「齊王珪之」），今改繫 `1j96hezz62z9c`（「王珪之」）。「齊」為朝代前綴。"
+      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「齊王珪之」。《新唐書藝文志》作「王珪之齊職官儀五十卷」，其名即「王珪之」；《國史經籍志》之「齊王珪之」乃朝代前綴＋人名。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96hfrfaq800`（primary_name「齊王珪之」），今改繫 `1j96hezz62z9c`（「王珪之」）。「齊」為朝代前綴。",
+      "dynasty": "南朝齊",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hezz62z9c`（王珪之）之 dynasty「南朝齊」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -50,6 +52,6 @@
   ],
   "period": "nanbeichao",
   "period_basis": "據撰人王珪之之朝代「南朝齊」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。",
-  "ai_note": "2026-08-22 併池：《王珪之齊職官儀》1evcs0epx1wqo 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。",
+  "ai_note": "2026-08-22 併池：《王珪之齊職官儀》1evcs0epx1wqo 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。\n\nN3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "_path": "/home/user/book-index-draft/Work/1/e/v/1evgphpoix05c-齊職官儀.json"
 }

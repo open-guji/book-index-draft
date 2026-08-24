@@ -7,7 +7,9 @@
       "name": "殷紹",
       "role": "撰",
       "entity_id": "1j96hg6zhyfpc",
-      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「後魏殷紹」。《國史經籍志》著錄語作「（後魏殷紹）」——「後魏」為朝代前綴。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96hg704qrcw`（primary_name「後魏殷紹」），今改繫 `1j96hg6zhyfpc`（「殷紹」）。「後魏」為朝代前綴。"
+      "name_basis": "N3 壞名正名（2026-08-24）：本欄原作「後魏殷紹」。《國史經籍志》著錄語作「（後魏殷紹）」——「後魏」為朝代前綴。\n\nN3 entity 歸正（2026-08-24）：原繫壞名 entity `1j96hg704qrcw`（primary_name「後魏殷紹」），今改繫 `1j96hg6zhyfpc`（「殷紹」）。「後魏」為朝代前綴。",
+      "dynasty": "北魏",
+      "dynasty_basis": "N4 引文定代（2026-08-24 南北朝斷代收尾）：本條所繫著錄之引文於撰人名前緊接朝代語「後魏殷紹」，據以定其代。（抽法：於本條自身之 indexed_by 內搜撰人名，取其前不跨句、十二字內之朝代語；一條之內所得須唯一方採。）"
     }
   ],
   "juan_count": {
@@ -45,5 +47,5 @@
   "period": "nanbeichao",
   "period_basis": "著錄明標「後魏殷紹」，後魏即北魏，殷紹為北魏太武、文成間曆算家。（2026-08-24 R3二輪 引文定代）",
   "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq3kxlt0jk-太史堪餘歷.json",
-  "ai_note": "N3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。"
+  "ai_note": "N3 壞名正名（2026-08-24 南北朝斷代與壞名專項）：authors 之名有朝代前綴／官銜／著錄語混入，或形訛、簡體回轉之誤，今據本條 indexed_by 之著錄原文逐條回正，判據記於 authors[].name_basis。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據本條著錄引文中撰人名前之朝代語定之，判據原文記於 authors[].dynasty_basis。"
 }

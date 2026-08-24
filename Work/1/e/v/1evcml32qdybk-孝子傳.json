@@ -40,8 +40,8 @@
       "name": "師覺授",
       "role": "撰",
       "entity_id": "1j96hf07qhfy8",
-      "dynasty": "宋",
-      "dynasty_basis": "manual:historical_figure(師覺授，南朝宋人，撰孝子傳八卷，見載於史志)"
+      "dynasty": "南朝宋",
+      "dynasty_basis": "manual:historical_figure(師覺授，南朝宋人，撰孝子傳八卷，見載於史志) N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
     }
   ],
   "juan_count": {
@@ -67,6 +67,7 @@
   "books": [],
   "related_works": [],
   "period": "nanbeichao",
-  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0fdymz28（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-13 全庫同名異書核對：併入獨立記錄 1evcpk07mgetc（隋書經籍志「八卷」，含 emendated_by 考證）及 1evcpjoxb8000（舊唐書經籍志「又八卷師覺授撰」），卷數三源皆合，確係同書重出，原二記錄已刪除。",
-  "period_basis": "據 authors[0].dynasty「宋」（南朝宋）"
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0fdymz28（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-13 全庫同名異書核對：併入獨立記錄 1evcpk07mgetc（隋書經籍志「八卷」，含 emendated_by 考證）及 1evcpjoxb8000（舊唐書經籍志「又八卷師覺授撰」），卷數三源皆合，確係同書重出，原二記錄已刪除。\n\nN4 朝代名歸一（2026-08-24）：師覺授「宋」→「南朝宋」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
+  "period_basis": "據 authors[0].dynasty「宋」（南朝宋）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml32qdybk-孝子傳.json"
 }

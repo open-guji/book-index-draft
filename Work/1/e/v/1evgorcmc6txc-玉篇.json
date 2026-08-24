@@ -6,7 +6,9 @@
     {
       "name": "顧野王",
       "role": "撰",
-      "entity_id": "1j968si3dt6v5"
+      "entity_id": "1j968si3dt6v5",
+      "dynasty": "南朝陳",
+      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j968si3dt6v5`（顧野王）之 dynasty「南朝陳」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -72,7 +74,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "missing_reason: 短title \"玉篇\" 唯一候选无作者　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：直齋書錄解題）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。",
+  "ai_note": "missing_reason: 短title \"玉篇\" 唯一候选无作者　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：隋書經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。　合併：裸題「玉篇」全庫撞名，經逐條核indexed_by摘要確認撞名者撰人皆為「顧野王」（來源：直齋書錄解題）——非異書撞名，逕併——撰人字首式重出候選 Phase 2c（2026-08-07，經人核可批次處理）。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "id": "1evgorcmc6txc",
   "measures": [
     {
@@ -137,5 +139,6 @@
   "period_upper": "sui-tang",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
   "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「顧野王」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "period_basis": "撰人朝代闕，據其 Entity「顧野王」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
+  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgorcmc6txc-玉篇.json"
 }
