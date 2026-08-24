@@ -44,7 +44,7 @@
       "國史經籍志"
     ]
   },
-  "ai_note": "從 1evgop2tt2jnk 合併。原註：从卷二 ambiguous 新建：unresolved 作者「魏王弼注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkadhq4zugw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 2 節，各題在庫中已別有其 work，今各歸其主：《《周易注》十卷》→《周易注》`1evgop8owm4n4`、《《周易注》十卷》→《周易注》`1evgop8owm4n4`。",
+  "ai_note": "從 1evgop2tt2jnk 合併。原註：从卷二 ambiguous 新建：unresolved 作者「魏王弼注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkadhq4zugw 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 2 節，各題在庫中已別有其 work，今各歸其主：《《周易注》十卷》→《周易注》`1evgop8owm4n4`、《《周易注》十卷》→《周易注》`1evgop8owm4n4`。\n\n2026-08-24 J2(c) 注疏／編本之 period 從成編之世：依 SCHEMA〈坊刻編本是獨立 Work〉，合刻、附釋音、正義、集解、坊刻舉業編本皆是新成之編，其時代從成編之世而不從所依之底注者。本條 authors 只掛底注者，period 遂被機械繫其人之代。據：清乾隆四年武英殿刊十三經注疏附考證本。王弼注、孔穎達正義之外，殿本別有館臣所撰之考證，是清代新成之編。　period 由 three-kingdoms 改 qing。authors 與 dynasty 不動——所掛之底注者是實錄，dynasty 依 SCHEMA 是志書原文之欄。",
   "related_works": [
     {
       "id": "d59ezakdey2o",
@@ -57,8 +57,8 @@
   ],
   "updated_at": "2026-08-20T00:00:00-07:00",
   "_has_image": true,
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」",
+  "period": "qing",
+  "period_basis": "2026-08-24 J2(c)：見 ai_note",
   "dynasty": "三國魏",
   "dynasty_basis": "author_propagation:唯一作者朝代"
 }

@@ -7,7 +7,7 @@
     {
       "name": "徐幹",
       "role": "編",
-      "dynasty": "三國魏",
+      "dynasty": "清",
       "entity_id": "1j96hl69jq7sw",
       "dynasty_basis": "known_mislabel:round3(徐幹(170-217)，建安七子)"
     }
@@ -31,6 +31,9 @@
   ],
   "measure_info": "四卷",
   "updated_at": "2026-08-08T14:20:19+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（2026-08-18 清史稿藝文志系統性排查補遺：period欄未隨既有dynasty同步，訂正）"
+  "period": "qing",
+  "period_basis": "2026-08-24 J2(b)：見 ai_note",
+  "dynasty": "清",
+  "dynasty_basis": "2026-08-24 J2(b)：見 ai_note",
+  "ai_note": "2026-08-24 J2(b) 同名相混：本條唯一之著錄為《清史稿藝文志》「上虞詩選四卷。徐幹編」。上虞是紹興屬縣，本書是清代邑人詩選，其編者徐幹即所繫 Entity 1j96hl69jq7sw（清）之人；而 period 與 authors[0].dynasty 被繫作三國魏，是與建安七子之徐幹（170–217）相混。period 由 three-kingdoms 改 qing，authors[0].dynasty 由「三國魏」改「清」。Entity 側不動——其值本不誤。"
 }

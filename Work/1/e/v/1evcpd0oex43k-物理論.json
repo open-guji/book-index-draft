@@ -60,12 +60,12 @@
   ],
   "updated_at": "2026-08-24T04:34:30.819416+00:00",
   "_has_text": true,
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "dynasty": "三國吳",
+  "dynasty_basis": "2026-08-24 J2(b)：見 ai_note",
   "emendated_by": [],
   "books": [],
   "related_works": [],
-  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0l3g80lc（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十六卷），今據以補。\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條與 `1evgpms3wrojk` 同題《物理論》、同卷數 16，撰人作「楊泉」與「揚泉」，僅一字之差（或一名含於另一名）；「揚泉」為其訛（或異寫），二者實一書之重出，今併。\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人楊泉原標「清」，period qing，而《舊唐書經籍志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
+  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0l3g80lc（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十六卷），今據以補。\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條與 `1evgpms3wrojk` 同題《物理論》、同卷數 16，撰人作「楊泉」與「揚泉」，僅一字之差（或一名含於另一名）；「揚泉」為其訛（或異寫），二者實一書之重出，今併。\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人楊泉原標「清」，period qing，而《舊唐書經籍志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。\n\n2026-08-24 J2(b) qing_round1 斷代污染訂正：本欄之值出自清代整理 round1 之機械步（dynasty_basis 自陳「period=qing 且非通用作者 dynasty 唯一为「清」」／「據 dynasty「清」自動歸併」），其後本條之 period 已改判而 dynasty 未隨，遂成 work.dynasty「清」而 authors[0].dynasty 為晉代之矛盾。今訂正。據：楊泉，三國吳人，《物理論》之作者，其 Entity 之 dynasty 早作「三國吳」。　dynasty 由「清」改「三國吳」。",
   "juan_count": {
     "number": 16
   },

@@ -37,18 +37,19 @@
     }
   ],
   "measure_info": "五百五十卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、書目答問、國史經籍志同著《括地志》，係一書互著（或重出），今合併。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「魏王泰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
+  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、書目答問、國史經籍志同著《括地志》，係一書互著（或重出），今合併。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「魏王泰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J2(a) 著錄括注誤剖：《書目答問》作「唐魏王泰。孫星衍輯」——「魏王」是唐太宗第四子李泰之封爵，非曹魏之代；《括地志》五百五十卷即貞觀中李泰召蕭德言等所修，《新唐志》《國史經籍志》著錄之卷數與此合。原 authors[0] 作「王泰·魏」，是「魏王泰」三字誤剖所生。　本條 period 由 three-kingdoms 改 sui-tang，dynasty 由 魏 改 唐，authors[0].name 由「王泰」正為「李泰」。",
   "authors": [
     {
-      "name": "王泰",
+      "name": "李泰",
       "role": "撰",
-      "dynasty": "魏",
+      "dynasty": "唐",
       "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「魏王泰」補；著錄所給者為一，去朝代與職名後取之。"
+      "note": "據本 work 諸著錄之 author_info「魏王泰」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 J2(a)：見 ai_note"
     }
   ],
-  "dynasty": "魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「魏」"
+  "dynasty": "唐",
+  "dynasty_basis": "2026-08-24 J2(a)：見 ai_note",
+  "period": "sui-tang",
+  "period_basis": "2026-08-24 J2(a)：見 ai_note（原作「據 authors[0].dynasty「魏」」）"
 }
