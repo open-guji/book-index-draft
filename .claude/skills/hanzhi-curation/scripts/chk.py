@@ -485,6 +485,21 @@ for _i in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json')
             _SRCDIRS.add(os.path.dirname(_i))
     except Exception:
         pass
+# ── 暫排除之整理本（2026-08-24，使用者裁定）──────────────────────────
+# 《千頃堂書目》整理本 1ev3bb42sieww 由他會話生成，其生成之法尚未改：
+# 寫檔不帶檔尾換行（已補二次而二次俱被重新生成所覆），又有撰人書名切分之誤
+# （卷30「趙汝範奏疏一卷」切為 _author「趙汝」＋_title_only「範奏疏」）。
+# 逐次補檔無用，須改其生成之法。在其主收束以前，暫排除於格式與簡轉繁二驗之外
+# ——**排除之數必印出，不得默然掩之**。待辦見
+# known-issues/千頃堂書目整理本-待其主收束.json。
+_SKIPDIR = 'Work/1/e/v/1ev3bb42sieww/collated_edition'
+_skipped = {'簡轉繁': 0, '格式': 0}
+
+
+def _isskip(_p):
+    return _p.replace('\\', '/').startswith(_SKIPDIR)
+
+
 _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
           + glob.glob('Entity/*/*/*/*.json') + glob.glob('Collection/*/*/*/*.json')
           + glob.glob('Work/*/*/*/*/fragments/*.json')
@@ -492,6 +507,9 @@ _FILES = (glob.glob('Work/*/*/*/*.json') + glob.glob('Book/*/*/*/*.json')
              if os.path.dirname(_f) not in _SRCDIRS]
           + glob.glob('index/*.json') + glob.glob('index/*/*.json'))
 for _f in _FILES:
+    if _isskip(_f):
+        _skipped['簡轉繁'] += 1
+        continue
     try:
         _raw = open(_f).read()
     except Exception:
@@ -575,6 +593,9 @@ for _p in glob.glob('**/*.json', recursive=True):
             if len(_m.group(1)) != 2:
                 _JIND.append((_p, len(_m.group(1))))
             break
+    if _isskip(_p):
+        _skipped['格式'] += 1
+        continue
     if not _raw.endswith('\n'):
         _JNL.append(_p)
     if _p.startswith('index/'):
@@ -589,6 +610,10 @@ print('JSON 縮排非 2', len(_JIND), '　基線 0（2026-08-21 全庫歸一化�
 for _x in _JIND[:5]:
     print('  ', _x)
 print('JSON 缺檔尾換行', len(_JNL), '　基線 0（同上）')
+if any(_skipped.values()):
+    print(f"  ※ 《千頃堂書目》整理本暫排除：簡轉繁 {_skipped['簡轉繁']} 檔、"
+          f"格式 {_skipped['格式']} 檔（使用者 2026-08-24 裁定；"
+          f"待辦見 known-issues/千頃堂書目整理本-待其主收束.json）")
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
