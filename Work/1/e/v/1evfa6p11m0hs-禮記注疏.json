@@ -9,6 +9,12 @@
       "role": "注",
       "dynasty": "東漢",
       "entity_id": "1j9678njjg2rr"
+    },
+    {
+      "name": "孔穎達",
+      "role": "疏",
+      "dynasty": "唐",
+      "entity_id": "1j98owze20tts"
     }
   ],
   "indexed_by": [
@@ -50,7 +56,7 @@
       ]
     }
   ],
-  "ai_note": "從 1evinccuqasjk 合併。原註：作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaohw1ds74 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evinccuqasjk()（不同作者，故新建獨立 Work）。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20：刪 loss_status，並改 description。原 description 作「已亡佚」、loss_status 作 lost，均與本條實況相違——今轄 5 Book，含清乾隆四年武英殿刊《欽定禮記注疏》、日本享保刊七經孟子考文補遺本、四庫薈要本。鄭注孔疏《禮記注疏》為《十三經注疏》之一，傳世不絕。原「已亡佚」語疑自同題異書之記錄合併時帶入。\n\n2026-08-21 補 original_title「禮記」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
+  "ai_note": "從 1evinccuqasjk 合併。原註：作者「漢鄭玄注」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaohw1ds74 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evinccuqasjk()（不同作者，故新建獨立 Work）。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-20：刪 loss_status，並改 description。原 description 作「已亡佚」、loss_status 作 lost，均與本條實況相違——今轄 5 Book，含清乾隆四年武英殿刊《欽定禮記注疏》、日本享保刊七經孟子考文補遺本、四庫薈要本。鄭注孔疏《禮記注疏》為《十三經注疏》之一，傳世不絕。原「已亡佚」語疑自同題異書之記錄合併時帶入。\n\n2026-08-21 補 original_title「禮記」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 升格前斷代訂正（注疏本繫年之據，從成編之世）：本條 period 原按最早之注者（漢人）定為 qin-han，誤。依 SCHEMA〈坊刻編本是獨立 Work〉之判準——成書之結構與內容與原書不一致者即新 Work，而其連帶三則明定「period 從成編之世」——注疏本非漢人之書，乃後世疏家取經、注而別為一書者，斷代當從疏成之世。今改繫 sui-tang，補孔穎達「疏」。\n\n2026-08-24 B4 附：撤誤標之 period_upper。本條是注疏合刻／彙編之本，period 乃**成編之世**之判；而所撤之上限出於所收之成分（早志所錄之原注，或撰人欄之注疏者朝代）——成分之年不限合刻之年。mark_period_upper 已加護欄，此後不再標。",
   "books": [
     "11qkhyl381qm8",
     "11qkhy9o473eo",
@@ -58,9 +64,9 @@
     "11qki2oz39ekg",
     "11qki0gyd8hs0"
   ],
-  "updated_at": "2026-08-20T00:00:00+00:00",
+  "updated_at": "2026-08-24T11:31:55.652898+00:00",
   "_has_image": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」",
+  "period": "sui-tang",
+  "period_basis": "成編之世：唐孔穎達《禮記正義》之異題，鄭注、孔疏合刻。本條 description 自明「鄭玄注、孔穎達疏」。",
   "original_title": "禮記"
 }

@@ -49,6 +49,15 @@ def main():
                 continue
             if ONLY_MISSING and d.get('period_upper') is not None:
                 continue
+            # 注疏合刻／彙編之本不標上限。其 period 已是**成編之世**之判，
+            # 而諸源所給之上限出於所收之成分：catalog_bound 之志著錄的是其中
+            # 原注（《後漢藝文志》錄鄭玄《禮記注》，而本條是鄭注孔疏合刻），
+            # ambiguous_dynasty_bound 取的是注疏者之代（《欽定公羊注疏》乃清
+            # 武英殿刻本，而撰人欄是何休、徐彥）。成分之年不限合刻之年，
+            # 一如今人影印之叢編不限原書（SCHEMA〈period_upper〉）。
+            # 實測庫中「成編之世」者 13 條，內 3 條因此誤標而逾限。
+            if (d.get('period_basis') or '').startswith('成編之世'):
+                continue
             nodes = d.get('indexed_by') or []
             cb = tightest(nodes)
             eb_pairs = [(edition_bound((BK.get(b) or {}).get('edition')),
@@ -68,7 +77,8 @@ def main():
             # 出土批次
             xb, xname = excavation_bound(
                 dtext + ' ' + ' '.join(x if isinstance(x, str) else (x.get('title') or '')
-                                       for x in dsrcs))
+                                       for x in dsrcs),
+                d.get('title'))
             # 志書子目之斷代
             sb, sname = catalog_section_bound(dsrcs)
             # 叢編之收書範圍（描述或案語所記）

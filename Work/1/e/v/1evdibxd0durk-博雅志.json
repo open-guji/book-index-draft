@@ -47,7 +47,7 @@
     }
   ],
   "measure_info": "十三卷",
-  "updated_at": "2026-08-23T05:22:40.066063+00:00",
+  "updated_at": "2026-08-24T11:30:38.264262+00:00",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
   "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0pukrlds（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人李文成原標「明」，period ming，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
@@ -55,5 +55,7 @@
   "books": [],
   "related_works": [],
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "sui-tang",
+  "period_basis": "三志所著錄皆作「李文成《博雅志》十三卷」，題名、撰人、卷數全同，當是一書，源出新唐志之唐人李文成撰，明志與焦竑《國史經籍志》係承錄前代舊目；相斥之因在 description 誤標為明代著作。（2026-08-24 B4 同題異書逐條裁）"
 }
