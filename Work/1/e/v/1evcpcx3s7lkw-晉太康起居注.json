@@ -14,6 +14,13 @@
       "source_bid": "1evcs059gkvls",
       "title_info": "晉太康起居注",
       "summary": "晉太康起居注二十二卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《𣈆太康起居注》二十二卷",
+      "summary": "《𣈆太康起居注》二十二卷（李軌）",
+      "author_info": "李軌"
     }
   ],
   "id": "1evcpcx3s7lkw",
@@ -28,7 +35,7 @@
     }
   ],
   "measure_info": "二十二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十二卷），今據以補。",
+  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十二卷），今據以補。\n\n2026-08-24 J3(2) 異體歸一後現形之重出，併入本條：二條同題（歸一前一作「𣈆太康起居注」）、同二十二卷、同撰人李軌（同一 entity）。併入之條唯《國史經籍志》一源，主條有兩《唐志》。（併入者 id 1evgphfnol1xc）",
   "authors": [
     {
       "name": "李軌",
@@ -41,5 +48,8 @@
   "dynasty": "西晉",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。"
+  "period_basis": "據 authors[0].dynasty「西晉」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。",
+  "additional_titles": [
+    "𣈆太康起居注"
+  ]
 }

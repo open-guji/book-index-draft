@@ -5,11 +5,12 @@
   "title": "晉七廟議",
   "authors": [
     {
-      "name": "蔡護",
+      "name": "蔡謨",
       "role": "撰",
       "dynasty": "東晉",
       "entity_id": "1j96ha8qygt1c",
-      "dynasty_basis": "entity_propagation_r2:1j96ha8qygt1c"
+      "dynasty_basis": "entity_propagation_r2:1j96ha8qygt1c",
+      "name_basis": "2026-08-24 J3(2) 正名：見 ai_note"
     }
   ],
   "indexed_by": [
@@ -25,6 +26,13 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《晉七廟議》三卷",
       "summary": "《晉七廟議》三卷蔡謨撰"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《𣈆七廟議》三卷",
+      "summary": "《𣈆七廟議》三卷（蔡謨）",
+      "author_info": "蔡謨"
     }
   ],
   "description": {
@@ -44,10 +52,11 @@
   ],
   "measure_info": "三卷",
   "additional_titles": [
-    "晋七廟議"
+    "晋七廟議",
+    "𣈆七廟議"
   ],
   "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcz49ga9s 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evcpcz49ga9s 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。\n\n2026-08-24 J3(2) 異體歸一後現形之重出，併入本條：二條同題、同三卷。撰人焦竑作蔡謨而《補晉志》作蔡護——**主條自身所繫之《舊唐志》即作「蔡謨撰」**，可為斷：蔡護是蔡謨之訛。（併入者 id 1evgpih5hu9kw）\n\n2026-08-24 J3(2) 正撰人名「蔡護」→「蔡謨」：本條所繫之《舊唐志》即作「蔡謨撰」，《補晉志》之「蔡護」是訛。蔡謨（281–356），東晉司徒。　舊形存於本欄以備覆核；所繫 entity 未動，同名分裂之併池留待 J3(5)。",
   "updated_at": "2026-08-23T05:58:32.742793+00:00",
   "period": "jin",
   "period_basis": "據 authors[0].dynasty「晉」",
