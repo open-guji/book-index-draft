@@ -13,6 +13,21 @@
       "source": "直齋書錄解題",
       "source_bid": "1ev3bb403quio",
       "summary": "陳思王集"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "《魏陳思王集》二十卷",
+      "summary": "《魏陳思王集》二十卷"
+    },
+    {
+      "source": "舊唐書經籍志",
+      "source_bid": "1evcpbhmiqdj4",
+      "title_info": "又三十卷",
+      "summary": "又三十卷",
+      "merged_from": "1evcpd4izntog",
+      "note": "《魏陳思王集》（曹植）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。　舊唐志別集類「《魏陳思王集》二十卷。又三十卷」，「又」謂別是一書（SCHEMA〈同題二條〉三），卷數復異。同志同卷之例（《宋書》徐爰四十二卷、又孫嚴四十六卷、又沈約一百卷；《文選》李善六十卷、又公孫羅六十卷）皆各為一書。",
+      "section": "別集類"
     }
   ],
   "id": "1evcs0ybg6p6o",
@@ -35,7 +50,7 @@
       "dynasty_basis": "manual:historical_figure(曹植(192-232)，字子建，三國魏詩人)"
     }
   ],
-  "ai_note": "作者「魏曹植撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkao43ag7pc 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0ybg6p6o()（不同作者，故新建獨立 Work）。",
+  "ai_note": "作者「魏曹植撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkao43ag7pc 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0ybg6p6o()（不同作者，故新建獨立 Work）。\n\n2026-08-24 J3(7) Entity 併池後現形之重出（形：朝代冠首）：併入之條題首冠朝代，非別書。　二條同繫一人（曹植）而題有長短，取著錄源多者為主條。（併入者 id 1evcpd4it3u9s，題「魏陳思王集」）",
   "description": {
     "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀011100-011101）。明嘉靖間刊六朝詩集本。",
     "sources": [
@@ -48,5 +63,8 @@
   "updated_at": "2026-08-08T13:35:31+00:00",
   "_has_text": true,
   "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "additional_titles": [
+    "魏陳思王集"
+  ]
 }

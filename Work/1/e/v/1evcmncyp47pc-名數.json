@@ -14,6 +14,25 @@
       "source_bid": "1evcpbhmiqdj4",
       "title_info": "《名數》十卷",
       "summary": "《名數》十卷徐陵撰。"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《名數》十卷",
+      "summary": "《名數》十卷（徐陵）",
+      "author_info": "徐陵"
+    },
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "徐陵名數",
+      "summary": "徐陵名數十卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《徐陵名數》十卷",
+      "summary": "《徐陵名數》十卷"
     }
   ],
   "juan_count": {
@@ -48,5 +67,9 @@
   "dynasty": "南朝陳",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝陳」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 nanbeichao。"
+  "period_basis": "據 authors[0].dynasty「南朝陳」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 nanbeichao。",
+  "ai_note": "N2 併條（2026-08-24，異題同書專項）：src「名數」（國史經籍志十卷、新唐書藝文志「徐陵名數」）與本條（隋書經籍志八卷、舊唐書經籍志十卷）同為徐陵《名數》。卷數八／十之異係諸志所記不一，依 SCHEMA〈同題二條〉之判——異志卷異不足以斷二書，且撰人同、書名同，今併。本條以隋志之八卷為正（最早之著錄），十卷之說由所併之著錄承載。",
+  "merged_from": [
+    "1evgq0eqr3i0w"
+  ]
 }
