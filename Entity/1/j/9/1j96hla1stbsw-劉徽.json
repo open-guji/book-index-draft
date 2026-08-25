@@ -23,10 +23,6 @@
       "role": ""
     },
     {
-      "work_id": "1ev3bbkh3tt6o",
-      "role": "撰"
-    },
-    {
       "work_id": "1evgorp9xo4cg",
       "role": "撰"
     },
@@ -37,9 +33,9 @@
     }
   ],
   "external_ids": {},
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 dynasty「晉」自動歸併",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "three-kingdoms",
+  "period_basis": "據 dynasty「三國魏」自動歸併（2026-08-24 訂正：舊作「jin」，與其 dynasty 不自洽——朝代之名較期為細，故從朝代）。",
   "dynasty_basis": "historical_dict:round2(劉徽(約225-295)，三國魏數學家，注九章算術)",
   "alt_names": [
     {
@@ -47,5 +43,5 @@
       "type": "訛名"
     }
   ],
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「劉微」（`1j96hjwlyaf50`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
+  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「劉微」（`1j96hjwlyaf50`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n\n2026-08-24 清 works：去懸空者 0（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。"
 }

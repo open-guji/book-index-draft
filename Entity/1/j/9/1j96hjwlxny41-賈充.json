@@ -8,6 +8,10 @@
     {
       "name": "公閭",
       "type": "字"
+    },
+    {
+      "name": "賈充等",
+      "type": "廟號"
     }
   ],
   "dynasty": "三國魏",
@@ -21,6 +25,18 @@
     {
       "work_id": "1evcpd5e3yj9c",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcml12lxzwg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evfuumm9vfgg",
+      "role": "撰"
+    },
+    {
+      "work_id": "1evcpczabbxfk",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -28,7 +44,8 @@
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=26"
   },
-  "updated_at": "2026-08-19T00:00:00-07:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
-  "period_basis": "據 dynasty「三國魏」自動歸併"
+  "period_basis": "據 dynasty「三國魏」自動歸併",
+  "ai_note": "2026-08-24 「某某等」歸其人：併入「賈充等」（`1j96hfcpjg7i8`）。「等」乃著錄語「某某等撰」之省，非名之一部，而匯入時併為一名，遂與本條兩出。所繫之 work 悉歸本條；其「等」之義在 role（等奉敕撰、等纂修之屬）已見，不必在名。"
 }

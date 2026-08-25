@@ -40,6 +40,10 @@
     {
       "name": "閱微草堂",
       "type": "號"
+    },
+    {
+      "name": "紀昀等",
+      "type": "廟號"
     }
   ],
   "dynasty": "清",
@@ -93,6 +97,33 @@
     {
       "work_id": "1evjr8kn3xwcg",
       "role": "撰"
+    },
+    {
+      "work_id": "1evshbd9v5vcw",
+      "role": "編"
+    },
+    {
+      "work_id": "d59dh3yv4mbk",
+      "role": "編"
+    },
+    {
+      "work_id": "d59dh3ziunls",
+      "role": "奉敕編"
+    },
+    {
+      "work_id": "d59dh3z6zmyo",
+      "role": "編"
+    },
+    {
+      "work_id": "d59dgruyj9j4"
+    },
+    {
+      "work_id": "d59dh3vo9af4",
+      "role": "編"
+    },
+    {
+      "work_id": "d59dgrrusb28",
+      "role": "編"
     }
   ],
   "external_ids": {
@@ -103,5 +134,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 dynasty「清」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：指向已併去之 work 而回溯不得（或新目標不反指本條）者 3 條，今去之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-19 同題異撰人專項（附）：指向已併去之 work 而回溯不得（或新目標不反指本條）者 3 條，今去之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 「某某等」歸其人：併入「紀昀等」（`1j96kfl2o7thc`）。「等」乃著錄語「某某等撰」之省，非名之一部，而匯入時併為一名，遂與本條兩出。所繫之 work 悉歸本條；其「等」之義在 role（等奉敕撰、等纂修之屬）已見，不必在名。"
 }

@@ -15,14 +15,10 @@
     {
       "work_id": "1evfteli62neo",
       "role": "注"
-    },
-    {
-      "work_id": "1ewsa4b3rg1ci",
-      "role": "撰"
     }
   ],
   "dynasty": "三國魏",
-  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=19179（minimal_entity_backfill），據以填入朝代「宋」、生卒 None~None。所繫作品著錄作魏，蘇林魏人，《漢書》注家。今卸除 CBDB 全部斷言，朝代改作「三國魏」。原值悉錄於此，可逆。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
+  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=19179（minimal_entity_backfill），據以填入朝代「宋」、生卒 None~None。所繫作品著錄作魏，蘇林魏人，《漢書》注家。今卸除 CBDB 全部斷言，朝代改作「三國魏」。原值悉錄於此，可逆。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 清 works：去懸空者 1（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "three-kingdoms",
   "period_basis": "據 dynasty「三國魏」自動歸併"

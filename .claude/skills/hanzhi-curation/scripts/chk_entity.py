@@ -35,7 +35,10 @@ except Exception:
 
 ANON = ('不著','不詳','未詳','無名','闕名','佚名','不知','無考','缺名','失名','名未詳')
 SHI  = re.compile(r'^.{1,2}氏$')
-BADCH = re.compile(r'[A-Za-z0-9]|[、，,；;（）()\[\]【】？?！!。．]|&amp;|&#|[□囗�?？]')
+# 名之三判：殘語（甲）、合例之消歧（丙）、外域之名（丙）
+FRAG  = re.compile(r'[。．”“」』、；;，,！!？?]|&amp;|&#|[□■囗�]|等$|集解$|本書有傳')
+PAREN = re.compile(r'^([^（）()]{2,8})[（(]([^（）()]{1,12})[）)]$')   # 名（別名／關係）
+LATIN = re.compile(r'^[A-Za-zĀāĪīŪūṀṁṂṃŅņṆṇŚśṢṣṬṭḌḍḤḥÑñĖėŌō\s.\-]+$')
 TEMPLE = re.compile(r'^(太祖|高祖|世祖|太宗|高宗|中宗|睿宗|玄宗|肅宗|代宗|德宗|憲宗|穆宗|'
                     r'敬宗|文宗|武宗|宣宗|懿宗|僖宗|昭宗|真宗|仁宗|英宗|神宗|哲宗|徽宗|'
                     r'欽宗|光宗|寧宗|理宗|度宗|世宗|孝宗|成祖|聖祖|景帝|煬帝|後主)$')
@@ -124,7 +127,13 @@ def main():
         # 五、名之品質
         if nm:
             byname[nm].append(i)
-            if BADCH.search(nm): A['primary_name 含標點、拉丁、數字或缺字'].append((i, nm))
+            m = PAREN.match(nm)
+            if LATIN.match(nm):
+                C['primary_name 是外域之名（拉丁字母）'].append((i, nm))
+            elif m and not FRAG.search(m.group(1)):
+                C['primary_name 帶括注以消歧（合例）'].append((i, nm))
+            elif FRAG.search(nm): A['primary_name 是殘語（含句讀、缺字或「等」「集解」之屬）'].append((i, nm))
+            elif re.search(r'[A-Za-z0-9]', nm): A['primary_name 雜拉丁或數字'].append((i, nm))
             elif any(x in nm for x in ANON): A['primary_name 是匿名之語'].append((i, nm))
             elif SHI.match(nm) and len(nm) <= 3 and st == 'people':
                 B['primary_name 是某氏泛稱（非specific之人）'].append((i, nm))
