@@ -229,10 +229,6 @@
     {
       "work_id": "1evcsxchiw0lc",
       "role": "撰"
-    },
-    {
-      "work_id": "1ex70soljdjmg",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -244,5 +240,5 @@
   "dynasty_basis": "cbdb:birth/death_name=北宋",
   "period": "song",
   "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《老子道德經注》），是單向之繫，今補其反向。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 5 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 直齋解題抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 9 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條，而本條 works 未回指（chk〈作品→人物 單向〉），今補——`1ex70soljdjmg`《太𤣥經集注》。"
+  "ai_note": "2026-08-19 同題異撰人專項（附）：。\n\n2026-08-19 人物繫連補記：庫中有 1 書之 authors[].entity_id 指向本條而本條之 works 未載（《老子道德經注》），是單向之繫，今補其反向。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 5 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 直齋解題抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 9 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條，而本條 works 未回指（chk〈作品→人物 單向〉），今補——`1ex70soljdjmg`《太𤣥經集注》。\n2026-08-25 works 死鏈清理：所指 work 檔兩倉皆無（歷次併條/刪條之積欠），去之：1ex70soljdjmg。"
 }
