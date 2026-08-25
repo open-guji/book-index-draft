@@ -36,7 +36,13 @@
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing",
   "dynasty": "明",
   "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
-  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
+  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J33：據 indexed_by《四庫全書總目》原文撮述 description（此類明代提要按語詳贍，build_desc() 之三國兩晉輯佚體例未能盡用，故逕據原文手撰）。",
   "_promoted_to": "d59f2nf2fu9t",
-  "_promoted_at": "2026-08-25T12:29:47Z"
+  "_promoted_at": "2026-08-25T12:29:47Z",
+  "description": {
+    "text": "劉師朱（明）撰。劉師朱字仲文，號嵩潭，大名人，萬曆中由貢生官至廬州府同知。一卷。見著錄於《四庫全書總目》，本書惟此一志著錄，別無他證。是集因作於廬州任上而題曰《江皋吟》，然集中兼有都門、出塞、超然台諸作，非盡廬州所詠，特刻於廬州耳；四庫館臣評其詩多淺語，原序亦自稱由兗州閑曹改任廬江劇任，頗有顧盼自喜之意。",
+    "sources": [
+      "四庫全書總目"
+    ]
+  }
 }

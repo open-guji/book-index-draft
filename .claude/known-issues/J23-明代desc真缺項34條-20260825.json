@@ -3,176 +3,64 @@
   "issue": "明代桶 desc<50 之殘餘 34 條——無 Book、無 indexed_by 著錄，desc 真缺項",
   "detail": "period=ming 之 desc<50 者原 467 條，其中 384 條有 Book（實物之書，desc 門檻依「按條之類分判」政策本可不責）、49 條 subtype=article 已於 J23 借《古文觀止》《正續古文辭類纂》之題面與通行文史常識補全，餘下此 34 條既無 Book 亦無 indexed_by 著錄，desc 無可據之源，若勉力撰之即涉臆造，故仍留白。",
   "todo": "逐條需個別考證（查書目、CBDB、地方志等）方可補其著錄或 desc，非可批量機械處理，留交後續專項。",
-  "records": [
-    {
-      "id": "1evkagkmlbvgg",
-      "title": "南歸目錄",
-      "author": "蕭士瑋"
-    },
-    {
-      "id": "1evcmttzvcoao",
-      "title": "火器圖",
-      "author": "顧斌"
-    },
-    {
-      "id": "1evcmttz96tq8",
-      "title": "劍草",
-      "author": "熊明遇"
-    },
+  "update_20260825_J33": "34 條先於 J32 以 WebSearch 考訂補全 13 條（見 J32 批次），2 條發現實非明代（圭塘欸乃集為元代、漢書藝文志方技補注為民國，已移出明代桶），餘 19 條中，本輪（J33）逐一 WebSearch 覆核：3 條（火器圖、江皋吟、嶺西水陸兵紀）本有《四庫全書總目》長按語之 indexed_by 而 build_desc() 未能盡用其三國兩晉輯佚體例之故，逕據原文手撰 desc；1 條（兩浙兵制）WebSearch 考出撰人「侯繼國」即侯繼高（號龍泉，與著錄合）之《四庫全書總目》原文訛誤；1 條（殘本金湯十二籌）同上手撰 desc；6 條（雲志略、（左山右其）山集、新鐫玉茗堂批評按鑑參補南宋志傳、遼史文鈔、古逸詩載六卷古詩別選）以 WebSearch 覆核撰人生平（何三畏、趙秉忠、織里畸人、戴羲、麻三衡）補撰內容提要。正統傳一條本有 indexed_by（《中國通俗小說書目》，孫楷第）且已明書「未見」，雖 45 字未足 50 之檻，然志書原文所可言者已盡於此，不可勉強增字，逕移出本清單（非真缺項，乃著錄止此）。共移出 12 條，餘 7 條（見 remaining_unresolved）逐一 WebSearch 未得可靠、可與著錄相印證之獨立資料，姑仍留白，不臆造。"
+  ,
+  "resolved_20260825_J33": [
+    {"id": "1evcmttzvcoao", "title": "火器圖", "author": "顧斌", "method": "四庫全書總目原文手撰"},
+    {"id": "1evkanpc4aio0", "title": "古逸詩載六卷古詩別選", "author": "麻三衡", "method": "WebSearch：麻三衡另著《墨志》，明末徽墨史料"},
+    {"id": "1evcmttxub56o", "title": "兩浙兵制", "author": "侯繼國", "method": "WebSearch：侯繼國即侯繼高，《四庫全書總目》原文訛誤"},
+    {"id": "1evcmtu2x87i8", "title": "江皋吟", "author": "劉師朱", "method": "四庫全書總目原文手撰"},
+    {"id": "1evka86386kg0", "title": "新鐫玉茗堂批評按鑑參補南宋志傳", "author": "織里畸人", "method": "WebSearch：與熊大木按鑑演義系列北宋志傳同一校閱者"},
+    {"id": "1evgm43j8hpts", "title": "正統傳", "author": null, "method": "移出——已有中國通俗小說書目著錄且明書未見，非真缺項"},
+    {"id": "1evcmttz3kjy8", "title": "嶺西水陸兵紀", "author": "盛萬年", "method": "四庫全書總目原文手撰"},
+    {"id": "1evcmtu0ng16o", "title": "殘本金湯十二籌", "author": "李盤", "method": "四庫全書總目原文手撰，WebSearch旁證或與金湯借箸十二籌相關"},
+    {"id": "1evkpifmgbta8", "title": "遼史文鈔", "author": "戴羲", "method": "WebSearch：戴羲字馭長，明末湖北遺民，另著養餘月令、二十一史文鈔"},
+    {"id": "1evkagr2mebr4", "title": "大明萬曆十九年歲次辛@大統曆", "author": "欽天監", "method": "WebSearch：大統曆為明代欽天監官頒曆法通行常識補述"},
+    {"id": "1evkaggnrbn5s", "title": "雲志略", "author": "何三畏", "method": "WebSearch：何三畏生平、雲間志略成書年代體例"},
+    {"id": "1evkaktbwfh8g", "title": "（左山右其）山集", "author": "趙秉忠", "method": "WebSearch：趙秉忠狀元生平，號崎陽與書名相合"}
+  ],
+  "remaining_unresolved": [
     {
       "id": "1evkahcvcopvk",
       "title": "瑞州府志志",
-      "author": "陶履中"
-    },
-    {
-      "id": "1evka8c5sspog",
-      "title": "祁承火钫業致祁鳳佳祁彪佳書札",
-      "author": "祁承㸁"
-    },
-    {
-      "id": "1evkanpc4aio0",
-      "title": "古逸詩載六卷古詩別選",
-      "author": "麻三衡"
-    },
-    {
-      "id": "1evkafdyzosg0",
-      "title": "大學述",
-      "author": "許孚遠"
-    },
-    {
-      "id": "1evka8bue0etc",
-      "title": "祁承火钫業致兒輩書札",
-      "author": "祁承火钫業"
-    },
-    {
-      "id": "1evcmttxub56o",
-      "title": "兩浙兵制",
-      "author": "侯繼國"
+      "author": "陶履中",
+      "note": "WebSearch 僅得 CBDB 一條社會關係紀錄（鄒維璉為其「重修瑞州府志」作序，載《達觀樓集》），CBDB 詳頁需動態查詢，WebFetch 未能取得籍貫、科第、生卒；證據過薄，未寫入 desc。"
     },
     {
       "id": "1evrbhp6a8ifa",
       "title": "韻譜",
-      "author": "楊俊"
+      "author": "楊俊",
+      "note": "本條唯一 indexed_by 節已標 misattached（宋史藝文志補，上限與本條 period=ming 相斥），WebSearch 未得明代楊俊音韻著作之獨立資料。"
     },
     {
       "id": "1evetxczt63nk",
       "title": "古今文字序",
-      "author": "劉氏"
-    },
-    {
-      "id": "1evcmtu2x87i8",
-      "title": "江皋吟",
-      "author": "劉師朱"
-    },
-    {
-      "id": "1evcmttybh728",
-      "title": "軍權",
-      "author": "何良臣"
-    },
-    {
-      "id": "1evka86386kg0",
-      "title": "新鐫玉茗堂批評按鑑參補南宋志傳",
-      "author": "織里畸人"
-    },
-    {
-      "id": "1evkanf3mc0sg",
-      "title": "唐詩品彙九十卷拾遺",
-      "author": "高棅"
-    },
-    {
-      "id": "1evkpi3rvlszk",
-      "title": "夢憶",
-      "author": "黃景昉"
-    },
-    {
-      "id": "1evkaik57x7uo",
-      "title": "田辭",
-      "author": "張肯堂"
-    },
-    {
-      "id": "1evgm43j8hpts",
-      "title": "正統傳",
-      "author": null
-    },
-    {
-      "id": "1evcmttwzeneo",
-      "title": "北邊事跡",
-      "author": "王瓊"
-    },
-    {
-      "id": "1evkak02uqhhc",
-      "title": "徒倚軒詩集",
-      "author": "金鑾"
-    },
-    {
-      "id": "1evcmttz3kjy8",
-      "title": "嶺西水陸兵紀",
-      "author": "盛萬年"
-    },
-    {
-      "id": "1evkajsatm9z4",
-      "title": "桂州奏議",
-      "author": "夏言"
+      "author": "劉氏",
+      "note": "撰人僅稱「劉氏」（泛稱），無 indexed_by，WebSearch 無從查考具體人物，姑留白。"
     },
     {
       "id": "1evka8rk3rk00",
       "title": "逸史搜集",
-      "author": "汪雲程"
+      "author": "汪雲程",
+      "note": "WebSearch 未得汪雲程或本書之獨立資料（僅查得同期《古今逸史》叢書，非同書）。"
     },
     {
       "id": "1evkaiq18jyf4",
       "title": "醫家二要脈寶決疑",
-      "author": "嚴治"
-    },
-    {
-      "id": "1evkaf4tuvoqo",
-      "title": "尚書旁訓",
-      "author": "朱升"
+      "author": "嚴治",
+      "note": "WebSearch 未得撰人嚴治或本書之獨立資料。"
     },
     {
       "id": "1evkajd99tips",
       "title": "西端郊笑集",
-      "author": "董良史"
-    },
-    {
-      "id": "1evcmtu0ng16o",
-      "title": "殘本金湯十二籌",
-      "author": "李盤"
-    },
-    {
-      "id": "1evkpifmgbta8",
-      "title": "遼史文鈔",
-      "author": "戴羲"
-    },
-    {
-      "id": "1eve1ei0ljwn4",
-      "title": "漢書藝文志方技補注",
-      "author": "張驥"
+      "author": "董良史",
+      "note": "J32 輪已搜過一次，本輪（J33）再搜仍無可用資料，撰人與書名過於冷僻，兩輪皆無所獲。"
     },
     {
       "id": "1evkai78fkdmo",
       "title": "寇詳文",
-      "author": "王瑋"
-    },
-    {
-      "id": "1evkalcos1fk0",
-      "title": "圭塘疑乃",
-      "author": "許有孚"
-    },
-    {
-      "id": "1evkagr2mebr4",
-      "title": "大明萬曆十九年歲次辛@大統曆",
-      "author": "欽天監"
-    },
-    {
-      "id": "1evkaggnrbn5s",
-      "title": "雲志略",
-      "author": "何三畏"
-    },
-    {
-      "id": "1evkaktbwfh8g",
-      "title": "（左山右其）山集",
-      "author": "趙秉忠"
+      "author": "王瑋",
+      "note": "WebSearch 所得「王瑋」皆與本條時代（明末崇禎刊本）不合之異代同名者（如正德進士王瑋），未敢妄繫，姑留白。"
     }
   ]
 }
