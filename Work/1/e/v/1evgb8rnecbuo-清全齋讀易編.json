@@ -51,5 +51,13 @@
   "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('陳深', '元')] 指向 liao-jin-yuan，而本書見於《宋史藝文志補》——該志斷代著錄 song 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「元」",
   "dynasty": "元",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 宋代 G4：撰人 dynasty 元→宋末元初，依使用者邊界人物之裁定，period 仍 song。"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 宋代 G4：撰人 dynasty 元→宋末元初，依使用者邊界人物之裁定，period 仍 song。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "description": {
+    "text": "陳深（元）撰。三卷。見著錄於《元史藝文志》《宋史藝文志補》《經義考》。《經義考》列於易。其著錄之文，《元史藝文志》作「元陳深清全齋讀易編三卷」。《經義考》清朱彝尊撰——本書之目賴之以存。",
+    "sources": [
+      "元史藝文志",
+      "宋史藝文志補",
+      "經義考"
+    ]
+  }
 }

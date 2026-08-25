@@ -41,7 +41,7 @@
   "juan_count": {
     "number": 30
   },
-  "ai_note": "同名異書：已有 Work 作者為 [('1evct455k1a0w', '', ''), ('1ev0r910xmdq8', '伊川程子', '宋'), ('1evct44z01vcw', '', ''), ('1evct45017400', '', ''), ('1evct45a1q7eo', '', ''), ('1evct46itcg00', '', ''), ('1evfteffz6y2o', '管格', '三國魏'), ('1evct459mqtc0', '', ''), ('1evct452u0rgg', '', ''), ('1evct453akc8w', '', ''), ('1evct45i17rpc', '', ''), ('1evct44yivthc', '', ''), ('1evct458r7ugw', '', ''), ('1evct46idqku8', '', ''), ('1evct4555d4hs', '', ''), ('1evftef7hwutc', '王朗', '三國魏')]，本條作者 張志道（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "同名異書：已有 Work 作者為 [('1evct455k1a0w', '', ''), ('1ev0r910xmdq8', '伊川程子', '宋'), ('1evct44z01vcw', '', ''), ('1evct45017400', '', ''), ('1evct45a1q7eo', '', ''), ('1evct46itcg00', '', ''), ('1evfteffz6y2o', '管格', '三國魏'), ('1evct459mqtc0', '', ''), ('1evct452u0rgg', '', ''), ('1evct453akc8w', '', ''), ('1evct45i17rpc', '', ''), ('1evct44yivthc', '', ''), ('1evct458r7ugw', '', ''), ('1evct46idqku8', '', ''), ('1evct4555d4hs', '', ''), ('1evftef7hwutc', '王朗', '三國魏')]，本條作者 張志道（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "id": "1evg8rqra0268",
   "measures": [
     {
@@ -54,5 +54,13 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "張志道（元）撰。三十卷。見著錄於《補遼金元藝文志》《元史藝文志》《經義考》。《經義考》列於易。其著錄之文，《補遼金元藝文志》作「元張志道（字潛夫，金壇人）易傳三十卷」。《經義考》清朱彝尊撰——本書之目賴之以存。",
+    "sources": [
+      "補遼金元藝文志",
+      "元史藝文志",
+      "經義考"
+    ]
+  }
 }
