@@ -30,5 +30,17 @@
   "measure_info": "三卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "應詹",
+      "role": "撰",
+      "entity_id": "1j96h8rw86q22",
+      "dynasty": "東晉",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"應詹集\"）——前缀「應詹」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
+  "dynasty": "東晉",
+  "period": "jin",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「應詹」（entity 1j96h8rw86q22）已定代「東晉」，且與本條 period_upper（sui-tang）相容，據以定代。"
 }
