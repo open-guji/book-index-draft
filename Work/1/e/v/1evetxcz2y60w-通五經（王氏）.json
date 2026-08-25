@@ -7,7 +7,9 @@
     {
       "name": "王氏",
       "role": "撰",
-      "entity_id": "1j96h8rw7vhhi"
+      "entity_id": "1j96h8rw7vhhi",
+      "dynasty": "元",
+      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw7vhhi`（王氏）之 dynasty「元」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "juan_count": {
@@ -21,7 +23,7 @@
       "title_info": "梁有《通五經》五卷，王氏撰，亡。"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有《通五經》五卷，王氏撰，亡。，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有《通五經》五卷，王氏撰，亡。，亡」。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "measures": [
     {
       "unit": "卷",

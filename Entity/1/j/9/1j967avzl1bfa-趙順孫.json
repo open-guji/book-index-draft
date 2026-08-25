@@ -18,7 +18,7 @@
       "type": "號"
     }
   ],
-  "dynasty": "元",
+  "dynasty": "宋末元初",
   "works": [
     {
       "work_id": "1ev3ba5fl7jls",
@@ -47,8 +47,8 @@
     "cbdb_source": "manual+pid_50974_趙順孫_dy15"
   },
   "updated_at": "2026-08-09T09:33:12+00:00",
-  "dynasty_basis": "author_propagation:round1",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×5 諸桶。",
   "period": "liao-jin-yuan",
   "period_basis": "synonym",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]"
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]\n\n2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
 }

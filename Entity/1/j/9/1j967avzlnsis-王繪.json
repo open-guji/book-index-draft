@@ -10,14 +10,10 @@
       "type": "字"
     }
   ],
-  "dynasty": "金",
+  "dynasty": "宋",
   "works": [
     {
       "work_id": "1ev3badlmg0e8",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evga8te0plhc",
       "role": "撰"
     }
   ],
@@ -27,8 +23,8 @@
     "cbdb_source": "name_exact+dy_match+work_recall_1.00+ambiguous_2"
   },
   "updated_at": "2026-08-19T00:00:00-07:00",
-  "dynasty_basis": "author_propagation:round1",
+  "dynasty_basis": "L5 斷代訂正（2026-08-25 遼金元輪）：本欄舊作「金」，而《欽定四庫全書總目》明著「宋王繪」。此非過渡而是誤，逕從志作「宋」。",
   "period": "liao-jin-yuan",
   "period_basis": "synonym",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生]\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hjwlyaf71`（王繪，金），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=金 派生]\n\n2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96hjwlyaf71`（王繪，金），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。\n\n2026-08-25 遼金元 L5：dynasty 由「金」歸一為「宋」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。\n\n2026-08-25 已卸 work `1evga8te0plhc`《注太白詩》——那是**金**王繪（字賢夫，濟南人）之書，與本條之南宋王繪（紹興四年副魏良臣使金）同名異人。本條名下今唯《紹興甲寅通和錄》一種。"
 }

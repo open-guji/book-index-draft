@@ -14,7 +14,7 @@
       "type": "號"
     }
   ],
-  "dynasty": "元",
+  "dynasty": "宋末元初",
   "works": [
     {
       "work_id": "1evga8rfce9s0",
@@ -33,6 +33,6 @@
   "updated_at": "2026-08-19T00:00:00-07:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 dynasty「元」自動歸併",
-  "dynasty_basis": "author_propagation:round1",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]\n\n2026-08-16 CBDB 繫連批二：繫 cbdb 41460。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：元，籍貫浦江。\n\n2026-08-19 人物合併：庫中原另有同名同朝代同 CBDB ID（41460）之重複記錄 `1j96hlcwxhwqo`，確為一人，今併入並刪除該條，其作品 `1ev3belhwh3i8` 改繫本條。"
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×2 諸桶。",
+  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]\n\n2026-08-16 CBDB 繫連批二：繫 cbdb 41460。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：元，籍貫浦江。\n\n2026-08-19 人物合併：庫中原另有同名同朝代同 CBDB ID（41460）之重複記錄 `1j96hlcwxhwqo`，確為一人，今併入並刪除該條，其作品 `1ev3belhwh3i8` 改繫本條。\n\n2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
 }
