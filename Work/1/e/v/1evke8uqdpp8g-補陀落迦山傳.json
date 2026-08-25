@@ -17,7 +17,7 @@
       "（所繫實物之版本著錄）"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-25 遼金元 L6 desc 補全：本條之 description 非人所撰，是據所繫著錄之引文（或所繫實物之版本著錄）機械組織而成，未覆核原書。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-25 遼金元 L6 desc 補全：本條之 description 非人所撰，是據所繫著錄之引文（或所繫實物之版本著錄）機械組織而成，未覆核原書。\n\n2026-08-25 S7 前清障：本條之 description 明記《國立故宮博物院善本舊籍》之統一編號「故善010550」，而 `indexed_by` 空——編號即其著錄，今補入。（庫中本有此體例；全庫尚有七千五百餘條同型未補，另記。）",
   "juan_count": {
     "number": 1
   },
@@ -33,5 +33,14 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "補陀落迦山傳",
+      "summary": "清嘉慶間阮元進呈明天順刊本。故善010550。"
+    }
+  ],
+  "_promoted_to": "d59f2j4ipw5e",
+  "_promoted_at": "2026-08-25T07:32:43Z"
 }

@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev0r91hfmzgg(胡炳文)（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev0r91hfmzgg(胡炳文)（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-25 S7 前清障：本條之 description 明記《國立故宮博物院善本舊籍》之統一編號「故殿002865-002868」，而 `indexed_by` 空——編號即其著錄，今補入。（庫中本有此體例；全庫尚有七千五百餘條同型未補，另記。）",
   "juan_count": {
     "number": 4
   },
@@ -39,5 +39,14 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "周易本義通釋",
+      "summary": "清康熙十九年通志堂刊乾隆五十年修補本。故殿002865-002868。"
+    }
+  ],
+  "_promoted_to": "d59f2j4j14oy",
+  "_promoted_at": "2026-08-25T07:32:44Z"
 }
