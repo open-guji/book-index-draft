@@ -8,7 +8,9 @@
       "name": "蘭廷瑞",
       "role": null,
       "entity_id": "1jcf5151298ge",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298ge` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
+      "name_basis": "2026-08-24 新建 entity `1jcf5151298ge` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
+      "dynasty": "宋",
+      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路三（entity 相容）：本條 period 已據引文定為 song，庫中同名 entity 唯一（`1jcf5151298ge`，代「宋」），二者相容，據以補代。**只補 dynasty 不繫 entity_id**——同名唯一之繫曾致漢代十九條誤入（skill 坑 23），entity 之繫留人物車道覈實後再作。"
     }
   ],
   "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書易類著錄「蘭氏（廷瑞）漁樵易觧」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「佚」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。",

@@ -10,8 +10,9 @@
         "王伓復"
       ],
       "name_basis": "國史經籍志作「宋王伓復」，乃「黃休復」之形訛（黃訛作王、休訛作伓）；直齋書錄解題明作「黃休復撰」。原形存 alt_names。\n2026-08-21 B2 併池核對時發現：本欄 entity_id 原指「王伓復」（1j96hgab2gykg，同名之訛之殘留），與「黃休復」正名之人物 1j96hhvcrjvgl（已繫本條與《茆亭客話》二書）為同一人重出之 entity，今改指正確者，retire 王伓復 entity。\n2026-08-22 C1：原繫 1j96hhvcrjvgl（宋），其代晚於本書上限 song，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 同名異人分立：庫中舊有同名之「黃休復」（`1j96hhvcrjvgl`，代 ming），與本書之代（song）懸隔。本書之斷代出於其人本身之行實（提要載前有景德三年李畋序、所記迄宋乾德，景德為北宋真宗年號），非泛推，故知同名而實二人。今別立 `1jcf515129agw` 而繫之，不繫舊條。",
-      "dynasty_basis": "entity_propagation_r2:1j96hhvcrjvgl",
-      "entity_id": "1jcf515129agw"
+      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路一（period_basis 收割）：本條 period_basis 之判語（R3 引文定代所書）已明言「北宋」，回填至撰人欄。其據見 period_basis。",
+      "entity_id": "1jcf515129agw",
+      "dynasty": "北宋"
     }
   ],
   "juan_count": {
