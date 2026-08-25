@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "1j96kflp7hla8",
   "type": "entity",
-  "subtype": "collective",
+  "subtype": "people",
   "primary_name": "鄭居中",
   "dynasty": "北宋",
   "works": [
@@ -16,7 +16,7 @@
     }
   ],
   "external_ids": {},
-  "updated_at": "2026-08-24T00:00:00+00:00",
+  "updated_at": "2026-08-25T00:00:00+00:00",
   "dynasty_basis": "title_nianhao:政和→北宋",
   "period": "song",
   "period_basis": "据 dynasty「北宋」自动归并",
@@ -26,5 +26,5 @@
       "note": "著錄原形（官銜黏連）"
     }
   ],
-  "ai_note": "2026-08-16 非人名 Entity 訂正：原題「議禮局官知樞密院鄭居中等奉敕」係官銜／年號與人名黏連，今剝為「鄭居中」，著錄原形存入 alt_names。依據：《政和五禮新儀》鄭居中等奉敕撰，官銜黏連。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。"
+  "ai_note": "2026-08-16 非人名 Entity 訂正：原題「議禮局官知樞密院鄭居中等奉敕」係官銜／年號與人名黏連，今剝為「鄭居中」，著錄原形存入 alt_names。依據：《政和五禮新儀》鄭居中等奉敕撰，官銜黏連。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n\n2026-08-25 升格前體例歸一：本條 primary_name 為一人之姓名，非團體，subtype 由 collective 改 people。"
 }

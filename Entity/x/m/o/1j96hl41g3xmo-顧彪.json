@@ -35,7 +35,9 @@
     }
   ],
   "external_ids": {},
-  "updated_at": "2026-08-24T00:00:00+00:00",
+  "updated_at": "2026-08-25T00:00:00+00:00",
   "ai_note": "2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 period未定批次 研究轮(WebSearch+史传)：顧彪，隋代經學家，撰《古文尚書音義》《尚書義疏》，見《隋書》卷七十五《儒林傳》（ctext.org 隋書目録可核）。",
-  "dynasty": "隋"
+  "dynasty": "隋",
+  "period": "sui-tang",
+  "period_basis": "2026-08-25 升格前體例歸一：據 dynasty「隋」入 period 軸（scripts/period_bounds.py 之 DYNASTY_PERIOD，一義而無歧者方回填）。"
 }
