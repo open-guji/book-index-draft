@@ -101,12 +101,21 @@
     }
   ],
   "measure_info": "十六卷",
-  "ai_note": "作者 \"元劉實撰\" 補自《續修四庫全書》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題月梧劉實撰，鳳梧劉茂實注。而撰人於劉字之下實字之上空一字。」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "ai_note": "作者 \"元劉實撰\" 補自《續修四庫全書》目錄。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題月梧劉實撰，鳳梧劉茂實注。而撰人於劉字之下實字之上空一字。」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "song",
   "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('劉實', '元')] 指向 liao-jin-yuan，而本書見於《宋史藝文志補》——該志斷代著錄 song 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "劉實（元）舊題撰。十六卷。見著錄於《欽定四庫全書總目》《宋史藝文志補》《續修四庫全書》《四庫全書存目叢書》。《續修四庫全書》列於類書；《四庫全書存目叢書》列於子部。撰人劉實之爵里事跡，諸志不載。",
+    "sources": [
+      "欽定四庫全書總目",
+      "宋史藝文志補",
+      "續修四庫全書",
+      "四庫全書存目叢書"
+    ]
+  }
 }
