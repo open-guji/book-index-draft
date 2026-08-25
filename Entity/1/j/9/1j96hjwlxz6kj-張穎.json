@@ -26,14 +26,14 @@
       "type": "小名"
     }
   ],
-  "dynasty": "明",
+  "dynasty": "元末明初",
   "works": [
     {
       "work_id": "1evdibyyhx88w",
       "role": "撰"
     },
     {
-      "work_id": "1evga67ohs3cw",
+      "work_id": "d59f2gd6r94y",
       "role": "撰"
     }
   ],
@@ -41,5 +41,6 @@
   "updated_at": "2026-08-09T08:58:29+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」（2026-08-13 明朝探勘：張穎：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=15 (1128-0)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming）",
-  "ai_note": " 2026-08-13：張穎：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=15 (1128-0)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming"
+  "ai_note": " 2026-08-13：張穎：Entity遭CBDB弱信度比對誤配至完全不相干之他代同名人物（原cbdb_source: pending_accept: relaxed_ambig cbdb_dy=15 (1128-0)），其所繫作品之著錄（明史藝文志／欽定四庫全書總目等）皆明確指向明代，訂正period為ming\n\n2026-08-25 遼金元 L5：dynasty 由「明」歸一為「元末明初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《補遼金元藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×1／ming×1 諸桶。"
 }

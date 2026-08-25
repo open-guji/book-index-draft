@@ -30,76 +30,76 @@
       "type": "別名"
     }
   ],
-  "dynasty": "元",
+  "dynasty": "宋末元初",
   "birth_year": 1232,
   "death_year": 1303,
   "works": [
     {
-      "work_id": "1ev3beoqwwm4g",
+      "work_id": "d59f2gpcdypt",
       "role": "編"
     },
     {
-      "work_id": "1evg9zfrtrsao",
+      "work_id": "d59f2gjhdji9",
       "role": "撰"
     },
     {
-      "work_id": "1evga0oyzdn28",
+      "work_id": "d59f2glluole",
       "role": "撰"
     },
     {
-      "work_id": "1evgaaobzmebk",
+      "work_id": "d59f2glflxq8",
       "role": "撰"
     },
     {
-      "work_id": "1evgbrm78oe0w",
+      "work_id": "d59f2gmc2m81",
       "role": "撰"
     },
     {
-      "work_id": "1evgbrvjrfojk",
+      "work_id": "d59f2gi4da82",
       "role": "撰"
     },
     {
-      "work_id": "1evjqyeiww9og",
+      "work_id": "d59f2gf9zg1t",
       "role": "撰"
     },
     {
-      "work_id": "1ev3ba5g4k9a8",
+      "work_id": "d59f2gnvy3gg",
       "role": "撰"
     },
     {
-      "work_id": "1ev3baboimn0g",
+      "work_id": "d59f2gpki4u8",
       "role": "撰"
     },
     {
-      "work_id": "1ev3ba5fuvwg0",
+      "work_id": "d59f2gorsav4",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bd4h7fqps",
+      "work_id": "d59f2gpktddu",
       "role": "撰"
     },
     {
-      "work_id": "1ev3b9x772j28",
+      "work_id": "d59f2gpnb9q8",
       "role": "撰"
     },
     {
-      "work_id": "1ev4c1tipywhs",
+      "work_id": "d59f2gpphxj5",
       "role": "撰"
     },
     {
-      "work_id": "1evgopnhfguf4",
+      "work_id": "d59f2geyqwht",
       "role": "撰"
     },
     {
-      "work_id": "1exobrs9blnwn",
+      "work_id": "d59f2gd14zcx",
       "role": "撰"
     },
     {
-      "work_id": "1ex9svfhqj5x7",
+      "work_id": "d59f2gd14zcy",
       "role": "撰"
     },
     {
-      "work_id": "1exldah1silap",
+      "work_id": "d59f2gd22ozm",
       "role": "撰"
     },
     {
@@ -139,5 +139,6 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 dynasty「元」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 7 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 7 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。\n\n2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×17／song×7 諸桶。"
 }

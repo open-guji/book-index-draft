@@ -6,9 +6,9 @@
     {
       "name": "張翼",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "金",
       "entity_id": "1jae2gjvi6iho",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:張翼撰宰輔明鑑，明/清人，不在三國吳)"
+      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1jae2gjvi6iho`（張翼）之 dynasty「金」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "indexed_by": [
@@ -27,10 +27,12 @@
     ]
   },
   "id": "1evgbzslksr9c",
-  "ai_note": "作者繫連改指：原繫人物 1j96hjwlylno2，該記錄實混同名而異代之兩人；本書撰者為金之張翼，今改指新立人物 1jae2gjvi6iho。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "ai_note": "作者繫連改指：原繫人物 1j96hjwlylno2，該記錄實混同名而異代之兩人；本書撰者為金之張翼，今改指新立人物 1jae2gjvi6iho。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "updated_at": "2026-08-09T09:33:12+00:00",
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「金」",
   "dynasty": "金",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2gloz20y",
+  "_promoted_at": "2026-08-25T04:38:09Z"
 }

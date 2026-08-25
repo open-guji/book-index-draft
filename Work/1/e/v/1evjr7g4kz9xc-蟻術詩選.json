@@ -7,7 +7,9 @@
       "name": "邵亨貞",
       "role": "撰",
       "entity_id": "1j967cp20mp9j",
-      "name_basis": "2026-08-24 連書之撰人拆分：本條 authors 舊作「邵亨貞撰(明)汪稷」一名，實是連書數人之語（邵亨貞（撰）、汪稷（撰·明））。諸志之例，原撰之後綴以後人之注者、評者、輯者，並括注其代，匯入時未拆，遂併為一名。今拆之，本欄為其中之「邵亨貞」。"
+      "name_basis": "2026-08-24 連書之撰人拆分：本條 authors 舊作「邵亨貞撰(明)汪稷」一名，實是連書數人之語（邵亨貞（撰）、汪稷（撰·明））。諸志之例，原撰之後綴以後人之注者、評者、輯者，並括注其代，匯入時未拆，遂併為一名。今拆之，本欄為其中之「邵亨貞」。",
+      "dynasty": "明",
+      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j967cp20mp9j`（邵亨貞）之 dynasty「明」。其據見該 entity 之 dynasty_basis。"
     },
     {
       "name": "汪稷",
@@ -35,7 +37,7 @@
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "juan_count": {
     "number": 8
   },
@@ -69,5 +71,7 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「元」",
   "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2goynitd",
+  "_promoted_at": "2026-08-25T04:44:25Z"
 }
