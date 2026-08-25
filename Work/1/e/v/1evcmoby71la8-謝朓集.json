@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmoby71la8",
   "type": "work",
   "title": "謝朓集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《謝朓集》十二卷",
-      "summary": "齊吏部郎《謝朓集》十二卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "謝朓集",
-      "summary": "謝朓集十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《謝朓集》",
-      "summary": "《謝朓集》十卷又"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《謝朓集》十二卷",
-      "summary": "《謝朓集》十二卷",
-      "merged_from": "1evgqbgtqoc1s",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "id": "1evcmoby71la8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《謝朓集》十二卷",
-      "summary": "詳見下條「《謝朓逸集》一卷」考証。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "謝朓",
-      "role": "撰",
-      "dynasty": "南朝齊",
-      "entity_id": "1j96a9ea351c0",
-      "note": "隋書經籍志題「齊吏部郎《謝朓集》十二卷」，書名即撰人。謝朓（464-499）字玄暉，稱「小謝」。"
-    }
-  ],
-  "dynasty": "南朝齊",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝齊」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「齊吏部郎《謝朓集》十二卷」、新唐志十卷、宋志十卷、國史經籍志十二卷，同為南朝齊謝朓別集，今合為一條並繫 entity `1j96a9ea351c0`。 2026-08-21 本條連記附屬部帙：《外集》一卷。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
-  "description": {
-    "text": "南朝齊謝朓撰，12卷。諸志所著卷數不一：《隋書經籍志》、《國史經籍志》作十二卷；《新唐書藝文志》、《宋史藝文志》作十卷。本條見於4家著錄：《隋書經籍志》、《新唐書藝文志》、《宋史藝文志》、《國史經籍志》。",
-    "sources": [
-      "隋書經籍志",
-      "新唐書藝文志",
-      "宋史藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f2853jjls",
-  "_promoted_at": "2026-08-24T18:52:39Z"
+  "_promoted_at": "2026-08-24T18:52:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2853jjls。"
 }

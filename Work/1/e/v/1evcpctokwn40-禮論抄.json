@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpctokwn40",
   "type": "work",
   "title": "禮論抄",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《禮論抄》二十卷",
-      "summary": "《禮論抄》二十卷庾蔚之撰。"
-    }
-  ],
-  "id": "1evcpctokwn40",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "庾蔚之",
-      "role": "撰",
-      "dynasty": "南朝宋",
-      "entity_id": "1j96ad6gc6fpc",
-      "note": "舊唐書經籍志明載「《禮論抄》二十卷庾蔚之撰」。",
-      "name_basis": "2026-08-24 同名消歧：庫中名「庾蔚之」者不止一人，以作者朝代相合定為 `1j96ad6gc6fpc`（代「南朝宋」）。同名而代不合者，其書之上限已排之，故所存唯此一人。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "南朝宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為庾蔚之《禮論抄》二十卷，與同志任預六十六卷本（`1evcpctoez4sg`）非一書，未予合併。",
   "_promoted_to": "d59f285i7p4w",
-  "_promoted_at": "2026-08-24T18:53:26Z"
+  "_promoted_at": "2026-08-24T18:53:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285i7p4w。"
 }

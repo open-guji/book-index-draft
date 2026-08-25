@@ -1,70 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga2cjpdukg",
   "type": "work",
   "title": "六書正譌",
-  "authors": [
-    {
-      "name": "周伯琦",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967avzlcjyt"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "周伯琦六書正譌五卷",
-      "summary": "元周伯琦六書正譌五卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《六書正譌》五卷",
-      "summary": "元周伯琦六書正譌五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "id": "1evga2cjpdukg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/06052890.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "books": [
-    "11qkhul3x24n4",
-    "11qki43xyd1xc",
-    "11qk4xwcuqywp",
-    "11qkhvcl8s4cg"
-  ],
-  "description": {
-    "text": "周伯琦（元）撰。五卷。見著錄於《補遼金元藝文志》《元史藝文志》。其著錄之文，《補遼金元藝文志》作「元周伯琦六書正譌五卷」。",
-    "sources": [
-      "補遼金元藝文志",
-      "元史藝文志"
-    ]
-  },
-  "ai_note": "從 1evjy620z7jeo 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 | 從 1evkabf1l3gu8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2go26ubm",
-  "_promoted_at": "2026-08-25T04:42:41Z"
+  "_promoted_at": "2026-08-25T04:42:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2go26ubm。"
 }

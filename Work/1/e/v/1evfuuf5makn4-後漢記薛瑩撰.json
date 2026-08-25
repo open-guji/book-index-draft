@@ -1,85 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evfuuf5makn4",
+  "type": "work",
   "title": "後漢記薛瑩撰",
-  "authors": [
-    {
-      "name": "薛瑩",
-      "role": "撰",
-      "dynasty": "三國吳",
-      "entity_id": "1j96hhvcrjvig"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "後漢記一百卷 散騎常侍薛瑩。謹按見《七録》。《隋志》存六十五卷,兩《唐志》仍百卷。",
-      "section": "乙部史録／正史類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《後漢記》一百卷",
-      "summary": "《後漢記》一百卷（晉薛莹。）",
-      "author_info": "晉薛莹。",
-      "merged_from": "1evgpgsd11tkw"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "薛瑩後漢記",
-      "summary": "薛瑩後漢記一百卷",
-      "merged_from": "1evcs0b9qsdfk"
-    }
-  ],
-  "description": {
-    "text": "薛瑩（三國吳）撰。一百卷。見著錄於《補晋書藝文志》《國史經籍志》《新唐書藝文志》。《補晋書藝文志》列於乙部史録·正史類。原書已佚。",
-    "sources": [
-      "補晋書藝文志",
-      "國史經籍志",
-      "新唐書藝文志"
-    ]
-  },
-  "juan_count": {
-    "number": 100
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "measure_info": "一百卷",
-  "ai_note": "著錄誤切訂正：本條原題《後漢記一》，末之「一」實為卷數之首字，非書名。《補晉書藝文志》著錄原文作「後漢記一百卷」，匯入時於數字中間切開，致書名吞入卷數首字而卷數欄反空。今依著錄原文回復書名作《後漢記》，卷數作一百卷。　按：庫中另有同題《後漢記》記錄 1evgpgsd11tkw、1evcml1zmwwzk、1evftej3ao0zk，諸家同名之注、集、志本多，未必重出，留待覆核。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　合併：裸題「後漢記」全庫撞名，然撞名者撰人皆同為「薛瑩」（來源：國史經籍志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　合併：裸題「後漢記」全庫撞名，然撞名者撰人皆同為「薛瑩」（來源：新唐書藝文志）——非異書撞名，是同書之三重（或以上）重出，逕併——撰人字首式重出候選 Phase 2a（2026-08-07，經人核可批次處理）。　裸題「後漢記」全庫另有他家（如列女傳有蓁毋、基母邃等；孝經注有鄭眾、劉熙等），非同書，故改題為「書名+撰人+方式」以消歧，記original_title為裸題。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國吳」（2026-08-13 三國魏晉period邊界獨立立項：薛瑩：Entity早已確立period=three-kingdoms，Work記錄未同步）",
-  "merged_in": [
-    {
-      "id": "1evgpgsd11tkw",
-      "title": "後漢記",
-      "author": "薛瑩",
-      "indexed_by_moved": [
-        "國史經籍志"
-      ]
-    },
-    {
-      "id": "1evcs0b9qsdfk",
-      "title": "薛瑩後漢記",
-      "author": "薛瑩",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "original_title": "後漢記",
-  "dynasty": "三國吳",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "loss_status_basis": "2026-08-24 J7 存佚基準登記：本欄之值出自 2026-08 之機讀（scripts/loss_status.py），據本條之描述或著錄語中之亡佚語而定，其 ai_note 自陳「非逐條精校」。J7 曾以結構化之證（著錄源含《玉函山房輯佚書》、有輯佚檔、按語有「引是書／輯存／輯得／某某輯本序」之明文）覆核全桶，**本條無此三證**，故仍其舊。欲進一步覈之，須逐條讀《三國藝文志》《補晉書藝文志》之散文體按語（S4 第三路），是本時段所餘之最大一項人工。",
   "_promoted_to": "d59f27t8iwht",
-  "_promoted_at": "2026-08-24T18:29:51Z"
+  "_promoted_at": "2026-08-24T18:29:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27t8iwht。"
 }

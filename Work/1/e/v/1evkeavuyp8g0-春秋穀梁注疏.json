@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkeavuyp8g0",
   "type": "work",
   "title": "春秋穀梁注疏",
-  "authors": [
-    {
-      "name": "范寧",
-      "role": "集解",
-      "dynasty": "東晉",
-      "entity_id": "1j96hl40qih34",
-      "dynasty_basis": "historical_dict:round2(范寧(339-401)，范汪之子，東晉經學家)"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫003253-003262）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J2(c) 注疏／編本之 period 從成編之世：依 SCHEMA〈坊刻編本是獨立 Work〉，合刻、附釋音、正義、集解、坊刻舉業編本皆是新成之編，其時代從成編之世而不從所依之底注者。本條 authors 只掛底注者，period 遂被機械繫其人之代。據：范寧集解為底，楊士勛《疏》成於唐。　period 由 jin 改 sui-tang。authors 與 dynasty 不動——所掛之底注者是實錄，dynasty 依 SCHEMA 是志書原文之欄。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷正義序一卷原目一卷",
-  "id": "1evkeavuyp8g0",
-  "books": [
-    "11qkhvqebvy0w",
-    "11qkhy8fxszr4"
-  ],
-  "related_works": [
-    {
-      "id": "d59ezajtfrb4",
-      "title": "穀梁傳",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1ahwtau87mm80",
-      "title": "十三經",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ahwtau9gw0zk",
-      "title": "十三經注疏",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T14:05:56+00:00",
-  "period": "sui-tang",
-  "period_basis": "2026-08-24 J2(c)：見 ai_note",
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
   "_promoted_to": "d59f28nosc91",
-  "_promoted_at": "2026-08-24T19:28:24Z"
+  "_promoted_at": "2026-08-24T19:28:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nosc91。"
 }

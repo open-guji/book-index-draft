@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evfhccfi8vsw",
   "type": "work",
   "title": "漢書注",
-  "authors": [
-    {
-      "name": "李奇",
-      "role": "注",
-      "dynasty": "漢",
-      "entity_id": "1j96kecy3z8jk"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "title_info": "李奇漢書注",
-      "summary": "李奇漢書注。李奇南陽人。"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。",
-    "sources": [
-      "三國藝文志"
-    ]
-  },
-  "id": "1evfhccfi8vsw",
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 補 original_title「漢書」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "original_title": "漢書",
   "_promoted_to": "d59f24mkop39",
-  "_promoted_at": "2026-08-24T14:49:27Z"
+  "_promoted_at": "2026-08-24T14:49:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24mkop39。"
 }

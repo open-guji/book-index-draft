@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evka71jng8ao",
   "type": "work",
   "title": "前漢書",
-  "authors": [
-    {
-      "name": "班固",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j967afjb6ae0"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善000359-000382）。明崇禎十五年虞山毛氏汲古閣刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
-  "juan_count": {
-    "number": 24
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四冊",
-  "id": "1evka71jng8ao",
-  "books": [
-    "11qkh5w7e69s0",
-    "11qkhsf2jdtds",
-    "11qkhthf60fls",
-    "11qkhu1t8qgao",
-    "11qkhu5txjgu8",
-    "11qkhuyjlwb28",
-    "11qkhv55kh2ww",
-    "11qkhvzgj6u4g",
-    "11qkhybidbe2o",
-    "11qki0pfw2ebk",
-    "11qki0ph9p4ow",
-    "11qki28ysdi4g",
-    "11qki2rj77d34",
-    "11qki2ykprvgg",
-    "11qki45jmrncw"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
   "_promoted_to": "d59f24mm8vsz",
-  "_promoted_at": "2026-08-24T14:49:32Z"
+  "_promoted_at": "2026-08-24T14:49:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24mm8vsz。"
 }

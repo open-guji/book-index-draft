@@ -2,47 +2,8 @@
   "schema_version": 1,
   "id": "1evi5xgyo41kw",
   "type": "work",
-  "subtype": "article",
   "title": "弔魏武帝文",
-  "authors": [
-    {
-      "name": "陸機",
-      "dynasty": "西晉",
-      "role": "作",
-      "entity_id": "1j967afj9av4f",
-      "dynasty_basis": "manual:historical_figure(陸機(261-303)，字士衡，西晉文學家)"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E5%BC%94%E9%AD%8F%E6%AD%A6%E5%B8%9D%E6%96%87",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59f2870u874",
-      "title": "文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T14:20:19+00:00",
-  "_has_text": true,
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "title_keyword:魏武/魏文帝→三國魏",
-  "description": {
-    "text": "陸機弔文。入洛見魏武帝曹操之遺令，感其分香賣履、繫戀家人之情與雄略不相稱，作文弔之。「魏武帝」為所弔之對象，非撰人之代。《文選》卷六十「弔文」類收之。",
-    "sources": [
-      "文選"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f27yw1mo1",
-  "_promoted_at": "2026-08-24T18:40:43Z"
+  "_promoted_at": "2026-08-24T18:40:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27yw1mo1。"
 }

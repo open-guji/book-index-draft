@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd0d9hxj4",
   "type": "work",
   "title": "中天竺國行記",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《中天竺國行記》十卷",
-      "summary": "《中天竺國行記》十卷王玄策撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《中天竺國行記》十卷",
-      "summary": "《中天竺國行記》十卷（王玄策）",
-      "author_info": "王玄策"
-    }
-  ],
-  "id": "1evcpd0d9hxj4",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「王玄策」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "王玄策",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151297ix",
-      "note": "據本 work 諸著錄之 author_info「王玄策」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297ix` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "知名人物：王玄策，唐貞觀顯慶間三使天竺之使臣（2026-08-24 R3 引文定代）",
   "_promoted_to": "d59f28k1dfk3",
-  "_promoted_at": "2026-08-24T19:21:22Z"
+  "_promoted_at": "2026-08-24T19:21:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k1dfk3。"
 }

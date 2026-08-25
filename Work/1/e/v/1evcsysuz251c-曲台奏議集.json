@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsysuz251c",
   "type": "work",
   "title": "曲台奏議集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《曲台奏議集》",
-      "summary": "陳致雍《曲台奏議集》二十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《曲台奏議集》",
-      "summary": "陳致雍《曲台奏議集》又",
-      "merged_from": "1evcsxgcixcsg",
-      "note": "同題之另一著錄，卷數與所併記錄相承。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "曲臺奏議集二十卷",
-      "summary": "曲臺奏議集二十卷",
-      "merged_from": "1evr5e3mhsuc1",
-      "note": "本著錄原繫題作「曲臺奏議集」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "id": "1evcsysuz251c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "陳致雍",
-      "role": "撰",
-      "dynasty": "五代",
-      "entity_id": "1j967da97jm09",
-      "note": "宋史藝文志兩處皆題「陳致雍《曲台奏議集》」。陳致雍為南唐、宋初太常博士，精禮學。 本庫無此 entity，未繫。",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「陳致雍」而無 entity_id，庫中同名唯一（`1j967da97jm09`）。entity 代 sui-tang 與本書 five-dynasties 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "五代",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「五代」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：宋史藝文志所著錄同為一書，今合為一條並補撰人／編者「陳致雍」；本庫無其 entity，未繫。**二條同出宋史藝文志**（一著二十卷、一以「又」領下條），係一志兩出。\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《曲臺奏議集》之 work（`1evr5e3mhsuc1`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "additional_titles": [
-    "曲臺奏議集"
-  ],
-  "description": {
-    "text": "陳致雍（五代）撰。二十卷。見著錄於《宋史藝文志》《崇文總目》。其著錄之文，《宋史藝文志》作「陳致雍《曲台奏議集》二十卷」。別集之屬，所收為其人之詩文。《宋史藝文志》元脫脫等修；《崇文總目》北宋慶曆間王堯臣等奉敕修——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志",
-      "宋史藝文志",
-      "崇文總目"
-    ]
-  },
   "_promoted_to": "d59f2gcka60y",
-  "_promoted_at": "2026-08-25T04:20:35Z"
+  "_promoted_at": "2026-08-25T04:20:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcka60y。"
 }

@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy3yhi1hc",
   "type": "work",
   "title": "廣古今五行記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《廣古今五行記》",
-      "summary": "竇維鋈《廣古今五行記》三十卷周麟"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "廣古今五行記三十卷",
-      "summary": "廣古今五行記三十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《廣古今五行記》三十卷",
-      "summary": "《廣古今五行記》三十卷（竇惟法）",
-      "author_info": "竇惟法"
-    }
-  ],
-  "id": "1evcsy3yhi1hc",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「竇惟法」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "竇惟法",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151297vb",
-      "note": "據本 work 諸著錄之 author_info「竇惟法」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297vb` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "sui-tang",
-  "period_basis": "宋志作竇維鋈，竇維鋈為唐初人；崇文總目、國史經籍志著錄；撰人名歧異　複審採納：竇維鋈唐初人，僅名字書寫小異，不礙斷代（2026-08-24 A1 medium 複審）",
   "_promoted_to": "d59f28lq8phe",
-  "_promoted_at": "2026-08-24T19:24:37Z"
+  "_promoted_at": "2026-08-24T19:24:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lq8phe。"
 }

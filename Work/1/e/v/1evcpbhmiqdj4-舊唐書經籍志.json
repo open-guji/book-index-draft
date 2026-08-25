@@ -3,81 +3,8 @@
   "id": "1evcpbhmiqdj4",
   "type": "work",
   "title": "舊唐書·經籍志",
-  "description": {
-    "text": "後晉劉昫等撰《舊唐書》時編入的經籍志，為《舊唐書》卷四十六至四十七（志第二十六至二十七）。主要依據唐開元年間毋煚所編《古今書錄》改編而成，著錄開元以前藏書情況。全志分甲（經）、乙（史）、丙（子）、丁（集）四部，條目僅列書名、卷數及著者，無小序、無提要，體例較為簡略。雖不如《新唐書·藝文志》詳備，但所據底本更近唐代原貌，為研究唐代前期藏書的重要史料。",
-    "sources": []
-  },
-  "authors": [
-    {
-      "name": "劉昫",
-      "role": "撰",
-      "entity_id": "1j96hlhu2zf28",
-      "dynasty": "後晉"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/舊唐書/卷046",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=en&res=787753",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "name": "识典古籍（舊唐書經籍志独立版）",
-      "id": "shidianguji-jtsjjz",
-      "url": "https://www.shidianguji.com/book/CADAL04201267",
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "name": "识典古籍（舊唐書·二十四史本）",
-      "id": "shidianguji-ls-jiutangshu",
-      "url": "https://www.shidianguji.com/book/LS0016",
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "识典古籍（舊唐書·四库全书本）",
-      "id": "shidianguji-sk-jiutangshu",
-      "url": "https://www.shidianguji.com/book/SK0723",
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bab32ornk",
-      "title": "舊唐書",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1ev3bab32ornk",
-      "title": "舊唐書",
-      "relation": "part_of"
-    }
-  ],
-  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。",
-  "updated_at": "2026-07-31T04:34:52+00:00",
-  "_has_collated": true,
-  "_has_text": true,
-  "_has_image": true,
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「後晉」（2026-08-13 五代十國探勘：劉昫：同上）",
   "_promoted_to": "d59f2gcburcx",
-  "_promoted_at": "2026-08-25T04:20:08Z"
+  "_promoted_at": "2026-08-25T04:20:08Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcburcx。",
+  "_has_collated": true
 }

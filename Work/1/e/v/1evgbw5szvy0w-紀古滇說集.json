@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbw5szvy0w",
   "type": "work",
   "title": "紀古滇說集",
-  "authors": [
-    {
-      "name": "張道宗",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967avzmwqqt"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "張道宗紀古滇說集一卷",
-      "author_info": "雲南人",
-      "summary": "元張道宗（雲南人）紀古滇說集一卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "張宗說紀古滇說集一卷",
-      "summary": "元張宗說紀古滇說集一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "張道宗（元）撰。一卷。見著錄於《元史藝文志》《補遼金元藝文志》。其著錄之文，《元史藝文志》作「元張道宗（雲南人）紀古滇說集一卷」。別集之屬，所收為其人之詩文。",
-    "sources": [
-      "元史藝文志",
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('張宗道', '元'), ('張宗說', '元')]，本條作者 張道宗（元），另建 | 從 1evga4n2ib6rk 合併。原註：同名異書：已有 Work 作者為 [('張宗說', '元')]，本條作者 張宗道（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n[N3磁鐵 2026-08-24 裁：不拆]本志兩著此書——「元張宗說紀古滇說集一卷」與「元張宗道紀古滇說集一卷」。卷數同（一卷），撰人止「說／道」一字之異；《元史藝文志》作「張道宗（雲南人）紀古滇說集一卷」，庫題從之。是一書兩著而傳寫倒訛。本志（補遼金元藝文志）多取前代志目成文，同書兩見者甚眾，M3 一輪已立其例——「同志兩處著錄一書，共繫是，不拆」；此條依之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgbw5szvy0w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T02:33:53+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2gmwoa2o",
-  "_promoted_at": "2026-08-25T04:40:28Z"
+  "_promoted_at": "2026-08-25T04:40:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmwoa2o。"
 }

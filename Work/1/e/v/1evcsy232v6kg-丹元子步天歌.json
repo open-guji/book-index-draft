@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy232v6kg",
   "type": "work",
   "title": "丹元子步天歌",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《丹元子步天歌》",
-      "summary": "王希明《丹元子步天歌》一卷楊惟德"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《丹元子步天歌》一卷",
-      "summary": "《丹元子步天歌》一卷（唐王希明）",
-      "author_info": "唐王希明"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "王希明丹元子步天歌",
-      "summary": "王希明丹元子步天歌一卷"
-    }
-  ],
-  "id": "1evcsy232v6kg",
-  "updated_at": "2026-08-22T08:39:02.616650+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐王希明」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-22 併池：《王希明丹元子步天歌》1evcs0rm2xnuo 併入本條。二者長短題並存而撰人相容，係志書連書省撰人之體例所致之重出。題名依約取短題，別題存於 additional_titles。",
-  "authors": [
-    {
-      "name": "王希明",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl6e33e",
-      "note": "據本 work 諸著錄之 author_info「唐王希明」補；著錄所給者為一，去朝代與職名後取之。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "additional_titles": [
-    "王希明丹元子步天歌"
-  ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
   "_promoted_to": "d59f28jme1hk",
-  "_promoted_at": "2026-08-24T19:20:34Z"
+  "_promoted_at": "2026-08-24T19:20:34Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jme1hk。"
 }

@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcua74xdp1c",
   "type": "work",
   "title": "老子成玄英注",
-  "original_title": "老子",
-  "related_works": [
-    {
-      "id": "d59ezkx8dt6o",
-      "title": "道德經",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1evgpn98y4gzk",
-      "title": "成玄英注老子",
-      "relation": "related",
-      "note": "同書之重出。本條題《老子成玄英注》（書名在前），彼條題《成玄英注老子》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《老子》二卷成玄英注。",
-      "summary": "《老子》二卷成玄英注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "道士成玄英注老子道德經",
-      "summary": "道士成玄英注老子道德經二卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "成玄英",
-      "entity_id": "1j96ha7r4zh1c"
-    },
-    {
-      "name": "成玄英",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96ha7r4zh1c"
-    }
-  ],
-  "id": "1evcua74xdp1c",
-  "updated_at": "2026-08-02T05:00:12+00:00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measure_info": "二卷",
-  "ai_note": "從 1evdxnsdafaio《道士成玄英注老子道德經》合併。原註：[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f28nkq96p",
-  "_promoted_at": "2026-08-24T19:28:10Z"
+  "_promoted_at": "2026-08-24T19:28:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nkq96p。"
 }

@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnfuqvy80",
   "type": "work",
   "title": "易八卦命錄鬥內圖",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《易八卦命錄鬥內圖》一卷",
-      "summary": "《易八卦命錄鬥內圖》一卷郭璞撰。"
-    }
-  ],
-  "id": "1evcmnfuqvy80",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《易八卦命錄鬥內圖》一卷",
-      "summary": "易八卦命録斗内圖一卷 郭撰"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "authors": [
-    {
-      "name": "郭璞",
-      "role": "撰",
-      "dynasty": "東晉",
-      "name_basis": "2026-08-24 隋志注文逐題抽撰人：《隋書經籍志》之注多作「梁有《甲》N卷，某撰；《乙》N卷，某撰。亡」——一注而列數書，各繫其撰人。前此抽名者取一節之通語，故《灶經》一條之「梁簡文帝撰」誤及於同注之《淮南萬畢經》《淮南變化術》諸書。今改為**於注文中先定本書之題，再取緊接其後之「N卷，某撰」**，人各歸其書。\n\n又隋志乃唐人所修，所著錄者皆隋以前之書，故其「宋」必劉宋、「齊」必南齊、「周」必北周——此正 SCHEMA〈period_upper〉所謂 catalog_bound 可作消歧者，於隋志適得其用。\n\n本書之題見於注中，其後緊接「郭璞」。注作「郭璞」；璞精易占，代與書合。",
-      "entity_id": "1j968k0jdrlz4"
-    }
-  ],
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」——撰人自《隋書經籍志》注文逐題抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 jin。",
-  "description": {
-    "text": "郭璞（東晉）撰。一卷。見著錄於《隋書經籍志》。其著錄之文，《隋書經籍志》作「《易八卦命錄鬥內圖》一卷郭璞撰」。本書惟《隋書經籍志》一志著錄，別無他證。《隋書經籍志》唐初貞觀顯慶間官修，本書之目賴之以存。",
-    "sources": [
-      "隋書經籍志"
-    ]
-  },
   "_promoted_to": "d59f27worcp0",
-  "_promoted_at": "2026-08-24T18:36:30Z"
+  "_promoted_at": "2026-08-24T18:36:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27worcp0。"
 }

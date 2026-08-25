@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkahwgjc0lc",
   "type": "work",
   "title": "阮嗣宗詩",
-  "authors": [
-    {
-      "name": "阮籍",
-      "role": "撰",
-      "dynasty": "三國魏",
-      "entity_id": "1j967cp21ketw"
-    }
-  ],
-  "description": {
-    "text": "阮籍（三國魏）詩集。所收以《詠懷詩》八十二首為主，託旨遙深，以憂生之嗟寄魏晉易代之際之危懼，顏延之謂其「百代之下，難以情測」，鍾嶸《詩品》列之上品。本書收入《國立故宮博物院善本舊籍》（統一編號 平圖009291-009291）。明刊白口八行本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J7 版本著錄語補其內容（坑 #17）：本條之 description 原止版本著錄語（「本書收入《…》。某某刊本」），五十餘字而未言其書為何。今於其前補一節內容之述，原版本語仍留其後——版本語是實錄，不可刪。所補之文據通行學術常識與本條所繫之著錄、Book，**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkahwgjc0lc",
-  "books": [
-    "11qki5f8gudq8",
-    "11qki5f9zs5c0"
-  ],
-  "updated_at": "2026-08-08T14:20:19+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（阮籍（210-263）：與嵇康同屬竹林七賢，卒於晉代建立(265)前2年，dynasty原誤植「西晉」與死亡年份自相矛盾（史學界通常歸為三國魏人），訂正為三國魏/three-kingdoms（2026-08-13 三國魏晉period邊界獨立立項），原缺entity_id，補繫）",
   "_promoted_to": "d59f27t95dkz",
-  "_promoted_at": "2026-08-24T18:29:53Z"
+  "_promoted_at": "2026-08-24T18:29:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27t95dkz。"
 }

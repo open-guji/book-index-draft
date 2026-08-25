@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcua749nnr4",
   "type": "work",
   "title": "老子楊上善注",
-  "original_title": "老子",
-  "related_works": [
-    {
-      "id": "d59ezkx8dt6o",
-      "title": "道德經",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1evgpn95d7gn4",
-      "title": "楊上善注老子",
-      "relation": "related",
-      "note": "同書之重出。本條題《老子楊上善注》（書名在前），彼條題《楊上善注老子》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《老子》二卷楊上善注。",
-      "summary": "《老子》二卷楊上善注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "楊上善注老子道德經",
-      "summary": "楊上善注老子道德經二卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "楊上善",
-      "entity_id": "1j96hf7rsfbpc"
-    },
-    {
-      "name": "楊上善",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96hf7rsfbpc"
-    }
-  ],
-  "id": "1evcua749nnr4",
-  "updated_at": "2026-08-02T05:00:12+00:00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measure_info": "二卷",
-  "ai_note": "從 1evdxnrtochs0《老子道德經楊上善注》合併。原註：題名體例調整：原題《楊上善注老子道德經》（注者在前），今改《老子道德經楊上善注》（書名在前、注者在後），俾同書諸注本於題名排序時自然相聚。原題多為志書著錄之原形，已存入 additional_titles，indexed_by.title_info 亦本存著錄原文，改題不失其真。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f28ngzeo3",
-  "_promoted_at": "2026-08-24T19:27:58Z"
+  "_promoted_at": "2026-08-24T19:27:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ngzeo3。"
 }

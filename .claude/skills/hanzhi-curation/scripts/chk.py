@@ -219,6 +219,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not e: continue
             try: dd=json.load(open(e['path']))
             except Exception: continue
+            # 升格墓碑只留骨架欄（indexed_by 在 production 本文），此驗不及；
+            # 併條墓碑同理。2026-08-25 宋輪墓碑 stub 化後立此例外。
+            if dd.get('_promoted_to') or dd.get('merged_into'): continue
             if not any(y.get('source_bid') in ok_bids for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)

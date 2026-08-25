@@ -1,37 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw4pcpjwg",
   "type": "work",
   "title": "周易元包",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《周易元包》",
-      "summary": "衛元嵩《周易元包》十卷（（蘇源明傳，李江注））"
-    }
-  ],
-  "id": "1evcsw4pcpjwg",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "衛元嵩",
-      "role": "撰",
-      "dynasty": "北周",
-      "entity_id": "1j96hep4o7f9c",
-      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》之著錄題撰人「衛元嵩」，庫中同名 entity 唯一（`1j96hep4o7f9c`，代「北周」）。衛元嵩《元包》，北周之書，唐蘇源明傳、李江注，宋韋漢卿音，源流分明。"
-    }
-  ],
-  "dynasty": "北周",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「北周」。本條原以《宋史藝文志》為上限（song），今得撰人，收窄至 nanbeichao。撰書相符之由見 authors[].name_basis。",
   "_promoted_to": "d59f2845twxu",
-  "_promoted_at": "2026-08-24T18:50:51Z"
+  "_promoted_at": "2026-08-24T18:50:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2845twxu。"
 }

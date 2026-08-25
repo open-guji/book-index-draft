@@ -1,74 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkac0inuww0",
   "type": "work",
   "title": "毛詩注疏",
-  "authors": [
-    {
-      "name": "毛亨",
-      "role": "傳",
-      "dynasty": "西漢",
-      "entity_id": "1j96hl75992bk"
-    },
-    {
-      "name": "鄭玄",
-      "role": "箋",
-      "dynasty": "東漢",
-      "entity_id": "1j9678njjg2rr"
-    },
-    {
-      "name": "孔穎達",
-      "role": "疏",
-      "dynasty": "唐",
-      "entity_id": "1j98owze20tts"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀001073-001077）。日本室町末期鈔配備江戶中期鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-21 補 original_title「毛詩」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 升格前斷代訂正（注疏本繫年之據，從成編之世）：本條 period 原按最早之注者（漢人）定為 qin-han，誤。依 SCHEMA〈坊刻編本是獨立 Work〉之判準——成書之結構與內容與原書不一致者即新 Work，而其連帶三則明定「period 從成編之世」——注疏本非漢人之書，乃後世疏家取經、注而別為一書者，斷代當從疏成之世。今改繫 sui-tang，補鄭玄「箋」、孔穎達「疏」，毛亨「傳」留為底傳。",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 5
-    }
-  ],
-  "measure_info": "五冊",
-  "id": "1evkac0inuww0",
-  "books": [
-    "11qkhvm4m4w00",
-    "11qkhy7pz8hds",
-    "11qkhyl0nc9a8",
-    "11qkhyp8ugs8w",
-    "11qki0haloc8w",
-    "11qki2outzvuo"
-  ],
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1ahwtau87mm80",
-      "title": "十三經",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ahwtau9gw0zk",
-      "title": "十三經注疏",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "sui-tang",
-  "period_basis": "成編之世：唐孔穎達《毛詩正義》之異題，毛傳、鄭箋、孔疏三層合刻。",
-  "original_title": "毛詩",
   "_promoted_to": "d59f28nnje2s",
-  "_promoted_at": "2026-08-24T19:28:19Z"
+  "_promoted_at": "2026-08-24T19:28:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nnje2s。"
 }

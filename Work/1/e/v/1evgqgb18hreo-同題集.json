@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqgb18hreo",
   "type": "work",
   "title": "同題集",
-  "authors": [
-    {
-      "name": "柳玄",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da97uujp"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《同題集》十卷",
-      "summary": "《同題集》十卷（唐柳玄集）",
-      "author_info": "唐柳玄集"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "柳玄同題集",
-      "summary": "柳玄同題集十卷",
-      "merged_from": "1evcs189mosn4"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqgb18hreo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "merged_in": [
-    {
-      "id": "1evcs189mosn4",
-      "title": "柳玄同題集",
-      "author": "柳玄",
-      "title_info": "柳玄同題集",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「柳玄同題集」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「柳玄」已見本條 authors[]），裸題「同題集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28l2twqu",
-  "_promoted_at": "2026-08-24T19:23:22Z"
+  "_promoted_at": "2026-08-24T19:23:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28l2twqu。"
 }

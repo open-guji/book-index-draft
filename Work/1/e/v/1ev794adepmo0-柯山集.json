@@ -3,76 +3,7 @@
   "id": "1ev794adepmo0",
   "type": "work",
   "title": "柯山集",
-  "authors": [
-    {
-      "name": "張耒",
-      "dynasty": "北宋",
-      "role": "撰",
-      "entity_id": "1j967avzk3lso",
-      "dynasty_basis": "entity_propagation:1j967avzk3lso"
-    }
-  ],
-  "books": [
-    "11q6si76i6vwg",
-    "11qkhxa21qzuo",
-    "11qki2cbdesjk"
-  ],
-  "resources": [
-    {
-      "id": "shidianguji-sikuquanshuben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/SK2387",
-      "metadata": {
-        "edition": "四庫全書本",
-        "version": "v4",
-        "total_page": 1663,
-        "paragraph_count": 3577,
-        "has_translation": true,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/06049233.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "柯山集",
-      "summary": "《柯山集》五十卷。{{宋張耒。聚珍本，福本。}}",
-      "author_info": "張耒"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "柯山集"
-    }
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "description": {
-    "text": "張耒（北宋）撰。見著錄於《書目答問》《直齋書錄解題》。其著錄之文，《書目答問》作「《柯山集》五十卷」。別集之屬，所收為其人之詩文。《書目答問》清張之洞撰；《直齋書錄解題》南宋陳振孫撰——本書之目賴之以存。",
-    "sources": [
-      "書目答問",
-      "直齋書錄解題"
-    ]
-  },
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2hpreo76",
-  "_promoted_at": "2026-08-25T05:55:09Z"
+  "_promoted_at": "2026-08-25T05:55:09Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hpreo76。"
 }

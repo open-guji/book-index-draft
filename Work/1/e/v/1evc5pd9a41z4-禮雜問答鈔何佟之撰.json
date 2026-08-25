@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pd9a41z4",
   "type": "work",
   "title": "禮雜問答鈔何佟之撰",
-  "original_title": "禮雜問答鈔",
-  "authors": [
-    {
-      "name": "何佟之",
-      "entity_id": "1j96afes7xrls",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96afes7xrls`（何佟之）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《禮雜問答鈔》一卷",
-      "summary": "《禮雜問答鈔》一卷何佟之撰。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "何佟之撰。",
-    "sources": []
-  },
-  "id": "1evc5pd9a41z4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "禮雜問答鈔一卷何佟之撰",
-      "summary": "何佟之見前。\n按此及前三書,似皆是何氏《答問》之别本。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-22T04:56:00.109242+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「何佟之」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "ai_note": "N4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
   "_promoted_to": "d59f2860bgn4",
-  "_promoted_at": "2026-08-24T18:54:24Z"
+  "_promoted_at": "2026-08-24T18:54:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2860bgn4。"
 }

@@ -2,80 +2,8 @@
   "schema_version": 1,
   "id": "1evhnsblig7pc",
   "type": "work",
-  "subtype": "article",
   "title": "二十九年之罘刻石文",
-  "authors": [
-    {
-      "name": "嬴政",
-      "dynasty": "秦",
-      "role": "作",
-      "entity_id": "1j968iupu11ql"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%8C%E5%8D%81%E4%B9%9D%E5%B9%B4%E4%B9%8B%E7%BD%98%E5%88%BB%E7%9F%B3%E6%96%87&action=edit&redlink=1",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1evhnsbbfqghs",
-      "title": "二十八年泰山刻石文",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    },
-    {
-      "id": "1evhnsbgi11q8",
-      "title": "琅邪臺立石刻文",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    },
-    {
-      "id": "1evhnsbqjt3b4",
-      "title": "東觀刻石文",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    },
-    {
-      "id": "1evhnsbvjajnk",
-      "title": "三十二年刻碣石門",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    },
-    {
-      "id": "1evhnsc0fnmkg",
-      "title": "三十七年會稽立石刻文",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    },
-    {
-      "id": "1evgorjm3e60w",
-      "title": "嶧山刻石",
-      "relation": "related",
-      "note": "秦始皇統一天下後歷次東巡所立刻石，通稱「秦始皇刻石」系列"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「秦」",
-  "description": {
-    "text": "秦始皇二十九年（前218）登之罘所立刻石之文，頌烹滅強暴、振救黔首之功。文載《史記·秦始皇本紀》；原石久佚。收入《正續古文辭類纂》。",
-    "sources": [
-      "正續古文辭類纂"
-    ]
-  },
-  "ai_note": "2026-08-23 秦代推進：description 由空補寫，所據為《史記》所載與通行學術常識。文載《史記》故今存，loss_status 依例不設；石之存毀記於 desc，石乃實物非 Work，不入存佚軸。",
   "_promoted_to": "d59f23o20ykk",
-  "_promoted_at": "2026-08-24T13:43:06Z"
+  "_promoted_at": "2026-08-24T13:43:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f23o20ykk。"
 }

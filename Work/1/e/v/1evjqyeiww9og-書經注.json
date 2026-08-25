@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjqyeiww9og",
   "type": "work",
   "title": "書經注",
-  "authors": [
-    {
-      "name": "金履祥",
-      "role": "撰",
-      "dynasty": "宋末元初",
-      "entity_id": "1j967c149uic3",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×17／song×7 諸桶。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《書經注》十二卷",
-      "author_info": "元金履祥撰",
-      "summary": "《書經注》十二卷。元金履祥撰。影印上海辭書出版社圖書館藏清光緒五年陸心源刻十萬卷樓叢書本。",
-      "edition": "影印上海辭書出版社圖書館藏清光緒五年陸心源刻十萬卷樓叢書本",
-      "volume": "第42冊",
-      "section": "经部 書類"
-    }
-  ],
-  "description": {
-    "text": "金履祥（元）撰。十二卷。見著錄於《續修四庫全書》。《續修四庫全書》列於经部 書類。其著錄之文，《續修四庫全書》作「《書經注》十二卷」。本書惟《續修四庫全書》一志著錄，別無他證。經注之屬。本書為《偽古文尚書》之注釋，其文附原典以行。《續修四庫全書》一九九五年影印——本書之目賴之以存。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L5：撰人「金履祥」之代由「元」歸一為「宋末元初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "id": "1evjqyeiww9og",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0042%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 42
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2gf9zg1t",
-  "_promoted_at": "2026-08-25T04:25:48Z"
+  "_promoted_at": "2026-08-25T04:25:48Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gf9zg1t。"
 }

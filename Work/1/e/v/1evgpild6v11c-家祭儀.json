@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpild6v11c",
   "type": "work",
   "title": "家祭儀",
-  "authors": [
-    {
-      "name": "徐潤",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jae2gjvdt6ve"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《家祭儀》一卷",
-      "summary": "《家祭儀》一卷（唐徐潤）",
-      "author_info": "唐徐潤"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《家祭儀》",
-      "summary": "徐閏《家祭儀》一卷鄭正則",
-      "note": "「徐閏」（閏）與「徐潤」（潤）形近異寫，句末「鄭正則」屬下一條之領頭撰人。",
-      "merged_from": "1evcsxg9wcg74"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者繫連改指：原繫人物 1j96hjwlylnpk，該記錄實混同名而異代之兩人；本書撰者為唐之徐潤，今改指新立人物 1jae2gjvdt6ve。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-15 全庫同名異書核對：併入 1evcsxg9wcg74（宋史藝文志「徐閏《家祭儀》一卷」，「閏」為「潤」形近異寫），撰人卷數全合，逕併，刪除該條。",
-  "id": "1evgpild6v11c",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28kd8g79",
-  "_promoted_at": "2026-08-24T19:22:00Z"
+  "_promoted_at": "2026-08-24T19:22:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kd8g79。"
 }

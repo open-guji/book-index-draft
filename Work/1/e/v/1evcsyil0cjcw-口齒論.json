@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyil0cjcw",
   "type": "work",
   "title": "口齒論",
-  "authors": [
-    {
-      "name": "張仲景",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j96ad68m1zpc",
-      "note": "宋史藝文志原文「又」承前條張仲景《療黃經》一卷，表同一撰人另一著作。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《口齒論》",
-      "summary": "又《口齒論》一卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "張仲景口齒論一卷",
-      "summary": "張仲景口齒論一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《張仲景口齒論》一卷",
-      "summary": "《張仲景口齒論》一卷"
-    }
-  ],
-  "ai_note": "2026-08-15 全庫同名異書核對：本條原文「又《口齒論》一卷」，「又」承接同段前一條（張仲景《療黃經》一卷，1evcsyikpf8cg）表同一撰人另一著作，據以補撰人及卷數。\n\n2026-08-24 兩漢升格前清賬（撰人字首式候選逐核）：自 1evr5e3mg8nn5（題「張仲景口齒論」，崇文＋國史）併入——同撰人同書同卷數，撰人折入題名之形，今併，其題存 additional_titles。按：崇文另有裸題《口齒論》一卷 1evr5e3mg8nn9，前案已核為別家之書（原文未著撰人），不併。",
-  "dynasty": "東漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」",
-  "id": "1evcsyil0cjcw",
-  "updated_at": "2026-08-15",
-  "additional_titles": [
-    "張仲景口齒論"
-  ],
   "_promoted_to": "d59f24louhoh",
-  "_promoted_at": "2026-08-24T14:47:45Z"
+  "_promoted_at": "2026-08-24T14:47:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24louhoh。"
 }

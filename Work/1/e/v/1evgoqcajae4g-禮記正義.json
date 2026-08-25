@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqcajae4g",
   "type": "work",
   "title": "禮記正義",
-  "authors": [
-    {
-      "name": "賈公彥",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96haa0o3wu8",
-      "original_name": "賈公彦"
-    }
-  ],
-  "juan_count": {
-    "number": 80
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《禮記正義》八十卷",
-      "summary": "《禮記正義》八十卷（唐賈公彦）",
-      "author_info": "唐賈公彦"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "賈公彥禮記正義",
-      "summary": "賈公彥禮記正義八十卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved | 《新唐書藝文志》「賈公彥禮記正義」原整批誤掛於三禮原典或《禮記鄭玄注》，今歸本目。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "id": "1evgoqcajae4g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 80
-    }
-  ],
-  "measure_info": "八十卷",
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28mjw93a",
-  "_promoted_at": "2026-08-24T19:26:12Z"
+  "_promoted_at": "2026-08-24T19:26:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mjw93a。"
 }

@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgph7gq9fk0",
   "type": "work",
   "title": "吳唐拾遺錄",
-  "authors": [
-    {
-      "name": "許氏",
-      "role": "撰",
-      "entity_id": "1j96h8rw86q1m",
-      "dynasty": "元",
-      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw86q1m`（許氏）之 dynasty「元」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《吳唐拾遺録》十卷",
-      "summary": "《吳唐拾遺録》十卷（許氏。）",
-      "author_info": "許氏。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《吳唐拾遺錄》",
-      "summary": "許載《吳唐拾遺錄》十卷樂史",
-      "merged_from": "1evgph7gq9fk0",
-      "note": "《吳唐拾遺録》與《吳唐拾遺錄》之別，僅在異體字（吳唐拾遺録／吳唐拾遺錄），題名歸一後全同；本條10卷而彼條不著卷數；彼條無撰人而本條作「許氏」。二者著錄異源（國史經籍志 ／ 宋史藝文志），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "許氏撰。十卷。見著錄於《國史經籍志》《宋史藝文志》。其著錄之文，《宋史藝文志》作「許載《吳唐拾遺錄》十卷樂史」。《國史經籍志》明焦竑撰；《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "宋史藝文志"
-    ]
-  },
-  "id": "1evgph7gq9fk0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "撰人 Entity 之代：許氏（Entity 1j96h8rw86q1m），並經 CBDB c_personid 28599 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "additional_titles": [
-    "吳唐拾遺録"
-  ],
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evcsxer8vocg`（吳唐拾遺録）。2026-08-23 B4 異體字重出併池：併入 `1evcsxer8vocg`（宋史藝文志，題作《吳唐拾遺錄》，不著卷數）。二題之別僅在異體字，歸一後全同，本條10卷而彼條不著卷數；彼條無撰人而本條作「許氏」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《吳唐拾遺録》，所用「吳唐拾遺録」係著錄原文之異體；今正為通行之《吳唐拾遺錄》，原形移入 additional_titles 備檢。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "_promoted_to": "d59f2gmj92ps",
-  "_promoted_at": "2026-08-25T04:39:45Z"
+  "_promoted_at": "2026-08-25T04:39:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmj92ps。"
 }

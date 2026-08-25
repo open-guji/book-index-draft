@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ev7xm3qoyi9s",
   "type": "work",
   "title": "李步昌賦",
-  "authors": [
-    {
-      "name": "李步昌",
-      "role": "撰",
-      "dynasty": "西漢",
-      "entity_id": "1j96ha6ntpi4g"
-    }
-  ],
-  "description": {
-    "text": "《漢書·藝文志》著錄詩賦略「李步昌賦二篇」。李步昌，宣帝時鉤盾冗從（諸子略別著其書八篇），數言事。賦不傳。",
-    "sources": [
-      "漢書藝文志"
-    ]
-  },
-  "ai_note": "李步昌賦二篇，已亡佚。子部儒家有《鉤盾冗從李步昌》八篇。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-24 兩漢H4（漢志借力批）：description 補寫。所據為漢志著錄行（含班固自注／顏注）及通行學術常識。\n\n2026-08-24 兩漢H8（斷代收尾）：撰人 dynasty 補正——李步昌補「西漢」（宣帝時鉤盾冗從）。無考者仍留空／留「漢」，不強判。",
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "李步昌賦二篇",
-      "summary": "李步昌賦二篇。",
-      "section": "詩賦略／賦",
-      "page": "KR2a0007_WYG_030-42a",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
-    }
-  ],
-  "id": "1ev7xm3qoyi9s",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "篇",
-      "number": 2
-    }
-  ],
-  "measure_info": "二篇",
-  "related_works": [
-    {
-      "id": "1ev7xkhh0z6rk",
-      "title": "鉤盾冗從李步昌",
-      "relation": "related",
-      "note": "同為李步昌所撰。漢志諸子略儒家類著錄《鉤盾冗從李步昌》八篇，自注「宣帝時數言事」。"
-    }
-  ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
   "_promoted_to": "d59f23nq5xxe",
-  "_promoted_at": "2026-08-24T13:42:28Z"
+  "_promoted_at": "2026-08-24T13:42:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f23nq5xxe。"
 }

@@ -2,51 +2,8 @@
   "schema_version": 1,
   "id": "1evhnt4y7k45c",
   "type": "work",
-  "subtype": "article",
   "title": "登徒子好色賦",
-  "authors": [
-    {
-      "name": "宋玉",
-      "dynasty": "先秦",
-      "role": "作",
-      "entity_id": "1j96glo90rdhf",
-      "dynasty_basis": "entity_propagation:1j96glo90rdhf"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E7%99%BB%E5%BE%92%E5%AD%90%E5%A5%BD%E8%89%B2%E8%B3%A6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    },
-    {
-      "id": "d59f2870u874",
-      "title": "文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「先秦」（規則1 粗粒度自消歧）",
-  "description": {
-    "text": "宋玉作，《文選》卷十九「賦·情」類著錄。大夫登徒子短宋玉於楚王，謂其好色；玉乃以「東家之子，增之一分則太長，減之一分則太短」自明其不惑，反以登徒子妻之醜而生五子相譏。「登徒子」遂為好色者之代稱。",
-    "sources": [
-      "正續古文辭類纂",
-      "文選"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f2ew85r7n",
-  "_promoted_at": "2026-08-25T02:39:59Z"
+  "_promoted_at": "2026-08-25T02:39:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew85r7n。"
 }

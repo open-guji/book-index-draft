@@ -1,29 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ewozjm3qc37w",
   "type": "work",
   "title": "昭后",
-  "description": {
-    "text": "清華簡書類佚篇，訓典之屬，與《成后》原編連為一卷。竹簡 7 支。記周昭王之訓辭與治國之道，所涉昭王事跡為傳世文獻所罕載，於西周中期史事之考尤為要籍。",
-    "sources": [
-      "清華大學出土文獻研究與保護中心編《清華大學藏戰國竹簡》整理報告（中西書局）"
-    ]
-  },
-  "related_works": [],
-  "books": [
-    "11rosp50wmx59"
-  ],
-  "ai_note": "據網路檢索資料建檔，未核原書。\n\n2026-08-24 J10：本篇於 Work 層補 contained_in，繫其所出之簡冊叢編（取自本篇所繫 Book 之 contained_in）。出土之逸篇不隸於任何傳世之書——謂其 part_of《尚書》是把逸篇當今本之篇，不實；其載體正是所出之簡冊，SCHEMA 之 contained_in 即為此設。\n\n2026-08-24 J10：本篇 description 原不足五十字，今就整理者所定之篇旨與簡數補足，所據為清華簡整理報告之通說，**未覆核簡影**。",
-  "id": "1ewozjm3qc37w",
-  "subtype": "chapter",
-  "authors": [],
-  "updated_at": "2026-07-29T05:28:21+00:00",
-  "period": "pre-qin",
-  "period_basis": "excavation_bound：本書出於戰國楚簡——簡帛抄寫之年不早於成書之年，故定為 pre-qin",
-  "contained_in": [
-    {
-      "id": "1ai3d1rf9rt34"
-    }
-  ],
   "_promoted_to": "d59f2evldfk4",
-  "_promoted_at": "2026-08-25T02:38:46Z"
+  "_promoted_at": "2026-08-25T02:38:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2evldfk4。"
 }

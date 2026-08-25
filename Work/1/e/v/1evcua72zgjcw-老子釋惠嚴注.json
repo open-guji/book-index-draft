@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcua72zgjcw",
   "type": "work",
   "title": "老子釋惠嚴注",
-  "original_title": "老子",
-  "related_works": [
-    {
-      "id": "d59ezkx8dt6o",
-      "title": "道德經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《老子》二卷釋惠嚴注。",
-      "summary": "《老子》二卷釋惠嚴注。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "釋惠嚴",
-      "entity_id": "1j96hli541a0w",
-      "dynasty": "南朝宋",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hli541a0w`（釋惠嚴）之 dynasty「宋」。其據見該 entity 之 dynasty_basis。 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
-    }
-  ],
-  "id": "1evcua72zgjcw",
-  "updated_at": "2026-08-24T04:34:30.818752+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，其 Entity「釋惠嚴」之 dynasty「宋」有歧義，而上限 sui-tang 排除其晚解，故必 nanbeichao（2026-08-24 R2）",
-  "ai_note": "N4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN4 朝代名歸一（2026-08-24）：釋惠嚴「宋」→「南朝宋」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
   "_promoted_to": "d59f284a78jn",
-  "_promoted_at": "2026-08-24T18:51:05Z"
+  "_promoted_at": "2026-08-24T18:51:05Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f284a78jn。"
 }
