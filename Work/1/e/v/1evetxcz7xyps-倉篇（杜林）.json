@@ -7,7 +7,9 @@
     {
       "name": "杜林",
       "role": "撰",
-      "entity_id": "1j96hllg2p6v4"
+      "entity_id": "1j96hleip0vls",
+      "dynasty": "東漢",
+      "name_basis": "2026-08-25 清代輪 S7 前置修訂：原繫 entity 1j96hllg2p6v4 實為「汪應銓」（清），與本條撰人「杜林」全不相干，係誤繫（原判「period=qing」即坐此而生）。今正繫庫中既有杜林（東漢）entity 1j96hleip0vls（已繫其他 4 部撰／注之作）。"
     }
   ],
   "juan_count": {
@@ -21,7 +23,7 @@
       "title_info": "梁有《倉篇》二卷，杜林注"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有《倉篇》二卷，杜林注，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有《倉篇》二卷，杜林注，亡」。\n\n2026-08-25 清代輪 S7 前置修訂：本條原繫 entity 誤指「汪應銓」（清），致 period 誤判為 qing——實則撰人杜林為東漢人（隋書經籍志考證「後漢司空杜林注」），今正 entity 繫連並移正 period=qin-han、桶自 qing 移 qin-han。又補 indexed_by（原引文只在 emendated_by，未入 indexed_by，屬「emendated_by≠indexed_by」型缺口，一併補）。",
   "measures": [
     {
       "unit": "卷",
@@ -30,6 +32,16 @@
   ],
   "measure_info": "二卷",
   "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "撰人 Entity 之代：杜林（Entity 1j96hllg2p6v4），並經 CBDB c_personid 354839 覆驗相符"
+  "period": "qin-han",
+  "period_basis": "據撰人杜林（東漢）之朝代，entity 誤繫已訂正（見 authors[0].name_basis）。",
+  "indexed_by": [
+    {
+      "source": "隋書經籍志考證",
+      "source_bid": "1evdlszdhf5z4",
+      "title_info": "梁有《倉篇》二卷，杜林注",
+      "summary": "梁有《倉篇》二卷,後漢司空杜林注,亡。"
+    }
+  ],
+  "dynasty": "東漢",
+  "dynasty_basis": "author_propagation:杜林東漢"
 }
