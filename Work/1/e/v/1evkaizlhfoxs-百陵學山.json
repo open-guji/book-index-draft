@@ -17,7 +17,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條著錄來源（國立故宮博物院善本舊籍，統一編號見 indexed_by.catalog_no）原僅存於 description 之散文，今結構化補入 indexed_by（機械抽取，未增未減）。",
   "juan_count": {
     "number": 14
   },
@@ -33,5 +33,16 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "百陵學山",
+      "summary": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖012443-012456）。明隆慶戊辰(二年)刊萬曆甲申(十二年)重編印本。",
+      "edition": "明隆慶戊辰(二年)刊萬曆甲申(十二年)重編印本。",
+      "catalog_no": "平圖012443-012456"
+    }
+  ],
+  "_promoted_to": "d59f2nig6e4g",
+  "_promoted_at": "2026-08-25T12:36:17Z"
 }
