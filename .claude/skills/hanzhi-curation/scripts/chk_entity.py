@@ -92,8 +92,19 @@ def main():
 
     byname = collections.defaultdict(list)
 
+    tombs = {i for i, d in ents.items() if d.get('_promoted_to')}
     for i, d in ents.items():
         p = paths[i]
+        if i in tombs:
+            # 墓碑只驗三事：id 之位、索引之 promoted_to、promotions.json 之相符。
+            # 其內容已移 production，draft 側不再 curate，故不驗名、代、works。
+            e = IE.get(i)
+            if e is None: A['墓碑未入索引'].append((i, p))
+            elif e.get('promoted_to') != d['_promoted_to']:
+                A['索引之 promoted_to 與墓碑不符'].append((i, e.get('promoted_to'), d['_promoted_to']))
+            if PRm.get(i, {}).get('production_id') != d['_promoted_to']:
+                A['promotions.json 與墓碑不符'].append((i, d['_promoted_to']))
+            continue
         # 一、id 之形與位
         if len(i) != 13 or any(c not in DIG for c in i):
             A['id 形制不合（須十三位 base36）'].append((i, p))
@@ -196,6 +207,8 @@ def main():
         o = json.load(open(fp))
         for k, v in o.items():
             if k not in ents: A['索引指向不存在之 entity'].append((k, v.get('path')))
+            elif v.get('promoted_to') and k not in tombs:
+                A['索引標 promoted_to 而記錄檔非墓碑'].append((k,))
             if shard(k) != s: A['索引分片錯置'].append((k, s, shard(k)))
         if list(o) != sorted(o): A['索引檔鍵未按 id 排序'].append((fp,))
 

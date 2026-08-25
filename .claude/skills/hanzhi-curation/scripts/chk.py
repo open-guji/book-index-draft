@@ -188,6 +188,14 @@ print('人物→作品 單向',e_only,' 作品→人物 單向',w_only)
 # work 之 authors[].entity_id 指向已不存在（多是併池退役而未隨遷）之 entity。
 # 2026-08-24 立此驗：舊法只在該 entity 一側亦宣稱其書時，才由上一行間接照出；
 # 若兩側俱未宣稱，則全無人知。實測查出二條（古文官書衛敬仲撰、萬譏論）。
+# entity 升格之後，work 之 authors[].entity_id 改指 production id；
+# 該 id 不在 draft 之 index/entities 中，若不備此集則盡報為「已退役」。
+_PENT=set()
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Entity/*/*/*/*.json'):
+        try: _PENT.add(json.load(open(_p))['id'])
+        except Exception: pass
+_PENT |= {v['production_id'] for v in _PR.values() if v.get('type')=='entity'}
 _deadent=[]
 for _w,_e in IW.items():
     try: _d=json.load(open(_e['path']))
@@ -195,8 +203,10 @@ for _w,_e in IW.items():
     for _a in (_d.get('authors') or []):
         if not isinstance(_a,dict): continue
         _i=_a.get('entity_id')
-        if isinstance(_i,str) and _i and _i not in IE: _deadent.append((_w,_a.get('name'),_i))
-print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0')
+        if isinstance(_i,str) and _i and _i not in IE and _i not in _PENT:
+            _deadent.append((_w,_a.get('name'),_i))
+print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0'
+      + ('（production entity %d 條不計——已升格者之 id 正當如此）' % len(_PENT) if _PENT else ''))
 for x in _deadent[:8]: print('  ',x)
 
 # 整理本 section 之 work_ids ↔ work 之 emendated_by
