@@ -26,5 +26,6 @@
   "external_ids": {},
   "updated_at": "2026-08-24T00:00:00+00:00",
   "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 period未定批次·entity dynasty 数据 bug 修正：dynasty 原誤作「宋」——與本 entity 名下已升格之三部作品（音譜、修續音韻訣疑、戰國春秋，production 側 period 皆 nanbeichao）相斥，逕正為南北朝，不更細分。",
-  "period": "nanbeichao"
+  "period": "nanbeichao",
+  "period_basis": "dynasty「宋」有歧義（可解為 nanbeichao、song），而所繫之 work 之代唯 nanbeichao 一解與之相合，故定之。（2026-08-24 補）"
 }
