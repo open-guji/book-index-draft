@@ -192,3 +192,32 @@ for bid in (s.get('books') or []):          # 源條之 Book 改指存留者
 ```
 
 2026-08-25 無斷代輪跨庫併 84 條時漏此步，遺 7 個孤兒 Book（涉 4 個被併之 work），已修。
+
+## 跨庫併條：production 側之引用無人改，`merged_from` 亦無人寫
+
+上一條記的是 Book 之漏；此處記其餘二漏——三者同一病根：
+`repoint_all` 與 `merge_ib` 都是**為同倉併寫的**，跨庫併照抄即漏。
+
+**一、`repoint_all(src, tgt, root)` 只掃它拿到的那個 `root`。**
+跨庫併時 root 傳的是 draft（源在 draft），於是 production 側凡指著源之
+`work_id`（整理本節、叢書卷冊映射）與 related_works 之 `id` 一概不改。
+源檔一刪，這些引用即懸空——而 `validate-promotions` 看不見（源未升格，
+不在 promotions 表內，E04 不管），`chk` 之〈懸空關聯〉亦只掃 draft。
+**兩庫都要掃**：
+
+```python
+repoint_all(src, tgt, ROOT)    # draft
+repoint_all(src, tgt, PROD)    # production —— 這一行常被漏掉
+```
+
+**二、`merge_ib` 不寫 `merged_from`。**（前文已記其於 production 內並條之害；
+跨庫併同樣中招。）不寫則來歷失載：主條看不出它曾併過誰，
+日後見同題二 id 亦不知其為併。跨庫併之後須自行補：
+
+```python
+t.setdefault('merged_from', []).append(src)
+```
+
+2026-08-25 無斷代輪跨庫併 84 條，二漏俱全：production 側 114 處引用懸空、
+84 條主條無 `merged_from`，事後補掃始得。
+**故：跨庫併不可照抄同倉之四步，須用一份專為跨庫寫的函式。**
