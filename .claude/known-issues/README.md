@@ -221,3 +221,42 @@ t.setdefault('merged_from', []).append(src)
 2026-08-25 無斷代輪跨庫併 84 條，二漏俱全：production 側 114 處引用懸空、
 84 條主條無 `merged_from`，事後補掃始得。
 **故：跨庫併不可照抄同倉之四步，須用一份專為跨庫寫的函式。**
+
+## `promotions.json` 非原子寫——程序被殺即留下半個壞檔
+
+`PromotionsStore.save` 之寫盤是 `open(self.path, "w")` 就地截斷再 `json.dump`
+（`book_index_manager/promotion.py`）。而 promote 是**每升一條存一次**，
+於是這個「先截斷、後寫滿」的窗口每條書都開一次。程序若在窗口裡死掉
+——被 `timeout` 的 SIGTERM 攔腰砍、被 Ctrl-C、機器斷電——磁上留下的
+就是一個截了一半的 `promotions.json`。
+
+2026-08-25 末批升格實遇：`timeout 900` 到點發 SIGTERM，77,392 目之檔
+只剩 81,103 行（應為 386,965 行），`json.load` 當場報
+`Expecting ':' delimiter`。**升格記錄是唯一一份 draft↔production 的對照表，
+它壞了，`validate-promotions`、`sweep-promoted-refs`、撞號檢測全部失效。**
+
+**救法**（本次即如此救回，一目未失）：
+
+1. `git show HEAD:promotions.json` 取回上一次提交之完整檔——**故升格前必先提交**；
+2. 掃 draft 之 `_promoted_to`／`_promoted_at` 與 production 檔之在否，
+   判出「已升而記錄失載」者，逐條補回；
+3. 補完必驗一對多之數不增（增即是撞號覆寫，見〈promote 撞號〉一則）。
+
+**防法**：寫暫存檔再 `os.replace`（同檔案系統上原子），殺在任何一刻，
+磁上要麼是舊的完整檔、要麼是新的完整檔：
+
+```python
+tmp = str(self.path) + '.tmp'
+with open(tmp, 'w', encoding='utf-8') as f:
+    json.dump(payload, f, indent=2, ensure_ascii=False)
+    f.write('\n')          # SCHEMA〈JSON 書寫格式〉：檔尾一個換行
+    f.flush(); os.fsync(f.fileno())
+os.replace(tmp, self.path)
+```
+
+眼下以 monkeypatch 行之（`promote_rest.py`），**當入 book-index-manager**。
+
+**又：長批升格不要套 `timeout`。** 逐條引用重寫要掃全倉，而 15 萬檔只落在
+20 個目錄（見〈分片退化〉），每條都掃一遍即分鐘級。長批當用
+`--no-rewrite-refs` 而收工跑一次 `sweep-promoted-refs.py`——它是冪等的，
+掃一次與逐條掃等價，且不必賭在超時之前跑完。
