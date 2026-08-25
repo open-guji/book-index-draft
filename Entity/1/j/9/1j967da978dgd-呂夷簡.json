@@ -49,6 +49,10 @@
     {
       "work_id": "1evcsx7zb8e80",
       "role": "撰"
+    },
+    {
+      "work_id": "1evgphdlx58u8",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -56,7 +60,7 @@
     "cbdb_match": "manual",
     "cbdb_source": "manual+pid_8100_呂夷簡_dy15"
   },
-  "ai_note": "人物合併：庫中原另有同名記錄 1j96haa9vap6o，其唯一別名即本名而標作「异体」，無生卒、作品僅 2 條，係匯入時所建之殼記錄。二者姓名相同、朝代不相衝突（殼作「空」，本條作「宋」），今併入本條，移入作品 2 條，殼記錄刪除。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 5 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。",
+  "ai_note": "人物合併：庫中原另有同名記錄 1j96haa9vap6o，其唯一別名即本名而標作「异体」，無生卒、作品僅 2 條，係匯入時所建之殼記錄。二者姓名相同、朝代不相衝突（殼作「空」，本條作「宋」），今併入本條，移入作品 2 條，殼記錄刪除。\n\n2026-08-24 宋志頂真格抽撰人：本 entity 收 5 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條，而本條 works 未回指（chk〈作品→人物 單向〉），今補——`1evgphdlx58u8`《三朝寶訓》。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "dynasty_basis": "cbdb:birth/death_name=北宋",
   "period": "song",
