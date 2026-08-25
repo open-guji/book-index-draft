@@ -7,7 +7,9 @@
     {
       "name": "羅貫中",
       "role": "編次",
-      "entity_id": "1j96a3rlxwt8y"
+      "entity_id": "1j96a3rlxwt8y",
+      "dynasty": "元末明初",
+      "dynasty_basis": "entity_propagation:1j96a3rlxwt8y（J21 S5 收尾）"
     }
   ],
   "description": {
@@ -56,5 +58,8 @@
   "period_upper": "qing",
   "period_upper_basis": "catalog_bound：《中國通俗小說書目》明清小說部自標所收之代，故不晚於 qing",
   "period": "ming",
-  "period_basis": "二十回本題「東原羅貫中編次」，羅貫中為元末明初人，現存最早為明萬曆間王慎修刊本，跨代故medium。　複審採納：二十回本題羅貫中編次，其人元末明初，小說通繫於明（2026-08-24 B1 medium 複審）"
+  "period_basis": "二十回本題「東原羅貫中編次」，羅貫中為元末明初人，現存最早為明萬曆間王慎修刊本，跨代故medium。　複審採納：二十回本題羅貫中編次，其人元末明初，小說通繫於明（2026-08-24 B1 medium 複審）",
+  "dynasty": "元末明初",
+  "dynasty_basis": "據 authors[0].dynasty「元末明初」（entity propagation，J21 S5 收尾）",
+  "ai_note": "2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j96a3rlxwt8y`.dynasty「元末明初」propagate 補齊；work.dynasty 同步。"
 }

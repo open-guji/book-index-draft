@@ -7,10 +7,11 @@
     {
       "name": "張孚敬",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "明",
       "entity_id": "1j969m70q2eqa",
       "note": "據本 work 諸著錄之 author_info「張孚敬」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「張孚敬」而無 entity_id，今繫 `1j969m70q2eqa`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「張孚敬」而無 entity_id，今繫 `1j969m70q2eqa`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。",
+      "dynasty_basis": "entity_propagation:1j969m70q2eqa（J21 S5 收尾）"
     }
   ],
   "indexed_by": [
@@ -77,7 +78,7 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「張孚敬」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「張孚敬」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j969m70q2eqa`.dynasty「明」propagate 補齊；work.dynasty 同步。",
   "period": "ming",
   "period_basis": "志書子目斷代：《國史經籍志》制書類——該類 259 條中 249 條為 ming（96.1%），合 SCHEMA 斷代之驗（明史志 98%、清史稿 94%）。本條由整理本繫連而得，非題名字串",
   "period_upper": "ming",
@@ -88,5 +89,7 @@
       "欽定四庫全書總目",
       "國史經籍志"
     ]
-  }
+  },
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）"
 }
