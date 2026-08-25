@@ -54,5 +54,7 @@
   "period_basis": "著錄原文自書撰人朝代：《中國通俗小說書目》「\n明周楫撰」",
   "period_upper": "ming",
   "period_upper_basis": "edition_bound：所掛版本中最早者為「明末雲林聚錦堂刻本」——版本之年不早於成書之年，故不晚於 ming",
-  "ai_note": "2026-08-22 B3 同名異書核對：與 1evgodzadxou8 同題而未予合併——二條同出一志而各有全著錄語、卷數復異，是該志兩著錄，比照《褚仲都講疏》十卷／十六卷之例，先假定為二書。"
+  "ai_note": "2026-08-22 B3 同名異書核對：與 1evgodzadxou8 同題而未予合併——二條同出一志而各有全著錄語、卷數復異，是該志兩著錄，比照《褚仲都講疏》十卷／十六卷之例，先假定為二書。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）"
 }
