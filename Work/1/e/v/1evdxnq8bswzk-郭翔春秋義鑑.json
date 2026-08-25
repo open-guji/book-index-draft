@@ -21,20 +21,6 @@
       "attested_status": "lost",
       "attested_status_raw": "佚",
       "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《春秋義鑒》三十卷王仲孚",
-      "summary": "《春秋義鑒》三十卷王仲孚"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "春秋義鑑三十卷",
-      "summary": "春秋義鑑三十卷",
-      "merged_from": "1evr5e3mfxf4w",
-      "note": "諸志同著《春秋義鑑》，係一書互著（或重出），今合併。"
     }
   ],
   "authors": [
@@ -67,20 +53,7 @@
   "period_basis": "據 authors[0].dynasty「唐」",
   "dynasty": "唐",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-25 宋志頂真格誤剖專項連帶：本條（宋志《春秋義鑒》三十卷、崇文總目《春秋義鑑》三十卷）之撰人依頂真格當是「郭翔」而非題後之「王仲孚」；正之而後見庫中已別有郭翔《春秋義鑑》三十卷（出《新唐書藝文志》「郭翔春秋義鑑三十卷」與《經義考》「唐志三十巻」），卷數正合，實一書之重出。郭翔唐人，其書至宋猶在，故宋志、崇文總目並著錄。今併。\n\n2026-08-25 合流：併入之 `1evcsw81pmo74` 於並行會話「desc 大批」中得 description，本條原無，今承之。\n\n2026-08-25 宋志頂真格誤剖專項連帶：description 首句所題撰人「王仲孚」係並行會話「desc 大批」據著錄原文機讀所得，而該名依頂真格屬次條；今隨 authors 之正而正，並綴案語一句。",
+  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "_promoted_to": "d59f28ml579d",
-  "_promoted_at": "2026-08-24T19:26:16Z",
-  "additional_titles": [
-    "春秋義鑒"
-  ],
-  "merged_from": [
-    "1evcsw81pmo74"
-  ],
-  "description": {
-    "text": "郭翔撰。三十卷。見著錄於《宋史藝文志》《崇文總目》。其著錄之文，《崇文總目》作「春秋義鑑三十卷」。《宋史藝文志》元脫脫等修；《崇文總目》北宋慶曆間王堯臣等奉敕修——本書之目賴之以存。（案：《宋史藝文志》行文用頂真格——題後之名屬次條，故此語中「王仲孚」非本書撰人。詳見 known-issues `宋志頂真格誤剖-20260825.md`。）",
-    "sources": [
-      "宋史藝文志",
-      "崇文總目"
-    ]
-  }
+  "_promoted_at": "2026-08-24T19:26:16Z"
 }
