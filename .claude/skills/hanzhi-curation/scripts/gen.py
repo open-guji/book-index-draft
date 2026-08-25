@@ -32,10 +32,10 @@ def put_idx(kind,entry):
     p=f'index/{d}/{shard(i)}.json'; x=json.load(open(p)); x[i]=entry
     with open(p,'w') as f:
         json.dump(x,f,ensure_ascii=False,indent=IND[d]); f.write('\n')
-def wpath(i,t): return f'Work/{i[0]}/{i[1]}/{i[2]}/{i}-{t}.json'
-def bpath(i,t): return f'Book/{i[0]}/{i[1]}/{i[2]}/{i}-{t}.json'
-def cpath(i,t): return f'Collection/{i[0]}/{i[1]}/{i[2]}/{i}-{t}.json'
-def epath(i,t): return f'Entity/{i[0]}/{i[1]}/{i[2]}/{i}-{t}.json'
+def wpath(i,t): return f'Work/{i[-3]}/{i[-2]}/{i[-1]}/{i}-{t}.json'  # 分片取尾 3 字元
+def bpath(i,t): return f'Book/{i[-3]}/{i[-2]}/{i[-1]}/{i}-{t}.json'
+def cpath(i,t): return f'Collection/{i[-3]}/{i[-2]}/{i[-1]}/{i}-{t}.json'
+def epath(i,t): return f'Entity/{i[-3]}/{i[-2]}/{i[-1]}/{i}-{t}.json'
 def save(p,d):
     os.makedirs(os.path.dirname(p),exist_ok=True)
     json.dump(d,open(p,'w'),ensure_ascii=False,indent=2)

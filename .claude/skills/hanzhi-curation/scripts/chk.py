@@ -36,7 +36,7 @@ print('分片錯置 Work',sum(1 for k in IW if k not in SW[shard(k)]),
 # 一直是綠的；而 qa_work 由 id 推路徑去找，遂報「兩倉都找不到」。
 _misdir=[p for t in ('Work','Book','Collection','Entity')
          for p in glob.glob(t+'/*/*/*/*.json')
-         if list(os.path.basename(p).split('-',1)[0][:3])!=p.split('/')[1:4]]
+         if list(os.path.basename(p).split('-',1)[0][-3:])!=p.split('/')[1:4]]
 print('目錄分片錯置',len(_misdir),'　基線 0（id 前三字元須即其 c1/c2/c3 目錄）')
 for x in _misdir[:8]: print('  錯位',x)
 print('索引指向不存在檔案',sum(1 for v in list(IW.values())+list(IB.values())+list(IC.values())+list(IE.values()) if not os.path.exists(v['path'])),'　基線 0（含 entities；人物併池退役後索引殘留即現於此）')
@@ -737,7 +737,7 @@ if _PR_ROOT:
                 if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
     _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]
     for _i,(_d,_p) in _pw.items():
-        if list(_i[:3])!=_p.split('/')[-4:-1]: _pdir.append(_p)
+        if list(_i[-3:])!=_p.split('/')[-4:-1]: _pdir.append(_p)
         _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
         if not _raw.endswith('\n'): _pfmt.append((_p,'缺檔尾換行'))
         _seen=set()

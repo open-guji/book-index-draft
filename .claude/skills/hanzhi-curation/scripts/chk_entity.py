@@ -113,7 +113,7 @@ def main():
             if (v >> SHIFT_STATUS) & 1 != 1: A['id 之 status 位非 Draft'].append((i, p))
             if (v >> SHIFT_TYPE) & 7 != 4:   A['id 之 type 位非 Entity'].append((i, p))
         # 二、檔名與目錄分片
-        want_dir = f'Entity/{i[0]}/{i[1]}/{i[2]}'
+        want_dir = f'Entity/{i[-3]}/{i[-2]}/{i[-1]}'  # 分片取尾 3 字元
         if os.path.dirname(p) != want_dir:
             A['目錄分片錯置'].append((i, p, want_dir))
         base = os.path.basename(p)
