@@ -133,11 +133,17 @@ for b,ws in w2b.items(): _w2b.setdefault(nz(b),set()).update(nz(x) for x in ws)
 # 會把「Book 指向已升格之 Work」全報成單向——2026-08-23 實測 342 條中 339 條是此假陽性，
 # 真單向只 3 條（道德經漏收之三 Book），而假陽性把它們埋了。故併讀 production 之 books。
 _PROD_ROOT=next((r for r in ('../book-index','book-index') if os.path.isdir(r+'/Work')),None)
+# production 之 Work id 集。IW 只由 draft 索引建，而升格之後庫中互指多已改為
+# production id（sweep-promoted-refs 之所為），只查 IW 便把它們全報成「不存在」。
+# 2026-08-25 無斷代輪：輯佚檔 collectors.work_id 經 sweep 改指已升格之輯本
+# （玉函山房輯佚書 → d59f2mua7w8y），遂誤報一條。
+PW=set()
 if _PROD_ROOT:
     for _p in glob.glob(_PROD_ROOT+'/Work/*/*/*/*.json'):
         try: _d=json.load(open(_p))
         except Exception: continue
         if not isinstance(_d,dict) or not _d.get('id'): continue
+        PW.add(_d['id'])
         for _b in (_d.get('books') or []):
             _w2b.setdefault(nz(_b),set()).add(nz(_d['id']))
     # Book 側同理：production 有自己的 Book 檔（升格時一併遷入），
@@ -274,7 +280,7 @@ for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
         if not (_x.get('collector') or '').strip():
             fbad.append((f,'collectors 有條而輯家為空'))
         _wk=_x.get('work'); _wi=_x.get('work_id')
-        if _wi and _wi not in IW: fbad.append((f,f'輯本 work_id {_wi} 不存在'))
+        if _wi and _wi not in IW and _wi not in PW: fbad.append((f,f'輯本 work_id {_wi} 不存在'))
     try: wd=json.load(open(IW[wid]['path']))
     except Exception: wd={}
     if 'fragments/' not in (wd.get('ai_note') or ''):
