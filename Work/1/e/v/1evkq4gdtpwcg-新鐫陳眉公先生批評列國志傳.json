@@ -6,8 +6,9 @@
     {
       "name": "陳繼儒",
       "role": "評",
-      "dynasty": "",
-      "entity_id": "1j967avzlnsk7"
+      "dynasty": "明",
+      "entity_id": "1j967avzlnsk7",
+      "dynasty_basis": "entity_propagation:1j967avzlnsk7（J21 S5 收尾）"
     }
   ],
   "description": {
@@ -16,7 +17,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖020227-020238）。阶段 5 兜底建立。 | 從 1evkalurzvpc0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖020227-020238）。阶段 5 兜底建立。 | 從 1evkalurzvpc0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j967avzlnsk7`.dynasty「明」propagate 補齊；work.dynasty 同步。",
   "juan_count": {
     "number": 12
   },
@@ -35,5 +36,7 @@
   "period": "ming",
   "period_basis": "評者即成書者：陳繼儒明人，此評本之成在明",
   "period_upper": "ming",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「明萬曆乙卯(四十三年)姑蘇龔紹山刊本」——版本之年不早於成書之年，故不晚於 ming"
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「明萬曆乙卯(四十三年)姑蘇龔紹山刊本」——版本之年不早於成書之年，故不晚於 ming",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）"
 }

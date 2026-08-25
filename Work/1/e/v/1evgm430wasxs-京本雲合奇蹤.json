@@ -7,7 +7,9 @@
     {
       "name": "徐渭",
       "role": "編（託名）",
-      "entity_id": "1j967bgl6pblu"
+      "entity_id": "1j967bgl6pblu",
+      "dynasty": "明",
+      "dynasty_basis": "entity_propagation:1j967bgl6pblu（J21 S5 收尾）"
     }
   ],
   "description": {
@@ -45,7 +47,7 @@
     }
   ],
   "measure_info": "十卷八十回八十則",
-  "ai_note": "從 1evkalu9q6osg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
+  "ai_note": "從 1evkalu9q6osg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j967bgl6pblu`.dynasty「明」propagate 補齊；work.dynasty 同步。",
   "books": [
     "11qki7fa9a6m8"
   ],
@@ -53,5 +55,7 @@
   "period": "ming",
   "period_basis": "撰人 Entity 之代：徐渭（明）——同人名下他書 {'ming': 7} 佐證一致",
   "period_upper": "ming",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「明萬曆間坊刊本」——版本之年不早於成書之年，故不晚於 ming"
+  "period_upper_basis": "edition_bound：所掛版本中最早者為「明萬曆間坊刊本」——版本之年不早於成書之年，故不晚於 ming",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）"
 }
