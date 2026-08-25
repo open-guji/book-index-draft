@@ -2,41 +2,7 @@
   "schema_version": 1,
   "id": "1j967da95zfcb",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "于石",
-  "alt_names": [
-    {
-      "name": "介翁",
-      "type": "字"
-    },
-    {
-      "name": "兩溪",
-      "type": "號"
-    },
-    {
-      "name": "兩溪翁",
-      "type": "號"
-    },
-    {
-      "name": "紫巖",
-      "type": "號"
-    }
-  ],
-  "dynasty": "宋末元初",
-  "works": [
-    {
-      "work_id": "d59f2gohsphc",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 35296,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併",
-  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×1 諸桶。",
-  "ai_note": "2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
+  "_promoted_to": "hixhd2h9bh4k",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

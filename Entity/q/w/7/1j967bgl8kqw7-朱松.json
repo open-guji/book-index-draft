@@ -2,43 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl8kqw7",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "朱松",
-  "alt_names": [
-    {
-      "name": "喬年",
-      "type": "字"
-    },
-    {
-      "name": "韋齋",
-      "type": "號"
-    }
-  ],
-  "dynasty": "南宋",
-  "birth_year": 1097,
-  "death_year": 1143,
-  "works": [
-    {
-      "work_id": "d59f2hr1ak1s",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hsi1nuo",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hd240e8",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 11904,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:death_name=南宋(跨)",
-  "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 works 死鏈清理：所指 work 檔兩倉皆無（歷次併條/刪條之積欠），去之：1evcsz0409edc。"
+  "_promoted_to": "hixhd2h9bfdp",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

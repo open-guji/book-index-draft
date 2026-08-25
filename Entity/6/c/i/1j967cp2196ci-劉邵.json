@@ -2,60 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp2196ci",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "劉邵",
-  "dynasty": "三國魏",
-  "works": [
-    {
-      "work_id": "d59f27sbfqwy",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27shd98i",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27t2a5mp",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27slfcap",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27sj8ohw",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27spsnwi",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27t8u51e",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27suh81v",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27s804xu",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 32851,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 dynasty「三國魏」自動歸併",
-  "alt_names": [
-    {
-      "name": "劉之",
-      "type": "訛名"
-    }
-  ],
-  "ai_note": "2026-08-23 E1 同名同代人物併池：併入同名同代之 `1j96heq4nm9kw`（作「劉卲」，無所繫之書）。斷為一人之由：《四庫總目·人物志》云「魏劉卲撰。卲字孔才，邯鄲人……別本或作劉劭，或作劉邵」，又引宋庠跋辨其字形，明言邵／劭／卲三形一人；二條朝代同為三國魏。被併條之訛名「劉之」隨入 alt_names，以備後來之匯入得以歸並。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bgu6",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

@@ -2,30 +2,7 @@
   "schema_version": 1,
   "id": "1j96ha5h5xxj4",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "饒秉鑑",
-  "dynasty": "明",
-  "works": [
-    {
-      "work_id": "d59f2ngj6y9t",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2njdw0zm",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ncreps1",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 133693,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique (batch2 2026-08-16)"
-  },
-  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。\n\n2026-08-16 CBDB 繫連批二：繫 cbdb 133693。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：明，籍貫廣昌。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "_promoted_to": "hixhd2h9biqq",
+  "_promoted_at": "2026-08-25T23:18:04Z"
 }

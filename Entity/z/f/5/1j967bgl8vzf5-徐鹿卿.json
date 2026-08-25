@@ -2,47 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl8vzf5",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "徐鹿卿",
-  "alt_names": [
-    {
-      "name": "德夫",
-      "type": "字"
-    },
-    {
-      "name": "泉谷",
-      "type": "號"
-    },
-    {
-      "name": "淸正",
-      "type": "諡號"
-    }
-  ],
-  "dynasty": "南宋",
-  "birth_year": 1189,
-  "death_year": 1250,
-  "works": [
-    {
-      "work_id": "d59f2hrfnh1c",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hhiv85d",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hcmtds0",
-      "role": "編"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 25776,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=南宋",
-  "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bfgc",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

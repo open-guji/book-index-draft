@@ -2,39 +2,7 @@
   "schema_version": 1,
   "id": "1j96h8rw86q2v",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "張鑑",
-  "alt_names": [
-    {
-      "name": "德明",
-      "type": "字"
-    },
-    {
-      "name": "張鏡",
-      "type": "訛名"
-    }
-  ],
-  "dynasty": "北宋",
-  "birth_year": 947,
-  "death_year": 1004,
-  "works": [
-    {
-      "work_id": "d59f2hhramtd",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hhld4hs",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 198,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: auto_ambig cbdb_dy=15 (947-1004)"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=北宋",
-  "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「張鏡」（`1j96hlgt6snpc`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 同名消歧：新收 1 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。"
+  "_promoted_to": "hixhd2h9bihn",
+  "_promoted_at": "2026-08-25T23:18:04Z"
 }

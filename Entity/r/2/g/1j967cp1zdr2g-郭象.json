@@ -2,61 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp1zdr2g",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "郭象",
-  "dynasty": "西晉",
-  "works": [
-    {
-      "work_id": "d59f27y30k5d"
-    },
-    {
-      "work_id": "d59f27wwvitc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27y72n7l"
-    },
-    {
-      "work_id": "d59f27ywcv7n",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27wo4vlu",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27yixnuo",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27u5atj5",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27x3fi82",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f2hq7y8zk",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f2og305j7",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28m8yy2v",
-      "role": "注"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 195118,
-    "cbdb_match": "manual",
-    "cbdb_source": "manual+pid_195118_郭象_dy0"
-  },
-  "updated_at": "2026-08-25T00:00:00+00:00",
-  "dynasty_basis": "garbage_clean:未詳",
-  "ai_note": "2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 period未定批次 研究轮(WebSearch+史传)：郭象（?-312），字子玄，西晉玄學家，注《莊子》名家，見《晉書》卷五十。",
-  "period": "jin",
-  "period_basis": "2026-08-25 升格前體例歸一：據 dynasty「西晉」入 period 軸（scripts/period_bounds.py 之 DYNASTY_PERIOD，一義而無歧者方回填）。"
+  "_promoted_to": "hixhd2h9bgbm",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

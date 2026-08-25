@@ -2,51 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl89idb",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "王令",
-  "alt_names": [
-    {
-      "name": "逢原",
-      "type": "字"
-    },
-    {
-      "name": "逢源",
-      "type": "字"
-    }
-  ],
-  "dynasty": "北宋",
-  "birth_year": 1032,
-  "death_year": 1059,
-  "works": [
-    {
-      "work_id": "d59f2hs58xkw",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hqufc3m",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hjvrrwg",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hlzb7cy",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hd3cykk",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 3967,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=北宋",
-  "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 同名消歧：新收 1 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。"
+  "_promoted_to": "hixhd2h9bfc8",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

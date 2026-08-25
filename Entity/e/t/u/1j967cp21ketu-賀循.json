@@ -2,60 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp21ketu",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "賀循",
-  "dynasty": "東晉",
-  "works": [
-    {
-      "work_id": "d59f27w95hj5",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27uwggsg",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27uzku82"
-    },
-    {
-      "work_id": "d59f27vvf1mo"
-    },
-    {
-      "work_id": "d59f27yy8agy",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27yzsh6o",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27umgveq",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27taebrb",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tbc1ds",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tc9r0n",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tdip6r",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 468014,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 dynasty「東晉」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 補繫 entity：新收 5 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 works 死鏈清理：所指 work 檔兩倉皆無（歷次併條/刪條之積欠），去之：1ewsa49u08qpc。"
+  "_promoted_to": "hixhd2h9bgv0",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

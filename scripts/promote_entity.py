@@ -122,8 +122,11 @@ def main():
     for p in glob.glob('Entity/*/*/*/*.json'):
         d = json.load(open(p))
         if isinstance(d, dict) and d.get('id'): ents[d['id']] = d; paths[d['id']] = p
+    # 同名組只計未升格者：墓碑無 period（其欄本不留），計之則組中必有闕代，
+    # 一批既升，同組之餘者反為所攔。已升者其組本已定案，不當再入計。
     byname = collections.defaultdict(list)
     for i, d in ents.items():
+        if d.get('_promoted_to') or i in promo: continue
         if d.get('primary_name'): byname[d['primary_name']].append(i)
 
     # ── 逐條之閘 ──
