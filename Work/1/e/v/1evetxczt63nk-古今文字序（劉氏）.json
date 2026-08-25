@@ -21,7 +21,7 @@
       "title_info": "梁有《古今文字序》一卷，劉氏撰"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有《古今文字序》一卷，劉氏撰，亡」。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j96h8rw7vhhm`.dynasty「明」propagate 補齊；work.dynasty 同步。\n\nN（2026-08-25 明代輪 S7 前置，坑23）：本條出《隋書經籍志》「梁有《古今文字序》一卷，劉氏撰，亡」，是南朝梁之亡書。所繫 entity `1j96h8rw7vhhm`（primary_name「劉氏」，dynasty 明，cbdb 67557）**非其人**——「劉氏」是志書「某位姓劉者」之省，本非人名，CBDB 以字面串 auto-match 而得一明人，J21 遂據以 propagate 出 period=ming。本條所繫《隋書經籍志考證》引文自證其代：「《梁書處士傳》…天監十八年疾卒」（天監十八年＝519），且該考證明駁「以為漢之劉歆，謬誤實甚」。今解其繫、period 由 ming 正為 nanbeichao。依坑23：不刪條、不改題、不動 indexed_by。",
+  "ai_note": "亡佚。隋書經籍志「梁有《古今文字序》一卷，劉氏撰，亡」。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j96h8rw7vhhm`.dynasty「明」propagate 補齊；work.dynasty 同步。\n\nN（2026-08-25 明代輪 S7 前置，坑23）：本條出《隋書經籍志》「梁有《古今文字序》一卷，劉氏撰，亡」，是南朝梁之亡書。所繫 entity `1j96h8rw7vhhm`（primary_name「劉氏」，dynasty 明，cbdb 67557）**非其人**——「劉氏」是志書「某位姓劉者」之省，本非人名，CBDB 以字面串 auto-match 而得一明人，J21 遂據以 propagate 出 period=ming。本條所繫《隋書經籍志考證》引文自證其代：「《梁書處士傳》…天監十八年疾卒」（天監十八年＝519），且該考證明駁「以為漢之劉歆，謬誤實甚」。今解其繫、period 由 ming 正為 nanbeichao。依坑23：不刪條、不改題、不動 indexed_by。\n\n2026-08-25 有斷代諸桶收尾：本條是隋志注中亡書，indexed_by 舊空乃體例所必致（見 known-issues/J3-空殼清賬.json〈隋志注中亡書·不是缺陷〉）；今據 ai_note 所錄之隋志原文補為正式著錄。",
   "measures": [
     {
       "unit": "卷",
@@ -33,5 +33,15 @@
   "period": "nanbeichao",
   "period_basis": "N（2026-08-25 明代輪 S7 前置，坑23）：本條出《隋書經籍志》「梁有《古今文字序》一卷，劉氏撰，亡」，是南朝梁之亡書。所繫 entity `1j96h8rw7vhhm`（primary_name「劉氏」，dynasty 明，cbdb 67557）**非其人**——「劉氏」是志書「某位姓劉者」之省，本非人名，CBDB 以字面串 auto-match 而得一明人，J21 遂據以 propagate 出 period=ming。本條所繫《隋書經籍志考證》引文自證其代：「《梁書處士傳》…天監十八年疾卒」（天監十八年＝519），且該考證明駁「以為漢之劉歆，謬誤實甚」。今解其繫、period 由 ming 正為 nanbeichao。依坑23：不刪條、不改題、不動 indexed_by。",
   "dynasty": null,
-  "dynasty_basis": null
+  "dynasty_basis": null,
+  "indexed_by": [
+    {
+      "source": "隋書經籍志",
+      "title_info": "古今文字序",
+      "summary": "梁有《古今文字序》一卷，劉氏撰，亡",
+      "note": "本條係《隋書經籍志》正文之注所載之亡書（「梁有…亡」），其著錄之節依體例屬正文之條，故本條 indexed_by 舊空；今據 ai_note 所錄之隋志原文補立，俾其著錄有據可覆核。"
+    }
+  ],
+  "_promoted_to": "d59f2oftbshs",
+  "_promoted_at": "2026-08-25T13:40:25Z"
 }
