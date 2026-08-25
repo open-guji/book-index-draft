@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ev85divhidc0",
   "type": "work",
   "title": "詩經齊孫氏傳",
-  "authors": [
-    {
-      "name": "孫氏",
-      "role": "撰",
-      "dynasty": "漢",
-      "note": "《齊詩》孫氏一家，名字未詳",
-      "entity_id": "1j96keg78s2rk"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。《齊詩》在漢魏之間已亡佚，《魯詩》流傳至晉代亡佚，唐宋以還，《韓詩》亦只有經後人整理的《韓詩外傳》十卷。三家詩說有部分保留在鄭玄《箋》中。",
-    "sources": [
-      "溫浚源《漢書藝文志講要》"
-    ]
-  },
-  "ai_note": "三家詩式微，後人無由得見其全貌。其佚文遺說，只能從與其同時的各類典籍中來尋討，三家詩說有部分保留在兼通今、古文的鄭玄的《箋》之中。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「《齊詩》在漢魏之間已亡佚，《魯詩》流傳至晉代亡佚，唐宋以還，《韓詩》亦只有經後人」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-21 補 original_title「詩經」——自題名末剝去役字與撰人所得，庫中實有同題之 Work，非臆造。\n\n2026-08-24 兩漢升格前清賬（撰人繫連補全）：撰人「孫氏」繫既有 entity。（庫中同名 entity 唯一者方繫；異體形訛之歸一據：鄭衆＝鄭眾、包鹹＝包咸、楊雄＝揚雄、趙君卿＝趙爽之字、「唐孔穎達」去朝代前綴。）",
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "齊孫氏傳二十八卷",
-      "summary": "《齊孫氏傳》二十八卷。",
-      "section": "六藝略／詩",
-      "page": "KR2a0007_WYG_030-6b",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
-    }
-  ],
-  "id": "1ev85divhidc0",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 28
-    }
-  ],
-  "measure_info": "二十八卷",
-  "juan_count": {
-    "number": 28
-  },
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "original_title": "詩經",
   "_promoted_to": "d59f23nolr7n",
-  "_promoted_at": "2026-08-24T13:42:23Z"
+  "_promoted_at": "2026-08-24T13:42:23Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f23nolr7n。"
 }

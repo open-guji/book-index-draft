@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs12ckwtfk",
   "type": "work",
   "title": "後梁明帝集",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "後梁明帝集",
-      "summary": "後梁明帝集一卷<ref>後梁明帝集一卷　舊書卷四七經籍志作「後魏明帝集一卷」。</ref>"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《後梁明帝集》一卷",
-      "summary": "《後梁明帝集》一卷",
-      "merged_from": "1evgqbp68ru2o",
-      "note": "同題之另一著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcs12ckwtfk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "蕭巋",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1jcf5151293lk",
-      "note": "後梁明帝蕭巋（542-585），西梁second主。新唐志本條校記云「舊書卷四七經籍志作『後魏明帝集一卷』」，姑存其異。 本庫無此 entity，未繫。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293lk` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
-      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：新唐書藝文志、國史經籍志所著錄同為一書，今合為一條並補撰人／編者「蕭巋」；本庫無其 entity，未繫。\n\nN4 朝代名歸一（2026-08-24）：work「梁」→「南朝梁」；蕭巋「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcs12ckwtfk-後梁明帝集.json"
+  "_promoted_to": "d59f285tg8oy",
+  "_promoted_at": "2026-08-24T18:54:02Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285tg8oy。"
 }

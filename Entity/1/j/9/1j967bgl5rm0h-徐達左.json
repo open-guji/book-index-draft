@@ -18,24 +18,24 @@
       "type": "字"
     }
   ],
-  "dynasty": "明",
+  "dynasty": "元末明初",
   "birth_year": 1333,
   "death_year": 1395,
   "works": [
     {
-      "work_id": "1ev3bbaxowutc",
+      "work_id": "d59f2nfd1x4w",
       "role": "編"
     },
     {
-      "work_id": "1ev3bep4snjsw",
+      "work_id": "d59f2gl5xkw1",
       "role": "編"
     },
     {
-      "work_id": "1evga1avwqw3k",
+      "work_id": "d59f2geaee4g",
       "role": "撰"
     },
     {
-      "work_id": "1evka870si77k",
+      "work_id": "d59f2j4ymzup",
       "role": "編"
     }
   ],
@@ -47,5 +47,6 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。"
+  "ai_note": "2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。\n\n2026-08-25 遼金元 L5：dynasty 由「明」歸一為「元末明初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《補遼金元藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×3／ming×1 諸桶。"
 }

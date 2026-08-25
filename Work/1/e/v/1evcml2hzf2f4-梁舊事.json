@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml2hzf2f4",
   "type": "work",
   "title": "梁舊事",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《梁舊事》三十卷",
-      "summary": "《梁舊事》三十卷內史侍郎蕭大圜撰。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "蕭大圜",
-      "role": "撰",
-      "entity_id": "1j96ha7dh1gxs",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：蕭大圜（?-581），梁簡文帝之子，梁亡入北周。其書《梁舊事》《淮海亂離志》皆記梁事，題署從梁。"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "id": "1evcml2hzf2f4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "梁舊事三十卷",
-      "summary": "梁舊事三十卷内史侍郎蕭大環撰錢氏《考異》曰:“環當作。”\n蕭大 有《淮海亂離志》,見前古史類。\n《周書》本傳:大園性好學,務於著述,撰《寓記》三卷、《士喪儀\n注》五卷、《要決》兩卷、《梁舊事》三十卷。\n《唐書·藝文志》:蕭大 《梁魏舊事》三十卷。\n章氏《考證》:《唐志》作《梁魏舊事》,《太平寰宇記·江南道》\n引三事,並作《梁陳舊事》。\n東宫典記七十卷 左庶子宇文 撰\n《隋書》本傳:慢字安樂,本朔方人,徙京兆杞國,公忻之弟也。\n在周以功臣子封安平郡公。好學博覽書記,解屬文,多伎藝。\n入隋,拜太子左庶子。爆帝時,為工部尚書,進位開府金紫光"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-08-24T11:06:03.104427+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人蕭大圜為梁簡文帝子，入北周官內史侍郎，梁與北周並在南北朝。（2026-08-24 R3二輪 引文定代）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml2hzf2f4-梁舊事.json",
-  "ai_note": "N4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。"
+  "_promoted_to": "d59f285g11c1",
+  "_promoted_at": "2026-08-24T18:53:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285g11c1。"
 }

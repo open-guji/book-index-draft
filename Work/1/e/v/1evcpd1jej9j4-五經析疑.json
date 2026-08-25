@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd1jej9j4",
   "type": "work",
   "title": "五經析疑",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《五經析疑》三十卷",
-      "summary": "《五經析疑》三十卷邯鄲綽撰。</poem>"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《五經析疑》二十八卷",
-      "summary": "《五經析疑》二十八卷（邯鄲綽）",
-      "author_info": "邯鄲綽"
-    }
-  ],
-  "id": "1evcpd1jej9j4",
-  "authors": [
-    {
-      "name": "鄞鄲綽",
-      "role": "撰",
-      "dynasty": "三國魏",
-      "dynasty_basis": "manual:historical_figure(鄞鄲綽即邯鄲綽，三國魏人物)",
-      "entity_id": "1jcf515129909",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129909` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "作者「魏鄞鄲綽撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "description": {
-    "text": "鄞鄲綽（三國魏）撰。見著錄於《舊唐書經籍志》《國史經籍志》。其著錄之文，《國史經籍志》作「《五經析疑》二十八卷（邯鄲綽）」。",
-    "sources": [
-      "舊唐書經籍志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27t1yx35",
+  "_promoted_at": "2026-08-24T18:29:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27t1yx35。"
 }

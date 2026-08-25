@@ -1,52 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evga0o3gery8",
   "type": "work",
   "title": "夏小正經傳考",
-  "authors": [
-    {
-      "name": "史季敷",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfgm242rk"
-    }
+  "_promoted_to": "d59f2gjrzlz5",
+  "_promoted_at": "2026-08-25T04:34:27Z",
+  "merged_from": [
+    "1exmh4t5nirlz"
   ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "史季敷夏小正經傳考三卷",
-      "author_info": "鄱陽人",
-      "summary": "元史季敷（鄱陽人）夏小正經傳考三卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《夏小正經傳考》三卷",
-      "author_info": "鄞人",
-      "summary": "元史季敷（鄞人）夏小正經傳考三卷"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "description": {
-    "text": "鄱陽人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('雷學淇', '清')]，本條作者 史季敷（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evga0o3gery8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gjrzlz5。"
 }

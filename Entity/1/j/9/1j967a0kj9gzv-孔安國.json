@@ -27,7 +27,7 @@
       "role": ""
     },
     {
-      "work_id": "1evkabm96hc00",
+      "work_id": "d59f2hq9to8x",
       "role": ""
     },
     {
@@ -50,7 +50,7 @@
       "role": "撰"
     },
     {
-      "work_id": "1evjy5uwiiccg",
+      "work_id": "d59f28noh3pc",
       "role": "撰"
     },
     {
@@ -59,6 +59,10 @@
     },
     {
       "work_id": "d59f24mgbdhd"
+    },
+    {
+      "work_id": "d59f24mgmm10",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -79,5 +83,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qin-han",
   "period_basis": "據 dynasty「西漢」自動歸併",
-  "ai_note": "2026-08-19 人物繫連補記：庫中有 3 書之 authors[].entity_id 指向本條而本條之 works 未載（《論語孔氏訓解》《論語孔氏注》《尚書注疏》），是單向之繫，今補其反向。\n\n2026-08-24 兩漢升格前清賬（撰人繫連補全）：works 補繫 1 條。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-19 人物繫連補記：庫中有 3 書之 authors[].entity_id 指向本條而本條之 works 未載（《論語孔氏訓解》《論語孔氏注》《尚書注疏》），是單向之繫，今補其反向。\n\n2026-08-24 兩漢升格前清賬（撰人繫連補全）：works 補繫 1 條。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`d59f24mgmm10`《古論語訓》。"
 }

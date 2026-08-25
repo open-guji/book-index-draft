@@ -1,71 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphny50jr4",
   "type": "work",
   "title": "朝制要覽",
-  "juan_count": {
-    "number": 50
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《朝制要覽》五十卷",
-      "summary": "《朝制要覽》五十卷（宋咸）",
-      "author_info": "宋咸"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "朝制要覽"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《朝制要覽》十五卷",
-      "summary": "《朝制要覽》十五卷（宋咸）",
-      "merged_from": "1evgpiiuws54w",
-      "note": "諸志同著《朝制要覽》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《朝製要覽》",
-      "summary": "十篇宋咸《朝製要覽》十五卷李上交",
-      "merged_from": "1evcsxbq207pc",
-      "note": "本著錄原繫題作「朝製要覽」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphny50jr4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 50
-    }
-  ],
-  "measure_info": "五十卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：國史經籍志同志兩出《朝制要覽》（十五卷、五十卷），皆注「宋咸」，撰人相同；直齋書錄解題亦著錄。卷數之異乃傳本之別，今合併並補撰人為宋咸。\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《朝製要覽》之 work（`1evcsxbq207pc`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "宋咸",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf51512937b",
-      "note": "國史經籍志兩出皆注「宋咸」。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512937b` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "additional_titles": [
-    "朝製要覽"
-  ]
+  "_promoted_to": "d59f2hfee32b",
+  "_promoted_at": "2026-08-25T05:35:14Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfee32b。"
 }

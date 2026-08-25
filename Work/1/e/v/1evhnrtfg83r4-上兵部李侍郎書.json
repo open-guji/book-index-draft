@@ -2,43 +2,8 @@
   "schema_version": 1,
   "id": "1evhnrtfg83r4",
   "type": "work",
-  "subtype": "article",
   "title": "上兵部李侍郎書",
-  "authors": [
-    {
-      "name": "韓愈",
-      "dynasty": "唐",
-      "role": "作",
-      "entity_id": "1j967da978dhc"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E5%85%B5%E9%83%A8%E6%9D%8E%E4%BE%8D%E9%83%8E%E6%9B%B8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ev3bemtmuhvk",
-      "title": "唐宋八大家文鈔",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "_promoted_to": "d59f28nhan7l",
+  "_promoted_at": "2026-08-24T19:27:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nhan7l。"
 }

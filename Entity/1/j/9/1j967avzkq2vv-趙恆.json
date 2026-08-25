@@ -4,34 +4,34 @@
   "type": "entity",
   "subtype": "people",
   "primary_name": "趙恆",
-  "dynasty": "明",
+  "dynasty": "北宋",
   "works": [
     {
-      "work_id": "1ev3ba3jg1iio",
+      "work_id": "d59f2nemiqyq",
       "role": "撰"
     },
     {
-      "work_id": "1exbh41wo3exk",
+      "work_id": "d59f2hczm41x",
       "role": "撰"
     },
     {
-      "work_id": "1exdmwq5o8x2i",
+      "work_id": "d59f2hemx79f",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxog29h4w",
+      "work_id": "d59f2hg667er",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxu0nsoao",
+      "work_id": "d59f2ofw4xdu",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxvnpirk0",
+      "work_id": "d59f2ofwregx",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxpdv0ikg",
+      "work_id": "d59f2ofxdvcw",
       "role": "撰"
     }
   ],
@@ -40,9 +40,9 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+unique"
   },
-  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。\n\n2026-08-24 帝王 entity 重出歸併：併入「宋真宗」（`1jcf51512937m`）。本日補 entity 之際，以廟號「宋真宗」別立一條，而庫中早有以本名「趙恆」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。",
+  "ai_note": "別名清理：原有一條標作「异体」之別名，其名與本名全同，不載任何異體之形，為零資訊之冗餘，今清除。\n\n2026-08-24 帝王 entity 重出歸併：併入「宋真宗」（`1jcf51512937m`）。本日補 entity 之際，以廟號「宋真宗」別立一條，而庫中早有以本名「趙恆」立者，遂成一人兩目。**庫中帝王之例，宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖）**，本條從前者，廟號入 alt_names。\n2026-08-25 period未定批次·entity dynasty 数据 bug 修正：dynasty 原誤作「明」——alt_names 明載「宋真宗」（廟號），本人即趙恆（968-1022，997-1022 在位），北宋第三帝，與「明」全不相干，係純粹欄位錯誤，逕正。",
   "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
+  "period": "song",
   "period_basis": "據 dynasty「明」自動歸併",
   "alt_names": [
     {

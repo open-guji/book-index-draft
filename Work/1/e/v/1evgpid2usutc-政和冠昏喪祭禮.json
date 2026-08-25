@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpid2usutc",
   "type": "work",
   "title": "政和冠昏喪祭禮",
-  "juan_count": {
-    "number": 15
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《政和冠昏喪祭禮》十五卷",
-      "summary": "《政和冠昏喪祭禮》十五卷（黄□。）",
-      "author_info": "黄□。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "政和冠昏喪祭禮"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpid2usutc",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"政和冠昏、喪祭禮\"，可能是解析错误\n[QA-fix 2026-04-20] title \"政和冠昏、喪祭禮\" → \"政和冠昏喪祭禮\" (remove 顿号)",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "song",
-  "period_basis": "題中年號斷代：本書題作《政和冠昏喪祭禮》，中含年號「政和」（元年當西元 1111 年）。年號者，其事已行而後可名，故題含年號即其書不得早於該號之元年——此為下限。「政和」元年落在 song，故下限 song。而本書原有上限亦 song（catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）））。上下限既合，其代乃定，作 song。\n\n按 SCHEMA〈period_upper〉不設 period_lower，蓋「首次著錄之志不可當下限用」；然題中年號非著錄之志，乃書題自身之證，與著錄先後無涉，故可為下限，不犯其戒。"
+  "_promoted_to": "d59f2hlri9s3",
+  "_promoted_at": "2026-08-25T05:47:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hlri9s3。"
 }

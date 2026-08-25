@@ -14,7 +14,7 @@
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
+      "source_bid": "d59f2gcburcx",
       "title_info": "《晉錄》五卷",
       "summary": "《晉錄》五卷",
       "misattached": true,
@@ -22,7 +22,7 @@
     },
     {
       "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
+      "source_bid": "d59f2hl0cmio",
       "title_info": "晉錄",
       "summary": "晉錄五卷",
       "misattached": true,
@@ -101,12 +101,24 @@
   ],
   "measure_info": "一卷",
   "loss_status": "partially_extant",
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/晉錄.json，據《玉函山房輯佚書》目錄立，現為著錄層。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於新唐書藝文志、舊唐書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）",
+  "ai_note": "輯佚檔：本書之輯佚著錄置於 fragments/晉錄.json，據《玉函山房輯佚書》目錄立，現為著錄層。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於新唐書藝文志、舊唐書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "沈思孝（明）撰。一卷；諸志所著之數有異，別作五卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《欽定四庫全書總目》《四庫全書存目叢書》《玉函山房輯佚書》。《四庫全書存目叢書》列於史部；《玉函山房輯佚書》列於補編·子編·五行類。原書散佚，今有輯本存其文。",
+    "sources": [
+      "舊唐書經籍志",
+      "新唐書藝文志",
+      "欽定四庫全書總目",
+      "四庫全書存目叢書",
+      "玉函山房輯佚書"
+    ]
+  },
+  "_promoted_to": "d59f2nhlwdtt",
+  "_promoted_at": "2026-08-25T12:34:40Z"
 }

@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw7knmvpc",
   "type": "work",
   "title": "樂舞新書",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《樂舞新書》",
-      "summary": "《樂舞新書》二卷蔡元定"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《樂舞新書》二十六篇",
-      "summary": "《樂舞新書》二十六篇（吳仁杰）",
-      "author_info": "吳仁杰"
-    }
-  ],
-  "id": "1evcsw7knmvpc",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 26
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 26
-    }
-  ],
-  "measure_info": "二十六卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十六卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「吳仁杰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J2(a) 著錄括注誤剖：《宋志》《國史經籍志》括注作「吳仁杰」——吳是姓非代。吳仁杰，字斗南，宋淳熙進士，撰《兩漢刊誤補遺》《離騷草木疏》等，本條 authors[0].dynasty 早已作「宋」，唯頂層 dynasty 被匯入之誤剖覆為「吳」。　本條 period 由 three-kingdoms 改 song，dynasty 由 吳 改 宋，authors[0].name 由「吳仁杰」正為「吳仁杰」。",
-  "authors": [
-    {
-      "name": "吳仁杰",
-      "role": "撰",
-      "dynasty": "宋",
-      "name_basis": "2026-08-24 J2(a)：見 ai_note\n\n2026-08-24 新建 entity `1jcf5151294jr` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
-      "entity_id": "1jcf5151294jr"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "2026-08-24 J2(a)：見 ai_note",
-  "period": "song",
-  "period_basis": "2026-08-24 J2(a)：見 ai_note（原作「據 authors[0].dynasty「吳」」）"
+  "_promoted_to": "d59f2hgmps75",
+  "_promoted_at": "2026-08-25T05:37:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgmps75。"
 }

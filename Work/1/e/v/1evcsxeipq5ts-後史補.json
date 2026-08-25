@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxeipq5ts",
   "type": "work",
   "title": "後史補",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《後史補》",
-      "summary": "高若拙《後史補》三卷黃彬"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "後史補三卷",
-      "summary": "後史補三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《後史補》三卷",
-      "summary": "《後史補》三卷（周高若拙雜記唐及五代事。）",
-      "author_info": "周高若拙雜記唐及五代事。",
-      "merged_from": "1evgphcjui7ls",
-      "note": "國史經籍志原注「周高若拙雜記唐及五代事」，撰人、卷數與宋志、直齋全合。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "後史補",
-      "merged_from": "1evr5e3mjzi5u",
-      "note": "直齋書錄解題「前進士高若拙撰」，撰人、卷數與宋志全合。"
-    }
-  ],
-  "id": "1evcsxeipq5ts",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "高若拙",
-      "role": "撰",
-      "dynasty": "後周",
-      "entity_id": "1jcf5151299xi",
-      "note": "宋史藝文志傳記類頂真格所繫（前條「王權《汴州記》一卷高若拙」句末之名前置），直齋書錄解題「前進士高若拙撰」，國史經籍志原注「周高若拙雜記唐及五代事」，三源相合。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299xi` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "dynasty": "後周",
-  "dynasty_basis": "著錄內容：國史經籍志原注「周高若拙」",
-  "period": "five-dynasties",
-  "period_basis": "據 dynasty「後周」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志、直齋書錄解題四源皆三卷，同為一書，今合為一條並補撰人。國史經籍志原注「周高若拙雜記唐及五代事」明其時代與內容，直齋作「前進士高若拙撰」，宋志句末「黃彬」下屬次條。本庫無高若拙 entity，未繫。"
+  "_promoted_to": "d59f2gcieqrl",
+  "_promoted_at": "2026-08-25T04:20:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcieqrl。"
 }

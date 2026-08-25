@@ -13,12 +13,13 @@
     }
   ],
   "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀008363）。明末刊本。",
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀008363）。明末刊本。戴羲，字馭長，別號瀨園灌叟，明末湖北人，明亡後以遺民自居，不再出仕，日以遊山水、著書立說為務。所著另有農書《養餘月令》三十卷（成於崇禎年間），及輯錄群書而成之《二十一史文鈔》，本書《遼史文鈔》即其中遼史一種之單行本。",
     "sources": [
-      "國立故宮博物院善本舊籍"
+      "國立故宮博物院善本舊籍",
+      "WebSearch覆核"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀008363），無同名 Work 故新建。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀008363），無同名 Work 故新建。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J33：補撰內容提要（WebSearch覆核）。",
   "juan_count": {
     "number": 1
   },
@@ -32,12 +33,16 @@
   "id": "1evkpifmgbta8",
   "related_works": [
     {
-      "id": "1ev3bab5se1og",
+      "id": "d59f2gosq0ht",
       "title": "遼史",
       "relation": "contains_text_of"
     }
   ],
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
+  "_promoted_to": "d59f2o0gicch",
+  "_promoted_at": "2026-08-25T13:10:54Z"
 }

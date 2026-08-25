@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyy9qimm8",
   "type": "work",
   "title": "伊川集",
-  "authors": [
-    {
-      "name": "錢惟演",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf5151293pd",
-      "note": "宋史藝文志明載「錢惟演《伊川集》五卷」。錢惟演（977-1034），吳越王錢俶子，西崑體詩人，曾知河南府（洛陽伊川一帶），故以名集。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293pd` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《伊川集》",
-      "summary": "錢惟演《伊川集》五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《伊川集》五卷",
-      "summary": "《伊川集》五卷",
-      "merged_from": "1evgqcqc0rnr4",
-      "note": "裸題，卷數與錢惟演本全合，姑併。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《伊川集》五卷",
-      "category": "別集類中",
-      "summary": "樞密使思公吳越錢惟演希聖撰。易，倧之子；惟演，俶之子也。惟演文集甚多，此特其二集爾，出鎮河陽、河南時所作也。全集未見。",
-      "note": "本節原繫《擁旄集》條（直齋連書著錄「《擁旄集》五卷、《伊川集》五卷」），直齋自言「此特其二集爾」，是二書，今歸本條。"
-    }
-  ],
-  "id": "1evcsyy9qimm8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「錢惟演《伊川集》五卷」，僅頂層 authors 欄漏收，今補入；併入國史經籍志裸題五卷本。與同題程頤撰九卷本（直齋書錄解題，見 `1evr5e3miqk1e`）撰人、卷數皆異，非同書——二人皆與伊川有涉（錢惟演知河南府、程頤世稱伊川先生），同名巧合。本庫無錢惟演 entity，未繫。",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」"
+  "_promoted_to": "d59f2hi85g5c",
+  "_promoted_at": "2026-08-25T05:40:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi85g5c。"
 }

@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pd7abh1c",
   "type": "work",
   "title": "禮論要鈔",
-  "authors": [
-    {
-      "name": "賀場",
-      "dynasty": "南朝梁",
-      "role": "撰",
-      "entity_id": "1j96ha6vy6v40",
-      "dynasty_basis": "entity_propagation:1j96ha6vy6v40"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《禮論要鈔》十卷",
-      "summary": "《禮論要鈔》十卷梁有齊禦史中丞荀萬秋《鈔略》二卷；尚書儀曹郎丘季彬論五十八卷，議一百三十卷，統六卷。亡。",
-      "note": "此行末之「亡」指注中所列之他書（荀萬秋《鈔略》、丘季彬論議統諸書），非本條之書。隋志之例：正文著隋時見存之書，而以注記梁時尚存、隋時已亡者。**不可據此判本書已亡。**"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "禮論要鈔",
-      "summary": "禮論要鈔十三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《禮論要鈔》一百卷",
-      "summary": "《禮論要鈔》一百卷（賀㻛）",
-      "author_info": "賀㻛"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "description": {
-    "text": "梁有齐御史中丞荀万秋《钞略》二卷；尚书仪曹郎丘季彬论五十八卷，议一百三十卷，统六卷。亡。",
-    "sources": []
-  },
-  "id": "1evc5pd7abh1c",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "禮論要鈔十卷",
-      "summary": "不著撰人。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "nanbeichao",
-  "period_basis": "朝代「梁」有歧義（可為 nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：國史經籍志、新唐書藝文志、隋書經籍志、隋書經籍志考證",
-  "ai_note": "2026-08-20 磁鐵拆解專項（八之二，撰人中置＋內文撰人）：整理本原以本 work 之 id 兼繫下列 1 節，各節之撰人與本條不合而與庫中他 work 相合，今各歸其主：《《禮論要鈔》一百卷》→《禮論要鈔賀瑒撰》（賀瑒）`1evc5pd7jolc0`。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：隋書經籍志考證「禮論要鈔一百卷賀場撰」一節本繫本條，今移繫 1evc5pd7jolc0。《隋書經籍志考證》此節之題為「禮論要鈔一百卷賀場撰」，庫中《禮論要鈔賀瑒撰》一百卷 1evc5pd7jolc0 卷數撰人全合（場、瑒形訛）；本條 1evc5pd7abh1c 之 juan_count 十卷，所主者為次節不著撰人之十卷本，今改繫。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：本條之《隋書經籍志考證》著錄原與所拆出之他條共用一record，拆分時隨之移去；今依所留之節「禮論要鈔十卷」補回，以免整理本繫連而 work 側無記錄。"
+  "_promoted_to": "d59f286jo6bl",
+  "_promoted_at": "2026-08-24T18:55:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286jo6bl。"
 }

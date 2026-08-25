@@ -3,38 +3,7 @@
   "id": "1evr5e3mjd12u",
   "type": "work",
   "title": "紀聞",
-  "juan_count": {
-    "number": 1
-  },
-  "authors": [
-    {
-      "name": "李復圭",
-      "role": "撰",
-      "dynasty": "北宋",
-      "note": "字審言，李淑之子，集賢殿修撰。",
-      "entity_id": "1jcf5151293cp",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293cp` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《紀聞》一卷",
-      "summary": "《紀聞》一卷。集賢殿修撰李復圭審言撰。淑之子也。"
-    }
-  ],
-  "ai_note": "2026-08-18 全庫同名異書核對：indexed_by.summary 原僅存裸題，據 collated_edition 補全引文，明載「集賢殿修撰李復圭審言撰」，補撰人；與同題另三本（唐牛肅十卷本）撰人卷數皆異，非同書。本庫無同名 entity，未繫。",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "measure_info": "一卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ]
+  "_promoted_to": "d59f2hmcf66a",
+  "_promoted_at": "2026-08-25T05:48:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hmcf66a。"
 }

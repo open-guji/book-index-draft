@@ -55,15 +55,19 @@
   ],
   "measure_info": "一卷",
   "description": {
-    "text": "本書收入《四庫全書存目叢書》第186冊（经部）。",
+    "text": "崔銑（明）舊題撰。一卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》《經義考》。《四庫全書存目叢書》列於经部；《經義考》列於擬經。《欽定四庫全書總目》清乾隆間館臣修；《經義考》清朱彝尊撰——本書之目賴之以存。",
     "sources": [
-      "四庫全書存目叢書"
+      "欽定四庫全書總目",
+      "四庫全書存目叢書",
+      "經義考"
     ]
   },
-  "ai_note": "從 1evjxjtimgykg 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3ba9imamtc();1evgor8wby6m8(楚孔鮒)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明崔銑撰。銑有《讀易餘言》，已著錄。此書凡分十篇。核檢其」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "ai_note": "從 1evjxjtimgykg 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 索引中尚有同名異書：1ev3ba9imamtc();1evgor8wby6m8(楚孔鮒)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明崔銑撰。銑有《讀易餘言》，已著錄。此書凡分十篇。核檢其」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-21T00:00:00-07:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2ng5gikj",
+  "_promoted_at": "2026-08-25T12:31:53Z"
 }

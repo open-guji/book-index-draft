@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy4ynl2pz4",
   "type": "work",
   "title": "唐書",
-  "authors": [
-    {
-      "name": "劉昫",
-      "role": "撰",
-      "dynasty": "後晉",
-      "entity_id": "1j96hlhu2zf28",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「劉昫」而無 entity_id，今繫 `1j96hlhu2zf28`——庫中 primary_name 同之者唯一。其代「後晉」與本書已定之代「five-dynasties」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》唐宋編（ZHSY000108）。宋紹興兩浙東路茶鹽司刻本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evcs0boa9ce8();1evgpguuievi8(呉兢);1evgpguwu2h34()（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「劉昫等」，「等」謂劉昫及其他未具名之纂修者，非姓名之一部，今剝離作「劉昫」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。\n\n[M3磁鐵 2026-08-23] 收 崇文總目「唐書二百卷」一節：本節作《唐書》二百卷，與前條一百三十卷（韋述撰，解題自明）異書，是劉昫等所修之唐書；庫中既有劉昫《唐書》二百卷（直齋著錄），今改繫之。",
-  "juan_count": {
-    "number": 200
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 200
-    }
-  ],
-  "measure_info": "二百卷",
-  "id": "1evjy4ynl2pz4",
-  "books": [
-    "11qk4xwcsvjmt"
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《唐書》二百卷",
-      "category": "正史類",
-      "summary": "五代晉宰相涿郡劉昫等撰。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "唐書二百卷",
-      "summary": "唐書二百卷",
-      "note": "本節作《唐書》二百卷，與前條一百三十卷（韋述撰，解題自明）異書，是劉昫等所修之唐書；庫中既有劉昫《唐書》二百卷（直齋著錄），今改繫之。"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「後晉」",
-  "dynasty": "後晉",
-  "dynasty_basis": "據唯一五代 author.dynasty「後晉」補全"
+  "_promoted_to": "d59f2gcpwfsx",
+  "_promoted_at": "2026-08-25T04:20:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcpwfsx。"
 }

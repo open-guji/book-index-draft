@@ -1,39 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evrbhp6auzgj",
+  "type": "work",
   "title": "龜峯詞",
-  "authors": [
-    {
-      "name": "陳經國",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j96h8rw9fo7m",
-      "dynasty_basis": "entity_propagation:1j96h8rw9fo7m"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "龜峯詞一卷",
-      "summary": "龜峯詞一卷\n陳經國撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
-  "juan_count": {
-    "number": 1
-  },
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。"
+  "_promoted_to": "d59f2hl7j30h",
+  "_promoted_at": "2026-08-25T05:46:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hl7j30h。"
 }

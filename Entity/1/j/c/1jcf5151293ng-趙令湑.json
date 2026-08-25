@@ -6,15 +6,19 @@
   "primary_name": "趙令湑",
   "works": [
     {
-      "work_id": "1exsioc4vgud8",
+      "work_id": "d59f2hecb4sg",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw4xbvvnk",
+      "work_id": "d59f2hhysbup",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw65iwge8",
+      "work_id": "d59f2ogc20w0",
+      "role": "撰"
+    },
+    {
+      "work_id": "d59f2ogc20w0",
       "role": "撰"
     }
   ],
@@ -22,5 +26,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "song",
   "period_basis": "所繫 3 部 work 之 period 一致作「song」，故從之",
-  "ai_note": "2026-08-24 新建 entity（甲等第一批）：本人之名見於 work 之 authors[]，而庫中無其人。取「首字在百家姓、名長二至四字、庫中兩見以上」者為甲等——兩見以上則非偶然之殘句，此判所以立，正為防 SKILL〈史料圈套〉所記之舊禍：本庫曾有 13 個「作者」實是夾注碎片（外黃人、里翟弟子、之以為嬰……）而竟為之建 entity。\n\n本人所繫之 work 3 部：《毛詩講義》、《易發微》、《詩義》。"
+  "ai_note": "2026-08-24 新建 entity（甲等第一批）：本人之名見於 work 之 authors[]，而庫中無其人。取「首字在百家姓、名長二至四字、庫中兩見以上」者為甲等——兩見以上則非偶然之殘句，此判所以立，正為防 SKILL〈史料圈套〉所記之舊禍：本庫曾有 13 個「作者」實是夾注碎片（外黃人、里翟弟子、之以為嬰……）而竟為之建 entity。\n\n本人所繫之 work 3 部：《毛詩講義》、《易發微》、《詩義》。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw65iwge8`《詩義》。"
 }

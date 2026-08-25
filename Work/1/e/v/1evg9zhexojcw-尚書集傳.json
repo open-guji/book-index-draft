@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg9zhexojcw",
   "type": "work",
   "title": "尚書集傳",
-  "authors": [
-    {
-      "name": "俞元夔",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96ha901libk"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "俞元夔尚書集傳十卷",
-      "author_info": "建寧人，居吳",
-      "summary": "元俞元夔（建寧人，居吳）尚書集傳十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《尚書集傳》十卷",
-      "author_info": "字邦亮，建寧人，徙於吳",
-      "summary": "元俞元夔（字邦亮，建寧人，徙於吳）尚書集傳十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "description": {
-    "text": "建寧人，居吳",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evg9zhexojcw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gdnatxd",
+  "_promoted_at": "2026-08-25T04:22:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gdnatxd。"
 }

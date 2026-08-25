@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgadczx86ps",
   "type": "work",
   "title": "書經補遺",
-  "authors": [
-    {
-      "name": "呂宗傑",
-      "role": "纂輯",
-      "dynasty": "元",
-      "entity_id": "1jcf5151294od",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294od` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "書經補遺五卷",
-      "summary": "元書經補遺五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "ai_note": "補遼金元藝文志失名 作者「元呂宗傑纂輯」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkab0hdlc00 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgadczx86ps()（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgadczx86ps",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善010720）。清嘉慶間阮元進呈鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "books": [
-    "11qkhv7mfd1q8"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gnz2gw1",
+  "_promoted_at": "2026-08-25T04:42:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gnz2gw1。"
 }

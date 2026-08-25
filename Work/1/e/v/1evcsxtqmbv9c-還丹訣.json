@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxtqmbv9c",
   "type": "work",
   "title": "還丹訣",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《還丹訣》",
-      "summary": "傅士安《還丹訣》一卷徐道邈注"
-    }
-  ],
-  "id": "1evcsxtqmbv9c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "傅士安",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf51512943m",
-      "note": "宋史藝文志作「傅士安《還丹訣》一卷徐道邈注」，前置撰人傅士安。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512943m` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為傅士安《還丹訣》一卷（徐道邈注），與同志魏伯陽《還丹訣》一卷（`1evcsxs66vg1s`）非一書，未予合併。"
+  "_promoted_to": "d59f2hjr37r4",
+  "_promoted_at": "2026-08-25T05:43:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjr37r4。"
 }

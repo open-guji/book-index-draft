@@ -91,17 +91,21 @@
   ],
   "measure_info": "六卷",
   "description": {
-    "text": "本書收入《續修四庫全書》第990冊（子部）。",
+    "text": "李中梓（明）舊題撰。六卷。見著錄於《欽定四庫全書總目》《續修四庫全書》《四庫全書存目叢書》。《續修四庫全書》列於子部 醫家類；《四庫全書存目叢書》列於子部。諸家按語稱其佚文見引於《通志》。經注之屬。《欽定四庫全書總目》清乾隆間館臣修；《續修四庫全書》一九九五年影印——本書之目賴之以存。",
     "sources": [
-      "續修四庫全書"
+      "欽定四庫全書總目",
+      "續修四庫全書",
+      "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjr3ptmineo 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明李中梓撰。凡金石部三十三種，果部十八種，穀部十一種，草部」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "ai_note": "從 1evjr3ptmineo 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題明李中梓撰。凡金石部三十三種，果部十八種，穀部十一種，草部」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-21T00:00:00-07:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2ngkr4zm",
+  "_promoted_at": "2026-08-25T12:32:41Z"
 }

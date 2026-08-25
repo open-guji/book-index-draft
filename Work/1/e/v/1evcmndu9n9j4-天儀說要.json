@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmndu9n9j4",
   "type": "work",
   "title": "天儀說要",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《天儀說要》一卷",
-      "summary": "《天儀說要》一卷陶弘景撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《天儀說要》一卷",
-      "summary": "《天儀說要》一卷（陶弘景）",
-      "author_info": "陶弘景"
-    },
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《天儀說要》一卷",
-      "summary": "天儀說要一卷 陶弘景撰\n案陶弘景是書已見于前,此重出,《通志校 略》已\n言之。",
-      "note": "整理本此節原繫已不存在之 work id `1evcmndv7o4qo`（歷次合併去之而繫連未隨改），今據題名＋卷數回收於本條。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "陶弘景",
-      "role": "撰",
-      "entity_id": "1j967bgl7y9th",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967bgl7y9th`（陶弘景）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmndu9n9j4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《天儀說要》一卷",
-      "summary": "天儀說要一卷 陶弘景撰\n陶弘景有《毛詩序注》,見經部詩類。\n《南史·隱佚傳》:弘景又嘗造渾天象,高三尺許,地居中央,\n天轉而地不動,以機動之,悉與天相會。云“ 道所須,非止\n史官用是”。《梁書·處士傳》“用是”作“是用”,此誤倒其文。\n《玉海·天文篇》:《隋志》陶弘景《天儀說要》一卷。《中興書\n目》:《像曆》一卷,梁陶弘景較定。推演巫咸氏、甘氏、石氏等\n說。案《崇文總目》,《天文星經》五卷,梁陶弘景校合三垣列\n宿中外官三百十九名,各設圖象,箸巫咸、甘德、石申所記。\n《宋史·藝文志》:陶隱居《天文星經》五卷。陶弘景《象曆》\n一卷。\n案《玉海》則是書即《中興書目》、《宋志》之《象曆》,當是“大象\n曆”之誤。《崇文總目》及《宋志》之《天文星經》,然不知是\n否也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-22T04:56:00.103559+00:00",
-  "ai_note": "2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcmndv7o4qo`、`1evgq1ee68mbk`），據題名＋本志著錄＋卷數回收於本條，並補其著錄。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「陶弘景」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcmndu9n9j4-天儀說要.json"
+  "_promoted_to": "d59f285vy51c",
+  "_promoted_at": "2026-08-24T18:54:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285vy51c。"
 }

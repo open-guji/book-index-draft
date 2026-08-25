@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgorsewyadc",
   "type": "work",
   "title": "測圖海鏡",
-  "authors": [
-    {
-      "name": "李冶",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967afj9m3np"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《測圖海鏡》十二卷",
-      "summary": "《測圖海鏡》十二卷（元李冶）",
-      "author_info": "元李冶"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgorsewyadc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gjqff9d",
+  "_promoted_at": "2026-08-25T04:34:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gjqff9d。"
 }

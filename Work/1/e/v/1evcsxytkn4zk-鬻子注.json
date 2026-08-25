@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxytkn4zk",
   "type": "work",
   "title": "鬻子注",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《鬻子注》",
-      "summary": "逢行珪《鬻子注》一卷李諷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "鬻子注",
-      "merged_from": "1evr5e3mjzi75",
-      "note": "諸志同著《鬻子注》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxytkn4zk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "逢行珪",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96hg4fjxzi8",
-      "note": "宋史藝文志作「逢行珪《鬻子注》一卷李諷」，前置撰人逢行珪；句末「李諷」屬下條。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「逢行珪」而無 entity_id，今繫 `1j96hg4fjxzi8`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、直齋書錄解題同著《鬻子注》一卷，今合併並據宋志前置撰人補為逢行珪。"
+  "_promoted_to": "d59f28kvng92",
+  "_promoted_at": "2026-08-24T19:22:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kvng92。"
 }

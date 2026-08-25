@@ -1,34 +1,10 @@
 {
   "schema_version": 1,
+  "id": "1exh6chlwdipx",
   "type": "work",
   "title": "詩辨説",
-  "id": "1exh6chlwdipx",
-  "authors": [
-    {
-      "name": "趙惪",
-      "role": null,
-      "entity_id": "1jcf5151298ru",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298ru` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書詩類著錄「趙氏（惪）詩辨説」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「闕」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。\n\n**撰人近名待覈**：庫中另有同題之《詩辨說》繫「趙息」（1evgbrpmbm0w0），與本條撰人「趙惪」只一字之差。本條無前代志可資對勘（無志之異、無卷數之異可比），故不敢遽併——併之則以甲之書繫乙之名，不可逆；別建則至多多一條可考之記錄，後之覈者併之未晚。庫規亦云「不得批量合併」。",
-  "indexed_by": [
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《詩辨説》（趙惪）",
-      "summary": "七卷\n黄虞稷曰德宋宗室入元隱居豫章東湖自號鐵峰詩辨疑本七卷附錄朱氏疑問後者其撮要也",
-      "section": "詩",
-      "juan": "卷一百十",
-      "page": "KR2n0011_WYG_110-15b",
-      "attested_status": "partial",
-      "attested_status_raw": "闕",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《經義考》（清朱彝尊（1700）），故不晚於 qing",
-  "period": "liao-jin-yuan",
-  "period_basis": "宋宗室入元隱居豫章東湖，書蓋成於入元後　複審採納：宋宗室入元隱居豫章東湖，其書成於入元之後（2026-08-24 A1 medium 複審）",
-  "updated_at": "2026-08-24T00:00:00+00:00"
+  "ai_note": "2026-08-25 最小墓碑（stub）。本條之書已於 draft 側併入 `1evgbrpmbm0w0`《詩辨說》——二題歸一異體後全同、撰人同、卷數相合，是一書之重出（遼金元 L1）。而並行會話 `2a4d0f5b14` 之批次升格所用之 draft 快照是**併前之陳舊本**，本條在其中還活著，遂又升得一個 production id；該 production 條已併入存者之 production 條，其檔已刪，promotions 之映射改指存者。\n本檔立為 stub 者，是為滿 validate-promotions 之 E02／E03（有映射而無墓碑則報）。**不可再編**——其書之正身在存者。",
+  "_promoted_to": "d59f2gdrze2o",
+  "_promoted_at": "2026-08-25T04:21:27Z",
+  "merged_into": "1evgbrpmbm0w0"
 }

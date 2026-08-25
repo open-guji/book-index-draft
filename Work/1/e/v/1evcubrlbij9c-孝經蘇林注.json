@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcubrlbij9c",
   "type": "work",
   "title": "孝經蘇林注",
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "又一卷蘇林注。",
-      "summary": "又一卷蘇林注。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《孝經注》（蘇林）",
-      "summary": "七錄一卷\n陸徳明曰林字孝友陳留人魏散騎常侍",
-      "section": "孝經",
-      "juan": "卷二百二十二",
-      "page": "KR2n0011_WYG_222-21a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "蘇林",
-      "entity_id": "1j96hli818934"
-    }
-  ],
-  "id": "1evcubrlbij9c",
-  "updated_at": "2026-08-22T04:56:00.094184+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "three-kingdoms",
-  "period_basis": "撰人朝代闕，據其 Entity「蘇林」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "description": {
-    "text": "蘇林撰。見著錄於《舊唐書經籍志》《經義考》。《經義考》列於孝經。經注之屬。本書為《孝經》之注釋，其文附原典以行。《舊唐書經籍志》後晉修，本唐開元《群書四部錄》；《經義考》清朱彝尊撰——本書之目賴之以存。",
-    "sources": [
-      "舊唐書經籍志",
-      "經義考"
-    ]
-  },
-  "ai_note": "2026-08-24 J7 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。"
+  "_promoted_to": "d59f27xbuww3",
+  "_promoted_at": "2026-08-24T18:37:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xbuww3。"
 }

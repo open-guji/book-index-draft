@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqy1vy1vk",
   "type": "work",
   "title": "論語句解",
-  "authors": [
-    {
-      "name": "劉豈蟠",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfofg8jk0"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語句解》十二卷",
-      "summary": "《論語句解》十二卷（元劉豈蟠）",
-      "author_info": "元劉豈蟠"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《論語句解》（劉豈蟠）",
-      "summary": "十二卷\n張萱曰廬陵人即用朱注分析之附以圖說",
-      "section": "論語",
-      "juan": "卷二百二十",
-      "page": "KR2n0011_WYG_220-15a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 作者冲突 work=劉岊 vs anno=元劉豈蟠 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgoqy1vy1vk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gkup1c1",
+  "_promoted_at": "2026-08-25T04:36:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gkup1c1。"
 }

@@ -10,8 +10,15 @@ IE=li('entitie')
 # Production ID ↔ Draft ID：庫中之互指有用 Production ID 者，比對前兩側俱須正規化。
 # 不正規化則 Book→Work、Work→Book 之單向數全為假象（曾誤判二次）。
 _PR=json.load(open('promotions.json'))['promotions']
-P2D={v['production_id']:k for k,v in _PR.items()}
-def nz(i): return P2D.get(i,i)
+# 歸一之向取 **draft → production**，不可反。
+# 反向（production → draft）不是函數：併條之後一個 production id 可有數個 draft
+# 記錄指之（甲併入乙、甲之 production 檔刪去而其墓碑改指乙——見 SKILL 坑 30
+# 「一對多不必是撞號」），字典遂只留最後一個，於是同一個 Book 的 work_id 與
+# Work 的 books 歸一到兩個不同的 draft id 上，〈Work→Book 單向〉平白報一批。
+# 2026-08-25 遼金元輪實見五條，皆此型（讀易考原、易學變通、星命總括、易精蘊大義）。
+# 正向則必是函數：一個 draft 只升一次。
+D2P={k:v['production_id'] for k,v in _PR.items()}
+def nz(i): return D2P.get(i,i)
 def shard(i):
     h=0
     for c in i: h=((h*31)+ord(c))&0xFFFFFFFF
@@ -193,7 +200,15 @@ print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0')
 for x in _deadent[:8]: print('  ',x)
 
 # 整理本 section 之 work_ids ↔ work 之 emendated_by
+# 母條升格後 CE 目錄留在 draft（路徑仍以 draft id 為鍵），而 sweep 已把子條之
+# source_bid 改寫為 production id——故 source_bid 等於母條之 production id 亦合。
+# 2026-08-25 宋輪（漢藝文志考證／新唐書藝文志升格）踩過：不認映射則假報 87。
 import ast
+_pm={}
+try:
+    for _k,_v in json.load(open('promotions.json'))['promotions'].items():
+        _pm[_k]=_v.get('production_id')
+except Exception: pass
 desync=0
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if 'index' in f: continue
@@ -201,6 +216,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     except Exception: continue
     if not isinstance(cd,dict): continue
     src=f.split('/')[4]
+    ok_bids={src}
+    if _pm.get(src): ok_bids.add(_pm[src])
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
         v=sec.get('work_ids'); ids=ast.literal_eval(v) if isinstance(v,str) else (v or [])
@@ -209,7 +226,10 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not e: continue
             try: dd=json.load(open(e['path']))
             except Exception: continue
-            if not any(y.get('source_bid')==src for y in (dd.get('emendated_by') or [])
+            # 升格墓碑只留骨架欄（indexed_by 在 production 本文），此驗不及；
+            # 併條墓碑同理。2026-08-25 宋輪墓碑 stub 化後立此例外。
+            if dd.get('_promoted_to') or dd.get('merged_into'): continue
+            if not any(y.get('source_bid') in ok_bids for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)
 
@@ -630,6 +650,55 @@ if any(_skipped.values()):
     print(f"  ※ 《千頃堂書目》整理本暫排除：簡轉繁 {_skipped['簡轉繁']} 檔、"
           f"格式 {_skipped['格式']} 檔（使用者 2026-08-24 裁定；"
           f"待辦見 known-issues/千頃堂書目整理本-待其主收束.json）")
+# ── 內部鍵漏入落盤（2026-08-25 增） ─────────────────────────────
+# 立此驗之由：本輪批量作業用 `iter_works()`，其所注之臨時鍵 `_path`
+# （絕對路徑，屬腳本內部狀態）未剝而回寫落盤，draft 752 檔、production
+# 749 檔（隨升格帶入），積了一整輪無人知——`_` 前綴之鍵先前不在任何
+# 掃描之列，是靠肉眼撞見的。合法之 `_` 鍵只有下列五個（三個派生欄
+# ＋ 兩個 tombstone 印記），此外皆為漏鍵。
+_OKUS = {'_has_text', '_has_image', '_has_collated', '_promoted_to', '_promoted_at'}
+_USTRAY = []
+for _root in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for _t in ('Work', 'Book', 'Collection', 'Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json' % (_root, _t)):
+            try:
+                _d = json.load(open(_p, encoding='utf-8'))
+            except Exception:
+                continue
+            if not isinstance(_d, dict):
+                continue
+            for _k in _d:
+                if _k.startswith('_') and _k not in _OKUS:
+                    _USTRAY.append((_p, _k))
+print('內部鍵漏入落盤', len(_USTRAY), '　基線 0（合法之 `_` 鍵唯 '
+      '_has_text/_has_image/_has_collated/_promoted_to/_promoted_at；'
+      '凡回寫 iter_*() 之產出者，先 d.pop("_path", None)）')
+for _x in _USTRAY[:6]:
+    print('  ', _x)
+
+# ── 檔名之 id 與內容之 id 不符（2026-08-25 增） ─────────────────
+# 立此驗之由：2026-08-25 遼金元輪查得**六檔被整個覆寫**——並行會話之合流
+# commit `9db873c027` 把六條墓碑之內容落到了另外六個 work 的檔上，
+# 《深衣圖說》《尚書說》《春秋不書即位說》《洪範五事說》《毛詩說略》
+# 《詩傳演說》遂整條丟失（題、撰人、著錄、desc 皆非其物），而**無任何校驗會報**
+# ——索引是按內容之 id 建的，於是索引、分片、雙向鏈全都自洽。
+# 檔名之 id 與內容之 id 不符，是此型唯一留下的痕。
+_IDMIS = []
+for _root in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for _t in ('Work', 'Book', 'Collection', 'Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json' % (_root, _t)):
+            _fid = os.path.basename(_p).split('-', 1)[0]
+            try:
+                _d = json.load(open(_p, encoding='utf-8'))
+            except Exception:
+                continue
+            if isinstance(_d, dict) and _d.get('id') and _d['id'] != _fid:
+                _IDMIS.append((_p, _fid, _d['id'], _d.get('title') or _d.get('primary_name')))
+print('檔名 id 與內容 id 不符', len(_IDMIS), '　基線 0（不符即有一檔被別條之內容覆寫——'
+      '此型索引、分片、雙向鏈全都自洽，唯此一驗見得著）')
+for _x in _IDMIS[:6]:
+    print('  ', _x)
+
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
@@ -650,7 +719,7 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id'):
                 _pw[_d['id']]=(_d,_p)
                 if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
-    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]
     for _i,(_d,_p) in _pw.items():
         if list(_i[:3])!=_p.split('/')[-4:-1]: _pdir.append(_p)
         _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
@@ -661,6 +730,11 @@ if _PR_ROOT:
             _t2=_pt.get(_r.get('id'))
             if _r.get('title') and _t2 and _t2!=_r['title']:
                 _pdrift.append((_i,_r['id'],_r['title'],_t2))
+            # 懸空：所指之 id 兩倉四類皆無（_pw 是 production 全類，_pt 兼含 draft 之題表）。
+            # 2026-08-24 隋唐輪查得 108 條目 189 節靜默積欠——併條工具只掃 draft，
+            # 而本驗先前只驗「題漂移」，id 不存在者反而無題可比而過。
+            if _r.get('id') and _r['id'] not in _pw and _r['id'] not in _pt:
+                _pdang.append((_i,_r.get('id'),_r.get('title')))
             _k=(_r.get('id'),_r.get('relation'))
             if _k in _seen: _pdup.append((_i,_k))
             _seen.add(_k)
@@ -669,6 +743,8 @@ if _PR_ROOT:
     print('── production ──')
     print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
     for x in _pbk[:6]: print('     ',x)
+    print('  related_works 懸空（所指兩倉皆無）',len(_pdang),'　基線 0（2026-08-24 全清 189 節，修法：resweep_related 已兼掃 production）')
+    for x in _pdang[:6]: print('     ',x)
     print('  related_works[].title 漂移',len(_pdrift),'　基線 0')
     for x in _pdrift[:6]: print('     ',x)
     print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')

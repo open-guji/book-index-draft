@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxdyfm39c",
   "type": "work",
   "title": "登科記解題",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《登科記解題》",
-      "summary": "樂史《登科記解題》二十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《登科記解題》",
-      "summary": "樂史《登科記解題》二十卷蔣之奇",
-      "merged_from": "1evcsz7oynym8",
-      "note": "諸志同著《登科記解題》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxdyfm39c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "樂史",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzma9l6",
-      "note": "宋史藝文志兩出，皆作「樂史《登科記解題》二十卷」，前置撰人樂史。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「樂史」而無 entity_id，今繫 `1j967avzma9l6`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出「樂史《登科記解題》二十卷」，撰人、卷數全同，係重出，今合併。所併之條句末「蔣之奇」屬其下條。"
+  "_promoted_to": "d59f2hkgzwu8",
+  "_promoted_at": "2026-08-25T05:44:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkgzwu8。"
 }

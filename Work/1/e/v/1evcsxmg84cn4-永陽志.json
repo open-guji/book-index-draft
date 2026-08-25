@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxmg84cn4",
   "type": "work",
   "title": "永陽志",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《永陽志》",
-      "summary": "林票《永陽志》三十五卷曾文"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "永陽志",
-      "merged_from": "1evr5e3mi42vt",
-      "note": "原自成一記錄（直齋），皆宋永陽志三十五卷，今併。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《永陽志》三十五卷",
-      "summary": "《永陽志》三十五卷（龔惟蕃）",
-      "author_info": "龔惟蕃",
-      "merged_from": "1evgpjs0b0tmo",
-      "note": "原自成一記錄（國史），皆宋永陽志三十五卷，今併。"
-    }
-  ],
-  "id": "1evcsxmg84cn4",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'陳璉'）。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['宋史藝文志'] needs-review (gazetteer_propagation)]\n\n2026-08-19 全庫同名異書核對：本條為磁鐵：兼載宋史藝文志林票《永陽志》三十五卷與明史藝文志陳璉《永陽志》二十六卷，異人異書，析出須新建 Work，依庫例暫存俟裁。 2026-08-20 組6拆分：本條留宋永陽志三十五卷（林㟽命龔維蕃修；直齋、國史記錄併入），撰人正名；陳璉二十六卷本另立。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "authors": [
-    {
-      "name": "龔維蕃",
-      "role": "修",
-      "dynasty": "宋",
-      "note": "滁守林㟽命修（直齋）。宋志撰人訛作「林票」，國史作「龔惟蕃」。",
-      "entity_id": "1jcf515129a86",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a86` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 35
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 35
-    }
-  ],
-  "measure_info": "三十五卷"
+  "_promoted_to": "d59f2hl77ugz",
+  "_promoted_at": "2026-08-25T05:46:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hl77ugz。"
 }

@@ -1,77 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd4ee81s0",
   "type": "work",
   "title": "晉明帝集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《晉明帝集》五卷",
-      "summary": "《晉明帝集》五卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "明帝集五卷録一卷 謹按見《七錄》。兩《唐志》著錄。",
-      "merged_from": "1evcmocgu5t6o",
-      "note": "補晉書藝文志「明帝集五卷錄一卷（見《七錄》。兩《唐志》著錄）」所指為晉明帝司馬紹，與後周明帝宇文毓之《明帝集》非一書；原誤繫於後周明帝條 `1evcmocgu5t6o`，今移歸本條。",
-      "section": "丁部集録／别集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "明帝集",
-      "summary": "明帝集五卷",
-      "merged_from": "1evcmocgu5t6o",
-      "note": "新唐書藝文志此條列於晉宣帝集、文帝集之後，簡文帝集、齊王攸集之前，是晉明帝司馬紹之集；原誤繫於磁鐵條 `1evcmocgu5t6o`，今移歸本條。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《明帝集》五卷",
-      "summary": "《明帝集》五卷",
-      "merged_from": "1evgqabsybxmo",
-      "note": "國史經籍志此條列於晉宣帝集、文帝集之後，簡文帝集、孝武帝集之前，是晉明帝司馬紹之集，與舊唐書經籍志《晉明帝集》五卷同卷同書，今合併。"
-    }
-  ],
-  "id": "1evcpd4ee81s0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "司馬紹",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1jcf5151294ir",
-      "note": "晉明帝，元帝子，在位四年。舊唐書經籍志題《晉明帝集》五卷，新唐書藝文志、國史經籍志皆於晉室諸帝之次作《明帝集》五卷。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294ir` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "additional_titles": [
-    "明帝集"
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：本條為晉明帝司馬紹集。舊唐志作《晉明帝集》五卷，補晉書藝文志作「明帝集五卷録一卷」，新唐志、國史經籍志皆於晉室諸帝之次作《明帝集》五卷——四志同指一書，今合併（併入 `1evgqabsybxmo`；新唐志條原誤繫於磁鐵條 `1evcmocgu5t6o`，一併移歸）。與魏明帝曹叡之《明帝集》（`1evcmoaumpqm8`）、後周明帝宇文毓之《明帝集》（`1evcpd4gp969s`）、宋明帝之《明帝集》三十三卷（`1evgqb2y01w5c`）皆非一書。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "司馬紹（晉）撰。五卷。見著錄於《舊唐書經籍志》《補晋書藝文志》《新唐書藝文志》《國史經籍志》。《補晋書藝文志》列於丁部集録·别集類。",
-    "sources": [
-      "舊唐書經籍志",
-      "補晋書藝文志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27wwvitf",
+  "_promoted_at": "2026-08-24T18:36:55Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27wwvitf。"
 }

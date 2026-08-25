@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd5ljs5c0",
   "type": "work",
   "title": "劉寶集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《劉寶集》三卷",
-      "summary": "《劉寶集》三卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉寶集",
-      "summary": "劉寶集三卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "劉寶集三卷 謹按見《七録》。《晋百官名》《世說。德行篇》注。:“寶字道真,高平人。”馮翊太守孫楚集十二卷一卷謹按見《七錄》。《隋志》六卷,兩《唐志》十卷。本書有傳。",
-      "section": "丁部集録／别集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《劉寳集》三卷",
-      "summary": "《劉寳集》三卷",
-      "merged_from": "1evgqafn931ts",
-      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
-    }
-  ],
-  "id": "1evcpd5ljs5c0",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "additional_titles": [
-    "劉寳集"
-  ],
-  "authors": [
-    {
-      "name": "劉寶",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96h8rw7k8wo",
-      "note": "書名即撰人。補晉書藝文志案語引《世說·德行篇》注「寶字道真，高平人」。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、補晉書藝文志、國史經籍志（作「劉寳集」）皆三卷，同為晉劉寶別集，今合為一條並繫 entity `1j96h8rw7k8wo`。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "劉寶（晉）撰。三卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《補晋書藝文志》《國史經籍志》。《補晋書藝文志》列於丁部集録·别集類。諸家按語稱其佚文見引於《世說》。",
-    "sources": [
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "補晋書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27v49edf",
+  "_promoted_at": "2026-08-24T18:33:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27v49edf。"
 }

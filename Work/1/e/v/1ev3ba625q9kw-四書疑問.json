@@ -24,7 +24,7 @@
       "source": "明史藝文志",
       "source_bid": "1ev88ee9jw6ps",
       "title_info": "姚舜牧《四书疑问》十二卷",
-      "summary": "史記事《四書疑問》五卷"
+      "summary": "姚舜牧《四书疑问》十二卷"
     },
     {
       "source": "四庫全書存目叢書",
@@ -78,17 +78,22 @@
   ],
   "measure_info": "十一卷",
   "description": {
-    "text": "本書收入《四庫全書存目叢書》第158冊（经部）。",
+    "text": "姚舜牧（明）撰。十一卷；諸志所著之數有異，別作十二卷。見著錄於《欽定四庫全書總目》《明史藝文志》《四庫全書存目叢書》《經義考》。《四庫全書存目叢書》列於经部；《經義考》列於四書。",
     "sources": [
-      "四庫全書存目叢書"
+      "欽定四庫全書總目",
+      "明史藝文志",
+      "四庫全書存目叢書",
+      "經義考"
     ]
   },
-  "ai_note": "從 1evjxjp4wi9kw 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evjxjp4wi9kw 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-24 J14 明史藝文志頂真格 summary 錯位訂正：本節之 `summary` 原作「史記事《四書疑問》五卷」——與本條 title_info（及 authors[0]「姚舜牧」）不符，實為另條之引文（頂真格逐行解析時之錯位所致，全庫同型 73 節之一）。`title_info` 一律與 authors[0] 相符，故逕以本條自身之 title_info 覆寫 summary，不臆造、不遺失——二者原即「撰人《書名》卷數」之同形裸引。\n\n2026-08-24 J14 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2nhu0jr7",
+  "_promoted_at": "2026-08-25T12:35:07Z"
 }

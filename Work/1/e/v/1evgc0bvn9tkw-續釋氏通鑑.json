@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgc0bvn9tkw",
   "type": "work",
   "title": "續釋氏通鑑",
-  "authors": [
-    {
-      "name": "釋大圭",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96kei06rjeo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "大圭續釋氏通鑑十五卷",
-      "author_info": "奉化人，徑山僧",
-      "summary": "元大圭（奉化人，徑山僧）續釋氏通鑑十五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "description": {
-    "text": "奉化人，徑山僧",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgc0bvn9tkw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "ai_note": "2026-08-08 修復二字殘名：補遼金元藝文志明確「奉化人，徑山僧」即釋大圭（元，字恆白，號夢觀），缺釋字。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gfyyfi9",
+  "_promoted_at": "2026-08-25T04:27:08Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gfyyfi9。"
 }

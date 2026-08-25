@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjuaefoqo",
   "type": "work",
   "title": "東陽志",
-  "authors": [
-    {
-      "name": "洪遵",
-      "role": "撰",
-      "entity_id": "1j967avzlcjzy"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《東陽志》十卷",
-      "summary": "《東陽志》十卷（洪遵）",
-      "author_info": "洪遵"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《東陽志》",
-      "summary": "洪遵《東陽志》十卷許靖夫",
-      "merged_from": "1evcsxmlkej9c",
-      "note": "《東陽志》（洪遵）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "東陽志",
-      "merged_from": "1evgpjuaefoqo",
-      "note": "本條為整理本另立之無撰人 stub，其節「《東陽志》十卷」正文明書「樞密鄱陽洪遵景嚴撰。紹興二十四年為通制時所作。」，與本條同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《東陽志》（洪遵，10卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evcsxmlkej9c（宋史藝文志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mklz5w`（東陽志）。《東陽志》洪遵撰：整理本另立之無撰人條，其節正文明書撰人「洪遵」，與本條同卷（10卷）同書，今併。",
-  "id": "1evgpjuaefoqo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-22T04:56:00.121454+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「洪遵」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hk0gc1u",
+  "_promoted_at": "2026-08-25T05:44:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk0gc1u。"
 }

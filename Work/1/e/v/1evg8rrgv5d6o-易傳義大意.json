@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg8rrgv5d6o",
   "type": "work",
   "title": "易傳義大意",
-  "authors": [
-    {
-      "name": "唐元",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147clzi"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "唐元易傳義大意十卷",
-      "author_info": "字長孺，徽州路儒學教授",
-      "summary": "元唐元（字長孺，徽州路儒學教授）易傳義大意十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《易傳義大意》十卷",
-      "author_info": "字長孺，歙人。徽州路儒學教授",
-      "summary": "元唐元（字長孺，歙人。徽州路儒學教授）易傳義大意十卷"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《易傳義大意》（唐元）",
-      "summary": "十卷\n杜本志墓曰公諱元字長孺新安歙縣人筮仕平江路儒學錄調分水縣儒學教諭改南軒書院山長以徽州路儒學教授致仕",
-      "section": "易",
-      "juan": "卷四十四",
-      "page": "KR2n0011_WYG_044-10b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evg8rrgv5d6o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2glzwd1d",
+  "_promoted_at": "2026-08-25T04:38:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glzwd1d。"
 }

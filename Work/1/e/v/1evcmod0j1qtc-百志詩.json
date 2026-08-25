@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmod0j1qtc",
   "type": "work",
   "title": "百志詩",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《百志詩》九卷",
-      "summary": "《百志詩》九卷干寶撰。梁五卷。又有《古遊仙詩》一卷；應貞注應璩《百一詩》八卷；《百一詩》二卷，晉蜀郡太守李彪撰。亡。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "百志詩九卷 干寶,謹按見《隋志》。《七録》、兩《唐志》均五卷。",
-      "section": "丁部集録／總集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "authors": [
-    {
-      "name": "干寶",
-      "role": "撰",
-      "entity_id": "1j96a9e1axn28"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmod0j1qtc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉",
-  "description": {
-    "text": "干寶撰。九卷。見著錄於《隋書經籍志》《補晋書藝文志》。《補晋書藝文志》列於丁部集録·總集類。其著錄之文，《補晋書藝文志》作「百志詩九卷 干寶,謹按見《隋志》」。",
-    "sources": [
-      "隋書經籍志",
-      "補晋書藝文志"
-    ]
-  },
-  "ai_note": "2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。"
+  "_promoted_to": "d59f27umgvep",
+  "_promoted_at": "2026-08-24T18:32:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27umgvep。"
 }

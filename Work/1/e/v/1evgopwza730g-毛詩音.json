@@ -1,84 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgopwza730g",
   "type": "work",
   "title": "毛詩音",
-  "authors": [
-    {
-      "name": "徐邈",
-      "role": "撰",
-      "entity_id": "1j96hl473bf9c"
-    }
-  ],
-  "juan_count": {
-    "number": 16
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《毛詩音》十六卷",
-      "summary": "《毛詩音》十六卷（徐邈等。）",
-      "author_info": "徐邈等。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《毛詩音》（徐邈）",
-      "summary": "七録十六卷　又二卷",
-      "section": "詩",
-      "juan": "卷一百二",
-      "page": "KR2n0011_WYG_102-4a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "title_info": "毛詩音二卷",
-      "summary": "毛詩音二卷\n徐。謹按見《七録》。家大人曰:“《隋志》又言梁有《毛詩音》十六卷,徐 等撰。”蓋集各家詩音而徐為首,故有“等”字。實則 所著即此二卷也,不再複列。",
-      "merged_from": "1evfugw3j1la8",
-      "note": "《毛詩音》（徐邈）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。",
-      "section": "甲部經錄／詩類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《毛詩音》二卷",
-      "summary": "《毛詩音》二卷（徐邈）",
-      "merged_from": "1evfugw3j1la8",
-      "note": "《毛詩音》（徐邈）諸志同著而卷數互異，乃傳本分卷之別，非二書，今合併。"
-    }
-  ],
-  "description": {
-    "text": "徐邈撰。十六卷；諸志所著之數有異，別作二卷。見著錄於《國史經籍志》《經義考》《補晋書藝文志》。《經義考》列於詩；《補晋書藝文志》列於甲部經錄·詩類。",
-    "sources": [
-      "國史經籍志",
-      "經義考",
-      "補晋書藝文志",
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-19 有撰人之同名組專項（卷數異者）：《毛詩音》（徐邈）在庫中兩建（或數建）其條，題名、撰人俱同而卷數互異——依「跨志卷異即異本」之判準，乃一書之異本，今合併，卷數從著錄較備者，餘數之異存於各 indexed_by 之引文。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgopwza730g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-22T04:56:00.090058+00:00",
-  "period_upper": "jin",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《補晋書藝文志》（清人補晉，斷代），故不晚於 jin",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，據其 Entity「徐邈」之 period 傳播；上限 jin 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f27xzky68",
+  "_promoted_at": "2026-08-24T18:38:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xzky68。"
 }

@@ -8,7 +8,7 @@
       "name": "謝氏",
       "role": "注",
       "note": "始末未詳",
-      "entity_id": "1j967cp1zdr2d"
+      "name_basis": "N（2026-08-25 明代輪 S7 前置，坑23）：本條出《隋書經籍志考證》，其按語明言「謝氏始末未詳」。所繫 entity `1j967cp1zdr2d`（primary_name「謝氏」，dynasty 清，cbdb 691057，match 由「name_exact+dy_match+unique」）**非其人**——「謝氏」是志書「某位姓謝者」之省，本非人名。原 period=qing 即由此 entity 傳播而來，而隋志考證所著錄者不得為清人。今解其繫、撤 period（始末未詳，留空即「未考」之正解）。依坑23：不刪條、不改題、不動 indexed_by。"
     }
   ],
   "description": {
@@ -18,11 +18,11 @@
     ]
   },
   "indexed_by": [],
-  "ai_note": "梁有而隋已亡。姚振宗按：謝氏始末未詳。來源：姚振宗《隋書經籍志考証》　loss_status 判為 lost，據本記錄之描述／著錄語：「謝氏注《周易》八卷，梁時尚存，隋時已亡／謝氏注《周易》八卷，梁時尚存，隋時已亡」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
+  "ai_note": "梁有而隋已亡。姚振宗按：謝氏始末未詳。來源：姚振宗《隋書經籍志考証》　loss_status 判為 lost，據本記錄之描述／著錄語：「謝氏注《周易》八卷，梁時尚存，隋時已亡／謝氏注《周易》八卷，梁時尚存，隋時已亡」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\nN（2026-08-25 明代輪 S7 前置，坑23）：本條出《隋書經籍志考證》，其按語明言「謝氏始末未詳」。所繫 entity `1j967cp1zdr2d`（primary_name「謝氏」，dynasty 清，cbdb 691057，match 由「name_exact+dy_match+unique」）**非其人**——「謝氏」是志書「某位姓謝者」之省，本非人名。原 period=qing 即由此 entity 傳播而來，而隋志考證所著錄者不得為清人。今解其繫、撤 period（始末未詳，留空即「未考」之正解）。依坑23：不刪條、不改題、不動 indexed_by。",
   "emendated_by": [
     {
       "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
+      "source_bid": "d59f2mp0flz6",
       "note": "梁有謝氏注《周易》八卷，亡。",
       "title_info": "梁有謝氏注《周易》八卷，亡。",
       "summary": "謝氏始末未詳。"
@@ -37,6 +37,8 @@
   ],
   "loss_status": "lost",
   "updated_at": "2026-08-24T04:34:30.818579+00:00",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，據其 Entity「謝氏」之 period 傳播（2026-08-24 R2）"
+  "period": null,
+  "period_basis": null,
+  "dynasty": null,
+  "dynasty_basis": null
 }

@@ -24,7 +24,7 @@
     },
     {
       "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
+      "source_bid": "d59f28nmafwh",
       "title_info": "《風角書》十二卷",
       "summary": "《風角書》十二卷梁十卷。",
       "misattached": true,
@@ -47,12 +47,15 @@
     }
   ],
   "description": {
-    "text": "本書收入《續修四庫全書》第1052冊（子部）。",
+    "text": "張爾歧（清）撰。八卷；諸志所著之數有異，別作十二卷。見著錄於《續修四庫全書》《隋書經籍志》《清史稿藝文志》《隋書經籍志考證》。《續修四庫全書》列於子部 術數類。",
     "sources": [
-      "續修四庫全書"
+      "續修四庫全書",
+      "隋書經籍志",
+      "清史稿藝文志",
+      "隋書經籍志考證"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcmneqnimf4(張爾岐)。\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcmneqnimf4`），據題名唯一回收於本條，並補其著錄。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於隋書經籍志、隋書經籍志考證，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evcmneqnimf4(張爾岐)。\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evcmneqnimf4`），據題名唯一回收於本條，並補其著錄。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於隋書經籍志、隋書經籍志考證，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "juan_count": {
     "number": 8
   },
@@ -91,5 +94,7 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "_promoted_to": "d59f2mtm6mf5",
+  "_promoted_at": "2026-08-25T11:48:33Z"
 }

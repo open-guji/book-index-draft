@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsylrt6jgg",
   "type": "work",
   "title": "天元秘演",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《天元秘演》",
-      "summary": "陳蓬《天元秘演》十卷龐安時"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《天元祕演》十卷",
-      "summary": "《天元祕演》十卷（陳蓬）",
-      "author_info": "陳蓬",
-      "merged_from": "1evgq1j8fs3r4",
-      "note": "諸志同著《天元秘演》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsylrt6jgg",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "additional_titles": [
-    "天元祕演"
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "authors": [
-    {
-      "name": "陳蓬",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151299ju",
-      "note": "宋史藝文志作「陳蓬《天元秘演》十卷龐安時」、國史經籍志注「陳蓬」，二志相合；句末「龐安時」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299ju` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《天元秘演》十卷，今合併。宋志之前置撰人與國史經籍志之注相合，並為陳蓬。"
+  "_promoted_to": "d59f2hgo9ywz",
+  "_promoted_at": "2026-08-25T05:37:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgo9ywz。"
 }

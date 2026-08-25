@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs09ll3wn4",
   "type": "work",
   "title": "韋昭注",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "韋昭注",
-      "summary": "韋昭注一卷"
-    }
-  ],
-  "id": "1evcs09ll3wn4",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "韋昭",
-      "role": "注",
-      "dynasty": "三國吳",
-      "entity_id": "1j96gmdzkugw0",
-      "note": "新唐書藝文志作「韋昭注一卷」。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「韋昭」而無 entity_id，今繫 `1j96gmdzkugw0`——庫中 primary_name 同之者唯一。其代「三國吳」與本書已定之代「three-kingdoms」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "三國吳",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國吳」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為新唐書藝文志韋昭注一卷，與同志二十一卷本（`1evcs09e5wrnk`）所注之書不同，未予合併。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "韋昭（三國吳）注。一卷。見著錄於《新唐書藝文志》。其著錄之文，《新唐書藝文志》作「韋昭注一卷」。本書惟《新唐書藝文志》一志著錄，別無他證。經注之屬。《新唐書藝文志》北宋歐陽脩等修，本書之目賴之以存。",
-    "sources": [
-      "新唐書藝文志"
-    ]
-  }
+  "_promoted_to": "d59f27t87nyc",
+  "_promoted_at": "2026-08-24T18:29:50Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27t87nyc。"
 }

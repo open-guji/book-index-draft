@@ -3,50 +3,7 @@
   "id": "1ev3bc7qviu4g",
   "type": "work",
   "title": "誠齋雜記",
-  "authors": [
-    {
-      "name": "林坤",
-      "role": "舊題撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl7bsq0",
-      "role_basis": "據著錄語「舊本題元林坤撰。前有永嘉周達卿序，稱坤字載卿，會稽人。曾官翰林」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《誠齋雜記》·二卷",
-      "author_info": "舊本題元林坤撰",
-      "summary": "舊本題元林坤撰。前有永嘉周達卿序，稱坤字載卿，會稽人。曾官翰林，所著書凡十二種，此乃其一。誠齋，坤所自號也。作序年月題丙戌嘉平，不署紀元。書中引聶碧窗詩，與古人並列。聶為元初道士，則是書在後矣。中皆剽掇各家小說，餖飣割裂，而不著出典。如昆侖奴磨勒一事，分於五處載之，其弇陋可知也。",
-      "edition": "內府藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=278847",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "_has_text": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題元林坤撰。前有永嘉周達卿序，稱坤字載卿，會稽人。曾官翰林」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "_promoted_to": "d59f2ghfearl",
+  "_promoted_at": "2026-08-25T04:29:56Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ghfearl。"
 }

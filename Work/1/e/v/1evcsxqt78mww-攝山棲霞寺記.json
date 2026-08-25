@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxqt78mww",
   "type": "work",
   "title": "攝山棲霞寺記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《攝山棲霞寺記》",
-      "summary": "靈湍《攝山棲霞寺記》一卷師哲"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "攝山栖霞寺記一卷",
-      "summary": "攝山栖霞寺記一卷",
-      "merged_from": "1evr5e3mh6dby",
-      "note": "諸志同著《攝山棲霞寺記》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《攝山栖霞寺記》一卷",
-      "summary": "《攝山栖霞寺記》一卷（唐雲三）",
-      "author_info": "唐雲三",
-      "merged_from": "1evr5e3mh6dby",
-      "note": "諸志同著《攝山棲霞寺記》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxqt78mww",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "additional_titles": [
-    "攝山栖霞寺記"
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "靈湍",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151299oq",
-      "note": "宋史藝文志作「靈湍《攝山棲霞寺記》一卷師哲」，前置撰人靈湍；句末「師哲」屬下條。國史經籍志則注「唐雲三」，二志所題不同，今從宋志之前置撰人，並存國史之異說於 indexed_by。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299oq` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志同著《攝山栖霞寺記》一卷，今合併。撰人宋志作「靈湍」、國史經籍志注作「唐雲三」，二說並存，今從宋志前置撰人之例。"
+  "_promoted_to": "d59f28jptngm",
+  "_promoted_at": "2026-08-24T19:20:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jptngm。"
 }

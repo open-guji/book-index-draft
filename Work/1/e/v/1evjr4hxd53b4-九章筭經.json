@@ -1,68 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr4hxd53b4",
   "type": "work",
   "title": "九章筭經",
-  "authors": [
-    {
-      "name": "劉徽",
-      "role": "注",
-      "dynasty": "三國魏",
-      "entity_id": "1j96hla1stbsw",
-      "dynasty_basis": "historical_dict:round2(劉徽(約225-295)，三國魏數學家，注九章算術)"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《九章筭經九卷(存l—5卷)》",
-      "author_info": "晉劉徽注",
-      "summary": "《九章筭經九卷(存l—5卷)》。晉劉徽注。影印上海圖書館藏宋刻本。",
-      "edition": "影印上海圖書館藏宋刻本",
-      "volume": "第1041冊",
-      "section": "子部 天文算法類"
-    }
-  ],
-  "description": {
-    "text": "劉徽（三國魏）注。九卷。見著錄於《續修四庫全書》。《續修四庫全書》列於子部 天文算法類。其著錄之文，《續修四庫全書》作「《九章筭經九卷(存l—5卷)》」。本書惟《續修四庫全書》一志著錄，別無他證。《續修四庫全書》一九九五年影印，本書之目賴之以存。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 | 從 1evjy57mhg740 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evgorpepz474(甄鸞)（不同作者，故新建獨立 Work）。 | 從 1evke73ndlaf4 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgorpepz474(甄鸞);1evjy57mhg740(劉徽)（不同作者，故新建獨立 Work）。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（九卷），今據以補。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evjr4hxd53b4",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1041%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1041
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "books": [
-    "11qk4xwct6s61",
-    "11qkhup6uplvk"
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_image": true,
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "juan_count": {
-    "number": 9
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷"
+  "_promoted_to": "d59f27x4d7ur",
+  "_promoted_at": "2026-08-24T18:37:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27x4d7ur。"
 }

@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy5kjo5ybk",
   "type": "work",
   "title": "東坡集",
-  "authors": [
-    {
-      "name": "蘇軾",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967afjb6aeg",
-      "dynasty_basis": "entity_propagation:1j967afjb6aeg"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》唐宋編（ZHSY000356）。宋刻本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-20 磁鐵拆解專項（八，題核心＋內文撰人）：整理本「《東坡集》四十卷」等 1 節原繫他條——其節題與本條之題核心相同，而**內文所書之撰人「蘇軾」與本條相合**（前此諸批只比題名，凡撰人在內文不在題者皆漏），今改繫本條並歸其著錄。 2026-08-20 俟裁批同書併：記錄 `1evr5e3mkx7p9`（東坡集）併入。直齋東坡集四十卷之重出泛記錄，其所兼繫五節（內制、外制、奏議、應詔、李覯後集）各歸其主。 2026-08-21 既有獨立部帙 Work 覆判：《後集》二十卷、《外制集》三卷 之節歸本條（原別立 Work，經核無單行之證，撤）。",
-  "juan_count": {
-    "number": 40
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 40
-    }
-  ],
-  "measure_info": "四十卷",
-  "id": "1evjy5kjo5ybk",
-  "books": [
-    "11qk4xwctt98y"
-  ],
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《東坡集》四十卷",
-      "summary": "端明殿學士文忠公蘇軾子瞻撰。一字和仲。自謫黃州，始號東坡居士。杭、蜀本同，杭無《應詔集》。",
-      "note": "本著錄原繫磁鐵條「東坡集」（`1evr5e3mkx7p9`），其內文之撰人「蘇軾」與本條合，今歸本條。 本條連記附屬部帙《《後集》二十卷》。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。 本條連記附屬部帙《《外制集》三卷》。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "東坡集》四十卷、《後集》二十卷、《內制集》十卷、《外制集》三卷、《奏議》十五卷、《和陶集》四卷、《應詔集",
-      "merged_from": "1evr5e3mkx7p9",
-      "note": "直齋東坡集四十卷之重出泛記錄，其所兼繫五節（內制、外制、奏議、應詔、李覯後集）各歸其主。"
-    }
-  ]
+  "_promoted_to": "d59f2htn8zk3",
+  "_promoted_at": "2026-08-25T06:02:38Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2htn8zk3。"
 }

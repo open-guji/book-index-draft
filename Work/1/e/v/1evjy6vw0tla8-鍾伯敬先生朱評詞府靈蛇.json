@@ -7,7 +7,9 @@
       "name": "鐘惺",
       "role": "選",
       "entity_id": "1jcf515129aec",
-      "name_basis": "2026-08-24 連書之撰人拆分：本條 authors 舊作「鐘惺選(明李光祚」一名，實是連書數人之語（鐘惺（選））。諸志之例，原撰之後綴以後人之注者、評者、輯者，並括注其代，匯入時未拆，遂併為一名。今拆之，本欄為其中之「鐘惺」。"
+      "name_basis": "2026-08-24 連書之撰人拆分：本條 authors 舊作「鐘惺選(明李光祚」一名，實是連書數人之語（鐘惺（選））。諸志之例，原撰之後綴以後人之注者、評者、輯者，並括注其代，匯入時未拆，遂併為一名。今拆之，本欄為其中之「鐘惺」。",
+      "dynasty": "明",
+      "dynasty_basis": "period_basis 已考定（J30）：據 authors[0].dynasty「明」"
     }
   ],
   "description": {
@@ -16,7 +18,7 @@
       "中華再造善本"
     ]
   },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 J30：authors[0].dynasty 補「明」——period_basis 已具體考定（據 authors[0].dynasty「明」…），indexed_by 無 misattached 標記，逕 propagate。",
   "id": "1evjy6vw0tla8",
   "books": [
     "11qk4xwcwb5mi"
@@ -25,5 +27,7 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2nkfnqpv",
+  "_promoted_at": "2026-08-25T12:40:07Z"
 }

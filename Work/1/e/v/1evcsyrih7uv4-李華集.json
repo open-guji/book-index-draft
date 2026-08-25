@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyrih7uv4",
   "type": "work",
   "title": "李華集",
-  "authors": [
-    {
-      "name": "李華",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7y9uh"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《李華集》",
-      "summary": "《李華集》二十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《李華集》",
-      "summary": "《李華集》二十卷秦係",
-      "merged_from": "1evcsyrh0rzls",
-      "note": "宋志別集類同書著錄二次（本條與另一裸題條），卷數全合，確係該志重出；句末「秦係」屬下一條《秦隱君詩》之頂真格領頭撰人，非本書撰人。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "李華集二十卷",
-      "summary": "李華集二十卷",
-      "merged_from": "1evr5e3mhhlrm",
-      "note": "裸題，卷數合，姑併。"
-    }
-  ],
-  "id": "1evcsyrih7uv4",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "ai_note": "2026-08-19 全庫同名異書核對：書名即題撰人「李華」（唐開元進士，古文家，與蕭穎士齊名），今補入 authors 並繫既有 entity；併入宋史藝文志另一著錄（該志別集類重出，其句末「秦係」屬下條《秦隱君詩》之頂真格領頭撰人）、崇文總目裸題本，3條併為1。",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "_promoted_to": "d59f28lxf5z9",
+  "_promoted_at": "2026-08-24T19:25:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lxf5z9。"
 }

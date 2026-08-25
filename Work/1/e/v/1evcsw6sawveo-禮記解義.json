@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw6sawveo",
   "type": "work",
   "title": "禮記解義",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《禮記解義》",
-      "summary": "《禮記解義》二十卷王普"
-    }
-  ],
-  "id": "1evcsw6sawveo",
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "王普",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967bgl6e335",
-      "note": "宋史藝文志作「《禮記解義》二十卷王普」，所繫撰人王普。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「王普」而無 entity_id，今繫 `1j967bgl6e335`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為王普《禮記解義》二十卷，與同志李格非《禮記解義》十卷（`1evcsw6qm1lhc`）非一書，未予合併。"
+  "_promoted_to": "d59f2hi35ngh",
+  "_promoted_at": "2026-08-25T05:40:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi35ngh。"
 }

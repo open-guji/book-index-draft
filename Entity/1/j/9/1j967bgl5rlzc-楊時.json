@@ -27,67 +27,67 @@
   "death_year": 1135,
   "works": [
     {
-      "work_id": "1ev3bb7grho8w",
+      "work_id": "d59f2hpnntog",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bcy3p7chs",
+      "work_id": "d59f2hqtsv0h",
       "role": "撰"
     },
     {
-      "work_id": "1evgopravmpds",
+      "work_id": "d59f2hicu0ap",
       "role": "撰"
     },
     {
-      "work_id": "1evgoputwwjy8",
+      "work_id": "d59f2hk70bgh",
       "role": "撰"
     },
     {
-      "work_id": "1evgoq6vmivb4",
+      "work_id": "d59f2hi512pt",
       "role": "撰"
     },
     {
-      "work_id": "1evgoqe5v445c",
+      "work_id": "d59f2hgowg03",
       "role": "撰"
     },
     {
-      "work_id": "1evgoqwh5vk74",
+      "work_id": "d59f2hhtham8",
       "role": "撰"
     },
     {
-      "work_id": "1evgor6l49pfk",
+      "work_id": "d59f2hex816p",
       "role": "撰"
     },
     {
-      "work_id": "1evjy55l7swzk",
+      "work_id": "d59f2hu2jm69",
       "role": "撰"
     },
     {
-      "work_id": "1evka9l78dxxc",
+      "work_id": "d59f2hri5ddt",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw68141ds",
+      "work_id": "d59f2hcmtds3",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw96wydj4",
+      "work_id": "d59f2hd4lwqo",
       "role": "撰"
     },
     {
-      "work_id": "1ewwanm3lyrk1",
+      "work_id": "d59f2hd1hjb9",
       "role": "撰"
     },
     {
-      "work_id": "1exm2wgd43fri",
+      "work_id": "d59f2hdjlatc",
       "role": "撰"
     },
     {
-      "work_id": "1ex4ll34oxa19",
+      "work_id": "d59f2ofty9s1",
       "role": "撰"
     },
     {
-      "work_id": "1ex7tqt3n1h4u",
+      "work_id": "d59f2ofty9s1",
       "role": "撰"
     }
   ],
@@ -100,5 +100,5 @@
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw68141ds`《詩解》。"
 }

@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyeafdr0g",
   "type": "work",
   "title": "硯錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《硯錄》",
-      "summary": "（（亦投子選也））唐詢《硯錄》二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《硯錄》二卷",
-      "summary": "《硯錄》二卷（唐詢）",
-      "author_info": "唐詢",
-      "merged_from": "1evgpi291l1q8",
-      "note": "諸志同著《硯錄》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsyeafdr0g",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E7%A1%AF%E9%8C%84",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "authors": [
-    {
-      "name": "唐詢",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf5151294vo",
-      "note": "宋史藝文志作「唐詢《硯錄》二卷」、國史經籍志注「唐詢」，二志相合。條首「（（亦投子選也））」乃上條之注。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294vo` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《硯錄》二卷，今合併。二志所著撰人相合，並為唐詢。"
+  "_promoted_to": "d59f2hjn14oz",
+  "_promoted_at": "2026-08-25T05:43:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjn14oz。"
 }

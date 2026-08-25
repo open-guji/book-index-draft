@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqgauy6pkw",
   "type": "work",
   "title": "唐詩",
-  "authors": [
-    {
-      "name": "李戡",
-      "role": "撰",
-      "entity_id": "1j96h8rw9fo78"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《唐詩》三卷",
-      "summary": "《唐詩》三卷（李戡集）",
-      "author_info": "李戡集"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "李戡唐詩",
-      "summary": "李戡唐詩三卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "唐詩",
-      "merged_from": "1evgqgauy6pkw",
-      "note": "本條直齋書錄解題裸題「唐詩」三卷，與本條（國史經籍志、新唐志，李戡，三卷）全合（同組另一清史稿三十二卷條為清聖祖另一部大型御定唐詩選，不涉不併）。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 作者冲突 work=聖祖御撰 vs anno=李戡\n\n2026-08-10 撰人字首式重出候選覆核：1evcs18boz9xc（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mifbhg`（唐詩）。《唐詩》唐李戡撰：直齋裸題三卷與本條全合，今併。",
-  "id": "1evgqgauy6pkw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-22T04:56:00.134599+00:00",
-  "books": [],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "撰人朝代闕，據其 Entity「李戡」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f28lq8phi",
+  "_promoted_at": "2026-08-24T19:24:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lq8phi。"
 }

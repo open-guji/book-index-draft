@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbs1xguj9c",
   "type": "work",
   "title": "春秋精義",
-  "authors": [
-    {
-      "name": "呂椿",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96kei67pgxs"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "呂椿春秋精義",
-      "summary": "元呂椿春秋精義"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《春秋精義》（呂椿）",
-      "summary": "閩書呂椿字之夀晉江人從邱葵學隱居教授",
-      "section": "春秋",
-      "juan": "卷一百九十四",
-      "page": "KR2n0011_WYG_194-14b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "ai_note": "同名異書：已有 Work 作者為 [('不著', '')]，本條作者 呂椿（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evr5e3mfaxxt 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。\n\n[N3磁鐵 2026-08-24]《崇文總目》《經義考》卷一百七十八之《春秋精義》三十卷不著撰人，原共繫本條，今別立 `1exyhpp5h7wk1`；本條止存元人呂椿之書。",
-  "id": "1evgbs1xguj9c",
-  "updated_at": "2026-08-24T02:11:39+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷"
+  "_promoted_to": "d59f2gg8bjsw",
+  "_promoted_at": "2026-08-25T04:27:38Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gg8bjsw。"
 }

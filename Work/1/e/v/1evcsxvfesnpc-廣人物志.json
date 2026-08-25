@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxvfesnpc",
   "type": "work",
   "title": "廣人物志",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《廣人物志》",
-      "summary": "杜周士《廣人物志》二卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "廣人物志三卷",
-      "summary": "廣人物志三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《廣人物志》三卷",
-      "summary": "《廣人物志》三卷（唐求咸士）",
-      "author_info": "唐求咸士"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "廣人物志"
-    }
-  ],
-  "id": "1evcsxvfesnpc",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐求咸士」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 ≥4 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字；敘錄之引文截其前二句（不逾一百五十字）。未覆核原書。生成之法見 `.claude/skills/curate-dynasty` 之記。何以機械撮之：本桶待補者七百餘條而材料大半止於著錄語，逐條手撰不可行，而放著不補則升格後 production 內盡是空條；**卷數之異同正是著錄條最有價值的信息**——諸志所著不同，即其書歷代殘闕之跡。",
-  "authors": [
-    {
-      "name": "求咸士",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151296y3",
-      "note": "據本 work 諸著錄之 author_info「唐求咸士」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296y3` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "description": {
-    "text": "《廣人物志》三卷，唐求咸士撰。諸志所著卷數不一：《崇文總目》、《國史經籍志》著三卷；《宋史藝文志》著二卷——卷數之異，歷代殘闕與傳鈔之跡。",
-    "sources": [
-      "宋史藝文志",
-      "崇文總目",
-      "國史經籍志",
-      "直齋書錄解題"
-    ]
-  }
+  "_promoted_to": "d59f28jovxtx",
+  "_promoted_at": "2026-08-24T19:20:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jovxtx。"
 }

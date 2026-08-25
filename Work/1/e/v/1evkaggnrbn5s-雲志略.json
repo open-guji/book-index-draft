@@ -11,12 +11,13 @@
     }
   ],
   "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖006291-006302）。明天啟三年刊本。",
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖006291-006302）。明天啟三年刊本。撰人何三畏，字士抑，號繩武，南直隸華亭（松江府）人，明萬曆十年（1582）壬午舉人，授紹興府推官，以忤權貴、丁母憂歸里，遂不復出，晚年專事著述。書名「雲志略」當即《雲間志略》之省題（雲間為松江古稱），何三畏纂輯，天啟四年（1624）刊行，凡二十四卷，踵正德《松江府志》體例，專輯松江一府人物傳記。",
     "sources": [
-      "國立故宮博物院善本舊籍"
+      "國立故宮博物院善本舊籍",
+      "WebSearch覆核"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條著錄來源（國立故宮博物院善本舊籍，統一編號見 indexed_by.catalog_no）原僅存於 description 之散文，今結構化補入 indexed_by（機械抽取，未增未減）。\n\n2026-08-25 合流按（並行車道 J32）：2026-08-25 J33：補撰內容提要（WebSearch覆核：何三畏生平、《雲間志略》成書年代與體例；書名「雲志略」疑脫「間」字，據書名體例存疑說明，不逕改著錄原文）。",
   "juan_count": {
     "number": 12
   },
@@ -32,5 +33,16 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "雲志略",
+      "summary": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖006291-006302）。明天啟三年刊本。",
+      "edition": "明天啟三年刊本。",
+      "catalog_no": "平圖006291-006302"
+    }
+  ],
+  "_promoted_to": "d59f2nivs9hd",
+  "_promoted_at": "2026-08-25T12:37:07Z"
 }

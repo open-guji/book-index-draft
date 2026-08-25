@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcswx5m9s",
   "type": "work",
   "title": "周易文句義疏",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《周易文句義疏》二十卷",
-      "summary": "《周易文句義疏》二十卷已上並梁蕃撰。"
-    }
-  ],
-  "id": "1evcpcswx5m9s",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "梁蕃",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j96hlf65p1j4",
-      "note": "舊唐書經籍志作「《周易文句義疏》二十卷已上並梁蕃撰」。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「梁蕃」而無 entity_id，今繫 `1j96hlf65p1j4`——庫中 primary_name 同之者唯一。其代「南朝梁」與本書已定之代「nanbeichao」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為梁蕃《周易文句義疏》二十卷，與同志陸德明《周易文句義疏》二十四卷（`1evcpcsw8t3wg`）撰人、卷數俱異，非一書，未予合併。"
+  "_promoted_to": "d59f284atpmr",
+  "_promoted_at": "2026-08-24T18:51:07Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f284atpmr。"
 }

@@ -2182,7 +2182,7 @@
     "subtype": "people",
     "primary_name": "鄧牧",
     "path": "Entity/1/j/9/1j967avzmwqq5-鄧牧.json",
-    "dynasty": "元",
+    "dynasty": "宋末元初",
     "birth_year": 1247,
     "death_year": 1306,
     "cbdb_id": 33896,
@@ -4784,7 +4784,7 @@
     "subtype": "people",
     "primary_name": "方鳳",
     "path": "Entity/1/j/9/1j967da96lwev-方鳳.json",
-    "dynasty": "元",
+    "dynasty": "宋末元初",
     "birth_year": 1240,
     "death_year": 1321,
     "cbdb_id": 20059,
@@ -5295,11 +5295,11 @@
     "subtype": "people",
     "primary_name": "左輔",
     "path": "Entity/1/j/9/1j96a2z92lhc2-左輔.json",
-    "dynasty": "清",
+    "dynasty": "明",
     "birth_year": 1751,
     "death_year": 1833,
     "cbdb_id": 72866,
-    "period": "qing"
+    "period": "ming"
   },
   "1j96a2z92lhcb": {
     "id": "1j96a2z92lhcb",
@@ -5491,7 +5491,7 @@
     "subtype": "people",
     "primary_name": "倪維德",
     "path": "Entity/1/j/9/1j96h024mpyiz-倪維德.json",
-    "dynasty": "明",
+    "dynasty": "元末明初",
     "birth_year": 1303,
     "death_year": 1377,
     "cbdb_id": 105158,
@@ -7298,6 +7298,13 @@
     "primary_name": "刁氏",
     "path": "Entity/1/j/9/1j96heyw1o8ao-刁氏.json"
   },
+  "1j96hez0rhbsw": {
+    "id": "1j96hez0rhbsw",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "無名先生",
+    "path": "Entity/1/j/9/1j96hez0rhbsw-無名先生.json"
+  },
   "1j96hezbmafwg": {
     "id": "1j96hezbmafwg",
     "type": "entity",
@@ -7639,6 +7646,15 @@
     "subtype": "people",
     "primary_name": "氾毓",
     "path": "Entity/1/j/9/1j96hfbgpnb40-氾毓.json",
+    "dynasty": "晉",
+    "period": "jin"
+  },
+  "1j96hfbneb9xc": {
+    "id": "1j96hfbneb9xc",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "張、程、孫、劉四家集解",
+    "path": "Entity/1/j/9/1j96hfbneb9xc-張程孫劉四家集解.json",
     "dynasty": "晉",
     "period": "jin"
   },
@@ -8116,8 +8132,8 @@
     "id": "1j96hftqy0kcg",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "張敦頥",
-    "path": "Entity/1/j/9/1j96hftqy0kcg-張敦頥.json",
+    "primary_name": "張敦頤",
+    "path": "Entity/1/j/9/1j96hftqy0kcg-張敦頤.json",
     "dynasty": "宋",
     "period": "song"
   },
@@ -8167,8 +8183,10 @@
     "id": "1j96hfuys8etc",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "古涿高儒",
-    "path": "Entity/1/j/9/1j96hfuys8etc-古涿高儒.json"
+    "primary_name": "高儒",
+    "path": "Entity/1/j/9/1j96hfuys8etc-古涿高儒.json",
+    "dynasty": "明",
+    "period": "ming"
   },
   "1j96hfv4d98n4": {
     "id": "1j96hfv4d98n4",
@@ -9194,7 +9212,8 @@
     "type": "entity",
     "subtype": "people",
     "primary_name": "顧彪",
-    "path": "Entity/1/j/9/1j96hl41g3xmo-顧彪.json"
+    "path": "Entity/1/j/9/1j96hl41g3xmo-顧彪.json",
+    "dynasty": "隋"
   },
   "1j96hl47t84cg": {
     "id": "1j96hl47t84cg",
@@ -9776,6 +9795,22 @@
     "cbdb_id": 63615,
     "period": "qing"
   },
+  "1j96kfm8zt4w0": {
+    "id": "1j96kfm8zt4w0",
+    "type": "entity",
+    "subtype": "collective",
+    "primary_name": "胡廣等",
+    "path": "Entity/1/j/9/1j96kfm8zt4w0-胡廣等.json",
+    "dynasty": "明",
+    "period": "ming"
+  },
+  "1j96kfmc2b56o": {
+    "id": "1j96kfmc2b56o",
+    "type": "entity",
+    "subtype": "collective",
+    "primary_name": "王積薪等",
+    "path": "Entity/1/j/9/1j96kfmc2b56o-王積薪等.json"
+  },
   "1j97243nmr18g": {
     "id": "1j97243nmr18g",
     "type": "entity",
@@ -10098,7 +10133,8 @@
     "subtype": "people",
     "primary_name": "彭良臣",
     "path": "Entity/1/j/c/1jcf51512939x-彭良臣.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151293a0": {
     "id": "1jcf5151293a0",
@@ -10122,7 +10158,8 @@
     "subtype": "people",
     "primary_name": "施儒",
     "path": "Entity/1/j/c/1jcf5151293b1-施儒.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151293ba": {
     "id": "1jcf5151293ba",
@@ -10343,7 +10380,8 @@
     "subtype": "people",
     "primary_name": "葉應",
     "path": "Entity/1/j/c/1jcf5151293kj-葉應.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151293kz": {
     "id": "1jcf5151293kz",
@@ -10754,6 +10792,15 @@
     "primary_name": "公武子止",
     "path": "Entity/1/j/c/1jcf51512946t-公武子止.json",
     "period": "song"
+  },
+  "1jcf515129475": {
+    "id": "1jcf515129475",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "凌囗",
+    "path": "Entity/1/j/c/1jcf515129475-凌囗.json",
+    "dynasty": "清",
+    "period": "qing"
   },
   "1jcf51512947e": {
     "id": "1jcf51512947e",
@@ -11227,6 +11274,15 @@
     "dynasty": "宋",
     "period": "song"
   },
+  "1jcf5151294vd": {
+    "id": "1jcf5151294vd",
+    "type": "entity",
+    "subtype": "people",
+    "primary_name": "唐李□□",
+    "path": "Entity/1/j/c/1jcf5151294vd-唐李□□.json",
+    "dynasty": "唐",
+    "period": "sui-tang"
+  },
   "1jcf5151294vt": {
     "id": "1jcf5151294vt",
     "type": "entity",
@@ -11409,7 +11465,8 @@
     "subtype": "people",
     "primary_name": "孫振宗",
     "path": "Entity/1/j/c/1jcf515129552-孫振宗.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf51512955b": {
     "id": "1jcf51512955b",
@@ -11883,7 +11940,8 @@
     "subtype": "people",
     "primary_name": "徐應聘",
     "path": "Entity/1/j/c/1jcf5151295ta-徐應聘.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151295tq": {
     "id": "1jcf5151295tq",
@@ -12235,8 +12293,8 @@
     "id": "1jcf5151296co",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "李彦華",
-    "path": "Entity/1/j/c/1jcf5151296co-李彦華.json",
+    "primary_name": "李彥華",
+    "path": "Entity/1/j/c/1jcf5151296co-李彥華.json",
     "period": "song"
   },
   "1jcf5151296d0": {
@@ -12476,7 +12534,8 @@
     "subtype": "people",
     "primary_name": "林齊聖",
     "path": "Entity/1/j/c/1jcf5151296my-林齊聖.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151296nj": {
     "id": "1jcf5151296nj",
@@ -13043,7 +13102,8 @@
     "subtype": "people",
     "primary_name": "王華",
     "path": "Entity/1/j/c/1jcf5151297kf-王華.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151297kv": {
     "id": "1jcf5151297kv",
@@ -13428,7 +13488,8 @@
     "subtype": "people",
     "primary_name": "葉樹聲",
     "path": "Entity/1/j/c/1jcf51512987q-葉樹聲.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf515129882": {
     "id": "1jcf515129882",
@@ -14154,7 +14215,8 @@
     "subtype": "people",
     "primary_name": "陳宗之",
     "path": "Entity/1/j/c/1jcf5151299g0-陳宗之.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151299gp": {
     "id": "1jcf5151299gp",
@@ -14260,7 +14322,8 @@
     "subtype": "people",
     "primary_name": "陳頥正",
     "path": "Entity/1/j/c/1jcf5151299kt-陳頥正.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf5151299l5": {
     "id": "1jcf5151299l5",
@@ -14546,7 +14609,8 @@
     "subtype": "people",
     "primary_name": "鮑麒",
     "path": "Entity/1/j/c/1jcf515129a01-鮑麒.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf515129a0a": {
     "id": "1jcf515129a0a",
@@ -14659,16 +14723,16 @@
     "id": "1jcf515129a4e",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "黄叔敖",
-    "path": "Entity/1/j/c/1jcf515129a4e-黄叔敖.json",
+    "primary_name": "黃叔敖",
+    "path": "Entity/1/j/c/1jcf515129a4e-黃叔敖.json",
     "period": "song"
   },
   "1jcf515129a4u": {
     "id": "1jcf515129a4u",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "黄彦逺",
-    "path": "Entity/1/j/c/1jcf515129a4u-黄彦逺.json",
+    "primary_name": "黃彥遠",
+    "path": "Entity/1/j/c/1jcf515129a4u-黃彥遠.json",
     "period": "song"
   },
   "1jcf515129a56": {
@@ -14685,7 +14749,8 @@
     "subtype": "people",
     "primary_name": "黄洪憲",
     "path": "Entity/1/j/c/1jcf515129a5f-黄洪憲.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf515129a5v": {
     "id": "1jcf515129a5v",
@@ -14707,8 +14772,8 @@
     "id": "1jcf515129a6g",
     "type": "entity",
     "subtype": "people",
-    "primary_name": "黄黎獻",
-    "path": "Entity/1/j/c/1jcf515129a6g-黄黎獻.json",
+    "primary_name": "黃黎獻",
+    "path": "Entity/1/j/c/1jcf515129a6g-黃黎獻.json",
     "period": "song"
   },
   "1jcf515129a6w": {
@@ -14839,7 +14904,7 @@
     "primary_name": "陳天定",
     "path": "Entity/1/j/c/1jcf515129ac4-陳天定.json",
     "period": "qing",
-    "dynasty": "清"
+    "dynasty": "明"
   },
   "1jcf515129acd": {
     "id": "1jcf515129acd",
@@ -14931,7 +14996,8 @@
     "subtype": "people",
     "primary_name": "周滿",
     "path": "Entity/1/j/c/1jcf515129afw-周滿.json",
-    "period": "ming"
+    "period": "ming",
+    "dynasty": "明"
   },
   "1jcf515129ag8": {
     "id": "1jcf515129ag8",
@@ -14947,6 +15013,7 @@
     "subtype": "people",
     "primary_name": "王綸",
     "path": "Entity/1/j/c/1jcf515129agh-王綸.json",
-    "period": "nanbeichao"
+    "period": "nanbeichao",
+    "dynasty": "南朝梁"
   }
 }

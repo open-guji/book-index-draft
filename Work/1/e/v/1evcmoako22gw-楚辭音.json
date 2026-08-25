@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmoako22gw",
   "type": "work",
   "title": "楚辭音",
-  "authors": [
-    {
-      "name": "徐邈",
-      "role": "撰",
-      "dynasty": "東晉",
-      "entity_id": "1j96hl473bf9c"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《楚辭音》一卷",
-      "summary": "《楚辭音》一卷徐邈撰。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "楚辭音一卷 徐 ,謹按見《隋志》。",
-      "note": "原條「一卷、又一卷（徐邈；釋道騫）」磁鐵合著兩書，道騫之一卷已見 1evcmoal9wohs，本條僅承其徐邈之部。",
-      "merged_from": "1evfuv1w3gkxs",
-      "section": "丁部集録／楚辭類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《楚辭音》一卷、又一卷",
-      "summary": "《楚辭音》一卷、又一卷（徐邈；釋道騫）",
-      "author_info": "徐邈；釋道騫",
-      "merged_from": "1evfuv1w3gkxs"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmoako22gw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-15 全庫同名異書核對：撰人本已見於引文「《楚辭音》一卷徐邈撰」，僅頂層 authors 欄漏收，今補入，繫既有 entity（同 entity 另有論語音、春秋左氏傳音等徐邈音義系列著作）；並併入 1evfuv1w3gkxs（補晉書藝文志+國史經籍志「一卷、又一卷（徐邈；釋道騫）」磁鐵記錄），徐邈之部歸本條，道騫之部同時歸入既有 1evcmoal9wohs，刪除該磁鐵記錄。\n\n2026-08-19 考證注文對位專項：原繫之考證條「《楚辭音》一卷」非本書之考證，今去。考證云「不著撰人」，故當繫隋志楚辭類無撰人之《楚辭音》一卷，非徐邈、諸葛氏、釋道騫、孟奧諸家之同名書。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "description": {
-    "text": "徐邈（東晉）撰。一卷。見著錄於《隋書經籍志》《補晋書藝文志》《國史經籍志》。《補晋書藝文志》列於丁部集録·楚辭類。其著錄之文，《國史經籍志》作「《楚辭音》一卷、又一卷（徐邈；釋道騫）」。經注之屬。",
-    "sources": [
-      "隋書經籍志",
-      "補晋書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27uul1j6",
+  "_promoted_at": "2026-08-24T18:32:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27uul1j6。"
 }

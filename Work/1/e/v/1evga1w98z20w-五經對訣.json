@@ -1,77 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga1w98z20w",
   "type": "work",
   "title": "五經對訣",
-  "authors": [
-    {
-      "name": "趙英",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21vne3"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "趙英五經對訣四卷",
-      "summary": "元趙英五經對訣四卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《五經對訣》四卷",
-      "summary": "《五經對訣》四卷（趙英）",
-      "author_info": "趙英"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《五經對訣》（趙英）",
-      "summary": "唐志四卷\n唐書注英龍朔中汲令",
-      "section": "羣經",
-      "juan": "卷二百四十一",
-      "page": "KR2n0011_WYG_241-5a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "趙英五經對訣",
-      "summary": "趙英五經對訣四卷",
-      "merged_from": "1evcs0a74smio"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "id": "1evga1w98z20w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-22T04:56:00.124965+00:00",
-  "merged_in": [
-    {
-      "id": "1evcs0a74smio",
-      "title": "趙英五經對訣",
-      "author": "趙英",
-      "title_info": "趙英五經對訣",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「趙英五經對訣」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「趙英」已見本條 authors[]），裸題「五經對訣」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 撰人時代存疑（通代志）：本條撰人趙英原標「元」，period liao-jin-yuan，而《新唐書藝文志》（上限 sui-tang）明書其名——其人必不晚於該志，原判必誤。然該志未書其朝代，確值無從逕定，故撤 period 而標 period_upper。dynasty 原值存而不改，其可疑已記於此。",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "liao-jin-yuan",
-  "period_basis": "據撰人朝代「元」；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2gkogagw",
+  "_promoted_at": "2026-08-25T04:36:11Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gkogagw。"
 }

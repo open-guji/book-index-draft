@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqxd02yv4",
   "type": "work",
   "title": "論語解",
-  "authors": [
-    {
-      "name": "張九成",
-      "role": "撰",
-      "entity_id": "1j967avzl1bf5"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語解》二十卷",
-      "summary": "《論語解》二十卷（張九成）",
-      "author_info": "張九成"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《論語解》（張九成）",
-      "summary": "宋志十卷\n周必大曰淳熙九年正月御筆問張氏論孟𫝊是誰作論議如何必大囬奏曰此是張九成撰議論明白而以洛中程氏為主周煇曰張无垢甥于恕裒集語録十二卷其間論語絶句讀者疑焉蓋公自有論語解亦何假此發明奥義嘗叩公門人郎曄曄云此非公之文也",
-      "section": "論語",
-      "juan": "卷二百十六",
-      "page": "KR2n0011_WYG_216-11b",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgoqxd02yv4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：張九成（南宋）——同人名下他書 {'song': 9} 佐證一致",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "_promoted_to": "d59f2hk3vy0w",
+  "_promoted_at": "2026-08-25T05:44:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk3vy0w。"
 }

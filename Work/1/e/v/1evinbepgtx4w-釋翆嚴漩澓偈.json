@@ -1,37 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evinbepgtx4w",
   "type": "work",
   "title": "釋翆嚴漩澓偈",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《釋翆嚴漩澓偈》一卷",
-      "summary": "《釋翆嚴漩澓偈》一卷（梁僧；惟勁）"
-    }
-  ],
-  "authors": [
-    {
-      "name": "僧惟勁",
-      "role": "撰",
-      "entity_id": "1jcf515129ae1",
-      "name_basis": "2026-08-24 連書之撰人拆分：本條 authors 舊作「僧；惟勁」一名，實是連書數人之語（僧惟勁（撰））。諸志之例，原撰之後綴以後人之注者、評者、輯者，並括注其代，匯入時未拆，遂併為一名。今拆之，本欄為其中之「僧惟勁」。"
-    }
-  ],
-  "id": "1evinbepgtx4w",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\nN4 朝代名歸一（2026-08-24）：僧；惟勁「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evinbepgtx4w-釋翆嚴漩澓偈.json"
+  "_promoted_to": "d59f285k34e9",
+  "_promoted_at": "2026-08-24T18:53:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285k34e9。"
 }

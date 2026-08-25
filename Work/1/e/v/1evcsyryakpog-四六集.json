@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyryakpog",
   "type": "work",
   "title": "四六集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《四六集》",
-      "summary": "鄭昌士《四六集》一卷"
-    }
-  ],
-  "id": "1evcsyryakpog",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "鄭昌士",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151293p0",
-      "note": "宋史藝文志別集類作「《邵謁詩》一卷鄭昌士／鄭昌士《四六集》一卷」，頂真格前置撰人，本書撰人為鄭昌士。前後所列李慎、劉威、邵謁、柳倓、任翻、楊衡皆唐人，故繫唐。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293p0` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：本條為鄭昌士《四六集》一卷，與國史經籍志《四六集》十五卷（`1evgqd6y0yjuo`，列晁氏一門文集之次）同題異書，卷數亦異，未予合併。"
+  "_promoted_to": "d59f28l6kr9e",
+  "_promoted_at": "2026-08-24T19:23:34Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28l6kr9e。"
 }

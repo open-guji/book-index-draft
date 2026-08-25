@@ -3,51 +3,7 @@
   "id": "1evr5e3mfay08",
   "type": "work",
   "title": "明皇實録",
-  "juan_count": {
-    "number": 100
-  },
-  "indexed_by": [
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "明皇實録一百卷",
-      "summary": "明皇實録一百卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《明皇實録》五卷",
-      "summary": "《明皇實録》五卷（元載）",
-      "author_info": "元載"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "measure_info": "一百卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "authors": [
-    {
-      "name": "元載",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da96x4x6",
-      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「元載」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967da96x4x6`，代「唐」），故補之。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「song」，不相斥。",
-  "description": {
-    "text": "《明皇實録》一百卷，唐元載撰。諸志所著卷數不一：《崇文總目》著一百卷；《國史經籍志》著五卷——卷數之異，歷代殘闕與傳鈔之跡。",
-    "sources": [
-      "崇文總目",
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-24 隋唐 T5·description 機械撮述（著錄 1–3 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字。未覆核原書。使用者本輪之裁定是「只補頭部約 766 條」，而機械撮述之法成本極低（不費人力，且所組織者皆本條已有之信息），故不止於頭部——凡材料足以成文者（有敘錄，或諸志卷數有異同）皆補之；材料不足者（無敘錄而諸志卷數又一致）仍不生成——其 desc 止是覆述著錄，讀者從 indexed_by 一望即知，寫與不寫同。"
+  "_promoted_to": "d59f28lycvls",
+  "_promoted_at": "2026-08-24T19:25:03Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lycvls。"
 }

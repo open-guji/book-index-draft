@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbvm1k6jnk",
   "type": "work",
   "title": "南史補帝紀贊",
-  "authors": [
-    {
-      "name": "謝端",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21vnf8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "謝端南史補帝紀贊一卷",
-      "summary": "元謝端南史補帝紀贊一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evgbvm1k6jnk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "1ev3bab27s9vk",
-      "title": "南史",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條撰人「謝端」與 `1evrbhp6a8ifq` 之「謝翱」同題《南史補帝紀贊》、同卷數 1，字形相近；然謝端、謝翱皆宋元之際人而各有其書，「端」「翱」字形不近，非一名之訛，未敢逕併，宜俟考。"
+  "_promoted_to": "d59f2geh9m2p",
+  "_promoted_at": "2026-08-25T04:24:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2geh9m2p。"
 }

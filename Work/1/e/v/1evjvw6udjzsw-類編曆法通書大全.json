@@ -1,84 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjvw6udjzsw",
   "type": "work",
   "title": "類編曆法通書大全",
-  "authors": [
-    {
-      "name": "宋魯珍通書",
-      "role": "編",
-      "dynasty": "元",
-      "entity_id": "1jcf515129aak",
-      "name_basis": "2026-08-24 待覈之名逐條裁定（五字以上、尾為役字、尾為「等」、尾為「人」者共 225 名）：「宋魯珍通書」乃冠國別、朝代、僧號、「題」字，或帶尾役字之形，其名實作「魯珍」，故正之而立。\n\n本欄之 name 仍存著錄原形「宋魯珍通書」，而所繫之 entity primary_name 作「魯珍」。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《類編曆法通書大全》三十卷",
-      "author_info": "元宋魯珍通書編",
-      "summary": "《類編曆法通書大全》三十卷。元宋魯珍通書編。影印遼寧省圖書館藏明刻本。",
-      "edition": "影印遼寧省圖書館藏明刻本",
-      "volume": "第1062冊",
-      "section": "子部 術數類"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《類編曆法通書大全》三十卷",
-      "author_info": "元宋魯珍撰",
-      "summary": "《類編曆法通書大全》三十卷。元宋魯珍撰。元 何士泰 撰 明 熊宗立 輯 北京圖書館藏明刻本。",
-      "edition": "元 何士泰 撰 明 熊宗立 輯 北京圖書館藏明刻本",
-      "volume": "第68冊",
-      "section": "子部"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《類編曆法通書大全》•三十卷",
-      "author_info": "不著編輯者名氏",
-      "summary": "不著編輯者名氏。考《明史•藝文志》載《曆法通書》三十卷，注金谿何士泰《景祥曆法》，臨江宋魯珍《輝山通書》合編。今觀是書，於何、宋兩家外，另標鼇峰熊宗立《道軒類編》一行，不知何時增入。十九卷以前目錄析為三節，分標何、宋、熊三人之名。自二十卷以下，別起目錄，似又另為一書，而不詳何人所纂。卷首原序亦無姓名，稱宋《輝山通書》，集先賢之秘，而何景祥《曆法集成》，又輝山所未見，故以二書合之。其說與《藝文志》相合，疑即志所稱《曆法通書》，而坊間又有所增益也。其所載選擇之要，皆術家常法，初無秘義。至紕繆之處，則欽定《協紀辨方書》駁正詳矣。",
-      "edition": "兩淮鹽政采進本"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第1062冊（子部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1ev3bbo6tge0w 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "id": "1evjvw6udjzsw",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1062%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1062
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《欽定四庫全書總目》（清紀昀等（1782）），故不晚於 qing"
+  "_promoted_to": "d59f2gnntxc2",
+  "_promoted_at": "2026-08-25T04:41:55Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gnntxc2。"
 }

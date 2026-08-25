@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbzu0ta134",
   "type": "work",
   "title": "授時曆議",
-  "authors": [
-    {
-      "name": "李謙",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96h8rw7vhia"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "李謙授時曆議三卷",
-      "summary": "元李謙授時曆議三卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "授時曆議二卷",
-      "author_info": "失名",
-      "summary": "元授時曆議二卷（失名）",
-      "merged_from": "1evgbzu0ta134",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、補遼金元藝文志，2卷，不著撰人）與本條（元史藝文志，3卷，李謙撰）題名全同、著錄異源，卷數僅差一（2／3）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《授時歴議》二卷",
-      "summary": "《授時歴議》二卷",
-      "merged_from": "1evgbzu0ta134",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、補遼金元藝文志，2卷，不著撰人）與本條（元史藝文志，3卷，李謙撰）題名全同、著錄異源，卷數僅差一（2／3）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 李謙（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-23 B1 同名異書併池：併入 `1evga6duw1w5c`（授時曆議）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evga6duw1w5c`（國史經籍志、補遼金元藝文志，2卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。",
-  "id": "1evgbzu0ta134",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2ghb0z5t",
+  "_promoted_at": "2026-08-25T04:29:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ghb0z5t。"
 }

@@ -27,55 +27,51 @@
   "death_year": 1220,
   "works": [
     {
-      "work_id": "1ev3baba45gqo",
+      "work_id": "d59f2hm4b01s",
       "role": "撰"
     },
     {
-      "work_id": "1ev3badop998g",
+      "work_id": "d59f2hgg5ssg",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bbyf21rls",
+      "work_id": "d59f2hpncl4x",
       "role": "撰"
     },
     {
-      "work_id": "1evf1nhmgwcu8",
+      "work_id": "d59f2hgkucxt",
       "role": "撰"
     },
     {
-      "work_id": "1evgq0tixrym8",
+      "work_id": "d59f2hlubeo0",
       "role": "撰"
     },
     {
-      "work_id": "1ev3c1fh3uy9s",
+      "work_id": "d59f2hs16uio",
       "role": "撰"
     },
     {
-      "work_id": "1evct45a1q7eo",
+      "work_id": "d59f2hlkyadd",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw5brx8n4",
+      "work_id": "d59f2hhohhxc",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxc6qksu8",
+      "work_id": "d59f2hct24n4",
       "role": "撰"
     },
     {
-      "work_id": "1exvp1jsyur7d",
+      "work_id": "d59f2hcx47pe",
       "role": "撰"
     },
     {
-      "work_id": "1exgmvoz2rrkj",
+      "work_id": "d59f2hdajf2a",
       "role": "撰"
     },
     {
-      "work_id": "1exldlsh971gb",
-      "role": "撰"
-    },
-    {
-      "work_id": "1evcsw9b2sa9s",
+      "work_id": "d59f2hkhxmgy",
       "role": "撰"
     }
   ],
@@ -88,5 +84,5 @@
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evct45a1q7eo`《易傳》。\n\n2026-08-25 單向之解：下列 work 不回指本條，其 authors 已改繫他人或去其繫——`1evct45a1q7eo`，今卸。\n2026-08-25 G8 收尾：撤 1evct45a1q7eo 之繫——其所指之條已併入 d59f2hkk4a9s（易傳，張浚撰）——本繫或係匯入時誤掛，存者非倪思之書；若其人確有此書，俟經義考車道覆核另立。"
 }

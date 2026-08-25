@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpgz6qzzls",
   "type": "work",
   "title": "唐年歷",
-  "authors": [
-    {
-      "name": "劉朝",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978dgm"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《唐年歷》一卷",
-      "summary": "《唐年歷》一卷（唐劉朝）",
-      "author_info": "唐劉朝"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《唐年曆》",
-      "summary": "又《唐年曆》一卷裴庭裕",
-      "merged_from": "1evcsx9jg2qyo",
-      "note": "本著錄原繫題作「唐年曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgz6qzzls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《唐年曆》之 work（`1evcsx9jg2qyo`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
-  "additional_titles": [
-    "唐年曆"
-  ]
+  "_promoted_to": "d59f28l2twqr",
+  "_promoted_at": "2026-08-24T19:23:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28l2twqr。"
 }

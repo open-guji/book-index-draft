@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcszc33m1og",
   "type": "work",
   "title": "永嘉集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《永嘉集》",
-      "summary": "黃仁榮《永嘉集》三卷李知己"
-    }
-  ],
-  "id": "1evcszc33m1og",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "黃仁榮",
-      "role": "編",
-      "dynasty": "宋",
-      "entity_id": "1jcf515129a0j",
-      "note": "宋史藝文志此段為連續頂真格（前條「（杜衍等所撰）許端夫《齋安集》十二卷黃仁榮」句末之名前置為本條撰人，本條句末「李知己」則下屬次條「李知己《永嘉集》三卷」），故撰人為黃仁榮。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a0j` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "related_works": [
-    {
-      "id": "1evcszc3fsav4",
-      "title": "永嘉集",
-      "relation": "related",
-      "note": "宋史藝文志緊接本條之後別出「李知己《永嘉集》三卷」，卷數同而撰人異，別為一書。"
-    },
-    {
-      "id": "1evr5e3mjd13y",
-      "title": "永嘉集",
-      "relation": "related",
-      "note": "直齋書錄解題三卷本，云「亦不知何人集」，未能定其為本條抑或李知己本。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志總集類（文史類重出）連書兩部同題三卷之《永嘉集》，據該段連續頂真格文例，前者撰人為黃仁榮（即本條），後者為李知己（見 `1evcszc3fsav4`）——鏈條為「許端夫《齋安集》十二卷黃仁榮／黃仁榮《永嘉集》三卷李知己／李知己《永嘉集》三卷」，前後密合，可證宋志確視為兩人兩書。直齋書錄解題別著錄三卷本而云「亦不知何人集」（見 `1evr5e3mjd13y`），無以繫屬，三條並存互見。"
+  "_promoted_to": "d59f2hk8vqpu",
+  "_promoted_at": "2026-08-25T05:44:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk8vqpu。"
 }

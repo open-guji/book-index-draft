@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga18osefb4",
   "type": "work",
   "title": "讀孝經衍義",
-  "authors": [
-    {
-      "name": "楊少愚",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21vnds"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "楊少愚讀孝經衍義",
-      "author_info": "青陽人",
-      "summary": "元楊少愚（青陽人）讀孝經衍義"
-    }
-  ],
-  "description": {
-    "text": "青陽人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evga18osefb4",
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2giq7w8w",
+  "_promoted_at": "2026-08-25T04:32:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2giq7w8w。"
 }

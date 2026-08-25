@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxbs6slc0",
   "type": "work",
   "title": "君臣政要",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《君臣政要》",
-      "summary": "（（並不知作者））張唐英《君臣政要》四十卷陳襄"
-    }
-  ],
-  "id": "1evcsxbs6slc0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "張唐英",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967da978dh0",
-      "note": "宋史藝文志作「張唐英《君臣政要》四十卷陳襄」，前置撰人張唐英；條首「（（並不知作者））」乃上條之注，句末「陳襄」屬下條。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「張唐英」而無 entity_id，今繫 `1j967da978dh0`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 40
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 40
-    }
-  ],
-  "measure_info": "四十卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為張唐英《君臣政要》四十卷，與同志閻承琬《君臣政要》三十卷（`1evcsxcekg3cw`）非一書，未予合併。"
+  "_promoted_to": "d59f2hg0jxmo",
+  "_promoted_at": "2026-08-25T05:36:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hg0jxmo。"
 }

@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbsltnaqrk",
   "type": "work",
   "title": "蒙古字孝經",
-  "authors": [
-    {
-      "name": "李羅鐵木兒",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfjkbhbsw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "李羅鐵木兒蒙古字孝經",
-      "author_info": "大德十一年，中書右丞李羅鐵木兒譯進",
-      "summary": "元李羅鐵木兒蒙古字孝經（大德十一年，中書右丞李羅鐵木兒譯進）"
-    }
-  ],
-  "description": {
-    "text": "大德十一年，中書右丞李羅鐵木兒譯進",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgbsltnaqrk",
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gmsm70g",
+  "_promoted_at": "2026-08-25T04:40:15Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmsm70g。"
 }

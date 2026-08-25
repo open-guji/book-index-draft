@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpi814ta80",
   "type": "work",
   "title": "菊譜",
-  "authors": [
-    {
-      "name": "劉蒙",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967da978die",
-      "dynasty_basis": "entity_propagation:1j967da978die"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《菊譜》二卷",
-      "summary": "《菊譜》二卷（宋劉蒙）",
-      "author_info": "宋劉蒙"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《菊譜》一卷",
-      "summary": "彭城劉蒙撰。凡三十五品。",
-      "merged_from": "1evr5e3mklz5f"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"菊譜\" 唯一候选无作者\n\n2026-08-15 全庫同名異書核對：併入 1evr5e3mklz5f（直齋書錄解題「彭城劉蒙撰」一卷本），撰人相同，卷數異（一卷／二卷，蓋不同志書著錄之異），確係同書，逕併，刪除該條。",
-  "id": "1evgpi814ta80",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并"
+  "_promoted_to": "d59f2hj58lqa",
+  "_promoted_at": "2026-08-25T05:42:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hj58lqa。"
 }

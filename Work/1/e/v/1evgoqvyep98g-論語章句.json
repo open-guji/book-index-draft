@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqvyep98g",
   "type": "work",
   "title": "論語章句",
-  "authors": [
-    {
-      "name": "劉炫",
-      "role": "撰",
-      "dynasty": "隋",
-      "entity_id": "1j968l3qlngn5"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語章句》二十卷",
-      "summary": "《論語章句》二十卷（劉炫）",
-      "author_info": "劉炫"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《論語章句》二十卷",
-      "summary": "《論語章句》二十卷劉炫撰。",
-      "note": "本著錄原繫磁鐵條「論語章句」（`1evcpcuovk0zk`），其內文之撰人「劉炫」與本條合，今移歸本條。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-20 磁鐵拆解專項（八，題核心＋內文撰人）：整理本「《論語章句》二十卷」等 1 節原繫他條——其節題與本條之題核心相同，而**內文所書之撰人「劉炫」與本條相合**（前此諸批只比題名，凡撰人在內文不在題者皆漏），今改繫本條並歸其著錄。",
-  "id": "1evgoqvyep98g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」",
-  "dynasty": "隋",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "_promoted_to": "d59f28n5fmki",
+  "_promoted_at": "2026-08-24T19:27:21Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28n5fmki。"
 }

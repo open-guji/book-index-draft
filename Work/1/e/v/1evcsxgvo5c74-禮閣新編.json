@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxgvo5c74",
   "type": "work",
   "title": "禮閣新編",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《禮閣新編》",
-      "summary": "王皞《禮閣新編》六十三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《禮閣新編》六十卷",
-      "summary": "《禮閣新編》六十卷（王皥）",
-      "author_info": "王皥"
-    }
-  ],
-  "id": "1evcsxgvo5c74",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 60
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 60
-    }
-  ],
-  "measure_info": "六十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（六十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「王皥」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "王皥",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96kektyr3ls",
-      "note": "據本 work 諸著錄之 author_info「王皥」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「王皥」而無 entity_id，今繫 `1j96kektyr3ls`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "宋志著錄王皞《禮閣新編》，王皞為北宋人（撰《唐餘錄》）　複審採納：王皞為北宋人（撰《唐餘錄》），著作歸其人之代（2026-08-24 A1 medium 複審）"
+  "_promoted_to": "d59f2hhrlvcw",
+  "_promoted_at": "2026-08-25T05:39:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhrlvcw。"
 }

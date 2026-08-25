@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evrbhp6ajr1l",
+  "type": "work",
   "title": "澗泉詩集",
-  "authors": [
-    {
-      "name": "韓淲",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967bgl6pboc",
-      "dynasty_basis": "entity_propagation:1j967bgl6pboc"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "澗泉詩集八卷",
-      "summary": "澗泉詩集八卷\n韓淲撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《韓淲澗泉詩集》八卷",
-      "summary": "《韓淲澗泉詩集》八卷",
-      "merged_from": "1evgqdq7xtce8"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "juan_count": {
-    "number": 8
-  },
-  "merged_in": [
-    {
-      "id": "1evgqdq7xtce8",
-      "title": "韓淲澗泉詩集",
-      "author": "韓淲",
-      "title_info": "韓淲澗泉詩集",
-      "indexed_by_moved": [
-        "國史經籍志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「韓淲澗泉詩集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「韓淲」已見本條 authors[]），裸題「澗泉詩集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并"
+  "_promoted_to": "d59f2hjwphj6",
+  "_promoted_at": "2026-08-25T05:43:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjwphj6。"
 }

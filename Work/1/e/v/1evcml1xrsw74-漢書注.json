@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml1xrsw74",
   "type": "work",
   "title": "漢書注",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《漢書注》一卷",
-      "summary": "《漢書注》一卷齊金紫光祿大夫陸澄撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《漢書注》一卷",
-      "summary": "《漢書注》一卷（陸澄）",
-      "author_info": "陸澄"
-    }
-  ],
-  "authors": [
-    {
-      "name": "陸澄",
-      "role": "撰",
-      "dynasty": "南朝齊",
-      "entity_id": "1j96hlgxmm5ts",
-      "dynasty_basis": "indexed_by:隋書經籍志「齊金紫光祿大夫陸澄撰」 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcml1xrsw74",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "漢書注一卷",
-      "summary": "漢書注一卷齊金紫光禄大夫陸澄撰\n《南齊書》本傳:“澄字彦淵,吴郡吴人也。少好學博覽,無所\n不知,行坐眠食,手不釋卷。仕宋,至御史中丞。入齊,累遷\n國子祭酒。隆昌元年,以老疾,轉光禄大夫,加散騎常侍,未\n拜,卒,年七十。 靖子。當世稱為碩學。\n《唐書·經籍志》:《漢書新注》一卷,陸澄撰。\n《唐書·藝文志》:陸澄《漢書新注》一卷。\n按其後又云“梁有陸澄注《漢書》一百二卷,亡”,此殆從百\n二卷中抄出者 ?抑百二卷之外,别有此雜注一卷,兩《唐\n志》誤“雜注” “新注” ?"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "2026-08-11 秦漢同名異書核對／漢書注組覆核：頂層 period／dynasty 缺漏，據隋書經籍志引「齊金紫光祿大夫陸澄撰」補。emendated_by 另載「梁有陸澄注《漢書》一百二卷，亡」——卷數與本條一卷懸殊，庫中未見獨立之一百二卷本記錄，證據不足以判斷是否同書節抄，暫不處理。\n\nN4 朝代名歸一（2026-08-24）：work「南齊」→「南朝齊」；陸澄「南齊」→「南朝齊」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "updated_at": "2026-08-11",
-  "dynasty": "南朝齊",
-  "dynasty_basis": "author_propagation:唯一作者朝代 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南齊」",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml1xrsw74-漢書注.json"
+  "_promoted_to": "d59f2843c0le",
+  "_promoted_at": "2026-08-24T18:50:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2843c0le。"
 }

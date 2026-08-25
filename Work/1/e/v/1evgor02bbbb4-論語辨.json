@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgor02bbbb4",
   "type": "work",
   "title": "論語辨",
-  "authors": [
-    {
-      "name": "周式",
-      "role": "撰",
-      "entity_id": "1j96keka6fk00"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語辨》十卷",
-      "summary": "《論語辨》十卷（周式）",
-      "author_info": "周式"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgor02bbbb4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：周式（Entity 1j96keka6fk00），並經 CBDB c_personid 685496 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "_promoted_to": "d59f2hisr402",
+  "_promoted_at": "2026-08-25T05:41:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hisr402。"
 }

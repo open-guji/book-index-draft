@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjxmvlx1wqo",
   "type": "work",
   "title": "宋貞士羅滄洲先生集",
-  "authors": [
-    {
-      "name": "羅公升",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147z32b",
-      "dynasty_basis": "entity_propagation_r2:1j967c147z32b"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《宋貞士羅滄洲先生集》五卷",
-      "author_info": "宋羅公升撰",
-      "summary": "《宋貞士羅滄洲先生集》五卷。宋羅公升撰。南京圖書館藏清鈔本。",
-      "edition": "南京圖書館藏清鈔本",
-      "volume": "第21冊",
-      "section": "集部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《四庫全書存目叢書》第21冊（集部）。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "id": "1evjxmvlx1wqo",
-  "updated_at": "2026-08-08T18:18:57+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f2gf2szk1",
+  "_promoted_at": "2026-08-25T04:25:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gf2szk1。"
 }

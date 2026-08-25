@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5p8s1f0g0",
   "type": "work",
   "title": "周易系辭義疏梁武帝撰",
-  "authors": [
-    {
-      "name": "梁武帝",
-      "entity_id": "1j967afjav1vw",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967afjav1vw`（蕭衍）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《周易繫辭義疏》一卷",
-      "summary": "《周易繫辭義疏》一卷梁武帝撰。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "梁武帝撰。",
-    "sources": []
-  },
-  "id": "1evc5p8s1f0g0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-22T04:56:00.081495+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「蕭衍」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "周易繫辭義疏一卷 梁武帝撰",
-      "note": "2026-08-23 繫連補記：《隋書經籍志考證》整理本有一節（經部一·易類 第 91 節「周易繫辭義疏一卷 梁武帝撰」）繫及本條，而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。"
-    }
-  ],
-  "ai_note": "2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evdmppb711j4`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5p8s1f0g0-周易系辭義疏梁武帝撰.json"
+  "_promoted_to": "d59f2842eayr",
+  "_promoted_at": "2026-08-24T18:50:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2842eayr。"
 }

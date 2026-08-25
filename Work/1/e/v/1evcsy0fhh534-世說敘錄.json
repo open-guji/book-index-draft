@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy0fhh534",
   "type": "work",
   "title": "世說敘錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《世說敘錄》",
-      "summary": "汪藻《世說敘錄》三卷洪皓"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《世說敘錄》三卷",
-      "summary": "《世說敘錄》三卷（汪藻）",
-      "author_info": "汪藻"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《敘錄》二卷",
-      "summary": "宋臨川王劉義慶撰，梁劉峻孝標注。《敘錄》者，近世學士新安汪藻彥章所為也，首為《考異》，繼列人物世譜、姓氏異同，末記所引書目。按《唐志》作八卷，劉孝標續十卷，自余諸家所藏卷第多不同，《敘錄》詳之。此本董令升刻之嚴州，以為晏元獻公手自校定，刪去重復者。",
-      "note": "本著錄原繫「世說新語」（`1evr5e3mi42ut`），今歸本條。直齋世說新語條解題明言「《敘錄》者，近世學士新安汪藻彥章所為也」，庫中已有汪藻《世說敘錄》（宋志、國史著錄）。"
-    }
-  ],
-  "id": "1evcsy0fhh534",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「汪藻」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-20 磁鐵拆解專項（八之三）：直齋書錄解題之「《敘錄》二卷」一節原繫他條，今歸本條——直齋世說新語條解題明言「《敘錄》者，近世學士新安汪藻彥章所為也」，庫中已有汪藻《世說敘錄》（宋志、國史著錄）。",
-  "authors": [
-    {
-      "name": "汪藻",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j967bgl8kqvr",
-      "note": "據本 work 諸著錄之 author_info「汪藻」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「汪藻」而無 entity_id，今繫 `1j967bgl8kqvr`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "直齋書錄解題稱《敘錄》為「近世學士新安汪藻彥章所為」，汪藻（1079-1154）南宋初（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f2hi77qip",
+  "_promoted_at": "2026-08-25T05:40:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi77qip。"
 }

@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcua74l7fuo",
   "type": "work",
   "title": "老子辟閭仁諝注",
-  "original_title": "老子",
-  "related_works": [
-    {
-      "id": "d59ezkx8dt6o",
-      "title": "道德經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《老子》二卷辟閭仁諝注。",
-      "summary": "《老子》二卷辟閭仁諝注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "辟閭仁諝注老子",
-      "summary": "辟閭仁諝注老子二卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "辟閭仁諝",
-      "entity_id": "1j96hf7sc39xc"
-    },
-    {
-      "name": "辟閭仁諝",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96hf7sc39xc"
-    }
-  ],
-  "id": "1evcua74l7fuo",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measure_info": "二卷",
-  "ai_note": "從 1evdxnrwkaio0《辟閭仁諝注老子》合併。原註：題名體例調整之撞題：本條依「書名在前、注者在後」之例當改題《老子辟閭仁諝注》，然庫中已有同題者（1evcua74l7fuo），核其著錄乃同一注本自不同志書匯入，題名體例不同而書則一。撞題即查出重出，故不改題，改記重出，留待去重專項。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 去自我關聯：本條 related_works 原有二筆逕指自身（一筆題作舊名「辟閭仁諝注老子」、一筆題作今名），係改題與歸併之遺。一條書關聯自身不承載信息，今去之，related_works[].title 之漂移隨之消解。",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f28mz6vpd",
+  "_promoted_at": "2026-08-24T19:27:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mz6vpd。"
 }

@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evke9t2g7v28",
   "type": "work",
   "title": "伊川易傳",
-  "authors": [
-    {
-      "name": "程頤",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967da96x4xi",
-      "dynasty_basis": "entity_propagation:1j967da96x4xi"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫000079-000082）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 | 2026-07-26：合併 1evkaer749kow（原題「周易」，作者程頤，六冊，國立故宮博物院善本舊籍 故內000269-000274，清宣統元年學部圖書局石印湖北局刻本）入本 Work——二者同為程頤《伊川易傳》，只是分別著錄為不同刻本，此前因故宮善本目錄只記書名不記全稱而以「周易」為題，現已合併並補上與原典（1evl7l48e27ls 周易）的 related_works 連結（此前缺失）。",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "id": "1evke9t2g7v28",
-  "books": [
-    "11qkhvfyye9ds",
-    "11qki3h2u730g"
-  ],
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并"
+  "_promoted_to": "d59f2hpuj1mp",
+  "_promoted_at": "2026-08-25T05:55:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hpuj1mp。"
 }

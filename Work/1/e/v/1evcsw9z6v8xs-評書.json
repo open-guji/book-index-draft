@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw9z6v8xs",
   "type": "work",
   "title": "評書",
-  "authors": [
-    {
-      "name": "蕭衍",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j967afjav1vw",
-      "note": "宋史藝文志作「梁武帝」，即梁武帝蕭衍。本條句首承前條「《評書》一卷梁武帝」之句末撰人；句末「顏之推」則屬下一條之領頭撰人。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《評書》",
-      "summary": "《評書》一卷《千字文》一卷（（梁周興嗣次韻））顏之推",
-      "note": "本條著錄語兼含《千字文》一卷（梁周興嗣次韻）之著錄，屬整理本連書未斷；《千字文》非本書，另見本庫該書記錄。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：核對宋史藝文志小學類原文，該段為連續頂真格（「《辨釋名》一卷王僧虔／《評書》一卷梁武帝／《評書》一卷…顏之推／《證俗音字》四卷…虞荔」），句末之名皆領下一條，故本條撰人為前條句末之「梁武帝」（蕭衍），今補入並繫既有 entity。梁武帝有《答陶隱居論書》等書論傳世，撰《評書》與其身分相合。與同題王僧虔本（見 `1evcsw9yxtd6o`）、宋高宗本（見 `1evcswa999rls`）皆非同書。",
-  "id": "1evcsw9z6v8xs",
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%A9%95%E6%9B%B8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "_has_text": true
+  "_promoted_to": "d59f2858jcar",
+  "_promoted_at": "2026-08-24T18:52:55Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2858jcar。"
 }

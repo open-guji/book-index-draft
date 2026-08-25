@@ -14,76 +14,76 @@
       "type": "字"
     }
   ],
-  "dynasty": "明",
+  "dynasty": "元末明初",
   "birth_year": 1303,
   "death_year": 1372,
   "works": [
     {
-      "work_id": "1ev3bajy5pts0",
+      "work_id": "d59f2nfizf9f",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bb36d2vb4",
+      "work_id": "d59f2ng7yeio",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bd8ccgvls",
+      "work_id": "d59f2nkla0oz",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bd8d0i5fk",
+      "work_id": "d59f2nj6pkao",
       "role": "撰"
     },
     {
-      "work_id": "1ev3bdirgwohs",
+      "work_id": "d59f2ng8w4jl",
       "role": "撰"
     },
     {
-      "work_id": "1evdibx9eudc0",
+      "work_id": "d59f2ndo6mtc",
       "role": "撰"
     },
     {
-      "work_id": "1evdidh12f5s0",
+      "work_id": "d59f2ni0vrwg",
       "role": "撰"
     },
     {
-      "work_id": "1evga4ll2uvi8",
+      "work_id": "d59f2ge7l98g",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvki1ta0w",
+      "work_id": "d59f2ghuoxdt",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzcjiv40",
+      "work_id": "d59f2gmq4ao1",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzgxs6io",
+      "work_id": "d59f2gftymtc",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzive3nk",
+      "work_id": "d59f2j4m5i4h",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzks2b5s",
+      "work_id": "d59f2gkln5kx",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzmpzgu8",
+      "work_id": "d59f2gdsx3pe",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzoleq68",
+      "work_id": "d59f2ggj8utc",
       "role": "撰"
     },
     {
-      "work_id": "1evgbw0czha80",
+      "work_id": "d59f2gkcl9ts",
       "role": "撰"
     },
     {
-      "work_id": "1evgbvzqie680",
+      "work_id": "d59f2ghm9ipu",
       "role": "撰"
     }
   ],
@@ -95,5 +95,6 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
   "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。"
+  "ai_note": "2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。\n\n2026-08-25 遼金元 L5：dynasty 由「明」歸一為「元末明初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×10／ming×7 諸桶。"
 }

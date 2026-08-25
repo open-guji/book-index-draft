@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphjsh1beo",
   "type": "work",
   "title": "徽宗實錄",
-  "authors": [
-    {
-      "name": "湯思退",
-      "role": "撰",
-      "entity_id": "1j967da978dhg"
-    }
-  ],
-  "juan_count": {
-    "number": 150
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《徽宗實錄》一百五十卷",
-      "summary": "《徽宗實錄》一百五十卷（湯思退）",
-      "author_info": "湯思退"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgphjsh1beo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 150
-    }
-  ],
-  "measure_info": "一百五十卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：湯思退（Entity 1j967da978dhg），並經 CBDB c_personid 8122 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "_promoted_to": "d59f2hgja680",
+  "_promoted_at": "2026-08-25T05:37:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgja680。"
 }

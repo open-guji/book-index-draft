@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg9zqgo4m4g",
   "type": "work",
   "title": "毛詩故",
-  "authors": [
-    {
-      "name": "李恕",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j969m70q2er8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "李恕毛詩故四卷",
-      "summary": "元李恕毛詩故四卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《毛詩故》四卷",
-      "summary": "《毛詩故》四卷（李恕）",
-      "author_info": "李恕"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "id": "1evg9zqgo4m4g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2ggg4hdt",
+  "_promoted_at": "2026-08-25T04:28:03Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ggg4hdt。"
 }

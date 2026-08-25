@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcvfrixhc",
   "type": "work",
   "title": "今字石經論語",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《今字石經論語》二卷",
-      "summary": "《今字石經論語》二卷蔡邕注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "今字石經論語",
-      "summary": "今字石經論語二卷"
-    }
-  ],
-  "id": "1evcpcvfrixhc",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T17:09:33.466102+00:00",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。 2026-08-21 新唐志四簇磁鐵拆解：「蔡邕今字石經論語」節原繫主經之條，今歸本條。 2026-08-21 先秦磁鐵專項：自《論語》1ev7w0euvaeww 移入《新唐志》一節（原作「蔡邕今字石經論語二卷」），與本條原有之《新唐志》節同指一書，去其重。\n\n2026-08-24 N2 磁鐵專項（宋隋唐志系）·案：本條今挂新唐志二節——「今字石經論語二卷」與「蔡邕今字石經論語二卷」。卷數同、撰人同（前條列於蔡邕《聖草章》《勸學篇》一串之末，承其撰人），是新唐志於蔡邕諸書一組與石經一組兩著同一書。故共繫是對的，不拆。chk「整理本 section 級磁鐵」於此條所計之一組即此，非損壞。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "蔡邕",
-      "role": "注",
-      "entity_id": "1j9678njjrbcf",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《今字石經論語》二卷蔡邕注。」，尾名「蔡邕」，其役作「注」。**不據此定代**——蔡邕所為者注耳，非原撰；若以注者之代為書之代，則經之本文盡成注者之書矣。故 period 仍空，period_upper「sui-tang」仍留。"
-    }
-  ],
-  "period": "qin-han",
-  "period_basis": "撰人朝代闕，據其 Entity「蔡邕」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2em8kdfk",
+  "_promoted_at": "2026-08-25T02:20:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2em8kdfk。"
 }

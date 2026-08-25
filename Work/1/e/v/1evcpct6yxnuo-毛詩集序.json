@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpct6yxnuo",
   "type": "work",
   "title": "毛詩集序",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《毛詩集序》二卷",
-      "summary": "《毛詩集序》二卷卜商撰。"
-    }
-  ],
-  "id": "1evcpct6yxnuo",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
-  "authors": [
-    {
-      "name": "卜商",
-      "role": "撰",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《毛詩集序》二卷卜商撰。」，尾名「卜商」。只錄其名與其役，不繫 entity_id、不定代——其名雖見於著錄，而撰書不相符或為依託之名，未敢遽繫。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「卜商」而無 entity_id，今繫 `1j96hf2a2u5fk`——庫中 primary_name 同之者唯一。其代「先秦」與本書之上限不相斥。",
-      "entity_id": "1j96hf2a2u5fk"
-    }
-  ],
-  "period": "pre-qin",
-  "period_basis": "據撰人「卜商」（entity `1j96hf2a2u5fk`，代「先秦」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
+  "_promoted_to": "d59f2evn8ute",
+  "_promoted_at": "2026-08-25T02:38:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2evn8ute。"
 }

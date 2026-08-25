@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga8q6yih34",
   "type": "work",
   "title": "欵乃集",
-  "authors": [
-    {
-      "name": "許有壬",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147clzb"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "許有壬欵乃集二卷",
-      "summary": "元許有壬欵乃集二卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "欵乃集",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 liao-jin-yuan 之作、撰人許有壬，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evga8q6yih34",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
+  "_promoted_to": "d59f2glrgydd",
+  "_promoted_at": "2026-08-25T04:38:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glrgydd。"
 }

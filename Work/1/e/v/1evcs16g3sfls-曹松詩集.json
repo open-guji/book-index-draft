@@ -5,7 +5,7 @@
   "indexed_by": [
     {
       "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
+      "source_bid": "d59f2hl0cmio",
       "title_info": "曹松詩集",
       "summary": "曹松詩集三卷"
     }
@@ -13,5 +13,19 @@
   "id": "1evcs16g3sfls",
   "updated_at": "2026-04-29T16:51:33-07:00",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "曹松",
+      "role": "撰",
+      "entity_id": "1jcf51512963m",
+      "dynasty": "唐",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"曹松詩集\"）——前缀「曹松」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
+  "dynasty": "唐",
+  "period": "sui-tang",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「曹松」（entity 1jcf51512963m）已定代「唐」，且與本條 period_upper（sui-tang）相容，據以定代。",
+  "_promoted_to": "d59f2ofw4xkx",
+  "_promoted_at": "2026-08-25T13:40:34Z"
 }

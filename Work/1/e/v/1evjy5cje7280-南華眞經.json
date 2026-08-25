@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy5cje7280",
   "type": "work",
   "title": "南華眞經",
-  "authors": [
-    {
-      "name": "郭象",
-      "role": "注",
-      "dynasty": "西晉",
-      "dynasty_basis": "historical_dict:round2(郭象(252-312)，字子玄，西晉玄學家)",
-      "entity_id": "1j967cp1zdr2g",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「郭象」而無 entity_id，今繫 `1j967cp1zdr2g`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "description": {
-    "text": "郭象（西晉）注《莊子》三十三篇。象取向秀之義而述廣之，以「獨化」「自生」釋逍遙齊物，掃寄言以出意，為魏晉玄學三玄之學之極致。唐天寶元年詔號《莊子》為《南華真經》，此題所由來。今存宋刻本。本書收入《中華再造善本》唐宋編（ZHSY000268）。宋刻本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-24 J7 版本著錄語補其內容（坑 #17）：本條之 description 原止版本著錄語（「本書收入《…》。某某刊本」），五十餘字而未言其書為何。今於其前補一節內容之述，原版本語仍留其後——版本語是實錄，不可刪。所補之文據通行學術常識與本條所繫之著錄、Book，**未覆核原書**。",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "id": "1evjy5cje7280",
-  "books": [
-    "11qk4xwct6s7m"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "_promoted_to": "d59f27x3fi82",
+  "_promoted_at": "2026-08-24T18:37:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27x3fi82。"
 }

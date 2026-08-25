@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy5tf2fk00",
   "type": "work",
   "title": "周易程朱傳義音訓",
-  "authors": [
-    {
-      "name": "程頤",
-      "role": "撰",
-      "dynasty": "北宋",
-      "dynasty_basis": "same_name_propagation:程頤->北宋",
-      "entity_id": "1j967da96x4xi",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「程頤」而無 entity_id，今繫 `1j967da96x4xi`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    },
-    {
-      "name": "朱熹",
-      "role": "撰",
-      "dynasty": null,
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:朱熹(1130-1200)，南宋，誤標)",
-      "entity_id": "1j967cp1zdr19",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱熹」而無 entity_id，今繫 `1j967cp1zdr19`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》金元編（ZHSY000448）。。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。",
-  "id": "1evjy5tf2fk00",
-  "books": [
-    "11qk4xwcu4hte"
-  ],
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 8
-    }
-  ],
-  "measure_info": "八冊",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据本轮 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据本轮 author.dynasty「北宋」自动归并"
+  "_promoted_to": "d59f2hs5veo0",
+  "_promoted_at": "2026-08-25T05:59:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hs5veo0。"
 }

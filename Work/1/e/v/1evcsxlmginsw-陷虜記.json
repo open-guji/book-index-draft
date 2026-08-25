@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxlmginsw",
   "type": "work",
   "title": "陷虜記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《陷虜記》",
-      "summary": "胡嶠《陷虜記》一卷王德璉"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《陷虜記》三卷",
-      "summary": "《陷虜記》三卷（周胡嶠䧟虜歸，記其事。）",
-      "author_info": "周胡嶠䧟虜歸，記其事。",
-      "merged_from": "1evgphccnf8qo",
-      "note": "諸志同著《陷虜記》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxlmginsw",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "authors": [
-    {
-      "name": "胡嶠",
-      "role": "撰",
-      "dynasty": "五代",
-      "entity_id": "1j96ken7ieeww",
-      "note": "宋史藝文志作「胡嶠《陷虜記》一卷王德璉」，前置撰人胡嶠；國史經籍志注「周胡嶠䧟虜歸，記其事」，二志相合。句末「王德璉」屬下條。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「胡嶠」而無 entity_id，今繫 `1j96ken7ieeww`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "dynasty": "五代",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「五代」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《陷虜記》，一卷、三卷之異乃傳本之別，今合併。撰人宋志之前置撰人與國史經籍志之注相合，並為胡嶠（後周人，隨蕭翰入契丹七年而歸）。"
+  "_promoted_to": "d59f2gcipzb4",
+  "_promoted_at": "2026-08-25T04:20:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcipzb4。"
 }

@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evrbhp6ajqyj",
+  "type": "work",
   "title": "左丞集",
-  "authors": [
-    {
-      "name": "馮澥",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j969lr2t0roc",
-      "dynasty_basis": "entity_propagation:1j969lr2t0roc"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "左丞集四十五卷",
-      "summary": "左丞集四十五卷\n馮澥撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《馮澥左丞集》四十五卷",
-      "summary": "《馮澥左丞集》四十五卷",
-      "merged_from": "1evgqdnuaqf40"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 45
-    }
-  ],
-  "measure_info": "四十五卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "juan_count": {
-    "number": 45
-  },
-  "merged_in": [
-    {
-      "id": "1evgqdnuaqf40",
-      "title": "馮澥左丞集",
-      "author": "馮澥",
-      "title_info": "馮澥左丞集",
-      "indexed_by_moved": [
-        "國史經籍志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「馮澥左丞集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「馮澥」已見本條 authors[]），裸題「左丞集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并"
+  "_promoted_to": "d59f2hksuxhc",
+  "_promoted_at": "2026-08-25T05:45:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hksuxhc。"
 }

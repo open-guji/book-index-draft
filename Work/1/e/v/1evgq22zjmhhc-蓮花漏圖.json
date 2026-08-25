@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq22zjmhhc",
   "type": "work",
   "title": "蓮花漏圖",
-  "authors": [
-    {
-      "name": "王曾",
-      "role": "撰",
-      "entity_id": "1j967bgl7n1a9"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《蓮花漏圖》一卷",
-      "summary": "《蓮花漏圖》一卷（王曾）",
-      "author_info": "王曾"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《蓮花漏圖》一卷",
-      "summary": "太常博士王普伯照撰。",
-      "note": "本著錄原繫於合刻數書之磁鐵條「官曆刻漏圖》一卷、《蓮花漏圖」（`1evr5e3mklz4k`），今歸本條。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq22zjmhhc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"𨘏花漏圖\"→\"蓮花漏圖\" (位置 0: \"𨘏\"→\"蓮\")\n\n2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《蓮花漏圖》一卷」一節原繫於合刻數書之磁鐵條（`1evr5e3mklz4k`），其題、卷數與本條全合，今改繫本條，並補其著錄。",
-  "updated_at": "2026-08-22T04:56:00.144427+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「王曾」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hlw6txc",
+  "_promoted_at": "2026-08-25T05:47:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hlw6txc。"
 }

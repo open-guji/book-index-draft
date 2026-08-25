@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbrr7gnwn4",
   "type": "work",
   "title": "詩經發揮",
-  "authors": [
-    {
-      "name": "楊舟",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96anuw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "楊舟詩經發揮",
-      "author_info": "字道濟，吉水人",
-      "summary": "元楊舟（字道濟，吉水人）詩經發揮"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《詩經發揮》（楊舟）",
-      "summary": "江西通志楊舟字道濟吉水人湖廣總志楊舟字梓夫慈利人登進士任茶陵同知厯遷翰林待制",
-      "section": "詩",
-      "juan": "卷一百十一",
-      "page": "KR2n0011_WYG_111-19a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "字道濟，吉水人",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgbrr7gnwn4",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2giynawy",
+  "_promoted_at": "2026-08-25T04:32:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2giynawy。"
 }

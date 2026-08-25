@@ -7,8 +7,7 @@
       "name": "文秉",
       "role": "撰",
       "dynasty": "清",
-      "entity_id": "1j967avzlnska",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「文秉」而無 entity_id，今繫 `1j967avzlnska`——庫中以此為別名（alt_names）者唯一。其代「明」與本書已定之代「qing」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「文秉」而無 entity_id，今繫 `1j967avzlnska`——庫中以此為別名（alt_names）者唯一。其代「明」與本書已定之代「qing」相合。\n\n2026-08-25 清代輪 S7 前置修訂：原繫 entity 1j967avzlnska 為「孫錝」（明），與撰人「文秉」全不相干，係誤繫。WebSearch 覆核：文秉（1609-1669），字蓀符，長洲人，文徵明玄孫，明亡不仕，撰《甲乙事案》記崇禎朝事，為獨立歷史人物，庫中尚無其 entity，今解誤繫、留白待建。"
     }
   ],
   "indexed_by": [
@@ -24,12 +23,12 @@
     }
   ],
   "description": {
-    "text": "本書收入《續修四庫全書》第443冊（史部）。",
+    "text": "文秉（清）撰。二卷。見著錄於《續修四庫全書》。《續修四庫全書》列於史部 史部。其著錄之文，《續修四庫全書》作「《甲乙事案》二卷」。本書惟《續修四庫全書》一志著錄，別無他證。《續修四庫全書》一九九五年影印——本書之目賴之以存。",
     "sources": [
       "續修四庫全書"
     ]
   },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。",
+  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 清代輪：撰人「文秉」entity 誤繫「孫錝」，已解連結（庫中無文秉本人 entity，留白待建，dynasty=清 不動，不影響 period）。",
   "juan_count": {
     "number": 2
   },
@@ -60,5 +59,7 @@
   "period": "qing",
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」"
+  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "_promoted_to": "d59f2ms1270i",
+  "_promoted_at": "2026-08-25T11:45:30Z"
 }

@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgaccnz0pog",
   "type": "work",
   "title": "屠龍集",
-  "authors": [
-    {
-      "name": "高皓孫",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfihq41z4"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "高皓孫屠龍集十卷",
-      "author_info": "字商，丹徒人",
-      "summary": "元高皓孫（字商，丹徒人）屠龍集十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《屠龍集》十卷",
-      "summary": "元高皓孫屠龍集十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《屠龍集》",
-      "summary": "熊《屠龍集》五卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "屠龍集五卷",
-      "summary": "屠龍集五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "description": {
-    "text": "字商，丹徒人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 高皓孫（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evcsyt4msi68 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
-  "id": "1evgaccnz0pog",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-23T06:46:46.606177+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song"
+  "_promoted_to": "d59f2gljz9c2",
+  "_promoted_at": "2026-08-25T04:37:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gljz9c2。"
 }

@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxys39k3k",
   "type": "work",
   "title": "玉堂閑話",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《玉堂閑話》",
-      "summary": "王仁裕《玉堂閑話》三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "玉堂閑話十卷",
-      "summary": "玉堂閑話十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《玉堂閑話》十卷",
-      "summary": "《玉堂閑話》十卷（漢王仁裕）",
-      "author_info": "漢王仁裕"
-    }
-  ],
-  "id": "1evcsxys39k3k",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E7%8E%89%E5%A0%82%E9%96%91%E8%A9%B1",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_text": true,
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「漢王仁裕」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 兩漢升格前清賬（撰人繫連補全）：撰人「王仁裕」繫既有 entity。（庫中同名 entity 唯一者方繫；異體形訛之歸一據：鄭衆＝鄭眾、包鹹＝包咸、楊雄＝揚雄、趙君卿＝趙爽之字、「唐孔穎達」去朝代前綴。）",
-  "authors": [
-    {
-      "name": "王仁裕",
-      "role": "撰",
-      "dynasty": "漢",
-      "entity_id": "1j967afjb6ae5",
-      "note": "據本 work 諸著錄之 author_info「漢王仁裕」補；著錄所給者為一，去朝代與職名後取之。"
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
   "_promoted_to": "d59f24loj953",
-  "_promoted_at": "2026-08-24T14:47:44Z"
+  "_promoted_at": "2026-08-24T14:47:44Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24loj953。"
 }

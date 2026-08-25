@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgph016bpq8",
   "type": "work",
   "title": "國紀",
-  "authors": [
-    {
-      "name": "徐度",
-      "role": "撰",
-      "entity_id": "1j967bgl6pbo2"
-    }
-  ],
-  "juan_count": {
-    "number": 58
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《國紀》五十八卷",
-      "summary": "《國紀》五十八卷（徐度）",
-      "author_info": "徐度"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "國紀",
-      "merged_from": "1evr5e3mi42w7",
-      "note": "原自成一記錄（直齋），皆徐度國紀五十八卷，今併。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《國紀》",
-      "summary": "徐度《國紀》六十五卷",
-      "merged_from": "1evcpcw08tgjk",
-      "note": "宋志「徐度國紀六十五卷」原誤附梁祚國紀之記錄，今移歸（卷數與五十八卷異，並存俟考）。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"國紀\" 唯一候选无作者 2026-08-20 組6拆分：徐度國紀（國史、直齋、宋志）併一；梁祚國紀（十卷，北魏）留原記錄。",
-  "id": "1evgph016bpq8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 58
-    }
-  ],
-  "measure_info": "五十八卷",
-  "updated_at": "2026-08-22T04:56:00.056136+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「徐度」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hf0cema",
+  "_promoted_at": "2026-08-25T05:34:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hf0cema。"
 }

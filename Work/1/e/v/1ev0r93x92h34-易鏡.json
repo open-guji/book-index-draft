@@ -14,7 +14,7 @@
   "indexed_by": [
     {
       "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
+      "source_bid": "d59f2gdp696q",
       "title_info": "《易鏡》",
       "summary": "中條山道士王鄯《易鏡》三卷無惑先生",
       "misattached": true,
@@ -45,5 +45,14 @@
   "period_basis": "據 authors[0].dynasty「清」",
   "dynasty": "清",
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
+  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "description": {
+    "text": "戴天章（清）撰。見著錄於《宋史藝文志》《欽定四庫全書總目》。其著錄之文，《宋史藝文志》作「中條山道士王鄯《易鏡》三卷無惑先生」。《宋史藝文志》元脫脫等修；《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
+    "sources": [
+      "宋史藝文志",
+      "欽定四庫全書總目"
+    ]
+  },
+  "_promoted_to": "d59f2m93ydq8",
+  "_promoted_at": "2026-08-25T11:09:08Z"
 }

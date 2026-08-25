@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphfbrdr0g",
   "type": "work",
   "title": "右宋歸潛志",
-  "authors": [
-    {
-      "name": "劉祁",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j96hjwlylnpd"
-    }
-  ],
-  "juan_count": {
-    "number": 14
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《右宋歸潜志》十四卷",
-      "summary": "《右宋歸潜志》十四卷（金劉祁。）",
-      "author_info": "金劉祁。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphfbrdr0g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "additional_titles": [
-    "右宋歸潜志"
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」（2026-08-13 遼金元/明邊界人口獨立立項：劉祁（生卒1091-1162）：死於元建國(1271)前，Entity既有分類（北宋／song）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "_promoted_to": "d59f2hiu026a",
+  "_promoted_at": "2026-08-25T05:41:50Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hiu026a。"
 }

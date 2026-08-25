@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmod8cak8w",
   "type": "work",
   "title": "梁武帝制旨連珠",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《梁武帝制旨連珠》十卷",
-      "summary": "《梁武帝制旨連珠》十卷梁邵陵王綸注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "梁武帝制旨連珠",
-      "summary": "梁武帝制旨連珠四卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "王綸",
-      "role": "注",
-      "name_basis": "2026-08-22 C1：原繫 1j96hlho5h3i8（明），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 同名異人分立：庫中舊有同名之「王綸」（`1j967da97uuit`，代 ming），與本書之代（nanbeichao）懸隔。本書之斷代出於其人本身之行實（隋志明題「梁邵陵王綸注」，即梁武帝子蕭綸），非泛推，故知同名而實二人。今別立 `1jcf515129agh` 而繫之，不繫舊條。",
-      "entity_id": "1jcf515129agh"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcmod8cak8w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "隋志明題「梁邵陵王綸注」，即梁武帝子蕭綸（507-551），南朝梁（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f2865b9c0",
+  "_promoted_at": "2026-08-24T18:54:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2865b9c0。"
 }

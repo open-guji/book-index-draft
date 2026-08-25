@@ -3,40 +3,7 @@
   "id": "1ev3bb8x21wcg",
   "type": "work",
   "title": "伊川粹言",
-  "authors": [
-    {
-      "name": "張栻",
-      "role": "舊題編",
-      "dynasty": "南宋",
-      "entity_id": "1j967afjb6aex",
-      "dynasty_basis": "entity_propagation:1j967afjb6aex",
-      "role_basis": "據著錄語「舊本題宋張栻編。考宋濂《潛溪集》有此書跋，謂前序不著姓氏，相傳」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《伊川粹言》•二卷",
-      "author_info": "舊本題宋張栻編",
-      "summary": "舊本題宋張栻編。考宋濂《潛溪集》有此書跋，謂前序不著姓氏，相傳為張南軒栻撰。則明初此書尚不著栻之名，此本當為後人據濂語補題也。其序題乾道丙戌正月十有八日，然栻《南軒集》但載二程遺書跋，而無此序。使果栻作，不應諱而削之也。蓋併編次之說，皆在影響之間矣。",
-      "edition": "江蘇巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
-  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題宋張栻編。考宋濂《潛溪集》有此書跋，謂前序不著姓氏，相傳」，所題之人即本條 authors[0]，故其 role 由「編」改標「舊題編」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "_promoted_to": "d59f2hhd8yde",
+  "_promoted_at": "2026-08-25T05:39:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhd8yde。"
 }

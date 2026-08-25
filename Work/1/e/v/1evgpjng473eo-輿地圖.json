@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjng473eo",
   "type": "work",
   "title": "輿地圖",
-  "authors": [
-    {
-      "name": "王象之",
-      "role": "撰",
-      "entity_id": "1j967avzn7z9d"
-    }
-  ],
-  "juan_count": {
-    "number": 16
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《輿地圖》十六卷",
-      "summary": "《輿地圖》十六卷（王象之。）",
-      "author_info": "王象之。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《輿地圖》十六卷",
-      "summary": "《輿地圖》十六卷。王象之撰。《紀勝》逐州為卷，《圖》逐路為卷，其搜求亦勤矣。至西蜀諸郡尤詳。其兄觀之漕夔門時所得也。",
-      "merged_from": "1evr5e3mklz6y",
-      "note": "《輿地圖》（王象之）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
-    },
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "輿地圖十六卷",
-      "summary": "輿地圖十六卷\n王觀之撰。",
-      "merged_from": "1evrbhp6a8igk",
-      "note": "撰人原作「王觀之」，乃「王象之」之訛或異寫，本條併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《輿地圖》（王象之，16卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evr5e3mklz6y（直齋書錄解題）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**\n\n2026-08-20 同題異撰人（撰人名一字之差）續批：本條與 `1evrbhp6a8igk` 同題《輿地圖》、同卷數 16，撰人作「王象之」與「王觀之」，僅一字之差（或一名含於另一名）；「王觀之」為其訛（或異寫），二者實一書之重出，今併。",
-  "id": "1evgpjng473eo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "updated_at": "2026-08-22T04:56:00.151060+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「王象之」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hmcf668",
+  "_promoted_at": "2026-08-25T05:48:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hmcf668。"
 }

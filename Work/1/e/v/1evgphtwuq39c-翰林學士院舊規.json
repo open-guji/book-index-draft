@@ -1,68 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphtwuq39c",
   "type": "work",
   "title": "翰林學士院舊規",
-  "authors": [
-    {
-      "name": "楊鉅",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978dhv"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《翰林學士院舊規》一卷",
-      "summary": "《翰林學士院舊規》一卷（唐楊鉅）",
-      "author_info": "唐楊鉅"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "翰林學士院舊規"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "楊鉅翰林學士院舊規",
-      "summary": "楊鉅翰林學士院舊規一卷",
-      "merged_from": "1evcs0f0vx3wg"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphtwuq39c",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "merged_in": [
-    {
-      "id": "1evcs0f0vx3wg",
-      "title": "楊鉅翰林學士院舊規",
-      "author": "楊鉅",
-      "title_info": "楊鉅翰林學士院舊規",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「楊鉅翰林學士院舊規」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「楊鉅」已見本條 authors[]），裸題「翰林學士院舊規」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f28jn0ikk",
+  "_promoted_at": "2026-08-24T19:20:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jn0ikk。"
 }

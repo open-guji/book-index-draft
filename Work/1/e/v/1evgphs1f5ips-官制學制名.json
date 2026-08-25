@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphs1f5ips",
   "type": "work",
   "title": "官制學制名",
-  "authors": [
-    {
-      "name": "司馬光",
-      "role": "撰",
-      "entity_id": "1j967afjb6aef"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《官制學制名》一卷",
-      "summary": "《官制學制名》一卷（司馬光）",
-      "author_info": "司馬光"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《官制》",
-      "category": "職官類",
-      "summary": "司馬光撰。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《學制》各一卷",
-      "category": "職官類",
-      "summary": "司馬光撰。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphs1f5ips",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"官制、學制名\"，可能是解析错误\n[QA-fix 2026-04-20] title \"官制、學制名\" → \"官制學制名\" (remove 顿号)　合刻著錄非磁鐵：本 work 於《直齋書錄解題》整理本繫及 2 節（《官制》、《學制》各一卷），然諸節共一解題，是直齋本以一條著錄合刻數書，其書雖數種而著錄則一。本 work 兼之，係著錄體例使然，非匯入之併合，後續整理不當據節數逕拆。　按：若欲以「作品」為單位別立，須另作模型上之決定，非本條之誤。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-22T04:56:00.063192+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「司馬光」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hfk0cu9",
+  "_promoted_at": "2026-08-25T05:35:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfk0cu9。"
 }

@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evct46l2tds0",
   "type": "work",
   "title": "毛詩說",
-  "authors": [
-    {
-      "name": "李燾",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzlcjz1"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《毛詩說》",
-      "summary": "《毛詩說》三卷李燾"
-    }
-  ],
-  "id": "1evct46l2tds0",
-  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「李燾」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-11",
-  "dynasty": "南宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」"
+  "_promoted_to": "d59f2hiac3ya",
+  "_promoted_at": "2026-08-25T05:40:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hiac3ya。"
 }

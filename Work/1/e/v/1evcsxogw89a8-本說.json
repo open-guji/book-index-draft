@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxogw89a8",
   "type": "work",
   "title": "本說",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《本說》",
-      "summary": "刁衎《本說》十卷王敏"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《本說》十卷",
-      "summary": "《本說》十卷（刀）",
-      "author_info": "刀",
-      "merged_from": "1evgpmwnxz4zk",
-      "note": "諸志同著《本說》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "本説十卷",
-      "summary": "本説十卷",
-      "merged_from": "1evcsxogw89a8",
-      "note": "《本說》與《本説》之別，僅在異體字（本說／本説），題名歸一後全同；卷數全同（10卷）；彼條無撰人而本條作「刁衎」。二者著錄異源（國史經籍志、宋史藝文志 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "id": "1evcsxogw89a8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "authors": [
-    {
-      "name": "刁衎",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf51512933h",
-      "note": "宋史藝文志作「刁衎《本說》十卷王敏」，前置撰人刁衎；國史經籍志注「刀」，即「刁」之訛。句末「王敏」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512933h` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《本說》十卷，今合併並據宋志前置撰人補為刁衎。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfxezq`（本說）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfxezq`（崇文總目，題作《本説》，10卷）。二題之別僅在異體字，歸一後全同，卷數全同（10卷）；彼條無撰人而本條作「刁衎」。",
-  "additional_titles": [
-    "本説"
-  ]
+  "_promoted_to": "d59f2hh472mb",
+  "_promoted_at": "2026-08-25T05:38:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hh472mb。"
 }

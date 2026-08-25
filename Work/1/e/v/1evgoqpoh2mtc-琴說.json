@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqpoh2mtc",
   "type": "work",
   "title": "琴說",
-  "authors": [
-    {
-      "name": "李勉",
-      "role": "撰",
-      "entity_id": "1j96h8rw86q04"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《琴說》一卷",
-      "summary": "《琴說》一卷（李勉）",
-      "author_info": "李勉"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《琴說》一卷",
-      "summary": "唐工部尚書李勉撰。",
-      "merged_from": "1evr5e3mjo9he",
-      "note": "明載「唐工部尚書李勉撰」，與本條國史經籍志「（李勉）」全合。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-19 全庫同名異書核對：併入直齋書錄解題（明載「唐工部尚書李勉撰」）。本庫同題尚有鄭文祐一卷本（國史經籍志）、薛易簡一卷本（直齋，見 `1evr5e3mjd11s`）、隋志＋宋志一卷本（`1evc5pdh7q70g`），皆撰人各異之異書。",
-  "id": "1evgoqpoh2mtc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」"
+  "_promoted_to": "d59f28jovxtw",
+  "_promoted_at": "2026-08-24T19:20:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jovxtw。"
 }

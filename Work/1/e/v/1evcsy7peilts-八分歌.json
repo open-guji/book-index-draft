@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy7peilts",
   "type": "work",
   "title": "八分歌",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《八分歌》",
-      "summary": "曾文展《八分歌》一卷李筌"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《八分歌》一卷",
-      "summary": "《八分歌》一卷",
-      "merged_from": "1evgq3vwhbev4",
-      "note": "諸志同著《八分歌》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsy7peilts",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "曾文展",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf51512964o",
-      "note": "宋史藝文志作「曾文展《八分歌》一卷李筌」，前置撰人曾文展；句末「李筌」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512964o` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《八分歌》一卷，今合併並據宋志前置撰人補為曾文展。"
+  "_promoted_to": "d59f2hfm70n5",
+  "_promoted_at": "2026-08-25T05:35:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfm70n5。"
 }

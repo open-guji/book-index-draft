@@ -12,12 +12,13 @@
     }
   ],
   "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀009667-009670）。明末刊本。",
+    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀009667-009670）。明末刊本。麻三衡，明末人，著有《墨志》，詳記徽州製墨家一百二十餘人，為研究明代徽墨業之重要史料，可證其熟於文獻蒐輯考訂之學，與本書「古逸詩載」「古詩別選」之輯選體例相合。",
     "sources": [
-      "國立故宮博物院善本舊籍"
+      "國立故宮博物院善本舊籍",
+      "WebSearch覆核"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條著錄來源（國立故宮博物院善本舊籍，統一編號見 indexed_by.catalog_no）原僅存於 description 之散文，今結構化補入 indexed_by（機械抽取，未增未減）。\n\n2026-08-25 合流按（並行車道 J32）：2026-08-25 J33：補撰內容提要（WebSearch覆核）。",
   "juan_count": {
     "number": 4
   },
@@ -37,5 +38,16 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "古逸詩載六卷古詩別選",
+      "summary": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀009667-009670）。明末刊本。",
+      "edition": "明末刊本。",
+      "catalog_no": "故觀009667-009670"
+    }
+  ],
+  "_promoted_to": "d59f2ned5mo2",
+  "_promoted_at": "2026-08-25T12:28:26Z"
 }

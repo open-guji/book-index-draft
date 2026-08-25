@@ -3,69 +3,7 @@
   "id": "1ev3bcespbw1s",
   "type": "work",
   "title": "野服考",
-  "authors": [
-    {
-      "name": "方鳳",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96lwev",
-      "dynasty_basis": "entity_propagation_r2:1j967da96lwev"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《野服考》·一卷",
-      "author_info": "宋方鳳撰",
-      "summary": "宋方鳳撰。鳳一名景山，字韶卿，浦陽人。宋末授容州文學。國亡不仕，放浪山澤間，與謝翱、吳思齊友善。此書摭取經史及說部所記野服之制，自台笠緇撮以下凡十六條。殆自托於宋之逸民，故作此以見志歟。",
-      "edition": "編修程晉芳家藏本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《野服攷》一卷",
-      "author_info": "宋方鳯輯",
-      "summary": "《野服攷》一卷。宋方鳯輯。江西省圖書館藏涵芬樓影印清道光十一年六安晁氏木活字學海類編本。",
-      "edition": "江西省圖書館藏涵芬樓影印清道光十一年六安晁氏木活字學海類編本",
-      "volume": "第168冊",
-      "section": "子部",
-      "merged_from": "1evjxmcrwzkzk",
-      "note": "撰人原作「方鳯」，乃「方鳳」之訛（或異寫），本條併入。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=609465",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "_has_text": true,
-  "additional_titles": [
-    "野服攷"
-  ],
-  "description": {
-    "text": "本書收入《四庫全書存目叢書》第168冊（子部）。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evjxmcrwzkzk` 同題《野服考》、同卷數 1，撰人作「方鳳」與「方鳯」，僅一字之差（或一名含於另一名）。「方鳯」全庫僅 2 見而「方鳳」凡 9 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f2gfwrrpd",
+  "_promoted_at": "2026-08-25T04:27:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gfwrrpd。"
 }

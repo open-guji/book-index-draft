@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyhjmd91c",
   "type": "work",
   "title": "左傳類對賦",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《左傳類對賦》",
-      "summary": "毛友《左傳類對賦》六卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《左傳類對賦》",
-      "summary": "毛友《左傳類對賦》六卷王維",
-      "merged_from": "1evcsz7rf04cg",
-      "note": "諸志同著《左傳類對賦》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《左傳類對賦》（毛友）",
-      "summary": "宋志六卷",
-      "section": "春秋",
-      "juan": "卷一百九十二",
-      "page": "KR2n0011_WYG_192-7a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "id": "1evcsyhjmd91c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "毛友",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf5151296xj",
-      "note": "宋史藝文志兩出，皆作「毛友《左傳類對賦》六卷」，前置撰人毛友。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296xj` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出「毛友《左傳類對賦》六卷」，撰人、卷數全同，係重出，今合併。所併之條句末「王維」屬其下條。"
+  "_promoted_to": "d59f2hi35ngi",
+  "_promoted_at": "2026-08-25T05:40:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi35ngi。"
 }

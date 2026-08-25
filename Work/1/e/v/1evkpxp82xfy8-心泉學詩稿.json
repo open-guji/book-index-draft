@@ -6,9 +6,10 @@
     {
       "name": "蒲壽宬",
       "role": "撰",
-      "dynasty": "宋",
+      "dynasty": "宋末元初",
       "entity_id": "1j967da95zfaw",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蒲壽宬」而無 entity_id，今繫 `1j967da95zfaw`——庫中 primary_name 同之者唯一。其代「元」與本書之上限不相斥。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蒲壽宬」而無 entity_id，今繫 `1j967da95zfaw`——庫中 primary_name 同之者唯一。其代「元」與本書之上限不相斥。",
+      "dynasty_basis": "L5 斷代訂正（2026-08-25 遼金元輪）：本欄舊作「宋」，而《補遼金元藝文志》明著「元蒲壽宬」。此非過渡而是誤，逕從志作「宋末元初」。"
     }
   ],
   "description": {
@@ -17,7 +18,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027834-027835）。阶段 5 兜底建立。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgaantrhkhs` 同題《心泉學詩稿》、同卷數 6，撰人分作「蒲壽宬」「蒲壽晟」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「蒲壽宬」，異名之著錄並存於 indexed_by。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxjd34phc 與 11q37thjlr4e8 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027834-027835）。阶段 5 兜底建立。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgaantrhkhs` 同題《心泉學詩稿》、同卷數 6，撰人分作「蒲壽宬」「蒲壽晟」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「蒲壽宬」，異名之著錄並存於 indexed_by。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxjd34phc 與 11q37thjlr4e8 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-25 遼金元 L5：撰人「蒲壽宬」之代由「宋」歸一為「宋末元初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
   "juan_count": {
     "number": 6
   },
@@ -109,5 +110,7 @@
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
-  "period_basis": "據撰人「蒲壽宬」（entity `1j967da95zfaw`，代「元」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。"
+  "period_basis": "據撰人「蒲壽宬」（entity `1j967da95zfaw`，代「元」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。",
+  "_promoted_to": "d59f2j4xe1oh",
+  "_promoted_at": "2026-08-25T07:33:30Z"
 }

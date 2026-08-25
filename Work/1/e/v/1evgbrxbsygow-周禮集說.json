@@ -1,75 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbrxbsygow",
   "type": "work",
   "title": "周禮集說",
-  "authors": [
-    {
-      "name": "陳友仁",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96anv2"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "陳友仁周禮集說十二卷",
-      "author_info": "字君復，湖州人",
-      "summary": "元陳友仁（字君復，湖州人）周禮集說十二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《周禮集說》十二卷",
-      "summary": "《周禮集說》十二卷（元陳友仁）",
-      "author_info": "元陳友仁"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周禮集説》",
-      "summary": "十二卷",
-      "section": "周禮",
-      "juan": "卷一百二十五",
-      "page": "KR2n0011_WYG_125-17b",
-      "attested_status": "partial",
-      "attested_status_raw": "闕",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
-      "link_basis": "2026-08-24 待覈「不著撰人」逐條裁（據論斷或標目之姓）：論斷首句「陳友仁序曰」是撰人**自序**。庫條十二卷，合本條著錄「十二卷」；另一候選繫俞庭椿。"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "description": {
-    "text": "字君復，湖州人",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('', ''), ('', '')]，本條作者 陳友仁（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgbrxbsygow",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "books": [
-    "11qkhvo9iklq8"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1ioc6m0w",
-      "title": "周禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gom6136",
+  "_promoted_at": "2026-08-25T04:43:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gom6136。"
 }

@@ -1,82 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd0tx4t1c",
   "type": "work",
   "title": "臣軌",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《臣軌》二卷",
-      "summary": "《臣軌》二卷天后撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "又臣軌",
-      "summary": "又臣軌二卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "臣軌二卷",
-      "summary": "臣軌二卷"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《臣軌》二卷",
-      "author_info": "唐武曌撰",
-      "summary": "《臣軌》二卷。唐武曌撰。影印宛委別藏日本活字印佚存叢書本。",
-      "edition": "影印宛委別藏日本活字印佚存叢書本",
-      "volume": "第753冊",
-      "section": "史部 史部"
-    }
-  ],
-  "id": "1evcpd0tx4t1c",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%87%A3%E8%BB%8C",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "武則天",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j98p59ohifpc"
-    }
-  ],
-  "ai_note": "作者「唐武則天撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaa02bmwhs 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcpd0tx4t1c();1evcs0lamzqww();1evjr1yijsav4(武曌)（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-24 隋唐 T3·異稱同人重出：自 `1evjr1yijsav4` 併入——彼題撰人「武曌」（《續修四庫全書》影印宛委別藏日本活字佚存叢書本），本條題「武則天」而繫舊唐志「《臣軌》二卷天后撰」、新唐志、崇文總目三源並三 Book，故以本條為主。武曌即武則天，本名照（曌為其自製字），一人二稱。",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善005534-005535）。清嘉慶間阮元進呈日本活字佚存叢書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhuw8l31ts",
-    "11qki07mh9iww",
-    "11qki07l4ki68"
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷"
+  "_promoted_to": "d59f28k2b56o",
+  "_promoted_at": "2026-08-24T19:21:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k2b56o。"
 }

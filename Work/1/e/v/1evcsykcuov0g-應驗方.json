@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsykcuov0g",
   "type": "work",
   "title": "應驗方",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《應驗方》",
-      "summary": "包會《應驗方》三卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《應驗方》",
-      "summary": "《應驗方》三卷",
-      "merged_from": "1evcsyjgx1udc",
-      "note": "諸志同著《應驗方》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsykcuov0g",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "包會",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf515129aca",
-      "note": "宋史藝文志作「包會《應驗方》三卷」，前置撰人包會。",
-      "name_basis": "2026-08-24 補 entity：繫 `1jcf515129aca`（subtype people）。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出《應驗方》三卷，一有前置撰人包會、一裸題，卷數全同，係重出，今合併並補撰人。"
+  "_promoted_to": "d59f2hewlk3m",
+  "_promoted_at": "2026-08-25T05:34:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hewlk3m。"
 }

@@ -15,7 +15,7 @@
     },
     {
       "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
+      "source_bid": "d59f2gdp696q",
       "title_info": "《孟子解義》",
       "summary": "陳暘《孟子解義》十四卷張鎰",
       "misattached": true,
@@ -23,12 +23,13 @@
     }
   ],
   "description": {
-    "text": "《國史經籍志》收錄。",
+    "text": "張洪（明）撰。十四卷。見著錄於《國史經籍志》《宋史藝文志》。其著錄之文，《宋史藝文志》作「陳暘《孟子解義》十四卷張鎰」。本書為《孟子》之注釋，其文附原典以行。《國史經籍志》明焦竑撰；《宋史藝文志》元脫脫等修——本書之目賴之以存。",
     "sources": [
-      "國史經籍志"
+      "國史經籍志",
+      "宋史藝文志"
     ]
   },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「明張洪撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkafdo8xreo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsxon41erk();1evcsxoous3y8();1evgor27xnq4g(游酢)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "ai_note": "从卷二 ambiguous 新建：unresolved 作者「明張洪撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkafdo8xreo 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsxon41erk();1evcsxoous3y8();1evgor27xnq4g(游酢)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "id": "1evgor2vqtds0",
   "measures": [
     {
@@ -59,5 +60,7 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2njgp5oj",
+  "_promoted_at": "2026-08-25T12:38:15Z"
 }

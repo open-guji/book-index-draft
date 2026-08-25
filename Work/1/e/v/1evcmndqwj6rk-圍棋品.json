@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmndqwj6rk",
   "type": "work",
   "title": "圍棋品",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《圍棋品》一卷",
-      "summary": "《圍棋品》一卷梁武帝撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《圍棋品》一卷",
-      "summary": "《圍棋品》一卷（梁武）",
-      "author_info": "梁武",
-      "merged_from": "1evgq5s2nk0zk",
-      "note": "諸志同著《圍棋品》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmndqwj6rk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《圍棋品》一卷",
-      "summary": "圍碁品一卷 梁武帝撰\n梁武帝有《兵法》、《兵書鈔》、《兵書要鈔》,並見前。\n《唐書·經籍志》雜藝術類:《碁評》一卷,梁武帝撰。\n《唐書·藝文志》:梁武帝《碁評》一卷。\n案此似即《七録》所載之《天監碁品》,据隋代見存書目抄入\n者,《唐志》作《棋評》,即《棋品》也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "蕭衍",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j967afjav1vw",
-      "note": "隋書經籍志明載「《圍棋品》一卷梁武帝撰」；國史經籍志注「梁武」，二志相合。梁武帝即蕭衍。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蕭衍」而無 entity_id，今繫 `1j967afjav1vw`——庫中 primary_name 同之者唯一。其代「南朝梁」與本書已定之代「nanbeichao」相合。"
-    }
-  ],
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、國史經籍志同著《圍棋品》一卷，今合併並補撰人為蕭衍（梁武帝）。"
+  "_promoted_to": "d59f285r9kw3",
+  "_promoted_at": "2026-08-24T18:53:55Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285r9kw3。"
 }

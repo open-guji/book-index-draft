@@ -1,94 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr3pgraha8",
   "type": "work",
   "title": "本草衍義",
-  "authors": [
-    {
-      "name": "寇宗奭",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j98p17aswq9s",
-      "dynasty_basis": "manual_round3:寇宗奭《本草衍義》成書於政和年間→北宋"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《本草衍義》二十卷",
-      "author_info": "宋寇宗奭撰",
-      "summary": "《本草衍義》二十卷。宋寇宗奭撰。影印國家圖書館藏宋淳熙十二年江西轉運司刻慶元元年重修本。",
-      "edition": "影印國家圖書館藏宋淳熙十二年江西轉運司刻慶元元年重修本",
-      "volume": "第990冊",
-      "section": "子部 醫家類"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《本草衍義》二十卷",
-      "summary": "《本草衍義》二十卷（冦宗奭）",
-      "author_info": "冦宗奭",
-      "merged_from": "1evgq4mp0aozk",
-      "note": "撰人原作「冦宗奭」，乃「寇宗奭」之異寫或形訛，本條併入。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "本草衍義"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第990冊（子部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evgq4mp0aozk(冦宗奭)。 | 從 1evjy69xau7sw 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgq4mp0aozk` 同題《本草衍義》、同卷數 20，撰人分作「寇宗奭」「冦宗奭」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「寇宗奭」，異名之著錄並存於 indexed_by。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evr5e3mjo9mf 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "id": "1evjr3pgraha8",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0990%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 990
-      },
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E8%A1%8D%E7%BE%A9",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "books": [
-    "11qk4xwct6s5q",
-    "11qkhzsbpni80",
-    "11qk4xwcvdfyf"
-  ],
-  "updated_at": "2026-08-23T06:46:46.606177+00:00",
-  "_has_image": true,
-  "dynasty": "北宋",
-  "dynasty_basis": "据本轮人工资料 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据本轮人工资料 author.dynasty「北宋」自动归并",
-  "_has_text": true,
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song"
+  "_promoted_to": "d59f2hux4vep",
+  "_promoted_at": "2026-08-25T06:05:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hux4vep。"
 }

@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgord0rwydc",
   "type": "work",
   "title": "常用字訓",
-  "authors": [
-    {
-      "name": "殷仲堪",
-      "role": "撰",
-      "entity_id": "1j96hfba2urk0"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《常用字訓》一卷",
-      "summary": "《常用字訓》一卷（殷仲堪）",
-      "author_info": "殷仲堪"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "常用字訓一卷殷仲堪。謹按見《七録》。",
-      "section": "甲部經錄／小學類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "description": {
-    "text": "殷仲堪撰。一卷。見著錄於《國史經籍志》《補晋書藝文志》。《補晋書藝文志》列於甲部經錄·小學類。其著錄之文，《國史經籍志》作「《常用字訓》一卷（殷仲堪）」。",
-    "sources": [
-      "國史經籍志",
-      "補晋書藝文志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：B1:多个精确作者匹配 | 從 1evetxczpqhog 合併。原註：亡佚。隋書經籍志「梁有《常用字訓》一卷，殷仲堪撰，亡」。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-24 J3(6) Entity 併池：authors[].entity_id 由 1j96h8rw7k8xn 改指 1j96hfba2urk0——殷仲堪（?–399），東晉陳郡人，荊州刺史。二 entity 所繫者毛詩雜義、雜論等，皆其書。",
-  "id": "1evgord0rwydc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "梁有《常用字訓》一卷，殷仲堪撰",
-      "summary": "梁有《常用字訓》一卷，殷仲堪撰"
-    }
-  ]
+  "_promoted_to": "d59f27wnieiq",
+  "_promoted_at": "2026-08-24T18:36:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27wnieiq。"
 }

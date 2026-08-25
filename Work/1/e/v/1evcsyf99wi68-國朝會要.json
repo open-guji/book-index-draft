@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyf99wi68",
   "type": "work",
   "title": "國朝會要",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《國朝會要》",
-      "summary": "章得象《國朝會要》一百五十卷（（宋初至慶曆四年））大孝（（一作“存”））僚"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《國朝會要》一百五十卷",
-      "summary": "《國朝會要》一百五十卷（章得象）",
-      "author_info": "章得象",
-      "merged_from": "1evgphnh8n11c",
-      "note": "《國朝會要》（章得象）諸志同著，題名、撰人、卷數俱同，係重出，今合併。"
-    }
-  ],
-  "id": "1evcsyf99wi68",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "章得象",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j96h8rw86q25",
-      "note": "宋史藝文志作「章得象《國朝會要》一百五十卷（（宋初至慶曆四年））」，前置撰人章得象。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「章得象」而無 entity_id，今繫 `1j96h8rw86q25`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "juan_count": {
-    "number": 150
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 150
-    }
-  ],
-  "measure_info": "一百五十卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 有撰人之同名同卷組專項：《國朝會要》（章得象，150卷）在庫中兩建（或數建）其條——題名、撰人、卷數俱同而各繫不同之志，係匯入時重出，今合併。所併者：1evgphnh8n11c（國史經籍志）。**本專項掃「有撰人」之同名組，前此之同名異書核對只掃無撰人者，故此型久未相遇。**"
+  "_promoted_to": "d59f2hfwhukh",
+  "_promoted_at": "2026-08-25T05:36:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfwhukh。"
 }

@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga7hac5ybk",
   "type": "work",
   "title": "參定養生主論",
-  "authors": [
-    {
-      "name": "王珪",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967bgl89icn"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "王珪參定養生主論十六卷",
-      "summary": "元王珪參定養生主論十六卷"
-    }
-  ],
-  "juan_count": {
-    "number": 16
-  },
-  "id": "1evga7hac5ybk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」（2026-08-13 遼金元/明邊界人口獨立立項：王珪（生卒1019-1085）：死於元建國(1271)前，Entity既有分類（北宋／song）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2hm81uki",
+  "_promoted_at": "2026-08-25T05:48:21Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hm81uki。"
 }

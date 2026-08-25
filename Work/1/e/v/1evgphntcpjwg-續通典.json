@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphntcpjwg",
   "type": "work",
   "title": "續通典",
-  "authors": [
-    {
-      "name": "宋白",
-      "role": "撰",
-      "entity_id": "1j969lr2spj5b",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「宋白」而無 entity_id，今繫 `1j969lr2spj5b`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    },
-    {
-      "name": "李宗諤",
-      "role": "撰",
-      "entity_id": "1j967da97jm07",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「李宗諤」而無 entity_id，今繫 `1j967da97jm07`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 200
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續通典》二百卷",
-      "summary": "《續通典》二百卷（宋白）",
-      "author_info": "宋白"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《續通典》二百卷",
-      "summary": "翰林學士承旨大名宋白太素等撰。咸平三年奉詔，四年九月書成。起唐至德初，迄周顯德末。王欽若言杜佑《通典》上下數千載，為二百卷，而其中四十卷為開元禮。今之所載二百餘年，亦如前書卷數，時論非其重復。",
-      "merged_from": "1evr5e3miqjvg"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "續通典二百卷",
-      "summary": "續通典二百卷",
-      "merged_from": "1evr5e3mfxf3u"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《續通典》",
-      "summary": "宋白、李宗諤《續通典》二百卷皮文粲",
-      "merged_from": "1ev794ke2su0w",
-      "note": "原記錄「磁鐵」誤混入清嵇璜等奉敕撰一百四十四卷本（見 `1ev794ke2su0w`），今拆分歸入本條；句末「皮文粲」屬下條《鹿門家鈔籍詠》之頂真格領頭撰人，非本書撰人。據此補入合撰者李宗諤。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-19 全庫同名異書核對：併入直齋書錄解題（明載「翰林學士承旨大名宋白太素等撰，咸平三年奉詔」）、崇文總目（裸題，卷數合）、宋史藝文志（自嵇璜條磁鐵拆出，補合撰者李宗諤）三源，確係同書重出。與同題清嵇璜等奉敕撰一百四十四卷本（見 `1ev794ke2su0w`）朝代懸隔，非同書。",
-  "id": "1evgphntcpjwg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 200
-    }
-  ],
-  "measure_info": "二百卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "直齋稱宋白等咸平三年奉詔、四年書成，北宋真宗朝（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f2hh2mvwh",
+  "_promoted_at": "2026-08-25T05:38:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hh2mvwh。"
 }

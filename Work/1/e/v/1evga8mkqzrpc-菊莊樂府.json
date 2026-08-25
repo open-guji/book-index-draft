@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga8mkqzrpc",
   "type": "work",
   "title": "菊莊樂府",
-  "authors": [
-    {
-      "name": "段克己",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j96h024mpyiw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "段克己菊莊樂府一卷",
-      "summary": "金段克己菊莊樂府一卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《菊莊樂府》一卷",
-      "summary": "元段克己菊莊樂府一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evga8mkqzrpc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "_promoted_to": "d59f2glaawht",
+  "_promoted_at": "2026-08-25T04:37:21Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glaawht。"
 }

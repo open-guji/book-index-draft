@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq0i0tlyww",
   "type": "work",
   "title": "博聞錄",
-  "authors": [
-    {
-      "name": "陳元靚",
-      "role": "撰",
-      "dynasty": "南朝陳",
-      "entity_id": "1j96ha5t3ggzk",
-      "dynasty_basis": "entity_propagation:1j96hg20z5fk0"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《博聞錄》十卷",
-      "summary": "《博聞錄》十卷（陳元靚）",
-      "author_info": "陳元靚"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq0i0tlyww",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "period": "song",
-  "period_basis": "同上（陳元靚，南宋）。（2026-08-24 N3 訂正：原作 nanbeichao）",
-  "ai_note": "2026-08-08 修復二字殘名：國史經籍志明確「陳元靚」（宋建安人，著《歲時廣記》《博聞錄》），缺陳字，dyn陳更正為宋。\n\nN3 period 訂正（2026-08-24 南北朝斷代專項）：本條 period 原繫 nanbeichao，其由是撰人姓氏被早期自動化流程當作朝代前綴（南朝四代國號宋齊梁陳、北朝魏齊周皆常見漢姓，此為本朝特有之系統性風險）。authors[].dynasty 前此已訂正，而 period 未隨之改——本輪補之。\n本條之判：同上（陳元靚，南宋）。",
-  "dynasty": "南宋",
-  "dynasty_basis": "同上（陳元靚，南宋）。"
+  "_promoted_to": "d59f2hjwe8zm",
+  "_promoted_at": "2026-08-25T05:43:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjwe8zm。"
 }

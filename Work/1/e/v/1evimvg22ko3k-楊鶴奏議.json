@@ -55,5 +55,14 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條是《中國明朝檔案總匯》所收之明代檔冊，其所在冊次已見於 description（「今存於總匯第N冊」之屬），而 indexed_by 舊空，遂為 check_promote 判作「無著錄源亦無關聯」。今補其著錄源——檔案總匯逐冊著錄所收檔冊之名與其所在，合 SCHEMA〈IndexEntry〉「本書被目錄書著錄」之義。",
+  "indexed_by": [
+    {
+      "source": "中國明朝檔案總匯",
+      "title_info": "楊鶴奏議",
+      "summary": "楊鶴（？-1635），字修齡，號弱水，貴州武陵（今湖南常德）人。萬曆三十二年進士。崇禎元年起任都察院右都御史，後任陝西總督，主持招撫陝西流寇，因與洪承畴主剿之策衝突而被罷。本書收楊鶴自崇禎元年起用至崇禎十年身後追恤之題本、奏本、供狀十二件，含其子楊嗣昌（兵部尚書）為父請開復之奏。原檔今存於總匯第84冊。"
+    }
+  ],
+  "_promoted_to": "d59f2ng20wlc",
+  "_promoted_at": "2026-08-25T12:31:41Z"
 }

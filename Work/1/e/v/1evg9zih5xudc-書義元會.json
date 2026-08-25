@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg9zih5xudc",
   "type": "work",
   "title": "書義元會",
-  "authors": [
-    {
-      "name": "張國賓",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21kevj"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "張國賓書義元會四卷",
-      "summary": "元張國賓書義元會四卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《書義元會》四卷",
-      "summary": "《書義元會》四卷（張國賔）",
-      "author_info": "張國賔"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "id": "1evg9zih5xudc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gmwd1j4",
+  "_promoted_at": "2026-08-25T04:40:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmwd1j4。"
 }

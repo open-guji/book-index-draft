@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy5ran5w5c",
   "type": "work",
   "title": "三蘇先生文粹",
-  "authors": [
-    {
-      "name": "蘇洵",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzn7z83",
-      "dynasty_basis": "entity_propagation:1j967avzn7z83"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》唐宋編（ZHSY000429）。宋婺州吳宅桂堂刻王宅桂堂修补印本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpwi73yfb4 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→4）併入本條。",
-  "juan_count": {
-    "number": 70
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 70
-    }
-  ],
-  "measure_info": "七十卷",
-  "id": "1evjy5ran5w5c",
-  "books": [
-    "11qk4xwcu4hsr",
-    "11qkhuvuuydxc",
-    "11qkhuvvdomio",
-    "11qki72la65ts"
-  ],
-  "updated_at": "2026-08-23T06:04:29.719957+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "indexed_by": [],
-  "period_upper": "ming",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「明刊白口十四行本」——版本之年不早於成書之年，故不晚於 ming"
+  "_promoted_to": "d59f2hu93lkw",
+  "_promoted_at": "2026-08-25T06:03:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hu93lkw。"
 }

@@ -2,36 +2,8 @@
   "schema_version": 1,
   "id": "1evhntct6t0cg",
   "type": "work",
-  "subtype": "article",
   "title": "大招",
-  "authors": [
-    {
-      "name": "景差",
-      "dynasty": "戰國",
-      "role": "作",
-      "entity_id": "1j96hgfboi5mo",
-      "dynasty_basis": "entity_propagation:1j96hgfboi5mo"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%8B%9B",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「戰國」（規則1 粗粒度自消歧）"
+  "_promoted_to": "d59f2ew51ds0",
+  "_promoted_at": "2026-08-25T02:39:49Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew51ds0。"
 }

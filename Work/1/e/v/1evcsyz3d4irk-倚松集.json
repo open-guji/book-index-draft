@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyz3d4irk",
   "type": "work",
   "title": "倚松集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《倚松集》",
-      "summary": "饒節《倚松集》十四卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "倚松集",
-      "merged_from": "1evr5e3mi42vl",
-      "note": "同題之另一著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcsyz3d4irk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "饒節",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967bgl89idg",
-      "note": "宋史藝文志原題「饒節《倚松集》十四卷」。饒節（1065-1129）字德操，後為僧號如璧。 本庫無此 entity，未繫。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「饒節」而無 entity_id，今繫 `1j967bgl89idg`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "juan_count": {
-    "number": 14
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 集部批）：宋史藝文志、直齋書錄解題所著錄同為一書，今合為一條並補撰人／編者「饒節」；本庫無其 entity，未繫。直齋作二卷。"
+  "_promoted_to": "d59f2hm9asqo",
+  "_promoted_at": "2026-08-25T05:48:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hm9asqo。"
 }

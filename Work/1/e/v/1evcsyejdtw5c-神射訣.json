@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyejdtw5c",
   "type": "work",
   "title": "神射訣",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《神射訣》",
-      "summary": "張子霄《神射訣》一卷李靖"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《神射訣》一卷",
-      "summary": "《神射訣》一卷",
-      "merged_from": "1evgq5kdjy134",
-      "note": "諸志同著《神射訣》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsyejdtw5c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "張子霄",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151295ji",
-      "note": "宋史藝文志作「張子霄《神射訣》一卷李靖」，前置撰人張子霄；句末「李靖」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295ji` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《神射訣》一卷，今合併並據宋志前置撰人補為張子霄。"
+  "_promoted_to": "d59f2hgvrny8",
+  "_promoted_at": "2026-08-25T05:38:05Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgvrny8。"
 }

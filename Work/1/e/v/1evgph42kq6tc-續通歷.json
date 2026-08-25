@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgph42kq6tc",
   "type": "work",
   "title": "續通歷",
-  "authors": [
-    {
-      "name": "孫光憲",
-      "role": "撰",
-      "entity_id": "1j967da978dgv"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續通歷》十卷",
-      "summary": "《續通歷》十卷（孫光憲。）",
-      "author_info": "孫光憲。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《續通曆》",
-      "summary": "四十五冊孫光憲《續通曆》十卷",
-      "merged_from": "1evcsx8pa454w",
-      "note": "本著錄原繫題作「續通曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續通歷》十卷",
-      "summary": "《續通歷》十卷（孫光憲。）",
-      "author_info": "孫光憲。",
-      "note": "國史經籍志兩處著錄：此為史類第 332 節（其前為徐整《通歷》三卷、馬總《通歷》十卷）者，節題原有缺字作「《□通歷》」，2026-08-24 據第 391 節補作「續」。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgph42kq6tc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "[QA-final 2026-04-20] 合并 1evgph1o24ao0 (原 □通歷 修复为 續通歷)\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《續通曆》之 work（`1evcsx8pa454w`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-22 B3 併池：1ewz06ur0fx1i 併入本條。《續通歷》二條同出國史經籍志，併者之著錄語作「《□通歷》十卷」，是缺字之殘留，非別書。\n\n2026-08-24 磁鐵 N1：國史經籍志 史類 第 332、391 二節同題（補缺字後）、同卷數、同撰人（孫光憲），是焦志一志兩收，不拆；第 332 節之缺字今據第 391 節補作「續」。",
-  "updated_at": "2026-08-23T05:35:31.376960+00:00",
-  "additional_titles": [
-    "續通曆",
-    "□通歷"
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「孫光憲」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hgy9kar",
+  "_promoted_at": "2026-08-25T05:38:14Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgy9kar。"
 }

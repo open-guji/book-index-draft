@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgaapvswyyo",
   "type": "work",
   "title": "自家意思集",
-  "authors": [
-    {
-      "name": "劉邊",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95zfaz"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "劉邊自家意思集四卷",
-      "author_info": "字近道，建安人",
-      "summary": "元劉邊（字近道，建安人）自家意思集四卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《自家意思集》四卷",
-      "summary": "元劉邊自家意思集四卷"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "description": {
-    "text": "字近道，建安人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evgaapvswyyo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gjlfmkg",
+  "_promoted_at": "2026-08-25T04:34:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gjlfmkg。"
 }

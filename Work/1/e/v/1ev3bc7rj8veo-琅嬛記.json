@@ -3,50 +3,7 @@
   "id": "1ev3bc7rj8veo",
   "type": "work",
   "title": "琅嬛記",
-  "authors": [
-    {
-      "name": "伊世珍",
-      "role": "舊題撰",
-      "dynasty": "元",
-      "entity_id": "1j96ha6a5ri0w",
-      "role_basis": "據著錄語「舊本題元伊世珍撰，語皆荒誕猥瑣。書首載張華為建安從事，遇仙人引至」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《琅嬛記》·三卷",
-      "author_info": "舊本題元伊世珍撰",
-      "summary": "舊本題元伊世珍撰，語皆荒誕猥瑣。書首載張華為建安從事，遇仙人引至石室，多奇書。問其地，曰琅嬛福地也。注出《玄觀手抄》，其命名之義蓋取乎此。然《玄觀手抄》竟亦不知為何書。其餘所引書名，大抵真偽相雜，蓋亦《雲仙散錄》之類。錢希言戲瑕以為明桑懌所偽託，其必有所據矣。",
-      "edition": "兩江總督采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=224508",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "_has_text": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題元伊世珍撰，語皆荒誕猥瑣。書首載張華為建安從事，遇仙人引至」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "_promoted_to": "d59f2gf840sg",
+  "_promoted_at": "2026-08-25T04:25:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gf840sg。"
 }

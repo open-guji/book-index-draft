@@ -5,19 +5,19 @@
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
+      "source_bid": "d59f2gcburcx",
       "title_info": "《吳商集》五卷",
       "summary": "《吳商集》五卷"
     },
     {
       "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
+      "source_bid": "d59f2hl0cmio",
       "title_info": "吳商集",
       "summary": "吳商集五卷"
     },
     {
       "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
+      "source_bid": "d59f2nl40936",
       "title_info": "《呉商集》五卷",
       "summary": "《呉商集》五卷",
       "merged_from": "1evcpd5zptwxs",
@@ -41,5 +41,19 @@
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
   "additional_titles": [
     "呉商集"
-  ]
+  ],
+  "authors": [
+    {
+      "name": "吳商",
+      "role": "撰",
+      "entity_id": "1j96heak4j18g",
+      "dynasty": "東晉",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"吳商集\"）——前缀「吳商」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
+  "dynasty": "東晉",
+  "period": "jin",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「吳商」（entity 1j96heak4j18g）已定代「東晉」，且與本條 period_upper（sui-tang）相容，據以定代。",
+  "_promoted_to": "d59f2ofm5bsx",
+  "_promoted_at": "2026-08-25T13:40:02Z"
 }

@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga8te0plhc",
   "type": "work",
   "title": "注太白詩",
-  "authors": [
-    {
-      "name": "王繪",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j967avzlnsis"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "王繪注太白詩",
-      "author_info": "字賢夫，濟南人",
-      "summary": "金王繪（字賢夫，濟南人）注太白詩"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《注太白詩》",
-      "author_info": "字質夫，濟南人",
-      "summary": "金王繪（字質夫，濟南人）注太白詩"
-    }
-  ],
-  "description": {
-    "text": "字賢夫，濟南人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evga8te0plhc",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」（2026-08-13 隋唐探勘：王繪：補遼金元藝文志/元史藝文志皆明載「金王繪」，Entity遭CBDB誤配至唐）",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "_promoted_to": "d59f2gezzuo0",
+  "_promoted_at": "2026-08-25T04:25:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gezzuo0。"
 }

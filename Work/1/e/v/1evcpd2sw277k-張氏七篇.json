@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd2sw277k",
   "type": "work",
   "title": "張氏",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《張氏七篇》七卷",
-      "summary": "《張氏七篇》七卷張良撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "張氏七篇",
-      "summary": "張氏七篇七卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《張氏》七篇、又七卷",
-      "summary": "《張氏》七篇、又七卷",
-      "merged_from": "1evgq12r37ncw",
-      "note": "諸志同著《張氏》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcpd2sw277k",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "juan_count": {
-    "number": 7
-  },
-  "authors": [
-    {
-      "name": "張良",
-      "role": "撰",
-      "dynasty": "西漢",
-      "entity_id": "1j96kemq06a68",
-      "note": "舊唐書經籍志明載「《張氏七篇》七卷張良撰」；國史經籍志作「《張氏》七篇、又七卷」。"
-    }
-  ],
-  "dynasty": "西漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」",
-  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《張氏》（七篇／七卷），今合併並據舊唐志補撰人為張良（兵家依託）。",
   "_promoted_to": "d59f24lnws1w",
-  "_promoted_at": "2026-08-24T14:47:42Z"
+  "_promoted_at": "2026-08-24T14:47:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24lnws1w。"
 }

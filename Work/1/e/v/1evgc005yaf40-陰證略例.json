@@ -1,80 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgc005yaf40",
   "type": "work",
   "title": "陰證略例",
-  "authors": [
-    {
-      "name": "王好古",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl62uki"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "王好古陰證略例一卷",
-      "summary": "元王好古陰證略例一卷"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《陰證略例》一卷",
-      "author_info": "元王好古撰",
-      "summary": "《陰證略例》一卷。元王好古撰。影印上海辭書出版社圖書館藏清光緒五年歸安陸心源刻十萬卷樓叢書本。",
-      "edition": "影印上海辭書出版社圖書館藏清光緒五年歸安陸心源刻十萬卷樓叢書本",
-      "volume": "第985冊",
-      "section": "子部 醫家類"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evgc005yaf40",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E9%99%B0%E8%AD%89%E7%95%A5%E4%BE%8B",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02092800.cn",
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0985%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 985
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2ge9rx1c",
+  "_promoted_at": "2026-08-25T04:23:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ge9rx1c。"
 }

@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw9bm4zy8",
   "type": "work",
   "title": "口義",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《口義》",
-      "summary": "《口義》二十卷薛季宣"
-    }
-  ],
-  "id": "1evcsw9bm4zy8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "薛季宣",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967afjbsrje",
-      "note": "宋史藝文志作「《口義》二十卷薛季宣」，所繫撰人薛季宣。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「薛季宣」而無 entity_id，今繫 `1j967afjbsrje`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "南宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為薛季宣《口義》二十卷，與同志石介《口義》十卷（`1evcsw4ujopa8`）撰人、卷數俱異，非一書，未予合併。"
+  "_promoted_to": "d59f2hijdzpf",
+  "_promoted_at": "2026-08-25T05:41:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hijdzpf。"
 }

@@ -1,32 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ewyt38w0ft3l",
   "type": "work",
   "title": "圖書志",
-  "id": "1ewyt38w0ft3l",
-  "authors": [
-    {
-      "name": "鄭樵",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967avzkeucw",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「鄭樵」而無 entity_id，今繫 `1j967avzkeucw`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "dynasty": "宋",
-  "period": "song",
-  "period_basis": "直齋著錄，撰人朝代明",
-  "juan_count": {
-    "number": 1
-  },
-  "measure_info": "一卷",
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《圖書志》一卷",
-      "summary": "鄭樵記其平生所自著之書。《志》者，蓋述其著作之意也。"
-    }
-  ],
-  "ai_note": "本 work 據《直齋書錄解題》目錄類「《圖書志》一卷」新建（磁鐵拆解第二步組1，經使用者核可）。直齋一條連記數書，本書之節原繫主條「夾漈書目」之 work，今立為專條，原文即 indexed_by[0].summary。新建前已查庫：同題無主。 2026-08-21 依 SCHEMA〈版本附屬部帙〉覆判：本書自是一部書（直齋因類聚而與他書連記，節題亦是實名），非該本之附屬部帙，故仍立 Work，不繫 part_of。",
-  "updated_at": "2026-08-24T00:00:00+00:00"
+  "_promoted_to": "d59f2hcnfuv9",
+  "_promoted_at": "2026-08-25T05:29:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hcnfuv9。"
 }

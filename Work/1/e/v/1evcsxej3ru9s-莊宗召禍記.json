@@ -1,66 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxej3ru9s",
   "type": "work",
   "title": "莊宗召禍記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《莊宗召禍記》",
-      "summary": "黃彬《莊宗召禍記》一卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "莊宗召禍記一卷",
-      "summary": "莊宗召禍記一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《莊宗召禍記》一卷",
-      "summary": "《莊宗召禍記》一卷（後漢黄彬）",
-      "author_info": "後漢黄彬"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "莊宗召禍記"
-    }
-  ],
-  "id": "1evcsxej3ru9s",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「後漢黄彬」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 兩漢H3-S3（結構錯位追補）：period 由 qin-han 改 five-dynasties——「後漢黄彬」之後漢係五代，莊宗即後唐莊宗；desc 補寫。",
-  "authors": [
-    {
-      "name": "黄彬",
-      "role": "撰",
-      "dynasty": "後漢",
-      "entity_id": "1jcf515129a4v",
-      "note": "據本 work 諸著錄之 author_info「後漢黄彬」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a4v` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "後漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "莊宗＝後唐莊宗李存勗；撰人「後漢黄彬」之「後漢」係五代後漢（國史經籍志語），非東漢。前值 qin-han 誤。",
-  "description": {
-    "text": "五代後漢黃彬撰，一卷。記後唐莊宗（李存勗）致禍之事。崇文總目、宋志、直齋並著錄。已亡佚。",
-    "sources": [
-      "崇文總目",
-      "宋史藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f2gc68hky",
+  "_promoted_at": "2026-08-25T04:19:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gc68hky。"
 }

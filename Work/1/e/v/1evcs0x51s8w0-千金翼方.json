@@ -1,79 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0x51s8w0",
   "type": "work",
   "title": "千金翼方",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "千金翼方",
-      "summary": "千金翼方三十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《千金翼方》",
-      "summary": "《千金翼方》三十卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "千金翼方三十卷",
-      "summary": "千金翼方三十卷。𫝊信方二卷〔闕〕"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "千金翼方"
-    }
-  ],
-  "id": "1evcs0x51s8w0",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%8D%83%E9%87%91%E7%BF%BC%E6%96%B9",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "孫思邈",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da97jm1i",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「孫思邈」而無 entity_id，今繫 `1j967da97jm1i`——庫中 primary_name 同之者唯一。其代「隋」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "ai_note": "作者「唐孫思邈撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkac363crgg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0x51s8w0()（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十卷），今據以補。",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀001308-001319）。日本文政十二年覆刊元大德梅溪書院本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhyq9t5fy8",
-    "11qki5tof2zuo",
-    "11qki08abzda8",
-    "11qki08908268"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷"
+  "_promoted_to": "d59f28m4adxd",
+  "_promoted_at": "2026-08-24T19:25:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28m4adxd。"
 }

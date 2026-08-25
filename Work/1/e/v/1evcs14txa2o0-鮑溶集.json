@@ -5,19 +5,19 @@
   "indexed_by": [
     {
       "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
+      "source_bid": "d59f2hl0cmio",
       "title_info": "鮑溶集",
       "summary": "鮑溶集五卷"
     },
     {
       "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
+      "source_bid": "d59f2gdp696q",
       "title_info": "《鮑溶集》六卷",
       "summary": "《鮑溶集》六卷"
     },
     {
       "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
+      "source_bid": "d59f2htm01du",
       "summary": "鮑溶集"
     }
   ],
@@ -35,5 +35,19 @@
   "measure_info": "六卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（六卷），今據以補。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "鮑溶",
+      "role": "撰",
+      "entity_id": "1j967bgl89ibn",
+      "dynasty": "唐",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"鮑溶集\"）——前缀「鮑溶」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
+  "dynasty": "唐",
+  "period": "sui-tang",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「鮑溶」（entity 1j967bgl89ibn）已定代「唐」，且與本條 period_upper（sui-tang）相容，據以定代。",
+  "_promoted_to": "d59f2ogbfjsx",
+  "_promoted_at": "2026-08-25T13:41:23Z"
 }

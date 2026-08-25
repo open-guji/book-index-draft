@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxdhek0e8",
   "type": "work",
   "title": "日曆",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《日曆》",
-      "summary": "朱樸《日曆》一卷"
-    }
-  ],
-  "id": "1evcsxdhek0e8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "朱樸",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da97jm13",
-      "note": "宋史藝文志傳記類此段為連續頂真格（前條「韓偓《金鑾密記》一卷朱樸」句末之名前置為本條撰人）。朱樸為唐昭宗時人，與韓偓同時。本庫「朱樸」entity `1j967c147z30l` 為明人（CBDB 560997），同名異實，不繫。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱樸」而無 entity_id，今繫 `1j967da97jm13`——庫中以此為別名（alt_names）者唯一。其代「明」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "related_works": [
-    {
-      "id": "1evcsx8odngn4",
-      "title": "日曆",
-      "relation": "related",
-      "note": "宋史藝文志編年類「又《日曆》一百八十冊」，宋朝國史所修之日曆，與本條唐人一卷本無涉。"
-    },
-    {
-      "id": "1evdibzsdw8ow",
-      "title": "日曆",
-      "relation": "related",
-      "note": "明史藝文志「《日曆》一百卷，洪武中詹同等編」，明代官修，與本條無涉。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人「朱樸」據宋史藝文志傳記類頂真格文例確定（前條為韓偓《金鑾密記》，朱樸與韓偓同為唐昭宗時人）。「日曆」為史官逐日記事之通名，歷代同名者甚多：宋志編年類另有宋朝國史所修「又《日曆》一百八十冊」（見 `1evcsx8odngn4`），明史藝文志有洪武中詹同等編《日曆》一百卷（見 `1evdibzsdw8ow`），三者截然異書，並存互見。本庫「朱樸」entity 為明人，同名異實，未繫。"
+  "_promoted_to": "d59f28nlnytd",
+  "_promoted_at": "2026-08-24T19:28:13Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nlnytd。"
 }

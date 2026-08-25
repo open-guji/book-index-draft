@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxw8d21hc",
   "type": "work",
   "title": "芍藥譜",
-  "authors": [
-    {
-      "name": "劉攽",
-      "role": "撰",
-      "entity_id": "1j967bgl7n18n"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《芍藥譜》",
-      "summary": "劉攽《芍藥譜》一卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《芍藥譜》一卷",
-      "summary": "中書舍人清江劉攽貢父撰。",
-      "merged_from": "1evr5e3mkx7q0"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「劉攽《芍藥譜》一卷」，僅頂層 authors 欄漏收，今補入；併入直齋書錄解題（明載「中書舍人清江劉攽貢父撰」）。與同題孔武仲本、王觀本皆非同書，同名巧合（北宋三家各撰芍藥譜，直齋書錄解題原文自云「三家皆述維揚所產花之盛」）。",
-  "id": "1evcsxw8d21hc",
-  "updated_at": "2026-08-22T04:56:00.113713+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「劉攽」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hj6hjwi",
+  "_promoted_at": "2026-08-25T05:42:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hj6hjwi。"
 }

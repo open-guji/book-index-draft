@@ -10,8 +10,12 @@
     }
   ],
   "description": {
-    "text": "",
-    "sources": []
+    "text": "李賢（明）撰。一卷；諸志所著之數有異，別作十卷。見著錄於《宋史藝文志》《明史藝文志》《經義考》。《經義考》列於易。其著錄之文，《宋史藝文志》作「《讀易記》十卷又《涵古易說》一卷《大象衍義》一卷曾幾」。《宋史藝文志》元脫脫等修；《明史藝文志》清張廷玉等修——本書之目賴之以存。",
+    "sources": [
+      "宋史藝文志",
+      "明史藝文志",
+      "經義考"
+    ]
   },
   "publication_info": {
     "year": "明",
@@ -20,7 +24,7 @@
   "indexed_by": [
     {
       "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
+      "source_bid": "d59f2gdp696q",
       "title_info": "《讀易記》",
       "summary": "《讀易記》十卷又《涵古易說》一卷《大象衍義》一卷曾幾",
       "misattached": true,
@@ -61,5 +65,7 @@
   "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：明史藝文志",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [ming-round1: author(李賢) dynasty null→明 (依 Entity)]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] [ming-round1: author(李賢) dynasty null→明 (依 Entity)]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於宋史藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "_promoted_to": "d59f2nej34si",
+  "_promoted_at": "2026-08-25T12:28:45Z"
 }

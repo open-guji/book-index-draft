@@ -23,47 +23,51 @@
   "death_year": 1180,
   "works": [
     {
-      "work_id": "1ev3bd09yc2yo",
+      "work_id": "d59f2hpicsg0",
       "role": "撰"
     },
     {
-      "work_id": "1evrbhp6ajqxt",
+      "work_id": "d59f2hl3s8hu",
       "role": "撰"
     },
     {
-      "work_id": "1evgoqcf51ekg",
+      "work_id": "d59f2hkrx7uo",
       "role": "撰"
     },
     {
-      "work_id": "1evcsyz23v400",
+      "work_id": "d59f2hjregap",
       "role": "撰"
     },
     {
-      "work_id": "1ext03rxz2vw4",
+      "work_id": "d59f2hcuxjwi",
       "role": "撰"
     },
     {
-      "work_id": "1expjdv8uihkd",
+      "work_id": "d59f2hd0jtog",
       "role": "撰"
     },
     {
-      "work_id": "1ex9mx51kvsrb",
+      "work_id": "d59f2hcyd5vk",
       "role": "撰"
     },
     {
-      "work_id": "1exjbdg09tr3u",
+      "work_id": "d59f2he04vlu",
       "role": "撰"
     },
     {
-      "work_id": "1exqyj49o8wkn",
+      "work_id": "d59f2heohdz7",
       "role": "撰"
     },
     {
-      "work_id": "1exdw6dsxfvgl",
+      "work_id": "d59f2herwzyc",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw8gdgyrk",
+      "work_id": "d59f2ofuvz7k",
+      "role": "撰"
+    },
+    {
+      "work_id": "d59f2ofuvz7k",
       "role": "撰"
     }
   ],
@@ -76,5 +80,5 @@
   "dynasty_basis": "cbdb:death_name=南宋(跨)",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 7 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 7 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw8gdgyrk`《春秋紀詠》。"
 }

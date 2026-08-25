@@ -1,77 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq61zahvr4",
   "type": "work",
   "title": "古今考",
-  "authors": [
-    {
-      "name": "了翁",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96hhvcrv406",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:了翁即陳瓘(1057-1124?)，北宋人，撰九經要義，非三國魏)",
-      "alt_names": [
-        "魏了翁"
-      ]
-    }
-  ],
-  "juan_count": {
-    "number": 38
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《古今攷》三十八卷",
-      "summary": "《古今攷》三十八卷（魏了翁）",
-      "author_info": "魏了翁"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《古今考》•一卷",
-      "author_info": "宋魏了翁撰",
-      "summary": "宋魏了翁撰。了翁有《周易要義》，已著錄。是書前有自序，稱即漢紀隨文辨理，作《古今考》。然惟有二十餘頁，摘《漢書•高帝紀》中名物稱謂字義音釋，略為辨論，與序相應。自東坡《胡麻賦》以下，皆雜記他事，注曰以下雜識諸條附。考方回所補《了翁古今考》，仍以原書為第一卷，無此諸條。知為後人以篇頁寥寥，不盈卷軸，竄入他文以足之。陳繼儒《秘笈》所載，大抵此類也。",
-      "edition": "兩江總督采進本"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq61zahvr4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 38
-    }
-  ],
-  "measure_info": "三十八卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/06059903.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "additional_titles": [
-    "古今攷"
-  ],
-  "updated_at": "2026-08-23T07:10:10.967817+00:00",
-  "_has_image": true,
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "books": [
-    "11qkhur7yfdog",
-    "11qkhv14njw8w",
-    "11qki60jq5la8",
-    "11q37rirptn9c"
-  ],
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
-  "ai_note": "2026-08-22 B3 併池（撰人名近似）：1ev3bc1sat3b4 併入本條。撰人名「了翁」「魏了翁」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。"
+  "_promoted_to": "d59f2hpwegw1",
+  "_promoted_at": "2026-08-25T05:55:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hpwegw1。"
 }

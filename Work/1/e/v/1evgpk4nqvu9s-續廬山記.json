@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpk4nqvu9s",
   "type": "work",
   "title": "續廬山記",
-  "authors": [
-    {
-      "name": "馬玗",
-      "role": "撰",
-      "entity_id": "1j96h8rw8hyjw"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《續廬山記》四卷",
-      "summary": "《續廬山記》四卷（馬玗）",
-      "author_info": "馬玗"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《續廬山記》",
-      "summary": "馬紆《續廬山記》四卷",
-      "merged_from": "1evcsxnp8sgzk",
-      "note": "「馬紆」與本條「馬玗」形近異寫，卷數全合；前條「劉德禮《夔州圖經》四卷馬紆」句末之名即本條前置撰人。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《續廬山記》四卷",
-      "summary": "南康守廣陵馬玕錄山中碑記之文，以續前錄。",
-      "merged_from": "1evr5e3mi42uk",
-      "note": "「馬玕」亦「馬玗」之異寫，並載其官職（南康守）、籍貫（廣陵）及成書之由。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-19 全庫同名異書核對：併入宋史藝文志（「馬紆」）、直齋書錄解題（「馬玕」，並載其為南康守、廣陵人，錄山中碑記以續前錄）二源——三志撰人名「玗」「紆」「玕」形近互異而卷數全合，確係同一人同書，3條併為1。與同題李常撰一卷本（見 `1evcsxmt4a8e8`）非同書。",
-  "id": "1evgpk4nqvu9s",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-22T04:56:00.065488+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「馬玗」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hfpxv5s",
+  "_promoted_at": "2026-08-25T05:35:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfpxv5s。"
 }

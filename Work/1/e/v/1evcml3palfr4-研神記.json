@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml3palfr4",
   "type": "work",
   "title": "研神記",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《研神記》十卷",
-      "summary": "《研神記》十卷蕭繹撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《研神記》十卷",
-      "summary": "《研神記》十卷（蕭繹）",
-      "author_info": "蕭繹"
-    }
-  ],
-  "authors": [
-    {
-      "name": "蕭繹",
-      "role": "撰",
-      "entity_id": "1j967da978diu",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967da978diu`（蕭繹）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcml3palfr4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "研神記十卷",
-      "summary": "研神記十卷 蕭繹撰\n梁元帝《金樓子著書篇》:《研神記》一 一卷,金樓自為序,\n付劉穀纂次。《梁書·王規傳》:規子 與沛國劉 、南陽宗懷俱為中興佐命,\n同參帷喔。\n《南史·隱逸阮孝緒傳》:湘東王著《忠臣傳》、《集釋氏碑\n銘》、《丹陽尹録》、《研神記》,並先簡孝緒而後施行。\n《唐日本國見在書目》:《研神記》一卷,梁湘東王撰。\n《唐書·經籍志》:《妍神記》十卷,梁元帝撰。\n《唐書·藝文志》小說家:梁元帝《研神記》十卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-22T04:56:00.119119+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「蕭繹」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcml3palfr4-研神記.json",
-  "ai_note": "N4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。"
+  "_promoted_to": "d59f2867t5oi",
+  "_promoted_at": "2026-08-24T18:54:48Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2867t5oi。"
 }

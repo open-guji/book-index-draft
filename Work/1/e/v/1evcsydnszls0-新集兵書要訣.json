@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsydnszls0",
   "type": "work",
   "title": "新集兵書要訣",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《新集兵書要訣》",
-      "summary": "《新集兵書要訣》三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "新集兵書要訣三卷",
-      "summary": "新集兵書要訣三卷。（闕）"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《新集兵書要訣》三卷",
-      "summary": "《新集兵書要訣》三卷（杜希全）",
-      "author_info": "杜希全"
-    }
-  ],
-  "id": "1evcsydnszls0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「杜希全」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "杜希全",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151293dt",
-      "note": "據本 work 諸著錄之 author_info「杜希全」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293dt` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "sui-tang",
-  "period_basis": "國史志題杜希全撰，杜希全（?-793）為唐德宗朝邠寧節度使，崇文總目所錄前代兵書　複審採納：杜希全為唐德宗朝邠寧節度使，卒貞元九年（2026-08-24 A1 medium 複審）"
+  "_promoted_to": "d59f28la0d8l",
+  "_promoted_at": "2026-08-24T19:23:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28la0d8l。"
 }

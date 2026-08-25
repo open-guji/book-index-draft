@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqgh8m1dkw",
   "type": "work",
   "title": "明良集",
-  "juan_count": {
-    "number": 500
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《明良集》五百卷",
-      "summary": "《明良集》五百卷（老宗雷制及羣若進和歇）",
-      "author_info": "老宗雷制及羣若進和歇"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "明良集五百卷",
-      "summary": "明良集五百卷",
-      "note": "本著錄原繫於磁鐵條「明良集六種」（`1ev3bafkvo8hs`），今歸本條。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《明良集》",
-      "summary": "李虛己《明良集》五百卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「明良集五百卷」一節原繫於磁鐵條（`1ev3bafkvo8hs`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evf1nhzs1mo0 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。",
-  "id": "1evgqgh8m1dkw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 500
-    }
-  ],
-  "measure_info": "五百卷",
-  "updated_at": "2026-08-24T11:06:36.774788+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song",
-  "authors": [
-    {
-      "name": "李虛己",
-      "role": "撰",
-      "entity_id": "1j967cp2196bt"
-    }
-  ],
-  "period": "song",
-  "period_basis": "《宋史藝文志》明題「李虛己《明良集》」，李虛己為北宋真宗朝工部侍郎，且《崇文總目》（慶曆間）已著錄。（2026-08-24 R3二輪 引文定代）"
+  "_promoted_to": "d59f2hm9m1a9",
+  "_promoted_at": "2026-08-25T05:48:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hm9m1a9。"
 }

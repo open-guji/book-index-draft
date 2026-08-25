@@ -57,7 +57,7 @@
       "role": "撰"
     },
     {
-      "work_id": "d59f24m10qv4",
+      "work_id": "d59f287ki6f5",
       "role": "撰"
     },
     {
@@ -65,11 +65,11 @@
       "role": "撰"
     },
     {
-      "work_id": "1evkaoi3a0xs0",
+      "work_id": "d59f28nosc90",
       "role": "注"
     },
     {
-      "work_id": "1evkaose4vzeo",
+      "work_id": "d59f2mywlds2",
       "role": "注"
     },
     {
@@ -93,11 +93,11 @@
       "role": "撰"
     },
     {
-      "work_id": "1evcpcu8a3ta8",
+      "work_id": "d59f2em894w2",
       "role": "注"
     },
     {
-      "work_id": "1evcpcu9e26tc",
+      "work_id": "d59f2em894w4",
       "role": "注"
     },
     {
@@ -113,5 +113,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qin-han",
   "period_basis": "據 dynasty「東漢」自動歸併",
-  "ai_note": "2026-08-19 人物繫連補記：庫中有 6 書之 authors[].entity_id 指向本條而本條之 works 未載（《春秋文諡例》《冠儀約制》《駮春秋釋痾》《春秋釋駮痾》《論語何氏注》《左氏膏肓》），是單向之繫，今補其反向。\n2026-08-24 舊唐志逐條抽撰人：新收 2 部 work 之繫。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-19 人物繫連補記：庫中有 6 書之 authors[].entity_id 指向本條而本條之 works 未載（《春秋文諡例》《冠儀約制》《駮春秋釋痾》《春秋釋駮痾》《論語何氏注》《左氏膏肓》），是單向之繫，今補其反向。\n2026-08-24 舊唐志逐條抽撰人：新收 2 部 work 之繫。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 升格撞號修復：本條 works 有一項指 `d59f24m10qv4`，而該 production 條實是鄭玄《九旗飛變》——**其由是升格時 id 撞號**：2026-08-24 漢代那輪，《風角注》`1evftxcnoxyio` 與《九旗飛變》`1evftxd01fw1s` 於同一秒內升格而得同一 production id，後升之《九旗飛變》覆蓋了《風角注》，而二者之引用俱被 sweep 改指該 id。今《風角注》重升為 `d59f287ki6f5`，本項改指之。（並行之南北朝 N9 車道同日獨立發現此撞號並先我重升，故從彼所生之 id；我方所生之 `d59f29kske80` 已撤。）"
 }

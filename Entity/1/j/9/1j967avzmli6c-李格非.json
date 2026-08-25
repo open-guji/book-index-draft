@@ -13,35 +13,39 @@
   "dynasty": "北宋",
   "works": [
     {
-      "work_id": "1ev3barv0p7uo",
+      "work_id": "d59f2hrnrn5t",
       "role": "撰"
     },
     {
-      "work_id": "1evgphesrgsu8",
+      "work_id": "d59f2hkj6kn8",
       "role": "撰"
     },
     {
-      "work_id": "1evhmgves6ayo",
+      "work_id": "d59f2hol9mv4",
       "role": "作"
     },
     {
-      "work_id": "1evgqd3c5xc74",
+      "work_id": "d59f2hk20irk",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxfc710qo",
+      "work_id": "d59f2hfjdvr5",
       "role": "撰"
     },
     {
-      "work_id": "1evcsxxm6ce80",
+      "work_id": "d59f2hk54w76",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw6qus8ow",
+      "work_id": "d59f2hh9i3uo",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw6qm1lhc",
+      "work_id": "d59f2og8b6rk",
+      "role": "撰"
+    },
+    {
+      "work_id": "d59f2og8b6rk",
       "role": "撰"
     }
   ],
@@ -54,5 +58,5 @@
   "dynasty_basis": "cbdb:index_year=1054→北宋",
   "period": "song",
   "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 2 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 2 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw6qm1lhc`《禮記解義》。"
 }

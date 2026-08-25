@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr3zjyu7sw",
   "type": "work",
   "title": "讀素問鈔補遺附錄",
-  "authors": [
-    {
-      "name": "滑壽",
-      "role": "輯",
-      "dynasty": "元",
-      "entity_id": "1j968l3qlngn9",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「滑壽」而無 entity_id，今繫 `1j968l3qlngn9`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《讀素問鈔補遺附錄》一卷",
-      "author_info": "元滑壽輯",
-      "summary": "《讀素問鈔補遺附錄》一卷。元滑壽輯。影印明嘉靖刻本。",
-      "edition": "影印明嘉靖刻本",
-      "volume": "第981冊",
-      "section": "子部 醫家類"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第981冊（子部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjr3zjyu7sw",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0981%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 981
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bbfrximm8",
-      "title": "黃帝素問",
-      "relation": "studies",
-      "note": "所注解者為 《黃帝素問》（漢志《黃帝內經》之半，今傳二十四卷本）。元滑壽《讀素問鈔》補遺附錄"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gmtjwn5",
+  "_promoted_at": "2026-08-25T04:40:18Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmtjwn5。"
 }

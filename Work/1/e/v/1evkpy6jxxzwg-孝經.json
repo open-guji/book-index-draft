@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpy6jxxzwg",
   "type": "work",
   "title": "孝經",
-  "authors": [
-    {
-      "name": "唐玄宗",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j9678njjrbce"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "孝經一卷",
-      "summary": "孝經一卷。唐明皇注取王肅劉劭虞翻韋昭劉〈炫〉陸澄六家之說參倣孔鄭舊義今行于太學"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀000683）。日本寬政九年明道館刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀000683）。阶段 5 兜底建立。 | 從 1evjy5zhnzev4 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-19 同題異撰人專項：本條撰人「唐玄宗」與 `1evkaf2xl13i8` 之「世宗」同題《孝經》、同卷數，字形相近，然非一名之訛：唐玄宗《御註孝經》與清世宗《御纂孝經集註》各為一書，不併。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evkpy6jxxzwg",
-  "books": [
-    "11qk4xwcuqyw2",
-    "11qkhymu4ofls"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1ahwtau87mm80",
-      "title": "十三經",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f28nl1hqe",
+  "_promoted_at": "2026-08-24T19:28:11Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nl1hqe。"
 }

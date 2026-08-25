@@ -1,66 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga4m644lc0",
   "type": "work",
   "title": "廣輿圖",
-  "authors": [
-    {
-      "name": "朱思本",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95o6q5"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "朱思本廣輿圖二卷",
-      "summary": "元朱思本廣輿圖二卷"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《廣輿圖》",
-      "author_info": "元朱思本撰",
-      "summary": "《廣輿圖》。元朱思本撰。影印國家圖書館藏明嘉靖刻本。",
-      "edition": "影印國家圖書館藏明嘉靖刻本",
-      "volume": "第586冊",
-      "section": "史部 史部"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evga4m644lc0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0586%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 586
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "books": [
-    "11qk4xwcx8v8o"
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gp07pj4",
+  "_promoted_at": "2026-08-25T04:44:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gp07pj4。"
 }

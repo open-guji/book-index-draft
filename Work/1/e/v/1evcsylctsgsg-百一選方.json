@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsylctsgsg",
   "type": "work",
   "title": "百一選方",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《百一選方》",
-      "summary": "王璆《百一選方》二十八卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《百一選方》三十卷",
-      "summary": "《百一選方》三十卷（王璆）",
-      "author_info": "王璆"
-    }
-  ],
-  "id": "1evcsylctsgsg",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「王璆」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "王璆",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151297j3",
-      "note": "據本 work 諸著錄之 author_info「王璆」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297j3` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "知名書：《是齋百一選方》南宋慶元間王璆撰，宋志、國史經籍志著錄（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f2hkgdfr6",
+  "_promoted_at": "2026-08-25T05:44:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkgdfr6。"
 }

@@ -22,95 +22,95 @@
   "death_year": 1770,
   "works": [
     {
-      "work_id": "1evr5e3m8fq08",
+      "work_id": "d59f2nbkybya",
       "role": "編"
     },
     {
-      "work_id": "1evr5e3m8fq09",
+      "work_id": "d59f2nbl9khs",
       "role": "編"
     },
     {
-      "work_id": "1evr5e3m8fq0a",
+      "work_id": "d59f2nbl9kht",
       "role": "編"
     },
     {
-      "work_id": "1evr5e3m8fq0b",
+      "work_id": "d59f2nbl9khu",
       "role": "編"
     },
     {
-      "work_id": "1evr5e3m9276v",
+      "work_id": "d59f2ndk4fsy",
       "role": "撰"
     },
     {
-      "work_id": "1evr5e3m9oo6q",
+      "work_id": "d59f2nevkide",
       "role": "撰"
     },
     {
-      "work_id": "1evr5e3meogtq",
+      "work_id": "d59f2nti5urk",
       "role": "撰"
     },
     {
-      "work_id": "1evr5e3meogw8",
+      "work_id": "d59f2nto3d35",
       "role": "撰"
     },
     {
-      "work_id": "1evkaci5sz7k0",
+      "work_id": "d59f2my2xu68",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkaev0wwxds",
+      "work_id": "d59f2myjheyq",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkaev49prls",
+      "work_id": "d59f2myjsni8",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkaev7igirk",
+      "work_id": "d59f2myjsni9",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkaevawib5s",
+      "work_id": "d59f2myjsnia",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkaeve74hkw",
+      "work_id": "d59f2myk3w1s",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evke53ktdd6o",
+      "work_id": "d59f2n16dk3k",
       "role": "奉敕撰"
     },
     {
-      "work_id": "1ev0r91rywbgg",
+      "work_id": "d59f2m8jnyf4",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1ev3basj9gqo0",
+      "work_id": "d59f2mdgyqyo",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1ev3cx3vbnksg",
+      "work_id": "d59f2mohe4ub",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1ev3d5nsyguf4",
+      "work_id": "d59f2moi0lxc",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkpo8qg2i9s",
+      "work_id": "d59f2n4vz4ld",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkae3pvhzi8",
+      "work_id": "d59f2mydv56o",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1ev3cydmnmnls",
+      "work_id": "d59f2mohpddu",
       "role": "等奉敕撰"
     },
     {
-      "work_id": "1evkeaj8plq80",
+      "work_id": "d59f2n1lo6pu",
       "role": "等奉敕撰"
     }
   ],
@@ -119,7 +119,7 @@
     "cbdb_match": "auto",
     "cbdb_source": "altname_exact+dy_match+work_recall_0.57+unique"
   },
-  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《御製增訂清文鑑》（撰人傅恆）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。\n2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 清 works：去懸空者 1（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。",
+  "ai_note": "works 卸除：本記錄原列下列作品，而各該作品之撰人欄所題非本人——《御製增訂清文鑑》（撰人傅恆）。作品側有著錄原文為據，故以作品為準，卸除本記錄之 claim。　按：其中或本人實與其書有關而非撰人（如書寫、校讎、注解、傳授），待關係模型定後再以適當之關係繫之，非謂其無關。\n2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 works 死鏈清理：所指 work 檔兩倉皆無（歷次併條/刪條之積欠），去之：1evr5e3m8qyhh。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "qing",
   "period_basis": "據 dynasty「清」自動歸併"

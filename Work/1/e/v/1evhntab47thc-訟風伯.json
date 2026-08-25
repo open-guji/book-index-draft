@@ -2,38 +2,8 @@
   "schema_version": 1,
   "id": "1evhntab47thc",
   "type": "work",
-  "subtype": "article",
   "title": "訟風伯",
-  "authors": [
-    {
-      "name": "韓愈",
-      "dynasty": "唐",
-      "role": "作",
-      "entity_id": "1j967da978dhc"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E8%A8%9F%E9%A2%A8%E4%BC%AF",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "_promoted_to": "d59f28mkiq6d",
+  "_promoted_at": "2026-08-24T19:26:14Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mkiq6d。"
 }

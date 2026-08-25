@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg8rrf28074",
   "type": "work",
   "title": "周易備忘",
-  "authors": [
-    {
-      "name": "張延",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21keuw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "張延周易備忘十卷",
-      "author_info": "真定路教授",
-      "summary": "元張延（真定路教授）周易備忘十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《周易備忘》十卷",
-      "author_info": "字世昌，藁城人。真定路教授",
-      "summary": "元張延（字世昌，藁城人。真定路教授）周易備忘十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evg8rrf28074",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gflugox",
+  "_promoted_at": "2026-08-25T04:26:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gflugox。"
 }

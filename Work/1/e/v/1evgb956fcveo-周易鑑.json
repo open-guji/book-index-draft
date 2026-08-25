@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgb956fcveo",
   "type": "work",
   "title": "周易鑑",
-  "authors": [
-    {
-      "name": "曾巽申",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21vndo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "曾巽申周易鑑",
-      "author_info": "字巽初，永豐人。翰林應奉",
-      "summary": "元曾巽申（字巽初，永豐人。翰林應奉）周易鑑"
-    }
-  ],
-  "description": {
-    "text": "字巽初，永豐人。翰林應奉",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgb956fcveo",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2ggib56o",
+  "_promoted_at": "2026-08-25T04:28:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ggib56o。"
 }

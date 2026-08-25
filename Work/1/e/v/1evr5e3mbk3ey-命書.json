@@ -3,42 +3,7 @@
   "id": "1evr5e3mbk3ey",
   "type": "work",
   "title": "命書",
-  "authors": [
-    {
-      "name": "鬼谷子",
-      "dynasty": "周",
-      "role": "撰",
-      "entity_id": "1j96hee5obpc0"
-    },
-    {
-      "name": "李虛中",
-      "dynasty": "唐",
-      "role": "注",
-      "entity_id": "1jcf5151293dc",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293dc` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "子命書唐李虛中注",
-      "summary": "周鬼谷子命書唐李虛中注三卷。"
-    }
-  ],
-  "ai_note": "清史稿藝文志子部術數類輯佚條目。 來源：清史稿藝文志子部術數類　loss_status 判為 lost，據 ai_note 自身「輯佚條目」之批次分類標記（本庫此標記143/143既有先例皆為lost，2026-08-08 補記）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。據：《清史稿·藝文志》各部類下有「輯佚」子目，著錄清人所輯之本；本條見於該子目，是其文賴輯本存世——「藝文志子部術數類輯佚條目」。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。本條尚未立輯佚檔，待補。\n\n2026-08-24 B2 著錄分詞訂正：舊記 title「子命書唐李虛中注」、撰人 [('鬼谷子', '周'), ('李虛中', '唐')]——原文「周鬼谷子命書唐李虛中注三卷」當切為周·鬼谷子撰《命書》、唐李虛中注；舊名「鬼谷」為殘名，「子」字誤入書名。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "loss_status": "partially_extant",
-  "period": "pre-qin",
-  "period_basis": "AMB「周」為先秦之周：志文「周鬼谷子命書唐李虛中注」，鬼谷子戰國人，注者唐李虛中。（2026-08-24 R3二輪 引文定代）"
+  "_promoted_to": "d59f2evnvbwj",
+  "_promoted_at": "2026-08-25T02:38:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2evnvbwj。"
 }

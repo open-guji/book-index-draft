@@ -13,12 +13,12 @@
     }
   ],
   "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫019517）。清乾隆間寫文淵閣四庫全書本。",
+    "text": "王逵（明）舊題撰。一卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。別集之屬，所收為其人之詩文。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
     "sources": [
-      "國立故宮博物院善本舊籍"
+      "欽定四庫全書總目"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019517）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人王逵與庫中人物記錄（1j967bgl70k5j）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j967bgl70k5j=北宋王逵(991~1072，真宗仁宗時官員)，四庫總目詳細考證此書作者係明初錢塘王逵(洪武永樂間)，引趙緣督說已至元後，不可能為北宋王逵。需人工查 CBDB 建立正確 Entity 並關聯] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwvv033ls 與 11q37rp5xyqkg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題宋王逵撰。案宋有三王逵，其一王逵，不知何許人，仁宗時官江」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫019517）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人王逵與庫中人物記錄（1j967bgl70k5j）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] [C1-fix: needs-review(critical) 同名異人 Entity 移除。原 entity_id=1j967bgl70k5j=北宋王逵(991~1072，真宗仁宗時官員)，四庫總目詳細考證此書作者係明初錢塘王逵(洪武永樂間)，引趙緣督說已至元後，不可能為北宋王逵。需人工查 CBDB 建立正確 Entity 並關聯] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwvv033ls 與 11q37rp5xyqkg 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題宋王逵撰。案宋有三王逵，其一王逵，不知何許人，仁宗時官江」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "juan_count": {
     "number": 1
   },
@@ -47,5 +47,7 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2nl1icxt",
+  "_promoted_at": "2026-08-25T12:41:16Z"
 }

@@ -6,9 +6,9 @@
     {
       "name": "伯陽",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "魏",
       "entity_id": "1j96hhvcrv40d",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:伯陽=老子字? 太丹記/還丹歌，顯非三國魏)"
+      "dynasty_basis": "2026-08-25 period未定批次 3.1：從撰人 entity 之代。"
     }
   ],
   "juan_count": {
@@ -17,7 +17,7 @@
   "indexed_by": [
     {
       "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
+      "source_bid": "d59f2nl40936",
       "title_info": "《蓬萊東西竈還丹歌》一卷",
       "summary": "《蓬萊東西竈還丹歌》一卷（魏伯陽）",
       "author_info": "魏伯陽"
@@ -39,5 +39,10 @@
   "measure_info": "一卷",
   "updated_at": "2026-08-08T14:20:19+00:00",
   "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "dynasty": "魏",
+  "period": "three-kingdoms",
+  "period_basis": "2026-08-25 period未定批次 3.1：撰人「劉光昱」（entity 1j96hhvcrv40d）已定代「魏」，且與本條 period_upper（ming）相容，據以定代。",
+  "_promoted_to": "d59f2ofobzsw",
+  "_promoted_at": "2026-08-25T13:40:09Z"
 }

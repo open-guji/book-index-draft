@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsysjhrxts",
   "type": "work",
   "title": "昌城後寓集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《昌城後寓集》",
-      "summary": "毛文晏《昌城後寓集》十五卷又"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "昌城後寓集五卷",
-      "summary": "昌城後寓集五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《昌城後寓集》五卷",
-      "summary": "《昌城後寓集》五卷（蜀毛文晏）",
-      "author_info": "蜀毛文晏"
-    }
-  ],
-  "id": "1evcsysjhrxts",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「蜀毛文晏」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J2(a)《國史經籍志》括注朝代標誤入三國桶：本條著錄止於宋目（崇文總目／宋志／國史經籍志／直齋），不見《隋志》《兩唐志》。庫中 period=three-kingdoms 而見《崇文總目》者僅四條（相書、人物志、孔子家語王肅注、嵇康集），四條皆兼見隋唐諸志——三國之書至宋尚存者必已入隋唐志，故止見宋目者非三國之書。依 SCHEMA〈歧義朝代取最晚解〉，焦竑括注之「蜀」當取五代十國之解。`dynasty` 是志書原文，仍存其「蜀」不改；所改者惟 period。　《宋志》首名作「毛文晏」，《崇文總目》著錄五卷而《宋志》作十五卷，是宋時尚存而卷數有異之書。　本條 period 由 three-kingdoms 改 five-dynasties。",
-  "authors": [
-    {
-      "name": "毛文晏",
-      "role": "撰",
-      "dynasty": "蜀",
-      "entity_id": null,
-      "note": "據本 work 諸著錄之 author_info「蜀毛文晏」補；著錄所給者為一，去朝代與職名後取之。"
-    }
-  ],
-  "dynasty": "蜀",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "2026-08-24 J2(a)：見 ai_note（原作「據 authors[0].dynasty「蜀」」）"
+  "_promoted_to": "d59f2gcgjbi9",
+  "_promoted_at": "2026-08-25T04:20:23Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcgjbi9。"
 }

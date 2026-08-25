@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjeahlgqo",
   "type": "work",
   "title": "唐登科記",
-  "authors": [
-    {
-      "name": "洪适",
-      "role": "撰",
-      "entity_id": "1j967da978dfs"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《唐登科記》十五卷",
-      "summary": "《唐登科記》十五卷（洪适）",
-      "author_info": "洪适"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "《唐登科記》十五卷。丞相鄱陽洪適景伯編集。按《唐藝文志》有崔氏《顯慶登科記》五卷，姚康《科第錄》十六卷，李奕《登科記》二卷。崔氏書有趙儋序，而失崔名。所載至周顯德，固非崔氏本書。而李奕書亦不存。洪忠宣得姚康書五卷於北方，而丞相又得別本起武德終太和於毗陵錢氏，乃以三本輯為一書，而用姚氏為正。三書皆有序。姚字汝諧，南仲孫也，元和十五年進士。本書錄武德至長慶為十一卷。其曰十六卷者，亦後人所續。",
-      "merged_from": "1evr5e3mj1si6"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-18 全庫同名異書核對：併入 1evr5e3mj1si6（直齋書錄解題原僅存裸題十五卷，今據 collated_edition 補全引文，正文明言「丞相鄱陽洪適景伯編集」），撰人卷數全合，逕併，刪除該條。與組內姚康原著五卷本（1evcsxecff400，宋志作十五卷）不同——洪适此本乃整合姚康、崔氏、李奕三家所輯之合編本，非姚康原書，未併。",
-  "id": "1evgpjeahlgqo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-22T04:56:00.121961+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「洪适」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hk39gxs",
+  "_promoted_at": "2026-08-25T05:44:15Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk39gxs。"
 }

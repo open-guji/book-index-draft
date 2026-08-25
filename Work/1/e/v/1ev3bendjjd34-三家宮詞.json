@@ -22,7 +22,7 @@
     },
     {
       "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
+      "source_bid": "d59f2htm01du",
       "summary": "三家宮詞",
       "misattached": true,
       "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 ming 之作、撰人毛晉，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
@@ -108,5 +108,14 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhy0uu3e9s 與 11q37upssofeo 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhy0uu3e9s 與 11q37upssofeo 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "description": {
+    "text": "毛晉（明）編。三卷。見著錄於《欽定四庫全書總目》《直齋書錄解題》。其著錄之文，《直齋書錄解題》作「三家宮詞」。《欽定四庫全書總目》清乾隆間館臣修；《直齋書錄解題》南宋陳振孫撰——本書之目賴之以存。",
+    "sources": [
+      "欽定四庫全書總目",
+      "直齋書錄解題"
+    ]
+  },
+  "_promoted_to": "d59f2nkeesjm",
+  "_promoted_at": "2026-08-25T12:40:02Z"
 }

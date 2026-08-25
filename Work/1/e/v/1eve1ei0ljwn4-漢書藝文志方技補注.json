@@ -7,7 +7,8 @@
     {
       "name": "張驥",
       "role": "撰",
-      "entity_id": "1j96h8rw7vhh2"
+      "dynasty": "民國",
+      "dynasty_basis": "2026-08-25 J31：撤銷 entity_id 誤繫——WebSearch 覆核：本條撰人張驥（1874-1951），四川雙流人，民國年間經學家、醫史文獻學家，非明代人；原繫之 entity （卒1449，字仲德）乃 CBDB「pending_accept: auto_ambig」之誤配同名異人。ai_note 本已明載「民國代著作」，J21 propagate 時未察此節，逕沿 entity 之誤代，今訂正。"
     }
   ],
   "description": {
@@ -25,7 +26,7 @@
       "volume_index": "第5卷"
     }
   ],
-  "ai_note": "民國代著作，收入《二十五史藝文經籍志考補萃編》第5卷。",
+  "ai_note": "民國代著作，收入《二十五史藝文經籍志考補萃編》第5卷。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j96h8rw7vhh2`.dynasty「明」propagate 補齊；work.dynasty 同步。\n\n2026-08-25 J31：period／dynasty 由 ming 訂正為 modern／民國——J21 propagate 時誤沿entity 之 CBDB 誤配（同名異人），ai_note 本已明載「民國代著作」，今據以訂正。",
   "related_works": [
     {
       "id": "d59f1iqd854w",
@@ -34,6 +35,10 @@
     }
   ],
   "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "撰人 Entity 之代：張驥（Entity 1j96h8rw7vhh2），並經 CBDB c_personid 67420 覆驗相符"
+  "period": "modern",
+  "period_basis": "WebSearch 覆核：撰人張驥（1874-1951）民國年間人，見 dynasty_basis。",
+  "dynasty": "民國",
+  "dynasty_basis": "據 authors[0].dynasty「民國」",
+  "_promoted_to": "d59f2o0gicci",
+  "_promoted_at": "2026-08-25T13:10:55Z"
 }

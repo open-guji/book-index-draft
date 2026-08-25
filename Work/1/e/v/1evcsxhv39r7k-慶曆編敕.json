@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxhv39r7k",
   "type": "work",
   "title": "慶曆編敕",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《慶曆編敕》",
-      "summary": "賈昌朝《慶曆編敕》十二卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《慶曆編敕》",
-      "summary": "賈昌朝《慶曆編敕》、",
-      "merged_from": "1evcsxi88sr9c",
-      "note": "諸志同著《慶曆編敕》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxhv39r7k",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "賈昌朝",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzlcjye",
-      "note": "宋史藝文志兩出，皆作「賈昌朝《慶曆編敕》」，前置撰人賈昌朝；其一 summary 殘作「賈昌朝《慶曆編敕》、」。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「賈昌朝」而無 entity_id，今繫 `1j967avzlcjye`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出「賈昌朝《慶曆編敕》」，其一卷數已殘，撰人相同，係重出，今合併。\n\n2026-08-21 本條連記附屬部帙：《總例》。依 SCHEMA〈版本附屬部帙〉，隨本刊行者不別立 Work，其節繫本條。"
+  "_promoted_to": "d59f2hkik3k2",
+  "_promoted_at": "2026-08-25T05:45:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkik3k2。"
 }

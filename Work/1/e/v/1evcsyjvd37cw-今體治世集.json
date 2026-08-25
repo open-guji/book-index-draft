@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyjvd37cw",
   "type": "work",
   "title": "今體治世集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《今體治世集》",
-      "summary": "劉翰《今體治世集》三十卷雷繼暉"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "今體治世集三卷",
-      "summary": "今體治世集三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《今體治世集》三十卷",
-      "summary": "《今體治世集》三十卷（五代劉翰）",
-      "author_info": "五代劉翰"
-    }
-  ],
-  "id": "1evcsyjvd37cw",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "劉翰",
-      "role": "撰",
-      "dynasty": "五代",
-      "entity_id": "1jcf5151294dw",
-      "note": "據本 work 諸著錄之 author_info「五代劉翰」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294dw` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "五代",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「五代」",
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「五代劉翰」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。"
+  "_promoted_to": "d59f2gc7soao",
+  "_promoted_at": "2026-08-25T04:19:55Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gc7soao。"
 }

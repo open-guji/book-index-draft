@@ -3,51 +3,7 @@
   "id": "1ev3bbf8jk000",
   "type": "work",
   "title": "刑法敘略",
-  "authors": [
-    {
-      "name": "劉筠",
-      "role": "舊題撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967bgl62ujr",
-      "dynasty_basis": "entity_propagation:1j967bgl62ujr",
-      "role_basis": "據著錄語「舊本題宋劉筠撰。筠字子儀，大名人。咸平元年進士。累擢司諫，知制」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《刑法敘略》•一卷",
-      "author_info": "舊本題宋劉筠撰",
-      "summary": "舊本題宋劉筠撰。筠字子儀，大名人。咸平元年進士。累擢司諫，知制誥，翰林學士承旨。進龍圖閣學士，加禮部侍郎。是編載曹溶《學海類編》中。今考其文，即《冊府元龜》刑法一門之總敘也。",
-      "edition": "編修程晉芳家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=595493",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "_has_text": true,
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "ai_note": "2026-08-21 舊題撰人專項：著錄語作「舊本題宋劉筠撰。筠字子儀，大名人。咸平元年進士。累擢司諫，知制」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "_promoted_to": "d59f2hkxuq68",
+  "_promoted_at": "2026-08-25T05:45:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkxuq68。"
 }

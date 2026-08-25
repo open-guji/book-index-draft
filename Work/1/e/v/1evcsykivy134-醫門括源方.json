@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsykivy134",
   "type": "work",
   "title": "醫門括源方",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《醫門括源方》",
-      "summary": "吳希言《醫門括源方》一卷王朝昌"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《醫門括源方》一卷",
-      "summary": "《醫門括源方》一卷（吳希言）",
-      "author_info": "吳希言"
-    }
-  ],
-  "id": "1evcsykivy134",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「吳希言」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J2(a) 著錄括注誤剖：《宋志》作「吳希言《醫門括源方》一卷」——依宋志頂真格，首名即本條撰人，其名為「吳希言」三字，吳是姓非代。焦竑括注「（吳希言）」同。原 authors[0].name 作「希言」，是誤剖所遺。　本條 period 由 three-kingdoms 改 song，dynasty 由 吳 改 宋，authors[0].name 由「希言」正為「吳希言」。",
-  "authors": [
-    {
-      "name": "吳希言",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf51512934y",
-      "note": "據本 work 諸著錄之 author_info「吳希言」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 J2(a)：見 ai_note\n\n2026-08-24 新建 entity `1jcf51512934y` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "2026-08-24 J2(a)：見 ai_note",
-  "period": "song",
-  "period_basis": "2026-08-24 J2(a)：見 ai_note（原作「據 authors[0].dynasty「吳」」）"
+  "_promoted_to": "d59f2hm1hv5v",
+  "_promoted_at": "2026-08-25T05:48:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hm1hv5v。"
 }

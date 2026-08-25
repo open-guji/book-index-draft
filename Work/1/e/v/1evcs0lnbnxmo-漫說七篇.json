@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0lnbnxmo",
   "type": "work",
   "title": "漫說",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "漫說七篇",
-      "summary": "漫說七篇"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《漫說》七卷",
-      "summary": "《漫說》七卷（元結）",
-      "author_info": "元結",
-      "merged_from": "1evgpmvuo5z40",
-      "note": "新唐書藝文志與國史經籍志所著《漫說》為一書，今合併。"
-    }
-  ],
-  "id": "1evcs0lnbnxmo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 7
-  },
-  "ai_note": "2026-08-19 全庫同名異書核對：新唐書藝文志、國史經籍志同著《漫說》，係一書互著（或重出），今合併。",
-  "authors": [
-    {
-      "name": "元結",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7y9ub",
-      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「元結」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967bgl7y9ub`，代「唐」），故補之。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「sui-tang」，不相斥。"
+  "_promoted_to": "d59f28k3k3d2",
+  "_promoted_at": "2026-08-24T19:21:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k3k3d2。"
 }

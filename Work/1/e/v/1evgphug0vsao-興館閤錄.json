@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphug0vsao",
   "type": "work",
   "title": "興館閤錄",
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《興館閤錄》十卷",
-      "summary": "《興館閤錄》十卷（陳騤）",
-      "author_info": "陳騤"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphug0vsao",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "陳騤",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967cp1z2ihc",
-      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「陳騤」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967cp1z2ihc`，代「北宋」），故補之。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「ming」，不相斥。"
+  "_promoted_to": "d59f2hi85g5e",
+  "_promoted_at": "2026-08-25T05:40:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi85g5e。"
 }

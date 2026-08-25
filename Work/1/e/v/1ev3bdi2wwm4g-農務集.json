@@ -3,39 +3,7 @@
   "id": "1ev3bdi2wwm4g",
   "type": "work",
   "title": "農務集",
-  "authors": [
-    {
-      "name": "王楨",
-      "role": "舊題撰",
-      "dynasty": "元",
-      "entity_id": "1j96hhvcr8my6",
-      "role_basis": "據著錄語「舊本題元王楨撰。楨有《農書》，已著錄。此集凡賦五首、詩一百九十」——所題之撰人不確，非謂本書偽。見 SCHEMA〈authenticity〉。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《農務集》•三卷",
-      "author_info": "舊本題元王楨撰",
-      "summary": "舊本題元王楨撰。楨有《農書》，已著錄。此集凡賦五首、詩一百九十四首、贊銘七首，皆《農書》所已載。蓋即從《農書》中抄出，詭立此名也。其第二卷四言《民社詩》，乃《農書》祭社稷之祝詞。三卷《繭館贊》，乃《農書》之《先蠶壇贊》。《農書》、《撻詩》下有《耰詩》一首，此集不載。又《鐵搭賦》佚其首句。則為後人采掇舛漏，非楨所自編明矣。",
-      "edition": "編修汪如藻家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 舊題撰人專項：著錄語作「舊本題元王楨撰。楨有《農書》，已著錄。此集凡賦五首、詩一百九十」，所題之人即本條 authors[0]，故其 role 由「撰」改標「舊題撰」。**這不是說本書是偽書**——舊題撰人說的是撰人之題不確，真偽另由 `authenticity` 承載，見 SCHEMA〈authenticity〉。"
+  "_promoted_to": "d59f2glonthd",
+  "_promoted_at": "2026-08-25T04:38:07Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glonthd。"
 }

@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq0o94v7r4",
   "type": "work",
   "title": "摭言",
-  "authors": [
-    {
-      "name": "王定保",
-      "role": "撰",
-      "entity_id": "1j967bgl7n1a6"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《摭言》十五卷",
-      "summary": "《摭言》十五卷（王定保）",
-      "author_info": "王定保"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "摭言",
-      "summary": "《摭言》十五卷。{{唐王定保。《雅雨堂》本，《學津》本。}}",
-      "author_info": "王定保"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "摭言十五卷",
-      "summary": "摭言十五卷",
-      "merged_from": "1evr5e3mfxf1b"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《摭言》十五卷",
-      "summary": "唐王定保撰。專記進士科名事。定保，光化三年進士，為吳融子華婿，喪亂後入湖南，棄其妻弗顧，士論不齒。",
-      "merged_from": "1evr5e3mkaqq3"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《摭言》",
-      "summary": "王定保《摭言》十五卷李綽（（一作“緯”））",
-      "merged_from": "1evcsxyuvgqgw",
-      "note": "句末「李綽（一作緯）」屬下一條之頂真格領頭撰人，非本書撰人。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-19 全庫同名異書核對：併入崇文總目（裸題，卷數合）、直齋書錄解題（明載「唐王定保撰」）、宋史藝文志（王定保，句末「李綽」屬下條頂真格領頭撰人）三源，確係同書重出。宋史藝文志另有何晦撰十五卷本（見 `1evcsxzx83d34`），同題同卷數之巧合異書，非同書。",
-  "id": "1evgq0o94v7r4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-22T04:56:00.136845+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song",
-  "period": "five-dynasties",
-  "period_basis": "撰人朝代闕，據其 Entity「王定保」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2gckwn42",
+  "_promoted_at": "2026-08-25T04:20:38Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gckwn42。"
 }

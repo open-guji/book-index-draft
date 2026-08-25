@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsysy9d2ww",
   "type": "work",
   "title": "雜感詩",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《雜感詩》",
-      "summary": "謝磻隱《雜感詩》二卷戴文（（一作“乂”））"
-    }
-  ],
-  "id": "1evcsysy9d2ww",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "謝磻隱",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151298nk",
-      "note": "宋史藝文志別集類作「謝磻隱《雜感詩》二卷戴文（（一作“乂”））」，前置撰人謝磻隱；句末「戴文」屬下條《回文詩》一卷。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298nk` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為謝磻隱《雜感詩》二卷，與鮑防《雜感詩》一卷（`1evcsynx7es5c`）同題異書，未予合併。"
+  "_promoted_to": "d59f2hj08t1d",
+  "_promoted_at": "2026-08-25T05:42:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hj08t1d。"
 }

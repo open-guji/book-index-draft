@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpncymtc74",
   "type": "work",
   "title": "道德經廣聖義",
-  "authors": [
-    {
-      "name": "杜光庭",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967afjb6ae8"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《道德經廣聖義》三十卷",
-      "summary": "《道德經廣聖義》三十卷（唐杜光庭）",
-      "author_info": "唐杜光庭"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "道徳經廣聖義三十卷",
-      "summary": "道徳經廣聖義三十卷。唐杜光庭撰以明皇注疏演其義"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpncymtc74",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全] 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。",
-  "original_title": "道德經"
+  "_promoted_to": "d59f28lcti4h",
+  "_promoted_at": "2026-08-24T19:23:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lcti4h。"
 }

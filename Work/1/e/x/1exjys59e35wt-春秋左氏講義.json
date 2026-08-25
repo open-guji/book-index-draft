@@ -1,35 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1exjys59e35wt",
   "type": "work",
   "title": "春秋左氏講義",
-  "id": "1exjys59e35wt",
-  "authors": [
-    {
-      "name": "范沖",
-      "role": null,
-      "entity_id": "1jcf5151293k4",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293k4` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書春秋類著錄「范氏（沖）春秋左氏講義」。庫中雖有同題之《春秋左氏講義》，然彼不著撰人而本條著「范沖」，同題異撰是二書，故別建。\n\n`period`／`loss_status`／`role`／`entity_id` 不繫，其由與本輪所建諸條同（見《經義考待裁分流方案》）。",
-  "indexed_by": [
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《春秋左氏講義》（范沖）",
-      "summary": "宋志四卷\n玉海紹興中侍講范沖進左氏講義四卷",
-      "section": "春秋",
-      "juan": "卷一百八十六",
-      "page": "KR2n0011_WYG_186-10b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
-      "note": "本條與《經義考》另 2 條同題而撰人各異，同指庫中《春秋左氏講義》一條（1evcsw8ft6jgg，撰人不著）。同題異撰是二書，庫中之一條至多當其一，故本條別建。孰是孰非，非逐條覈志不能定，姑存此疑。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：《經義考》之著錄語作「宋志四卷」，是朱彝尊記《宋史·藝文志》著錄本書。一書見於某志，其時代不得晚於該志（SCHEMA〈period_upper〉上限之六源第一），故上限 song。**只是上限，不得當下限用**——早期志書亡佚極多，一部漢代之書可能遲至《宋史·藝文志》方首見著錄。此是轉引：所據非該志原文，是朱彝尊之引，覆按時當回原志。",
-  "period": "song",
-  "period_basis": "紹興中侍講進呈（2026-08-24 R3 引文定代）",
-  "updated_at": "2026-08-24T00:00:00+00:00"
+  "_promoted_to": "d59f2hd8z8ch",
+  "_promoted_at": "2026-08-25T05:31:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hd8z8ch。"
 }

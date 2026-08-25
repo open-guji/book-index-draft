@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkaa57u16gw",
   "type": "work",
   "title": "韓文",
-  "authors": [
-    {
-      "name": "韓愈",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978dhc"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善006064-006083）。明嘉靖三十五年莫如士寧國府韓柳合刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B3 併池（藏本條重出）：1evkpvhp7m5mo 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十冊",
-  "id": "1evkaa57u16gw",
-  "books": [
-    "11qkhuxb9vxmo",
-    "11qkhu8voe48w"
-  ],
-  "updated_at": "2026-08-23T06:04:29.719957+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [],
-  "period_upper": "ming",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「明嘉靖三十五年莫如士寧國刊韓柳文本」——版本之年不早於成書之年，故不晚於 ming"
+  "_promoted_to": "d59f28k2xm9v",
+  "_promoted_at": "2026-08-24T19:21:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k2xm9v。"
 }

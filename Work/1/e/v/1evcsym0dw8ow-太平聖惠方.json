@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsym0dw8ow",
   "type": "work",
   "title": "太平聖惠方",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《太平聖惠方》",
-      "summary": "王懷隱《太平聖惠方》一百卷姚和"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《太平聖惠方》一百卷",
-      "summary": "《太平聖惠方》一百卷（宋王懷隱）",
-      "author_info": "宋王懷隱"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "太平聖惠方",
-      "merged_from": "1evr5e3mjzi0x",
-      "note": "諸志同著《太平聖惠方》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsym0dw8ow",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%A4%AA%E5%B9%B3%E8%81%96%E6%83%A0%E6%96%B9",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "juan_count": {
-    "number": 100
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "measure_info": "一百卷",
-  "authors": [
-    {
-      "name": "王懷隱",
-      "role": "奉敕撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf5151297fw",
-      "note": "宋史藝文志作「王懷隱《太平聖惠方》一百卷姚和」、國史經籍志注「宋王懷隱」，二志相合；句末「姚和」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297fw` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志、直齋書錄解題同著《太平聖惠方》一百卷，今合併。宋志之前置撰人與國史經籍志之注相合，並為王懷隱（太宗時奉敕編）。"
+  "_promoted_to": "d59f2hsfv01s",
+  "_promoted_at": "2026-08-25T06:00:18Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hsfv01s。"
 }

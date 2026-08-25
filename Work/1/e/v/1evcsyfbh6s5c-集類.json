@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyfbh6s5c",
   "type": "work",
   "title": "集類",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《集類》",
-      "summary": "薛高立《集類》三十卷"
-    }
-  ],
-  "id": "1evcsyfbh6s5c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "薛高立",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151298et",
-      "note": "宋史藝文志作「薛高立《集類》三十卷」，前置撰人薛高立。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298et` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為薛高立《集類》三十卷，與崇文總目《集類》一百卷（`1evr5e3mfxf3w`）卷數懸殊，未便逕併，並存互見。"
+  "_promoted_to": "d59f2hfzxgjl",
+  "_promoted_at": "2026-08-25T05:36:23Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfzxgjl。"
 }

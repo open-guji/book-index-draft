@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw9ml0740",
   "type": "work",
   "title": "河南經說",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《河南經說》",
-      "summary": "《河南經說》七卷又《五言集解》三卷蘇洵"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《河南經說》七卷",
-      "summary": "《河南經說》七卷（程頤）",
-      "author_info": "程頤"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "河南經說"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《河南經説》（程頤）",
-      "summary": "宋志七卷\n陳振孫曰繫辭説一書一詩二春秋一論語一改定大學一程氏之學易傳爲全書餘經具此",
-      "section": "羣經",
-      "juan": "卷二百四十二",
-      "page": "KR2n0011_WYG_242-14a",
-      "attested_status": "extant",
-      "attested_status_raw": "存",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "id": "1evcsw9ml0740",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 7
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（七卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「程頤」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "程頤",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j967da96x4xi",
-      "note": "據本 work 諸著錄之 author_info「程頤」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「程頤」而無 entity_id，今繫 `1j967da96x4xi`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。"
-    }
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "song",
-  "period_basis": "知名人物：程頤，北宋理学家，經義考引陈振孙语「程氏之學易傳爲全書餘經具此」与其身份相符（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f2hmdo4ci",
+  "_promoted_at": "2026-08-25T05:48:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hmdo4ci。"
 }

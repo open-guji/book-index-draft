@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga65l15rsw",
   "type": "work",
   "title": "帝王寶範",
-  "authors": [
-    {
-      "name": "馬順孫",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfhcunda8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "馬順孫帝王寶範六十二卷",
-      "author_info": "稱江南布衣",
-      "summary": "元馬順孫（稱江南布衣）帝王寶範六十二卷（以下不知時代）"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《帝王寶範》·三卷",
-      "author_info": "明馬順孫撰",
-      "summary": "明馬順孫撰。順孫，江南人。洪武中布衣。是書雜采經史，分類編輯，其目二十有三。當太祖開創之初，嘗進於朝，冀采以定制作，興禮樂。然擇焉不精，語焉不詳，徒為老生之常談而已。《千頃堂書目》載此書作六十卷，今考《永樂大典》所載實止三卷。雖編錄時或有合併，不應懸絕至此，殆黃虞稷未見原書也。",
-      "edition": "永樂大典本"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《帝王寶範》六十二卷",
-      "summary": "《帝王寶範》六十二卷（馬順孫）",
-      "author_info": "馬順孫"
-    }
-  ],
-  "juan_count": {
-    "number": 62
-  },
-  "description": {
-    "text": "稱江南布衣；以下不知時代",
-    "sources": [
-      "補遼金元藝文志",
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('馬順孫', '明')]，本條作者 馬順孫（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evga65l15rsw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 62
-    }
-  ],
-  "measure_info": "六十二卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gefpfcw",
+  "_promoted_at": "2026-08-25T04:24:11Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gefpfcw。"
 }

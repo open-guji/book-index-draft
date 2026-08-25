@@ -3,70 +3,7 @@
   "id": "1evdx90ovnpq8",
   "type": "work",
   "title": "漢書駁義",
-  "authors": [
-    {
-      "name": "劉寶",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8wo",
-      "dynasty": "晉"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉寶漢書駁義",
-      "summary": "劉寶漢書駁義二卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《漢書駁義》二卷",
-      "summary": "《漢書駁義》二卷劉寶撰。",
-      "merged_from": "1evcpcvj3pam8",
-      "note": "本著錄原繫題作「劉寶漢書駁義」之條，該題乃撰人冠於書名之首所成，今併入。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《漢書駁義》二卷",
-      "summary": "《漢書駁義》二卷（晉劉寳）",
-      "author_info": "晉劉寳",
-      "merged_from": "1evcpcvj3pam8",
-      "note": "本著錄原繫題作「劉寶漢書駁義」之條，該題乃撰人冠於書名之首所成，今併入。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "studies"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」（2026-08-13 隋唐探勘：劉寶：隋書經籍志/補晉書藝文志皆明載「晉安北將軍劉寶撰」，Entity遭CBDB誤配（pending_accept cbdb_dy=6, 600-665））",
-  "additional_titles": [
-    "漢書駁義"
-  ],
-  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《漢書駁義》之 work（`1evcpcvj3pam8`），與本條題名之差恰為本條撰人「劉寶」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《漢書駁義》。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "original_title": "劉寶漢書駁義",
-  "description": {
-    "text": "劉寶（晉）撰。二卷。見著錄於《新唐書藝文志》《舊唐書經籍志》《國史經籍志》。其著錄之文，《國史經籍志》作「《漢書駁義》二卷（晉劉寳）」。",
-    "sources": [
-      "新唐書藝文志",
-      "舊唐書經籍志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27ydbe2o",
+  "_promoted_at": "2026-08-24T18:39:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ydbe2o。"
 }

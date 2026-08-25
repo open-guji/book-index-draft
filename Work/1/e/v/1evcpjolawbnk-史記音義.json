@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjolawbnk",
   "type": "work",
   "title": "史記音義",
-  "authors": [
-    {
-      "name": "鄒誕生",
-      "role": "撰",
-      "entity_id": "1j96ha7c6j400",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：鄒誕生，南朝梁輕車錄事參軍（隋志「梁輕車錄事參軍鄒誕生撰」）。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《史記音義》三卷",
-      "summary": "《史記音義》三卷鄒誕生撰。"
-    }
-  ],
-  "id": "1evcpjolawbnk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-15 全庫同名異書核對：原文已明載撰人「鄒誕生」，僅未截取入 authors 欄，今補全，繫既有 entity（該 entity 朝代未載）。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
-  "related_works": [
-    {
-      "id": "d59f20aowb9c",
-      "title": "史記",
-      "relation": "studies"
-    }
-  ],
-  "updated_at": "2026-08-24T11:35:02.015880+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "鄒誕生通說為南朝齊梁人，所撰《史記音義》為史記集解所引　複審採納：鄒誕生通說為南朝齊梁人，其《史記音義》為舊注所引（2026-08-24 B1 medium 複審）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evcpjolawbnk-史記音義.json"
+  "_promoted_to": "d59f284b4y68",
+  "_promoted_at": "2026-08-24T18:51:08Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f284b4y68。"
 }

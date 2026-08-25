@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkabxarp0cg",
   "type": "work",
   "title": "東萊先生標注三國志詳節",
-  "authors": [
-    {
-      "name": "陳壽",
-      "role": "撰",
-      "dynasty": "西晉",
-      "dynasty_basis": "manual:historical_figure(陳壽(233-297)原三國蜀人，入晉後撰三國志)",
-      "entity_id": "1j96h8rw7k8w8",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「陳壽」而無 entity_id，今繫 `1j96h8rw7k8w8`——庫中 primary_name 同之者唯一。其代「西晉」與本書已定之代「jin」相合。"
-    }
-  ],
-  "description": {
-    "text": "南宋呂祖謙（東萊先生）標注、節選陳壽《三國志》而成之詳節本，建陽書坊刊巾箱本。舉業之用，取其大要而略其繁文，宋代坊刻節選史書之典型。本書收入《國立故宮博物院善本舊籍》（統一編號 故觀000862-000864）。宋紹熙間建陽書坊刊巾箱本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J7 版本著錄語補其內容（坑 #17）：本條之 description 原止版本著錄語（「本書收入《…》。某某刊本」），五十餘字而未言其書為何。今於其前補一節內容之述，原版本語仍留其後——版本語是實錄，不可刪。所補之文據通行學術常識與本條所繫之著錄、Book，**未覆核原書**。",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 3
-    }
-  ],
-  "measure_info": "三冊",
-  "id": "1evkabxarp0cg",
-  "books": [
-    "11qkhynwpf8cg"
-  ],
-  "related_works": [
-    {
-      "id": "1ev3c1fleonpc",
-      "title": "三國志",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "_promoted_to": "d59f27ywo3r5",
+  "_promoted_at": "2026-08-24T18:40:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ywo3r5。"
 }

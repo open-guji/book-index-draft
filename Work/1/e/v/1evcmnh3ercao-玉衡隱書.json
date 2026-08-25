@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnh3ercao",
   "type": "work",
   "title": "玉衡隱書",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《玉衡隱書》七十卷目一卷",
-      "summary": "《玉衡隱書》七十卷目一卷。周弘讓撰。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "周弘讓",
-      "role": "撰",
-      "entity_id": "1j96ha7pfhq0w"
-    }
-  ],
-  "juan_count": {
-    "number": 70
-  },
-  "id": "1evcmnh3ercao",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《玉衡隱書》七十卷目一卷",
-      "summary": "玉衡隱書七十卷 目一卷周弘讓撰\n周弘讓有《續高士傳》,見史部雜傳篇。\n案弘讓為周弘正之弟,以仕不得志,隱于句容之茅山。此\n殆其隱居茅山時所作。《舊》、《新唐志》及《通志略》醫家、\n道書兩類中皆不見,亡佚久矣。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 70
-    }
-  ],
-  "measure_info": "七十卷",
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「《舊》、《新唐志》及《通志略》醫家、\n道書兩類中皆不見,亡佚久矣」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-24T11:06:06.935449+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "知名人物：周弘讓，梁陳間人（周弘正之弟），《南史》附傳；隋志著其《玉衡隱書》（2026-08-24 R3二輪 引文定代）"
+  "_promoted_to": "d59f285k34ec",
+  "_promoted_at": "2026-08-24T18:53:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285k34ec。"
 }

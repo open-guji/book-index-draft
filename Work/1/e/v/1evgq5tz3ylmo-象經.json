@@ -1,79 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq5tz3ylmo",
   "type": "work",
   "title": "象經",
-  "authors": [
-    {
-      "name": "周武帝",
-      "role": "撰",
-      "entity_id": "1j96ha771qmf4"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《象經》一卷、又一卷、又一卷、又三卷",
-      "summary": "《象經》一卷、又一卷、又一卷、又三卷（周武帝；此漿；何妥；王裕注丨）",
-      "author_info": "周武帝；此漿；何妥；王裕注丨"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "周武帝象經",
-      "summary": "周武帝象經一卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《象經》一卷",
-      "summary": "《象經》一卷周武帝撰。",
-      "merged_from": "1evcpjp2or4sg",
-      "note": "宇文邕即周武帝，一人也，舊唐志之著錄歸此。"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《象經》一卷",
-      "summary": "《象經》一卷周武帝撰。",
-      "section": "兵家類"
-    }
-  ],
-  "description": {
-    "text": "周武帝撰，1卷。《國史經籍志》；《新唐書藝文志》；《舊唐書經籍志》；《隋書經籍志》皆作一卷。本條見於4家著錄：《國史經籍志》、《新唐書藝文志》、《舊唐書經籍志》、《隋書經籍志》。",
-    "sources": [
-      "國史經籍志",
-      "新唐書藝文志",
-      "舊唐書經籍志",
-      "隋書經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0uuqkg74（撰人折入題名之異寫）併入本條（同題同撰人）。 2026-08-20 同書重出併：記錄 `1evcpjp2or4sg` 併入本條。宇文邕即周武帝，一人也，舊唐志之著錄歸此。\n\n2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evcmndplecqo`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。\n\n2026-08-24 N2 磁鐵專項（宋隋唐志系）：隋書經籍志「《象經》一卷周武帝撰」一節原繫 1evcmnds63u2o（王裕注三卷本），今歸本條。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
-  "id": "1evgq5tz3ylmo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T11:06:13.870114+00:00",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《象經》一卷",
-      "note": "2026-08-23 繫連補記：《隋書經籍志考證》整理本有一節（子部十·兵家類 第 136 節「《象經》一卷」）繫及本條，而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。"
-    }
-  ],
-  "books": [],
-  "related_works": [],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "隋志、舊唐志皆題「周武帝撰」，周武帝即北周宇文邕（2026-08-24 R3二輪 引文定代）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq5tz3ylmo-象經.json"
+  "_promoted_to": "d59f285s7aiq",
+  "_promoted_at": "2026-08-24T18:53:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285s7aiq。"
 }

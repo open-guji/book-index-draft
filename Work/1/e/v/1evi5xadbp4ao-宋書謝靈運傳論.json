@@ -2,41 +2,8 @@
   "schema_version": 1,
   "id": "1evi5xadbp4ao",
   "type": "work",
-  "subtype": "article",
   "title": "宋書謝靈運傳論",
-  "authors": [
-    {
-      "name": "沈約",
-      "dynasty": "南朝梁",
-      "role": "作",
-      "entity_id": "1j967cp1zdr18",
-      "dynasty_basis": "entity_propagation:1j967cp1zdr18"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8%E8%AC%9D%E9%9D%88%E9%81%8B%E5%82%B3%E8%AB%96",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evcmocs9vtog",
-      "title": "文選",
-      "relation": "collected_in"
-    },
-    {
-      "id": "1ev3c1fplga2o",
-      "title": "宋書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f283vubk3",
+  "_promoted_at": "2026-08-24T18:50:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f283vubk3。"
 }

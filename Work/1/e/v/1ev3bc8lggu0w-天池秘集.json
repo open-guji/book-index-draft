@@ -36,7 +36,15 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。",
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "authenticity": "forged",
-  "authenticity_basis": "《欽定四庫全書總目》：「案渭，嘉靖中人，有《筆元要旨》，已著錄。是編所載如葉向高、陳繼儒之類皆在其後，渭安得見其詩文？蓋即一觀所輯，偽託於渭也。」"
+  "authenticity_basis": "《欽定四庫全書總目》：「案渭，嘉靖中人，有《筆元要旨》，已著錄。是編所載如葉向高、陳繼儒之類皆在其後，渭安得見其詩文？蓋即一觀所輯，偽託於渭也。」",
+  "description": {
+    "text": "徐渭（明）編。十二卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。別集之屬，所收為其人之詩文。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
+    "sources": [
+      "欽定四庫全書總目"
+    ]
+  },
+  "_promoted_to": "d59f2ngcy7lv",
+  "_promoted_at": "2026-08-25T12:32:16Z"
 }

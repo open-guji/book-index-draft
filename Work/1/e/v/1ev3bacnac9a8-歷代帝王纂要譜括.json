@@ -3,50 +3,7 @@
   "id": "1ev3bacnac9a8",
   "type": "work",
   "title": "歷代帝王纂要譜括",
-  "authors": [
-    {
-      "name": "孫應符",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967da978dfw",
-      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「孫應符」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j967da978dfw`，代「南宋」），故補之。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《歷代帝王纂要譜括》•一卷",
-      "author_info": "不著撰人名氏",
-      "summary": "不著撰人名氏。其書敘歷代帝王世系、年號、歲數，亦略及賢否。各以數語括之，簡陋殊甚。蓋村塾俗書也。《永樂大典》載之，亦可雲漫無采擇矣。以其為宋人舊帙，姑附存其目焉。",
-      "edition": "永樂大典本"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《歷代帝王纂要譜括》二卷",
-      "summary": "《歷代帝王纂要譜括》二卷（孫應符）",
-      "author_info": "孫應符"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "歷代帝王纂要譜括"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「song」，不相斥。"
+  "_promoted_to": "d59f2hfa0rgg",
+  "_promoted_at": "2026-08-25T05:35:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfa0rgg。"
 }

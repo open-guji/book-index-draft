@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoq8fh2e4g",
   "type": "work",
   "title": "儀禮集釋綱目釋宮共",
-  "authors": [
-    {
-      "name": "李如圭",
-      "role": "撰",
-      "entity_id": "1j967avzkeubq"
-    }
-  ],
-  "juan_count": {
-    "number": 17
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《儀禮集釋綱目釋宮共》十七卷",
-      "summary": "《儀禮集釋綱目釋宮共》十七卷（李如圭）",
-      "author_info": "李如圭"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgoq8fh2e4g",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"儀禮集釋綱目、釋宮共\"，可能是解析错误\n[QA-fix 2026-04-20] title \"儀禮集釋綱目、釋宮共\" → \"儀禮集釋綱目釋宮共\" (remove 顿号)",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 17
-    }
-  ],
-  "measure_info": "十七卷",
-  "related_works": [
-    {
-      "id": "d59ezak3445c",
-      "title": "儀禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：李如圭（南宋）——同人名下他書 {'song': 3} 佐證一致",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "_promoted_to": "d59f2hlkbta8",
+  "_promoted_at": "2026-08-25T05:47:05Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hlkbta8。"
 }

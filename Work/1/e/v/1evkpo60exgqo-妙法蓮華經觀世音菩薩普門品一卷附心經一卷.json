@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpo60exgqo",
   "type": "work",
   "title": "《妙法蓮華經觀世音菩薩普門品》一卷附《心經》",
-  "authors": [
-    {
-      "name": "鳩摩羅什",
-      "role": "譯",
-      "dynasty": "後秦",
-      "dynasty_basis": "synonym:姚秦->後秦",
-      "entity_id": "1j96ad6hy8kqo",
-      "name_basis": "2026-08-24 J3(3)：見 ai_note"
-    }
-  ],
-  "description": {
-    "text": "鳩摩羅什（後秦）譯《妙法蓮華經》之第二十五品，別行單本，附《般若波羅蜜多心經》。《普門品》述觀世音菩薩尋聲救苦、三十三應化身之事，為觀音信仰所本，六朝以來別行流通。本書收入《國立故宮博物院善本舊籍》（統一編號 故佛000392）。明宣德七年泥金寫本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故佛000392），無同名 Work 故新建。\n\n2026-08-22 B3 併池（藏本條重出）：1evkq2lka04jk 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。\n\n2026-08-24 J3(3) 壞名清理：撰人「釋鳩摩羅什」正為「鳩摩羅什」（形甲）：同上。\n\n2026-08-24 J7 版本著錄語補其內容（坑 #17）：本條之 description 原止版本著錄語（「本書收入《…》。某某刊本」），五十餘字而未言其書為何。今於其前補一節內容之述，原版本語仍留其後——版本語是實錄，不可刪。所補之文據通行學術常識與本條所繫之著錄、Book，**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evkpo60exgqo",
-  "books": [
-    "11qki3as45v5s",
-    "11qki3copk8hs"
-  ],
-  "updated_at": "2026-08-23T06:04:29.719957+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty（十六國／東晉政權）（2026-08-13 南北朝探勘：鳩摩羅什，後秦，補繫既有Entity並訂正period）",
-  "indexed_by": [],
-  "period_upper": "ming",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「明宣德七年泥金寫本」——版本之年不早於成書之年，故不晚於 ming"
+  "_promoted_to": "d59f27x4zoxu",
+  "_promoted_at": "2026-08-24T18:37:21Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27x4zoxu。"
 }

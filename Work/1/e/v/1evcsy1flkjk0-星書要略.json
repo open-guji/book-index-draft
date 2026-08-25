@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy1flkjk0",
   "type": "work",
   "title": "星書要略",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《星書要略》",
-      "summary": "徐承嗣《星書要略》六卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《星書要略》六卷",
-      "summary": "《星書要略》六卷（徐承嗣）",
-      "author_info": "徐承嗣"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "星書要畧六卷",
-      "summary": "星書要畧六卷",
-      "merged_from": "1evr5e3mgjw31",
-      "note": "諸志同著《星書要略》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsy1flkjk0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "additional_titles": [
-    "星書要畧"
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "authors": [
-    {
-      "name": "徐承嗣",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151293ac",
-      "note": "宋史藝文志作「徐承嗣《星書要略》六卷」、國史經籍志注「徐承嗣」，二志相合。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293ac` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志同著《星書要略》六卷，今合併。宋志之前置撰人與國史經籍志之注相合，並為徐承嗣。"
+  "_promoted_to": "d59f2hhvz6yp",
+  "_promoted_at": "2026-08-25T05:40:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhvz6yp。"
 }

@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxngacbuo",
   "type": "work",
   "title": "[紹熙]雲間志",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《雲間志》",
-      "summary": "楊潛《雲間志》三卷"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《[紹熙]雲間志》三卷",
-      "author_info": "宋楊潛纂",
-      "summary": "《[紹熙]雲間志》三卷。宋楊潛纂。影印北京大學圖書館藏明抄本。",
-      "edition": "影印北京大學圖書館藏明抄本",
-      "volume": "第687冊",
-      "section": "史部 史部"
-    }
-  ],
-  "id": "1evcsxngacbuo",
-  "authors": [
-    {
-      "name": "楊潛",
-      "role": "修",
-      "dynasty": "南宋",
-      "entity_id": "1j98p59ez33sw",
-      "dynasty_basis": "entity_propagation_r2:1j98p59ez33sw"
-    }
-  ],
-  "ai_note": "作者 \"宋楊潛修\" 補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjr1fz981z4 合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
-  "books": [
-    "11qkhv4emxzpc"
-  ],
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0687%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 687
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第687冊（史部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_image": true,
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷"
+  "_promoted_to": "d59f2hpvgr9c",
+  "_promoted_at": "2026-08-25T05:55:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hpvgr9c。"
 }

@@ -1,81 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmngpz8qv4",
   "type": "work",
   "title": "集驗方",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《集驗方》十卷",
-      "summary": "《集驗方》十卷姚僧垣撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《集驗方》十卷",
-      "summary": "《集驗方》十卷姚僧垣撰。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "白仁敘《集驗方》五卷",
-      "summary": "白仁敘《集驗方》五卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "申屠致遠集驗方十二卷",
-      "summary": "元申屠致遠集驗方十二卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《集驗方》十二卷",
-      "summary": "元申屠致遠集驗方十二卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcmngpz8qv4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《集驗方》十卷",
-      "summary": "集驗方十卷 姚僧垣撰一本作“僧坦”,誤。又作“僧”,尤誤。\n姚僧垣有《姚大夫集驗方》十二卷,見上篇經方家。\n案姚氏《集驗方》,隋、唐時相傳有兩本,其一十二卷,上篇\n所載者是其一十卷,與《舊》、《新唐志》著録同,即此是也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E9%9B%86%E9%A9%97%E6%96%B9",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-23T06:46:46.606177+00:00",
-  "_has_text": true,
-  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，非諸志所著之任一數（隋書經籍志作十卷；舊唐書經籍志作十卷；宋史藝文志作五卷），係匯入時解析所誤。今取諸源中著錄最多者（同數則取志源較早、較確者）為 十 卷，餘數之異存於各 indexed_by 之引文。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evga7icf483k 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：隋書經籍志「《集驗方》十二卷」一節本繫本條，今移繫 1evcmngc0zwu8。隋志醫方類「《集驗方》十二卷」不著撰人，姚振宗《考證》云「案此似即上篇所載姚大夫《集驗方》十二卷之本」；庫中正有《姚大夫集驗方》十二卷 1evcmngc0zwu8，今依其說改繫。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：隋書經籍志考證「《集驗方》十二卷」一節本繫本條，今移繫 1evcmngc0zwu8。《隋書經籍志考證》此節之題為「集驗方十二卷」，考語謂即上篇姚大夫《集驗方》十二卷之本，今隨其書改繫。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "申屠致遠",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95o6pv"
-    }
-  ],
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」"
+  "_promoted_to": "d59f2gnqn280",
+  "_promoted_at": "2026-08-25T04:42:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gnqn280。"
 }

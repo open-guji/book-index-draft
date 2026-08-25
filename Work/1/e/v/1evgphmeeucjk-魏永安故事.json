@@ -1,66 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphmeeucjk",
   "type": "work",
   "title": "魏永安故事",
-  "authors": [
-    {
-      "name": "溫子昇",
-      "role": "撰",
-      "entity_id": "1j96haaab7sw0",
-      "original_name": "温子昇",
-      "dynasty": "北魏",
-      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：溫子昇（495-547），北魏散騎常侍，《魏書》卷八五有傳，與邢邵、魏收並稱北地三才。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《魏永安故事》三卷",
-      "summary": "《魏永安故事》三卷（温子昇。）",
-      "author_info": "温子昇。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "溫子昇魏永安故事",
-      "summary": "溫子昇魏永安故事三卷",
-      "merged_from": "1evcs0edoxatc"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgphmeeucjk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-24T11:06:23.750308+00:00",
-  "merged_in": [
-    {
-      "id": "1evcs0edoxatc",
-      "title": "溫子昇魏永安故事",
-      "author": "溫子昇",
-      "title_info": "溫子昇魏永安故事",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「溫子昇魏永安故事」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「溫子昇」已見本條 authors[]），裸題「魏永安故事」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "溫子昇北魏文士（北地三才），永安為北魏孝莊帝年號，書記北魏永安間事。（2026-08-24 R3二輪 引文定代）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgphmeeucjk-魏永安故事.json"
+  "_promoted_to": "d59f2866vg1w",
+  "_promoted_at": "2026-08-24T18:54:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2866vg1w。"
 }

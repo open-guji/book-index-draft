@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgacjhchdz4",
   "type": "work",
   "title": "待制文集",
-  "authors": [
-    {
-      "name": "孟昉",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96antv"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "孟昉待制文集",
-      "author_info": "字天與，本西域人，居北平",
-      "summary": "元孟昉（字天與，本西域人，居北平）待制文集"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《待制文集》",
-      "author_info": "字天瑋，西域人",
-      "summary": "元孟昉（字天瑋，西域人）待制文集"
-    }
-  ],
-  "description": {
-    "text": "字天與，本西域人，居北平",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('柳貫', '元')]，本條作者 孟昉（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgacjhchdz4",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2ge0q1a8",
+  "_promoted_at": "2026-08-25T04:23:23Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ge0q1a8。"
 }

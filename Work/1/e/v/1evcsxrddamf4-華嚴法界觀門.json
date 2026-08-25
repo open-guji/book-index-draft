@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxrddamf4",
   "type": "work",
   "title": "華嚴法界觀門",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《華嚴法界觀門》",
-      "summary": "《華嚴法界觀門》一卷（（僧法順集，僧宗密注））僧宗密"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《華嚴法界觀門》",
-      "summary": "《華嚴法界觀門》一卷（（宗密注））",
-      "merged_from": "1evcsxqino2dc",
-      "note": "宋志道家類同題同卷之另一著錄（原注作「（宗密注）」），與本條「（僧法順集，僧宗密注）」所記相同，係一書兩出。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《華嚴法界觀門》一卷",
-      "summary": "《華嚴法界觀門》一卷",
-      "merged_from": "1evgptutu0lxc",
-      "note": "國史經籍志一卷，卷數與宋志全合。"
-    }
-  ],
-  "id": "1evcsxrddamf4",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "法順",
-      "role": "集",
-      "dynasty": "唐",
-      "entity_id": "1jcf515129744",
-      "note": "宋史藝文志原注「僧法順集，僧宗密注」。法順即杜順（557-640），華嚴宗初祖。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129744` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    },
-    {
-      "name": "宗密",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j98p5de8dyps",
-      "note": "宋史藝文志原注「僧法順集，僧宗密注」，另一著錄作「（宗密注）」。宗密（780-841）華嚴宗五祖，號圭峰。本庫無此 entity。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「宗密」而無 entity_id，今繫 `1j98p5de8dyps`——庫中以此為別名（alt_names）者唯一。其代「唐」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志道家類同題同卷兩出——一作「《華嚴法界觀門》一卷（宗密注）」，一作「《華嚴法界觀門》一卷（僧法順集，僧宗密注）」——所記撰注相同，係一書兩出，今合併；國史經籍志一卷本亦同書，一併合入。據宋志原注補撰人法順（集）、宗密（注）。宋志本條句末「僧宗密」依頂真格通例下屬次條《禪源諸詮》，非重複。二人本庫皆無 entity，未繫。"
+  "_promoted_to": "d59f28jgrrpf",
+  "_promoted_at": "2026-08-24T19:20:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jgrrpf。"
 }

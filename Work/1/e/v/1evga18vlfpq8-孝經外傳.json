@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga18vlfpq8",
   "type": "work",
   "title": "孝經外傳",
-  "authors": [
-    {
-      "name": "江直方",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfgow6oe8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "江直方孝經外傳二十二卷",
-      "author_info": "南充人",
-      "summary": "元江直方（南充人）孝經外傳二十二卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《孝經外傳》二十二卷",
-      "author_info": "南充人",
-      "summary": "元江直方（南充人）孝經外傳二十二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孝經外傳》一卷",
-      "summary": "《孝經外傳》一卷（汪直方）",
-      "author_info": "汪直方"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《孝經外傳》（江直方）",
-      "summary": "二十二卷\n張萱曰元至元中南充江直方摘孝經中指示切要條為之説仍集經史子集中嘉言善行合經義者依經分類為之羽翼凡二十二卷",
-      "section": "孝經",
-      "juan": "卷二百二十七",
-      "page": "KR2n0011_WYG_227-5a",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 22
-  },
-  "description": {
-    "text": "南充人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('周春', '清'), ('楊起元', '明'), ('李之素', '清')]，本條作者 江直方（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evga18vlfpq8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2geyqwhs",
+  "_promoted_at": "2026-08-25T04:25:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2geyqwhs。"
 }

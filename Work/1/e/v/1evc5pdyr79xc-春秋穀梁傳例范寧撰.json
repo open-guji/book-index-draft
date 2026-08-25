@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pdyr79xc",
   "type": "work",
   "title": "春秋穀梁傳例范寧撰",
-  "authors": [
-    {
-      "name": "范寧",
-      "entity_id": "1j96hl40qih34"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《春秋谷梁傳例》一卷",
-      "summary": "《春秋谷梁傳例》一卷范寧撰。"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "穀梁傳例",
-      "summary": "晉范甯《穀梁傳例》一卷。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "范寧撰。一卷。見著錄於《隋書經籍志》《清史稿藝文志》。本書為《穀梁傳》之注釋，其文附原典以行。《隋書經籍志》唐初貞觀顯慶間官修；《清史稿藝文志》民國趙爾巽等修——本書之目賴之以存。",
-    "sources": [
-      "隋書經籍志",
-      "清史稿藝文志"
-    ]
-  },
-  "id": "1evc5pdyr79xc",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "春秋穀梁傳例一卷 范寧撰",
-      "summary": "春秋穀梁傳例一卷 范寧撰\n范寧有《穀梁傳注》,見前。\n寧《穀梁集解》序有曰:“於是商略名例,敷陳疑滯,博示諸儒\n同異之說。”楊士勋釋曰:“商略名例者,即范氏别為《略例》百\n餘條是也。”\n《四庫》著録《穀梁注疏》提要曰:“又寧自序有“商略名例之\n句,《疏》稱寧别有《略例》百餘條。此本不載,然注中時有傳\n例曰”字,或士助割裂其文,散入注疏中 ?”\n王 《漢魏遺書鈔》曰:“ 按范氏傳例,凡已見《集解》者,無容\n贅録。今唯鈔出楊氏《疏》中所引《略例》别例,共二十四條。”"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59ezajtfrb4",
-      "title": "穀梁傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-22T04:56:00.080413+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，據其 Entity「范寧」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "additional_titles": [
-    "穀梁傳例"
-  ],
-  "ai_note": "2026-08-24 J3(2)-乙 異題同書之併（形己）：范寧《春秋穀梁傳例》一卷，《清史稿》題「穀梁傳例」。（併入者 id 1evr5e3m7i0gd，題「穀梁傳例」）\n\n2026-08-24 J7 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。"
+  "_promoted_to": "d59f27xxeadd",
+  "_promoted_at": "2026-08-24T18:38:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xxeadd。"
 }

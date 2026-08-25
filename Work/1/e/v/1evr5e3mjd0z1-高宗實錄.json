@@ -3,44 +3,7 @@
   "id": "1evr5e3mjd0z1",
   "type": "work",
   "title": "高宗實錄",
-  "authors": [
-    {
-      "name": "傅伯壽",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf51512943j",
-      "note": "慶元三年修撰，濟源人，字景仁。初進二百八十卷，止紹興十六年；後嘉泰二年修撰袁說友等又進二百二十卷，止三十二年，合五百卷。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512943j` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 500
-  },
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "《高宗實錄》五百卷。慶元三年，修撰濟源傅伯壽景仁撰。初進二百八十卷，止紹興十六年。嘉泰二年，修撰建安袁說友起巖等又進二百二十卷，止三十二年。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《高宗實錄》",
-      "summary": "（（洪邁修））《高宗實錄》五百卷（（傅伯壽撰））",
-      "merged_from": "1evcpcxb817nk"
-    }
-  ],
-  "ai_note": "2026-08-15 全庫同名異書核對：indexed_by.summary 原僅存裸題「高宗實錄」，係匯入時漏收整理本正文，今據 collated_edition 補全引文，並據以補撰人傅伯壽。又併入 1evcpcxb817nk 之宋史藝文志引文（同書五百卷傅伯壽本，該記錄原混裝唐代大聖天后一百卷本與本書兩種不同著錄，已拆分，唐代部分留於原記錄）。",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "measure_info": "五百卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 500
-    }
-  ]
+  "_promoted_to": "d59f2hluxvr5",
+  "_promoted_at": "2026-08-25T05:47:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hluxvr5。"
 }

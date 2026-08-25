@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd69ar56o",
   "type": "work",
   "title": "范宣集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《范宣集》十卷",
-      "summary": "《范宣集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "范宣集",
-      "summary": "范宣集十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《范宣集》十卷",
-      "summary": "《范宣集》十卷",
-      "merged_from": "1evgqargweo00",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcpd69ar56o",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "范宣",
-      "role": "撰",
-      "dynasty": "東晉",
-      "entity_id": "1j96hfbg5o4cg",
-      "note": "書名即撰人。范宣字宣子，東晉豫章隱士。本庫另有清人「范宣」entity `1j967cp1zdr3a`，非是。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志、國史經籍志皆十卷，同為東晉范宣別集，今合為一條並繫 entity `1j96hfbg5o4cg`。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：舊唐書經籍志「《范宣集》五卷」一節本繫本條，今另立 1ex0dp6j4rnre《范宣集》繫之。舊唐志別集類「《范宣集》十卷」之外別著「《范宣集》五卷」——同志兩著、各有全著錄語而卷數異、皆不著撰人，依 SCHEMA〈同題二條〉一（同志卷數異疑二書）別出。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "范宣（東晉）撰。十卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《國史經籍志》。其著錄之文，《舊唐書經籍志》作「《范宣集》十卷」。別集之屬，所收為其人之詩文。",
-    "sources": [
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27u83yf7",
+  "_promoted_at": "2026-08-24T18:31:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27u83yf7。"
 }

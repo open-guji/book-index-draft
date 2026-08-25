@@ -1,34 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1exs48i108wnu",
   "type": "work",
   "title": "等五經精義",
-  "id": "1exs48i108wnu",
-  "authors": [
-    {
-      "name": "楊安國",
-      "role": null,
-      "entity_id": "1jcf5151296rj",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296rj` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書羣經類著錄「楊氏（安國）等五經精義」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「佚」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。",
-  "indexed_by": [
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《等五經精義》（楊安國）",
-      "summary": "二百二十卷\n玉海皇祐三年十月丙申詔楊安國等以五經正義節解爲書令先撰序及名丁酉安國等請名曰五經義宗精義樞要詔以五經精義爲名十二月己亥御延和殿安國等上五經精義序進讀畢賜茶而退辛丑降付邇英閣四年六月壬寅延和殿侍講學士上五經精義周易節解二十卷十一月甲寅御邇英閣侍讀上尚書解節三十卷五年四月癸卯上禮記節解九十卷十月甲寅上春秋節解八十卷仁宗又命侍讀丁度等修纂五經精義周易節解度等言詩書凶服及春秋賊亂皆舊所不講今去留係上㫖上曰先王吉凶之制百代所遵不可以俗忌而簡去春秋喪亂之事皆有善惡監戒人主所宜知也亦當存之",
-      "section": "羣經",
-      "juan": "卷二百四十二",
-      "page": "KR2n0011_WYG_242-9b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《經義考》（清朱彝尊（1700）），故不晚於 qing",
-  "period": "song",
-  "period_basis": "玉海：皇祐三年詔楊安國等撰（2026-08-24 R3 引文定代）",
-  "updated_at": "2026-08-24T00:00:00+00:00"
+  "_promoted_to": "d59f2hejsttu",
+  "_promoted_at": "2026-08-25T05:33:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hejsttu。"
 }

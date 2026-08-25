@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgc5ta0u8zk",
   "type": "work",
   "title": "詩稿",
-  "authors": [
-    {
-      "name": "蘇天爵",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967avzlz13h"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "蘇天爵詩稿七卷",
-      "summary": "元蘇天爵詩稿七卷"
-    }
-  ],
-  "juan_count": {
-    "number": 7
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('孔繼涵', '清'), ('彭啟豐', '清'), ('朱綬', '清'), ('彭定求', '清'), ('朱珔', '清'), ('蔡新', '清'), ('馮浩', '清'), ('欽善', '清')]，本條作者 蘇天爵（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgc5ta0u8zk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2ggmzpc1",
+  "_promoted_at": "2026-08-25T04:28:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ggmzpc1。"
 }

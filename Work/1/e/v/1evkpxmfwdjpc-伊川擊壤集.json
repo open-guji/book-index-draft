@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpxmfwdjpc",
   "type": "work",
   "title": "伊川擊壤集",
-  "authors": [
-    {
-      "name": "邵雍",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j98owz7zipkw",
-      "dynasty_basis": "entity_propagation:1j98owz7zipkw"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫025161-025168）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫025161-025168）。阶段 5 兜底建立。 | 從 1evjy7rj4w4xs 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。　合併：題名「邵雍伊川擊壤集」撰人折入題首（來源：國史經籍志），與本條同書（撰人「邵雍」已見本條 authors[]），裸題「伊川擊壤集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "id": "1evkpxmfwdjpc",
-  "books": [
-    "11qkhx9ekrlds",
-    "11qki513764u8",
-    "11qkhup3e5x4w",
-    "11qk4xwcxk3u6",
-    "11qk4xwcxk3s6"
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《邵雍伊川擊壤集》二十卷",
-      "summary": "《邵雍伊川擊壤集》二十卷",
-      "merged_from": "1evgqcwbd9iww"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1evgqcwbd9iww",
-      "title": "邵雍伊川擊壤集",
-      "author": "邵雍",
-      "title_info": "邵雍伊川擊壤集",
-      "indexed_by_moved": [
-        "國史經籍志"
-      ]
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并"
+  "_promoted_to": "d59f2hrwiade",
+  "_promoted_at": "2026-08-25T05:59:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hrwiade。"
 }

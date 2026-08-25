@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyprdepds",
   "type": "work",
   "title": "韓文考異",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《韓文考異》",
-      "summary": "朱熹《韓文考異》十卷樊汝霖"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "韓文考異",
-      "summary": "《韓文考異》十卷。{{宋方崧卿舉正，朱子校定。李光地刻本。宋王伯大重編《韓文考異正集》、《外集》、《遺文》共五十一卷，明刻本，非朱子原書。}}",
-      "author_info": "方崧卿舉正"
-    }
-  ],
-  "id": "1evcsyprdepds",
-  "authors": [
-    {
-      "name": "朱熹",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967cp1zdr19",
-      "name_basis": "原作「韓愈」（朝代唐）。韓愈乃本書所考之對象（其文集），非撰人：本條宋史藝文志引文明作「朱熹《韓文考異》十卷」，書目答問亦云「宋方崧卿舉正，朱子校定……宋王伯大重編《韓文考異正集》……非朱子原書」，皆以朱熹為撰人，逕正。"
-    }
-  ],
-  "ai_note": "作者「唐韓愈撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaaloi94hs 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcsyprdepds()（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 隋唐 T2·斷代清出：period 舊作 sui-tang，蓋因所考者為唐韓愈之文而誤繫其代。本書是朱熹考韓文異同之作，《宋史藝文志》著「朱熹《韓文考異》十卷」、《書目答問》著「宋方崧卿舉正，朱子校定」，撰人朱熹南宋人。**注疏考異之書從撰者之代，不從所考原典之代**（同 SCHEMA〈坊刻編本〉之則）。今改 song。",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善008965-009000）。明萬曆乙巳(三十三年)新安朱崇沐天德堂刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhsbqtk9a8",
-    "11qkhv2r8qeps"
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」。period 舊作 sui-tang，蓋因所考者為唐韓愈之文而誤繫其代。本書是朱熹考韓文異同之作，《宋史藝文志》著「朱熹《韓文考異》十卷」、《書目答問》著「宋方崧卿舉正，朱子校定」，撰人朱熹南宋人。**注疏考異之書從撰者之代，不從所考原典之代**（同 SCHEMA〈坊刻編本〉之則）。今改 song。",
-  "dynasty": "南宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代（2026-08-24 隋唐 T2 訂正，原作「唐」）"
+  "_promoted_to": "d59f2hungikg",
+  "_promoted_at": "2026-08-25T06:04:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hungikg。"
 }

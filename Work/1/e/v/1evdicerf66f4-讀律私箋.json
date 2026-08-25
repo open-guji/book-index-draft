@@ -30,9 +30,10 @@
     }
   ],
   "description": {
-    "text": "明代史部刑法類著作。",
+    "text": "王樵（明）撰。二十四卷。見著錄於《明史藝文志》《國史經籍志》。其著錄之文，《國史經籍志》作「《讀律私箋》二十四卷（王樵）」。《明史藝文志》清張廷玉等修；《國史經籍志》明焦竑撰——本書之目賴之以存。",
     "sources": [
-      "明史藝文志"
+      "明史藝文志",
+      "國史經籍志"
     ]
   },
   "measures": [
@@ -42,10 +43,12 @@
     }
   ],
   "measure_info": "二十四卷",
-  "ai_note": "從 1evgpio2wrj0g 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"讀律𥝠箋\"→\"讀律私箋\" (位置 2: \"𥝠\"→\"私\") [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evgpio2wrj0g 合併。原註：[CADAL02091118-fix 2026-04-20] OCR 纠错 \"讀律𥝠箋\"→\"讀律私箋\" (位置 2: \"𥝠\"→\"私\") [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "updated_at": "2026-08-09T10:41:40+00:00",
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2nhi5iww",
+  "_promoted_at": "2026-08-25T12:34:28Z"
 }

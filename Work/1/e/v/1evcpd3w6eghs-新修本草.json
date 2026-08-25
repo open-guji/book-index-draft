@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd3w6eghs",
   "type": "work",
   "title": "新修本草",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《新修本草》二十一卷",
-      "summary": "《新修本草》二十一卷蘇敬撰。"
-    }
-  ],
-  "id": "1evcpd3w6eghs",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BF%AE%E6%9C%AC%E8%8D%89",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "李勣",
-      "role": "等奉敕撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151296aa",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296aa` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "作者「唐李勣等奉敕撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkabs3cmiv4 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcpd3w6eghs()（不同作者，故新建獨立 Work）。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十一卷），今據以補。",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀000440-000449）。日本影古鈔卷子本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhylyg3aps",
-    "11qkhzsj8a96o",
-    "11qki0ik2w1ds",
-    "11qki0iiqi96o"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 21
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 21
-    }
-  ],
-  "measure_info": "二十一卷"
+  "_promoted_to": "d59f28lm6mf4",
+  "_promoted_at": "2026-08-24T19:24:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lm6mf4。"
 }

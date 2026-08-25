@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pd4mhm9s",
   "type": "work",
   "title": "禮記義疏沈重撰",
-  "original_title": "禮記義疏",
-  "authors": [
-    {
-      "name": "沈重",
-      "entity_id": "1j96h8rw86pzv",
-      "dynasty": "北周",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw86pzv`（沈重）之 dynasty「北周」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《禮記義疏》四十卷",
-      "summary": "《禮記義疏》四十卷沈重撰。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《禮記義疏》（沈重）",
-      "summary": "隋志四十卷（唐志同）",
-      "section": "禮記",
-      "juan": "卷一百四十",
-      "page": "KR2n0011_WYG_140-8b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 40
-  },
-  "description": {
-    "text": "沈重撰。",
-    "sources": []
-  },
-  "id": "1evc5pd4mhm9s",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "禮記義疏四十卷 沈重撰",
-      "summary": "沈重有《毛詩》、《周官義疏》,並見前。\n《北史·儒林傳》:重著《儀禮義》三十五卷,《儀禮音》一卷,\n《禮記義》三十卷,《禮記音》二卷。\n《唐書·經籍志》:《禮記義疏》四十卷,沈重撰。一本作皇侃,誤。\n《唐書·藝文志》:沈重《禮記義疏》四十卷。\n馬氏玉函山房輯本序曰:“沈氏《義疏》久佚,今從《釋文》、《正\n義》采輯為一卷。”\n按沈氏《儀禮疏》,本志不著録。《周官疏》、《禮記疏》,本志\n皆四十卷。《周書》、《北史·儒林傳》則三十一卷、三十卷。\n志、傳不合,錢氏《考異》已舉之,類此者甚多也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 40
-    }
-  ],
-  "measure_info": "四十卷",
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evc5pd4mhm9s/fragments/禮記義疏沈重撰.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/禮記義疏沈重撰.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "loss_status": "partially_extant",
-  "updated_at": "2026-08-22T04:56:00.091314+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「沈重」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evc5pd4mhm9s-禮記義疏沈重撰.json"
+  "_promoted_to": "d59f28430s1w",
+  "_promoted_at": "2026-08-24T18:50:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28430s1w。"
 }

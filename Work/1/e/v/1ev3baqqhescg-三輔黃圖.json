@@ -15,7 +15,7 @@
   "indexed_by": [
     {
       "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
+      "source_bid": "d59f2gcburcx",
       "title_info": "《三輔黃圖》一卷",
       "summary": "《三輔黃圖》一卷",
       "misattached": true,
@@ -23,7 +23,7 @@
     },
     {
       "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
+      "source_bid": "d59f2hl0cmio",
       "title_info": "三輔黃圖",
       "summary": "三輔黃圖一卷",
       "misattached": true,
@@ -31,7 +31,7 @@
     },
     {
       "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
+      "source_bid": "d59f2gdp696q",
       "title_info": "《三輔黃圖》",
       "summary": "《三輔黃圖》一卷",
       "misattached": true,
@@ -166,11 +166,17 @@
     }
   ],
   "measure_info": "六卷",
-  "ai_note": "作者「明周頂跋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaaam9xvy8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3baqqhescg();1evgpjotzzchs()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 4 節出於宋史藝文志、後漢藝文志、新唐書藝文志、舊唐書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "ai_note": "作者「明周頂跋」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkaaam9xvy8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3baqqhescg();1evgpjotzzchs()（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 4 節出於宋史藝文志、後漢藝文志、新唐書藝文志、舊唐書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善007243）。明成化十六年刊本。",
+    "text": "周頂（明）跋。六卷；諸志所著之數有異，別作一卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《宋史藝文志》《欽定四庫全書總目》《後漢藝文志》《書目答問》《國史經籍志》。《後漢藝文志》列於史部·地理類。清人孫星衍嘗輯之。",
     "sources": [
-      "國立故宮博物院善本舊籍"
+      "舊唐書經籍志",
+      "新唐書藝文志",
+      "宋史藝文志",
+      "欽定四庫全書總目",
+      "後漢藝文志",
+      "書目答問",
+      "國史經籍志"
     ]
   },
   "updated_at": "2026-08-24T00:00:00+00:00",
@@ -179,5 +185,7 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2nkh7xfk",
+  "_promoted_at": "2026-08-25T12:40:11Z"
 }

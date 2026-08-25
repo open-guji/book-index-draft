@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyjblpdds",
   "type": "work",
   "title": "口齒論",
-  "authors": [
-    {
-      "name": "邵英俊",
-      "role": "撰",
-      "entity_id": "1j96hg9rkg8w0",
-      "dynasty": "唐"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《口齒論》",
-      "summary": "邵英俊《口齒論》一卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "邵英俊口齒論",
-      "summary": "邵英俊口齒論一卷",
-      "merged_from": "1evcsyjblpdds",
-      "note": "與《邵英俊口齒論》同指一書，撰人並「邵英俊」，卷數亦合，今併之。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《邵英俊口齒論》一卷",
-      "summary": "《邵英俊口齒論》一卷",
-      "merged_from": "1evcsyjblpdds",
-      "note": "與《邵英俊口齒論》同指一書，撰人並「邵英俊」，卷數亦合，今併之。"
-    }
-  ],
-  "id": "1evcsyjblpdds",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-12 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正）：補全 authors「邵英俊」及 juan_count——原整理本承前一條「發背論」句末頂真格斷句，撰人名誤植於前一條（1evcsyjbbejgg）之末，今回復歸於本條，前一條之著錄原文不動。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs0xix7y0w`（邵英俊口齒論）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《邵英俊口齒論》（1evcs0xix7y0w）。二條撰人並「邵英俊」，卷數亦合（一卷）。長題《邵英俊口齒論》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《口齒論》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併",
-  "additional_titles": [
-    "邵英俊口齒論"
-  ]
+  "_promoted_to": "d59f28ju6z2b",
+  "_promoted_at": "2026-08-24T19:20:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ju6z2b。"
 }

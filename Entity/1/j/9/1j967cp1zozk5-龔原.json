@@ -13,31 +13,31 @@
   "dynasty": "北宋",
   "works": [
     {
-      "work_id": "1evd2hbjez8qo",
+      "work_id": "d59f2hu1ao01",
       "role": "撰"
     },
     {
-      "work_id": "1evd3p8k25vk0",
+      "work_id": "d59f2hd6hc04",
       "role": "撰"
     },
     {
-      "work_id": "1evjqxqyk2hhc",
+      "work_id": "d59f2hdg5ouc",
       "role": "撰"
     },
     {
-      "work_id": "1exluzlf6xfe1",
+      "work_id": "d59f2hebdf5t",
       "role": "撰"
     },
     {
-      "work_id": "1ex20t7kwfm11",
+      "work_id": "d59f2hhqo5q8",
       "role": "撰"
     },
     {
-      "work_id": "1ex7j2us52c5m",
+      "work_id": "d59f2og493b5",
       "role": "撰"
     },
     {
-      "work_id": "1evr5e3mi42x5",
+      "work_id": "d59f2og493b5",
       "role": "撰"
     }
   ],
@@ -50,5 +50,5 @@
   "dynasty_basis": "cbdb:index_year=1033→北宋",
   "period": "song",
   "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 1 部 work 之繫——其 authors 作「名＋字」連書之形，本是一人。"
+  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 1 部 work 之繫——其 authors 作「名＋字」連書之形，本是一人。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evd3p8k25vk0`《龔原中庸說》。"
 }

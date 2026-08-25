@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxky9035s",
   "type": "work",
   "title": "巨鼇記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《巨鼇記》",
-      "summary": "歐陽忞《巨鼇記》五卷孫結",
-      "note": "宋史藝文志地理類此段連續頂真格：前條「陳坤臣《郡國人物志》一百五十卷歐陽忞」句末之名即本條前置撰人；本條句末「孫結」下屬「孫結《唐國鑒圖》一卷曹璠」。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《巨鼇記》",
-      "summary": "《巨鼇記》六卷",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、宋史藝文志，6卷，不著撰人）與本條（宋史藝文志，5卷，歐陽忞撰）題名全同、著錄異源，卷數僅差一（6／5）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。",
-      "merged_from": "1evcsxky9035s"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《巨鼇記》六卷",
-      "summary": "《巨鼇記》六卷",
-      "merged_from": "1evcsxky9035s",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、宋史藝文志，6卷，不著撰人）與本條（宋史藝文志，5卷，歐陽忞撰）題名全同、著錄異源，卷數僅差一（6／5）——歷代著錄計卷常有并序、并目錄之一卷出入，非二書之別。全庫同題僅此二條，判為同書。"
-    }
-  ],
-  "id": "1evcsxky9035s",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "歐陽忞",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967avzmli5j",
-      "note": "宋史藝文志地理類此段為連續頂真格（前條「陳坤臣《郡國人物志》一百五十卷歐陽忞」句末之名前置為本條撰人，本條句末「孫結」則下屬「孫結《唐國鑒圖》一卷」），故撰人確為歐陽忞。"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人「歐陽忞」據宋史藝文志地理類頂真格文例確定並繫 entity `1j967avzmli5j`。歐陽忞為北宋地理學家，撰《輿地廣記》，著地理之書與本書題材相合。同題六卷不著撰人本（見 `1evcsxmars2yo`）卷數小異，未敢合併，以 related_works 互見待考。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsxmars2yo`（巨鼇記）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1evcsxmars2yo`（國史經籍志、宋史藝文志，6卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。"
+  "_promoted_to": "d59f2hjpj11c",
+  "_promoted_at": "2026-08-25T05:43:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjpj11c。"
 }

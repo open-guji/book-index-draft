@@ -6,15 +6,11 @@
   "primary_name": "毛漸",
   "works": [
     {
-      "work_id": "1evgq3v1d0pa8",
+      "work_id": "d59f2hj3d6gz",
       "role": "撰"
     },
     {
-      "work_id": "1evcsw661bgg0",
-      "role": "撰"
-    },
-    {
-      "work_id": "1ex09f335lgng",
+      "work_id": "d59f2hds0phc",
       "role": "撰"
     },
     {
@@ -24,9 +20,13 @@
     {
       "work_id": "1evcsxlemylts",
       "role": "撰"
+    },
+    {
+      "work_id": "d59f2og56sxs",
+      "role": "撰"
     }
   ],
   "external_ids": {},
   "updated_at": "2026-08-24T00:00:00+00:00",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw661bgg0`《講義》。"
 }

@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkan6b908ow",
   "type": "work",
   "title": "李義山文集",
-  "authors": [
-    {
-      "name": "李商隱",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl89ibq"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀007722-007725）。清康熙四十七年崑山徐氏花谿草堂刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 4
-    }
-  ],
-  "measure_info": "四冊",
-  "id": "1evkan6b908ow",
-  "books": [
-    "11qkhzvlz1728"
-  ],
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "related_works": [
-    {
-      "id": "1ev3bcv6zec5c",
-      "title": "李義山文集箋注",
-      "relation": "text_carried_by"
-    }
-  ]
+  "_promoted_to": "d59f28mlroci",
+  "_promoted_at": "2026-08-24T19:26:18Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mlroci。"
 }

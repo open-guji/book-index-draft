@@ -52,5 +52,14 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]"
+  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條是《中國明朝檔案總匯》所收之明代檔冊，其所在冊次已見於 description（「今存於總匯第N冊」之屬），而 indexed_by 舊空，遂為 check_promote 判作「無著錄源亦無關聯」。今補其著錄源——檔案總匯逐冊著錄所收檔冊之名與其所在，合 SCHEMA〈IndexEntry〉「本書被目錄書著錄」之義。",
+  "indexed_by": [
+    {
+      "source": "中國明朝檔案總匯",
+      "title_info": "兵部行移簿",
+      "summary": "明天啟四年（1624）兵部行移文書登記簿。每件記行稿、題行稿之具文時間、收/發文人、事由。內容廣涉援遼軍餉、毛文龍部接濟、奴酋情形、各鎮邊備、武職員缺推補、漕運、軍器、奸細審理等明季兵政要務，係兵部行政運作原始記錄。今存於總匯第84冊前半。"
+    }
+  ],
+  "_promoted_to": "d59f2nfdoe0z",
+  "_promoted_at": "2026-08-25T12:30:24Z"
 }

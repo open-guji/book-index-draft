@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga3cqqaj28",
   "type": "work",
   "title": "興亡金鏡錄",
-  "authors": [
-    {
-      "name": "傅慎微",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j96ha94dzegw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "傅慎微興亡金鏡錄一百卷",
-      "author_info": "泰州沙溪人，禮部尚書",
-      "summary": "金傅慎微（泰州沙溪人，禮部尚書）興亡金鏡錄一百卷（正大二年編）"
-    }
-  ],
-  "juan_count": {
-    "number": 100
-  },
-  "description": {
-    "text": "泰州沙溪人，禮部尚書；正大二年編",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "id": "1evga3cqqaj28",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "measure_info": "一百卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]"
+  "_promoted_to": "d59f2gm3bz0i",
+  "_promoted_at": "2026-08-25T04:38:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gm3bz0i。"
 }

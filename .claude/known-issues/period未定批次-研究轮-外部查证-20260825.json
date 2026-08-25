@@ -1,0 +1,45 @@
+{
+  "title": "period未定批次 · 研究轮：WebSearch + 库内 indexed_by 查证结果（2026-08-25）",
+  "context": "承前「entity leverage」清单（3,373 个 period=None 桶内无 dynasty 之 entity，按其所繫库内总作品数排序），本轮挑取高杠杆条目，逐一以（a）库内已有 indexed_by/description 证据、（b）WebSearch 外部查证 相互印证，定代或存疑登记。",
+  "resolved": [
+    {"entity": "郭象", "id": "1j967cp1zdr2g", "dynasty": "西晉", "works_filled": 1,
+     "basis": "《晉書》卷五十，注《莊子》名家，見史傳確考。"},
+    {"entity": "顧彪", "id": "1j96hl41g3xmo", "dynasty": "隋", "works_filled": 1,
+     "basis": "《隋書》卷七十五《儒林傳》有傳，WebSearch 經 ctext.org 隋書目錄核實其人確載於此卷。"},
+    {"entity": "梁元帝", "id": "1j96hf83t28lc", "dynasty": "南朝梁", "works_filled": 2,
+     "basis": "蕭繹，《梁書》卷五《元帝紀》。"},
+    {"entity": "荀勖", "id": "1j96ha7d1qubk", "dynasty": "西晉", "works_filled": 3,
+     "basis": "《晉書》卷三十九，秘書監，撰《中經新簿》，與本條「中書簿」相印證。"},
+    {"entity": "諸葛穎", "id": "1j96a3rlxwt8s", "dynasty": "隋", "works_filled": 3,
+     "basis": "《隋書》卷七十六《文學傳》，隋煬帝時著作郎。"},
+    {"entity": "蕭子良", "id": "1j96hlh7xrbpc", "dynasty": "南朝齊", "works_filled": 1,
+     "basis": "《南齊書》卷四十，竟陵王，撰《淨住子淨行法門》，與本條「統略淨住行法門」相印證。"},
+    {"entity": "嚴植之", "id": "1j96hfs6cxvcw", "dynasty": "南朝梁", "works_filled": 2,
+     "basis": "《梁書》卷四十八《儒林傳》，兩題皆冠「梁」字，與其仕梁相符。"},
+    {"entity": "僧一行（部分）", "id": "1j96hg54cdgjk", "dynasty": "唐（僅「開元大衍曆議」一條）", "works_filled": 1,
+     "basis": "《舊唐書》卷一九一《方伎傳》，開元中奉詔修《大衍曆》，與此題直接相印證。其餘 5 條見下「存疑不填」。"},
+    {"entity": "王樹柟", "id": "1jcf515129abu", "dynasty": "清末民初", "works_filled": 2,
+     "basis": "既有 ai_note 已定其人身跨清末民初；本輪僅剩「學記箋證」「周易釋貞」兩條尚為 period=None，餘 10 條已於本輪之前被其他并行 session 填畢（併發推進所致），故此輪僅淨增 2 條。"}
+  ],
+  "resolved_total_works": 16,
+  "flagged_not_filled_pseudo_attribution": [
+    {"entity": "僧一行", "id": "1j96hg54cdgjk",
+     "titles": ["心機算術括", "遁甲通明無惑十八鈐局", "二十八宿秘經要訣", "肘後術", "天真皇人九仙經"],
+     "reason": "此 5 條著錄源皆為《崇文總目》《宋史藝文志》《國史經籍志》（宋代及以後書目），題皆遁甲/秘經/仙經一類術數方伎之書，與一行本人（683-727，唐代高僧天文曆算家）真實見於《舊唐書》之著述性質（曆法）不類。宋代術數書託名唐代高僧、方士（如一行、袁天罡、李淳風）乃常見現象，同名之陷之變體——非同名異人，而係同名而書非其真撰。庫中 authors[].role 仍記「撰」而非「舊題撰」，此為既有批量繫連腳本之通病，然本輪不擅改 role 字段（超出「定代」範圍），僅存疑不填 period，留待專案覆核 role 字段是否應改「舊題撰」。"},
+    {"entity": "張良", "id": "1j96kemq06a68",
+     "titles": ["陰陽二遁", "玄悟歌"],
+     "reason": "著錄源皆《宋史藝文志》，題屬陰陽遁甲/兵家術數，與史載張良（?-186BC，秦漢之際）不類——此即黃石公／張良傳說（素書、三略）一脈之宋代術數託名成例，若逕以 period=qin-han 定代將是嚴重誤斷。不予填充，存疑登記。"}
+  ],
+  "researched_unresolved": [
+    {"entity": "楊九齡", "id": "1j96kem5d9hc0", "works": 6,
+     "note": "WebSearch 仅查得「三感志」一目见于《二十五史艺文经籍志著录小说资料集》总目录之摘要式列举，未见具体传记或明确朝代归属之独立史源，摘要中'五代'字样疑仅为目录编排次序所致，不足采信。库内著录源为 宋史藝文志/國史經籍志，upper 分佈 song/ming，本身不足以窄化。未能解决。"},
+    {"entity": "趙敦臨", "id": "1jcf5151293nm", "works": 6,
+     "note": "「新建 entity（甲等第一批）」，著录几乎全系《經義考》（漢至清通考，upper=qing 近乎无信息量）。WebSearch 未获任何独立传记线索。未能解决。"},
+    {"entity": "金鏡", "id": "1jcf5151293p9", "works": 6,
+     "note": "同上，著录全系《經義考》，WebSearch 未获独立传记线索。未能解决。"}
+  ],
+  "new_finding_japan_entities_period_convention": {
+    "note": "本輪查得 entity「物茂卿」（1jcf5151297ah，5 works，著录含 舊唐書經籍志/新唐書藝文志/宋史藝文志/書目答問/國史經籍志 等）之真实身份极可能即已存在之 entity「荻生徂徠」（1jcf51512985f，dynasty=日本，1 work「讀荀子」）——物茂卿乃荻生徂徠（Ogyū Sorai，1666-1728，日本江戶時代儒者）之中文字/署名，其《論語徵》《讀韓非子》等著述与「讀荀子」之題式（讀＋子書）相合。二entity很可能係同一人異名重出，建议未来专案以 entity 合并处理（本轮因缺 merge_entity 工具原语、且非本轮'定代'范围，未动手合并，仅记此发现）。另查得庫中已有 130+ 个 dynasty='日本' 之 entity，其惯例是仅填 dynasty 不填 period（因 period 轴专用于中国朝代序），故此类 entity 即便定代也不会使 period=None 计数减少——今后若再挑该批杠杆清单，宜跳过已可辨认之日本学者条目，因其无助于本指标。"
+  },
+  "conclusion": "本轮挑取 leverage 清单前 13 个候选，经查证：9 人（郭象/顧彪/梁元帝/荀勖/諸葛穎/蕭子良/嚴植之/僧一行部分/王樹柟）可信定代，净增 16 条 period 记录；2 人（楊九齡/趙敦臨/金鏡……实际 3 人）因史料佚失、经义考单源不足查考，WebSearch 亦未获线索，未能解决；1 人（僧一行）部分定代部分因疑似宋代术数托名而存疑不填；1 人（張良）判定为疑似托名，全不填；另发现 1 处疑似跨批次 entity 重出（物茂卿≈荻生徂徠）留待未来合并；并记录'日本'系 entity 定代惯例对本指标无增益之新认识。"
+}

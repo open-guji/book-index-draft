@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr0gbpedj4",
   "type": "work",
   "title": "戰國策補釋",
-  "authors": [
-    {
-      "name": "正煒",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1jcf5151296wg",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296wg` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《戰國策補釋》六卷",
-      "author_info": "金正煒撰",
-      "summary": "《戰國策補釋》六卷。金正煒撰。影印復旦大學圖書館藏民國金氏十梅館刻本。",
-      "edition": "影印復旦大學圖書館藏民國金氏十梅館刻本",
-      "volume": "第422冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第422冊（史部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]",
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "id": "1evjr0gbpedj4",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0422%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 422
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gjf6vpe",
+  "_promoted_at": "2026-08-25T04:33:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gjf6vpe。"
 }

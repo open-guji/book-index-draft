@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy0mevr40",
   "type": "work",
   "title": "洞微志",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《洞微志》",
-      "summary": "（（張洎撰））錢易《洞微志》三卷又"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "洞微志",
-      "merged_from": "1evr5e3mkaqlz",
-      "note": "諸志同著《洞微志》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsy0mevr40",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "authors": [
-    {
-      "name": "錢易",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967da978dgz",
-      "note": "宋史藝文志作「（（張洎撰））錢易《洞微志》三卷又」，前置撰人錢易；條首「（（張洎撰））」乃上條之注。"
-    }
-  ],
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、直齋書錄解題同著《洞微志》三卷，今合併並據宋志前置撰人補為錢易。"
+  "_promoted_to": "d59f2hk96z9e",
+  "_promoted_at": "2026-08-25T05:44:34Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk96z9e。"
 }

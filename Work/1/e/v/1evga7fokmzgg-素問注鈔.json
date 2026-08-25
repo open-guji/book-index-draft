@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga7fokmzgg",
   "type": "work",
   "title": "素問注鈔",
-  "authors": [
-    {
-      "name": "滑壽",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j968l3qlngn9"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "滑壽素問注鈔三卷",
-      "summary": "元滑壽素問注鈔三卷"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "id": "1evga7fokmzgg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "related_works": [
-    {
-      "id": "1ev3bbfrximm8",
-      "title": "黃帝素問",
-      "relation": "studies",
-      "note": "所注解者為 《黃帝素問》（漢志《黃帝內經》之半，今傳二十四卷本）。元滑壽《注鈔》三卷（與前條疑一書二見）"
-    },
-    {
-      "id": "1evgc052qcq2o",
-      "title": "素問注抄",
-      "relation": "related",
-      "note": "同書之重出：元滑壽《素問注抄》三卷，前條出元史藝文志作「注抄」、後條出補遼金元藝文志作「注鈔」，抄鈔字異而書一。　二條並存，留待去重專項合併。"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gjuhibk",
+  "_promoted_at": "2026-08-25T04:34:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gjuhibk。"
 }

@@ -1,86 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjqzucnjzeo",
   "type": "work",
   "title": "刊謬補缺切韻",
-  "authors": [
-    {
-      "name": "王仁煦",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151293h4",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293h4` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《刊謬補缺切韻》五卷",
-      "author_info": "唐王仁煦撰",
-      "summary": "《刊謬補缺切韻》五卷。唐王仁煦撰。影印南京圖書館藏民國十四年石印唐蘭摹本。",
-      "edition": "影印南京圖書館藏民國十四年石印唐蘭摹本",
-      "volume": "第250冊",
-      "section": "经部 小學類"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《刊謬補缺切韻》",
-      "author_info": "唐王仁煦撰",
-      "summary": "《刊謬補缺切韻》。唐王仁煦撰。影印敦煌掇瑣本。",
-      "edition": "影印敦煌掇瑣本",
-      "volume": "第249冊",
-      "section": "经部 小學類"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第250冊（经部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n[N3磁鐵 2026-08-24 裁：不拆]《續修四庫全書》經部影王仁煦此書之二本——第二四九冊「《刊謬補缺切韻》，影印敦煌掇瑣本」（敦煌殘卷，故不著卷數），第二五〇冊「《刊謬補缺切韻》五卷，影印南京圖書館藏民國十四年石印唐蘭摹本」。撰人同、題全同，是同書之二本。\n\n《續修四庫全書》《四庫全書存目叢書》是影印叢編，一叢編收同書之二本（底本異）而共繫一 work 是對的——版本之別依 SCHEMA 記於 Book，不別立 Work。",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "id": "1evjqzucnjzeo",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0250%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 250
-      },
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0249%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 249
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f28ltzk04",
+  "_promoted_at": "2026-08-24T19:24:49Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ltzk04。"
 }

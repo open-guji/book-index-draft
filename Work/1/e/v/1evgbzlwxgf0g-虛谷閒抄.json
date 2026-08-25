@@ -1,38 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evgbzlwxgf0g",
   "type": "work",
   "title": "虛谷閒抄",
-  "authors": [
-    {
-      "name": "方回",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147clxu"
-    }
+  "_promoted_to": "d59f2gls3fgh",
+  "_promoted_at": "2026-08-25T04:38:18Z",
+  "merged_from": [
+    "1evga66awao74"
   ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "方回虛谷閒抄一卷",
-      "summary": "元方回虛谷閒抄一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evgbzlwxgf0g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gls3fgh。"
 }

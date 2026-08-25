@@ -2,45 +2,8 @@
   "schema_version": 1,
   "id": "1evi5v81l5hj4",
   "type": "work",
-  "subtype": "article",
   "title": "海賦",
-  "authors": [
-    {
-      "name": "木華",
-      "dynasty": "西晉",
-      "role": "作",
-      "entity_id": "1j96hgfcc86ww",
-      "dynasty_basis": "historical_dict:round2(木華，字玄虛，西晉文學家，撰海賦)"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E6%B5%B7%E8%B3%A6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evcmocs9vtog",
-      "title": "文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T14:05:56+00:00",
-  "_has_text": true,
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "description": {
-    "text": "木華賦。詠海之浩渺與其變怪，鋪陳極恣肆。《文選》卷十二「江海」類收之，與郭璞《江賦》並稱。撰人木華，字玄虛，廣川人，晉楊駿府主簿。",
-    "sources": [
-      "文選"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。"
+  "_promoted_to": "d59f27yrob29",
+  "_promoted_at": "2026-08-24T18:40:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27yrob29。"
 }

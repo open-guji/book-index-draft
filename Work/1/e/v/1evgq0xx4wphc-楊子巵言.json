@@ -6,7 +6,9 @@
     {
       "name": "揚慎",
       "role": "撰",
-      "entity_id": "1j96hg3msv280"
+      "entity_id": "1j96hg3msv280",
+      "dynasty": "明",
+      "dynasty_basis": "period_basis 已考定（J30）：「揚愼」即明楊慎(1488-1559)，《卮言》為其著述（2026-08-24 R3二輪 引文定代）"
     }
   ],
   "juan_count": {
@@ -22,7 +24,7 @@
     }
   ],
   "description": {
-    "text": "《國史經籍志》收錄。",
+    "text": "揚慎撰。二卷。見著錄於《國史經籍志》。其著錄之文，《國史經籍志》作「《楊子巵言》二卷（揚愼）」。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
     "sources": [
       "國史經籍志"
     ]
@@ -39,5 +41,10 @@
   "period_upper": "ming",
   "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "period": "ming",
-  "period_basis": "「揚愼」即明楊慎(1488-1559)，《卮言》為其著述（2026-08-24 R3二輪 引文定代）"
+  "period_basis": "「揚愼」即明楊慎(1488-1559)，《卮言》為其著述（2026-08-24 R3二輪 引文定代）",
+  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 J30：authors[0].dynasty 補「明」——period_basis 已具體考定（「揚愼」即明楊慎(1488-1559)，《卮言》為其著述（2026-08-24 R3二輪 引文定代）…），indexed_by 無 misattached 標記，逕 propagate。",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（J30，period_basis 已考定）",
+  "_promoted_to": "d59f2ngufhtt",
+  "_promoted_at": "2026-08-25T12:33:12Z"
 }

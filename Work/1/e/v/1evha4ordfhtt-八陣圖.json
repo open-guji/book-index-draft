@@ -2,37 +2,8 @@
   "schema_version": 1,
   "id": "1evha4ordfhtt",
   "type": "work",
-  "subtype": "poem",
   "title": "八陣圖",
-  "authors": [
-    {
-      "name": "杜甫",
-      "dynasty": "唐",
-      "entity_id": "1j968iupss3ll"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evha3f4fpqf4",
-      "title": "唐詩三百首",
-      "relation": "collected_in"
-    }
-  ],
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%85%AB%E9%99%A3%E5%9C%96",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]"
+  "_promoted_to": "d59f28n7xiwy",
+  "_promoted_at": "2026-08-24T19:27:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28n7xiwy。"
 }

@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbs21slybk",
   "type": "work",
   "title": "春秋左氏綱目",
-  "authors": [
-    {
-      "name": "安熙",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147clyg"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "安熙春秋左氏綱目",
-      "summary": "元安熙春秋左氏綱目"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《春秋左氏綱目》（安熙）",
-      "summary": "蘇天爵狀曰先生深於六經病近世治春秋者第知讀左氏不考正經因節左氏傳文議論叙事始末依倣通鑑綱目作小字分注經文之下以類相從凡左氏浮夸乖戾之語悉去之秦漢以來大儒先生之言及諸家之説可取者附注其後庶觀春秋者可以考傳讀左氏者亦知有經其大㫖一以朱子為本而達於程張以求聖人之意絶筆於莊公十二年",
-      "section": "春秋",
-      "juan": "卷一百九十四",
-      "page": "KR2n0011_WYG_194-20b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "id": "1evgbs21slybk",
-  "related_works": [
-    {
-      "id": "d59ezak6jq4g",
-      "title": "左傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gikwv0g",
+  "_promoted_at": "2026-08-25T04:32:09Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gikwv0g。"
 }

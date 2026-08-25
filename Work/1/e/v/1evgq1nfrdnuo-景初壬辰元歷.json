@@ -1,68 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq1nfrdnuo",
   "type": "work",
   "title": "景初壬辰元歷",
-  "authors": [
-    {
-      "name": "楊左",
-      "role": "撰",
-      "entity_id": "1j96h8rw94flz",
-      "dynasty": "南朝宋",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw94flz`（楊左）之 dynasty「宋」。其據見該 entity 之 dynasty_basis。 N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《景初壬辰元歷》一卷",
-      "summary": "《景初壬辰元歷》一卷（楊左）",
-      "author_info": "楊左"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《景初壬辰元曆》一卷",
-      "summary": "《景初壬辰元曆》一卷楊沖撰。",
-      "merged_from": "1evcmne94o0lc",
-      "note": "本著錄原繫題作「景初壬辰元曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq1nfrdnuo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T04:34:30.819282+00:00",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《景初壬辰元曆》一卷",
-      "summary": "景初壬辰元曆一卷 楊沖撰\n汪氏《推步諸術考》:案《隋經籍志》既有楊偉《景初術》,又\n有楊沖《景初壬辰元術》一卷,當是複出。\n案《景初曆》曆元本是壬辰,此又云《壬辰元曆》,故汪氏以\n為複出。楊沖之“沖”,亦疑草寫“偉”字之誤。",
-      "merged_from": "1evcmne94o0lc",
-      "note": "本著錄原繫題作「景初壬辰元曆」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "additional_titles": [
-    "景初壬辰元曆"
-  ],
-  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《景初壬辰元曆》之 work（`1evcmne94o0lc`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN4 朝代名歸一（2026-08-24）：楊左「宋」→「南朝宋」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，其 Entity「楊左」之 dynasty「宋」有歧義，而上限 sui-tang 排除其晚解，故必 nanbeichao（2026-08-24 R2）",
-  "_path": "/home/user/book-index-draft/Work/1/e/v/1evgq1nfrdnuo-景初壬辰元歷.json"
+  "_promoted_to": "d59f286kaner",
+  "_promoted_at": "2026-08-24T18:55:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286kaner。"
 }

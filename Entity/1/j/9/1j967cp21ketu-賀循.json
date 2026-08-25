@@ -7,45 +7,45 @@
   "dynasty": "東晉",
   "works": [
     {
-      "work_id": "1evilzgbssxkw",
+      "work_id": "d59f27w95hj5",
       "role": "撰"
     },
     {
-      "work_id": "1evcml1dxaosg",
+      "work_id": "d59f27uwggsg",
       "role": "撰"
     },
     {
-      "work_id": "1evc5pcyljoqo"
+      "work_id": "d59f27uzku82"
     },
     {
-      "work_id": "1evcpctgk64n4"
+      "work_id": "d59f27vvf1mo"
     },
     {
-      "work_id": "1evcpctenhx4w",
+      "work_id": "d59f27yy8agy",
       "role": "撰"
     },
     {
-      "work_id": "1evcpctf41hxc",
+      "work_id": "d59f27yzsh6o",
       "role": "撰"
     },
     {
-      "work_id": "1evcmob7qojy8",
+      "work_id": "d59f27umgveq",
       "role": "撰"
     },
     {
-      "work_id": "1ewsa4bhcw500",
+      "work_id": "d59f27taebrb",
       "role": "撰"
     },
     {
-      "work_id": "1ewsa4bhgy829",
+      "work_id": "d59f27tbc1ds",
       "role": "撰"
     },
     {
-      "work_id": "1ewsa49u4atrl",
+      "work_id": "d59f27tc9r0n",
       "role": "撰"
     },
     {
-      "work_id": "1ex25u4ivk78e",
+      "work_id": "d59f27tdip6r",
       "role": "撰"
     }
   ],
@@ -57,5 +57,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 dynasty「東晉」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 補繫 entity：新收 5 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 清 works：去懸空者 1（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。"
+  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 補繫 entity：新收 5 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 works 死鏈清理：所指 work 檔兩倉皆無（歷次併條/刪條之積欠），去之：1ewsa49u08qpc。"
 }

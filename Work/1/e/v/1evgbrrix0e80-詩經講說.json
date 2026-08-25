@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbrrix0e80",
   "type": "work",
   "title": "詩經講說",
-  "authors": [
-    {
-      "name": "顏達",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96hfj4nqqrk"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "顏達詩經講說",
-      "author_info": "江陵人",
-      "summary": "元顏達（江陵人）詩經講說"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《詩經講説》（顔達）",
-      "summary": "陸元輔曰江陵人",
-      "section": "詩",
-      "juan": "卷一百十一",
-      "page": "KR2n0011_WYG_111-17b",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "江陵人",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('程楷', '明'), ('王逢', '明')]，本條作者 顏達（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgbrrix0e80",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gfms6bm",
+  "_promoted_at": "2026-08-25T04:26:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gfms6bm。"
 }

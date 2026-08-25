@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgop8owm4n4",
   "type": "work",
   "title": "周易注",
-  "authors": [
-    {
-      "name": "干寶",
-      "role": "撰",
-      "dynasty": "東晉",
-      "entity_id": "1j96a9e1axn28",
-      "original_name": "干寳",
-      "dynasty_basis": "manual:historical_figure(干寶(?-336)，字令升，東晉史學家)"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《周易注》十卷",
-      "summary": "《周易注》十卷（晉干寳）",
-      "author_info": "晉干寳"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周易註",
-      "summary": "晉干寶《周易註》一卷。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "title_info": "周易注十卷",
-      "summary": "周易注十卷 散騎常待干,謹按見《隋志》。本書寶傳無卷數。",
-      "section": "甲部經錄／易類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "description": {
-    "text": "干寶（東晉）撰。十卷；諸志所著之數有異，別作一卷。見著錄於《國史經籍志》《清史稿藝文志》《補晋書藝文志》。《補晋書藝文志》列於甲部經錄·易類。經注之屬。",
-    "sources": [
-      "國史經籍志",
-      "清史稿藝文志",
-      "補晋書藝文志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-13 全庫同名異書核對：併入獨立記錄 1evfugvg5t1c0（同一補晉書藝文志之源之重出，僅標點轉錄有異：「干。謹按」vs「干,謹按」），題名、卷數、來源全合，確係同書重出，原記錄已刪除，collated_edition 之 work_id 改繫本記錄。\n\n2026-08-20 磁鐵拆解專項（全域掃描）：國史經籍志之「《周易注》十卷」一節原繫於磁鐵條（`1evftefbsfbpc`），其題與本條合而本條非磁鐵，今改繫本條並補其著錄。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgop8owm4n4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "additional_titles": [
-    "周易註"
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "_promoted_to": "d59f27ybr7cw",
+  "_promoted_at": "2026-08-24T18:39:38Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ybr7cw。"
 }

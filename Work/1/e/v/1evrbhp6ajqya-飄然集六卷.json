@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evrbhp6ajqya",
+  "type": "work",
   "title": "飄然集",
-  "authors": [
-    {
-      "name": "歐陽澈",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967bgl8kqwj",
-      "dynasty_basis": "entity_propagation:1j967bgl8kqwj"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "飄然集六卷",
-      "summary": "飄然集六卷\n歐陽澈撰。附錄一卷。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "飄然集"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "juan_count": {
-    "number": 6
-  },
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（六卷），今據以補。"
+  "_promoted_to": "d59f2hkpqk1u",
+  "_promoted_at": "2026-08-25T05:45:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkpqk1u。"
 }

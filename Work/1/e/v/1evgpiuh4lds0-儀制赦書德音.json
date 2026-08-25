@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpiuh4lds0",
   "type": "work",
   "title": "儀制赦書德音",
-  "authors": [
-    {
-      "name": "陳彭年",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzmli53"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《儀制赦書德音》十卷",
-      "summary": "《儀制赦書德音》十卷（陳彭年）",
-      "author_info": "陳彭年"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpiuh4lds0",
-  "ai_note": "[QA2026-04-20] title 含可疑字符: \"儀制赦書、德音\"，可能是解析错误\n[QA-fix 2026-04-20] title \"儀制赦書、德音\" → \"儀制赦書德音\" (remove 顿号)",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-08T11:51:56+00:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」（2026-08-13 南北朝探勘查出「陳」姓氏誤作朝代前綴之bug：陳彭年（961-1017，北宋《廣韻》重修者）：5條著錄因姓氏「陳」誤作朝代前綴而誤繫入同名之明代彭年（孔嘉，1j967c148wsnm）Entity，今改繫正確之北宋陳彭年Entity）"
+  "_promoted_to": "d59f2hgkj4eb",
+  "_promoted_at": "2026-08-25T05:37:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgkj4eb。"
 }

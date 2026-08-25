@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw5v0ku0w",
   "type": "work",
   "title": "詳解",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《詳解》",
-      "summary": "《詳解》五十卷康伯成"
-    }
-  ],
-  "id": "1evcsw5v0ku0w",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "康伯成",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf515129389",
-      "note": "宋史藝文志作「《詳解》五十卷康伯成」，所繫撰人康伯成。",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129389` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 50
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 50
-    }
-  ],
-  "measure_info": "五十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為康伯成《詳解》五十卷，與同志林椿齡《詳解》一卷（`1evcsw8y78vls`）非一書，未予合併。"
+  "_promoted_to": "d59f2hf69wxv",
+  "_promoted_at": "2026-08-25T05:34:48Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hf69wxv。"
 }

@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr23a8xji8",
   "type": "work",
   "title": "通制條格存",
-  "authors": [
-    {
-      "name": "拜柱",
-      "role": "纂",
-      "dynasty": "元",
-      "entity_id": "1jcf5151295yr",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295yr` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《通制條格存》二十二卷",
-      "author_info": "元拜柱等纂",
-      "summary": "《通制條格存》二十二卷。元拜柱等纂。影印天津圖書館藏民國十九年北平圖書館影印明鈔本。",
-      "edition": "影印天津圖書館藏民國十九年北平圖書館影印明鈔本",
-      "volume": "第787冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第787冊（史部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。　撰人「等」字剝離：著錄作「拜柱等」，「等」謂拜柱及其他未具名之纂修者，非姓名之一部，今剝離作「拜柱」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "juan_count": {
-    "number": 22
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "id": "1evjr23a8xji8",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0787%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 787
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gmjvjsw",
+  "_promoted_at": "2026-08-25T04:39:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmjvjsw。"
 }

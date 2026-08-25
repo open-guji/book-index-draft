@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkaoccuq9kw",
   "type": "work",
   "title": "日本書紀",
-  "authors": [
-    {
-      "name": "安麻呂",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf51512957s",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512957s` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀012010-012015）。日本明治十六年佚存書坊石印巾箱本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-22 B3 併池（藏本條重出）：1evkpyr0v1urk 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 6
-    }
-  ],
-  "measure_info": "六冊",
-  "id": "1evkaoccuq9kw",
-  "books": [
-    "11qki0ddo12ww",
-    "11qki0divmpds"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [],
-  "period_upper": "qing",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「日本弘化嘉永間水野忠央輯刊丹鶴叢書本」——版本之年不早於成書之年，故不晚於 qing"
+  "_promoted_to": "d59f28lkb75v",
+  "_promoted_at": "2026-08-24T19:24:18Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lkb75v。"
 }

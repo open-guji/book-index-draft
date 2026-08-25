@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5p8r9mw3k",
   "type": "work",
   "title": "周易講疏梁武帝撰",
-  "original_title": "周易講疏",
-  "authors": [
-    {
-      "name": "梁武帝",
-      "entity_id": "1j967afjav1vw"
-    },
-    {
-      "name": "蕭衍",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "note": "梁武帝。另有《周易大義》二十一卷（雜義類）、《周易問》二十卷（雜義類）、《周易繫辭義疏》一卷（義疏類）。",
-      "entity_id": "1j967afjav1vw",
-      "dynasty_basis": "entity_propagation:1j967afjav1vw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《周易講疏》三十五卷",
-      "summary": "《周易講疏》三十五卷梁武帝撰。"
-    }
-  ],
-  "juan_count": {
-    "number": 35
-  },
-  "id": "1evc5p8r9mw3k",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "周易講疏三十五卷 梁武帝撰",
-      "summary": "梁武帝有《周易大義》，見前。\n《南史·儒林孔子祛傳》：梁武帝撰《五經講疏》，專使子祛檢閱群書，以為義證。\n又《沈洙傳》：朱异、賀琛於士林館講制旨義，常使洙為都講。\n《梁書·簡文帝本紀》：高祖所製《五經講疏》，嘗於玄圃奉述，聽者傾朝野。\n《唐書·經籍志》：《周易講疏》三十五卷，梁武帝撰。《新志》不著錄。\n馬氏玉函山房輯本序曰：「《隋志》有《周易大義》二十一卷、《周易講疏》三十五卷，《唐·藝文志》又有《大義疑問》二十卷，今並亡佚。《釋文》引梁武帝凡四節，不言何書。今并采《武帝集》引《易》附之，以補異同。」\n按梁元帝《金樓子著書篇》：「《周易義疏》三秩，三十卷。」金樓奉述制義，私小小措意也。則又因此疏觸類而長者。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 35
-    }
-  ],
-  "measure_info": "三十五卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evc5p8r9mw3k/fragments/周易講疏梁武帝撰.json，現為著錄層——輯家、條數、出處有據，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/周易講疏梁武帝撰.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《周易講疏》三十五卷》→《周易講疏》`1evcpcsujxtz4`。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 4 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。",
-  "loss_status": "partially_extant",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f2847e3nm",
+  "_promoted_at": "2026-08-24T18:50:56Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2847e3nm。"
 }

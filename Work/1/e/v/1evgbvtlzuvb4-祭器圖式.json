@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbvtlzuvb4",
   "type": "work",
   "title": "祭器圖式",
-  "authors": [
-    {
-      "name": "趙孟頫",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c147cly7"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "趙孟頫祭器圖式十卷",
-      "summary": "元趙孟頫祭器圖式十卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "趙孟頫祭器圖",
-      "author_info": "二十冊",
-      "summary": "元趙孟頫祭器圖（二十冊）"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evgbvtlzuvb4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "description": {
-    "text": "二十冊",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gdlqn7m",
+  "_promoted_at": "2026-08-25T04:22:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gdlqn7m。"
 }

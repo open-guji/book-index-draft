@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgor30i6o00",
   "type": "work",
   "title": "孟子紀蒙",
-  "authors": [
-    {
-      "name": "壽老",
-      "role": "撰",
-      "dynasty": "南朝陳",
-      "entity_id": "1j967avzmli5p",
-      "dynasty_basis": "synonym:陳->南朝陳"
-    }
-  ],
-  "juan_count": {
-    "number": 14
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孟子紀蒙》十四卷",
-      "summary": "《孟子紀蒙》十四卷（陳壽老）",
-      "author_info": "陳壽老"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《孟子紀蒙》十四卷",
-      "summary": "國子司業臨海陳耆卿壽老撰。水心葉適為之序。耆卿，學於水心者也。嘗主麗水簿，當嘉定初年成此書。",
-      "note": "本著錄原繫於合刻數書之磁鐵條「論語紀蒙》六卷、《孟子紀蒙」（`1evr5e3mjzi7w`），今歸本條。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgor30i6o00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "related_works": [
-    {
-      "id": "d59ezajwvda8",
-      "title": "孟子",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty（2026-08-13 南北朝探勘第二輪：陳耆卿（字壽老）《孟子紀蒙》：同上，「壽老」為陳耆卿本人字號，非另一人）",
-  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《孟子紀蒙》十四卷」一節原繫於合刻數書之磁鐵條（`1evr5e3mjzi7w`），其題、卷數與本條全合，今改繫本條，並補其著錄。"
+  "_promoted_to": "d59f2hgowg00",
+  "_promoted_at": "2026-08-25T05:37:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgowg00。"
 }

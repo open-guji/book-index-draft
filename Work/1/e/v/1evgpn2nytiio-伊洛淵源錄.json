@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpn2nytiio",
   "type": "work",
   "title": "伊洛淵源錄",
-  "juan_count": {
-    "number": 14
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《伊洛淵源錄》十四卷",
-      "summary": "《伊洛淵源錄》十四卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpn2nytiio",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "authors": [
-    {
-      "name": "朱熹",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j967cp1zdr19",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:朱熹(1130-1200)，南宋，誤標)"
-    }
-  ],
-  "ai_note": "作者「宋朱熹撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka8rpessg0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgpn2nytiio()（不同作者，故新建獨立 Work）。",
-  "books": [
-    "11qki4lu78iyo",
-    "11qkhumhp3j7k",
-    "11qki4lvscydc",
-    "11qkhumgptpts",
-    "11qki4lskjwu8"
-  ],
-  "updated_at": "2026-08-22T04:56:00.058800+00:00",
-  "period_upper": "liao-jin-yuan",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「元刊本」——版本之年不早於成書之年，故不晚於 liao-jin-yuan",
-  "period": "song",
-  "period_basis": "撰人朝代闕，據其 Entity「朱熹」之 period 傳播；上限 liao-jin-yuan 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f2hpm3myo",
+  "_promoted_at": "2026-08-25T05:54:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hpm3myo。"
 }

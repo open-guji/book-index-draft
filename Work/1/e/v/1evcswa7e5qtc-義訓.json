@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcswa7e5qtc",
   "type": "work",
   "title": "義訓",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《義訓》",
-      "summary": "《義訓》十卷崔逢"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "義訓十卷",
-      "summary": "義訓十卷",
-      "merged_from": "1evr5e3mfaxy9",
-      "note": "諸志同著《義訓》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcswa7e5qtc",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "authors": [
-    {
-      "name": "崔逢",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151295dm",
-      "note": "宋史藝文志作「《義訓》十卷崔逢」，所繫撰人崔逢。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295dm` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目同著《義訓》十卷，今合併並據宋志所繫補撰人為崔逢。"
+  "_promoted_to": "d59f2hk9tgcj",
+  "_promoted_at": "2026-08-25T05:44:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hk9tgcj。"
 }

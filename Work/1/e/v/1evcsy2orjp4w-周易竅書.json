@@ -1,76 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy2orjp4w",
   "type": "work",
   "title": "周易竅書",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《周易竅書》",
-      "summary": "《周易竅書》一卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "周易竅書三卷",
-      "summary": "周易竅書三卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周易竅書三卷 郭璞。謹按見《通志藝文略》。",
-      "section": "附錄",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《周易竅書》三卷",
-      "summary": "《周易竅書》三卷（郭璞）",
-      "author_info": "郭璞"
-    }
-  ],
-  "id": "1evcsy2orjp4w",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「郭璞」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "authors": [
-    {
-      "name": "郭璞",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j968k0jdrlz4",
-      "note": "據本 work 諸著錄之 author_info「郭璞」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「郭璞」而無 entity_id，今繫 `1j968k0jdrlz4`——庫中 primary_name 同之者唯一。其代「東晉」與本書已定之代「jin」相合。"
-    }
-  ],
-  "description": {
-    "text": "郭璞撰。三卷；諸志所著之數有異，別作一卷。見著錄於《宋史藝文志》《崇文總目》《補晋書藝文志》《國史經籍志》。《補晋書藝文志》列於附錄。諸家按語稱其佚文見引於《通志》。",
-    "sources": [
-      "宋史藝文志",
-      "崇文總目",
-      "補晋書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27ya70n4",
+  "_promoted_at": "2026-08-24T18:39:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ya70n4。"
 }

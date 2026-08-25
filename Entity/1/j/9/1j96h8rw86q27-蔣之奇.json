@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "1j96h8rw86q27",
+  "type": "entity",
+  "subtype": "people",
+  "primary_name": "蔣之奇",
+  "dynasty": "宋",
+  "works": [
+    {
+      "work_id": "d59f2hk3kphe",
+      "role": "撰"
+    },
+    {
+      "work_id": "d59f2hcr6pdv",
+      "role": "撰"
+    },
+    {
+      "work_id": "d59f2he4tfr4",
+      "role": "撰"
+    }
+  ],
+  "external_ids": {
+    "cbdb_id": 422102,
+    "cbdb_match": "manual",
+    "cbdb_source": "pending_accept: auto_unique cbdb_dy=15"
+  },
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "ai_note": "2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-25 宋代G3 異體歸正：primary_name 異體字歸併正體（原作「蔣之竒」，存 alt_names）。",
+  "period": "song",
+  "period_basis": "dynasty「宋」有歧義（可解為 nanbeichao、song），而所繫之 work 之代唯 song 一解與之相合，故定之。（2026-08-24 補）",
+  "alt_names": [
+    {
+      "name": "蔣之竒",
+      "type": "異體"
+    }
+  ]
+}

@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml3zdb6yo",
   "type": "work",
   "title": "十五代略",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《十五代略》十卷",
-      "summary": "《十五代略》十卷吉文甫撰。起庖犧，至晉。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《十五代略》十卷",
-      "summary": "《十五代略》十卷吉文甫撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "吉文甫十五代略",
-      "summary": "吉文甫十五代略十卷",
-      "merged_from": "1evcs0cs3n2tc"
-    }
-  ],
-  "authors": [
-    {
-      "name": "吉文甫",
-      "role": "撰",
-      "entity_id": "1j96ha7gvpqf4"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcml3zdb6yo",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "十五代略一卷",
-      "summary": "十五代略一卷 吉文甫撰。起 犧,至晉。\n吉文甫有《釋字同音》,見經部小學類。\n《唐書·經籍志》:《十五代略》十卷,吉文甫撰。\n《唐書·藝文志》:吉文甫《十五代略》十卷。\n按兩《唐志》皆十卷,本志一卷,似寫誤。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-24T11:35:02.011608+00:00",
-  "merged_in": [
-    {
-      "id": "1evcs0cs3n2tc",
-      "title": "吉文甫十五代略",
-      "author": "吉文甫",
-      "title_info": "吉文甫十五代略",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「吉文甫十五代略」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「吉文甫」已見本條 authors[]），裸題「十五代略」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "隋志云其書「起庖犧，至晉」，斷限止於晉，成書必在晉亡之後、隋志之前；吉文甫另有書見隋志「梁有…亡」，當為南朝人。　複審採納：斷限止晉、隋志「梁有…亡」，上下限俱在南北朝之內（2026-08-24 B1 medium 複審）"
+  "_promoted_to": "d59f286dffgi",
+  "_promoted_at": "2026-08-24T18:55:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286dffgi。"
 }

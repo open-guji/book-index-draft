@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxkcn4phc",
   "type": "work",
   "title": "姓源韻譜",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《姓源韻譜》",
-      "summary": "曹大宗《姓源韻譜》一卷杜信"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "姓源韻譜五卷",
-      "summary": "姓源韻譜五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《姓源韻譜》四卷",
-      "summary": "《姓源韻譜》四卷（曹大宗）",
-      "author_info": "曹大宗"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "姓源韻譜",
-      "merged_from": "1evr5e3mkaqos",
-      "note": "諸志同著《姓源韻譜》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxkcn4phc",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "曹大宗",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151293bc",
-      "note": "宋史藝文志作「曹大宗《姓源韻譜》一卷杜信」、國史經籍志注「曹大宗」，二志相合；句末「杜信」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293bc` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志、直齋書錄解題同著《姓源韻譜》，一卷、四卷、五卷之異乃傳本之別，今合併。宋志之前置撰人與國史經籍志之注相合，並為曹大宗。\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 ≥4 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字；敘錄之引文截其前二句（不逾一百五十字）。未覆核原書。生成之法見 `.claude/skills/curate-dynasty` 之記。何以機械撮之：本桶待補者七百餘條而材料大半止於著錄語，逐條手撰不可行，而放著不補則升格後 production 內盡是空條；**卷數之異同正是著錄條最有價值的信息**——諸志所著不同，即其書歷代殘闕之跡。",
-  "description": {
-    "text": "《姓源韻譜》一卷，唐曹大宗撰。諸志所著卷數不一：《宋史藝文志》著一卷；《崇文總目》著五卷；《國史經籍志》著四卷——卷數之異，歷代殘闕與傳鈔之跡。",
-    "sources": [
-      "宋史藝文志",
-      "崇文總目",
-      "國史經籍志",
-      "直齋書錄解題"
-    ]
-  }
+  "_promoted_to": "d59f28ku39j6",
+  "_promoted_at": "2026-08-24T19:22:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ku39j6。"
 }

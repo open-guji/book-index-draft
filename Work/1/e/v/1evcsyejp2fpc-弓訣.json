@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyejp2fpc",
   "type": "work",
   "title": "弓訣",
-  "authors": [
-    {
-      "name": "李靖",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96gwf6eaf47"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《弓訣》",
-      "summary": "李靖《弓訣》一卷",
-      "note": "前置撰人核對前一條「張子霄《神射訣》一卷李靖」，句末「李靖」頂真格屬本條撰人。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《弓訣》",
-      "summary": "《弓訣》一卷呂惠卿",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、宋史藝文志、崇文總目，1卷，不著撰人）與本條（宋史藝文志，1卷，李靖撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。",
-      "merged_from": "1evcsyejp2fpc"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《弓訣》一卷",
-      "summary": "《弓訣》一卷",
-      "merged_from": "1evcsyejp2fpc",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、宋史藝文志、崇文總目，1卷，不著撰人）與本條（宋史藝文志，1卷，李靖撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "弓訣一卷",
-      "summary": "弓訣一卷",
-      "merged_from": "1evcsyejp2fpc",
-      "note": "同題二條而一方無撰人：彼條（國史經籍志、宋史藝文志、崇文總目，1卷，不著撰人）與本條（宋史藝文志，1卷，李靖撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    }
-  ],
-  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「李靖《弓訣》一卷」（並經頂真格前條互證），僅頂層 authors 欄漏收，今補入，繫既有李靖 entity。與同題另一本（呂惠卿鄰接之匿名一卷本，見 `1evcsyekzw16o`）非同書——彼條句末「呂惠卿」屬下一條《弓試》之撰人，非本條，二者純屬題名巧合。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsyekzw16o`（弓訣）。2026-08-23 B10（同題一方無撰人）：併入 `1evcsyekzw16o`（國史經籍志、宋史藝文志、崇文總目，1卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
-  "id": "1evcsyejp2fpc",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "updated_at": "2026-08-23T00:00:00+00:00"
+  "_promoted_to": "d59f28lsqltx",
+  "_promoted_at": "2026-08-24T19:24:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lsqltx。"
 }

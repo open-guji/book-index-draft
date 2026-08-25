@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyj4d27sw",
   "type": "work",
   "title": "藥對",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《藥對》",
-      "summary": "徐玉《藥對》二卷宗令祺"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "藥對二卷",
-      "summary": "藥對二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《藥對》二卷",
-      "summary": "《藥對》二卷（北齊徐之才1）",
-      "author_info": "北齊徐之才1",
-      "merged_from": "1evgq4o1uxpfk",
-      "note": "諸志同著《藥對》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsyj4d27sw",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "authors": [
-    {
-      "name": "徐之才",
-      "role": "撰",
-      "dynasty": "北齊",
-      "entity_id": "1jcf51512939z",
-      "note": "國史經籍志注「北齊徐之才」；宋史藝文志作「徐玉《藥對》二卷宗令祺」，「玉」為「之才」之殘訛。句末「宗令祺」屬下條。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512939z` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "北齊",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「北齊」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、崇文總目、國史經籍志同著《藥對》二卷，今合併並據國史經籍志之注補撰人為徐之才（宋志作「徐玉」，殘訛）。"
+  "_promoted_to": "d59f286m62o2",
+  "_promoted_at": "2026-08-24T18:55:34Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286m62o2。"
 }

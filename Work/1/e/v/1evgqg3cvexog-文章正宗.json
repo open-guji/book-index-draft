@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqg3cvexog",
   "type": "work",
   "title": "文章正宗",
-  "authors": [
-    {
-      "name": "直德靈",
-      "role": "撰",
-      "entity_id": "1j96hgdthkykg"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《文章正宗》三十卷",
-      "summary": "《文章正宗》三十卷（直德靈）",
-      "author_info": "直德靈"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "文章正宗"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 作者冲突 work=真德秀 vs anno=直德靈",
-  "id": "1evgqg3cvexog",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "books": [
-    "11qk4xwcvooji"
-  ],
-  "updated_at": "2026-08-24T11:06:34.543004+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "period": "song",
-  "period_basis": "《文章正宗》三十卷為南宋真德秀撰，題名卷數全合（「直德靈」為形訛）（2026-08-24 R3二輪 引文定代）"
+  "_promoted_to": "d59f2hucug3k",
+  "_promoted_at": "2026-08-25T06:03:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hucug3k。"
 }

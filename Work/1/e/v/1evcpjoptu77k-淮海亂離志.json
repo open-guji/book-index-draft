@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjoptu77k",
   "type": "work",
   "title": "淮海亂離志",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《淮海亂離志》四卷",
-      "summary": "《淮海亂離志》四卷蕭大圓撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《淮海亂離志》四卷",
-      "summary": "《淮海亂離志》四卷（蕭世怡叙梁末侯景之亂。）",
-      "author_info": "蕭世怡叙梁末侯景之亂。",
-      "merged_from": "1evgph994kxz4",
-      "note": "諸志同著《淮海亂離志》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcpjoptu77k",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "authors": [
-    {
-      "name": "蕭大圓",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1jcf5151298ct",
-      "note": "舊唐書經籍志明載「《淮海亂離志》四卷蕭大圓撰」；國史經籍志注「蕭世怡叙梁末侯景之亂」，「世怡」為蕭大圓之字。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298ct` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "ai_note": "2026-08-19 全庫同名異書核對：舊唐書經籍志、國史經籍志同著《淮海亂離志》四卷，今合併並補撰人為蕭大圓（字世怡）。"
+  "_promoted_to": "d59f2861ketf",
+  "_promoted_at": "2026-08-24T18:54:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2861ketf。"
 }

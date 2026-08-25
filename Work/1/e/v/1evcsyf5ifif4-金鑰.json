@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyf5ifif4",
   "type": "work",
   "title": "金鑰",
-  "authors": [
-    {
-      "name": "李商隱",
-      "role": "撰",
-      "entity_id": "1j967bgl89ibq"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《金鑰》",
-      "summary": "李商隱《金鑰》二卷崔鉉"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "金鑰"
-    }
-  ],
-  "id": "1evcsyf5ifif4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格誤植鏈訂正）：補全 authors「李商隱」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。",
-  "updated_at": "2026-08-13",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併"
+  "_promoted_to": "d59f28jr2lmq",
+  "_promoted_at": "2026-08-24T19:20:49Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jr2lmq。"
 }

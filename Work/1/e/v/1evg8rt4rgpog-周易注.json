@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evg8rt4rgpog",
   "type": "work",
   "title": "周易注",
-  "authors": [
-    {
-      "name": "張應珍",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21keva",
-      "note": "後更姓名為吳鄭，自號義山，見下方兩處著錄"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "張應珍周易注十卷",
-      "author_info": "永新人，宋亡入元為祕書丞，更姓名吳鄭，自號義山",
-      "summary": "元張應珍（永新人，宋亡入元為祕書丞，更姓名吳鄭，自號義山）周易注十卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "吳鄭周易注十卷",
-      "author_info": "永新人。初名張應珍，由從事郎歷祕書監丞，遷祕書少監，更今姓名",
-      "summary": "元吳鄭（永新人。初名張應珍，由從事郎歷祕書監丞，遷祕書少監，更今姓名）周易注十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('1evftefbsfbpc', '王弼', '三國魏'), ('1evfhb8y8w83k', '王肅', '魏'), ('1evfubcy95pfk', '向秀', '晉'), ('1evf0g30g124g', '鄭衆', '東漢'), ('1evf0fpqgl14w', '鄭衆', '東漢'), ('1evfubb5ajrpc', '蜀才', '晉'), ('1evftef5bvj0g', '虞翻', '三國吳'), ('1evfubb2fjgg0', '太子中庶子', '晉'), ('1evfubau4i41s', '黄穎', '晉'), ('1evfubazp7pc0', '張瑞', '晉'), ('1evftefk9e6f4', '荀輝', '三國魏'), ('1evfubaww2tc0', '騎將軍王廣', '晉')]，本條作者 張應珍（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]　2026-08-10 秦漢同名異書核對覆核：1evgb8whoiadc（吳鄭，元史藝文志，十卷）併入本條——兩條互證為同一人（張應珍，宋亡入元後更名吳鄭，自號義山，永新人），互為同書異名之著錄，逕合併。",
-  "id": "1evg8rt4rgpog",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gfms6bk",
+  "_promoted_at": "2026-08-25T04:26:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gfms6bk。"
 }

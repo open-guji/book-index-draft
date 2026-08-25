@@ -1,74 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxnyn5pts",
   "type": "work",
   "title": "江南錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《江南錄》",
-      "summary": "徐鉉、湯悅《江南錄》十卷路振"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《江南錄》十卷",
-      "summary": "《江南錄》十卷（徐鉉、湯恱記江南李氏三主事。）",
-      "author_info": "徐鉉、湯恱記江南李氏三主事。",
-      "merged_from": "1evgph77b9pmo",
-      "note": "國史經籍志十卷，注「徐鉉、湯恱記江南李氏三主事」（「恱」為「悅」之異體），撰人、卷數與宋志全合。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "江南錄",
-      "merged_from": "1evr5e3miqjvx",
-      "note": "直齋原文：「給事中廣陵徐鉉鼎臣、光祿卿池陽湯悅德川撰。二人皆唐舊臣，故太宗命之撰次。悅即殷崇義，避宣祖諱及太宗舊名，並姓改焉。」"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "江南録十卷",
-      "summary": "江南録十卷",
-      "merged_from": "1evcsxnyn5pts",
-      "note": "《江南錄》與《江南録》之別，僅在異體字（江南錄／江南録），題名歸一後全同；卷數全同（10卷）；彼條無撰人而本條作「徐鉉、湯悅」。二者著錄異源（國史經籍志、宋史藝文志、直齋書錄解題 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "id": "1evcsxnyn5pts",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "徐鉉",
-      "role": "撰",
-      "dynasty": "南唐",
-      "entity_id": "1j96gxo52xf5y",
-      "note": "直齋書錄解題「給事中廣陵徐鉉鼎臣……撰」。徐鉉（917-992）字鼎臣，南唐舊臣，入宋官至散騎常侍。"
-    },
-    {
-      "name": "湯悅",
-      "role": "撰",
-      "dynasty": "南唐",
-      "entity_id": "1jcf51512976c",
-      "note": "直齋書錄解題「光祿卿池陽湯悅德川撰……悅即殷崇義，避宣祖諱及太宗舊名，並姓改焉」，本名殷崇義。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512976c` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "著錄內容：直齋「二人皆唐舊臣，故太宗命之撰次」，成書於宋太宗時",
-  "period": "song",
-  "period_basis": "據 dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志、直齋書錄解題三源皆十卷、皆題徐鉉湯悅，同為一書，今合為一條。直齋詳之：「給事中廣陵徐鉉鼎臣、光祿卿池陽湯悅德川撰。二人皆唐舊臣，故太宗命之撰次。悅即殷崇義，避宣祖諱及太宗舊名，並姓改焉」，故湯悅本名殷崇義。宋志本條句末「路振」依該志頂真格通例下屬次條，非本條撰人。徐鉉繫 entity `1j96gxo52xf5y`（南唐，CBDB 12236）；湯悅／殷崇義本庫無 entity，未繫。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfay2m`（江南錄）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfay2m`（崇文總目，題作《江南録》，10卷）。二題之別僅在異體字，歸一後全同，卷數全同（10卷）；彼條無撰人而本條作「徐鉉、湯悅」。",
-  "additional_titles": [
-    "江南録"
-  ]
+  "_promoted_to": "d59f2hjsnegw",
+  "_promoted_at": "2026-08-25T05:43:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hjsnegw。"
 }

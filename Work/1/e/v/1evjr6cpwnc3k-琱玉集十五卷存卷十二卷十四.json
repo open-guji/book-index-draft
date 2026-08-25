@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr6cpwnc3k",
   "type": "work",
   "title": "琱玉集十五卷(存卷十二、卷十四)",
-  "authors": [],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《琱玉集十五卷(存卷十二、卷十四)》",
-      "author_info": "唐佚名輯",
-      "summary": "《琱玉集十五卷(存卷十二、卷十四)》。唐佚名輯。影印清光緒日本東京使署古逸叢書影刻日本舊鈔卷子本。",
-      "edition": "影印清光緒日本東京使署古逸叢書影刻日本舊鈔卷子本",
-      "volume": "第1212冊",
-      "section": "子部 類書"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第1212冊（子部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-17 撰人闕載：原作者欄作「佚名」並繫於偽 Entity「佚名」——該 Entity 之名本是著錄語而非人名。《續修四庫全書》著錄原文作「佚名撰」。逐條回讀著錄原文，本書之撰人確不可考，故 authors 留空。空欄即「未著撰人」之正解；繫於一個偽人，反使不可考者看似可考。\n\n2026-08-24 隋唐 T7：period_basis 改述——原稱「據 authors[0].dynasty」而 authors 空，其據懸空。",
-  "id": "1evjr6cpwnc3k",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1212%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1212
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-17T18:19:19+00:00",
-  "_has_image": true,
-  "period": "sui-tang",
-  "period_basis": "本條不著撰人。period 作 sui-tang，其據是所繫《續修四庫全書》之著錄（影印日本藏唐鈔本殘卷，存卷十二、卷十四）——《琱玉集》是唐人類書，中土久佚而日本存其殘卷。本欄原作「據 authors[0].dynasty「唐」」而 authors 空，其據懸空，今改述。",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f28m160hx",
+  "_promoted_at": "2026-08-24T19:25:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28m160hx。"
 }

@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpn7xcfmrk",
   "type": "work",
   "title": "老子嚴遵注",
-  "authors": [
-    {
-      "name": "嚴遵",
-      "role": "注",
-      "dynasty": "西漢",
-      "entity_id": "1j967bgl7y9tc"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《嚴遵注老子》二卷",
-      "summary": "《嚴遵注老子》二卷（王弼注老子二卷鍾會注老子二卷）",
-      "author_info": "王弼注老子二卷鍾會注老子二卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpn7xcfmrk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "撰人訂正：原作「王弼」，誤。本條著錄原文為「《嚴遵注老子》二卷（王弼注老子二卷鍾會注老子二卷）」——括注所列之王弼注、鍾會注乃另二條著錄，匯入時併入本條而撰人誤取括注中之王弼。今改繫嚴遵（漢，蜀人，字君平，著《老子指歸》）。按：王弼注、鍾會注二條當別為 work，本批不新建，另報。　題名體例調整：原題《嚴遵注老子》（注者在前），今改《老子嚴遵注》（書名在前、注者在後），俾同書諸注本於題名排序時自然相聚。原題多為志書著錄之原形，已存入 additional_titles，indexed_by.title_info 亦本存著錄原文，改題不失其真。 2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。",
-  "additional_titles": [
-    "嚴遵注老子"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」且無 entity_id，2026-08-11 西漢探勘分期第三階段補繫並訂正）",
-  "original_title": "老子",
   "_promoted_to": "d59f24m6bs3n",
-  "_promoted_at": "2026-08-24T14:48:41Z"
+  "_promoted_at": "2026-08-24T14:48:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24m6bs3n。"
 }

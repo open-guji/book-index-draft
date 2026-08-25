@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsysgjc0lc",
   "type": "work",
   "title": "草堂集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《草堂集》",
-      "summary": "賈緯《草堂集》二十卷又"
-    }
-  ],
-  "id": "1evcsysgjc0lc",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%8D%89%E5%A0%82%E9%9B%86",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "_has_text": true,
-  "authors": [
-    {
-      "name": "賈緯",
-      "role": "撰",
-      "dynasty": "五代",
-      "entity_id": "1j967da978dgn",
-      "note": "宋史藝文志別集類此段為連續頂真格（前條「《紅藥編》五卷賈緯」句末之名前置為本條撰人）；本條句末之「又」領下條《續草堂集》十五卷，正可證本書屬賈緯。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "dynasty": "五代",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「五代」",
-  "related_works": [
-    {
-      "id": "1evcsyvmtfs3k",
-      "title": "草堂集",
-      "relation": "related",
-      "note": "北宋處士魏野二卷本（宋志、直齋二源），撰人、卷數俱異。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人「賈緯」據宋史藝文志別集類頂真格文例確定並繫 entity `1j967da978dgn`（五代史官，撰《唐年補錄》）；本條句末「又」領下條《續草堂集》十五卷，亦可證本書屬賈緯。同題另有北宋處士魏野二卷本（見 `1evcsyvmtfs3k`），撰人、卷數俱異，各為一書。"
+  "_promoted_to": "d59f2gc83wu8",
+  "_promoted_at": "2026-08-25T04:19:56Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gc83wu8。"
 }

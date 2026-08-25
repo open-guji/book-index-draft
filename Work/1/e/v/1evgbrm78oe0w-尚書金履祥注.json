@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbrm78oe0w",
   "type": "work",
   "title": "尚書金履祥注",
-  "authors": [
-    {
-      "name": "金履祥",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967c149uic3"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "金履祥尚書注十二卷",
-      "summary": "元金履祥尚書注十二卷"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《尚書注》（金履祥）",
-      "summary": "十二卷\n張雲章曰尚書表注四卷見於仁山先生本傳而無所謂書注十二卷者按栁文肅貫撰行狀云先生早歲所注尚書章釋句解葢指書注十二卷而言此書為先生早年所成晚復掇其要而為表注也",
-      "section": "書",
-      "juan": "卷八十四",
-      "page": "KR2n0011_WYG_084-9b",
-      "attested_status": "extant",
-      "attested_status_raw": "存",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('范寧', '晉'), ('部郎謝沈', '晉'), ('李譔', '三國蜀'), ('李充', '晉'), ('趙孟頫', '元')]，本條作者 金履祥（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgbrm78oe0w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "additional_titles": [
-    "尚書注"
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gmc2m81",
+  "_promoted_at": "2026-08-25T04:39:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gmc2m81。"
 }

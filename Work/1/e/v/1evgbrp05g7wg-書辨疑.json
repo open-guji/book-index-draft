@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbrp05g7wg",
   "type": "work",
   "title": "書辨疑",
-  "authors": [
-    {
-      "name": "韓性",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21kevb"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "韓性尚書辨疑一卷",
-      "summary": "元韓性尚書辨疑一卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "韓性書辨疑一卷",
-      "summary": "元韓性書辨疑一卷"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《尚書辨疑》（韓性）",
-      "summary": "一卷\n紹興府志韓性字明善㑹稽人魏公琦後辟薦皆不就卒賜諡莊節先生",
-      "section": "書",
-      "juan": "卷八十六",
-      "page": "KR2n0011_WYG_086-23a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('趙杞', '元')]，本條作者 韓性（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgbrp05g7wg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "studies"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2geqxywx",
+  "_promoted_at": "2026-08-25T04:24:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2geqxywx。"
 }

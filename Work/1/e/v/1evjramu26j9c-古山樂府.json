@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjramu26j9c",
   "type": "work",
   "title": "古山樂府",
-  "authors": [
-    {
-      "name": "張野",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1jcf5151295pj",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295pj` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《古山樂府》二卷",
-      "author_info": "(元)張野撰",
-      "summary": "《古山樂府》二卷。(元)張野撰。影印上海圖書館藏清康熙二十八年侯氏亦園刻十名家詞集本。",
-      "edition": "影印上海圖書館藏清康熙二十八年侯氏亦園刻十名家詞集本",
-      "volume": "第1723冊",
-      "section": "集部 集部"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "張埜古山樂府二卷",
-      "summary": "元張埜古山樂府二卷",
-      "merged_from": "1evgc3a3dj08w",
-      "note": "撰人原作「張埜」，乃「張野」之異寫或形訛，本條併入。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第1723冊（集部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1evgc3a3dj08w(張埜)。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evgc3a3dj08w` 同題《古山樂府》、同卷數 2，撰人分作「張野」「張埜」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「張野」，異名之著錄並存於 indexed_by。",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "id": "1evjramu26j9c",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1723%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1723
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2gn7wtmp",
+  "_promoted_at": "2026-08-25T04:41:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gn7wtmp。"
 }

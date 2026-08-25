@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbvrait9ts",
   "type": "work",
   "title": "國朝憲章",
-  "authors": [
-    {
-      "name": "敬儼",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95zfb9"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "敬儼國朝憲章十五卷",
-      "summary": "元敬儼國朝憲章十五卷"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "國朝憲章十五卷",
-      "author_info": "失名",
-      "summary": "元國朝憲章十五卷（失名）"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('', '')]，本條作者 敬儼（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evgae0jx98n4 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
-  "id": "1evgbvrait9ts",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-23T05:58:32.742793+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "description": {
-    "text": "失名",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  }
+  "_promoted_to": "d59f2ghdu41t",
+  "_promoted_at": "2026-08-25T04:29:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ghdu41t。"
 }

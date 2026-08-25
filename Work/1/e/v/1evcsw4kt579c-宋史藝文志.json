@@ -3,78 +3,8 @@
   "id": "1evcsw4kt579c",
   "type": "work",
   "title": "宋史·藝文志",
-  "description": {
-    "text": "元脫脫等撰《宋史》時編入的藝文志，為《宋史》卷二百二至二百九（志第一百五十五至一百六十二）。分經、史、子、集四部，經部十類、史部十三類、子部十七類、集部四類，共四十四類。著錄宋代及前代傳世圖書，條目數量龐大。全志僅列書名、卷數及著者，無小序、無提要，體例與《舊唐書·經籍志》相近。為研究宋代學術文化和圖書流傳的重要史料。",
-    "sources": []
-  },
-  "authors": [
-    {
-      "name": "脫脫",
-      "role": "撰",
-      "entity_id": "1j967da96lwch"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/宋史/卷202",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=en&res=411894",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "name": "识典古籍（宋史藝文志独立版）",
-      "id": "shidianguji-ssywz",
-      "url": "https://www.shidianguji.com/book/CADAL04201270",
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "name": "识典古籍（宋史·二十四史本）",
-      "id": "shidianguji-ls-songshi",
-      "url": "https://www.shidianguji.com/book/LS0020",
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "识典古籍（宋史·四库全书本）",
-      "id": "shidianguji-sk-songshi",
-      "url": "https://www.shidianguji.com/book/SK0729",
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bab5e14ow",
-      "title": "宋史",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1ev3bab5e14ow",
-      "title": "宋史",
-      "relation": "part_of"
-    }
-  ],
-  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "_has_collated": true,
-  "_has_text": true,
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "著錄原文自書撰人朝代：《(無源)》「元脫脫等撰」"
+  "_promoted_to": "d59f2gdp696q",
+  "_promoted_at": "2026-08-25T04:22:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gdp696q。",
+  "_has_collated": true
 }

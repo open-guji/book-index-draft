@@ -1,70 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5p8lscwsg",
   "type": "work",
   "title": "周易崔覲注",
-  "original_title": "周易",
-  "authors": [
-    {
-      "name": "崔覲",
-      "entity_id": "1j96h8rw6xruq"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《周易》十三卷",
-      "summary": "《周易》十三卷崔覲注。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "又十三卷崔覲注。",
-      "summary": "又十三卷崔覲注。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周易注》（崔覲）",
-      "summary": "隋志十三卷",
-      "section": "易",
-      "juan": "卷十二",
-      "page": "KR2n0011_WYG_012-16a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 13
-  },
-  "description": {
-    "text": "崔觐注。",
-    "sources": []
-  },
-  "related_works": [
-    {
-      "id": "1ev7xm5b3sge8",
-      "title": "周易王弼注",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "id": "1evc5p8lscwsg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 13
-    }
-  ],
-  "measure_info": "十三卷",
-  "updated_at": "2026-08-24T04:34:30.817363+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "撰人朝代闕，據其 Entity「崔覲」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-24 R2）"
+  "_promoted_to": "d59f28nlnytf",
+  "_promoted_at": "2026-08-24T19:28:13Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nlnytf。"
 }

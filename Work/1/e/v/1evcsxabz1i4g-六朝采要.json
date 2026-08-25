@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxabz1i4g",
   "type": "work",
   "title": "六朝采要",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《六朝采要》",
-      "summary": "趙氏《六朝采要》十卷"
-    }
-  ],
-  "id": "1evcsxabz1i4g",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "趙氏",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j96h8rw86q0l",
-      "note": "宋史藝文志作「趙氏《六朝采要》十卷」，前置撰人趙氏而不著其名。",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「趙氏」而無 entity_id，庫中同名唯一（`1j96h8rw86q0l`）。entity 代 liao-jin-yuan 與本書 song 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為趙氏《六朝采要》十卷，與同志裸題之《六朝采要》十卷（`1evcsygbvl0jk`）卷數全同，疑為重出，然裸題之條無可承之前置撰人，未便逕定，姑並存互見。"
+  "_promoted_to": "d59f2hhwlo1s",
+  "_promoted_at": "2026-08-25T05:40:03Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhwlo1s。"
 }

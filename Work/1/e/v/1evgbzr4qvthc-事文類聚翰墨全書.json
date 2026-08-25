@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbzr4qvthc",
   "type": "work",
   "title": "事文類聚翰墨全書",
-  "authors": [
-    {
-      "name": "劉應李",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl7n18q"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "劉應李事文類聚翰墨全書一百四十五卷",
-      "author_info": "字希泌，建陽人",
-      "summary": "元劉應李（字希泌，建陽人）事文類聚翰墨全書一百四十五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 145
-  },
-  "description": {
-    "text": "字希泌，建陽人",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgbzr4qvthc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 145
-    }
-  ],
-  "measure_info": "一百四十五卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02098022.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2glklqf4",
+  "_promoted_at": "2026-08-25T04:37:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glklqf4。"
 }

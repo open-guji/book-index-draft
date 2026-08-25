@@ -1,76 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq2xewabk0",
   "type": "work",
   "title": "千歲歷祠",
-  "authors": [
-    {
-      "name": "任氏",
-      "role": "撰",
-      "entity_id": "1j96kedbmayv4"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《千歲歴祠》一卷",
-      "summary": "《千歲歴祠》一卷（任氏）",
-      "author_info": "任氏"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《千歲曆祠》一卷",
-      "summary": "《千歲曆祠》一卷任氏撰。",
-      "merged_from": "1evcmnfo8gq9s",
-      "note": "本著錄原繫題作「千歲曆祠」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《千歲曆祠》二卷",
-      "summary": "《千歲曆祠》二卷任氏撰。",
-      "merged_from": "1evcmnfo8gq9s",
-      "note": "本著錄原繫題作「千歲曆祠」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "任氏撰。一卷；諸志所著之數有異，別作二卷。見著錄於《國史經籍志》《隋書經籍志》《舊唐書經籍志》。《國史經籍志》明焦竑撰；《隋書經籍志》唐初貞觀顯慶間官修——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "隋書經籍志",
-      "舊唐書經籍志"
-    ]
-  },
-  "id": "1evgq2xewabk0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "additional_titles": [
-    "千歲歴祠",
-    "千歲曆祠"
-  ],
-  "updated_at": "2026-08-22T04:56:00.062223+00:00",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《千歲曆祠》一卷",
-      "summary": "千歲曆祠一卷任氏撰\n任氏不知何人。\n《唐六典太下令篇》注:凡陰陽雜占,吉凶悔吝,其類有九,\n決萬民之猶豫,七日祠祭。\n《唐書·經籍志》:《千歲曆祠》二卷,任氏撰。\n《唐書·藝文志》:任氏《千歲曆祠》二卷。",
-      "merged_from": "1evcmnfo8gq9s",
-      "note": "本著錄原繫題作「千歲曆祠」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《千歲曆祠》之 work（`1evcmnfo8gq9s`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。\n\n2026-08-24 J7 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "three-kingdoms",
-  "period_basis": "撰人朝代闕，據其 Entity「任氏」之 dynasty「三國魏」傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）"
+  "_promoted_to": "d59f27sbqzgk",
+  "_promoted_at": "2026-08-24T18:28:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27sbqzgk。"
 }

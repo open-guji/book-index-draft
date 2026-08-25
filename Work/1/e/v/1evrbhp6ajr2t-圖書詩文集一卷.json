@@ -1,37 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1evrbhp6ajr2t",
+  "type": "work",
   "title": "圖書詩文集",
-  "authors": [
-    {
-      "name": "鄭思肖",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96lwe4",
-      "dynasty_basis": "entity_propagation_r2:1j967da96lwe4"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "圖書詩文集一卷",
-      "summary": "圖書詩文集一卷\n鄭思肖撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 1
-  },
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
-  "period": "song",
-  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('鄭思肖', '元')] 指向 liao-jin-yuan，而本書見於《宋史藝文志補》——該志斷代著錄 song 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「元」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "_promoted_to": "d59f2hhvz6yo",
+  "_promoted_at": "2026-08-25T05:40:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhvz6yo。"
 }

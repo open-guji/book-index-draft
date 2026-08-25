@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqxzcsr9c",
   "type": "work",
   "title": "論語紀蒙",
-  "authors": [
-    {
-      "name": "陳耆卿",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzmli5p"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《論語紀蒙》六卷",
-      "summary": "《論語紀蒙》六卷（陳耆卿）",
-      "author_info": "陳耆卿"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "title_info": "《論語紀蒙》六卷",
-      "summary": "國子司業臨海陳耆卿壽老撰。水心葉適為之序。耆卿，學於水心者也。嘗主麗水簿，當嘉定初年成此書。",
-      "note": "本著錄原繫於合刻數書之磁鐵條「論語紀蒙》六卷、《孟子紀蒙」（`1evr5e3mjzi7w`），今歸本條。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "論語紀蒙》六卷、《孟子紀蒙",
-      "merged_from": "1evr5e3mjzi7w",
-      "note": "本著錄原為直齋合著數書之條，其題誤取整行，已正為《論語紀蒙》；他書各節既歸其主，所餘首書一節併入本條。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgoqxzcsr9c",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」（2026-08-13 南北朝探勘查出「陳」姓氏誤作朝代前綴之bug：陳耆卿：南宋學者，著錄誤植朝代「南朝陳」，改繫既有正確之南宋陳耆卿Entity）",
-  "ai_note": "2026-08-20 磁鐵拆解專項（不新建 Work，只改繫既有者）：直齋書錄解題之「《論語紀蒙》六卷」一節原繫於合刻數書之磁鐵條（`1evr5e3mjzi7w`），其題、卷數與本條全合，今改繫本條，並補其著錄。\n\n2026-08-20 直齋合著條頭書歸併專項：《直齋書錄解題》合著數書之條，其題已於題名訂正專項正為首書之名《論語紀蒙》；經磁鐵拆解，該條所兼繫之他書各節皆已歸其主，所餘唯首書一節，是與本條為一書之重出，今併。**其 juan_count 每取著錄行中後書之數而非首書之數，故不以卷數為併否之據**，仍以本條所著為正。",
-  "additional_titles": [
-    "論語紀蒙》六卷、《孟子紀蒙"
-  ]
+  "_promoted_to": "d59f2hi9eebm",
+  "_promoted_at": "2026-08-25T05:40:44Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hi9eebm。"
 }

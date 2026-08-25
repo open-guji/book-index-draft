@@ -55,12 +55,15 @@
   ],
   "measure_info": "八十四卷",
   "description": {
-    "text": "本書收入《四庫全書存目叢書》第299冊（集部）。",
+    "text": "徐師曾（明）撰。八十四卷；諸志所著之數有異，別作六十一卷。見著錄於《欽定四庫全書總目》《明史藝文志》《國史經籍志》《四庫全書存目叢書》。《四庫全書存目叢書》列於集部。",
     "sources": [
+      "欽定四庫全書總目",
+      "明史藝文志",
+      "國史經籍志",
       "四庫全書存目叢書"
     ]
   },
-  "ai_note": "從 1evjxorrw42dc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 | 從 1evkppsjnu0hs 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善006161-006200），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
+  "ai_note": "從 1evjxorrw42dc 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 | 從 1evkppsjnu0hs 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善006161-006200），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "books": [
     "11qkhsm2ukc8w"
   ],
@@ -68,5 +71,7 @@
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "_promoted_to": "d59f2njoi3gj",
+  "_promoted_at": "2026-08-25T12:38:40Z"
 }

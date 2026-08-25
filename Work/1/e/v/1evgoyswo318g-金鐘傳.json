@@ -3,7 +3,15 @@
   "id": "1evgoyswo318g",
   "type": "work",
   "title": "金鐘傳",
-  "authors": [],
+  "authors": [
+    {
+      "name": "金鐘",
+      "role": "撰",
+      "entity_id": "1jcf5151299a2",
+      "dynasty": "清",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"金鐘傳\"）——前缀「金鐘」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
   "description": {
     "text": "諷諭類通俗小說。存 清光緒二十二年丙申樂善堂刊本。\n\n題「正一子克明子著」、「後學高津天香居士正定注解」、「津門培一批」。",
     "sources": [
@@ -48,5 +56,10 @@
   "updated_at": "2026-04-29T16:51:33-07:00",
   "_has_text": true,
   "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：《中國通俗小說書目》明清小說部自標所收之代，故不晚於 qing"
+  "period_upper_basis": "catalog_bound：《中國通俗小說書目》明清小說部自標所收之代，故不晚於 qing",
+  "dynasty": "清",
+  "period": "qing",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「金鐘」（entity 1jcf5151299a2）已定代「清」，且與本條 period_upper（qing）相容，據以定代。",
+  "_promoted_to": "d59f2o2m8hkw",
+  "_promoted_at": "2026-08-25T13:15:03Z"
 }

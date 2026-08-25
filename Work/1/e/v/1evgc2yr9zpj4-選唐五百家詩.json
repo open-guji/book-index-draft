@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgc2yr9zpj4",
   "type": "work",
   "title": "選唐五百家詩",
-  "authors": [
-    {
-      "name": "馬瑩",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95zfa4"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "馬瑩選唐五百家詩五卷",
-      "summary": "元馬瑩選唐五百家詩五卷"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "id": "1evgc2yr9zpj4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2ghke3gi",
+  "_promoted_at": "2026-08-25T04:30:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ghke3gi。"
 }

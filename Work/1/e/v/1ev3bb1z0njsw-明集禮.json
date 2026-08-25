@@ -7,9 +7,10 @@
     {
       "name": "徐一夔",
       "role": "撰",
-      "dynasty": "明",
+      "dynasty": "元末明初",
       "entity_id": "1j967bgl7bsr8",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「徐一夔」而無 entity_id，今繫 `1j967bgl7bsr8`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「徐一夔」而無 entity_id，今繫 `1j967bgl7bsr8`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。",
+      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 ming×4／liao-jin-yuan×1 諸桶。"
     },
     {
       "name": "梁寅",
@@ -147,12 +148,20 @@
     }
   ],
   "measure_info": "五十三卷",
-  "ai_note": "撰人「同」字剝離：著錄作「曾魯同」，本條原繫之合成人物記錄作「徐一夔、梁寅、劉于、周於諒、胡行簡、劉宗弼、董彝、蔡琛、滕公瑛、曾魯同奉敕」，「同」乃合著之辭而非姓名之一部，匯入時黏於末位撰人之名，今剝離作「曾魯」。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwbo0p79c 與 11q37q6dewao0 同指文淵閣寫本一實物，今併於後者。",
+  "ai_note": "撰人「同」字剝離：著錄作「曾魯同」，本條原繫之合成人物記錄作「徐一夔、梁寅、劉于、周於諒、胡行簡、劉宗弼、董彝、蔡琛、滕公瑛、曾魯同奉敕」，「同」乃合著之辭而非姓名之一部，匯入時黏於末位撰人之名，今剝離作「曾魯」。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhwbo0p79c 與 11q37q6dewao0 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L5：撰人「徐一夔」之代由「明」歸一為「元末明初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "ming",
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "description": {
+    "text": "徐一夔（明）撰、梁寅（明）撰、劉于（明）撰。五十三卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
+    "sources": [
+      "欽定四庫全書總目"
+    ]
+  },
+  "_promoted_to": "d59f2njn95hd",
+  "_promoted_at": "2026-08-25T12:38:35Z"
 }

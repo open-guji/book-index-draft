@@ -18,20 +18,20 @@
       "type": "號"
     }
   ],
-  "dynasty": "明",
+  "dynasty": "元末明初",
   "birth_year": 1482,
   "death_year": 1559,
   "works": [
     {
-      "work_id": "1evdic8rszyf4",
+      "work_id": "d59f2ndk4jr6",
       "role": "撰"
     },
     {
-      "work_id": "1evkah30qse80",
+      "work_id": "d59f2nlcqwao",
       "role": "等纂修"
     },
     {
-      "work_id": "1evgc60lvsveo",
+      "work_id": "d59f2gg6g4jm",
       "role": "撰"
     }
   ],
@@ -42,5 +42,7 @@
   },
   "updated_at": "2026-08-08T11:51:58+00:00",
   "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併"
+  "period_basis": "據 dynasty「明」自動歸併",
+  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 ming×2／liao-jin-yuan×1 諸桶。",
+  "ai_note": "2026-08-25 遼金元 L5：dynasty 由「明」歸一為「元末明初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
 }

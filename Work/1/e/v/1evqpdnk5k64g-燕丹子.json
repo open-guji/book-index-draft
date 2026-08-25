@@ -1,95 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evqpdnk5k64g",
   "type": "work",
   "title": "燕丹子",
-  "authors": [],
-  "dynasty": "漢",
-  "description": {
-    "text": "記燕太子丹遣荊軻刺秦事。學界共識為戰國末至漢初成書（早於司馬遷《史記·刺客列傳》之燕丹/荊軻記載）。隋、唐、宋諸志均有著錄，明清間散佚。今存形態為清孫星衍《問字堂集》中之校輯本（嘉慶間刊）。",
-    "sources": [
-      "学界共识"
-    ]
-  },
-  "id": "1evqpdnk5k64g",
-  "related_works": [
-    {
-      "id": "1ev3bckwhc0sg",
-      "title": "燕丹子",
-      "relation": "text_carried_by"
-    }
-  ],
-  "ai_note": "2026-08-08 秦漢區period修正：dynasty為先秦，period應為pre-qin（原qin-han與dynasty不一致）。\n輯佚檔：本書之輯佚著錄置於 Work/1/e/v/1evqpdnk5k64g/fragments/燕丹子.json，現為著錄層——輯家見於本庫著錄之描述，佚文原文尚未錄入。　loss_status 記為 lost，據本書之輯佚檔 fragments/燕丹子.json（該檔之值經人工校讀，非機讀所生）。\n\n2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。本書無志書著錄（多為出土簡帛，本無撰人可言）。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-22 B3 核對：與《燕丹子》1ev3bckwhc0sg（清孫星衍輯本）非重出——本條為著錄層之原典，其輯佚著錄別存 fragments，不併。\n\n2026-08-23 先秦遺留清理：著錄歸位：隋志、兩唐志、宋志、崇文總目、四庫總目、國史經籍志七節自孫星衍校輯本條1ev3bckwhc0sg 移入——諸志所著錄者為原書之歷代傳本（隋志一卷、唐宋以下三卷），非嘉慶間之輯校本；輯本條保留書目答問（章宗源輯）與續修四庫（孫星衍輯）二節。",
-  "loss_status": "partially_extant",
-  "updated_at": "2026-08-23T06:07:05.403843+00:00",
-  "period": "pre-qin",
-  "period_basis": "據 dynasty「先秦」自動歸併",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《燕丹子》一卷",
-      "summary": "《燕丹子》一卷丹，燕王喜太子。梁有《青史子》一卷；又《宋玉子》一卷、錄一卷，楚大夫宋玉撰；《群英論》一卷，郭頒撰；《語林》十卷，東晉處士裴啟撰。亡。",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《隋書經籍志》（上限 sui-tang），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《燕丹子》三卷",
-      "summary": "《燕丹子》三卷燕太子撰。",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《舊唐書經籍志》（上限 sui-tang），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "燕丹子",
-      "summary": "燕丹子一卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《燕丹子》",
-      "summary": "《燕丹子》三卷東方朔",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《燕丹子》•三卷",
-      "author_info": "不著撰人名氏",
-      "summary": "不著撰人名氏。所載皆燕太子丹事。《漢志•法家》有《燕十事》十篇，注曰不知作者。雜家有《荊軻論》五篇，注曰司馬相如等論荊軻事，無燕丹子之名。至《隋書•經籍志》，始著錄於小說家。唐李善注《文選》，始援引其文。是其書在唐以前。又《史記•刺客列傳》曰：世言荊軻，其稱太子丹之命，天雨粟，馬生角也，太過。其文見此書中，而裴駰《集解》不引此書。司馬貞《索隱》曰：《風俗通》及《論衡》皆有此說，仍雲：廄門木烏生肉足也，亦不引此書。注家引書，以在前者為據，知此書在應劭、王充後矣。《史記正義》引田光論夏扶、宋意秦舞陽事，又引秦王乞聽琴事，均作燕太子，《索隱》引進金丸膾馬肝等事，亦作燕太子，殆傳寫異文歟？《宋志》尚著於錄，至明遂佚。故馬驌作《驛史》，稱魯連子、燕丹子之類，或真或偽，今皆亡。其所輯秦事，引《燕太子》凡十條。大抵本之《文選注》、《太平御覽》諸書，字句亦頗多舛異。今檢《永樂大典》載有全本，蓋明初尚存。然其文實割裂諸書燕丹、荊軻事雜綴而成，其可信者已見《史記》，其他多鄙誕不可信，殊無足采。謹仰遵聖訓，附存其目。《隋志》作一卷。《唐志》、《宋志》及《文獻通考》並作三卷。《永樂大典》所載並為一卷，而實作三篇。故今仍以三卷著錄焉。",
-      "edition": "永樂大典本",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "燕丹子三卷",
-      "summary": "燕丹子三卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《燕丹子》一卷",
-      "summary": "《燕丹子》一卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《國史經籍志》（上限 ming），而本條為 qing 之作、撰人孫星衍，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。",
-      "note": "（2026-08-23 自孫星衍校輯本條 1ev3bckwhc0sg 歸位：本志所著錄者為原書之歷代傳本，非清人輯校本。）"
-    }
-  ],
-  "juan_count": {
-    "number": 3,
-    "description": "隋志、國史作一卷，唐宋以下諸志作三卷"
-  }
+  "_promoted_to": "d59f2evsjw1s",
+  "_promoted_at": "2026-08-25T02:39:09Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2evsjw1s。"
 }

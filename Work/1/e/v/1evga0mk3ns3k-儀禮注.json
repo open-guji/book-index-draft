@@ -1,71 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga0mk3ns3k",
   "type": "work",
   "title": "儀禮注",
-  "authors": [
-    {
-      "name": "顧諒",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967cp21vndc"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "顧諒儀禮注",
-      "author_info": "字季友，吳江人",
-      "summary": "元顧諒（字季友，吳江人）儀禮注"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《儀禮注》八卷",
-      "author_info": "字季友，吳江人",
-      "summary": "元顧諒（字季友，吳江人）儀禮注八卷"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《儀禮注》（顧諒）",
-      "summary": "黄虞稷曰諒字季友呉江人王行為作傳",
-      "section": "儀禮",
-      "juan": "卷一百三十三",
-      "page": "KR2n0011_WYG_133-13b",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "字季友，吳江人",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('王肅', '魏')]，本條作者 顧諒（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（八卷），今據以補。",
-  "id": "1evga0mk3ns3k",
-  "related_works": [
-    {
-      "id": "d59ezak3445c",
-      "title": "儀禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷"
+  "_promoted_to": "d59f2gfo14hs",
+  "_promoted_at": "2026-08-25T04:26:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gfo14hs。"
 }

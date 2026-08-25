@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgbw763w2rk",
   "type": "work",
   "title": "長春真人西游記",
-  "authors": [
-    {
-      "name": "李志常",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da96lwd8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "李志常長春真人西游記二卷",
-      "author_info": "述邱處機事",
-      "summary": "元李志常長春真人西游記二卷（述邱處機事）"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "長春真人西游記",
-      "summary": "《長春真人西游記》二卷。{{元李志常。《連筠簃》本。}}",
-      "author_info": "李志常"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "description": {
-    "text": "述邱處機事",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "id": "1evgbw763w2rk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "books": [
-    "11qkhyoxu1edc"
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]"
+  "_promoted_to": "d59f2gpxm3nl",
+  "_promoted_at": "2026-08-25T04:46:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gpxm3nl。"
 }

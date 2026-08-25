@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evka8ugic0sg",
   "type": "work",
   "title": "附釋音春秋左傳注疏",
-  "authors": [
-    {
-      "name": "杜預",
-      "role": "注",
-      "dynasty": "西晉",
-      "entity_id": "1j967avzkeude",
-      "dynasty_basis": "manual:historical_figure(杜預(222-284)，字元凱，京兆杜陵人，西晉名將兼經學家)"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善001224-001238）。宋建安劉叔剛一經堂刊配補元刊明修十行本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J2(c) 注疏／編本之 period 從成編之世：依 SCHEMA〈坊刻編本是獨立 Work〉，合刻、附釋音、正義、集解、坊刻舉業編本皆是新成之編，其時代從成編之世而不從所依之底注者。本條 authors 只掛底注者，period 遂被機械繫其人之代。據：「附釋音」本即宋十行本系統，今存宋建安劉叔剛一經堂刊配補元刊明修十行本。　period 由 jin 改 song。authors 與 dynasty 不動——所掛之底注者是實錄，dynasty 依 SCHEMA 是志書原文之欄。",
-  "juan_count": {
-    "number": 15
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五冊",
-  "id": "1evka8ugic0sg",
-  "books": [
-    "11qkhun22n7r4",
-    "11qkhyn3fxb0g"
-  ],
-  "related_works": [
-    {
-      "id": "d59ezak6jq4g",
-      "title": "左傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "song",
-  "period_basis": "2026-08-24 J2(c)：見 ai_note",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代"
+  "_promoted_to": "d59f2htcy5mo",
+  "_promoted_at": "2026-08-25T06:02:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2htcy5mo。"
 }

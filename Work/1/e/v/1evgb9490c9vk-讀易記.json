@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgb9490c9vk",
   "type": "work",
   "title": "讀易記",
-  "authors": [
-    {
-      "name": "趙氏",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96h8rw86q0l"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "趙氏讀易記",
-      "author_info": "無名氏",
-      "summary": "元趙氏讀易記（無名氏）"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《讀易記》",
-      "summary": "",
-      "section": "易",
-      "juan": "卷四十八",
-      "page": "KR2n0011_WYG_048-17a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。",
-      "link_basis": "2026-08-24 待覈「不著撰人」逐條裁（據論斷或標目之姓）：標目作「趙氏（失名）讀易記」——趙是姓，非缺文。庫中同題八條，唯一條之撰人欄正作「趙氏」，即其人。"
-    }
-  ],
-  "description": {
-    "text": "無名氏",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('李賢', '')]，本條作者 趙氏（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evgb9490c9vk",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2geste68",
+  "_promoted_at": "2026-08-25T04:24:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2geste68。"
 }

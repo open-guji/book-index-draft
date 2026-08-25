@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw5brx8n4",
   "type": "work",
   "title": "易訓",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《易訓》",
-      "summary": "《易訓》三十卷趙善譽"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《易訓》（倪思）",
-      "summary": "宋志三十卷",
-      "section": "易",
-      "juan": "卷三十二",
-      "page": "KR2n0011_WYG_032-3b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "id": "1evcsw5brx8n4",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "倪思",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzlck00",
-      "note": "宋史藝文志易類此段為連續頂真格（「《易傳》十一卷又《本義》十二卷……張浚／《易傳》十卷倪思／《易訓》三十卷趙善譽／《易說》二卷劉文鬱」，鏈條前後密合——「《易傳》十卷」即張浚《紫巖易傳》，故本條撰人為倪思，句末「趙善譽」則下屬《易說》二卷）。此繫由文例推得，未見他志印證，姑存。"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "dynasty": "南宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」",
-  "related_works": [
-    {
-      "id": "1evcsw50kmmtc",
-      "title": "易訓",
-      "relation": "related",
-      "note": "宋史藝文志易類、國史經籍志所載宋鹹《易訓》三卷，撰人、卷數俱異。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人「倪思」據宋史藝文志易類頂真格文例推得——該段鏈條「……張浚／《易傳》十卷倪思／《易訓》三十卷趙善譽／《易說》二卷劉文鬱」前後密合，「《易傳》十卷」正合張浚《紫巖易傳》，故本條前置之名為倪思，句末「趙善譽」下屬次條。惟此繫僅據文例，未見他志印證，authors[].note 已標明姑存。同志易類另有宋鹹《易訓》三卷（見 `1evcsw50kmmtc`），撰人、卷數俱異，別為一書。"
+  "_promoted_to": "d59f2hlkyadd",
+  "_promoted_at": "2026-08-25T05:47:07Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hlkyadd。"
 }

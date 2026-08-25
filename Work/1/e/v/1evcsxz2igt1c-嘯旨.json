@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxz2igt1c",
   "type": "work",
   "title": "嘯旨",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《嘯旨》",
-      "summary": "玉川子《嘯旨》一卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《嘯旨》",
-      "summary": "《嘯旨》、",
-      "merged_from": "1evcsxzrmraps",
-      "note": "宋志小說類後段連書之重出（「譚世卿《廣說》二卷／《嘯旨》、／、《集異記》、／、《博異志》一卷」，諸題以頓號連書而不各繫撰人卷數），與本條前段「玉川子《嘯旨》一卷」同為一書。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《嘯旨》一卷",
-      "summary": "《嘯旨》一卷",
-      "merged_from": "1evgq5m3zeo74",
-      "note": "國史經籍志裸題一卷，卷數與宋志全合。"
-    }
-  ],
-  "id": "1evcsxz2igt1c",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%98%AF%E6%97%A8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "authors": [
-    {
-      "name": "玉川子",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967c148wsne",
-      "note": "宋史藝文志小說類此段為連續頂真格（前條「金利用《玉溪編事》三卷玉川子」句末之名前置為本條撰人，本條下條「《章程》四卷孫棨」另起），故宋志所繫撰人為玉川子，即唐盧仝之號。按通行本《嘯旨》前有唐孫廣序，後世亦有以孫廣為撰者，本庫無此旁證，姑從宋志著錄，並存此疑。本庫無玉川子／盧仝 entity。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「玉川子」而無 entity_id，今繫 `1j967c148wsne`——庫中以此為別名（alt_names）者唯一。其代「明」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志小說類同題兩見（前段「玉川子《嘯旨》一卷」，後段連書「《嘯旨》、」），國史經籍志亦一卷，三源同為一書，今合為一條。撰人據宋志前段頂真格文例定為玉川子（唐盧仝之號）；後段係諸題以頓號連書而不各繫撰人卷數之體例，不另立撰人。按通行本《嘯旨》前有唐孫廣序，後世有以孫廣為撰者，本庫無旁證，姑從宋志，並於 authors[].note 存疑。本庫無玉川子／盧仝 entity，未繫。"
+  "_promoted_to": "d59f28kxivic",
+  "_promoted_at": "2026-08-24T19:23:05Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kxivic。"
 }

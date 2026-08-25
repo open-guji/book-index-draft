@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsypkhka2o",
   "type": "work",
   "title": "李端詩",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《李端詩》",
-      "summary": "《李端詩》三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "李端詩三卷",
-      "summary": "李端詩三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《李端詩》三卷",
-      "summary": "《李端詩》三卷",
-      "merged_from": "1evgqcanvtpfk",
-      "note": "諸志同著《李端詩》，係一書互著，今合併。"
-    }
-  ],
-  "id": "1evcsypkhka2o",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "authors": [
-    {
-      "name": "李端",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96kenvgjv9c",
-      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《李端詩》，撰人為李端。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：《李端詩》為李端之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為李端。"
+  "_promoted_to": "d59f28kxu41w",
+  "_promoted_at": "2026-08-24T19:23:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kxu41w。"
 }

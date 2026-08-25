@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga3brm3f28",
   "type": "work",
   "title": "遼史",
-  "authors": [
-    {
-      "name": "陳大任",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j96kehbcgn40"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "陳大任遼史",
-      "summary": "金陳大任遼史"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《遼史》",
-      "author_info": "泰和中，翰林直學士",
-      "summary": "金陳大任（泰和中，翰林直學士）遼史"
-    }
-  ],
-  "ai_note": "同名異書：已有 Work 作者為 [('托克托等奉敕', '元')]，本條作者 陳大任（金），另建 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]",
-  "id": "1evga3brm3f28",
-  "related_works": [
-    {
-      "id": "1ev3bab5se1og",
-      "title": "遼史",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation"
+  "_promoted_to": "d59f2ge4s4cg",
+  "_promoted_at": "2026-08-25T04:23:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ge4s4cg。"
 }

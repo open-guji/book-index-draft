@@ -14,7 +14,7 @@
   "indexed_by": [
     {
       "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
+      "source_bid": "d59f28nmafwh",
       "title_info": "《河圖》二十卷",
       "summary": "《河圖》二十卷梁《河圖洛書》二十四卷，目錄一卷，亡。",
       "misattached": true,
@@ -38,8 +38,11 @@
     "number": 20
   },
   "description": {
-    "text": "梁《河图洛书》二十四卷，目录一卷，亡。",
-    "sources": []
+    "text": "殷元正（清）原輯。二十卷；諸志所著之數有異，別作十二卷。見著錄於《隋書經籍志》《經義考》。《經義考》列於毖緯。諸家按語稱其佚文見引於《法苑珠林》。《隋書經籍志》唐初貞觀顯慶間官修；《經義考》清朱彝尊撰——本書之目賴之以存。",
+    "sources": [
+      "隋書經籍志",
+      "經義考"
+    ]
   },
   "id": "1evc5pemuciyo",
   "emendated_by": [
@@ -57,7 +60,7 @@
     }
   ],
   "measure_info": "二十卷",
-  "ai_note": "作者「清殷元正原輯」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka82u9mh34 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evc5pemuciyo()（不同作者，故新建獨立 Work）。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於隋書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
+  "ai_note": "作者「清殷元正原輯」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evka82u9mh34 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evc5pemuciyo()（不同作者，故新建獨立 Work）。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於隋書經籍志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "books": [
     "11qkhskkrdzpc"
   ],
@@ -68,9 +71,11 @@
   "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "related_works": [
     {
-      "id": "1evfteies85c0",
+      "id": "d59f27xiewar",
       "title": "河圖注",
       "relation": "text_carried_by"
     }
-  ]
+  ],
+  "_promoted_to": "d59f2moxb8jk",
+  "_promoted_at": "2026-08-25T11:39:32Z"
 }

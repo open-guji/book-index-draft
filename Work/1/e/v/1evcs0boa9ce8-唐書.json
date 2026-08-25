@@ -1,87 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0boa9ce8",
   "type": "work",
   "title": "唐書",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "唐書",
-      "summary": "唐書一百卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《新唐書藝文志》（上限 sui-tang），而本條為 song 之作、撰人歐陽修，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "柳芳《唐書》一百三十卷",
-      "summary": "柳芳《唐書》一百三十卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "唐書一百三十卷",
-      "summary": "唐書一百三十卷。唐韋述撰初吳兢撰唐史自創業訖于開元凡一百一十卷述因兢舊本更加筆削刋去酷吏傳爲紀志列傳一百一十二卷至德乾元以後史官于休烈又增肅宗紀二卷而史官令狐峘等復于紀志傳後隨"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《唐書》一百三十卷",
-      "summary": "《唐書》一百三十卷（韋述）",
-      "author_info": "韋述"
-    }
-  ],
-  "id": "1evcs0boa9ce8",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9B%B8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "歐陽修",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzk3ls6",
-      "dynasty_basis": "entity_propagation:1j967avzk3ls6"
-    }
-  ],
-  "ai_note": "作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkadxc39zwg 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evcs0boa9ce8();1evgpguuievi8(呉兢);1evgpguwu2h34()（不同作者，故新建獨立 Work）。 | 從 1evgpguwu2h34 合併。原註：missing_reason: 短title \"唐書\" 唯一候选无作者 作者「宋歐陽修撰」補自《國立故宮博物院善本舊籍》目錄。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一百三十卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於新唐書藝文志，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿029113-029162）。清道光十六年重刊殿本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "books": [
-    "11qkhw01i9w5c",
-    "11qkhyc1ium0w",
-    "11qki2k4bxe68",
-    "11qki47ilp1j4",
-    "11qki5t4jbu9s",
-    "11qki477umry8",
-    "11qki2mihqk1s",
-    "11qki2xeafpj4",
-    "11qkhthnahslc",
-    "11qki47h0vuo0"
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_text": true,
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty（2026-08-13 南北朝探勘第二輪：歐陽修《唐書》：同上）",
-  "juan_count": {
-    "number": 130
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 130
-    }
-  ],
-  "measure_info": "一百三十卷"
+  "_promoted_to": "d59f2hq4in0g",
+  "_promoted_at": "2026-08-25T05:55:51Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hq4in0g。"
 }

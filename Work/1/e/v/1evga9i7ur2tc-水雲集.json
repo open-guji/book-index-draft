@@ -1,87 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga9i7ur2tc",
   "type": "work",
   "title": "水雲集",
-  "authors": [
-    {
-      "name": "譚處端",
-      "role": "撰",
-      "dynasty": "金",
-      "entity_id": "1j96hfia762gw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "譚處端水雲集",
-      "author_info": "羽士",
-      "summary": "金譚處端（羽士）水雲集"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《水雲集》三卷",
-      "author_info": "(金)譚處端撰",
-      "summary": "《水雲集》三卷。(金)譚處端撰。影印明刻本。",
-      "edition": "影印明刻本",
-      "volume": "第1322冊",
-      "section": "集部 集部"
-    }
-  ],
-  "description": {
-    "text": "羽士",
-    "sources": [
-      "補遼金元藝文志"
-    ]
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('汪元量', '宋')]，本條作者 譚處端（金），另建 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。",
-  "id": "1evga9i7ur2tc",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E9%9B%B2%E9%9B%86",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02099862.cn",
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1322%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1322
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷"
+  "_promoted_to": "d59f2gepds75",
+  "_promoted_at": "2026-08-25T04:24:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gepds75。"
 }

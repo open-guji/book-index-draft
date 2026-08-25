@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ewui7y1rg5xg",
   "type": "work",
   "title": "周易問答",
-  "id": "1ewui7y1rg5xg",
-  "loss_status": "lost",
-  "juan_count": {
-    "number": 1
-  },
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "徐伯珍",
-      "role": "撰",
-      "entity_id": "1jcf5151295rs",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295rs` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1evc5p8p05ybk",
-      "title_info": "《周易問答》一卷",
-      "summary": "《周易論》一卷晉荊州刺史宋岱撰。梁有《擬周易說》八卷，范氏撰；《周易宗塗》四卷，干寶撰；《周易問難》二卷，王氏撰；《周易問答》一卷，揚州從事徐伯珍撰；《周易難王輔嗣義》一卷，晉揚州刺史顧夷等撰；《周易雜論》十四卷。亡。",
-      "in_note_of": "1evc5p8p05ybk"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周易問答》（徐伯珍）",
-      "summary": "七録一卷\n南齊書伯珍字文楚東陽太末人䆒尋經史遊學者多依之太守王曇生張淹並加禮辟伯珍應召乃退如此者凡十二焉吳郡顧歡摘出尚書滯義伯珍酬答甚有條理永明二年刺史豫章王辟議曹從事不就卒年八十四",
-      "section": "易",
-      "juan": "卷十二",
-      "page": "KR2n0011_WYG_012-5b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "ai_note": "本 work 據《隋書經籍志》注中之亡書新建（見於「周易論」條之注）。隋志之例，正文著隋時見存之書，其注記「梁有某書幾卷，某人撰，亡」——梁時尚存而隋時已亡者。本書見於庫中《周易論》（`1evc5p8p05ybk`）之注，其原文即 indexed_by[0].summary，可逐字覆按。朝代隋志注多不記，此條原文未載，不以主條之朝代推之，故不記。loss_status 記為 lost：隋志明言其亡，此是志書自身之判，非推論。新建之前已以四法（題名全等、剝撰人之素題、剝官爵之素題、互為子串）比對本庫，並額外核對 juan 數與撰人是否與庫中近似候選重複，方判定為庫中確無此書而後建。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "nanbeichao",
-  "period_upper_basis": "catalog_bound：本條出隋志注「梁有……亡」——梁時尚存（本阮孝緒《七錄》所錄），故不晚於 nanbeichao（2026-08-24 收緊；原據隋志成書之年作 sui-tang，鬆了一檔）",
-  "period": "nanbeichao",
-  "period_basis": "經義考引南齊書：徐伯珍，東陽太末人，永明二年豫章王辟不就，卒年八十四（2026-08-24 R3 引文定代）"
+  "_promoted_to": "d59f284uswec",
+  "_promoted_at": "2026-08-24T18:52:11Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f284uswec。"
 }

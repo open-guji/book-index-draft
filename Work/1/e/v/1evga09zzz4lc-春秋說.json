@@ -1,34 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evga09zzz4lc",
   "type": "work",
   "title": "春秋說",
-  "authors": [
-    {
-      "name": "吾衍",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl70k5g"
-    }
+  "_promoted_to": "d59f2gf5avwh",
+  "_promoted_at": "2026-08-25T04:25:33Z",
+  "merged_from": [
+    "1exitq8l34r5t"
   ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "吾衍春秋說",
-      "summary": "元吾衍春秋說"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《春秋說》",
-      "summary": "元吾衍春秋說"
-    }
-  ],
-  "ai_note": "同名異書：已有 Work 作者為 [('張邦奇', '明'), ('田嘉穀', '清'), ('錢世揚', '明'), ('洪咨夔', '宋'), ('王浸大', '明'), ('徐即登', '明'), ('陶正靖', '清'), ('鄭杲', '清')]，本條作者 吾衍（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]",
-  "id": "1evga09zzz4lc",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gf5avwh。"
 }

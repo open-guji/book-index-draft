@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcua71obpc0",
   "type": "work",
   "title": "老子孫登注",
-  "original_title": "老子",
-  "related_works": [
-    {
-      "id": "d59ezkx8dt6o",
-      "title": "道德經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《老子》二卷孫登注。",
-      "summary": "《老子》二卷孫登注。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "孫登注老子",
-      "summary": "孫登注老子二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孫登注老子》二卷",
-      "summary": "《孫登注老子》二卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "孫登",
-      "entity_id": "1j96hll75hzwg"
-    },
-    {
-      "name": "孫登",
-      "role": "注",
-      "dynasty": "三國魏",
-      "entity_id": "1j96hll75hzwg",
-      "dynasty_basis": "historical_dict:round2(孫登，三國魏隱士，字公和)"
-    }
-  ],
-  "id": "1evcua71obpc0",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measure_info": "二卷",
-  "ai_note": "從 1evdxnrl5i7sw《孫登注老子》合併。原註：題名體例調整之撞題：本條依「書名在前、注者在後」之例當改題《老子孫登注》，然庫中已有同題者（1evcua71obpc0），核其著錄乃同一注本自不同志書匯入，題名體例不同而書則一。撞題即查出重出，故不改題，改記重出，留待去重專項。\n\n2026-08-21 去自我關聯：本條 related_works 原有二筆逕指自身（一筆題作舊名「孫登注老子」、一筆題作今名），係改題與歸併之遺。一條書關聯自身不承載信息，今去之，related_works[].title 之漂移隨之消解。\n\n2026-08-24 J7 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "description": {
-    "text": "孫登撰、孫登（三國魏）注。二卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《國史經籍志》。經注之屬。本書為《道德經》之注釋，其文附原典以行。《舊唐書經籍志》後晉修，本唐開元《群書四部錄》；《新唐書藝文志》北宋歐陽脩等修——本書之目賴之以存。",
-    "sources": [
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  }
+  "_promoted_to": "d59f27xezabn",
+  "_promoted_at": "2026-08-24T18:37:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xezabn。"
 }

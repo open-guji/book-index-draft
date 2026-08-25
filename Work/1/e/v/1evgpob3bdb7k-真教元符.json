@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpob3bdb7k",
   "type": "work",
   "title": "真教元符",
-  "authors": [
-    {
-      "name": "戴簡",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da97jm1e"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《眞教元符》三卷",
-      "summary": "《眞教元符》三卷（唐戴簡）",
-      "author_info": "唐戴簡"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "真教元符三卷",
-      "summary": "真教元符三卷",
-      "merged_from": "1evgpob3bdb7k",
-      "note": "《眞教元符》與《真教元符》之別，僅在異體字（眞教元符／真教元符），題名歸一後全同；卷數全同（3卷）；彼條無撰人而本條作「戴簡」。二者著錄異源（國史經籍志 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpob3bdb7k",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mh6d8q`（眞教元符）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mh6d8q`（崇文總目，題作《真教元符》，3卷）。二題之別僅在異體字，歸一後全同，卷數全同（3卷）；彼條無撰人而本條作「戴簡」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《眞教元符》，所用「眞教元符」係著錄原文之異體；今正為通行之《真教元符》，原形移入 additional_titles 備檢。",
-  "additional_titles": [
-    "眞教元符"
-  ]
+  "_promoted_to": "d59f28m5ukn5",
+  "_promoted_at": "2026-08-24T19:25:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28m5ukn5。"
 }

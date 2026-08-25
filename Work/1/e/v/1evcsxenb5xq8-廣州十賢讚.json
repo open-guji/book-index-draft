@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxenb5xq8",
   "type": "work",
   "title": "廣州十賢讚",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《廣州十賢讚》",
-      "summary": "蔣之奇《廣州十賢讚》一卷安德裕"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《廣州十賢讚》",
-      "summary": "蔣之奇《廣州十賢讚》一卷",
-      "merged_from": "1evcsz7pc35z4",
-      "note": "諸志同著《廣州十賢讚》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsxenb5xq8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "蔣之奇",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1jcf5151293l7",
-      "note": "宋史藝文志兩出，皆作「蔣之奇《廣州十賢讚》一卷」，前置撰人蔣之奇。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293l7` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志同志兩出「蔣之奇《廣州十賢讚》一卷」，撰人、卷數全同，係重出，今合併。所併之條句末「安德裕」屬其下條。"
+  "_promoted_to": "d59f2hfac000",
+  "_promoted_at": "2026-08-25T05:35:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfac000。"
 }

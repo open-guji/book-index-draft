@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqctbeeps",
   "type": "work",
   "title": "禮記解",
-  "authors": [
-    {
-      "name": "馬希孟",
-      "role": "撰",
-      "entity_id": "1j967da96x4xt"
-    }
-  ],
-  "juan_count": {
-    "number": 70
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《禮記解》七十卷",
-      "summary": "《禮記解》七十卷（馬希孟）",
-      "author_info": "馬希孟"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved",
-  "id": "1evgoqctbeeps",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 70
-    }
-  ],
-  "measure_info": "七十卷",
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：馬希孟（Entity 1j967da96x4xt），並經 CBDB c_personid 27577 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming"
+  "_promoted_to": "d59f2himid4z",
+  "_promoted_at": "2026-08-25T05:41:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2himid4z。"
 }

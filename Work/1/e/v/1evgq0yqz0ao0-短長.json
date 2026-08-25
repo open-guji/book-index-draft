@@ -6,7 +6,9 @@
     {
       "name": "王世貞",
       "role": "撰",
-      "entity_id": "1j967avzlnsii"
+      "entity_id": "1j967avzlnsii",
+      "dynasty": "明",
+      "dynasty_basis": "entity_propagation:1j967avzlnsii（J21 S5 收尾）"
     }
   ],
   "juan_count": {
@@ -31,12 +33,13 @@
     }
   ],
   "description": {
-    "text": "《國史經籍志》收錄。",
+    "text": "王世貞撰。二卷；諸志所著之數有異，別作一卷。見著錄於《國史經籍志》《欽定四庫全書總目》。其著錄之文，《國史經籍志》作「《短長》二卷（王世貞）」。《國史經籍志》明焦竑撰；《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
     "sources": [
-      "國史經籍志"
+      "國史經籍志",
+      "欽定四庫全書總目"
     ]
   },
-  "ai_note": "missing_reason: 短title \"短長\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1ev4c1tgqssn4`（短長）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1ev4c1tgqssn4`（欽定四庫全書總目，1卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。",
+  "ai_note": "missing_reason: 短title \"短長\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1ev4c1tgqssn4`（短長）。2026-08-23 B10（同題一方無撰人·卷數差一）：併入 `1ev4c1tgqssn4`（欽定四庫全書總目，1卷，不著撰人）。題名全同、著錄異源，卷數僅差一，屬計卷之出入（并序、并目錄）而非二書。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j967avzlnsii`.dynasty「明」propagate 補齊；work.dynasty 同步。",
   "id": "1evgq0yqz0ao0",
   "measures": [
     {
@@ -56,5 +59,9 @@
       "title": "左逸",
       "relation": "related"
     }
-  ]
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）",
+  "_promoted_to": "d59f2nel9sea",
+  "_promoted_at": "2026-08-25T12:28:52Z"
 }

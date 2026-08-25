@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxtio394w",
   "type": "work",
   "title": "證道歌",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《證道歌》",
-      "summary": "左掌子《證道歌》一卷中皇子"
-    }
-  ],
-  "id": "1evcsxtio394w",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%AD%89%E9%81%93%E6%AD%8C",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "authors": [
-    {
-      "name": "左掌子",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j96hfyvwfnk0",
-      "note": "宋史藝文志作「左掌子《證道歌》一卷中皇子」，前置撰人左掌子；句末「中皇子」屬下條。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「左掌子」而無 entity_id，今繫 `1j96hfyvwfnk0`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為左掌子《證道歌》一卷，與同志僧原白注本（`1evcsxrslfcao`）非一書，未予合併。"
+  "_promoted_to": "d59f2hgbh8n6",
+  "_promoted_at": "2026-08-25T05:37:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgbh8n6。"
 }
