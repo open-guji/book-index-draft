@@ -4,7 +4,12 @@
   "subtype": "people",
   "primary_name": "丁特起",
   "dynasty": "北宋",
-  "alt_names": [],
+  "alt_names": [
+    {
+      "name": "太學丁特起",
+      "type": "著錄形"
+    }
+  ],
   "works": [
     {
       "work_id": "d59f2heys7wg",
@@ -33,8 +38,9 @@
     "cbdb_source": "name+dy_match+unique freq=4"
   },
   "id": "1j98p176qto1s",
-  "updated_at": "2026-08-09T08:58:29+00:00",
+  "updated_at": "2026-08-25T00:00:00+00:00",
   "dynasty_basis": "title_nianhao:靖康→北宋",
   "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并"
+  "period_basis": "据 dynasty「北宋」自动归并",
+  "ai_note": "2026-08-25 孤懸 entity 普查（前綴污染）：庫中別有一孤懸條「太學丁特起」（1j96hel2g5ekg），乃志文之銜位、地望、道號、僧號或黏連之字「太學」冠於本名之上而成，其名截去前綴即本條之名，且無所繫之 work，本非別人。今去其條，存其著錄形於 alt_names。"
 }
