@@ -24,6 +24,10 @@
     {
       "name": "尚質",
       "type": "異體"
+    },
+    {
+      "name": "黄榦",
+      "type": "異體"
     }
   ],
   "dynasty": "南宋",
@@ -49,6 +53,10 @@
     {
       "work_id": "d59f2hdh3egz",
       "role": "撰"
+    },
+    {
+      "work_id": "d59f2hcvv9j4",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -63,5 +71,5 @@
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-22 E1 人物併池：1j967bgl8kqxz 併入本條。二者之名僅異體之別（黃幹／黃榦），朝代同，生卒年不相斥，是同一人被拆成二條。異體之名存 alt_names；CBDB 另予之 id 存 external_ids.cbdb_id_alt。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 1 部 work 之繫——其 authors 作「名＋字」連書之形，本是一人。"
+  "ai_note": "2026-08-22 E1 人物併池：1j967bgl8kqxz 併入本條。二者之名僅異體之別（黃幹／黃榦），朝代同，生卒年不相斥，是同一人被拆成二條。異體之名存 alt_names；CBDB 另予之 id 存 external_ids.cbdb_id_alt。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 1 部 work 之繫——其 authors 作「名＋字」連書之形，本是一人。\n\n2026-08-25 同名同代者歸併：併入同名之條（`1jcf515129a5a`）。二條同名、同 period，其所繫之 work 亦相類，是庫中一人兩目——或本日新建之際未撞既有，或朝代之詳略異（「晉」與「東晉」、「漢」與「東漢」）而各立一條。今取其 work 較備者為正，餘併入之，alt_names 與 works 悉收。"
 }

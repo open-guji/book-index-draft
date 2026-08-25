@@ -175,7 +175,8 @@ def main():
             if isinstance(w, dict) and w.get('work_id') in d2p:
                 w['work_id'] = d2p[w['work_id']]
         nm = prod.get('primary_name')
-        ppath = os.path.join(PROD, f'Entity/{P[0]}/{P[1]}/{P[2]}/{P}-{nm}.json')
+        # 2026-08-25 分片改制：目錄取 id 之**末**三字（舊制取首三字）
+        ppath = os.path.join(PROD, f'Entity/{P[-3]}/{P[-2]}/{P[-1]}/{P}-{nm}.json')
         jwrite(ppath, prod)
         IEp[P] = {'id': P, 'type': 'entity', 'subtype': prod.get('subtype'),
                   'primary_name': nm, 'path': os.path.relpath(ppath, PROD)}
