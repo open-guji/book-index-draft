@@ -193,7 +193,15 @@ print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0')
 for x in _deadent[:8]: print('  ',x)
 
 # 整理本 section 之 work_ids ↔ work 之 emendated_by
+# 母條升格後 CE 目錄留在 draft（路徑仍以 draft id 為鍵），而 sweep 已把子條之
+# source_bid 改寫為 production id——故 source_bid 等於母條之 production id 亦合。
+# 2026-08-25 宋輪（漢藝文志考證／新唐書藝文志升格）踩過：不認映射則假報 87。
 import ast
+_pm={}
+try:
+    for _k,_v in json.load(open('promotions.json'))['promotions'].items():
+        _pm[_k]=_v.get('production_id')
+except Exception: pass
 desync=0
 for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     if 'index' in f: continue
@@ -201,6 +209,8 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
     except Exception: continue
     if not isinstance(cd,dict): continue
     src=f.split('/')[4]
+    ok_bids={src}
+    if _pm.get(src): ok_bids.add(_pm[src])
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
         v=sec.get('work_ids'); ids=ast.literal_eval(v) if isinstance(v,str) else (v or [])
@@ -209,7 +219,7 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not e: continue
             try: dd=json.load(open(e['path']))
             except Exception: continue
-            if not any(y.get('source_bid')==src for y in (dd.get('emendated_by') or [])
+            if not any(y.get('source_bid') in ok_bids for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)
 
