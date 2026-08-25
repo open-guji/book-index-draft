@@ -86,12 +86,14 @@
       "元史藝文志"
     ]
   },
-  "ai_note": "從 1evgacas37sw0 合併。原註：同名異書：已有 Work 作者為 [('鄭潛', '明')]，本條作者 鄭潛（元），另建 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxq2uqnsw 與 11q37tvpr9kow 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 B1 同名異書併池：併入 `1evgc6awiuzgg`（樗菴類稿）。2026-08-23 B6（B3′ 遺留）：併入 `1evgc6awiuzgg`（元史藝文志《樗菴類稿》（鄭濳））。「濳」為「潛」之異體。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "ai_note": "從 1evgacas37sw0 合併。原註：同名異書：已有 Work 作者為 [('鄭潛', '明')]，本條作者 鄭潛（元），另建 [ming-round1: author.dynasty 集合=['明'] → dynasty=明] 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxq2uqnsw 與 11q37tvpr9kow 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-23 B1 同名異書併池：併入 `1evgc6awiuzgg`（樗菴類稿）。2026-08-23 B6（B3′ 遺留）：併入 `1evgc6awiuzgg`（元史藝文志《樗菴類稿》（鄭濳））。「濳」為「潛」之異體。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L7：loss_status 判為 partially_extant，據見 loss_status_basis。",
   "updated_at": "2026-08-23T00:00:00+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "liao-jin-yuan",
   "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('鄭潛', '明')] 指向 ming，而本書見於《補遼金元藝文志》——該志斷代著錄 liao-jin-yuan 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「明」",
   "dynasty": "明",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "loss_status": "partially_extant",
+  "loss_status_basis": "L7（2026-08-25 遼金元）：判 `partially_extant`——《欽定四庫全書總目》明言其書久佚而館臣**自《永樂大典》輯出**：「》載其始末甚詳。黃虞稷《千頃堂書目》列之元人，誤也。虞稷載《樗菴類稿》二卷。今從《永樂大典》裒輯得古體詩五十首、近體詩一百四十六首，並原序三篇，仍可編為二卷，計所遺亦無幾矣。是集」。原書既亡而今有輯本存其文，依 SCHEMA〈凡有文存世即 partially_extant〉。"
 }
