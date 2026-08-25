@@ -18,8 +18,11 @@
     "number": 30
   },
   "description": {
-    "text": "原書八十九篇，已亡佚千餘年。1972年銀雀山漢墓竹簡出土，得三十篇。",
-    "sources": []
+    "text": "孫臏（先秦）撰。三十卷。見著錄於《漢書藝文志》《續修四庫全書》。《漢書藝文志》列於兵書略·兵權謀；《續修四庫全書》列於子部 兵家類。原書散佚，今有輯本存其文。《續修四庫全書》一九九五年影印——本書之目賴之以存。",
+    "sources": [
+      "漢書藝文志",
+      "續修四庫全書"
+    ]
   },
   "indexed_by": [
     {
@@ -105,11 +108,13 @@
     }
   ],
   "loss_status": "partially_extant",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。 | 從 1evjr3k5q21a8《孫臏兵法》合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。　2026-08-20 撰人去重：authors 原有「孫臏」（繫 entity 1j96ha6py6n7k）與「戰國孫臏」（朝代空、無 entity）二條，後者為著錄語「戰國孫臏撰」未去朝代之殘，今刪，並為前者補 role「撰」。",
+  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「原書八十九篇，已亡佚千餘年」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　旗標：出土相關（出土與真偽不入本枚舉，僅備覆核）。　存佚訂正：loss_status 由 lost 改為 partially_extant——與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。　按本庫定例，亡而復出不別立狀態，其現狀即殘存或今存。 | 從 1evjr3k5q21a8《孫臏兵法》合併。原註：本 Work 條目從《續修四庫全書》目錄錄入。　2026-08-20 撰人去重：authors 原有「孫臏」（繫 entity 1j96ha6py6n7k）與「戰國孫臏」（朝代空、無 entity）二條，後者為著錄語「戰國孫臏撰」未去朝代之殘，今刪，並為前者補 role「撰」。\n\n2026-08-24 J9 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "loss_status_note": "原作 lost，今改 partially_extant。與《齊孫子》同書異名（本條 related_works 已互指），其復出之據同上。按：二條疑為重出，已錄於 .claude/known-issues/疑似重出，此處不合併。（覆核於存佚普查，非機讀。）",
   "updated_at": "2026-08-08T18:11:45+00:00",
   "_has_text": true,
   "_has_image": true,
   "period": "pre-qin",
-  "period_basis": "朝代「周」有歧義（可為 pre-qin／nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：漢書藝文志"
+  "period_basis": "朝代「周」有歧義（可為 pre-qin／nanbeichao／five-dynasties），以所著錄之志書為時代上限決之——見於某志者其時代不得晚於該志：漢書藝文志",
+  "_promoted_to": "d59f2ew0o26a",
+  "_promoted_at": "2026-08-25T02:39:35Z"
 }
