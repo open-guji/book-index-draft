@@ -13,8 +13,20 @@
       故拷貝入 production 之時，逐條以 promotions.json 改之。
   二、**authors[].entity_id 之改繫**。兩倉之 work 皆以此欄繫人，
       升格之後須全庫改 D→P，draft 與 production 並改。
-  三、**孤懸者不升**。works 為空之 entity，production 無一物繫之，
-      升之徒增死條；留在 draft，俟其有繫。
+  三、**孤懸與同名之閘**（2026-08-25 改）。舊制：works 為空者不升，
+      在同名組中者不升。今二閘並鬆，其故：
+
+      孤懸——2026-08-25 孤懸普查竣事，四百八十二條中，凡名之不成其為人者
+      （志文殘語、紀年、卷數、書名、誤切之髒題）已刪七十八，凡實為既有之人
+      而冠以銜位、地望、道號、僧號者已併六十七。所餘三百餘條皆真人，
+      名、代俱在，是為權威條目（authority record），雖無所繫之 work
+      亦自有其用。且 production 之條非墓碑，仍可修（墓碑者 draft 之殘影耳），
+      他日有書繫之，於 production 補其 works[] 即是，不待留在 draft。
+
+      同名——同名組非皆重出。2026-08-25 普查三百一十四組，逐組定案之後，
+      二百四十九組乃代各異之同名異人，本非一人，無待「整組同時定案」。
+      故今之閘改為：**組中諸條之 period 兩兩相異且無一為空者放行**
+      （即已定案之同名異人），有代同者或有闕代者仍攔——那才是未決之重出。
 
 用法：
     python3 scripts/promote_entity.py --gate                 # 只跑閘，報可升之數
@@ -121,15 +133,19 @@ def main():
         st, ty = parse_id(i)
         if st != ST_DRAFT or ty != T_ENTITY: rej['id 之位非 draft/entity'] += 1; continue
         ws = [w for w in (d.get('works') or []) if isinstance(w, dict) and w.get('work_id')]
-        if not ws: rej['孤懸（works 空）——升之無所繫，留 draft'] += 1; continue
         dead = [w['work_id'] for w in ws
                 if w['work_id'] not in IWd and w['work_id'] not in PWids
                 and w['work_id'] not in set(d2p.values())]
         if dead: rej['works 有懸空'] += 1; continue
         nm = d.get('primary_name')
         if not nm: rej['無 primary_name'] += 1; continue
-        # 同名組須整組同時定案（比照 work 之規矩）
-        if len(byname[nm]) > 1: rej['在同名組中——須整組同時定案'] += 1; continue
+        # 同名組：已定案之同名異人（諸條之 period 兩兩相異且無一為空）放行；
+        # 有代同者、有闕代者仍攔——那是未決之重出，見本檔篇首〈三〉。
+        grp = byname[nm]
+        if len(grp) > 1:
+            ps = [ents[g].get('period') for g in grp]
+            if (not all(ps)) or len(set(ps)) != len(ps):
+                rej['同名組未定案（有代同者或闕代者）——須整組同時定案'] += 1; continue
         if a.period and d.get('period') != a.period: rej['非本批之代'] += 1; continue
         ok.append(i)
 
@@ -151,16 +167,19 @@ def main():
 
     # ── 升 ──
     used = set(IEd) | set(IEp) | set(d2p.values()) | set(promo)
-    seq = 0; base_ts = int(time.time())
+    base_ts = int(time.time()); n = 0
     def mint():
-        nonlocal seq
+        # 一秒之內可鑄 2047×256 號：seq 佔低八位，machine 十一位，滿則進 ts。
+        # （舊制止動 seq 而 machine 固定為 1，逾二百五十六條即空轉不出，
+        #   本批二萬四千餘條必踩，故改。）
+        nonlocal n
         while True:
+            seq = n & 0xff
+            mac = 1 + ((n >> 8) % 2047)
+            ts = base_ts + (n >> 8) // 2047
+            n += 1
             v = (ST_OFFICIAL << SH_ST) | (T_ENTITY << SH_TY) | \
-                ((base_ts & ((1 << 40) - 1)) << SH_TS) | ((1 & 0x7ff) << SH_M) | (seq & 0xff)
-            seq += 1
-            if seq > 255:
-                seq = 0
-                globals()['__t'] = None
+                ((ts & ((1 << 40) - 1)) << SH_TS) | ((mac & 0x7ff) << SH_M) | seq
             s = b36(v)
             if s not in used: used.add(s); return s
 
