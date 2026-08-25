@@ -134,3 +134,22 @@
 **未決**：promote 該不該在拷貝後刪 draft 原件？刪則 collated_edition 的整理流程
 要一併改到 production 側去掃；不刪則每升一條帶 fragments 的書就多一條不符。
 現行辦法是升格後手動刪 fragments、留 collated_edition。此事牽動整理車道，宜與之議定。
+
+## 目錄分片退化（已定方案，待擇期停機施行）
+
+`Work/<id[0]>/<id[1]>/<id[2]>/` 之分片鍵取 id 前三字元，而 snowflake 之高位
+編的是 status＋type＋時戳高位——同倉同型同代之 id 前綴必然全同。實測兩倉
+150,318 檔只落進 **20 個目錄**，其中 `book-index-draft/Work/1/e/v` 一格
+**71,076 檔**，`find_file_by_id` 每查約 50 ms。
+
+已有三個工具各自建 id→path 索引繞開（`validate-promotions`、
+`sweep-promoted-refs`、2026-08-25 之 `qa_work`／`promote`），病灶本身未動。
+
+**方案已寫定**：分片鍵改取 id 尾 2 字元（實測 20 格 → 4,675 格，最大格
+71,076 → 839）。改動點、遷移程序、六條陷阱、回滾之法，見
+`overview/项目进展/古籍索引网站/分片退化-迁移方案.md`。
+
+使用者 2026-08-25 裁定：**回頭停下來一步到位**，不逐步遷、不邊跑邊遷。
+故在施行之前，新寫的工具若嫌查檔慢，仍照現行辦法自建索引繞開；
+**繞開時切記**：`find_file_by_id` 之「未中」被 `_mint_unique_official_id`
+用作「此號未用」之判（坑30），故快徑未中時**必須落回真 glob**。
