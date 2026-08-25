@@ -44,5 +44,13 @@
   "dynasty": "南宋",
   "dynasty_basis": "author_propagation:唯一作者朝代",
   "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。"
+  "period_basis": "據 authors[0].dynasty「南宋」——撰人自《宋史藝文志》頂真格之首名抽出（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。",
+  "description": {
+    "text": "《周易辨惑》，南宋邵伯溫撰。《宋史藝文志》、《經義考》所著卷數一致（一卷）。《經義考》敘曰：「宋志一卷宋史邵伯温字子文洛陽人康節處士雍之子也以薦授大名府助教提㸃成都府刑獄除利路轉運副使提舉太平觀紹興四年卒趙鼎表墓曰以學行起元祐以名節居紹聖以言廢於崇寜三語盡伯温出處云」",
+    "sources": [
+      "宋史藝文志",
+      "經義考"
+    ]
+  },
+  "ai_note": "2026-08-25 宋代G7：本條之 description 非人所撰，是據所繫著錄之引文機械組織而成（撰人、卷數、諸志卷數異同、敘錄要點、存佚），不臆造一字，未覆核原書。"
 }

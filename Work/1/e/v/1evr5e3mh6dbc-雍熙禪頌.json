@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1evr5e3mh6dbc",
+  "type": "work",
+  "title": "雍熙禪頌",
+  "juan_count": {
+    "number": 3
+  },
+  "indexed_by": [
+    {
+      "source": "崇文總目",
+      "source_bid": "1ev3bb3xyygw0",
+      "title_info": "雍熈禪頌三卷",
+      "summary": "雍熈禪頌三卷"
+    },
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《雍熈禪頌》三卷",
+      "summary": "《雍熈禪頌》三卷（宋僧辨隆）",
+      "author_info": "宋僧辨隆"
+    }
+  ],
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "measure_info": "三卷",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 3
+    }
+  ],
+  "authors": [
+    {
+      "name": "辨隆",
+      "role": "撰",
+      "dynasty": "宋",
+      "entity_id": "1jcf5151298up",
+      "note": "據本 work 諸著錄之 author_info「宋僧辨隆」補；著錄所給者為一，去朝代與職名後取之。",
+      "name_basis": "2026-08-24 新建 entity `1jcf5151298up` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation:唯一作者朝代",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「宋僧辨隆」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-25 宋代G3 異體歸正：題中異體字歸併正體（使用者 2026-08-24 裁定），舊題存 additional_titles 以志著錄原形。",
+  "additional_titles": [
+    "雍熈禪頌"
+  ]
+}

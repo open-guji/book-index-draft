@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "得法忘例論",
+  "authors": [
+    {
+      "name": "馮正符",
+      "role": "撰",
+      "entity_id": "1j967da96x4xn",
+      "dynasty": "北宋",
+      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路三（entity 相容）：本條 period 已據引文定為 song，庫中同名 entity 唯一（`1j967da96x4xn`，代「北宋」），二者相容，據以補代。**只補 dynasty 不繫 entity_id**——同名唯一之繫曾致漢代十九條誤入（skill 坑 23），entity 之繫留人物車道覈實後再作。"
+    }
+  ],
+  "juan_count": {
+    "number": 30
+  },
+  "indexed_by": [
+    {
+      "source": "國史經籍志",
+      "source_bid": "1ev3bb4qxubr4",
+      "title_info": "《得灋忘例論》三十卷",
+      "summary": "《得灋忘例論》三十卷（馮正符）",
+      "author_info": "馮正符"
+    }
+  ],
+  "description": {
+    "text": "《國史經籍志》收錄。",
+    "sources": [
+      "國史經籍志"
+    ]
+  },
+  "id": "1evgoq3jm38qo",
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 30
+    }
+  ],
+  "measure_info": "三十卷",
+  "updated_at": "2026-08-23T00:00:00-07:00",
+  "period": "song",
+  "period_basis": "撰人 Entity 之代：馮正符（Entity 1j967da96x4xn），並經 CBDB c_personid 25303 覆驗相符",
+  "period_upper": "ming",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
+  "additional_titles": [
+    "得灋忘例論"
+  ],
+  "ai_note": "2026-08-25 宋代G3 異體歸正：題中異體字歸併正體（使用者 2026-08-24 裁定），舊題存 additional_titles 以志著錄原形。"
+}
