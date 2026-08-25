@@ -8,10 +8,12 @@
       "name": "朱申",
       "role": null,
       "entity_id": "1j967avzkeubk",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱申」而無 entity_id，今繫 `1j967avzkeubk`——庫中 primary_name 同之者唯一。其代「元」與本書已定之代「liao-jin-yuan」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱申」而無 entity_id，今繫 `1j967avzkeubk`——庫中 primary_name 同之者唯一。其代「元」與本書已定之代「liao-jin-yuan」相合。",
+      "dynasty": "元",
+      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j967avzkeubk`（朱申）之 dynasty「元」。其據見該 entity 之 dynasty_basis。"
     }
   ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書禮記類著錄「朱氏（申）夏小正傳」。庫中雖有同題之《夏小正傳》，然彼不著撰人而本條著「朱申」，同題異撰是二書，故別建。\n\n`period`／`loss_status`／`role`／`entity_id` 不繫，其由與本輪所建諸條同（見《經義考待裁分流方案》）。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書禮記類著錄「朱氏（申）夏小正傳」。庫中雖有同題之《夏小正傳》，然彼不著撰人而本條著「朱申」，同題異撰是二書，故別建。\n\n`period`／`loss_status`／`role`／`entity_id` 不繫，其由與本輪所建諸條同（見《經義考待裁分流方案》）。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "indexed_by": [
     {
       "source": "經義考",

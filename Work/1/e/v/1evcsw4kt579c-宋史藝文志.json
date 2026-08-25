@@ -11,7 +11,9 @@
     {
       "name": "脫脫",
       "role": "撰",
-      "entity_id": "1j967da96lwch"
+      "entity_id": "1j967da96lwch",
+      "dynasty": "元",
+      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j967da96lwch`（脫脫）之 dynasty「元」。其據見該 entity 之 dynasty_basis。"
     }
   ],
   "resources": [
@@ -70,7 +72,7 @@
       "relation": "part_of"
     }
   ],
-  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。",
+  "ai_note": "原有非 schema 之頂層欄位 part_of，今改記為 related_works 之 part_of 關係。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "updated_at": "2026-08-23T00:00:00-07:00",
   "_has_collated": true,
   "_has_text": true,

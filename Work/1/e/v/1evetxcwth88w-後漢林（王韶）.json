@@ -7,9 +7,9 @@
     {
       "name": "王韶",
       "role": "撰",
-      "entity_id": "1j96h8rw7vhhc",
-      "dynasty": "北宋",
-      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路三（entity 相容）：本條 period 已據引文定為 song，庫中同名 entity 唯一（`1j96h8rw7vhhc`，代「北宋」），二者相容，據以補代。**只補 dynasty 不繫 entity_id**——同名唯一之繫曾致漢代十九條誤入（skill 坑 23），entity 之繫留人物車道覈實後再作。"
+      "entity_id": null,
+      "dynasty": null,
+      "dynasty_basis": "2026-08-25 宋代G8：隋志「梁有王韶《後漢林》二百卷，亡」——此王韶是梁前之人，非北宋熙河王韶；CBDB 覆驗係同名誤中（坑23 型），解繫。"
     }
   ],
   "juan_count": {
@@ -23,7 +23,7 @@
       "title_info": "梁有王韶《後漢林》二百卷"
     }
   ],
-  "ai_note": "亡佚。隋書經籍志「梁有王韶《後漢林》二百卷，亡」。",
+  "ai_note": "亡佚。隋書經籍志「梁有王韶《後漢林》二百卷，亡」。\n2026-08-25 宋代G8：隋書經籍志「梁有王韶《後漢林》二百卷，亡」——梁有著錄之亡書，誤入 song 桶（撰人同名北宋王韶誤繫所致），今移 nanbeichao。",
   "measures": [
     {
       "unit": "卷",
@@ -32,6 +32,7 @@
   ],
   "measure_info": "二百卷",
   "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "撰人 Entity 之代：王韶（Entity 1j96h8rw7vhhc），並經 CBDB c_personid 1865 覆驗相符"
+  "period": "nanbeichao",
+  "period_basis": "2026-08-25 宋代G8：隋書經籍志「梁有王韶《後漢林》二百卷，亡」——梁有著錄之亡書，誤入 song 桶（撰人同名北宋王韶誤繫所致），今移 nanbeichao。",
+  "dynasty": null
 }
