@@ -656,6 +656,29 @@ print('內部鍵漏入落盤', len(_USTRAY), '　基線 0（合法之 `_` 鍵唯
 for _x in _USTRAY[:6]:
     print('  ', _x)
 
+# ── 檔名之 id 與內容之 id 不符（2026-08-25 增） ─────────────────
+# 立此驗之由：2026-08-25 遼金元輪查得**六檔被整個覆寫**——並行會話之合流
+# commit `9db873c027` 把六條墓碑之內容落到了另外六個 work 的檔上，
+# 《深衣圖說》《尚書說》《春秋不書即位說》《洪範五事說》《毛詩說略》
+# 《詩傳演說》遂整條丟失（題、撰人、著錄、desc 皆非其物），而**無任何校驗會報**
+# ——索引是按內容之 id 建的，於是索引、分片、雙向鏈全都自洽。
+# 檔名之 id 與內容之 id 不符，是此型唯一留下的痕。
+_IDMIS = []
+for _root in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for _t in ('Work', 'Book', 'Collection', 'Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json' % (_root, _t)):
+            _fid = os.path.basename(_p).split('-', 1)[0]
+            try:
+                _d = json.load(open(_p, encoding='utf-8'))
+            except Exception:
+                continue
+            if isinstance(_d, dict) and _d.get('id') and _d['id'] != _fid:
+                _IDMIS.append((_p, _fid, _d['id'], _d.get('title') or _d.get('primary_name')))
+print('檔名 id 與內容 id 不符', len(_IDMIS), '　基線 0（不符即有一檔被別條之內容覆寫——'
+      '此型索引、分片、雙向鏈全都自洽，唯此一驗見得著）')
+for _x in _IDMIS[:6]:
+    print('  ', _x)
+
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)

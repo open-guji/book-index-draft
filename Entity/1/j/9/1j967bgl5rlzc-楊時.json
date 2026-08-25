@@ -81,6 +81,10 @@
     {
       "work_id": "1ex7tqt3n1h4u",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcsw68141ds",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -92,5 +96,5 @@
   "dynasty_basis": "cbdb:birth/death_name=南宋",
   "period": "song",
   "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evcsw68141ds`《詩解》。"
 }
