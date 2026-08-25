@@ -650,7 +650,7 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id'):
                 _pw[_d['id']]=(_d,_p)
                 if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
-    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]
     for _i,(_d,_p) in _pw.items():
         if list(_i[:3])!=_p.split('/')[-4:-1]: _pdir.append(_p)
         _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
@@ -661,6 +661,11 @@ if _PR_ROOT:
             _t2=_pt.get(_r.get('id'))
             if _r.get('title') and _t2 and _t2!=_r['title']:
                 _pdrift.append((_i,_r['id'],_r['title'],_t2))
+            # 懸空：所指之 id 兩倉四類皆無（_pw 是 production 全類，_pt 兼含 draft 之題表）。
+            # 2026-08-24 隋唐輪查得 108 條目 189 節靜默積欠——併條工具只掃 draft，
+            # 而本驗先前只驗「題漂移」，id 不存在者反而無題可比而過。
+            if _r.get('id') and _r['id'] not in _pw and _r['id'] not in _pt:
+                _pdang.append((_i,_r.get('id'),_r.get('title')))
             _k=(_r.get('id'),_r.get('relation'))
             if _k in _seen: _pdup.append((_i,_k))
             _seen.add(_k)
@@ -669,6 +674,8 @@ if _PR_ROOT:
     print('── production ──')
     print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
     for x in _pbk[:6]: print('     ',x)
+    print('  related_works 懸空（所指兩倉皆無）',len(_pdang),'　基線 0（2026-08-24 全清 189 節，修法：resweep_related 已兼掃 production）')
+    for x in _pdang[:6]: print('     ',x)
     print('  related_works[].title 漂移',len(_pdrift),'　基線 0')
     for x in _pdrift[:6]: print('     ',x)
     print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')
