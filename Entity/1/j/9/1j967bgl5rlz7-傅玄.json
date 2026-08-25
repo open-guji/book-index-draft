@@ -30,6 +30,10 @@
     {
       "work_id": "d59f27vwnzsw",
       "role": "撰"
+    },
+    {
+      "work_id": "1evfuvdwjthj4",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -37,7 +41,7 @@
     "cbdb_match": "auto",
     "cbdb_source": "name_exact+dy_match+work_recall_0.33+unique"
   },
-  "ai_note": "繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。　繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 J3(6) Entity 同名分裂併池：併入 1j96heiib9qf4（primary_name「晉傅休奕」，dynasty「None」，works 0 條）。據：傅玄（217–278），字休奕，北地泥陽人，晉司隸校尉，撰《傅子》。",
+  "ai_note": "繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。　繫連補入：1evfuuf91a2o0《魏書》經補晉志誤切訂正後撰人定為「傅玄」，今繫之。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 J3(6) Entity 同名分裂併池：併入 1j96heiib9qf4（primary_name「晉傅休奕」，dynasty「None」，works 0 條）。據：傅玄（217–278），字休奕，北地泥陽人，晉司隸校尉，撰《傅子》。\n\n2026-08-24 「某某等」歸其人：併入「傅玄等」（`1j96hffentc00`）。「等」乃著錄語「某某等撰」之省，非名之一部，而匯入時併為一名，遂與本條兩出。所繫之 work 悉歸本條；其「等」之義在 role（等奉敕撰、等纂修之屬）已見，不必在名。",
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "jin",
   "period_basis": "據 dynasty「西晉」自動歸併",
@@ -45,6 +49,12 @@
     {
       "name": "晉傅休奕",
       "type": "異體"
+    }
+  ],
+  "alt_names": [
+    {
+      "name": "傅玄等",
+      "type": "廟號"
     }
   ]
 }

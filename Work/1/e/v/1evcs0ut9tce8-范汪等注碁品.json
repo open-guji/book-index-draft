@@ -1,9 +1,37 @@
 {
   "schema_version": 1,
-  "id": "1evcs0ut9tce8",
   "type": "work",
   "title": "范汪等注碁品",
+  "indexed_by": [
+    {
+      "source": "新唐書藝文志",
+      "source_bid": "1evcs059gkvls",
+      "title_info": "范汪等注碁品",
+      "summary": "范汪等注碁品五卷"
+    }
+  ],
+  "id": "1evcs0ut9tce8",
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period_upper": "sui-tang",
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "period": "jin",
+  "period_basis": "據撰人范汪等注之朝代「晉」。本條撰人原只見於題名而 authors 欄闕，2026-08-22 C1 定代並補撰人。",
+  "authors": [
+    {
+      "name": "范汪等注",
+      "dynasty": "晉",
+      "role": "撰",
+      "entity_id": "1j967cp1zdr31",
+      "name_basis": "撰人見於題名「范汪等注碁品」，繫庫中同名人物 1j96kfmi7xmv4。（2026-08-22 C1）\n\n2026-08-24 「某某等」歸其人：本條所繫之 `1j96kfmi7xmv4` 其 primary_name 作「…等」，「等」乃「等人」之省，非名之一部，今改繫 `1j967cp1zdr31`。"
+    }
+  ],
+  "description": {
+    "text": "范汪等注（晉）撰。見著錄於《新唐書藝文志》。其著錄之文，《新唐書藝文志》作「范汪等注碁品五卷」。本書惟《新唐書藝文志》一志著錄，別無他證。《新唐書藝文志》北宋歐陽脩等修，本書之目賴之以存。",
+    "sources": [
+      "新唐書藝文志"
+    ]
+  },
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27tkp5oj。",
   "_promoted_to": "d59f27tkp5oj",
-  "_promoted_at": "2026-08-24T18:30:30Z",
-  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27tkp5oj。"
+  "_promoted_at": "2026-08-24T18:30:30Z"
 }

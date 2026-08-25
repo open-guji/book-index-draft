@@ -16,6 +16,10 @@
     {
       "name": "繆",
       "type": "諡號"
+    },
+    {
+      "name": "許敬宗等",
+      "type": "廟號"
     }
   ],
   "dynasty": "唐",
@@ -77,6 +81,10 @@
     {
       "work_id": "d59f28ltd2wx",
       "role": "撰"
+    },
+    {
+      "work_id": "1evcubs5jfy0w",
+      "role": "撰"
     }
   ],
   "external_ids": {
@@ -87,5 +95,5 @@
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "sui-tang",
   "period_basis": "據 dynasty「唐」自動歸併",
-  "ai_note": "2026-08-24 舊唐志逐條抽撰人：新收 2 部 work 之繫。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "ai_note": "2026-08-24 舊唐志逐條抽撰人：新收 2 部 work 之繫。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 「某某等」歸其人：併入「許敬宗等」（`1j96kfm9ra0ow`）。「等」乃著錄語「某某等撰」之省，非名之一部，而匯入時併為一名，遂與本條兩出。所繫之 work 悉歸本條；其「等」之義在 role（等奉敕撰、等纂修之屬）已見，不必在名。"
 }

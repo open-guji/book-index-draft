@@ -17,14 +17,6 @@
     {
       "work_id": "d59f285aerk0",
       "role": "撰"
-    },
-    {
-      "work_id": "d59f286rh3wh",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f286n3sao",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -33,7 +25,8 @@
     "cbdb_source": "minimal_entity_backfill"
   },
   "dynasty": "北魏",
-  "updated_at": "2026-08-22T08:35:02.277736+00:00",
+  "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "nanbeichao",
-  "period_basis": "據 dynasty「北魏」自動歸併"
+  "period_basis": "據 dynasty「北魏」自動歸併",
+  "ai_note": "2026-08-24 清 works：去懸空者 0（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。\n\n2026-08-24 清 works（升格之後）：去重複 2、去懸空 0。升格之際 rewrite_references 將 works 中之 draft id 改為 production id，若本條原已兼有二者，改後遂成重複；又所指之 work 若在升格前已併去，則改無可改而成懸空。**故凡大批升格之後，entity 側須復清一次。**"
 }

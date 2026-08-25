@@ -8,10 +8,6 @@
   "works": [
     {
       "work_id": "d59f27s8mm0y"
-    },
-    {
-      "work_id": "d59f27s8mm0y",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -19,8 +15,9 @@
     "cbdb_match": "manual",
     "cbdb_source": "pending_accept: wc=2 unique, cbdb_dy=3 (None-None)"
   },
-  "updated_at": "2026-08-22T08:35:02.277736+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 dynasty「三國」自動歸併",
-  "dynasty_basis": "cbdb:c_dy=3→春秋"
+  "updated_at": "2026-08-24T00:00:00+00:00",
+  "period": "pre-qin",
+  "period_basis": "據 dynasty「春秋」自動歸併（2026-08-24 訂正：舊作「three-kingdoms」，與其 dynasty 不自洽——朝代之名較期為細，故從朝代）。",
+  "dynasty_basis": "cbdb:c_dy=3→春秋",
+  "ai_note": "2026-08-24 清 works：去懸空者 0（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。\n\n2026-08-24 清 works（升格之後）：去重複 1、去懸空 0。升格之際 rewrite_references 將 works 中之 draft id 改為 production id，若本條原已兼有二者，改後遂成重複；又所指之 work 若在升格前已併去，則改無可改而成懸空。**故凡大批升格之後，entity 側須復清一次。**"
 }

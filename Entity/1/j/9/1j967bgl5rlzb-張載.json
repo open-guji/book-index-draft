@@ -77,10 +77,6 @@
     {
       "work_id": "d59f2ofrrls3",
       "role": "撰"
-    },
-    {
-      "work_id": "d59f2ofrrls3",
-      "role": "撰"
     }
   ],
   "external_ids": {
@@ -92,5 +88,5 @@
   "dynasty_basis": "cbdb:birth/death_name=北宋",
   "period": "song",
   "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「張子」（`1j96hl6syxslc`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 同名消歧：新收 4 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evct453akc8w`《易傳》。"
+  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「張子」（`1j96hl6syxslc`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 同名消歧：新收 4 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。\n\n2026-08-25 雙向補繫：下列 work 之 authors[].entity_id 已指本條而本條 works 未回指（validate 之 E08 同步把墓碑之 entity 繫連帶入 production 所致）——`1evct453akc8w`《易傳》。\n\n2026-08-24 清 works（升格之後）：去重複 1、去懸空 0。升格之際 rewrite_references 將 works 中之 draft id 改為 production id，若本條原已兼有二者，改後遂成重複；又所指之 work 若在升格前已併去，則改無可改而成懸空。**故凡大批升格之後，entity 側須復清一次。**"
 }
