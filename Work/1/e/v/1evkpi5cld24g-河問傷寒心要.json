@@ -16,7 +16,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀004177），無同名 Work 故新建。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀004177），無同名 Work 故新建。 [ljy-round1: dynasty null→金; 據 author.dynasty 集合補「金」]\n\n2026-08-25 S7 前清障：本條之 description 明記《國立故宮博物院善本舊籍》之統一編號「故觀004177」，而 `indexed_by` 空——編號即其著錄，今補入。（庫中本有此體例；全庫尚有七千五百餘條同型未補，另記。）",
   "juan_count": {
     "number": 1
   },
@@ -32,5 +32,12 @@
   "period": "liao-jin-yuan",
   "period_basis": "據 authors[0].dynasty「金」",
   "dynasty": "金",
-  "dynasty_basis": "author_propagation"
+  "dynasty_basis": "author_propagation",
+  "indexed_by": [
+    {
+      "source": "國立故宮博物院善本舊籍",
+      "title_info": "河問傷寒心要",
+      "summary": "明萬曆二十九年新安吳氏刊古今醫統正脈全書之一。故觀004177。"
+    }
+  ]
 }
