@@ -42,5 +42,12 @@
   "period_basis": "據 authors[0].dynasty「明」",
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 B2 併池覆核《玉機微義》時發現：本條撰人「徐彥純」與 `1ev3bbgrx8phc`（玉機微義）撰人「徐用誠」為同一人（用誠字彥純），該 Entity 已考定「元」朝代標注乃 CBDB pending_accept 誤配，逕正為「明」，本條 dynasty 隨之訂正為明，Entity 改繫 `1j96hjwlxny0x`（徐用誠），原「徐彥純」孤立 Entity 刪除。"
+  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-21 B2 併池覆核《玉機微義》時發現：本條撰人「徐彥純」與 `1ev3bbgrx8phc`（玉機微義）撰人「徐用誠」為同一人（用誠字彥純），該 Entity 已考定「元」朝代標注乃 CBDB pending_accept 誤配，逕正為「明」，本條 dynasty 隨之訂正為明，Entity 改繫 `1j96hjwlxny0x`（徐用誠），原「徐彥純」孤立 Entity 刪除。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
+  "description": {
+    "text": "徐彥純（明）撰。四卷。見著錄於《元史藝文志》《國史經籍志》。其著錄之文，《國史經籍志》作「《本草發揮》四卷（徐彥純）」。《國史經籍志》明焦竑撰——本書之目賴之以存。",
+    "sources": [
+      "元史藝文志",
+      "國史經籍志"
+    ]
+  }
 }
