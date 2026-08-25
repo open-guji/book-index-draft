@@ -153,3 +153,20 @@
 故在施行之前，新寫的工具若嫌查檔慢，仍照現行辦法自建索引繞開；
 **繞開時切記**：`find_file_by_id` 之「未中」被 `_mint_unique_official_id`
 用作「此號未用」之判（坑30），故快徑未中時**必須落回真 glob**。
+
+## `curate_lib.merge_ib` 不寫 `merged_from`——production 內並條必自行補記
+
+`validate-promotions` 之 **E07** 判撞號之準是「存者若**全無** `merged_from` 即斷為撞號」
+（`promotion.py:509`，坑30 之精修）。而 `curate_lib.merge_ib` **不寫此欄**。
+
+故凡**production 內並條**（甲之 production 條併入乙之 production 條）而用 merge_ib 者，
+併訖必在存者補記，否則 E07 立報撞號——因被併之條原有 draft 墓碑指著它，
+併後那個墓碑改指存者，遂成「一 production id 為二 draft 記錄所指」而無並條之痕。
+
+```python
+tgt['merged_from'] = '<被併之 production id>'
+# 或記於所併入之 indexed_by 節上（_merge_marks 二者皆認）
+```
+
+**跨庫並不觸發**（源是 draft 而從未升格，無 promotions 目，不生一對多），
+故此坑唯 production 內並條時現。2026-08-25 無斷代輪併《高郵志》二條時踩到。
