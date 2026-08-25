@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkafye5fh1c",
   "type": "work",
   "title": "資治綱目通鑑前編",
-  "authors": [
-    {
-      "name": "金履祥",
-      "role": "撰",
-      "dynasty": "宋末元初",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×17／song×7 諸桶。",
-      "entity_id": "1j967c149uic3",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「金履祥」而無 entity_id，庫中同名唯一（`1j967c149uic3`）。entity 代 liao-jin-yuan 與本書 song 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖003873-003886）。明藍格鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-25 遼金元 L5：撰人「金履祥」之代由「元」歸一為「宋末元初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 14
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四冊",
-  "id": "1evkafye5fh1c",
-  "books": [
-    "11qki4csv5d6o"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据本轮人工资料 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据本轮人工资料 author.dynasty「南宋」自动归并",
   "_promoted_to": "d59f2hq6patf",
-  "_promoted_at": "2026-08-25T05:55:59Z"
+  "_promoted_at": "2026-08-25T05:55:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hq6patf。"
 }

@@ -1,27 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evqpdnchb5ds",
   "type": "work",
   "title": "孫子算經",
-  "authors": [],
-  "dynasty": "南北朝",
-  "description": {
-    "text": "中國古代數學經典，「算經十書」之一。南北朝（約公元 4-5 世紀）成书，作者佚名（非春秋孫武所撰，與兵法《孫子》不同）。包含著名的「物不知其數」問題（中國剩餘定理之源）。今存形態為唐李淳風等注釋本。",
-    "sources": [
-      "学界共识"
-    ]
-  },
-  "id": "1evqpdnchb5ds",
-  "related_works": [
-    {
-      "id": "d59f28mn0mio",
-      "title": "孫子算經",
-      "relation": "text_carried_by"
-    }
-  ],
-  "updated_at": "2026-08-23T06:07:05.403843+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 work.dynasty「南北朝」——本書撰人佚名，其代由成書年代定：學界通說《孫子算經》成於南北朝（約四至五世紀），非春秋孫武之書；今存本為唐李淳風等注釋本。（2026-08-24 N1 訂正：原稱「據 authors[0].dynasty」而 authors 為空陣列——本書本無撰人可考，其據不在撰人而在成書年代）",
-  "ai_note": "2026-08-17 撰人闕載：原作者欄作「佚名」——此為著錄語而非人名。本書無志書著錄（多為出土簡帛，本無撰人可言）。撰人不可考，故 authors 留空；空欄即「未著撰人」之正解。（本欄未繫任何 entity，故無假連結之弊。）\n\n2026-08-22 B3 核對：與 1ev3bbkhnhreo（李淳風注本）非重出而是原典與注本之別，本條已以 related_works text_carried_by 繫之，不併。\n\nN1 訂正（2026-08-24）：period_basis 原稱「據 authors[0].dynasty」而 authors 為空陣列。本書撰人佚名（非春秋孫武），其代不可從撰人得，改為據成書年代之通說立論。",
   "_promoted_to": "d59f283xei9s",
-  "_promoted_at": "2026-08-24T18:50:24Z"
+  "_promoted_at": "2026-08-24T18:50:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f283xei9s。"
 }

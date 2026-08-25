@@ -2,51 +2,8 @@
   "schema_version": 1,
   "id": "1evhnt4o9ix34",
   "type": "work",
-  "subtype": "article",
   "title": "高唐賦",
-  "authors": [
-    {
-      "name": "宋玉",
-      "dynasty": "先秦",
-      "role": "作",
-      "entity_id": "1j96glo90rdhf",
-      "dynasty_basis": "entity_propagation:1j96glo90rdhf"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E9%AB%98%E5%94%90%E8%B3%A6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    },
-    {
-      "id": "d59f2870u874",
-      "title": "文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「先秦」（規則1 粗粒度自消歧）",
-  "description": {
-    "text": "宋玉作，《文選》卷十九「賦·情」類著錄。序記楚襄王與宋玉遊於雲夢之臺，望高唐之觀，玉為述先王夢遇巫山神女「旦為朝雲，暮為行雨」之事，遂極寫高唐山川草木鳥獸之狀。「朝雲暮雨」之典出此。",
-    "sources": [
-      "正續古文辭類纂",
-      "文選"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f2ew2upz7",
-  "_promoted_at": "2026-08-25T02:39:42Z"
+  "_promoted_at": "2026-08-25T02:39:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew2upz7。"
 }

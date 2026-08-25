@@ -1,61 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evga09zzz4lc",
   "type": "work",
   "title": "春秋說",
-  "authors": [
-    {
-      "name": "吾衍",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967bgl70k5g"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "吾衍春秋說",
-      "summary": "元吾衍春秋說"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《春秋說》",
-      "summary": "元吾衍春秋說"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《春秋説》（吾丘衍）",
-      "summary": "",
-      "section": "春秋",
-      "juan": "卷一百九十五",
-      "page": "KR2n0011_WYG_195-11b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "ai_note": "同名異書：已有 Work 作者為 [('張邦奇', '明'), ('田嘉穀', '清'), ('錢世揚', '明'), ('洪咨夔', '宋'), ('王浸大', '明'), ('徐即登', '明'), ('陶正靖', '清'), ('鄭杲', '清')]，本條作者 吾衍（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L1 異體重出併條：二條之題歸一異體後全同、撰人同、卷數相合（或一方不著），而著錄異源，是一書之重出。`preflight` 用精確題名比對故未報（SKILL 坑 24）。　「吾丘衍」與「吾衍」是一人（元篆刻家吾衍，一作吾丘衍）。《經義考》作吾丘衍，《元史藝文志》《補遼金元藝文志》皆作吾衍。",
-  "id": "1evga09zzz4lc",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "description": {
-    "text": "吾衍（元）撰。見著錄於《補遼金元藝文志》《元史藝文志》。其著錄之文，《補遼金元藝文志》作「元吾衍春秋說」。",
-    "sources": [
-      "補遼金元藝文志",
-      "元史藝文志"
-    ]
-  },
-  "additional_titles": [
-    "春秋説"
-  ],
+  "_promoted_to": "d59f2gf5avwh",
+  "_promoted_at": "2026-08-25T04:25:33Z",
   "merged_from": [
     "1exitq8l34r5t"
   ],
-  "_promoted_to": "d59f2gf5avwh",
-  "_promoted_at": "2026-08-25T04:25:33Z"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gf5avwh。"
 }

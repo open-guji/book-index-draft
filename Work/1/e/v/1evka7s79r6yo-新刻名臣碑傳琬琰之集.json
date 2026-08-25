@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evka7s79r6yo",
   "type": "work",
   "title": "新刻名臣碑傳琬琰之集",
-  "authors": [
-    {
-      "name": "杜大珪",
-      "role": "編",
-      "dynasty": "南宋",
-      "entity_id": "1j96helbzton4",
-      "dynasty_basis": "manual_round3:杜大珪編《名臣碑傳琬琰集》，收北宋至南宋碑傳→南宋"
-    }
-  ],
-  "description": {
-    "text": "杜大珪（南宋）編。二十四冊。別集之屬，所收為其人之詩文。本書收入《國立故宮博物院善本舊籍》（統一編號 贈善003139-003162）。宋建刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J11 版本著錄語補其體類（坑 #17）：本條原 description 只是版本著錄語，而 indexed_by 空（其所出之館藏／影印叢編目錄不入志書之列），無著錄可撮。今所補者三事，皆不出本條已有之資料：撰人與其代（取 authors）、卷冊之數（取 measure_info），與**從題名之形所推之體類**。**體類之說是「此體之書通例如此」，非「本書目次如此」**——未讀其書而斷其目次即是臆造，故措辭用「……之屬，其體例分……」。原版本著錄語留其後不動。**未覆核原書**。",
-  "juan_count": {
-    "number": 24
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四冊",
-  "id": "1evka7s79r6yo",
-  "books": [
-    "11qkhshexikg0"
-  ],
-  "updated_at": "2026-08-09T09:23:31+00:00",
-  "dynasty": "南宋",
-  "dynasty_basis": "据本轮人工资料 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据本轮人工资料 author.dynasty「南宋」自动归并",
   "_promoted_to": "d59f2hsexaf5",
-  "_promoted_at": "2026-08-25T06:00:15Z"
+  "_promoted_at": "2026-08-25T06:00:15Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hsexaf5。"
 }

@@ -1,76 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pcm1vaps",
   "type": "work",
   "title": "毛詩辨異楊乂撰",
-  "original_title": "毛詩辨異",
-  "authors": [
-    {
-      "name": "楊乂",
-      "entity_id": "1j96gx6xjzitc"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《毛詩辨異》三卷",
-      "summary": "《毛詩辨異》三卷晉給事郎楊乂撰。梁有《毛詩背隱義》二卷，宋中散大夫徐廣撰；《毛詩引辨》一卷，宋奉朝請孫暢之撰；《毛詩釋》一卷，宋金紫光祿大夫何偃撰；《毛詩檢漏義》二卷，梁給事郎謝曇濟撰；《毛詩總集》六卷，《毛詩隱義》十卷，並梁處士何胤撰。亡。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《毛詩辨異》（楊乂）",
-      "summary": "隋志三卷",
-      "section": "詩",
-      "juan": "卷一百二",
-      "page": "KR2n0011_WYG_102-2a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "楊乂毛詩辨",
-      "summary": "楊乂毛詩辨三卷"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "description": {
-    "text": "《毛诗辨异》三卷（晋给事郎杨乂撰。梁有《毛诗背隐义》二卷，宋中散大夫徐广撰；《毛诗引辨》一卷，宋奉朝请孙畅之撰；《毛诗释》一卷，宋金紫光禄大夫何偃撰；《毛诗检漏义》二卷，梁给事郎谢昙济撰；《毛诗总集》六卷，",
-    "sources": []
-  },
-  "id": "1evc5pcm1vaps",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "毛詩辯異三卷晉給事郎楊又撰",
-      "summary": "楊又有《周易卦序論》，見易類。\n《唐書·經籍志》：《毛詩辨》三卷，楊又撰。\n《唐書·藝文志》：楊又《毛詩辨》三卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "related_works": [
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《毛詩辨異》三卷》→《毛詩辨異》`1evfubgseajuo`。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：新唐書藝文志「楊乂毛詩辨」一節原繫 1ev7vo5sypszk，今歸本條。新唐志詩類「楊乂毛詩辨三卷」，撰人、卷數與隋志「《毛詩辨異》三卷晉給事郎楊乂撰」全合，是同書而題有詳略（志文脫「異」字），非《毛詩》本身，今改繫《毛詩辨異楊乂撰》。",
-  "updated_at": "2026-08-22T04:56:00.142206+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，據其 Entity「楊乂」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
   "_promoted_to": "d59f27yg4iyq",
-  "_promoted_at": "2026-08-24T18:39:52Z"
+  "_promoted_at": "2026-08-24T18:39:52Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27yg4iyq。"
 }

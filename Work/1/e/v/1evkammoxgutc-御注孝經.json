@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkammoxgutc",
   "type": "work",
   "title": "御注孝經",
-  "authors": [
-    {
-      "name": "唐玄宗",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j9678njjrbce"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀004665）。日本文政九年湯島狩谷氏求古樓覆刊宋本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 B1 同名異書併池：併入 `1evr5e3mjo9hp`（御注孝經）。《御注孝經》唐玄宗注：本組「世祖」條（清順治十三年內府刊本）為清世祖另一部御注孝經，與本條唐玄宗注非同書，不併。直齋書錄解題成書於南宋，其著錄之「御注孝經」在時代上唯一可指者為唐玄宗注本，今併入。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkammoxgutc",
-  "books": [
-    "11qkhznkmcvls"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-21T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "御注孝經",
-      "merged_from": "1evkammoxgutc",
-      "note": "本條直齋書錄解題（宋代著述，早於清）裸題「御注孝經」，時代上只能指唐玄宗注本（本組另一「世祖」條為清順治內府刊本，晚於直齋成書，不涉）。"
-    }
-  ],
   "_promoted_to": "d59f28mutk3l",
-  "_promoted_at": "2026-08-24T19:26:47Z"
+  "_promoted_at": "2026-08-24T19:26:47Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mutk3l。"
 }

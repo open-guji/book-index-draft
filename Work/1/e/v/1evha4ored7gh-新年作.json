@@ -2,28 +2,8 @@
   "schema_version": 1,
   "id": "1evha4ored7gh",
   "type": "work",
-  "subtype": "poem",
   "title": "新年作",
-  "authors": [
-    {
-      "name": "劉長卿",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7y9ud"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evha3f4fpqf4",
-      "title": "唐詩三百首",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "_promoted_to": "d59f28nff7y8",
-  "_promoted_at": "2026-08-24T19:27:53Z"
+  "_promoted_at": "2026-08-24T19:27:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nff7y8。"
 }

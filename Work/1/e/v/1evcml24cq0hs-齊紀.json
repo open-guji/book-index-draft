@@ -1,81 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml24cq0hs",
   "type": "work",
   "title": "齊紀",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《齊紀》二十卷",
-      "summary": "《齊紀》二十卷（沈約）",
-      "author_info": "沈約"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "沈約齊紀",
-      "summary": "沈約齊紀二十卷"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《齊紀》二十卷",
-      "summary": "《齊紀》二十卷沈約撰。梁有江淹《齊史》十三卷，亡。",
-      "merged_from": "1evcpjzzkgy68"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《齊紀》二十卷",
-      "summary": "《齊紀》二十卷沈約撰。",
-      "merged_from": "1evcpjop9jrwg"
-    }
-  ],
-  "authors": [
-    {
-      "name": "沈約",
-      "role": "撰",
-      "entity_id": "1j967cp1zdr18",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967cp1zdr18`（沈約）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "id": "1evcml24cq0hs",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-22T04:56:00.057513+00:00",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "齊紀二十卷",
-      "summary": "齊紀二十卷 沈約撰\n沈約有《晉書》、《宋書》,並見前。\n《宋書》自序曰:“建元四年,被勅撰國史。永明二年,又奏兼\n著作郎,撰次起居注。”\n《梁書》本傳:“約遷太子家令,後以本官兼著作郎。”又曰:\n“所著《齊紀》二十卷。”\n《唐日本國見在書目》:《齊書》廿卷,沈約撰。\n《唐書·經籍志》編年類:《齊紀》二十卷,沈約撰。\n《唐書·藝文志》編年類:沈約《齊紀》二十卷。\n章氏《考證》:“《文選·奏彈劉整》注引約《紀》一事,《通鑑考\n異》引五事,又二事。《太平御覽學部》、《菜部》各引一事。”\n按本傳又有《梁武帝本紀》十四卷,是則于晉、宋、齊、梁四\n代之史,皆有所論著矣。古來史臣記述之富,當無出其\n右者。"
-    }
-  ],
-  "books": [],
-  "related_works": [],
-  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0byk5k3k（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-15 全庫同名異書核對：併入 1evcpjzzkgy68（隋書經籍志）、1evcpjop9jrwg（舊唐書經籍志），皆「《齊紀》二十卷沈約撰」，與既有國史經籍志、新唐書藝文志兩條並為五度重出著錄，撰人卷數全合，逕併，刪除該二條。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「沈約」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "description": {
-    "text": "南朝梁沈約撰，20卷。《國史經籍志》；《新唐書藝文志》；《隋書經籍志》；《舊唐書經籍志》皆作二十卷。本條見於4家著錄：《國史經籍志》、《新唐書藝文志》、《隋書經籍志》、《舊唐書經籍志》。",
-    "sources": [
-      "國史經籍志",
-      "新唐書藝文志",
-      "隋書經籍志",
-      "舊唐書經籍志"
-    ]
-  },
   "_promoted_to": "d59f28538b29",
-  "_promoted_at": "2026-08-24T18:52:38Z"
+  "_promoted_at": "2026-08-24T18:52:38Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28538b29。"
 }

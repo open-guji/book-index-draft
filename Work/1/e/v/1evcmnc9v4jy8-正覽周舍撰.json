@@ -1,96 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnc9v4jy8",
   "type": "work",
   "title": "正覽周舍撰",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《正覽》六卷",
-      "summary": "《正覽》六卷梁太子詹事周舍撰。梁有《三統五德論》二卷，曹思文撰，亡。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《正覽》六卷",
-      "summary": "《正覽》六卷周舍撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《正覽》六卷",
-      "summary": "《正覽》六卷（梁周捨）",
-      "author_info": "梁周捨",
-      "merged_from": "1evgpmsv23pc0"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "周捨正覽",
-      "summary": "周捨正覽六卷",
-      "merged_from": "1evcs0l6m5mv4"
-    }
-  ],
-  "authors": [
-    {
-      "name": "周舍",
-      "role": "撰",
-      "entity_id": "1j96gx6z1zksg",
-      "dynasty": "南朝梁",
-      "dynasty_basis": "entity_propagation:1j96gx6z1zksg"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "id": "1evcmnc9v4jy8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《正覽》六卷",
-      "summary": "正覽六卷 梁太子詹事周捨撰\n周捨有《禮疑義》,詳見經部禮類。\n《唐書·經籍志》:《正覽》六卷,周捨撰。\n《唐書·藝文志》:周捨《正覽》六卷。\n案梁元帝《金樓子・后妃篇》載其母宣修容事,云“及在幼\n學,親承慈訓,初授《孝經》、《正覽》、《論語》、《毛詩》”。不\n知是否即此《正覽》也。考周捨于梁初為太子洗馬,太子右\n衛率,左衛率,遷詹事,始終皆兼為宫僚,或其初為是書以\n進太子,元帝幼時亦諷誦之,未可知也。又案高似孫《子\n略》云:“《唐志》有陸景《典訓》、《誰子法訓》、周捨《正覽》、\n劉徽《 器圖》之類,非合登子録,如此者數家裁之。”案《正\n覽》等三書不登子録,將歸于何録乎?其意蓋以抄節前言\n往訓,不足以自為一子也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。　合併：裸題「正覽」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：國史經籍志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　合併：裸題「正覽」全庫撞名，異體字比對後撞名者撰人皆為「周捨」（來源：新唐書藝文志）——非異書撞名，逕併——撰人字首式重出候選 Phase 2b（2026-08-07，經人核可批次處理）。　裸題「正覽」全庫另有呂竦一家，非同書，改題為「書名+撰人+方式」以消歧，記original_title為裸題。\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。",
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "description": {
-    "text": "南朝梁周舍撰，6卷。《隋書經籍志》；《舊唐書經籍志》；《國史經籍志》；《新唐書藝文志》皆作六卷。本條見於4家著錄：《隋書經籍志》、《舊唐書經籍志》、《國史經籍志》、《新唐書藝文志》。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "國史經籍志",
-      "新唐書藝文志"
-    ]
-  },
-  "merged_in": [
-    {
-      "id": "1evgpmsv23pc0",
-      "title": "正覽",
-      "author": "周捨",
-      "indexed_by_moved": [
-        "國史經籍志"
-      ]
-    },
-    {
-      "id": "1evcs0l6m5mv4",
-      "title": "周捨正覽",
-      "author": "周捨",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "original_title": "正覽",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f285bnpqb",
-  "_promoted_at": "2026-08-24T18:53:05Z"
+  "_promoted_at": "2026-08-24T18:53:05Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285bnpqb。"
 }

@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpj25davwg",
   "type": "work",
   "title": "孝女傳",
-  "authors": [
-    {
-      "name": "武后",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96haa4m4w00"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孝女傳》二十卷",
-      "summary": "《孝女傳》二十卷（唐武后）",
-      "author_info": "唐武后"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "又孝女傳",
-      "summary": "又孝女傳二十卷",
-      "merged_from": "1evgpj25davwg",
-      "note": "同題二條而一方無撰人：彼條（新唐書藝文志）不著撰人、亦不著卷數，本條（國史經籍志）作「武后」撰、20卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"孝女傳\" 唯一候选无作者 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-23 B1 同名異書併池：併入 `1evcs0gqmerk0`（孝女傳）。2026-08-23 B10（同題一方無撰人）：併入 `1evcs0gqmerk0`（新唐書藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
-  "id": "1evgpj25davwg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28looirl",
-  "_promoted_at": "2026-08-24T19:24:32Z"
+  "_promoted_at": "2026-08-24T19:24:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28looirl。"
 }

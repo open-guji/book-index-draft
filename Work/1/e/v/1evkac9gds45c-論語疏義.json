@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkac9gds45c",
   "type": "work",
   "title": "論語疏義",
-  "authors": [
-    {
-      "name": "皇侃",
-      "role": "疏",
-      "dynasty": "南朝梁",
-      "entity_id": "1j96a9e5iy7ls",
-      "dynasty_basis": "entity_propagation:1j96a9e5iy7ls"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀002046-002050）。日本室町末鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 5
-    }
-  ],
-  "measure_info": "五冊",
-  "id": "1evkac9gds45c",
-  "books": [
-    "11qkhz1im2k8w"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iopaku8",
-      "title": "論語",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f284rdaf6",
-  "_promoted_at": "2026-08-24T18:52:00Z"
+  "_promoted_at": "2026-08-24T18:52:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f284rdaf6。"
 }

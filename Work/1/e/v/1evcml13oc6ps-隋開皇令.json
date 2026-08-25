@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml13oc6ps",
   "type": "work",
   "title": "隋開皇令",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《隋開皇令》三十卷",
-      "summary": "《隋開皇令》三十卷目一卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《隋開皇令》三十卷",
-      "summary": "《隋開皇令》三十卷裴正等撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《隋開皇令》三十卷",
-      "summary": "《隋開皇令》三十卷（牛弘）",
-      "author_info": "牛弘"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "id": "1evcml13oc6ps",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "隋開皇令三十卷",
-      "summary": "隋開皇令三十卷目一卷\n不著撰人。\n《隋書·裴政傳》:政明習故事。開皇元年,詔與蘇威等修定\n律令。政采魏、晋刑典,下至齊、梁,沿革輕重,取其折衷,同\n撰著者十有餘人,凡疑滯不通,皆取決於政。\n《唐六典·刑部》注:隋開皇命高穎等撰令三十卷,一官品上,\n二官品下,三諸省臺職員,四諸寺職員,五諸衛職員,六東宫\n職員,七行臺諸監職員,八諸州郡縣鎮戍職員,九命婦品員,\n十祠,十一户,十二學,十三選舉,十四封爵俸廈,十五考課,\n十六宫衛軍防,十七衣服,十八鹵簿上,十九鹵簿下,二十儀\n制,二十一公式上,二十二公式下,二十三田,二十四賦役,二\n十五倉庫底牧,二十六關市,二十七假寧,二十八獄官,二十\n九喪葬,三十雜。\n《唐書·經籍志》:《隋開皇令》三十卷,裴正等撰。\n《唐書·藝文志》:牛弘等《隋開皇令》三十卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "牛弘",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96gxo52xf62",
-      "note": "據本 work 諸著錄之 author_info「牛弘」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「牛弘」而無 entity_id，今繫 `1j96gxo52xf62`——庫中 primary_name 同之者唯一。其代「隋」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「牛弘」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "書名即《隋開皇令》，開皇為隋文帝年號，牛弘為隋修律令者（2026-08-24 R3 引文定代）",
   "_promoted_to": "d59f28jceg3o",
-  "_promoted_at": "2026-08-24T19:20:02Z"
+  "_promoted_at": "2026-08-24T19:20:02Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jceg3o。"
 }

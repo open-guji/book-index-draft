@@ -17,7 +17,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdid77coa2o(李恆)（不同作者，故新建獨立 Work）。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdid77coa2o(李恆)（不同作者，故新建獨立 Work）。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
   "juan_count": {
     "number": 16
   },
@@ -34,5 +34,7 @@
   ],
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
-  "period_basis": "朱橚是明周定王（太祖第五子），洪武間命李恒等編《袖珍方》；故宮所藏為明正德四年御用太監廖氏刊本。舊記 dynasty「宋」誤，period_upper 由此歧義取最晚解而作 song，並正之。（2026-08-24 B3）"
+  "period_basis": "朱橚是明周定王（太祖第五子），洪武間命李恒等編《袖珍方》；故宮所藏為明正德四年御用太監廖氏刊本。舊記 dynasty「宋」誤，period_upper 由此歧義取最晚解而作 song，並正之。（2026-08-24 B3）",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）"
 }

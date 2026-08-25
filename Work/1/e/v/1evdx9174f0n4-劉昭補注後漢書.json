@@ -3,49 +3,7 @@
   "id": "1evdx9174f0n4",
   "type": "work",
   "title": "劉昭補注後漢書",
-  "authors": [
-    {
-      "name": "劉昭",
-      "role": "補注",
-      "dynasty": "南朝梁",
-      "entity_id": "1j96hll0fwbgg"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉昭補注後漢書",
-      "summary": "劉昭補注後漢書五十八卷"
-    }
-  ],
-  "juan_count": {
-    "number": 58
-  },
-  "related_works": [
-    {
-      "id": "1ev3c1fi6kdmo",
-      "title": "後漢書",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1evgpgsfatzwg",
-      "title": "後漢書劉昭補注",
-      "relation": "related",
-      "note": "同書之重出。本條題《劉昭補注後漢書》（注者在前），彼條題《後漢書劉昭補注》（書名在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。二條並存，留待去重專項合併。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 58
-    }
-  ],
-  "measure_info": "五十八卷",
-  "ai_note": "題名體例調整之撞題：本條依「書名在前、注者在後」之例當改題《後漢書劉昭補注》，然庫中已有同題者（1evcua6wyilts），核其著錄乃同一注本自不同志書匯入，題名體例不同而書則一。撞題即查出重出，故不改題，改記重出，留待去重專項。\n\n2026-08-24 兩漢收束：解除與班固《漢書》d59f1iqd854w 之關聯——原係題名子串（「漢書」）誤捕，本書非漢書之衍生。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
   "_promoted_to": "d59f283v7ugw",
-  "_promoted_at": "2026-08-24T18:50:17Z"
+  "_promoted_at": "2026-08-24T18:50:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f283v7ugw。"
 }

@@ -1,94 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml2y17bwg",
   "type": "work",
   "title": "襄陽耆舊記",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《襄陽耆舊記》五卷",
-      "summary": "《襄陽耆舊記》五卷習鑿齒撰。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《襄陽耆舊記》",
-      "summary": "習鑿齒《襄陽耆舊記》五卷蕭韶"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "襄陽耆舊記",
-      "summary": "《襄陽耆舊記》三卷。{{晉習鑿齒。任兆麟校刻《心齋十種》本，有脫誤。}}",
-      "author_info": "習鑿齒"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《襄陽耆舊記》三卷",
-      "author_info": "晉習鑿齒撰",
-      "summary": "《襄陽耆舊記》三卷。晉習鑿齒撰。影印清乾隆任氏忠敏家塾刻心齋十種本。",
-      "edition": "影印清乾隆任氏忠敏家塾刻心齋十種本",
-      "volume": "第548冊",
-      "section": "史部 史部"
-    }
-  ],
-  "authors": [
-    {
-      "name": "習鑿齒",
-      "role": "撰",
-      "entity_id": "1j967cp1zdr2o"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "id": "1evcml2y17bwg",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "襄陽耆舊記五卷",
-      "summary": "襄陽耆舊記五卷習鑿齒撰\n習鑿齒有《漢晉陽秋》,見前古史類。\n《唐書·經籍志》:《襄陽耆舊傳》五卷,習鑿齒撰。\n《唐書·藝文志》:習鑿齒《襄陽耆舊傳》五卷。\n《宋史·藝文志》:習鑿齒《襄陽耆舊記》五卷。\n星氏《讀書志》:《襄陽耆舊記》五卷,晉習鑿齒撰。前載襄陽\n人物,中載其山川、城邑,後載其牧守。《隋·經籍志》曰《耆\n舊記》,《唐·藝文志》曰《耆舊傳》。觀其書紀錄叢,非傳體\n也,名當從《經籍志》。\n《玉海》地理類:《中興書目》《襄陽者舊傳記》五卷,載先賢事\n迹及山川、地理,末有賀鑄題,疑記述無論貫,非全書云。\n章氏《考證》:《續漢郡國志》注引《襄陽耆舊傳》,《文選南\n都賦》注引文同稱《耆舊記》。劉昭所見在《隋志》前,知稱傳\n之名,其來已久。《三國志注》多省文,稱《襄陽記》。《水經\n注》、《後漢書》注亦同省文。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0548%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 548
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-22T04:56:00.124573+00:00",
-  "_has_image": true,
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，據其 Entity「習鑿齒」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "description": {
-    "text": "習鑿齒撰。五卷；諸志所著之數有異，別作三卷。見著錄於《隋書經籍志》《宋史藝文志》《書目答問》《續修四庫全書》。《續修四庫全書》列於史部 史部。",
-    "sources": [
-      "隋書經籍志",
-      "宋史藝文志",
-      "書目答問",
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f27w45oua",
-  "_promoted_at": "2026-08-24T18:35:23Z"
+  "_promoted_at": "2026-08-24T18:35:23Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27w45oua。"
 }

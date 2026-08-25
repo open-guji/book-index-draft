@@ -1,82 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjofndlhc",
   "type": "work",
   "title": "華譚新論",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《新論》十卷",
-      "summary": "《新論》十卷華譚撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "華譚新論",
-      "summary": "華譚新論十卷",
-      "merged_from": "1evcs0l4077cw",
-      "note": "諸志同著《華譚新論》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "新論",
-      "summary": "晉華譚新論一卷。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "新論十卷 金紫光禄大夫華譚,謹按見《七録》。兩《唐志》著録。",
-      "section": "丙部子録／儒家類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《新論》十卷",
-      "summary": "《新論》十卷（晋華譚）",
-      "author_info": "晋華譚"
-    }
-  ],
-  "id": "1evcpjofndlhc",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "華譚",
-      "role": "撰",
-      "dynasty": "西晉",
-      "entity_id": "1j967afjav1wj",
-      "note": "舊唐書經籍志明載「《新論》十卷華譚撰」；新唐書藝文志則題「華譚新論十卷」，是「撰人＋書名」之例。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志同著華譚《新論》十卷，新唐志以「撰人＋書名」立題而各建一條，今合併並補撰人為華譚。\n\n2026-08-24 J3(7) Entity 併池後現形之重出（形：朝代冠首）：併入之條題首冠朝代，非別書。　二條同繫一人（華譚）而題有長短，取著錄源多者為主條。（併入者 id 1evr5e3mezpcd，題「晉華譚新論」）\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-24 J7(3) preflight 清零之併：華譚《新論》十卷。併入之條題「新論」而主條題「華譚新論」，是撰人冠首之異（形甲）；二條同繫 entity 1j96hfvcdoikg。（併入者 id 1evgpms6ez9j4，題「新論」）",
-  "additional_titles": [
-    "晉華譚新論",
-    "新論"
-  ],
-  "description": {
-    "text": "華譚（西晉）撰。十卷；諸志所著之數有異，別作一卷。見著錄於《舊唐書經籍志》《新唐書藝文志》《清史稿藝文志》《補晋書藝文志》。《補晋書藝文志》列於丙部子録·儒家類。",
-    "sources": [
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "清史稿藝文志",
-      "補晋書藝文志"
-    ]
-  },
   "_promoted_to": "d59f27ul7x8j",
-  "_promoted_at": "2026-08-24T18:32:27Z"
+  "_promoted_at": "2026-08-24T18:32:27Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ul7x8j。"
 }

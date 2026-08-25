@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkap1cr9v5s",
   "type": "work",
   "title": "新刊校定集注杜詩",
-  "authors": [
-    {
-      "name": "杜甫",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j968iupss3ll"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善003309-003332）。宋寶慶元年廣東漕司刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 24
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四冊",
-  "id": "1evkap1cr9v5s",
-  "books": [
-    "11qkhshzg21og"
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28jsmscl",
-  "_promoted_at": "2026-08-24T19:20:54Z"
+  "_promoted_at": "2026-08-24T19:20:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jsmscl。"
 }

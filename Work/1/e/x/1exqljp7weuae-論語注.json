@@ -1,36 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1exqljp7weuae",
   "type": "work",
   "title": "論語注",
-  "id": "1exqljp7weuae",
-  "authors": [
-    {
-      "name": "陳奇",
-      "role": null,
-      "entity_id": "1jcf515129agr",
-      "name_basis": "2026-08-24 同名異人分立：庫中舊有同名之「陳奇」（`1j96hljeyo6io`，代 ming），與本書之代（nanbeichao）懸隔。本書之斷代出於其人本身之行實（與北魏司徒崔浩同時，說多與崔浩合，屬北魏），非泛推，故知同名而實二人。今別立 `1jcf515129agr` 而繫之，不繫舊條。"
-    }
-  ],
-  "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書論語類著錄「陳氏（奇）論語注」，不引前代志，而本庫先前無同題之 work。\n\n所記止於朱氏所有：題、撰人之名、所引之志（如有）、卷、頁，及其所輯諸家論斷（入 indexed_by[].summary，逾五百字者截之，全文在《經義考》整理本）。以下諸欄不繫，非漏，是無據或不屬本道：\n· `period`：曾試以論斷所引之年號定代，以庫中 Entity 為驗，準確率只 0.81——論斷屢引後人之語，其年號是引者之年非撰人之年。且 period 屬 C 車道。論斷既已在此，定代所須之據不待外求。\n· `loss_status`：朱氏判本書為「佚」，其判入 indexed_by[].attested_status，不作本庫之判。\n· `authors[].role`：著錄之文不言其役。以題末之字推役是推，非據。\n· `authors[].entity_id`：《經義考》只給人名，繫人須另考。",
-  "indexed_by": [
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《論語注》（陳奇）",
-      "summary": "冊府元龜陳奇博通墳籍嘗非馬融鄭𤣥解經失㫖在在著述五經姑注孝經論語頗傳於世為搢紳所召赴京不得叙其論語注義多異鄭氏往往與司徒崔浩同",
-      "section": "論語",
-      "juan": "卷二百十二",
-      "page": "KR2n0011_WYG_212-14a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《經義考》（清朱彝尊（1700）），故不晚於 qing",
-  "period": "nanbeichao",
-  "period_basis": "與北魏司徒崔浩同時，說多與崔浩合，屬北魏（2026-08-24 R3 引文定代）",
-  "updated_at": "2026-08-24T00:00:00+00:00",
   "_promoted_to": "d59f2851cvsy",
-  "_promoted_at": "2026-08-24T18:52:32Z"
+  "_promoted_at": "2026-08-24T18:52:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2851cvsy。"
 }

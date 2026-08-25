@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ev7xm4z6we0w",
   "type": "work",
   "title": "嚴助賦",
-  "authors": [
-    {
-      "name": "莊助",
-      "role": "撰",
-      "dynasty": "西漢",
-      "note": "避漢明帝諱改莊為嚴，故又稱嚴助",
-      "entity_id": "1j96ha6piks1s"
-    }
-  ],
-  "description": {
-    "text": "《漢書·藝文志》著錄詩賦略「嚴助賦三十五篇」。嚴助即莊助（避明帝諱改），會稽吳人，武帝朝中大夫，與朱買臣同鄉並進，後坐淮南獄誅。賦皆不傳。",
-    "sources": [
-      "漢書藝文志"
-    ]
-  },
-  "ai_note": "嚴助賦三十五篇，已亡佚。子部儒家類有《庄助》四篇。莊助為莊忌之子。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-24 兩漢H4（漢志借力批）：description 補寫。所據為漢志著錄行（含班固自注／顏注）及通行學術常識。",
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "嚴助賦三十五篇",
-      "summary": "嚴助賦三十五篇。",
-      "section": "詩賦略／賦",
-      "page": "KR2a0007_WYG_030-40a",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。"
-    }
-  ],
-  "id": "1ev7xm4z6we0w",
-  "juan_count": {
-    "number": 35
-  },
-  "measures": [
-    {
-      "unit": "篇",
-      "number": 35
-    }
-  ],
-  "measure_info": "三十五篇",
-  "related_works": [
-    {
-      "id": "1ev7xkik9r9c0",
-      "title": "莊助",
-      "relation": "related",
-      "note": "同為莊助所撰。漢志諸子略儒家類著錄《莊助》四篇。嚴助即莊助，避漢明帝諱改莊為嚴。"
-    }
-  ],
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第二階段訂正：嚴助，?-前122）",
   "_promoted_to": "d59f23nowzr4",
-  "_promoted_at": "2026-08-24T13:42:24Z"
+  "_promoted_at": "2026-08-24T13:42:24Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f23nowzr4。"
 }

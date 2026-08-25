@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pe0nvhfk",
   "type": "work",
   "title": "春秋左氏經傳朱墨列賈逵撰",
-  "authors": [
-    {
-      "name": "賈逵",
-      "entity_id": "1j96h8rw7vhhj",
-      "dynasty": "東漢"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《春秋左氏經傳硃墨列》一卷",
-      "summary": "《春秋左氏經傳硃墨列》一卷賈逵撰。"
-    },
-    {
-      "source": "後漢藝文志",
-      "source_bid": "1eve1ei9whji8",
-      "title_info": "賈逵春秋左氏經傳朱墨列一卷",
-      "summary": "賈逵春秋左氏經傳朱墨列一卷。\n\n隋書經籍志：春秋釋訓一卷，賈逵撰。春秋左氏經傳朱墨列一卷，賈逵撰。按隋志列此二書於諸家釋例之首，則皆是春秋例之類字之譌。",
-      "section": "經部／春秋類",
-      "section_basis": "類目據 `Work/1/e/v/1eve1ei9whji8/collated_edition/` 之整理本（識典古籍 CADAL02091104 標點粗校本）斷之——姚振宗《後漢藝文志》綜四部為類四十二，附以佛道凡四十四類，各卷首列「經之類十有一」等總述，逐條後有「右施氏易一家一部」之類的結語可自驗。此值取自整理本 sections[].work_id 之既有繫連，非本輪重新比對。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "賈逵撰。",
-    "sources": []
-  },
-  "id": "1evc5pe0nvhfk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "春秋左氏經傳朱墨列一卷賈撰",
-      "summary": "春秋左氏經傳朱墨列一卷賈撰\n按弘農董遇善《左氏傳》,為作《朱墨别異》。似本之賈氏。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59ezak6jq4g",
-      "title": "左傳",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原authors[0]缺dynasty欄位，2026-08-11西漢探勘延伸階段據所繫Entity補入）",
-  "ai_note": "2026-08-24 簡轉繁（三分判準，見 known-issues/簡轉繁過度轉換.md）：description 中無歧義之簡體逕轉（贾）；繁體本字一律不轉（占卜之占、閭里之里、辟穀之辟、凌氏之凌、咸豐之咸、群之通行體、注疏之注、秘之通行體）。",
   "_promoted_to": "d59f24mh9342",
-  "_promoted_at": "2026-08-24T14:49:16Z"
+  "_promoted_at": "2026-08-24T14:49:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24mh9342。"
 }

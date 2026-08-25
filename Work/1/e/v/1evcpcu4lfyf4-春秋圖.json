@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcu4lfyf4",
   "type": "work",
   "title": "春秋圖",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《春秋圖》七卷",
-      "summary": "《春秋圖》七卷嚴彭祖撰。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《春秋圖》",
-      "summary": "《春秋圖》五卷《春秋指掌圖》二卷蹇遵品"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "春秋圖五卷",
-      "summary": "春秋圖五卷。唐張傑撰以春秋所載車服器用都城井邑之制繢而表之"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《春秋圖》五卷",
-      "summary": "《春秋圖》五卷（唐張杰）",
-      "author_info": "唐張杰"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "張傑春秋圖",
-      "summary": "張傑春秋圖五卷"
-    }
-  ],
-  "id": "1evcpcu4lfyf4",
-  "updated_at": "2026-08-23T06:46:46.606177+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "張杰",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96kejxkki68"
-    }
-  ],
-  "additional_titles": [
-    "張傑春秋圖"
-  ],
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "description": {
-    "text": "《春秋圖》五卷，唐張杰撰。諸志所著卷數不一：《宋史藝文志》、《崇文總目》、《國史經籍志》、《新唐書藝文志》著五卷；《舊唐書經籍志》著七卷——卷數之異，歷代殘闕與傳鈔之跡。",
-    "sources": [
-      "舊唐書經籍志",
-      "宋史藝文志",
-      "崇文總目",
-      "國史經籍志",
-      "新唐書藝文志"
-    ]
-  },
-  "ai_note": "2026-08-22 B3 併池（異志・卷數異或缺）：1evgoq3qi8wlc 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 ≥4 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字；敘錄之引文截其前二句（不逾一百五十字）。未覆核原書。生成之法見 `.claude/skills/curate-dynasty` 之記。何以機械撮之：本桶待補者七百餘條而材料大半止於著錄語，逐條手撰不可行，而放著不補則升格後 production 內盡是空條；**卷數之異同正是著錄條最有價值的信息**——諸志所著不同，即其書歷代殘闕之跡。",
   "_promoted_to": "d59f28jxml1h",
-  "_promoted_at": "2026-08-24T19:21:10Z"
+  "_promoted_at": "2026-08-24T19:21:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jxml1h。"
 }

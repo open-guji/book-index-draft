@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml44m5rls",
   "type": "work",
   "title": "涼書",
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《凉書》十卷",
-      "summary": "《凉書》十卷（高道讓）",
-      "author_info": "高道讓"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《涼書》十卷",
-      "summary": "《涼書》十卷高道讓撰。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "高道讓",
-      "role": "撰",
-      "entity_id": "1j96hf26cavb4",
-      "dynasty": "北魏",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hf26cavb4`（高道讓）之 dynasty「北魏」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcml44m5rls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-22T04:56:00.069652+00:00",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "涼書十卷 高道讓撰",
-      "summary": "涼書十卷 高道讓撰\n《北史·高崇傳》:崇,渤海 人,襲父爵開陽男。子謙之,字\n道讓,專意經史,多所該涉,襲爵。釋褐奉朝請,除國子博士。\n與袁 、常景、 道元、温子昇之徒,咸申款舊。以父舅氏沮\n渠蒙遜曾據涼土,國書漏關,謙之乃修《涼書》十卷,行於世。\n涼國盛事佛道,為論貶之,因稱佛是九流之一家。當世名士,\n競以佛理來難,謙之還以佛義對之,竟不能屈。後坐事,靈太\n后詔於獄賜死。時年四十二。永安中,贈征虜將軍、營州刺\n史, 日康。\n《晉書・載記》:“段業據張掖稱北涼,後四年,沮渠蒙遜殺段\n業,自稱涼。”又曰:“沮渠蒙遜,臨松盧水胡人也。其先世為\n匈奴左沮渠,遂以官為氏焉。以安帝隆安元年自稱州牧,義\n熙八年 立,後八年而宋氏受禪,以元嘉十年死在偽位。三\n十三年,子茂虔立。六年,為魏所擒,合三十九載而滅。”\n《宋書·大沮渠蒙遜傳》:元嘉十六年閏八月,拓跋 攻涼州,\n茂虔兄子萬年為虜內應,茂虔見執。"
-    }
-  ],
-  "ai_note": "2026-08-20 組5考證落空救回：考證「涼書十卷 高道讓撰」節原繫已刪之 work（`1evcpk0cofri8`），今歸本條。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「高道讓」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
   "_promoted_to": "d59f285ca6tf",
-  "_promoted_at": "2026-08-24T18:53:07Z"
+  "_promoted_at": "2026-08-24T18:53:07Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285ca6tf。"
 }

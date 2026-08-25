@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs16gm7fnk",
   "type": "work",
   "title": "趙摶歌詩",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "趙摶歌詩",
-      "summary": "趙摶歌詩二卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《趙摶歌詩》",
-      "summary": "《趙摶歌詩》二卷方納"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《趙摶歌詩》二卷",
-      "summary": "《趙摶歌詩》二卷",
-      "merged_from": "1evgqcbi9l8u8",
-      "note": "諸志同著《趙摶歌詩》，係一書互著，今合併。"
-    }
-  ],
-  "id": "1evcs16gm7fnk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "authors": [
-    {
-      "name": "趙摶",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151298rz",
-      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《趙摶歌詩》，撰人為趙摶。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298rz` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：《趙摶歌詩》為趙摶之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為趙摶。",
   "_promoted_to": "d59f28jceg3k",
-  "_promoted_at": "2026-08-24T19:20:02Z"
+  "_promoted_at": "2026-08-24T19:20:02Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jceg3k。"
 }

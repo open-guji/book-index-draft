@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkph0unmkn4",
   "type": "work",
   "title": "冷然齋集",
-  "authors": [
-    {
-      "name": "蘇泂",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967bgl8vzf8"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027503-027506）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027503-027506），無同名 Work 故新建。　合併：題名「蘇泂冷然齋集」撰人折入題首（來源：清史稿藝文志），與本條同書（撰人「蘇泂」已見本條 authors[]），裸題「冷然齋集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "id": "1evkph0unmkn4",
-  "books": [
-    "11qkhxh89i4n4"
-  ],
-  "updated_at": "2026-05-14T02:04:40-07:00",
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "蘇泂冷然齋集",
-      "summary": "蘇泂冷然齋集八卷。",
-      "merged_from": "1evr5e3mdqr6v"
-    }
-  ],
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」（2026-08-18 清史稿藝文志系統性排查補遺：period欄未隨既有dynasty同步，訂正）",
-  "merged_in": [
-    {
-      "id": "1evr5e3mdqr6v",
-      "title": "蘇泂冷然齋集",
-      "author": "蘇泂",
-      "title_info": "蘇泂冷然齋集",
-      "indexed_by_moved": [
-        "清史稿藝文志"
-      ]
-    }
-  ],
   "_promoted_to": "d59f2hsta7ep",
-  "_promoted_at": "2026-08-25T06:01:01Z"
+  "_promoted_at": "2026-08-25T06:01:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hsta7ep。"
 }

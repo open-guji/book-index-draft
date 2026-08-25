@@ -3,55 +3,7 @@
   "id": "1evdx91w6u328",
   "type": "work",
   "title": "後漢書略",
-  "authors": [
-    {
-      "name": "張緬",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j96h8rw7k8x9"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "張緬後漢書略",
-      "summary": "張緬後漢書略二十五卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《後漢書略》二十五卷",
-      "summary": "《後漢書略》二十五卷張緬撰。",
-      "merged_from": "1evcpcwnib5z4",
-      "note": "本著錄原繫題作「張緬後漢書略」之條，該題乃撰人冠於書名之首所成，今併入。"
-    }
-  ],
-  "juan_count": {
-    "number": 25
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 25
-    }
-  ],
-  "measure_info": "二十五卷",
-  "related_works": [
-    {
-      "id": "1ev3c1fi6kdmo",
-      "title": "後漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "additional_titles": [
-    "後漢書略"
-  ],
-  "ai_note": "2026-08-20 撰人字首式重出專項：庫中別有題作《後漢書略》之 work（`1evcpcwnib5z4`），與本條題名之差恰為本條撰人「張緬」冠於書名之首——新唐書藝文志等志之著錄體例為「撰人＋書名」，匯入時全取為題，遂與他志之裸題分為二條。今併，並正本條之題為《後漢書略》。\n\n2026-08-24 兩漢收束：解除與班固《漢書》d59f1iqd854w 之關聯——原係題名子串（「漢書」）誤捕，本書非漢書之衍生。",
-  "original_title": "張緬後漢書略",
   "_promoted_to": "d59f283w5k3l",
-  "_promoted_at": "2026-08-24T18:50:20Z"
+  "_promoted_at": "2026-08-24T18:50:20Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f283w5k3l。"
 }

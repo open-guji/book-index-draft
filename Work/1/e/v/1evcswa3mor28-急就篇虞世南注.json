@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcswa3mor28",
   "type": "work",
   "title": "急就篇虞世南注",
-  "original_title": "急就篇注",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《急就篇注》",
-      "summary": "《急就篇注》一卷虞世南"
-    }
-  ],
-  "id": "1evcswa3mor28",
-  "description": {
-    "text": "唐虞世南注《急就篇》一卷，已亡佚。僅見《宋史·藝文志》小學類著錄「《急就篇注》一卷　虞世南」。虞世南字伯施，越州餘姚人，唐初秘書監，工書法，太宗稱其有德行、忠直、博學、文詞、書翰五絕。《急就章》漢魏以下兼為習字範本，虞氏書名甚著，其注當與書藝相輔。《隋志》《唐志》皆不載，宋以後亦不見傳本。",
-    "sources": [
-      "《舊唐書·經籍志》",
-      "《新唐書·藝文志》",
-      "《宋史·藝文志》"
-    ]
-  },
-  "authors": [
-    {
-      "name": "虞世南",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7bsrg",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「虞世南」而無 entity_id，今繫 `1j967bgl7bsrg`——庫中 primary_name 同之者唯一。其代「唐」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59f1ir3rbb4",
-      "title": "急就篇",
-      "relation": "part_of"
-    }
-  ],
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「唐虞世南注《急就篇》一卷，已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28n7xiwx",
-  "_promoted_at": "2026-08-24T19:27:29Z"
+  "_promoted_at": "2026-08-24T19:27:29Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28n7xiwx。"
 }

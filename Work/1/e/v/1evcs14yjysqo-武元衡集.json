@@ -1,39 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs14yjysqo",
   "type": "work",
   "title": "武元衡集",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "武元衡集",
-      "summary": "武元衡集十卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "武元衡集"
-    }
-  ],
-  "id": "1evcs14yjysqo",
-  "authors": [
-    {
-      "name": "武元衡",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151296wj",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296wj` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "作者 \"唐武元衡撰\" 補自《國立故宮博物院善本舊籍》目錄。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "books": [
-    "11qki5gzyp7nk"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28jggj5x",
-  "_promoted_at": "2026-08-24T19:20:15Z"
+  "_promoted_at": "2026-08-24T19:20:15Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jggj5x。"
 }

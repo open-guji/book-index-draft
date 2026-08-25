@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr4mlh2328",
   "type": "work",
   "title": "管氏指蒙",
-  "authors": [
-    {
-      "name": "管輅",
-      "role": "撰",
-      "dynasty": "三國魏",
-      "entity_id": "1j96gyqudaigw",
-      "dynasty_basis": "entity_propagation:entity_id=1j96gyqudaigw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《管氏指蒙》二卷",
-      "author_info": "魏管輅撰",
-      "summary": "《管氏指蒙》二卷。魏管輅撰。影印浙江省圖書館藏明刻本。",
-      "edition": "影印浙江省圖書館藏明刻本",
-      "volume": "第1052冊",
-      "section": "子部 術數類"
-    },
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "管氏指蒙",
-      "summary": "管氏指蒙\n二册。"
-    }
-  ],
-  "description": {
-    "text": "管輅（三國魏）撰。二卷。見著錄於《續修四庫全書》《宋史藝文志補》。《續修四庫全書》列於子部 術數類。其著錄之文，《續修四庫全書》作「《管氏指蒙》二卷」。",
-    "sources": [
-      "續修四庫全書",
-      "宋史藝文志補"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：11qfs4dj6wni8(二册)。\n\n2026-08-22 B3 併池（異志・卷數異或缺）：1evrbhp6a8ij7 併入本條。二者同題而分見二志，其一省撰人。跨志之卷數本多歧（各志所據之本不同），故卷數異於此不作二書之證；已驗二者時代不相斥、著錄語所題之書名一致、非連書涵蓋數書。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "id": "1evjr4mlh2328",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC1052%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 1052
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-23T06:46:46.606177+00:00",
-  "_has_image": true,
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「三國魏」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志補》（清人補），故不晚於 song",
   "_promoted_to": "d59f27smoagy",
-  "_promoted_at": "2026-08-24T18:28:41Z"
+  "_promoted_at": "2026-08-24T18:28:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27smoagy。"
 }

@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpks3ttmo0",
   "type": "work",
   "title": "十三代史目",
-  "authors": [
-    {
-      "name": "宗諫",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hfv01htkw"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《十三代史目》十卷、又三卷",
-      "summary": "《十三代史目》十卷、又三卷（唐宗諫；殷仲茂）",
-      "author_info": "唐宗諫；殷仲茂",
-      "note": "本條合載宗諫十卷本與殷仲茂（一作商仲茂）「又三卷」本二種著錄，十卷部分屬本記錄，三卷部分見 1evcsxjdqqj28（該記錄另有宋史藝文志一卷本，與此三卷本卷數異，仍屬同一撰人）。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《十三代史目》",
-      "summary": "宗諫注《十三代史目》十卷",
-      "merged_from": "1evcsxjdgqxog"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "十三代史目十卷",
-      "summary": "十三代史目十卷",
-      "merged_from": "1evr5e3mfxez2"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "related_works": [
-    {
-      "id": "1evcsxjdqqj28",
-      "title": "十三代史目",
-      "relation": "related"
-    }
-  ],
-  "ai_note": "从卷二 ambiguous 新建：unresolved [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-18 全庫同名異書核對：併入宋史藝文志、崇文總目同卷數（十卷）著錄，撰人皆宗諫，確係同書重出。國史經籍志原citation合載宗諫十卷本與殷仲茂「又三卷」本，三卷部分非本書，另見 `1evcsxjdqqj28`。",
-  "id": "1evgpks3ttmo0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-18T00:00:00-07:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28mjw936",
-  "_promoted_at": "2026-08-24T19:26:12Z"
+  "_promoted_at": "2026-08-24T19:26:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mjw936。"
 }

@@ -18,7 +18,7 @@
       "國立故宮博物院善本舊籍"
     ]
   },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀008363），無同名 Work 故新建。",
+  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀008363），無同名 Work 故新建。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
   "juan_count": {
     "number": 1
   },
@@ -39,5 +39,7 @@
   ],
   "updated_at": "2026-08-24T00:00:00+00:00",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）"
+  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
+  "dynasty": "明",
+  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）"
 }

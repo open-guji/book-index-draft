@@ -1,80 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy4snowwlc",
   "type": "work",
   "title": "春秋經傳集解",
-  "authors": [
-    {
-      "name": "杜預",
-      "role": "撰",
-      "dynasty": "西晉",
-      "entity_id": "1j967avzkeude",
-      "dynasty_basis": "manual:historical_figure(杜預(222-284)，字元凱，京兆杜陵人，西晉名將兼經學家)"
-    }
-  ],
-  "description": {
-    "text": "杜預（西晉）撰，三十卷。分《春秋》經文繫於《左氏傳》之下而為之注，開經傳合編之體，自序論《春秋》五例、三體。預仕晉為鎮南大將軍，都督荊州諸軍事，平吳有功，自謂有「《左傳》癖」。唐孔穎達《春秋左傳正義》即以此注為底本，遂為十三經注疏之一，是《左傳》流傳之主脈。今存宋刻本以下版本三十餘種。",
-    "sources": []
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。\n\n2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "id": "1evjy4snowwlc",
-  "books": [
-    "11qk4xwcskb3d",
-    "11qkhsh1wcw00",
-    "11qkhsj5wyebk",
-    "11qkhsj7fw5xc",
-    "11qkhtcomozr4",
-    "11qkhun4ncp34",
-    "11qkhuykoahvk",
-    "11qkhuylqooow",
-    "11qkhuymsgef4",
-    "11qkhuynv5ts0",
-    "11qkhuyoysyrk",
-    "11qkhuyq2rcao",
-    "11qkhuyr638qo",
-    "11qkhuys93wn4",
-    "11qkhv4yszz7k",
-    "11qkhv4zy7aww",
-    "11qkhv514ytc0",
-    "11qkhvaemunls",
-    "11qkhylx40r28",
-    "11qkhym38pj40",
-    "11qkhym4k5log",
-    "11qkhymw45s00",
-    "11qkhymxfx340",
-    "11qkhzmzgpu68",
-    "11qki0i5wj18g",
-    "11qki0jetgb28",
-    "11qki23663shs",
-    "11qki3518bm68",
-    "11qki359h6ark",
-    "11qki40dsicqo",
-    "11qki40fcp2io",
-    "11qki40gwkjr4",
-    "11qk4xwcskb3e",
-    "11qk4xwcuqyvq"
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "春秋經傳集解"
-    }
-  ],
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
   "_promoted_to": "d59f27x4ogeb",
-  "_promoted_at": "2026-08-24T18:37:20Z"
+  "_promoted_at": "2026-08-24T18:37:20Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27x4ogeb。"
 }

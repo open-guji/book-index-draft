@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxdq577y8",
   "type": "work",
   "title": "平剡錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《平剡錄》",
-      "summary": "鄭言《平剡錄》一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《平剡錄》一卷",
-      "summary": "《平剡錄》一卷（鄭吉記太和擒盗事。）",
-      "author_info": "鄭吉記太和擒盗事。",
-      "merged_from": "1evgphboq7i0w",
-      "note": "諸志同著《平剡錄》，係一書互著（或重出），今合併。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "平剡録一卷",
-      "summary": "平剡録一卷",
-      "merged_from": "1evcsxdq577y8",
-      "note": "《平剡錄》與《平剡録》之別，僅在異體字（平剡錄／平剡録），題名歸一後全同；卷數全同（1卷）；彼條無撰人而本條作「鄭言」。二者著錄異源（國史經籍志、宋史藝文志 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "id": "1evcsxdq577y8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "鄭言",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf51512993d",
-      "note": "宋史藝文志作「鄭言《平剡錄》一卷」，前置撰人鄭言；國史經籍志注「鄭吉記太和擒盗事」，「吉」乃「言」之訛。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512993d` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志、國史經籍志同著《平剡錄》一卷，今合併。撰人宋志作鄭言、國史注作鄭吉，形近而訛，今從宋志。\n\n2026-08-23 B1 同名異書併池：併入 `1evr5e3mfay1r`（平剡錄）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mfay1r`（崇文總目，題作《平剡録》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；彼條無撰人而本條作「鄭言」。",
-  "additional_titles": [
-    "平剡録"
-  ],
   "_promoted_to": "d59f28k61zpe",
-  "_promoted_at": "2026-08-24T19:21:37Z"
+  "_promoted_at": "2026-08-24T19:21:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k61zpe。"
 }

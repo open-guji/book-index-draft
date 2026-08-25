@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcvlgludc",
   "type": "work",
   "title": "漢書正義",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《漢書正義》三十卷",
-      "summary": "《漢書正義》三十卷釋務靜撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《漢書正義》三十卷",
-      "summary": "《漢書正義》三十卷（唐僧務靜）",
-      "author_info": "唐僧務靜"
-    }
-  ],
-  "id": "1evcpcvlgludc",
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三十卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐僧務靜」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "務靜",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hf7lpaqdc",
-      "note": "據本 work 諸著錄之 author_info「唐僧務靜」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「務靜」而無 entity_id，今繫 `1j96hf7lpaqdc`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
   "_promoted_to": "d59f28mme5fp",
-  "_promoted_at": "2026-08-24T19:26:20Z"
+  "_promoted_at": "2026-08-24T19:26:20Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mme5fp。"
 }

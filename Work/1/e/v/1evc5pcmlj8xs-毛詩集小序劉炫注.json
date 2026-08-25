@@ -1,84 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pcmlj8xs",
   "type": "work",
   "title": "毛詩集小序劉炫注",
-  "original_title": "毛詩集小序",
-  "authors": [
-    {
-      "name": "劉炫",
-      "role": "注",
-      "dynasty": "隋",
-      "entity_id": "1j968l3qlngn5"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《毛詩集小序》一卷",
-      "summary": "《毛詩集小序》一卷劉炫注。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《毛詩集小序》一卷",
-      "summary": "《毛詩集小序》一卷（劉炫）",
-      "author_info": "劉炫"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《毛詩集小序注》（劉炫）",
-      "summary": "隋志一卷",
-      "section": "詩",
-      "juan": "卷一百十九",
-      "page": "KR2n0011_WYG_119-13b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "description": {
-    "text": "刘炫注。",
-    "sources": []
-  },
-  "related_works": [
-    {
-      "id": "d59f20am36dc",
-      "title": "毛詩",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "d59ezak9zc3k",
-      "title": "詩經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "id": "1evc5pcmlj8xs",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "毛詩集小序一卷劉炫注",
-      "summary": "劉炫有《尚書述義》，見前書類。\n《隋書》、《北史·儒林傳》：炫注《詩序》一卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-11",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」",
-  "dynasty": "隋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "ai_note": "2026-08-11 秦漢同名異書核對／五經通義組覆核：補全 authors[0].role「注」及 dynasty「隋」（訂正 entity 劉炫原誤植「明」，詳見 Entity 檔 ai_note）。",
   "_promoted_to": "d59f28ni8cua",
-  "_promoted_at": "2026-08-24T19:28:02Z"
+  "_promoted_at": "2026-08-24T19:28:02Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ni8cua。"
 }

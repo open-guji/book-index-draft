@@ -1,76 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocvdbjls",
   "type": "work",
   "title": "五都賦",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《五都賦》六卷",
-      "summary": "《五都賦》六卷並錄。張衡及左思撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《五都賦》五卷",
-      "summary": "《五都賦》五卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "五都賦",
-      "summary": "五都賦五卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "五都賦五卷 并録 張衡及左思撰,謹按見《隋志》。",
-      "merged_from": "1evcmocvdbjls",
-      "note": "補晉書藝文志「五都賦五卷 并録 張衡及左思撰，謹按見《隋志》」——考語自云其撰人、卷數皆據本條隋志之著錄（「五都賦六卷並錄。張衡及左思撰」，六卷含五卷正文並一卷錄），非另有異本，同書。",
-      "section": "丁部集録／總集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《五都賦》五卷",
-      "summary": "《五都賦》五卷（張撕左患徑）",
-      "author_info": "張撕左患徑",
-      "merged_from": "1evcmocvdbjls",
-      "note": "國史經籍志「五都賦五卷（張撕左患徑）」，「張撕左患徑」四字文理不通，判為「張衡左思」四字之形訛／傳鈔訛變（撕≈衡、患徑≈思之訛），卷數（五卷）與本條隋志「五卷並錄」正文卷數全合，同書。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "張衡",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8xu"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "id": "1evcmocvdbjls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-08-22T00:00:00+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "隋志總集「《五都賦》六卷並錄，張衡及左思撰」——合張衡二京、左思三都之賦為一集，成編必在左思（西晉）後；補晉志亦著錄。前值 qin-han 誤。",
-  "ai_note": "2026-08-22 B1 同名異書併池：併入 `1evfuve0ru22o`（五都賦）。2026-08-21 B2 併池：併入 `1evfuve0ru22o`（補晉書藝文志，張衡及左思撰，五卷並錄，考語自云「謹按見《隋志》」，即本條隋志著錄之覆述）。同書。\n\n2026-08-22 B1 同名異書併池：併入 `1evgq9selnmyo`（五都賦）。2026-08-21 B2 併池：併入 `1evgq9selnmyo`（國史經籍志，題「張撕左患徑」撰，五卷）。「張撕左患徑」判為「張衡左思」之形訛，同書。\n\n2026-08-24 兩漢H3-S3（結構錯位追補）：period 由 qin-han 改 jin（合編總集成於左思後）；desc 補寫。",
-  "description": {
-    "text": "總集，六卷並錄（《隋志》）。合東漢張衡（二京賦）與西晉左思（三都賦）之作為一編，故曰五都。兩唐志五卷。已亡佚，所收諸賦各存於文選。",
-    "sources": [
-      "隋書經籍志",
-      "補晋書藝文志"
-    ]
-  },
   "_promoted_to": "d59f27wp2l8j",
-  "_promoted_at": "2026-08-24T18:36:30Z"
+  "_promoted_at": "2026-08-24T18:36:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27wp2l8j。"
 }

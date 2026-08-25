@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmobl2gav4",
   "type": "work",
   "title": "劉瑾集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《劉瑾集》九卷",
-      "summary": "晉太常卿《劉瑾集》九卷梁五卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《劉瑾集》八卷",
-      "summary": "《劉瑾集》八卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉瑾集",
-      "summary": "劉瑾集八卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《劉瑾集》九卷",
-      "summary": "《劉瑾集》九卷",
-      "merged_from": "1evgqazvf8glc",
-      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmobl2gav4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《劉瑾集》九卷",
-      "summary": "晉太常卿劉瑾集九卷。梁五卷。\n《世說・品藻篇》注:《劉瑾集》敘曰:“瑾字仲章,南陽人。祖\n宗,父暢。暢娶王羲之女,生瑾。瑾有才力,歷尚書、太常\n卿。”案劉暢亦有集,見前。\n《唐書·經籍》、《藝文志》:《劉瑾集》八卷。\n嚴氏《全晉文編》曰:“劉瑾,元興末為太常卿。有集九卷。\n《初學記》有《甘樹賦》,以為宋人,今從《隋志》。《通典》有《殷\n祭議》、《又議》。凡三篇。”"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "劉瑾",
-      "role": "撰",
-      "dynasty": "東晉",
-      "entity_id": null,
-      "note": "隋書經籍志題「晉太常卿《劉瑾集》九卷」，書名即撰人。本庫「劉瑾」entity `1j967avzk3lse` 為元人（CBDB 33571），與晉太常卿劉瑾同名異實，不得相繫，故 entity_id 留空。"
-    }
-  ],
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太常卿《劉瑾集》九卷（梁五卷）」、兩唐志八卷、國史經籍志九卷，同為東晉劉瑾別集，今合為一條；撰人本庫無可繫之 entity。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "劉瑾（東晉）撰。九卷；諸志所著之數有異，別作八卷。見著錄於《隋書經籍志》《舊唐書經籍志》《新唐書藝文志》《國史經籍志》。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f27vwcr9f",
-  "_promoted_at": "2026-08-24T18:34:58Z"
+  "_promoted_at": "2026-08-24T18:34:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27vwcr9f。"
 }

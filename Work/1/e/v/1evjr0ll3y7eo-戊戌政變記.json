@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr0ll3y7eo",
   "type": "work",
   "title": "戊戌政變記",
-  "authors": [
-    {
-      "name": "啓超",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1jcf5151294wa",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294wa` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
-      "dynasty_basis": " N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《戊戌政變記》九卷",
-      "author_info": "梁啓超撰",
-      "summary": "《戊戌政變記》九卷。梁啓超撰。影印復旦大學圖書館藏清鉛印本。",
-      "edition": "影印復旦大學圖書館藏清鉛印本",
-      "volume": "第446冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《續修四庫全書》第446冊（史部）。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\nN4 朝代名歸一（2026-08-24）：啓超「梁」→「南朝梁」。N4 朝代名歸一（2026-08-24 南北朝斷代收尾）：本欄之值是志書著錄語之簡稱，於 period=nanbeichao 之桶內無歧義（南朝四代之單字國號在本桶即指南朝之宋齊梁陳，「後魏」「後周」「後齊」即北魏北周北齊），今依 SCHEMA〈規範朝代名完整枚舉〉歸一。原值可於本欄之 dynasty_basis 與所繫著錄之引文覆按。",
-  "juan_count": {
-    "number": 9
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "id": "1evjr0ll3y7eo",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0446%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 446
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f285883r4",
-  "_promoted_at": "2026-08-24T18:52:54Z"
+  "_promoted_at": "2026-08-24T18:52:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285883r4。"
 }

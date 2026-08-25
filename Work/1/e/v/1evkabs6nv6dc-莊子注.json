@@ -1,31 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkabs6nv6dc",
   "type": "work",
   "title": "莊子注",
-  "authors": [
-    {
-      "name": "莊周",
-      "role": "撰",
-      "dynasty": "先秦",
-      "entity_id": "1j96hewlgs2rk",
-      "dynasty_basis": "entity_propagation:1j96hewlgs2rk"
-    }
-  ],
-  "description": {
-    "text": "莊周及其後學撰，內篇七、外篇十五、雜篇十一。西晉郭象注三十三卷本行世而崔譔、向秀諸本俱亡。本編為日本影鈔高山寺所藏鎌倉鈔本，存郭象注之古貌，為校勘之要本。本書收入《國立故宮博物院善本舊籍》（統一編號 故觀000455-000457）。日本江戶間影鈔高山寺藏鎌倉鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3bcqih4feo(郭象);1evfuuwvylfr4(崔);1evfuvllto8ao(孟氏)（不同作者，故新建獨立 Work）。\n\n2026-08-24 J10 版本著錄語補其內容（坑 #17）：本條原 description 只是版本著錄語（「本書收入《國立故宮博物院善本舊籍》（統一編號 …）。某某刊本。」），五十餘字而未言本書為何。今於其前補本書之內容，版本語留其後不動。所補之文據通行之學術常識——書之內容、體例、注家之世，**未覆核原書**。",
-  "id": "1evkabs6nv6dc",
-  "books": [
-    "11qkhx3k8ow74",
-    "11qkhym1y7668"
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「先秦」（規則1 粗粒度自消歧）",
   "_promoted_to": "d59f2ew01l37",
-  "_promoted_at": "2026-08-25T02:39:33Z"
+  "_promoted_at": "2026-08-25T02:39:33Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew01l37。"
 }

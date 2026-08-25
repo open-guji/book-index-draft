@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmobc170u8",
   "type": "work",
   "title": "蔡謨集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《蔡謨集》十七卷",
-      "summary": "晉司徒《蔡謨集》十七卷梁四十三卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《蔡謨集》十卷",
-      "summary": "《蔡謨集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "蔡謨集",
-      "summary": "蔡謨集十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《蔡謨集》十七卷",
-      "summary": "《蔡謨集》十七卷",
-      "merged_from": "1evgqaqtcxd6o",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "juan_count": {
-    "number": 17
-  },
-  "id": "1evcmobc170u8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《蔡謨集》十七卷",
-      "summary": "晉司徒蔡 集十七卷。梁四十三卷。\n蔡膜有《喪服譜》,見經部禮類。\n《晉書》本傳:護博學,於禮儀宗廟制度多所議定。文筆論議,\n有集行於世。\n梁皇侃《論語義疏敘録》曰:“晉江熙《集解》十三家有蔡\n說。”\n唐張彥遠《歷代名畫記》曰:“明帝善書畫,最善畫佛像。《蔡\n膜集》云:“帝畫佛於樂賢堂,經歷寇亂而堂獨存。顯宗效著\n作為頌。”顯宗,成帝廟號也。“效”當是“敕”之誤,其事亦見《蔡傳》\n《唐書·經籍》、《藝文志》:《蔡 集》十卷。\n嚴氏《全晉文編》:蔡護有集四十三卷。今存表、疏、上言、奏、\n議、機、書、問難、論凡三十二篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 17
-    }
-  ],
-  "measure_info": "十七卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "蔡謨",
-      "role": "撰",
-      "dynasty": "東晉",
-      "entity_id": "1j96hlflk2i9s",
-      "note": "隋書經籍志題「晉司徒《蔡謨集》十七卷」，書名即撰人。蔡謨（281-356）字道明。"
-    }
-  ],
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「東晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉司徒《蔡謨集》十七卷（梁四十三卷）」、兩唐志十卷、國史經籍志十七卷，同為東晉蔡謨別集，今合為一條並繫 entity `1j96hlflk2i9s`。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "蔡謨（東晉）撰。十七卷；諸志所著之數有異，別作十卷。見著錄於《隋書經籍志》《舊唐書經籍志》《新唐書藝文志》《國史經籍志》。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f27ubusxv",
-  "_promoted_at": "2026-08-24T18:31:57Z"
+  "_promoted_at": "2026-08-24T18:31:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27ubusxv。"
 }

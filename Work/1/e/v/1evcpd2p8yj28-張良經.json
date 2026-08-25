@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd2p8yj28",
   "type": "work",
   "title": "張良經",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《張良經》一卷",
-      "summary": "《張良經》一卷張良撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "張良經",
-      "summary": "張良經一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《張良經》一卷",
-      "summary": "《張良經》一卷",
-      "merged_from": "1evgq12ofdslc",
-      "note": "國史經籍志《張良經》一卷，與兩唐志同題同卷，今合併。"
-    }
-  ],
-  "id": "1evcpd2p8yj28",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "張良",
-      "role": "撰",
-      "dynasty": "西漢",
-      "entity_id": "1j96kemq06a68",
-      "note": "舊唐書經籍志明載「《張良經》一卷張良撰」，兵家依託之書。"
-    }
-  ],
-  "dynasty": "西漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」",
-  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《張良經》一卷，今合併。撰人據舊唐志題為張良，實兵家依託。",
   "_promoted_to": "d59f24lnws1v",
-  "_promoted_at": "2026-08-24T14:47:42Z"
+  "_promoted_at": "2026-08-24T14:47:42Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24lnws1v。"
 }

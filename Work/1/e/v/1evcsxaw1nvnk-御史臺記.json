@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxaw1nvnk",
   "type": "work",
   "title": "御史臺記",
-  "authors": [
-    {
-      "name": "韓琬",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978dg5"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《御史臺記》",
-      "summary": "韓琬《御史臺記》十二卷韋述",
-      "note": "句末「韋述」承接下一條「韋述《集賢注記》」之撰人，非本條撰人誤植。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《御史臺記》十二卷",
-      "summary": "《御史臺記》十二卷（唐韓琬）",
-      "author_info": "唐韓琬"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "御史臺記",
-      "merged_from": "1evr5e3mhsue5",
-      "note": "整理本連結闕失，裸題，卷數十二卷全合。"
-    }
-  ],
-  "ai_note": "2026-08-18 全庫同名異書核對：撰人本已見於引文「韓琬《御史臺記》十二卷」，僅頂層 authors 欄漏收，今補入，繫既有韓琬 entity；併入直齋書錄解題同卷數（十二卷）裸題著錄。與同題另一本（韋述十卷本，見 `1evgphv902vpc`）非同書。",
-  "id": "1evcsxaw1nvnk",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "updated_at": "2026-08-18T00:00:00-07:00",
   "_promoted_to": "d59f28kf3vgi",
-  "_promoted_at": "2026-08-24T19:22:06Z"
+  "_promoted_at": "2026-08-24T19:22:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kf3vgi。"
 }

@@ -1,92 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmob6s17nk",
   "type": "work",
   "title": "劉琨集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《劉琨集》九卷",
-      "summary": "晉太尉《劉琨集》九卷梁十卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《劉琨集》十卷",
-      "summary": "《劉琨集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉琨集",
-      "summary": "劉琨集十卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《劉琨集》",
-      "summary": "《劉琨集》十卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "劉琨集十卷",
-      "summary": "劉琨集十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《劉琨集》二十二卷",
-      "summary": "《劉琨集》二十二卷",
-      "merged_from": "1evgqakre5tz4",
-      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmob6s17nk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《劉琨集》九卷",
-      "summary": "詳見下條「《劉琨別集》十二卷」考証。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "劉琨",
-      "role": "撰",
-      "dynasty": "西晉",
-      "entity_id": "1j968iupu11rd",
-      "note": "隋書經籍志題「晉太尉《劉琨集》九卷」，書名即撰人。劉琨（271-318）字越石，西晉末名將、詩人。"
-    }
-  ],
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太尉《劉琨集》九卷（梁十卷）」、兩唐志十卷、宋志十卷、崇文總目十卷、國史經籍志二十二卷，同為西晉劉琨別集，今合為一條並繫 entity `1j968iupu11rd`。卷數九／十之異隋志已自注「梁十卷」；國史經籍志作二十二卷，未見他志，姑存其異。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "劉琨（西晉）撰。九卷；諸志所著之數有異，別作二十二卷、十卷。見著錄於《隋書經籍志》《舊唐書經籍志》《新唐書藝文志》《宋史藝文志》《崇文總目》《國史經籍志》。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "宋史藝文志",
-      "崇文總目",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f27x1k2yq",
-  "_promoted_at": "2026-08-24T18:37:10Z"
+  "_promoted_at": "2026-08-24T18:37:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27x1k2yq。"
 }

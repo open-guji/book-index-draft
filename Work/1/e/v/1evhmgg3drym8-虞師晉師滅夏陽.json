@@ -2,45 +2,8 @@
   "schema_version": 1,
   "id": "1evhmgg3drym8",
   "type": "work",
-  "subtype": "article",
   "title": "虞師晉師滅夏陽",
-  "authors": [
-    {
-      "name": "穀梁赤",
-      "dynasty": "戰國",
-      "role": "作",
-      "entity_id": "1j96gx6u4os8w",
-      "dynasty_basis": "entity_propagation:1j96gx6u4os8w"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E5%8F%A4%E6%96%87%E8%A7%80%E6%AD%A2/%E5%8D%B73#虞師晉師滅夏陽",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhmcmmhp2bk",
-      "title": "古文觀止",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「戰國」（規則1 粗粒度自消歧）",
-  "description": {
-    "text": "《穀梁傳》僖公二年傳文，《古文觀止》卷三。釋《春秋》「虞師晉師滅夏陽」之文，敘荀息以屈產之乘、垂棘之璧假道於虞，宮之奇諫而虞公不聽之事，並發「非國而曰滅，重夏陽也」與「虞無師，其曰師，何也？以其先晉，不可以不言師也」之義。",
-    "sources": [
-      "古文觀止"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f2ew7uio2",
-  "_promoted_at": "2026-08-25T02:39:58Z"
+  "_promoted_at": "2026-08-25T02:39:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew7uio2。"
 }

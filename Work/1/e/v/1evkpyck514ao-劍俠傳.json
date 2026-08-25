@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpyck514ao",
   "type": "work",
   "title": "劍俠傳",
-  "authors": [
-    {
-      "name": "段成式",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967da978di7"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀002177）。清康熙七年刊秘書二十一種之一。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀002177）。阶段 5 兜底建立。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "id": "1evkpyck514ao",
-  "books": [
-    "11qkhz3qvb474"
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28jykao6",
-  "_promoted_at": "2026-08-24T19:21:13Z"
+  "_promoted_at": "2026-08-24T19:21:13Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jykao6。"
 }

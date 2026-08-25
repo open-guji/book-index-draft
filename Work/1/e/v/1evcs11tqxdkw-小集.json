@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs11tqxdkw",
   "type": "work",
   "title": "小集",
-  "authors": [
-    {
-      "name": "蕭繹",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j967da978diu"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "又小集",
-      "summary": "又小集十卷"
-    }
-  ],
-  "id": "1evcs11tqxdkw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-15 全庫同名異書核對：句首「又」承接上一條「元帝集五十卷」（1evcs11ti6qdc），案該段前後為梁文帝、武帝、簡文帝、元帝諸集，知此「元帝」即梁元帝蕭繹，屬同一撰人續作，補撰人及 juan_count，繫既有 entity「蕭繹」（alt_names 含「元帝」）。",
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "updated_at": "2026-08-15",
   "_promoted_to": "d59f285mw9a8",
-  "_promoted_at": "2026-08-24T18:53:41Z"
+  "_promoted_at": "2026-08-24T18:53:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285mw9a8。"
 }

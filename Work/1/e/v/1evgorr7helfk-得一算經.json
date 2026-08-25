@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgorr7helfk",
   "type": "work",
   "title": "得一算經",
-  "authors": [
-    {
-      "name": "從運",
-      "role": "撰",
-      "dynasty": "南朝陳",
-      "entity_id": "1j96hfpkxju9s",
-      "dynasty_basis": "synonym:陳->南朝陳"
-    }
-  ],
-  "juan_count": {
-    "number": 7
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《得一筭經》七卷",
-      "summary": "《得一筭經》七卷（陳從運）",
-      "author_info": "陳從運"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《得一算經》",
-      "summary": "陳從運《得一算經》七卷",
-      "merged_from": "1evgorr7helfk",
-      "note": "《得一筭經》與《得一算經》之別，僅在異體字（得一筭經／得一算經），題名歸一後全同；卷數全同（7卷）；彼條無撰人而本條作「從運」。二者著錄異源（國史經籍志 ／ 宋史藝文志、崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "得一算經七卷",
-      "summary": "得一算經七卷",
-      "merged_from": "1evgorr7helfk",
-      "note": "《得一筭經》與《得一算經》之別，僅在異體字（得一筭經／得一算經），題名歸一後全同；卷數全同（7卷）；彼條無撰人而本條作「從運」。二者著錄異源（國史經籍志 ／ 宋史藝文志、崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgorr7helfk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 7
-    }
-  ],
-  "measure_info": "七卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「陳」",
-  "additional_titles": [
-    "得一筭經"
-  ],
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evcsyairiry8`（得一筭經）。2026-08-23 B4 異體字重出併池：併入 `1evcsyairiry8`（宋史藝文志、崇文總目，題作《得一算經》，7卷）。二題之別僅在異體字，歸一後全同，卷數全同（7卷）；彼條無撰人而本條作「從運」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《得一筭經》，所用「得一筭經」係著錄原文之異體；今正為通行之《得一算經》，原形移入 additional_titles 備檢。",
   "_promoted_to": "d59f285ogg03",
-  "_promoted_at": "2026-08-24T18:53:46Z"
+  "_promoted_at": "2026-08-24T18:53:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285ogg03。"
 }

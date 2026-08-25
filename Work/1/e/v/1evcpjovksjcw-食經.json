@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjovksjcw",
   "type": "work",
   "title": "食經",
-  "authors": [
-    {
-      "name": "崔浩",
-      "role": "撰",
-      "dynasty": "北魏",
-      "entity_id": "1j967cp1zdr3d",
-      "note": "《魏書·崔浩傳》載其母盧氏傳飲食之法，浩集而為《食經》並自為敘，即此書。"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《食經》九卷",
-      "summary": "《食經》九卷崔浩撰。"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《食經》十四卷",
-      "summary": "《食經》十四卷梁有《食經》二卷，又《食經》十九卷；《劉休食方》一卷，齊冠軍將軍劉休撰。亡。",
-      "note": "章宗源考證以此十四卷（一作四卷）為崔浩食經，姑從之。"
-    }
-  ],
-  "id": "1evcpjovksjcw",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人本已見於引文「《食經》九卷崔浩撰」，僅頂層 authors 欄漏收，今補入並繫北魏崔浩 entity（庫中另有唐代同名 entity `1j96h8rw7k8yb`，卒 770，非其人）。與同題馬琬三卷本、盧仁宗三卷本、竺暄四卷本皆非同書，撰人、卷數各異。 2026-08-20 落空節救回專項：本條 1 節之原繫 work 已不存（早期合併未回指），今以題核心＋內文撰人（崔浩）覆核歸本條。 2026-08-20 落空節總清理：隋書經籍志「《食經》十四卷」節原繫已刪之 work，今歸本條。\n\nN7 loss_status（2026-08-24 南北朝存佚專項，路一：隋志「梁有…亡」）：判為 lost。所繫《隋書經籍志》之注文明言其書梁時尚存而隋時已亡，且其句之主語即本條（本條之題或撰人見於「梁有」之後）——判據原文：「梁有《食經》二卷，又《食經》十九卷；《劉休食方》一卷，齊冠軍將軍劉休撰。亡。」。依 SCHEMA〈loss_status 枚舉〉2026-08-21 訂正之判：一字不存方為 lost；本條無輯佚檔亦無存文之證，故從隋志之判。",
-  "dynasty": "北魏",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「北魏」",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《食經》十四卷",
-      "summary": "《唐書藝文志》:崔浩《食經》九卷。\n《通志藝文略》:《崔氏食經》四卷,崔浩撰。\n案崔浩有《周易注》,見經部易家。《唐志》載此書九卷,蓋\n以篇為卷。此四卷似合并。《唐日本書目》亦四卷。注云",
-      "note": "本節原繫之 work 已不存（早期合併未回指），其題核心與內文撰人「崔浩」與本條相合，今歸本條。"
-    }
-  ],
-  "loss_status": "lost",
   "_promoted_to": "d59f285yr9xc",
-  "_promoted_at": "2026-08-24T18:54:19Z"
+  "_promoted_at": "2026-08-24T18:54:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285yr9xc。"
 }

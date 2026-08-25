@@ -1,48 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evgbzo7vrrwg",
   "type": "work",
   "title": "浩然齋視聽抄",
-  "authors": [
-    {
-      "name": "周密",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95o6q7"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "周密浩然齋視聽抄",
-      "summary": "元周密浩然齋視聽抄"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "周密浩然齋視聽鈔",
-      "summary": "元周密浩然齋視聽鈔"
-    }
-  ],
-  "id": "1evgbzo7vrrwg",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L1 異體重出併條：二條之題歸一異體後全同、撰人同、卷數相合（或一方不著），而著錄異源，是一書之重出。`preflight` 用精確題名比對故未報（SKILL 坑 24）。　二形作「鈔／抄」。",
-  "description": {
-    "text": "周密（元）撰。見著錄於《元史藝文志》。其著錄之文，《元史藝文志》作「元周密浩然齋視聽抄」。本書惟《元史藝文志》一志著錄，別無他證。",
-    "sources": [
-      "元史藝文志"
-    ]
-  },
-  "additional_titles": [
-    "浩然齋視聽鈔"
-  ],
+  "_promoted_to": "d59f2gk6nria",
+  "_promoted_at": "2026-08-25T04:35:14Z",
   "merged_from": [
     "1evga69azu8e8"
   ],
-  "_promoted_to": "d59f2gk6nria",
-  "_promoted_at": "2026-08-25T04:35:14Z"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gk6nria。"
 }

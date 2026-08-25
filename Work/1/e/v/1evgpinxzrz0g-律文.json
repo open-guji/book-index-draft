@@ -1,54 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpinxzrz0g",
   "type": "work",
   "title": "律文",
-  "authors": [
-    {
-      "name": "孫奭",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzl1bf4",
-      "dynasty_basis": "entity_propagation:1j967avzl1bf4"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《律文》十二卷",
-      "summary": "《律文》十二卷（宋孫奭）",
-      "author_info": "宋孫奭"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "律文"
-    }
-  ],
-  "description": {
-    "text": "孫奭（北宋）撰。十二卷。見著錄於《國史經籍志》《直齋書錄解題》。其著錄之文，《國史經籍志》作「《律文》十二卷（宋孫奭）」。《國史經籍志》明焦竑撰；《直齋書錄解題》南宋陳振孫撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "直齋書錄解題"
-    ]
-  },
-  "id": "1evgpinxzrz0g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2hhyh3b4",
-  "_promoted_at": "2026-08-25T05:40:09Z"
+  "_promoted_at": "2026-08-25T05:40:09Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hhyh3b4。"
 }

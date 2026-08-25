@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxrg06rk0",
   "type": "work",
   "title": "語要",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《語要》",
-      "summary": "僧普願《語要》一卷"
-    }
-  ],
-  "id": "1evcsxrg06rk0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "普願",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf51512962c",
-      "note": "宋史藝文志作「僧普願《語要》一卷」，前置撰人釋普願（南泉普願）。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512962c` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為釋普願《語要》一卷，與同志釋紹修《語要》一卷（`1evcsxrhuob9c`）撰人異，宋志相次分列，非一書，未予合併。",
   "_promoted_to": "d59f28k3vbwh",
-  "_promoted_at": "2026-08-24T19:21:30Z"
+  "_promoted_at": "2026-08-24T19:21:30Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k3vbwh。"
 }

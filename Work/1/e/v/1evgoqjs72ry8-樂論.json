@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqjs72ry8",
   "type": "work",
   "title": "樂論",
-  "authors": [
-    {
-      "name": "沈括",
-      "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j967bgl6pbny（北宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「沈括」而無 entity_id，今繫 `1j967bgl6pbny`——庫中 primary_name 同之者唯一。其代「北宋」與本書已定之代「song」相合。",
-      "entity_id": "1j967bgl6pbny",
-      "dynasty": "北宋",
-      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路一（period_basis 收割）：本條 period_basis 之判語（R3 引文定代所書）已明言「北宋」，回填至撰人欄。其據見 period_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《樂論》一卷",
-      "summary": "《樂論》一卷（沈括）",
-      "author_info": "沈括"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《樂論》一卷",
-      "summary": "《樂論》一卷衛尉少卿蕭吉撰。",
-      "note": "本著錄原繫於磁鐵條「樂論蕭吉撰」（`1evc5pden0pog`），今歸本條。",
-      "misattached": true,
-      "misattached_note": "2026-08-24 B4 逐條裁：此節非本條之書——隋志《樂論》題衛尉少卿蕭吉撰，與國史經籍志所題北宋沈括撰人明為二人，是二書。"
-    }
-  ],
-  "description": {
-    "text": "沈括撰。一卷。見著錄於《國史經籍志》《隋書經籍志》。其著錄之文，《隋書經籍志》作「《樂論》一卷衛尉少卿蕭吉撰」。《國史經籍志》明焦竑撰；《隋書經籍志》唐初貞觀顯慶間官修——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "隋書經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-20 磁鐵拆解專項（全域掃描）：國史經籍志之「《樂論》一卷」一節原繫於磁鐵條（`1evc5pden0pog`），其題與本條合而本條非磁鐵，今改繫本條並補其著錄。\n\n2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《樂論》一卷」一節原繫於磁鐵條（`1evc5pden0pog`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgoqjs72ry8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "song",
-  "period_basis": "隋志《樂論》題衛尉少卿蕭吉撰，與國史經籍志所題北宋沈括撰人明為二人，是二書。（2026-08-24 B4 同題異書逐條裁）",
   "_promoted_to": "d59f2hfri1vm",
-  "_promoted_at": "2026-08-25T05:35:56Z"
+  "_promoted_at": "2026-08-25T05:35:56Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfri1vm。"
 }

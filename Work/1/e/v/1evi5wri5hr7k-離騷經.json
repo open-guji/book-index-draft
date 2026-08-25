@@ -2,45 +2,8 @@
   "schema_version": 1,
   "id": "1evi5wri5hr7k",
   "type": "work",
-  "subtype": "article",
   "title": "離騷經",
-  "authors": [
-    {
-      "name": "屈原",
-      "dynasty": "戰國楚",
-      "role": "作",
-      "entity_id": "1j96a9eajzuo0",
-      "dynasty_basis": "entity_propagation:1j96a9eajzuo0"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7%E7%B6%93",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59f2870u874",
-      "title": "文選",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「戰國楚」（規則1 粗粒度自消歧）",
-  "description": {
-    "text": "即《離騷》，《文選》卷三十二「騷」類著錄作《離騷經》——「經」字出王逸《楚辭章句》尊之為經之題，非屈原自名。屈原代表作，中國文學史上最長之抒情詩，自敘世系與見放之由，陳上下求索而終不遇之志。本條所繫者為《文選》之選錄，與《正續古文辭類纂》所收之《離騷》同篇異題。",
-    "sources": [
-      "文選"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f2ew6lkhs",
-  "_promoted_at": "2026-08-25T02:39:54Z"
+  "_promoted_at": "2026-08-25T02:39:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew6lkhs。"
 }

@@ -1,78 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmob63zxts",
   "type": "work",
   "title": "郭象集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《郭象集》二卷",
-      "summary": "晉太傅主簿《郭象集》二卷梁五卷，錄一卷。又有廣州刺史《嵇含集》十卷，錄一卷，亡。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《郭象集》五卷",
-      "summary": "《郭象集》五卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "郭象集",
-      "summary": "郭象集五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《郭象集》五卷",
-      "summary": "《郭象集》五卷",
-      "merged_from": "1evgqaj0knif4",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evcmob63zxts",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《郭象集》二卷",
-      "summary": "晉太傅郭象集二卷。梁五卷。録一卷。錢氏《隋書考異》曰:“袁廷曰:\n““太傳”下效“主簿”二字。”\n郭象有《論語體略》,見經部論語家。\n《晉書》本傳:象少有才理,好《老》、《莊》,能清言。太尉王衍\n每云:“聽象語,如懸河瀉水,注而不竭。”州郡辟召,不就。常\n閑居,以文論自娱。及為東海王越主簿,任職當權,熏灼內\n外,由是素論去之。著碑論十二篇。\n《唐書·經籍》、《藝文志》:《郭象集》五卷。\n嚴氏《全晉文編》:郭象有集二卷。今惟見《莊子注序》一篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，隋志「晉太傅主簿《郭象集》二卷（梁五卷，錄一卷）」、兩唐志五卷、國史經籍志五卷，同為西晉郭象別集，今合為一條並繫 entity `1j967cp1zdr2g`。隋志本條下附他書「梁有……」云云為附注他書之通例，非本書異名。\n\n2026-08-24 J5 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "郭象",
-      "role": "撰",
-      "dynasty": "西晉",
-      "entity_id": "1j967cp1zdr2g",
-      "note": "隋書經籍志題「晉太傅主簿《郭象集》二卷」，書名即撰人。郭象（約252-312）注《莊子》。本庫 entity 未著朝代，今據隋志補其朝代於 authors。"
-    }
-  ],
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「西晉」",
-  "description": {
-    "text": "郭象（西晉）撰。二卷；諸志所著之數有異，別作五卷。見著錄於《隋書經籍志》《舊唐書經籍志》《新唐書藝文志》《國史經籍志》。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f27u5atj5",
-  "_promoted_at": "2026-08-24T18:31:36Z"
+  "_promoted_at": "2026-08-24T18:31:36Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27u5atj5。"
 }

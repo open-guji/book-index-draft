@@ -1,77 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjzyfkv0g",
   "type": "work",
   "title": "楚辭",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《楚辭》十六卷（（楚屈原等撰））卷",
-      "summary": "《楚辭》十六卷（（楚屈原等撰））卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《楚辭》十七卷",
-      "summary": "《楚辭》十七卷（蜀问集王逸注）",
-      "author_info": "蜀问集王逸注"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "楚辭十七卷",
-      "summary": "楚辭十七卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "楚辭"
-    }
-  ],
-  "id": "1evcpjzyfkv0g",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%A5%9A%E8%BE%AD",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "王逸",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j96h8rw7k8wc"
-    }
-  ],
-  "ai_note": "作者「漢王逸撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evgq9qm1purk 合併。原註：从卷二 ambiguous 新建：unresolved 作者「漢王逸撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evjy6nv76qyo 合併。原註：本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1ev7vo5jcjmkg(屈原);1evcpjzy7gow0();1evcpjzyfkv0g()（不同作者，故新建獨立 Work）。　考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。 2026-08-11 秦漢同名異書核對／楚辭組覆核：拆出原混裝之隋書經籍志「楚辭三卷郭璞注」及其 emendated_by（隋書經籍志考證）——郭璞（東晉）三卷本與本條 authors「王逸」（漢）十七卷本為不同注家之不同卷數異本，改繫既有清晰記錄 1evgq9qoyacqo（郭璞，已據國史經籍志獨立成條）。本條餘存宋史藝文志（十六卷）、國史經籍志（十七卷「王逸注」）、崇文總目（十七卷）、直齋書錄解題（無說明）4 源，皆與王逸十七卷本一系相符。\n\n2026-08-23 A 車道·整理本繫連落空查補：《隋書經籍志考證》一節原繫已不存之 `1evcpjzy7gow0`，據考證之文與《隋書經籍志》同條之繫改繫本條，並補其 emendated_by。\n\n2026-08-24 描述補全專項（兩漢H3·著錄多源批）：description 補寫。所據為本條所繫著錄之引文（見 indexed_by／emendated_by）及通行學術常識，未覆核原書。",
-  "description": {
-    "text": "楚辭總集，十七卷本（崇文總目、國史經籍志著錄，即王逸《楚辭章句》所定之篇次——屈原二十五篇及宋玉以下諸作，附逸己作九思）。宋志著錄十六卷本（題楚屈原等撰）。今存，賴王逸章句本以傳。",
-    "sources": [
-      "崇文總目",
-      "宋史藝文志",
-      "國史經籍志"
-    ]
-  },
-  "books": [
-    "11qk4xwcvzx24",
-    "11qkhsjska96o"
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」且無 entity_id，2026-08-11 西漢探勘分期第三階段補繫並訂正）",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《楚辭》十二卷",
-      "note": "2026-08-23 繫連補記：《隋書經籍志考證》整理本有一節（集部一·楚辭類 第 0 節「《楚辭》十二卷」）繫及本條，而本條之 emendated_by 無此來源之記錄，是繫連單向。今補。"
-    }
-  ],
   "_promoted_to": "d59f209xqo00",
-  "_promoted_at": "2026-08-24T09:48:22Z"
+  "_promoted_at": "2026-08-24T09:48:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f209xqo00。"
 }

@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pcwxavwg",
   "type": "work",
   "title": "喪服義謝嶠撰",
-  "original_title": "喪服義",
-  "authors": [
-    {
-      "name": "謝嶠",
-      "entity_id": "1j96hf210bx8g",
-      "dynasty": "南朝陳",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j96hf210bx8g`（謝嶠）之 dynasty「南朝陳」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《喪服義》十卷",
-      "summary": "《喪服義》十卷陳國子祭酒謝嶠撰。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《喪服義》（謝嶠）",
-      "summary": "隋志十卷\n隋書嶠陳國子祭酒",
-      "section": "儀禮",
-      "juan": "卷一百三十六",
-      "page": "KR2n0011_WYG_136-14b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "description": {
-    "text": "陈国子祭酒谢峤撰。",
-    "sources": []
-  },
-  "id": "1evc5pcwxavwg",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "喪服義十卷 陳國子祭酒謝嬌撰",
-      "summary": "《陳書・謝岐傳》:岐,會稽山陰人也。仕梁入陳。至天嘉二年,\n為給事、黄門侍郎、中書舍人。卒。岐弟 篤學,為世通儒。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-22T04:56:00.142464+00:00",
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：整理本原以本 work 之 id 兼繫下列 1 節，各以卷數定其主，今各歸之：《《喪服義》十卷》→《喪服義》`1evgoqa11q51c`。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "撰人朝代闕，據其 Entity「謝嶠」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
   "_promoted_to": "d59f286ljlkx",
-  "_promoted_at": "2026-08-24T18:55:32Z"
+  "_promoted_at": "2026-08-24T18:55:32Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286ljlkx。"
 }

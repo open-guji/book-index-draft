@@ -1,82 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgopfj83o5c",
   "type": "work",
   "title": "郭氏傳家易說",
-  "authors": [
-    {
-      "name": "郭雍",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967afjb6aev",
-      "dynasty_basis": "entity_propagation:1j967afjb6aev"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《傳家易說》八卷",
-      "summary": "《傳家易說》八卷（宋郭雍。）",
-      "author_info": "宋郭雍。"
-    }
-  ],
-  "description": {
-    "text": "郭雍（南宋）撰。八卷。見著錄於《國史經籍志》。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgopfj83o5c",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "resources": [
-    {
-      "id": "shidianguji-sikuquanshuben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/SK0032",
-      "metadata": {
-        "edition": "四庫全書本",
-        "version": "v1",
-        "total_page": 1072,
-        "paragraph_count": 1417,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/06062774.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "books": [
-    "11qkhvggpo9vk",
-    "11qkhy6dlga9s",
-    "11qki2po942yo",
-    "11q6si5cg91q8"
-  ],
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "dynasty": "南宋",
-  "dynasty_basis": "据唯一 author.dynasty「南宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2htcy5mp",
-  "_promoted_at": "2026-08-25T06:02:04Z"
+  "_promoted_at": "2026-08-25T06:02:04Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2htcy5mp。"
 }

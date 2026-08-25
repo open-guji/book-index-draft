@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjn63z8jk",
   "type": "work",
   "title": "地理指掌圖",
-  "authors": [
-    {
-      "name": "稅安禮",
-      "role": "撰",
-      "dynasty": "後蜀",
-      "entity_id": "1j96hgfradbeo",
-      "dynasty_basis": "entity_propagation:1j96hftqcsfeo"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《地理指掌圖》一卷",
-      "summary": "《地理指掌圖》一卷（蜀稅安禮。）",
-      "author_info": "蜀稅安禮。"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "summary": "地理指掌圖"
-    },
-    {
-      "source": "1evfyhtrdkbnk",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "地理指掌圖一卷",
-      "summary": "稅安禮撰。",
-      "note": "本著錄原繫於磁鐵條「歷代地理指掌圖」（`1evrbhp6a8igi`），今歸本條。"
-    }
-  ],
-  "description": {
-    "text": "稅安禮（後蜀）撰。一卷。見著錄於《國史經籍志》《直齋書錄解題》《1evfyhtrdkbnk》。其著錄之文，《國史經籍志》作「《地理指掌圖》一卷（蜀稅安禮」。《國史經籍志》明焦竑撰；《直齋書錄解題》南宋陳振孫撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "直齋書錄解題",
-      "1evfyhtrdkbnk"
-    ]
-  },
-  "id": "1evgpjn63z8jk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「地理指掌圖一卷」一節原繫於磁鐵條（`1evrbhp6a8igi`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「後蜀」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f2gc2svlu",
-  "_promoted_at": "2026-08-25T04:19:39Z"
+  "_promoted_at": "2026-08-25T04:19:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gc2svlu。"
 }
