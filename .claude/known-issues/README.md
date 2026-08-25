@@ -170,3 +170,25 @@ tgt['merged_from'] = '<被併之 production id>'
 
 **跨庫並不觸發**（源是 draft 而從未升格，無 promotions 目，不生一對多），
 故此坑唯 production 內並條時現。2026-08-25 無斷代輪併《高郵志》二條時踩到。
+
+## 跨庫併條必自行搬 Book——`repoint_all` 不改 `Book.work_id`
+
+`curate_lib.repoint_all` **只掃 `Work/*/*/*/*/collated_edition/*.json`**（見其實作），
+改的是整理本節之 `work_id`／`work_ids`。它**不碰 Book 條目之 `work_id`**。
+
+而 `merge_work`（同倉併）另有 `move_books(s, t, books, root)` 一步搬 Book；
+**手工作跨庫併（坑21）者若照抄 merge_ib／merge_titles／merge_rel／repoint_all 四步，
+就會漏掉這一步**——源條之 Book 仍指著已刪之 work id，成孤兒，
+`chk` 之〈Book→Work 單向〉即現（其計數自基線 0 升起即是此類）。
+
+跨庫併之完整步驟，於 merge_ib 諸步之外另須：
+
+```python
+for bid in (s.get('books') or []):          # 源條之 Book 改指存留者
+    bp = find(bid, root_of_that_book)
+    b = rd(bp); b['work_id'] = tgt; wr(bp, b)
+    t.setdefault('books', []).append(bid)   # 存留 Work 補反向鏈
+    # Book 或 Work 在 production 者，各自 bump_revision
+```
+
+2026-08-25 無斷代輪跨庫併 84 條時漏此步，遺 7 個孤兒 Book（涉 4 個被併之 work），已修。
