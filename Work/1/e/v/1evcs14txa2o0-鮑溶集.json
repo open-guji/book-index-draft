@@ -35,5 +35,17 @@
   "measure_info": "六卷",
   "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（六卷），今據以補。",
   "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang"
+  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
+  "authors": [
+    {
+      "name": "鮑溶",
+      "role": "撰",
+      "entity_id": "1j967bgl89ibn",
+      "dynasty": "唐",
+      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"鮑溶集\"）——前缀「鮑溶」與庫中同名entity（唯一，works<5）精確匹配。"
+    }
+  ],
+  "dynasty": "唐",
+  "period": "sui-tang",
+  "period_basis": "2026-08-25 period未定批次 3.4：撰人「鮑溶」（entity 1j967bgl89ibn）已定代「唐」，且與本條 period_upper（sui-tang）相容，據以定代。"
 }
