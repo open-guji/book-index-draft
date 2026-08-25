@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpnc7x36kg",
   "type": "work",
   "title": "老子講䟽",
-  "authors": [
-    {
-      "name": "武帝",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j967afjav1vw",
-      "dynasty_basis": "N4 機械回填（2026-08-24 南北朝斷代收尾）：本欄原闕，今取其所繫 entity `1j967afjav1vw`（蕭衍）之 dynasty「南朝梁」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《老子講䟽》四卷、又六卷",
-      "summary": "《老子講䟽》四卷、又六卷（梁武帝；梁武帝）",
-      "author_info": "梁武帝；梁武帝"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpnc7x36kg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "original_title": "老子",
-  "ai_note": "2026-08-20 老子體系收束：本條為《道德經》注本，依定例補 original_title，其值取本條題名所用之原書名。\n\nN4 撰人朝代回填（2026-08-24）：authors[].dynasty 原闕而其 entity 已有其代，今取之——「核人不核書」，定人之代則其書之代隨定。判據記於 authors[].dynasty_basis。",
-  "period": "nanbeichao",
-  "period_basis": "撰人 Entity 之代：武帝（南朝梁）——同人名下他書 {'nanbeichao': 16} 佐證一致",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "_promoted_to": "d59f285w9dkz",
-  "_promoted_at": "2026-08-24T18:54:11Z"
+  "_promoted_at": "2026-08-24T18:54:11Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285w9dkz。"
 }

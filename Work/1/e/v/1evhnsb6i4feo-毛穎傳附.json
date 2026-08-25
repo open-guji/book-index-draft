@@ -2,48 +2,8 @@
   "schema_version": 1,
   "id": "1evhnsb6i4feo",
   "type": "work",
-  "subtype": "article",
   "title": "毛穎傳附",
-  "authors": [
-    {
-      "name": "韓愈",
-      "dynasty": "唐",
-      "role": "作",
-      "entity_id": "1j967da978dhc"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/w/index.php?title=%E6%AF%9B%E7%A9%8E%E5%82%B3%E9%99%84&action=edit&redlink=1",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E6%AF%9B%E7%A9%8E%E5%82%B3",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "_promoted_to": "d59f28mxmozl",
-  "_promoted_at": "2026-08-24T19:26:56Z"
+  "_promoted_at": "2026-08-24T19:26:56Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28mxmozl。"
 }

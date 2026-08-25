@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw9yxtd6o",
   "type": "work",
   "title": "評書",
-  "authors": [
-    {
-      "name": "王僧虔",
-      "role": "撰",
-      "dynasty": "南朝齊",
-      "entity_id": "1j96hfphdvs3k",
-      "note": "宋史藝文志小學類本條句首承前條「《辨釋名》一卷王僧虔」之句末撰人；句末「梁武帝」則屬下一條之領頭撰人。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《評書》",
-      "summary": "《評書》一卷梁武帝"
-    }
-  ],
-  "id": "1evcsw9yxtd6o",
-  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「梁武帝」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。\n\n2026-08-19 全庫同名異書核對：訂正撰人「梁武帝」為「王僧虔」——前批誤判頂真格方向，將句末之名取為本條撰人。核對宋史藝文志小學類原文，該段為連續頂真格（「《辨釋名》一卷王僧虔／《評書》一卷梁武帝／《評書》一卷《千字文》一卷（梁周興嗣次韻）顏之推／《證俗音字》四卷又《字始》三卷虞荔」），句末之名皆領下一條，故本條撰人應為前條句末之「王僧虔」，句末「梁武帝」則屬下一條（見 `1evcsw9z6v8xs`）。王僧虔（426-485）南朝齊書法家，有《論書》《書賦》等書論傳世，撰《評書》與其身分相合。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%A9%95%E6%9B%B8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "dynasty": "南朝齊",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝齊」",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "_has_text": true,
   "_promoted_to": "d59f286eodmr",
-  "_promoted_at": "2026-08-24T18:55:10Z"
+  "_promoted_at": "2026-08-24T18:55:10Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286eodmr。"
 }

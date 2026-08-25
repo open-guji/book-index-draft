@@ -3,60 +3,7 @@
   "id": "1ev3bc6z4nfuo",
   "type": "work",
   "title": "感應類從志",
-  "authors": [
-    {
-      "name": "張華",
-      "role": "撰",
-      "dynasty": "西晉",
-      "entity_id": "1j967bgl7bspq",
-      "dynasty_basis": "manual:historical_figure(張華(232-300)，字茂先，西晉政治家文學家)"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《感應類從志》•一卷",
-      "author_info": "舊本題晉張華撰",
-      "summary": "舊本題晉張華撰。隋、唐以來經籍、藝文諸志皆所不載，諸家書目亦不著錄。書中語多俚陋，且皆妖妄魘制之法，其為依託無疑也。",
-      "edition": "浙江巡撫采進本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《感應類從志》一卷",
-      "author_info": "晉張華撰",
-      "summary": "《感應類從志》一卷。晉張華撰。南京圖書館藏明范氏天一閣鈔本。",
-      "edition": "南京圖書館藏明范氏天一閣鈔本",
-      "volume": "第116冊",
-      "section": "子部"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-21T00:00:00-07:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "西晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "authenticity": "forged",
-  "authenticity_basis": "《欽定四庫全書總目》：「隋、唐以來經籍、藝文諸志皆所不載，諸家書目亦不著錄。書中語多俚陋，且皆妖妄魘制之法，其為依託無疑也。」",
-  "ai_note": "2026-08-21 真偽專項：據上引判語標 `authenticity: forged`。判準見 SCHEMA〈authenticity〉——所斷之語須指向本書，且非否定句、非泛論、非說他書。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "張華（西晉）撰。一卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《感應類從志》一卷」。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f27uv7ima",
-  "_promoted_at": "2026-08-24T18:32:59Z"
+  "_promoted_at": "2026-08-24T18:32:59Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27uv7ima。"
 }

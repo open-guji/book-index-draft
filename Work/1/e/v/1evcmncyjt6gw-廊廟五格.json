@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmncyjt6gw",
   "type": "work",
   "title": "廊廟五格",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《廊廟五格》二卷",
-      "summary": "《廊廟五格》二卷王彬撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《廊廟五格》二卷",
-      "summary": "《廊廟五格》二卷（王彬）",
-      "author_info": "王彬"
-    }
-  ],
-  "authors": [
-    {
-      "name": "王彬 ",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8xm",
-      "dynasty": "元",
-      "dynasty_basis": "L4 機械回填（2026-08-25 遼金元斷代收尾）：本欄原闕，今取其所繫 entity `1j96h8rw7k8xm`（王彬）之 dynasty「元」。其據見該 entity 之 dynasty_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evcmncyjt6gw",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《廊廟五格》二卷",
-      "summary": "廊廟五格二卷 王彬撰\n王彬,始末未詳。\n案晉有王彬,《晉書》附其兄《王 傳》。齊亦有王彬,《南\n史》附《王僧虔傳》,皆不言其有是書。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-22T04:56:00.122876+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "liao-jin-yuan",
-  "period_basis": "撰人朝代闕，據其 Entity「王彬」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "description": {
-    "text": "王彬 撰。二卷。見著錄於《隋書經籍志》《國史經籍志》。其著錄之文，《國史經籍志》作「《廊廟五格》二卷（王彬）」。《隋書經籍志》唐初貞觀顯慶間官修；《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "隋書經籍志",
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 L4 撰人朝代回填：authors[].dynasty 原闕而其 entity 已有其代，今取之（1 處）——「核人不核書」。判據記於 authors[].dynasty_basis。",
   "_promoted_to": "d59f2gkfeepu",
-  "_promoted_at": "2026-08-25T04:35:43Z"
+  "_promoted_at": "2026-08-25T04:35:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gkfeepu。"
 }

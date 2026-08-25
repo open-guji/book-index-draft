@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs15obcum8",
   "type": "work",
   "title": "嚴維詩",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "嚴維詩",
-      "summary": "嚴維詩一卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《嚴維詩》",
-      "summary": "《嚴維詩》一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《嚴維詩》一卷",
-      "summary": "《嚴維詩》一卷",
-      "merged_from": "1evgqc9tcfw8w",
-      "note": "諸志同著《嚴維詩》，係一書互著，今合併。"
-    }
-  ],
-  "id": "1evcs15obcum8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "authors": [
-    {
-      "name": "嚴維",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151294xq",
-      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《嚴維詩》，撰人為嚴維。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294xq` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：《嚴維詩》為嚴維之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為嚴維。",
   "_promoted_to": "d59f28kiupza",
-  "_promoted_at": "2026-08-24T19:22:18Z"
+  "_promoted_at": "2026-08-24T19:22:18Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kiupza。"
 }

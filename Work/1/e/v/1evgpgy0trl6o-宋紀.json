@@ -1,73 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpgy0trl6o",
   "type": "work",
   "title": "宋紀",
-  "authors": [
-    {
-      "name": "王智深",
-      "role": "撰",
-      "entity_id": "1j96hfqk0i03k"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《宋紀》三十卷",
-      "summary": "《宋紀》三十卷（王智深）",
-      "author_info": "王智深"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "王智深宋紀",
-      "summary": "王智深宋紀三十卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《宋紀》三十卷",
-      "summary": "《宋紀》三十卷王智深撰。",
-      "merged_from": "1evgpgy0trl6o",
-      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，30卷，不著撰人）與本條（國史經籍志、新唐書藝文志，30卷，王智深撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    },
-    {
-      "source": "玉函山房輯佚書",
-      "source_bid": "1evjr68pzxog0",
-      "title_info": "宋紀一卷",
-      "summary": "宋紀一卷　第None帙，卷None",
-      "section": "補編·子編／五行類",
-      "juan_count": "1卷"
-    }
-  ],
-  "description": {
-    "text": "王智深撰，30卷。諸志所著卷數不一：《國史經籍志》、《新唐書藝文志》、《舊唐書經籍志》作三十卷；《玉函山房輯佚書》作一卷。本條見於4家著錄：《國史經籍志》、《新唐書藝文志》、《舊唐書經籍志》、《玉函山房輯佚書》。",
-    "sources": [
-      "國史經籍志",
-      "新唐書藝文志",
-      "舊唐書經籍志",
-      "玉函山房輯佚書"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"宋紀\" 唯一候选无作者\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0by2d14w（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-23 B1 同名異書併池：併入 `1evcpcw3mv8xs`（宋紀）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpcw3mv8xs`（舊唐書經籍志，30卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\n2026-08-24 玉函山房未繫節第二輪：《玉函山房輯佚書》目錄著錄本書，馬國翰嘗輯之，本輪繫其節，並依例補著錄層之輯佚檔於 fragments/。所記止於目錄所有——馬氏輯得幾條、佚文見於何書，目錄不載，故 `fragments_attested` 為 null（未知，非零），俟輯本正文。繫之所據見該節之 `link_basis`。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）\n\nN6 description 補全（2026-08-24 南北朝 description 專項）：本條之著錄為多源（≥4 家）而無描述，然本條未繫實物（books 空），諸志所給者亦止於題、撰人、卷數三事，別無可撰之內容——「未繫實物」是本庫之現狀，不等於其書必亡；存佚之判由 loss_status 承載，此處不代為之判。故本條之 description 由**所繫著錄之引文撮述而成**——撰人及其代、本庫所取之卷數、諸志卷數之異同、存佚之判，皆逐字可回本條 indexed_by 覆按。所據止此，未覆核原書，亦未旁徵他書為之敷衍。\n\nN7 loss_status（2026-08-24 南北朝存佚專項，路二：輯佚之結構化標記）：判為 partially_extant。有輯佚檔 1 種——輯家既為之輯，其文確有存世者。依 SCHEMA 2026-08-21 訂正：凡有文存世即 partially_extant，一字不存方為 lost。",
-  "id": "1evgpgy0trl6o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-08-24T11:35:01.998663+00:00",
-  "books": [],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "王智深為南齊文學之士（《南齊書·文學傳》有傳），奉敕撰《宋紀》三十卷記劉宋事。　複審採納：王智深為南齊文學之士，奉敕撰《宋紀》三十卷（2026-08-24 B1 medium 複審）",
-  "loss_status": "partially_extant",
   "_promoted_to": "d59f285y4sua",
-  "_promoted_at": "2026-08-24T18:54:17Z"
+  "_promoted_at": "2026-08-24T18:54:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285y4sua。"
 }

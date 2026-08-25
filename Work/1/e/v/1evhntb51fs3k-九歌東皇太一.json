@@ -2,53 +2,8 @@
   "schema_version": 1,
   "id": "1evhntb51fs3k",
   "type": "work",
-  "subtype": "article",
   "title": "九歌·東皇太一",
-  "authors": [
-    {
-      "name": "屈原",
-      "dynasty": "戰國楚",
-      "role": "作",
-      "entity_id": "1j96a9eajzuo0",
-      "dynasty_basis": "entity_propagation:1j96a9eajzuo0"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%AD%8C",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E6%9D%B1%E7%9A%87%E5%A4%AA%E4%B8%80",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_text": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「戰國楚」（規則1 粗粒度自消歧）",
-  "description": {
-    "text": "屈原《九歌》第一篇，迎神之曲。東皇太一為楚人所奉至尊之天神。全篇寫吉日良辰、陳設玉瑱瑤席、靈偃蹇而姣服、芳菲菲而滿堂之祭神場面，音節舒緩雍容，為全組詩之發端。",
-    "sources": [
-      "正續古文辭類纂"
-    ]
-  },
-  "ai_note": "2026-08-24 J4 單篇文 description 補全：本條之 description 為新撰。所據為本篇所收之總集（見 sources）及通行之學術常識——篇題、體裁、本事與繫年出諸家文選注（李善注、五臣注）與史傳之通說，**未覆核原書**。本批之立，是因 check_article.py 六項判準中本桶單篇文五項全備而唯缺此欄。",
   "_promoted_to": "d59f2ew8s8ar",
-  "_promoted_at": "2026-08-25T02:40:01Z"
+  "_promoted_at": "2026-08-25T02:40:01Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ew8s8ar。"
 }

@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq62yl8z5s",
   "type": "work",
   "title": "韻府群玉",
-  "authors": [
-    {
-      "name": "隂時軟",
-      "role": "撰",
-      "entity_id": "1j96hgb98n7cw"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《韻府羣玉》二十卷",
-      "summary": "《韻府羣玉》二十卷（隂時軟）",
-      "author_info": "隂時軟"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《韻府群玉》·二十卷",
-      "summary": null,
-      "note": "本著錄原繫於磁鐵條「新增直音說文韻府群玉」（`1ev3bcdwiy874`），今歸本條。"
-    }
-  ],
-  "description": {
-    "text": "隂時軟撰。二十卷。見著錄於《國史經籍志》《欽定四庫全書總目》。其著錄之文，《欽定四庫全書總目》作「《韻府群玉》·二十卷」。《國史經籍志》明焦竑撰；《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "欽定四庫全書總目"
-    ]
-  },
-  "id": "1evgq62yl8z5s",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "additional_titles": [
-    "韻府羣玉"
-  ],
-  "updated_at": "2026-08-24T11:06:30.752078+00:00",
-  "ai_note": "2026-08-20 磁鐵拆解專項（全域，卷數定其一）：「《韻府群玉》·二十卷」一節原繫於磁鐵條（`1ev3bcdwiy874`），庫中同題之 work 不止一個，然唯本條之卷數與之合，且本條非磁鐵，故歸本條並補其著錄。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "period": "liao-jin-yuan",
-  "period_basis": "「隂時軟」即元陰時夫，《韻府群玉》二十卷為其所編，四庫著錄卷數正合。（2026-08-24 R3二輪 引文定代）",
   "_promoted_to": "d59f2glspwjk",
-  "_promoted_at": "2026-08-25T04:38:20Z"
+  "_promoted_at": "2026-08-25T04:38:20Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2glspwjk。"
 }

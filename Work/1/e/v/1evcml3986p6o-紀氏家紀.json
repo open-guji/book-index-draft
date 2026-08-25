@@ -1,71 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml3986p6o",
   "type": "work",
   "title": "紀氏家紀",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《紀氏家紀》一卷",
-      "summary": "《紀氏家紀》一卷紀友撰。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "紀氏家紀一卷 紀友,謹按見《隋志》。友為紀瞻孫,官至廷尉,本書附在瞻傳。",
-      "section": "乙部史録／雜傳類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《紀氏家紀》一卷",
-      "summary": "《紀氏家紀》一卷（紀友）",
-      "author_info": "紀友"
-    }
-  ],
-  "authors": [
-    {
-      "name": "紀友",
-      "role": "撰",
-      "entity_id": "1j967avzkq2wh",
-      "dynasty": "晉",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「紀友」而無 entity_id，今繫 `1j967avzkq2wh`——庫中以此為別名（alt_names）者唯一。其代「清」與本書已定之代「jin」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcml3986p6o",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "紀氏家紀一卷",
-      "summary": "紀氏家紀一卷紀友撰\n《晉書·紀瞻傳》:瞻字思遠,丹陽 林人也。祖亮,吴尚書\n令。父陟,光禄大夫。瞻少以方直知名。吴平,徙家歷陽。\n元帝即位,歷侍中、尚書、 騎將軍、散騎常侍、開府儀同三\n司,封臨鄉侯。 日穆。長子景,早卒。景子友嗣,官至\n廷尉。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉",
-  "ai_note": "2026-08-24 J2(b) entity 誤繫：本條 authors[0]「紀友」原繫 Entity 1j967avzkq2wh，而該 entity 之 primary_name 是「蔣永修」（清順治進士），其另四作品《孝經集解》《蔣慎齋遇集》《蒞楚學記》《日懷堂奏疏》period 皆 qing——非本條之人。《隋志》《補晉志》皆作「紀友撰」，補晉志並云「友為紀瞻孫，官至廷尉，本書附在瞻傳」，是晉人。今去其誤繫之 entity_id，補 dynasty「晉」；庫中尚無紀友之 entity，俟人物車道補立再繫。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "紀友（晉）撰。一卷。見著錄於《隋書經籍志》《補晋書藝文志》《國史經籍志》。《補晋書藝文志》列於乙部史録·雜傳類。其著錄之文，《補晋書藝文志》作「紀氏家紀一卷 紀友,謹按見《隋志》」。",
-    "sources": [
-      "隋書經籍志",
-      "補晋書藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f27vt8dtt",
-  "_promoted_at": "2026-08-24T18:34:48Z"
+  "_promoted_at": "2026-08-24T18:34:48Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27vt8dtt。"
 }

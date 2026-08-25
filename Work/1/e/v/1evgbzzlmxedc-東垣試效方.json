@@ -1,66 +1,12 @@
 {
   "schema_version": 1,
+  "id": "1evgbzzlmxedc",
   "type": "work",
   "title": "東垣試效方",
-  "authors": [
-    {
-      "name": "李杲",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j967da95o6rf"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "李杲東垣試效方九卷",
-      "summary": "元李杲東垣試效方九卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《東垣試效方》九卷",
-      "summary": "《東垣試效方》九卷（李果）",
-      "author_info": "李果"
-    },
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "張元素東垣試效方九卷",
-      "author_info": "後人所輯",
-      "summary": "金張元素東垣試效方九卷（後人所輯）"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "ai_note": "同名異書：已有 Work 作者為 [('張元素', '金')]，本條作者 李杲（元），另建 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L7 連帶之併：《東垣試效方》九卷二條——本條出《補遼金元藝文志》「金張元素東垣試效方九卷（後人所輯）」，存者出《元史藝文志》「元李杲東垣試效方九卷」與《國史經籍志》「《東垣試效方》九卷（李果）」。題同、卷數同九卷，而二志繫人互異——「東垣」正是李杲之號，張元素則其師；是一書而二志繫人不同，非同名異書（比照坑 18：撰人異同不足以斷二書）。二說並存於 indexed_by，不強為之判。\n\n2026-08-25 L7：loss_status 判為 partially_extant，據見 loss_status_basis。",
-  "id": "1evgbzzlmxedc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "description": {
-    "text": "李杲（元）撰。九卷。見著錄於《元史藝文志》《國史經籍志》。其著錄之文，《國史經籍志》作「《東垣試效方》九卷（李果）」。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "元史藝文志",
-      "國史經籍志"
-    ]
-  },
+  "_promoted_to": "d59f2giyyjgi",
+  "_promoted_at": "2026-08-25T04:32:54Z",
   "merged_from": [
     "1evga7cit9gjk"
   ],
-  "loss_status": "partially_extant",
-  "loss_status_basis": "L7（2026-08-25 遼金元）：判 `partially_extant`——《補遼金元藝文志》著錄作「金張元素東垣試效方九卷（後人所輯）」，括注明言「後人所輯」。原書既亡而今有輯本，依 SCHEMA〈凡有文存世即 partially_extant〉。",
-  "_promoted_to": "d59f2giyyjgi",
-  "_promoted_at": "2026-08-25T04:32:54Z"
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2giyyjgi。"
 }

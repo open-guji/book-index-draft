@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs15rhagw0",
   "type": "work",
   "title": "麴信陵詩",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "麴信陵詩",
-      "summary": "麴信陵詩一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《麴信陵詩》一卷",
-      "summary": "《麴信陵詩》一卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《麹信陵詩》",
-      "summary": "《麹信陵詩》一卷",
-      "merged_from": "1evcsyruqwni8",
-      "note": "諸志同著《麴信陵詩》，係一書互著，今合併。"
-    }
-  ],
-  "id": "1evcs15rhagw0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "additional_titles": [
-    "麹信陵詩"
-  ],
-  "authors": [
-    {
-      "name": "麴信陵",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf515129a0c",
-      "note": "本書題名即「撰人＋詩」之例，諸志著錄皆作《麴信陵詩》，撰人為麴信陵。",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a0c` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：《麴信陵詩》為麴信陵之詩集，諸志（新唐書藝文志、宋史藝文志、崇文總目、國史經籍志之屬）互著而各建一條，卷數容有參差，乃傳本分卷之異，非兩書，今合併。撰人據題名「撰人＋詩」之例補為麴信陵。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
   "_promoted_to": "d59f28k1dfk1",
-  "_promoted_at": "2026-08-24T19:21:22Z"
+  "_promoted_at": "2026-08-24T19:21:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k1dfk1。"
 }

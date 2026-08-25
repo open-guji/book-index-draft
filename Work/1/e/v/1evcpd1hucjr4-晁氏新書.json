@@ -1,63 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd1hucjr4",
   "type": "work",
   "title": "晁氏新書",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《晁氏新書》三卷",
-      "summary": "《晁氏新書》三卷晁錯撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "晁氏新書",
-      "summary": "晁氏新書七卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《晁氏新書》七卷",
-      "summary": "《晁氏新書》七卷"
-    }
-  ],
-  "id": "1evcpd1hucjr4",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%99%81%E6%B0%8F%E6%96%B0%E6%9B%B8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "authors": [
-    {
-      "name": "晁錯",
-      "role": "撰",
-      "dynasty": "西漢",
-      "entity_id": "1j967afjav1wl",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《晁氏新書》三卷晁錯撰。」，尾名「晁錯」即其撰人。庫中同名 entity 唯一（`1j967afjav1wl`，代「西漢」），故繫之。"
-    }
-  ],
-  "dynasty": "西漢",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 qin-han。",
-  "description": {
-    "text": "西漢晁錯撰。錯以文帝時上言兵事、守邊備塞、勸農力本諸疏著稱，主削藩，景帝三年七國反，遭誅。《漢志》儒家著錄「鼂錯三十一篇」，《舊唐志》著三卷，《新唐志》《國史經籍志》皆七卷，即其書後人所編之本。書佚。",
-    "sources": [
-      "舊唐書經籍志",
-      "新唐書藝文志",
-      "國史經籍志"
-    ]
-  },
-  "loss_status": "lost",
-  "ai_note": "2026-08-24 漢代收束·舊唐志新收條補述：本條係另一路「舊唐志逐條抽撰人」作業新斷代入漢桶者，升格前補 description 與 loss_status。所據為本條所繫著錄之引文及通行學術常識，未覆核原書。",
   "_promoted_to": "d59f25dg14ht",
-  "_promoted_at": "2026-08-24T15:41:06Z"
+  "_promoted_at": "2026-08-24T15:41:06Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f25dg14ht。"
 }

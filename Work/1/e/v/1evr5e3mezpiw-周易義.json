@@ -3,55 +3,7 @@
   "id": "1evr5e3mezpiw",
   "type": "work",
   "title": "周易義",
-  "authors": [
-    {
-      "name": "張軌",
-      "role": "撰",
-      "dynasty": "前涼",
-      "entity_id": "1j96hhvcr8mxj",
-      "dynasty_basis": "entity_propagation_r2:1j96hhvcr8mxj"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "周易義",
-      "summary": "晉張軌《周易義》一卷。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《易義》（張軌）",
-      "summary": "",
-      "section": "易",
-      "juan": "卷十一",
-      "page": "KR2n0011_WYG_011-14a",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "ai_note": "同名書拆分創建。原文：晉張軌《周易義》一卷。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-08T18:18:57+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "description": {
-    "text": "張軌（前涼）撰。見著錄於《清史稿藝文志》《經義考》。《經義考》列於易。其著錄之文，《清史稿藝文志》作「晉張軌《周易義》一卷」。",
-    "sources": [
-      "清史稿藝文志",
-      "經義考"
-    ]
-  },
   "_promoted_to": "d59f27xxpix0",
-  "_promoted_at": "2026-08-24T18:38:54Z"
+  "_promoted_at": "2026-08-24T18:38:54Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xxpix0。"
 }

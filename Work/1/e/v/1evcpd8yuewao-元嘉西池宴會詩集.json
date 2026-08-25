@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd8yuewao",
   "type": "work",
   "title": "元嘉西池宴會詩集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《元嘉西池宴會詩集》三卷",
-      "summary": "《元嘉西池宴會詩集》三卷顏延之撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《元嘉西池宴會詩集》三卷",
-      "summary": "《元嘉西池宴會詩集》三卷（顧延之篤）",
-      "author_info": "顧延之篤"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "顏延之元嘉西池宴會詩集",
-      "summary": "顏延之元嘉西池宴會詩集三卷",
-      "merged_from": "1evcpd8yuewao",
-      "note": "與《顏延之元嘉西池宴會詩集》同指一書，撰人並「顏延之」，卷數亦合，今併之。"
-    }
-  ],
-  "id": "1evcpd8yuewao",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-24 S 同題同撰重出併池（異體字）：併入 `1evcs17nm59fk`（顏延之元嘉西池宴會詩集）。2026-08-24 題名重出（長題＝撰人＋短題）：併入《顏延之元嘉西池宴會詩集》（1evcs17nm59fk）。二條撰人並「顏延之」，卷數亦合（三卷）。長題《顏延之元嘉西池宴會詩集》乃「撰人＋書名」（或「書名＋撰人＋撰」）連書不點斷之故，非其本題；本題當作《元嘉西池宴會詩集》，故以短題之條為正。　被刪條之 period_upper=sui-tang，本條從缺，不越 C／D 車道而搬，俟其道補。",
-  "authors": [
-    {
-      "name": "顏延之",
-      "role": "撰",
-      "dynasty": "南朝宋",
-      "entity_id": "1j968k0jdrlz5",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《元嘉西池宴會詩集》三卷顏延之撰。」，尾名「顏延之」即其撰人。庫中同名 entity 唯一（`1j968k0jdrlz5`，代「南朝宋」），故繫之。"
-    }
-  ],
-  "dynasty": "南朝宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」——撰人自《舊唐書經籍志》著錄語尾名抽出（見 authors[].name_basis）。本條原上限 sui-tang，今得撰人，定作 nanbeichao。",
-  "additional_titles": [
-    "顏延之元嘉西池宴會詩集"
-  ],
   "_promoted_to": "d59f2869dce9",
-  "_promoted_at": "2026-08-24T18:54:53Z"
+  "_promoted_at": "2026-08-24T18:54:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2869dce9。"
 }

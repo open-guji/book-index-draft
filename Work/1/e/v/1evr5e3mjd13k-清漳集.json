@@ -3,54 +3,7 @@
   "id": "1evr5e3mjd13k",
   "type": "work",
   "title": "清漳集",
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "清漳集"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《清漳集》",
-      "summary": "趙不敵《清漳集》三十卷",
-      "merged_from": "1evcsza7rsbnk",
-      "note": "宋史藝文志別集類作「趙不敵《清漳集》三十卷」，前置撰人趙不敵，卷數三十，與直齋所錄同書，今合併。"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "趙不敵",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1jcf5151298qg",
-      "note": "宋史藝文志別集類前置撰人作「趙不敵」，宋宗室「不」字行。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298qg` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：直齋書錄解題裸題《清漳集》，宋史藝文志同題同卷（三十卷）而有前置撰人趙不敵，係同書兩志互著，今合併並補撰人。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "趙不敵（宋）撰。三十卷。見著錄於《直齋書錄解題》《宋史藝文志》。其著錄之文，《宋史藝文志》作「趙不敵《清漳集》三十卷」。別集之屬，所收為其人之詩文。《直齋書錄解題》南宋陳振孫撰；《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "直齋書錄解題",
-      "宋史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2hkvo2de",
-  "_promoted_at": "2026-08-25T05:45:46Z"
+  "_promoted_at": "2026-08-25T05:45:46Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hkvo2de。"
 }

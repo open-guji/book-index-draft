@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpxobk2adc",
   "type": "work",
   "title": "昌谷集",
-  "authors": [
-    {
-      "name": "曹彥約",
-      "role": "撰",
-      "dynasty": "南宋",
-      "entity_id": "1j967avzn7z9r"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫027113-027124）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫027113-027124）。阶段 5 兜底建立。　合併：題名「曹彥約昌谷集」撰人折入題首（來源：清史稿藝文志），與本條同書（撰人「曹彥約」已見本條 authors[]），裸題「昌谷集」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "juan_count": {
-    "number": 22
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "id": "1evkpxobk2adc",
-  "books": [
-    "11qkhxfoymk1s"
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "曹彥約昌谷集",
-      "summary": "曹彥約昌谷集二十二卷。",
-      "merged_from": "1evr5e3mdqr6k"
-    }
-  ],
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「南宋」（2026-08-13 清朝探勘：曹彥約：Entity為高信度宋代人物比對，Work.period因清史稿藝文志代填啟發式誤植為qing，訂正）",
-  "merged_in": [
-    {
-      "id": "1evr5e3mdqr6k",
-      "title": "曹彥約昌谷集",
-      "author": "曹彥約",
-      "title_info": "曹彥約昌谷集",
-      "indexed_by_moved": [
-        "清史稿藝文志"
-      ]
-    }
-  ],
   "_promoted_to": "d59f2ht5rp4w",
-  "_promoted_at": "2026-08-25T06:01:41Z"
+  "_promoted_at": "2026-08-25T06:01:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ht5rp4w。"
 }

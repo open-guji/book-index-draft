@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocqtr6yo",
   "type": "work",
   "title": "集苑",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《集苑》四十五卷",
-      "summary": "《集苑》四十五卷梁六十卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《集苑》六十卷",
-      "summary": "《集苑》六十卷謝琨撰。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "集苑六十卷 謝混。謹按見兩《唐志》。《七録》、《隋志》脱撰人名。",
-      "merged_from": "1evfuvdcayd4w",
-      "note": "原自成一記錄（補晉），今併。",
-      "section": "丁部集録／總集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "juan_count": {
-    "number": 45
-  },
-  "id": "1evcmocqtr6yo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 45
-    }
-  ],
-  "measure_info": "四十五卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "謝混",
-      "role": "撰",
-      "dynasty": "晉",
-      "entity_id": "1j96gyqvihu68",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「謝混」而無 entity_id，今繫 `1j96gyqvihu68`——庫中 primary_name 同之者唯一。其代「東晉」與本書已定之代「jin」相合。"
-    }
-  ],
-  "ai_note": "2026-08-20 組6：補晉集苑記錄併入。補晉云「集苑六十卷，謝混。謹按見兩唐志，七錄、隋志脫撰人名」——舊唐志作謝琨，琨乃混之訛。立撰人謝混。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "description": {
-    "text": "謝混（晉）撰。四十五卷；諸志所著之數有異，別作六十卷。見著錄於《隋書經籍志》《舊唐書經籍志》《補晋書藝文志》。《補晋書藝文志》列於丁部集録·總集類。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "補晋書藝文志"
-    ]
-  },
   "_promoted_to": "d59f27u3qmtf",
-  "_promoted_at": "2026-08-24T18:31:31Z"
+  "_promoted_at": "2026-08-24T18:31:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27u3qmtf。"
 }

@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjorpkp34",
   "type": "work",
   "title": "詩集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《詩集》二十卷",
-      "summary": "《詩集》二十卷宋明帝撰。"
-    },
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk"
-    }
-  ],
-  "id": "1evcpjorpkp34",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "宋明帝",
-      "dynasty": "南朝宋",
-      "entity_id": "1jcf51512958n",
-      "dynasty_basis": "synonym:劉宋->南朝宋",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512958n` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "2026-08-08 補撰人：舊唐志原文「詩集二十卷宋明帝撰」。宋明帝=劉彧。\n\n2026-08-19 部帙通名截題正名專項：本條題「詩集」，出舊唐書經籍志「詩集二十卷宋明帝撰」，「詩集」為總集常名而非截題，故不改題。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。\n\n[N3磁鐵 2026-08-24]《宋史藝文志補》別集類劉克莊《詩集》十五卷、汪炎昌《詩集》五卷、釋居簡《詩集》九卷三節原共繫本條，本條乃《舊唐書經籍志》總集類所著南朝宋明帝《詩集》二十卷，與宋末三家絕不相涉，今各別立：`1ex0trn91w3rg`、`1exg5ee807tm1`、`1ex4k5ua0d5y1`。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f286g8kck",
-  "_promoted_at": "2026-08-24T18:55:15Z"
+  "_promoted_at": "2026-08-24T18:55:15Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f286g8kck。"
 }

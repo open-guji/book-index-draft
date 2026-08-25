@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1ex0j4cc261vm",
+  "type": "work",
   "title": "樂府聲調",
-  "authors": [
-    {
-      "name": "鄭譯",
-      "role": "撰",
-      "entity_id": "1j967da96x4xz",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「鄭譯」而無 entity_id，今繫 `1j967da96x4xz`——庫中 primary_name 同之者唯一。其代「隋」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《樂府聲調》三卷",
-      "summary": "《樂府聲調》三卷鄭譯撰。",
-      "note": "整理本此節原繫已不存在之 work id `1evc5pdg8gdmo`（歷次合併去之而繫連未隨改），今據題名唯一回收於本條。　隋志樂類「《樂府聲調》六卷岐州刺史、沛國公鄭譯撰」之外別著「《樂府聲調》三卷鄭譯撰」；姚振宗《考證》於三卷本云「按其後三卷,或從岐州召還,定樂太常時所作」，是別為一時之作，非前書之別本，今別出。",
-      "section": "樂類"
-    }
-  ],
-  "ai_note": "2026-08-24 N2 磁鐵專項（宋隋唐志系）新建：本條自隋書經籍志「《樂府聲調》三卷」一節析出——該節原與 1evc5pdg3gkxs《樂府聲調》鄭譯六卷本共繫。姚振宗《隋書經籍志考證》於三卷本明云「按其後三卷,或從岐州召還,定樂太常時所作」——謂另一時所撰之書，非「別本」「重出」之語（本輪之準：姚案作「別本」「重複」者不拆，別為一書者別立）。同志兩著、卷數復異，依 SCHEMA〈同題二條〉一是二書。　欄位一概取志文所明著者（題、卷數、撰人），period／loss_status／entity_id 不繫。",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "樂府聲調三卷鄭譯撰",
-      "summary": "（見上條《樂府聲調》六卷考証。按其後三卷，或從岐州召還，定樂太常時所作。）",
-      "note": "三卷本乃六卷本之後出（考證云或從召還定樂時作），同書並繫。"
-    }
-  ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "姚振宗案語謂三卷本乃「從岐州召還，定樂太常時所作」，鄭譯定樂在隋開皇初，故繫隋。（2026-08-24 R3二輪 引文定代）",
-  "updated_at": "2026-08-24T00:00:00+00:00",
   "_promoted_to": "d59f28j73ev8",
-  "_promoted_at": "2026-08-24T19:19:45Z"
+  "_promoted_at": "2026-08-24T19:19:45Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28j73ev8。"
 }

@@ -10,8 +10,15 @@ IE=li('entitie')
 # Production ID ↔ Draft ID：庫中之互指有用 Production ID 者，比對前兩側俱須正規化。
 # 不正規化則 Book→Work、Work→Book 之單向數全為假象（曾誤判二次）。
 _PR=json.load(open('promotions.json'))['promotions']
-P2D={v['production_id']:k for k,v in _PR.items()}
-def nz(i): return P2D.get(i,i)
+# 歸一之向取 **draft → production**，不可反。
+# 反向（production → draft）不是函數：併條之後一個 production id 可有數個 draft
+# 記錄指之（甲併入乙、甲之 production 檔刪去而其墓碑改指乙——見 SKILL 坑 30
+# 「一對多不必是撞號」），字典遂只留最後一個，於是同一個 Book 的 work_id 與
+# Work 的 books 歸一到兩個不同的 draft id 上，〈Work→Book 單向〉平白報一批。
+# 2026-08-25 遼金元輪實見五條，皆此型（讀易考原、易學變通、星命總括、易精蘊大義）。
+# 正向則必是函數：一個 draft 只升一次。
+D2P={k:v['production_id'] for k,v in _PR.items()}
+def nz(i): return D2P.get(i,i)
 def shard(i):
     h=0
     for c in i: h=((h*31)+ord(c))&0xFFFFFFFF
@@ -219,6 +226,9 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             if not e: continue
             try: dd=json.load(open(e['path']))
             except Exception: continue
+            # 升格墓碑只留骨架欄（indexed_by 在 production 本文），此驗不及；
+            # 併條墓碑同理。2026-08-25 宋輪墓碑 stub 化後立此例外。
+            if dd.get('_promoted_to') or dd.get('merged_into'): continue
             if not any(y.get('source_bid') in ok_bids for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
 print('整理本繫連而 work 側無記錄',desync)

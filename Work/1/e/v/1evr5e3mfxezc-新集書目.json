@@ -3,47 +3,7 @@
   "id": "1evr5e3mfxezc",
   "type": "work",
   "title": "新集書目",
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "新集書目一卷",
-      "summary": "新集書目一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《新集書目》一卷",
-      "summary": "《新集書目》一卷（唐蔣彧）",
-      "author_info": "唐蔣彧"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "measure_info": "一卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "authors": [
-    {
-      "name": "蔣彧",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151293lb",
-      "note": "據本 work 諸著錄之 author_info「唐蔣彧」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293lb` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「唐蔣彧」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
   "_promoted_to": "d59f28k38utd",
-  "_promoted_at": "2026-08-24T19:21:28Z"
+  "_promoted_at": "2026-08-24T19:21:28Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k38utd。"
 }

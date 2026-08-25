@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcubrqo3yf4",
   "type": "work",
   "title": "周易劉表注",
-  "related_works": [
-    {
-      "id": "1ev7xm5b3sge8",
-      "title": "周易王弼注",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "又五卷劉表注。",
-      "summary": "又五卷劉表注。"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周易章句》（劉表）",
-      "summary": "隋志五卷（新舊唐書同中經簿錄易注十卷七録九卷目録一卷）\n後漢書劉表字景升山陽髙平人魯恭王之後也爲鎮南將軍荆州牧封成武侯闗西兖豫學士歸者千數表起立學校博求儒術綦母闓宋忠等撰立五經章句謂之後定謝承後漢書表受學於同郡王暢漢末英雄記州畧羣宼旣盡表乃開立學官博求儒士使綦母闓宋忠等撰定五經章句",
-      "section": "易",
-      "juan": "卷九",
-      "page": "KR2n0011_WYG_009-10b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "劉表",
-      "entity_id": "1j96hl3yk5wqo",
-      "dynasty": "東漢"
-    }
-  ],
-  "id": "1evcubrqo3yf4",
-  "updated_at": "2026-08-22T04:56:00.078088+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "qin-han",
-  "period_basis": "撰人朝代闕，據其 Entity「劉表」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-22 C1）",
-  "ai_note": "2026-08-24 兩漢H8（斷代收尾）：撰人 dynasty 補正——劉表補「東漢」。無考者仍留空／留「漢」，不強判。",
   "_promoted_to": "d59f24mp20p2",
-  "_promoted_at": "2026-08-24T14:49:41Z"
+  "_promoted_at": "2026-08-24T14:49:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24mp20p2。"
 }

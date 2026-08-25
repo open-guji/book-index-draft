@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyi73nw1s",
   "type": "work",
   "title": "明堂論",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《明堂論》",
-      "summary": "朱遂《明堂論》一卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "明堂論一卷",
-      "summary": "明堂論一卷。謹按鄭樵通志云唐志别出明堂經脉一條而崇文總目合為醫書據明堂一類亦有数家以為一條已自踈矣况合於醫書而其類又不相附可乎"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《明堂論》一卷",
-      "summary": "《明堂論》一卷（唐朱遂）",
-      "author_info": "唐朱遂"
-    }
-  ],
-  "id": "1evcsyi73nw1s",
-  "updated_at": "2026-08-23T05:58:32.742793+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evgq4g2wevwg 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。\n\n2026-08-24 隋唐 T5·description 機械撮述（著錄 1–3 源批）：**本條之 desc 非人所撰，是據所繫著錄之引文機械組織而成**——撰人、卷數、諸志卷數之異同、敘錄之要點、存佚，皆取自 indexed_by，不臆造一字。未覆核原書。使用者本輪之裁定是「只補頭部約 766 條」，而機械撮述之法成本極低（不費人力，且所組織者皆本條已有之信息），故不止於頭部——凡材料足以成文者（有敘錄，或諸志卷數有異同）皆補之；材料不足者（無敘錄而諸志卷數又一致）仍不生成——其 desc 止是覆述著錄，讀者從 indexed_by 一望即知，寫與不寫同。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "authors": [
-    {
-      "name": "朱遂",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j96hg84b8glc"
-    }
-  ],
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "description": {
-    "text": "《明堂論》一卷，唐朱遂撰。《宋史藝文志》、《崇文總目》、《國史經籍志》所著卷數一致（一卷）。《崇文總目》敘曰：「明堂論一卷。謹按鄭樵通志云唐志别出明堂經脉一條而崇文總目合為醫書據明堂一類亦有数家以為一條已自踈矣况合於醫書而其類又不相附可乎」",
-    "sources": [
-      "宋史藝文志",
-      "崇文總目",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f28le2gau",
-  "_promoted_at": "2026-08-24T19:23:58Z"
+  "_promoted_at": "2026-08-24T19:23:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28le2gau。"
 }

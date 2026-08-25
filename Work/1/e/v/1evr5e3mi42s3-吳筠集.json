@@ -3,49 +3,7 @@
   "id": "1evr5e3mi42s3",
   "type": "work",
   "title": "吳筠集",
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "1ev3bb403quio",
-      "summary": "吳筠集"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "吴筠集五卷",
-      "summary": "吴筠集五卷。（闕）",
-      "merged_from": "1evr5e3mhhlrh",
-      "note": "同題同撰人之別集，卷數與所併記錄相承，係另一書目之著錄。"
-    }
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "additional_titles": [
-    "吴筠集"
-  ],
-  "authors": [
-    {
-      "name": "吳筠",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl7y9uc",
-      "note": "書名即撰人。吳筠（?-778）唐道士，撰《玄綱論》等。按本庫另有同名 entity `1j96hf8n1ptz4`（亦唐，無 CBDB），疑為一人二條，待人物專項覈實。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，直齋書錄解題十卷、崇文總目五卷（注「闕」），同為唐吳筠別集，今合為一條並繫 entity `1j967bgl7y9uc`。崇文總目注「闕」，五卷為北宋所存殘帙。",
   "_promoted_to": "d59f28k0fpxc",
-  "_promoted_at": "2026-08-24T19:21:19Z"
+  "_promoted_at": "2026-08-24T19:21:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k0fpxc。"
 }

@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evga7la2y3nk",
   "type": "work",
   "title": "韻府群玉掇遺",
-  "authors": [
-    {
-      "name": "錢全袞",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96gmtk7zsao",
-      "original_name": "錢全衮"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "補遼金元藝文志",
-      "source_bid": "1eve1ek5qq9kw",
-      "title_info": "錢全衮韻府群玉掇遺",
-      "author_info": "字幼遇。其兄中夫幼達注",
-      "summary": "元錢全衮（字幼遇。其兄中夫幼達注）韻府群玉掇遺（十冊）"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "《韻府群玉掇遺》十卷",
-      "author_info": "字慶餘，華亭人",
-      "summary": "元錢全衮（字慶餘，華亭人）韻府群玉掇遺十卷"
-    }
-  ],
-  "description": {
-    "text": "錢全袞（元）撰。十卷。見著錄於《補遼金元藝文志》《元史藝文志》。其著錄之文，《元史藝文志》作「元錢全衮（字慶餘，華亭人）韻府群玉掇遺十卷」。",
-    "sources": [
-      "補遼金元藝文志",
-      "元史藝文志"
-    ]
-  },
-  "id": "1evga7la2y3nk",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
   "_promoted_to": "d59f2gej51c0",
-  "_promoted_at": "2026-08-25T04:24:22Z"
+  "_promoted_at": "2026-08-25T04:24:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gej51c0。"
 }

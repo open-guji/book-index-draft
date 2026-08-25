@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjxmigkalts",
   "type": "work",
   "title": "南北史續世說",
-  "authors": [
-    {
-      "name": "李垕",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151296at",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296at` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《南北史續世說》十卷",
-      "author_info": "唐李垕撰",
-      "summary": "《南北史續世說》十卷。唐李垕撰。清華大學圖書館藏明萬曆安茂卿刻三十七年俞安期翏翏閣重修本。",
-      "edition": "清華大學圖書館藏明萬曆安茂卿刻三十七年俞安期翏翏閣重修本",
-      "volume": "第239冊",
-      "section": "子部"
-    }
-  ],
-  "description": {
-    "text": "本書收入《四庫全書存目叢書》第239冊（子部）。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "id": "1evjxmigkalts",
-  "books": [
-    "11qki46vootts"
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bab2o0m4g",
-      "title": "北史",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28n9sy6b",
-  "_promoted_at": "2026-08-24T19:27:35Z"
+  "_promoted_at": "2026-08-24T19:27:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28n9sy6b。"
 }

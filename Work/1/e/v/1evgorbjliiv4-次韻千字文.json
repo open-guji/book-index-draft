@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgorbjliiv4",
   "type": "work",
   "title": "次韻千字文",
-  "authors": [
-    {
-      "name": "周興嗣",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "entity_id": "1j96h28x1o7id",
-      "dynasty_basis": "entity_propagation:1j96h28x1o7id"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《次韻千字文》一卷",
-      "summary": "《次韻千字文》一卷（梁周興嗣）",
-      "author_info": "梁周興嗣"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "周興嗣次韻千字文",
-      "summary": "周興嗣次韻千字文一卷",
-      "merged_from": "1evcs0asafny8"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgorbjliiv4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "merged_in": [
-    {
-      "id": "1evcs0asafny8",
-      "title": "周興嗣次韻千字文",
-      "author": "周興嗣",
-      "title_info": "周興嗣次韻千字文",
-      "indexed_by_moved": [
-        "新唐書藝文志"
-      ]
-    }
-  ],
-  "ai_note": "合併：題名「周興嗣次韻千字文」撰人折入題首（來源：新唐書藝文志），與本條同書（撰人「周興嗣」已見本條 authors[]），裸題「次韻千字文」全庫僅此一見，無同名之異書，逕併——撰人字首式重出候選（2026-08-07 深查，經人核可批次處理）。",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f2864djpd",
-  "_promoted_at": "2026-08-24T18:54:37Z"
+  "_promoted_at": "2026-08-24T18:54:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2864djpd。"
 }

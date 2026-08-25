@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0j9vrgu8",
   "type": "work",
   "title": "皇孫郡王譜",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "皇孫郡王譜",
-      "summary": "皇孫郡王譜一卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《皇孫郡王譜》",
-      "summary": "《皇孫郡王譜》一卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "皇孫郡王譜一卷",
-      "summary": "皇孫郡王譜一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《皇孫郡王譜》一卷",
-      "summary": "《皇孫郡王譜》一卷（李匡文）",
-      "author_info": "李匡文"
-    }
-  ],
-  "id": "1evcs0j9vrgu8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（一卷），今據以補。\n\n2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「李匡文」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "authors": [
-    {
-      "name": "李匡文",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j967da97jm0m",
-      "note": "據本 work 諸著錄之 author_info「李匡文」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「李匡文」而無 entity_id，今繫 `1j967da97jm0m`——庫中 primary_name 同之者唯一。其代「唐」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "李匡文（李匡乂）為唐末宗正少卿、譜牒學家，書譜唐宗室皇孫郡王　複審採納：李匡文為唐末宗正少卿、譜牒學家，所譜為唐宗室（2026-08-24 A1 medium 複審）",
   "_promoted_to": "d59f28k6zpc6",
-  "_promoted_at": "2026-08-24T19:21:40Z"
+  "_promoted_at": "2026-08-24T19:21:40Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k6zpc6。"
 }

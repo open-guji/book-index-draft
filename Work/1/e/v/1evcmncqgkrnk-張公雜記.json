@@ -1,68 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmncqgkrnk",
   "type": "work",
   "title": "張公雜記",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《張公雜記》一卷",
-      "summary": "《張公雜記》一卷張華撰。梁有五卷，與《博物志》相似，小小不同。又有《雜記》十卷，何氏撰，亡。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "張公雜記",
-      "summary": "張公雜記一卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "張公雜記一卷 張華,謹按見《隋志》。舊注云:“梁有五卷。”與《博物志》相似,小小不同。",
-      "section": "丙部子録／雜家類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "authors": [
-    {
-      "name": "張華",
-      "role": "撰",
-      "entity_id": "1j967bgl7bspq"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmncqgkrnk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《張公雜記》一卷",
-      "summary": "張公雜記一卷張華撰。梁有五卷,與《博物志》相似,小小\n不同。\n《唐書·藝文志》:《張公雜記》一卷。注云張華。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-08T13:35:31+00:00",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，而所著錄之志唯一且為斷代志（其所著錄者九成以上是該代之作，此比例以庫中資料自驗），故據之：補晋書藝文志",
-  "dynasty": "晉",
-  "dynasty_basis": "period_fallback:jin→晉",
-  "description": {
-    "text": "張華撰。一卷。見著錄於《隋書經籍志》《新唐書藝文志》《補晋書藝文志》。《補晋書藝文志》列於丙部子録·雜家類。其著錄之文，《補晋書藝文志》作「張公雜記一卷 張華,謹按見《隋志》」。",
-    "sources": [
-      "隋書經籍志",
-      "新唐書藝文志",
-      "補晋書藝文志"
-    ]
-  },
   "_promoted_to": "d59f27vib2te",
-  "_promoted_at": "2026-08-24T18:34:13Z"
+  "_promoted_at": "2026-08-24T18:34:13Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27vib2te。"
 }

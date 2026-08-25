@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd712vhmo",
   "type": "work",
   "title": "殷淳集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《殷淳集》三卷",
-      "summary": "《殷淳集》三卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "殷淳集",
-      "summary": "殷淳集三卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《殷淳集》二卷",
-      "summary": "《殷淳集》二卷",
-      "merged_from": "1evgqb5fown40",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcpd712vhmo",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "殷淳",
-      "role": "撰",
-      "dynasty": "南朝宋",
-      "entity_id": "1jaovgsmf6n0g",
-      "note": "書名即撰人。殷淳（403-434）字粹遠，南朝宋人，撰《婦人集》。本庫「殷淳」entity `1j96h28x1zg21` 朝代標「南宋」（CBDB 46364），與南朝宋殷淳未能確為一人，故 entity_id 留空，待人物專項覈實。",
-      "name_basis": "N5 新建並繫 entity（2026-08-24）：`1jaovgsmf6n0g`。殷淳（403-434），南朝宋秘書丞，撰《四部書目》（宋元嘉八年秘閣四部目錄），《宋書·殷景仁傳》附。**不併入 `1j96h28x1zg21`**——該 entity 代作南宋，名下《宋秘閣書目》是趙宋秘閣之目，非劉宋元嘉之目。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "dynasty": "南朝宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，兩唐志三卷、國史經籍志二卷，同為南朝宋殷淳別集，今合為一條；撰人本庫無可繫之 entity。\n\nN5 撰人繫 entity（2026-08-24）：殷淳→`1jaovgsmf6n0g`（新建並繫）。",
   "_promoted_to": "d59f2862i4g2",
-  "_promoted_at": "2026-08-24T18:54:31Z"
+  "_promoted_at": "2026-08-24T18:54:31Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2862i4g2。"
 }

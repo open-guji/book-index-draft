@@ -3,56 +3,7 @@
   "id": "1evr5e3m7i0e2",
   "type": "work",
   "title": "樂元語",
-  "authors": [
-    {
-      "name": "劉德",
-      "role": "撰",
-      "dynasty": "西漢",
-      "entity_id": "1j96hhvcr8mwx"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "樂元語",
-      "summary": "漢劉德《樂元語》一卷。"
-    },
-    {
-      "source": "玉函山房輯佚書",
-      "source_bid": "1evjr68pzxog0",
-      "title_info": "樂元語一卷",
-      "summary": "樂元語一卷（漢劉德撰）　第3帙，卷30",
-      "section": "經編／樂類",
-      "juan_count": "1卷"
-    }
-  ],
-  "ai_note": "清史稿藝文志經部樂類輯佚條目。 來源：清史稿藝文志經部樂類　輯佚檔：本書之輯佚著錄置於 fragments/樂元語.json，據《玉函山房輯佚書》目錄立，現為著錄層。\n\n2026-08-21 存佚判準訂正（SCHEMA〈loss_status 枚舉〉2026-08-21 訂正）：loss_status 由 lost 改為 partially_extant。本條有輯佚檔（輯家 1 家、已錄佚文 0 條、諸家所稱 0 條），是本書之文確有存世者。舊判準以「後人之輯本不改其為全佚」列為 lost，與本欄所宣之軸「本書之文今日尚存幾何」不自洽，今改。傳本斷絕之事由本條輯佚檔之存在承載，不因此喪失。\n\n2026-08-24 補著錄源：《玉函山房輯佚書》一節補入 indexed_by。本書（清馬國翰輯，光緒九年長沙嫏嬛館補校刊本）逐書著錄書名、卷數、撰人並各繫序錄，合 SCHEMA〈IndexEntry〉「本書被目錄書／志書著錄」之義，與《續修四庫全書》《清史稿·藝文志》輯佚子目同性質。舊只記於本書之輯佚檔 collectors 與整理本節，不入 indexed_by，致所繫千餘條顯為「無著錄源」。今補。（本節之 summary 現止於目錄層——馬氏每書之序錄尚未錄入整理本，俟序錄錄入後可回填。）",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%A8%82%E5%85%83%E8%AA%9E",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "loss_status": "partially_extant",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "_has_text": true,
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第一階段訂正：?-前130，河間獻王，西漢景帝子）",
   "_promoted_to": "d59f24ma2mma",
-  "_promoted_at": "2026-08-24T14:48:53Z"
+  "_promoted_at": "2026-08-24T14:48:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24ma2mma。"
 }

@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnc9pia68",
   "type": "work",
   "title": "要覽",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《要覽》十卷",
-      "summary": "《要覽》十卷晉郡儒林祭酒呂竦撰。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《要覽》五卷",
-      "summary": "《要覽》五卷呂竦撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "呂竦要覽",
-      "summary": "呂竦要覽五卷"
-    }
-  ],
-  "authors": [
-    {
-      "name": "呂竦",
-      "role": "撰",
-      "entity_id": "1j96hfvdloz5s"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcmnc9pia68",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《要覽》十卷",
-      "summary": "要覽十卷 晉郡儒林祭酒吕撰\n吕辣,始末未詳。\n“晉”下似有效文。\n《唐書·經籍志》:《要覽》五卷,吕 撰。\n《唐書·藝文志》:吕 《要覽》五卷。《通志・藝文略》作《正覽》,似誤。\n案兩《唐志》雜家並有陸士衡《要覽》三卷,《玉海藝文》:\n“《中興書目》曰:陸機《要覽》一卷。機自序云:“直省之暇\n乃集《要術》三篇,上日《連壁》,集其嘉名,取其連類;中日\n《述聞》,實述予之所聞;下曰《析名》,乃搜同辨異也。””其書\n至南宋猶傳,吕 《要覽》、兩《唐志》止五卷。此十卷,疑有陸\n氏《要覽》在内,或吕氏集合諸家,通名之曰《要覽》,以郡\n文學諸生者。《宋志》類事家又有陸機《會要》一卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-24T04:34:30.812067+00:00",
-  "books": [],
-  "related_works": [],
-  "ai_note": "2026-08-10 撰人字首式重出候選覆核：1evcs0l6cha0w（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-24 J6 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "撰人朝代闕，據其 Entity「呂竦」之 period 傳播；上限 sui-tang 覆驗不相斥（2026-08-24 R2）",
-  "description": {
-    "text": "呂竦撰。十卷；諸志所著之數有異，別作五卷。見著錄於《隋書經籍志》《舊唐書經籍志》《新唐書藝文志》。其著錄之文，《隋書經籍志》作「《要覽》十卷晉郡儒林祭酒呂竦撰」。",
-    "sources": [
-      "隋書經籍志",
-      "舊唐書經籍志",
-      "新唐書藝文志"
-    ]
-  },
   "_promoted_to": "d59f27uc61hd",
-  "_promoted_at": "2026-08-24T18:31:58Z"
+  "_promoted_at": "2026-08-24T18:31:58Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27uc61hd。"
 }

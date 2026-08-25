@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0oplk268",
   "type": "work",
   "title": "起信論",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "又起信論",
-      "summary": "又起信論二卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《起信論》",
-      "summary": "《起信論》二卷僧肇",
-      "merged_from": "1evcs0oplk268",
-      "note": "同題二條而一方無撰人：彼條（宋史藝文志、崇文總目，2卷，不著撰人）與本條（新唐書藝文志，2卷，釋宗密撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "起信論二卷",
-      "summary": "起信論二卷",
-      "merged_from": "1evcs0oplk268",
-      "note": "同題二條而一方無撰人：彼條（宋史藝文志、崇文總目，2卷，不著撰人）與本條（新唐書藝文志，2卷，釋宗密撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    }
-  ],
-  "id": "1evcs0oplk268",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "釋宗密",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j98p5de8dyps",
-      "name_basis": "原作「宗密」。本庫僧人以「釋某」立目（如釋英、釋大訢），本條撰人為僧，庫中已有其 Entity「釋宗密」，逕依例補「釋」字並改繫。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人據新唐書藝文志「又」字文例補入——該志作「宗密禪源諸詮集一百一卷／又起信論二卷／起信論鈔三卷」，「又」承宗密，故本書為宗密所撰《起信論》疏解（非馬鳴造之《大乘起信論》本經）。宋志、崇文總目另有不著撰人之二卷本（見 `1evcsxqatsruo`），不合併，互見。本庫無宗密 entity，未繫。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsxqatsruo`（起信論）。2026-08-23 B10（同題一方無撰人）：併入 `1evcsxqatsruo`（宋史藝文志、崇文總目，2卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
   "_promoted_to": "d59f28k2mdq9",
-  "_promoted_at": "2026-08-24T19:21:26Z"
+  "_promoted_at": "2026-08-24T19:21:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28k2mdq9。"
 }

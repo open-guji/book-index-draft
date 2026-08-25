@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmod37i2o0",
   "type": "work",
   "title": "歌錄",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《歌錄》十卷",
-      "summary": "《歌錄》十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcmod37i2o0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "authors": [
-    {
-      "name": "賈逵",
-      "role": "撰",
-      "dynasty": "東漢",
-      "entity_id": "1j96h8rw7vhhj"
-    }
-  ],
-  "ai_note": "作者「漢賈逵撰」補自《國立故宮博物院善本舊籍》目錄。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」且無 entity_id，2026-08-11 西漢探勘分期第三階段補繫並訂正）",
   "_promoted_to": "d59f24lnljib",
-  "_promoted_at": "2026-08-24T14:47:41Z"
+  "_promoted_at": "2026-08-24T14:47:41Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24lnljib。"
 }

@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjpnr9ssg",
   "type": "work",
   "title": "河南志",
-  "authors": [
-    {
-      "name": "敏求",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j967avzlz11f",
-      "dynasty_basis": "entity_propagation:1j967avzlz11f"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《河南志》二十卷",
-      "summary": "《河南志》二十卷（宋敏求）",
-      "author_info": "宋敏求"
-    }
-  ],
-  "description": {
-    "text": "敏求（北宋）撰。二十卷。見著錄於《國史經籍志》。其著錄之文，《國史經籍志》作「《河南志》二十卷（宋敏求）」。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"河南志\" 唯一候选无作者\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgpjpnr9ssg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-09T08:58:29+00:00",
-  "dynasty": "北宋",
-  "dynasty_basis": "据唯一 author.dynasty「北宋」补全",
-  "period": "song",
-  "period_basis": "据唯一 author.dynasty「北宋」自动归并",
   "_promoted_to": "d59f2hez3gg2",
-  "_promoted_at": "2026-08-25T05:34:25Z"
+  "_promoted_at": "2026-08-25T05:34:25Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hez3gg2。"
 }

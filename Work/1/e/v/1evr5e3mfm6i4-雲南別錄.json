@@ -3,58 +3,7 @@
   "id": "1evr5e3mfm6i4",
   "type": "work",
   "title": "雲南別錄",
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "崇文總目",
-      "source_bid": "1ev3bb3xyygw0",
-      "title_info": "雲南别録一卷",
-      "summary": "雲南别録一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《雲南别録》一卷",
-      "summary": "《雲南别録》一卷（竇滂）",
-      "author_info": "竇滂"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《雲南別錄》",
-      "summary": "竇滂《雲南別錄》一卷陸廣微",
-      "merged_from": "1evr5e3mfm6i4",
-      "note": "《雲南别録》與《雲南別錄》之別，僅在異體字（雲南别録／雲南別錄），題名歸一後全同；本條1卷而彼條不著卷數；彼條無撰人而本條作「竇滂」。二者著錄異源（國史經籍志、崇文總目 ／ 宋史藝文志），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "measure_info": "一卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "authors": [
-    {
-      "name": "竇滂",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151297vd",
-      "note": "據本 work 諸著錄之 author_info「竇滂」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297vd` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「竇滂」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。\n\n2026-08-23 B1 同名異書併池：併入 `1evcsxljhri0w`（雲南别録）。2026-08-23 B4 異體字重出併池：併入 `1evcsxljhri0w`（宋史藝文志，題作《雲南別錄》，不著卷數）。二題之別僅在異體字，歸一後全同，本條1卷而彼條不著卷數；彼條無撰人而本條作「竇滂」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《雲南别録》，所用「雲南别録」係著錄原文之異體；今正為通行之《雲南別錄》，原形移入 additional_titles 備檢。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《崇文總目》（宋王堯臣等（1041），北宋崇文院藏書），故不晚於 song",
-  "additional_titles": [
-    "雲南别録"
-  ],
-  "period": "sui-tang",
-  "period_basis": "竇滂為唐懿宗咸通間經略雲南者，《雲南別錄》當為唐人記南詔事　複審採納：竇滂咸通間經略雲南，記南詔事屬唐（2026-08-24 A1 medium 複審）",
   "_promoted_to": "d59f28kijhfm",
-  "_promoted_at": "2026-08-24T19:22:17Z"
+  "_promoted_at": "2026-08-24T19:22:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28kijhfm。"
 }

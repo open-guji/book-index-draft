@@ -2,40 +2,8 @@
   "schema_version": 1,
   "id": "1evi64og3br40",
   "type": "work",
-  "subtype": "article",
   "title": "進撰平淮西碑文表",
-  "authors": [
-    {
-      "name": "韓愈",
-      "dynasty": "唐",
-      "role": "作",
-      "entity_id": "1j967da978dhc"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E9%80%B2%E6%92%B0%E5%B9%B3%E6%B7%AE%E8%A5%BF%E7%A2%91%E6%96%87%E8%A1%A8",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bemtmuhvk",
-      "title": "唐宋八大家文鈔",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
   "_promoted_to": "d59f28ncauio",
-  "_promoted_at": "2026-08-24T19:27:43Z"
+  "_promoted_at": "2026-08-24T19:27:43Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28ncauio。"
 }

@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsylfb2c5c",
   "type": "work",
   "title": "經驗方",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《經驗方》",
-      "summary": "胡氏《經驗方》五卷（（不著名））"
-    }
-  ],
-  "id": "1evcsylfb2c5c",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "胡氏",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j96keh7nhjpc",
-      "note": "宋史藝文志作「胡氏《經驗方》五卷（（不著名））」，前置撰人胡氏而不著其名。",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「胡氏」而無 entity_id，庫中同名唯一（`1j96keh7nhjpc`）。entity 代 liao-jin-yuan 與本書 song 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對：本條為胡氏《經驗方》五卷，與同志陳氏《經驗方》五卷（`1evcsykwg56o0`）撰人異，宋志分列，非一書，未予合併。\n\n2026-08-19 同題異撰人專項：本條撰人「胡氏」與 `1evcsykwg56o0` 之「陳氏」同題《經驗方》、同卷數，字形相近，然非一名之訛：陳氏、胡氏異姓，非一名之訛，不併。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "胡氏（宋）撰。五卷。見著錄於《宋史藝文志》。其著錄之文，《宋史藝文志》作「胡氏《經驗方》五卷（（不著名））」。本書惟《宋史藝文志》一志著錄，別無他證。《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2hgnnhts",
-  "_promoted_at": "2026-08-25T05:37:39Z"
+  "_promoted_at": "2026-08-25T05:37:39Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hgnnhts。"
 }

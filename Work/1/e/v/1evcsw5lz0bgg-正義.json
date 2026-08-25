@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw5lz0bgg",
   "type": "work",
   "title": "正義",
-  "authors": [
-    {
-      "name": "馮繼先",
-      "role": "撰",
-      "dynasty": "後蜀",
-      "entity_id": "1j96kejz3718g"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《正義》",
-      "summary": "《正義》二十卷馮繼先"
-    }
-  ],
-  "id": "1evcsw5lz0bgg",
-  "ai_note": "2026-08-11 全庫同名異書核對／腳本加速批次：補全 authors「馮繼先」及 juan_count——原文已明載撰人，僅未截取入 authors 欄。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E7%BE%A9",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-11",
-  "_has_text": true,
-  "dynasty": "後蜀",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "five-dynasties",
-  "period_basis": "據 authors[0].dynasty「後蜀」",
-  "description": {
-    "text": "馮繼先（後蜀）撰。二十卷。見著錄於《宋史藝文志》。其著錄之文，《宋史藝文志》作「《正義》二十卷馮繼先」。本書惟《宋史藝文志》一志著錄，別無他證。《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2gcdey2q",
-  "_promoted_at": "2026-08-25T04:20:13Z"
+  "_promoted_at": "2026-08-25T04:20:13Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gcdey2q。"
 }

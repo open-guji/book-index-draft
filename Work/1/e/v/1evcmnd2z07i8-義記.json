@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnd2z07i8",
   "type": "work",
   "title": "義記",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《義記》二十卷",
-      "summary": "《義記》二十卷蕭子良撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "又義記",
-      "summary": "又義記一卷",
-      "merged_from": "1evcmnd2z07i8",
-      "note": "同題二條而一方無撰人：彼條（新唐書藝文志）不著撰人、亦不著卷數，本條（隋書經籍志）作「蕭子良」撰、20卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "蕭子良",
-      "role": "撰",
-      "entity_id": "1j96hlh7xrbpc",
-      "dynasty": "南朝齊",
-      "dynasty_basis": "N4 名家定代（2026-08-24 南北朝斷代收尾，「核人不核書」）：蕭子良（460-494），南朝齊竟陵王，齊武帝次子，《南齊書》卷四十有傳。"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "id": "1evcmnd2z07i8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "《義記》二十卷",
-      "summary": "義記二十卷 蕭子良撰\n蕭子良有《淨住子》,見前。\n《法苑珠林傳記篇》:《雜義記》二十卷,齊司徒文宣王蕭子\n良撰。\n案《釋藏》百字二號有梁釋僧祐撰齊太宰竟陵文宣王《法集\n録序》一篇,不言卷數,似即為此書作也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-24T11:05:52.074930+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evcs0ofclk3k`（義記）。2026-08-23 B10（同題一方無撰人）：併入 `1evcs0ofclk3k`（新唐書藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。\n\nN4 撰人斷代（2026-08-24）：authors[].dynasty 原闕，今據其人之本傳／志書著錄語定之——定數十位撰人之代，牽動數百部書。判據記於 authors[].dynasty_basis。",
-  "period": "nanbeichao",
-  "period_basis": "知名人物：蕭子良，南齊竟陵王，隋志著其義記二十卷。（2026-08-24 R3二輪 引文定代）",
   "_promoted_to": "d59f2852alfl",
-  "_promoted_at": "2026-08-24T18:52:35Z"
+  "_promoted_at": "2026-08-24T18:52:35Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2852alfl。"
 }

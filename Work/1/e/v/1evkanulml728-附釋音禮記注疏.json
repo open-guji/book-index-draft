@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkanulml728",
   "type": "work",
   "title": "附釋音禮記注疏",
-  "authors": [
-    {
-      "name": "鄭玄",
-      "role": "注",
-      "dynasty": "東漢",
-      "entity_id": "1j9678njjg2rr"
-    },
-    {
-      "name": "孔穎達",
-      "role": "疏",
-      "dynasty": "唐",
-      "entity_id": "1j98owze20tts"
-    },
-    {
-      "name": "陸德明",
-      "role": "音義",
-      "dynasty": "唐",
-      "entity_id": "1j96a9e5yvbb4"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀010289-010312）。清乾隆乙卯(六十年)長白和珅仿宋建刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 升格前斷代訂正（注疏本繫年之據，從成編之世）：本條 period 原按最早之注者（漢人）定為 qin-han，誤。依 SCHEMA〈坊刻編本是獨立 Work〉之判準——成書之結構與內容與原書不一致者即新 Work，而其連帶三則明定「period 從成編之世」——注疏本非漢人之書，乃後世疏家取經、注而別為一書者，斷代當從疏成之世。今改繫 song，補孔穎達「疏」、陸德明「音義」，鄭玄「注」留為底注。",
-  "juan_count": {
-    "number": 24
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四冊",
-  "id": "1evkanulml728",
-  "books": [
-    "11qki068ghh4w"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "song",
-  "period_basis": "成編之世：南宋建陽十行本系統之「附釋音注疏」本（經注疏並附《經典釋文》音義）。所繫 Book 雖為清乾隆乙卯和珅仿宋建刊本，而其所仿之編本成於南宋。",
   "_promoted_to": "d59f2ht6perm",
-  "_promoted_at": "2026-08-25T06:01:44Z"
+  "_promoted_at": "2026-08-25T06:01:44Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ht6perm。"
 }

@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyftq9bls",
   "type": "work",
   "title": "紫香囊",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《紫香囊》",
-      "summary": "《紫香囊》二十卷陸羽"
-    },
-    {
-      "source": "中國通俗小說書目",
-      "source_bid": "1evgeo1zzls74",
-      "title_info": "紫香囊",
-      "summary": "紫香囊\n佚",
-      "merged_from": "1evggna2s9gqo",
-      "note": "諸志同著《紫香囊》，係一書互著（或重出），今合併。"
-    }
-  ],
-  "id": "1evcsyftq9bls",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "authors": [
-    {
-      "name": "陸羽",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1j967bgl6pbme",
-      "note": "宋史藝文志作「《紫香囊》二十卷陸羽」，所繫撰人陸羽。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「陸羽」而無 entity_id，今繫 `1j967bgl6pbme`——庫中 primary_name 同之者唯一。其代「唐」與本書已定之代「sui-tang」相合。"
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志與中國通俗小說書目（記其佚）同著《紫香囊》，今合併並據宋志所繫補撰人為陸羽。",
   "_promoted_to": "d59f28lwhgcm",
-  "_promoted_at": "2026-08-24T19:24:57Z"
+  "_promoted_at": "2026-08-24T19:24:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lwhgcm。"
 }

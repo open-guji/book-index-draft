@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd6yyecjk",
   "type": "work",
   "title": "孔欣集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《孔欣集》八卷",
-      "summary": "《孔欣集》八卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "孔欣集",
-      "summary": "孔欣集十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《孔欣集》九卷",
-      "summary": "《孔欣集》九卷",
-      "merged_from": "1evgqb7ixesjk",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcpd6yyecjk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "孔欣",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf51512952q",
-      "note": "舊唐書經籍志原題「《孔欣集》八卷」，書名即撰人。 本庫無此 entity，未繫。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512952q` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批·撰人未入庫）：書名即撰人，舊唐志八卷、新唐志十卷、國史經籍志九卷，同為孔欣別集，今合為一條並補撰人；本庫無「孔欣」entity，未繫。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "孔欣為南朝宋詩人（鍾嶸《詩品》所列），兩唐志著錄其集　複審採納：孔欣為鍾嶸《詩品》所列南朝宋詩人（2026-08-24 A1 medium 複審）",
   "_promoted_to": "d59f285zozk3",
-  "_promoted_at": "2026-08-24T18:54:22Z"
+  "_promoted_at": "2026-08-24T18:54:22Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285zozk3。"
 }

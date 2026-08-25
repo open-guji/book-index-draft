@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsykotgcn4",
   "type": "work",
   "title": "產寶",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《產寶》",
-      "summary": "昝殷《產寶》三卷"
-    }
-  ],
-  "id": "1evcsykotgcn4",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E7%94%A2%E5%AF%B6",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "昝殷",
-      "role": "撰",
-      "dynasty": "唐",
-      "entity_id": "1jcf5151293b7",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293b7` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "作者「唐昝殷撰」補自《國立故宮博物院善本舊籍》目錄。 | 從 1evkpydeuyww0 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀002490）。阶段 5 兜底建立。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-21 B1 同名異書併池：併入 `1evkac81uwav4`（產寶）。《產寶》唐昝殷撰：本組另一條（日本鈔本，二卷）撰人作「咎殷」，「咎」為「昝」之形訛（二字形近），昝殷為唐代醫家，撰《經效產寶》（即此書），史有明文；「咎殷」別無可考之人。今併。",
-  "books": [
-    "11qkhys6wnksg",
-    "11qkhz5jujj0g"
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀002490）。日本烏絲欄鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 2
-    }
-  ],
-  "measure_info": "二冊",
   "_promoted_to": "d59f28lkmfpf",
-  "_promoted_at": "2026-08-24T19:24:19Z"
+  "_promoted_at": "2026-08-24T19:24:19Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28lkmfpf。"
 }

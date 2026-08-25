@@ -1,95 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpnjv5l5og",
   "type": "work",
   "title": "文子徐靈府注",
-  "authors": [
-    {
-      "name": "徐靈府",
-      "role": "注",
-      "dynasty": "唐",
-      "note": "號默希子，唐末道士，注《文子》十二卷",
-      "entity_id": "1j967da97jm0e"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《文子》十二卷",
-      "summary": "《文子》十二卷（唐徐靈府注）",
-      "author_info": "唐徐靈府注"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《文子》十二卷",
-      "author_info": "唐徐靈府",
-      "summary": "《文子》十二卷。唐徐靈府。影印清華大學圖書館藏明天啟梁杰刻本。",
-      "edition": "影印清華大學圖書館藏明天啟梁杰刻本",
-      "volume": "第958冊",
-      "section": "子部 道家類"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 本條實為《文子》之注本而書題僅作「文子」，依《周易鄭玄注》《逸周書孔晁注》之例補題為「文子徐靈府注」，原題記於 original_title。　《續修四庫全書》影印明天啟梁杰刻本。 [sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]",
-  "id": "1evgpnjv5l5og",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02092171.cn",
-      "types": [
-        "image"
-      ]
-    },
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0958%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 958
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "original_title": "文子",
-  "related_works": [
-    {
-      "id": "d59ezaiahzpc",
-      "title": "文子",
-      "relation": "contains_text_of"
-    },
-    {
-      "id": "1evcs0md0vbpc",
-      "title": "徐靈府注文子",
-      "relation": "related",
-      "note": "同書之重出。本條題《文子徐靈府注》（書名在前），彼條題《徐靈府注文子》（注者在前），乃同一注本自不同志書匯入而題名體例不同所致，非二書。"
-    }
-  ],
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "_has_image": true,
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f28nijldu",
-  "_promoted_at": "2026-08-24T19:28:03Z"
+  "_promoted_at": "2026-08-24T19:28:03Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28nijldu。"
 }

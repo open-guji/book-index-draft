@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml2e39iio",
   "type": "work",
   "title": "梁尚書職制儀注",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《梁尚書職制儀注》四十一卷",
-      "summary": "《梁尚書職制儀注》四十一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《梁尚書職制儀注》四十一卷",
-      "summary": "《梁尚書職制儀注》四十一卷（郭衍）",
-      "author_info": "郭衍"
-    }
-  ],
-  "juan_count": {
-    "number": 41
-  },
-  "id": "1evcml2e39iio",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "梁尚書職制儀注四十一卷",
-      "summary": "梁尚書職制儀注四十一卷\n不著撰人。\n《梁書·儒林・周興嗣傳》: 所撰《皇帝實錄》、《皇德記》、《起\n居注》、《職儀》等百餘篇。\n又《良吏丘仲孚傳》:仲孚為尚書左丞,撰《尚書具事雜儀》,\n行於世。按仲孚為左丞,當在天監中。\n章氏《考證》:《西陽雜俎續集貶誤篇》:《梁職儀》曰:“八座\n尚書以紫紗裏手版,垂白絲於首如筆。”\n按《通志藝文略》:“《梁尚書職制儀注》四十一卷,郭衍\n撰。”考隋有郭衍,以材武得幸於爆帝,史不言其有著述,其\n後一條云《職令古今百官注》十卷,郭衍撰。蓋亦從本志寫\n録,豈所見《隋志》果如是乎?疑因後一條而誤注撰人也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 41
-    }
-  ],
-  "measure_info": "四十一卷",
-  "related_works": [],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "郭衍",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151298z2",
-      "note": "據本 work 諸著錄之 author_info「郭衍」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298z2` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「郭衍」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "書名標「梁尚書職制儀注」，為南朝梁之官制儀注（2026-08-24 R3 引文定代）",
   "_promoted_to": "d59f285fek8y",
-  "_promoted_at": "2026-08-24T18:53:17Z"
+  "_promoted_at": "2026-08-24T18:53:17Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285fek8y。"
 }

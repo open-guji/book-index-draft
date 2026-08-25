@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evfhdch4dhc0",
   "type": "work",
   "title": "包天經",
-  "authors": [
-    {
-      "name": "李君",
-      "role": "傳",
-      "dynasty": "東漢",
-      "entity_id": "1j967cp2196cl"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "三國藝文志",
-      "source_bid": "1eve1eig5jn5s",
-      "title_info": "李君包天經一卷",
-      "summary": "李君包天經一卷"
-    }
-  ],
-  "description": {
-    "text": "已亡佚。道書。",
-    "sources": [
-      "三國藝文志"
-    ]
-  },
-  "id": "1evfhdch4dhc0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「東漢」（原作籠統「漢」，2026-08-11 據所繫 Entity 之精確朝代同步訂正）",
   "_promoted_to": "d59f24lslc7c",
-  "_promoted_at": "2026-08-24T14:47:57Z"
+  "_promoted_at": "2026-08-24T14:47:57Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f24lslc7c。"
 }

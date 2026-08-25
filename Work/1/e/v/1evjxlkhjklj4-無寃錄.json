@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjxlkhjklj4",
   "type": "work",
   "title": "無寃錄",
-  "authors": [
-    {
-      "name": "王與",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1j96keiitvrb4"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《無寃錄》一卷",
-      "author_info": "元王與撰",
-      "summary": "《無寃錄》一卷。元王與撰。南京圖書館藏明金陵書坊王慎吾刻本。",
-      "edition": "南京圖書館藏明金陵書坊王慎吾刻本",
-      "volume": "第37冊",
-      "section": "子部"
-    }
-  ],
-  "description": {
-    "text": "王與（元）撰。一卷。見著錄於《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《無寃錄》一卷」。本書惟《四庫全書存目叢書》一志著錄，別無他證。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjxlkhjklj4",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2gdrcwzl",
-  "_promoted_at": "2026-08-25T04:22:53Z"
+  "_promoted_at": "2026-08-25T04:22:53Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2gdrcwzl。"
 }

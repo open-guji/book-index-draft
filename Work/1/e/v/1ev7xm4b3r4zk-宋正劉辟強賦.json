@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ev7xm4b3r4zk",
   "type": "work",
   "title": "宋正劉辟強賦",
-  "authors": [
-    {
-      "name": "劉辟強",
-      "role": "撰",
-      "dynasty": "西漢",
-      "note": "宗正，楚元王劉交之孫，劉向之祖",
-      "entity_id": "1j96hexviwoao"
-    }
-  ],
-  "description": {
-    "text": "《漢書·藝文志》著錄詩賦略「宋正劉辟強賦八篇」。劉辟強，楚元王交之孫（漢書楚元王傳：字少卿，亦好讀詩，清靜少欲），賦不傳。",
-    "sources": [
-      "漢書藝文志"
-    ]
-  },
-  "ai_note": "宗正劉辟強賦八篇，已亡佚。來源：溫浚源《漢書藝文志講要》。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-24 兩漢H4（漢志借力批）：description 補寫。所據為漢志著錄行（含班固自注／顏注）及通行學術常識。",
-  "indexed_by": [
-    {
-      "source": "漢書藝文志",
-      "source_bid": "1euhm19a23jsw",
-      "title_info": "宋正劉辟強賦八篇",
-      "summary": "宋正劉辟強賦八篇。",
-      "section": "詩賦略／賦",
-      "page": "KR2a0007_WYG_030-40a",
-      "section_basis": "略與種據《前漢書》卷三十（文淵閣四庫本）之總計行斷之——六藝略之種以「凡」起，餘五略之種以「右」起，略之總計一律以「凡」起。所得六略三十八種，合志末「凡書六略三十八種」之數。種名一仍志文（作「蓍龜」不作「蓍龜類」）。本條屬第二輪覆核——首輪未中，因底本用字或斷句與kanripo本小異（如竒／奇、逺／遠、歴／曆之屬），或因原句含「以、自、其、於、故、者」等字誤觸解析時區分著錄行與小序之判準，經以異體字表與比對後乃定。"
-    }
-  ],
-  "id": "1ev7xm4b3r4zk",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "篇",
-      "number": 8
-    }
-  ],
-  "measure_info": "八篇",
-  "loss_status": "lost",
-  "updated_at": "2026-08-06T22:59:42+00:00",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「西漢」（原作籠統「漢」，2026-08-11 西漢探勘分期第二階段訂正：楚元王後裔，劉向從兄）",
   "_promoted_to": "d59f23npjgud",
-  "_promoted_at": "2026-08-24T13:42:26Z"
+  "_promoted_at": "2026-08-24T13:42:26Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f23npjgud。"
 }

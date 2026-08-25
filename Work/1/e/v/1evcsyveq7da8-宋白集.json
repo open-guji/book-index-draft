@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyveq7da8",
   "type": "work",
   "title": "宋白集",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《宋白集》",
-      "summary": "《宋白集》一百卷又"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《宋白集》一百卷",
-      "summary": "《宋白集》一百卷",
-      "merged_from": "1evgqcn3xqj9c",
-      "note": "同題同撰人之別集，係另一書目之著錄，卷數與所併記錄相承。"
-    }
-  ],
-  "id": "1evcsyveq7da8",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "authors": [
-    {
-      "name": "宋白",
-      "role": "撰",
-      "dynasty": "北宋",
-      "entity_id": "1j969lr2spj5b",
-      "note": "書名即撰人。宋白（936-1012）字太素，北宋翰林學士。"
-    }
-  ],
-  "juan_count": {
-    "number": 100
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "measure_info": "一百卷",
-  "dynasty": "北宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「北宋」",
-  "ai_note": "2026-08-19 全庫同名異書核對（size=2 別集批）：書名即撰人，宋志、國史經籍志皆一百卷，同為北宋宋白別集，今合為一條並繫 entity `1j969lr2spj5b`。宋志句末「又」領下條。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "宋白（北宋）撰。一百卷。見著錄於《宋史藝文志》《國史經籍志》。其著錄之文，《宋史藝文志》作「《宋白集》一百卷又」。別集之屬，所收為其人之詩文。《宋史藝文志》元脫脫等修；《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f2hfa0rgi",
-  "_promoted_at": "2026-08-25T05:35:00Z"
+  "_promoted_at": "2026-08-25T05:35:00Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hfa0rgi。"
 }

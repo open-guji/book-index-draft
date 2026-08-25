@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr3ll2a5mo",
   "type": "work",
   "title": "慎子附逸文",
-  "authors": [
-    {
-      "name": "慎到",
-      "role": "撰",
-      "dynasty": "先秦",
-      "entity_id": "1j96heq2og5q8",
-      "dynasty_basis": "entity_propagation:1j96heq2og5q8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《慎子附逸文》一卷",
-      "author_info": "周慎到撰",
-      "summary": "《慎子附逸文》一卷。周慎到撰。影印清道光二十四年錢氏守山閣叢書本。",
-      "edition": "影印清道光二十四年錢氏守山閣叢書本",
-      "volume": "第971冊",
-      "section": "子部 法家類"
-    }
-  ],
-  "description": {
-    "text": "慎到（先秦）撰。一卷。見著錄於《續修四庫全書》。《續修四庫全書》列於子部 法家類。其著錄之文，《續修四庫全書》作「《慎子附逸文》一卷」。本書惟《續修四庫全書》一志著錄，別無他證。《續修四庫全書》一九九五年影印——本書之目賴之以存。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。\n\n2026-08-24 J9 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjr3ll2a5mo",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0971%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 971
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-08T18:11:45+00:00",
-  "_has_image": true,
-  "period": "pre-qin",
-  "period_basis": "據 authors[0].dynasty「先秦」（規則1 粗粒度自消歧）",
   "_promoted_to": "d59f2evrxeys",
-  "_promoted_at": "2026-08-25T02:39:07Z"
+  "_promoted_at": "2026-08-25T02:39:07Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2evrxeys。"
 }

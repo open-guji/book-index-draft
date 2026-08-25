@@ -1,64 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpn422ep6o",
   "type": "work",
   "title": "自警編",
-  "authors": [
-    {
-      "name": "李害撩",
-      "role": "撰",
-      "entity_id": "1j96hfvvprpxc",
-      "dynasty": "南宋",
-      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路一（period_basis 收割）：本條 period_basis 之判語（R3 引文定代所書）已明言「南宋」，回填至撰人欄。其據見 period_basis。"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《自警編》九卷",
-      "summary": "《自警編》九卷（李害撩）",
-      "author_info": "李害撩"
-    },
-    {
-      "source": "宋史藝文志補",
-      "source_bid": "1evfyhtrdkbnk",
-      "title_info": "自警編九卷",
-      "summary": "趙善璙撰。",
-      "note": "整理本此節原繫已不存在之 work id `1evkafrdbty4g`（歷次合併去之而繫連未隨改），今據題名＋卷數回收於本條。"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《自警編》•九卷",
-      "summary": null,
-      "note": "整理本此節原繫已不存在之 work id `1evkafrdbty4g`（歷次合併去之而繫連未隨改），今據題名＋卷數回收於本條。"
-    }
-  ],
-  "description": {
-    "text": "李害撩撰。九卷。見著錄於《國史經籍志》《宋史藝文志補》《欽定四庫全書總目》。其著錄之文，《國史經籍志》作「《自警編》九卷（李害撩）」。《國史經籍志》明焦竑撰；《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "宋史藝文志補",
-      "欽定四庫全書總目"
-    ]
-  },
-  "ai_note": "missing_reason: 作者冲突 work=趙善璙 vs anno=李害撩\n\n2026-08-20 整理本落空繫連回收專項：整理本有節繫於已不存在之 work id（`1evkafrdbty4g`），據題名＋卷數回收於本條，並補其著錄。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgpn422ep6o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "updated_at": "2026-08-24T11:05:50.923314+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志補》（清人補），故不晚於 song",
-  "period": "song",
-  "period_basis": "宋志補、四庫總目並著《自警編》九卷為趙善璙撰，趙為南宋宗室。（2026-08-24 R3二輪 引文定代）",
   "_promoted_to": "d59f2hevnugw",
-  "_promoted_at": "2026-08-25T05:34:14Z"
+  "_promoted_at": "2026-08-25T05:34:14Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2hevnugw。"
 }

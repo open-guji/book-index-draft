@@ -3,68 +3,7 @@
   "id": "1evcs0gozq5fk",
   "type": "work",
   "title": "內訓",
-  "authors": [
-    {
-      "name": "辛德源",
-      "role": "撰",
-      "dynasty": "隋",
-      "entity_id": "1j96h8rw8hykl"
-    },
-    {
-      "name": "王劭",
-      "role": "撰",
-      "dynasty": "隋",
-      "entity_id": "1j96hlgncepkw"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "1ev85yncs9ibk",
-      "title_info": "《內訓》二十卷",
-      "summary": "《內訓》二十卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "1evcpbhmiqdj4",
-      "title_info": "《內訓》二十卷",
-      "summary": "《內訓》二十卷辛德源、王邵等撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "辛德源、王劭等內訓",
-      "summary": "辛德源、王劭等內訓二十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《内訓》二十卷",
-      "summary": "《内訓》二十卷（辛德原、王劭等。）",
-      "author_info": "辛德原、王劭等。",
-      "merged_from": "1evcs0gozq5fk",
-      "note": "國史經籍志「《內訓》二十卷（辛德原、王劭等。）」，「辛德原」乃「辛德源」之形訛，與本條隋志、兩唐志所著錄者同書同卷。"
-    }
-  ],
-  "updated_at": "2026-08-21T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」",
-  "dynasty": "隋",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->隋; 據唯一 author.dynasty「隋」補全]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。\n\n2026-08-21 B1 同名異書併池：併入 `1evgpjdgpdatc`（內訓）。《內訓》二十卷辛德源、王劭等撰：國史志之條撰人作「辛德原」（源訛作原）且未繫連，與本條同書。今併（同組另有明仁孝文皇后《內訓》一卷，別為一書，不動）。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "books": [
-    "11qkhwg8mibk0"
-  ],
   "_promoted_to": "d59f28jibyf8",
-  "_promoted_at": "2026-08-24T19:20:21Z"
+  "_promoted_at": "2026-08-24T19:20:21Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28jibyf8。"
 }

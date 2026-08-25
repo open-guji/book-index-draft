@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxjfaarr4",
   "type": "work",
   "title": "書目",
-  "authors": [
-    {
-      "name": "蔣彧",
-      "role": "撰",
-      "entity_id": "1jcf5151293lb",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293lb` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "1evcsw4kt579c",
-      "title_info": "《書目》",
-      "summary": "蔣彧《書目》一卷劉德崇"
-    }
-  ],
-  "id": "1evcsxjfaarr4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「蔣彧《書目》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「蔣彧」及 juan_count；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
-  "updated_at": "2026-08-24T17:09:33.457046+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "period": "sui-tang",
-  "period_basis": "撰人朝代闕，據其 Entity「蔣彧」之 period 傳播；上限 song 覆驗不相斥（2026-08-22 C1）",
   "_promoted_to": "d59f28l0yhhf",
-  "_promoted_at": "2026-08-24T19:23:16Z"
+  "_promoted_at": "2026-08-24T19:23:16Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28l0yhhf。"
 }

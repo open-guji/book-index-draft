@@ -3,45 +3,7 @@
   "id": "1evdx918f8m4g",
   "type": "work",
   "title": "劉熙注范曄後漢書",
-  "authors": [
-    {
-      "name": "劉熙",
-      "role": "注",
-      "dynasty": "唐",
-      "entity_id": "1j96hll171yps"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "1evcs059gkvls",
-      "title_info": "劉熙注范曄後漢書",
-      "summary": "劉熙注范曄後漢書一百二十二卷"
-    }
-  ],
-  "juan_count": {
-    "number": 122
-  },
-  "related_works": [
-    {
-      "id": "d59f28715gqo",
-      "title": "後漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 122
-    }
-  ],
-  "measure_info": "一百二十二卷",
-  "updated_at": "2026-08-09T09:00:59+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[sui-tang-round1: dynasty null->唐; 據唯一 author.dynasty「唐」補全]\n\n2026-08-24 兩漢收束：解除與班固《漢書》d59f1iqd854w 之關聯——原係題名子串（「漢書」）誤捕，本書非漢書之衍生。",
   "_promoted_to": "d59f28n2mhog",
-  "_promoted_at": "2026-08-24T19:27:12Z"
+  "_promoted_at": "2026-08-24T19:27:12Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f28n2mhog。"
 }

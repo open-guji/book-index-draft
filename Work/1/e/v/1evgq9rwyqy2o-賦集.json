@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq9rwyqy2o",
   "type": "work",
   "title": "賦集",
-  "authors": [
-    {
-      "name": "謝靈運",
-      "role": "撰",
-      "entity_id": "1j968k0je2uio",
-      "dynasty": "南朝宋"
-    }
-  ],
-  "juan_count": {
-    "number": 92
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《賦集》九十二卷、又四十卷、又五十卷、又八十六卷",
-      "summary": "《賦集》九十二卷、又四十卷、又五十卷、又八十六卷（邊靈運集；宋明帝集；宋新喻惠侯集；後魏崔浩集）",
-      "author_info": "邊靈運集；宋明帝集；宋新喻惠侯集；後魏崔浩集"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《賦集》九十二卷",
-      "summary": "《賦集》九十二卷謝靈運撰。梁又有《賦集》五十卷，宋新渝惠侯撰；《賦集》四十卷，宋明帝撰；《樂器賦》十卷；《伎藝賦》六卷。亡。",
-      "note": "此著錄（謝靈運撰九十二卷）原誤附崔浩《賦集》之記錄，今移歸。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved 2026-08-20 撰人正名：「邊靈運」乃「謝靈運」之形訛（國史經籍志本條即隋志謝靈運《賦集》九十二卷之著錄），今正，並改指謝靈運之 entity。",
-  "id": "1evgq9rwyqy2o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 92
-    }
-  ],
-  "measure_info": "九十二卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
   "_promoted_to": "d59f285lnb42",
-  "_promoted_at": "2026-08-24T18:53:37Z"
+  "_promoted_at": "2026-08-24T18:53:37Z",
+  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f285lnb42。"
 }
