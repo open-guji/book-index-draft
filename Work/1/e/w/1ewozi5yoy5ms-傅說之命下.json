@@ -20,9 +20,16 @@
   "books": [
     "11qr8hh1emtj4"
   ],
-  "ai_note": "據網路檢索資料建檔，未核原書。",
+  "ai_note": "據網路檢索資料建檔，未核原書。\n\n2026-08-24 J10：本篇於 Work 層補 contained_in，繫其所出之簡冊叢編（取自本篇所繫 Book 之 contained_in）。出土之逸篇不隸於任何傳世之書——謂其 part_of《尚書》是把逸篇當今本之篇，不實；其載體正是所出之簡冊，SCHEMA 之 contained_in 即為此設。",
   "id": "1ewozi5yoy5ms",
   "updated_at": "2026-07-29T05:28:21+00:00",
   "period": "pre-qin",
-  "period_basis": "excavation_bound：本書出於戰國楚簡——簡帛抄寫之年不早於成書之年，故定為 pre-qin"
+  "period_basis": "excavation_bound：本書出於戰國楚簡——簡帛抄寫之年不早於成書之年，故定為 pre-qin",
+  "contained_in": [
+    {
+      "id": "1ai3d1rf9rt34"
+    }
+  ],
+  "_promoted_to": "d59f2evldfk0",
+  "_promoted_at": "2026-08-25T02:38:46Z"
 }
