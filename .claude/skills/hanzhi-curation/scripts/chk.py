@@ -630,6 +630,32 @@ if any(_skipped.values()):
     print(f"  ※ 《千頃堂書目》整理本暫排除：簡轉繁 {_skipped['簡轉繁']} 檔、"
           f"格式 {_skipped['格式']} 檔（使用者 2026-08-24 裁定；"
           f"待辦見 known-issues/千頃堂書目整理本-待其主收束.json）")
+# ── 內部鍵漏入落盤（2026-08-25 增） ─────────────────────────────
+# 立此驗之由：本輪批量作業用 `iter_works()`，其所注之臨時鍵 `_path`
+# （絕對路徑，屬腳本內部狀態）未剝而回寫落盤，draft 752 檔、production
+# 749 檔（隨升格帶入），積了一整輪無人知——`_` 前綴之鍵先前不在任何
+# 掃描之列，是靠肉眼撞見的。合法之 `_` 鍵只有下列五個（三個派生欄
+# ＋ 兩個 tombstone 印記），此外皆為漏鍵。
+_OKUS = {'_has_text', '_has_image', '_has_collated', '_promoted_to', '_promoted_at'}
+_USTRAY = []
+for _root in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for _t in ('Work', 'Book', 'Collection', 'Entity'):
+        for _p in glob.glob('%s/%s/*/*/*/*.json' % (_root, _t)):
+            try:
+                _d = json.load(open(_p, encoding='utf-8'))
+            except Exception:
+                continue
+            if not isinstance(_d, dict):
+                continue
+            for _k in _d:
+                if _k.startswith('_') and _k not in _OKUS:
+                    _USTRAY.append((_p, _k))
+print('內部鍵漏入落盤', len(_USTRAY), '　基線 0（合法之 `_` 鍵唯 '
+      '_has_text/_has_image/_has_collated/_promoted_to/_promoted_at；'
+      '凡回寫 iter_*() 之產出者，先 d.pop("_path", None)）')
+for _x in _USTRAY[:6]:
+    print('  ', _x)
+
 print('索引檔鍵未按 id 排序', len(_JORD), '　基線 0')
 for _x in _JORD[:5]:
     print('  ', _x)
