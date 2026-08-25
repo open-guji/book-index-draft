@@ -33,10 +33,11 @@
     {
       "name": "李𡌴",
       "role": "撰",
-      "dynasty": null,
+      "dynasty": "宋",
       "entity_id": "1jcf5151293do",
       "note": "據本 work 諸著錄之 author_info「李𡌴」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293do` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
+      "name_basis": "2026-08-24 新建 entity `1jcf5151293do` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
+      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路三（entity 相容）：本條 period 已據引文定為 song，庫中同名 entity 唯一（`1jcf5151293do`，代「宋」），二者相容，據以補代。**只補 dynasty 不繫 entity_id**——同名唯一之繫曾致漢代十九條誤入（skill 坑 23），entity 之繫留人物車道覈實後再作。"
     }
   ],
   "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「李𡌴」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",

@@ -8,7 +8,9 @@
       "name": "朱熹",
       "role": null,
       "entity_id": "1j967cp1zdr19",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱熹」而無 entity_id，今繫 `1j967cp1zdr19`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。"
+      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「朱熹」而無 entity_id，今繫 `1j967cp1zdr19`——庫中 primary_name 同之者唯一。其代「南宋」與本書已定之代「song」相合。",
+      "dynasty": "南宋",
+      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路三（entity 相容）：本條 period 已據引文定為 song，庫中同名 entity 唯一（`1j967cp1zdr19`，代「南宋」），二者相容，據以補代。**只補 dynasty 不繫 entity_id**——同名唯一之繫曾致漢代十九條誤入（skill 坑 23），entity 之繫留人物車道覈實後再作。"
     }
   ],
   "ai_note": "本 work 據《經義考》（朱彝尊撰，欽定四庫全書文淵閣本，kanripo KR2n0011）新建——該書禮記類著錄「朱子（熹）深衣制度」。庫中雖有同題之《深衣制度》，然彼不著撰人而本條著「朱熹」，同題異撰是二書，故別建。\n\n`period`／`loss_status`／`role`／`entity_id` 不繫，其由與本輪所建諸條同（見《經義考待裁分流方案》）。",
