@@ -745,9 +745,32 @@ LOST 正則誤中其 ai_note 的「不著錄」。判亡佚別只靠正則掃 ai
 校驗）、`scripts/promote_entity.py`（升格，預設只驗不寫）、
 `scripts/clean_entity_works.py`（大批升格後清 `entity.works` 的重複與懸空）。
 
-**併條工具只掃 draft 是個老坑。** entity 全量升格時查出 production 積欠一百二十處
-指向早經併去之 draft entity——歷次併條都只改了 draft，production 側靜默積欠而
-無驗可見。凡改繫、併條、解連，**兩倉一起改**。
+**併條工具只掃 draft 是個老坑，而且不止 entity 一處。** 2026-08-25 普查 production
+全庫的 id 引用，掃出四類靜默積欠，病根都是同一條：**改資料的工具與校驗的工具，
+路徑都寫成 draft 的相對路徑**，production 的同名欄位既無人改，也無驗可見。
+
+| 欄位 | 積欠 | 為何看不見 |
+|---|---|---|
+| `authors[].entity_id` | 120 處 | 歷次併 entity 只改 draft |
+| 整理本 `sections[].work_id` | 215 節 | 一條 work 升格，其 `collated_edition` 資產目錄隨之遷入 production，此後 draft 的併條再也掃不到它；而 chk.py 的整理本諸驗又只 `glob('Work/*/*/*/*/collated_edition/*.json')` |
+| `indexed_by[].source_bid` | 12 處 | 隋志附注亡書之例，`source_bid` 繫其注所附之母條，母條併去而未同步 |
+| `related_works[].id` | 2 節 | 同上 |
+
+**修法**（可複用）：懸空的 id 不要猜，用兩條互相獨立的證據路互證——
+
+1. **目錄之 `source_bid` ＋ `title_info` 唯一相合**。整理本的節本來就是這樣繫上去的，
+   一節之 `title` 即某 work 之 `indexed_by[].title_info`，同一目錄之下唯一者即是。
+2. **git 的改繫鏈**。歷次併條都在整理本檔裡留下 `-"work_id": "舊"` / `+"work_id": "新"`
+   的成對 diff；把全部提交的這種對抽出來做成 old→new 的圖，一路走到活條為止
+   （**注意**：走到的可能是升格墓碑，須再過一次 `promotions.json`）。
+
+二法皆得者若相左，就是有一法錯了，別急著寫。2026-08-25 那批五十八處二法皆得，
+**無一相左**，才敢下手。連書節（一節著錄數書）取其首書，附屬部帙節從母節之繫。
+
+`merged_in[].id` 是例外，**不當以懸空論**——那一欄本是「某條併入本條」的史錄，
+所記正是已亡之 id，兩倉共一千餘條，百分之百「懸空」，是設計如此。
+
+凡改繫、併條、解連，**兩倉一起改**。
 
 ## 九、環境
 
