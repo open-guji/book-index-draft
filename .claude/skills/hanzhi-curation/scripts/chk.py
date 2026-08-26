@@ -254,12 +254,38 @@ try:
         _pm[_k]=_v.get('production_id')
 except Exception: pass
 desync=0
-for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+# 2026-08-26：資產諸驗原只 glob draft 之相對路徑。draft 側之整理本於本日清去
+# （升格時已整體拷入 production，兩份逐檔比對唯 production 多 revision 一欄），
+# 若不改則此諸驗盡掃 0 檔而**靜默顯 0**——看著全綠而其實空驗，是最危險的壞法。
+# 今兩倉並掃。owner id 不可再取 `_ce_owner(f)`：那只對 draft 之相對路徑成立，
+# production 是絕對路徑而段數不同。取資產目錄之父目錄名，兩者皆準，
+# 且對 collated_edition／fragments 兩種資產一體適用。
+def _assets(sub, leaf='*.json'):
+    _r = glob.glob(f'Work/*/*/*/*/{sub}/{leaf}')
+    if _PROD_ROOT:
+        _r += glob.glob(f'{_PROD_ROOT}/Work/*/*/*/*/{sub}/{leaf}')
+    return _r
+
+
+def _ce_owner(_f):
+    return os.path.basename(os.path.dirname(os.path.dirname(_f)))
+
+
+_CE_FILES = _assets('collated_edition')
+# fragments 之驗其內部集合是 draft 口徑（`IW[wid]['path']`），production 之
+# fragments 餵進去盡報「work 不存在」（實測 1250）。故此驗仍只掃 draft
+# ——而 draft 側之 fragments 已由 clean-promoted-fragments 清盡，此驗實已空。
+# **production 側之 fragments 當另立驗**，記於 known-issues，非本輪之事。
+_FRAG_FILES = glob.glob('Work/*/*/*/*/fragments/*.json')
+_CE_IDX = _assets('collated_edition', 'collated_edition_index.json')
+
+
+for f in _CE_FILES:
     if 'index' in f: continue
     try: cd=json.load(open(f))
     except Exception: continue
     if not isinstance(cd,dict): continue
-    src=f.split('/')[4]
+    src=_ce_owner(f)
     ok_bids={src}
     if _pm.get(src): ok_bids.add(_pm[src])
     for sec in cd.get('sections',[]):
@@ -279,8 +305,8 @@ print('整理本繫連而 work 側無記錄',desync)
 
 # 輯佚檔 fragments/*.json
 fbad=[]
-for f in glob.glob('Work/*/*/*/*/fragments/*.json'):
-    wid=f.split('/')[4]
+for f in _FRAG_FILES:
+    wid=_ce_owner(f)
     try: fd=json.load(open(f))
     except Exception as e: fbad.append((f,'解析失敗')); continue
     if fd.get('work_id')!=wid: fbad.append((f,'work_id 與路徑不符'))
@@ -387,17 +413,42 @@ dang=_c.Counter(); dang_is_book=0; dang_ids=set()
 # 「懸空關聯」一驗其 allids 早已併入 prod（見上文），落空一驗未併，同一情形
 # 兩驗異判。今補之——掛了 production 倉時 _TITLE 自足，此項不過多一層保險。
 _EXIST_W=set(IW)|set(_TITLE)|prod
+# 2026-08-26 補 production 實有之 Work：原式取 draft 之 id 與 promotions 之
+# production_id，而 production 內**另立**者（非自 draft 升格，如「新立 Work 56 條」）
+# 不在 promotions，遂盡報落空——實測 3 處。Book 側早已備此（見下 _EXIST_B），
+# 此處漏之。
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Work/*/*/*/*.json'):
+        _EXIST_W.add(os.path.basename(_p).split('-',1)[0])
 # Book 側同理——`book_id` 亦有指已升格之 production Book 者（《脂硯齋重評石頭
 # 記》諸本之屬）。promotions.json 之 type 分 work／book，此處不分而全取：
 # id 空間本不相犯，多取無害而少取則生誤報。2026-08-23 立。
 _EXIST_B=set(IB)|prod
-_COLL=set(IC); _sec2coll=0; _coll_ids=set()
+# 2026-08-26 補 production Collection：Collection 於本日全量升格（63 條盡入
+# production），整理本節之 collection_id 隨 sweep 改指 production id（`8rl…`），
+# 而此集原只取 draft 之 IC，遂盡報落空——實測 19 處，其目標**皆在
+# production 且皆存在**，是驗之洞非資料之損。Work／Book 兩類早已備
+# production 側之集（_EXIST_W／_EXIST_B 皆併 prod），此處漏之。
+#
+# **然不可照抄作 `set(IC)|prod`**（2026-08-26 當日即因此而誤，同日查出改正）。
+# 二集性質不同：`_EXIST_B` 問「此 id 存在否」，寧多勿少，併 `prod`（全部升格
+# id，work／book／collection 皆在內）無害；`_COLL` 問「此 id **是** Collection
+# 否」，是**肯定性判斷**，併之則凡已升格之 work 皆被斷為叢書。且下方
+# `if w in _COLL: … continue` 排在 `_EXIST_W` 之前，遂把正常情形整個遮住——
+# 實測 `_COLL` 由當有之 126 膨脹至 122,877，此驗報 101,466（全庫 section 之
+# 七成），真出一條亦淹沒其中，自立驗之日起即是瞎的。
+# 通則：**存在性之集可寧濫勿缺，分類性之集不可**。
+_COLL=set(IC)|{v['production_id'] for k,v in _PR.items() if k in IC}
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Collection/*/*/*/*.json'):
+        _COLL.add(os.path.basename(_p).split('-',1)[0])
+_sec2coll=0; _coll_ids=set()
 if _PR_ROOT:
     for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
         try: _d=json.load(open(_p))
         except Exception: continue
         if isinstance(_d,dict) and _d.get('id'): _EXIST_B.add(_d['id'])
-for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+for f in _CE_FILES:
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
     except Exception: continue
@@ -417,18 +468,18 @@ for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
             # _EXIST_W（併之則此事自此隱沒），另立一數以存其目。2026-08-23 立。
             if w in _COLL: _sec2coll+=1; _coll_ids.add(w); continue
             if w in _EXIST_W: continue
-            dang[f.split('/')[4]]+=1; dang_ids.add(w)
+            dang[_ce_owner(f)]+=1; dang_ids.add(w)
             if w in _EXIST_B: dang_is_book+=1
         # collection_id（SCHEMA 2026-08-23 增）之存在性
         _cid=sec.get('collection_id')
         if isinstance(_cid,str) and _cid not in _COLL:
-            dang[f.split('/')[4]]+=1; dang_ids.add(_cid)
+            dang[_ce_owner(f)]+=1; dang_ids.add(_cid)
         b=sec.get('book_id')
         if isinstance(b,str) and b not in _EXIST_B:
-            dang[f.split('/')[4]]+=1; dang_ids.add(b)
+            dang[_ce_owner(f)]+=1; dang_ids.add(b)
         b=sec.get('target_bid')
         if isinstance(b,str) and b not in _EXIST_B and b not in _EXIST_W:
-            dang[f.split('/')[4]]+=1; dang_ids.add(b)
+            dang[_ce_owner(f)]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 print('整理本節之 work_id 實指 Collection',_sec2coll,'相異 id',len(_coll_ids),
       '　基線 0（叢書當用 collection_id，見 SCHEMA〈整理本 section 的四個指涉欄位〉）')
@@ -447,12 +498,12 @@ _VAR=str.maketrans({'説':'說','録':'錄','歴':'歷','爲':'為','畧':'略',
 def _nz(t): return _re.sub(r'[《》\s]','',(t or '').translate(_VAR))
 secmag=_c.Counter(); secmag_ex=[]; secpart=_c.Counter(); secalt=_c.Counter()
 secdup=_c.Counter()
-for f in glob.glob('Work/*/*/*/*/collated_edition/*.json'):
+for f in _CE_FILES:
     if f.endswith('collated_edition_index.json'): continue
     try: cd=json.load(open(f))
     except Exception: continue
     if not isinstance(cd,dict): continue
-    own=f.split('/')[4]; m=_c.defaultdict(set)
+    own=_ce_owner(f); m=_c.defaultdict(set)
     for sec in cd.get('sections',[]):
         if not isinstance(sec,dict): continue
         # 版本附屬部帙（外集、附錄之屬）依 SCHEMA 不別立 Work，本就與母條共繫，非磁鐵
@@ -491,11 +542,11 @@ for x in lsbad[:8]: print('  ',x)
 
 # 輯佚叢書整理本（type: fragment_collection）之雙向對查
 fc=[]; todo=0
-for f in glob.glob('Work/*/*/*/*/collated_edition/collated_edition_index.json'):
+for f in _CE_IDX:
     try: ci=json.load(open(f))
     except Exception: continue
     if ci.get('type')!='fragment_collection': continue
-    base=f.rsplit('/',1)[0]; owner=f.split('/')[4]
+    base=f.rsplit('/',1)[0]; owner=_ce_owner(f)
     fwd={}
     for g in glob.glob(base+'/*.json'):
         if g.endswith('collated_edition_index.json'): continue
