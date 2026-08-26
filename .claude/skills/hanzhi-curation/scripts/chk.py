@@ -391,7 +391,16 @@ _EXIST_W=set(IW)|set(_TITLE)|prod
 # 記》諸本之屬）。promotions.json 之 type 分 work／book，此處不分而全取：
 # id 空間本不相犯，多取無害而少取則生誤報。2026-08-23 立。
 _EXIST_B=set(IB)|prod
-_COLL=set(IC); _sec2coll=0; _coll_ids=set()
+# 2026-08-26 補 production Collection：Collection 於本日全量升格（63 條盡入
+# production），整理本節之 collection_id 隨 sweep 改指 production id（`8rl…`），
+# 而此集原只取 draft 之 IC，遂盡報落空——實測 19 處，其目標**皆在
+# production 且皆存在**，是驗之洞非資料之損。Work／Book 兩類早已備
+# production 側之集（_EXIST_W／_EXIST_B 皆併 prod），此處漏之。
+_COLL=set(IC)|prod
+if _PROD_ROOT:
+    for _p in glob.glob(_PROD_ROOT+'/Collection/*/*/*/*.json'):
+        _COLL.add(os.path.basename(_p).split('-',1)[0])
+_sec2coll=0; _coll_ids=set()
 if _PR_ROOT:
     for _p in glob.glob(_PR_ROOT+'/Book/*/*/*/*.json'):
         try: _d=json.load(open(_p))
