@@ -835,5 +835,28 @@ if _PR_ROOT:
     for x in _pcol[:6]: print('     ',x)
     print('  indexed_by/emendated_by 之 source_bid 落空',len(_pbid),'　基線 0（2026-08-25 全清 12 處）')
     for x in _pbid[:6]: print('     ',x)
+    # 2026-08-26 增：Collection 全量升格之後的三驗。
+    # 立此三驗之由：Collection 之引用面極廣（升格當日改繫 39,014 處、七種欄形），
+    # 而其成員列表又用 draft 從未有過的欄名（contained_works[].id、books[]），
+    # 一旦別的車道（Book／Work 升格、併條）不掃這幾欄，便是靜默積欠。
+    # entity 那一輪已為此吃過三次虧（authors 120 處、整理本 215 節、source_bid 12 處）。
+    _pcw=[]; _pci=[]; _pcb=[]
+    for _i,(_d,_p) in _pw.items():
+        if _d.get('type')=='collection':
+            for _w in (_d.get('contained_works') or []):
+                if isinstance(_w,dict) and _w.get('id') and _w['id'] not in _pw:
+                    _pcw.append((_i,_d.get('title'),_w['id']))
+            for _b in (_d.get('books') or []):
+                _bi=_b.get('id') if isinstance(_b,dict) else _b
+                if _bi and _bi not in _pw: _pcb.append((_i,_d.get('title'),_bi))
+        for _c in (_d.get('contained_in') or []):
+            _ci=_c if isinstance(_c,str) else (_c.get('id') if isinstance(_c,dict) else None)
+            if _ci and _ci not in _pw: _pci.append((_i,_ci))
+    print('  Collection.contained_works[].id 不指 production',len(_pcw),'　基線 0（2026-08-26 全量升格後立）')
+    for x in _pcw[:6]: print('     ',x)
+    print('  Collection.books[] 不指 production',len(_pcb),'　基線 0（同上；Book 升格器若不掃此欄即此處見之）')
+    for x in _pcb[:6]: print('     ',x)
+    print('  contained_in[].id 不指 production Collection',len(_pci),'　基線 0（同上；Book／Work 兩類合計三萬八千餘處）')
+    for x in _pci[:6]: print('     ',x)
     print('  目錄分片錯置',len(_pdir),'　基線 0')
     print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')
