@@ -124,18 +124,37 @@ def nz(i):
 
 # ── 文本側：整理本與輯佚 ────────────────────────────────────────────
 def _assets(sub, leaf='*.json'):
-    return sorted(glob.glob(f'{TEXT_ROOT}/Work/*/*/*/*/{sub}/{leaf}'))
+    """**兩種深度都要掃。** 歸一之後卷檔入 `collated_edition/juan/NNN.json`，
+    比舊制深一層；glob 是固定深度的，只寫一條則歸一當日此檔即靜默空掃——
+    2026-08-26 歸一後實見掃檔數由 138,829 跌至 247，四驗齊齊顯 0 而看著全綠，
+    是 `scanned` 那一欄把它逮住的。凡改目錄層級，先問哪些 glob 會落空。"""
+    return sorted(set(glob.glob(f'{TEXT_ROOT}/Work/*/*/*/*/{sub}/{leaf}'))
+                  | set(glob.glob(f'{TEXT_ROOT}/Work/*/*/*/*/{sub}/juan/{leaf}')))
+
+
+_ASSET_DIRS = {'collated_edition', 'fragments', 'juan', 'text', 'source',
+               '_working'}
 
 
 def _owner(f):
-    """資產目錄之父目錄名即 owner id。不可由路徑分段數推——
+    """owner id = 自檔往上走，越過一切資產目錄名，所遇之第一個目錄。
+
+    **不可寫死上溯幾級。** 舊法取 `dirname(dirname(f))` 之名，只對
+    `…/{id}/collated_edition/卷.json` 這一種深度成立；歸一把卷檔挪進
+    `…/{id}/collated_edition/juan/NNN.json` 之後，上溯兩級只到
+    `collated_edition`，於是**全部 owner 塌成同一個**——是 `scanned`
+    由 30 跌至 1 把它逮住的（2026-08-26）。亦不可由路徑分段數推：
     draft 是相對路徑而 production 是絕對路徑，段數不同（chk.py 曾因此而誤）。"""
-    return os.path.basename(os.path.dirname(os.path.dirname(f)))
+    d = os.path.dirname(f)
+    while os.path.basename(d) in _ASSET_DIRS:
+        d = os.path.dirname(d)
+    return os.path.basename(d)
 
 
 CE_ALL = _assets('collated_edition')
-CE_IDX = [f for f in CE_ALL if os.path.basename(f) in
-          ('collated_edition_index.json', 'index.json')]
+CE_IDX = [f for f in CE_ALL
+          if os.path.basename(os.path.dirname(f)) == 'collated_edition'
+          and os.path.basename(f) in ('collated_edition_index.json', 'index.json')]
 CE_JUAN = [f for f in CE_ALL if f not in set(CE_IDX)]
 FRAG = _assets('fragments')
 
@@ -447,19 +466,27 @@ for f in CE_IDX:
         notype.append((own, W_TITLE.get(nz(own)) or W_TITLE.get(own)))
     dr = os.path.dirname(f)
     listed = [x for x in (d.get('juan_files') or []) if isinstance(x, str)]
-    on_disk = {os.path.basename(x) for x in CE_JUAN if os.path.dirname(x) == dr}
+    # 卷檔今在 `{dr}/juan/` 下，比較須以**相對清單檔之路徑**為準，
+    # 不可只比 basename——歸一後清單所列即 `juan/NNN.json`，
+    # 只比 basename 則 1,221 份齊齊報「不在盤上」（實見）。
+    on_disk = {os.path.relpath(x, dr) for x in CE_JUAN
+               if os.path.commonpath([os.path.abspath(x), os.path.abspath(dr)])
+               == os.path.abspath(dr)}
     if not listed:
         nolist.append((own, len(on_disk)))
         continue
     nwithlist += 1
     for x in listed:
-        if os.path.basename(x) not in on_disk:
+        if x not in on_disk and os.path.basename(x) not in on_disk:
             missing.append((own, x))
     # **僅於有 juan_files 者比對。** 無此欄者（kaozhen／fragment_collection
     # 諸型不用之）若一併比，盤上之檔盡報「未列」——寫此驗時即先誤報 146，
     # 其中 143 出於此，真正多出者唯 3（總序／juan_groups／校勘記_缺字，
     # 皆非卷檔，本不當列）。
-    for x in sorted(on_disk - {os.path.basename(y) for y in listed}):
+    _l = set(listed) | {os.path.basename(y) for y in listed}
+    for x in sorted(on_disk - _l):
+        if os.path.basename(x) in _l:
+            continue
         extra.append((own, x))
 note('清單所列之卷檔不在盤上', len(missing), nwithlist,
      *[f'{a}：{b}' for a, b in missing[:6]])
