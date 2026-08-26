@@ -11,9 +11,6 @@
   "authors": [],
   "resources": [],
   "books": [
-    "1ahiurm4kqbk0",
-    "1ahix2848puyo",
-    "1ahix2848puyp",
     "11q6siqzcrytc",
     "11q6siqzyxtds",
     "11q6sir0h1kw0",
@@ -40,5 +37,6 @@
     "11q72a3huc0sg",
     "11q72a3ighvcw"
   ],
-  "updated_at": "2026-04-29T16:51:33-07:00"
+  "updated_at": "2026-08-26T00:00:00+00:00",
+  "ai_note": "2026-08-26 升格前體例歸一：books 之中混有 3 個 Collection id（二十四史、武英殿聚珍版叢書、武英殿十三經注疏），而 SCHEMA〈Collection 的三種成員列表〉明言 books 之成員是具體版本（Book ID）。叢編相含當由子條之 contained_in 指其母條（SCHEMA〈Collection.subtype〉：「後者 contained_in 指向前者」），本庫此諸子條皆已如此反指，此處之列徒為重出，今去之。"
 }
