@@ -2,42 +2,7 @@
   "schema_version": 1,
   "id": "1j96hjwlxz6kq",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "黃尊素",
-  "alt_names": [
-    {
-      "name": "忠端",
-      "type": "諡號"
-    },
-    {
-      "name": "白安",
-      "type": "號"
-    },
-    {
-      "name": "眞長",
-      "type": "字"
-    }
-  ],
-  "dynasty": "明",
-  "birth_year": 1584,
-  "death_year": 1626,
-  "works": [
-    {
-      "work_id": "d59f2nfpjev6",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2nkq9tdt",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 30708,
-    "cbdb_match": "manual ; dynasty_fix: 清→明 per CBDB dy=20 (C5 batch17)",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=20"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 dynasty『明』自動歸併（修正：CBDB 來源 cbdb_dy=20=明；黃尊素生於1584年卒於1626年，按 CBDB 歸類明）",
-  "ai_note": "2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bmkv",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

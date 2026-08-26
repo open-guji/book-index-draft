@@ -2,49 +2,7 @@
   "schema_version": 1,
   "id": "1j96gx6v99mv4",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "秦越人",
-  "dynasty": "春秋",
-  "works": [
-    {
-      "work_id": "d59f2evvzi0w"
-    },
-    {
-      "work_id": "d59f2evsjw1t"
-    },
-    {
-      "work_id": "d59f2evq1zpg",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2pu93a4h",
-      "role": "舊題撰"
-    },
-    {
-      "work_id": "d59f2evzqcjo",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ew0ctmp",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ew0ctmr",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ew0zapu",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "description": {
-    "text": "传说中名医扁鹊本名",
-    "sources": []
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "synonym:春秋戰國->春秋",
-  "period": "pre-qin",
-  "period_basis": "據 dynasty「春秋」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 斷代收窄·早代逐條裁：新收 1 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。\n2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bhzt",
+  "_promoted_at": "2026-08-25T23:18:04Z"
 }

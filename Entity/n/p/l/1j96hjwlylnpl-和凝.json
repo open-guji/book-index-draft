@@ -2,46 +2,7 @@
   "schema_version": 1,
   "id": "1j96hjwlylnpl",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "和凝",
-  "alt_names": [
-    {
-      "name": "成績",
-      "type": "字"
-    },
-    {
-      "name": "文僖",
-      "type": "諡號"
-    },
-    {
-      "name": "曲子相公",
-      "type": "號"
-    }
-  ],
-  "dynasty": "五代",
-  "birth_year": 898,
-  "death_year": 955,
-  "works": [
-    {
-      "work_id": "d59f2gcq7och",
-      "role": "等撰"
-    },
-    {
-      "work_id": "d59f2gcecnpd",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gcms2de",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 17667,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_unique cbdb_dy=7"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "five-dynasties",
-  "period_basis": "據 dynasty「五代」自動歸併",
-  "ai_note": "2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bmtk",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

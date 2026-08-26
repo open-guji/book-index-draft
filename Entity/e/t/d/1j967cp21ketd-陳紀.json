@@ -2,27 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp21ketd",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "陳紀",
-  "dynasty": "清",
-  "works": [
-    {
-      "work_id": "d59f24ly7lza",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2n0sycqo",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 12824,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 dynasty「清」自動歸併（2026-08-24 訂正）",
-  "dynasty_basis": "2026-08-24 代懸隔者訂正：據所繫 work 之 authors[].dynasty「清」；舊作「東漢」而無據，今正。",
-  "ai_note": "2026-08-24 代懸隔者訂正：本 entity 舊繫 dynasty「東漢」（period qin-han），**無 dynasty_basis，亦無他 work 為證**；而所繫之 work（《師竹山房詩鈔》代 qing）之斷代皆有據——或隋志、崇文總目明題其官銜里貫，或師承、著錄之志可考（見各 work 之 period_basis）。兩相權衡，work 之據為實而 entity 之代為虛，故從 work 而正 entity。"
+  "_promoted_to": "hixhd2h9bguk",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

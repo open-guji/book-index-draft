@@ -2,67 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl6pbn7",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "葉適",
-  "alt_names": [
-    {
-      "name": "忠定",
-      "type": "諡號"
-    },
-    {
-      "name": "正則",
-      "type": "字"
-    },
-    {
-      "name": "水心先生",
-      "type": "號"
-    }
-  ],
-  "dynasty": "南宋",
-  "birth_year": 1150,
-  "death_year": 1223,
-  "works": [
-    {
-      "work_id": "d59f2ht1pm2o",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hqqzq4j",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hhar20y",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ht4tzi8",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hry2h36",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hqnk45d",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hhb2aki",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hdxbqpt",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 10749,
-    "cbdb_match": "manual",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=南宋",
-  "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bexw",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

@@ -2,37 +2,7 @@
   "schema_version": 1,
   "id": "1j967avzlnsi9",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "鮑彪",
-  "alt_names": [
-    {
-      "name": "文虎",
-      "type": "字"
-    }
-  ],
-  "dynasty": "南宋",
-  "works": [
-    {
-      "work_id": "d59f2hreeiv4",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f2hjw30g3",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f2hcmtds4",
-      "role": "注"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 17406,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "四庫全書總目本傳案語「宋鮑彪撰……成於紹興丁卯」；原誤綁『隋書經籍志→南朝宋』，2026-08-10更正",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：新收 1 部 work 之繫（役為注者，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
-  "period": "song",
-  "period_basis": "據 dynasty「南宋」自動歸併（2026-08-24 補）"
+  "_promoted_to": "hixhd2h9be8q",
+  "_promoted_at": "2026-08-25T23:18:02Z"
 }

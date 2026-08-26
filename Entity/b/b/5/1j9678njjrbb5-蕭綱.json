@@ -2,67 +2,7 @@
   "schema_version": 1,
   "id": "1j9678njjrbb5",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "蕭綱",
-  "alt_names": [
-    {
-      "name": "世讚",
-      "type": "別名"
-    },
-    {
-      "name": "太宗",
-      "type": "別名"
-    },
-    {
-      "name": "簡文帝",
-      "type": "別名"
-    },
-    {
-      "name": "簡文皇帝",
-      "type": "諡號"
-    }
-  ],
-  "dynasty": "南朝梁",
-  "birth_year": 503,
-  "death_year": 551,
-  "works": [
-    {
-      "work_id": "d59f2845ioea",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28449q82",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f284655hc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f285vy51d",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f284u6fb9",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f285aerk3",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f286qumtc",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 33251,
-    "cbdb_match": "manual",
-    "cbdb_source": "altname_exact+dy_mismatch_44+work_recall_1.00+ambiguous_2+no_dynasty"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "synonym:南梁->南朝梁",
-  "period": "nanbeichao",
-  "period_basis": "據 dynasty「南朝梁」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2f8wal1",
+  "_promoted_at": "2026-08-25T23:14:10Z"
 }

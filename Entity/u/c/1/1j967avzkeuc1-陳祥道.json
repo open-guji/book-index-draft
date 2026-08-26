@@ -2,55 +2,7 @@
   "schema_version": 1,
   "id": "1j967avzkeuc1",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "陳祥道",
-  "alt_names": [
-    {
-      "name": "用之",
-      "type": "字"
-    },
-    {
-      "name": "祐之",
-      "type": "字"
-    }
-  ],
-  "dynasty": "北宋",
-  "birth_year": 1042,
-  "death_year": 1093,
-  "works": [
-    {
-      "work_id": "d59f2hq89hj7",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hrpbtvk",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hj5ju9u",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hh12p6p",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hjregar",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hdggxdt",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 47952,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=北宋",
-  "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9be0c",
+  "_promoted_at": "2026-08-25T23:18:02Z"
 }

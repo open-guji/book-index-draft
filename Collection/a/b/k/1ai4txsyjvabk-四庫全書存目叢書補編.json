@@ -29,15 +29,15 @@
     "number": 0,
     "description": "100 冊，收書 219 種"
   },
-  "ai_note": "2026-05-17 新建 draft。與《四庫全書存目叢書》（1evjxczyavy80）為同系列補編，補存目漏收本。 2026-05-18 資源調研：補編 100 冊 219 種（2001）未找到 IA 獨立 identifier。常被合包到《存目叢書》正編一起發布（auicp/2191、七街書齋 3518 等「存目丛书+補編 1300 冊」合集）。待走 /mirror-to-archive 鏡像到 IA 後回填 resources。建議 IA identifier：siku-cunmu-bubian。",
+  "ai_note": "2026-05-17 新建 draft。與《四庫全書存目叢書》（1evjxczyavy80）為同系列補編，補存目漏收本。 2026-05-18 資源調研：補編 100 冊 219 種（2001）未找到 IA 獨立 identifier。常被合包到《存目叢書》正編一起發布（auicp/2191、七街書齋 3518 等「存目丛书+補編 1300 冊」合集）。待走 /mirror-to-archive 鏡像到 IA 後回填 resources。建議 IA identifier：siku-cunmu-bubian。\n\n2026-08-26 升格前體例歸一：related_collections 之 collection_id 指 d59f2og4vke9，而該 id 實為 production 之 Work《四庫全書存目叢書》，非 Collection，欄名不當，今改為 work_id。按 SCHEMA〈叢書之著錄〉「一部叢書不得因見於書目而別立一 Work」，《四庫全書存目叢書》本當立為 Collection；此事牽動其下二百餘種之繫連，非本輪所及，別記於 known-issues 待議。",
   "related_collections": [
     {
       "type": "supplements",
       "title": "補《四庫全書存目叢書》",
-      "collection_id": "d59f2og4vke9",
-      "note": "本書補《存目叢書》漏收的存目存世本，性質為續編"
+      "note": "本書補《存目叢書》漏收的存目存世本，性質為續編　（2026-08-26 正：本欄舊作 collection_id，然《四庫全書存目叢書》庫中現以 production Work d59f2og4vke9 記之，非 Collection，故改用 work_id。按 SCHEMA〈叢書不得別立 Work〉，此書本當立為 Collection，今姑仍其舊而正其欄名，別記待議。）",
+      "work_id": "d59f2og4vke9"
     }
   ],
   "id": "1ai4txsyjvabk",
-  "updated_at": "2026-05-18T00:15:26-07:00"
+  "updated_at": "2026-08-26T00:00:00+00:00"
 }

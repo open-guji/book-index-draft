@@ -2,22 +2,7 @@
   "schema_version": 1,
   "id": "1j96hlaz35d6o",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "嚴毅",
-  "dynasty": "元",
-  "works": [
-    {
-      "work_id": "d59f2gjqqnsw",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hm58pog",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {},
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併",
-  "ai_note": "2026-08-19 重複人物 entity 專項：庫中原有同名同代之另一記錄 `1j96keq62dqf4`（嚴毅，元），二者皆無 CBDB 對應（或僅一方有），所繫之書亦不相牴牾，判為一人之重出，今合併其 works、alt_names 與生卒，並將所有 authors[].entity_id 改指本條。"
+  "_promoted_to": "hixhd2h9bn3c",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

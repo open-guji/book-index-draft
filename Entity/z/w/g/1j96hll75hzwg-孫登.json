@@ -2,27 +2,7 @@
   "schema_version": 1,
   "id": "1j96hll75hzwg",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "孫登",
-  "dynasty": "三國魏",
-  "works": [
-    {
-      "work_id": "d59f27xezabn",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f27tly3uq",
-      "role": "注"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 511190,
-    "cbdb_match": "manual",
-    "cbdb_source": "manual; 孫登[晉]→cbdb:511190[三國]，孫登是曹魏/晉初隱士"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "three-kingdoms",
-  "period_basis": "據 dynasty「三國魏」自動歸併（2026-08-24 訂正：舊作「jin」，與其 dynasty 不自洽——朝代之名較期為細，故從朝代）。",
-  "dynasty_basis": "cbdb_source:explicit:三國魏",
-  "ai_note": "2026-08-24 清 works：去懸空者 0（所指之 work 已併去或已刪，兩倉俱無其身）、去重複者若干。此類殘留生於 work 之合併——併時遷其繫而未撤本側之舊條。\n\n2026-08-24 清 works（升格之後）：去重複 1、去懸空 0。升格之際 rewrite_references 將 works 中之 draft id 改為 production id，若本條原已兼有二者，改後遂成重複；又所指之 work 若在升格前已併去，則改無可改而成懸空。**故凡大批升格之後，entity 側須復清一次。**"
+  "_promoted_to": "hixhd2h9bnd8",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

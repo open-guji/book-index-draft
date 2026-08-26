@@ -2,76 +2,7 @@
   "schema_version": 1,
   "id": "1j967avzlnsib",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "吳兢",
-  "dynasty": "唐",
-  "birth_year": 670,
-  "death_year": 749,
-  "works": [
-    {
-      "work_id": "d59f28jel3wk",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28l1kyki",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28jdne9u",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28jiyfia",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28kts0zk",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28jpiex2",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28jykao2",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28ldr7rc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28ll8wsh",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28llvdvp",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28l42uwz",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28ky5clf",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28lfxvk3",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28lpm8eb",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 93243,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 2 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 斷代收窄：本 entity 新收 5 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 舊唐志逐條抽撰人：新收 1 部 work 之繫。\n2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9be8s",
+  "_promoted_at": "2026-08-25T23:18:02Z"
 }

@@ -2,55 +2,7 @@
   "schema_version": 1,
   "id": "1j96h8rw7k8w8",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "陳壽",
-  "dynasty": "西晉",
-  "works": [
-    {
-      "work_id": "d59f27wnieip",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f282rkphc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27u18qgx",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27vkhqma",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27u18qgz",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tl0e81",
-      "role": "撰",
-      "title": "吳國志"
-    },
-    {
-      "work_id": "d59f27us356r",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27uuwa2q",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tb0suc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27ywo3r5",
-      "role": "撰"
-    }
-  ],
-  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=66675（pending_accept: auto_ambig cbdb_dy=19 (None-1411)），據以填入朝代「明」、生卒 None~1411、字號別名 敏肅／龍伯。本人物所繫作品之著錄朝代皆作「晉」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。　繫連補入：1evfuvfbxlslc《漢名臣奏》經補晉志誤切訂正後撰人定為「陳壽」，今繫之。\n2026-08-24 斷代收窄·早代逐條裁：新收 2 部 work 之繫，其中託名者 role 作「舊題撰」，見各 work 之 authors[].name_basis。\n2026-08-24 補繫 entity：新收 3 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 dynasty「晉」自動歸併",
-  "dynasty_basis": "manual:historical_figure(陳壽(233-297)原三國蜀人，入晉後撰三國志)"
+  "_promoted_to": "hixhd2h9bi85",
+  "_promoted_at": "2026-08-25T23:18:04Z"
 }

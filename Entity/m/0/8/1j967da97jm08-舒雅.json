@@ -2,38 +2,7 @@
   "schema_version": 1,
   "id": "1j967da97jm08",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "舒雅",
-  "alt_names": [
-    {
-      "name": "子正",
-      "type": "字"
-    },
-    {
-      "name": "舒雅修",
-      "type": "訛名"
-    }
-  ],
-  "dynasty": "北宋",
-  "death_year": 1009,
-  "works": [
-    {
-      "work_id": "d59f2hlt2ghu",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hl5nnr5",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 49210,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=北宋",
-  "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-19 同題異撰人專項：庫中別有 entity「舒雅修」（`1j96heiejsqo0`），乃本人姓名之異寫或形訛，其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bhh7",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

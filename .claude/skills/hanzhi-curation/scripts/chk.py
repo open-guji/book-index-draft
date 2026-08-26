@@ -173,19 +173,32 @@ for x in ow[:5]: print('  B→W',x)
 for x in ww[:5]: print('  W→B',x)
 
 # 人物 ↔ 作品之雙向：entity.works 指向作品，不代表作品回指該人物
+#
+# 2026-08-26 改：**本驗一度成空驗**。2026-08-25 entity 全量升格之後，draft 的
+# `Entity/` 只剩五欄墓碑（無 works），此處若仍只讀 draft，`ent` 全是墓碑，
+# e_only/w_only 結構上恆為零——照樣印 0，卻什麼也沒驗。實測其時兩倉尚有
+# 三十二處單向而本驗報零。今改讀 production 之 entity，work 則兩倉並取。
 ent={}
-for p in glob.glob('Entity/*/*/*/*.json'):
-    try: e=json.load(open(p)); ent[e['id']]=e
-    except Exception: pass
+for _r in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for p in glob.glob(_r+'/Entity/*/*/*/*.json'):
+        try: e=json.load(open(p))
+        except Exception: continue
+        if e.get('_promoted_to'): continue        # 墓碑無 works，不入計
+        ent[e['id']]=e
 w2e={}
-for p in glob.glob('Work/*/*/*/*.json'):
-    try: d=json.load(open(p))
-    except Exception: continue
-    # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
-    # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
-    # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
-    if d.get('_promoted_to'): continue
-    w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
+for _r in ['.'] + ([_PR_ROOT] if _PR_ROOT else []):
+    for p in glob.glob(_r+'/Work/*/*/*/*.json'):
+        try: d=json.load(open(p))
+        except Exception: continue
+        # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
+        # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
+        # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
+        #
+        # 又：draft 之 work 已入 promotions.json 而其檔尚未 stub 化者（升格與 stub
+        # 化分兩步，其間可長達數時），亦當比照墓碑不計——否則每升一批 work
+        # 就多出成千上萬條假單向（實測 32,576 條）。
+        if d.get('_promoted_to') or (_r=='.' and d.get('id') in _PR): continue
+        w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
 e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
            if x.get('work_id') in w2e and i not in w2e[x['work_id']])
 w_only=sum(1 for w,es in w2e.items() for i in es
@@ -750,7 +763,9 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id'):
                 _pw[_d['id']]=(_d,_p)
                 if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
-    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]; _pent=[]; _pback=[]
+    # production 之 entity 全表（2026-08-25 entity 全量升格後立）
+    _pe={_i for _i,(_d,_) in _pw.items() if _d.get('type')=='entity'}
     for _i,(_d,_p) in _pw.items():
         if list(_i[-3:])!=_p.split('/')[-4:-1]: _pdir.append(_p)
         _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
@@ -771,6 +786,15 @@ if _PR_ROOT:
             _seen.add(_k)
         for _b in (_d.get('books') or []):
             if _b not in _pw and _b not in IB: _pbk.append((_i,_b))
+        # 2026-08-25 增：production 之 work，其 authors[].entity_id 必指 production 之 entity。
+        # 立此驗之由：entity 全量升格之時，查出 production 側積欠 120 處指向 draft
+        # 之舊 id（其條早經併去而 production 未同步）——併條工具自來只掃 draft，
+        # 此類靜默積欠遂無驗可見。修法：以名（必要時並以朝代）求之 production 而改繫，
+        # 名不可復原者（缺字符、「某某等」之連書）但去 entity_id 而存其名。
+        if _d.get('type')=='work':
+            for _a in (_d.get('authors') or []):
+                if isinstance(_a,dict) and _a.get('entity_id') and _a['entity_id'] not in _pe:
+                    _pent.append((_i,_a.get('name'),_a['entity_id']))
     print('── production ──')
     print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
     for x in _pbk[:6]: print('     ',x)
@@ -780,5 +804,36 @@ if _PR_ROOT:
     for x in _pdrift[:6]: print('     ',x)
     print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')
     for x in _pdup[:6]: print('     ',x)
+    print('  work 之 authors[].entity_id 不指 production entity',len(_pent),'　基線 0（2026-08-25 entity 全量升格後全清 120 處）')
+    for x in _pent[:6]: print('     ',x)
+    # 2026-08-25 增：production 側之整理本與 source_bid 兩驗。
+    # 立此二驗之由：本工具之整理本諸驗自來只 glob `Work/*/*/*/*/collated_edition/*.json`
+    # ——**draft 相對路徑**，production 的整理本從不在掃描之列。一條 work 一旦升格，
+    # 其 collated_edition 資產目錄隨之遷入 production，此後歷次併條只改 draft 的節，
+    # production 的節遂靜默積欠。2026-08-25 全庫掃出 215 節、12 處 source_bid 落空，
+    # 皆此故。修法見該日之提交：以「同目錄之 source_bid＋title_info 唯一相合」為主證，
+    # 以 git 改繫鏈為旁證，二法所得五十八處無一相左。
+    _pcol=[]; _pbid=[]
+    for _f in glob.glob(_PR_ROOT+'/Work/*/*/*/*/collated_edition/*.json'):
+        if _f.endswith('collated_edition_index.json'): continue
+        try: _d=json.load(open(_f))
+        except Exception: continue
+        _secs=_d.get('sections') if isinstance(_d,dict) else (_d if isinstance(_d,list) else [])
+        for _n,_s in enumerate(_secs or []):
+            if not isinstance(_s,dict): continue
+            _w=_s.get('work_id')
+            if _w and _w not in _pw and _w not in IW and _w not in IB and _w not in IC:
+                _pcol.append((os.path.relpath(_f,_PR_ROOT),_n,_s.get('title'),_w))
+    for _i,(_d,_p) in _pw.items():
+        for _k in ('indexed_by','emendated_by'):
+            for _s in (_d.get(_k) or []):
+                if not isinstance(_s,dict): continue
+                _b=_s.get('source_bid')
+                if _b and _b not in _pw and _b not in IW and _b not in IB and _b not in IC:
+                    _pbid.append((_i,_k,_s.get('source'),_b))
+    print('  整理本節之 work_id 落空',len(_pcol),'　基線 0（2026-08-25 全清 215 節；升格後整理本遷入 production，draft 的併條掃不到）')
+    for x in _pcol[:6]: print('     ',x)
+    print('  indexed_by/emendated_by 之 source_bid 落空',len(_pbid),'　基線 0（2026-08-25 全清 12 處）')
+    for x in _pbid[:6]: print('     ',x)
     print('  目錄分片錯置',len(_pdir),'　基線 0')
     print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')

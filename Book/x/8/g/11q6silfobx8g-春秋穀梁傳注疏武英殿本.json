@@ -25,7 +25,18 @@
       "role": "疏"
     }
   ],
-  "resources": [],
+  "resources": [
+    {
+      "id": "ctext",
+      "name": "中國哲學書電子化計劃",
+      "short_name": "CText",
+      "types": [
+        "image"
+      ],
+      "url": "https://ctext.org/library.pl?if=gb&res=77720",
+      "details": "CText 圖書館《武英殿十三經注疏》叢書（collection=8）之一，影印本逐卷可讀。"
+    }
+  ],
   "work_id": "d59f28na46pw",
   "measures": [
     {
@@ -34,5 +45,8 @@
     }
   ],
   "measure_info": "二十卷",
-  "updated_at": "2026-07-31T04:34:52+00:00"
+  "updated_at": "2026-08-26T03:10:00+00:00",
+  "ai_note": "2026-08-26 補 resources：中國哲學書電子化計劃圖書館收有全套《武英殿十三經注疏》（https://ctext.org/library.pl?if=gb&collection=8 ，十三種俱全），本書為其中 res=77720，頁上自題「《武英殿十三經注疏》本」，版本相符。",
+  "_promoted_to": "988lj12nm2",
+  "_promoted_at": "2026-08-26T06:00:48Z"
 }
