@@ -269,11 +269,19 @@ for f in CE_IDX:
 # 「全繫皆斷即選本」之啟發法權且分之——那法要設下限（繫數少者全斷可以是
 # 巧合，《千頃堂書目》1/1 即誤入），今已不必倚仗。
 DESYNC_SKIP_TYPE = {'anthology', 'fragment_collection'}
+DESYNC_BOOK_TYPES = {'书', '書'}
 desync = collections.Counter()
+desync_nonbook = collections.Counter()
 desync_tot = collections.Counter()
 desync_ex = []
 for f, own, secs in JUAN:
-    if CE_TYPE.get(own) in DESYNC_SKIP_TYPE:
+    # **`type` 一欄未必說全。** 《七家後漢書》《後漢書補逸》之 `type` 作
+    # `collated_edition`，而其真正的體例記在 `collated_edition_type`
+    # （= `fragment_collection`）。只看 `type` 則此二部漏豁免，8/8 全報斷鏈。
+    # 凡分類之判，二欄俱須看。
+    _idx = CE_IDXDATA.get(own) or {}
+    if CE_TYPE.get(own) in DESYNC_SKIP_TYPE \
+            or _idx.get('collated_edition_type') in DESYNC_SKIP_TYPE:
         continue
     ok = {nz(own), own}
     for sec in secs:
@@ -292,15 +300,26 @@ for f, own, secs in JUAN:
                   for y in (d.get('indexed_by') or []) + (d.get('emendated_by') or [])
                   if y.get('source_bid')}
             if not (sb & ok):
-                desync[own] += 1
-                if len(desync_ex) < 6:
-                    desync_ex.append(f'{own} → {i}')
+                # **書條與非書條分計。** `indexed_by` 之義是「某志著錄了此書」，
+                # 故此驗只對書條成立。非書條偶帶 work_id 者有二型，皆非著錄：
+                # `结语`（「已上《禮記》。」之類小結句）、`考证`（考證之文，
+                # 當入 `emendated_by` 而非 `indexed_by`，是另一欄之事）。
+                # 混計則回補做完之後總數不歸零，看不出還剩什麼。
+                if sec.get('type') in DESYNC_BOOK_TYPES:
+                    desync[own] += 1
+                    if len(desync_ex) < 6:
+                        desync_ex.append(f'{own} → {i}')
+                else:
+                    desync_nonbook[sec.get('type')] += 1
 # 全繫皆斷者，是驗之前提不合此部（選本），另計。
 # **須設下限**：繫數少者「全斷」可以是巧合（實測《千頃堂書目》只 1 節繫得上
 # Work，1/1 而入此桶，非選本），二十為界，以下仍算真斷鏈。
 _allbad = {o for o in desync if desync[o] == desync_tot[o] and desync_tot[o] >= 20}
 note('整理本繫連而 work 側無記錄', sum(v for o, v in desync.items() if o not in _allbad),
      NSEC, *desync_ex)
+note('（附）非書條而繫連未記者——结语／考证之屬，不當入 indexed_by',
+     sum(desync_nonbook.values()), NSEC,
+     *[f'{k} {v}' for k, v in desync_nonbook.most_common(5)])
 # 此數之「掃」取**納入考量之整理本部數**，不可取 `len(_allbad)`——
 # 那是結果之數，乾淨之庫本就為 0，於是每次都被判成「空掃」而虛驚。
 # 派生之數，其掃檔數當取其分母。
