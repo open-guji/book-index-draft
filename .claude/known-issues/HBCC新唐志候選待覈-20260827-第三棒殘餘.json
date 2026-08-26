@@ -1,0 +1,5394 @@
+{
+ "說明": "接續 .claude/known-issues/HBCC新唐志候選待覈-20260826.json 之「五類 430 條」，第三棒（2026-08-27）處理結果與殘餘存證。詳細改動見 book-index 倉之提交：任務A：新唐書藝文志候選A類54條核定、B類81條核定、C／D類核定、E類核定（四個 commit，commit 訊息各自完整記錄逐條依據）。本檔只存**仍未處理**或**已核而棄權**之候選，供下一輪接手；已處理者請勿重查（見上述 commit 訊息即可核對依據）。",
+ "總覽": {
+  "A_近似撰人待覈": {
+   "原量": 54,
+   "已併": 52,
+   "棄權": 2
+  },
+  "B_撞題無明確撰人對應": {
+   "原量": 81,
+   "已併": 63,
+   "棄權": 18
+  },
+  "C_HBCC單一匹配但撰人核對不過": {
+   "原量": 96,
+   "已併或已核實完整": 78,
+   "棄權": 18
+  },
+  "D_HBCC多重候選待消歧": {
+   "原量": 155,
+   "已併": 27,
+   "棄權_已核明確異書或無關": 6,
+   "未及處理": 122
+  },
+  "E_HBCC全無對應": {
+   "原量": 44,
+   "已併": 4,
+   "核實已完整_無需動作": 40
+  }
+ },
+ "A_近似撰人待覈_棄權2條": [
+  {
+   "id": "d59f2q547n5t",
+   "title": "褚令之百賦音",
+   "hbcc_entry_id": "10012021005056",
+   "hbcc_summary": "百賦音 1卷 褚令之撰 亦見《新唐書·藝文志》",
+   "existing_candidate_id": "d59f285tg8ow",
+   "existing_candidate_author": "褚詮之",
+   "hbcc_author": "褚令之",
+   "abstain_reason": "候選「褚詮之」(南朝宋，隋志/舊唐志皆作十卷)與本條(新唐志「褚令之百賦音一卷」，HBCC同)卷數相差十倍（1卷 vs 10卷），非常見之跨志小異；且「令之」與「詮之」字形不近，非明顯之OCR或異體字混淆。存疑不併，待覈是否另有一卷本之別書，或為傳鈔訛誤。"
+  },
+  {
+   "id": "d59f2pym3nr5",
+   "title": "郭氏五姓墓圖要訣",
+   "hbcc_entry_id": "10012021003382",
+   "hbcc_summary": "五姓墓圖要訣 5卷 (晉 )郭氏撰 亦見《新唐書·藝文志》",
+   "existing_candidate_id": "d59f27uiq0w0",
+   "existing_candidate_author": "孫氏",
+   "hbcc_author": "郭氏",
+   "abstain_reason": "本條(新唐志+國史經籍志兩節皆獨立作「郭氏五姓墓圖要訣」)已有二源相互佐證「郭氏」，候選(孫氏五姓墓圖要訣 d59f27uiq0w0，僅舊唐志一源，晉代)之姓氏「孫」與「郭」全然不同（非OCR或字形近似之誤），恐為兩位佚名撰人各作同題（五姓墓圖要訣為堪輿類通稱書名，同題非必同書）之異書。存疑不併。"
+  }
+ ],
+ "B_撞題無明確撰人對應_棄權18條": [
+  {
+   "id": "d59f2pwg2br4",
+   "title": "韓延夏侯陽算經",
+   "hbcc_entry_id": "10012021003066",
+   "hbcc_summary": "夏侯陽算經 1卷 (隋)韓延撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "韓延",
+   "existing_candidates": [
+    {
+     "id": "d59f286ua8sk",
+     "authors": [
+      "夏侯陽"
+     ]
+    }
+   ],
+   "abstain_reason": "候選自身已有一節獨立之《新唐書藝文志》著錄（title_info「夏侯陽算經」，不著撰人），與本條（亦稱出自新唐志、撰人作「韓延」）恐為新唐志同題下之兩個不同條目（原書／某氏注本或編定本之別），非簡單同名異寫，需覆核新唐志原文出處節後再定，本輪不併。"
+  },
+  {
+   "id": "d59f2pycqj2a",
+   "title": "鄭良士白巖集",
+   "hbcc_entry_id": "10012021004939",
+   "hbcc_summary": "白巖集 10卷 鄭良士撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "鄭良士",
+   "existing_candidates": [
+    {
+     "id": "d59f2niyle68",
+     "authors": [
+      "喬宇"
+     ]
+    }
+   ],
+   "abstain_reason": "候選「喬宇」為明代官員（1457-1524，見《明史·藝文志》《國史經籍志》），本條「鄭良士」為五代閩人（唐末仕王審知），二者相隔近六百年，《白巖集》應屬同題異書之magnet，非同書，不併。"
+  },
+  {
+   "id": "d59f2q7m3zls",
+   "title": "神楷維摩經疏",
+   "hbcc_entry_id": "10012021002660",
+   "hbcc_summary": "維摩經疏 6卷 神楷撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "神楷",
+   "existing_candidates": [
+    {
+     "id": "d59f2q7kjt35",
+     "authors": [
+      "釋樊格"
+     ]
+    }
+   ],
+   "abstain_reason": "候選僅《國史經籍志》一節孤證（撰人「釋樊格」），與本條（新唐志/HBCC「神楷」）姓名全不相干；《維摩經疏》歷代注疏者眾（磁鐵型書名），不足以斷為同書，不併。"
+  },
+  {
+   "id": "d59f2q6d5tkw",
+   "title": "董侹武陵集",
+   "hbcc_entry_id": "10012021004716",
+   "hbcc_summary": "武陵集 董侹撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "董侹",
+   "existing_candidates": [
+    {
+     "id": "1ex1kcmp1joj9",
+     "authors": [
+      "施漸"
+     ]
+    }
+   ],
+   "abstain_reason": "候選唯一著錄源為《千頃堂書目》（明代專目），原文「施漸……以歲貢授海鹽縣丞」明係明代人事跡；本條「董侹」為唐貞元間文士（見《全唐文》），二者相隔六百餘年，《武陵集》應屬同題異書之magnet，非同書，不併。"
+  },
+  {
+   "id": "d59f2pwlztvl",
+   "title": "王助雕蟲集",
+   "hbcc_entry_id": "10012021004619",
+   "hbcc_summary": "雕蟲集 1卷 王助撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "王助",
+   "existing_candidates": [
+    {
+     "id": "1ex1kcmnyj0lz",
+     "authors": [
+      "林天爵"
+     ]
+    }
+   ],
+   "abstain_reason": "候選唯一著錄源為《千頃堂書目》（明代專目），原文「林天爵……太平人」係明代人事跡；本條「王助」已有新唐志與國史經籍志兩節互證（皆稱《王助雕蟲集》一卷），為信實可考之唐代著錄，與候選之明代林天爵《雕蟲集》應屬同題異書之magnet，非同書。本條建議下一輪正題另立（書名「雕蟲集」、撰人「王助」），本輪僅存證不動。"
+  },
+  {
+   "id": "d59f2q3k0xkw",
+   "title": "王象畫鹵簿圖",
+   "hbcc_entry_id": "10012021003493",
+   "hbcc_summary": "鹵簿圖 (魏)王象繪圖 亦見《新唐書·藝文志》",
+   "hbcc_author": "王象",
+   "existing_candidates": [
+    {
+     "id": "d59f2hl5ywap",
+     "authors": [
+      "王欽若"
+     ]
+    },
+    {
+     "id": "d59f2gklbx1e",
+     "authors": [
+      "曾巽申"
+     ]
+    }
+   ],
+   "abstain_reason": "候選「王欽若」（北宋名臣）「曾巽申」（北宋人）與本條「王象」（HBCC 標「魏」）時代懸隔三四百年，《鹵簿圖》歷代屢有繪製（磁鐵型書名），非同書，不併。本輪已核，判為異書，不再存疑。"
+  },
+  {
+   "id": "d59f2q6hj56o",
+   "title": "李巨川",
+   "hbcc_entry_id": "10012021005006",
+   "hbcc_summary": "四六集 2卷 李巨川撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "李巨川",
+   "existing_candidates": [
+    {
+     "id": "d59f2puanhfk",
+     "authors": []
+    },
+    {
+     "id": "d59f28l6kr9e",
+     "authors": [
+      "鄭昌士"
+     ]
+    }
+   ],
+   "abstain_reason": "候選 d59f2puanhfk（《四六集》十五卷，直齋書錄解題已明著其為北宋晁詠之之書）與 d59f28l6kr9e（鄭昌士《四六集》一卷，唐人）皆與本條「李巨川」（新唐志/HBCC「四六集2卷李巨川撰」，李巨川為晚唐文士）卷數、人名俱不合，應屬第三部同題異書，非二候選任一。本輪已核，判為異書，建議下一輪另建（書名「四六集」、撰人「李巨川」、據新唐志）。"
+  },
+  {
+   "id": "d59f2qa8dngi",
+   "title": "張道古兵論",
+   "hbcc_entry_id": "10012021003240",
+   "hbcc_summary": "兵論 1卷 張道古撰 亦見《新唐書·藝文志》",
+   "hbcc_author": "張道古",
+   "existing_candidates": [
+    {
+     "id": "d59f2ofu9ibk",
+     "authors": []
+    },
+    {
+     "id": "d59f2ofliuwy",
+     "authors": [
+      "何瑭"
+     ]
+    }
+   ],
+   "abstain_reason": "候選 d59f2ofu9ibk（宋志/崇文總目十卷本，不著撰人，period=song）與 d59f2ofliuwy（何瑭《兵論》一卷，明代，二者已於 2026-08-25 由同一誤併條拆出）皆與本條「張道古」（新唐志/HBCC「兵論1卷張道古撰」，張道古為信史所載晚唐人）朝代不合，應屬第三部同題異書（唐代），非二候選任一。本輪已核，判為異書，建議下一輪另建（書名「兵論」、撰人「張道古」、據新唐志）。"
+  },
+  {
+   "id": "d59f2px9en0g",
+   "title": "袁真注",
+   "hbcc_entry_id": "10012021002258",
+   "hbcc_summary": "老子注 2卷 (晉 )袁真注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "袁真",
+   "existing_candidates": [
+    {
+     "id": "d59f2gmmzx8h",
+     "authors": [
+      "張慶之"
+     ]
+    },
+    {
+     "id": "d59f24mkzxms",
+     "authors": [
+      "想爾"
+     ]
+    },
+    {
+     "id": "d59f27tu29z6",
+     "authors": [
+      "羅摩"
+     ]
+    },
+    {
+     "id": "d59f27u2hon5",
+     "authors": []
+    },
+    {
+     "id": "d59f27u4zkzm",
+     "authors": [
+      "劉黃老"
+     ]
+    },
+    {
+     "id": "d59f2ghwkcn4",
+     "authors": [
+      "林志堅"
+     ]
+    },
+    {
+     "id": "d59f27t2le6b",
+     "authors": [
+      "孟康"
+     ]
+    },
+    {
+     "id": "d59f27twvev8",
+     "authors": [
+      "羊祜"
+     ]
+    },
+    {
+     "id": "d59f2j4n37r6",
+     "authors": [
+      "陳岳"
+     ]
+    },
+    {
+     "id": "d59f24lyiuiu",
+     "authors": [
+      "馬融"
+     ]
+    },
+    {
+     "id": "d59f27uuwa2p",
+     "authors": [
+      "張嗣"
+     ]
+    },
+    {
+     "id": "d59f27wog45d",
+     "authors": [
+      "鄧粲"
+     ]
+    },
+    {
+     "id": "d59f2mhzldz5",
+     "authors": [
+      "陳澧"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（13 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2pyf8g00",
+   "title": "李允愿注",
+   "hbcc_entry_id": "10012021002263",
+   "hbcc_summary": "老子注 2卷 李允愿注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "李允愿",
+   "existing_candidates": [
+    {
+     "id": "d59f2gmmzx8h",
+     "authors": [
+      "張慶之"
+     ]
+    },
+    {
+     "id": "d59f24mkzxms",
+     "authors": [
+      "想爾"
+     ]
+    },
+    {
+     "id": "d59f27tu29z6",
+     "authors": [
+      "羅摩"
+     ]
+    },
+    {
+     "id": "d59f27u2hon5",
+     "authors": []
+    },
+    {
+     "id": "d59f27u4zkzm",
+     "authors": [
+      "劉黃老"
+     ]
+    },
+    {
+     "id": "d59f2ghwkcn4",
+     "authors": [
+      "林志堅"
+     ]
+    },
+    {
+     "id": "d59f27t2le6b",
+     "authors": [
+      "孟康"
+     ]
+    },
+    {
+     "id": "d59f27twvev8",
+     "authors": [
+      "羊祜"
+     ]
+    },
+    {
+     "id": "d59f2j4n37r6",
+     "authors": [
+      "陳岳"
+     ]
+    },
+    {
+     "id": "d59f24lyiuiu",
+     "authors": [
+      "馬融"
+     ]
+    },
+    {
+     "id": "d59f27uuwa2p",
+     "authors": [
+      "張嗣"
+     ]
+    },
+    {
+     "id": "d59f27wog45d",
+     "authors": [
+      "鄧粲"
+     ]
+    },
+    {
+     "id": "d59f2mhzldz5",
+     "authors": [
+      "陳澧"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（13 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2pw2ydc1",
+   "title": "樹鍾山注",
+   "hbcc_entry_id": "10012021002262",
+   "hbcc_summary": "老子注 2卷 樹鍾山注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "樹鍾山",
+   "existing_candidates": [
+    {
+     "id": "d59f2gmmzx8h",
+     "authors": [
+      "張慶之"
+     ]
+    },
+    {
+     "id": "d59f24mkzxms",
+     "authors": [
+      "想爾"
+     ]
+    },
+    {
+     "id": "d59f27tu29z6",
+     "authors": [
+      "羅摩"
+     ]
+    },
+    {
+     "id": "d59f27u2hon5",
+     "authors": []
+    },
+    {
+     "id": "d59f27u4zkzm",
+     "authors": [
+      "劉黃老"
+     ]
+    },
+    {
+     "id": "d59f2ghwkcn4",
+     "authors": [
+      "林志堅"
+     ]
+    },
+    {
+     "id": "d59f27t2le6b",
+     "authors": [
+      "孟康"
+     ]
+    },
+    {
+     "id": "d59f27twvev8",
+     "authors": [
+      "羊祜"
+     ]
+    },
+    {
+     "id": "d59f2j4n37r6",
+     "authors": [
+      "陳岳"
+     ]
+    },
+    {
+     "id": "d59f24lyiuiu",
+     "authors": [
+      "馬融"
+     ]
+    },
+    {
+     "id": "d59f27uuwa2p",
+     "authors": [
+      "張嗣"
+     ]
+    },
+    {
+     "id": "d59f27wog45d",
+     "authors": [
+      "鄧粲"
+     ]
+    },
+    {
+     "id": "d59f2mhzldz5",
+     "authors": [
+      "陳澧"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（13 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2pyh3uv4",
+   "title": "王又玄注",
+   "hbcc_entry_id": "10012021000030",
+   "hbcc_summary": "周易注 10卷 王又玄注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "王又玄",
+   "existing_candidates": [
+    {
+     "id": "d59f27ye93pd",
+     "authors": [
+      "王廙"
+     ]
+    },
+    {
+     "id": "d59f2hepf3lv",
+     "authors": [
+      "劉彞"
+     ]
+    },
+    {
+     "id": "d59f2nd6e3uq",
+     "authors": [
+      "王正中"
+     ]
+    },
+    {
+     "id": "d59f27y2pblv",
+     "authors": [
+      "黃穎"
+     ]
+    },
+    {
+     "id": "d59f2q3igq9t",
+     "authors": [
+      "吳□□"
+     ]
+    },
+    {
+     "id": "d59f284a78jm",
+     "authors": [
+      "劉昞"
+     ]
+    },
+    {
+     "id": "d59f2glam51c",
+     "authors": [
+      "魯真"
+     ]
+    },
+    {
+     "id": "d59f2q6zmwow",
+     "authors": [
+      "王凱沖"
+     ]
+    },
+    {
+     "id": "d59f2hig9m9v",
+     "authors": [
+      "劉牧"
+     ]
+    },
+    {
+     "id": "d59f27xs394w",
+     "authors": [
+      "蜀才"
+     ]
+    },
+    {
+     "id": "d59f2843n94y",
+     "authors": [
+      "盧景裕"
+     ]
+    },
+    {
+     "id": "d59f2gfms6bk",
+     "authors": [
+      "張應珍"
+     ]
+    },
+    {
+     "id": "d59f27xhh6o0",
+     "authors": [
+      "虞翻"
+     ]
+    },
+    {
+     "id": "d59f23nz7tog",
+     "authors": [
+      "鄭玄"
+     ]
+    },
+    {
+     "id": "d59f28mf7oxx",
+     "authors": [
+      "崔覲"
+     ]
+    },
+    {
+     "id": "d59f2mqpavwg",
+     "authors": [
+      "李士鉁"
+     ]
+    },
+    {
+     "id": "d59f2840ivpc",
+     "authors": [
+      "姚規"
+     ]
+    },
+    {
+     "id": "d59f28mr2pl0",
+     "authors": [
+      "侯果"
+     ]
+    },
+    {
+     "id": "d59f27xonn5t",
+     "authors": [
+      "王弼",
+      "韓康伯"
+     ]
+    },
+    {
+     "id": "d59f2hcsfnk0",
+     "authors": [
+      "龍昌期"
+     ]
+    },
+    {
+     "id": "d59f2ptbdnnm",
+     "authors": [
+      "梁□胤"
+     ]
+    },
+    {
+     "id": "d59f27xdqc5e",
+     "authors": [
+      "王肅"
+     ]
+    },
+    {
+     "id": "d59f27tfpczn",
+     "authors": [
+      "范長生"
+     ]
+    },
+    {
+     "id": "d59f27y80cu8",
+     "authors": [
+      "王廣"
+     ]
+    },
+    {
+     "id": "d59f27xjclxd",
+     "authors": [
+      "姚信"
+     ]
+    },
+    {
+     "id": "d59f2gd1rgg2",
+     "authors": [
+      "呉鄹"
+     ]
+    },
+    {
+     "id": "d59f2hcqvgua",
+     "authors": [
+      "趙承慶"
+     ]
+    },
+    {
+     "id": "d59f27y6reo0",
+     "authors": [
+      "張璠"
+     ]
+    },
+    {
+     "id": "d59f284xasqq",
+     "authors": [
+      "雷次宗"
+     ]
+    },
+    {
+     "id": "d59f24mi6sqr",
+     "authors": [
+      "鄭眾"
+     ]
+    },
+    {
+     "id": "d59f27ybr7cw",
+     "authors": [
+      "干寶"
+     ]
+    },
+    {
+     "id": "d59f2puria6a",
+     "authors": [
+      "任□古"
+     ]
+    },
+    {
+     "id": "d59f2hdjlath",
+     "authors": [
+      "鄭鑑"
+     ]
+    },
+    {
+     "id": "d59f27y3n18k",
+     "authors": [
+      "向秀"
+     ]
+    },
+    {
+     "id": "d59f27xeo1s3",
+     "authors": [
+      "荀輝"
+     ]
+    },
+    {
+     "id": "d59f284xm1a8",
+     "authors": [
+      "權㑹"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（36 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2q2s8sn5",
+   "title": "田僧紹注",
+   "hbcc_entry_id": "10012021000190",
+   "hbcc_summary": "儀禮注 2卷 (南齊)田僧紹注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "田僧紹",
+   "existing_candidates": [
+    {
+     "id": "d59f2ndfr8jo",
+     "authors": [
+      "丁璣"
+     ]
+    },
+    {
+     "id": "d59f2nd2yi2q",
+     "authors": [
+      "程敏政"
+     ]
+    },
+    {
+     "id": "d59f27tdtxqe",
+     "authors": [
+      "袁凖"
+     ]
+    },
+    {
+     "id": "d59f27xcsmir",
+     "authors": [
+      "王肅"
+     ]
+    },
+    {
+     "id": "d59f27te569y",
+     "authors": [
+      "孔倫"
+     ]
+    },
+    {
+     "id": "d59f2pr8gpaa",
+     "authors": [
+      "田儁之"
+     ]
+    },
+    {
+     "id": "d59f27terncx",
+     "authors": [
+      "陳銓"
+     ]
+    },
+    {
+     "id": "d59f27s7dnuw",
+     "authors": [
+      "蔡超"
+     ]
+    },
+    {
+     "id": "d59f2gfo14hs",
+     "authors": [
+      "顧諒"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（9 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f286axj41",
+   "title": "蔡超宗注",
+   "hbcc_entry_id": "10012021000189",
+   "hbcc_summary": "儀禮注 2卷 蔡超宗注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "蔡超宗",
+   "existing_candidates": [
+    {
+     "id": "d59f2ndfr8jo",
+     "authors": [
+      "丁璣"
+     ]
+    },
+    {
+     "id": "d59f2nd2yi2q",
+     "authors": [
+      "程敏政"
+     ]
+    },
+    {
+     "id": "d59f27tdtxqe",
+     "authors": [
+      "袁凖"
+     ]
+    },
+    {
+     "id": "d59f27xcsmir",
+     "authors": [
+      "王肅"
+     ]
+    },
+    {
+     "id": "d59f27te569y",
+     "authors": [
+      "孔倫"
+     ]
+    },
+    {
+     "id": "d59f2pr8gpaa",
+     "authors": [
+      "田儁之"
+     ]
+    },
+    {
+     "id": "d59f27terncx",
+     "authors": [
+      "陳銓"
+     ]
+    },
+    {
+     "id": "d59f27s7dnuw",
+     "authors": [
+      "蔡超"
+     ]
+    },
+    {
+     "id": "d59f2gfo14hs",
+     "authors": [
+      "顧諒"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（9 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2q2ji5fk",
+   "title": "何胤注",
+   "hbcc_entry_id": "10012021000027",
+   "hbcc_summary": "周易注 10卷 (蕭梁)何胤注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "何胤",
+   "existing_candidates": [
+    {
+     "id": "d59f27ye93pd",
+     "authors": [
+      "王廙"
+     ]
+    },
+    {
+     "id": "d59f2hepf3lv",
+     "authors": [
+      "劉彞"
+     ]
+    },
+    {
+     "id": "d59f2nd6e3uq",
+     "authors": [
+      "王正中"
+     ]
+    },
+    {
+     "id": "d59f27y2pblv",
+     "authors": [
+      "黃穎"
+     ]
+    },
+    {
+     "id": "d59f2q3igq9t",
+     "authors": [
+      "吳□□"
+     ]
+    },
+    {
+     "id": "d59f284a78jm",
+     "authors": [
+      "劉昞"
+     ]
+    },
+    {
+     "id": "d59f2glam51c",
+     "authors": [
+      "魯真"
+     ]
+    },
+    {
+     "id": "d59f2q6zmwow",
+     "authors": [
+      "王凱沖"
+     ]
+    },
+    {
+     "id": "d59f2hig9m9v",
+     "authors": [
+      "劉牧"
+     ]
+    },
+    {
+     "id": "d59f27xs394w",
+     "authors": [
+      "蜀才"
+     ]
+    },
+    {
+     "id": "d59f2843n94y",
+     "authors": [
+      "盧景裕"
+     ]
+    },
+    {
+     "id": "d59f2gfms6bk",
+     "authors": [
+      "張應珍"
+     ]
+    },
+    {
+     "id": "d59f27xhh6o0",
+     "authors": [
+      "虞翻"
+     ]
+    },
+    {
+     "id": "d59f23nz7tog",
+     "authors": [
+      "鄭玄"
+     ]
+    },
+    {
+     "id": "d59f28mf7oxx",
+     "authors": [
+      "崔覲"
+     ]
+    },
+    {
+     "id": "d59f2mqpavwg",
+     "authors": [
+      "李士鉁"
+     ]
+    },
+    {
+     "id": "d59f2840ivpc",
+     "authors": [
+      "姚規"
+     ]
+    },
+    {
+     "id": "d59f28mr2pl0",
+     "authors": [
+      "侯果"
+     ]
+    },
+    {
+     "id": "d59f27xonn5t",
+     "authors": [
+      "王弼",
+      "韓康伯"
+     ]
+    },
+    {
+     "id": "d59f2hcsfnk0",
+     "authors": [
+      "龍昌期"
+     ]
+    },
+    {
+     "id": "d59f2ptbdnnm",
+     "authors": [
+      "梁□胤"
+     ]
+    },
+    {
+     "id": "d59f27xdqc5e",
+     "authors": [
+      "王肅"
+     ]
+    },
+    {
+     "id": "d59f27tfpczn",
+     "authors": [
+      "范長生"
+     ]
+    },
+    {
+     "id": "d59f27y80cu8",
+     "authors": [
+      "王廣"
+     ]
+    },
+    {
+     "id": "d59f27xjclxd",
+     "authors": [
+      "姚信"
+     ]
+    },
+    {
+     "id": "d59f2gd1rgg2",
+     "authors": [
+      "呉鄹"
+     ]
+    },
+    {
+     "id": "d59f2hcqvgua",
+     "authors": [
+      "趙承慶"
+     ]
+    },
+    {
+     "id": "d59f27y6reo0",
+     "authors": [
+      "張璠"
+     ]
+    },
+    {
+     "id": "d59f284xasqq",
+     "authors": [
+      "雷次宗"
+     ]
+    },
+    {
+     "id": "d59f24mi6sqr",
+     "authors": [
+      "鄭眾"
+     ]
+    },
+    {
+     "id": "d59f27ybr7cw",
+     "authors": [
+      "干寶"
+     ]
+    },
+    {
+     "id": "d59f2puria6a",
+     "authors": [
+      "任□古"
+     ]
+    },
+    {
+     "id": "d59f2hdjlath",
+     "authors": [
+      "鄭鑑"
+     ]
+    },
+    {
+     "id": "d59f27y3n18k",
+     "authors": [
+      "向秀"
+     ]
+    },
+    {
+     "id": "d59f27xeo1s3",
+     "authors": [
+      "荀輝"
+     ]
+    },
+    {
+     "id": "d59f284xm1a8",
+     "authors": [
+      "權㑹"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（36 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2pv5v7r6",
+   "title": "徐整默注",
+   "hbcc_entry_id": "10012021000488",
+   "hbcc_summary": "孝經默注 2卷 (吳)徐整注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "徐整",
+   "existing_candidates": [
+    {
+     "id": "d59f27y4kqv4",
+     "authors": [
+      "殷仲文"
+     ]
+    },
+    {
+     "id": "d59f2pvn19mp",
+     "authors": [
+      "虞盤佐"
+     ]
+    },
+    {
+     "id": "d59f2q3mitc0",
+     "authors": [
+      "殷叔道"
+     ]
+    },
+    {
+     "id": "d59f27xyyh36",
+     "authors": [
+      "謝萬"
+     ]
+    },
+    {
+     "id": "d59f2pt70c1u",
+     "authors": [
+      "孔光"
+     ]
+    },
+    {
+     "id": "d59f2q0lkzy9",
+     "authors": [
+      "魏克己"
+     ]
+    },
+    {
+     "id": "d59f28minawx",
+     "authors": [
+      "玄宗"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（7 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2q1ya0oy",
+   "title": "劉仲融注",
+   "hbcc_entry_id": "10012021002260",
+   "hbcc_summary": "老子注 2卷 (晉 )劉仲融注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "劉仲融",
+   "existing_candidates": [
+    {
+     "id": "d59f2gmmzx8h",
+     "authors": [
+      "張慶之"
+     ]
+    },
+    {
+     "id": "d59f24mkzxms",
+     "authors": [
+      "想爾"
+     ]
+    },
+    {
+     "id": "d59f27tu29z6",
+     "authors": [
+      "羅摩"
+     ]
+    },
+    {
+     "id": "d59f27u2hon5",
+     "authors": []
+    },
+    {
+     "id": "d59f27u4zkzm",
+     "authors": [
+      "劉黃老"
+     ]
+    },
+    {
+     "id": "d59f2ghwkcn4",
+     "authors": [
+      "林志堅"
+     ]
+    },
+    {
+     "id": "d59f27t2le6b",
+     "authors": [
+      "孟康"
+     ]
+    },
+    {
+     "id": "d59f27twvev8",
+     "authors": [
+      "羊祜"
+     ]
+    },
+    {
+     "id": "d59f2j4n37r6",
+     "authors": [
+      "陳岳"
+     ]
+    },
+    {
+     "id": "d59f24lyiuiu",
+     "authors": [
+      "馬融"
+     ]
+    },
+    {
+     "id": "d59f27uuwa2p",
+     "authors": [
+      "張嗣"
+     ]
+    },
+    {
+     "id": "d59f27wog45d",
+     "authors": [
+      "鄧粲"
+     ]
+    },
+    {
+     "id": "d59f2mhzldz5",
+     "authors": [
+      "陳澧"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（13 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  },
+  {
+   "id": "d59f2pwbdrsw",
+   "title": "王尚注",
+   "hbcc_entry_id": "10012021002257",
+   "hbcc_summary": "老子注 2卷 (東晉)王尚注釋 亦見《新唐書·藝文志》",
+   "hbcc_author": "王尚",
+   "existing_candidates": [
+    {
+     "id": "d59f2gmmzx8h",
+     "authors": [
+      "張慶之"
+     ]
+    },
+    {
+     "id": "d59f24mkzxms",
+     "authors": [
+      "想爾"
+     ]
+    },
+    {
+     "id": "d59f27tu29z6",
+     "authors": [
+      "羅摩"
+     ]
+    },
+    {
+     "id": "d59f27u2hon5",
+     "authors": []
+    },
+    {
+     "id": "d59f27u4zkzm",
+     "authors": [
+      "劉黃老"
+     ]
+    },
+    {
+     "id": "d59f2ghwkcn4",
+     "authors": [
+      "林志堅"
+     ]
+    },
+    {
+     "id": "d59f27t2le6b",
+     "authors": [
+      "孟康"
+     ]
+    },
+    {
+     "id": "d59f27twvev8",
+     "authors": [
+      "羊祜"
+     ]
+    },
+    {
+     "id": "d59f2j4n37r6",
+     "authors": [
+      "陳岳"
+     ]
+    },
+    {
+     "id": "d59f24lyiuiu",
+     "authors": [
+      "馬融"
+     ]
+    },
+    {
+     "id": "d59f27uuwa2p",
+     "authors": [
+      "張嗣"
+     ]
+    },
+    {
+     "id": "d59f27wog45d",
+     "authors": [
+      "鄧粲"
+     ]
+    },
+    {
+     "id": "d59f2mhzldz5",
+     "authors": [
+      "陳澧"
+     ]
+    }
+   ],
+   "abstain_reason": "多重候選（13 條），本條標題多為經典（老子、周易、論語、孝經等）之注疏，歷代注家眾多，屬磁鐵型書名，候選之姓名與本條 HBCC 撰人全不相符，任一候選皆難遽定；需逐候選讀其上下文（全卷著錄次序、部類）與本條 indexed_by 之其他線索方能裁定，本輪時間所限未及逐條核對，原樣移入本檔待下一輪處理。"
+  }
+ ],
+ "C_棄權與未查22條": [
+  {
+   "id": "d59f2qak8nwh",
+   "title": "光瑤注僧肇論",
+   "hbcc_entry_id": "10012021002670",
+   "hbcc_summary": "僧肇論 2卷 光瑶注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-3",
+   "parsed_title": "僧肇論",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "光瑶",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f27v3y5tt",
+     "/home/user/book-index/Work/5/t/t/d59f27v3y5tt-僧肇論.json"
+    ]
+   ],
+   "abstain_reason": "候選「僧肇論」為僧肇自著原典（authors=[僧肇,撰]），本條（新唐志/HBCC）「光瑤注僧肇論」係光瑤之注本，依 SKILL〈「注」是另一部書〉之戒，注本自為一書，不可繫入原典之候選，不併。"
+  },
+  {
+   "id": "d59f28n3k7ba",
+   "title": "荀子楊倞注",
+   "hbcc_entry_id": "10012021002205",
+   "hbcc_summary": "荀子 20卷 (唐)楊倞注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "荀子",
+   "parsed_resp": [
+    {
+     "時代": "唐",
+     "名稱": "楊倞",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 20,
+   "hits": [
+    [
+     "d59ezahp9urk",
+     "/home/user/book-index/Work/u/r/k/d59ezahp9urk-荀子.json"
+    ]
+   ],
+   "abstain_reason": "候選「荀子」為荀況原典（authors=[荀況,撰]），本條「荀子楊倞注」係楊倞（唐）著名之注本（現存最早、最重要之荀子注本），注本自為一書，不可繫入原典，不併。建議下一輪另立「荀子楊倞注」一條。"
+  },
+  {
+   "id": "d59f27xhsf7m",
+   "title": "春秋經士燮注",
+   "hbcc_entry_id": "10012021000356",
+   "hbcc_summary": "春秋經 11卷 (東漢)士燮注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-3",
+   "parsed_title": "春秋經",
+   "parsed_resp": [
+    {
+     "時代": "東漢",
+     "名稱": "士燮",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 11,
+   "hits": [
+    [
+     "d59f2evsjw1u",
+     "/home/user/book-index/Work/w/1/u/d59f2evsjw1u-春秋經.json"
+    ]
+   ],
+   "abstain_reason": "候選「春秋經」為孔子所作之經（authors=[孔子,撰]），本條「春秋經士燮注」係士燮（東漢）之注本，注本自為一書，不可繫入原典，不併。"
+  },
+  {
+   "id": "d59f28mnbv29",
+   "title": "公孫羅注文選",
+   "hbcc_entry_id": "10012021005136",
+   "hbcc_summary": "五臣注文選 30卷 劉承注釋 祖男良注釋 (唐)吕延祚編 (唐)吕延濟注釋 (唐)張銑注釋 (唐)吕向注釋 (唐)李周翰注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-3",
+   "parsed_title": "五臣注文選",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "劉承",
+     "方式": "注釋"
+    },
+    {
+     "時代": "",
+     "名稱": "祖男良",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕延祚",
+     "方式": "編"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕延濟",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "張銑",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕向",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "李周翰",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 30,
+   "hits": [
+    [
+     "d59f2pw7y5ts",
+     "/home/user/book-index/Work/5/t/s/d59f2pw7y5ts-五臣注文選.json"
+    ]
+   ],
+   "abstain_reason": "候選「五臣注文選」係呂延濟等五臣之注本（呂延濟／劉良／張銑／呂向／李周翰），與本條（新唐志/HBCC）「公孫羅注文選」（公孫羅之注本）為互不相干之另一注家傳統，不可混併，不併。"
+  },
+  {
+   "id": "d59f2pxs4vlu",
+   "title": "李善注文選",
+   "hbcc_entry_id": "10012021005136",
+   "hbcc_summary": "五臣注文選 30卷 劉承注釋 祖男良注釋 (唐)吕延祚編 (唐)吕延濟注釋 (唐)張銑注釋 (唐)吕向注釋 (唐)李周翰注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "五臣注文選",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "劉承",
+     "方式": "注釋"
+    },
+    {
+     "時代": "",
+     "名稱": "祖男良",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕延祚",
+     "方式": "編"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕延濟",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "張銑",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "吕向",
+     "方式": "注釋"
+    },
+    {
+     "時代": "唐",
+     "名稱": "李周翰",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 30,
+   "hits": [
+    [
+     "d59f2pw7y5ts",
+     "/home/user/book-index/Work/5/t/s/d59f2pw7y5ts-五臣注文選.json"
+    ]
+   ],
+   "abstain_reason": "候選「五臣注文選」係呂延濟等五臣之注本，與本條（新唐志/HBCC）「李善注文選」（李善注，文選學史上最重要、最通行之注本）為互不相干之另一注家傳統，不可混併，不併。建議下一輪另立「李善注文選」一條——此書庫中理當有獨立著錄。"
+  },
+  {
+   "id": "d59f2pucu4n6",
+   "title": "玄宗注金剛般若經",
+   "hbcc_entry_id": "10012021002655",
+   "hbcc_summary": "御注金剛般若經疏宣演 3卷 道氤撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "御注金剛般若經疏宣演",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "道氤",
+     "方式": "撰"
+    }
+   ],
+   "juan": 3,
+   "hits": [
+    [
+     "d59f2q424p35",
+     "/home/user/book-index/Work/p/3/5/d59f2q424p35-御注金剛般若經疏宣演.json"
+    ]
+   ],
+   "abstain_reason": "HBCC 本條（entry_id 對應之 summary）解出之書名／撰人（御注金剛般若經疏宣演／道氤）與本條自身標題「玄宗注金剛般若經」全不相應，且與另一候選 d59f2px3h4ow（玄範注金剛般若經）解出結果完全相同——恐 HBCC 此二筆記錄本身即近似/相鄰之不同著錄，或本條原新唐志之著錄語需回查整理本原文核實斷句，不宜逕併，存證待查。"
+  },
+  {
+   "id": "d59f2px3h4ow",
+   "title": "玄範注金剛般若經",
+   "hbcc_entry_id": "10012021002655",
+   "hbcc_summary": "御注金剛般若經疏宣演 3卷 道氤撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "御注金剛般若經疏宣演",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "道氤",
+     "方式": "撰"
+    }
+   ],
+   "juan": 3,
+   "hits": [
+    [
+     "d59f2q424p35",
+     "/home/user/book-index/Work/p/3/5/d59f2q424p35-御注金剛般若經疏宣演.json"
+    ]
+   ],
+   "abstain_reason": "同上一條（HBCC 解出結果與「玄宗注金剛般若經」全同），存證待查 book-text 原文出處節。"
+  },
+  {
+   "id": "d59f2q4592bl",
+   "title": "徐乾注",
+   "hbcc_entry_id": "10012021003150",
+   "hbcc_summary": "都利聿斯經 2卷 李彌乾注釋 璩公譯 亦見《新唐書·藝文志》",
+   "method": "strip-head-1",
+   "parsed_title": "都利聿斯經",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "李彌乾",
+     "方式": "注釋"
+    },
+    {
+     "時代": "",
+     "名稱": "璩公",
+     "方式": "譯"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2q1d1vr6",
+     "/home/user/book-index/Work/v/r/6/d59f2q1d1vr6-都利聿斯經.json"
+    ]
+   ],
+   "abstain_reason": "本條自身之新唐志著錄語為「徐乾注」，與 HBCC 本條解出之書名／撰人（都利聿斯經／李彌乾注、璩公譯）完全不相應（人名「徐乾」與「李彌乾」形似而非同一撰人結構），懷疑本條之著錄原文遠比「徐乾注」複雜（都利聿斯經是外來曆算書，譯者、注者常並見），需回查整理本原文核實，不宜逕併，存證待查。"
+  },
+  {
+   "id": "d59f2q2n90jk",
+   "title": "宋高祖兵法要略",
+   "hbcc_entry_id": "10012021003179",
+   "hbcc_summary": "兵法要略 1卷 (劉宋)劉裕撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3",
+   "parsed_title": "兵法要略",
+   "parsed_resp": [
+    {
+     "時代": "劉宋",
+     "名稱": "劉裕",
+     "方式": "撰"
+    }
+   ],
+   "juan": 1,
+   "hits": [
+    [
+     "d59f27sdxn9e",
+     "/home/user/book-index/Work/n/9/e/d59f27sdxn9e-兵法要略.json"
+    ],
+    [
+     "1ex1kj7vutnpa",
+     "/home/user/book-index-draft/.claude/worktrees/agent-a75bae01f01722fc2/Work/n/p/a/1ex1kj7vutnpa-兵法要畧.json"
+    ]
+   ],
+   "abstain_reason": "兩候選（魏文帝曹丕《兵法要略》十卷、明郭應響《兵法要畧》）皆與本條（新唐志/HBCC「宋高祖劉裕撰」）撰人、時代全不相干，應屬第三部同題異書（劉宋開國之君劉裕），本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f286hsr2a",
+   "title": "王元規音",
+   "hbcc_entry_id": "10012021000404",
+   "hbcc_summary": "左氏音 3卷 (陳)王元規注釋 亦見《新唐書·藝文志》",
+   "method": "strip-tail-1",
+   "parsed_title": "左氏音",
+   "parsed_resp": [
+    {
+     "時代": "陳",
+     "名稱": "王元規",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 3,
+   "hits": [
+    [
+     "d59f2pyi1kht",
+     "/home/user/book-index/Work/k/h/t/d59f2pyi1kht-左氏音.json"
+    ],
+    [
+     "d59f2pwt6add",
+     "/home/user/book-index/Work/a/d/d/d59f2pwt6add-左氏音.json"
+    ]
+   ],
+   "abstain_reason": "本條（新唐志/HBCC「王元規（陳）注釋左氏音」）與兩候選（左氏音·十二卷本、音·三卷本，皆 authors=[]、皆出新唐志自身）孰為對應難以判定——王元規、孫邈（另一候選 d59f2pxtp1xe 同）二人皆可能分屬十二卷本或三卷本，證據不足以逐一指實，本輪不併，存證俟考。"
+  },
+  {
+   "id": "d59f28j5j85n",
+   "title": "王玄度注毛詩",
+   "hbcc_entry_id": "10012021000141",
+   "hbcc_summary": "集注毛詩 24卷 (蕭梁)崔靈恩撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3",
+   "parsed_title": "集注毛詩",
+   "parsed_resp": [
+    {
+     "時代": "蕭梁",
+     "名稱": "崔靈恩",
+     "方式": "撰"
+    }
+   ],
+   "juan": 24,
+   "hits": [
+    [
+     "d59f2846rmkh",
+     "/home/user/book-index/Work/m/k/h/d59f2846rmkh-集注毛詩.json"
+    ],
+    [
+     "d59f283yc7wj",
+     "/home/user/book-index/Work/7/w/j/d59f283yc7wj-毛詩集注崔靈恩注.json"
+    ]
+   ],
+   "abstain_reason": "HBCC 本條解出之書名／撰人（集注毛詩／崔靈恩，蕭梁）與本條自身標題「王玄度注毛詩」全不相應，恐 HBCC entry 或本條原新唐志著錄語需回查整理本原文核實，不宜逕併候選（集注毛詩、毛詩集注崔靈恩注，二候選皆屬崔靈恩之書，與王玄度無涉），存證待查。"
+  },
+  {
+   "id": "d59f2pxtp1xe",
+   "title": "孫邈音",
+   "hbcc_entry_id": "10012021000403",
+   "hbcc_summary": "左氏音 3卷 孫邈注釋 亦見《新唐書·藝文志》",
+   "method": "strip-tail-1",
+   "parsed_title": "左氏音",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "孫邈",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 3,
+   "hits": [
+    [
+     "d59f2pyi1kht",
+     "/home/user/book-index/Work/k/h/t/d59f2pyi1kht-左氏音.json"
+    ],
+    [
+     "d59f2pwt6add",
+     "/home/user/book-index/Work/a/d/d/d59f2pwt6add-左氏音.json"
+    ]
+   ],
+   "abstain_reason": "同 d59f286hsr2a——本條（新唐志/HBCC「孫邈注釋左氏音」）與兩候選（左氏音·十二卷本、音·三卷本）孰為對應難以判定，存證俟考。"
+  },
+  {
+   "id": "d59f2pz3kyde",
+   "title": "王子顒脈經",
+   "hbcc_entry_id": "10012021003597",
+   "hbcc_summary": "脉經 2卷 王子顒撰 亦見《新唐書·藝文志》",
+   "method": "strip-tail-2",
+   "parsed_title": "脉經",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "王子顒",
+     "方式": "撰"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2prfbx1c",
+     "/home/user/book-index/Work/x/1/c/d59f2prfbx1c-脈經.json"
+    ],
+    [
+     "d59f27x4zoxs",
+     "/home/user/book-index/Work/o/x/s/d59f27x4zoxs-脈經.json"
+    ],
+    [
+     "d59f2pr5nksi",
+     "/home/user/book-index/Work/k/s/i/d59f2pr5nksi-脈經.json"
+    ]
+   ],
+   "abstain_reason": "三候選（脈經·空、王叔和撰、徐氏撰）皆與本條「王子顒」不合——王叔和《脈經》為傳世名著之標準著錄，與本條顯非同書，應屬第三部同題異書，本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f27y72n7l",
+   "title": "莊子郭象注",
+   "hbcc_entry_id": "10012021002294",
+   "hbcc_summary": "莊子 10卷 (西晉)郭象注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "莊子",
+   "parsed_resp": [
+    {
+     "時代": "西晉",
+     "名稱": "郭象",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 10,
+   "hits": [
+    [
+     "d59f27xvu3nk",
+     "/home/user/book-index/Work/3/n/k/d59f27xvu3nk-莊子向秀注.json"
+    ],
+    [
+     "d59f27yg4iyr",
+     "/home/user/book-index/Work/i/y/r/d59f27yg4iyr-莊子崔譔注.json"
+    ],
+    [
+     "d59ezaj2wl4w",
+     "/home/user/book-index/Work/l/4/w/d59ezaj2wl4w-莊子.json"
+    ],
+    [
+     "d59f282r9gxv",
+     "/home/user/book-index/Work/g/x/v/d59f282r9gxv-莊子.json"
+    ],
+    [
+     "d59f282qbrb5",
+     "/home/user/book-index/Work/r/b/5/d59f282qbrb5-莊子司馬彪注.json"
+    ]
+   ],
+   "abstain_reason": "五候選（向秀注、崔譔注、莊子原典×2、司馬彪注）皆非「郭象注」——郭象注莊子為魏晉玄學最重要、最通行之標準注本，庫中竟無專條，本輪不併，建議下一輪另立「莊子郭象注」。"
+  },
+  {
+   "id": "d59f20a3cxs0",
+   "title": "孟子趙岐注",
+   "hbcc_entry_id": "10012021002123",
+   "hbcc_summary": "孟子 14卷 (戰國時期)孟軻撰 (東漢)趙岐注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "孟子",
+   "parsed_resp": [
+    {
+     "時代": "戰國時期",
+     "名稱": "孟軻",
+     "方式": "撰"
+    },
+    {
+     "時代": "東漢",
+     "名稱": "趙岐",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 14,
+   "hits": [
+    [
+     "d59f28n623nk",
+     "/home/user/book-index/Work/3/n/k/d59f28n623nk-孟子陸善經注.json"
+    ],
+    [
+     "d59f24mhvk76",
+     "/home/user/book-index/Work/k/7/6/d59f24mhvk76-孟子鄭玄注.json"
+    ],
+    [
+     "d59f27yhdh4z",
+     "/home/user/book-index/Work/h/4/z/d59f27yhdh4z-孟子綦毋邃注.json"
+    ],
+    [
+     "d59f23npupdw",
+     "/home/user/book-index/Work/p/d/w/d59f23npupdw-孟子劉熙注.json"
+    ],
+    [
+     "d59ezajwvda8",
+     "/home/user/book-index/Work/d/a/8/d59ezajwvda8-孟子.json"
+    ]
+   ],
+   "abstain_reason": "五候選（陸善經注、鄭玄注、綦毋邃注、劉熙注、孟子原典）皆非「趙岐注」——趙岐《孟子章句》為現存最早完整之孟子注本，最為重要，庫中竟無專條，本輪不併，建議下一輪另立「孟子趙岐注」。"
+  },
+  {
+   "id": "d59f2pznvd36",
+   "title": "玄覺永嘉集",
+   "hbcc_entry_id": "10012021002666",
+   "hbcc_summary": "永嘉集 10卷 玄覺撰 魏靖編 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "永嘉集",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "玄覺",
+     "方式": "撰"
+    },
+    {
+     "時代": "",
+     "名稱": "魏靖",
+     "方式": "編"
+    }
+   ],
+   "juan": 10,
+   "hits": [
+    [
+     "d59f2hk8vqpu",
+     "/home/user/book-index/Work/q/p/u/d59f2hk8vqpu-永嘉集.json"
+    ],
+    [
+     "d59f2hhcb8qq",
+     "/home/user/book-index/Work/8/q/q/d59f2hhcb8qq-永嘉集.json"
+    ],
+    [
+     "d59f2q4ya51d",
+     "/home/user/book-index/Work/5/1/d/d59f2q4ya51d-永嘉集.json"
+    ]
+   ],
+   "abstain_reason": "三候選（黃仁榮編、李知己編、空）皆與本條（玄覺撰、魏靖編）不合，「永嘉集」為地名衍生之通稱書名（磁鐵型），空之候選雖可疑為同書，然其 related_works 已與另二候選並列為互異之書，證據不足以指實，本輪不併，存證俟考。"
+  },
+  {
+   "id": "d59f2q2rb3ls",
+   "title": "孫子沈友注",
+   "hbcc_entry_id": "10012021003169",
+   "hbcc_summary": "孫子 2卷 (【春秋】齊)孫武撰 (吳)沈友注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "孫子",
+   "parsed_resp": [
+    {
+     "時代": "【春秋】齊",
+     "名稱": "孫武",
+     "方式": "撰"
+    },
+    {
+     "時代": "吳",
+     "名稱": "沈友",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2ew0o268",
+     "/home/user/book-index/Work/2/6/8/d59f2ew0o268-孫子魏武帝注.json"
+    ],
+    [
+     "d59f27xzw6pv",
+     "/home/user/book-index/Work/6/p/v/d59f27xzw6pv-孫子.json"
+    ],
+    [
+     "d59f27xbjocj",
+     "/home/user/book-index/Work/o/c/j/d59f27xbjocj-孫子.json"
+    ],
+    [
+     "d59f2q7izls0",
+     "/home/user/book-index/Work/l/s/0/d59f2q7izls0-孫子.json"
+    ],
+    [
+     "d59ezai72dq8",
+     "/home/user/book-index/Work/d/q/8/d59ezai72dq8-孫子.json"
+    ]
+   ],
+   "abstain_reason": "五候選（孫子魏武帝注、孫子×2·孫武撰、孫綽注、蕭古注）皆非「沈友注」——沈友為三國吳人，本庫已知曾有佚文誤入他書之整理事故（見《反韓非》溢文清算），然沈友本人之《孫子》注獨立條全庫未見，本輪不併，建議下一輪另立「孫子沈友注」。"
+  },
+  {
+   "id": "d59f286bv8qr",
+   "title": "盧景裕、梁曠等注",
+   "hbcc_entry_id": "10012021002272",
+   "hbcc_summary": "老子注 2卷 梁曠注釋 (北魏)盧景裕注釋 亦見《新唐書·藝文志》",
+   "method": "strip-tail-4",
+   "parsed_title": "老子注",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "梁曠",
+     "方式": "注釋"
+    },
+    {
+     "時代": "北魏",
+     "名稱": "盧景裕",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2gmmzx8h",
+     "/home/user/book-index/Work/x/8/h/d59f2gmmzx8h-老子注.json"
+    ],
+    [
+     "d59f24mkzxms",
+     "/home/user/book-index/Work/x/m/s/d59f24mkzxms-老子注.json"
+    ],
+    [
+     "d59f27tu29z6",
+     "/home/user/book-index/Work/9/z/6/d59f27tu29z6-老子注.json"
+    ],
+    [
+     "d59f27u2hon5",
+     "/home/user/book-index/Work/o/n/5/d59f27u2hon5-老子注.json"
+    ],
+    [
+     "d59f27u4zkzm",
+     "/home/user/book-index/Work/k/z/m/d59f27u4zkzm-老子注.json"
+    ],
+    [
+     "d59f2ghwkcn4",
+     "/home/user/book-index/Work/c/n/4/d59f2ghwkcn4-老子注.json"
+    ],
+    [
+     "d59f27t2le6b",
+     "/home/user/book-index/Work/e/6/b/d59f27t2le6b-老子注.json"
+    ],
+    [
+     "d59f27twvev8",
+     "/home/user/book-index/Work/e/v/8/d59f27twvev8-老子注.json"
+    ],
+    [
+     "d59f2j4n37r6",
+     "/home/user/book-index/Work/7/r/6/d59f2j4n37r6-老子注.json"
+    ],
+    [
+     "d59f24lyiuiu",
+     "/home/user/book-index/Work/u/i/u/d59f24lyiuiu-老子注.json"
+    ],
+    [
+     "d59f27uuwa2p",
+     "/home/user/book-index/Work/a/2/p/d59f27uuwa2p-老子注.json"
+    ],
+    [
+     "d59f27wog45d",
+     "/home/user/book-index/Work/4/5/d/d59f27wog45d-老子注.json"
+    ],
+    [
+     "d59f27t95dkx",
+     "/home/user/book-index/Work/d/k/x/d59f27t95dkx-老子王弼注.json"
+    ],
+    [
+     "d59f2mhzldz5",
+     "/home/user/book-index/Work/d/z/5/d59f2mhzldz5-老子注.json"
+    ]
+   ],
+   "abstain_reason": "候選群（老子注·14 家：張慶之、想爾、羅摩、劉黃老、林志堅、孟康、羊祜、陳岳、馬融、張嗣、鄧粲、陳澧、王弼等）皆非「盧景裕、梁曠」——盧景裕（北魏）、梁曠皆信史所載《老子》注家，庫中竟無專條，本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f2q46t8n4",
+   "title": "僧惠琳注",
+   "hbcc_entry_id": "10012021002265",
+   "hbcc_summary": "老子注 2卷 (劉宋)僧慧琳注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "老子注",
+   "parsed_resp": [
+    {
+     "時代": "劉宋",
+     "名稱": "僧慧琳",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2gmmzx8h",
+     "/home/user/book-index/Work/x/8/h/d59f2gmmzx8h-老子注.json"
+    ],
+    [
+     "d59f24mkzxms",
+     "/home/user/book-index/Work/x/m/s/d59f24mkzxms-老子注.json"
+    ],
+    [
+     "d59f27tu29z6",
+     "/home/user/book-index/Work/9/z/6/d59f27tu29z6-老子注.json"
+    ],
+    [
+     "d59f27u2hon5",
+     "/home/user/book-index/Work/o/n/5/d59f27u2hon5-老子注.json"
+    ],
+    [
+     "d59f27u4zkzm",
+     "/home/user/book-index/Work/k/z/m/d59f27u4zkzm-老子注.json"
+    ],
+    [
+     "d59f2ghwkcn4",
+     "/home/user/book-index/Work/c/n/4/d59f2ghwkcn4-老子注.json"
+    ],
+    [
+     "d59f27t2le6b",
+     "/home/user/book-index/Work/e/6/b/d59f27t2le6b-老子注.json"
+    ],
+    [
+     "d59f27twvev8",
+     "/home/user/book-index/Work/e/v/8/d59f27twvev8-老子注.json"
+    ],
+    [
+     "d59f2j4n37r6",
+     "/home/user/book-index/Work/7/r/6/d59f2j4n37r6-老子注.json"
+    ],
+    [
+     "d59f24lyiuiu",
+     "/home/user/book-index/Work/u/i/u/d59f24lyiuiu-老子注.json"
+    ],
+    [
+     "d59f27uuwa2p",
+     "/home/user/book-index/Work/a/2/p/d59f27uuwa2p-老子注.json"
+    ],
+    [
+     "d59f27wog45d",
+     "/home/user/book-index/Work/4/5/d/d59f27wog45d-老子注.json"
+    ],
+    [
+     "d59f27t95dkx",
+     "/home/user/book-index/Work/d/k/x/d59f27t95dkx-老子王弼注.json"
+    ],
+    [
+     "d59f2mhzldz5",
+     "/home/user/book-index/Work/d/z/5/d59f2mhzldz5-老子注.json"
+    ]
+   ],
+   "abstain_reason": "候選群（同上老子注 14 家）皆非「僧惠琳（慧琳）」——劉宋僧慧琳（作《均善論》「白黑論」聞名）之《老子》注庫中竟無專條，本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f28mz6vpd",
+   "title": "老子辟閭仁諝注",
+   "hbcc_entry_id": "10012021002323",
+   "hbcc_summary": "老子 2卷 辟閭仁諝注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "老子",
+   "parsed_resp": [
+    {
+     "時代": "",
+     "名稱": "辟閭仁諝",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2pycfb41",
+     "/home/user/book-index/Work/b/4/1/d59f2pycfb41-老子樹鐘山注.json"
+    ],
+    [
+     "d59f284a78jn",
+     "/home/user/book-index/Work/8/j/n/d59f284a78jn-老子釋惠嚴注.json"
+    ],
+    [
+     "d59f27yzh8n6",
+     "/home/user/book-index/Work/8/n/6/d59f27yzh8n6-老子袁真注.json"
+    ],
+    [
+     "d59f285b18n6",
+     "/home/user/book-index/Work/8/n/6/d59f285b18n6-老子道德經品.json"
+    ],
+    [
+     "d59f27yzh8n7",
+     "/home/user/book-index/Work/8/n/7/d59f27yzh8n7-老子鳩摩羅什注.json"
+    ],
+    [
+     "d59f28mdni82",
+     "/home/user/book-index/Work/i/8/2/d59f28mdni82-老子傅奕注.json"
+    ],
+    [
+     "d59f1ire258g",
+     "/home/user/book-index/Work/5/8/g/d59f1ire258g-老子河上公章句.json"
+    ],
+    [
+     "d59f28nkq96p",
+     "/home/user/book-index/Work/9/6/p/d59f28nkq96p-老子成玄英注.json"
+    ],
+    [
+     "d59f27y8y2gx",
+     "/home/user/book-index/Work/2/g/x/d59f27y8y2gx-老子羊祜注.json"
+    ],
+    [
+     "d59f2pui569u",
+     "/home/user/book-index/Work/6/9/u/d59f2pui569u-老子湘注.json"
+    ],
+    [
+     "d59f2840ivpd",
+     "/home/user/book-index/Work/v/p/d/d59f2840ivpd-老子嗣古注.json"
+    ],
+    [
+     "d59f28407n5w",
+     "/home/user/book-index/Work/n/5/w/d59f28407n5w-老子陶弘景注.json"
+    ],
+    [
+     "d59f28ngzeo3",
+     "/home/user/book-index/Work/e/o/3/d59f28ngzeo3-老子楊上善注.json"
+    ],
+    [
+     "d59f28ml579g",
+     "/home/user/book-index/Work/7/9/g/d59f28ml579g-老子.json"
+    ],
+    [
+     "d59f2pxpmzgg",
+     "/home/user/book-index/Work/z/g/g/d59f2pxpmzgg-老子程韶集注.json"
+    ],
+    [
+     "d59f27ybfytd",
+     "/home/user/book-index/Work/y/t/d/d59f27ybfytd-老子張憑注.json"
+    ],
+    [
+     "d59f2qajaygw",
+     "/home/user/book-index/Work/y/g/w/d59f2qajaygw-老子王尚注.json"
+    ],
+    [
+     "d59f2q81puyp",
+     "/home/user/book-index/Work/u/y/p/d59f2q81puyp-老子釋義盈注.json"
+    ],
+    [
+     "d59f27xezabn",
+     "/home/user/book-index/Work/a/b/n/d59f27xezabn-老子孫登注.json"
+    ],
+    [
+     "d59f27xpa48z",
+     "/home/user/book-index/Work/4/8/z/d59f27xpa48z-老子蜀才注.json"
+    ],
+    [
+     "d59f27xiq4u8",
+     "/home/user/book-index/Work/4/u/8/d59f27xiq4u8-老子鐘會注.json"
+    ],
+    [
+     "d59f27t95dkx",
+     "/home/user/book-index/Work/d/k/x/d59f27t95dkx-老子王弼注.json"
+    ],
+    [
+     "d59f2q6dh1j4",
+     "/home/user/book-index/Work/1/j/4/d59f2q6dh1j4-老子李允願注.json"
+    ]
+   ],
+   "abstain_reason": "候選群（老子注·23 家：樹鐘山、釋惠嚴、袁真、傅奕、河上公、成玄英、羊祜、湘、陳嗣古、陶弘景、楊上善、馮朝隱、程韶、張憑、王尚、釋義盈、孫登、蜀才、鐘會、李允願等）皆非「辟閭仁諝」，庫中竟無專條，本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f27yzh8n7",
+   "title": "老子鳩摩羅什注",
+   "hbcc_entry_id": "10012021002267",
+   "hbcc_summary": "老子注 2卷 (【十六國】後秦)鳩摩羅什注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "老子注",
+   "parsed_resp": [
+    {
+     "時代": "【十六國】後秦",
+     "名稱": "鳩摩羅什",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 2,
+   "hits": [
+    [
+     "d59f2gmmzx8h",
+     "/home/user/book-index/Work/x/8/h/d59f2gmmzx8h-老子注.json"
+    ],
+    [
+     "d59f24mkzxms",
+     "/home/user/book-index/Work/x/m/s/d59f24mkzxms-老子注.json"
+    ],
+    [
+     "d59f27tu29z6",
+     "/home/user/book-index/Work/9/z/6/d59f27tu29z6-老子注.json"
+    ],
+    [
+     "d59f27u2hon5",
+     "/home/user/book-index/Work/o/n/5/d59f27u2hon5-老子注.json"
+    ],
+    [
+     "d59f27u4zkzm",
+     "/home/user/book-index/Work/k/z/m/d59f27u4zkzm-老子注.json"
+    ],
+    [
+     "d59f2ghwkcn4",
+     "/home/user/book-index/Work/c/n/4/d59f2ghwkcn4-老子注.json"
+    ],
+    [
+     "d59f27t2le6b",
+     "/home/user/book-index/Work/e/6/b/d59f27t2le6b-老子注.json"
+    ],
+    [
+     "d59f27twvev8",
+     "/home/user/book-index/Work/e/v/8/d59f27twvev8-老子注.json"
+    ],
+    [
+     "d59f2j4n37r6",
+     "/home/user/book-index/Work/7/r/6/d59f2j4n37r6-老子注.json"
+    ],
+    [
+     "d59f24lyiuiu",
+     "/home/user/book-index/Work/u/i/u/d59f24lyiuiu-老子注.json"
+    ],
+    [
+     "d59f27uuwa2p",
+     "/home/user/book-index/Work/a/2/p/d59f27uuwa2p-老子注.json"
+    ],
+    [
+     "d59f27wog45d",
+     "/home/user/book-index/Work/4/5/d/d59f27wog45d-老子注.json"
+    ],
+    [
+     "d59f27t95dkx",
+     "/home/user/book-index/Work/d/k/x/d59f27t95dkx-老子王弼注.json"
+    ],
+    [
+     "d59f2mhzldz5",
+     "/home/user/book-index/Work/d/z/5/d59f2mhzldz5-老子注.json"
+    ]
+   ],
+   "abstain_reason": "候選群（同 d59f286bv8qr 老子注 14 家）皆非「鳩摩羅什」——後秦鳩摩羅什（著名譯經家）之《老子》注庫中竟無專條，本輪不併，建議下一輪另立。"
+  },
+  {
+   "id": "d59f2psnyvb6",
+   "title": "王弼、韓康伯注",
+   "hbcc_entry_id": "10012021000034",
+   "hbcc_summary": "周易注 10卷 (魏)王弼注釋 (晉 )韓康伯注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2",
+   "parsed_title": "周易注",
+   "parsed_resp": [
+    {
+     "時代": "魏",
+     "名稱": "王弼",
+     "方式": "注釋"
+    },
+    {
+     "時代": "晉",
+     "名稱": "韓康伯",
+     "方式": "注釋"
+    }
+   ],
+   "juan": 10,
+   "hits": [
+    [
+     "d59f27ye93pd",
+     "/home/user/book-index/Work/3/p/d/d59f27ye93pd-周易注.json"
+    ],
+    [
+     "d59f2hepf3lv",
+     "/home/user/book-index/Work/3/l/v/d59f2hepf3lv-周易注.json"
+    ],
+    [
+     "d59f283vj30j",
+     "/home/user/book-index/Work/3/0/j/d59f283vj30j-周易何胤注.json"
+    ],
+    [
+     "d59f2nd6e3uq",
+     "/home/user/book-index/Work/3/u/q/d59f2nd6e3uq-周易注.json"
+    ],
+    [
+     "d59f283vubk0",
+     "/home/user/book-index/Work/b/k/0/d59f283vubk0-周易姚規注.json"
+    ],
+    [
+     "d59f27y2pblv",
+     "/home/user/book-index/Work/b/l/v/d59f27y2pblv-周易注.json"
+    ],
+    [
+     "d59f2q3igq9t",
+     "/home/user/book-index/Work/q/9/t/d59f2q3igq9t-周易注.json"
+    ],
+    [
+     "d59f284a78jm",
+     "/home/user/book-index/Work/8/j/m/d59f284a78jm-周易注.json"
+    ],
+    [
+     "d59f2mp2xibl",
+     "/home/user/book-index/Work/i/b/l/d59f2mp2xibl-欽定周易注疏.json"
+    ],
+    [
+     "d59f2glam51c",
+     "/home/user/book-index/Work/5/1/c/d59f2glam51c-周易注.json"
+    ],
+    [
+     "d59f2845twxt",
+     "/home/user/book-index/Work/w/x/t/d59f2845twxt-周易伏曼容注.json"
+    ],
+    [
+     "d59f2q6zmwow",
+     "/home/user/book-index/Work/w/o/w/d59f2q6zmwow-周易注.json"
+    ],
+    [
+     "d59f24mofjm3",
+     "/home/user/book-index/Work/j/m/3/d59f24mofjm3-周易虞翻注.json"
+    ],
+    [
+     "d59f2hig9m9v",
+     "/home/user/book-index/Work/m/9/v/d59f2hig9m9v-周易注.json"
+    ],
+    [
+     "d59f24mit9u1",
+     "/home/user/book-index/Work/9/u/1/d59f24mit9u1-周易傳.json"
+    ],
+    [
+     "d59f27xs394w",
+     "/home/user/book-index/Work/9/4/w/d59f27xs394w-周易注.json"
+    ],
+    [
+     "d59f2843n94y",
+     "/home/user/book-index/Work/9/4/y/d59f2843n94y-周易注.json"
+    ],
+    [
+     "d59f2gfms6bk",
+     "/home/user/book-index/Work/6/b/k/d59f2gfms6bk-周易注.json"
+    ],
+    [
+     "d59f27xhh6o0",
+     "/home/user/book-index/Work/6/o/0/d59f27xhh6o0-周易注.json"
+    ],
+    [
+     "d59f23nz7tog",
+     "/home/user/book-index/Work/t/o/g/d59f23nz7tog-周易注.json"
+    ],
+    [
+     "d59f27yxltdv",
+     "/home/user/book-index/Work/t/d/v/d59f27yxltdv-周易姚信注.json"
+    ],
+    [
+     "d59f27yxltdu",
+     "/home/user/book-index/Work/t/d/u/d59f27yxltdu-周易王肅注.json"
+    ],
+    [
+     "d59f28mf7oxx",
+     "/home/user/book-index/Work/o/x/x/d59f28mf7oxx-周易注.json"
+    ],
+    [
+     "d59f2mqpavwg",
+     "/home/user/book-index/Work/v/w/g/d59f2mqpavwg-周易注.json"
+    ],
+    [
+     "d59f27xd3v2a",
+     "/home/user/book-index/Work/v/2/a/d59f27xd3v2a-周易音.json"
+    ],
+    [
+     "d59f2840ivpc",
+     "/home/user/book-index/Work/v/p/c/d59f2840ivpc-周易注.json"
+    ],
+    [
+     "d59f2q9eevpc",
+     "/home/user/book-index/Work/v/p/c/d59f2q9eevpc-周易注疏.json"
+    ],
+    [
+     "d59f28nhlvr9",
+     "/home/user/book-index/Work/v/r/9/d59f28nhlvr9-周易任希古注.json"
+    ],
+    [
+     "d59f2843yhog",
+     "/home/user/book-index/Work/h/o/g/d59f2843yhog-周易費元珪注.json"
+    ],
+    [
+     "d59f27y07f9d",
+     "/home/user/book-index/Work/f/9/d/d59f27y07f9d-周易荀輝注.json"
+    ],
+    [
+     "d59f28457fuo",
+     "/home/user/book-index/Work/f/u/o/d59f28457fuo-周易集解.json"
+    ],
+    [
+     "d59f282rkphd",
+     "/home/user/book-index/Work/p/h/d/d59f282rkphd-周易王弼注.json"
+    ],
+    [
+     "d59f28mr2pl0",
+     "/home/user/book-index/Work/p/l/0/d59f28mr2pl0-周易注.json"
+    ],
+    [
+     "d59f27xonn5t",
+     "/home/user/book-index/Work/n/5/t/d59f27xonn5t-周易注.json"
+    ],
+    [
+     "d59f2hcsfnk0",
+     "/home/user/book-index/Work/n/k/0/d59f2hcsfnk0-周易注.json"
+    ],
+    [
+     "d59f2ptbdnnm",
+     "/home/user/book-index/Work/n/n/m/d59f2ptbdnnm-周易注.json"
+    ],
+    [
+     "d59f27xdqc5e",
+     "/home/user/book-index/Work/c/5/e/d59f27xdqc5e-周易注.json"
+    ],
+    [
+     "d59f27tfpczn",
+     "/home/user/book-index/Work/c/z/n/d59f27tfpczn-周易注.json"
+    ],
+    [
+     "d59f27y80cu8",
+     "/home/user/book-index/Work/c/u/8/d59f27y80cu8-周易注.json"
+    ],
+    [
+     "d59f27xjclxd",
+     "/home/user/book-index/Work/l/x/d/d59f27xjclxd-周易注.json"
+    ],
+    [
+     "d59f2gd1rgg2",
+     "/home/user/book-index/Work/g/g/2/d59f2gd1rgg2-周易注.json"
+    ],
+    [
+     "d59f2hcqvgua",
+     "/home/user/book-index/Work/g/u/a/d59f2hcqvgua-周易注.json"
+    ],
+    [
+     "d59f27y6reo0",
+     "/home/user/book-index/Work/e/o/0/d59f27y6reo0-周易注.json"
+    ],
+    [
+     "d59f284xasqq",
+     "/home/user/book-index/Work/s/q/q/d59f284xasqq-周易注.json"
+    ],
+    [
+     "d59f24mi6sqr",
+     "/home/user/book-index/Work/s/q/r/d59f24mi6sqr-周易注.json"
+    ],
+    [
+     "d59f24moqs5d",
+     "/home/user/book-index/Work/s/5/d/d59f24moqs5d-周易荀爽注.json"
+    ],
+    [
+     "d59f27ybr7cw",
+     "/home/user/book-index/Work/7/c/w/d59f27ybr7cw-周易注.json"
+    ],
+    [
+     "d59f2pzy67lt",
+     "/home/user/book-index/Work/7/l/t/d59f2pzy67lt-周易尹濤注.json"
+    ],
+    [
+     "d59f24mp20p1",
+     "/home/user/book-index/Work/0/p/1/d59f24mp20p1-周易荀爽章句.json"
+    ],
+    [
+     "d59f28nlnytf",
+     "/home/user/book-index/Work/y/t/f/d59f28nlnytf-周易崔覲注.json"
+    ],
+    [
+     "d59f283v7ugx",
+     "/home/user/book-index/Work/u/g/x/d59f283v7ugx-周易崔浩注.json"
+    ],
+    [
+     "d59f2puria6a",
+     "/home/user/book-index/Work/a/6/a/d59f2puria6a-周易注.json"
+    ],
+    [
+     "d59f2hdjlath",
+     "/home/user/book-index/Work/a/t/h/d59f2hdjlath-周易注.json"
+    ],
+    [
+     "d59f23nzuarl",
+     "/home/user/book-index/Work/a/r/l/d59f23nzuarl-周易陸績注.json"
+    ],
+    [
+     "d59f2pu7j401",
+     "/home/user/book-index/Work/4/0/1/d59f2pu7j401-周易王又玄注.json"
+    ],
+    [
+     "d59f28nhx4ao",
+     "/home/user/book-index/Work/4/a/o/d59f28nhx4ao-周易王玄度注.json"
+    ],
+    [
+     "d59f27y3n18k",
+     "/home/user/book-index/Work/1/8/k/d59f27y3n18k-周易注.json"
+    ],
+    [
+     "d59f27xeo1s3",
+     "/home/user/book-index/Work/1/s/3/d59f27xeo1s3-周易注.json"
+    ],
+    [
+     "d59f284xm1a8",
+     "/home/user/book-index/Work/1/a/8/d59f284xm1a8-周易注.json"
+    ]
+   ],
+   "abstain_reason": "本條（王弼、韓康伯注）與周易磁鐵樞紐之兩個候選版本（d59f282rkphd 十卷合編本、d59f27xonn5t 六卷本《周易注》）皆撰人相合，然二者卷數版本有別，難定本條所指究係哪一版本，本輪不併，存證俟考。附帶查出：d59f282rkphd 現有一節誤標「新唐書藝文志」而其 title_info/summary 實為「焦氏周易林十六卷」（與王弼注全不相干），疑為既存之資料錯置，一併記錄供覆核。"
+  }
+ ],
+ "C_title索引查無命中18條_未及查book-text": [
+  {
+   "id": "d59f2q84u801",
+   "title": "姚璹脩時政記",
+   "hbcc_entry_id": "10012021001178",
+   "hbcc_summary": "時政記 40卷 姚璹修 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2pyscef4",
+   "title": "裴王廷五色傍通五藏圖",
+   "hbcc_entry_id": "10012021003762",
+   "hbcc_summary": "五色傍通五藏圖 1卷 裴王庭撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2pvx0v0g",
+   "title": "褚無量翼善記",
+   "hbcc_entry_id": "10012021002216",
+   "hbcc_summary": "翼善記 褚无量撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2q2q251c",
+   "title": "鄭眾牒例章句",
+   "hbcc_entry_id": "10012021000360",
+   "hbcc_summary": "牒例章句 9卷 (東漢)鄭衆注釋 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  },
+  {
+   "id": "d59f2q393lz4",
+   "title": "圓覺經大小疏鈔各",
+   "hbcc_entry_id": "10012021002681",
+   "hbcc_summary": "圓覺經大疏鈔 1卷 宗密撰 亦見《新唐書·藝文志》",
+   "method": "strip-tail-4"
+  },
+  {
+   "id": "d59f2pykjh8i",
+   "title": "鬬雞圖",
+   "hbcc_entry_id": "10012021003460",
+   "hbcc_summary": "鬭雞圖 閻立德繪圖 亦見《新唐書·藝文志》",
+   "method": "strip-head-1"
+  },
+  {
+   "id": "d59f2puodwxt",
+   "title": "白仁敍唐興集驗方",
+   "hbcc_entry_id": "10012021003798",
+   "hbcc_summary": "唐興集驗方 5卷 白仁叙撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2q0pn2tc",
+   "title": "盧瓌杼情集",
+   "hbcc_entry_id": "10012021005202",
+   "hbcc_summary": "杼情集 2卷 盧環撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  },
+  {
+   "id": "d59f2q001m9t",
+   "title": "僧智猛游行外國傳",
+   "hbcc_entry_id": "10012021002048",
+   "hbcc_summary": "游行外國傳 1卷 (東晉)釋智猛撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2q0anp4w",
+   "title": "劉臻妻陳氏集",
+   "hbcc_entry_id": "10012021004454",
+   "hbcc_summary": "陳氏集 5卷 陳氏撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2qagt2iq",
+   "title": "孔鼂解",
+   "hbcc_entry_id": "10012021000438",
+   "hbcc_summary": "國語解 21卷 孔鼂注釋 亦見《新唐書·藝文志》",
+   "method": "strip-tail-1"
+  },
+  {
+   "id": "d59f2q5gdwjl",
+   "title": "商價喪禮極議",
+   "hbcc_entry_id": "10012021001740",
+   "hbcc_summary": "喪禮極議 1卷 (唐)商价撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  },
+  {
+   "id": "d59f2q9gws1s",
+   "title": "何茂林續帝王代紀",
+   "hbcc_entry_id": "10012021001025",
+   "hbcc_summary": "續帝王代紀 10卷 何茂材撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2q16t5aa",
+   "title": "韋弘陰符經正卷",
+   "hbcc_entry_id": "10012021002431",
+   "hbcc_summary": "陰符經正卷 1卷 (唐)韋洪撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  },
+  {
+   "id": "d59f2pyncm4i",
+   "title": "凌煙功臣、秦府十八學士、史臣等傳",
+   "hbcc_entry_id": "10012021001084",
+   "hbcc_summary": "凌煙功臣、秦府十八學士、史臣 40卷 (唐)蔣乂注釋 亦見《新唐書·藝文志》",
+   "method": "strip-tail-2"
+  },
+  {
+   "id": "d59f2q6ubuv5",
+   "title": "竇維鍌吉凶禮要",
+   "hbcc_entry_id": "10012021001698",
+   "hbcc_summary": "吉凶禮要 20卷 竇維鋈撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-3"
+  },
+  {
+   "id": "d59f2pvziqrl",
+   "title": "崔慤儒玄論",
+   "hbcc_entry_id": "10012021002245",
+   "hbcc_summary": "儒玄論 3卷 (唐)崔愨撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  },
+  {
+   "id": "d59f2q3jpou8",
+   "title": "吳恬畫山水錄",
+   "hbcc_entry_id": "10012021003507",
+   "hbcc_summary": "畫山水錄 吴恬撰 亦見《新唐書·藝文志》",
+   "method": "strip-head-2"
+  }
+ ],
+ "D_棄權6條": [
+  {
+   "id": "d59f2q25rpxc",
+   "title": "孫鐈注吳子",
+   "candidates": [
+    {
+     "entry_id": "10012021003170",
+     "summary": "吳子兵法 1卷 (戰國時期)吴起撰 (魏)賈詡注釋 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021003218",
+     "summary": "吳子 1卷 孫鐈注釋 (戰國時期)吴起撰 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021003218",
+     "summary": "吳子 1卷 孫鐈注釋 (戰國時期)吴起撰 亦見《新唐書·藝文志》",
+     "parsed_title": "吳子",
+     "names": [
+      "孫鐈",
+      "吴起"
+     ],
+     "juan": 1
+    }
+   ],
+   "hits": [
+    [
+     "d59f2evqogsj",
+     "/home/user/book-index/Work/g/s/j/d59f2evqogsj-吳子.json"
+    ]
+   ],
+   "abstain_reason": "候選「吳子」為吳起原典（authors=[吳起,撰]），本條「孫鐈注吳子」係孫鐈之注本，注本自為一書，不可繫入原典，不併。"
+  },
+  {
+   "id": "d59f28ne69s1",
+   "title": "賈大隱注公孫龍子",
+   "candidates": [
+    {
+     "entry_id": "10012021002723",
+     "summary": "公孫龍子 3卷 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021002724",
+     "summary": "公孫龍子 1卷 陳嗣古注釋 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021002732",
+     "summary": "公孫龍子 1卷 賈大隱注釋 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021002732",
+     "summary": "公孫龍子 1卷 賈大隱注釋 亦見《新唐書·藝文志》",
+     "parsed_title": "公孫龍子",
+     "names": [
+      "賈大隱"
+     ],
+     "juan": 1
+    }
+   ],
+   "hits": [
+    [
+     "d59ezaiouwow",
+     "/home/user/book-index/Work/w/o/w/d59ezaiouwow-公孫龍子.json"
+    ]
+   ],
+   "abstain_reason": "候選「公孫龍子」為公孫龍原典（authors=[公孫龍,撰]），本條「賈大隱注公孫龍子」係賈大隱之注本，不可繫入原典，不併。"
+  },
+  {
+   "id": "d59f2pzn8wlc",
+   "title": "陳嗣古注公孫龍子",
+   "candidates": [
+    {
+     "entry_id": "10012021002723",
+     "summary": "公孫龍子 3卷 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021002724",
+     "summary": "公孫龍子 1卷 陳嗣古注釋 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021002732",
+     "summary": "公孫龍子 1卷 賈大隱注釋 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021002724",
+     "summary": "公孫龍子 1卷 陳嗣古注釋 亦見《新唐書·藝文志》",
+     "parsed_title": "公孫龍子",
+     "names": [
+      "陳嗣古"
+     ],
+     "juan": 1
+    }
+   ],
+   "hits": [
+    [
+     "d59ezaiouwow",
+     "/home/user/book-index/Work/w/o/w/d59ezaiouwow-公孫龍子.json"
+    ]
+   ],
+   "abstain_reason": "候選「公孫龍子」為公孫龍原典（authors=[公孫龍,撰]），本條「陳嗣古注公孫龍子」係陳嗣古之注本，不可繫入原典，不併（與上一條「賈大隱注公孫龍子」同理，二注本亦互不相同，不可混）。"
+  },
+  {
+   "id": "d59f2pshevi8",
+   "title": "許淹文選音",
+   "candidates": [
+    {
+     "entry_id": "10012021005037",
+     "summary": "文選音 10卷 (隋)蕭該撰 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021005038",
+     "summary": "文選音義 10卷 僧道淹撰 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021005137",
+     "summary": "文選音義 (隋)曹憲撰 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021005139",
+     "summary": "文選音 10卷 許淹撰 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021005139",
+     "summary": "文選音 10卷 許淹撰 亦見《新唐書·藝文志》",
+     "parsed_title": "文選音",
+     "names": [
+      "許淹"
+     ],
+     "juan": 10
+    }
+   ],
+   "hits": [
+    [
+     "d59f28l8g6ir",
+     "/home/user/book-index/Work/6/i/r/d59f28l8g6ir-文選音.json"
+    ]
+   ],
+   "abstain_reason": "候選「文選音」候選撰人為蕭該（隋人），與本條「許淹文選音」（唐人）為文選音義學史上另一家（許淹、公孫羅、蕭該皆各有《文選音》，體系不同），不可混併，不併。"
+  },
+  {
+   "id": "d59f2pyjaiv5",
+   "title": "趙仁本法例",
+   "candidates": [
+    {
+     "entry_id": "10012021001795",
+     "summary": "法例 2卷 趙仁本撰 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021001796",
+     "summary": "法例 2卷 崔知悌撰 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021001795",
+     "summary": "法例 2卷 趙仁本撰 亦見《新唐書·藝文志》",
+     "parsed_title": "法例",
+     "names": [
+      "趙仁本"
+     ],
+     "juan": 2
+    }
+   ],
+   "hits": [
+    [
+     "d59f28lrhnnm",
+     "/home/user/book-index/Work/n/n/m/d59f28lrhnnm-法例.json"
+    ]
+   ],
+   "abstain_reason": "候選撰人「崔知悌等」與本條「趙仁本」姓名全不相干，恐屬同題異書或候選著錄本身另有隱情，本輪不併，存證俟考。"
+  },
+  {
+   "id": "d59f2q343toi",
+   "title": "鄧基、陸澄地理志",
+   "candidates": [
+    {
+     "entry_id": "10012021001966",
+     "summary": "地理志 150卷 鄧基撰 (南齊)陸澄撰 亦見《新唐書·藝文志》"
+    },
+    {
+     "entry_id": "10012021001973",
+     "summary": "地理志書鈔 10卷 亦見《新唐書·藝文志》"
+    }
+   ],
+   "disambiguated": [
+    {
+     "entry_id": "10012021001966",
+     "summary": "地理志 150卷 鄧基撰 (南齊)陸澄撰 亦見《新唐書·藝文志》",
+     "parsed_title": "地理志",
+     "names": [
+      "鄧基",
+      "陸澄"
+     ],
+     "juan": 150
+    }
+   ],
+   "hits": [
+    [
+     "d59f2ndik935",
+     "/home/user/book-index/Work/9/3/5/d59f2ndik935-地理志.json"
+    ]
+   ],
+   "abstain_reason": "候選撰人「吳蘭修」（清人）與本條「鄧基、陸澄」（南朝齊）朝代懸隔，姓名亦全不相干，應屬同題異書，不併。"
+  }
+ ],
+ "D_未及處理128條": {
+  "說明": "155條原始 D 類中，本輪只處理『HBCC候選經標題內含撰人名可唯一消歧、且消歧後書名經全庫 title 索引查得單一命中』者（27條已併、6條核明確異書已棄權）。餘128條為：HBCC 候選經此法仍無法唯一消歧（disamb-none 或 disamb-multi），或消歧後查無/查得多個corpus 命中，需要更細緻之逐條研判（讀 HBCC candidates 之上下文、或回查 book-text）。candidates[] 為 HBCC 該題所有可能之候選（entry_id + summary），下一輪可用同一套方法（scripts 見 .claude/known-issues 說明或本檔前一版之方法欄）為起點。",
+  "條": [
+   {
+    "id": "d59f2pzjtam9",
+    "title": "京房章句",
+    "candidates": [
+     {
+      "entry_id": "10012021000004",
+      "summary": "周易章句 10卷 (西漢)孟喜注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000005",
+      "summary": "周易章句 10卷 (西漢)京房注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000006",
+      "summary": "周易章句 4卷 (漢)費直注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000007",
+      "summary": "周易章句 10卷 (東漢)馬融注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000008",
+      "summary": "周易章句 10卷 (東漢)荀爽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3srklc",
+    "title": "謝昊、姚察梁書",
+    "candidates": [
+     {
+      "entry_id": "10012021000797",
+      "summary": "梁書 34卷 (蕭梁)謝昊撰 (陳)姚察撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000809",
+      "summary": "梁書 56卷 (唐)姚思廉撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q27bw8w",
+    "title": "荀諺注繫辭",
+    "candidates": [
+     {
+      "entry_id": "10012021000038",
+      "summary": "繫辭 2卷 (晉 )謝萬注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000039",
+      "summary": "繫辭 2卷 (晉 )桓玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000040",
+      "summary": "繫辭 2卷 荀諺注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000041",
+      "summary": "繫辭 2卷 (劉宋)荀柔之注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000042",
+      "summary": "繫辭 2卷 (蕭梁)宋褰注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q1dd43k",
+    "title": "蕭君靖遁甲圖",
+    "candidates": [
+     {
+      "entry_id": "10012021003342",
+      "summary": "三元遁甲圖 3卷 (東晉)葛洪撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003425",
+      "summary": "遁甲圖 蕭君靖撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q19xi4h",
+    "title": "梁武帝講疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000051",
+      "summary": "周易講疏 30卷 (陳)張譏注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000052",
+      "summary": "周易講疏 13卷 (隋)何妥注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000053",
+      "summary": "周易講疏 16卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000537",
+      "summary": "論語講疏 10卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5qzytd",
+    "title": "王羲度徐州先賢傳",
+    "candidates": [
+     {
+      "entry_id": "10012021001391",
+      "summary": "徐州先賢傳 9卷 王羲度撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001392",
+      "summary": "徐州先賢傳 1卷 王羲度撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001393",
+      "summary": "徐州先賢傳讚 8卷 (劉宋)劉義慶撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pz7n1fm",
+    "title": "尹毅音",
+    "candidates": [
+     {
+      "entry_id": "10012021000198",
+      "summary": "小戴禮記音 2卷 (東晉)尹毅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000519",
+      "summary": "論語注 10卷 (東晉)尹毅注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pt477k1",
+    "title": "陸緬注制旨連珠",
+    "candidates": [
+     {
+      "entry_id": "10012021005067",
+      "summary": "制旨連珠 4卷 (蕭梁)蕭衍撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005068",
+      "summary": "制旨連珠 11卷 陸緬注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q166o01",
+    "title": "劉嗣等漢書音義",
+    "candidates": [
+     {
+      "entry_id": "10012021000735",
+      "summary": "漢書音義 9卷 (三國時期)孟康撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000737",
+      "summary": "漢書音義 17卷 (晉 )晉灼注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000738",
+      "summary": "漢書音義 7卷 (吳)韋昭撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000739",
+      "summary": "漢書音義 2卷 (北魏)崔浩撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000740",
+      "summary": "漢書音義鈔 2卷 孔文詳撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q2x8lc1",
+    "title": "王朗注左氏",
+    "candidates": [
+     {
+      "entry_id": "10012021000349",
+      "summary": "春秋左氏長經章句 20卷 (東漢)賈逵撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000350",
+      "summary": "春秋左氏長經解詁 30卷 (東漢)賈逵注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000352",
+      "summary": "左氏經傳章句 30卷 (魏)董遇注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000353",
+      "summary": "左氏經傳注 30卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000355",
+      "summary": "左氏 10卷 (魏)王朗注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q68shkx",
+    "title": "鄭注藥方",
+    "candidates": [
+     {
+      "entry_id": "10012021003636",
+      "summary": "藥方 40卷 承祖撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003637",
+      "summary": "華氏藥方 10卷 (魏)吴普編 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003647",
+      "summary": "張仲景藥方 15卷 (漢)張仲景撰 (晉 )王叔和編 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003650",
+      "summary": "范東陽雜藥方 170卷 尹穆編 (晉 )范汪撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003656",
+      "summary": "阮河南藥方 17卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2ptqzima",
+    "title": "孟智周義疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000043",
+      "summary": "周易義疏 20卷 (劉宋)劉彧注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000049",
+      "summary": "周易義疏 14卷 (蕭梁)蕭子政注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000054",
+      "summary": "周易文句義疏 20卷 梁蕃注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000057",
+      "summary": "繫辭義疏 2卷 (南齊)劉瓛撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000058",
+      "summary": "乾坤義疏 1卷 (南齊)劉瓛撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q4jlz42",
+    "title": "陳懷琴譜",
+    "candidates": [
+     {
+      "entry_id": "10012021000307",
+      "summary": "琴譜 4卷 劉氏撰 周氏撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000308",
+      "summary": "琴譜 21卷 陳懷撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000333",
+      "summary": "大唐正聲新址琴譜 10卷 (唐)陳拙撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000339",
+      "summary": "琴譜 13卷 (唐)陳康士撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000341",
+      "summary": "琴譜 1卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q1lhama",
+    "title": "宋仲孚注太玄經",
+    "candidates": [
+     {
+      "entry_id": "10012021002138",
+      "summary": "揚子太玄經 12卷 (吳)陸績注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002139",
+      "summary": "太玄經 14卷 (吳)虞翻注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002140",
+      "summary": "太玄經 12卷 (晉 )范望解注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002141",
+      "summary": "太玄經 12卷 宋仲孚注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002142",
+      "summary": "太玄經 10卷 蔡文邵注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mjw935",
+    "title": "尹知章孝經注",
+    "candidates": [
+     {
+      "entry_id": "10012021000477",
+      "summary": "古文孝經注 1卷 (魏)劉邵注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000479",
+      "summary": "孝經注 1卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000480",
+      "summary": "孝經注 1卷 (吳)韋昭注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000481",
+      "summary": "孝經注 1卷 (三國時期)孫熙注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000482",
+      "summary": "孝經注 1卷 (魏)蘇林注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27xcsmio",
+    "title": "論語王肅注",
+    "candidates": [
+     {
+      "entry_id": "10012021000013",
+      "summary": "周易注 10卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000095",
+      "summary": "尚書注 10卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000096",
+      "summary": "尚書釋駁 5卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000179",
+      "summary": "小戴禮記 30卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000180",
+      "summary": "周官 12卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q9cuolc",
+    "title": "陳翱卓異記",
+    "candidates": [
+     {
+      "entry_id": "10012021002951",
+      "summary": "卓異記 1卷 陳翺撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002952",
+      "summary": "續卓異記 1卷 裴紫芝撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pxfc54w",
+    "title": "易緯宋均注",
+    "candidates": [
+     {
+      "entry_id": "10012021000547",
+      "summary": "易緯 9卷 (魏)宋均注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000548",
+      "summary": "詩緯 10卷 (魏)宋均注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000549",
+      "summary": "禮緯 3卷 (魏)宋均注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000550",
+      "summary": "樂緯 3卷 (魏)宋均注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000551",
+      "summary": "春秋緯 38卷 (魏)宋均注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2qalhm9s",
+    "title": "賈林注孫子",
+    "candidates": [
+     {
+      "entry_id": "10012021002315",
+      "summary": "孫子 12卷 (晉 )孫綽撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003115",
+      "summary": "五曹孫子等算經 20卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003116",
+      "summary": "甄鸞孫子算經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003165",
+      "summary": "孫子 3卷 (東漢)曹操注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003166",
+      "summary": "續孫子兵法 2卷 (東漢)曹操編 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvr3c3k",
+    "title": "曹耽、荀訥音",
+    "candidates": [
+     {
+      "entry_id": "10012021000169",
+      "summary": "禮記音 3卷 (東漢)鄭玄注釋 (東晉)曹耽注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000401",
+      "summary": "左氏音 4卷 (晉 )荀訥注釋 (東晉)曹耽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pxm7dhe",
+    "title": "陳皥注孫子",
+    "candidates": [
+     {
+      "entry_id": "10012021002315",
+      "summary": "孫子 12卷 (晉 )孫綽撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003115",
+      "summary": "五曹孫子等算經 20卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003116",
+      "summary": "甄鸞孫子算經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003165",
+      "summary": "孫子 3卷 (東漢)曹操注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003166",
+      "summary": "續孫子兵法 2卷 (東漢)曹操編 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pyajv9d",
+    "title": "唐次辨謗略",
+    "candidates": [
+     {
+      "entry_id": "10012021002226",
+      "summary": "辨謗略 3卷 唐次撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002227",
+      "summary": "元和辨謗略 10卷 沈傳師撰 杜元穎撰 (唐)令狐楚撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002228",
+      "summary": "大和新脩辨謗略 3卷 (唐)裴潾撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28k0fpxd",
+    "title": "李淳風釋周髀",
+    "candidates": [
+     {
+      "entry_id": "10012021003013",
+      "summary": "周髀 1卷 (東漢)趙爽注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003014",
+      "summary": "周髀 1卷 (北周)甄鸞注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003041",
+      "summary": "周髀 2卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003109",
+      "summary": "周髀算經 2卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pwffugy",
+    "title": "書緯鄭玄注",
+    "candidates": [
+     {
+      "entry_id": "10012021000009",
+      "summary": "周易 10卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000108",
+      "summary": "古文尚書 9卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000109",
+      "summary": "注釋問 4卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000135",
+      "summary": "毛詩詁訓 20卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000136",
+      "summary": "譜 3卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q0qw16q",
+    "title": "張譏講疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000051",
+      "summary": "周易講疏 30卷 (陳)張譏注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000052",
+      "summary": "周易講疏 13卷 (隋)何妥注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000053",
+      "summary": "周易講疏 16卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000537",
+      "summary": "論語講疏 10卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q7ox43k",
+    "title": "王穆疏",
+    "candidates": [
+     {
+      "entry_id": "10012021002305",
+      "summary": "莊子疏 10卷 王穆注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002306",
+      "summary": "莊子音 1卷 王穆注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5arm6a",
+    "title": "道宗續高僧傳",
+    "candidates": [
+     {
+      "entry_id": "10012021002539",
+      "summary": "續高僧傳 32卷 僧道宗撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002552",
+      "summary": "續高僧傳 20卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002553",
+      "summary": "後集續高僧傳 10卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002653",
+      "summary": "續高僧傳 32卷 道宗撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q6gwnwg",
+    "title": "梁蕃文句義疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000054",
+      "summary": "周易文句義疏 20卷 梁蕃注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000073",
+      "summary": "周易文句義疏 24卷 (唐)陸德明撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvheznk",
+    "title": "申先儒傳例",
+    "candidates": [
+     {
+      "entry_id": "10012021000379",
+      "summary": "左氏傳例苑 18卷 (蕭梁)蕭綱撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000392",
+      "summary": "傳例 10卷 申先儒撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2ptn8oap",
+    "title": "僧道騫楚辭音",
+    "candidates": [
+     {
+      "entry_id": "10012021003815",
+      "summary": "楚辭音 1卷 孟奥撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003816",
+      "summary": "楚辭音 1卷 (東晉)徐邈撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003817",
+      "summary": "楚辭音 1卷 僧道騫撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mx07wj",
+    "title": "春秋陸質集注",
+    "candidates": [
+     {
+      "entry_id": "10012021000032",
+      "summary": "周易九家集解 10卷 荀氏集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000033",
+      "summary": "周易集解 10卷 (東漢)馬融集注 (東漢)鄭玄集注 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000035",
+      "summary": "周易集解 10卷 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000036",
+      "summary": "周易集解 10卷 (晉 )張璠集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000037",
+      "summary": "周易略論 1卷 (晉 )張璠集注 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q4hfb41",
+    "title": "甄權脈經",
+    "candidates": [
+     {
+      "entry_id": "10012021003607",
+      "summary": "脉經 1卷 甄權撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003608",
+      "summary": "鍼經鈔 3卷 甄權撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003609",
+      "summary": "鍼方 1卷 甄權撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003610",
+      "summary": "明堂人形圖 1卷 甄權撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q0x4ruo",
+    "title": "賈思協齊民要術",
+    "candidates": [
+     {
+      "entry_id": "10012021002857",
+      "summary": "齊民要術 10卷 (北魏)賈思勰撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002881",
+      "summary": "演齊民要術 (唐)李淳風撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27yhzy82",
+    "title": "論語李充注",
+    "candidates": [
+     {
+      "entry_id": "10012021000515",
+      "summary": "論語 10卷 (晉 )李充注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002301",
+      "summary": "釋莊子論 2卷 (晉 )李充注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8zfh8i",
+    "title": "唐固注穀梁",
+    "candidates": [
+     {
+      "entry_id": "10012021000347",
+      "summary": "春秋穀梁傳 15卷 (西漢)尹更始注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000369",
+      "summary": "穀梁廢疾 3卷 (東漢)鄭玄注釋 (晉 )張靖注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000413",
+      "summary": "春秋穀梁傳注 13卷 (東漢)段肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000414",
+      "summary": "穀梁 12卷 (吳)唐固注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000416",
+      "summary": "穀梁 12卷 (魏)糜信注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pwdkfsy",
+    "title": "周髀趙嬰注",
+    "candidates": [
+     {
+      "entry_id": "10012021000130",
+      "summary": "韓詩 22卷 (漢)韓嬰注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000131",
+      "summary": "外傳 10卷 (漢)韓嬰注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2ptjt2io",
+    "title": "柳世隆龜經",
+    "candidates": [
+     {
+      "entry_id": "10012021003365",
+      "summary": "龜經 3卷 柳彦詢撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003366",
+      "summary": "龜經 3卷 (南齊)柳世隆撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003367",
+      "summary": "龜經 1卷 劉寶真撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003368",
+      "summary": "龜經 1卷 王弘禮撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003369",
+      "summary": "龜經 1卷 莊道名撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q7hffgg",
+    "title": "丘啟期隋記",
+    "candidates": [
+     {
+      "entry_id": "10012021001068",
+      "summary": "隋記 20卷 (唐)吕才撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001069",
+      "summary": "隋記 10卷 丘啓期撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2px85on5",
+    "title": "周官伊說注",
+    "candidates": [
+     {
+      "entry_id": "10012021000171",
+      "summary": "周官 13卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000172",
+      "summary": "周官音 3卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000177",
+      "summary": "周官傳 12卷 (東漢)馬融撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000180",
+      "summary": "周官 12卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000191",
+      "summary": "周官論評 12卷 (晉 )傅玄撰 (晉 )陳邵注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q00o3r5",
+    "title": "吳善經注道德經",
+    "candidates": [
+     {
+      "entry_id": "10012021002247",
+      "summary": "老子道德經 2卷 (【春秋】楚)李耳撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002248",
+      "summary": "老子道德經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002249",
+      "summary": "老子道德經 2卷 (漢)河上公注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002274",
+      "summary": "道德經指趣 3卷 安丘望之論說 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002276",
+      "summary": "道德經品 4卷 梁曠撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q6dsa2p",
+    "title": "陸胤志廣州先賢傳",
+    "candidates": [
+     {
+      "entry_id": "10012021001367",
+      "summary": "廣州先賢傳 7卷 (三國時期)陸胤撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001368",
+      "summary": "廣州先賢傳 7卷 劉芳撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3d5pmp",
+    "title": "江灌圖贊",
+    "candidates": [
+     {
+      "entry_id": "10012021000599",
+      "summary": "爾雅圖贊 1卷 江灌撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002442",
+      "summary": "寧州通真觀二十七宿真形圖贊 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002590",
+      "summary": "聖迹見在圖贊 2卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002591",
+      "summary": "佛化東漸圖贊 2卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005012",
+      "summary": "寶圖贊 1卷 王起注釋 (唐)崔融撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pzuqlmp",
+    "title": "蜀才注",
+    "candidates": [
+     {
+      "entry_id": "10012021000020",
+      "summary": "周易注 10卷 (晉 )蜀才注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002252",
+      "summary": "老子 2卷 (晉 )蜀才注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q4exfcy",
+    "title": "徐氏脈經訣",
+    "candidates": [
+     {
+      "entry_id": "10012021003392",
+      "summary": "龜上五兆動搖經訣 1卷 (唐)孫思邈撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003596",
+      "summary": "脉經訣 3卷 徐氏撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5eigow",
+    "title": "陸士衡要覽",
+    "candidates": [
+     {
+      "entry_id": "10012021002175",
+      "summary": "要覽 5卷 (晉 )吕竦撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002197",
+      "summary": "修身要覽 10卷 (唐)李賢撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002775",
+      "summary": "要覽 3卷 陸士衡撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003528",
+      "summary": "帝王要覽 20卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005126",
+      "summary": "芳林要覽 300卷 楊思儉編 姚璹編 竇德玄編 郭瑜編 元思敬編 (唐)許敬宗編 (唐)顧胤編 (唐)許圉師編 (唐)上官儀編 (唐)孟利貞編 (唐)董思恭編 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2psdz9c0",
+    "title": "蔡文邵注太玄經",
+    "candidates": [
+     {
+      "entry_id": "10012021002138",
+      "summary": "揚子太玄經 12卷 (吳)陸績注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002139",
+      "summary": "太玄經 14卷 (吳)虞翻注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002140",
+      "summary": "太玄經 12卷 (晉 )范望解注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002141",
+      "summary": "太玄經 12卷 宋仲孚注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002142",
+      "summary": "太玄經 10卷 蔡文邵注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q9sgk5c",
+    "title": "馬揔通曆",
+    "candidates": [
+     {
+      "entry_id": "10012021000912",
+      "summary": "通曆 7卷 李仁實撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000913",
+      "summary": "通曆 10卷 (唐)馬總撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001039",
+      "summary": "通曆 2卷 (吳)徐整撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001053",
+      "summary": "通曆 7卷 李仁實撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27xe1koz",
+    "title": "孟康漢書音義",
+    "candidates": [
+     {
+      "entry_id": "10012021000735",
+      "summary": "漢書音義 9卷 (三國時期)孟康撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000737",
+      "summary": "漢書音義 17卷 (晉 )晉灼注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000738",
+      "summary": "漢書音義 7卷 (吳)韋昭撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000739",
+      "summary": "漢書音義 2卷 (北魏)崔浩撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000740",
+      "summary": "漢書音義鈔 2卷 孔文詳撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pwthjia",
+    "title": "費直章句",
+    "candidates": [
+     {
+      "entry_id": "10012021000004",
+      "summary": "周易章句 10卷 (西漢)孟喜注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000005",
+      "summary": "周易章句 10卷 (西漢)京房注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000006",
+      "summary": "周易章句 4卷 (漢)費直注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000007",
+      "summary": "周易章句 10卷 (東漢)馬融注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000008",
+      "summary": "周易章句 10卷 (東漢)荀爽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pygsmpt",
+    "title": "沈琁集注",
+    "candidates": [
+     {
+      "entry_id": "10012021000032",
+      "summary": "周易九家集解 10卷 荀氏集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000033",
+      "summary": "周易集解 10卷 (東漢)馬融集注 (東漢)鄭玄集注 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000035",
+      "summary": "周易集解 10卷 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000036",
+      "summary": "周易集解 10卷 (晉 )張璠集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000037",
+      "summary": "周易略論 1卷 (晉 )張璠集注 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8zqpkx",
+    "title": "抱朴子太清神仙服食經",
+    "candidates": [
+     {
+      "entry_id": "10012021003701",
+      "summary": "太清神仙服食經 5卷 抱朴子撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003704",
+      "summary": "太清神仙服食經 5卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q9k15he",
+    "title": "酈道元注水經",
+    "candidates": [
+     {
+      "entry_id": "10012021002016",
+      "summary": "水經 3卷 (漢)桑欽撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002017",
+      "summary": "水經 40卷 (北魏)酈道元注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002068",
+      "summary": "刪水經 10卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002376",
+      "summary": "老子消水經 1卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2ptx89vm",
+    "title": "麋信注穀梁",
+    "candidates": [
+     {
+      "entry_id": "10012021000347",
+      "summary": "春秋穀梁傳 15卷 (西漢)尹更始注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000369",
+      "summary": "穀梁廢疾 3卷 (東漢)鄭玄注釋 (晉 )張靖注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000413",
+      "summary": "春秋穀梁傳注 13卷 (東漢)段肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000414",
+      "summary": "穀梁 12卷 (吳)唐固注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000416",
+      "summary": "穀梁 12卷 (魏)糜信注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3yp2pu",
+    "title": "虞盤佐注",
+    "candidates": [
+     {
+      "entry_id": "10012021000484",
+      "summary": "孝經注 1卷 (晉 )虞盤佑注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001410",
+      "summary": "孝子傳 1卷 (晉 )虞盤佑撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001411",
+      "summary": "高士傳 2卷 (晉 )虞盤佑撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28kogzr7",
+    "title": "崔令欽注",
+    "candidates": [
+     {
+      "entry_id": "10012021000325",
+      "summary": "教坊記 1卷 (唐)崔令欽撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005133",
+      "summary": "哀江南賦注 1卷 (唐)崔令欽撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q04ey9s",
+    "title": "孟仲暉七賢傳",
+    "candidates": [
+     {
+      "entry_id": "10012021001402",
+      "summary": "廬江七賢傳 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001460",
+      "summary": "七賢傳 7卷 孟仲暉撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2py2qy9s",
+    "title": "李太華掌記略",
+    "candidates": [
+     {
+      "entry_id": "10012021005216",
+      "summary": "掌記略 15卷 李太華撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005217",
+      "summary": "新掌記略 9卷 李太華撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005218",
+      "summary": "續掌記略 10卷 林逢撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvjlngi",
+    "title": "何承天幷合皇覽",
+    "candidates": [
+     {
+      "entry_id": "10012021000221",
+      "summary": "禮論 307卷 (劉宋)何承天撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000654",
+      "summary": "纂文 3卷 (劉宋)何承天撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000957",
+      "summary": "春秋前傳 10卷 (劉宋)何承天撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000958",
+      "summary": "春秋前傳雜語 10卷 (劉宋)何承天撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001882",
+      "summary": "姓苑 10卷 (劉宋)何承天撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mgrvnp",
+    "title": "老子盧藏用注",
+    "candidates": [
+     {
+      "entry_id": "10012021002328",
+      "summary": "老子 2卷 盧藏用注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002329",
+      "summary": "莊子內外篇 12卷 盧藏用注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28lamubo",
+    "title": "裴璡五藏論",
+    "candidates": [
+     {
+      "entry_id": "10012021003601",
+      "summary": "五藏論 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003759",
+      "summary": "五藏論應象 1卷 (唐)吴兢撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003760",
+      "summary": "五藏論 1卷 裴璡撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8oteyo",
+    "title": "卜長福續文選",
+    "candidates": [
+     {
+      "entry_id": "10012021005140",
+      "summary": "續文選 13卷 (唐)孟利貞撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005144",
+      "summary": "續文選 30卷 卜長福撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q0rii9t",
+    "title": "蕭回理草堂法師傳",
+    "candidates": [
+     {
+      "entry_id": "10012021002540",
+      "summary": "草堂法師傳 1卷 (蕭梁)陶弘景撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002541",
+      "summary": "草堂法師傳 1卷 蕭回理撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pxx4oht",
+    "title": "劉炫章句",
+    "candidates": [
+     {
+      "entry_id": "10012021000004",
+      "summary": "周易章句 10卷 (西漢)孟喜注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000005",
+      "summary": "周易章句 10卷 (西漢)京房注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000006",
+      "summary": "周易章句 4卷 (漢)費直注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000007",
+      "summary": "周易章句 10卷 (東漢)馬融注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000008",
+      "summary": "周易章句 10卷 (東漢)荀爽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8arq4g",
+    "title": "周祇崇安記",
+    "candidates": [
+     {
+      "entry_id": "10012021001049",
+      "summary": "崇安記 2卷 (晉 )周祗撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001050",
+      "summary": "崇安記 10卷 (劉宋)王韶之撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3n5am8",
+    "title": "李暹訓注文子",
+    "candidates": [
+     {
+      "entry_id": "10012021002308",
+      "summary": "文子 12卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002361",
+      "summary": "文子 12卷 (唐)徐靈府注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002362",
+      "summary": "文子 12卷 (明)李暹注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002722",
+      "summary": "尹文子 1卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28nk3s3q",
+    "title": "顏師古注漢書",
+    "candidates": [
+     {
+      "entry_id": "10012021000731",
+      "summary": "漢書 115卷 (東漢)班固撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000732",
+      "summary": "漢書音訓 1卷 (東漢)服虔撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000733",
+      "summary": "漢書集解音義 24卷 (東漢)應劭撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000735",
+      "summary": "漢書音義 9卷 (三國時期)孟康撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000736",
+      "summary": "漢書集注 14卷 (晉 )晉灼撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q24irr4",
+    "title": "逄行珪注鬻子",
+    "candidates": [
+     {
+      "entry_id": "10012021002246",
+      "summary": "鬻子 1卷 (周)鬻熊撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002337",
+      "summary": "鬻子 1卷 (唐)逢行珪注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q158xz6",
+    "title": "樂臺注鬼谷子",
+    "candidates": [
+     {
+      "entry_id": "10012021002378",
+      "summary": "關令尹喜傳 1卷 四皓注釋 (周)鬼谷子撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002420",
+      "summary": "集注陰符經 1卷 李洽注釋 李鑒注釋 楊晟注釋 (周)鬼谷子注釋 (西周)吕尚注釋 (春秋時期)范蠡注釋 (漢)張良注釋 (蜀)諸葛亮注釋 (唐)李淳風注釋 (唐)李筌注釋 (清)李鋭注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002739",
+      "summary": "鬼谷子 2卷 (戰國時期)蘇秦撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002740",
+      "summary": "鬼谷子 3卷 樂臺注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002742",
+      "summary": "鬼谷子 3卷 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q1wptz4",
+    "title": "何妥講疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000051",
+      "summary": "周易講疏 30卷 (陳)張譏注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000052",
+      "summary": "周易講疏 13卷 (隋)何妥注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000053",
+      "summary": "周易講疏 16卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000537",
+      "summary": "論語講疏 10卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3s53i9",
+    "title": "僧惠皎高僧傳",
+    "candidates": [
+     {
+      "entry_id": "10012021002525",
+      "summary": "高僧傳 6卷 虞孝敬撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002538",
+      "summary": "高僧傳 14卷 (蕭梁)僧慧皎撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002539",
+      "summary": "續高僧傳 32卷 僧道宗撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002552",
+      "summary": "續高僧傳 20卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002553",
+      "summary": "後集續高僧傳 10卷 道宣撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28nbd4w2",
+    "title": "老子白履忠注",
+    "candidates": [
+     {
+      "entry_id": "10012021002332",
+      "summary": "老子 (唐)白履忠注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002470",
+      "summary": "黃庭內景經 (唐)白履忠注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002471",
+      "summary": "三玄精辨論 1卷 (唐)白履忠注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27xzky69",
+    "title": "老子李軌音",
+    "candidates": [
+     {
+      "entry_id": "10012021002247",
+      "summary": "老子道德經 2卷 (【春秋】楚)李耳撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002248",
+      "summary": "老子道德經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002249",
+      "summary": "老子道德經 2卷 (漢)河上公注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002251",
+      "summary": "老子指例略 2卷 (魏)王弼注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002252",
+      "summary": "老子 2卷 (晉 )蜀才注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8m0a9t",
+    "title": "杜有晉書儀",
+    "candidates": [
+     {
+      "entry_id": "10012021001601",
+      "summary": "晉尚書儀曹新定儀注 41卷 (晉 )徐廣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001604",
+      "summary": "晉尚書儀曹吉禮儀注 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001605",
+      "summary": "晉尚書儀曹事 9卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001607",
+      "summary": "宋尚書儀注 36卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001621",
+      "summary": "梁尚書儀曹儀注 18卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvqgvls",
+    "title": "殷子嚴本草音義",
+    "candidates": [
+     {
+      "entry_id": "10012021003617",
+      "summary": "本草音義 2卷 殷子嚴撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003725",
+      "summary": "本草音義 20卷 (唐)孔志約撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003730",
+      "summary": "本草音義 7卷 (唐)甄立言撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003744",
+      "summary": "本草音義 2卷 李含光撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5kfz0h",
+    "title": "劉氏、周氏琴譜",
+    "candidates": [
+     {
+      "entry_id": "10012021000307",
+      "summary": "琴譜 4卷 劉氏撰 周氏撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000308",
+      "summary": "琴譜 21卷 陳懷撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000333",
+      "summary": "大唐正聲新址琴譜 10卷 (唐)陳拙撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000339",
+      "summary": "琴譜 13卷 (唐)陳康士撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000341",
+      "summary": "琴譜 1卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pwkfnk2",
+    "title": "李處祐兵法",
+    "candidates": [
+     {
+      "entry_id": "10012021003037",
+      "summary": "五星兵法 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003153",
+      "summary": "黃帝用兵法訣 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003154",
+      "summary": "黃帝兵法孤虛推記 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003166",
+      "summary": "續孫子兵法 2卷 (東漢)曹操編 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003170",
+      "summary": "吳子兵法 1卷 (戰國時期)吴起撰 (魏)賈詡注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pti8w02",
+    "title": "宋明帝注義疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000043",
+      "summary": "周易義疏 20卷 (劉宋)劉彧注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000049",
+      "summary": "周易義疏 14卷 (蕭梁)蕭子政注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000054",
+      "summary": "周易文句義疏 20卷 梁蕃注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000057",
+      "summary": "繫辭義疏 2卷 (南齊)劉瓛撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000058",
+      "summary": "乾坤義疏 1卷 (南齊)劉瓛撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q1av7y8",
+    "title": "玄宗注道德經",
+    "candidates": [
+     {
+      "entry_id": "10012021002247",
+      "summary": "老子道德經 2卷 (【春秋】楚)李耳撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002248",
+      "summary": "老子道德經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002249",
+      "summary": "老子道德經 2卷 (漢)河上公注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002274",
+      "summary": "道德經指趣 3卷 安丘望之論說 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002276",
+      "summary": "道德經品 4卷 梁曠撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q2kfvnl",
+    "title": "荀爽、徐欽答問",
+    "candidates": [
+     {
+      "entry_id": "10012021000145",
+      "summary": "毛詩雜答問 5卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000209",
+      "summary": "禮論答問 9卷 (晉 )范甯撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000229",
+      "summary": "禮儀答問 10卷 (南齊)王儉撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000230",
+      "summary": "禮雜答問 10卷 (南齊)王儉撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000237",
+      "summary": "禮答問 10卷 (蕭梁)何佟之撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2psh3n5t",
+    "title": "論語又駁",
+    "candidates": [
+     {
+      "entry_id": "10012021000509",
+      "summary": "論語注 10卷 (東漢)鄭玄注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000510",
+      "summary": "論語釋義 1卷 (唐)徐浩撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000511",
+      "summary": "論語篇目弟子 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000513",
+      "summary": "論語 10卷 (魏)王肅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000515",
+      "summary": "論語 10卷 (晉 )李充注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3kyn0g",
+    "title": "梁簡文帝講疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000051",
+      "summary": "周易講疏 30卷 (陳)張譏注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000052",
+      "summary": "周易講疏 13卷 (隋)何妥注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000053",
+      "summary": "周易講疏 16卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000537",
+      "summary": "論語講疏 10卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5etp8g",
+    "title": "盧弘宣家祭儀",
+    "candidates": [
+     {
+      "entry_id": "10012021001726",
+      "summary": "家祭儀 1卷 徐閏撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001731",
+      "summary": "家祭儀 (唐)盧弘宣撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q27n5ds",
+    "title": "姚僧垣集驗方",
+    "candidates": [
+     {
+      "entry_id": "10012021003665",
+      "summary": "集驗方 10卷 (北周)姚僧垣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003678",
+      "summary": "名醫集驗方 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003786",
+      "summary": "陸氏集驗方 15卷 (唐)陸贄撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003789",
+      "summary": "古今集驗方 10卷 薛景晦撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003791",
+      "summary": "海上集驗方 10卷 崔玄亮撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pybstfk",
+    "title": "孔志約本草音義",
+    "candidates": [
+     {
+      "entry_id": "10012021003617",
+      "summary": "本草音義 2卷 殷子嚴撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003725",
+      "summary": "本草音義 20卷 (唐)孔志約撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003730",
+      "summary": "本草音義 7卷 (唐)甄立言撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003744",
+      "summary": "本草音義 2卷 李含光撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q766vpd",
+    "title": "王愆期注公羊",
+    "candidates": [
+     {
+      "entry_id": "10012021000348",
+      "summary": "春秋公羊傳 5卷 (西漢)嚴彭祖撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000365",
+      "summary": "公羊解詁 13卷 (東漢)何休撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000367",
+      "summary": "公羊條傳 1卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000405",
+      "summary": "公羊集解 14卷 孔氏集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000406",
+      "summary": "公羊 12卷 (晉 )王愆期注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvfjklc",
+    "title": "馬融章句",
+    "candidates": [
+     {
+      "entry_id": "10012021000004",
+      "summary": "周易章句 10卷 (西漢)孟喜注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000005",
+      "summary": "周易章句 10卷 (西漢)京房注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000006",
+      "summary": "周易章句 4卷 (漢)費直注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000007",
+      "summary": "周易章句 10卷 (東漢)馬融注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000008",
+      "summary": "周易章句 10卷 (東漢)荀爽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q2hmqkh",
+    "title": "陸績注",
+    "candidates": [
+     {
+      "entry_id": "10012021000017",
+      "summary": "周易注 13卷 (吳)陸績注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002138",
+      "summary": "揚子太玄經 12卷 (吳)陸績注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q978em9",
+    "title": "徐爰幷合皇覽",
+    "candidates": [
+     {
+      "entry_id": "10012021003517",
+      "summary": "皇覽 122卷 (劉宋)何承天重編 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003518",
+      "summary": "皇覽 84卷 (劉宋)徐爰重編 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f285u2ps1",
+    "title": "孫僧化等星占",
+    "candidates": [
+     {
+      "entry_id": "10012021003022",
+      "summary": "荊州星占 2卷 (東漢)劉表撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003023",
+      "summary": "荊州星占 20卷 (東漢)劉叡撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003029",
+      "summary": "四方星占 1卷 (吳)陳卓撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003030",
+      "summary": "五星占 1卷 (吳)陳卓撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003032",
+      "summary": "星占 33卷 (北魏)孫僧化撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pusg075",
+    "title": "崔致遠",
+    "candidates": [
+     {
+      "entry_id": "10012021004997",
+      "summary": "四六 1卷 (唐)崔致遠撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021004998",
+      "summary": "桂苑筆耕 20卷 (唐)崔致遠撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f283v7ugw",
+    "title": "劉昭補注後漢書",
+    "candidates": [
+     {
+      "entry_id": "10012021000757",
+      "summary": "後漢書 131卷 (吳)謝承撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000760",
+      "summary": "後漢書 58卷 (劉宋)劉義慶撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000761",
+      "summary": "後漢書 31卷 (晉 )華嶠撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000762",
+      "summary": "後漢書 102卷 (晉 )謝沈撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000764",
+      "summary": "後漢書 102卷 (晉 )袁山松撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2psdz9qa",
+    "title": "陳祈暢異物志",
+    "candidates": [
+     {
+      "entry_id": "10012021002026",
+      "summary": "臨海水土異物志 1卷 (吳)沈瑩撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002027",
+      "summary": "交州異物志 1卷 (東漢)楊孚撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002028",
+      "summary": "異物志 1卷 陳祈暢撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002029",
+      "summary": "南州異物志 1卷 (吳)萬震撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002030",
+      "summary": "扶南異物志 1卷 (吳)朱應撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2py2qxvk",
+    "title": "歧伯灸經",
+    "candidates": [
+     {
+      "entry_id": "10012021003574",
+      "summary": "黃帝鍼灸經 12卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003598",
+      "summary": "灸經 1卷 岐伯撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003599",
+      "summary": "灸經 1卷 雷氏撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q79b9c1",
+    "title": "劉叡荊州星占",
+    "candidates": [
+     {
+      "entry_id": "10012021003022",
+      "summary": "荊州星占 2卷 (東漢)劉表撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003023",
+      "summary": "荊州星占 20卷 (東漢)劉叡撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mqrh1h",
+    "title": "老子尹知章注",
+    "candidates": [
+     {
+      "entry_id": "10012021000503",
+      "summary": "孝經 1卷 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002334",
+      "summary": "老子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002351",
+      "summary": "莊子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002717",
+      "summary": "管子 30卷 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002718",
+      "summary": "韓子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mptrer",
+    "title": "鬼穀子尹知章注",
+    "candidates": [
+     {
+      "entry_id": "10012021000503",
+      "summary": "孝經 1卷 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002334",
+      "summary": "老子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002351",
+      "summary": "莊子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002717",
+      "summary": "管子 30卷 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002718",
+      "summary": "韓子 (唐)尹知章注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28n2b950",
+    "title": "徐靈府注文子",
+    "candidates": [
+     {
+      "entry_id": "10012021002308",
+      "summary": "文子 12卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002361",
+      "summary": "文子 12卷 (唐)徐靈府注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002362",
+      "summary": "文子 12卷 (明)李暹注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002722",
+      "summary": "尹文子 1卷 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q24u03l",
+    "title": "靖邁古今譯經圖紀",
+    "candidates": [
+     {
+      "entry_id": "10012021002693",
+      "summary": "古今譯經圖紀 4卷 靖邁撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002694",
+      "summary": "續古今譯經圖紀 1卷 智昇撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28n1os1v",
+    "title": "老子孫思邈注",
+    "candidates": [
+     {
+      "entry_id": "10012021002348",
+      "summary": "老子 (唐)孫思邈注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002349",
+      "summary": "莊子 (唐)孫思邈注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q0y2hvk",
+    "title": "尹毅注",
+    "candidates": [
+     {
+      "entry_id": "10012021000198",
+      "summary": "小戴禮記音 2卷 (東晉)尹毅注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000519",
+      "summary": "論語注 10卷 (東晉)尹毅注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q993u2o",
+    "title": "徐閏家祭儀",
+    "candidates": [
+     {
+      "entry_id": "10012021001726",
+      "summary": "家祭儀 1卷 徐閏撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001731",
+      "summary": "家祭儀 (唐)盧弘宣撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27xpa48z",
+    "title": "老子蜀才注",
+    "candidates": [
+     {
+      "entry_id": "10012021000020",
+      "summary": "周易注 10卷 (晉 )蜀才注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002252",
+      "summary": "老子 2卷 (晉 )蜀才注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pxjpgjk",
+    "title": "唐潁稽典",
+    "candidates": [
+     {
+      "entry_id": "10012021001077",
+      "summary": "稽典 130卷 潁作撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001374",
+      "summary": "會稽典錄 24卷 (東晉)虞預撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pselqtd",
+    "title": "皇侃疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000245",
+      "summary": "義疏 50卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000491",
+      "summary": "孝經義疏 3卷 (蕭梁)皇侃注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000536",
+      "summary": "論語疏 10卷 (蕭梁)皇侃注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q04q6ma",
+    "title": "狄仁傑家範",
+    "candidates": [
+     {
+      "entry_id": "10012021002933",
+      "summary": "家範 1卷 狄仁傑撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002934",
+      "summary": "盧公家範 1卷 (唐)盧僎撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2qa3p341",
+    "title": "于立政類林",
+    "candidates": [
+     {
+      "entry_id": "10012021002892",
+      "summary": "類林 3卷 (蕭梁)裴子野撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003556",
+      "summary": "類林 10卷 于立政撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pxvkhdu",
+    "title": "董遇注",
+    "candidates": [
+     {
+      "entry_id": "10012021000011",
+      "summary": "周易注 10卷 (魏)董遇注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000352",
+      "summary": "左氏經傳章句 30卷 (魏)董遇注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2psoa39d",
+    "title": "馬、鄭、二王集解",
+    "candidates": [
+     {
+      "entry_id": "10012021000032",
+      "summary": "周易九家集解 10卷 荀氏集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000033",
+      "summary": "周易集解 10卷 (東漢)馬融集注 (東漢)鄭玄集注 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000035",
+      "summary": "周易集解 10卷 (魏)王肅集注 (魏)王弼集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000036",
+      "summary": "周易集解 10卷 (晉 )張璠集注 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000319",
+      "summary": "樂譜集解 20卷 (隋)蕭吉撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pst9vyb",
+    "title": "沈如筠異物志",
+    "candidates": [
+     {
+      "entry_id": "10012021002026",
+      "summary": "臨海水土異物志 1卷 (吳)沈瑩撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002027",
+      "summary": "交州異物志 1卷 (東漢)楊孚撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002028",
+      "summary": "異物志 1卷 陳祈暢撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002029",
+      "summary": "南州異物志 1卷 (吳)萬震撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002030",
+      "summary": "扶南異物志 1卷 (吳)朱應撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q5f4y69",
+    "title": "元思敬詩人秀句",
+    "candidates": [
+     {
+      "entry_id": "10012021005152",
+      "summary": "詩人秀句 2卷 元思敬撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021005237",
+      "summary": "古今詩人秀句 2卷 元兢撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q94qigy",
+    "title": "周髀甄鸞注",
+    "candidates": [
+     {
+      "entry_id": "10012021003014",
+      "summary": "周髀 1卷 (北周)甄鸞注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003057",
+      "summary": "數術記遺 1卷 (北周)甄鸞注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003058",
+      "summary": "算經 1卷 (北魏)張丘建撰 (北周)甄鸞注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003059",
+      "summary": "三等數 1卷 董泉撰 (北周)甄鸞注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003060",
+      "summary": "算經 1卷 (北周)甄鸞注釋 (隋)夏侯陽撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q45924g",
+    "title": "嚴遵指歸",
+    "candidates": [
+     {
+      "entry_id": "10012021000304",
+      "summary": "聲律指歸 1卷 元慇撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000695",
+      "summary": "文字指歸 4卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002277",
+      "summary": "老子指歸 14卷 (西漢)嚴遵論說 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002302",
+      "summary": "老子指歸 13卷 馮廓論說 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pw5g935",
+    "title": "繫辭謝萬注",
+    "candidates": [
+     {
+      "entry_id": "10012021000038",
+      "summary": "繫辭 2卷 (晉 )謝萬注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000483",
+      "summary": "孝經注 1卷 (晉 )謝萬注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pyta4g0",
+    "title": "焦璐窮神秘苑",
+    "candidates": [
+     {
+      "entry_id": "10012021000911",
+      "summary": "唐朝年代記 10卷 焦璐撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003005",
+      "summary": "窮神祕苑 10卷 焦璐撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2px43lds",
+    "title": "梁武帝大義",
+    "candidates": [
+     {
+      "entry_id": "10012021000045",
+      "summary": "周易大義 20卷 (蕭梁)蕭衍注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000046",
+      "summary": "大義疑問 20卷 (蕭梁)蕭衍注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000074",
+      "summary": "文外大義 2卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000116",
+      "summary": "古文大義 20卷 (蕭梁)任孝恭撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000234",
+      "summary": "禮大義 10卷 (蕭梁)蕭衍撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pt9i875",
+    "title": "何晏講疏",
+    "candidates": [
+     {
+      "entry_id": "10012021000051",
+      "summary": "周易講疏 30卷 (陳)張譏注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000052",
+      "summary": "周易講疏 13卷 (隋)何妥注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000053",
+      "summary": "周易講疏 16卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000244",
+      "summary": "禮記講疏 100卷 (蕭梁)皇侃撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000537",
+      "summary": "論語講疏 10卷 (蕭梁)褚仲都注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q8uqxhd",
+    "title": "陳宏畫安祿山圖",
+    "candidates": [
+     {
+      "entry_id": "10012021003486",
+      "summary": "姚宋及安祿山圖 韓幹繪圖 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003490",
+      "summary": "安祿山圖 (唐)陳宏繪圖 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2qa4msxt",
+    "title": "荀爽章句",
+    "candidates": [
+     {
+      "entry_id": "10012021000004",
+      "summary": "周易章句 10卷 (西漢)孟喜注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000005",
+      "summary": "周易章句 10卷 (西漢)京房注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000006",
+      "summary": "周易章句 4卷 (漢)費直注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000007",
+      "summary": "周易章句 10卷 (東漢)馬融注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000008",
+      "summary": "周易章句 10卷 (東漢)荀爽注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q4em680",
+    "title": "吳景諸病源候論",
+    "candidates": [
+     {
+      "entry_id": "10012021003629",
+      "summary": "諸病源候論 50卷 景作撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003630",
+      "summary": "諸病源候論 50卷 (隋)巢元方撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvinxmq",
+    "title": "盈氏集義",
+    "candidates": [
+     {
+      "entry_id": "10012021000523",
+      "summary": "論語集義 10卷 (晉 )盈氏編 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021000804",
+      "summary": "漢書古今集義 20卷 (唐)顧胤撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2pvr3c3m",
+    "title": "元暉等秘錄",
+    "candidates": [
+     {
+      "entry_id": "10012021001467",
+      "summary": "祕錄 270卷 (北魏)元暉撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021001870",
+      "summary": "後魏辨宗錄 2卷 (北魏)元暉業撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f28mdni82",
+    "title": "老子傅奕注",
+    "candidates": [
+     {
+      "entry_id": "10012021002319",
+      "summary": "老子 2卷 (唐)傅奕注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002335",
+      "summary": "老子音義 (唐)傅奕注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f27y99b0j",
+    "title": "老子葛洪序訣",
+    "candidates": [
+     {
+      "entry_id": "10012021002286",
+      "summary": "老子道德經序訣 2卷 (東晉)葛洪撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002343",
+      "summary": "開題序訣義疏 7卷 (唐)成玄英注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q82nke9",
+    "title": "陳嗣古注",
+    "candidates": [
+     {
+      "entry_id": "10012021002264",
+      "summary": "老子注 2卷 陳嗣古注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002724",
+      "summary": "公孫龍子 1卷 陳嗣古注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q3dgxkw",
+    "title": "雷公集撰神農本草",
+    "candidates": [
+     {
+      "entry_id": "10012021003612",
+      "summary": "神農本草 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003613",
+      "summary": "神農本草 4卷 雷公撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003641",
+      "summary": "神農本草 7卷 (蕭梁)陶弘景集注 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q9jpwjk",
+    "title": "孟氏解孫子",
+    "candidates": [
+     {
+      "entry_id": "10012021002315",
+      "summary": "孫子 12卷 (晉 )孫綽撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003115",
+      "summary": "五曹孫子等算經 20卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003116",
+      "summary": "甄鸞孫子算經 3卷 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003165",
+      "summary": "孫子 3卷 (東漢)曹操注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003166",
+      "summary": "續孫子兵法 2卷 (東漢)曹操編 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q9gwrnl",
+    "title": "僧道宗續高僧傳",
+    "candidates": [
+     {
+      "entry_id": "10012021002539",
+      "summary": "續高僧傳 32卷 僧道宗撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002552",
+      "summary": "續高僧傳 20卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002553",
+      "summary": "後集續高僧傳 10卷 道宣撰 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002653",
+      "summary": "續高僧傳 32卷 道宗撰 亦見《新唐書·藝文志》"
+     }
+    ]
+   },
+   {
+    "id": "d59f2q0kyj2a",
+    "title": "泰乾秘要李淳風注",
+    "candidates": [
+     {
+      "entry_id": "10012021002420",
+      "summary": "集注陰符經 1卷 李洽注釋 李鑒注釋 楊晟注釋 (周)鬼谷子注釋 (西周)吕尚注釋 (春秋時期)范蠡注釋 (漢)張良注釋 (蜀)諸葛亮注釋 (唐)李淳風注釋 (唐)李筌注釋 (清)李鋭注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021002434",
+      "summary": "泰乾祕要 3卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003041",
+      "summary": "周髀 2卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003109",
+      "summary": "周髀算經 2卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     },
+     {
+      "entry_id": "10012021003110",
+      "summary": "九章算術 9卷 (唐)李淳風注釋 亦見《新唐書·藝文志》"
+     }
+    ]
+   }
+  ]
+ },
+ "E_已核實無需動作40條": "見各條 id：d59f28luasjn, d59f2px7j7r4, d59f2q90d79c, d59f28n54e0w, d59f28n38yrp, d59f2q6igu81, d59f2pwhmiv6, d59f2pt8kirl, d59f2q0gl7gi, d59f2qap8gzk, d59f2py3zwg0, d59f2q1m3rpc, d59f2qazjaww, d59f2pui562p, d59f2q24tzwi, d59f284655hc, d59f2q085slc, d59f28nk3s3p, d59f2q1izegw, d59f2q4yldds, d59f2q2cy6f5, d59f2q3xg4cg, d59f2q2rmbk1, d59f2q71tk3l, d59f2q84izup, d59f2pytwkxs, d59f2pz3w6pt, d59f2q17flz5, d59f2pv9m1og, d59f2q6qw8w1, d59f2q6oecjl, d59f2pw97402, d59f28430s1t, d59f2q4rq5fk, d59f2psw318i, d59f2pvscao2, d59f2q8fga9s, d59f2q8d9mv4, d59f2pyi1kw1, d59f2q5oi2gy——皆已核閱其 authors[]／indexed_by 為完整析出之題，非撰人黏題之病；未逐條回查 book-text 原文出處節，留待下一輪視需要抽查。附註：d59f28430s1t（論語義疏褚仲都撰）title 欄仍留撰人黏題原形（original_title 欄已存清本），屬既存之題名清理殘留，非本輪 HBCC 比對之課題，見該記錄之 ai_note。",
+ "方法備考": "C／D 類之解法：改用 HBCC 官方 /home/user/pku-hbcc-data/scripts/hbcc/parse.py 逐條結構化解出書名／責任者／卷數（不再用本庫『剝首尾N字』之粗糙法），再以正規化後之書名於全庫（production + draft）indexed_by.title_info 與 title 建索引查既存候選。D 類另加一步：先以『候選撰人之名是否已見於本條標題文字』篩出唯一對應之 HBCC candidate，消解 HBCC 側之多義，再用同一書名索引法查本庫候選。\n\n查明之重要陷阱：candidate 之『唯一 title 命中』未必是正確目標——本庫另有《周易》《老子》磁鐵樞紐（如 d59f282rkphd《周易王弼注》），其 related_works 已預先列出多個『某某注』專條（周易崔浩注、周易劉表注、周易任希古注……），這些專條之題名不會被裸字串『周易注』『崔浩注』直接命中，需先查磁鐵樞紐之 related_works 才找得到正確目標——見任務A之C類『樊光注／王凱沖注／黃穎注』與E類『崔譔注／虞飜注／惠嚴注／顏之推注』諸例。凡見「撰人+注」裸題（缺書名）之候選，應先查磁鐵樞紐，其次才是全庫關鍵詞 grep。\n\n注意「注是另一部書」：候選若為原典本身（authors=[原作者,撰]）而本條為特定注家之注本，不可逕併——見 SKILL〈「注」是另一部書〉，本輪據此棄權多條（光瑤注僧肇論、士燮注春秋經、楊倞注荀子、孫鐈注吳子、賈大隱/陳嗣古注公孫龍子等）。"
+}
