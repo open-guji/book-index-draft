@@ -778,5 +778,34 @@ if _PR_ROOT:
     for x in _pdup[:6]: print('     ',x)
     print('  work 之 authors[].entity_id 不指 production entity',len(_pent),'　基線 0（2026-08-25 entity 全量升格後全清 120 處）')
     for x in _pent[:6]: print('     ',x)
+    # 2026-08-25 增：production 側之整理本與 source_bid 兩驗。
+    # 立此二驗之由：本工具之整理本諸驗自來只 glob `Work/*/*/*/*/collated_edition/*.json`
+    # ——**draft 相對路徑**，production 的整理本從不在掃描之列。一條 work 一旦升格，
+    # 其 collated_edition 資產目錄隨之遷入 production，此後歷次併條只改 draft 的節，
+    # production 的節遂靜默積欠。2026-08-25 全庫掃出 215 節、12 處 source_bid 落空，
+    # 皆此故。修法見該日之提交：以「同目錄之 source_bid＋title_info 唯一相合」為主證，
+    # 以 git 改繫鏈為旁證，二法所得五十八處無一相左。
+    _pcol=[]; _pbid=[]
+    for _f in glob.glob(_PR_ROOT+'/Work/*/*/*/*/collated_edition/*.json'):
+        if _f.endswith('collated_edition_index.json'): continue
+        try: _d=json.load(open(_f))
+        except Exception: continue
+        _secs=_d.get('sections') if isinstance(_d,dict) else (_d if isinstance(_d,list) else [])
+        for _n,_s in enumerate(_secs or []):
+            if not isinstance(_s,dict): continue
+            _w=_s.get('work_id')
+            if _w and _w not in _pw and _w not in IW and _w not in IB and _w not in IC:
+                _pcol.append((os.path.relpath(_f,_PR_ROOT),_n,_s.get('title'),_w))
+    for _i,(_d,_p) in _pw.items():
+        for _k in ('indexed_by','emendated_by'):
+            for _s in (_d.get(_k) or []):
+                if not isinstance(_s,dict): continue
+                _b=_s.get('source_bid')
+                if _b and _b not in _pw and _b not in IW and _b not in IB and _b not in IC:
+                    _pbid.append((_i,_k,_s.get('source'),_b))
+    print('  整理本節之 work_id 落空',len(_pcol),'　基線 0（2026-08-25 全清 215 節；升格後整理本遷入 production，draft 的併條掃不到）')
+    for x in _pcol[:6]: print('     ',x)
+    print('  indexed_by/emendated_by 之 source_bid 落空',len(_pbid),'　基線 0（2026-08-25 全清 12 處）')
+    for x in _pbid[:6]: print('     ',x)
     print('  目錄分片錯置',len(_pdir),'　基線 0')
     print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')
