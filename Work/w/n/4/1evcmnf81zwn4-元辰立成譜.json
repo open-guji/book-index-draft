@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmnf81zwn4",
   "type": "work",
   "title": "元辰立成譜",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《元辰立成譜》一卷",
-      "summary": "《元辰立成譜》一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《元辰立成譜》一卷",
-      "summary": "《元辰立成譜》一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmnf81zwn4",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《元辰立成譜》一卷",
-      "summary": "元辰立成一卷\n並不著撰人。\n以上十部皆元辰之屬,為第八類。《史記·日者傳》褚先生\n言,孝武時,聚會占七家,問娶婦日,有叢辰家。或引舊注\n云叢辰,猶今之以五行生剋擇日也。《漢書藝文志》五行\n家有《鍾律叢辰日苑》二十二卷。叢辰似即元辰。又《日者\n傳》言宋忠、賈誼對司馬季主言人禄命,《論衡命義》等篇\n亦數言星位、禄命、三命。是元辰禄命之說秦漢時已有之。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2q7tafpd",
-  "_promoted_at": "2026-08-25T15:43:27Z"
+  "_promoted_at": "2026-08-25T15:43:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q7tafpd。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

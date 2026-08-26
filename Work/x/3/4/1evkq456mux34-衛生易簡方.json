@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkq456mux34",
   "type": "work",
   "title": "衛生易簡方",
-  "authors": [
-    {
-      "name": "胡濙",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967cp20mp87",
-      "dynasty_basis": "entity_propagation_r2:1j967cp20mp87"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖011821-011832）。明嘉靖四十一年刊修補本。",
-    "sources": [
-      "國立故宮博物院善本舊籍",
-      "明史藝文志"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖011821-011832）。阶段 5 兜底建立。　entity_id 補繫：本條之撰人胡濙與庫中人物記錄（1j967cp20mp87）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 12，與著錄原文（明史藝文志：「衛生易簡方」）所載之 4 卷不合，今據原文訂正。\n\n2026-08-23 B1 同名異書併池：併入 `1evkaiqegkutc`（衛生易簡方）。2026-08-23 B6（B3′ 遺留）：併入 `1evkaiqegkutc`（《衛生易簡方》十二卷（胡□，無著錄））。彼條撰人欄之次字缺，其人即本條之胡濙（明胡濙撰《衛生易簡方》）。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evkpyhsfxt6o`（衞生易簡方）。二條同題（衛／衞異體）同撰（胡濙）。卷數四卷／十二卷之異非二書之證——本條所繫《明史藝文志》原文自言「胡濙《衛生易簡方》四卷…一作十二卷」，志書自身已明其為一書之兩種分卷；且二條所掛之本皆明嘉靖四十一年刊修補本（一為原刊、一為覆刊）。存者取用字正之「衛」，且有著錄。　被刪條之 description：本書收入《國立故宮博物院善本舊籍》（統一編號 故觀004266-004269）。明覆嘉靖四十一年刊修補本。（源：國立故宮博物院善本舊籍）；被刪條之 dynasty=明，本條從缺，不越 C／D 車道而搬，俟其道補。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "id": "1evkq456mux34",
-  "books": [
-    "11qki5ukr2xhc",
-    "11qkhzklyxy4g"
-  ],
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "胡濙《卫生易简方》四卷永乐中，濙为礼部侍郎，出使四方，辑所得医方进于朝。一作十二卷。",
-      "summary": "胡濙《衛生易簡方》四卷永樂中，濙為禮部侍郎，出使四方，輯所得醫方進於朝。一作十二卷。"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "additional_titles": [
-    "衞生易簡方"
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
   "_promoted_to": "d59f2nk5cwzm",
-  "_promoted_at": "2026-08-25T12:39:33Z"
+  "_promoted_at": "2026-08-25T12:39:33Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nk5cwzm。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsx8nuaqyo",
   "type": "work",
   "title": "孝宗實錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《孝宗實錄》",
-      "summary": "（（傅伯壽撰））《孝宗實錄》五百卷",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《宋史藝文志》（上限 song），而本條為 ming 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《孝宗實錄》五百卷",
-      "summary": "《孝宗實錄》五百卷（傅伯壽、陸游）",
-      "author_info": "傅伯壽、陸游"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "summary": "孝宗實錄",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 ming 之作、撰人闕，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    }
-  ],
-  "id": "1evcsx8nuaqyo",
-  "ai_note": "明史藝文志匹配：標題精確匹配，作者 謝遷 Entity 查證屬明（明史官方實錄，劉健、謝遷(1449-1531)等修），gazetteer_propagation 確認正確。 indexed_by 含前朝同名異書條目，係不同朝代同名書合併記錄，待拆分 Work。 [ming-round2: dynasty null→明; 主志=明史藝文志, 混他志=['國史經籍志', '宋史藝文志', '直齋書錄解題']]\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五百卷），今據以補。\n\n2026-08-21 著錄錯掛標記：本條所繫 2 節出於宋史藝文志、直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 明代輪 S7 前置（坑32 覆核所牽出）：**本條疑為同題異書誤併**——indexed_by 兼繫前代之志與《明史藝文志》，而二者所著撰人各異（依 SCHEMA〈同題二條〉：撰人互異＝同名異書，不當併）。此非「缺撰人」，是條目本身壞了；補一個撰人只會把錯掩住，故 authors 不補、**本輪不升格**，登記待拆：.claude/known-issues/明-同題異書誤併待拆-20260825.json\n\n2026-08-25 明代輪 S7 前置（坑32 覆核所牽出）：**本條疑為同題異書誤併**——indexed_by 兼繫前代之志與《明史藝文志》，而二者所著撰人各異（依 SCHEMA〈同題二條〉：撰人互異＝同名異書，不當併）。此非「缺撰人」，是條目本身壞了；補一個撰人只會把錯掩住，故 authors 不補、**本輪不升格**，登記待拆：.claude/known-issues/明-同題異書誤併待拆-20260825.json\n\n2026-08-25 同題異書拆分：本條原兼繫前代之志與《明史藝文志》二書之著錄。《明史藝文志》「《孝宗實錄》二百二十四卷、正德元年，劉健、謝遷等修。」——明孝宗實錄，正德元年劉健、謝遷等修，與宋孝宗實錄（傅伯壽、陸游，五百卷）非一書。　今以明史志一節別立 `1ex16nn30s7wg`，本條留前代諸節、period 由 ming 改 song。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "period": "song",
-  "period_basis": "2026-08-25 同題異書拆分：本條之明史藝文志一節已別立為 `1ex16nn30s7wg`（明劉健之作）；所餘諸節皆前代之志，據以改繫 song。",
-  "dynasty": "明",
-  "dynasty_basis": "gazetteer_propagation",
-  "juan_count": {
-    "number": 500
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 500
-    }
-  ],
-  "measure_info": "五百卷",
-  "description": {
-    "text": "諸志不著撰人。五百卷；諸志所著之數有異，別作二百二十四卷。見著錄於《宋史藝文志》《明史藝文志》《國史經籍志》《直齋書錄解題》。其著錄之文，《明史藝文志》作「《孝宗實錄》二百二十四卷、正德元年，劉健、謝遷等修」。",
-    "sources": [
-      "宋史藝文志",
-      "明史藝文志",
-      "國史經籍志",
-      "直齋書錄解題"
-    ]
-  },
-  "authors": [
-    {
-      "name": "傅伯壽",
-      "role": "修",
-      "name_basis": "2026-08-25 同題異書拆分：據本條所餘之前代著錄析出。"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ex16nn30s7wg",
-      "title": "孝宗實錄",
-      "relation": "related",
-      "note": "同名異書：彼條是明劉健之《孝宗實錄》，本條是前代同名之書。二者原被併為一條，2026-08-25 拆分。"
-    }
-  ],
   "_promoted_to": "d59f2ofnea69",
-  "_promoted_at": "2026-08-25T13:40:06Z"
+  "_promoted_at": "2026-08-25T13:40:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofnea69。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

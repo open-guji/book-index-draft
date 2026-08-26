@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmncgu3cow",
   "type": "work",
   "title": "莊子義疏",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《莊子義疏》八卷",
-      "summary": "《莊子義疏》八卷戴詵撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《莊子義疏》十卷",
-      "summary": "《莊子義疏》十卷（王）",
-      "author_info": "王"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《莊子義䟽》八卷",
-      "summary": "《莊子義䟽》八卷（戴詵）",
-      "author_info": "戴詵"
-    }
-  ],
-  "authors": [
-    {
-      "name": "戴詵",
-      "role": "撰",
-      "entity_id": "1j96gmtiqayv4"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "id": "1evcmncgu3cow",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《莊子義疏》八卷",
-      "summary": "莊子義疏八卷 戴撰\n戴許有《老子義疏》,見前。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "additional_titles": [
-    "莊子義䟽"
-  ],
-  "ai_note": "2026-08-25 無斷代批次合併（plan_2.json 判、主進程執行）：莊子義疏：兩條撰人同為戴詵，卷數同為八卷",
   "_promoted_to": "d59f2q48zwg1",
-  "_promoted_at": "2026-08-25T15:36:36Z"
+  "_promoted_at": "2026-08-25T15:36:36Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q48zwg1。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

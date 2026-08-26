@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkah4qd7ytc",
   "type": "work",
   "title": "河南總志",
-  "authors": [
-    {
-      "name": "胡謐",
-      "role": "等纂修",
-      "dynasty": "明",
-      "entity_id": "1jcf5151293jx",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293jx` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007733-007762）。明成化甲辰(二十年)刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evdicls92xvk(胡諲)（不同作者，故新建獨立 Work）。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 B1 同名異書併池：併入 `1evdicls92xvk`（河南總志）。2026-08-23 B6（B3′ 遺留）：併入 `1evdicls92xvk`（明史藝文志《河南總志》十九卷（胡諲））。「諲」為「謐」之形訛；明胡謐纂《河南總志》。",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十冊",
-  "id": "1evkah4qd7ytc",
-  "books": [
-    "11qki51nd84cg"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "胡諲《河南总志》十九卷",
-      "summary": "胡諲《河南總志》十九卷",
-      "merged_from": "1evkah4qd7ytc",
-      "note": "B3′ 撰人名近似待覈組：彼條為明史藝文志《河南總志》十九卷（胡諲），與本條同題——「諲」為「謐」之形訛；明胡謐纂《河南總志》。判為同書。"
-    }
-  ],
   "_promoted_to": "d59f2nk51o8x",
-  "_promoted_at": "2026-08-25T12:39:32Z"
+  "_promoted_at": "2026-08-25T12:39:32Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nk51o8x。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

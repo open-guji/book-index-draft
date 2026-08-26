@@ -3,68 +3,7 @@
   "id": "1ev3bcfolepz4",
   "type": "work",
   "title": "五車霏玉",
-  "authors": [
-    {
-      "name": "吳昭明",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hjwlxny1r"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《五車霏玉》·三十四卷",
-      "author_info": "明吳昭明撰",
-      "summary": "明吳昭明撰，汪道昆增訂。昭明始末未詳。道昆字伯玉，歙縣人，嘉靖丁未進士，官至兵部左侍郎，《明史·文苑傳》附見《王世貞傳》中。是編於諸類書中掇拾殘剩，割裂餖飣，又皆不著其出典。蓋兔園冊子之最陋者。道昆雖陋，尚未必至是，疑坊刻託名也。",
-      "edition": "兩淮馬裕家藏本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《五車霏玉》三十四卷",
-      "author_info": "明吳昭明輯",
-      "summary": "《五車霏玉》三十四卷。明吳昭明輯。汪道昆 增訂 山東省圖書館藏明萬曆刻本。",
-      "edition": "汪道昆 增訂 山東省圖書館藏明萬曆刻本",
-      "volume": "第178冊",
-      "section": "子部"
-    }
-  ],
-  "juan_count": {
-    "number": 34
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=8605815",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 34
-    }
-  ],
-  "measure_info": "三十四卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "吳昭明（明）撰。三十四卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《五車霏玉》三十四卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2nh6wzr4",
-  "_promoted_at": "2026-08-25T12:33:52Z"
+  "_promoted_at": "2026-08-25T12:33:52Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nh6wzr4。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

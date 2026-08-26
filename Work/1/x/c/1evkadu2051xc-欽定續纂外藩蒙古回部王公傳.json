@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkadu2051xc",
   "type": "work",
   "title": "欽定續纂外藩蒙古回部王公傳",
-  "authors": [
-    {
-      "name": "穆彰阿",
-      "role": "等奉敕撰",
-      "dynasty": "清",
-      "entity_id": "1j967afja8kso"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿027442-027453）。清道光間內府朱絲欄寫本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-22 B1 同名異書併池：併入 `1evkq266v6q68`（欽定續纂外藩蒙古回部王公傳）。2026-08-21 B2 併池：併入 `1evkq266v6q68`（故宮善本著錄，潘世恩撰，清道光十九年武英殿刊本，十二卷）。與本條穆彰阿本卷數、纂修年代全合，二人皆道光朝纂修此官書之臣，同書。另有無撰人一卷本（清嘉慶間內府寫本）年代較早，疑屬「續纂」系列較早批次之編纂成果，未併，存疑。\n\n2026-08-22 B3 併池（藏本條重出）：1evkq23xxafb4 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 3→6）併入本條。",
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二冊",
-  "id": "1evkadu2051xc",
-  "books": [
-    "11qki2vcddmo0",
-    "11qki2xpiz9j4",
-    "11qki2xs822gw",
-    "11qki2v9xcphc",
-    "11qki2verj4lc",
-    "11qki2vfpjzsw"
-  ],
-  "updated_at": "2026-08-23T06:04:29.719957+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
-  "period_upper": "qing",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「清嘉慶間內府朱絲欄寫本」——版本之年不早於成書之年，故不晚於 qing",
   "_promoted_to": "d59f2mycm70g",
-  "_promoted_at": "2026-08-25T11:57:39Z"
+  "_promoted_at": "2026-08-25T11:57:39Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mycm70g。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

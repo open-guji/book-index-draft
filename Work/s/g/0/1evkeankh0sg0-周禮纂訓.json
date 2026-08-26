@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkeankh0sg0",
   "type": "work",
   "title": "周禮纂訓",
-  "authors": [
-    {
-      "name": "李鍾倫",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967avzkeubo"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫002196-002205）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。",
-  "juan_count": {
-    "number": 21
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 21
-    }
-  ],
-  "measure_info": "二十一卷",
-  "id": "1evkeankh0sg0",
-  "books": [
-    "11qkhvogrizuo"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1ioc6m0w",
-      "title": "周禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n1lzf9c",
-  "_promoted_at": "2026-08-25T12:03:55Z"
+  "_promoted_at": "2026-08-25T12:03:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n1lzf9c。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

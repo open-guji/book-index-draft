@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmngej7hts",
   "type": "work",
   "title": "崔氏食經",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《崔氏食經》四卷",
-      "summary": "《崔氏食經》四卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《崔氏食經》四卷",
-      "summary": "《崔氏食經》四卷（崔告。）",
-      "author_info": "崔告。"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "id": "1evcmngej7hts",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《崔氏食經》四卷",
-      "summary": "常手自親焉。昔遭喪亂,饑 仍臻,不能具其物用,十餘年間\n不復備設。先妣慮久廢忘,後生無知見,而少不習業書,乃占\n授為九篇,文辭約舉,婉而成章,聰辨強記,皆此類也。親没\n之後,值國龍興之會,平暴除亂,拓定四方。余備位台,與\n參大謀,賞獲豐厚,牛羊蓋澤,費累巨萬。衣則重錦,食則粱\n肉。遠惟平生,思季路負米之時,不可復得,故序遺文,垂示\n來世。”\n《唐書·經籍志》:《食經》九卷,崔浩撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "崔告",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1jcf5151295d0",
-      "note": "據本 work 諸著錄之 author_info「崔告。」補；著錄所給者為一，去朝代與職名後取之。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295d0` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "2026-08-20 撰人補全專項：本條原無 authors，而所繫諸著錄之 author_info 一致作「崔告。」，其文為裸名（去朝代與「撰」「編」「僧」「沙門」等職名之後為二至三字之人名，不含標點、數字、缺字），今據以補。四字以上者多為 OCR 之殘或二人連書，不在此批。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "_promoted_to": "d59f2q8v260x",
-  "_promoted_at": "2026-08-25T15:45:27Z"
+  "_promoted_at": "2026-08-25T15:45:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q8v260x。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

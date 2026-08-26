@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq113l97uo",
   "type": "work",
   "title": "孫鐯注吳子",
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《孫鐯注吳子》一卷",
-      "summary": "《孫鐯注吳子》一卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq113l97uo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "related_works": [
-    {
-      "id": "d59f2evzqcjm",
-      "title": "吳起",
-      "relation": "studies",
-      "note": "所注解者為漢志兵書略兵權謀類《吳起》四十八篇（今本《吳子》六篇為唐陸希聲節選本）。"
-    }
-  ],
-  "updated_at": "2026-08-01T10:06:01+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2pt3vyf5",
-  "_promoted_at": "2026-08-25T15:15:10Z"
+  "_promoted_at": "2026-08-25T15:15:10Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pt3vyf5。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

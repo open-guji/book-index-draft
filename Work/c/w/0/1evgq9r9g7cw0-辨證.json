@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq9r9g7cw0",
   "type": "work",
   "title": "辨證",
-  "authors": [
-    {
-      "name": "未熹",
-      "role": "撰",
-      "entity_id": "1j96hgcqgx24g"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《辨證》二卷",
-      "summary": "《辨證》二卷（未熹）",
-      "author_info": "未熹"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《辨證》",
-      "summary": "《辨證》一卷又",
-      "merged_from": "1evgq9r9g7cw0",
-      "note": "同題二條而一方無撰人：彼條（宋史藝文志）不著撰人、亦不著卷數，本條（國史經籍志）作「未熹」撰、2卷。題名全同，著錄異源，全庫同題僅此二條——裸條既無撰人又不著卷數，無他家可繫，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"辨證\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcsym94uosg`（辨證）。2026-08-23 B10（同題一方無撰人）：併入 `1evcsym94uosg`（宋史藝文志，不著撰人、亦不著卷數）。題名與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
-  "id": "1evgq9r9g7cw0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "_promoted_to": "d59f2pwqoem8",
-  "_promoted_at": "2026-08-25T15:22:09Z"
+  "_promoted_at": "2026-08-25T15:22:09Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pwqoem8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

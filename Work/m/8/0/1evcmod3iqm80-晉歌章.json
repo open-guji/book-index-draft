@@ -1,45 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmod3iqm80",
   "type": "work",
   "title": "晉歌章",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《晉歌章》八卷",
-      "summary": "《晉歌章》八卷梁十卷。"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "d59f2mp2xibm",
-      "summary": "晋歌章八卷 謹按見《隋志》。家大人曰:“《隋志》于《吴聲歌辭曲》下又載梁有《晋歌章》十卷,即此書。舊注:“本作十卷。”可證。”謊樂歌辭十卷晶,謹按見《七錄》。《新唐志》有晶《樂府歌詩》十卷,即此。",
-      "merged_from": "1evfuvdk0gc1s",
-      "note": "隋書經籍志與補晉書藝文志所著《晉歌章》為一書，今合併。",
-      "section": "丁部集録／總集類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "id": "1evcmod3iqm80",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "additional_titles": [
-    "晋歌章"
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、補晉書藝文志同著《晉歌章》，係一書互著（或重出），今合併。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "jin",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《補晋書藝文志》（清人補晉，斷代），故不晚於 jin",
-  "period": "jin",
-  "period_basis": "志書本類（丁部集録·總集類）以時代為次，本條前後最近之已定代鄰條同作「jin」，據以夾逼（本節夾逼驗準 0.988；2026-08-25 無斷代批次）",
-  "authors": [],
   "_promoted_to": "d59f2q3zy1aa",
-  "_promoted_at": "2026-08-25T15:36:07Z"
+  "_promoted_at": "2026-08-25T15:36:07Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q3zy1aa。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

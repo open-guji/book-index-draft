@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd8g6zfuo",
   "type": "work",
   "title": "姚崇集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《姚崇集》十卷",
-      "summary": "《姚崇集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "姚崇集",
-      "summary": "姚崇集十卷"
-    }
-  ],
-  "id": "1evcpd8g6zfuo",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（十卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "姚崇",
-      "role": "撰",
-      "entity_id": "1jcf51512936l",
-      "dynasty": "唐",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"姚崇集\"）——前缀「姚崇」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "唐",
-  "period": "sui-tang",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「姚崇」（entity 1jcf51512936l）已定代「唐」，且與本條 period_upper（sui-tang）相容，據以定代。",
   "_promoted_to": "d59f2og728ea",
-  "_promoted_at": "2026-08-25T13:41:10Z"
+  "_promoted_at": "2026-08-25T13:41:10Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2og728ea。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

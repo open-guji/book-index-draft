@@ -1,57 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcml2fani0w",
   "type": "work",
   "title": "晉要事",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《晉要事》三卷",
-      "summary": "《晉要事》三卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "晉要事",
-      "summary": "晉要事三卷"
-    },
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "d59f2mp2xibm",
-      "summary": "晋要事三卷 謹按見《隋志》。",
-      "merged_from": "1evfuukehsxds",
-      "note": "隋書經籍志、新唐書藝文志與補晉書藝文志所著《晉要事》為一書，今合併。",
-      "section": "乙部史録／舊事類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "id": "1evcml2fani0w",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "晉要事三卷",
-      "summary": "晉要事三卷\n不著撰人。\n《唐書·藝文志》:《晉要事》三卷。\n章氏《考證》:《初學記·中宫部》,《書鈔設官部》、《儀飾\n部》,《御覽・服章部》並引《晉氏要事》各一事。\n按《舊唐志》有《晉故事》三卷,亦無名氏,似即此書。《新唐\n志》又别有《晉氏故事》三卷,似重出。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "additional_titles": [
-    "晋要事"
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：隋書經籍志、新唐書藝文志、補晉書藝文志同著《晉要事》，係一書互著（或重出），今合併。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "jin",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《補晋書藝文志》（清人補晉，斷代），故不晚於 jin",
-  "authors": [],
   "_promoted_to": "d59f2q6k114w",
-  "_promoted_at": "2026-08-25T15:41:01Z"
+  "_promoted_at": "2026-08-25T15:41:01Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q6k114w。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

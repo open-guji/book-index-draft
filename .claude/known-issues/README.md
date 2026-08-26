@@ -260,3 +260,45 @@ os.replace(tmp, self.path)
 20 個目錄（見〈分片退化〉），每條都掃一遍即分鐘級。長批當用
 `--no-rewrite-refs` 而收工跑一次 `sweep-promoted-refs.py`——它是冪等的，
 掃一次與逐條掃等價，且不必賭在超時之前跑完。
+
+## 墓碑 stub 化：封賬之前必先平賬，且三處工具要跟著改
+
+「stub 化」是把已升格之 draft 墓碑縮為升格印記——
+`{schema_version,id,type,title,_promoted_to,_promoted_at}` ＋ `merged_from`
+（溯源）＋ `_has_*`（派生）＋ 一句指向 production 之 `ai_note`。
+其用不在省空間（77,373 條 66.2 MB → 25 MB，而 `.git` 不縮反漲），
+**在防誤改**：墓碑留著全欄位，後續腳本與人就會接著改它，而 production
+才是 canonical。2026-08-26 全量行之，記其要：
+
+**一、stub 是封賬，封之前賬要平。** 墓碑一縮，其獨有之知識即永失。
+本輪封賬前掃出並補畢者：production 側 52 處懸空 entity_id（2026-08-24
+entity 品質清整退役一批非人 entity，draft 側改繫／撤繫而 production 未跟）、
+2 條 description（撰人生平之考只在墓碑）、2 條懸空 related_works。
+**比對之際有兩個假陽性坑**：
+  - `merged_from` 是溯源欄，兩側本就皆是 draft id，歸一化時**不可動**
+    ——動之則每條帶併記之 `indexed_by` 都報（實測 120 條假陽）；
+  - production `revision` > 1.0.0 者是升格後正當改過，不算不一致。
+去此二者，54,021 條裡真須人判的只有 30 條。
+
+**二、`stub-tombstones.py` 原有二 bug**（已修）：`STUB_KEEP_KEYS` 用的是
+**無前綴**之 `promoted_to`/`promoted_at`，而現行墓碑是 `_promoted_to`
+——照跑會把升格印記整個刪掉，即 E02/E03 所報之最嚴重破壞；寫檔又漏了
+檔尾換行。今並加 `--ids-from` 以名單驅動（其自帶之 diff 無上述二保護，
+大批次宜由呼叫方驗過再喂）。
+
+**三、stub 之後三處驗要跟著改**：
+  - `validate-promotions` 之 **E08** 逐欄比墓碑與正身，而 stub 之 `ai_note`
+    與正身必異——全量 stub 後實測報 **70,360 條**，把此驗徹底淹掉。
+    今於 promotion.py 加判：墓碑之欄位集合若不出 stub 之範圍即整條跳過
+    （judge by 欄位集合，不 judge by ai_note 之措辭，免得改文案即失效）。
+  - `chk` 之〈作品之 entity_id 指向已退役者〉原作 `for _w,_e in IW.items()`
+    ——**只掃 draft 之 works 索引**。斷代諸輪畢後正身盡在 production、
+    draft 只剩墓碑，此驗遂名存實亡：實測 production 有 52 處懸空而它報 0。
+    今兩庫之 Work 與 Book 一併掃。
+  - `chk` 之〈派生欄位與重算不符〉：`_has_collated` 等派生欄記的是
+    **draft 側**有無資產目錄，而志書之整理本依遷移方案仍留 draft，
+    故升格後仍為真。stub 不可刪之（實測刪後報 39 條）。
+
+**四、「已 stub」之判據取欄位集合，勿取 ai_note 之文字。** 本輪先以正則
+`依例 stub 化` 判，漏了 18 條——那是前一輪（G8）**寫了 stub 說明句而欄位
+沒刪乾淨**者，文字判據遂誤認其已 stub 而跳過。

@@ -3,58 +3,7 @@
   "id": "1evr5jml5tw5c",
   "type": "work",
   "title": "御選古文淵鑑",
-  "additional_titles": [
-    "御選古文淵鋻",
-    "御選古文淵鑑",
-    "禦選古文淵鑒",
-    "古文淵鑒",
-    "御選古文淵鑒"
-  ],
-  "authors": [
-    {
-      "name": "徐乾學",
-      "role": "編",
-      "dynasty": "清",
-      "note": "康熙二十四年（1685）奉敕領銜編纂，諸臣參與。",
-      "entity_id": "1j967a0kl4w8a"
-    },
-    {
-      "name": "康熙帝",
-      "role": "御選",
-      "dynasty": "清",
-      "entity_id": "1jcf5151295fq",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295fq` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "dynasty": "清",
-  "juan_count": {
-    "number": 64
-  },
-  "description": {
-    "text": "清康熙二十四年（1685）勅令徐乾學、葉方藹等編，康熙御選並親加評語。輯春秋至宋代古文 1480 餘篇，64 卷。為康熙朝重要古文選本，《四庫全書》《四庫全書薈要》皆收。",
-    "sources": [
-      "学界共识",
-      "《四庫全書總目》"
-    ]
-  },
-  "books": [
-    "11q37upzwy9ds",
-    "11q72a3ighvcw",
-    "11q7m1taum0ao",
-    "11qkhyjq1uy2o",
-    "11qki3pjr6dj4"
-  ],
-  "ai_note": "從 ghost ID 31hyr4yqzv76w（dedup v3 Phase 3d 删除合併目標的合併 bug 遺留孤兒引用）恢復新建主 Work。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhy0x7mf40 與 11q37upzwy9ds 同指文淵閣寫本一實物，今併於後者。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "measure_info": "六十四卷",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 64
-    }
-  ],
   "_promoted_to": "d59f2nup8lq8",
-  "_promoted_at": "2026-08-25T12:59:50Z"
+  "_promoted_at": "2026-08-25T12:59:50Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nup8lq8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

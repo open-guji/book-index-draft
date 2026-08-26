@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoqqv1ptz4",
   "type": "work",
   "title": "阮咸譜",
-  "authors": [
-    {
-      "name": "蔡逸",
-      "role": "撰",
-      "entity_id": "1j96hfo5e59fk"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《阮咸譜》一卷",
-      "summary": "《阮咸譜》一卷（蔡逸撰。）",
-      "author_info": "蔡逸撰。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《阮鹹譜》",
-      "summary": "《阮鹹譜》一卷吳仁傑",
-      "merged_from": "1evcsw7kdc1s0",
-      "note": "本著錄原繫題作「阮鹹譜」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"阮咸譜\" 唯一候选无作者\n\n2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《阮鹹譜》之 work（`1evcsw7kdc1s0`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
-  "id": "1evgoqqv1ptz4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "additional_titles": [
-    "阮鹹譜"
-  ],
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2q4vs8ht",
-  "_promoted_at": "2026-08-25T15:37:49Z"
+  "_promoted_at": "2026-08-25T15:37:49Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q4vs8ht。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

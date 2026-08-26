@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpzu4bry80",
   "type": "work",
   "title": "荊州府志",
-  "authors": [
-    {
-      "name": "葉仰高",
-      "role": "修",
-      "dynasty": "清",
-      "entity_id": "1jcf515129873",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129873` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志004923-004942）。清乾隆二十二年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志004923-004942）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 58
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 58
-    }
-  ],
-  "measure_info": "五十八卷卷首一卷",
-  "id": "1evkpzu4bry80",
-  "books": [
-    "11qki1amp8v7k"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n6w2y2p",
-  "_promoted_at": "2026-08-25T12:14:04Z"
+  "_promoted_at": "2026-08-25T12:14:04Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n6w2y2p。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

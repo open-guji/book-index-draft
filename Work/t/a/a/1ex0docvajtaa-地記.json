@@ -1,32 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1ex0docvajtaa",
+  "type": "work",
   "title": "地記",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《地記》五卷",
-      "summary": "《地記》五卷太康三年撰。",
-      "section": "地理類",
-      "note": "舊唐志地理類「《地記》五卷太康三年撰」，太康是晉武帝年號，其書遠在梁任昉二百五十二卷本之前，非一書；同志兩著而卷數懸絕，依 SCHEMA〈同題二條〉一別出。"
-    }
-  ],
-  "ai_note": "2026-08-23 M2 磁鐵專項（唐隋志系）新建：本條自 舊唐書經籍志「《地記》五卷」一節析出——該節原與 1evgpjl59bchs 共繫而實非一書。舊唐志地理類「《地記》五卷太康三年撰」，太康是晉武帝年號，其書遠在梁任昉二百五十二卷本之前，非一書；同志兩著而卷數懸絕，依 SCHEMA〈同題二條〉一別出。　欄位一概取志文所明著者（題、卷數），period／loss_status／entity_id 不繫。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [],
   "_promoted_to": "d59f2prri6m9",
-  "_promoted_at": "2026-08-25T15:12:35Z"
+  "_promoted_at": "2026-08-25T15:12:35Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2prri6m9。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

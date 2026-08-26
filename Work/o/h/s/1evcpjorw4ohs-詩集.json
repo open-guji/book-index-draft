@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpjorw4ohs",
   "type": "work",
   "title": "詩集",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《詩集》二十卷",
-      "summary": "《詩集》二十卷劉和撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《詩集》二十卷",
-      "summary": "《詩集》二十卷（劉和集）",
-      "author_info": "劉和集",
-      "merged_from": "1evr5e3mezpgq",
-      "note": "國史經籍志此條原誤繫清史稿劉蓉《養晦堂詩集》條，今改繫。"
-    }
-  ],
-  "id": "1evcpjorw4ohs",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "劉和",
-      "entity_id": "1jcf51512948x",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512948x` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "ai_note": "2026-08-08 補撰人：舊唐志原文「詩集二十卷劉和撰」。\n\n2026-08-19 部帙通名截題正名專項：國史經籍志集類「《詩集》二十卷（劉和集）」原誤繫於 `1evr5e3mezpgq`（清史稿劉蓉《詩集》），今改繫本條。\n\n2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 period未定批次 3.3（shard 3）：本條見《國史經籍志》〈集類〉，該篇編次以時代為序（同篇已定代諸條大抵依次遞進）；本條前後最近之已定代諸條皆繫 nanbeichao，據其編次定代（鄰次法 tier T2，抽驗準確率 96%–98%）。",
   "_promoted_to": "d59f2pxxr5kw",
-  "_promoted_at": "2026-08-25T15:24:27Z"
+  "_promoted_at": "2026-08-25T15:24:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pxxr5kw。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpo3eqssg0",
   "type": "work",
   "title": "御製詩餘集",
-  "authors": [
-    {
-      "name": "清 高宗",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1jcf51512975j",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512975j` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿027801-027812）。清嘉慶五年內府烏絲欄寫本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿027801-027812），無同名 Work 故新建。\n\n2026-08-23 B1 同名異書併池：併入 `1evkq1dq3pudc`（御製詩餘集）。2026-08-23 B1/B2 全量覆核：併入 `1evkq1dq3pudc`（故宮善本裸條，二十卷，嘉慶間武英殿刊本）。與本條嘉慶五年內府寫本題卷全同，一寫一刊；同題仁宗六卷、宣宗十二卷卷數俱不合，二十卷本唯高宗一家。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷目錄三卷",
-  "id": "1evkpo3eqssg0",
-  "books": [
-    "11qki2vm1f8cg",
-    "11qki20zdmccg"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
   "_promoted_to": "d59f2n4t5zpd",
-  "_promoted_at": "2026-08-25T12:10:04Z"
+  "_promoted_at": "2026-08-25T12:10:04Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n4t5zpd。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

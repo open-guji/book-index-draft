@@ -1,58 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evka73aaekg0",
   "type": "work",
   "title": "湘軍志",
-  "authors": [
-    {
-      "name": "王闓運",
-      "role": "撰",
-      "dynasty": "中華民國",
-      "entity_id": "1j968r2jhr282",
-      "dynasty_basis": "synonym:民國->中華民國"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善000760-000763）。民國十八年成都志古堂刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：31hyr4yqszzbl(王闓運)（不同作者，故新建獨立 Work）。　entity_id 補繫：本條之撰人王闓運與庫中人物記錄（1j968r2jhr282）同名，而該人物之 works 已列本條，是二者本相繫而作品側漏繫，今補。\n\n2026-08-19 卷數欄全庫比對：本條 juan_count 原作 4，與著錄原文（清史稿藝文志：「湘軍志」）所載之 16 卷不合，今據原文訂正。",
-  "juan_count": {
-    "number": 16
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "id": "1evka73aaekg0",
-  "books": [
-    "11qkh5wguexvk"
-  ],
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "湘軍志",
-      "summary": "《湘軍志》十六卷。王闓運撰。"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《湘軍志》十六卷",
-      "author_info": "王闓運撰",
-      "summary": "《湘軍志》十六卷。王闓運撰。影印上海歷史文獻館藏清光緒十二年成都墨香書屋刻本。",
-      "edition": "影印上海歷史文獻館藏清光緒十二年成都墨香書屋刻本",
-      "volume": "第413冊",
-      "section": "史部 史部"
-    }
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "跨代人物從斷代志（2026-08-21 catalog_bound 專項）：撰人 dynasty [('王闓運', '中華民國')] 指向 modern，而本書見於《清史稿藝文志》——該志斷代著錄 qing 之作，其編者專為此代甄別，較機械據撰人朝代派生為可信。原判：據 authors[0].dynasty「民國」",
   "_promoted_to": "d59f2mxmphxe",
-  "_promoted_at": "2026-08-25T11:56:16Z"
+  "_promoted_at": "2026-08-25T11:56:16Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mxmphxe。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

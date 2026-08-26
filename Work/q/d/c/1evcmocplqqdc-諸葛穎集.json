@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocplqqdc",
   "type": "work",
   "title": "諸葛穎集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《諸葛穎集》十四卷",
-      "summary": "著作郎《諸葛穎集》十四卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《諸葛穎集》十四卷",
-      "summary": "《諸葛穎集》十四卷"
-    }
-  ],
-  "juan_count": {
-    "number": 14
-  },
-  "id": "1evcmocplqqdc",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《諸葛穎集》十四卷",
-      "summary": "著作郎諸葛穎集十四卷\n諸葛穎有《北伐記》、《巡撫揚州記》,見史部地理類。\n《隋書》、《北史·文苑傳》:穎清辯能屬文。仕梁,入齊,待詔\n文林館。周武平齊,不得調,杜門不出者十餘年。習《易》、圖\n緯、《蒼》、《雅》、《莊》、《老》,頗得其要。爆帝即位,甚見親幸。\n帝賞賜穎詩,其卒章曰:“參翰長洲苑,侍講肅成門。名理窮\n研竅,英華 討論。實録資平允,傳芳導後昆。”其待遇如此。\n穎性編急,與柳 每相忿閱,帝屢責怒之而猶不止,於後帝亦\n薄之。有集二十卷,行於世。\n《唐書·經籍》、《藝文志》:《諸葛穎集》十四卷。\n馮氏《詩紀》:諸葛穎有《奉和月夜觀星詩》及《和場帝春江花\n月夜》等詩凡六首。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "2026-08-25 period未定批次 3.3（shard 3）：本條見《舊唐書·經籍志》〈別集類〉，該篇編次以時代為序（同篇已定代諸條大抵依次遞進）；本條前後最近之已定代諸條皆繫 sui-tang，據其編次定代（鄰次法 tier T2，抽驗準確率 96%–98%）。",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2pybstmp",
-  "_promoted_at": "2026-08-25T15:25:12Z"
+  "_promoted_at": "2026-08-25T15:25:12Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pybstmp。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

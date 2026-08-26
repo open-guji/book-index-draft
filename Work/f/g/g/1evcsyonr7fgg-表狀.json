@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyonr7fgg",
   "type": "work",
   "title": "表狀",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《表狀》",
-      "summary": "《表狀》五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《表狀》五卷",
-      "summary": "《表狀》五卷",
-      "merged_from": "1evgq9a210b28",
-      "note": "國史經籍志五卷，卷數與宋志全合。"
-    }
-  ],
-  "id": "1evcsyonr7fgg",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "嚴虔崧",
-      "role": "撰",
-      "entity_id": "1jcf51512936f",
-      "note": "宋史藝文志別集類前條作「嚴虔崧《寶囊》五卷又」，句末之「又」依該志文例領下條，即本條亦嚴虔崧所作。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512936f` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "related_works": [
-    {
-      "id": "1evcsyooncveo",
-      "title": "表狀",
-      "relation": "related",
-      "note": "宋史藝文志別集類別出「又《表狀》一卷」，據「又」字承上條《李洪皋集》，撰人為李洪皋，與本條異。"
-    }
-  ],
-  "ai_note": "2026-08-19 全庫同名異書核對：撰人據宋史藝文志別集類「又」字領下條之文例補入——前條「嚴虔崧《寶囊》五卷又」句末之「又」領本條，故本書亦嚴虔崧所作。國史經籍志五卷本卷數全合，今併入。宋志同類別出「又《表狀》一卷」（見 `1evcsyooncveo`），其「又」承上條《李洪皋集》二卷，撰人為李洪皋，卷數亦異，別為一書。本庫無嚴虔崧 entity，未繫。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2q5sk5qa",
-  "_promoted_at": "2026-08-25T15:39:34Z"
+  "_promoted_at": "2026-08-25T15:39:34Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q5sk5qa。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

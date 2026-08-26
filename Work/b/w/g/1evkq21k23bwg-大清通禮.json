@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkq21k23bwg",
   "type": "work",
   "title": "大清通禮",
-  "authors": [
-    {
-      "name": "穆克登額",
-      "role": "等奉敕撰",
-      "dynasty": "清",
-      "entity_id": "1jcf5151297uz",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151297uz` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿024263-024298）。清道光四年武英殿刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿024263-024298）。阶段 5 兜底建立。\n\n2026-08-22 B1 同名異書併池：併入 `1evr5e3meogya`（大清通禮）。2026-08-21 B2 併池：併入 `1evr5e3meogya`（清史稿藝文志，無撰人，「道光四年敕撰」，五十四卷）。同書，本書性質為官修敕撰，「穆克登額」疑為刊本負責官員。",
-  "juan_count": {
-    "number": 54
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 54
-    }
-  ],
-  "measure_info": "五十四卷",
-  "id": "1evkq21k23bwg",
-  "books": [
-    "11qki2sp293pc"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "大清通禮",
-      "summary": "大清通禮五十四卷。道光四年敕撰。",
-      "merged_from": "1evkq21k23bwg",
-      "note": "清史稿藝文志「大清通禮五十四卷。道光四年敕撰」與本條故宮善本著錄（清道光四年武英殿刊本，五十四卷）同一年份、同卷數，同書；「穆克登額」疑為刊本負責官員而非親撰，本書性質為官修敕撰。"
-    }
-  ],
   "_promoted_to": "d59f2n7wah35",
-  "_promoted_at": "2026-08-25T12:16:00Z"
+  "_promoted_at": "2026-08-25T12:16:00Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n7wah35。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

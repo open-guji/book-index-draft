@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs0br0wc1s",
   "type": "work",
   "title": "劉氏洞史",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "劉氏洞史",
-      "summary": "劉氏洞史二十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《劉氏洞史》二十卷",
-      "summary": "《劉氏洞史》二十卷（劉權，晏曾孫。）",
-      "author_info": "劉權，晏曾孫。"
-    }
-  ],
-  "id": "1evcs0br0wc1s",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二十卷），今據以補。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "authors": [],
   "_promoted_to": "d59f2q4xnnk0",
-  "_promoted_at": "2026-08-25T15:37:54Z"
+  "_promoted_at": "2026-08-25T15:37:54Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q4xnnk0。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

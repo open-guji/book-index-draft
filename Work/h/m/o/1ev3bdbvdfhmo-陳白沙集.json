@@ -3,71 +3,7 @@
   "id": "1ev3bdbvdfhmo",
   "type": "work",
   "title": "陳白沙集",
-  "authors": [
-    {
-      "name": "陳獻章",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967c147nuj6"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《白沙集》·九卷",
-      "author_info": "明陳獻章撰",
-      "summary": "明陳獻章撰。獻章字公甫，新會人。正統丁卯舉人，以薦授翰林院檢討，追諡文恭。事蹟具《明史•儒林傳》。是集為其門人湛若水校定，萬曆間何熊祥重刊之。凡文四卷，詩五卷，行狀、志、表附於後。史稱獻章之學以靜為主。其教學者但令端坐澄心，於靜中養出端倪，頗近於禪，至今毀譽參半。其詩文偶然有合，或高妙不可思議；偶然率意，或粗野不可響邇，至今毀譽亦參半。《王世貞集》中有《書白沙集後》曰：“公甫詩不入法，文不入體，又皆不入題，而其妙處有超出法與體與題之外者。”可謂兼盡其短長。蓋以高明絕異之姿，而又加以靜悟之力，如宗門老衲，空諸障翳，心境虛明，隨處圓通。辨才無礙，有時俚詞鄙語，沖口而談；有時妙義微言，應機而發。其見於文章者亦仍如其學問而已，雖未可謂之正宗，要未可謂非豪傑之士也。",
-      "edition": "江西巡撫采進本"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "白沙集十卷",
-      "summary": "白沙集十卷。（闕）",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《崇文總目》（上限 song），而本條為 ming 之作、撰人陳獻章，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    }
-  ],
-  "books": [
-    "11q37tzb470u8"
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "additional_titles": [
-    "陳白沙集"
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/06042360.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫029346-029355）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "從 1evkph8erfvnk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫029346-029355），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-20 磁鐵拆解專項（全域掃描）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《白沙集》》→《白沙集》`1evf1nnhn92ps`。 2026-08-21 文淵閣四庫本雙錄歸併：所掛 Book 11qkhxrptyups 與 11q37tzb470u8 同指文淵閣寫本一實物，今併於後者。\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於崇文總目，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nk0d43l",
-  "_promoted_at": "2026-08-25T12:39:17Z"
+  "_promoted_at": "2026-08-25T12:39:17Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nk0d43l。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evke2jukx1c0",
   "type": "work",
   "title": "廣東輿地圖說",
-  "authors": [
-    {
-      "name": "廖廷相",
-      "role": "纂",
-      "dynasty": "清",
-      "entity_id": "1jcf5151295gj",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151295gj` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "廖廷相（清）纂。十四卷首一卷。輿圖之屬。其體以圖為主而附說，記一方之疆界、山川、道里、城邑、關隘。本書收入《國立故宮博物院善本舊籍》（統一編號 贈善021124-021127）。清宣統元年鉛印本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-24 J11 版本著錄語補其體類（坑 #17）：本條原 description 只是版本著錄語，而 indexed_by 空（其所出之館藏／影印叢編目錄不入志書之列），無著錄可撮。今所補者三事，皆不出本條已有之資料：撰人與其代（取 authors）、卷冊之數（取 measure_info），與**從題名之形所推之體類**。**體類之說是「此體之書通例如此」，非「本書目次如此」**——未讀其書而斷其目次即是臆造，故措辭用「……之屬，其體例分……」。原版本著錄語留其後不動。**未覆核原書**。",
-  "juan_count": {
-    "number": 14
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 14
-    }
-  ],
-  "measure_info": "十四卷首一卷",
-  "id": "1evke2jukx1c0",
-  "books": [
-    "11qkht94flce8"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2mzsqtq9",
-  "_promoted_at": "2026-08-25T12:00:26Z"
+  "_promoted_at": "2026-08-25T12:00:26Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mzsqtq9。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

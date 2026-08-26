@@ -3,60 +3,7 @@
   "id": "1ev3bbfqa7jeo",
   "type": "work",
   "title": "沈氏農書",
-  "authors": [
-    {
-      "name": "沈氏",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96kekwx70u8"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《沈氏農書》•一卷",
-      "author_info": "案此編為桐鄉張履祥所刊，稱漣川沈氏撰",
-      "summary": "案此編為桐鄉張履祥所刊，稱漣川沈氏撰。不知沈氏為誰也。其書成於崇禎末。履祥以其有益於農事，因重為校定。具列藝穀、栽桑、育蠶、畜牧諸法，而首以月令以辨趨事赴功之宜。沈氏為湖州人，故所述皆吳中土宜，與陳旉、王禎諸本互有出入。近時朱坤已刻入《楊園全書》中，而曹溶《學海類編》亦備載之雲。",
-      "edition": "編修程晉芳家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=790526",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "作者「明沈氏撰」補自《國立故宮博物院善本舊籍》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "books": [
-    "11qki081hlb7k"
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "description": {
-    "text": "沈氏（明）撰。一卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2nl9xreo",
-  "_promoted_at": "2026-08-25T12:41:43Z"
+  "_promoted_at": "2026-08-25T12:41:43Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nl9xreo。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

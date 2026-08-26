@@ -3,57 +3,7 @@
   "id": "1ev3bdxixog00",
   "type": "work",
   "title": "穀城山館文集",
-  "authors": [
-    {
-      "name": "于慎行",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96h8rw7vhfo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《穀城山館文集》•四十二卷",
-      "author_info": "明於慎行撰",
-      "summary": "明於慎行撰。慎行有《讀史漫錄》，已著錄。此集乃所作雜文也。明中葉以後，文格日卑，學淺者蹈故守常，才高者破律壞度。慎行之文，雖不涉吊詭之習。至於精心結構，灝氣流行，終未能與唐順之、王慎中、歸有光等並據壇坫，故錄其詩集，而文集則附存目焉。",
-      "edition": "山東巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 42
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=2612274",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 42
-    }
-  ],
-  "measure_info": "四十二卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "于慎行（明）撰。四十二卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。別集之屬，所收為其人之詩文。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2ngot88w",
-  "_promoted_at": "2026-08-25T12:32:54Z"
+  "_promoted_at": "2026-08-25T12:32:54Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngot88w。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

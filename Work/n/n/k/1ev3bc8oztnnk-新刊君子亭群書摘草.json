@@ -3,57 +3,7 @@
   "id": "1ev3bc8oztnnk",
   "type": "work",
   "title": "新刊君子亭群書摘草",
-  "authors": [
-    {
-      "name": "王國賓",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1j967bgl7bsqa"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《群書摘草》·五卷",
-      "author_info": "明王國賓編",
-      "summary": "明王國賓編。國賓號養默，武進人。萬曆甲戌進士。其作此書時，方監榷杭州北新關，未詳其終於何官也。其書仿庾仲容《子鈔》、馬總《意林》之例，摘取《家語》以下至明張時徹《說林》三十二種，附以兵書七種。每種各摘數段，無所持擇，蓋亦當時書帕之本。",
-      "edition": "左都御史張若溎家藏本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《新刊君子亭群書摘草》五卷",
-      "author_info": "明王國賓輯",
-      "summary": "《新刊君子亭群書摘草》五卷。明王國賓輯。重慶圖書館藏明萬曆刻本。",
-      "edition": "重慶圖書館藏明萬曆刻本",
-      "volume": "第129冊",
-      "section": "子部"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "description": {
-    "text": "王國賓（明）編。五卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《新刊君子亭群書摘草》五卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "從 1evjxm7lsfgg0 合併。原註：本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nef11xf",
-  "_promoted_at": "2026-08-25T12:28:32Z"
+  "_promoted_at": "2026-08-25T12:28:32Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nef11xf。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -3,74 +3,7 @@
   "id": "1ev3bbhwc5tds",
   "type": "work",
   "title": "衛生集",
-  "authors": [
-    {
-      "name": "周宏",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hl9zmgrgg"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《衛生集》•四卷",
-      "author_info": "明周宏撰",
-      "summary": "明周宏撰。宏始末未詳。前有正德庚辰宏自序，複系以五言律詩一章，詞頗近俚。其論外感法仲景，內傷法東垣，濕熱法河間，雜病法丹溪，尚屬持平之論。然亦大略如是，未可執為定法也。",
-      "edition": "兩淮鹽政采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=7370169",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-mingjiajingkeben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/NGJ89241199901119082193",
-      "metadata": {
-        "edition": "明嘉靖刻本",
-        "version": "v1",
-        "total_page": 746,
-        "paragraph_count": 7281,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "周宏（明）撰。四卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。別集之屬，所收為其人之詩文。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2nht2txf",
-  "_promoted_at": "2026-08-25T12:35:04Z"
+  "_promoted_at": "2026-08-25T12:35:04Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nht2txf。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpnfxq5dds",
   "type": "work",
   "title": "陵縣志",
-  "authors": [
-    {
-      "name": "沈淮",
-      "role": "纂修",
-      "dynasty": "清",
-      "entity_id": "1j96h8rw790ff",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「沈淮」而無 entity_id，庫中同名唯一（`1j96h8rw790ff`）。entity 代 ming 與本書 qing 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志011819-011826）。清道光(乙巳)二十五年刊光緒乙亥(元年)增補本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志011819-011826），無同名 Work 故新建。\n\n2026-08-19 同題異撰人專項（二）：本條與 `1evkpstya1kow` 同題《陵縣志》、同卷數 22，撰人分作「沈淮」「沈淮原」，僅一字之差（或一名含於另一名、或冠以朝代），乃一名之異寫或形訛，非二人二書。今併，正名取「沈淮」，異名之著錄並存於 indexed_by。",
-  "juan_count": {
-    "number": 22
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "id": "1evkpnfxq5dds",
-  "books": [
-    "11qki1unl6xog",
-    "11qkhszt1ewhs"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n4dvd35",
-  "_promoted_at": "2026-08-25T12:09:15Z"
+  "_promoted_at": "2026-08-25T12:09:15Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n4dvd35。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmttz3kjy8",
   "type": "work",
   "title": "嶺西水陸兵紀",
-  "indexed_by": [
-    {
-      "source": "四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《嶺西水陸兵紀》•二卷",
-      "summary": "明盛萬年撰。萬年字恭伯，秀水人。萬曆癸未進士，官至江西按察使。遷雲南布政使，未到官卒。是編乃萬年官廣西按察使時，值倭入寇，萬年擊破之。因增設戰船，繕治營壘，益兵練卒，為善後計。以電白、吳川東南濱海，番舶內犯，二地先受其害。遂審度地勢，佈置堡寨，圖其兵弁制度及巡船款式，以成此書。其陸路則由電白、吳川至於高州添置員弁，凡郵傳之政及攻守之器悉載焉。歲久版佚。此本乃國朝雍正辛亥，其裔孫熙祚署吳川縣知縣，即"
-    }
-  ],
-  "authors": [
-    {
-      "name": "盛萬年",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8yj",
-      "dynasty": "明"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evcmttz3kjy8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "著錄原文自書撰人朝代：《四庫全書總目》「明盛萬年撰」",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
-  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J33：據 indexed_by《四庫全書總目》原文撮述 description（此類明代提要按語詳贍，build_desc() 之三國兩晉輯佚體例未能盡用，故逕據原文手撰）。",
   "_promoted_to": "d59f2ngufi0y",
   "_promoted_at": "2026-08-25T12:33:12Z",
-  "description": {
-    "text": "盛萬年（明）撰。盛萬年字恭伯，秀水人，萬曆癸未（十一年）進士，官至江西按察使，遷雲南布政使，未及到官而卒。二卷。見著錄於《四庫全書總目》，本書惟此一志著錄，別無他證。是編乃萬年官廣西按察使時，值倭寇入犯而擊破之，因增設戰船、繕治營壘、益兵練卒以為善後之計；以電白、吳川東南濱海易受番舶內犯，遂審度地勢，佈置堡寨，圖其兵弁制度及巡船款式，兼載陸路員弁添置、郵傳之政及攻守之器，以成此書。原版歲久佚失，今本乃清雍正辛亥其裔孫盛熙祚署吳川縣知縣時所重刊。",
-    "sources": [
-      "四庫全書總目"
-    ]
-  }
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngufi0y。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

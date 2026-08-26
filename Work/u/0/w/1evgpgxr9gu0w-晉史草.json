@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpgxr9gu0w",
   "type": "work",
   "title": "晉史草",
-  "authors": [
-    {
-      "name": "蕭景暢",
-      "role": "撰",
-      "entity_id": "1j96hfqi8tla8"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《𣈆史草》三十卷",
-      "summary": "《𣈆史草》三十卷（蕭景暢）",
-      "author_info": "蕭景暢"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpgxr9gu0w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "additional_titles": [
-    "𣈆史草"
-  ],
-  "ai_note": "2026-08-24 J3(1) 異體歸一：題名之「𣈆」是「晉」之古文異體，本庫題名一律用正體。舊題已入 additional_titles，各志實有之著錄形不失。（本字不在 chk.py 之異體表，亦不在 known-issues 異體重出之 209 組中，故此前未被查出。）",
   "_promoted_to": "d59f2pvxnbpc",
-  "_promoted_at": "2026-08-25T15:20:36Z"
+  "_promoted_at": "2026-08-25T15:20:36Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pvxnbpc。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -3,68 +3,7 @@
   "id": "1ev3bawvsnx8g",
   "type": "work",
   "title": "峴山志",
-  "authors": [
-    {
-      "name": "張睿卿",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96ha5v7b4zk"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《峴山志》•六卷",
-      "author_info": "明張睿卿撰",
-      "summary": "明張睿卿撰。睿卿字稚通，號心岳，歸安人。《湖州府志》稱其博雅豪邁，遊歷山川，以著書為樂。然是書頗無體例。此峴山乃烏程之一山，非城邑郡縣之比。而首曰《建置》，名實已不相副。次曰《勝概》，而多與《建置》互見，不過雜載詩文。三曰《遺愛》，敘古名賢王右軍以下數人，終於王世貞，皆湖州大吏，與山不甚相涉。四曰《社會》，五曰《放生》，六曰《藝文》，又先散載各門，均失之叢濫也。",
-      "edition": "浙江巡撫采進本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《峴山志》六卷",
-      "author_info": "明張睿卿撰",
-      "summary": "《峴山志》六卷。明張睿卿撰。上海圖書館藏明萬曆四十二年刻本。",
-      "edition": "上海圖書館藏明萬曆四十二年刻本",
-      "volume": "第234冊",
-      "section": "史部"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=3662517",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "張睿卿（明）撰。六卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於史部。其著錄之文，《四庫全書存目叢書》作「《峴山志》六卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2nia8w76",
-  "_promoted_at": "2026-08-25T12:35:58Z"
+  "_promoted_at": "2026-08-25T12:35:58Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nia8w76。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

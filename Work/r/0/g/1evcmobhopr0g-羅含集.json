@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmobhopr0g",
   "type": "work",
   "title": "羅含集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《羅含集》三卷",
-      "summary": "晉中散大夫《羅含集》三卷梁有太宰長史《庾蒨集》二卷，大司馬參軍《庾悠之集》三卷，司徒右長史《庾凱集》二卷，亡。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《羅含集》三卷",
-      "summary": "《羅含集》三卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "羅含集",
-      "summary": "羅含集三卷"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "id": "1evcmobhopr0g",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《羅含集》三卷",
-      "summary": "晉中散大夫羅含集三卷\n《晉書·文苑傳》:羅含字君章,桂陽未陽人也。為庾亮荆州\n部從事、桓温征西參軍。温與寮屬議會,含從至。温問眾坐\n曰:“此何如人?”或曰:“可謂荆楚之才。”温曰:“此自江左之\n秀,豈唯荆楚而已。”累遷宜都太守、散騎常侍、侍中、廷尉、長沙\n相。年老致仕,加中散大夫。年七十七卒。所著文章行於世。\n《唐書·經籍》、《藝文志》:《羅含集》三卷。\n嚴氏《全晉文編》曰:“羅含有集三卷。《廣弘明集》有《答孫安\n國書》、《更生論》,凡二篇。”案諸類書引羅含《湘中記》,或編入本集。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "羅含",
-      "role": "撰",
-      "entity_id": "1j967cp21keud",
-      "dynasty": "東晉",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"羅含集\"）——前缀「羅含」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "東晉",
-  "period": "jin",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「羅含」（entity 1j967cp21keud）已定代「東晉」，且與本條 period_upper（sui-tang）相容，據以定代。",
   "_promoted_to": "d59f2ofymtj6",
-  "_promoted_at": "2026-08-25T13:40:43Z"
+  "_promoted_at": "2026-08-25T13:40:43Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofymtj6。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

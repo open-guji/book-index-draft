@@ -2,39 +2,8 @@
   "schema_version": 1,
   "id": "1evi6d7oc6680",
   "type": "work",
-  "subtype": "article",
   "title": "過雲木冰記",
-  "authors": [
-    {
-      "name": "黃宗羲",
-      "dynasty": "清",
-      "role": "作",
-      "entity_id": "1j9678gg70htc"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/wiki/%E8%BF%87%E4%BA%91%E6%9C%A8%E5%86%B0%E8%AE%B0",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evi6d00q8zr4",
-      "title": "續古文觀止",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "_has_text": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2mq00nwh",
-  "_promoted_at": "2026-08-25T11:41:36Z"
+  "_promoted_at": "2026-08-25T11:41:36Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mq00nwh。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

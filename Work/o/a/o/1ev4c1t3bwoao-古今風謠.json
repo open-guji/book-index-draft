@@ -3,75 +3,7 @@
   "id": "1ev4c1t3bwoao",
   "type": "work",
   "title": "古今風謠",
-  "authors": [
-    {
-      "name": "楊慎",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1j967avzkeucj"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1ev3bcpghlrls",
-      "title": "古今諺",
-      "relation": "related"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《古今諺》·二卷、《古今風謠》·二卷",
-      "author_info": "明楊慎編",
-      "summary": "明楊慎編。是書採錄古今謠諺各為一編。然《賈子》及《太公兵法》引黃帝語，自屬巾機銘之遺文，或《列子》所謂黃帝書者，不得謂之為諺。且是書成於嘉靖癸卯，即載正德、嘉靖時諺，然則慎自造數語亦可入之矣。此蓋久居戍所，借編錄以遣歲月，不足以言著書。其孫宗吾誤刻之耳。",
-      "edition": "浙江汪啟淑家藏本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《古今風謠》一卷 古今諺一卷",
-      "author_info": "明楊慎輯",
-      "summary": "《古今風謠》一卷 古今諺一卷。明楊慎輯。清華大學圖書館藏清乾隆綿州李氏萬卷樓刻嘉慶十四年李鼎元重校印函海本。",
-      "edition": "清華大學圖書館藏清乾隆綿州李氏萬卷樓刻嘉慶十四年李鼎元重校印函海本",
-      "volume": "第251冊",
-      "section": "子部"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E5%8F%A4%E4%BB%8A%E9%A2%A8%E8%AC%A0",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "楊慎（明）編。二卷；諸志所著之數有異，別作一卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《古今風謠》一卷 古今諺一卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2ni9b6de",
-  "_promoted_at": "2026-08-25T12:35:55Z"
+  "_promoted_at": "2026-08-25T12:35:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ni9b6de。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

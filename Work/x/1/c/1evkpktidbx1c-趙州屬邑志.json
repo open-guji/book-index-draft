@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpktidbx1c",
   "type": "work",
   "title": "趙州屬邑志",
-  "authors": [
-    {
-      "name": "孫傳栻",
-      "role": "纂修",
-      "dynasty": "清",
-      "entity_id": "1jcf51512936v",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512936v` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志005292-005295）。清光緒二十三年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志005292-005295），無同名 Work 故新建。\n\n2026-08-22 B3 併池（藏本條重出）：1evkpsheu2ygw 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "id": "1evkpktidbx1c",
-  "books": [
-    "11qki1c0lytxc",
-    "11qkhsxijycxs"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
   "_promoted_to": "d59f2n32qj28",
-  "_promoted_at": "2026-08-25T12:06:44Z"
+  "_promoted_at": "2026-08-25T12:06:44Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n32qj28。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

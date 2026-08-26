@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmttz96tq8",
   "type": "work",
   "title": "劍草",
-  "indexed_by": [
-    {
-      "source": "四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《劍草》•一卷",
-      "summary": "明熊明遇撰。明遇字子良，進賢人。萬曆辛丑進士，官至兵部尚書。事蹟具《明史》本傳。是編摘取古今名將事蹟，為之論斷，凡百餘條。蓋隨筆劄記之文，不足以當著述之目。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "熊明遇",
-      "role": "撰",
-      "entity_id": "1j967cp1zdr34",
-      "dynasty": "明"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmttz96tq8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "著錄原文自書撰人朝代：《四庫全書總目》「明熊明遇撰」",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
-  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J32 補撰內容之述（坑 #17）：本條 description 原止版本著錄語（或全闕），今於其前補一節「這本書是什麼」——所據為 WebSearch 覆核之通行史料（人物生卒、仕歷、著作背景），原版本語仍留其後（版本語是實錄，不可刪）。具體篇章內容非通識所及者不臆造。",
   "_promoted_to": "d59f2ne36134",
   "_promoted_at": "2026-08-25T12:27:54Z",
-  "description": {
-    "text": "熊明遇撰。一卷。熊明遇字良儒，江西進賢人，明萬曆二十九年（1601）進士，歷官兵科給事中，天啟間坐東林黨籍削職，崇禎四年（1631）擢兵部尚書。是編摘取古今名將行事論斷凡百餘條，隨筆札記之體。本書收入《國立故宮博物院善本舊籍》。",
-    "sources": []
-  }
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ne36134。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

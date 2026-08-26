@@ -3,44 +3,7 @@
   "id": "1evr5e3mct1oa",
   "type": "work",
   "title": "卷施閣文甲集",
-  "authors": [
-    {
-      "name": "洪亮吉",
-      "role": "編",
-      "dynasty": "清",
-      "entity_id": "1j9678njjg2s6"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "卷施閣文甲集",
-      "summary": "卷施閣文甲集十卷，補遺一卷，乙集十卷，續編一卷，詩集二十卷，更生齋文甲集四卷，乙集二卷，詩集八卷，續集十卷。洪亮吉撰。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "ai_note": "2026-08-19 卷數欄全庫比對：本條 juan_count 原作 20，與著錄原文（清史稿藝文志：「卷施閣文甲集」）所載之 10 卷不合，今據原文訂正。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "洪亮吉（清）編。十卷。見著錄於《清史稿藝文志》。本書惟《清史稿藝文志》一志著錄，別無他證。別集之屬，所收為其人之詩文。《清史稿藝文志》民國趙爾巽等修——本書之目賴之以存。",
-    "sources": [
-      "清史稿藝文志"
-    ]
-  },
   "_promoted_to": "d59f2noghqm9",
-  "_promoted_at": "2026-08-25T12:47:51Z"
+  "_promoted_at": "2026-08-25T12:47:51Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2noghqm9。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -3,74 +3,7 @@
   "id": "1ev3baozdlmv4",
   "type": "work",
   "title": "西遷注",
-  "authors": [
-    {
-      "name": "張鳴鳳",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j969m70q2eqe"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《西遷注》•一卷",
-      "author_info": "明張鳴鳳撰",
-      "summary": "明張鳴鳳撰。鳴鳳字羽王，豐城人，嘉靖壬子舉人，官桂林府通判。此編乃鳴鳳謫官利州時，自京赴蜀，複自蜀還京，記其道路所見名勝古跡。於碑刻多載全文，頗裨考證。前有《自序》。後有其子揆《跋》，稱其在道不挈書自隨，但直寫所記憶。故徵引亦多牴牾，如以良鄉料石岡為遼石岡之類是也。",
-      "edition": "兩淮鹽政采進本"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《西遷注》一卷",
-      "summary": "《西遷注》一卷（張鳴鳯）",
-      "author_info": "張鳴鳯"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "resources": [
-    {
-      "id": "shidianguji-qingchaoben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/NGJ892412000001495226326",
-      "metadata": {
-        "edition": "清抄本",
-        "version": "v2",
-        "total_page": 63,
-        "paragraph_count": 236,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "張鳴鳳（明）撰。一卷。見著錄於《欽定四庫全書總目》《國史經籍志》。其著錄之文，《國史經籍志》作「《西遷注》一卷（張鳴鳯）」。經注之屬。《欽定四庫全書總目》清乾隆間館臣修；《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f2net2pz4",
-  "_promoted_at": "2026-08-25T12:29:17Z"
+  "_promoted_at": "2026-08-25T12:29:17Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2net2pz4。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

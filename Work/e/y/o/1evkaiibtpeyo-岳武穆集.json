@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkaiibtpeyo",
   "type": "work",
   "title": "岳武穆集",
-  "authors": [
-    {
-      "name": "李楨",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1j96hhvcr8mx0",
-      "name_basis": "2026-08-24 同名消歧：庫中名「李楨」者不止一人，以作者朝代相合定為 `1j96hhvcr8mx0`（代「明」）。同名而代不合者，其書之上限已排之，故所存唯此一人。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖011075-011078）。明萬曆壬辰(二十年)北地李氏原刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 4
-    }
-  ],
-  "measure_info": "四冊",
-  "id": "1evkaiibtpeyo",
-  "books": [
-    "11qki5qgo84jk"
-  ],
-  "indexed_by": [
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "summary": "岳武穆集",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 ming 之作、撰人李楨，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nkf19fk",
-  "_promoted_at": "2026-08-25T12:40:04Z"
+  "_promoted_at": "2026-08-25T12:40:04Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nkf19fk。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

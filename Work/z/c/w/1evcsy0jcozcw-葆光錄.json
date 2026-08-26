@@ -1,66 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy0jcozcw",
   "type": "work",
   "title": "葆光錄",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《葆光錄》",
-      "summary": "陳纂《葆光錄》三卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "summary": "葆光錄",
-      "merged_from": "1evr5e3mifbbs",
-      "note": "直齋書錄解題三卷，卷數與宋志陳纂本全合。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《葆光錄》三卷",
-      "summary": "《葆光錄》三卷（陳纂）",
-      "author_info": "陳纂",
-      "merged_from": "1evgq0qaa569s",
-      "note": "國史經籍志「《葆光錄》三卷（陳纂）」，撰人、卷數與宋志全合。"
-    }
-  ],
-  "id": "1evcsy0jcozcw",
-  "resources": [
-    {
-      "name": "维基文库",
-      "id": "wikisource",
-      "url": "https://zh.wikisource.org/wiki/%E8%91%86%E5%85%89%E9%8C%84",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "authors": [
-    {
-      "name": "陳纂",
-      "role": "撰",
-      "entity_id": "1jcf5151299jd",
-      "note": "宋史藝文志原文即題「陳纂《葆光錄》三卷」，國史經籍志原注亦作「（陳纂）」。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299jd` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志「陳纂《葆光錄》三卷」、國史經籍志「《葆光錄》三卷（陳纂）」、直齋書錄解題三卷本，撰人卷數全合，同為一書，今合為一條並補撰人。本庫無陳纂 entity，未繫。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2q9bwzcx",
-  "_promoted_at": "2026-08-25T15:46:22Z"
+  "_promoted_at": "2026-08-25T15:46:22Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q9bwzcx。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

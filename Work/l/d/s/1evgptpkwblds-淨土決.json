@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgptpkwblds",
   "type": "work",
   "title": "淨土決",
-  "authors": [
-    {
-      "name": "李贄",
-      "role": "撰",
-      "entity_id": "1j967afjbhiyo",
-      "dynasty": "明",
-      "dynasty_basis": "entity_propagation:1j967afjbhiyo（J21 S5 收尾）"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《淨土决》一卷",
-      "summary": "《淨土决》一卷（李贄）",
-      "author_info": "李贄"
-    }
-  ],
-  "description": {
-    "text": "李贄撰。一卷。見著錄於《國史經籍志》。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgptpkwblds",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "additional_titles": [
-    "淨土决"
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "撰人 Entity 之代：李贄（明）——同人名下他書 {'ming': 13} 佐證一致",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j967afjbhiyo`.dynasty「明」propagate 補齊；work.dynasty 同步。",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）",
   "_promoted_to": "d59f2ngh0agw",
-  "_promoted_at": "2026-08-25T12:32:29Z"
+  "_promoted_at": "2026-08-25T12:32:29Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngh0agw。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

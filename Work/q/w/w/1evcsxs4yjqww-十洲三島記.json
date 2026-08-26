@@ -1,19 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxs4yjqww",
   "type": "work",
   "title": "十洲三島記",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《十洲三島記》",
-      "summary": "（（篯鏗得於石室））東方朔《十洲三島記》一卷"
-    }
-  ],
-  "id": "1evcsxs4yjqww",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [],
-  "ai_note": "2026-08-24 漢代收束·誤入漢桶清出：本條由另一路「宋志頂真格抽撰人／舊唐志逐條抽撰人／補繫 entity」作業繫上漢代撰人，period 隨之收窄至 qin-han，而其書實非漢代之物。即《海內十洲記》，六朝道教託名東方朔之書（《隋志》地理類已著「《十洲記》一卷」，不題撰人）。本庫之例：託名之書其 role 當作「舊題撰」而斷代從成書之世，不從所託之人。今解其繫，代待考（當在六朝）。\n今解 authors[].entity_id 之繫、去 period／period_basis／dynasty，待該車道以著錄原文重判。登記見 `.claude/known-issues/H10-宋志頂真格誤繫漢代撰人-20260824.json`。",
   "_promoted_to": "d59f2q9tpi4i",
-  "_promoted_at": "2026-08-25T15:47:19Z"
+  "_promoted_at": "2026-08-25T15:47:19Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q9tpi4i。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkadbqitmgw",
   "type": "work",
   "title": "御製勸善要言",
-  "authors": [
-    {
-      "name": "世祖",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96afep6dgxs",
-      "name_basis": "2026-08-24 帝號廟號歸人：著錄作「世祖」，非姓名而是廟號（或帝號、后號）。以本書之撰人朝代定其朝，故繫 `1j96afep6dgxs`（「清世祖」）。\n\n按庫中帝王之例：宋明以前用本名（趙佶、朱元璋、曹丕、蕭衍），清代用廟號（清高宗、清聖祖），本條從之。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿018231）。清順治十二年內府刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-22 B3 併池（藏本條重出）：1evkq1kjifgu8 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 2→3）併入本條。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkadbqitmgw",
-  "books": [
-    "11qki2kop5u68",
-    "11qki3onat4ao",
-    "11qki26u5m58g"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
-  "period_upper": "qing",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「清順治十二年內府刊本」——版本之年不早於成書之年，故不晚於 qing",
   "_promoted_to": "d59f2my9t24i",
-  "_promoted_at": "2026-08-25T11:57:30Z"
+  "_promoted_at": "2026-08-25T11:57:30Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2my9t24i。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

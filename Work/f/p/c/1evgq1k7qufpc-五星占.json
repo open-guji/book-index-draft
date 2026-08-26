@@ -1,61 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq1k7qufpc",
   "type": "work",
   "title": "五星占",
-  "authors": [
-    {
-      "name": "丁廵",
-      "role": "撰",
-      "entity_id": "1j96hg4i4ypds"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《五星占》一卷、又一卷",
-      "summary": "《五星占》一卷、又一卷（丁廵；陳卓）",
-      "author_info": "丁廵；陳卓"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《五星占》一卷",
-      "summary": "《五星占》一卷丁巡撰。",
-      "merged_from": "1evcmndyytvy8"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved　合併：自 1evcmndyytvy8 併入，2026-08-08——五星占，無撰人條之隋志著錄原文明言「丁巡撰」（丁巡/丁廵異體字），與丁廵條同書，經人核准合併。\n\n2026-08-19 考證注文對位專項：原繫之考證條「《五星占》一卷」非本書之考證，今去。考證云「並不著撰人」，故當繫隋志無撰人之《五星占》一卷，非陳卓、丁廵二家。",
-  "id": "1evgq1k7qufpc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "merged_in": [
-    {
-      "id": "1evcmndyytvy8",
-      "title": "五星占",
-      "author": null,
-      "indexed_by_moved": [
-        "隋書經籍志"
-      ]
-    }
-  ],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "_promoted_to": "d59f2qb0s934",
-  "_promoted_at": "2026-08-25T15:49:36Z"
+  "_promoted_at": "2026-08-25T15:49:36Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2qb0s934。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

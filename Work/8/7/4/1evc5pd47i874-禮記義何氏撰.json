@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evc5pd47i874",
   "type": "work",
   "title": "禮記義何氏撰",
-  "original_title": "禮記義",
-  "authors": [
-    {
-      "name": "何氏",
-      "entity_id": "1j96hlfsvisqo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《禮記義》十卷",
-      "summary": "《禮記義》十卷何氏撰。"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "description": {
-    "text": "何氏撰。",
-    "sources": []
-  },
-  "id": "1evc5pd47i874",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "禮記義十卷 何氏撰",
-      "summary": "《唐書·經籍志》:《禮記義》十卷,何佟之撰。\n《唐書·藝文志》:何佟之《禮記義》十卷。\n《經義考》曰:“《隋志》:何氏《禮記義》十卷。案孔氏《禮記\n疏》每引何胤之說,疑即胤書。”\n按何佟之有《喪服經傳義疏》,見前。朱氏以為何胤。按\n《梁書處士傳》:“胤解《禮記》,於卷背書之,謂為隱義。”\n又云:“注《禮記隱義》二十卷。”是其書名《隱義》。本志不\n載,此見《舊》、《新唐志》,書名、卷數相同,實何佟之書也。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "d59f1iofm800",
-      "title": "禮記",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "ai_note": "2026-08-20 磁鐵拆解專項（七）：整理本原以本 work 之 id 兼繫下列 1 節，各題在庫中已別有其 work，今各歸其主：《《禮記義》十卷》→《禮記義》`1evcpctq6ys5c`。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
   "_promoted_to": "d59f2q20goht",
-  "_promoted_at": "2026-08-25T15:32:17Z"
+  "_promoted_at": "2026-08-25T15:32:17Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q20goht。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evka9tv4yi9s",
   "type": "work",
   "title": "崑山郡志",
-  "authors": [
-    {
-      "name": "楊譓",
-      "role": "撰",
-      "dynasty": "元",
-      "entity_id": "1jcf5151296ug",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151296ug` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善004649-004650）。清嘉慶間阮元進呈鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evgbw2tdto8w(楊𢼝)（不同作者，故新建獨立 Work）。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-23 B1 同名異書併池：併入 `1evgbw2tdto8w`（崑山郡志）。2026-08-23 B6（B3′ 遺留）：併入 `1evgbw2tdto8w`（元史藝文志《崑山郡志》（楊𢼝））。「𢼝」為「譓」之形訛；元楊譓撰《崑山郡志》。",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 2
-    }
-  ],
-  "measure_info": "二冊",
-  "id": "1evka9tv4yi9s",
-  "books": [
-    "11qkhuugmon40",
-    "11qki4sjlqigw"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [
-    {
-      "source": "元史藝文志",
-      "source_bid": "1eve1ek8wcnb4",
-      "title_info": "楊𢼝崑山郡志",
-      "summary": "元楊𢼝崑山郡志",
-      "merged_from": "1evka9tv4yi9s",
-      "note": "B3′ 撰人名近似待覈組：彼條為元史藝文志《崑山郡志》（楊𢼝），與本條同題——「𢼝」為「譓」之形訛；元楊譓撰《崑山郡志》。判為同書。"
-    }
-  ],
   "_promoted_to": "d59f2j53msjk",
-  "_promoted_at": "2026-08-25T07:33:50Z"
+  "_promoted_at": "2026-08-25T07:33:50Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2j53msjk。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

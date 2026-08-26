@@ -1,39 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmng239ybk",
   "type": "work",
   "title": "海中仙人占吉凶要略",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《海中仙人占吉凶要略二卷》",
-      "summary": "《海中仙人占吉凶要略二卷》"
-    }
-  ],
-  "id": "1evcmng239ybk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《海中仙人占吉凶要略二卷》",
-      "summary": "海中仙人占吉凶要略二卷\n案前第九類載《海中仙人占災祥書》三卷,第十五類又重出\n一部。此與前《雜吉凶書》三卷疑即一書之别本稍異者。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 2
-  },
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [],
   "_promoted_to": "d59f2px8gwzk",
-  "_promoted_at": "2026-08-25T15:23:06Z"
+  "_promoted_at": "2026-08-25T15:23:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2px8gwzk。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

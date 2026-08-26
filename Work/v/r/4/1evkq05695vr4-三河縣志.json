@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkq05695vr4",
   "type": "work",
   "title": "三河縣志",
-  "authors": [
-    {
-      "name": "陳曰水",
-      "role": "纂修",
-      "dynasty": "清",
-      "entity_id": "1jcf5151299hh",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299hh` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志007067-007070）。清乾隆二十五年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志007067-007070）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 16
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "id": "1evkq05695vr4",
-  "books": [
-    "11qki1hgktb0g"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n72mxhd",
-  "_promoted_at": "2026-08-25T12:14:25Z"
+  "_promoted_at": "2026-08-25T12:14:25Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n72mxhd。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkad30enjls",
   "type": "work",
   "title": "欽定書經圖說",
-  "authors": [
-    {
-      "name": "孫家鼐",
-      "role": "等奉敕撰",
-      "dynasty": "清",
-      "entity_id": "1jcf51512954n",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512954n` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿013403-013418）。清光緒三十一年總理各國事務衙門朱墨石印本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 | 從 1evke4sd43dvk 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1evkad30enjls(孫家鼐)（不同作者，故新建獨立 Work）。 | 從 1evkpvck1e4u8 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善028378-028393）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 16
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六冊",
-  "id": "1evkad30enjls",
-  "books": [
-    "11qki2fmusxz4",
-    "11qki2npcztog",
-    "11qkhtz2wo3r4"
-  ],
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2my8k3y8",
-  "_promoted_at": "2026-08-25T11:57:26Z"
+  "_promoted_at": "2026-08-25T11:57:26Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2my8k3y8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

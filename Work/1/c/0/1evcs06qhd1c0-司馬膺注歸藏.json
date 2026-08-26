@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs06qhd1c0",
   "type": "work",
   "title": "司馬膺注歸藏",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "司馬膺注歸藏",
-      "summary": "司馬膺注歸藏十三卷"
-    }
-  ],
-  "id": "1evcs06qhd1c0",
-  "related_works": [
-    {
-      "id": "1evcpcssh0vls",
-      "title": "歸藏",
-      "relation": "contains_text_of"
-    }
-  ],
-  "juan_count": {
-    "number": 13
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 13
-    }
-  ],
-  "measure_info": "十三卷",
-  "description": {
-    "text": "司馬膺注《歸藏》十三卷，見《新唐書·藝文志》；《舊唐書·經籍志》著錄「《歸藏》十三卷，殷易，司馬膺注」。司馬膺生平不詳，章宗源《隋書經籍志考證》疑「或是膺所撰錄」。已亡佚。",
-    "sources": [
-      "《新唐書·藝文志》",
-      "《舊唐書·經籍志》"
-    ]
-  },
-  "ai_note": "2026-07-26：補上與《歸藏》原典（1evcpcssh0vls）的 related_works 連結（此前為孤兒條目，無任何關聯），並補寫 description 與卷數。　loss_status 判為 lost，據本記錄之描述／著錄語：「已亡佚」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。　輯佚普查：本條之文見輯家之名（章宗源）而無一語言其輯此書——名之出現多在考證之引述中，引述不等於輯之。（《爾雅郭璞注》之輯佚檔即因「以人名見於描述為據而未問其語境」誤立而撤。）故不立檔，俟得確據再補。已覆核，後續普查不必重讀。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-05T15:55:32+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
-  "authors": [],
   "_promoted_to": "d59f2q9d5wxs",
-  "_promoted_at": "2026-08-25T15:46:25Z"
+  "_promoted_at": "2026-08-25T15:46:25Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q9d5wxs。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

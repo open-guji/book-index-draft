@@ -1,72 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evggvw5gi8sg",
   "type": "work",
   "title": "興復哈密記",
-  "authors": [
-    {
-      "name": "馬文昇",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlnsjc"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《興復哈密記》一卷",
-      "summary": "《興復哈密記》一卷（馬文昇）"
-    },
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《興復哈密記》一卷",
-      "author_info": "明馬文昇撰",
-      "summary": "《興復哈密記》一卷。明馬文昇撰。影印上海圖書館藏明嘉靖袁氏嘉趣堂刻金聲玉振集本。",
-      "edition": "影印上海圖書館藏明嘉靖袁氏嘉趣堂刻金聲玉振集本",
-      "volume": "第433冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "馬文昇（明）撰。一卷。見著錄於《國史經籍志》《續修四庫全書》。《續修四庫全書》列於史部 史部。其著錄之文，《國史經籍志》作「《興復哈密記》一卷（馬文昇）」。《國史經籍志》明焦竑撰；《續修四庫全書》一九九五年影印——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "續修四庫全書"
-    ]
-  },
-  "id": "1evggvw5gi8sg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "ai_note": "[CADAL02091118-fix 2026-04-20] OCR 纠错 \"與復哈密記\"→\"興復哈密記\" [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0433%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 433
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-23T07:44:49.274135+00:00",
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2ngsk2de",
-  "_promoted_at": "2026-08-25T12:33:06Z"
+  "_promoted_at": "2026-08-25T12:33:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngsk2de。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

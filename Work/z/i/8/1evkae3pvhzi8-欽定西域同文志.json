@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkae3pvhzi8",
   "type": "work",
   "title": "欽定西域同文志",
-  "authors": [
-    {
-      "name": "傅恆",
-      "role": "等奉敕撰",
-      "dynasty": "清",
-      "entity_id": "1j967a0kjvy1l",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「傅恆」而無 entity_id，今繫 `1j967a0kjvy1l`——庫中以此為別名（alt_names）者唯一。其代「清」與本書已定之代「qing」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿031489-031496）。清乾隆間武英殿刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 索引中尚有同名異書：1ev3ba94gk3r4()（不同作者，故新建獨立 Work）。\n\n2026-08-23 B7 殘名撰人：撰人欄原作「傅□」，次字為亂碼；清乾隆朝大學士傅恆領修《欽定西域同文志》。\n\n2026-08-25 清代輪 S7 前置修訂：本條著錄來源（國立故宮博物院善本舊籍，統一編號見 indexed_by.catalog_no）原僅存於 description 之散文，今正式補入 indexed_by（機械抽取，未增未減）。",
-  "juan_count": {
-    "number": 8
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 8
-    }
-  ],
-  "measure_info": "八冊",
-  "id": "1evkae3pvhzi8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [
-    {
-      "source": "國立故宮博物院善本舊籍",
-      "title_info": "欽定西域同文志",
-      "summary": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿031489-031496）。清乾隆間武英殿刊本。",
-      "edition": "清乾隆間武英殿刊本。",
-      "catalog_no": "故殿031489-031496"
-    }
-  ],
   "_promoted_to": "d59f2mydv56o",
-  "_promoted_at": "2026-08-25T11:57:43Z"
+  "_promoted_at": "2026-08-25T11:57:43Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mydv56o。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

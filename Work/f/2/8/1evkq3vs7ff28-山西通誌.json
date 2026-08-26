@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkq3vs7ff28",
   "type": "work",
   "title": "山西通誌",
-  "authors": [
-    {
-      "name": "胡謐",
-      "role": "等纂修",
-      "dynasty": "明",
-      "entity_id": "1jcf5151293jx",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293jx` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007763-007776）。明成化甲午(十年)刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖007763-007776）。阶段 5 兜底建立。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "juan_count": {
-    "number": 17
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 17
-    }
-  ],
-  "measure_info": "十七卷",
-  "id": "1evkq3vs7ff28",
-  "books": [
-    "11qki51ow5vy8"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2njd9k3o",
-  "_promoted_at": "2026-08-25T12:38:04Z"
+  "_promoted_at": "2026-08-25T12:38:04Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2njd9k3o。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

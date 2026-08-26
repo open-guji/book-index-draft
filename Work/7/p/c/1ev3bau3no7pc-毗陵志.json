@@ -3,46 +3,7 @@
   "id": "1ev3bau3no7pc",
   "type": "work",
   "title": "毗陵志",
-  "authors": [
-    {
-      "name": "王㒜",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzmli77"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《毗陵志》•四十卷",
-      "author_info": "明王㒜撰",
-      "summary": "明王㒜撰。㒜字廷貴，武進人。景泰辛未進士，官至南京吏部尚書，諡文肅。是編體例頗詳整，惟齊高、梁武雖從斯郡發祥，然奄有江東，各存國史。修郡志者但可載其軼聞舊跡，以備考徵。乃於人物之首，冠以二帝，附以諸王，揆以斷限之法，於義為濫。蓋輿記務侈土風，而不知著書各有體例也。",
-      "edition": "江蘇巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 40
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 40
-    }
-  ],
-  "measure_info": "四十卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "王㒜（明）撰。四十卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2nfscjcw",
-  "_promoted_at": "2026-08-25T12:31:10Z"
+  "_promoted_at": "2026-08-25T12:31:10Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nfscjcw。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

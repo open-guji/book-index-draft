@@ -3,67 +3,7 @@
   "id": "1ev794a71a7eo",
   "type": "work",
   "title": "續琉球國志略",
-  "authors": [
-    {
-      "name": "齊鯤",
-      "dynasty": "清",
-      "role": "撰",
-      "entity_id": "1jcf515129a79",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a79` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    },
-    {
-      "name": "費錫章",
-      "dynasty": "清",
-      "role": "撰",
-      "entity_id": "1j96h8rw6xrtf",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「費錫章」而無 entity_id，今繫 `1j96h8rw6xrtf`——庫中 primary_name 同之者唯一。其代「清」與本書已定之代「qing」相合。"
-    }
-  ],
-  "books": [
-    "11q6si66kngu8",
-    "11qki2t39v20w"
-  ],
-  "resources": [
-    {
-      "id": "shidianguji-guangxurenwukeben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/ZXXLQGHZ",
-      "metadata": {
-        "edition": "光绪壬午年刻本",
-        "version": "v2",
-        "total_page": 147,
-        "paragraph_count": 981,
-        "check_type": "粗校"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "shidianguji-qingguangxukeben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/NGJ89241199903150274427",
-      "metadata": {
-        "edition": "清光緒8年刻本",
-        "version": "v2",
-        "total_page": 144,
-        "paragraph_count": 642,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2movr1tt",
-  "_promoted_at": "2026-08-25T11:39:27Z"
+  "_promoted_at": "2026-08-25T11:39:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2movr1tt。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

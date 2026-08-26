@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
-  "title": "紅樓夢散套",
-  "authors": [
-    {
-      "name": "吳鎬",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j96hl4v735ds",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「吳鎬」而無 entity_id，今繫 `1j96hl4v735ds`——庫中 primary_name 同之者唯一。其代「清」與本書已定之代「qing」相合。"
-    },
-    {
-      "name": "荊石山民",
-      "role": "題填詞",
-      "dynasty": "清",
-      "entity_id": "1jcf51512985d",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512985d` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    },
-    {
-      "name": "黃兆魁",
-      "role": "譜曲",
-      "dynasty": "清",
-      "entity_id": "1jcf515129a0r",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129a0r` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "清吳鎬作昆曲雜劇劇本，題「荊石山民填詞」，後附曲譜，有「黃兆魁譜曲」標注。取小說《紅樓夢》中主要情節編寫，共分《歸省》、《葬花》、《警曲》、《擬題》、《覺夢》等十六折，前後並不連貫，可單折取出搬演。其中《覺夢》一折係作者以己意增出。吳梅《中國戲曲概論》譽其「脍炙人口，遠勝仲、陳兩家」，獨愛《警曲·金盞兒》二支「可云壓卷」。",
-    "sources": [
-      "shuge_topic_27523",
-      "吳梅《中國戲曲概論》卷下第二章"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "折",
-      "number": 16
-    },
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷十六折",
-  "related_works": [
-    {
-      "id": "d59df01avcw0",
-      "title": "紅樓夢",
-      "relation": "adapted_from"
-    }
-  ],
-  "ai_note": "本 Work 條目根據書格 topic/27523 著錄。屬紅樓夢戲曲改編，與紅樓夢傳奇（1evke66fbyk1s）、紅樓夢灘簧（1evkpw1xumdq8）平行。",
-  "type": "work",
   "id": "1evpnk77nkj5s",
-  "books": [
-    "11qpgpq8gnsow"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
+  "type": "work",
+  "title": "紅樓夢散套",
   "_promoted_to": "d59f2n8514aq",
-  "_promoted_at": "2026-08-25T12:16:29Z"
+  "_promoted_at": "2026-08-25T12:16:29Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n8514aq。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

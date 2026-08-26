@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpz2ax8dts",
   "type": "work",
   "title": "瑞州府志",
-  "authors": [
-    {
-      "name": "陶履中",
-      "role": "纂修",
-      "dynasty": "明",
-      "entity_id": "1jcf5151293ql",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293ql` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志000469-000478）。明崇禎二年修清康熙間增補鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志000469-000478）。阶段 5 兜底建立。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "juan_count": {
-    "number": 24
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 24
-    }
-  ],
-  "measure_info": "二十四卷",
-  "id": "1evkpz2ax8dts",
-  "books": [
-    "11qki0y488tts",
-    "11qki55phuj28"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2njcybk2",
-  "_promoted_at": "2026-08-25T12:38:02Z"
+  "_promoted_at": "2026-08-25T12:38:02Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2njcybk2。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

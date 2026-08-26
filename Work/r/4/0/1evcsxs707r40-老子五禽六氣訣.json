@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxs707r40",
   "type": "work",
   "title": "老子五禽六氣訣",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《老子五禽六氣訣》",
-      "summary": "華佗《老子五禽六氣訣》一卷陸修靜"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "老子五禽六氣訣六卷",
-      "summary": "老子五禽六氣訣六卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《老子五禽六氣訣》一卷",
-      "summary": "《老子五禽六氣訣》一卷"
-    }
-  ],
-  "id": "1evcsxs707r40",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "authors": [
-    {
-      "name": "華佗",
-      "role": "舊題撰",
-      "entity_id": "1j96ha8gx0000",
-      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》著錄題「華佗」，然此乃依託之名，非其實撰。五禽戲雖出華佗，然「老子五禽六氣訣」已入道教服氣之流，非漢時舊本。\n\n依 SCHEMA〈舊題撰人 ≠ 實際撰人〉，role 作「舊題撰」，不以其代為本書之代；period_upper「song」仍留。"
-    }
-  ],
-  "period": "qin-han",
-  "period_basis": "2026-08-25 period未定批次 shard0：據撰人「華佗」之 entity `1j96ha8gx0000`，其代作「東漢」",
   "_promoted_to": "d59f2q99qayp",
-  "_promoted_at": "2026-08-25T15:46:15Z"
+  "_promoted_at": "2026-08-25T15:46:15Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q99qayp。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

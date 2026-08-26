@@ -3,59 +3,7 @@
   "id": "1evdic130b9j4",
   "type": "work",
   "title": "歷代通鑑纂要",
-  "authors": [
-    {
-      "name": "李東陽",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlnsjg"
-    }
-  ],
-  "juan_count": {
-    "number": 92
-  },
-  "indexed_by": [
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "《历代通鉴纂要》九十二卷弘治中李东阳等修。",
-      "summary": "《歷代通鑒纂要》九十二卷弘治中李東陽等修。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《歷代通鑑纂要》九十二卷",
-      "summary": "《歷代通鑑纂要》九十二卷（李東陽等修。）",
-      "merged_from": "1evggvtveysxs",
-      "note": "撰人原作「李東陽等修」，乃「李東陽」之訛（或異寫），本條併入。"
-    }
-  ],
-  "description": {
-    "text": "李東陽（明）撰。九十二卷。見著錄於《明史藝文志》《國史經籍志》。其著錄之文，《國史經籍志》作「《歷代通鑑纂要》九十二卷（李東陽等修」。《明史藝文志》清張廷玉等修；《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "明史藝文志",
-      "國史經籍志"
-    ]
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 92
-    }
-  ],
-  "measure_info": "九十二卷",
-  "books": [
-    "11qkhuv4wdvk0"
-  ],
-  "additional_titles": [
-    "歷代通鑒纂要"
-  ],
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-19 同題異撰人專項（撰人名一字之差）：本條與 `1evggvtveysxs` 同題《歷代通鑑纂要》、同卷數 92，撰人作「李東陽」與「李東陽等修」，僅一字之差（或一名含於另一名）。「李東陽等修」全庫僅 1 見而「李東陽」凡 13 見，前者為後者之訛。二者實一書之重出，今併，異名之著錄並存於 indexed_by。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2nkcjd34",
-  "_promoted_at": "2026-08-25T12:39:56Z"
+  "_promoted_at": "2026-08-25T12:39:56Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nkcjd34。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,60 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmoc7pgx6o",
   "type": "work",
   "title": "蕭子暉集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《蕭子暉集》九卷",
-      "summary": "梁《蕭子暉集》九卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《蕭子暉集》十一卷",
-      "summary": "《蕭子暉集》十一卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "蕭子暉集",
-      "summary": "蕭子暉集十一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《蕭子暉集》九卷",
-      "summary": "《蕭子暉集》九卷"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmoc7pgx6o",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《蕭子暉集》十卷",
-      "summary": "梁蕭子暉集九卷\n·《梁書》、《南史·蕭子格傳》:子恪字景沖,齊豫章文獻王 第\n二子也。兄弟十六人,並仕梁。有文學者,子恪、子質、子顯、\n子雲、子暉五人。子暉字景光,子雲弟也,少涉書史,亦有文\n才。嘗預重雲殿聽制講《三慧經》,退為《講賦》奏之,甚見稱\n賞。卒於驟騎長史。案豫章文獻王,齊高帝第二子。子暉,高帝之孫,亦于\n梁為宗室。五人中,子恪文集不傳。子質并不見於史。子顯有集二十卷,本志亦不\n見。惟子暉、子雲二人集在焉。五人外,又有子範有集,見後。子範外,又有子政撰\n《周易義疏》,見經部,史亦無其傳。不知是否在十六人之内也。\n《唐書·經籍》、《藝文志》:《蕭子暉集》十一卷。\n馮氏《詩紀》輯存《春霄》、《冬曉》、《春游詩》凡三首。\n嚴氏《全梁文編》:蕭子暉有集九卷。《藝文類聚》有《冬草\n賦》、《反舌賦》各一篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "loss_status": "lost",
-  "ai_note": "loss_status 判為 lost，據本記錄之描述／著錄語：「五人中,子恪文集不傳」。此值為機讀所生（scripts/loss_status.py），非逐條精校，覆核時以本欄之據為準。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "updated_at": "2026-08-05T05:03:40+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 period未定批次 3.3（shard 3）：本條見《國史經籍志》集類·別集，焦竑此篇以朝代分繫，每代之末綴「右某」為識；本條在「右梁」所束之內，據其編次定代。",
-  "authors": [],
   "_promoted_to": "d59f2q0x4s1t",
-  "_promoted_at": "2026-08-25T15:30:11Z"
+  "_promoted_at": "2026-08-25T15:30:11Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q0x4s1t。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

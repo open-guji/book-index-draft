@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcuupmqkg",
   "type": "work",
   "title": "質疑",
-  "indexed_by": [
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "質疑",
-      "summary": "《質疑》二卷。{{杭世駿，讀書齋本，學海堂本。}}",
-      "author_info": "杭世駿"
-    }
-  ],
-  "id": "1evcpcuupmqkg",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "杭世駿",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j9678njjrbc4",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「杭世駿」而無 entity_id，今繫 `1j9678njjrbc4`——庫中 primary_name 同之者唯一。其代「清」與本書已定之代「qing」相合。"
-    }
-  ],
-  "ai_note": "\n2026-08-08 秦漢同名異書 batch12：舊唐志條（樊文深撰，五卷）移至 1evgor56xk5c0（樊文深《質疑》），本條保留書目答問條（杭世駿，二卷），補撰人杭世駿。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round2:书目答问=杭世骏《质疑》",
-  "period": "qing",
-  "period_basis": "据 dynasty「清」自动归并",
-  "description": {
-    "text": "杭世駿（清）撰。見著錄於《書目答問》。其著錄之文，《書目答問》作「《質疑》二卷」。本書惟《書目答問》一志著錄，別無他證。《書目答問》清張之洞撰——本書之目賴之以存。",
-    "sources": [
-      "書目答問"
-    ]
-  },
   "_promoted_to": "d59f2moyk6ps",
-  "_promoted_at": "2026-08-25T11:39:36Z"
+  "_promoted_at": "2026-08-25T11:39:36Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2moyk6ps。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

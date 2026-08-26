@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpcwrpe0w0",
   "type": "work",
   "title": "王業曆",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《王業曆》二卷",
-      "summary": "《王業曆》二卷趙弘禮撰。"
-    }
-  ],
-  "id": "1evcpcwrpe0w0",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（二卷），今據以補。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "趙弘禮",
-      "role": "撰",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《王業曆》二卷趙弘禮撰。」，尾名「趙弘禮」。只錄其名與其役，不繫 entity_id、不定代——或庫中無同名之人，或同名者眾，或其人無代，或著錄語列數人。\n\n2026-08-24 新建 entity `1jcf5151298rl` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。",
-      "entity_id": "1jcf5151298rl"
-    }
-  ],
   "_promoted_to": "d59f2q2hbi80",
-  "_promoted_at": "2026-08-25T15:33:11Z"
+  "_promoted_at": "2026-08-25T15:33:11Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q2hbi80。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

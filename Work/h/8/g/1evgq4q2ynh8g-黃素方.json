@@ -1,50 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq4q2ynh8g",
   "type": "work",
   "title": "黃素方",
-  "authors": [
-    {
-      "name": "謝秦",
-      "role": "撰",
-      "entity_id": "1j96hg8ls7n5s"
-    }
-  ],
-  "juan_count": {
-    "number": 25
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《黃素方》二十五卷",
-      "summary": "《黃素方》二十五卷（謝秦）",
-      "author_info": "謝秦"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《黃素方》十五卷",
-      "summary": "《黃素方》十五卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"黃素方\" 唯一候选无作者\n\n2026-08-25 無斷代批次合併（plan_1.json 判、主進程執行）：《黃素方》，一出舊唐志無撰人（十五卷）、一出國史經籍志注「謝秦」（二十五卷）；題名僻，庫中別無第三部同題者，一方無撰人而另一方有，卷數之異不足以判為二書。",
-  "id": "1evgq4q2ynh8g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 25
-    }
-  ],
-  "measure_info": "二十五卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "_promoted_to": "d59f2pxf0wsh",
-  "_promoted_at": "2026-08-25T15:23:27Z"
+  "_promoted_at": "2026-08-25T15:23:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pxf0wsh。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,44 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqcxu8ugw0",
   "type": "work",
   "title": "欒城後集",
-  "juan_count": {
-    "number": 34
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《欒城後集》三十四卷",
-      "summary": "《欒城後集》三十四卷"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "title_info": "《後集》二十四卷",
-      "summary": "門下侍郎文定公蘇轍子由撰。一字同叔。欒城，真定府縣也，蘇氏望趙郡，欒城元魏時屬趙郡，故云。曉居潁濱，自號潁濱遺老，故集或名。",
-      "note": "原誤繫秦觀淮海集，今歸欒城後集（直齋作二十四卷，本條著錄三十四卷，並存俟考）。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqcxu8ugw0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 34
-    }
-  ],
-  "measure_info": "三十四卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "ai_note": "2026-08-20 組1直齋附屬部帙專項：原誤繫秦觀淮海集，今歸欒城後集（直齋作二十四卷，本條著錄三十四卷，並存俟考）。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《直齋書錄解題》（南宋陳振孫（1249）），故不晚於 song",
-  "authors": [],
   "_promoted_to": "d59f2pwrm3nm",
-  "_promoted_at": "2026-08-25T15:22:13Z"
+  "_promoted_at": "2026-08-25T15:22:13Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pwrm3nm。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

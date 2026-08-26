@@ -1,68 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgoq6hv598g",
   "type": "work",
   "title": "周禮要義",
-  "authors": [
-    {
-      "name": "了翁",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96hhvcrv406",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:了翁即陳瓘(1057-1124?)，北宋人，撰九經要義，非三國魏)"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《周禮要義》三十卷",
-      "summary": "《周禮要義》三十卷（魏了翁）",
-      "author_info": "魏了翁"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周禮要義》（魏了翁）",
-      "summary": "三十卷",
-      "section": "周禮",
-      "juan": "卷一百二十四",
-      "page": "KR2n0011_WYG_124-9a",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "了翁撰。三十卷。見著錄於《國史經籍志》《經義考》。《經義考》列於周禮。其著錄之文，《國史經籍志》作「《周禮要義》三十卷（魏了翁）」。本書為《周禮》之注釋，其文附原典以行。《國史經籍志》明焦竑撰；《經義考》清朱彝尊撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志",
-      "經義考"
-    ]
-  },
-  "id": "1evgoq6hv598g",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "related_works": [
-    {
-      "id": "d59f1ioc6m0w",
-      "title": "周禮",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-24T04:34:30.812643+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "period": "qing",
-  "period_basis": "撰人朝代闕，據其 Entity「余霖」之 dynasty「清」傳播；上限 ming 覆驗不相斥（2026-08-24 R2）",
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2mplnqwz",
-  "_promoted_at": "2026-08-25T11:40:51Z"
+  "_promoted_at": "2026-08-25T11:40:51Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mplnqwz。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

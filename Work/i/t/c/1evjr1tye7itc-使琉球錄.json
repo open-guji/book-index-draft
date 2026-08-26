@@ -1,69 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjr1tye7itc",
   "type": "work",
   "title": "使琉球錄",
-  "authors": [
-    {
-      "name": "陳侃",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1jcf5151299ef",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299ef` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "續修四庫全書",
-      "source_bid": "1evjk1whvmznk",
-      "title_info": "《使琉球錄》一卷",
-      "author_info": "明陳侃撰",
-      "summary": "《使琉球錄》一卷。明陳侃撰。影印上海古籍出版社藏民國二十六年商務印書館國立北平圖書館善本叢書第一集影印明嘉靖刻本。",
-      "edition": "影印上海古籍出版社藏民國二十六年商務印書館國立北平圖書館善本叢書第一集影印明嘉靖刻本",
-      "volume": "第742冊",
-      "section": "史部 史部"
-    }
-  ],
-  "description": {
-    "text": "陳侃（明）撰。一卷。見著錄於《續修四庫全書》。《續修四庫全書》列於史部 史部。其著錄之文，《續修四庫全書》作「《使琉球錄》一卷」。本書惟《續修四庫全書》一志著錄，別無他證。《續修四庫全書》一九九五年影印——本書之目賴之以存。",
-    "sources": [
-      "續修四庫全書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《續修四庫全書》目錄錄入。 索引中尚有同名異書：1ev3bag06aups(郭世霖);1ev3bag3teiv4(蕭崇業、謝傑同);1evgpkb9989vk(蕭從業)。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n[M3磁鐵 2026-08-23] 收 續修四庫全書「《使琉球錄》一卷」一節：本節作《使琉球錄》一卷、明陳侃撰，與蕭崇業二卷本異撰人異書；庫中既有陳侃一卷本，今改繫之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjr1tye7itc",
-  "resources": [
-    {
-      "id": "wikimedia-commons-xuxiu",
-      "name": "維基共享 續修四庫全書 PDF",
-      "short_name": "維基共享",
-      "url": "https://commons.wikimedia.org/wiki/File:%E7%BA%8C%E4%BF%AE%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%AC%AC0742%E5%86%8A.pdf",
-      "metadata": {
-        "volume": 742
-      },
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "books": [
-    "11qki5bounmrk"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nkx514y",
-  "_promoted_at": "2026-08-25T12:41:03Z"
+  "_promoted_at": "2026-08-25T12:41:03Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nkx514y。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

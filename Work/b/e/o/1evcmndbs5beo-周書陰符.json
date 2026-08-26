@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmndbs5beo",
   "type": "work",
   "title": "周書陰符",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《周書陰符》九卷",
-      "summary": "《周書陰符》九卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "周書陰符",
-      "summary": "周書陰符九卷"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmndbs5beo",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《周書陰符》九卷",
-      "summary": "周書陰符九卷\n《唐書·藝文志》:《太公陰謀》三卷。又《金匮》二卷。《六 》\n六卷。《周書陰符》九卷。\n嚴氏《全三代文編》曰:“案《周書陰符》,《隋志》不云太公。據\n《戰國策》,蘇秦得太公《陰符之謀》,《史記》作《周書陰符》,明\n是一書也。”\n又曰:“案《陰符》謂《陰符之謀》,蓋即《漢志》之《太公謀》八十\n一篇。云《周書》者,周時史官紀述,猶《六》稱《周史》,案此猶\n據顏氏舊說以《漢志》儒家之《周史六》謂即今之《六 》,與孫氏所據同也,詳見前。\n諸引《周書陰符》或但稱《周書》,驗知非《逸周書》。録附太公\n之末,與《六 》、《陰謀》、《金匮》互出入,不嫌複見也。凡十\n二條。”案今傳《陰符經》一篇,疑出是書。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "related_works": [
-    {
-      "id": "d59f28npq1vk",
-      "title": "周書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-05-14T02:29:29-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2q2ldkoy",
-  "_promoted_at": "2026-08-25T15:33:25Z"
+  "_promoted_at": "2026-08-25T15:33:25Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q2ldkoy。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

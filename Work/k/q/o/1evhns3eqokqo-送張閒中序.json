@@ -2,39 +2,8 @@
   "schema_version": 1,
   "id": "1evhns3eqokqo",
   "type": "work",
-  "subtype": "article",
   "title": "送張閒中序",
-  "authors": [
-    {
-      "name": "劉大櫆",
-      "dynasty": "清",
-      "role": "作",
-      "entity_id": "1j967afj9xc93"
-    }
-  ],
-  "resources": [
-    {
-      "id": "wikisource",
-      "name": "維基文庫",
-      "url": "https://zh.wikisource.org/w/index.php?title=%E9%80%81%E5%BC%B5%E9%96%92%E4%B8%AD%E5%BA%8F&action=edit&redlink=1",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "related_works": [
-    {
-      "id": "1evhnqciqrwu8",
-      "title": "正續古文辭類纂",
-      "relation": "collected_in"
-    }
-  ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "_has_text": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2mpxu03k",
-  "_promoted_at": "2026-08-25T11:41:29Z"
+  "_promoted_at": "2026-08-25T11:41:29Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mpxu03k。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

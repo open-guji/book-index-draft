@@ -1,66 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjxop1t3lkw",
   "type": "work",
   "title": "產鶴亭詩",
-  "authors": [
-    {
-      "name": "曹庭棟",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967afj8zml2"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《產鶴亭詩》十一卷",
-      "author_info": "清曹庭棟撰",
-      "summary": "《產鶴亭詩》十一卷。清曹庭棟撰。浙江圖書館藏清乾隆刻本。",
-      "edition": "浙江圖書館藏清乾隆刻本",
-      "volume": "第282冊",
-      "section": "集部"
-    },
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《產鶴亭詩集》•七卷",
-      "author_info": "國朝曹庭棟撰",
-      "summary": "國朝曹庭棟撰。庭棟有《易准》，已著錄。是集，凡分七稿，每稿各為《小序》，其書齋中有“產鶴亭”，因以名集。故集中詠鶴詩最多。其第二稿別題曰《魏塘紀勝》，第七稿亦別題曰《續魏塘紀勝》，蓋嘉善舊隸嘉興路，為魏塘鎮，亦名武塘，明宣德五年始析為縣。庭棟先詠其名跡為一百首，又續成五十首也。",
-      "edition": "浙江巡撫采進本"
-    },
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "產鶴亭詩集",
-      "summary": "產鶴亭詩集七卷。曹廷棟撰。"
-    }
-  ],
-  "description": {
-    "text": "曹庭棟（清）撰。十一卷；諸志所著之數有異，別作七卷。見著錄於《四庫全書存目叢書》《欽定四庫全書總目》《清史稿藝文志》。《四庫全書存目叢書》列於集部。《欽定四庫全書總目》清乾隆間館臣修；《清史稿藝文志》民國趙爾巽等修——本書之目賴之以存。",
-    "sources": [
-      "四庫全書存目叢書",
-      "欽定四庫全書總目",
-      "清史稿藝文志"
-    ]
-  },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 11
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 11
-    }
-  ],
-  "measure_info": "十一卷",
-  "id": "1evjxop1t3lkw",
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2mxceo01",
-  "_promoted_at": "2026-08-25T11:55:43Z"
+  "_promoted_at": "2026-08-25T11:55:43Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mxceo01。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

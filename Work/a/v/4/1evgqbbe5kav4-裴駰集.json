@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqbbe5kav4",
   "type": "work",
   "title": "裴駰集",
-  "juan_count": {
-    "number": 6
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《裴駰集》六卷",
-      "summary": "《裴駰集》六卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqbbe5kav4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [
-    {
-      "name": "裴駰",
-      "role": "撰",
-      "entity_id": "1j96hf2ud9gjk",
-      "dynasty": "南朝宋",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"裴駰集\"）——前缀「裴駰」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "南朝宋",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「裴駰」（entity 1j96hf2ud9gjk）已定代「南朝宋」，且與本條 period_upper（ming）相容，據以定代。",
   "_promoted_to": "d59f2ofmgkqo",
-  "_promoted_at": "2026-08-25T13:40:03Z"
+  "_promoted_at": "2026-08-25T13:40:03Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofmgkqo。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

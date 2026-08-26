@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpjthx14ao",
   "type": "work",
   "title": "江津縣志",
-  "authors": [
-    {
-      "name": "曾受一",
-      "role": "纂修",
-      "dynasty": "清",
-      "entity_id": "1jcf5151293bl",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151293bl` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志002842-002849）。清乾隆三十三年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志002842-002849），無同名 Work 故新建。",
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷藝文補編一卷",
-  "id": "1evkpjthx14ao",
-  "books": [
-    "11qki14ugecxs"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n2l98n6",
-  "_promoted_at": "2026-08-25T12:05:49Z"
+  "_promoted_at": "2026-08-25T12:05:49Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n2l98n6。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocnly5fk",
   "type": "work",
   "title": "辛德源集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《辛德源集》三十卷",
-      "summary": "蜀王府記室《辛德源集》三十卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《辛德源集》三十卷",
-      "summary": "《辛德源集》三十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "辛德源集",
-      "summary": "辛德源集三十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《辛德源集》三十卷",
-      "summary": "《辛德源集》三十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 30
-  },
-  "id": "1evcmocnly5fk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《辛德源集》三十卷",
-      "summary": "蜀王府記室辛德源集三十卷\n辛德源有《正訓》、《内訓》,見子部雜家。\n《隋書》本傳:德源沈靜好學。年十四,解屬文,及長,博覽書\n記,少有重名。齊尚書僕射楊遵彦、殿中尚書辛術皆一時名\n士,並虚襟禮敬,因同薦於文宣帝。中書侍郎劉邀上表薦德\n源曰:“弱齡好古,晚節逾厲。枕籍六經,漁獵百氏。文章綺\n豔,體調清華。”高祖受禪,不得調者久之。隱於林慮山,鬱鬱\n不得志,著《幽居賦》以自寄,文多不載。素與盧思道友善,時\n相往來。有集二十集。\n《唐書·經籍》、《藝文志》:《辛德源集》三十卷。\n馮氏《詩紀》輯存《短歌行》等樂詩凡九篇。\n嚴氏《全隋文編》:辛德源有集三十卷。《初學記》十七有《姜\n肱贊》、《東晉庾統、朱明、張臣尉三人費》,凡二篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "sui-tang",
-  "period_basis": "題名為別集「辛德源集」，撰人「辛德源」（其所繫他 work 之 period）（2026-08-25 無斷代批次）",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2q520zk2",
-  "_promoted_at": "2026-08-25T15:38:09Z"
+  "_promoted_at": "2026-08-25T15:38:09Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q520zk2。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

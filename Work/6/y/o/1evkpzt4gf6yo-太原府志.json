@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpzt4gf6yo",
   "type": "work",
   "title": "太原府志",
-  "authors": [
-    {
-      "name": "譚尚忠",
-      "role": "修",
-      "dynasty": "清",
-      "entity_id": "1jcf5151298ob",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151298ob` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志004690-004712）。清乾隆四十八年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志004690-004712）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 59
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 59
-    }
-  ],
-  "measure_info": "存五十九卷",
-  "id": "1evkpzt4gf6yo",
-  "books": [
-    "11qki19un4xds"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n6vggzl",
-  "_promoted_at": "2026-08-25T12:14:02Z"
+  "_promoted_at": "2026-08-25T12:14:02Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n6vggzl。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

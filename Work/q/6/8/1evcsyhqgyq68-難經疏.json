@@ -1,37 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyhqgyq68",
   "type": "work",
   "title": "難經疏",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《難經疏》",
-      "summary": "秦越人《難經疏》十三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "難經䟽十三卷",
-      "summary": "難經䟽十三卷"
-    }
-  ],
-  "id": "1evcsyhqgyq68",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
-  "authors": [
-    {
-      "name": "秦越人",
-      "role": "舊題撰",
-      "entity_id": "1j96gx6v99mv4",
-      "name_basis": "2026-08-24 斷代收窄·早代逐條裁：本條《宋史藝文志》著錄題「秦越人」，然此乃依託之名，非其實撰。《難經》舊題秦越人，其「疏」則後人所為，必不出越人之手。\n\n依 SCHEMA〈舊題撰人 ≠ 實際撰人〉，role 作「舊題撰」，不以其代為本書之代；period_upper「song」仍留。"
-    }
-  ],
-  "additional_titles": [
-    "難經䟽"
-  ],
-  "ai_note": "2026-08-25 無斷代批次合併（plan_5.json 判、主進程執行）：難經疏：崇文總目十三卷（無撰人）與宋志「秦越人《難經疏》十三卷」卷數全同",
   "_promoted_to": "d59f2pu93a4h",
-  "_promoted_at": "2026-08-25T15:17:22Z"
+  "_promoted_at": "2026-08-25T15:17:22Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pu93a4h。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

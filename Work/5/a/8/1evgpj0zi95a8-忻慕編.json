@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpj0zi95a8",
   "type": "work",
   "title": "忻慕編",
-  "juan_count": {
-    "number": 2
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《忻慕編》二卷",
-      "summary": "《忻慕編》二卷（陳鳳）",
-      "author_info": "陳鳳"
-    }
-  ],
-  "description": {
-    "text": "陳鳳（明）撰。二卷。見著錄於《國史經籍志》。其著錄之文，《國史經籍志》作「《忻慕編》二卷（陳鳳）」。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpj0zi95a8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "陳鳳",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96h8rw7vhgr",
-      "name_basis": "2026-08-24 著錄語有而欄位空：本條《國史經籍志》之著錄語已明題撰人「陳鳳」（indexed_by[].author_info），而 authors 欄久空。庫中同名 entity 唯一（`1j96h8rw7vhgr`，代「明」），故補之。"
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」——撰人自《國史經籍志》著錄語補入（見 authors[].name_basis），繫庫中同名唯一之 entity 而得其代。所得之代不晚於原 period_upper「ming」，不相斥。",
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2ne8h2bm",
-  "_promoted_at": "2026-08-25T12:28:11Z"
+  "_promoted_at": "2026-08-25T12:28:11Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ne8h2bm。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

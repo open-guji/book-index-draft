@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqbi7ymubk",
   "type": "work",
   "title": "劉繪集",
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《劉繪集》十卷",
-      "summary": "《劉繪集》十卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqbi7ymubk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [
-    {
-      "name": "劉繪",
-      "role": "撰",
-      "entity_id": "1j967c148lk4y",
-      "dynasty": "明",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"劉繪集\"）——前缀「劉繪」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "明",
-  "period": "ming",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「劉繪」（entity 1j967c148lk4y）已定代「明」，且與本條 period_upper（ming）相容，據以定代。",
   "_promoted_to": "d59f2nf8dcsh",
-  "_promoted_at": "2026-08-25T12:30:06Z"
+  "_promoted_at": "2026-08-25T12:30:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nf8dcsh。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

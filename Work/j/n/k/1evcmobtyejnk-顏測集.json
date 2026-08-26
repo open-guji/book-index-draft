@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmobtyejnk",
   "type": "work",
   "title": "顏測集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《顏測集》十一卷",
-      "summary": "宋大司馬錄事《顏測集》十一卷並目錄。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《顏測集》十一卷",
-      "summary": "《顏測集》十一卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "顏測集",
-      "summary": "顏測集十一卷"
-    }
-  ],
-  "juan_count": {
-    "number": 11
-  },
-  "id": "1evcmobtyejnk",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《顏測集》十一卷",
-      "summary": "宋大司馬録事顏測集十一卷并目錄\n《宋書》、《南史・顏延之傳》:“文帝常問以諸子才能,延之曰:\n*竣得臣筆,測得臣文,得臣義,躍得臣酒。何尚之嘲曰:\n*誰得卿狂?”答曰:‘其狂不可及。'”又曰:“竣弟测,宋書》作\n侧。亦以文章見知,官至江夏王義恭大司馬録事參軍。以兄\n貴為憂,先竣卒。”\n《唐書·經籍》、《藝文志》:《顏測集》十一卷。\n嚴氏《全宋文编》:顏測有集十一卷。《御覽》引《顏測集》有\n《大司馬江夏王賜絹葛啟》,《藝文類聚》有《山石榴賦》、《 子\n贊》,存凡三篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 11
-    }
-  ],
-  "measure_info": "十一卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 無斷代批次：據著錄引文「宋大司馬錄事《顏測集》十一」——撰人名前緊接之朝代語（本條 indexed_by 內所得唯一）",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2q74bg8w",
-  "_promoted_at": "2026-08-25T15:42:06Z"
+  "_promoted_at": "2026-08-25T15:42:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q74bg8w。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

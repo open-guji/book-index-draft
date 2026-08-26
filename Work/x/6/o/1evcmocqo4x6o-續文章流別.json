@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocqo4x6o",
   "type": "work",
   "title": "續文章流別",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《續文章流別》三卷",
-      "summary": "《續文章流別》三卷孔寧撰。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《續文章流别》三卷",
-      "summary": "《續文章流别》三卷（孔寗集）",
-      "author_info": "孔寗集",
-      "merged_from": "1evcmocqo4x6o",
-      "note": "《續文章流別》異體重出組：彼條（國史經籍志作「孔寗」三卷）與本條題名經異體歸一後全同，而撰人相異——「寗」即「寧」之異體，同名同卷。全庫同題僅此二條，判為同書。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "孔寧",
-      "role": "撰",
-      "entity_id": "1j96hf1oa3jsw"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "id": "1evcmocqo4x6o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "additional_titles": [
-    "續文章流别"
-  ],
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evgqfy6jocn4`（續文章流別）。2026-08-23 B4 異體字重出併池：併入 `1evgqfy6jocn4`（國史經籍志作「孔寗」三卷）。二題之別僅在異體字，歸一後全同；撰人之異在於——「寗」即「寧」之異體，同名同卷。全庫同題僅此二條，同書。",
   "_promoted_to": "d59f2q6m7oxt",
-  "_promoted_at": "2026-08-25T15:41:09Z"
+  "_promoted_at": "2026-08-25T15:41:09Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q6m7oxt。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

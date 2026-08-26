@@ -1,71 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evfubbar79xc",
   "type": "work",
   "title": "周易繫辭注",
-  "indexed_by": [
-    {
-      "source": "補晋書藝文志",
-      "source_bid": "1evfu57n5n37k",
-      "summary": "周易繫辭注二卷 西中郎將謝萬等。謹按見《隋志》。朱氏《經義孜》云:“雙湖胡氏《易啟蒙翼傳》載,傳注有謝平《繫辭注》二卷。”疑即萬書,字偶誤也。按謝平《易注》,宋以前絕未引及,其為“萬”字傳 無疑。",
-      "section": "甲部經錄／易類",
-      "section_basis": "部類自整理本推得——本志整理本以部類分檔，檔名即其類目；一書兩著者（整理本自云「互見某類」）以本條著錄引文鎖定其節"
-    },
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《周易繫辭注》（謝萬）",
-      "summary": "隋志二卷\n晉書萬字萬石簡文帝作相召為撫軍從事中郎再遷豫州刺史領淮南太守監司豫冀并四州軍事按雙湖胡氏易啓䝉翼傳所載傳注有謝平繫辭注二卷疑即萬書字偶譌也",
-      "section": "易",
-      "juan": "卷六十九",
-      "page": "KR2n0011_WYG_069-16b",
-      "attested_status": "lost",
-      "attested_status_raw": "佚",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
-  "description": {
-    "text": "謝萬（東晉）注。二卷。見著錄於《補晋書藝文志》《經義考》。《補晋書藝文志》列於甲部經錄·易類；《經義考》列於易。原書已佚。其著錄之文，《補晋書藝文志》作「周易繫辭注二卷 西中郎將謝萬等」。經注之屬。",
-    "sources": [
-      "補晋書藝文志",
-      "經義考"
-    ]
-  },
-  "authors": [
-    {
-      "name": "謝萬",
-      "role": "注",
-      "dynasty": "東晉",
-      "entity_id": "1j967cp1zdr2b",
-      "dynasty_basis": "historical_dict:round2(謝萬(320-361)，字萬石，謝安之弟)",
-      "name_basis": "2026-08-24 「某某等」歸其人：本條所繫之 `1j96hfb16a1og` 其 primary_name 作「…等」，「等」乃「等人」之省，非名之一部，今改繫 `1j967cp1zdr2b`。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "id": "1evfubbar79xc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "related_works": [
-    {
-      "id": "d59ezakdey2o",
-      "title": "周易",
-      "relation": "contains_text_of"
-    }
-  ],
-  "ai_note": "2026-08-25 G8 收尾：升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xu9wxu。",
-  "loss_status": "lost",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "dynasty": "東晉",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "loss_status_basis": "2026-08-24 J7 存佚基準登記：本欄之值出自 2026-08 之機讀（scripts/loss_status.py），據本條之描述或著錄語中之亡佚語而定，其 ai_note 自陳「非逐條精校」。J7 曾以結構化之證（著錄源含《玉函山房輯佚書》、有輯佚檔、按語有「引是書／輯存／輯得／某某輯本序」之明文）覆核全桶，**本條無此三證**，故仍其舊。欲進一步覈之，須逐條讀《三國藝文志》《補晉書藝文志》之散文體按語（S4 第三路），是本時段所餘之最大一項人工。",
   "_promoted_to": "d59f27xu9wxu",
-  "_promoted_at": "2026-08-24T18:38:42Z"
+  "_promoted_at": "2026-08-24T18:38:42Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f27xu9wxu。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

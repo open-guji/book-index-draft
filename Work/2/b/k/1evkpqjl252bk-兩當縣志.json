@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpqjl252bk",
   "type": "work",
   "title": "兩當縣志",
-  "authors": [
-    {
-      "name": "德俊",
-      "role": "撰",
-      "dynasty": "清",
-      "entity_id": "1j967avzkeuc6",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「德俊」而無 entity_id，今繫 `1j967avzkeuc6`——庫中以此為別名（alt_names）者唯一。其代「明」與本書已定之代「qing」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 贈善020030-020033）。清道光二十六年抄本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善020030-020033），無同名 Work 故新建。",
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷首一卷",
-  "id": "1evkpqjl252bk",
-  "books": [
-    "11qkht6u6vg1s"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n5a0t1d",
-  "_promoted_at": "2026-08-25T12:10:58Z"
+  "_promoted_at": "2026-08-25T12:10:58Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n5a0t1d。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

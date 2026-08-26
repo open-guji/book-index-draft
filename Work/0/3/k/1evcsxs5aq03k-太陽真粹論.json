@@ -1,19 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsxs5aq03k",
   "type": "work",
   "title": "太陽真粹論",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《太陽真粹論》",
-      "summary": "淮南王劉安《太陽真粹論》一卷黃玄鍾"
-    }
-  ],
-  "id": "1evcsxs5aq03k",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [],
-  "ai_note": "2026-08-24 漢代收束·誤入漢桶清出：本條由另一路「宋志頂真格抽撰人／舊唐志逐條抽撰人／補繫 entity」作業繫上漢代撰人，period 隨之收窄至 qin-han，而其書實非漢代之物。宋志道書類一卷本，託名淮南王。同上例——託名不足以定代，丹書之託淮南者宋世尤多。解繫，代待考。\n今解 authors[].entity_id 之繫、去 period／period_basis／dynasty，待該車道以著錄原文重判。登記見 `.claude/known-issues/H10-宋志頂真格誤繫漢代撰人-20260824.json`。",
   "_promoted_to": "d59f2q76tclc",
-  "_promoted_at": "2026-08-25T15:42:14Z"
+  "_promoted_at": "2026-08-25T15:42:14Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q76tclc。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

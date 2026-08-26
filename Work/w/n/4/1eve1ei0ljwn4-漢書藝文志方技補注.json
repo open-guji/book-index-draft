@@ -3,42 +3,7 @@
   "id": "1eve1ei0ljwn4",
   "type": "work",
   "title": "漢書藝文志方技補注",
-  "authors": [
-    {
-      "name": "張驥",
-      "role": "撰",
-      "dynasty": "民國",
-      "dynasty_basis": "2026-08-25 J31：撤銷 entity_id 誤繫——WebSearch 覆核：本條撰人張驥（1874-1951），四川雙流人，民國年間經學家、醫史文獻學家，非明代人；原繫之 entity （卒1449，字仲德）乃 CBDB「pending_accept: auto_ambig」之誤配同名異人。ai_note 本已明載「民國代著作」，J21 propagate 時未察此節，逕沿 entity 之誤代，今訂正。"
-    }
-  ],
-  "description": {
-    "text": "",
-    "sources": []
-  },
-  "resources": [],
-  "juan_count": {
-    "number": 0,
-    "description": ""
-  },
-  "contained_in": [
-    {
-      "id": "1ahpz4ai7vj0g",
-      "volume_index": "第5卷"
-    }
-  ],
-  "ai_note": "民國代著作，收入《二十五史藝文經籍志考補萃編》第5卷。\n\n2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j96h8rw7vhh2`.dynasty「明」propagate 補齊；work.dynasty 同步。\n\n2026-08-25 J31：period／dynasty 由 ming 訂正為 modern／民國——J21 propagate 時誤沿entity 之 CBDB 誤配（同名異人），ai_note 本已明載「民國代著作」，今據以訂正。",
-  "related_works": [
-    {
-      "id": "d59f1iqd854w",
-      "title": "漢書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "modern",
-  "period_basis": "WebSearch 覆核：撰人張驥（1874-1951）民國年間人，見 dynasty_basis。",
-  "dynasty": "民國",
-  "dynasty_basis": "據 authors[0].dynasty「民國」",
   "_promoted_to": "d59f2o0gicci",
-  "_promoted_at": "2026-08-25T13:10:55Z"
+  "_promoted_at": "2026-08-25T13:10:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2o0gicci。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

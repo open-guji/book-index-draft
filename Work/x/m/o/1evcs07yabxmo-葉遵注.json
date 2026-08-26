@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcs07yabxmo",
   "type": "work",
   "title": "葉遵注",
-  "indexed_by": [
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "葉遵注",
-      "summary": "葉遵注十二卷"
-    }
-  ],
-  "id": "1evcs07yabxmo",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "葉遵",
-      "role": "注",
-      "dynasty": null,
-      "entity_id": "1j96hliclf2tc",
-      "note": "新唐書藝文志作「葉遵注十二卷」，「撰人＋注」之例。",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「葉遵」而無 entity_id，今繫 `1j96hliclf2tc`——庫中 primary_name 同之者唯一。該 entity 未著其代，故只繫其人，不因之定代。"
-    }
-  ],
-  "juan_count": {
-    "number": 12
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 12
-    }
-  ],
-  "measure_info": "十二卷",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為新唐書藝文志葉遵注十二卷，與同志「葉遵注二十卷」（`1evcs07j3g5xc`）卷數異，所注之經亦不同，非一書，未予合併。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
   "_promoted_to": "d59f2pvsnj0g",
-  "_promoted_at": "2026-08-25T15:20:20Z"
+  "_promoted_at": "2026-08-25T15:20:20Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pvsnj0g。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

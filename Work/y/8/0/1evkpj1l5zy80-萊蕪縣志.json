@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpj1l5zy80",
   "type": "work",
   "title": "萊蕪縣志",
-  "authors": [
-    {
-      "name": "鍾國義",
-      "role": "纂修",
-      "dynasty": "清",
-      "entity_id": "1jcf5151299br",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299br` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志000583-000586）。清康熙壬子(十一年)刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志000583-000586），無同名 Work 故新建。 | 從 1evkpsks3gr9c 合併。原註：本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善016313-016316）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "id": "1evkpj1l5zy80",
-  "books": [
-    "11qki0ylh3u9s",
-    "11qkhsy6yc5j4"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n23ry80",
-  "_promoted_at": "2026-08-25T12:04:52Z"
+  "_promoted_at": "2026-08-25T12:04:52Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n23ry80。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

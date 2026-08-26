@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkphd2p44jk",
   "type": "work",
   "title": "詩林廣記",
-  "authors": [
-    {
-      "name": "蔡正孫",
-      "role": "撰",
-      "dynasty": "宋末元初",
-      "entity_id": "1j967da95zfa5",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「蔡正孫」而無 entity_id，今繫 `1j967da95zfa5`——庫中 primary_name 同之者唯一。其代「元」與本書之上限不相斥。",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×3／song×1 諸桶。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故庫035955-035962）。清乾隆間寫文淵閣四庫全書本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故庫035955-035962），無同名 Work 故新建。\n\n2026-08-25 遼金元 L5：撰人「蔡正孫」之代由「元」歸一為「宋末元初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "前集十卷後集十卷",
-  "id": "1evkphd2p44jk",
-  "books": [
-    "11qkhy32spvr4"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據撰人「蔡正孫」（entity `1j967da95zfa5`，代「元」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。",
   "_promoted_to": "d59f2j57dn29",
-  "_promoted_at": "2026-08-25T07:34:02Z"
+  "_promoted_at": "2026-08-25T07:34:02Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2j57dn29。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

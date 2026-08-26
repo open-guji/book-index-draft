@@ -3,68 +3,7 @@
   "id": "1ev3baypm6cqo",
   "type": "work",
   "title": "天下名山諸勝一覽記",
-  "authors": [
-    {
-      "name": "慎蒙",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzmwqqo"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《天下名山諸勝一覽記》·十六卷",
-      "author_info": "明慎蒙撰",
-      "summary": "明慎蒙撰。蒙字山泉，歸安人。嘉靖癸丑進士，官至監察禦史。是書以何鏜所作《古今遊名山記》重複太甚，因刪汰繁冗，而增入《通志》及別集所載記文凡十之四。視鏜書頗為簡明。然文有加減，而事不增損，仍無資於考據。其記文之末，各加評語，亦不出坊刻積習。自序稱其書名《天下名山諸勝一覽記》，而第一卷首又題作《遊名山一覽記》，第二卷以後則題作《名山岩洞泉石古跡》，殊不畫一。蓋明代文士，往往急行其書，陸續付梓。至書成後始有定名，而已刊者遂不復追改，故名目往往錯互，不獨此書為然也。",
-      "edition": "兩江總督采進本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《天下名山諸勝一覽記》十六卷",
-      "author_info": "明慎蒙撰",
-      "summary": "《天下名山諸勝一覽記》十六卷。明慎蒙撰。清華大學圖書館藏明萬曆四年自刻本。",
-      "edition": "清華大學圖書館藏明萬曆四年自刻本",
-      "volume": "第251冊",
-      "section": "史部"
-    }
-  ],
-  "juan_count": {
-    "number": 16
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=6609771",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "慎蒙（明）撰。十六卷。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於史部。諸家按語稱其佚文見引於《通志》。其著錄之文，《四庫全書存目叢書》作「《天下名山諸勝一覽記》十六卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2nhydv5t",
-  "_promoted_at": "2026-08-25T12:35:20Z"
+  "_promoted_at": "2026-08-25T12:35:20Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nhydv5t。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

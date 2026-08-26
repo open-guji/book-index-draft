@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgph2ksh5a8",
   "type": "work",
   "title": "帝王歷數圖",
-  "authors": [
-    {
-      "name": "路惟衡",
-      "role": "撰",
-      "entity_id": "1j96hfqqo89a8"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《帝王歷數圖》十卷",
-      "summary": "《帝王歷數圖》十卷（路惟衡。）",
-      "author_info": "路惟衡。"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《帝王曆數圖》",
-      "summary": "路惟衡《帝王曆數圖》十卷陳嶽",
-      "merged_from": "1evcsx87wkkjk",
-      "note": "本著錄原繫題作「帝王曆數圖」之條，該題與本條僅簡繁轉換取字之異，今併入。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgph2ksh5a8",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "additional_titles": [
-    "帝王曆數圖"
-  ],
-  "ai_note": "2026-08-20 題名簡繁歧出歸併專項：庫中別有題作《帝王曆數圖》之 work（`1evcsx87wkkjk`），與本條題名之差唯一字，而該字為簡體轉繁時之歧出（同一簡字對數繁字，轉換取字不一）。二者撰人相容、卷數不衝突、所出之志互異，實一書之重出，今併，異題入 additional_titles。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2pshq48x",
-  "_promoted_at": "2026-08-25T15:14:00Z"
+  "_promoted_at": "2026-08-25T15:14:00Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pshq48x。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

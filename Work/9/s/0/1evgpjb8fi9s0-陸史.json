@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpjb8fi9s0",
   "type": "work",
   "title": "陸史",
-  "authors": [
-    {
-      "name": "陸煦",
-      "role": "撰",
-      "entity_id": "1j96h8rw8hyj3"
-    }
-  ],
-  "juan_count": {
-    "number": 15
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《陸史》十五卷",
-      "summary": "《陸史》十五卷（陸煦）",
-      "author_info": "陸煦"
-    }
-  ],
-  "description": {
-    "text": "陸煦撰。十五卷。見著錄於《國史經籍志》。其著錄之文，《國史經籍志》作「《陸史》十五卷（陸煦）」。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"陸史\" 唯一候选无作者\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgpjb8fi9s0",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 15
-    }
-  ],
-  "measure_info": "十五卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "撰人 Entity 之代：陸煦（Entity 1j96h8rw8hyj3），並經 CBDB c_personid 673553 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "陸史十五卷",
-      "summary": "陸史十五卷\n不著撰人。\n《南史·陸呆傳》:呆字明霞,吴郡吴人。梁天監中,仕至金紫\n光禄大夫,特進。卒。弟煦,學涉有思理,位太子家令,撰《晉\n書》未就。又著《陸史》十五卷,《陸氏 泉志》一卷,並行\n於世。\n《史通雜述篇》曰:“高門華胃,奕世載德,才子承家,思顯父\n母。由是紀其先烈,胎厥後來,若揚雄《家牒》、殷敬《世傳》、\n《孫氏譜記》、《陸宗系歷》。此之謂家史者也。”\n《唐書經籍志》譜牒類:《陸史》十五卷,陸煦撰。《藝文志》雜\n記類著録同。\n案陸氏為江左四大姓之一,自漢末陸續公紀以來,代有聞\n人。李延壽修《南史》諸列傳,往往參以各家家傳。《南史》\n第四十八卷所載陸澄、陸慧曉、陸 三族,皆吴郡吴人。大\n都即節取《陸史》入宋以後之事也。",
-      "note": "（2026-08-23 整理本回鏈補記：該整理本之節已繫本 Work 而本 Work 無其著錄，致 chk「整理本繫連而 work 側無記錄」。今補。）"
-    }
-  ],
   "_promoted_to": "d59f2mpuee4i",
-  "_promoted_at": "2026-08-25T11:41:19Z"
+  "_promoted_at": "2026-08-25T11:41:19Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mpuee4i。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

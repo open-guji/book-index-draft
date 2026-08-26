@@ -3,75 +3,7 @@
   "id": "1ev3bbzwe2gw0",
   "type": "work",
   "title": "槐亭漫錄",
-  "authors": [
-    {
-      "name": "嚴堯黻",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96heqckaozk"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《槐亭漫錄》•",
-      "author_info": "明嚴堯黻撰",
-      "summary": "明嚴堯黻撰。堯黻字汝儀，號槐亭，朝邑人。官房縣主簿。是書凡十一篇，曰明玄，曰太極，曰天文，曰地理，曰時令，曰人物，曰性命，曰鬼神，曰文史，曰雜著，曰拒邪。前有嘉靖甲辰自序，謂是錄皆經傳格言，師友緒論。然鈔撮舊文，參以膚談，不足稱窮理格物之功。",
-      "edition": "無卷數，湖北巡撫采進本"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《槐亭漫錄》不分卷",
-      "author_info": "明嚴堯黻撰",
-      "summary": "《槐亭漫錄》不分卷。明嚴堯黻撰。北京大學圖書館藏明嘉靖刻本。",
-      "edition": "北京大學圖書館藏明嘉靖刻本",
-      "volume": "第87冊",
-      "section": "子部"
-    }
-  ],
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=6748047",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-jiajingkeben",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/CADAL02056109",
-      "metadata": {
-        "edition": "嘉靖刻本",
-        "version": "v2",
-        "total_page": 480,
-        "paragraph_count": 5537,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "嚴堯黻（明）撰。見著錄於《欽定四庫全書總目》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。其著錄之文，《四庫全書存目叢書》作「《槐亭漫錄》不分卷」。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2nfsns3k",
-  "_promoted_at": "2026-08-25T12:31:11Z"
+  "_promoted_at": "2026-08-25T12:31:11Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nfsns3k。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

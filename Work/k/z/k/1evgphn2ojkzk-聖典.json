@@ -1,59 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgphn2ojkzk",
   "type": "work",
   "title": "聖典",
-  "authors": [
-    {
-      "name": "楊浚",
-      "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j96h8rw86q24（南宋），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《聖典》三卷",
-      "summary": "《聖典》三卷（楊浚）",
-      "author_info": "楊浚"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "楊浚聖典",
-      "summary": "楊浚聖典三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "聖典三卷",
-      "summary": "聖典三卷",
-      "merged_from": "1evgphn2ojkzk",
-      "note": "崇文總目另立之無撰人三卷本，與本條國史經籍志、新唐志雙證楊浚撰本卷數全合，同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "从卷二 ambiguous 新建：unresolved\n\n2026-08-10 撰人字首式重出候選覆核：1evcs0lj2pngg（撰人折入題名之異寫）併入本條（同題同撰人）。\n\n2026-08-22 B1 同名異書併池：併入 `1evr5e3mfxezl`（聖典）。2026-08-21 B2 併池：併入 `1evr5e3mfxezl`（崇文總目，無撰人，三卷）。同書。",
-  "id": "1evgphn2ojkzk",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-23T05:22:40.066063+00:00",
-  "books": [],
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《新唐書藝文志》（宋歐陽修等（1060），著錄唐代著述），故不晚於 sui-tang",
   "_promoted_to": "d59f2pupbmdc",
-  "_promoted_at": "2026-08-25T15:18:14Z"
+  "_promoted_at": "2026-08-25T15:18:14Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pupbmdc。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

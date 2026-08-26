@@ -1,43 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkaavy0f5ds",
   "type": "work",
   "title": "遊志續編",
-  "authors": [
-    {
-      "name": "陶宗儀",
-      "role": "撰",
-      "dynasty": "元末明初",
-      "entity_id": "1j967avzk3lsp",
-      "name_basis": "2026-08-24 補繫 entity（代相鄰者）：本條 authors 有名「陶宗儀」而無 entity_id，庫中同名唯一（`1j967avzk3lsp`）。entity 代 ming 與本書 liao-jin-yuan 相鄰，一人歷易代——兩代首尾相接，一人之壽足以跨之（如宋元之際、元明之際、明清之際），非同名異人，故繫之。二者之代並不改，各存其舊。",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×8／ming×7 諸桶。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善010554-010555）。清嘉慶間阮元進呈影舊鈔本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-25 遼金元 L5：撰人「陶宗儀」之代由「明」歸一為「元末明初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 2
-    }
-  ],
-  "measure_info": "二冊",
-  "id": "1evkaavy0f5ds",
-  "books": [
-    "11qkhv69xu03k"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2j4tbym8",
-  "_promoted_at": "2026-08-25T07:33:17Z"
+  "_promoted_at": "2026-08-25T07:33:17Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2j4tbym8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkacj160kcg",
   "type": "work",
   "title": "御製繙譯孝經",
-  "authors": [
-    {
-      "name": "世宗",
-      "role": "敕譯",
-      "dynasty": "清",
-      "entity_id": "1j98owyssbpc0"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿002761）。清咸豐六年武英殿刊漢滿合璧本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。\n\n2026-08-22 B3 併池（藏本條重出）：1evkq1i0i4nb4 併入本條。二者同題，併者為《國立故宮博物院善本舊籍》錄入之藏本條而無撰人、無志書著錄。依 SCHEMA〈一條 Work 記錄代表什麼〉，一書數藏本當為一 Work 數 Book，非二 Work；藏本（Book 1→2）併入本條。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkacj160kcg",
-  "books": [
-    "11qki23o98tmo",
-    "11qki23pp27sw"
-  ],
-  "related_works": [
-    {
-      "id": "d59f1iosq6tc",
-      "title": "孝經",
-      "relation": "contains_text_of"
-    }
-  ],
-  "updated_at": "2026-08-23T06:04:29.719957+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
-  "period_upper": "qing",
-  "period_upper_basis": "edition_bound：所掛版本中最早者為「清乾隆間武英殿刊漢滿合璧本」——版本之年不早於成書之年，故不晚於 qing",
   "_promoted_to": "d59f2my2xu6a",
-  "_promoted_at": "2026-08-25T11:57:08Z"
+  "_promoted_at": "2026-08-25T11:57:08Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2my2xu6a。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

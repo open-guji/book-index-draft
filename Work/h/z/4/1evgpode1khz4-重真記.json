@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgpode1khz4",
   "type": "work",
   "title": "重真記",
-  "authors": [
-    {
-      "name": "監敏",
-      "role": "撰",
-      "entity_id": "1j96hfxmtw3y8"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《重眞記》一卷",
-      "summary": "《重眞記》一卷（監敏）",
-      "author_info": "監敏"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "重真記一卷",
-      "summary": "重真記一卷。（闕）",
-      "merged_from": "1evgpode1khz4",
-      "note": "《重眞記》與《重真記》之別，僅在異體字（重眞記／重真記），題名歸一後全同；卷數全同（1卷）；彼條無撰人而本條作「監敏」。二者著錄異源（國史經籍志 ／ 崇文總目），非一志之內重出，而題、卷相合，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgpode1khz4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "additional_titles": [
-    "重眞記"
-  ],
-  "ai_note": "2026-08-23 B1 同名異書併池：併入 `1evr5e3mgv4mk`（重眞記）。2026-08-23 B4 異體字重出併池：併入 `1evr5e3mgv4mk`（崇文總目，題作《重真記》，1卷）。二題之別僅在異體字，歸一後全同，卷數全同（1卷）；彼條無撰人而本條作「監敏」。\n\n2026-08-23 B4 異體字重出併池：本條題原作《重眞記》，所用「重眞記」係著錄原文之異體；今正為通行之《重真記》，原形移入 additional_titles 備檢。",
   "_promoted_to": "d59f2q8hbpq9",
-  "_promoted_at": "2026-08-25T15:44:43Z"
+  "_promoted_at": "2026-08-25T15:44:43Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q8hbpq9。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

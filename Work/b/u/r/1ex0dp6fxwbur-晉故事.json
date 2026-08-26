@@ -1,34 +1,9 @@
 {
   "schema_version": 1,
-  "type": "work",
   "id": "1ex0dp6fxwbur",
+  "type": "work",
   "title": "晉故事",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《晉故事》三卷",
-      "summary": "《晉故事》三卷",
-      "section": "起居注故事職官類",
-      "note": "舊唐志起居注故事職官類「《晉故事》四十三卷」之外，於盧綝諸書後別著「《晉故事》三卷」——同志兩著、各有全著錄語而卷數異、皆不著撰人，依 SCHEMA〈同題二條〉一（同志卷數異疑二書）別出。"
-    }
-  ],
-  "ai_note": "2026-08-23 M2 磁鐵專項（唐隋志系）新建：本條自 舊唐書經籍志「《晉故事》三卷」一節析出——該節原與 1evcml2fg9rsw 共繫而實非一書。舊唐志起居注故事職官類「《晉故事》四十三卷」之外，於盧綝諸書後別著「《晉故事》三卷」——同志兩著、各有全著錄語而卷數異、皆不著撰人，依 SCHEMA〈同題二條〉一（同志卷數異疑二書）別出。　欄位一概取志文所明著者（題、卷數），period／loss_status／entity_id 不繫。\n\n2026-08-25 斷代（無斷代條目整理，shard 2）：period 定為 jin。題名冠「晉」及晉代年號（元熙、咸安、寧康、崇安、太元、咸和咸康），體為當朝起居注／故事／副詔\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "period": "jin",
-  "period_basis": "題名冠「晉」及晉代年號（元熙、咸安、寧康、崇安、太元、咸和咸康），體為當朝起居注／故事／副詔",
-  "authors": [],
   "_promoted_to": "d59f2prac4xs",
-  "_promoted_at": "2026-08-25T15:11:40Z"
+  "_promoted_at": "2026-08-25T15:11:40Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2prac4xs。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

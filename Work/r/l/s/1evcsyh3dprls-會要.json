@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsyh3dprls",
   "type": "work",
   "title": "會要",
-  "authors": [
-    {
-      "name": "晏袤數",
-      "role": "撰",
-      "entity_id": "1jcf515129628",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129628` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 100
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《會要》",
-      "summary": "晏袤數《會要》一百卷謝諤"
-    }
-  ],
-  "id": "1evcsyh3dprls",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 100
-    }
-  ],
-  "measure_info": "一百卷",
-  "ai_note": "2026-08-13 全庫同名異書核對／腳本加速批次（頂真格撰人誤植訂正，前置名核對）：原整理本「晏袤數《會要》…」句式中，前置撰人名屬本條（經核對非誤植自上一條），今補入 authors「晏袤數」及 juan_count；句末殘留之另一撰人名屬下一條，已於前批訂正，本條原始引文不動。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2ptz3p4w",
-  "_promoted_at": "2026-08-25T15:16:50Z"
+  "_promoted_at": "2026-08-25T15:16:50Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ptz3p4w。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -3,50 +3,7 @@
   "id": "1evglwz2ywirk",
   "type": "work",
   "title": "新列國志",
-  "authors": [
-    {
-      "name": "馮夢龍",
-      "role": "新編",
-      "entity_id": "1j967avzkq2w0",
-      "dynasty": "明",
-      "dynasty_basis": "entity_propagation:1j967avzkq2w0（J21 S5 收尾）"
-    }
-  ],
-  "description": {
-    "text": "明馮夢龍（字猶龍，一字耳猶，南直隸吳縣人，崇禎中官福建壽寧縣知縣）新編講史小說，一百零八回，不分卷。凡余邵魚書疏陋處皆根據古書加以改訂。",
-    "sources": [
-      {
-        "title": "孫楷第《中國通俗小說書目》卷二·明清講史部"
-      }
-    ]
-  },
-  "juan_count": {
-    "number": 0,
-    "description": "一百零八回，不分卷"
-  },
-  "indexed_by": [
-    {
-      "source": "中國通俗小說書目",
-      "source_bid": "1evgeo1zzls74",
-      "title_info": "新列國志一百零八回(不分卷)",
-      "summary": "新列國志一百零八回(不分卷)\n存 明金閶葉敬池梓本。圖五十四葉。正文半葉十行，行二十二字。【日本內閣文庫】 清初覆本。【北京圖書館】【北京大學圖書館】 鄭西諦藏一古吳德聚堂坊刻本，書名新刻出相玉鼎列國志，亦一百零八回。係重刻馮書，但據舊本增臨潼鬥寶事。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "回",
-      "number": 108
-    }
-  ],
-  "measure_info": "一百零八回",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "撰人 Entity 之代：馮夢龍（明）——同人名下他書 {'ming': 14} 佐證一致",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：《中國通俗小說書目》明清講史部自標所收之代，故不晚於 qing",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（entity propagation，J21 S5 收尾）",
-  "ai_note": "2026-08-25 J21：authors[0].dynasty 缺值，據所繫 entity `1j967avzkq2w0`.dynasty「明」propagate 補齊；work.dynasty 同步。",
   "_promoted_to": "d59f2nhsgcu8",
-  "_promoted_at": "2026-08-25T12:35:01Z"
+  "_promoted_at": "2026-08-25T12:35:01Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nhsgcu8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

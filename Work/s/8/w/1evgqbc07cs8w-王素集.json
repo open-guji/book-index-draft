@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqbc07cs8w",
   "type": "work",
   "title": "王素集",
-  "juan_count": {
-    "number": 16
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《王素集》十六卷",
-      "summary": "《王素集》十六卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqbc07cs8w",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [
-    {
-      "name": "王素",
-      "role": "撰",
-      "entity_id": "1j967avzlz13u",
-      "dynasty": "北宋",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"王素集\"）——前缀「王素」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "北宋",
-  "period": "song",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「王素」（entity 1j967avzlz13u）已定代「北宋」，且與本條 period_upper（ming）相容，據以定代。",
   "_promoted_to": "d59f2ogahu6a",
-  "_promoted_at": "2026-08-25T13:41:21Z"
+  "_promoted_at": "2026-08-25T13:41:21Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ogahu6a。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

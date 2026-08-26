@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmtty5uxa8",
   "type": "work",
   "title": "運籌綱目",
-  "indexed_by": [
-    {
-      "source": "四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《運籌綱目》•八卷",
-      "summary": "、《決勝綱目》•十卷明葉夢熊撰。夢熊字南兆，歸善人。嘉靖己丑進士。官至南京工部尚書。事蹟附見《明史•魏學曾傳》。此編乃其以都御史兼兵部侍郎總督三邊時所作《運籌綱目》凡八卷，為綱八，為目八十，綱目之下，俱有統論，各采史事以證之。《決勝綱目》凡十卷，俱以二字標目，不立總綱目，凡百條，亦首碼統論，證以史事。惟《運籌綱目》列史事而評之，《決勝綱目》先立說而以史事證之，為體例小異耳。夢熊官陝西巡撫時，曾請討"
-    },
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "叶梦熊《运筹纲目》十卷",
-      "summary": "葉夢熊《運籌綱目》十卷"
-    },
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《運籌綱目》十卷 決勝綱目十卷",
-      "author_info": "明葉夢熊撰",
-      "summary": "《運籌綱目》十卷 決勝綱目十卷。明葉夢熊撰。北京圖書館分館藏明余泗泉萃慶堂刻本。",
-      "edition": "北京圖書館分館藏明余泗泉萃慶堂刻本",
-      "volume": "第31冊",
-      "section": "子部"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "id": "1evcmtty5uxa8",
-  "ai_note": "明史藝文志匹配：標題精確匹配但未能驗證作者（條目作者：'葉夢熊'）。 作者 \"明葉夢熊撰\" 補自《四庫全書存目叢書》目錄。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "authors": [
-    {
-      "name": "葉夢熊",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1jcf51512987c",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512987c` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "description": {
-    "text": "葉夢熊（明）撰。八卷；諸志所著之數有異，別作十卷。見著錄於《四庫全書總目》《明史藝文志》《四庫全書存目叢書》。《四庫全書存目叢書》列於子部。《明史藝文志》清張廷玉等修——本書之目賴之以存。",
-    "sources": [
-      "四庫全書總目",
-      "明史藝文志",
-      "四庫全書存目叢書"
-    ]
-  },
   "_promoted_to": "d59f2nipjif5",
-  "_promoted_at": "2026-08-25T12:36:47Z"
+  "_promoted_at": "2026-08-25T12:36:47Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nipjif5。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

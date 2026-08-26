@@ -1,71 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmndw6bh1c",
   "type": "work",
   "title": "天文占",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《天文占》六卷",
-      "summary": "《天文占》六卷李暹撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "天文占",
-      "summary": "天文占一卷"
-    },
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《天文占》",
-      "summary": "《天文占》三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "天文占一卷",
-      "summary": "天文占一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《天文占》六卷",
-      "summary": "《天文占》六卷（李暹）",
-      "author_info": "李暹"
-    }
-  ],
-  "authors": [
-    {
-      "name": "李暹",
-      "role": "撰",
-      "name_basis": "2026-08-22 C1：原繫 1j96h8rw7k8xv（明），其代晚於本書上限 sui-tang，是同名異代之誤繫；庫中無同名而合代者，故去其 entity_id，存其名待考。\n\n2026-08-24 代懸隔者訂正：庫中同名唯一（`1j96h8rw7k8xv`），舊因其代與本書相斥而不繫；今審之，該 entity 之代無據（無 dynasty_basis，亦無他 work 為證），而本書之斷代有據，故正 entity 之代而繫之。",
-      "entity_id": "1j96h8rw7k8xv"
-    }
-  ],
-  "juan_count": {
-    "number": 6
-  },
-  "id": "1evcmndw6bh1c",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《天文占》六卷",
-      "summary": "天文占六卷 李撰\n李暹,始末未詳。不知是否注《文子》之李暹,見道家。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "ai_note": "2026-08-23 M2 磁鐵專項（唐隋志系）：隋書經籍志「《天文占》一卷」一節本繫本條，今另立 1ex0e0shbivwj《天文占》繫之。隋志天文類「《天文占》六卷李暹撰」之外別著「《天文占》一卷」，一著撰人一不著而卷數異，依 SCHEMA〈同題二條〉一別出。\n\n2026-08-23 M2 磁鐵專項（唐隋志系）：隋書經籍志考證「《天文占》一卷」一節本繫本條，今移繫 1ex0e0shbivwj。《隋書經籍志考證》此節之題為「天文占一卷」，非李暹六卷本，今隨其書改繫。",
   "_promoted_to": "d59f2q7i1wjm",
-  "_promoted_at": "2026-08-25T15:42:51Z"
+  "_promoted_at": "2026-08-25T15:42:51Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q7i1wjm。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpd454ulmo",
   "type": "work",
   "title": "療目方",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《療目方》五卷",
-      "summary": "《療目方》五卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "療目方",
-      "summary": "療目方五卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《療目方》五卷",
-      "summary": "《療目方》五卷（陶氏）",
-      "author_info": "陶氏"
-    }
-  ],
-  "id": "1evcpd454ulmo",
-  "updated_at": "2026-08-23T05:58:32.742793+00:00",
-  "juan_count": {
-    "number": 5
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（五卷），今據以補。\n\n2026-08-22 B3 併池（異志同卷數・一方省撰人）：1evgq5d3eh5og 併入本條。二者同題、同卷數，而分見二志，其一省撰人——志書連書省撰人之跨志形態。本條撰人之 role 非注／傳／疏，非原典與注本之別。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "陶氏",
-      "role": "撰",
-      "entity_id": "1j96hg9oagjk0"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
   "_promoted_to": "d59f2q7ddc01",
-  "_promoted_at": "2026-08-25T15:42:35Z"
+  "_promoted_at": "2026-08-25T15:42:35Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q7ddc01。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

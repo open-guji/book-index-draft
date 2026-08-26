@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpsgyo8lxc",
   "type": "work",
   "title": "新河縣志",
-  "authors": [
-    {
-      "name": "傅振倫",
-      "role": "撰",
-      "dynasty": "中華民國",
-      "dynasty_basis": "synonym:民國->中華民國",
-      "entity_id": "1jcf51512943t",
-      "name_basis": "2026-08-24 新建 entity `1jcf51512943t` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "傅振倫（中華民國）撰。廿四卷首一卷末一卷。方志之屬。志書之體，例分疆域、建置沿革、山川、風俗、賦役、學校、秩官、選舉、人物、藝文諸門，為一方文獻之總匯。本書收入《國立故宮博物院善本舊籍》（統一編號 贈善015876-015881）。民國十八年鉛印本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 贈善015876-015881）。阶段 5 兜底建立。\n\n2026-08-24 J11 版本著錄語補其體類（坑 #17）：本條原 description 只是版本著錄語，而 indexed_by 空（其所出之館藏／影印叢編目錄不入志書之列），無著錄可撮。今所補者三事，皆不出本條已有之資料：撰人與其代（取 authors）、卷冊之數（取 measure_info），與**從題名之形所推之體類**。**體類之說是「此體之書通例如此」，非「本書目次如此」**——未讀其書而斷其目次即是臆造，故措辭用「……之屬，其體例分……」。原版本著錄語留其後不動。**未覆核原書**。",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "廿四卷首一卷末一卷",
-  "id": "1evkpsgyo8lxc",
-  "books": [
-    "11qkhsxh0pcsg"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "modern",
-  "period_basis": "據 authors[0].dynasty「民國」",
   "_promoted_to": "d59f2og7dgxu",
-  "_promoted_at": "2026-08-25T13:41:11Z"
+  "_promoted_at": "2026-08-25T13:41:11Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2og7dgxu。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmoch6c2dc",
   "type": "work",
   "title": "滕簡王集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《滕簡王集》八卷",
-      "summary": "後周《滕簡王集》八卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "滕簡王集",
-      "summary": "滕簡王集十二卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《滕簡王集》十二卷",
-      "summary": "《滕簡王集》十二卷"
-    }
-  ],
-  "juan_count": {
-    "number": 8
-  },
-  "id": "1evcmoch6c2dc",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《滕簡王集》八卷",
-      "summary": "後周 簡王集八卷\n《周書·文帝十三子傳》:滕聞王道,案《北史》亦作聞,似“簡”之誤。\n字爾固突。少好經史,解屬文。武成初,封滕國公。建德三\n年,進爵為王。大象元年,出就國。二年,朝京師。其年冬,\n為隋文帝所害,并其子。國除。 所著文章頗行于世。\n又《靜帝本紀》:大象二年十二月甲子,大丞相隋國公楊堅進\n爵為王,以十郡為國。辛未,代王達、滕王道並以謀執政\n被誅。\n《唐書·經籍志》:《後周滕王集》十二卷。\n《唐書·藝文志》:《後周滕簡王集》十二卷。\n馮氏《詩紀》:“滕王迫,文帝第十三子。有《至渭源詩》一首。”\n嚴氏《後周文編》: “滕王道 曰簡王,有集九卷。《文苑英華》\n有《庾信集序》,《初學記》有《道教實花序》,各一篇。”"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 8
-    }
-  ],
-  "measure_info": "八卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 無斷代批次：據著錄引文「後周《滕簡王集》八卷」——撰人名前緊接之朝代語（本條 indexed_by 內所得唯一）",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2pvl5ude",
-  "_promoted_at": "2026-08-25T15:19:57Z"
+  "_promoted_at": "2026-08-25T15:19:57Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pvl5ude。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

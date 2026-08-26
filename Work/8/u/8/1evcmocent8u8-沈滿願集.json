@@ -1,41 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocent8u8",
   "type": "work",
   "title": "沈滿願集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《沈滿願集》三卷",
-      "summary": "梁征西記室范靖妻《沈滿願集》三卷"
-    }
-  ],
-  "id": "1evcmocent8u8",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《沈滿願集》三卷",
-      "summary": "梁征西記室范靖妻沈滿願集三卷\n范靖及沈滿願始末並未詳。\n《唐書·經籍志》:“范靖妻《沈滿願集》五卷。”《藝文志》三卷。\n馮氏《詩紀》曰:“按《唐·藝文志》有范靖妻《沈滿願集》三卷,\n《樂府》及《玉臺新詠》所載有《昭君歎》二首,又《 琴歌》、《映\n水曲》、《登樓曲》、《越城曲》、《晨風行》、《戲繡》、《咏殘燈》、\n《咏五采竹火籠》、《咏步摇花》,存凡十一首。”又《品藻篇》引《詩話補\n遺》,稱“陳范靜妻沈滿願”,以為陳人。而馮氏仍編于梁代之末。"
-    }
-  ],
-  "updated_at": "2026-08-20T00:00:00-07:00",
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-20 卷數補全專項：本條原無 juan_count，而所繫著錄之 title_info 以本書之題起首而綴卷數，全庫諸著錄所給之數一致（三卷），今據以補。\n\n2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 無斷代批次：據著錄引文「梁征西記室范靖妻《沈滿願集》三卷」——撰人名前緊接之朝代語（本條 indexed_by 內所得唯一）",
-  "authors": [],
   "_promoted_to": "d59f2q49xmgy",
-  "_promoted_at": "2026-08-25T15:36:39Z"
+  "_promoted_at": "2026-08-25T15:36:39Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q49xmgy。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

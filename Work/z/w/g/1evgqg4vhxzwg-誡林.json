@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqg4vhxzwg",
   "type": "work",
   "title": "誡林",
-  "authors": [
-    {
-      "name": "盡母逺",
-      "role": "撰",
-      "entity_id": "1j96hgdyf6znk"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《誡林》三卷",
-      "summary": "《誡林》三卷（盡母逺）",
-      "author_info": "盡母逺"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《誡林》三卷",
-      "summary": "《誡林》三卷綦毋氏撰。",
-      "merged_from": "1evgqg4vhxzwg",
-      "note": "同題二條而一方無撰人：彼條（舊唐書經籍志，3卷，不著撰人）與本條（國史經籍志，3卷，盡母逺撰）題名全同、卷數全同，且著錄異源，全庫同題僅此二條——裸條無他家可繫，判為同書。"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"誡林\" 唯一候选无作者\n\n2026-08-23 B1 同名異書併池：併入 `1evcpd0qwtgjk`（誡林）。2026-08-23 B10（同題一方無撰人）：併入 `1evcpd0qwtgjk`（舊唐書經籍志，3卷，不著撰人）。題名、卷數與本條全同，著錄異源，全庫同題僅此二條，裸條唯本條可繫，同書。",
-  "id": "1evgqg4vhxzwg",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
   "_promoted_to": "d59f2putdpmp",
-  "_promoted_at": "2026-08-25T15:18:27Z"
+  "_promoted_at": "2026-08-25T15:18:27Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2putdpmp。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

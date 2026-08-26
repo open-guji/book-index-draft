@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmobid29ds",
   "type": "work",
   "title": "戴逵集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《戴逵集》九卷",
-      "summary": "晉徵士《戴逵集》九卷殘缺。梁十卷，錄一卷。又有晉光祿大夫《孫褵集》十卷，尚書左丞《徐禪集》六卷，亡。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《戴逵集》十卷",
-      "summary": "《戴逵集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "戴逵集",
-      "summary": "戴逵集十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 9
-  },
-  "id": "1evcmobid29ds",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《戴逵集》九卷",
-      "summary": "晉徵士戴 集九卷,殘缺,梁十卷,録一卷,亡。\n戴達有《五經大義》,見經部論語篇。\n《晉書·隱逸傳》:少博學,好談論,善屬文,能鼓琴,工書\n畫,其餘巧藝靡不畢綜。總角時,以雞卵汁瘦白瓦屑作《鄭玄\n碑》,又為文而自鐫之,辭麗器妙,時人莫不驚歎。性不樂當\n世,常以禮度自處,深以放達為非道,乃著論云。\n《唐書·經籍》、《藝文志》:《戴達集》十卷。\n嚴氏《全晉文編》曰:“ 有集十卷。今存《流火賦》、《離興\n賦》、《棲林賦》三篇,書五篇,贊九篇,《放達為非論》、《釋義\n論》、《答周居士難釋疑論》各一篇,凡二十篇。附《竹林七賢\n論》三十三條。”"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 9
-    }
-  ],
-  "measure_info": "九卷",
-  "ai_note": "考證回削：《隋書經籍志考證》整理本匯入時未於「梁有」行斷開，本條 emendated_by 之 summary 原摻入其下「梁有」諸書之考證，今回削為本條自身之考證。",
-  "updated_at": "2026-08-03T13:58:33+00:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "戴逵",
-      "role": "撰",
-      "entity_id": "1j96kegcdkkcg",
-      "dynasty": "東晉",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"戴逵集\"）——前缀「戴逵」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "東晉",
-  "period": "jin",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「戴逵」（entity 1j96kegcdkkcg）已定代「東晉」，且與本條 period_upper（sui-tang）相容，據以定代。",
   "_promoted_to": "d59f2og5taf5",
-  "_promoted_at": "2026-08-25T13:41:05Z"
+  "_promoted_at": "2026-08-25T13:41:05Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2og5taf5。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

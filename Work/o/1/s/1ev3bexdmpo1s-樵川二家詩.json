@@ -3,74 +3,7 @@
   "id": "1ev3bexdmpo1s",
   "type": "work",
   "title": "樵川二家詩",
-  "authors": [
-    {
-      "name": "朱霞",
-      "role": "編",
-      "dynasty": "清",
-      "entity_id": "1j967c14a5qu0"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《樵川二家詩》•四卷",
-      "author_info": "國朝朱霞編",
-      "summary": "國朝朱霞編。案《浙江通志》載：“朱霞，建德人，順治乙未進士。”未知即此人否也。樵川為今邵武縣。二家者，宋嚴羽，元黃鎮成也。羽有《滄浪集》，鎮成有《秋聲集》，皆已著錄。是本每集分為二卷，諸雜體為一卷，五七言近體為一卷。而附《滄浪詩話》於其後焉。",
-      "edition": "福建巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=354668",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-unknown",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/NGJ892411999000757304939",
-      "metadata": {
-        "edition": "未知",
-        "version": "v2",
-        "total_page": 337,
-        "paragraph_count": 2666,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "description": {
-    "text": "朱霞（清）編。四卷。見著錄於《欽定四庫全書總目》。諸家按語稱其佚文見引於《通志》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
-  "ai_note": "2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
   "_promoted_to": "d59f2mo6s2dd",
-  "_promoted_at": "2026-08-25T11:38:07Z"
+  "_promoted_at": "2026-08-25T11:38:07Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mo6s2dd。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

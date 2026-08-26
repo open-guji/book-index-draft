@@ -3,46 +3,7 @@
   "id": "1ev3baulbturk",
   "type": "work",
   "title": "嘉興府圖記",
-  "authors": [
-    {
-      "name": "趙文華",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hl8jkn6kg"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《嘉興府圖記》•二十卷",
-      "author_info": "明趙文華撰",
-      "summary": "明趙文華撰。文華，慈谿人。嘉靖己丑進士，官至工部尚書。《明史•奸臣傳》附見《嚴嵩傳》中。是書乃文華官通政使時，遭憂家居，應郡守之請而作。分《方畫》、《邦制》、《物土》、《人文》凡四門，而附以《叢記》。敍述頗有體例，其《方畫》每朝為一地圖，殊可為法。然文華小人之尤，其姓名人羞稱之。故傳本頗稀，此殆毀棄之餘歟。",
-      "edition": "浙江巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 20
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 20
-    }
-  ],
-  "measure_info": "二十卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "趙文華（明）撰。二十卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2ng6pgcj",
-  "_promoted_at": "2026-08-25T12:31:57Z"
+  "_promoted_at": "2026-08-25T12:31:57Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ng6pgcj。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

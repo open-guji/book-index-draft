@@ -3,53 +3,7 @@
   "id": "1ev3bdq7iy5ts",
   "type": "work",
   "title": "桂洲集",
-  "authors": [
-    {
-      "name": "夏言",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967avzlz11t"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《桂洲集》•十八卷",
-      "author_info": "明夏言撰",
-      "summary": "明夏言撰。言有《南宮奏稿》，已著錄。此集凡賦、詩、詞八卷，文十卷，首有《年譜》，言未相時以詞曲擅名，然集內詞亦未甚工，詩文宏整而平易，猶明中葉之舊格。",
-      "edition": "江西巡撫采進本"
-    },
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "夏言《桂洲集》二十卷",
-      "summary": "夏言《桂洲集》二十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 18
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 18
-    }
-  ],
-  "measure_info": "十八卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "夏言（明）撰。十八卷；諸志所著之數有異，別作二十卷。見著錄於《欽定四庫全書總目》《明史藝文志》。其著錄之文，《明史藝文志》作「夏言《桂洲集》二十卷」。別集之屬，所收為其人之詩文。《欽定四庫全書總目》清乾隆間館臣修；《明史藝文志》清張廷玉等修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "明史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2nhgwl4z",
-  "_promoted_at": "2026-08-25T12:34:25Z"
+  "_promoted_at": "2026-08-25T12:34:25Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nhgwl4z。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkah30qse80",
   "type": "work",
   "title": "青城縣志",
-  "authors": [
-    {
-      "name": "王儀",
-      "role": "等纂修",
-      "dynasty": "元末明初",
-      "entity_id": "1j967cp20085g",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 ming×2／liao-jin-yuan×1 諸桶。"
-    }
-  ],
-  "description": {
-    "text": "王儀（明）等纂修。二冊。方志之屬。志書之體，例分疆域、建置沿革、山川、風俗、賦役、學校、秩官、選舉、人物、藝文諸門，為一方文獻之總匯。本書收入《國立故宮博物院善本舊籍》（統一編號 平圖007647-007648）。明萬曆末年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 版本著錄語補其體類（坑 #17）：本條原 description 只是版本著錄語，而 indexed_by 空（其所出之館藏／影印叢編目錄不入志書之列），無著錄可撮。今所補者三事，皆不出本條已有之資料：撰人與其代（取 authors）、卷冊之數（取 measure_info），與**從題名之形所推之體類**。**體類之說是「此體之書通例如此」，非「本書目次如此」**——未讀其書而斷其目次即是臆造，故措辭用「……之屬，其體例分……」。原版本著錄語留其後不動。**未覆核原書**。\n\n2026-08-25 遼金元 L5：撰人「王儀」之代由「明」歸一為「元末明初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 2
-    }
-  ],
-  "measure_info": "二冊",
-  "id": "1evkah30qse80",
-  "books": [
-    "11qki50sfsmps"
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nlcqwao",
-  "_promoted_at": "2026-08-25T12:41:52Z"
+  "_promoted_at": "2026-08-25T12:41:52Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nlcqwao。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

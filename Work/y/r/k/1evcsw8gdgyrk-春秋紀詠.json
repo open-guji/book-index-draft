@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsw8gdgyrk",
   "type": "work",
   "title": "春秋紀詠",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《春秋紀詠》",
-      "summary": "《春秋紀詠》三十卷胡銓"
-    }
-  ],
-  "id": "1evcsw8gdgyrk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 30
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 30
-    }
-  ],
-  "measure_info": "三十卷",
-  "ai_note": "\n\n2026-08-19 全庫同名異書核對：本條為宋史藝文志《春秋紀詠》三十卷（句末「胡銓」屬下條），與同志另一同題三十卷本（`1evcsw8tb718g`）疑為重出，姑並存互見。\n\n2026-08-24 經義考待覈覆勘：補撰人「胡銓」，據本條自身之著錄語（見 authors[].name_basis）。前此《經義考》待覈之閘「庫中同題二條以上而本條不著撰人」，其「不著撰人」是就 index 之 author 欄而言，**未讀著錄語**，故誤判為不可決。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "authors": [
-    {
-      "name": "胡銓",
-      "role": "撰",
-      "name_basis": "《宋史藝文志》著錄語作「《春秋紀詠》三十卷**胡銓**」——同上。\n\n2026-08-24 補：本條前此撰人欄空，而其撰人**本在自身之著錄語中**——與《本事詩》「徐囗」、《禮記音》「曹就」同族之缺陷（著錄語有而欄位空）。\n\n2026-08-24 補繫 entity：本條 authors 舊有名「胡銓」而無 entity_id，今繫 `1j967bgl8kqwn`——庫中 primary_name 同之者唯一。其代「南宋」與本書之上限不相斥。",
-      "entity_id": "1j967bgl8kqwn",
-      "dynasty": "南宋",
-      "dynasty_basis": "2026-08-24 宋代 G5 批量斷代·路一（period_basis 收割）：本條 period_basis 之判語（R3 引文定代所書）已明言「南宋」，回填至撰人欄。其據見 period_basis。"
-    }
-  ],
-  "period": "song",
-  "period_basis": "據撰人「胡銓」（entity `1j967bgl8kqwn`，代「南宋」）。本條 authors 舊有其名而未繫 entity，今補繫，遂得其代。",
-  "description": {
-    "text": "胡銓撰。三十卷。見著錄於《宋史藝文志》。其著錄之文，《宋史藝文志》作「《春秋紀詠》三十卷胡銓」。本書惟《宋史藝文志》一志著錄，別無他證。《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2ofuvz7k",
-  "_promoted_at": "2026-08-25T13:40:30Z"
+  "_promoted_at": "2026-08-25T13:40:30Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofuvz7k。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

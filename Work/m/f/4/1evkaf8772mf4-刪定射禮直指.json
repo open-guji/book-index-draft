@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkaf8772mf4",
   "type": "work",
   "title": "刪定射禮直指",
-  "authors": [
-    {
-      "name": "姚坤",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1jcf515129504",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129504` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "姚坤（明）撰。一冊；諸志所著之數有異，別作一卷。見著錄於《經義考》。《經義考》列於儀禮。本書惟《經義考》一志著錄，別無他證。《經義考》清朱彝尊撰——本書之目賴之以存。",
-    "sources": [
-      "經義考"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 1
-    }
-  ],
-  "measure_info": "一冊",
-  "id": "1evkaf8772mf4",
-  "books": [
-    "11qki4093y7eo"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [
-    {
-      "source": "經義考",
-      "source_bid": "1ev3bb43bv4lc",
-      "title_info": "《射禮直指》（姚坤）",
-      "summary": "一卷",
-      "section": "儀禮",
-      "juan": "卷一百三十五",
-      "page": "KR2n0011_WYG_135-20a",
-      "attested_status": "not_seen",
-      "attested_status_raw": "未見",
-      "attested_status_note": "此是朱彝尊所判，非本庫之判，故不改本記錄之 loss_status。四庫御製題論此書曰「所注闕佚未見者，今四庫所録往往其書尚存」——其判是十七世紀一人之見聞。「未見」尤非亡佚，是朱氏未見其書。"
-    }
-  ],
   "_promoted_to": "d59f2nk6x3b6",
-  "_promoted_at": "2026-08-25T12:39:39Z"
+  "_promoted_at": "2026-08-25T12:39:39Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nk6x3b6。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

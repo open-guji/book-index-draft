@@ -1,46 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmttybh728",
   "type": "work",
   "title": "軍權",
-  "indexed_by": [
-    {
-      "source": "四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《軍權》•四卷",
-      "summary": "明何良臣撰。良臣有《陣紀》，已著錄。是書分國本、國禁、兵本、兵秘、禮士、士遇、馭士、士品、握機、揣情、必慮、必克、將事、將誡、任將、軍範、術占，凡十七目，一百七十四篇。中間有云，募選之事，付諸有司，欺昧朦朧，上下交蔽。又云，將不識兵，兵不識將，卒然有事，實無以支。皆譏切時政之語。自序稱，早歲事戎行，足跡遍寰宇，而累於談忌，困於貪胥。蓋亦發憤而著書者也。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "何良臣",
-      "role": "撰",
-      "entity_id": "1j967bgl62ujn",
-      "dynasty": "明"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "id": "1evcmttybh728",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "著錄原文自書撰人朝代：《四庫全書總目》「明何良臣撰」",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
-  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J32 補撰內容之述（坑 #17）：本條 description 原止版本著錄語（或全闕），今於其前補一節「這本書是什麼」——所據為 WebSearch 覆核之通行史料（人物生卒、仕歷、著作背景），原版本語仍留其後（版本語是實錄，不可刪）。具體篇章內容非通識所及者不臆造。",
   "_promoted_to": "d59f2nf3djwg",
   "_promoted_at": "2026-08-25T12:29:50Z",
-  "description": {
-    "text": "何良臣撰。何良臣字惟聖，號際明，浙江餘姚人，明嘉靖至萬曆間軍事家，早以詩文知名鄉里，後從戎海上，習知兵事，著有《陣紀》《軍權》《利器圖考》《制勝便宜》諸書，《四庫全書總目》稱其「身在軍中，目睹形勢，非憑虛理斷、攘袂坐談者可比」。本書即其兵學著作之一。",
-    "sources": []
-  }
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nf3djwg。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

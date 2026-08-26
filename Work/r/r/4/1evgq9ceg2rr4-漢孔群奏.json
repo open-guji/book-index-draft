@@ -1,47 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq9ceg2rr4",
   "type": "work",
   "title": "漢孔群奏",
-  "juan_count": {
-    "number": 22
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《漢孔群奏》二十二卷",
-      "summary": "《漢孔群奏》二十二卷"
-    },
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《孔群奏》二十二卷",
-      "summary": "《梁中表》十一卷梁邵陵王撰。梁有《漢名臣奏》三十卷；《魏名臣奏》三十卷，陳長壽撰；《魏雜事》七卷，《晉諸公奏》十一卷，《雜表奏駁》三十五卷，《漢丞相匡衡、大司馬王鳳奏》五卷，《劉隗奏》五卷，《孔群奏》二十二卷，《晉金紫光祿大夫周閔奏事》四卷，《晉中丞劉邵奏事》六卷，《中丞司馬無忌奏事》十三卷，《中丞虞穀奏事》六卷，《中丞高崧奏事》五卷，又《諸彈事》等十四部。亡。",
-      "in_note_of": "1evcmodcmhslc",
-      "attested_status": "lost",
-      "attested_status_raw": "亡",
-      "note": "本書於《隋志》無獨立條目，只見於《梁中表》一條之注——隋志之例，正文著隋時見存之書，而以注記梁時尚存、隋時已亡者，故 `summary` 是那一整行（首書名是正文之書，非本 work），`in_note_of` 指其所寄。2026-08-10 裁定本條與庫中此記錄同書而未別建，其由：與既有「漢孔群奏」（1evgq9ceg2rr4）同卷數，本條隋志原文未見「漢」字冠首，疑既有記錄另有所本（如國史經籍志），非本條之誤，暫不動"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq9ceg2rr4",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 22
-    }
-  ],
-  "measure_info": "二十二卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2pu8s1z4",
-  "_promoted_at": "2026-08-25T15:17:21Z"
+  "_promoted_at": "2026-08-25T15:17:21Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pu8s1z4。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

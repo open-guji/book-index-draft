@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evke6mshre2o",
   "type": "work",
   "title": "書經旁注",
-  "authors": [
-    {
-      "name": "朱升",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967afjbhixz"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故善000088）。明刊梵夾本五經旁注之一。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "juan_count": {
-    "number": 6
-  },
-  "measures": [
-    {
-      "unit": "冊",
-      "number": 6
-    }
-  ],
-  "measure_info": "六卷",
-  "id": "1evke6mshre2o",
-  "books": [
-    "11qkhukq9fd34"
-  ],
-  "related_works": [
-    {
-      "id": "d59f20arpg5c",
-      "title": "偽古文尚書",
-      "relation": "contains_text_of"
-    }
-  ],
-  "additional_titles": [
-    "書經旁註"
-  ],
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2njq29z4",
-  "_promoted_at": "2026-08-25T12:38:44Z"
+  "_promoted_at": "2026-08-25T12:38:44Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2njq29z4。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

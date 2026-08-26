@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkq0iyojo5c",
   "type": "work",
   "title": "畿輔通志",
-  "authors": [
-    {
-      "name": "李鴻章",
-      "role": "修",
-      "dynasty": "清",
-      "entity_id": "1j967a0kk76mw"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志008755-008994）。清同治十年修光緒十年刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志008755-008994）。阶段 5 兜底建立。",
-  "juan_count": {
-    "number": 300
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 300
-    }
-  ],
-  "measure_info": "三百卷卷首一卷",
-  "id": "1evkq0iyojo5c",
-  "books": [
-    "11qki1mv1191c",
-    "11qki1ocncs8w"
-  ],
-  "updated_at": "2026-08-09T10:40:18+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n79i5fk",
-  "_promoted_at": "2026-08-25T12:14:47Z"
+  "_promoted_at": "2026-08-25T12:14:47Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n79i5fk。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -2,64 +2,9 @@
   "schema_version": 1,
   "id": "1evimvg3cgjy8",
   "type": "work",
-  "subtype": "book",
   "title": "錦衣衛題本檔",
-  "authors": [
-    {
-      "name": "錦衣衛",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1jcf5151299bk",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299bk` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "錦衣衛掌衛事所題奏本之檔案抄存，含崇禎五年（劉僑、張元孫掌衛）和崇禎十三年兩段，為錦衣衛內部行政與緝奸題報的原始記錄。內容涉緝獲鑽營求選之犯、研鞫貪贓武職、提解犯官、京城緝奸、儀禮失誤糾參等。原檔今存於總匯第84冊。",
-    "sources": []
-  },
-  "publication_info": {
-    "year": "1632-1640",
-    "details": "明崇禎五年、崇禎十三年（兩段）"
-  },
-  "resources": [
-    {
-      "id": "archive_org",
-      "name": "Internet Archive 影印本",
-      "url": "https://archive.org/details/zhongguo-mingchao-dangan-zonghui-vol084",
-      "volumes": [
-        {
-          "volume": 84,
-          "url": "https://archive.org/details/zhongguo-mingchao-dangan-zonghui-vol084",
-          "status": "found"
-        }
-      ],
-      "expected_volumes": 1,
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "contained_in": [
-    {
-      "id": "1ahukla441h4w",
-      "volume_index": "第84冊"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_collated": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條是《中國明朝檔案總匯》所收之明代檔冊，其所在冊次已見於 description（「今存於總匯第N冊」之屬），而 indexed_by 舊空，遂為 check_promote 判作「無著錄源亦無關聯」。今補其著錄源——檔案總匯逐冊著錄所收檔冊之名與其所在，合 SCHEMA〈IndexEntry〉「本書被目錄書著錄」之義。",
-  "indexed_by": [
-    {
-      "source": "中國明朝檔案總匯",
-      "title_info": "錦衣衛題本檔",
-      "summary": "錦衣衛掌衛事所題奏本之檔案抄存，含崇禎五年（劉僑、張元孫掌衛）和崇禎十三年兩段，為錦衣衛內部行政與緝奸題報的原始記錄。內容涉緝獲鑽營求選之犯、研鞫貪贓武職、提解犯官、京城緝奸、儀禮失誤糾參等。原檔今存於總匯第84冊。"
-    }
-  ],
   "_promoted_to": "d59f2nh7uozl",
-  "_promoted_at": "2026-08-25T12:33:55Z"
+  "_promoted_at": "2026-08-25T12:33:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nh7uozl。 production 才是 canonical——欲改請改彼處，勿改本檔。",
+  "_has_collated": true
 }

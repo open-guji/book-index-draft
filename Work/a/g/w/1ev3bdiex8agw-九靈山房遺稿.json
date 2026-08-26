@@ -3,58 +3,7 @@
   "id": "1ev3bdiex8agw",
   "type": "work",
   "title": "九靈山房遺稿",
-  "authors": [
-    {
-      "name": "戴良",
-      "role": "撰",
-      "dynasty": "元末明初",
-      "entity_id": "1j96gwf6dz6kn",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×4／ming×2 諸桶。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《九靈山房遺稿》•五卷",
-      "author_info": "元戴良撰",
-      "summary": "元戴良撰。良有《九靈山房集》，已著錄。初，良集世罕傳本。國朝康熙間，其裏人張以培蒐采諸書，輯為此本。傅旭元為刊版，而秀水曾安世又為校訂編次。今海內藏書，咸登秘府，良之全集複出。此本掇拾殘闕，已可不錄。以世所通行，且以培等掇拾補綴之勤亦不可沒，故附存其目焉。",
-      "edition": "副都御史黃登賢家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 5
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=424335",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 5
-    }
-  ],
-  "measure_info": "五卷",
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（2026-08-13 遼金元/明邊界人口獨立立項：戴良（生卒1317-1383）：死於明建國(1368)後，Entity既有分類（明／ming）已正確，Work.period因啟發式或欄位同步遺漏誤植為liao-jin-yuan，訂正）",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ljy-round1: dynasty null→元; 據 author.dynasty 集合補「元」]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L5：撰人「戴良」之代由「明」歸一為「元末明初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "description": {
-    "text": "戴良（明）撰。五卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2nj2ypz5",
-  "_promoted_at": "2026-08-25T12:37:30Z"
+  "_promoted_at": "2026-08-25T12:37:30Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nj2ypz5。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

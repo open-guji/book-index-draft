@@ -3,75 +3,7 @@
   "id": "1ev3bdyb37zsw",
   "type": "work",
   "title": "梅雪軒詩稿",
-  "authors": [
-    {
-      "name": "朱敬鑉",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967c148wsob"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《梅雪軒詩稿》•四卷",
-      "author_info": "明朱敬鑉撰",
-      "summary": "明朱敬鑉撰。敬鑉字進父，秦湣王樉八世孫，萬曆中為奉國中尉。詩格淺弱，敷衍成篇而已。",
-      "edition": "兩淮鹽政采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 4
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=2515266",
-      "details": "（Ming）朱敬〓",
-      "types": [
-        "text"
-      ]
-    },
-    {
-      "id": "shidianguji-jinlinglantingshufan",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/CADAL02064521",
-      "metadata": {
-        "edition": "金陵蘭亭書坊王燦刻本",
-        "version": "v4",
-        "total_page": 299,
-        "paragraph_count": 1822,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "朱敬鑉（明）撰。四卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2nguqqki",
-  "_promoted_at": "2026-08-25T12:33:13Z"
+  "_promoted_at": "2026-08-25T12:33:13Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nguqqki。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

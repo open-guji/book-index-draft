@@ -1,80 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1ewp4wry0x24h",
   "type": "work",
   "title": "海峰文集",
-  "authors": [
-    {
-      "name": "劉大櫆",
-      "role": "撰",
-      "dynasty": "清",
-      "note": "字才甫，號海峰，安徽桐城人，桐城派三祖之一",
-      "entity_id": "1j967afj9xc93"
-    }
-  ],
-  "description": {
-    "text": "清劉大櫆撰。大櫆號海峰，與方苞、姚鼐並稱桐城派三祖。《清史稿藝文志》著錄十卷，與《海峰詩集》四卷並行。",
-    "sources": [
-      "清史稿藝文志"
-    ]
-  },
-  "indexed_by": [
-    {
-      "source": "清史稿藝文志",
-      "source_bid": "1evdiulq07rwg",
-      "title_info": "海峰文集",
-      "summary": "海峰文集十卷，詩集四卷。劉大櫆撰。"
-    },
-    {
-      "source": "書目答問",
-      "source_bid": "1evr5e3m9zwpo",
-      "title_info": "海峰文集",
-      "summary": "《海峰文集》卷。{{劉大櫆。}}",
-      "author_info": "劉大櫆",
-      "merged_from": "1ewp4wry0x24h",
-      "note": "S 併池：海峰文集／海峯文集"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "related_works": [
-    {
-      "id": "1evr5e3mezpf7",
-      "title": "海峰詩集",
-      "relation": "related"
-    }
-  ],
-  "ai_note": "批五發現《海峰詩集》之母書《海峰文集》庫中未建檔，據《清史稿藝文志》同條補建。\n\n2026-08-23 S 同題同撰重出併池（異體字）：併入 `1evr5e3mct1l0`（海峯文集）。二條同題（峰／峯異體）同撰（清劉大櫆）。二條所繫之清史稿藝文志著錄語逐字全同（「海峰文集十卷，詩集四卷。劉大櫆撰。」），是同一著錄匯入兩次；被刪條之 juan_count 誤取同條後段《海峰詩集》之四卷，其別題亦正作「海峰文集」。存者取用字正之「峰」且卷數不誤（十卷）之本條，被刪條之書目答問著錄、Book 與資源已遷入。",
-  "id": "1ewp4wry0x24h",
-  "updated_at": "2026-08-23T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "additional_titles": [
-    "海峯文集"
-  ],
-  "books": [
-    "11qkhtxgwehog"
-  ],
-  "resources": [
-    {
-      "name": "Internet Archive",
-      "id": "internet-archive",
-      "url": "https://archive.org/details/02102602.cn",
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "_has_image": true,
   "_promoted_to": "d59f2nupv2tc",
-  "_promoted_at": "2026-08-25T12:59:52Z"
+  "_promoted_at": "2026-08-25T12:59:52Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nupv2tc。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

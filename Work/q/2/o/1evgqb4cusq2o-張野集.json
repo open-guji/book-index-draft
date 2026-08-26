@@ -1,56 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgqb4cusq2o",
   "type": "work",
   "title": "張野集",
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《張野集》十卷",
-      "summary": "《張野集》十卷"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgqb4cusq2o",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "梁又有《張野集》十卷",
-      "summary": "梁又有《張野集》十卷,亡。\n張野始末未詳。\n嚴氏《全宋文編》曰:“張野仕晉入宋,官爵未詳。《世說文\n學篇》注有《遠法師銘》一篇。”案《高僧·慧遠傳》云:“南陽宗炳、張萊民、\n張季碩並棄世遺榮依遠遊止。”疑張萊民即野之字。《御覽》諸書引張野《廬山記》,蓋\n即此張野。《廬山記》不詳若干卷,當編入是集。"
-    }
-  ],
-  "ai_note": "考證繫連補入：《隋書經籍志》「梁有」注例著錄本書，《隋書經籍志考證》為之考證，原併於前一著錄之下，今切出並繫入。",
-  "updated_at": "2026-08-04T05:27:01+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "authors": [
-    {
-      "name": "張野",
-      "role": "撰",
-      "entity_id": "1jcf5151295pj",
-      "dynasty": "元",
-      "name_basis": "2026-08-25 period未定批次 3.4：題名自著撰人（\"張野集\"）——前缀「張野」與庫中同名entity（唯一，works<5）精確匹配。"
-    }
-  ],
-  "dynasty": "元",
-  "period": "liao-jin-yuan",
-  "period_basis": "2026-08-25 period未定批次 3.4：撰人「張野」（entity 1jcf5151295pj）已定代「元」，且與本條 period_upper（ming）相容，據以定代。",
   "_promoted_to": "d59f2ofzkj5s",
-  "_promoted_at": "2026-08-25T13:40:45Z"
+  "_promoted_at": "2026-08-25T13:40:45Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofzkj5s。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

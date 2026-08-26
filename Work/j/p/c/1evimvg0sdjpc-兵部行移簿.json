@@ -2,64 +2,9 @@
   "schema_version": 1,
   "id": "1evimvg0sdjpc",
   "type": "work",
-  "subtype": "book",
   "title": "兵部行移簿",
-  "authors": [
-    {
-      "name": "兵部",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1jcf515129acr",
-      "name_basis": "2026-08-24 補 entity：繫 `1jcf515129acr`（subtype collective）。此非個人，乃官署局所之屬。"
-    }
-  ],
-  "description": {
-    "text": "明天啟四年（1624）兵部行移文書登記簿。每件記行稿、題行稿之具文時間、收/發文人、事由。內容廣涉援遼軍餉、毛文龍部接濟、奴酋情形、各鎮邊備、武職員缺推補、漕運、軍器、奸細審理等明季兵政要務，係兵部行政運作原始記錄。今存於總匯第84冊前半。",
-    "sources": []
-  },
-  "publication_info": {
-    "year": "1624",
-    "details": "明天啟四年（1624）四月至天啟四年某月"
-  },
-  "resources": [
-    {
-      "id": "archive_org",
-      "name": "Internet Archive 影印本",
-      "url": "https://archive.org/details/zhongguo-mingchao-dangan-zonghui-vol084",
-      "volumes": [
-        {
-          "volume": 84,
-          "url": "https://archive.org/details/zhongguo-mingchao-dangan-zonghui-vol084",
-          "status": "found"
-        }
-      ],
-      "expected_volumes": 1,
-      "types": [
-        "image"
-      ]
-    }
-  ],
-  "contained_in": [
-    {
-      "id": "1ahukla441h4w",
-      "volume_index": "第84冊"
-    }
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "_has_collated": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-25 明代輪 S7 前置：本條是《中國明朝檔案總匯》所收之明代檔冊，其所在冊次已見於 description（「今存於總匯第N冊」之屬），而 indexed_by 舊空，遂為 check_promote 判作「無著錄源亦無關聯」。今補其著錄源——檔案總匯逐冊著錄所收檔冊之名與其所在，合 SCHEMA〈IndexEntry〉「本書被目錄書著錄」之義。",
-  "indexed_by": [
-    {
-      "source": "中國明朝檔案總匯",
-      "title_info": "兵部行移簿",
-      "summary": "明天啟四年（1624）兵部行移文書登記簿。每件記行稿、題行稿之具文時間、收/發文人、事由。內容廣涉援遼軍餉、毛文龍部接濟、奴酋情形、各鎮邊備、武職員缺推補、漕運、軍器、奸細審理等明季兵政要務，係兵部行政運作原始記錄。今存於總匯第84冊前半。"
-    }
-  ],
   "_promoted_to": "d59f2nfdoe0z",
-  "_promoted_at": "2026-08-25T12:30:24Z"
+  "_promoted_at": "2026-08-25T12:30:24Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nfdoe0z。 production 才是 canonical——欲改請改彼處，勿改本檔。",
+  "_has_collated": true
 }

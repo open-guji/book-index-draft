@@ -3,53 +3,7 @@
   "id": "1ev3bcgzwsq9s",
   "type": "work",
   "title": "史學璧珠",
-  "authors": [
-    {
-      "name": "錢應充",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hernxvd34"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《史學璧珠》·十八卷",
-      "author_info": "明錢應充撰",
-      "summary": "明錢應充撰。應充字子美，紹興人。萬曆中貢生。是書分類隸事，以坊本綱鑒為主，而稍摭類書附益之。皆集為偶句，以便剽襲。冠以歷代帝王歌括，中分天地、災祥、君道、臣道、倫理、品論、吏部、戶部、禮部、兵部、刑部、工部、人身、德惡、人事、官職、物類十七門，又分子目三百二十五。如以心學屬之禮部，不知其何取。又品論門中有何如一目，尤從古類書所未聞。自序言書成之日，夢一神人，襆頭皂袍，自稱待制包某，以其褒貶合義，特來勞之。又言作序之日，五星聚奎。語皆謬妄，即其書可知也。",
-      "edition": "浙江巡撫采進本"
-    },
-    {
-      "source": "明史藝文志",
-      "source_bid": "1ev88ee9jw6ps",
-      "title_info": "钱应充《史学璧珠》十八卷",
-      "summary": "錢應充《史學璧珠》十八卷"
-    }
-  ],
-  "juan_count": {
-    "number": 18
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 18
-    }
-  ],
-  "measure_info": "十八卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "錢應充（明）撰。十八卷。見著錄於《欽定四庫全書總目》《明史藝文志》。其著錄之文，《明史藝文志》作「錢應充《史學璧珠》十八卷」。《欽定四庫全書總目》清乾隆間館臣修；《明史藝文志》清張廷玉等修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "明史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2nfi1pts",
-  "_promoted_at": "2026-08-25T12:30:37Z"
+  "_promoted_at": "2026-08-25T12:30:37Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nfi1pts。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

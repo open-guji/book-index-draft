@@ -1,32 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjy6pwb7rb4",
   "type": "work",
   "title": "大明會典",
-  "authors": [
-    {
-      "name": "徐溥",
-      "role": "纂",
-      "dynasty": "明",
-      "entity_id": "1j967c147nuj9",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「徐溥」而無 entity_id，今繫 `1j967c147nuj9`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《中華再造善本》明清編（ZHSY100040）。明正德六年司禮監刻本。",
-    "sources": [
-      "中華再造善本"
-    ]
-  },
-  "ai_note": "本 Work 條目從《中華再造善本》目錄錄入。 索引中尚有同名異書：1evdic7msupkw(朱瞻基);1evjr20baa2gw(申時行等);1evjr20es2pds(申時行等)（不同作者，故新建獨立 Work）。　撰人「等」字剝離：著錄作「徐溥等」，「等」謂徐溥及其他未具名之纂修者，非姓名之一部，今剝離作「徐溥」。著錄原有「等」字，是本書尚有未具名之纂修者，待補。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]",
-  "id": "1evjy6pwb7rb4",
-  "books": [
-    "11qk4xwcvzx2v"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2njarnr6",
-  "_promoted_at": "2026-08-25T12:37:55Z"
+  "_promoted_at": "2026-08-25T12:37:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2njarnr6。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

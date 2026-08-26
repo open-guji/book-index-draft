@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpk0jybv9c",
   "type": "work",
   "title": "永春州志",
-  "authors": [
-    {
-      "name": "鄭一崧",
-      "role": "修",
-      "dynasty": "清",
-      "entity_id": "1jcf515129912",
-      "name_basis": "2026-08-24 新建 entity `1jcf515129912` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故志003292-003297）。清乾隆丁未(五十二年)刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故志003292-003297），無同名 Work 故新建。",
-  "juan_count": {
-    "number": 16
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "id": "1evkpk0jybv9c",
-  "books": [
-    "11qki162ule68"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n2pbbpc",
-  "_promoted_at": "2026-08-25T12:06:01Z"
+  "_promoted_at": "2026-08-25T12:06:01Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n2pbbpc。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

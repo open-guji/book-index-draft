@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmttwzeneo",
   "type": "work",
   "title": "北邊事跡",
-  "indexed_by": [
-    {
-      "source": "四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《北邊事蹟》•一卷",
-      "summary": "明王瓊撰。瓊有《晉溪奏議》，已著錄。瓊在嘉靖初總督三邊軍務，因集歷代守邊得失，及所條畫奏疏，合為一書。大旨主於花馬池一路三百里，及環縣至蘭州八百里，皆築牆掘塹，以為臨邊設險之計。又欲仿趙充國故策，於甘肅屯田，以備戰守。蓋當時兵力，不能及遠，故其所設施，止於如此。後附設險守邊圖，則所起邊牆及剷削崖谷之道里尺寸也。"
-    }
-  ],
-  "authors": [
-    {
-      "name": "王瓊",
-      "role": "撰",
-      "entity_id": "1j967avzlz125",
-      "dynasty": "明"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "id": "1evcmttwzeneo",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "additional_titles": [
-    "北邊事蹟"
-  ],
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "ming",
-  "period_basis": "著錄原文自書撰人朝代：《四庫全書總目》「明王瓊撰」",
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《四庫全書總目》（同上），故不晚於 qing",
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
-  "ai_note": "2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。\n\n2026-08-25 J32 補撰內容之述（坑 #17）：本條 description 原止版本著錄語（或全闕），今於其前補一節「這本書是什麼」——所據為 WebSearch 覆核之通行史料（人物生卒、仕歷、著作背景），原版本語仍留其後（版本語是實錄，不可刪）。具體篇章內容非通識所及者不臆造。",
   "_promoted_to": "d59f2ngsvb41",
   "_promoted_at": "2026-08-25T12:33:07Z",
-  "description": {
-    "text": "王琼撰。王瓊（1459–1532），字德華，號晉溪，山西太原人，明成化間進士，歷吏部、戶部、兵部尚書，正德十至十五年（1515–1520）掌兵部有邊功，加太子太保銜；嘉靖間總督陝西三邊，主開邊市、與諸族通好，西北邊事賴以安。本書即其經略北邊事務之記述，另有《西番事跡》一書可與並觀。",
-    "sources": []
-  }
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngsvb41。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

@@ -1,55 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq128cnthc",
   "type": "work",
   "title": "金韜",
-  "authors": [
-    {
-      "name": "劉佑",
-      "role": "撰",
-      "entity_id": "1j96h8rw7k8xr"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "1ev3bb4qxubr4",
-      "title_info": "《金韜》十卷",
-      "summary": "《金韜》十卷（劉佑）",
-      "author_info": "劉佑"
-    }
-  ],
-  "description": {
-    "text": "劉佑撰。十卷。見著錄於《國史經籍志》。其著錄之文，《國史經籍志》作「《金韜》十卷（劉佑）」。本書惟《國史經籍志》一志著錄，別無他證。《國史經籍志》明焦竑撰——本書之目賴之以存。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "ai_note": "missing_reason: 短title \"金韜\" 唯一候选无作者\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "id": "1evgq128cnthc",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-08-23T00:00:00-07:00",
-  "period": "qing",
-  "period_basis": "撰人 Entity 之代：劉佑（Entity 1j96h8rw7k8xr），並經 CBDB c_personid 74765 覆驗相符",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "1evdlszdhf5z4",
-      "title_info": "金韜十卷",
-      "summary": "金十卷\n不著撰人。\n《隋唐·藝術傳》:劉祐,榮陽人也,開皇初為大都督,封索盧\n縣公。其所占候合如符契。高祖甚親之。初與張賓、劉輝、\n馬顯定曆。後奉詔撰兵書十卷,名曰《金 》上善之。\n《唐書·經籍志》:《金 》十卷,劉祐撰。\n《唐書·藝文志》:劉祐《金 》十卷。\n錢氏《隋書考異》曰:“《經籍志》《金 》十卷,不著撰人,蓋劉\n祐所撰,見《藝術傳》。”",
-      "note": "（2026-08-23 整理本回鏈補記：該整理本之節已繫本 Work 而本 Work 無其著錄，致 chk「整理本繫連而 work 側無記錄」。今補。）"
-    }
-  ],
   "_promoted_to": "d59f2mpvyku8",
-  "_promoted_at": "2026-08-25T11:41:23Z"
+  "_promoted_at": "2026-08-25T11:41:23Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2mpvyku8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

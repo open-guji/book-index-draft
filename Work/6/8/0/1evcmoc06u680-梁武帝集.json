@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmoc06u680",
   "type": "work",
   "title": "梁武帝集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《梁武帝集》二十六卷",
-      "summary": "《梁武帝集》二十六卷梁三十二卷。"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《梁武帝集》十卷",
-      "summary": "《梁武帝集》十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《梁武帝集》三十二卷",
-      "summary": "《梁武帝集》三十二卷"
-    }
-  ],
-  "juan_count": {
-    "number": 26
-  },
-  "id": "1evcmoc06u680",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《梁武帝集》二十六卷",
-      "summary": "梁武帝集二十六卷。梁三十二卷。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 26
-    }
-  ],
-  "measure_info": "二十六卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "題名為「朝代＋廟號」之御集：梁武帝集（2026-08-25 無斷代批次）",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2pzcblds",
-  "_promoted_at": "2026-08-25T15:27:09Z"
+  "_promoted_at": "2026-08-25T15:27:09Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pzcblds。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

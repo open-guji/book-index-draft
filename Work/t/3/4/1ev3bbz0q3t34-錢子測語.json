@@ -3,57 +3,7 @@
   "id": "1ev3bbz0q3t34",
   "type": "work",
   "title": "錢子測語",
-  "authors": [
-    {
-      "name": "錢琦",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j967bgl70k6c"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《錢子測語》•二卷",
-      "author_info": "明錢琦撰",
-      "summary": "明錢琦撰。琦字公良，海鹽人。正德戊辰進士，官至思南府知府。是書乃其劄記之語。分象元，繇庚、浮風、治本、檢精、鑒遠、規世、導儒八門，不出明人小品之習。然正、嘉時人猶淳實無此佻薄體裁。末有其孫孺穀跋，稱昔眉公陳先生手牘索覽云云。疑隆、萬間偽體盛行，琦之子孫趨當時風氣，依託為之也。",
-      "edition": "浙江巡撫采進本"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "resources": [
-    {
-      "id": "ctext",
-      "name": "CText",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=995686",
-      "types": [
-        "text"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "錢琦（明）撰。二卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2ni9xn9e",
-  "_promoted_at": "2026-08-25T12:35:58Z"
+  "_promoted_at": "2026-08-25T12:35:58Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ni9xn9e。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

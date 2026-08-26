@@ -1,53 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcmocdr1bsw",
   "type": "work",
   "title": "蕭欣集",
-  "indexed_by": [
-    {
-      "source": "隋書經籍志",
-      "source_bid": "d59f28nmafwh",
-      "title_info": "《蕭欣集》十卷",
-      "summary": "梁安成蕃王《蕭欣集》十卷"
-    },
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《蕭欣集》十卷",
-      "summary": "《蕭欣集》十卷"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "蕭欣集",
-      "summary": "蕭欣集十卷"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "id": "1evcmocdr1bsw",
-  "emendated_by": [
-    {
-      "source": "隋書經籍志考證",
-      "source_bid": "d59f2mp0flz6",
-      "title_info": "《蕭欣集》五卷",
-      "summary": "梁安成蕃王蕭欣集十卷\n《周書·蕭 附傳》:蕭欣,梁武帝弟安成康王秀之孫,爆王機\n之子也。秀、機並有集,見前。幼聰警,博綜墳籍,善屬文。 践\n位,以欣襲機封。歷侍中、中書令、尚書僕射、尚書令。之\n二十三年,卒,贈司空。欣與柳信言,當 之世,俱為一時文\n宗。有集三十卷。又著《梁史》百卷,遭亂失本。\n又曰:“ 居帝位,及 纂業,親賢並用,宗室則蕭欣、蕭翼。”\n《唐書 經籍》、《藝文志》:《蕭欣集》十卷。\n馮氏《詩紀》曰:“蕭欣,爵里無考。有《還宅詩》一首,見梁詞\n人麗句。”\n嚴氏《全梁文編》:蕭欣有集十卷。《初學記》有《賜甘露啟》\n一篇。"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "updated_at": "2026-04-29T16:51:33-07:00",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《隋書經籍志》（唐長孫無忌等，成於顯慶元年（656）），故不晚於 sui-tang",
-  "period": "nanbeichao",
-  "period_basis": "2026-08-25 period未定批次 shard0：《隋書經籍志》別集之例「朝代＋官銜＋書名」：「梁安成蕃王《蕭欣集》」",
-  "authors": [],
-  "ai_note": "2026-08-25 無斷代批次收尾（坑32）：本條所繫著錄止於題與卷數，不著撰人，故 authors 明寫空陣列——空陣列即「已考而無撰人」，與「缺鍵＝未考／未填」相別（SCHEMA〈無撰人 Work 非缺陷〉，全庫兩萬七千餘條無撰人，志書體例本不著）。**此謂「本條之著錄不著撰人」，非謂其書必無撰人可考**——他日若得他源之證（本傳、提要、輯本序之屬），仍當補之。",
   "_promoted_to": "d59f2qanoagy",
-  "_promoted_at": "2026-08-25T15:48:55Z"
+  "_promoted_at": "2026-08-25T15:48:55Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2qanoagy。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

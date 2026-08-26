@@ -1,49 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpiglggu80",
   "type": "work",
   "title": "齊魯古印攈",
-  "authors": [
-    {
-      "name": "高慶齡",
-      "role": "校",
-      "dynasty": "清",
-      "entity_id": "1j96hecmzlzb4",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「高慶齡」而無 entity_id，今繫 `1j96hecmzlzb4`——庫中 primary_name 同之者唯一。其代「清」與本書已定之代「qing」相合。"
-    },
-    {
-      "name": "高源裁",
-      "role": "校",
-      "dynasty": "清",
-      "entity_id": "1jcf5151299x2",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151299x2` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故觀009174-009177）。清光緒間濰縣高氏古雪書莊鈐拓本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故觀009174-009177），無同名 Work 故新建。",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "id": "1evkpiglggu80",
-  "books": [
-    "11qki01m64bgg"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
   "_promoted_to": "d59f2n1t5vr6",
-  "_promoted_at": "2026-08-25T12:04:18Z"
+  "_promoted_at": "2026-08-25T12:04:18Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n1t5vr6。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

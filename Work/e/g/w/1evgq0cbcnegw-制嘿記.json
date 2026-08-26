@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evgq0cbcnegw",
   "type": "work",
   "title": "制嘿記",
-  "authors": [
-    {
-      "name": "張嚴",
-      "role": "撰",
-      "dynasty": null,
-      "entity_id": "1j96kemlnh5hc",
-      "dynasty_basis": "known_mislabel:round3(garbage_clean:張嚴撰制嘿記，不知名氏)"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "indexed_by": [
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《制嘿記》三卷",
-      "summary": "《制嘿記》三卷（吳張嚴）",
-      "author_info": "吳張嚴"
-    }
-  ],
-  "description": {
-    "text": "《國史經籍志》收錄。",
-    "sources": [
-      "國史經籍志"
-    ]
-  },
-  "id": "1evgq0cbcnegw",
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "updated_at": "2026-08-08T14:20:19+00:00",
-  "period_upper": "ming",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《國史經籍志》（明焦竑（1590）），故不晚於 ming",
-  "period": "three-kingdoms",
-  "period_basis": "《國史經籍志》著錄作「吳張嚴」——撰人名前之朝代語",
-  "ai_note": "2026-08-25 斷代（無斷代條目整理，shard 2）：period 定為 three-kingdoms。《國史經籍志》著錄作「吳張嚴」——撰人名前之朝代語",
   "_promoted_to": "d59f2pu77v2a",
-  "_promoted_at": "2026-08-25T15:17:17Z"
+  "_promoted_at": "2026-08-25T15:17:17Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2pu77v2a。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

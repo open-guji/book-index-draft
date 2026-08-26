@@ -1,62 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcsy1eijvnk",
   "type": "work",
   "title": "秤星經",
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《秤星經》",
-      "summary": "唐昧《秤星經》三卷"
-    },
-    {
-      "source": "崇文總目",
-      "source_bid": "d59f2hqc0c1t",
-      "title_info": "秤星經一卷",
-      "summary": "秤星經一卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《秤星經》一卷",
-      "summary": "《秤星經》一卷（唐昧）",
-      "author_info": "唐昧",
-      "merged_from": "1evgq20id6qkg",
-      "note": "國史經籍志「《秤星經》一卷（唐昧）」，撰人與宋志全合，卷數與崇文總目全合。"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《秤星經》三卷",
-      "summary": "《秤星經》三卷",
-      "merged_from": "1evgq3b6y8wlc",
-      "note": "國史經籍志同志另出之三卷本，卷數與宋志全合；焦竑一志兩收其一卷、三卷二本，實為一書。"
-    }
-  ],
-  "id": "1evcsy1eijvnk",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "authors": [
-    {
-      "name": "唐昧",
-      "role": "撰",
-      "entity_id": "1jcf5151294va",
-      "note": "宋史藝文志天文類原文即題「唐昧《秤星經》三卷」（前條「《上象星文幽棲賦》一卷」以卷數收尾，故非頂真格前置而為本條自題）；國史經籍志原注亦作「（唐昧）」。本庫無此 entity。",
-      "name_basis": "2026-08-24 新建 entity `1jcf5151294va` 並繫之——庫中舊無其人，說見該 entity 之 ai_note。"
-    }
-  ],
-  "juan_count": {
-    "number": 3
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 3
-    }
-  ],
-  "measure_info": "三卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：宋史藝文志三卷、崇文總目一卷、國史經籍志一卷（注「唐昧」）及三卷，四源二卷數同為一書，今合為一條並補撰人（國史經籍志一志兩收一卷、三卷二本，正可證卷數之異為傳本分卷不同）。卷數從宋志、國史三卷。本庫無唐昧 entity，未繫。",
-  "period_upper": "song",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《宋史藝文志》（元脫脫等（1345），著錄宋代藏書），故不晚於 song",
   "_promoted_to": "d59f2q3blips",
-  "_promoted_at": "2026-08-25T15:34:48Z"
+  "_promoted_at": "2026-08-25T15:34:48Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q3blips。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

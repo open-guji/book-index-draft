@@ -3,55 +3,7 @@
   "id": "1ev3bajogqigw",
   "type": "work",
   "title": "三蘇年表",
-  "authors": [
-    {
-      "name": "孫汝聽",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j96hjwlxcpjr",
-      "dynasty_basis": "entity_propagation_r2:1j96hjwlxcpjr"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《三蘇年表》•二卷",
-      "author_info": "宋孫汝聽撰",
-      "summary": "宋孫汝聽撰。陳振孫《書錄解題》載《三蘇年表》三卷，右奉議郎孫汝聽編，即此本也。然《永樂大典》所載惟存《蘇洵》一卷、《蘇轍》一卷。《蘇軾》則別收王宗稷《年譜》，而汝聽之本遂佚。蓋當時編錄，不出一手，故去取互異如是。今仍以《三蘇年表》著錄，從其本名也。",
-      "edition": "永樂大典本"
-    },
-    {
-      "source": "直齋書錄解題",
-      "source_bid": "d59f2htm01du",
-      "summary": "三蘇年表",
-      "misattached": true,
-      "misattached_note": "2026-08-21 catalog_bound 覆驗：本節出《直齋書錄解題》（上限 song），而本條為 ming 之作、撰人孫汝聽，著錄語與之全不相干——係同題異書誤併。所指何書，僅憑題名卷數無從斷，未別立 Work，記於 known-issues/著錄錯掛待建.json 待考。"
-    }
-  ],
-  "juan_count": {
-    "number": 2
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 2
-    }
-  ],
-  "measure_info": "二卷",
-  "updated_at": "2026-08-08T18:18:57+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」（規則1 粗粒度自消歧；2026-08-21 補派生專項）",
-  "ai_note": "2026-08-21 著錄錯掛標記：本條所繫 1 節出於直齋書錄解題，其上限早於本條之 period，且著錄語與本條撰人全不相干，判為同題異書誤併，已標 misattached。計 period_upper 時跳之。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 J19：work.dynasty 缺值，據 authors[0].dynasty「明」補齊。",
-  "description": {
-    "text": "孫汝聽（明）撰。二卷。見著錄於《欽定四庫全書總目》《直齋書錄解題》。其著錄之文，《直齋書錄解題》作「三蘇年表」。《欽定四庫全書總目》清乾隆間館臣修；《直齋書錄解題》南宋陳振孫撰——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目",
-      "直齋書錄解題"
-    ]
-  },
-  "dynasty": "明",
-  "dynasty_basis": "據 authors[0].dynasty「明」（S5 缺值補齊，J19）",
   "_promoted_to": "d59f2nhrtvr8",
-  "_promoted_at": "2026-08-25T12:35:00Z"
+  "_promoted_at": "2026-08-25T12:35:00Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nhrtvr8。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

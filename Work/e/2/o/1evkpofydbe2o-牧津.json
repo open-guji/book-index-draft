@@ -1,42 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpofydbe2o",
   "type": "work",
   "title": "牧津",
-  "authors": [
-    {
-      "name": "祁承㸁",
-      "role": "撰",
-      "dynasty": "明",
-      "entity_id": "1j98p5b0jfm68",
-      "name_basis": "2026-08-24 補繫 entity：本條 authors 舊有名「祁承㸁」而無 entity_id，今繫 `1j98p5b0jfm68`——庫中 primary_name 同之者唯一。其代「明」與本書已定之代「ming」相合。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 平圖009203-009226）。明天啟間原刊本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 平圖009203-009226），無同名 Work 故新建。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-23 B7 殘名撰人：撰人欄原作「祁承□」，末字係「㸁」（U+3E01）之缺；明祁承㸁撰《牧津》。",
-  "juan_count": {
-    "number": 44
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 44
-    }
-  ],
-  "measure_info": "四十四卷",
-  "id": "1evkpofydbe2o",
-  "books": [
-    "11qki5ena9mo0"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nkgwp36",
-  "_promoted_at": "2026-08-25T12:40:10Z"
+  "_promoted_at": "2026-08-25T12:40:10Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nkgwp36。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

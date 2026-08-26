@@ -1,51 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evjxmxk12t4w",
   "type": "work",
   "title": "滄浪櫂歌",
-  "authors": [
-    {
-      "name": "陶宗儀",
-      "role": "撰",
-      "dynasty": "元末明初",
-      "entity_id": "1j967avzk3lsp",
-      "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「明」，而其書之著錄源《元史藝文志》作「元某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「元末明初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×8／ming×7 諸桶。"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "四庫全書存目叢書",
-      "source_bid": "1evjxczyavy80",
-      "title_info": "《滄浪櫂歌》一卷",
-      "author_info": "明陶宗儀撰",
-      "summary": "《滄浪櫂歌》一卷。明陶宗儀撰。北京大學圖書館藏清嘉慶四年桐川顧修刻讀畫齋叢書本。",
-      "edition": "北京大學圖書館藏清嘉慶四年桐川顧修刻讀畫齋叢書本",
-      "volume": "第24冊",
-      "section": "集部"
-    }
-  ],
-  "description": {
-    "text": "陶宗儀（明）撰。一卷。見著錄於《四庫全書存目叢書》。《四庫全書存目叢書》列於集部。其著錄之文，《四庫全書存目叢書》作「《滄浪櫂歌》一卷」。本書惟《四庫全書存目叢書》一志著錄，別無他證。",
-    "sources": [
-      "四庫全書存目叢書"
-    ]
-  },
-  "ai_note": "本 Work 條目從《四庫全書存目叢書》目錄錄入。 [ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。\n\n2026-08-25 遼金元 L5：撰人「陶宗儀」之代由「明」歸一為「元末明初」（核人不核書，隨其 entity）。判據見 authors[].dynasty_basis。",
-  "juan_count": {
-    "number": 1
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "id": "1evjxmxk12t4w",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
   "_promoted_to": "d59f2nhdgz5t",
-  "_promoted_at": "2026-08-25T12:34:13Z"
+  "_promoted_at": "2026-08-25T12:34:13Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2nhdgz5t。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

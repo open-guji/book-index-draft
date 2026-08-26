@@ -1,52 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evcpczv6cwe8",
   "type": "work",
   "title": "韋氏譜",
-  "indexed_by": [
-    {
-      "source": "舊唐書經籍志",
-      "source_bid": "d59f2gcburcx",
-      "title_info": "《韋氏譜》十卷",
-      "summary": "《韋氏譜》十卷韋鼎等撰。"
-    },
-    {
-      "source": "新唐書藝文志",
-      "source_bid": "d59f2hl0cmio",
-      "title_info": "韋氏譜",
-      "summary": "韋氏譜十卷"
-    },
-    {
-      "source": "國史經籍志",
-      "source_bid": "d59f2nl40936",
-      "title_info": "《韋氏譜》十卷",
-      "summary": "《韋氏譜》十卷",
-      "merged_from": "1evgpkj19q0ao",
-      "note": "兩唐志與國史經籍志所著《韋氏譜》為一書，今合併。"
-    }
-  ],
-  "id": "1evcpczv6cwe8",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "juan_count": {
-    "number": 10
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-19 全庫同名異書核對：兩唐志、國史經籍志同著《韋氏譜》，係一書互著（或重出），今合併。",
-  "period_upper": "sui-tang",
-  "period_upper_basis": "catalog_bound：所繫諸志中最緊者為《舊唐書經籍志》（後晉劉昫，本唐開元《群書四部錄》），故不晚於 sui-tang",
-  "authors": [
-    {
-      "name": "韋鼎等",
-      "role": "撰",
-      "name_basis": "2026-08-24 舊唐志逐條抽撰人：《舊唐書經籍志》之著錄作「《書名》N卷〈撰人〉撰。」——**尾名即本條之撰人**，與《宋史藝文志》之頂真格異（宋志尾名屬次條）。其著錄語一書一條，不相牽混，故可逐條取之。\n\n本條著錄語作「《韋氏譜》十卷韋鼎等撰。」，尾名「韋鼎等」。只錄其名與其役，不繫 entity_id、不定代——或庫中無同名之人，或同名者眾，或其人無代，或著錄語列數人。\n\n2026-08-24 待覈之名逐條裁定（五字以上、尾為役字、尾為「等」、尾為「人」者共 225 名）：「韋鼎等」乃冠國別、朝代、僧號、「題」字，或帶尾役字之形，其名實作「韋鼎」，故正之而立。\n\n本欄之 name 仍存著錄原形「韋鼎等」，而所繫之 entity primary_name 作「韋鼎」。",
-      "entity_id": "1jcf515129ab8"
-    }
-  ],
   "_promoted_to": "d59f2q72r9j5",
-  "_promoted_at": "2026-08-25T15:42:02Z"
+  "_promoted_at": "2026-08-25T15:42:02Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2q72r9j5。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

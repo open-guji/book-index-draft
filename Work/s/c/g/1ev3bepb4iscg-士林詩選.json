@@ -3,66 +3,7 @@
   "id": "1ev3bepb4iscg",
   "type": "work",
   "title": "士林詩選",
-  "authors": [
-    {
-      "name": "懷悅",
-      "role": "編",
-      "dynasty": "明",
-      "entity_id": "1j96ha6jji9s0"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "欽定四庫全書總目",
-      "source_bid": "d59dh3vo9af4",
-      "title_info": "《士林詩選》•一卷",
-      "author_info": "明懷悅編",
-      "summary": "明懷悅編。悅字用和，嘉興人。永樂中以納粟官通判。是集所載，皆一時友朋之作。近體最多，持擇亦未精審。",
-      "edition": "兩淮馬裕家藏本"
-    }
-  ],
-  "juan_count": {
-    "number": 1
-  },
-  "resources": [
-    {
-      "id": "shidianguji-huaiyuemingtianshunk",
-      "name": "识典古籍",
-      "url": "https://www.shidianguji.com/book/NGJ892411999005905106169",
-      "metadata": {
-        "edition": "懷悅明天順5年刻本",
-        "version": "v1",
-        "total_page": 395,
-        "paragraph_count": 2108,
-        "check_type": "AI整理"
-      },
-      "types": [
-        "text",
-        "image"
-      ]
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 1
-    }
-  ],
-  "measure_info": "一卷",
-  "updated_at": "2026-08-09T10:41:40+00:00",
-  "_has_text": true,
-  "_has_image": true,
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "ai_note": "[ming-round1: author.dynasty 集合=['明'] → dynasty=明]\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "description": {
-    "text": "懷悅（明）編。一卷。見著錄於《欽定四庫全書總目》。本書惟《欽定四庫全書總目》一志著錄，別無他證。《欽定四庫全書總目》清乾隆間館臣修——本書之目賴之以存。",
-    "sources": [
-      "欽定四庫全書總目"
-    ]
-  },
   "_promoted_to": "d59f2ngetmv7",
-  "_promoted_at": "2026-08-25T12:32:23Z"
+  "_promoted_at": "2026-08-25T12:32:23Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ngetmv7。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

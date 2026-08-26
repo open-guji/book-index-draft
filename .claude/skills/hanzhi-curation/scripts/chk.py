@@ -203,13 +203,28 @@ if _PROD_ROOT:
         except Exception: pass
 _PENT |= {v['production_id'] for v in _PR.values() if v.get('type')=='entity'}
 _deadent=[]
-for _w,_e in IW.items():
-    try: _d=json.load(open(_e['path']))
+# 2026-08-25 補：舊法 `for _w,_e in IW.items()` 只掃 **draft 之 works 索引**，
+# production 側之 Work 根本不在其列。而斷代諸輪畢後正身盡在 production、
+# draft 側只剩墓碑，此驗遂名存實亡——實測 production 有 52 處懸空而此驗報 0
+# （2026-08-24 entity 品質清整退役一批「…等」與含缺字符之 entity，draft 側
+# 隨之改繫／撤繫而 production 未跟）。今兩庫之 Work 與 Book 一併掃。
+_entfiles=set()
+for _r in ['.'] + ([_PROD_ROOT] if _PROD_ROOT else []):
+    for _p in glob.glob(_r+'/Entity/*/*/*/*.json'):
+        _entfiles.add(os.path.basename(_p).split('-',1)[0])
+_alive=set(IE) | _PENT | _entfiles
+_scan=[(_w,_e['path']) for _w,_e in IW.items()]
+for _r in ([_PROD_ROOT] if _PROD_ROOT else []):
+    for _t in ('Work','Book'):
+        for _p in glob.glob(f'{_r}/{_t}/*/*/*/*.json'):
+            _scan.append((os.path.basename(_p).split('-',1)[0], _p))
+for _w,_path in _scan:
+    try: _d=json.load(open(_path))
     except Exception: continue
     for _a in (_d.get('authors') or []):
         if not isinstance(_a,dict): continue
         _i=_a.get('entity_id')
-        if isinstance(_i,str) and _i and _i not in IE and _i not in _PENT:
+        if isinstance(_i,str) and _i and _i not in _alive:
             _deadent.append((_w,_a.get('name'),_i))
 print('作品之 entity_id 指向已退役者',len(_deadent),'　基線 0'
       + ('（production entity %d 條不計——已升格者之 id 正當如此）' % len(_PENT) if _PENT else ''))

@@ -1,48 +1,9 @@
 {
   "schema_version": 1,
+  "id": "1evkpo4dpdmo0",
   "type": "work",
   "title": "大清國史天文志",
-  "authors": [
-    {
-      "name": "清  國史館",
-      "role": "編",
-      "dynasty": "清",
-      "alt_names": [
-        "國史館"
-      ],
-      "entity_id": "1jcf515129acb",
-      "name_basis": "2026-08-24 補 entity：繫 `1jcf515129acb`（subtype collective）。（著錄原作「清  國史館」，所繫 entity 之 primary_name 作「國史館」）此非個人，乃官署局所之屬。"
-    }
-  ],
-  "description": {
-    "text": "本書收入《國立故宮博物院善本舊籍》（統一編號 故殿033316-033331）。清內府朱絲欄寫本。",
-    "sources": [
-      "國立故宮博物院善本舊籍"
-    ]
-  },
-  "ai_note": "本 Work 條目從《國立故宮博物院善本舊籍》目錄錄入（catalog: 故殿033316-033331），無同名 Work 故新建。\n\n2026-08-22 B3 併池（撰人名近似）：1evkq2ab5j85c 併入本條。撰人名「清  國史館」「國史館」一為另一之省稱或冠稱（冠朝代、冠郡望、綴字號、綴役名），故二條同書。併者之撰人寫法存於 authors[0].alt_names。",
-  "juan_count": {
-    "number": 16
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 16
-    }
-  ],
-  "measure_info": "十六卷",
-  "id": "1evkpo4dpdmo0",
-  "books": [
-    "11qki340exzpc",
-    "11qki33yjiqdc",
-    "11qki33zgx4hs"
-  ],
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "dynasty": "清",
-  "dynasty_basis": "qing_round1:period=qing 且非通用作者 dynasty 唯一为「清」",
-  "indexed_by": [],
   "_promoted_to": "d59f2n4tsgsg",
-  "_promoted_at": "2026-08-25T12:10:06Z"
+  "_promoted_at": "2026-08-25T12:10:06Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2n4tsgsg。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }

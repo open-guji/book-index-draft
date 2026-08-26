@@ -3,44 +3,7 @@
   "id": "1ewxghhuyfksi",
   "type": "work",
   "title": "詩集",
-  "authors": [
-    {
-      "name": "胡旦",
-      "role": "撰",
-      "dynasty": "宋",
-      "entity_id": "1j967da978dgi"
-    }
-  ],
-  "juan_count": {
-    "number": 10
-  },
-  "indexed_by": [
-    {
-      "source": "宋史藝文志",
-      "source_bid": "d59f2gdp696q",
-      "title_info": "《詩集》",
-      "summary": "《詩集》十卷胡旦"
-    }
-  ],
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 10
-    }
-  ],
-  "measure_info": "十卷",
-  "ai_note": "2026-08-15 全庫同名異書核對：從磁鐵記錄 1evcpjos2zwg0 拆出。經查該磁鐵記錄之 work_id 於 collated_edition 中被宋史藝文志詩類、別集類數十處不同撰人之「《詩集》N卷」條目重複借用（如沈銖、王質、公乘億等），係匯入時對無法歸屬之泛題「詩集」共用同一佔位 work_id 所致之大規模磁鐵，僅本條有撰人「胡旦」明載於原文而得拆出獨立記錄，餘者留待日後磁鐵專項清理（見全庫同名異書核對.md 已記錄）。\n\n2026-08-24 J11 description 撮自本條所繫之著錄：本欄之文由撰人、卷數、著錄諸志、志按所稱之佚文出處與輯家、存佚五節綴成，**每節皆據本條 indexed_by 之引文，不出其外，亦不臆造**。凡著錄所無者一字不書。此即 curate-dynasty S3〈借力志書〉之法——本時段有姚振宗《三國藝文志》與丁國鈞《補晉書藝文志》二部斷代志之整理本在庫，其按語備載卷數異同、佚文出處與輯家，正可為佚書之 desc 所本。**未覆核原書**。",
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation:唯一作者朝代",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "updated_at": "2026-08-15",
-  "description": {
-    "text": "胡旦（宋）撰。十卷。見著錄於《宋史藝文志》。其著錄之文，《宋史藝文志》作「《詩集》十卷胡旦」。本書惟《宋史藝文志》一志著錄，別無他證。別集之屬，所收為其人之詩文。《宋史藝文志》元脫脫等修——本書之目賴之以存。",
-    "sources": [
-      "宋史藝文志"
-    ]
-  },
   "_promoted_to": "d59f2ofl7m68",
-  "_promoted_at": "2026-08-25T13:39:59Z"
+  "_promoted_at": "2026-08-25T13:39:59Z",
+  "ai_note": "2026-08-26 升格墓碑殘留全欄位，依例 stub 化；本文在 production d59f2ofl7m68。 production 才是 canonical——欲改請改彼處，勿改本檔。"
 }
