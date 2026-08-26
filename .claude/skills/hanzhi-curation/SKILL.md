@@ -772,6 +772,41 @@ LOST 正則誤中其 ai_note 的「不著錄」。判亡佚別只靠正則掃 ai
 
 凡改繫、併條、解連，**兩倉一起改**。
 
+## 八之三、Collection 亦已全量升格（2026-08-26）
+
+draft 的 `Collection/` 同 `Entity/` 一樣，已無一條活記錄——六十三條盡數升格，
+只剩五欄墓碑。要考叢編去 `../book-index/Collection/`，要新建也建在那邊。
+
+**Collection 與 Work／Entity 有四處不同，改它的時候都要記著**：
+
+1. **成員列表有三，語義不可互換**（SCHEMA〈Collection 的三種成員列表〉）：
+   `books` 是具體版本（Book ID）、`contained_works` 是作品（帶冊次，鍵是 **`id`
+   不是 `work_id`**）、`contains` 是本叢編的結構組成部分（聖諭、進表、選印來源）。
+   尤其**不可把 Collection id 塞進 `books`**——叢編相含要由子條的 `contained_in`
+   指母條。2026-08-26 清出十五處這種錯（武英殿刻書三、出土簡帛十二）。
+2. **`contained_in` 是單向的。** 兩倉 Book 反指 Collection 三萬八千餘處，
+   而 Collection 的 `books` 只有四百餘——大叢編不逐一列其書
+   （《國立故宮博物院善本舊籍》入引 35,114 而三種成員列表俱空，就是這樣）。
+   **這跟人物↔作品的雙向正相反，不要「補全」那一側。**
+3. **引用面有七種欄形**：`Book／Work.contained_in[].id`、`Work.related_works[].id`、
+   `Work.collections[]`、`Collection.contained_in[]`（純字串陣列）、
+   `Collection.related_collections[].collection_id`、`Collection.contains[].collection_id`、
+   整理本 `sections[].collection_id`。改繫漏一種就是一批靜默積欠。
+   又：`contained_in` 有**物件與純字串兩式**——Book／Work 用 `{id, volume_index}`，
+   Collection 用純字串，兩式都要認。
+4. **索引不分片**（`index/collections.json` 單檔），且 production 的條帶展示欄
+   （author／year／holder／role／subtype／edition／juan_count／additional_titles／
+   has_text／has_image），要自記錄檔重算。**記錄檔用 `_has_text`／`_has_image`
+   （帶底線），索引用不帶底線的**，別混。
+
+工具：`chk_collection.py`（甲乙丙三級）、`scripts/promote_collection.py`。
+方案與推導見 `.claude/plans/Collection升格方案.md`。
+
+**`merged_in[].id` 與 `ai_note` 裡的 id 都不是活指標。** 前者是「某條併入本條」的
+史錄（兩倉一千餘條，其 id 百分之百不存在，設計如此），後者是敘事
+（「2026-08-20：收入「漢代緯書」Collection（1ajaqsniczsw0）」記的是當時之實）。
+掃懸空的時候要先把這兩類排掉，否則會被淹沒；改繫的時候也不要動它們。
+
 ## 九、環境
 
 - 代理只放行 GitHub。**WebSearch 可用，WebFetch 不可用。**
