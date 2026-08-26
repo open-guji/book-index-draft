@@ -9,6 +9,9 @@
 這是流程第 1 步「只掃不改」的工具——**不要在這裡改任何資料**。
 """
 import json, os, re, sys, glob, collections
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import sectype
 
 LUE = sys.argv[1] if len(sys.argv) > 1 else '諸子略'
 HZ_WORK = '1euhm19a23jsw'
@@ -44,12 +47,14 @@ E = []           # (家, 書名, work_id, 著錄原文)
 XU = {}          # 家 -> (家數, 篇數) 依小序
 F_XU = []        # 一個类下含多個屬的情形
 for s in d.get('sections', []):
-    k = s.get('type') or s.get('section_kind')
-    if k == '类':
+    # 經 sectype 歸一，兼認新舊兩制。原寫死簡體 `'书'`，漏掉 3,415 條 `書`；
+    # 且此處原以 `k in ('序','小序','结语','結語')` 手列異體，是同一問題之另一面。
+    k = sectype.canon(s.get('type') or s.get('section_kind'))
+    if k == 'category':
         cur = s.get('title')
-    elif k == '书':
+    elif k == 'book':
         E.append((cur, s.get('title'), s.get('work_id'), s.get('content', '')))
-    elif k in ('序', '小序', '结语', '結語'):
+    elif k in ('preface', 'tally'):
         # 一個「类」下可能有多條小序（如詩賦略賦類實含屈原/陸賈/孫卿三屬），全部累加
         ms = re.findall(r'右(.{0,6}?)([〇零一二三四五六七八九十百千]+)家[，,]?([〇零一二三四五六七八九十百千]+)篇',
                         s.get('content', '') or '')
@@ -64,7 +69,7 @@ KZLINK = collections.defaultdict(list)
 for f in glob.glob(f'{KZ_DIR}/*.json'):
     def walk(o):
         if isinstance(o, dict):
-            if o.get('type') == '考证':
+            if sectype.canon(o.get('type')) == 'verification':
                 ids = o.get('work_ids') or ([o['work_id']] if o.get('work_id') else [])
                 for w in ids: KZLINK[w].append((os.path.basename(f)[:-5], o.get('title')))
             for v in o.values(): walk(v)
