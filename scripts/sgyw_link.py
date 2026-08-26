@@ -14,6 +14,27 @@
       以「右」起、不以「總說」終者。以既繫之 399 節驗之，合 399、不合 0。
       據此回填 work 側 `indexed_by[].section` 之闕。
 """
+import os as _os, sys as _sys
+def _find_sectype():
+    """自本檔往上尋 `book-index-draft/.claude/.../scripts`。
+
+    **不可用 `expanduser('~/...')`**：本環境之 $HOME 是 /root 而工作區在
+    /home/user，`~` 展開即落空，一跑就 ImportError。亦不可寫死相對層數——
+    諸腳本散在不同深度。故自本檔之目錄逐級上溯尋之。"""
+    d = _os.path.dirname(_os.path.abspath(__file__))
+    for _ in range(8):
+        for c in (_os.path.join(d, '.claude', 'skills', 'hanzhi-curation', 'scripts'),
+                  _os.path.join(d, 'book-index-draft', '.claude', 'skills',
+                                'hanzhi-curation', 'scripts')):
+            if _os.path.exists(_os.path.join(c, 'sectype.py')):
+                return c
+        nd = _os.path.dirname(d)
+        if nd == d:
+            break
+        d = nd
+    raise ImportError('尋不著 sectype.py——工作區佈局變了？')
+_sys.path.insert(0, _find_sectype())
+import sectype   # 節之 type 新舊兩制之歸一（2026-08 英文枚舉遷移期）
 import json, glob, re, ast, os, sys, collections
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -33,7 +54,7 @@ def cls(secs, i):
     """一節之類：其前最近之「结语」而不以「右」起、不以「總說」終者"""
     for j in range(i - 1, -1, -1):
         s = secs[j]
-        if s.get('type') != '结语':
+        if not sectype.is_tally(s.get('type')):
             continue
         t = (s.get('title') or '').strip()
         if t.startswith('右') or t.endswith('總說'):
@@ -73,7 +94,7 @@ def main():
     for f, cd in files.items():
         secs = cd['sections']
         for i, s in enumerate(secs):
-            if s.get('type') != '书' or sec_ids(s):
+            if not sectype.is_book(s.get('type')) or sec_ids(s):
                 continue
             ct = clean(s['title'])
             best = []
@@ -97,7 +118,7 @@ def main():
     for f, cd in files.items():
         secs = cd['sections']
         for i, s in enumerate(secs):
-            if s.get('type') != '书':
+            if not sectype.is_book(s.get('type')):
                 continue
             for wid in sec_ids(s):
                 w = works.get(wid)
