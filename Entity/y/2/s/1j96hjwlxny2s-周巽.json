@@ -2,32 +2,7 @@
   "schema_version": 1,
   "id": "1j96hjwlxny2s",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "周巽",
-  "alt_names": [
-    {
-      "name": "三",
-      "type": "行第"
-    },
-    {
-      "name": "敬用",
-      "type": "字"
-    }
-  ],
-  "dynasty": "元末明初",
-  "works": [
-    {
-      "work_id": "d59f2gp15f5u",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 198744,
-    "cbdb_match": "manual",
-    "cbdb_source": "pending_accept: relaxed_ambig cbdb_dy=19 (1428-None)"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "ai_note": "[2026-08-18 ljy-round2] 周巽：citation明載「所紀干支有丙辰九月，當為洪武九年(1376)，則明初尚存矣」，為元末明初過渡人物；birth_year=1428晚於此洪武九年之內證（1376年時尚存卻要到1428才出生，自相矛盾），顯係CBDB誤配，清除。\n\n2026-08-24 剝字之名收束：本庫有一批 entity 其 primary_name 是自《清史稿藝文志》連文按二字截出者（「齊熙朱子讀書法四卷」截作「熙朱」、「宋庠…」截作「庠宋」、「宋嚴用和濟生方」截作「嚴用」），而所繫 work 之撰人欄本已正。此輩仍認領其 work 而 work 不回指，遂現於 chk〈人物→作品 單向〉。\n\n本條收《性情集》`1evr5e3mdqr81` 之繫，並退役壞條 `1j96heg7gdzi8`（primary_name「巽性」）。",
-  "period": "ming",
-  "period_basis": "dynasty「元末明初」跨兩代，其人歷易代而生。從其後者（明）——「初」謂其人入新朝而後有所述作，著述之時多在後代，故繫 ming。（2026-08-24 補）"
+  "_promoted_to": "hixhd2h9bmio",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

@@ -2,45 +2,7 @@
   "schema_version": 1,
   "id": "1j967da95o6qi",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "迺賢",
-  "alt_names": [
-    {
-      "name": "易之",
-      "type": "字"
-    },
-    {
-      "name": "乃賢",
-      "type": "訛名"
-    }
-  ],
-  "dynasty": "元",
-  "birth_year": 1309,
-  "works": [
-    {
-      "work_id": "d59f2getr3sx",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gp7e60y",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gno55vk",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2geitssh",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 35488,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_0.50+unique"
-  },
-  "updated_at": "2026-08-19T00:00:00-07:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（撰人名一字之差）：庫中別有 entity「乃賢」（`1j96het3t4ykg`），乃本人姓名之訛寫（或異體），其所繫之書與本條所繫者同題同卷，已判為一書而併。該 entity 遂無所繫，今併入本條，訛名入 alt_names 以備後來之匯入得以歸並。"
+  "_promoted_to": "hixhd2h9bh07",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

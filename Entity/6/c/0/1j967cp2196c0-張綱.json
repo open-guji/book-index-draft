@@ -2,59 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp2196c0",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "張綱",
-  "alt_names": [
-    {
-      "name": "彥政",
-      "type": "字"
-    },
-    {
-      "name": "彥正",
-      "type": "字"
-    },
-    {
-      "name": "文定",
-      "type": "諡號"
-    },
-    {
-      "name": "章簡",
-      "type": "諡號"
-    },
-    {
-      "name": "華陽老人",
-      "type": "號"
-    }
-  ],
-  "dynasty": "南宋",
-  "birth_year": 1083,
-  "death_year": 1166,
-  "works": [
-    {
-      "work_id": "d59f2hgtl05d",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hq5rl6q",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hfzxgjn",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hd5uux0",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 252,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_mismatch_15+work_recall_1.00+ambiguous_26+no_dynasty"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=南宋",
-  "period": "song",
-  "period_basis": "据 dynasty「南宋」自动归并",
-  "ai_note": "2026-08-24 同名消歧：新收 1 部 work 之繫——此輩 work 之 authors 有名而無 entity_id，庫中同名者不止一人，以撰人朝代／period／上限三者次第定之，所存唯本人。"
+  "_promoted_to": "hixhd2h9bgtq",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

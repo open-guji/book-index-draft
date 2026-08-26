@@ -2,53 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl7y9tm",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "陶望齡",
-  "alt_names": [
-    {
-      "name": "周望",
-      "type": "字"
-    },
-    {
-      "name": "文簡",
-      "type": "諡號"
-    },
-    {
-      "name": "石簣",
-      "type": "號"
-    }
-  ],
-  "dynasty": "明",
-  "birth_year": 1562,
-  "works": [
-    {
-      "work_id": "d59f2nkm7pxc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2nfg6akh",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ng1pnnl",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2njy6g3l",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ndv1uyq",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 130726,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_0.33+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "ming",
-  "period_basis": "據 dynasty「明」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bf98",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

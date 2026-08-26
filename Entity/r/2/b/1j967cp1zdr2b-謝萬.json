@@ -2,51 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp1zdr2b",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "謝萬",
-  "dynasty": "東晉",
-  "works": [
-    {
-      "work_id": "d59f27yzh8n5",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f27y99b0g"
-    },
-    {
-      "work_id": "d59f27wbc5c3",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27wfpgxu",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27xwgkqp",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f27xyyh36",
-      "role": "注"
-    },
-    {
-      "work_id": "d59f27xu9wxu",
-      "role": "注"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 424764,
-    "cbdb_match": "manual",
-    "cbdb_source": "name_exact+dy_match+work_recall_0.50+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 dynasty「東晉」自動歸併",
-  "ai_note": "2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n\n2026-08-24 「某某等」歸其人：併入「謝萬等」（`1j96hfb16a1og`）。「等」乃著錄語「某某等撰」之省，非名之一部，而匯入時併為一名，遂與本條兩出。所繫之 work 悉歸本條；其「等」之義在 role（等奉敕撰、等纂修之屬）已見，不必在名。",
-  "alt_names": [
-    {
-      "name": "謝萬等",
-      "type": "廟號"
-    }
-  ]
+  "_promoted_to": "hixhd2h9bgbi",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

@@ -726,6 +726,29 @@ LOST 正則誤中其 ai_note 的「不著錄」。判亡佚別只靠正則掃 ai
 - 面向讀者的正文進 `description.text`，出處進 `description.sources`，
   整理者自注進 `ai_note`。三者不混。
 
+## 八之二、人物層已全量升格（2026-08-25）
+
+**draft 的 `Entity/` 已無一條活記錄**——二萬四千六百零二人盡數升格入
+`../book-index`，draft 側只剩五欄的墓碑（`schema_version`／`id`／`type`／
+`primary_name`／`_promoted_to`／`_promoted_at`）。這改變三件事：
+
+1. **要考人物，去 production 讀。** `../book-index/Entity/…`，分片同新制（取 id
+   之**末**三字）。draft 的 `Entity/` 只能告訴你「這個 draft id 升成了哪個
+   production id」，別的什麼都沒有。
+2. **要新建人物，建在 production。** 建 draft 再升格也行，但多兩道手續；
+   若只是補一個人，直接在 `../book-index` 建 official id（type=4、status=0）
+   並寫入 `../book-index/index/entities/*.json` 即可。
+3. **work 的 `authors[].entity_id` 一律指 production entity。** 兩倉的 work 皆然。
+   `chk.py` 的 production 節有一驗盯著這條（基線 0）。
+
+工具：`.claude/skills/hanzhi-curation/scripts/chk_entity.py`（甲乙丙三級的人物層
+校驗）、`scripts/promote_entity.py`（升格，預設只驗不寫）、
+`scripts/clean_entity_works.py`（大批升格後清 `entity.works` 的重複與懸空）。
+
+**併條工具只掃 draft 是個老坑。** entity 全量升格時查出 production 積欠一百二十處
+指向早經併去之 draft entity——歷次併條都只改了 draft，production 側靜默積欠而
+無驗可見。凡改繫、併條、解連，**兩倉一起改**。
+
 ## 九、環境
 
 - 代理只放行 GitHub。**WebSearch 可用，WebFetch 不可用。**

@@ -2,58 +2,7 @@
   "schema_version": 1,
   "id": "1j967bgl7y9u4",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "張說",
-  "alt_names": [
-    {
-      "name": "文貞",
-      "type": "諡號"
-    },
-    {
-      "name": "說之",
-      "type": "字"
-    },
-    {
-      "name": "道濟",
-      "type": "字"
-    }
-  ],
-  "dynasty": "唐",
-  "birth_year": 667,
-  "death_year": 731,
-  "works": [
-    {
-      "work_id": "d59f28kxu41u",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28kvc7pc",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28m6sa9y",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28kz3284",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28k7axvo",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f28ljzymb",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 31407,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+ambiguous_3"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "sui-tang",
-  "period_basis": "據 dynasty「唐」自動歸併",
-  "ai_note": "2026-08-24 宋志頂真格抽撰人：本 entity 收 1 部 work 之繫（其撰人自《宋史藝文志》頂真格之首名抽出，見各 work 之 authors[].name_basis）。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bf9p",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

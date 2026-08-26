@@ -2,67 +2,7 @@
   "schema_version": 1,
   "id": "1j967afjb6ae5",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "王仁裕",
-  "alt_names": [
-    {
-      "name": "德輦",
-      "type": "字"
-    },
-    {
-      "name": "詩窖子",
-      "type": "別名"
-    },
-    {
-      "name": "周王仁裕",
-      "type": "著錄形"
-    }
-  ],
-  "dynasty": "五代",
-  "birth_year": 880,
-  "death_year": 956,
-  "works": [
-    {
-      "work_id": "d59f2gcenw8y",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gcoyq6a",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gc6uyo0",
-      "role": "撰",
-      "title": "入洛記"
-    },
-    {
-      "work_id": "d59f2gc41ts1",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gcl7vnl",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gcnps01",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f24loj953",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gcjcge8",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 91980,
-    "cbdb_match": "manual",
-    "cbdb_source": "name_exact+dy_mismatch_7+work_recall_1.00+ambiguous_3+no_dynasty"
-  },
-  "updated_at": "2026-08-25T00:00:00+00:00",
-  "period": "five-dynasties",
-  "period_basis": "據 dynasty「五代」自動歸併",
-  "ai_note": "2026-08-24 兩漢升格前清賬（撰人繫連補全）：works 補繫 1 條。\n2026-08-24 斷代收窄：本 entity 新收 1 部 work 之繫（撰人自著錄語／宋志頂真格抽出，見各 work 之 authors[].name_basis）。\n\n2026-08-25 孤懸 entity 普查（前綴污染）：庫中別有一孤懸條「周王仁裕」（1j96hfulxxybk），乃志文之銜位、地望、道號、僧號或黏連之字「周」冠於本名之上而成，其名截去前綴即本條之名，且無所繫之 work，本非別人。今去其條，存其著錄形於 alt_names。"
+  "_promoted_to": "hixhd2h9bdqf",
+  "_promoted_at": "2026-08-25T23:18:02Z"
 }

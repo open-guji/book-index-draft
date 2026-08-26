@@ -2,63 +2,7 @@
   "schema_version": 1,
   "id": "1j967avzn7z7o",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "楊億",
-  "alt_names": [
-    {
-      "name": "大年",
-      "type": "字"
-    },
-    {
-      "name": "文",
-      "type": "諡號"
-    }
-  ],
-  "dynasty": "北宋",
-  "birth_year": 974,
-  "death_year": 1020,
-  "works": [
-    {
-      "work_id": "d59f2hjv5atf",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hrcuc5f",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hrwtiwz",
-      "role": "編"
-    },
-    {
-      "work_id": "d59f2hppuhhe",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hgfjbpe",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hqqohky",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hhffm6a",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2hr1lslc",
-      "role": "編"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 7097,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+work_recall_1.00+unique"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "dynasty_basis": "cbdb:birth/death_name=北宋",
-  "period": "song",
-  "period_basis": "据 dynasty「北宋」自动归并",
-  "ai_note": "2026-08-24 補繫 entity：新收 4 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bemz",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

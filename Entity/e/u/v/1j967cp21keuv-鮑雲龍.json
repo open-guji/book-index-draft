@@ -2,43 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp21keuv",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "鮑雲龍",
-  "alt_names": [
-    {
-      "name": "景翔",
-      "type": "字"
-    },
-    {
-      "name": "魯齋",
-      "type": "號"
-    }
-  ],
-  "dynasty": "宋末元初",
-  "birth_year": 1226,
-  "death_year": 1296,
-  "works": [
-    {
-      "work_id": "d59f2gkxterl",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2ge45n9e",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gol8bgg",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 41906,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique"
-  },
-  "updated_at": "2026-08-08T11:51:58+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併",
-  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×3 諸桶。",
-  "ai_note": "2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
+  "_promoted_to": "hixhd2h9bgw0",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

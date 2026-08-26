@@ -2,46 +2,7 @@
   "schema_version": 1,
   "id": "1j967cp1zdr2o",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "習鑿齒",
-  "dynasty": "東晉",
-  "works": [
-    {
-      "work_id": "d59f27w45oua",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27tgn2m8",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27x76cqp",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27vhdd6q",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27wuov0h",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27vtuuwy",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f27vl47pd",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 418976,
-    "cbdb_match": "manual",
-    "cbdb_source": "manual+pid_418976_習鑿齒_dy27"
-  },
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "jin",
-  "period_basis": "據 dynasty「東晉」自動歸併",
-  "ai_note": "2026-08-19 同題異撰人專項（附）：繫連指向已併去之 work 而可由 indexed_by[].merged_from 回溯者 1 條，今改繫其存者。\n2026-08-24 補繫 entity：新收 1 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。"
+  "_promoted_to": "hixhd2h9bgbr",
+  "_promoted_at": "2026-08-25T23:18:03Z"
 }

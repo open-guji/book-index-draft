@@ -2,34 +2,7 @@
   "schema_version": 1,
   "id": "1j96hjwlxcpjc",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "景星",
-  "dynasty": "元",
-  "works": [
-    {
-      "work_id": "d59f2gojcw74",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2j4s30g1",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2j4zvy0y",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2njv22o2",
-      "role": "撰"
-    }
-  ],
-  "ai_note": "CBDB 配對卸除：原繫 cbdb_id=89855（pending_accept: relaxed_ambig cbdb_dy=20 (None-1854)），據以填入朝代「清」、生卒 None~1854、字號別名 夝垣。本人物所繫作品之著錄朝代皆作「元」，與之完全不相交，且該配對狀態為 pending_accept（自動比對而未接受），判為同名誤配。今卸除 CBDB 所帶之全部斷言，朝代改依著錄。原值悉錄於此，可逆。\n\n2026-08-16 CBDB 繫連批二：繫 cbdb 108574。判準為同期同名唯一（name_exact+dy_match+unique，與本庫既有三千餘條同一判準）——CBDB 中朝代與本條相容之同名者僅此一人。該號記：元，籍貫餘姚州。\n2026-08-24 補繫 entity：新收 2 部 work 之繫——此輩 work 之 authors 舊有其名而無 entity_id，今以同名唯一（或別名唯一）補之。\n2026-08-24 新收 1 部 work 之繫——其 authors 有本人之名而未繫，本人之代與其書之代相鄰（一人歷易代），故歸之。",
-  "updated_at": "2026-08-24T00:00:00+00:00",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 dynasty「元」自動歸併",
-  "external_ids": {
-    "cbdb_id": 108574,
-    "cbdb_match": "auto",
-    "cbdb_source": "name_exact+dy_match+unique (batch2 2026-08-16)"
-  }
+  "_promoted_to": "hixhd2h9bmf5",
+  "_promoted_at": "2026-08-25T23:18:05Z"
 }

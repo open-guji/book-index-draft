@@ -2,53 +2,7 @@
   "schema_version": 1,
   "id": "1j967avzl1bfa",
   "type": "entity",
-  "subtype": "people",
   "primary_name": "趙順孫",
-  "alt_names": [
-    {
-      "name": "和仲",
-      "type": "字"
-    },
-    {
-      "name": "格菴先生",
-      "type": "號"
-    },
-    {
-      "name": "格齋先生",
-      "type": "號"
-    }
-  ],
-  "dynasty": "宋末元初",
-  "works": [
-    {
-      "work_id": "d59f2gomh9mo",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gm1rsaq",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gktrbpd",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gi6v6kh",
-      "role": "撰"
-    },
-    {
-      "work_id": "d59f2gl6k1z4",
-      "role": "撰"
-    }
-  ],
-  "external_ids": {
-    "cbdb_id": 50974,
-    "cbdb_match": "manual",
-    "cbdb_source": "manual+pid_50974_趙順孫_dy15"
-  },
-  "updated_at": "2026-08-09T09:33:12+00:00",
-  "dynasty_basis": "L5 斷代歸一（2026-08-25 遼金元輪）：本欄舊作「元」，而其書之著錄源《欽定四庫全書總目》作「宋某某」。二說皆非全誤——其人是**過渡期人物**，生於前朝而書成於後朝（或反之）。庫中本有「宋末元初」一值正為此設，今歸之。確證：其人名下之 work 同時分居 liao-jin-yuan×5 諸桶。",
-  "period": "liao-jin-yuan",
-  "period_basis": "synonym",
-  "ai_note": "[ljy-round1: period null→liao-jin-yuan; 據 dynasty=元 派生]\n\n2026-08-25 遼金元 L5：dynasty 由「元」歸一為「宋末元初」。判據見 dynasty_basis。其名下 work 之 authors[].dynasty 同步。"
+  "_promoted_to": "hixhd2h9be42",
+  "_promoted_at": "2026-08-25T23:18:02Z"
 }

@@ -735,7 +735,9 @@ if _PR_ROOT:
             if isinstance(_d,dict) and _d.get('id'):
                 _pw[_d['id']]=(_d,_p)
                 if _d.get('title'): _pt.setdefault(_d['id'],_d['title'])
-    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]
+    _pdrift=[]; _pdup=[]; _pbk=[]; _pdir=[]; _pfmt=[]; _pdang=[]; _pent=[]; _pback=[]
+    # production 之 entity 全表（2026-08-25 entity 全量升格後立）
+    _pe={_i for _i,(_d,_) in _pw.items() if _d.get('type')=='entity'}
     for _i,(_d,_p) in _pw.items():
         if list(_i[-3:])!=_p.split('/')[-4:-1]: _pdir.append(_p)
         _raw=io.open(_p,encoding='utf-8').read() if 'io' in dir() else open(_p,encoding='utf-8').read()
@@ -756,6 +758,15 @@ if _PR_ROOT:
             _seen.add(_k)
         for _b in (_d.get('books') or []):
             if _b not in _pw and _b not in IB: _pbk.append((_i,_b))
+        # 2026-08-25 增：production 之 work，其 authors[].entity_id 必指 production 之 entity。
+        # 立此驗之由：entity 全量升格之時，查出 production 側積欠 120 處指向 draft
+        # 之舊 id（其條早經併去而 production 未同步）——併條工具自來只掃 draft，
+        # 此類靜默積欠遂無驗可見。修法：以名（必要時並以朝代）求之 production 而改繫，
+        # 名不可復原者（缺字符、「某某等」之連書）但去 entity_id 而存其名。
+        if _d.get('type')=='work':
+            for _a in (_d.get('authors') or []):
+                if isinstance(_a,dict) and _a.get('entity_id') and _a['entity_id'] not in _pe:
+                    _pent.append((_i,_a.get('name'),_a['entity_id']))
     print('── production ──')
     print('  books 指向不存在之 Book',len(_pbk),'　基線 0')
     for x in _pbk[:6]: print('     ',x)
@@ -765,5 +776,7 @@ if _PR_ROOT:
     for x in _pdrift[:6]: print('     ',x)
     print('  related_works (id,relation) 重複',len(_pdup),'　基線 0')
     for x in _pdup[:6]: print('     ',x)
+    print('  work 之 authors[].entity_id 不指 production entity',len(_pent),'　基線 0（2026-08-25 entity 全量升格後全清 120 處）')
+    for x in _pent[:6]: print('     ',x)
     print('  目錄分片錯置',len(_pdir),'　基線 0')
     print('  JSON 缺檔尾換行',len(_pfmt),'　基線 0（2026-08-23 production 格式歸一竣工，586 檔）')
