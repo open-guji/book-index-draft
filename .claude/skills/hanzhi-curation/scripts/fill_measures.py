@@ -10,6 +10,9 @@
 已有 measure_info 而與著錄不符者一律棄權，不覆寫。
 """
 import json, os, re, sys, collections
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import sectype
 
 LUE = sys.argv[1] if len(sys.argv) > 1 else None
 if not LUE: sys.exit('用法：fill_measures.py <略名> [--go]')
@@ -40,10 +43,13 @@ for s in '0123456789abcdef': IW.update(IWX[s])
 d = json.load(open(HZ))
 cur = None; E = []; XU = collections.defaultdict(list)
 for s in d['sections']:
-    k = s.get('type')
-    if k == '类': cur = s['title'][2:]
-    elif k == '书': E.append((cur, s['title'], s.get('work_id')))
-    elif k in ('结语', '序', '小序'):
+    # 經 sectype 歸一，兼認新舊兩制。**原寫死簡體 `'书'`**，那 3,415 條 `書`
+    # （全在《直齋書錄解題》一部）一直被靜默漏掉——不報錯，只是那部整理本
+    # 在此腳本眼裡是空的。2026-08-26 改。
+    k = sectype.canon(s.get('type'))
+    if k == 'category': cur = s['title'][2:]
+    elif k == 'book': E.append((cur, s['title'], s.get('work_id')))
+    elif k in ('tally', 'preface'):
         for m in re.finditer(rf'右(.{{0,6}}?)({NUM}+)家[，,]?({NUM}+)([篇卷])', s.get('content') or ''):
             XU[cur].append((cn2num(m.group(2)), cn2num(m.group(3)), m.group(4)))
 

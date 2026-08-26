@@ -3,6 +3,27 @@
 这两略 json 只有 type="类" 和 type="书"，没有任何 type="结语" 的 section，
 对照维基文库原文，在每个类 section 后面插入对应的小序，末尾加一个略结尾。
 """
+import os as _os, sys as _sys
+def _find_sectype():
+    """自本檔往上尋 `book-index-draft/.claude/.../scripts`。
+
+    **不可用 `expanduser('~/...')`**：本環境之 $HOME 是 /root 而工作區在
+    /home/user，`~` 展開即落空，一跑就 ImportError。亦不可寫死相對層數——
+    諸腳本散在不同深度。故自本檔之目錄逐級上溯尋之。"""
+    d = _os.path.dirname(_os.path.abspath(__file__))
+    for _ in range(8):
+        for c in (_os.path.join(d, '.claude', 'skills', 'hanzhi-curation', 'scripts'),
+                  _os.path.join(d, 'book-index-draft', '.claude', 'skills',
+                                'hanzhi-curation', 'scripts')):
+            if _os.path.exists(_os.path.join(c, 'sectype.py')):
+                return c
+        nd = _os.path.dirname(d)
+        if nd == d:
+            break
+        d = nd
+    raise ImportError('尋不著 sectype.py——工作區佈局變了？')
+_sys.path.insert(0, _find_sectype())
+import sectype   # 節之 type 新舊兩制之歸一（2026-08 英文枚舉遷移期）
 import json
 from pathlib import Path
 
@@ -12,7 +33,7 @@ def insert_summaries(jp: Path, summaries_after_class: dict, final_summary: dict)
     new_sections = []
     current_class = None
     for sec in j['sections']:
-        if sec.get('type') == '类':
+        if sectype.canon(sec.get('type')) == 'category':
             if current_class and current_class in summaries_after_class:
                 new_sections.append(summaries_after_class[current_class])
             current_class = sec.get('title')
@@ -27,11 +48,11 @@ def insert_summaries(jp: Path, summaries_after_class: dict, final_summary: dict)
 
 
 def _xu(content: str):
-    return {'title': '小序', 'level': 2, 'type': '结语', 'content': content}
+    return {'title': '小序', 'level': 2, 'type': 'tally', 'content': content}   # 舊值 '结语'
 
 
 def _zongjie(title: str, content: str):
-    return {'title': title, 'level': 1, 'type': '结语', 'content': content}
+    return {'title': title, 'level': 1, 'type': 'tally', 'content': content}   # 舊值 '结语'
 
 
 BINGSHU_XU = {

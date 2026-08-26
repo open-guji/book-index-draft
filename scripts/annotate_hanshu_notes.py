@@ -9,6 +9,27 @@
 
 已手工精修的卷（六藝略/方技略/總序）不动。
 """
+import os as _os, sys as _sys
+def _find_sectype():
+    """自本檔往上尋 `book-index-draft/.claude/.../scripts`。
+
+    **不可用 `expanduser('~/...')`**：本環境之 $HOME 是 /root 而工作區在
+    /home/user，`~` 展開即落空，一跑就 ImportError。亦不可寫死相對層數——
+    諸腳本散在不同深度。故自本檔之目錄逐級上溯尋之。"""
+    d = _os.path.dirname(_os.path.abspath(__file__))
+    for _ in range(8):
+        for c in (_os.path.join(d, '.claude', 'skills', 'hanzhi-curation', 'scripts'),
+                  _os.path.join(d, 'book-index-draft', '.claude', 'skills',
+                                'hanzhi-curation', 'scripts')):
+            if _os.path.exists(_os.path.join(c, 'sectype.py')):
+                return c
+        nd = _os.path.dirname(d)
+        if nd == d:
+            break
+        d = nd
+    raise ImportError('尋不著 sectype.py——工作區佈局變了？')
+_sys.path.insert(0, _find_sectype())
+import sectype   # 節之 type 新舊兩制之歸一（2026-08 英文枚舉遷移期）
 import json
 import re
 from pathlib import Path
@@ -55,7 +76,7 @@ def process(juan_path: Path) -> int:
     j = json.loads(juan_path.read_text(encoding='utf-8'))
     changed = 0
     for sec in j.get('sections', []):
-        if sec.get('type') == '书':
+        if sectype.is_book(sec.get('type')):
             original = sec.get('content', '')
             annotated = annotate(original)
             if annotated != original:

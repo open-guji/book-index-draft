@@ -84,7 +84,7 @@ def main():
         if x['lun']:
             parts.append(x['lun'])
         sec = {'title': x['head'], 'level': 3 if is_book else 4,
-               'type': '书' if is_book else '论',
+               'type': 'book' if is_book else 'comment',   # 舊值 '书'／'论'
                'content': '\n'.join(parts), 'juan': x['juan'], 'page': x['page']}
         if is_book:
             n_book += 1
