@@ -429,7 +429,16 @@ _EXIST_B=set(IB)|prod
 # 而此集原只取 draft 之 IC，遂盡報落空——實測 19 處，其目標**皆在
 # production 且皆存在**，是驗之洞非資料之損。Work／Book 兩類早已備
 # production 側之集（_EXIST_W／_EXIST_B 皆併 prod），此處漏之。
-_COLL=set(IC)|prod
+#
+# **然不可照抄作 `set(IC)|prod`**（2026-08-26 當日即因此而誤，同日查出改正）。
+# 二集性質不同：`_EXIST_B` 問「此 id 存在否」，寧多勿少，併 `prod`（全部升格
+# id，work／book／collection 皆在內）無害；`_COLL` 問「此 id **是** Collection
+# 否」，是**肯定性判斷**，併之則凡已升格之 work 皆被斷為叢書。且下方
+# `if w in _COLL: … continue` 排在 `_EXIST_W` 之前，遂把正常情形整個遮住——
+# 實測 `_COLL` 由當有之 126 膨脹至 122,877，此驗報 101,466（全庫 section 之
+# 七成），真出一條亦淹沒其中，自立驗之日起即是瞎的。
+# 通則：**存在性之集可寧濫勿缺，分類性之集不可**。
+_COLL=set(IC)|{v['production_id'] for k,v in _PR.items() if k in IC}
 if _PROD_ROOT:
     for _p in glob.glob(_PROD_ROOT+'/Collection/*/*/*/*.json'):
         _COLL.add(os.path.basename(_p).split('-',1)[0])
@@ -473,8 +482,7 @@ for f in _CE_FILES:
             dang[_ce_owner(f)]+=1; dang_ids.add(b)
 print('整理本繫連落空 section',sum(dang.values()),'相異 id',len(dang_ids),'其中實為 Book',dang_is_book)
 print('整理本節之 work_id 實指 Collection',_sec2coll,'相異 id',len(_coll_ids),
-      '　基線 0（叢書當用 collection_id，見 SCHEMA〈整理本 section 的四個指涉欄位〉）'
-      '　※ 2026-08-26 起兩倉並掃，數較昔大')
+      '　基線 0（叢書當用 collection_id，見 SCHEMA〈整理本 section 的四個指涉欄位〉）')
 for k,v in dang.most_common(6): print('  ',k,v)
 
 # 整理本 section 級磁鐵：同一檔內，數個異題 section 共指一 work
