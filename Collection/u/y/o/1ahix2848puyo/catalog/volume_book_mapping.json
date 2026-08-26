@@ -4,49 +4,55 @@
   "title": "武英殿聚珍版叢書",
   "resource_id": "catalog",
   "resource_name": "聚珍版叢書書目",
-  "total_volumes": 2416,
+  "source": {
+    "holding": "中國國家圖書館",
+    "shanben_no": "02324",
+    "title": "武英殿聚珍版叢書一百四十一種",
+    "edition": "清乾隆武英殿木活字印本（目錄配清抄本）",
+    "volumes": 964,
+    "url": "https://commons.wikimedia.org/wiki/Category:%E6%AD%A6%E8%8B%B1%E6%AE%BF%E8%81%9A%E7%8F%8D%E7%89%88%E5%8F%A2%E6%9B%B8%E4%B8%80%E7%99%BE%E5%9B%9B%E5%8D%81%E4%B8%80%E7%A8%AE",
+    "details": "本書目據該帙 964 冊掃描件逐冊 toc 重建，books[].volumes 即各目在該帙中的冊次。第1冊為全書總目錄，不屬任何子目，故 volumes_covered 為 963。"
+  },
+  "total_volumes": 964,
   "sections": [
     {
       "name": "經部",
-      "count": 31
+      "count": 32
     },
     {
       "name": "史部",
-      "count": 27
+      "count": 29
     },
     {
       "name": "子部",
-      "count": 37
+      "count": 38
     },
     {
       "name": "集部",
-      "count": 43
+      "count": 45
     }
   ],
   "stats": {
-    "total_books": 138,
-    "matched_works": 138,
+    "total_books": 144,
+    "matched_works": 144,
     "unmatched_works": 0,
-    "total_juan": 3450
+    "total_juan": 2592,
+    "total_volumes": 964,
+    "volumes_covered": 963
   },
   "books": [
-    {
-      "title": "易緯八種",
-      "book_id": "11q6si59ycpa8",
-      "work_id": "1ev794a3lczr4",
-      "section": "经部",
-      "juan_count": 12,
-      "edition": "武英殿聚珍版",
-      "author": "佚名",
-      "dynasty": "漢",
-      "note": "初刻雕版本，非活字本"
-    },
     {
       "title": "周易口訣義",
       "book_id": "11q6si5afir5s",
       "work_id": "d59f28mxbgg2",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 6,
+      "volumes": [
+        2,
+        3,
+        4,
+        5
+      ],
       "edition": "武英殿聚珍版",
       "author": "史徵",
       "dynasty": "唐"
@@ -55,291 +61,615 @@
       "title": "易說",
       "book_id": "11q6si5axxr7k",
       "work_id": "d59f2hq2ygaq",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 6,
+      "volumes": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "edition": "武英殿聚珍版",
       "author": "司馬光",
       "dynasty": "宋"
     },
     {
+      "title": "吳園周易解",
+      "book_id": "11s1alscmu680",
+      "work_id": "d59f2hqg2f42",
+      "section": "經部",
+      "juan_count": 9,
+      "volumes": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "張根",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
       "title": "易原",
       "book_id": "11q6si5bgcr9c",
       "work_id": "d59f2hu8h4hs",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 8,
+      "volumes": [
+        16,
+        17,
+        18,
+        19
+      ],
       "edition": "武英殿聚珍版",
       "author": "程大昌",
       "dynasty": "宋"
     },
     {
-      "title": "周易總義",
-      "book_id": "11q6si5byrrb4",
-      "work_id": "d59f2hpr3fnl",
-      "section": "经部",
-      "juan_count": 20,
-      "edition": "武英殿聚珍版",
-      "author": "易祓",
-      "dynasty": "宋"
-    },
-    {
       "title": "郭氏傳家易說",
       "book_id": "11q6si5cg91q8",
-      "work_id": "1ev794a3ygykg",
-      "section": "经部",
+      "work_id": "d59f2htcy5mp",
+      "section": "經部",
       "juan_count": 11,
+      "volumes": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
       "edition": "武英殿聚珍版",
       "author": "郭雍",
       "dynasty": "宋"
     },
     {
+      "title": "誠齋易傳",
+      "book_id": "11s1alscmu681",
+      "work_id": "d59f2hpicsg1",
+      "section": "經部",
+      "juan_count": 20,
+      "volumes": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "楊萬里",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "易象意言",
+      "book_id": "11s1alscmu682",
+      "work_id": "d59f2hqwlzwj",
+      "section": "經部",
+      "juan_count": 1,
+      "volumes": [
+        36
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "蔡淵",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
       "title": "易學濫觴",
       "book_id": "11q6si5cwhdz4",
       "work_id": "d59f2gp49sld",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 1,
+      "volumes": [
+        37
+      ],
       "edition": "武英殿聚珍版",
       "author": "黃澤",
       "dynasty": "元"
     },
     {
-      "title": "三易備遺",
-      "book_id": "11q6si5dgrta8",
-      "work_id": "d59f2hrsrfup",
-      "section": "经部",
-      "juan_count": 10,
+      "title": "易緯八種",
+      "book_id": "11q6si59ycpa8",
+      "work_id": "d59f24m8tog6",
+      "section": "經部",
+      "juan_count": 12,
+      "volumes": [
+        38,
+        39,
+        40,
+        41
+      ],
       "edition": "武英殿聚珍版",
-      "author": "朱元升",
-      "dynasty": "宋"
+      "author": "佚名",
+      "dynasty": "",
+      "toc_title": "易緯"
     },
     {
       "title": "禹貢指南",
       "book_id": "11q6si5e04iyo",
       "work_id": "d59f2htikfep",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 4,
+      "volumes": [
+        42,
+        43
+      ],
       "edition": "武英殿聚珍版",
       "author": "毛晃",
       "dynasty": "宋"
     },
     {
+      "title": "禹貢說斷",
+      "book_id": "11s1alscmu683",
+      "work_id": "d59f2hq89hj6",
+      "section": "經部",
+      "juan_count": 4,
+      "volumes": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "傅寅",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
       "title": "尚書詳解",
       "book_id": "11q6si5el1fcw",
       "work_id": "d59f2htvd5og",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 26,
+      "volumes": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
       "edition": "武英殿聚珍版",
       "author": "夏僎",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "尙書詳解",
+      "note": "第48–63冊，夏僎二十六卷本；本帙第64–75冊別為陳經五十卷本，見次條"
+    },
+    {
+      "title": "陳氏尚書詳解",
+      "book_id": "11s1alscmu684",
+      "work_id": "d59f2hpziubl",
+      "section": "經部",
+      "juan_count": 50,
+      "volumes": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "陳經",
+      "dynasty": "宋",
+      "toc_title": "尙書詳解",
+      "note": "2026-08-26 新立成員條目；第64–75冊，陳經五十卷本，2026-08-26 自舊「第48–75冊」一目析出"
+    },
+    {
+      "title": "融堂書解",
+      "book_id": "11s1alscmu685",
+      "work_id": "d59f2hu2uupu",
+      "section": "經部",
+      "juan_count": 20,
+      "volumes": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "錢時",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "詩總聞",
       "book_id": "11q6si5f5buo0",
       "work_id": "d59f2hsicwe8",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 20,
+      "volumes": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
       "edition": "武英殿聚珍版",
       "author": "王質",
       "dynasty": "宋"
     },
     {
-      "title": "詩傳旁通",
-      "book_id": "11q6si5fq8r28",
-      "work_id": "d59f2goz9zwh",
-      "section": "经部",
-      "juan_count": 15,
+      "title": "續呂氏家塾讀詩記",
+      "book_id": "11s1alscmu686",
+      "work_id": "d59f2huumz28",
+      "section": "經部",
+      "juan_count": 3,
+      "volumes": [
+        86,
+        87,
+        88
+      ],
       "edition": "武英殿聚珍版",
-      "author": "梁益",
-      "dynasty": "宋"
+      "author": "戴溪",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "欽定詩經樂譜全書",
-      "book_id": "11q6si5gcelmo",
-      "work_id": "d59f2movr1ts",
-      "section": "经部",
-      "juan_count": 30,
+      "title": "絜齋毛詩經筵講義",
+      "book_id": "11s1alscmu687",
+      "work_id": "d59f2hsjlukg",
+      "section": "經部",
+      "juan_count": 4,
+      "volumes": [
+        89,
+        90
+      ],
       "edition": "武英殿聚珍版",
-      "author": "敕撰",
-      "dynasty": "清"
+      "author": "袁燮",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "儀禮識誤",
+      "book_id": "11s1alscmu688",
+      "work_id": "d59f2hsxyrk1",
+      "section": "經部",
+      "juan_count": 3,
+      "volumes": [
+        91,
+        92
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "張淳",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "儀禮集釋",
       "book_id": "11q6si5gutlog",
       "work_id": "d59f2huansao",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 30,
+      "volumes": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
       "edition": "武英殿聚珍版",
       "author": "李如圭",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "note": "第101冊末附《儀禮釋宮》一卷"
+    },
+    {
+      "title": "儀禮釋宮",
+      "book_id": "11s1alscmu689",
+      "work_id": "d59f2hugwj5t",
+      "section": "經部",
+      "juan_count": 1,
+      "volumes": [
+        101
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "李如圭",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目；與《儀禮集釋》同居第101冊"
     },
     {
       "title": "大戴禮記",
       "book_id": "11q6si5hessg0",
       "work_id": "d59f1ikv0g74",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 13,
+      "volumes": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
       "edition": "武英殿聚珍版",
       "author": "戴德",
-      "dynasty": "漢"
-    },
-    {
-      "title": "春秋經解",
-      "book_id": "11q6si5hxj11c",
-      "work_id": "d59f2hq0gjya",
-      "section": "经部",
-      "juan_count": 15,
-      "edition": "武英殿聚珍版",
-      "author": "孫覺",
-      "dynasty": "宋"
-    },
-    {
-      "title": "春秋繁露",
-      "book_id": "11q6si5igvqps",
-      "work_id": "d59f1iqqc3y8",
-      "section": "经部",
-      "juan_count": 17,
-      "edition": "武英殿聚珍版",
-      "author": "董仲舒",
       "dynasty": "漢"
     },
     {
       "title": "春秋釋例",
       "book_id": "11q6si5j1sn40",
       "work_id": "d59f27x5axhe",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 15,
+      "volumes": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
       "edition": "武英殿聚珍版",
       "author": "杜預",
       "dynasty": "晉"
     },
     {
-      "title": "春秋比事",
-      "book_id": "11q6si5jl5csg",
-      "work_id": "d59f2hq0gjy9",
-      "section": "经部",
-      "juan_count": 20,
+      "title": "春秋傳說例",
+      "book_id": "11s1alscmu68a",
+      "work_id": "d59f2hua1b7k",
+      "section": "經部",
+      "juan_count": 1,
+      "volumes": [
+        116
+      ],
       "edition": "武英殿聚珍版",
-      "author": "沈棐",
+      "author": "劉敞",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目；所繫 Work《劉氏春秋傳》十五卷與本帙所收《春秋傳說例》一卷非一書，待別立 Work"
+    },
+    {
+      "title": "春秋經解",
+      "book_id": "11q6si5hxj11c",
+      "work_id": "d59f2hq0gjya",
+      "section": "經部",
+      "juan_count": 15,
+      "volumes": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "孫覺",
       "dynasty": "宋"
     },
     {
-      "title": "春秋左傳要義",
-      "book_id": "11q6si5k4i2gw",
-      "work_id": "d59f2hs3zzeo",
-      "section": "经部",
-      "juan_count": 31,
+      "title": "春秋辨疑",
+      "book_id": "11s1alscmu68b",
+      "work_id": "d59f2hqd9a80",
+      "section": "經部",
+      "juan_count": 4,
+      "volumes": [
+        123
+      ],
       "edition": "武英殿聚珍版",
-      "author": "魏了翁",
-      "dynasty": "宋"
+      "author": "蕭楚",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "春秋考",
       "book_id": "11q6si5kn8b28",
       "work_id": "d59f2hsbhog1",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 16,
+      "volumes": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
       "edition": "武英殿聚珍版",
       "author": "葉夢得",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "春秋攷"
     },
     {
-      "title": "論語意原",
-      "book_id": "11q6si5l6w9a8",
-      "work_id": "d59f2hqei8e9",
-      "section": "经部",
-      "juan_count": 4,
+      "title": "春秋集注",
+      "book_id": "11s1alscmu68c",
+      "work_id": "d59f2hta50qr",
+      "section": "經部",
+      "juan_count": 40,
+      "volumes": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
       "edition": "武英殿聚珍版",
-      "author": "鄭汝諧",
-      "dynasty": "宋"
+      "author": "高閌",
+      "dynasty": "南宋",
+      "toc_title": "春秋集註",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "孟子音義",
-      "book_id": "11q6si5lqk7i8",
-      "work_id": "d59f2hqqd91e",
-      "section": "经部",
-      "juan_count": 2,
+      "title": "春秋繁露",
+      "book_id": "11q6si5igvqps",
+      "work_id": "d59f1iqqc3y8",
+      "section": "經部",
+      "juan_count": 17,
+      "volumes": [
+        146,
+        147,
+        148,
+        149
+      ],
       "edition": "武英殿聚珍版",
-      "author": "孫奭",
-      "dynasty": "宋"
-    },
-    {
-      "title": "五經算術",
-      "book_id": "11q6si5mcetj4",
-      "work_id": "d59f286tnrpe",
-      "section": "经部",
-      "juan_count": 2,
-      "edition": "武英殿聚珍版",
-      "author": "甄鸞",
-      "dynasty": "北周"
-    },
-    {
-      "title": "方言",
-      "book_id": "11q6si5mzidq8",
-      "work_id": "d59f206kbcow",
-      "section": "经部",
-      "juan_count": 13,
-      "edition": "武英殿聚珍版",
-      "author": "揚雄",
+      "author": "董仲舒",
       "dynasty": "漢"
-    },
-    {
-      "title": "急就篇",
-      "book_id": "11q6si5njst1c",
-      "work_id": "d59f1ir3rbb4",
-      "section": "经部",
-      "juan_count": 4,
-      "edition": "武英殿聚珍版",
-      "author": "史游",
-      "dynasty": "漢"
-    },
-    {
-      "title": "九經三傳沿革例",
-      "book_id": "11q6si5o2ua68",
-      "work_id": "1ev794a53zitc",
-      "section": "经部",
-      "juan_count": 1,
-      "edition": "武英殿聚珍版",
-      "author": "岳珂",
-      "dynasty": "宋"
-    },
-    {
-      "title": "經典釋文",
-      "book_id": "11q6si5om6zuo",
-      "work_id": "d59f28j8nll0",
-      "section": "经部",
-      "juan_count": 30,
-      "edition": "武英殿聚珍版",
-      "author": "陸德明",
-      "dynasty": "唐"
-    },
-    {
-      "title": "七經孟子考文補遺",
-      "book_id": "11q6si5p5uy2o",
-      "work_id": "d59f2pz8vz0h",
-      "section": "经部",
-      "juan_count": 200,
-      "edition": "武英殿聚珍版",
-      "author": "山井鼎",
-      "dynasty": "日本"
     },
     {
       "title": "鄭志",
       "book_id": "11q6si5ps0sn4",
       "work_id": "d59f208g1ukg",
-      "section": "经部",
+      "section": "經部",
       "juan_count": 3,
+      "volumes": [
+        150
+      ],
       "edition": "武英殿聚珍版",
       "author": "鄭小同",
       "dynasty": "魏"
     },
     {
-      "title": "爾雅翼",
-      "book_id": "11q6si5qehvr4",
-      "work_id": "d59f2huvvx8h",
-      "section": "经部",
-      "juan_count": 32,
+      "title": "論語意原",
+      "book_id": "11q6si5l6w9a8",
+      "work_id": "d59f2hqei8e9",
+      "section": "經部",
+      "juan_count": 4,
+      "volumes": [
+        151,
+        152
+      ],
       "edition": "武英殿聚珍版",
-      "author": "羅願",
+      "author": "鄭汝諧",
       "dynasty": "宋"
+    },
+    {
+      "title": "欽定詩經樂譜全書",
+      "book_id": "11q6si5gcelmo",
+      "work_id": "d59f2movr1ts",
+      "section": "經部",
+      "juan_count": 30,
+      "volumes": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "敕撰",
+      "dynasty": "清"
+    },
+    {
+      "title": "方言",
+      "book_id": "11q6si5mzidq8",
+      "work_id": "d59f206kbcow",
+      "section": "經部",
+      "juan_count": 13,
+      "volumes": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "揚雄",
+      "dynasty": "漢",
+      "toc_title": "方言注"
+    },
+    {
+      "title": "兩漢刊誤補遺",
+      "book_id": "11s1alscmu68d",
+      "work_id": "d59f2hpuj1mo",
+      "section": "史部",
+      "juan_count": 10,
+      "volumes": [
+        179,
+        180,
+        181,
+        182
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "吳仁傑",
+      "dynasty": "南宋",
+      "toc_title": "雨漢刊誤補遺",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "三國志辨誤",
+      "book_id": "11s1alscmu68e",
+      "work_id": "d59f2hrjebk1",
+      "section": "史部",
+      "juan_count": 3,
+      "volumes": [
+        183
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "佚名",
+      "dynasty": "",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "五代史纂誤",
+      "book_id": "11s1alscmu68f",
+      "work_id": "d59f2hs822gx",
+      "section": "史部",
+      "juan_count": 3,
+      "volumes": [
+        184
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "吳縝",
+      "dynasty": "北宋",
+      "toc_title": "五代詩纂誤",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "東觀漢記",
@@ -347,40 +677,77 @@
       "work_id": "d59f2074ajgg",
       "section": "史部",
       "juan_count": 24,
+      "volumes": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
       "edition": "武英殿聚珍版",
       "author": "劉珍等",
       "dynasty": "漢"
     },
     {
-      "title": "漢官舊儀",
-      "book_id": "11q6si5rn4tfk",
-      "work_id": "1ev3bb1v1dmgw",
+      "title": "御選明臣奏議",
+      "book_id": "11q6si7ofeeps",
+      "work_id": "d59f2pydd0qq",
+      "section": "史部",
+      "juan_count": 40,
+      "volumes": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "敕選",
+      "dynasty": "清",
+      "toc_title": "禦選明臣奏議",
+      "note": "《御選明臣奏議》四十卷，《四庫全書總目》入史部詔令奏議類奏議之屬，舊目誤作集部"
+    },
+    {
+      "title": "魏鄭公諫續錄",
+      "book_id": "11q6si607ja4g",
+      "work_id": "d59f2gpaijgh",
       "section": "史部",
       "juan_count": 2,
+      "volumes": [
+        223
+      ],
       "edition": "武英殿聚珍版",
-      "author": "衛宏",
-      "dynasty": "漢",
-      "note": "初刻雕版本"
-    },
-    {
-      "title": "東都事略",
-      "book_id": "11q6si5s8cydc",
-      "work_id": "d59f2hsoln9c",
-      "section": "史部",
-      "juan_count": 130,
-      "edition": "武英殿聚珍版",
-      "author": "王偁",
-      "dynasty": "宋"
-    },
-    {
-      "title": "續後漢書",
-      "book_id": "11q6si5su7ke8",
-      "work_id": "d59f2htysrnl",
-      "section": "史部",
-      "juan_count": 90,
-      "edition": "武英殿聚珍版",
-      "author": "蕭常",
-      "dynasty": "宋"
+      "author": "翟思忠",
+      "dynasty": "元",
+      "toc_title": "魏鄭公諌續"
     },
     {
       "title": "元朝名臣事略",
@@ -388,9 +755,209 @@
       "work_id": "d59f2go1kd8g",
       "section": "史部",
       "juan_count": 15,
+      "volumes": [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
       "edition": "武英殿聚珍版",
       "author": "蘇天爵",
       "dynasty": "元"
+    },
+    {
+      "title": "鄴中記",
+      "book_id": "11s1alscmu68g",
+      "work_id": "d59f27x4oge8",
+      "section": "史部",
+      "juan_count": 1,
+      "volumes": [
+        232
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "陸翽",
+      "dynasty": "東晉",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "蠻書",
+      "book_id": "11q6si5xkbwg0",
+      "work_id": "d59f28jxbchv",
+      "section": "史部",
+      "juan_count": 10,
+      "volumes": [
+        233,
+        234
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "樊綽",
+      "dynasty": "唐"
+    },
+    {
+      "title": "元和郡縣志",
+      "book_id": "11q6si5vv5dz4",
+      "work_id": "d59f28mcek1v",
+      "section": "史部",
+      "juan_count": 40,
+      "volumes": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "李吉甫",
+      "dynasty": "唐"
+    },
+    {
+      "title": "九域志",
+      "book_id": "11q6si610kcn4",
+      "work_id": "d59f2hpd1r7l",
+      "section": "史部",
+      "juan_count": 10,
+      "volumes": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王存等",
+      "dynasty": "宋",
+      "toc_title": "元豐九域志"
+    },
+    {
+      "title": "輿地廣記",
+      "book_id": "11s1alscmu68h",
+      "work_id": "d59f2hrfnh1f",
+      "section": "史部",
+      "juan_count": 38,
+      "volumes": [
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "歐陽忞",
+      "dynasty": "宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "水經注",
+      "book_id": "11q6si5vb677k",
+      "work_id": "d59f283z9xj8",
+      "section": "史部",
+      "juan_count": 40,
+      "volumes": [
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "酈道元",
+      "dynasty": "北魏"
+    },
+    {
+      "title": "嶺表錄異",
+      "book_id": "11s1alscmu68i",
+      "work_id": "d59f28krld6q",
+      "section": "史部",
+      "juan_count": 3,
+      "volumes": [
+        283
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "劉恂",
+      "dynasty": "唐",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "琉球國志略",
+      "book_id": "11s1alscmu68j",
+      "work_id": "d59f2mqht6v6",
+      "section": "史部",
+      "juan_count": 16,
+      "volumes": [
+        284,
+        285,
+        286,
+        287,
+        288,
+        289
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "周煌",
+      "dynasty": "清",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "續琉球國志略",
+      "book_id": "11q6si66kngu8",
+      "work_id": "d59f2movr1tt",
+      "section": "史部",
+      "juan_count": 5,
+      "volumes": [
+        290,
+        291,
+        292,
+        293
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "齊鯤、費錫章",
+      "dynasty": "清",
+      "toc_title": "續琉球國志畧"
+    },
+    {
+      "title": "麟臺故事",
+      "book_id": "11s1alscn5erk",
+      "work_id": "d59f2ht2yk8z",
+      "section": "史部",
+      "juan_count": 5,
+      "volumes": [
+        294
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "程俱",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "唐會要",
@@ -398,8 +965,106 @@
       "work_id": "d59f2hudgx6p",
       "section": "史部",
       "juan_count": 100,
+      "volumes": [
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318
+      ],
       "edition": "武英殿聚珍版",
       "author": "王溥",
+      "dynasty": "宋"
+    },
+    {
+      "title": "五代會要",
+      "book_id": "11s1alscn5erl",
+      "work_id": "d59f2hu9q2o1",
+      "section": "史部",
+      "juan_count": 30,
+      "volumes": [
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王溥",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "宋朝事實",
+      "book_id": "11s1alscn5erm",
+      "work_id": "d59f2hr2uqrl",
+      "section": "史部",
+      "juan_count": 20,
+      "volumes": [
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "李攸",
+      "dynasty": "宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "建炎以來朝野雜記",
+      "book_id": "11q6si5zfr5s0",
+      "work_id": "d59f2hqmxn2a",
+      "section": "史部",
+      "juan_count": 40,
+      "volumes": [
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "李心傳",
       "dynasty": "宋"
     },
     {
@@ -408,200 +1073,121 @@
       "work_id": "d59f2ht05fcx",
       "section": "史部",
       "juan_count": 70,
+      "volumes": [
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368
+      ],
       "edition": "武英殿聚珍版",
       "author": "徐天麟",
       "dynasty": "宋"
     },
     {
-      "title": "水經注",
-      "book_id": "11q6si5vb677k",
-      "work_id": "d59f283z9xj8",
+      "title": "東漢會要",
+      "book_id": "11s1alscn5ern",
+      "work_id": "d59f2ht70nb5",
       "section": "史部",
       "juan_count": 40,
+      "volumes": [
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
       "edition": "武英殿聚珍版",
-      "author": "酈道元",
-      "dynasty": "北魏"
+      "author": "徐天麟",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "元和郡縣志",
-      "book_id": "11q6si5vv5dz4",
-      "work_id": "1ev794a5fujgg",
-      "section": "史部",
-      "juan_count": 40,
-      "edition": "武英殿聚珍版",
-      "author": "李吉甫",
-      "dynasty": "唐"
-    },
-    {
-      "title": "太平寰宇記",
-      "book_id": "11q6si5wcbfuo",
-      "work_id": "d59f2htj6whv",
-      "section": "史部",
-      "juan_count": 200,
-      "edition": "武英殿聚珍版",
-      "author": "樂史",
-      "dynasty": "宋"
-    },
-    {
-      "title": "吳地記",
-      "book_id": "11q6si5wy61vk",
-      "work_id": "d59f28lfbegy",
-      "section": "史部",
-      "juan_count": 1,
-      "edition": "武英殿聚珍版",
-      "author": "陸廣微",
-      "dynasty": "唐"
-    },
-    {
-      "title": "蠻書",
-      "book_id": "11q6si5xkbwg0",
-      "work_id": "d59f28jxbchv",
-      "section": "史部",
-      "juan_count": 10,
-      "edition": "武英殿聚珍版",
-      "author": "樊綽",
-      "dynasty": "唐"
-    },
-    {
-      "title": "華陽國志",
-      "book_id": "11q6si5y9avwg",
-      "work_id": "d59f27x6jvnn",
-      "section": "史部",
-      "juan_count": 12,
-      "edition": "武英殿聚珍版",
-      "author": "常璩",
-      "dynasty": "晉"
-    },
-    {
-      "title": "通鑑地理通釋",
-      "book_id": "11q6si5yxne9s",
-      "work_id": "1ev794a5sn9q8",
-      "section": "史部",
-      "juan_count": 14,
-      "edition": "武英殿聚珍版",
-      "author": "王應麟",
-      "dynasty": "宋"
-    },
-    {
-      "title": "建炎以來朝野雜記",
-      "book_id": "11q6si5zfr5s0",
-      "work_id": "d59f2hqmxn2a",
-      "section": "史部",
-      "juan_count": 40,
-      "edition": "武英殿聚珍版",
-      "author": "李心傳",
-      "dynasty": "宋"
-    },
-    {
-      "title": "魏鄭公諫續錄",
-      "book_id": "11q6si607ja4g",
-      "work_id": "d59f2gpaijgh",
+      "title": "漢官舊儀",
+      "book_id": "11q6si5rn4tfk",
+      "work_id": "d59f208afksg",
       "section": "史部",
       "juan_count": 2,
+      "volumes": [
+        385
+      ],
       "edition": "武英殿聚珍版",
-      "author": "翟思忠",
-      "dynasty": "元",
-      "note": "初刻雕版本"
+      "author": "衛宏",
+      "dynasty": "漢"
     },
     {
-      "title": "九域志",
-      "book_id": "11q6si610kcn4",
-      "work_id": "d59f2hpd1r7l",
-      "section": "史部",
-      "juan_count": 10,
+      "title": "萬壽衢歌樂章",
+      "book_id": "11q6si7p0xs74",
+      "work_id": "d59f2mow2adc",
+      "section": "集部",
+      "juan_count": 6,
+      "volumes": [
+        386,
+        387
+      ],
       "edition": "武英殿聚珍版",
-      "author": "王存等",
-      "dynasty": "宋"
+      "author": "敕撰",
+      "dynasty": "清",
+      "note": "部類待覆核"
     },
     {
-      "title": "釣磯立談",
-      "book_id": "11q6si61nz5ds",
-      "work_id": "d59f2pspua6a",
-      "section": "史部",
+      "title": "武英殿聚珍版程式",
+      "book_id": "11q6si7pockxs",
+      "work_id": "d59f2mow2add",
+      "section": "子部",
       "juan_count": 1,
+      "volumes": [
+        388
+      ],
       "edition": "武英殿聚珍版",
-      "author": "史繩祖",
-      "dynasty": "宋"
+      "author": "金簡",
+      "dynasty": "清",
+      "toc_title": "欽定武英殿聚珍版程式",
+      "note": "《欽定武英殿聚珍版程式》一卷，《四庫全書總目》入子部譜錄類器物之屬，舊目誤作集部"
     },
     {
-      "title": "太平治迹統類",
-      "book_id": "11q6si62e730g",
-      "work_id": "d59f2htt6hvn",
+      "title": "直齋書錄解題",
+      "book_id": "11s1alscn5ero",
+      "work_id": "d59f2htm01du",
       "section": "史部",
-      "juan_count": 30,
+      "juan_count": 22,
+      "volumes": [
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
+      ],
       "edition": "武英殿聚珍版",
-      "author": "彭百川",
-      "dynasty": "宋"
-    },
-    {
-      "title": "帝王經世圖譜",
-      "book_id": "11q6si62zf7y8",
-      "work_id": "d59f2hs2fsox",
-      "section": "史部",
-      "juan_count": 16,
-      "edition": "武英殿聚珍版",
-      "author": "唐仲友",
-      "dynasty": "宋"
-    },
-    {
-      "title": "奉天錄",
-      "book_id": "11q6si63rttds",
-      "work_id": "d59f28kd8g76",
-      "section": "史部",
-      "juan_count": 4,
-      "edition": "武英殿聚珍版",
-      "author": "趙元一",
-      "dynasty": "唐"
-    },
-    {
-      "title": "北戶錄",
-      "book_id": "11q6si64fjuo0",
-      "work_id": "d59f29k89yww",
-      "section": "史部",
-      "juan_count": 3,
-      "edition": "武英殿聚珍版",
-      "author": "段公路",
-      "dynasty": "唐"
-    },
-    {
-      "title": "嶺外代答",
-      "book_id": "11q6si657yg3k",
-      "work_id": "d59f2hqmxn28",
-      "section": "史部",
-      "juan_count": 10,
-      "edition": "武英殿聚珍版",
-      "author": "周去非",
-      "dynasty": "宋"
-    },
-    {
-      "title": "萬壽盛典",
-      "book_id": "11q6si65y6dq8",
-      "work_id": "d59f2medqo00",
-      "section": "史部",
-      "juan_count": 120,
-      "edition": "武英殿聚珍版",
-      "author": "敕撰",
-      "dynasty": "清"
-    },
-    {
-      "title": "續琉球國志略",
-      "book_id": "11q6si66kngu8",
-      "work_id": "d59f2movr1tt",
-      "section": "史部",
-      "juan_count": 5,
-      "edition": "武英殿聚珍版",
-      "author": "齊鯤、費錫章",
-      "dynasty": "清"
-    },
-    {
-      "title": "國朝宮史續編",
-      "book_id": "11q6si6766ubk",
-      "work_id": "1ev794a7dgglc",
-      "section": "史部",
-      "juan_count": 100,
-      "edition": "武英殿聚珍版",
-      "author": "敕撰",
-      "dynasty": "清"
+      "author": "陳振孫",
+      "dynasty": "南宋",
+      "toc_title": "直齊書錄解題",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "欽定四庫全書考證",
@@ -609,9 +1195,293 @@
       "work_id": "d59dgrvmvrwg",
       "section": "史部",
       "juan_count": 100,
+      "volumes": [
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王太岳",
+      "dynasty": "清"
+    },
+    {
+      "title": "絳帖平",
+      "book_id": "11s1alscn5erp",
+      "work_id": "d59f2hruy3nk",
+      "section": "子部",
+      "juan_count": 6,
+      "volumes": [
+        497,
+        498,
+        499
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "姜夔",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "重刻淳化閣帖釋文",
+      "book_id": "11q6si6wrymf4",
+      "work_id": "d59f2q08h14y",
+      "section": "子部",
+      "juan_count": 10,
+      "volumes": [
+        500,
+        501
+      ],
       "edition": "武英殿聚珍版",
       "author": "敕撰",
-      "dynasty": "清"
+      "dynasty": "清",
+      "toc_title": "欽定重刻淳化閣帖"
+    },
+    {
+      "title": "唐書直筆",
+      "book_id": "11s1alscn5erq",
+      "work_id": "d59f2humu1hd",
+      "section": "史部",
+      "juan_count": 4,
+      "volumes": [
+        502,
+        503
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "呂夏卿",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "傅子",
+      "book_id": "11s1alscn5err",
+      "work_id": "d59f27x5m60x",
+      "section": "子部",
+      "juan_count": 1,
+      "volumes": [
+        504
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "傅玄",
+      "dynasty": "西晉",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "帝範",
+      "book_id": "11q6si6gavqbk",
+      "work_id": "d59f28k7m6f6",
+      "section": "子部",
+      "juan_count": 4,
+      "volumes": [
+        505
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "李世民",
+      "dynasty": "唐"
+    },
+    {
+      "title": "公是弟子記",
+      "book_id": "11s1alscn5ers",
+      "work_id": "d59f2hrzmnsx",
+      "section": "子部",
+      "juan_count": 4,
+      "volumes": [
+        506
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "劉敞",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "明本釋",
+      "book_id": "11s1alscn5ert",
+      "work_id": "d59f2hsfv01u",
+      "section": "子部",
+      "juan_count": 3,
+      "volumes": [
+        507,
+        508,
+        509
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "劉荀",
+      "dynasty": "宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "項氏家說",
+      "book_id": "11q6si6lmuoe8",
+      "work_id": "d59f2hqtsv0i",
+      "section": "子部",
+      "juan_count": 10,
+      "volumes": [
+        510,
+        511,
+        512,
+        513
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "項安世",
+      "dynasty": "宋"
+    },
+    {
+      "title": "農書",
+      "book_id": "11q6si6f0ddds",
+      "work_id": "d59f2goua77m",
+      "section": "子部",
+      "juan_count": 22,
+      "volumes": [
+        514,
+        515,
+        516,
+        517
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王禎",
+      "dynasty": "元"
+    },
+    {
+      "title": "農桑輯要",
+      "book_id": "11s1alscn5eru",
+      "work_id": "d59f2gpusyrk",
+      "section": "子部",
+      "juan_count": 7,
+      "volumes": [
+        518,
+        519,
+        520,
+        521
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "司農司",
+      "dynasty": "元",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "蘇沈良方",
+      "book_id": "11q6si6fmughs",
+      "work_id": "d59f2hqrayo3",
+      "section": "子部",
+      "juan_count": 8,
+      "volumes": [
+        522,
+        523,
+        524,
+        525
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "蘇軾、沈括",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小兒藥證真訣",
+      "book_id": "11s1alscn5erv",
+      "work_id": "d59f2hpuua6a",
+      "section": "子部",
+      "juan_count": 3,
+      "volumes": [
+        526
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "錢乙",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "周髀算經",
@@ -619,8 +1489,12 @@
       "work_id": "d59f2079wt8g",
       "section": "子部",
       "juan_count": 2,
+      "volumes": [
+        527,
+        528
+      ],
       "edition": "武英殿聚珍版",
-      "author": "佚名",
+      "author": "趙爽注",
       "dynasty": "漢"
     },
     {
@@ -629,9 +1503,15 @@
       "work_id": "d59f27ywcv7m",
       "section": "子部",
       "juan_count": 9,
+      "volumes": [
+        529,
+        530,
+        531,
+        532
+      ],
       "edition": "武英殿聚珍版",
-      "author": "佚名",
-      "dynasty": "漢"
+      "author": "劉徽注",
+      "dynasty": "魏"
     },
     {
       "title": "孫子算經",
@@ -639,9 +1519,12 @@
       "work_id": "d59f28mn0mio",
       "section": "子部",
       "juan_count": 3,
+      "volumes": [
+        533
+      ],
       "edition": "武英殿聚珍版",
       "author": "佚名",
-      "dynasty": "南北朝"
+      "dynasty": ""
     },
     {
       "title": "海島算經",
@@ -649,6 +1532,9 @@
       "work_id": "d59f27x68n40",
       "section": "子部",
       "juan_count": 1,
+      "volumes": [
+        534
+      ],
       "edition": "武英殿聚珍版",
       "author": "劉徽",
       "dynasty": "魏"
@@ -659,9 +1545,26 @@
       "work_id": "d59f28jptngl",
       "section": "子部",
       "juan_count": 5,
+      "volumes": [
+        535
+      ],
       "edition": "武英殿聚珍版",
       "author": "佚名",
-      "dynasty": "北周"
+      "dynasty": ""
+    },
+    {
+      "title": "五經算術",
+      "book_id": "11q6si5mcetj4",
+      "work_id": "d59f286tnrpe",
+      "section": "子部",
+      "juan_count": 2,
+      "volumes": [
+        536
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "甄鸞",
+      "dynasty": "北周",
+      "note": "《五經算術》二卷，《四庫全書總目》入子部天文算法類算書之屬，舊目誤作經部"
     },
     {
       "title": "夏侯陽算經",
@@ -669,260 +1572,149 @@
       "work_id": "d59f286ua8sk",
       "section": "子部",
       "juan_count": 3,
+      "volumes": [
+        537
+      ],
       "edition": "武英殿聚珍版",
       "author": "夏侯陽",
       "dynasty": "唐"
     },
     {
-      "title": "數書九章",
-      "book_id": "11q6si6cwipds",
-      "work_id": "d59f2htlosub",
+      "title": "寶真齋法書贊",
+      "book_id": "11s1alscn5erw",
+      "work_id": "d59f2hpoaarl",
       "section": "子部",
-      "juan_count": 18,
+      "juan_count": 28,
+      "volumes": [
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549
+      ],
       "edition": "武英殿聚珍版",
-      "author": "秦九韶",
-      "dynasty": "宋"
+      "author": "岳珂",
+      "dynasty": "南宋",
+      "toc_title": "寶眞齊法書贊",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "測圓海鏡",
-      "book_id": "11q6si6di22v4",
-      "work_id": "d59f2gomh9mp",
+      "title": "墨法集要",
+      "book_id": "11q6si6x9fwu8",
+      "work_id": "d59f2nkglgch",
       "section": "子部",
-      "juan_count": 12,
+      "juan_count": 1,
+      "volumes": [
+        550
+      ],
       "edition": "武英殿聚珍版",
-      "author": "李冶",
-      "dynasty": "元"
+      "author": "沈繼孫",
+      "dynasty": "明"
     },
     {
-      "title": "四元玉鑑",
-      "book_id": "11q6si6e9u77k",
-      "work_id": "d59f2gnudwqp",
+      "title": "鶡冠子",
+      "book_id": "11s1alscn5erx",
+      "work_id": "d59ezaie8u80",
       "section": "子部",
       "juan_count": 3,
+      "volumes": [
+        551
+      ],
       "edition": "武英殿聚珍版",
-      "author": "朱世傑",
-      "dynasty": "元"
+      "author": "鶡冠子",
+      "dynasty": "先秦",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "農書",
-      "book_id": "11q6si6f0ddds",
-      "work_id": "d59f2hsl61aa",
-      "section": "子部",
-      "juan_count": 22,
-      "edition": "武英殿聚珍版",
-      "author": "王禎",
-      "dynasty": "元"
-    },
-    {
-      "title": "蘇沈良方",
-      "book_id": "11q6si6fmughs",
-      "work_id": "d59f2hqrayo3",
-      "section": "子部",
-      "juan_count": 8,
-      "edition": "武英殿聚珍版",
-      "author": "蘇軾、沈括",
-      "dynasty": "宋"
-    },
-    {
-      "title": "帝範",
-      "book_id": "11q6si6gavqbk",
-      "work_id": "1ev3bb798joqo",
-      "section": "子部",
-      "juan_count": 4,
-      "edition": "武英殿聚珍版",
-      "author": "李世民",
-      "dynasty": "唐",
-      "note": "初刻雕版本"
-    },
-    {
-      "title": "老子道德經",
-      "book_id": "11q6si6h0h6v4",
-      "work_id": "d59f2ew0zaps",
+      "title": "猗覺寮雜記",
+      "book_id": "11s1alscn5ery",
+      "work_id": "d59f2ht9ts76",
       "section": "子部",
       "juan_count": 2,
+      "volumes": [
+        552,
+        553
+      ],
       "edition": "武英殿聚珍版",
-      "author": "老子",
-      "dynasty": "周"
-    },
-    {
-      "title": "鬼谷子",
-      "book_id": "11q6si6hle39c",
-      "work_id": "1ev794a8zilmo",
-      "section": "子部",
-      "juan_count": 3,
-      "edition": "武英殿聚珍版",
-      "author": "佚名",
-      "dynasty": "先秦"
-    },
-    {
-      "title": "困學紀聞",
-      "book_id": "11q6si6i78pa8",
-      "work_id": "d59f2hs0kdfk",
-      "section": "子部",
-      "juan_count": 20,
-      "edition": "武英殿聚珍版",
-      "author": "王應麟",
-      "dynasty": "宋"
-    },
-    {
-      "title": "容齋隨筆",
-      "book_id": "11q6si6itejuo",
-      "work_id": "d59f2hpn1cle",
-      "section": "子部",
-      "juan_count": 74,
-      "edition": "武英殿聚珍版",
-      "author": "洪邁",
-      "dynasty": "宋",
-      "note": "含隨筆/續筆/三筆/四筆/五筆"
+      "author": "朱翌",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "能改齋漫錄",
       "book_id": "11q6si6jd2i2o",
-      "work_id": "1ev794a9cxszk",
+      "work_id": "d59f2hujpo1u",
       "section": "子部",
       "juan_count": 18,
+      "volumes": [
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561
+      ],
       "edition": "武英殿聚珍版",
       "author": "吳曾",
       "dynasty": "宋"
     },
     {
+      "title": "雲谷雜記",
+      "book_id": "11s1alscn5erz",
+      "work_id": "d59f2hsizdhc",
+      "section": "子部",
+      "juan_count": 4,
+      "volumes": [
+        562,
+        563,
+        564,
+        565
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "張淏",
+      "dynasty": "南宋",
+      "toc_title": "雲穀雜記",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "學林",
+      "book_id": "11s1alscn5es0",
+      "work_id": "d59f2hr5nvnl",
+      "section": "子部",
+      "juan_count": 10,
+      "volumes": [
+        566,
+        567,
+        568,
+        569,
+        570
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王觀國",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
       "title": "甕牖閒評",
       "book_id": "11q6si6k0sjcw",
-      "work_id": "1ev794a9qzhfk",
+      "work_id": "d59f2hsxcagx",
       "section": "子部",
       "juan_count": 8,
+      "volumes": [
+        571,
+        572
+      ],
       "edition": "武英殿聚珍版",
       "author": "袁文",
-      "dynasty": "宋"
-    },
-    {
-      "title": "齊東野語",
-      "book_id": "11q6si6kpga9s",
-      "work_id": "d59f2gp4w9og",
-      "section": "子部",
-      "juan_count": 20,
-      "edition": "武英殿聚珍版",
-      "author": "周密",
-      "dynasty": "宋"
-    },
-    {
-      "title": "項氏家說",
-      "book_id": "11q6si6lmuoe8",
-      "work_id": "d59f2hqtsv0i",
-      "section": "子部",
-      "juan_count": 10,
-      "edition": "武英殿聚珍版",
-      "author": "項安世",
-      "dynasty": "宋"
-    },
-    {
-      "title": "敬齋古今黈",
-      "book_id": "11q6si6me0bnk",
-      "work_id": "d59f2gnwkkjl",
-      "section": "子部",
-      "juan_count": 8,
-      "edition": "武英殿聚珍版",
-      "author": "李治",
-      "dynasty": "元"
-    },
-    {
-      "title": "雞肋編",
-      "book_id": "11q6si6n2o2kg",
-      "work_id": "d59f2hu1ao00",
-      "section": "子部",
-      "juan_count": 3,
-      "edition": "武英殿聚珍版",
-      "author": "莊綽",
-      "dynasty": "宋"
-    },
-    {
-      "title": "浩然齋雅談",
-      "book_id": "11q6si6nsw074",
-      "work_id": "d59f2gpk6waq",
-      "section": "子部",
-      "juan_count": 3,
-      "edition": "武英殿聚珍版",
-      "author": "周密",
-      "dynasty": "宋"
-    },
-    {
-      "title": "野客叢書",
-      "book_id": "11q6si6ojqeww",
-      "work_id": "d59f2hus52pt",
-      "section": "子部",
-      "juan_count": 30,
-      "edition": "武英殿聚珍版",
-      "author": "王楙",
-      "dynasty": "宋"
-    },
-    {
-      "title": "習學記言",
-      "book_id": "11q6si6p82xa8",
-      "work_id": "d59f2ht1pm2o",
-      "section": "子部",
-      "juan_count": 50,
-      "edition": "武英殿聚珍版",
-      "author": "葉適",
-      "dynasty": "宋"
-    },
-    {
-      "title": "緯略",
-      "book_id": "11q6si6pxodts",
-      "work_id": "d59f2hrpyayq",
-      "section": "子部",
-      "juan_count": 12,
-      "edition": "武英殿聚珍版",
-      "author": "高似孫",
-      "dynasty": "宋"
-    },
-    {
-      "title": "識遺",
-      "book_id": "11q6si6qlpnnk",
-      "work_id": "d59f2hrxr8jm",
-      "section": "子部",
-      "juan_count": 10,
-      "edition": "武英殿聚珍版",
-      "author": "羅璧",
-      "dynasty": "宋"
-    },
-    {
-      "title": "愛日齋叢鈔",
-      "book_id": "11q6si6rbxla8",
-      "work_id": "1ev794aa5nmyo",
-      "section": "子部",
-      "juan_count": 5,
-      "edition": "武英殿聚珍版",
-      "author": "葉㟧",
-      "dynasty": "宋"
-    },
-    {
-      "title": "日損益齋筆記",
-      "book_id": "11q6si6ryeoe8",
-      "work_id": "d59f2j4uw5c2",
-      "section": "子部",
-      "juan_count": 1,
-      "edition": "武英殿聚珍版",
-      "author": "楊瑀",
-      "dynasty": "元"
-    },
-    {
-      "title": "鼠璞",
-      "book_id": "11q6si6sndnuo",
-      "work_id": "d59f2hsq5tz5",
-      "section": "子部",
-      "juan_count": 1,
-      "edition": "武英殿聚珍版",
-      "author": "戴埴",
-      "dynasty": "宋"
-    },
-    {
-      "title": "卻掃編",
-      "book_id": "11q6si6ta5zi8",
-      "work_id": "d59f2hqqd91d",
-      "section": "子部",
-      "juan_count": 3,
-      "edition": "武英殿聚珍版",
-      "author": "徐度",
       "dynasty": "宋"
     },
     {
@@ -931,59 +1723,161 @@
       "work_id": "d59f2hreeiv6",
       "section": "子部",
       "juan_count": 6,
+      "volumes": [
+        573,
+        574
+      ],
       "edition": "武英殿聚珍版",
       "author": "葉大慶",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "攷古質疑"
     },
     {
-      "title": "經鉏堂雜志",
-      "book_id": "11q6si6ukd3wg",
-      "work_id": "1ev794aawi1og",
+      "title": "朝野類要",
+      "book_id": "11s1alscn5es1",
+      "work_id": "d59f2hu0zfgg",
       "section": "子部",
-      "juan_count": 8,
+      "juan_count": 5,
+      "volumes": [
+        575,
+        576
+      ],
       "edition": "武英殿聚珍版",
-      "author": "倪思",
-      "dynasty": "宋"
+      "author": "趙升",
+      "dynasty": "宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "張丘建算經",
-      "book_id": "11q6si6v67pxc",
-      "work_id": "d59f286ua8sj",
+      "title": "澗泉日記",
+      "book_id": "11s1alscn5es2",
+      "work_id": "d59f2hpl5xc0",
       "section": "子部",
       "juan_count": 3,
+      "volumes": [
+        577
+      ],
       "edition": "武英殿聚珍版",
-      "author": "張丘建",
-      "dynasty": "北魏"
+      "author": "韓淲",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "緝古算經",
-      "book_id": "11q6si6vvhxxc",
-      "work_id": "d59f28jb5hxi",
+      "title": "敬齋古今黈",
+      "book_id": "11q6si6me0bnk",
+      "work_id": "d59f2gnwkkjl",
       "section": "子部",
-      "juan_count": 1,
+      "juan_count": 8,
+      "volumes": [
+        578,
+        579,
+        580
+      ],
       "edition": "武英殿聚珍版",
-      "author": "王孝通",
-      "dynasty": "唐"
+      "author": "李治",
+      "dynasty": "元"
     },
     {
-      "title": "重刻淳化閣帖釋文",
-      "book_id": "11q6si6wrymf4",
-      "work_id": "d59f2q08h14y",
+      "title": "意林",
+      "book_id": "11s1alscn5es3",
+      "work_id": "d59f28k3k3cy",
       "section": "子部",
-      "juan_count": 10,
+      "juan_count": 5,
+      "volumes": [
+        581,
+        582,
+        583,
+        584,
+        585
+      ],
       "edition": "武英殿聚珍版",
-      "author": "敕撰",
-      "dynasty": "清"
+      "author": "馬總",
+      "dynasty": "唐",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "墨法集要",
-      "book_id": "11q6si6x9fwu8",
-      "work_id": "d59f2nkglgch",
+      "title": "涑水紀聞",
+      "book_id": "11s1alscn5es4",
+      "work_id": "d59f2hufytj5",
       "section": "子部",
-      "juan_count": 1,
+      "juan_count": 16,
+      "volumes": [
+        586,
+        587,
+        588,
+        589
+      ],
       "edition": "武英殿聚珍版",
-      "author": "沈繼孫",
-      "dynasty": "明"
+      "author": "司馬光",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "唐語林",
+      "book_id": "11s1alscn5es5",
+      "work_id": "d59f2hszu6tf",
+      "section": "子部",
+      "juan_count": 8,
+      "volumes": [
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王讜",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "歸潛志",
+      "book_id": "11s1alscn5es6",
+      "work_id": "d59f2gnrw0ea",
+      "section": "子部",
+      "juan_count": 14,
+      "volumes": [
+        598,
+        599,
+        600,
+        601
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "劉祁",
+      "dynasty": "元",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "老子道德經",
+      "book_id": "11q6si6h0h6v4",
+      "work_id": "d59ezkx8dt6o",
+      "section": "子部",
+      "juan_count": 2,
+      "volumes": [
+        602,
+        603
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "老子",
+      "dynasty": "周"
+    },
+    {
+      "title": "文子纘義",
+      "book_id": "11s1alscn5es7",
+      "work_id": "d59f2gp8bvnm",
+      "section": "子部",
+      "juan_count": 12,
+      "volumes": [
+        604,
+        605,
+        606
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "杜道堅",
+      "dynasty": "元",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "張燕公集",
@@ -991,58 +1885,151 @@
       "work_id": "d59f28kxu41u",
       "section": "集部",
       "juan_count": 25,
+      "volumes": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614
+      ],
       "edition": "武英殿聚珍版",
       "author": "張說",
       "dynasty": "唐"
     },
     {
-      "title": "毘陵集",
-      "book_id": "11q6si6ynp4ao",
-      "work_id": "1ev794abzty4g",
+      "title": "文忠集",
+      "book_id": "11q6si78saark",
+      "work_id": "d59f2hsz7pq8",
       "section": "集部",
-      "juan_count": 20,
+      "juan_count": 16,
+      "volumes": [
+        615,
+        616,
+        617,
+        618
+      ],
       "edition": "武英殿聚珍版",
-      "author": "獨孤及",
-      "dynasty": "唐"
-    },
-    {
-      "title": "小畜集",
-      "book_id": "11q6si6z7ob28",
-      "work_id": "d59f2hqfr6ki",
-      "section": "集部",
-      "juan_count": 30,
-      "edition": "武英殿聚珍版",
-      "author": "王禹偁",
+      "author": "周必大",
       "dynasty": "宋"
     },
     {
-      "title": "乖崖集",
-      "book_id": "11q6si6zrnhts",
-      "work_id": "d59f2hre3abm",
+      "title": "南陽集",
+      "book_id": "11s1alscn5es8",
+      "work_id": "d59f2hr782dd",
       "section": "集部",
-      "juan_count": 12,
+      "juan_count": 6,
+      "volumes": [
+        619
+      ],
       "edition": "武英殿聚珍版",
-      "author": "張詠",
-      "dynasty": "宋"
+      "author": "趙湘",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
-      "title": "宛陵集",
-      "book_id": "11q6si70bmolc",
-      "work_id": "d59f2hqkfqpu",
+      "title": "元憲集",
+      "book_id": "11s1alscn5es9",
+      "work_id": "d59f2hudgx6o",
       "section": "集部",
-      "juan_count": 60,
+      "juan_count": 40,
+      "volumes": [
+        620,
+        621,
+        622,
+        623
+      ],
       "edition": "武英殿聚珍版",
-      "author": "梅堯臣",
-      "dynasty": "宋"
+      "author": "宋庠",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "景文集",
       "book_id": "11q6si70uze9s",
-      "work_id": "1ev794acb2hog",
+      "work_id": "d59f2hqwx8g0",
       "section": "集部",
       "juan_count": 62,
+      "volumes": [
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635
+      ],
       "edition": "武英殿聚珍版",
       "author": "宋祁",
+      "dynasty": "宋"
+    },
+    {
+      "title": "文恭集",
+      "book_id": "11q6si7jpa2o0",
+      "work_id": "d59f2hqqzq4i",
+      "section": "集部",
+      "juan_count": 40,
+      "volumes": [
+        636,
+        637,
+        638,
+        639,
+        640,
+        641
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "胡銓",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祠部集",
+      "book_id": "11q6si73ii0hs",
+      "work_id": "d59f2hu9eu4i",
+      "section": "集部",
+      "juan_count": 35,
+      "volumes": [
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "強至",
+      "dynasty": "宋"
+    },
+    {
+      "title": "華陽集",
+      "book_id": "11q6si7783kzk",
+      "work_id": "d59f2hpcfa4g",
+      "section": "集部",
+      "juan_count": 40,
+      "volumes": [
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "王珪",
       "dynasty": "宋"
     },
     {
@@ -1051,6 +2038,20 @@
       "work_id": "d59f2hrf0zya",
       "section": "集部",
       "juan_count": 54,
+      "volumes": [
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673
+      ],
       "edition": "武英殿聚珍版",
       "author": "劉敞",
       "dynasty": "宋"
@@ -1061,6 +2062,16 @@
       "work_id": "d59f2hscfe2o",
       "section": "集部",
       "juan_count": 40,
+      "volumes": [
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681
+      ],
       "edition": "武英殿聚珍版",
       "author": "劉攽",
       "dynasty": "宋"
@@ -1071,19 +2082,24 @@
       "work_id": "d59f2hrq9ji8",
       "section": "集部",
       "juan_count": 38,
+      "volumes": [
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693
+      ],
       "edition": "武英殿聚珍版",
       "author": "呂陶",
-      "dynasty": "宋"
-    },
-    {
-      "title": "祠部集",
-      "book_id": "11q6si73ii0hs",
-      "work_id": "d59f2hu9eu4i",
-      "section": "集部",
-      "juan_count": 35,
-      "edition": "武英殿聚珍版",
-      "author": "強至",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "凈德集"
     },
     {
       "title": "忠肅集",
@@ -1091,6 +2107,12 @@
       "work_id": "d59f2hpziubm",
       "section": "集部",
       "juan_count": 20,
+      "volumes": [
+        694,
+        695,
+        696,
+        697
+      ],
       "edition": "武英殿聚珍版",
       "author": "劉摯",
       "dynasty": "宋"
@@ -1098,12 +2120,35 @@
     {
       "title": "山谷詩注三集",
       "book_id": "11q6si750tb0g",
-      "work_id": "1ev794ad2jdhc",
+      "work_id": "d59f2hq1311e",
       "section": "集部",
       "juan_count": 39,
+      "volumes": [
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717
+      ],
       "edition": "武英殿聚珍版",
       "author": "黃庭堅",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "山谷詩注"
     },
     {
       "title": "後山詩注",
@@ -1111,6 +2156,14 @@
       "work_id": "d59f2hsav7cw",
       "section": "集部",
       "juan_count": 12,
+      "volumes": [
+        718,
+        719,
+        720,
+        721,
+        722,
+        723
+      ],
       "edition": "武英殿聚珍版",
       "author": "陳師道",
       "dynasty": "宋"
@@ -1121,38 +2174,142 @@
       "work_id": "d59f2hpreo76",
       "section": "集部",
       "juan_count": 50,
+      "volumes": [
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731
+      ],
       "edition": "武英殿聚珍版",
       "author": "張耒",
       "dynasty": "宋"
     },
     {
-      "title": "華陽集",
-      "book_id": "11q6si7783kzk",
-      "work_id": "d59f2hpcfa4g",
-      "section": "集部",
-      "juan_count": 40,
-      "edition": "武英殿聚珍版",
-      "author": "王珪",
-      "dynasty": "宋"
-    },
-    {
-      "title": "文定集",
-      "book_id": "11q6si77zkgsg",
-      "work_id": "d59f2hrpn2f6",
-      "section": "集部",
-      "juan_count": 24,
-      "edition": "武英殿聚珍版",
-      "author": "汪應辰",
-      "dynasty": "宋"
-    },
-    {
-      "title": "文忠集",
-      "book_id": "11q6si78saark",
-      "work_id": "d59f2hsz7pq8",
+      "title": "陶山集",
+      "book_id": "11s1alscn5esa",
+      "work_id": "d59f2hsxcagy",
       "section": "集部",
       "juan_count": 16,
+      "volumes": [
+        732,
+        733
+      ],
       "edition": "武英殿聚珍版",
-      "author": "周必大",
+      "author": "陸佃",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "學易集",
+      "book_id": "11s1alscn5esb",
+      "work_id": "d59f2hr8h0jl",
+      "section": "集部",
+      "juan_count": 8,
+      "volumes": [
+        734,
+        735,
+        736,
+        737,
+        738,
+        739
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "劉跂",
+      "dynasty": "北宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "西台集",
+      "book_id": "11q6si7bdb0n4",
+      "work_id": "d59f2htd9e68",
+      "section": "集部",
+      "juan_count": 20,
+      "volumes": [
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "畢仲游",
+      "dynasty": "宋",
+      "toc_title": "西臺集"
+    },
+    {
+      "title": "浮沚集",
+      "book_id": "11q6si7as2vpc",
+      "work_id": "d59f2htcbojk",
+      "section": "集部",
+      "juan_count": 9,
+      "volumes": [
+        750,
+        751
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "周行己",
+      "dynasty": "宋"
+    },
+    {
+      "title": "毘陵集",
+      "book_id": "11q6si6ynp4ao",
+      "work_id": "d59f28jau9ds",
+      "section": "集部",
+      "juan_count": 20,
+      "volumes": [
+        752,
+        753,
+        754,
+        755,
+        756
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "獨孤及",
+      "dynasty": "唐",
+      "note": "卷數待覆核：本庫作二十卷，國圖本 toc 見十六卷"
+    },
+    {
+      "title": "浮溪集",
+      "book_id": "11q6si7cs6p6o",
+      "work_id": "d59f2hs3dibk",
+      "section": "集部",
+      "juan_count": 36,
+      "volumes": [
+        757,
+        758,
+        759,
+        760,
+        761,
+        762
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "汪藻",
+      "dynasty": "宋",
+      "note": "卷數待覆核：本庫作三十六卷，通行著錄三十二卷"
+    },
+    {
+      "title": "簡齋集",
+      "book_id": "11q6si7dflhxc",
+      "work_id": "d59f2hu3639c",
+      "section": "集部",
+      "juan_count": 16,
+      "volumes": [
+        763,
+        764,
+        765,
+        766
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "陳與義",
       "dynasty": "宋"
     },
     {
@@ -1161,68 +2318,181 @@
       "work_id": "d59f2hukym81",
       "section": "集部",
       "juan_count": 8,
+      "volumes": [
+        767,
+        768,
+        769,
+        770
+      ],
       "edition": "武英殿聚珍版",
       "author": "曾幾",
       "dynasty": "宋"
     },
     {
-      "title": "竹友集",
-      "book_id": "11q6si7a83oxs",
-      "work_id": "d59f2htq24g0",
+      "title": "文定集",
+      "book_id": "11q6si77zkgsg",
+      "work_id": "d59f2hrpn2f6",
       "section": "集部",
-      "juan_count": 10,
+      "juan_count": 24,
+      "volumes": [
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
+      ],
       "edition": "武英殿聚珍版",
-      "author": "謝薖",
+      "author": "汪應辰",
       "dynasty": "宋"
     },
     {
-      "title": "浮沚集",
-      "book_id": "11q6si7as2vpc",
-      "work_id": "d59f2htcbojk",
-      "section": "集部",
-      "juan_count": 9,
-      "edition": "武英殿聚珍版",
-      "author": "周行己",
-      "dynasty": "宋"
-    },
-    {
-      "title": "西台集",
-      "book_id": "11q6si7bdb0n4",
-      "work_id": "d59f2htd9e68",
-      "section": "集部",
-      "juan_count": 20,
-      "edition": "武英殿聚珍版",
-      "author": "畢仲游",
-      "dynasty": "宋"
-    },
-    {
-      "title": "韻語陽秋",
-      "book_id": "11q6si7c0eku8",
-      "work_id": "d59f2htvoe82",
-      "section": "集部",
-      "juan_count": 20,
-      "edition": "武英殿聚珍版",
-      "author": "葛立方",
-      "dynasty": "宋"
-    },
-    {
-      "title": "浮溪集",
-      "book_id": "11q6si7cs6p6o",
-      "work_id": "d59f2hs3dibk",
-      "section": "集部",
-      "juan_count": 36,
-      "edition": "武英殿聚珍版",
-      "author": "汪藻",
-      "dynasty": "宋"
-    },
-    {
-      "title": "簡齋集",
-      "book_id": "11q6si7dflhxc",
-      "work_id": "d59f2hu3639c",
+      "title": "雪山集",
+      "book_id": "11s1alscn5esc",
+      "work_id": "d59f2hu0cydc",
       "section": "集部",
       "juan_count": 16,
+      "volumes": [
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786
+      ],
       "edition": "武英殿聚珍版",
-      "author": "陳與義",
+      "author": "王質",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "攻媿集",
+      "book_id": "11q6si7ff2ubk",
+      "work_id": "d59f2htarhtt",
+      "section": "集部",
+      "juan_count": 112,
+      "volumes": [
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "樓鑰",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乾道稿",
+      "book_id": "11s1alscn5esd",
+      "work_id": "d59f2hruy3nm",
+      "section": "集部",
+      "juan_count": 2,
+      "volumes": [
+        827
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "趙蕃",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "淳熙稿",
+      "book_id": "11s1alscn5ese",
+      "work_id": "d59f2hq4in0h",
+      "section": "集部",
+      "juan_count": 20,
+      "volumes": [
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "趙蕃",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目；故宮善本古籍未見《淳熙稿》單行著錄"
+    },
+    {
+      "title": "章泉稿",
+      "book_id": "11s1alscn5esf",
+      "work_id": "d59f2hthmps2",
+      "section": "集部",
+      "juan_count": 5,
+      "volumes": [
+        838,
+        839,
+        840,
+        841
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "趙蕃",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "止堂集",
+      "book_id": "11q6si7ixt6v4",
+      "work_id": "d59f2hq9ifpc",
+      "section": "集部",
+      "juan_count": 18,
+      "volumes": [
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "彭龜年",
       "dynasty": "宋"
     },
     {
@@ -1231,29 +2501,23 @@
       "work_id": "d59f2hrpyayp",
       "section": "集部",
       "juan_count": 18,
+      "volumes": [
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
       "edition": "武英殿聚珍版",
       "author": "袁甫",
-      "dynasty": "宋"
-    },
-    {
-      "title": "盤洲文集",
-      "book_id": "11q6si7eojo5c",
-      "work_id": "d59f2ht70nb6",
-      "section": "集部",
-      "juan_count": 80,
-      "edition": "武英殿聚珍版",
-      "author": "洪适",
-      "dynasty": "宋"
-    },
-    {
-      "title": "攻媿集",
-      "book_id": "11q6si7ff2ubk",
-      "work_id": "d59f2htarhtt",
-      "section": "集部",
-      "juan_count": 112,
-      "edition": "武英殿聚珍版",
-      "author": "樓鑰",
-      "dynasty": "宋"
+      "dynasty": "宋",
+      "toc_title": "絜齋集",
+      "note": "卷數待覆核：本庫作十八卷，通行著錄二十四卷；本帙 toc 題《絜齋集》"
     },
     {
       "title": "南澗甲乙稿",
@@ -1261,6 +2525,16 @@
       "work_id": "d59f2hpv5ips",
       "section": "集部",
       "juan_count": 22,
+      "volumes": [
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867
+      ],
       "edition": "武英殿聚珍版",
       "author": "韓元吉",
       "dynasty": "宋"
@@ -1271,10 +2545,36 @@
       "work_id": "d59f2hptwkjl",
       "section": "集部",
       "juan_count": 20,
+      "volumes": [
+        868,
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
       "edition": "武英殿聚珍版",
       "author": "袁甫",
       "dynasty": "宋",
-      "note": "或與潔齋集同一作者"
+      "toc_title": "〓齋集"
+    },
+    {
+      "title": "恥堂存稿",
+      "book_id": "11q6si7icl1xc",
+      "work_id": "d59f2hsnz669",
+      "section": "集部",
+      "juan_count": 8,
+      "volumes": [
+        874,
+        875,
+        876,
+        877,
+        878,
+        879
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "高斯得",
+      "dynasty": "宋"
     },
     {
       "title": "拙軒集",
@@ -1282,79 +2582,88 @@
       "work_id": "d59f2gopaeip",
       "section": "集部",
       "juan_count": 6,
+      "volumes": [
+        880,
+        881
+      ],
       "edition": "武英殿聚珍版",
       "author": "王企堂",
       "dynasty": "金"
     },
     {
-      "title": "耻堂存稿",
-      "book_id": "11q6si7icl1xc",
-      "work_id": "1ev794aeh3thc",
+      "title": "金淵集",
+      "book_id": "11s1alscn5esg",
+      "work_id": "d59f2gob8q2p",
       "section": "集部",
-      "juan_count": 8,
+      "juan_count": 6,
+      "volumes": [
+        882,
+        883
+      ],
       "edition": "武英殿聚珍版",
-      "author": "高斯得",
-      "dynasty": "宋"
-    },
-    {
-      "title": "止堂集",
-      "book_id": "11q6si7ixt6v4",
-      "work_id": "d59f2hq9ifpc",
-      "section": "集部",
-      "juan_count": 18,
-      "edition": "武英殿聚珍版",
-      "author": "彭龜年",
-      "dynasty": "宋"
-    },
-    {
-      "title": "文恭集",
-      "book_id": "11q6si7jpa2o0",
-      "work_id": "d59f2hqqzq4i",
-      "section": "集部",
-      "juan_count": 40,
-      "edition": "武英殿聚珍版",
-      "author": "胡銓",
-      "dynasty": "宋"
-    },
-    {
-      "title": "高太史大全集",
-      "book_id": "11q6si7kixm9s",
-      "work_id": "d59f2nji9clc",
-      "section": "集部",
-      "juan_count": 18,
-      "edition": "武英殿聚珍版",
-      "author": "高明",
-      "dynasty": "元"
+      "author": "仇遠",
+      "dynasty": "元",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "牧菴集",
       "book_id": "11q6si7l1cmbk",
-      "work_id": "1ev794af9tngg",
+      "work_id": "d59f2goyca9s",
       "section": "集部",
       "juan_count": 36,
+      "volumes": [
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891
+      ],
       "edition": "武英殿聚珍版",
       "author": "姚燧",
       "dynasty": "元"
     },
     {
-      "title": "巽齋文集",
-      "book_id": "11q6si7lhw740",
-      "work_id": "d59f2hr01lvm",
+      "title": "御製詩文十全集",
+      "book_id": "11q6si7nvqghs",
+      "work_id": "d59f2n7wlpmq",
       "section": "集部",
-      "juan_count": 8,
+      "juan_count": 54,
+      "volumes": [
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901
+      ],
       "edition": "武英殿聚珍版",
-      "author": "歐陽守道",
-      "dynasty": "宋"
+      "author": "高宗",
+      "dynasty": "清",
+      "toc_title": "禦製詩文"
     },
     {
-      "title": "眞文忠公文集",
-      "book_id": "11q6si7meo45c",
-      "work_id": "d59f2huhu8sg",
+      "title": "文苑英華辨證",
+      "book_id": "11s1alscn5esh",
+      "work_id": "d59f2hum7kea",
       "section": "集部",
-      "juan_count": 55,
+      "juan_count": 10,
+      "volumes": [
+        902,
+        903,
+        904,
+        905
+      ],
       "edition": "武英殿聚珍版",
-      "author": "真德秀",
-      "dynasty": "宋"
+      "author": "彭叔夏",
+      "dynasty": "南宋",
+      "note": "2026-08-26 新立成員條目"
     },
     {
       "title": "悅心集",
@@ -1362,9 +2671,59 @@
       "work_id": "d59f2movr1tu",
       "section": "集部",
       "juan_count": 4,
+      "volumes": [
+        906,
+        907
+      ],
       "edition": "武英殿聚珍版",
       "author": "世宗選",
-      "dynasty": "清"
+      "dynasty": "清",
+      "toc_title": "禦製悅心集"
+    },
+    {
+      "title": "歲寒堂詩話",
+      "book_id": "11s1alscn5esi",
+      "work_id": "d59f2hpreo75",
+      "section": "集部",
+      "juan_count": 2,
+      "volumes": [
+        908
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "張戒",
+      "dynasty": "宋",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "䂬溪詩話",
+      "book_id": "11s1alscn5esj",
+      "work_id": "d59f2hpxnf2a",
+      "section": "集部",
+      "juan_count": 10,
+      "volumes": [
+        909,
+        910
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "黃徹",
+      "dynasty": "北宋",
+      "toc_title": "〓溪詩話",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "浩然齋雅談",
+      "book_id": "11q6si6nsw074",
+      "work_id": "d59f2gpk6waq",
+      "section": "子部",
+      "juan_count": 3,
+      "volumes": [
+        911,
+        912
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "周密",
+      "dynasty": "宋",
+      "note": "部類待覆核"
     },
     {
       "title": "詩倫",
@@ -1372,50 +2731,104 @@
       "work_id": "d59f2movr1tv",
       "section": "集部",
       "juan_count": 2,
+      "volumes": [
+        913,
+        914
+      ],
       "edition": "武英殿聚珍版",
       "author": "汪薇",
       "dynasty": "清"
     },
     {
-      "title": "御製詩文十全集",
-      "book_id": "11q6si7nvqghs",
-      "work_id": "1ev794aguy2v4",
-      "section": "集部",
-      "juan_count": 54,
-      "edition": "武英殿聚珍版",
-      "author": "高宗",
-      "dynasty": "清"
-    },
-    {
-      "title": "御選明臣奏議",
-      "book_id": "11q6si7ofeeps",
-      "work_id": "1ev794ah9azuo",
-      "section": "集部",
-      "juan_count": 40,
-      "edition": "武英殿聚珍版",
-      "author": "敕選",
-      "dynasty": "清"
-    },
-    {
-      "title": "萬壽衢歌樂章",
-      "book_id": "11q6si7p0xs74",
-      "work_id": "d59f2mow2adc",
-      "section": "集部",
-      "juan_count": 6,
+      "title": "八旬萬壽盛典",
+      "book_id": "11q6si65y6dq8",
+      "work_id": "d59f2meeodmo",
+      "section": "史部",
+      "juan_count": 120,
+      "volumes": [
+        915,
+        916,
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934
+      ],
       "edition": "武英殿聚珍版",
       "author": "敕撰",
-      "dynasty": "清"
+      "dynasty": "清",
+      "note": "舊題《萬壽盛典》而誤繫《萬壽盛典初集》，2026-08-26 改題改繫"
     },
     {
-      "title": "武英殿聚珍版程式",
-      "book_id": "11q6si7pockxs",
-      "work_id": "d59f2mow2add",
-      "section": "集部",
-      "juan_count": 1,
+      "title": "西巡盛典",
+      "book_id": "11s1alscn5esk",
+      "work_id": "d59f2nf1t98h",
+      "section": "史部",
+      "juan_count": 24,
+      "volumes": [
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946
+      ],
       "edition": "武英殿聚珍版",
-      "author": "金簡",
-      "dynasty": "清"
+      "author": "董誥",
+      "dynasty": "清",
+      "note": "2026-08-26 新立成員條目"
+    },
+    {
+      "title": "千叟宴詩",
+      "book_id": "11s1alscn5esl",
+      "work_id": "d59f2n7thc74",
+      "section": "集部",
+      "juan_count": 34,
+      "volumes": [
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964
+      ],
+      "edition": "武英殿聚珍版",
+      "author": "高宗乾隆",
+      "dynasty": "清",
+      "note": "2026-08-26 新立成員條目"
     }
   ],
-  "updated_at": "2026-05-17T13:03:17-07:00"
+  "updated_at": "2026-08-26T00:00:00+00:00",
+  "ai_note": "2026-08-26 依本 Collection 重建後之書目重造本側檔。舊檔為 138 種（四部 31/27/37/43，total_juan 3450，無冊次），其書名多出推度，且 52 種非聚珍版所刻（見 Collection 之 ai_note），今並剔除。新檔 144 目，即中國國家圖書館藏《武英殿聚珍版叢書一百四十一種》（善本書號 02324，清乾隆武英殿木活字印本，全 964 冊）逐冊目錄所析之全部子目，每目記其冊次（volumes）、成員 Book、Work 及卷數。total_volumes 之義由舊檔之「卷」改為「冊」（964），卷數之總見 stats.total_juan。部類依《四庫全書總目》：舊目三處明顯之誤已訂正——《五經算術》（經→子，天文算法類算書之屬）、《欽定武英殿聚珍版程式》（集→子，譜錄類器物之屬）、《御選明臣奏議》（集→史，詔令奏議類奏議之屬）；《萬壽衢歌樂章》《浩然齋雅談》二目部類仍從舊檔，待覆核。卷數取各成員 Book 之著錄，與國圖本 toc 不合者已於 note 標出（NLC 模板自注 toc 或有漏卷）。stats.total_juan 2592 卷，與通行著錄「二千四百十六卷」不合：一則此帙已含《西巡盛典》《千叟宴詩》等嘉慶間續刊者，再則各目卷數取本庫成員 Book 之著錄，與該數之計法未必同，非謂舊數有誤。"
 }
