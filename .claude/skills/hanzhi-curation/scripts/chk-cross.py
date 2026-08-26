@@ -259,10 +259,16 @@ for f in CE_IDX:
 # 二者今無從以 type 分（那 24 部無 type 者正含此五部），故**分兩數並列**，
 # 待 type 補齊後再論。source_bid 亦須歸一——不歸則 draft／production 兩制之
 # id 對不上，全報斷鏈。
-# 輯佚叢書整理本（`fragment_collection`）亦當豁免，與選本同理：其節指
-# **所輯之原書**，某書之佚文被某人輯出，不是那部叢書「著錄」了它。
-# 此型有明確之 type 可據，故逕以 type 免之，不待 24 部補齊。
-DESYNC_SKIP_TYPE = {'fragment_collection'}
+# 豁免二型，其節本不是「著錄」：
+# - `anthology` 選本（文選、古文觀止、唐詩三百首之屬）：節指所選之**篇章**，
+#   被選入總集不是著錄。實測五部斷數與繫數完全相等（705/705、558/558……）。
+# - `fragment_collection` 輯佚叢書：節指**所輯之原書**，某書之佚文被某人輯出，
+#   不是那部叢書著錄了它。
+#
+# 2026-08-26 補齊 24 部之 type 後，此二型皆有明確之 type 可據。此前只能以
+# 「全繫皆斷即選本」之啟發法權且分之——那法要設下限（繫數少者全斷可以是
+# 巧合，《千頃堂書目》1/1 即誤入），今已不必倚仗。
+DESYNC_SKIP_TYPE = {'anthology', 'fragment_collection'}
 desync = collections.Counter()
 desync_tot = collections.Counter()
 desync_ex = []
