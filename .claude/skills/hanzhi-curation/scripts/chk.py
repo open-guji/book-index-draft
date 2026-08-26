@@ -253,7 +253,7 @@ try:
     for _k,_v in json.load(open('promotions.json'))['promotions'].items():
         _pm[_k]=_v.get('production_id')
 except Exception: pass
-desync=0
+desync=0; _desync_seen=0
 # 2026-08-26：資產諸驗原只 glob draft 之相對路徑。draft 側之整理本於本日清去
 # （升格時已整體拷入 production，兩份逐檔比對唯 production 多 revision 一欄），
 # 若不改則此諸驗盡掃 0 檔而**靜默顯 0**——看著全綠而其實空驗，是最危險的壞法。
@@ -261,14 +261,29 @@ desync=0
 # production 是絕對路徑而段數不同。取資產目錄之父目錄名，兩者皆準，
 # 且對 collated_edition／fragments 兩種資產一體適用。
 def _assets(sub, leaf='*.json'):
-    _r = glob.glob(f'Work/*/*/*/*/{sub}/{leaf}')
-    if _PROD_ROOT:
-        _r += glob.glob(f'{_PROD_ROOT}/Work/*/*/*/*/{sub}/{leaf}')
-    return _r
+    # **兩種深度都要掃。** 2026-08-26 歸一後卷檔入 `collated_edition/juan/`，
+    # 比舊制深一層；glob 是固定深度的，只寫一條則歸一當日此諸驗即靜默空掃
+    # （實見附屬部帙 396→0、別本 7→0、一書兩著 117→0）。凡改目錄層級，
+    # 先問哪些 glob 會落空。
+    _r = []
+    for _pre in ([''] + ([_PROD_ROOT + '/'] if _PROD_ROOT else [])):
+        _r += glob.glob(f'{_pre}Work/*/*/*/*/{sub}/{leaf}')
+        _r += glob.glob(f'{_pre}Work/*/*/*/*/{sub}/juan/{leaf}')
+    return sorted(set(_r))
+
+
+_ASSET_DIRS = {'collated_edition', 'fragments', 'juan', 'text', 'source',
+               '_working'}
 
 
 def _ce_owner(_f):
-    return os.path.basename(os.path.dirname(os.path.dirname(_f)))
+    """owner id = 自檔往上走，越過一切資產目錄名，所遇之第一個目錄。
+    **不可寫死上溯幾級**——歸一把卷檔挪深一層之後，上溯兩級只到
+    `collated_edition`，全部 owner 塌成同一個。2026-08-26 改。"""
+    _d = os.path.dirname(_f)
+    while os.path.basename(_d) in _ASSET_DIRS:
+        _d = os.path.dirname(_d)
+    return os.path.basename(_d)
 
 
 _CE_FILES = _assets('collated_edition')
@@ -277,11 +292,19 @@ _CE_FILES = _assets('collated_edition')
 # ——而 draft 側之 fragments 已由 clean-promoted-fragments 清盡，此驗實已空。
 # **production 側之 fragments 當另立驗**，記於 known-issues，非本輪之事。
 _FRAG_FILES = glob.glob('Work/*/*/*/*/fragments/*.json')
-_CE_IDX = _assets('collated_edition', 'collated_edition_index.json')
+# 清單檔 2026-08-26 更名 index.json；舊名暫存以容未及改者
+_CE_IDX = [f for f in _CE_FILES
+           if os.path.basename(os.path.dirname(f)) == 'collated_edition'
+           and os.path.basename(f) in ('index.json', 'collated_edition_index.json')]
 
 
 for f in _CE_FILES:
-    if 'index' in f: continue
+    # **不可寫作 `'index' in f`。** production 之根是 `../book-index`，
+    # 其名本身即含 "index"，於是**每一個 production 之整理本檔都被跳過**；
+    # 而 draft 側整理本已清盡（0 檔），此迴圈遂長跑在零檔之上，
+    # 報的 0 是空掃而非乾淨（chk-cross 於同一資料實得 655）。2026-08-26 查出。
+    # 凡以子字串判路徑者，先問倉名、目錄名會不會自己撞上去。
+    if os.path.basename(f) in ('index.json', 'collated_edition_index.json'): continue
     try: cd=json.load(open(f))
     except Exception: continue
     if not isinstance(cd,dict): continue
@@ -299,9 +322,16 @@ for f in _CE_FILES:
             # 升格墓碑只留骨架欄（indexed_by 在 production 本文），此驗不及；
             # 併條墓碑同理。2026-08-25 宋輪墓碑 stub 化後立此例外。
             if dd.get('_promoted_to') or dd.get('merged_into'): continue
+            _desync_seen+=1
             if not any(y.get('source_bid') in ok_bids for y in (dd.get('emendated_by') or [])
                        +(dd.get('indexed_by') or [])): desync+=1
-print('整理本繫連而 work 側無記錄',desync)
+# **此數已不足據，真驗在 chk-cross.py。** 上面 `IW.get(i)` 只查 draft 索引，
+# 而節之 work_id 今皆 production id，遂無一入數；升格既竟，此驗在本檔恆為 0
+# 而其實一節未看。同一資料 chk-cross 實得 655（另 1,979 出於選本與輯佚叢書，
+# 其節指所選之篇或所輯之原書，本不是「著錄」，是驗之前提不合彼型）。
+# 存此行以誌其目，並印所掃之節數——0 掃之 0 與全過之 0，輸出一模一樣。
+print('整理本繫連而 work 側無記錄',desync,
+      f'　（本檔只查 draft 索引，實掃 {_desync_seen} 節；真驗見 chk-cross.py）')
 
 # 輯佚檔 fragments/*.json
 fbad=[]
