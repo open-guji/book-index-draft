@@ -173,19 +173,32 @@ for x in ow[:5]: print('  B→W',x)
 for x in ww[:5]: print('  W→B',x)
 
 # 人物 ↔ 作品之雙向：entity.works 指向作品，不代表作品回指該人物
+#
+# 2026-08-26 改：**本驗一度成空驗**。2026-08-25 entity 全量升格之後，draft 的
+# `Entity/` 只剩五欄墓碑（無 works），此處若仍只讀 draft，`ent` 全是墓碑，
+# e_only/w_only 結構上恆為零——照樣印 0，卻什麼也沒驗。實測其時兩倉尚有
+# 三十二處單向而本驗報零。今改讀 production 之 entity，work 則兩倉並取。
 ent={}
-for p in glob.glob('Entity/*/*/*/*.json'):
-    try: e=json.load(open(p)); ent[e['id']]=e
-    except Exception: pass
+for _r in ([_PR_ROOT] if _PR_ROOT else []) + ['.']:
+    for p in glob.glob(_r+'/Entity/*/*/*/*.json'):
+        try: e=json.load(open(p))
+        except Exception: continue
+        if e.get('_promoted_to'): continue        # 墓碑無 works，不入計
+        ent[e['id']]=e
 w2e={}
-for p in glob.glob('Work/*/*/*/*.json'):
-    try: d=json.load(open(p))
-    except Exception: continue
-    # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
-    # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
-    # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
-    if d.get('_promoted_to'): continue
-    w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
+for _r in ['.'] + ([_PR_ROOT] if _PR_ROOT else []):
+    for p in glob.glob(_r+'/Work/*/*/*/*.json'):
+        try: d=json.load(open(p))
+        except Exception: continue
+        # 墓碑（已升格者）不計：其 authors 是升格當時之凍結快照，而 Entity 之 works
+        # 已由 promote 之 rewrite_references 改指 production id——Entity 不再 claim 墓碑
+        # 是對的，不是單向缺失。不濾則每升一條就多兩行假警報（實測升三條即現二條）。
+        #
+        # 又：draft 之 work 已入 promotions.json 而其檔尚未 stub 化者（升格與 stub
+        # 化分兩步，其間可長達數時），亦當比照墓碑不計——否則每升一批 work
+        # 就多出成千上萬條假單向（實測 32,576 條）。
+        if d.get('_promoted_to') or (_r=='.' and d.get('id') in _PR): continue
+        w2e[d.get('id')]={a.get('entity_id') for a in (d.get('authors') or []) if a.get('entity_id')}
 e_only=sum(1 for i,e in ent.items() for x in (e.get('works') or [])
            if x.get('work_id') in w2e and i not in w2e[x['work_id']])
 w_only=sum(1 for w,es in w2e.items() for i in es
