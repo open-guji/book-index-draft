@@ -260,13 +260,21 @@ desync=0; _desync_seen=0
 # 今兩倉並掃。owner id 不可再取 `_ce_owner(f)`：那只對 draft 之相對路徑成立，
 # production 是絕對路徑而段數不同。取資產目錄之父目錄名，兩者皆準，
 # 且對 collated_edition／fragments 兩種資產一體適用。
+# 2026-08-26 文本拆分：整理本／輯佚／全文已遷入 book-text，本倉（book-index）
+# 之下再無此類資產。不加此根則凡掃資產之驗齊齊空掃——拆分當日實見附屬部帙
+# 396→0、別本 7→0、一書兩著 117→0，其 0 是空掃而非全清。
+_TEXT_ROOT=next((r for r in ('../book-text','book-text')
+                 if os.path.isdir(r+'/Work')), None)
+
+
 def _assets(sub, leaf='*.json'):
     # **兩種深度都要掃。** 2026-08-26 歸一後卷檔入 `collated_edition/juan/`，
     # 比舊制深一層；glob 是固定深度的，只寫一條則歸一當日此諸驗即靜默空掃
     # （實見附屬部帙 396→0、別本 7→0、一書兩著 117→0）。凡改目錄層級，
     # 先問哪些 glob 會落空。
     _r = []
-    for _pre in ([''] + ([_PROD_ROOT + '/'] if _PROD_ROOT else [])):
+    _roots = [''] + [f'{_x}/' for _x in (_PROD_ROOT, _TEXT_ROOT) if _x]
+    for _pre in _roots:
         _r += glob.glob(f'{_pre}Work/*/*/*/*/{sub}/{leaf}')
         _r += glob.glob(f'{_pre}Work/*/*/*/*/{sub}/juan/{leaf}')
     return sorted(set(_r))
@@ -292,6 +300,8 @@ _CE_FILES = _assets('collated_edition')
 # ——而 draft 側之 fragments 已由 clean-promoted-fragments 清盡，此驗實已空。
 # **production 側之 fragments 當另立驗**，記於 known-issues，非本輪之事。
 _FRAG_FILES = glob.glob('Work/*/*/*/*/fragments/*.json')
+# draft 側之輯佚早已清盡，故此驗在本檔恆空掃；production 側者今在 book-text，
+# 其驗歸 chk-cross（實掃 1,250 檔）。存此變數以免下游 KeyError，勿以其 0 為據。
 # 清單檔 2026-08-26 更名 index.json；舊名暫存以容未及改者
 _CE_IDX = [f for f in _CE_FILES
            if os.path.basename(os.path.dirname(f)) == 'collated_edition'
