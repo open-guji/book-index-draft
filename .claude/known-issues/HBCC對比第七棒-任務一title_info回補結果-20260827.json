@@ -1,0 +1,102 @@
+{
+ "說明": "HBCC對比第七輪任務一：回補 indexed_by.title_info 全闕候選（補晉書藝文志228條、直齋書錄解題41條），詳見 .claude/plans/HBCC對比-20260826.md〈十二〉。",
+ "前置覈實": "動手前重跑核對，確認 269 候選（228+41）於本輪開工時仍全數缺 title_info（僅 1 條——直齋『續資治通鑑長編』d59f2q30cyyp——因記錄內有兩個同 source_bid 節，其一已有 title_info，另一空節重出；此為記錄內部重出而非真正另有候選填補，計入 41 候選原數）。",
+ "補晉書藝文志": {
+  "candidate_source_bid": "d59f2mp2xibm",
+  "候選總數": 228,
+  "方法": "全 228 條之 work_id 皆於 book-text collated_edition/juan/*.json（42 類目檔）直繫其節，逐條取回 title（即 title_info）與檔名（即 category）與內容原文比對後回補；無一條需另行查證或撞庫。",
+  "回補": 227,
+  "回補_特殊處置": 1,
+  "特殊處置說明": "d59f27vixjwh「毗雲指歸」juan/040.json 中重出兩處（work_id 皆直繫本條），按語各異（一引《大唐內典日録》，一引《法苑珠林傳記篇》）——非整理之誤，係丁國鈞原按語即兩處著錄並存，題名一致故仍繫一條，note 兩存其據。",
+  "串條_疑似未拆": {
+   "說明": "227 條中 27 條之 juan 節內容含 2 個以上「謹按」，疑丁國鈞原按語連書數書而未斷（SKILL〈補晉志的體例〉所載病灶）。本輪僅據 juan 節之題填 title_info（此值不受串條影響——juan 節分割與 work_id 直繫皆已由更早之整理工作完成，僅 title_info 欄本身此前恰好留空），summary／content 未動、未拆分。",
+   "候選id列表": ["d59f27v2dz40","d59f27x2hslg","d59f27th9jpe","d59f27vimbcy","d59f27u4ocg4","d59f27sevcw0","d59f27vv3t36","d59f27wqy0hv","d59f27vj8sg4","d59f27uocao1","d59f27vmzmyo","d59f27tmkkxs","d59f27uu9szo","d59f27wbymf7","d59f27tlbmrm","d59f27v6rapv","d59f27wl0i68","d59f27uspm9v","d59f27wmvxfl","d59f27v9kflu","d59f27vbfuv5","d59f27wvbc3m","d59f27ubusxs","d59f27ujchz7","d59f27u9zdoi","d59f27w9ryma","d59f27u0b0uc"],
+   "建議": "下一輪若要拆分串條，逐條回查對應 juan 檔，比照 SKILL〈串條〉一節「同一輯家不得有二序」等判準界定斷點；本輪未動，僅存證。"
+  },
+  "殘餘": 0
+ },
+ "直齋書錄解題": {
+  "candidate_source_bid": "d59f2htm01du",
+  "候選總數": 41,
+  "juan直繫_23條": {
+   "全數已處置": true,
+   "填補title_info": 22,
+   "填補明細": [
+    {"id":"d59f2pyta4g2","title":"卸史塞故事","juan":"juan/019.json"},
+    {"id":"d59f27t95dkx","title":"老子王弼注","juan":"juan/028.json","備註":"本條為既有完整記錄（非2026-05-14批次殘塊），僅其直齋節缺title_info，一併補齊"},
+    {"id":"d59f2q1olnnk","title":"寇萊公遺事","juan":"juan/022.json"},
+    {"id":"d59f2psxygap","title":"長樂財賦志","juan":"juan/018.json"},
+    {"id":"d59f2q0cj4ld","title":"監誡別錄","juan":"juan/035.json"},
+    {"id":"d59f2pvc3y82","title":"葉石林年譜","juan":"juan/051.json","備註":"summary舊值為曾鞏年譜殘文（另一磁鐵判定之遺留、與本條實際不合），一併清除回補為葉夢得年譜原文"},
+    {"id":"d59f2q44xtz4","title":"注荊公集","juan":"juan/053.json"},
+    {"id":"d59f2hsl61a8","title":"河南邵氏聞見後錄","juan":"juan/035.json","備註":"本條為既有完整記錄，僅其中一節（merged_from 1evr5e3mifbgl）缺title_info"},
+    {"id":"d59f1i9chatc","title":"賈誼新書","juan":"juan/027.json","備註":"舊note誤稱本節「無撰人」，juan原文實有撰人「漢長沙王太傅洛陽賈誼」，一併訂正"},
+    {"id":"d59f2pw9tlaa","title":"內景中黃經","juan":"juan/036.json","備註":"juan撰人作「九仙君」，與Work.authors[0]「九仙苦」一字之差，存疑未改，note存證"},
+    {"id":"d59f2hfq93pe","title":"白樂天年譜","juan":"juan/049.json","備註":"summary舊值為白氏長慶集著錄行殘片，一併清除回補"},
+    {"id":"d59f2q5dkrnk","title":"附索隱史記","juan":"juan/011.json","備註":"period原機讀誤判sui-tang，據juan原文「淳熙中」訂正為song"},
+    {"id":"d59f2q3zbjls","title":"貿阝峯真隱漫錄","juan":"juan/051.json","備註":"「貿阝」疑合為「鄮」，book-text原文亦作拆分，存原形未改"},
+    {"id":"d59f2pt8kiyq","title":"呂公窯頭坯歌","juan":"juan/036.json"},
+    {"id":"d59f2hfg9ibl","title":"晏元獻公年譜","juan":"juan/050.json","備註":"summary舊值為臨川集／二府集著錄行殘片，一併清除回補"},
+    {"id":"d59f2hi6a0w2","title":"拙齋書集解","juan":"juan/002.json","備註":"summary原已完整，僅title_info全闕"},
+    {"id":"d59f2py5k35t","title":"嶽陽志甲","juan":"juan/026.json","備註":"直齋原文合著錄《嶽陽志甲》二卷與附屬部帙《乙》三卷"},
+    {"id":"d59f2q92v3ep","title":"呂真人血脈論","juan":"juan/036.json"},
+    {"id":"d59f2q4snv2a","title":"隆韶導和集","juan":"juan/044.json"},
+    {"id":"d59f2q7dol4w","title":"寵氏家藏秘寶方","juan":"juan/043.json","備註":"撰人龐安時，題名首字book-text原文作「寵」（形近「龐」），存原形未改"},
+    {"id":"d59f2pvs12bl","title":"名臣贄種隱君書啟","juan":"juan/048.json"},
+    {"id":"d59f2px2unep","title":"遺奏志狀碑銘謚議","juan":"juan/022.json"}
+   ],
+   "記錄內部重出清理": [
+    {"id":"d59f2q30cyyp","title":"續資治通鑑長編","說明":"原Work.title為雙題「續資治通鑑長編｜續通鑑長編」，indexed_by[直齋]有兩節：一空一全，空節係2026-05-14批次殘塊，已刪除；title正回單一正題；另查得d59f2pyq5qtd（題「續通鑑長編」，僅國史經籍志一節）疑為同書之另一重出，因其book-text（國史經籍志juan/003.json）work_id尚繫該條，牽動整理本，本輪未動，見下方『發現但未處置』。"}
+   ]
+  },
+  "非juan直繫_18條": {
+   "撞庫核實為既有記錄之重出_已併": 11,
+   "併入明細": [
+    {"候選id":"d59f2qac4hz4","候選title":"南齊書|齊書","併入目標":"d59f2849krgg（齊書）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2q75vmyo","候選title":"韓非子|韓子","併入目標":"d59ezkx3p91c（韓子）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2pzmb6kg","候選title":"前漢紀|漢紀","併入目標":"d59f207wdwcg（漢紀）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2q5oi29s","候選title":"舊五代史|五代史","併入目標":"d59f2hlcu48y（五代史）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2pzrazgh","候選title":"新唐書糾繆|唐書糾繆","併入目標":"d59f2hrkn9qb（新唐書糾繆）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2q8ldsld","候選title":"周書|後周書","併入目標":"d59f28mvr9q9（後周書）","型":"A｜B雙題殘塊","附註":"另有d59f28npq1vk（題「周書」）與此組是否當三方合併，本輪未動，見下方『發現但未處置』"},
+    {"候選id":"d59f2q570rnk","候選title":"舊唐書|唐書","併入目標":"d59f2gcpwfsx（唐書）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2pzs8paa","候選title":"魏書|後魏書","併入目標":"d59f283xei9t（後魏書）","型":"A｜B雙題殘塊"},
+    {"候選id":"d59f2pxk0pa8","候選title":"唐志玄真子","併入目標":"d59f2pzmb6kh（玄真子外篇）","型":"引書省稱誤植為書名（「《唐志》玄真子十二卷」誤拆為獨立書）"},
+    {"候選id":"d59f27sbfqww","候選title":"積算易傳","併入目標":"d59f27sbqzgg（京房易傳）","型":"同段按語貼成兩節之重出"},
+    {"候選id":"d59f27skhmo0","候選title":"雜占條例法","併入目標":"d59f27sp66td（積算雜占條例）","型":"同段按語貼成兩節之重出"}
+   ],
+   "併入判準": "juan_count／author與目標記錄既有之直齋title_info全合，且目標記錄之直齋indexed_by節已由juan直繫確證，二證合一方併；11組核對過程無一相左。",
+   "串條回查後直接補全_已填": 1,
+   "串條說明": {
+    "id": "d59f2q0dgttt",
+    "title": "琉璃堂墨客圖",
+    "說明": "juan/056.json〈風騷要式〉一卷（work_id d59f2psfuozm）節內容以「△」另起一行接續「《琉璃堂墨客圖》一卷不著名氏」，係直齋原文以△號分隔之另一條而整理本未斷 section，回查後直接補全 title_info／summary，未動 book-text 本身。"
+   },
+   "查有線索但非獨立著錄_未填": 6,
+   "未填明細": [
+    {"id":"d59f2q4no1z4","title":"館合書目","juan_count":3,"線索":"juan/036.json〈列女傳〉引「《館合書目》三卷六十二人」（與候選juan_count 3全合），係直齋引「中興館閣書目」（合疑閣之OCR變體）以校列女傳卷數之語，非直齋自著之獨立書目條，直齋無此書之獨立entry。"},
+    {"id":"d59f2qapjpq9","title":"曲臺新禮","juan_count":30,"線索":"juan/020.json〈續曲臺禮〉三十卷（work_id d59f2pv3zshu）條內提及王彥威早年撰《曲臺新禮》三十卷、且稱『《館閣書目》亦無之』——直齋僅於背景敘述中提及，未別立entry。"},
+    {"id":"d59f2pw9icch","title":"韓集譜注","juan_count":45,"線索":"juan/049.json〈韓文公志〉五卷（work_id d59f2q4fjvup）條內提及樊汝霖嘗撰《韓集譜注》四十五卷，然直齋自云『《譜注》未之見』——明言未見，非缺著錄。"},
+    {"id":"d59f2pyc4268","title":"沿革統論","juan_count":1,"線索":"juan/009.json〈政和修定謚法〉六卷（work_id d59f2hfs4iyq）條內敘全書八十卷含《沿革統論》一卷為其篇首——沿革統論係附屬部帙而非獨立書，依SCHEMA不應別立title_info。"},
+    {"id":"d59f2q61asqo","title":"樂書補亡","juan_count":3,"線索":"juan/044.json〈大樂演義〉三卷（work_id d59f2hhjhp8j，房審權撰）條內提及其父房庶撰《樂書補亡》三卷並上之於朝——直齋僅於背景敘述中提及，未別立entry。"},
+    {"id":"d59f27swcnb4","title":"占候十種","juan_count":73,"線索":"與其餘陸績占候類著作（積算雜占條例、京房易傳）共用同段直齋按語，然juan_count 73卷於juan文本中查無對應實據，不同於前述兩件（juan_count 1卷、3卷分別精確對應），存疑未併未填。"}
+   ]
+  },
+  "發現但未處置_留供下一輪": [
+   {
+    "說明": "d59f2pyq5qtd（題「續通鑑長編」，僅國史經籍志一節、無卷數）疑與d59f2q30cyyp（續資治通鑑長編，168卷，李燾撰）同書而重出。因d59f2pyq5qtd對應之book-text整理本（國史經籍志 juan/003.json 某節）work_id 尚繫該條，若逕刪d59f2pyq5qtd會令該book-text節work_id懸空，需一併改繫book-text，屬跨倉改動，本輪（僅涉book-index）未動，留供下一輪。"
+   },
+   {
+    "說明": "d59f28mvr9q9（後周書，本輪已併入直齋候選d59f2q8ldsld）與d59f28npq1vk（周書，隋志/舊唐志/四庫等多家著錄，其舊唐書經籍志節title_info本身即作《後周書》五十卷）是否應三方合併為一，本輪未查證動筆，見d59f28mvr9q9之merged_in note存證。"
+   }
+  ]
+ },
+ "彙總": {
+  "候選總數": 269,
+  "已補title_info": 252,
+  "已補title_info_構成": "228（補晉書全數，含1條特殊處置）＋22（直齋juan直繫新填）＋1（直齋琉璃堂墨客圖，串條回查後新填）＋1（直齋續資治通鑑長編/d59f2q30cyyp，記錄內部重出節清理——其本身早有一節有title_info，本輪僅刪除同記錄內之空重出節、正回單一書名）＝252。",
+  "併銷_原記錄已刪除": 11,
+  "併銷_說明": "11 條經撞庫核實為既有完整記錄之重出殘塊，已併入目標記錄並刪除原記錄，不再是本庫獨立記錄，故不計入『已補』亦不計入『未補』。",
+  "未補_查有線索但非獨立著錄": 6,
+  "檢驗": "252 + 11 + 6 = 269"
+ }
+}
