@@ -1,0 +1,24 @@
+{
+ "說明": "title 尾字重複（如「宋書沈約撰撰」應正為「宋書」+authors[0]=沈約撰）之候選清單，見 .claude/plans/HBCC對比-20260826.md〈九之軌一之1〉。原估48條，經前四輪子進程之新唐志/舊唐志處理已附帶消解若干，本次（2026-08-27）重新掃描全庫（含 production）得17條，皆為此類。",
+ "方法": "逐條：a. 從 indexed_by[] 諸節或 title 本身拆出乾淨書名＋撰人；b. 查 ai_note 有無自陳重出對象，核實後併之；c. 查全庫（production+draft）title 完全或近似者，若同名庫中已有異人異書則依 SCHEMA 括注消歧；d. title 一律正回乾淨書名，撰人正確填入 authors[]。改前必查重出，不確定就存證不要猜。",
+ "時": "2026-08-27",
+ "條": [
+  {"id": "d59f283xpqtc", "title": "宋書沈約撰撰", "authors": []},
+  {"id": "d59f283xei9w", "title": "晉書蕭子雲撰撰", "authors": []},
+  {"id": "d59f28mme5fm", "title": "晉書許敬宗等撰撰", "authors": []},
+  {"id": "d59f283z9xj4", "title": "陳書傅縡撰撰", "authors": []},
+  {"id": "d59f283x39q8", "title": "宋書孫嚴撰撰", "authors": []},
+  {"id": "d59f27xzw6pt", "title": "晉書虞預撰撰", "authors": []},
+  {"id": "d59f2mqx3thc", "title": "陸氏草木鳥獸蟲魚疏疏", "authors": ["焦循"]},
+  {"id": "d59f283w5k3o", "title": "子鈔庾仲容撰撰", "authors": []},
+  {"id": "d59f24mhvk79", "title": "志怪孔氏撰撰", "authors": []},
+  {"id": "d59f28msbnra", "title": "陳書姚思廉撰撰", "authors": []},
+  {"id": "d59f283yngg1", "title": "後漢書劉義慶撰撰", "authors": []},
+  {"id": "d59f283wgsn6", "title": "設論集謝靈運撰撰", "authors": []},
+  {"id": "d59f283yc7wg", "title": "晉書謝靈運撰撰", "authors": []},
+  {"id": "d59f27ybfytf", "title": "晉書朱鳳撰撰", "authors": []},
+  {"id": "d59f2q0dgu80", "title": "遁甲開山圖榮氏撰撰", "authors": []},
+  {"id": "d59f28mvg16s", "title": "三十國春秋武敏之撰撰", "authors": []},
+  {"id": "d59f283q81s1", "title": "後漢書音臧兢撰撰", "authors": []}
+ ]
+}
