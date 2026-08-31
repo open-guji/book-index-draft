@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "id": "a9rk9a66za4ou",
+  "title": "補北齊書藝文志",
+  "authors": [
+    {
+      "name": "徐仁甫",
+      "role": "撰",
+      "dynasty": "民國"
+    }
+  ],
+  "description": {
+    "text": "《二十五史藝文經籍志考補萃編》第36種，民國徐仁甫撰。（未完稿） 清華大學出版社《二十五史藝文經籍志考補萃編》（2011–2014，王承略、劉心明主編）收錄。",
+    "sources": [
+      "二十五史藝文經籍志考補萃編"
+    ]
+  },
+  "ai_note": "2026-08-31 新建（草稿）：本條為 production 庫 Collection《二十五史藝文經籍志考補萃編》（`3lsx40665rfc`）第36種尚未收錄之成員，據用戶所存 open-guji/overview 倉庫書目文檔（項目進展/古籍索引網站/目錄錄入/二十五史艺文经籍志考补萃编书目.md）新建於草稿庫。僅記書名、朝代、著者三項，餘（indexed_by、loss_status、period_upper、詳細考訂）尚待後續逐條核實原書、補全內容後再升格至 production。",
+  "related_works": [
+    {
+      "id": "3lsx40665rfc",
+      "title": "二十五史藝文經籍志考補萃編",
+      "relation": "collected_in",
+      "note": "production 庫之 Collection id（跨庫引用，升格時一併補上 production 側 contains[].work_id）"
+    }
+  ],
+  "revision": "0.1.0",
+  "revised_at": "2026-08-31",
+  "period": "modern",
+  "period_basis": "據撰人朝代「民國」直接對應 period 詞表，未覆核著錄志之上限（草稿階段）"
+}
