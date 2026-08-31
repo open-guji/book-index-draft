@@ -221,5 +221,67 @@
    "juan": null,
    "raw": "金剛經諸衷心經淺説 (清)王定柱撰 亦見《清史稿 • 藝文志》"
   }
- ]
+ ],
+ "結案_20260831": {
+  "說明": "本檔35條已全數處置完畢，清史稿藝文志正向缺口任務至此告一段落。",
+  "已補繫既存記錄": [
+   {
+    "hbcc": "長吉歌詩彙解外集",
+    "target": "d59f28ljoq2v",
+    "target_title": "李長吉詩歌彙解卷首外集"
+   },
+   {
+    "hbcc": "粤東詩海補遺",
+    "target": "d59f2nrox98h",
+    "target_title": "粵東詩海"
+   }
+  ],
+  "新建31條": {
+   "說明": "皆據HBCC著錄文字建檔（撰人／卷數／summary），未覆核原書，book-text該志整理本查無對應原文。改前已逐條核對全庫（production+draft）撰人與近似題名之既存記錄，7條與既存記錄之關係未能確證同書，已以related_works存疑並記（見各條ai_note）：戰國年表(vs戰國紀年地輿年表)、異魚讚閏集(vs異魚圖贊箋)、簷曝雜記續(vs簷曝雜記附錄)、右丞集注附録(vs王右丞集箋注)、荆公文集注(vs王荊公詩集注...文集注...)、吴錫麟詩集(vs有正味齋文集)、陳比部詩餘别集(vs陳比部遺集)。子建集銓評、荆公文集注二條經WebSearch確認為真實歷史著作。",
+   "id列表": [
+    "1exen7aljw0wu",
+    "1exgfzcv0dh82",
+    "1exfr84p9x782",
+    "1ex8zmn9pgm9z",
+    "1exxl2pz23xac",
+    "1exwjm65oi10d",
+    "1exhkgcnel6nh",
+    "1exyi4puy4rzh",
+    "1exc3pj1vrzyd",
+    "1exdbl0feu5ti",
+    "1exl1rh97mv93",
+    "1exyhqiml7xvx",
+    "1excbkbp85tmd",
+    "1exbkj1w0ab4r",
+    "1exjtxwdm820m",
+    "1exksl57hifte",
+    "1exsouy3qd5j9",
+    "1exbk4secff1p",
+    "1exthesqoewdl",
+    "1exa0xodixabt",
+    "1exhc1v8g9ah2",
+    "1exy2y6b6k74q",
+    "1exnjbpo1mk9c",
+    "1exssh1hx9oko",
+    "1exjrm5xeal0b",
+    "1ex1a14o48m7k",
+    "1ex4eejy2w8v0",
+    "1excjseiml2ct",
+    "1ex42z3ggdb1v",
+    "1ex57m88qpenk",
+    "1exxxzfywg6cu"
+   ]
+  },
+  "棄權2條": [
+   {
+    "raw": "出行寶鏡 1卷 亦見《清史稿 • 藝文志》",
+    "理由": "無撰人、無其他線索，題名亦嫌泛稱，存疑不建"
+   },
+   {
+    "raw": "金剛經諸衷心經淺説 (清)王定柱撰 亦見《清史稿 • 藝文志》",
+    "理由": "無卷數，題名疑有斷句/OCR訛誤（或為『金剛經、諸家心經淺說』之類），邊界不明，存疑不建"
+   }
+  ],
+  "chk結果": "chk.py／JSON合法性掃描全項歸零，目錄分片錯置0、索引欄位不符0（已修正建檔時之分片誤植——最初誤用id前三字元而非末三字元，已全數移正）。"
+ }
 }
