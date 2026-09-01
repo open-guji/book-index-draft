@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "type": "work",
+  "title": "周祇集",
+  "id": "1exeqmxmbg201",
+  "authors": [
+    {
+      "name": "周祇",
+      "dynasty": "晉",
+      "role": "撰"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "補晋書藝文志",
+      "source_bid": "d59f2mp2xibm",
+      "title_info": "國子博士周祇集廿一卷",
+      "summary": "國子博士周祇集廿一卷"
+    }
+  ],
+  "juan_count": {
+    "number": 21
+  },
+  "measures": [
+    {
+      "unit": "卷",
+      "number": 21
+    }
+  ],
+  "measure_info": "二十一卷",
+  "dynasty": "晉",
+  "dynasty_basis": "據唯一 author dynasty「晉」",
+  "ai_note": "2026-08-31 HBCC對比補晉書藝文志正向缺口項6：HBCC《中國歷代典籍總目》entryId 10066071002460，著錄「國子博士周祇集廿一卷」，本庫查無庫中對應獨立記錄。本庫補晉書藝文志整理本juan042.json「黑髮酒方一卷」節（work_id d59f27vmzmyq）content以串條形式連續著錄多書，其一：「集部國子博士周祇集十一卷 謹按見《隋志》。《七録》二十卷，兩《唐志》十卷。家大人曰：据《御覽》五百二十六。引祇《祭梁鴻文》，知字穎文。……頗疑其人卒於宋初。」諸志所著卷數不一（丁按十一卷／七録二十卷／兩唐志十卷），與HBCC候選廿一卷（entryId 10066071002460）亦異，卷數存異、以HBCC所記為準暫記。屬串條未拆，析出新建，未動book-text原section結構。",
+  "period_upper": "jin",
+  "period_upper_basis": "catalog_bound：唯一著錄源《補晉書藝文志》（清丁國鈞，補晉代書目），故不晚於 jin",
+  "revision": "1.0.0",
+  "revised_at": "2026-08-31"
+}
