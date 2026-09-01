@@ -1,50 +1,8 @@
 {
   "schema_version": 1,
+  "id": "1ex1kjcl56xak",
   "type": "work",
   "title": "虞廷碩詔令",
-  "authors": [
-    {
-      "name": "虞廷碩",
-      "role": "撰",
-      "entity_id": "1j967da95zf9q"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "千頃堂書目",
-      "source_bid": "d59f2mel8d1c",
-      "title_info": "虞廷碩詔令四卷",
-      "summary": "虞廷碩詔令四卷"
-    },
-    {
-      "source": "元史藝文志",
-      "source_bid": "d59f2mp1zsoz",
-      "title_info": "虞廷碩歷代詔令四卷",
-      "summary": "元虞廷碩歷代詔令四卷"
-    }
-  ],
-  "description": {
-    "text": "見《千頃堂書目》著錄。",
-    "sources": [
-      "千頃堂書目"
-    ]
-  },
-  "period_upper": "qing",
-  "period_upper_basis": "catalog_bound：唯一著錄源《千頃堂書目》成書於清初（黃虞稷 1629-1691），故不晚於 qing；書內小注無朝代線索，period 留 null 不猜",
-  "ai_note": "撰人切分來源：又條承上。\n\n2026-08-31 HBCC對比第十二輪任務二順帶清理：title/title_info/summary原含批次遺留之偵錯標記「cq=25」，已清除；並依撰人+書名慣例正題「虞廷碩詔令」，補juan_count=4。\n\n2026-08-31 HBCC對比第十二輪任務二：回查book-text元史藝文志（d59f2mp1zsoz）全文.md原文「元虞廷碩歷代詔令四卷」，確認即HBCC absent候選「虞廷碩詔令 4卷」（HBCC節略「歷代」二字），補元史藝文志索引節。\n\n2026-09-01 合併origin/main發現：本id在並行千頃堂書目promote批次中，已依舊檔名「詔令四卷cq=25.json」（未見本輪清理）之舊內容獨立promote至production d59f6eibfpc0（「詔令四卷cq25」，仍含cq=25污染、缺juan_count/元史藝文志引）。本檔清理內容較production版本準確，惟production記錄已生成，未便逕改production；本檔加註_promoted_to存證此id生命週期實況，其production內容之污染留待日後另行清理。",
-  "id": "1ex1kjcl56xak",
-  "juan_count": {
-    "number": 4
-  },
-  "measures": [
-    {
-      "unit": "卷",
-      "number": 4
-    }
-  ],
-  "measure_info": "四卷",
-  "revision": "1.0.1",
-  "revised_at": "2026-08-31",
   "_promoted_to": "d59f6eibfpc0",
   "_promoted_at": "2026-09-01T00:17:46Z"
 }
