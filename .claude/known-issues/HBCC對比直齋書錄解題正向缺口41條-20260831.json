@@ -1,0 +1,57 @@
+{
+ "說明": "HBCC對比待辦清單項1：直齋書錄解題正向缺口，現場重跑absent=41，與舊估一致。逐條核實：18條確認本庫既有記錄已覆蓋（含多起因HBCC候選題名帶「案文獻通考...」等志外案語黏連、或詞序顛倒、或屬既存合刻附屬部帙節而未察，皆非真缺）；2條經同題異志比對補齊既存記錄之撰人/citation（論語續解補作者吳棫並記其附屬部帙「攷異説例」）；19條book-text查無獨立section或僅見於串條殘句，經個別核實後新建；2條棄權存證。",
+ "方法": "先用hbcc_cmp.py/hbcc_gap.py現場重跑核實規模；HBCC獨有41條逐一以撰人姓名交叉比對（含簡繁正規化）+書名重合度篩選，凡命中者查其book-text直齋書錄解題整理本（source_bid d59f2htm01du）原文與既存記錄之indexed_by/juan_count確認是否同書；未命中者查book-text該志juan檔逐一搜尋，找到者據原文建檔，查無者依HBCC著錄文字直接建檔（未覆核原書）。",
+ "時": "2026-08-31",
+ "確認已在庫_18條": [
+  {"hbcc": "莊子十論", "target": "d59f2ptj6lfl"},
+  {"hbcc": "蓺苑雌黄", "target": "d59f2hmdcvsy（藝苑雌黃）"},
+  {"hbcc": "隆韶導和集", "target": "d59f2q4snv2a"},
+  {"hbcc": "琉璃堂墨客圖一卷案:文獻通攷", "target": "d59f2q0dgttt"},
+  {"hbcc": "注荆公集五十卷案:文獻通攷", "target": "d59f2q44xtz4（注荊公集）"},
+  {"hbcc": "黄帝内經素問", "target": "d59f2q4i1slc"},
+  {"hbcc": "擊壤集", "target": "d59f2hpn1clc"},
+  {"hbcc": "宼莱公遺事", "target": "d59f2q1olnnk（寇萊公遺事）"},
+  {"hbcc": "藍田吕氏鄉約", "target": "d59f2q7xz08x（呂氏鄉約）"},
+  {"hbcc": "看詳", "target": "d59f2hth08oy（營造法式）之附屬部帙節"},
+  {"hbcc": "纂要圖例", "target": "d59f2pu2ujuo（切韻義）之附屬部帙節"},
+  {"hbcc": "兼山論著", "target": "d59f2pwcbh1d（齊齋甲槁）之附屬部帙節"},
+  {"hbcc": "兼山論著附録", "target": "同上（附益）之附屬部帙節，同一家族"},
+  {"hbcc": "掖垣繳論", "target": "d59f2pu6wmiq（齊齋奏議）之附屬部帙節"},
+  {"hbcc": "銀臺章奏", "target": "同上"},
+  {"hbcc": "大胡笳", "target": "d59f2pu9preo（大胡笳十九拍）"},
+  {"hbcc": "顔魯公集十五卷補遺一卷附録", "target": "d59f28lwsow2（顏魯公集）之附屬部帙節"},
+  {"hbcc": "索隠史記", "target": "d59f2q5dkrnk（附索隱史記，130卷全合）"},
+  {"hbcc": "集傳集注", "target": "d59f2hfw6m0z（古禮經傳通解）之附屬部帙節"}
+ ],
+ "補齊既存記錄_2條": [
+  {"hbcc": "攷異説例", "action": "為d59f2ptk4av6（論語續解）補撰人吳棫（據國史經籍志/經義考同題異志互證），並記本節即該書附屬部帙"}
+ ],
+ "新建19條": [
+  "1ex0m4nij9rcg 無垢鄉黨少儀咸有一德論語孟子拾遺（book-text juan009獨立section）",
+  "1exfq7n9um090 三十六條四圖（book-text juan013獨立section）",
+  "1exicuc0lc55m 諸郡氏譜（book-text juan024獨立section）",
+  "1exozwu9n42fz 六閣書籍圖畫目（book-text juan025獨立section）",
+  "1ex8q68mj1mdy 楚澤叢語（book-text juan034串條殘句，未動book-text section結構）",
+  "1exqlq1a2mgsh 金碧上經古文龍虎傳（book-text juan036串條殘句，未動book-text section結構）",
+  "1exa8lzgx07fy 毗陵公奏議（book-text juan055串條殘句，未動book-text section結構）",
+  "1exssw7xgklev 叙篇系述（無book-text，據HBCC著錄建檔）",
+  "1exs356ex9hb5 雜年號（同上）",
+  "1exdtrn9poxhd 遺奏誌狀碑銘諡議（同上）",
+  "1exsj8sg30f3l 三程全書外書（同上）",
+  "1exhfkne8me2f 吕真人血脉論（同上）",
+  "1exol91ckadz7 吕公窑頭坯歌（同上）",
+  "1exoay3wfjy6p 名臣贄种隠君書啓（同上）",
+  "1ex86c3wq37gy 天台集别編（同上）",
+  "1exfo5gzsn8mh 栝蒼集續（同上，與既存陳百朋《續括蒼集》關係存疑未合併）",
+  "1exdyqquhxrxd 李泰伯退居續藁（同上）",
+  "1exwroaujhuax 張耒年譜（同上）",
+  "1exb2t2j5lezf 入内廷後詩集（同上）"
+ ],
+ "棄權2條": [
+  {"hbcc": "姚氏殘語云：殷璠爲河嶽英靈集，不載杜甫詩……", "理由": "HBCC解析誤——此係直齋原文按語（一段連續議論），非書名，非本庫著錄空缺"},
+  {"hbcc": "傷寒十勸", "理由": "book-text原文顯示此係另一書《摘要方》內容之一部分（「《傷寒十勸》及《危證十病》，末載《託裏十補散方》」），非獨立著錄之書，且HBCC candidate本身無撰人無卷數，邊界不明，存疑不建"}
+ ],
+ "順帶發現": "整理本juan010.json有一處section級磁鐵（「切韻義」與「纂要圖例」共用work_id d59f2pu2ujuo），因該節已標記section_kind=附屬部帙、依既定SCHEMA不計入chk-cross.py之磁鐵統計，本輪未動，如實記錄供日後參考。",
+ "chk結果": "chk.py／chk-cross.py／JSON合法性掃描全項維持基線（唯二既知無關項：production目錄分片錯置3、簡轉繁過度轉換1「範通」皆確認源於其他並行工作線，非本輪所致）。",
+ "commit": "book-index-draft（本檔+19條新建+index更新）；book-index（論語續解補撰人+附屬部帙記）"
+}
