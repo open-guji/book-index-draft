@@ -1,0 +1,250 @@
+{
+  "範圍": "promotions.json 中 40 條之 production_id 在 book-index 仓已無其檔（2026-09-03 全量實測）。",
+  "成因": "皆係**有意併條或刪條之殘留**——條目升格後又被判為重出而併入他條（或判為壞 entity 而刪），production 側之檔隨之刪去，而 promotions.json 之對照目**未同步清理**。其中 7 個 Entity 正是 2026-09-03 聶崇岐本各輪質檢所刪者（武帝／何承夫／劉道薈／余叔嚮／徐叔鄉／顏延之逸／顧懷三），33 個 Work 多係異名併條（韓非子|韓子、舊唐書|唐書、魏書|後魏書 等）。",
+  "為何非資料之壞": "draft 側墓碑仍在、production 側之存留條亦在，資料本身無失；壞的只是 promotions 這張對照表多出 40 筆指向虛空之目。",
+  "為何仍當修": "`validate-promotions`／`sweep-promoted-refs`／撞號檢測**皆以此表為據**，表中有虛目則諸驗之結論不可盡信；且日後若有人據此表反查「某 draft 升到何處」，會得到一個不存在的 id。",
+  "踩坑提示": "清理**不可逕刪該 40 筆**——併條之時原墓碑已改指存留者，逕刪則 draft 墓碑之 `_promoted_to` 與 promotions 表脫節。當查其併入之存留 id（看被併條之 `merged_from`／存留條之 `merged_from`），**把 production_id 改指存留者**，方存其溯源之鏈。",
+  "狀態": "2026-09-03 查明，未修。",
+  "逐條": [
+    {
+      "production_id": "d59f27sbfqww",
+      "draft_id": "1evr5e3mj1sho",
+      "type": "Work",
+      "title": "積算易傳"
+    },
+    {
+      "production_id": "d59f27skhmo0",
+      "draft_id": "1evr5e3mjd10n",
+      "type": "Work",
+      "title": "雜占條例法"
+    },
+    {
+      "production_id": "d59f27xaaq69",
+      "draft_id": "1evc5pcvsesqo",
+      "type": "Work",
+      "title": "喪服經傳集注蔡超注"
+    },
+    {
+      "production_id": "d59f2evmb56r",
+      "draft_id": "1ewsa49qi4v80",
+      "type": "Work",
+      "title": "史佚書"
+    },
+    {
+      "production_id": "d59f2evmb56t",
+      "draft_id": "1ex8i4pmr11x6",
+      "type": "Work",
+      "title": "春秋"
+    },
+    {
+      "production_id": "d59f2evnk3cy",
+      "draft_id": "1evr5e3mchszk",
+      "type": "Work",
+      "title": "辛甲書"
+    },
+    {
+      "production_id": "d59f2evo6kg0",
+      "draft_id": "1evr5e3mamdtj",
+      "type": "Work",
+      "title": "周徐子"
+    },
+    {
+      "production_id": "d59f2evo6kg1",
+      "draft_id": "1evr5e3mezpd9",
+      "type": "Work",
+      "title": "由余書"
+    },
+    {
+      "production_id": "d59f2evot1j4",
+      "draft_id": "1evcmnd8kyqyo",
+      "type": "Work",
+      "title": "司馬兵法"
+    },
+    {
+      "production_id": "d59f2evot1j5",
+      "draft_id": "1evr5e3mamdtf",
+      "type": "Work",
+      "title": "魏文侯書"
+    },
+    {
+      "production_id": "d59f2evq1zpf",
+      "draft_id": "1evcmnc56962o",
+      "type": "Work",
+      "title": "魯連子"
+    },
+    {
+      "production_id": "d59f2evqd88w",
+      "draft_id": "1evr5e3mc6kn3",
+      "type": "Work",
+      "title": "伊尹書"
+    },
+    {
+      "production_id": "d59f2evvd0xw",
+      "draft_id": "1evcmnd9zj6yo",
+      "type": "Work",
+      "title": "太公六韜"
+    },
+    {
+      "production_id": "d59f2evwaqkg",
+      "draft_id": "1evcsyb4s2b5s",
+      "type": "Work",
+      "title": "司馬穰苴兵法"
+    },
+    {
+      "production_id": "d59f2evwlz43",
+      "draft_id": "1evr5e3mamdte",
+      "type": "Work",
+      "title": "周景子"
+    },
+    {
+      "production_id": "d59f2evwx7nl",
+      "draft_id": "1evr5e3m8fpxi",
+      "type": "Work",
+      "title": "史籀篇"
+    },
+    {
+      "production_id": "d59f2evz3vgk",
+      "draft_id": "1evr5e3mamdth",
+      "type": "Work",
+      "title": "甯子"
+    },
+    {
+      "production_id": "d59f2hhramtd",
+      "draft_id": "1evcpcxk08lxc",
+      "type": "Work",
+      "title": "東宮儀記"
+    },
+    {
+      "production_id": "d59f2og22fpc",
+      "draft_id": "1evr5e3mchszl",
+      "type": "Work",
+      "title": "田駢子"
+    },
+    {
+      "production_id": "d59f2pr0cjcy",
+      "draft_id": "1ewsa49rp7m6z",
+      "type": "Work",
+      "title": "鄭長者書"
+    },
+    {
+      "production_id": "d59f2pr1wq9t",
+      "draft_id": "1ewsa49rxbsbh",
+      "type": "Work",
+      "title": "宋司星子韋書"
+    },
+    {
+      "production_id": "d59f2prw6qyq",
+      "draft_id": "1ex4w0irbjiey",
+      "type": "Work",
+      "title": "禮古經"
+    },
+    {
+      "production_id": "d59f2pxk0pa8",
+      "draft_id": "1evr5e3mifbf4",
+      "type": "Work",
+      "title": "唐志玄真子"
+    },
+    {
+      "production_id": "d59f2pzmb6kg",
+      "draft_id": "1evr5e3miqjut",
+      "type": "Work",
+      "title": "前漢紀|漢紀"
+    },
+    {
+      "production_id": "d59f2pzrazgh",
+      "draft_id": "1evr5e3mjd0z7",
+      "type": "Work",
+      "title": "新唐書糾繆|唐書糾繆"
+    },
+    {
+      "production_id": "d59f2pzs8paa",
+      "draft_id": "1evr5e3mjzi59",
+      "type": "Work",
+      "title": "魏書|後魏書"
+    },
+    {
+      "production_id": "d59f2q424oox",
+      "draft_id": "1evr5e3maxm9w",
+      "type": "Work",
+      "title": "野老書"
+    },
+    {
+      "production_id": "d59f2q570rnk",
+      "draft_id": "1evr5e3mifbgd",
+      "type": "Work",
+      "title": "舊唐書|唐書"
+    },
+    {
+      "production_id": "d59f2q5oi29s",
+      "draft_id": "1evr5e3mjd14i",
+      "type": "Work",
+      "title": "舊五代史|五代史"
+    },
+    {
+      "production_id": "d59f2q5uqt4w",
+      "draft_id": "1evr5e3mezpc0",
+      "type": "Work",
+      "title": "李克書"
+    },
+    {
+      "production_id": "d59f2q75vmyo",
+      "draft_id": "1evr5e3mkaqpn",
+      "type": "Work",
+      "title": "韓非子|韓子"
+    },
+    {
+      "production_id": "d59f2q8ldsld",
+      "draft_id": "1evr5e3mjzi1t",
+      "type": "Work",
+      "title": "周書|後周書"
+    },
+    {
+      "production_id": "d59f2qac4hz4",
+      "draft_id": "1evr5e3mjzi71",
+      "type": "Work",
+      "title": "南齊書|齊書"
+    },
+    {
+      "production_id": "hixhd2h9bklu",
+      "draft_id": "1j96hf7zgzkzk",
+      "type": "Entity",
+      "title": "顧懷三"
+    },
+    {
+      "production_id": "hixhd2h9blsv",
+      "draft_id": "1j96hg56b8buo",
+      "type": "Entity",
+      "title": "何承夫"
+    },
+    {
+      "production_id": "hixhd2h9blxj",
+      "draft_id": "1j96hg8j4dse8",
+      "type": "Entity",
+      "title": "余叔嚮"
+    },
+    {
+      "production_id": "hixhd2h9bmy5",
+      "draft_id": "1j96hl6s9cc1s",
+      "type": "Entity",
+      "title": "武帝"
+    },
+    {
+      "production_id": "hixhd2h9bp7u",
+      "draft_id": "1jcf5151294eu",
+      "type": "Entity",
+      "title": "劉道薈"
+    },
+    {
+      "production_id": "hixhd2h9bqkz",
+      "draft_id": "1jcf5151295s9",
+      "type": "Entity",
+      "title": "徐叔鄉"
+    },
+    {
+      "production_id": "hixhd2h9buj0",
+      "draft_id": "1jcf5151299r1",
+      "type": "Entity",
+      "title": "顏延之逸"
+    }
+  ]
+}
