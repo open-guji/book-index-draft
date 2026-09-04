@@ -1,0 +1,36 @@
+{
+  "標題": "多進程並發新建 Official Entity 會撞號並靜默覆蓋他人文件",
+  "發現時間": "2026-09-04",
+  "發現場景": "「坑32」authors 誤清空修復專項，多個 agent 並行處理不同批次，同時調用 mgr.save_item(..., status=Official) 新建 entity",
+  "現象": [
+    "同一秒內多個進程生成的 Official entity ID 完全相同",
+    "save_item 撞號後走「title changed → 改名」分支，把先寫入者的文件重命名/覆蓋，且不報錯",
+    "本次實測至少 3 例被覆蓋：王冉→張闓、夏侯靖→盧元明、王敬→陳蟠隱（均為 untracked 新文件，git 無法恢復）"
+  ],
+  "根因": {
+    "文件": "book_index_manager/id_generator.py + manager.py",
+    "點1": "BookIndexManager.__init__ 硬編碼 machine_id=1，所有並發進程共用同一機器號",
+    "點2": "Official ID 時間戳為秒級（_get_current_timestamp），粒度太粗",
+    "點3": "sequence 計數器只存在於進程內存，跨進程不共享，無法去重",
+    "點4": "save_item 撞號時的改名分支沒有做存在性檢查，直接覆蓋"
+  },
+  "歷史": "代碼註釋中已記錄過同類事故（2026-08-24 隋唐升格撞號九組十八條），但當時的修復只解決單進程內 draft/official 交替的問題，未解決跨進程並發",
+  "本次規避方式": "第9批 agent 自行改用獨佔 machine_id=209 生成 ID，落盤前檢查目錄下是否已存在該 ID，並用 O_CREAT|O_EXCL 原子創建。重跑後全庫 entity 重複 ID 數為 0",
+  "本次損失核查結論": "無實際數據損失。全庫審計：同ID多文件=0、entity_id 斷鏈=0、索引懸掛=0、本次改動的 530 個 entity 文件懸掛引用=0。被覆蓋的 3 例已由相關批次各自重建修復",
+  "修復": {
+    "時間": "2026-09-04",
+    "commit": "book-index-manager master df5b67f",
+    "做法": [
+      "新增 machine_id.py：以檔案鎖保護之租約式分配。登記表 `<storage_root>/.machine_ids.json`，跨平台鎖（Windows msvcrt / POSIX fcntl，無第三方依賴）。取號時跳過仍被持有者；租約帶 TTL(6h) 與 pid 存活檢查；進程退出 atexit 自動釋放",
+      "釋放後設 3 秒**冷卻期**：official 時間戳只到秒，前任剛釋放、後任立刻取得同號時，交接那一秒內生成之 id 仍會相同。此點在並發冒煙測試中實測復現，非理論推測",
+      "manager.py：machine_id 預設改為 None（自動租用），仍可顯式指定",
+      "storage.py：第二道防線。save_item 新增 is_new 參數——新生成之 id 若磁盤已有檔即是撞號，直接 StorageError，不再走改名分支 unlink 他人之檔"
+    ],
+    "驗證": [
+      "新增 10 個測試：跨進程取號互異、冷卻期語義、撞號報錯且不刪原檔、既有條目改名不受影響",
+      "既有 175 個測試全通過（合計 185）",
+      "真實並發冒煙：10 進程 × 各建 30 個 entity → 10 個互異 machine_id、300 個 id 零重複、磁盤 300 檔零丟失"
+    ]
+  },
+  "狀態": "已修復（2026-09-04）。本次事故無實際數據損失：全庫審計 同ID多檔=0、entity_id 斷鏈=0、索引懸掛=0；被覆蓋之 3 例已由相關批次各自重建"
+}
