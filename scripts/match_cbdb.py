@@ -319,11 +319,17 @@ class CBDBMatcher:
         }
 
     def run(self, dynasty_filter: str = None, limit: int = None,
-            dry_run: bool = False, review_only: bool = False):
+            dry_run: bool = False, review_only: bool = False,
+            only_ids: set = None):
         entity_files = glob.glob(
             os.path.join(self.root, 'Entity', '**', '*.json'),
             recursive=True
         )
+        # 只跑指定的一批 Entity（--ids-from）。成批录入后往往只想补那一批
+        # 牵涉到的人，而不是把全仓两万条没 cbdb_id 的都扫一遍。
+        if only_ids:
+            entity_files = [f for f in entity_files
+                            if os.path.basename(f).split('-', 1)[0] in only_ids]
 
         results = {'auto': [], 'pending_review': [], 'no_candidates': [], 'low_score': [], 'errors': []}
         processed = 0
@@ -360,6 +366,10 @@ class CBDBMatcher:
                 entity['external_ids']['cbdb_source'] = result['source']
                 with open(fpath, 'w', encoding='utf-8') as f:
                     json.dump(entity, f, ensure_ascii=False, indent=2)
+                    # 库内条目一律以换行收尾（见 storage.py 的 save_item），
+                    # 少这一个字节，每改一条都要多一行
+                    # 「\\ No newline at end of file」
+                    f.write('\n')
 
             if limit and processed >= limit:
                 break
@@ -405,6 +415,9 @@ def main():
     parser.add_argument('--review-only', action='store_true')
     parser.add_argument('--min-score', type=int, default=70)
     parser.add_argument('--verbose', action='store_true')
+    parser.add_argument('--ids-from',
+                        help='JSON 文件，内容为 ["<entity-id>", ...] 或 [{"id": ...}, ...]；'
+                             '只处理其中的 Entity')
     args = parser.parse_args()
 
     print(f'加载 CBDB: {args.cbdb}')
@@ -414,12 +427,19 @@ def main():
     if args.dry_run:
         print('【dry-run 模式，不写文件】')
 
+    only_ids = None
+    if args.ids_from:
+        raw = json.load(open(args.ids_from, encoding='utf-8'))
+        only_ids = {x['id'] if isinstance(x, dict) else x for x in raw}
+        print(f'只处理 --ids-from 给的 {len(only_ids)} 个 Entity')
+
     matcher = CBDBMatcher(args.cbdb, args.root, auto_threshold=args.min_score)
     results = matcher.run(
         dynasty_filter=args.dynasty,
         limit=args.limit,
         dry_run=args.dry_run,
         review_only=args.review_only,
+        only_ids=only_ids,
     )
     print_results(results, verbose=args.verbose)
 
