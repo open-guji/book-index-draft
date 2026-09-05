@@ -1,0 +1,51 @@
+{
+  "id": "2026-09-04-misattached標而不摘",
+  "title": "misattached 標記「裁而不執行」——標了卻不摘除，下游 description 照樣取用誤掛之源",
+  "status": "open",
+  "severity": "high",
+  "discovered": "2026-09-04",
+  "discovered_via": "查斷代志矛盾 34 條時，二個獨立核實 agent 各自撞上同一現象：多條之 ai_note／period_basis 已白紙黑字判明某源係誤掛，源卻仍在條上",
+
+  "symptom": [
+    "前輪已考定某節著錄屬同題異書，於 ai_note 標 misattached，然僅『計 period_upper 時跳之』，未摘除該節",
+    "下游 J11／G7 機械生成 description 之程序不認此標記，仍從誤掛之源取值",
+    "結果：measure_info 取了異書之卷數，description 摻入異書之撰人與版本"
+  ],
+
+  "examples": [
+    "《儀禮義疏》measure_info 作「六卷」——取自隋志之六朝舊疏，而本條乾隆敕撰本實四十八卷",
+    "《婦人集》measure_info 作「二十卷」——取自隋志六朝總集，而陳維崧本實一卷",
+    "《樂論》period_basis 自書「隋志題蕭吉撰，與國史經籍志所題北宋沈括明為二人，是二書（2026-08-24 B4 同題異書逐條裁）」——裁完未執行",
+    "《離騷草木疏補》ai_note 宣告「著錄回歸……今回歸劉杳條。（本條為出方。）」——宣告了沒做"
+  ],
+
+  "scope": {
+    "total_todo": 160,
+    "parsable_by_template": 154,
+    "needs_manual_reading": 6,
+    "description_polluted": 138,
+    "measure_info_polluted": 18,
+    "would_leave_no_source": 1
+  },
+
+  "detection": {
+    "note": "關鍵詞必須分辨肯定句與否定句，否則大量誤報",
+    "positive": "「判為同題異書誤併，已標 misattached」——真標記",
+    "negative": "「indexed_by 無 misattached 標記，逕 propagate」——是在陳述『沒有這個標記』，8 條誤報由此而來",
+    "template": "真標記多具結構：「本條所繫 N 節出於 XXX，……」，XXX 即誤掛之志書名，可機械解析出該摘哪幾節",
+    "script": "D:/workspace/overview/tmp/bnq_jjz/misattached_todo.json（已備妥待辦清單）"
+  },
+
+  "pitfall": {
+    "note": "標記未必完整——摘除前仍須逐條覈 indexed_by 原文",
+    "case": "《唐書》(d59f2hq4in0g) 撰人歐陽修，四源分別作『唐書一百卷』（新唐志）、『柳芳唐書一百三十卷』（宋志）、『韋述撰一百三十卷』（崇文總目）、『韋述』（國史經籍志）——四源全指唐代舊《唐書》，無一節說的是歐陽修《新唐書》，而標記只指出一節誤掛"
+  },
+
+  "counter_example": {
+    "note": "並非所有殘留 misattached 都是遺漏",
+    "case": "《禮記音》已完整執行拆分（三人之書各歸其位，見其 ai_note），所餘 misattached 指向一節『其真主在鄭玄之列而未能定』——係有意保留之待辦，不可逕摘"
+  },
+
+  "related": "2026-09-04-source_bid誤填鄰條wid（同批排查中發現）",
+  "next": "俟斷代志矛盾 34 條（甲類 22 條拆分）辦畢，再逐批處置此 160 條"
+}
