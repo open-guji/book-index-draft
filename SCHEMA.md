@@ -1517,9 +1517,10 @@ open(p, 'w', encoding='utf-8').write(
   "type": "string (Work | Book | Collection | Entity ——首字母大寫)",
   "title": "string",
   "path": "string (檔案相對路徑)",
-  "author": "string", "role": "string", "dynasty": "string",
+  "author": "string", "role": "string", "dynasty": "string",   // dynasty = 撰人朝代
   "juan_count": "…", "measure_info": "string", "edition": "string",
-  "additional_titles": [], "subtype": "string", "year": "string",
+  "additional_titles": [], "subtype": "string",
+  "era": "string", "sort_year": "number",                       // 刊刻朝代 / 排序年，Book·Collection，投影自 dating
   "holder": "string", "has_text": "boolean", "has_image": "boolean",
   "has_collated": "boolean", "promoted_to": "string"   // index/ 之欄不加底線，全檔皆派生
 }
@@ -1530,6 +1531,20 @@ open(p, 'w', encoding='utf-8').write(
 
 `authors` 是陣列，索引只取第一位攤平為 `author` / `role` / `dynasty`。
 改動檔案的標題、作者、路徑後，**必須同步更新索引**，否則校驗會報「索引欄位不符」。
+
+**兩個「朝代」不是一回事**（2026-09-06 起）：
+
+| 索引欄 | 語義 | 來源 | 例：史記·武英殿本 |
+|---|---|---|---|
+| `dynasty` | **撰人**的朝代 | `authors[0].dynasty` | 西漢（司馬遷） |
+| `era` | **這個本子**的刊刻朝代 | `Book.dating.era` | 清（武英殿） |
+| `sort_year` | 年代排序錨點 | `dating.year`，無則 `dating.year_range[0]` | —（題名無年） |
+
+Work 沒有 `era`／`sort_year`（Work 的時代軸是 `period`，成書時代）。
+`era` 與 `sort_year` 只是 `dating` 的投影；`reign`／`basis`／`based_on` 留在條目檔，
+索引不放。舊欄 `year`（`publication_info.year` 的自由文本）已刪——
+UI 執行期型別從不讀它，搜尋分片也不帶，寫了六年沒人消費。
+方案：`overview/项目进展/古籍索引网站/整体设计/2026-09-年代字段统一方案.md`。
 
 ---
 
