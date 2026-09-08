@@ -1,8 +1,9 @@
-下面我们要把这个文件夹下面的每一个文件的Schema从markdown文件转成json文件 
+# book-index Schema
 
-所以我们现在要去设计一个多层的Schema 
-
-你先看一下现在的不同的book collection和work 他们之间有哪些field 然后先照现在有的信息是帮我设计一个schema 注意现在我们的key的名字还是要用英文 方便以后转换成code  然后相关的设计都放到这个文件的后面 
+本文是 `book-index` / `book-index-draft` / `book-text` 三仓字段级 Schema 的唯一权威。
+概念模型（Work / Book / Collection / Entity 四类实体及其关系）见 overview 仓
+`项目进展/古籍索引网站/整体设计/整体设计.md`；录入约定（related_works 字典、字段填写规则等）
+见 overview 仓 `项目进展/古籍索引网站/整体设计/录入规范.md`。
 
 ---
 
