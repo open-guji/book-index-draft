@@ -1051,7 +1051,7 @@ Book 頂層一律用 `edition`；曾有 276 條誤寫作 `version`，已於整�
 
   "external_ids": {
     "cbdb_id": "integer | null",
-    "cbdb_match": "string (auto | manual | none, optional)",
+    "cbdb_match": "string (自由格式凭据备注，非枚举；如 auto/manual/none/auto_create/manual_remap/auto_dy_unique 等，optional)",
     "cbdb_source": "string (匹配凭据, optional)"
   },
 
@@ -1070,8 +1070,14 @@ Book 頂層一律用 `edition`；曾有 276 條誤寫作 `version`，已於整�
 | `people` | 人物（作者、注家、编者等） | 蘇軾、王應麟、焦竑 |
 | `place` | 地名（保留） | — |
 | `dynasty` | 朝代（保留） | — |
+| `collective` | 机构/官署/局所等非个人主体 | 郵傳部（hixhd2h9bv4m，`ai_note`："此非個人，乃官署、局所、書院、編…"） |
+
+> 2026-09-09 C-entity 道核实补：production 实测 42 条 `collective`，此前未列入本表。
 
 #### alt_names.type 枚举
+
+活字典，持续扩——机械质检（`scripts/qa/qa_entity.py`）按此表判 WARN，
+新增合法值就补进来，长尾罕见值先留 WARN 供人工按需并入，不强求一次穷举。
 
 | type | 含义 | 对应 CBDB ALTNAME_CODES |
 |---|---|---|
@@ -1082,6 +1088,16 @@ Book 頂層一律用 `edition`；曾有 276 條誤寫作 `version`，已於整�
 | `別名` | 其他别名 | 3 |
 | `常用名` | 常用称谓（如「陽明先生」） | — |
 | `簡體` | 简体写法 | — |
+| `行第` | 排行称谓（如「李十二」） | — |
+| `廟號` | 庙号 | — |
+| `訛名` | 著录讹误而流传的名 | — |
+| `異體` | 异体字写法 | — |
+| `封爵` | 封爵称谓 | — |
+| `俗姓` | 出家前本姓（僧道人物常见） | — |
+
+> 2026-09-09 C-entity 道核实补以上 6 种：production 全库按出现频次为
+> 著錄形(121)／小字(40)／小名(26)／著錄原形(21)／法號(20)／本名(16)／舊著錄形(15)／
+> 殘名(13)／異寫(11) 等，长尾还有 20 余种个位数值，未逐一收表，留 WARN 供人工按需并入。
 
 #### Work.authors.entity_id
 
