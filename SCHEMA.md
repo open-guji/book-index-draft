@@ -54,7 +54,8 @@ Represents the abstract intellectual content.
   ],
   "measure_info": "string (optional, UI 直接展示文本，應與 measures 一致，例：「四集（每集五回）二十回」)",
   "juan_count": {
-    "number": "integer (卷數)",
+    "number": "integer (計量之數——不一定是卷數，見 unit)",
+    "unit": "string (optional, 這個數的單位，枚舉：卷|冊|篇|回|集|編|種|則|部|章|函|首|筆|期|節|帙|弄|件。全庫回填前可以沒有這個鍵，缺鍵時渲染層不應再預設「卷」)",
     "description": "string (optional, 如「存三卷」「原十卷今殘」)"
   },
   "original_title": "string (optional, 條目原題與規範題不同時記原題，如《毛詩義問劉楨撰》→「毛詩義問」)",
@@ -687,9 +688,25 @@ Book 的 `indexed_by` 與 Work 的 `indexed_by` 同結構，記錄該具體版�
 實際錄入未走這條臨時通道：叢編收錄一律直接記在 `Work.contained_in`（作品層，指向 Collection ID），或升格為獨立 Book 後記 `Book.contained_in`。新資料請沿用 `contained_in`，勿再啟用 `book_contained_in`。
 
 `measures` 用於補充 `juan_count`，適合通俗小說等需要多維計量（卷+回+集+篇）的作品。
-- `juan_count` 側重傳統「卷」維度，前端已使用。
-- `measures` 數組按原書順序排列，每項一個單位。
+
+- **`juan_count.number` 是「這個數」，`juan_count.unit` 是「這個數的單位」，兩者同層**
+  （2026-09-09 juan-unit 道改；此前這句話寫的是「`juan_count` 側重傳統「卷」維度，
+  前端已使用」——**這句話本身就是《羋子》「十八篇」被渲染成「十八卷」那個 bug 的
+  根源之一**：文檔一直承諾 `juan_count` 只裝「卷」，但實際錄入從未照這句話做過，
+  漢志一類志書著錄的「篇」也一直被塞進同一個 `juan_count.number`。**渲染層讀
+  `juan_count.number` 時必須同時讀 `juan_count.unit`，不可再預設「卷」**；
+  `unit` 缺鍵時（全庫回填前的過渡狀態）寧可不顯示單位字樣，也不要顯示錯的。
+- `measures` 數組按原書順序排列，每項一個單位，用於**同一部書同時有不止一個計量
+  維度**的情形（如通俗小說「六卷十六回」，卷是文本分卷、回是章節結構，兩維度都真）；
+  `juan_count` 裝的是其中作為主計量的那一個數，不是另立一套。
 - `measure_info` 是人類可讀的拼接展示（供 UI 直接渲染），例如「四卷二十回」、「八集四十回（每集五回）」。
+- **已知：`measures[0].unit` 不能盲信為權威源**——2026-09-09 核驗發現 995 條
+  `measures[0].unit` 與 `measure_info` 原文不一致（984 條集中在「國立故宮博物院
+  善本舊籍」批次，該批 `measures.unit` 被整批錯填成「冊」）。回填 `juan_count.unit`
+  一律以 `measure_info` 原文重新抽取為準，`measures` 只當交叉驗證參考。這批批次性
+  錯誤本身未修，另行立案。
+- `additional_works[].n_juan`（見上文）字面即「卷」，是「主體+附錄各自計卷」的
+  另一個既有機制，與這裡的 `juan_count.unit` 不是同一件事，不要混用。
 
 `additional_titles` 用於記錄同書的其他常用書名（別名/異稱）：
 - 適用於有多個傳統名稱的經典：如《左傳》=《春秋左氏傳》=《左氏傳》=《春秋左傳》
