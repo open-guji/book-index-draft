@@ -33,6 +33,13 @@ CATEGORY_MAP = {
 # 目录名 -> index.json 中的分类键
 DIR_TO_CATEGORY = {v[0]: k for k, v in CATEGORY_MAP.items()}
 
+# juan_count.unit 的枚举全集（2026-09-09 juan-unit 道全量频次表人工筛出，
+# 从数据里长出来的，不是凑的——见 overview/scripts/qa/reports/20260909-juan-unit/report.md 表二）
+JUAN_UNIT_ENUM = {
+    "卷", "冊", "篇", "回", "集", "編", "種", "則",
+    "部", "章", "函", "首", "筆", "期", "節", "帙", "弄", "件",
+}
+
 
 class ValidationResult:
     """收集所有校验消息。"""
@@ -187,6 +194,22 @@ def validate_work(data: dict, file_name: str, result: ValidationResult):
                 result.error(file_name, "juan_count 存在但缺少 number 字段")
             elif not isinstance(num, (int, float)) or num <= 0:
                 result.warn(file_name, f"juan_count.number 应 > 0，实际为 {num}")
+            # 2026-09-09 juan-unit 道加：juan_count 这个数不一定是「卷」，此前
+            # 一律当卷渲染是错的根源。unit 是可选字段（全库回填前不能强求已有），
+            # 但一旦填了就要落在枚举内，且不能自相矛盾——否则新字段一样会悄悄写错。
+            unit = juan_count.get("unit")
+            if unit is not None:
+                if unit not in JUAN_UNIT_ENUM:
+                    result.error(
+                        file_name,
+                        f"juan_count.unit 不在枚举内：{unit!r}（应为 {sorted(JUAN_UNIT_ENUM)} 之一）",
+                    )
+                mi = data.get("measure_info")
+                if mi and unit not in mi:
+                    result.warn(
+                        file_name,
+                        f"juan_count.unit「{unit}」未见于 measure_info「{mi}」，两者疑不一致",
+                    )
         else:
             result.error(file_name, f"juan_count 应为对象，实际为 {type(juan_count).__name__}")
 

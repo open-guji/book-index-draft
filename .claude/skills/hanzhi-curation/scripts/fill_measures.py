@@ -94,13 +94,15 @@ if DRY:
 n = 0
 for c, t, w, path, num, unit, cn in plan:
     x = json.load(open(path))
-    x['juan_count'] = {"number": num}
+    # 2026-09-09 juan-unit 道修：unit 不一定是「卷」（漢志多是「篇」），
+    # 之前不管三七二十一都塞進 juan_count.number，篇卷混作一談的根因即在此。
+    x['juan_count'] = {"number": num, "unit": unit}
     x['measures'] = [{"unit": unit, "number": num}]
     x['measure_info'] = f'{cn}{unit}'
     json.dump(x, open(path, 'w'), ensure_ascii=False, indent=2)
     ie = IWX[shard(w)].get(w)
     if ie:
-        ie['juan_count'] = {"number": num}; ie['measure_info'] = f'{cn}{unit}'
+        ie['juan_count'] = {"number": num, "unit": unit}; ie['measure_info'] = f'{cn}{unit}'
     n += 1
 for s in '0123456789abcdef':
     json.dump(IWX[s], open(f'index/works/{s}.json', 'w'), ensure_ascii=False, indent=2)
