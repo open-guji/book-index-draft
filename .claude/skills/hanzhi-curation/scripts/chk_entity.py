@@ -59,7 +59,13 @@ def main():
         fp = f'index/entities/{s}.json'
         if os.path.exists(fp): IE.update(json.load(open(fp)))
     ents = {}; paths = {}
-    for p in glob.glob('Entity/*/*/*/*.json'):
+    # glob 在 Windows 回的是反斜杠（Entity\0\0\w\…），而下文兩處比對的對家
+    # 都是正斜杠：want_dir 是字面量 f'Entity/{…}'，index 的 path 由
+    # book-index-manager 寫入時已 replace('\\','/')。不歸一則「目錄分片錯置」
+    # 與「索引 path 不符」兩項在 Windows 上必然全條報錯——2026-09-13 實測
+    # 各 278 條全屬此類，資料本身反斜杠 0 條、path 全數有效。
+    # Linux/WSL 下 glob 本就回正斜杠，故此症向來只在 Windows 現形。
+    for p in (q.replace(os.sep, '/') for q in glob.glob('Entity/*/*/*/*.json')):
         try: d = json.load(open(p))
         except Exception as e:
             A['解析失敗'].append((p, str(e))); continue
