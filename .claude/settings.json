@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Bash(*)",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch",
+      "Task(*)",
+      "Run(*)",
+      "Edit(~/.claude/skills/**)"
+    ],
+    "additionalDirectories": [
+      "D:\\workspace",
+      "D:\\tmp",
+      "\\\\wsl.localhost\\Ubuntu\\home\\lishaodong\\workspace"
+    ],
+  "defaultMode": "bypassPermissions"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-09-04-entity朝代憑空而得",
+  "title": "撰人 entity 之朝代無據而得，再 propagate 污染 work.period",
+  "status": "partially_fixed",
+  "severity": "high",
+  "discovered": "2026-09-04",
+  "fixed_so_far": "2796ada73e（book-index）修了斷代志矛盾所暴露之 12 條及其 entity",
+
+  "root_cause": "period 之推導鏈為『work.authors[0] → entity → entity.dynasty → work.period』。此鏈只驗姓名，不驗時代相容。entity 自身之 dynasty 若無據，錯即沿鏈而下，且污染同繫該 entity 之他書。",
+
+  "patterns": [
+    {
+      "type": "entity 止為一書而設，其代憑空",
+      "detail": "entity 名下僅一部作品，dynasty 無 basis、無 ai_note，卻標了晚代，與該書所繫斷代志直接相斥",
+      "cases": "陸煦（標清，其《陸史》見隋志）、劉佑（標清，《金韜》見隋志）、張皓（標五代，《周易占》見隋志）、王彬（標元，《廊廟五格》見隋志）"
+    },
+    {
+      "type": "同名異代誤繫",
+      "detail": "庫中有同名之人，機械取其一，未驗時代",
+      "cases": "劉繪集／劉祥集繫作明人（庫中本有南齊劉繪 hixhio73orgl）；冥祥記之王琰繫作元人"
+    },
+    {
+      "type": "張冠李戴——名實根本不同",
+      "detail": "2026-08-24『補繫 entity』批次以『同名唯一』補繫，然子串或近形亦被匹上",
+      "cases": "「桐君」繫「林伯桐」（林氏名下另九部皆清代詩經學之作）；「劉雋」繫「劉俊」（劉俊係 2026-08-22 劉俊／劉儁異體併池之產物）"
+    },
+    {
+      "type": "泛稱不當繫 entity",
+      "detail": "「王氏」「戴氏」「闕名」之屬有姓無名，本非specific之人，『同名唯一』對泛稱無意義",
+      "cases": "「王氏」(hixhd2h9bicc) 標元，名下八部自隋志至宋志跨代雜陳，是佔位式垃圾條；「戴氏」(hixhd2h9bif0) 標唐，名下《琴譜》見隋志"
+    },
+    {
+      "type": "一人二書而判二代",
+      "detail": "同一 entity 名下諸書 period 互斥，矛盾擺在同一條記錄裡",
+      "cases": "王琰名下《宋春秋》判 nanbeichao 而《冥祥記》判 liao-jin-yuan"
+    }
+  ],
+
+  "detection": {
+    "loose": "entity 標晚代（宋元明清）而名下有作品被明前斷代志著錄 → 223 條。此判準過寬：大型類書（李昉《太平廣記》、樂史《太平寰宇記》）引錄前代之書屬正常。",
+    "tight": "entity 名下【每一部】作品皆見明前斷代志，而 entity 標晚代 → 86 條，其中 80 條名下僅一書（與已修之陸煦、劉佑同型）",
+    "file": "D:/workspace/overview/tmp/bnq_jjz/entity_era_tight.json",
+    "obvious_errors_in_list": [
+      "王允（標明）——《王允條上蘭臺石室圖書》乃東漢王允誅董卓事",
+      "元行沖（標清）——唐代經學家，《釋疑論》見新唐志",
+      "殷元正（標清）——其《河圖》係清人輯本，然所繫古緯書之源當摘（見斷代志矛盾甲類）"
+    ]
+  },
+
+  "principle": "證據不足時撤代，不硬填。已修之劉佑即例：無法確證其是否即東漢劉祐，故 dynasty 撤空而非改填。",
+
+  "remaining_scope": "86 條（收緊判準後）尚未逐條覈。另『泛稱不當繫 entity』宜作獨立專項——「王氏」「戴氏」「闕名」之屬全庫掃一遍。",
+
+  "related": ["2026-09-04-misattached標而不摘", "2026-09-03-歷代通名帝王entity混淆待覈"]
+}

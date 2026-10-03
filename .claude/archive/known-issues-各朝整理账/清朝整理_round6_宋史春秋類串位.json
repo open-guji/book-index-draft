@@ -1,0 +1,69 @@
+{
+  "description": "清朝整理 Round 6：抽查发现的宋史艺文志春秋类连续撰人串位",
+  "problem_class": "宋史艺文志春秋类连续条目把前一书名与后一作者错拼，造成作者与朝代误传。",
+  "fixed": [
+    {
+      "work_id": "1evcsw7ouei2o",
+      "title": "春秋折衷論",
+      "summary_fixed_to": "陳岳《春秋折衷論》三十卷，《春秋災異録》六卷，《春秋諡族圖》五卷",
+      "dynasty": "唐",
+      "basis": "清史稿、国史经籍志、经义考均指唐陈岳；宋史整理本该段为连续撰人串位"
+    },
+    {
+      "work_id": "1evcsw7p3rmdc",
+      "title": "三傳釋文",
+      "summary_fixed_to": "陸德明《三傳釋文》八卷",
+      "dynasty": "隋唐",
+      "basis": "陆德明为《经典释文》作者；宋史整理本该段为连续撰人串位"
+    },
+    {
+      "work_id": "1evcsw7pci9kw",
+      "title": "陸希聲春秋通例",
+      "summary_fixed_to": "陸希聲《春秋通例》三卷",
+      "dynasty": "唐",
+      "basis": "清史稿、崇文总目、国史经籍志、新唐书、经义考均指唐陆希声"
+    },
+    {
+      "work_id": "1evcsw7pkxo8w",
+      "title": "春秋闡微纂類義統",
+      "summary_fixed_to": "趙匡《春秋闡微纂類義統》十卷",
+      "dynasty": "唐",
+      "basis": "清史稿、经义考均指唐赵匡；宋史整理本该段为连续撰人串位"
+    },
+    {
+      "work_id": "1evcsw7ptd2ww",
+      "title": "集傳春秋纂例",
+      "summary_fixed_to": "陸淳《集傳春秋纂例》十卷，又《春秋辨疑》七卷，《集注春秋微旨》三卷",
+      "dynasty": "唐",
+      "basis": "四库总目、国史经籍志、书目答问均指唐陆淳；宋史整理本该段为连续撰人串位"
+    },
+    {
+      "work_id": "1evcsw7q1h91c",
+      "title": "春秋摘微",
+      "summary_fixed_to": "盧仝《春秋摘微》四卷",
+      "dynasty": "唐",
+      "basis": "国史经籍志作卢仝；宋史整理本该段为连续撰人串位。库中暂无可复用卢仝 Entity，本轮不新建"
+    }
+  ],
+  "scope_boundary": "仅处理陈岳《春秋折衷论》至卢仝《春秋摘微》这一段多源可闭环的连续串位；不处理后续无交叉证据条目。",
+  "changed_section_files": [
+    "Work/1/e/v/1evcsw4kt579c/collated_edition/春秋類.json",
+    "Work/1/e/v/1evcsw4kt579c/collated_edition/text/春秋類.md"
+  ],
+  "stats": {
+    "work.indexed_by_summary_fix": 6,
+    "work.indexed_by_author_info_added": 6,
+    "work.author_rewritten": 6,
+    "work.dynasty->隋唐": 1,
+    "work.period->sui-tang": 3,
+    "entity.work_link": 2,
+    "work.dynasty->唐": 2,
+    "section.content_fix": 6,
+    "section.text_fix": 6,
+    "index.work.author_sync": 3,
+    "index.work.role_sync": 3,
+    "index.work.dynasty_sync": 3,
+    "index.work.period_sync": 3,
+    "index.work.shards_changed": 3
+  }
+}

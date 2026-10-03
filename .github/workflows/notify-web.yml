@@ -1,0 +1,25 @@
+name: Notify kaiyuanguji-web
+
+on:
+  # 2026-09-28 停用自动触发：GitHub Actions 额度用完，网站不再接收 data-updated（overview#182）。需要时手动 workflow_dispatch。
+  workflow_dispatch:
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'Work/**'
+  #     - 'Book/**'
+  #     - 'Collection/**'
+  #     - 'index/**'
+  #     - 'index.json'
+  #     - 'resource.json'
+  #     - 'resource-site.json'
+  #     - 'recommended.json'
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          repository: open-guji/kaiyuanguji-web
+          event-type: data-updated

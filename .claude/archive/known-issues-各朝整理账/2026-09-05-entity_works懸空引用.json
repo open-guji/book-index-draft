@@ -1,0 +1,37 @@
+{
+  "id": "2026-09-05-entity_works懸空引用",
+  "title": "entity.works 指向已刪之 Work——刪 Work 時未反向摘除 entity 之繫",
+  "status": "open",
+  "severity": "low",
+  "discovered": "2026-09-05",
+  "discovered_via": "本輪覈修畢，推送前跑全庫引用完整性驗證所得",
+
+  "scope": {
+    "entities": 57,
+    "references": 62,
+    "id_prefixes": {"1ex3": 56, "1ex2": 4, "d59f": 2}
+  },
+
+  "not_from_this_round": "本輪（1ea4cd0b56..bbd63ef9ca）改動之 150 個 entity 中，無一涉此——git diff 查 '\"work_id\": \"1ex' 之數為 0。係既存問題。",
+
+  "two_kinds": [
+    {
+      "kind": "指向 draft ID（1ex 前綴，60 條）",
+      "detail": "entity.works 繫著 draft 庫之 work_id，而 draft 庫亦查無其檔（抽驗 1ex219446v4zl、1ex3x09p93vv1、1ex3wu6ou89ok 皆無）。疑係 draft 條目 promote 為 production 後，entity 一側未隨改新 ID；或 draft 條目被刪而未清其繫。"
+    },
+    {
+      "kind": "指向 production ID 而查無檔（d59f 前綴，2 條）",
+      "detail": "陸績（hixhd2h9bgbh）名下 d59f27sbfqww《積算易傳》、d59f27skhmo0《雜占條例法》。二檔於 2026-08-27 a61fb03df3「HBCC對比第七輪任務一」中被刪（該次共刪 11 個 Work），而 entity 之 works 未同步摘除。"
+    }
+  ],
+
+  "impact": "前端若據 entity.works 拉取作品，此類引用取不到資料。惟數量少（62/全庫），且 check-index 不查此項，故長期未顯。",
+
+  "fix_direction": [
+    "一、d59f 之 2 條：查 a61fb03df3 所刪 11 個 Work 之去向——若係併入他條，則 entity.works 當改指受方；若係逕刪，則摘除其繫。",
+    "二、1ex 之 60 條：查 promotions.json 有無其對應之 production ID（book_index_manager 有 validate-promotions 命令，或可用）；無則摘除。",
+    "三、根治：刪 Work 或 promote 時，須同時掃 entity.works 反向摘除／改指。宜加入 check-index 或另立一驗。"
+  ],
+
+  "lesson": "check-index 只驗『item 檔有無對應之 index 條目』，不驗跨檔引用之完整性（indexed_by.source_bid、authors.entity_id、entity.works）。推送前宜另跑一遍引用驗證——腳本見 D:/workspace/overview/tmp/bnq_jjz/verify_final.py 與 check_dangling.py。本輪即由此發現。"
+}

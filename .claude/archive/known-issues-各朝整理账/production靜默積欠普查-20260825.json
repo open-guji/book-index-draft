@@ -1,0 +1,1795 @@
+{
+  "說明": "production 側靜默積欠之普查與修復（2026-08-25）。病根一條：歷次併條、改繫、解連之工具皆只掃 draft，production 的同名欄位無人改，而 chk.py 之整理本諸驗又只 glob draft 之相對路徑，故此類積欠既無人改，亦無驗可見。一條 work 一旦升格，其 collated_edition 資產目錄隨之遷入 production，此後 draft 的併條就再也掃不到它。",
+  "時": "2026-08-25",
+  "三類": {
+    "related_works 懸空": {
+      "數": 2,
+      "詳": [
+        {
+          "母條": "d59f1iosq6tc 孝經",
+          "舊指": "1evgoque06jnk 孝經䟽（蘇彬撰）",
+          "實情": "該條併入《孝經疏》d59f2q8s90xu，而 d59f2q8s90xu 本已在母條 related_works 中（同作 text_carried_by，彼側 contains_text_of 反指），故此節止是重出之殘",
+          "處置": "去之"
+        },
+        {
+          "母條": "d59f28npq1vm 黃帝素問",
+          "舊指": "1evcpk05zgk5c 黃帝素問九卷（隋志）",
+          "實情": "該條併入 d59f2pr4purl；彼側 related 早已反指母條，此側未改而懸空，遂成單向",
+          "處置": "改繫 d59f2pr4purl"
+        }
+      ]
+    },
+    "整理本節之 work_id 落空": {
+      "數": 215,
+      "相異 id": 207,
+      "涉整理本檔": 137,
+      "解法": "以「同目錄之 source_bid＋title_info 唯一相合」為主證，以 git 歷次 work_id 改繫鏈為旁證；二法皆得者五十八處，無一相左。連書節（一節著錄數書）取其首書，附屬部帙節從母節之繫。",
+      "按法分計": {
+        "git 改繫鏈與目錄題名二法相合": 58,
+        "git 改繫鏈": 20,
+        "目錄之 source_bid＋title_info 唯一相合": 111,
+        "連書節之首書，同目錄同題唯一": 19,
+        "連書節之首書，庫中同題唯一（跨目錄求之）": 4,
+        "附屬部帙節，從母節之繫": 3
+      },
+      "按母條分計": {
+        "d59f2hl0cmio": 2,
+        "d59f2nl40936": 25,
+        "d59f2gdp696q": 3,
+        "d59f28nmafwh": 3,
+        "d59f2hqc0c1t": 14,
+        "d59f2mp0flz4": 1,
+        "d59dh3vo9af4": 150,
+        "d59f2gcburcx": 5,
+        "d59f2mel8d1d": 7,
+        "d59f2htm01du": 5
+      },
+      "詳": [
+        {
+          "file": "../book-index/Work/m/i/o/d59f2hl0cmio/collated_edition/明堂經脉類.json",
+          "i": 1,
+          "title": "張子存赤烏神鍼經",
+          "old": "1evgq4gsgxpts",
+          "new": "d59f2pucu58g",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/m/i/o/d59f2hl0cmio/collated_edition/五行類.json",
+          "i": 55,
+          "title": "祿命書",
+          "old": "1ex0jcf780rup",
+          "new": "d59f2pukyarl",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "i": 108,
+          "title": "《衆賢誡》十三卷",
+          "old": "1evgpmt0yob9c",
+          "new": "d59f2q18ok5c",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "i": 444,
+          "title": "《莊子義䟽》八卷",
+          "old": "1evgpngofkagw",
+          "new": "d59f2q48zwg1",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "i": 3366,
+          "title": "《江東名德傳》三卷",
+          "old": "1evinbg3oh6v4",
+          "new": "d59f2q774l4x",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 789,
+          "title": "《𣈆建元起居注》四卷",
+          "old": "1evgphfxcmnls",
+          "new": "d59f2q247jep",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 790,
+          "title": "《𣈆永和起居注》十七卷",
+          "old": "1evgphfztlaf4",
+          "new": "d59f2q6igute",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 791,
+          "title": "《𣈆升平起居注》十卷",
+          "old": "1evgphg266lmo",
+          "new": "d59f2q9gws1t",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 1065,
+          "title": "《魏𣈆百官名》五卷",
+          "old": "1evgphpa3tcsg",
+          "new": "d59f2pwb2j9d",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 1071,
+          "title": "《𣈆官屬名》四卷",
+          "old": "1evgphph9c4xs",
+          "new": "d59f2py5k35s",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 1072,
+          "title": "《𣈆過江人士目》一卷",
+          "old": "1evgphpjo43y8",
+          "new": "d59f2q3t2sqo",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 1904,
+          "title": "《杜有𣈆書儀》二卷",
+          "old": "1evgpimx9ipz4",
+          "new": "d59f2q8m0a9t",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 2120,
+          "title": "《𣈆刺史六條制》一卷",
+          "old": "1evgpiv88d7uo",
+          "new": "d59f2qaso35u",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 2682,
+          "title": "《聞竒錄》三卷",
+          "old": "1evr5e3mfxf28",
+          "new": "d59f2py3zw8x",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "i": 3336,
+          "title": "《交趾事迹》一卷",
+          "old": "1evgpkblz5erk",
+          "new": "d59f2pst9w5c",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類下.json",
+          "i": 356,
+          "title": "《林下𥬇談》二十卷",
+          "old": "1evgq0pgogzr4",
+          "new": "d59f2q8hy6td",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類下.json",
+          "i": 2563,
+          "title": "《赤烏衆鍼經》一卷",
+          "old": "1evgq4gsgxpts",
+          "new": "d59f2pucu58g",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/子類下.json",
+          "i": 2985,
+          "title": "《癰疽論》三卷",
+          "old": "1evgq5bzahcsg",
+          "new": "d59f2pu5nojl",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/經類.json",
+          "i": 1729,
+          "title": "《孝經䟽》一卷",
+          "old": "1evgoque06jnk",
+          "new": "d59f2q8s90xu",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/經類.json",
+          "i": 2328,
+          "title": "《廣干祿字書》一卷",
+          "old": "1evgoremvxeyo",
+          "new": "d59f2q5armrk",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 11,
+          "title": "《𣈆詔書黄素制》五卷",
+          "old": "1evgq90eig3r4",
+          "new": "d59f2q05z4sg",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 16,
+          "title": "《宋永而詔》十三卷",
+          "old": "1evgq90pg2cqo",
+          "new": "d59f2q4nctfm",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 154,
+          "title": "《李磎表䟽》一卷",
+          "old": "1evgq98rh36kg",
+          "new": "d59f2q0mtxxc",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 739,
+          "title": "《𣈆宣帝集》五卷",
+          "old": "1evgqabn4981s",
+          "new": "d59f2q17flz6",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 3567,
+          "title": "《衆賢誡集》十五卷",
+          "old": "1evgqg4s9tpts",
+          "new": "d59f2pts8gzl",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 3664,
+          "title": "《竒章集》四卷",
+          "old": "1evr5e3mhhlq0",
+          "new": "d59f2q9tpi4g",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/3/6/d59f2nl40936/collated_edition/集類.json",
+          "i": 3703,
+          "title": "《𣈆元正宴會詩集》四卷",
+          "old": "1evgqgdqzyg3k",
+          "new": "d59f2q8rbb41",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/6/q/d59f2gdp696q/collated_edition/小說類.json",
+          "i": 159,
+          "title": "《奇應錄》",
+          "old": "1evcsxz8ypd6o",
+          "new": "d59f2psvrsao",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/9/6/q/d59f2gdp696q/collated_edition/醫書類.json",
+          "i": 456,
+          "title": "《口齒論》",
+          "old": "1evcsylp0o4jk",
+          "new": "d59f2q3ackjk",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/9/6/q/d59f2gdp696q/collated_edition/禮類.json",
+          "i": 87,
+          "title": "《中庸大學講義》",
+          "old": "1evcsw732wum8",
+          "new": "d59f2pre2z29",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/f/w/h/d59f28nmafwh/collated_edition/正史類.json",
+          "i": 1,
+          "title": "《史記》八十卷",
+          "old": "d59f2846ge0z",
+          "new": "d59f284bg6pu",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/f/w/h/d59f28nmafwh/collated_edition/醫方類.json",
+          "i": 1,
+          "title": "《黃帝素問》九卷",
+          "old": "1evcpk05zgk5c",
+          "new": "d59f2pr4purl",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/f/w/h/d59f28nmafwh/collated_edition/地理類.json",
+          "i": 114,
+          "title": "《聘遊記》三卷",
+          "old": "1evcml1sktqtc",
+          "new": "d59f286faupv",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/總集類.json",
+          "i": 90,
+          "title": "極𤣥律詩例一卷（闕）",
+          "old": "1evr5e3mhhlpv",
+          "new": "d59f2q7w3kzl",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/總集類.json",
+          "i": 97,
+          "title": "竒章集四卷",
+          "old": "1evr5e3mhhlq0",
+          "new": "d59f2q9tpi4g",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/五行類.json",
+          "i": 125,
+          "title": "老子地鑑訣秘術三卷",
+          "old": "1evr5e3mgjw7g",
+          "new": "d59f2q15vfnl",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/道書類.json",
+          "i": 184,
+          "title": "修真延秘集三卷",
+          "old": "1ex0dwmb2aadd",
+          "new": "d59f2q4wepds",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/算術類.json",
+          "i": 26,
+          "title": "算術𤣥要一卷（闕）",
+          "old": "1evr5e3mfxf5d",
+          "new": "d59f2q3jpou9",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/天文占書類.json",
+          "i": 18,
+          "title": "徴應集三卷",
+          "old": "1evr5e3mgjw30",
+          "new": "d59f2pwn8s1t",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/藝術類.json",
+          "i": 18,
+          "title": "不絶筆畫圖一卷",
+          "old": "1evr5e3mg8ni9",
+          "new": "d59f2q6i5m2p",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/小説類.json",
+          "i": 99,
+          "title": "聞竒録三卷（闕）",
+          "old": "1evr5e3mfxf28",
+          "new": "d59f2py3zw8x",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/醫書類.json",
+          "i": 3,
+          "title": "難經䟽十三卷",
+          "old": "1evr5e3mg8nj2",
+          "new": "d59f2pu93a4h",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/醫書類.json",
+          "i": 58,
+          "title": "新集病總要畧一卷",
+          "old": "1evr5e3mg8nka",
+          "new": "d59f2q5loxs0",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/醫書類.json",
+          "i": 178,
+          "title": "癰疽論三卷（闕）",
+          "old": "1evr5e3mg8nmp",
+          "new": "d59f2pu5nojl",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/傳記類.json",
+          "i": 94,
+          "title": "陸氏英賢徴記三卷",
+          "old": "1evr5e3mfm6lg",
+          "new": "d59f2q28w3cw",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/文史類.json",
+          "i": 11,
+          "title": "文章龜鑑一卷",
+          "old": "1evr5e3mhsude",
+          "new": "d59f2q4b6kg0",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/c/1/t/d59f2hqc0c1t/collated_edition/别集類.json",
+          "i": 445,
+          "title": "杜元頴五題一卷（闕）",
+          "old": "1evr5e3mhsub2",
+          "new": "d59f2q4jlzb4",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/l/z/4/d59f2mp0flz4/collated_edition/術數類.json",
+          "i": 80,
+          "title": "子月波洞中記",
+          "old": "1evr5e3mbk3ex",
+          "new": "d59f2q1ncq2p",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan194.json",
+          "i": 72,
+          "title": "《棣華書屋近刻》•四卷",
+          "old": "1ev3beylfokcg",
+          "new": "d59f2mxea39d",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan174.json",
+          "i": 134,
+          "title": "《荻溪集》•二卷",
+          "old": "1ev3bdilf11c0",
+          "new": "d59f2ghhw740",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan125.json",
+          "i": 102,
+          "title": "《懿言日錄》•一卷、《二錄》•一卷、《續錄》•一卷、《別錄》•一卷、附《禮闈分校日記》•一卷、《七規》•一卷",
+          "old": "1ev3bc1k7vx1c",
+          "new": "d59f2mxf7sw0",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan072.json",
+          "i": 14,
+          "title": "《今古輿地圖》•",
+          "old": "1ev3batz43v28",
+          "new": "d59f2ne5cooz",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan020.json",
+          "i": 12,
+          "title": "《儀禮鄭注句讀》·十七卷、附《監本正誤、石經正誤》·二卷",
+          "old": "1evkeap87emm8",
+          "new": "d59f2n97qjnl",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan178.json",
+          "i": 69,
+          "title": "《寶善堂稿》•二卷",
+          "old": "1ev3bdw8yczcw",
+          "new": "d59f2ngj6y2q",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan178.json",
+          "i": 117,
+          "title": "《僦寮集》•一卷",
+          "old": "1ev3bdxbo3ksg",
+          "new": "d59f2nfu7z0i",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan166.json",
+          "i": 36,
+          "title": "《牧潛集》•七卷",
+          "old": "1ev3bd5817zeo",
+          "new": "d59f2gp8n474",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan171.json",
+          "i": 45,
+          "title": "《鄭少穀集》•二十五卷",
+          "old": "1ev3d6exwfyf4",
+          "new": "d59f2nkngoaq",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan064.json",
+          "i": 63,
+          "title": "《汪直傳》•一卷",
+          "old": "1ev3bapiiidq8",
+          "new": "d59f2nf824g1",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan054.json",
+          "i": 39,
+          "title": "《見聞隨筆》•二卷",
+          "old": "1ev3baggaw934",
+          "new": "d59f2mwl90qp",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan056.json",
+          "i": 75,
+          "title": "《大觀堂文集》•三卷",
+          "old": "1ev3bai54x88w",
+          "new": "d59f2mwlvhtu",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan056.json",
+          "i": 81,
+          "title": "《平嶽疏議》•一卷、《平海疏議》•一卷、附《平海諮文》•一卷、《師中小劄》•一卷",
+          "old": "1ev3bai7tdk3k",
+          "new": "d59f2ncp7y0x",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan003.json",
+          "i": 34,
+          "title": "《周易輯聞》•六卷、附《易雅》•一卷、《筮宗》•一卷",
+          "old": "1evkaclbu13b4",
+          "new": "d59f2hsf8iyp",
+          "how": "連書節之首書，庫中同題唯一（跨目錄求之）"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan187.json",
+          "i": 16,
+          "title": "《天臺前集》•三卷、《前集別編》•一卷、《續集》•三卷、《續集別編》•六卷",
+          "old": "1ev3bel7jrqww",
+          "new": "d59f28lycvlv",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan095.json",
+          "i": 40,
+          "title": "《朱子文語纂編》•十四卷",
+          "old": "1ev3bbanqkf7k",
+          "new": "d59f2mxewkci",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan110.json",
+          "i": 23,
+          "title": "《《石肅》•庵槧》•一卷",
+          "old": "1evcmtu1vghs0",
+          "new": "d59f2nhwtog0",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan110.json",
+          "i": 40,
+          "title": "《天文秘略》•",
+          "old": "1ev3bbmoao6bk",
+          "new": "d59f2nez08hs",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan141.json",
+          "i": 32,
+          "title": "《東南紀聞》•三卷",
+          "old": "1ev3bcjywp5hc",
+          "new": "d59f2og64irk",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan184.json",
+          "i": 44,
+          "title": "《樓邨集》·二十五卷",
+          "old": "1ev3befcfagao",
+          "new": "d59f2nnla0ap",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan197.json",
+          "i": 15,
+          "title": "《深雪偶談》•一卷",
+          "old": "1ev3bf1dlx81s",
+          "new": "d59f2hgwpdkz",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan197.json",
+          "i": 21,
+          "title": "《答策秘訣》•一卷",
+          "old": "1ev3bf1j8th4w",
+          "new": "d59f2gkr9fcx",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan118.json",
+          "i": 27,
+          "title": "《古今考》·一卷、《續古今考》·三十七卷",
+          "old": "1ev3bc1sat3b4",
+          "new": "d59f2hpwegw1",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan118.json",
+          "i": 36,
+          "title": "《愛日齋叢抄》·五卷",
+          "old": "1ev3bbvxii1vk",
+          "new": "d59f2goynite",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan080.json",
+          "i": 21,
+          "title": "《館閣漫錄》•",
+          "old": "1ev3bazz1imm8",
+          "new": "d59f2nee3c3l",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan080.json",
+          "i": 38,
+          "title": "《歷代宰輔匯考》•八卷",
+          "old": "1ev3bb07o3r40",
+          "new": "d59f2mwqk1z5",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan080.json",
+          "i": 44,
+          "title": "《牧津》•四十四卷",
+          "old": "1evjxl2gx2a68",
+          "new": "d59f2nkgwp36",
+          "how": "連書節之首書，庫中同題唯一（跨目錄求之）"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan167.json",
+          "i": 61,
+          "title": "《金台集》•二卷",
+          "old": "1ev3bd6w1leyo",
+          "new": "d59f2gp7e60y",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan135.json",
+          "i": 25,
+          "title": "《事文類聚前集》·六十卷、《後集》五十卷、《續集》二十八卷、《別集》三十二卷、《新集》三十六卷、《外集》·十五卷、《遺集》·十五卷",
+          "old": "1ev3d5p5dhzpc",
+          "new": "d59f2q2cbpc0",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan104.json",
+          "i": 45,
+          "title": "《禦定醫宗金鑒》•九十卷",
+          "old": "1ev3bbh3nw0zk",
+          "new": "d59f2nhzxxxd",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan123.json",
+          "i": 18,
+          "title": "《自警編》•九卷",
+          "old": "1evkafrdbty4g",
+          "new": "d59f2hevnugw",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan130.json",
+          "i": 25,
+          "title": "《老老恒言》•五卷",
+          "old": "1ev3bc7eqtu68",
+          "new": "d59f2mww6br4",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan071.json",
+          "i": 3,
+          "title": "《河朔訪古記》•二卷",
+          "old": "1ev3bascxli4g",
+          "new": "d59f2gnyr8ch",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan180.json",
+          "i": 76,
+          "title": "《隴首集》•一卷",
+          "old": "1ev3be3lyixhc",
+          "new": "d59f2nc090jl",
+          "how": "連書節之首書，庫中同題唯一（跨目錄求之）"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan180.json",
+          "i": 108,
+          "title": "《石屋山居詩》•一卷",
+          "old": "1ev3be4d1oagw",
+          "new": "d59f2gmvqkg0",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan126.json",
+          "i": 5,
+          "title": "《古今考》•一卷",
+          "old": "1ev3bc1sat3b4",
+          "new": "d59f2hpwegw1",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan055.json",
+          "i": 1,
+          "title": "△《太祖高皇帝聖訓》•四卷",
+          "old": "1ev3d5nxxbtog",
+          "new": "d59f2n7z3lz4",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan055.json",
+          "i": 3,
+          "title": "△《世祖章皇帝聖訓》•六卷",
+          "old": "1ev3d5nztdk3k",
+          "new": "d59f2n7z3lz6",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan055.json",
+          "i": 4,
+          "title": "△《聖祖仁皇帝聖訓》•六十卷",
+          "old": "1ev3d5o0r36rk",
+          "new": "d59f2n7zeuio",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan055.json",
+          "i": 5,
+          "title": "△《世宗憲皇帝聖訓》•三十六卷",
+          "old": "1ev3d5o1pfaio",
+          "new": "d59f2n7zeuip",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan078.json",
+          "i": 30,
+          "title": "《瀛涯勝覽》•一卷",
+          "old": "1ev3baz2p7gg0",
+          "new": "d59f2nfdzmdf",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan083.json",
+          "i": 10,
+          "title": "《通祀輯略》•三卷",
+          "old": "1ev3bb2hll3wg",
+          "new": "d59f2ggp6d4y",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan079.json",
+          "i": 16,
+          "title": "《州縣提綱》·四卷",
+          "old": "1ev3bazmmu1a8",
+          "new": "d59f2q78djb5",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan041.json",
+          "i": 2,
+          "title": "《急就章》•四卷",
+          "old": "1ev3ba8rvmrk0",
+          "new": "d59f1ir3rbb4",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan162.json",
+          "i": 26,
+          "title": "《翠微南征錄》•十一卷",
+          "old": "1ev3bd2mgu5mo",
+          "new": "d59f2hrzmnsw",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan034.json",
+          "i": 30,
+          "title": "《重編五經圖》•十二卷",
+          "old": "1evjxpjbth91c",
+          "new": "d59f2nk2js3m",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan185.json",
+          "i": 98,
+          "title": "《《山曆》•崌山人集》•八卷",
+          "old": "1evcmtu3gkx6o",
+          "new": "d59f2mo082yr",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan029.json",
+          "i": 15,
+          "title": "《春秋管窺》•十二卷",
+          "old": "1ev3ba37lyl1c",
+          "new": "d59f2n6dny0x",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan170.json",
+          "i": 51,
+          "title": "《清谿漫稿》·二十四卷",
+          "old": "1ev3d6ev3b2f4",
+          "new": "d59f2nj89r7l",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan111.json",
+          "i": 27,
+          "title": "《周易尚占》•三卷",
+          "old": "1ev3bbnd1up6o",
+          "new": "d59f2gmevr40",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan111.json",
+          "i": 77,
+          "title": "《類編曆法通書大全》•三十卷",
+          "old": "1ev3bbo6tge0w",
+          "new": "d59f2gnntxc2",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan115.json",
+          "i": 34,
+          "title": "《酒譜》•一卷",
+          "old": "1ev3bbt2tqkn4",
+          "new": "d59f2hpc41kz",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan115.json",
+          "i": 65,
+          "title": "《酒譜》•一卷",
+          "old": "1ev3bbt2tqkn4",
+          "new": "d59f2hpc41kz",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan193.json",
+          "i": 36,
+          "title": "《文《王篆》•清娛》•四十八卷",
+          "old": "1evcmtu3o2m80",
+          "new": "d59f2ni4bdhf",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan057.json",
+          "i": 7,
+          "title": "《杜工部年譜》•一卷",
+          "old": "1ev3baihhqebk",
+          "new": "d59f2hqz3w8y",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan059.json",
+          "i": 2,
+          "title": "《孔氏實錄》•一卷",
+          "old": "1ev3baj6urj7k",
+          "new": "d59f2ghcl5vm",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan059.json",
+          "i": 26,
+          "title": "《聖門志考略》•二卷",
+          "old": "1ev3bajic1qf4",
+          "new": "d59f2mwm6qdc",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan059.json",
+          "i": 32,
+          "title": "《洙泗源流》•",
+          "old": "1ev3bajkz943k",
+          "new": "d59f2gfax5og",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan059.json",
+          "i": 38,
+          "title": "《豐清敏遺事》•一卷",
+          "old": "1ev3bajnnpfy8",
+          "new": "d59f2hj08t1e",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan062.json",
+          "i": 68,
+          "title": "《古今宗藩懿行考》•十卷",
+          "old": "1ev3bantvcmio",
+          "new": "d59f2nf3djwj",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan010.json",
+          "i": 10,
+          "title": "《周易原始》•六卷",
+          "old": "1ev0r941v4q2o",
+          "new": "d59f2mwg981s",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan026.json",
+          "i": 2,
+          "title": "《春秋左傳正義》•六十卷",
+          "old": "1ev3ba2hqton4",
+          "new": "d59f28nf3zeq",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan026.json",
+          "i": 3,
+          "title": "《春秋公羊傳注疏》•二十八卷",
+          "old": "1ev3ba2hzkbuo",
+          "new": "d59f28nosc90",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan116.json",
+          "i": 43,
+          "title": "《酒譜》•一卷",
+          "old": "1ev3bbt2tqkn4",
+          "new": "d59f2hpc41kz",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan116.json",
+          "i": 49,
+          "title": "《飲膳正要》•三卷",
+          "old": "1ev3bbua31ips",
+          "new": "d59f2gooz5z5",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan116.json",
+          "i": 87,
+          "title": "《禽蟲述》•一卷",
+          "old": "1ev3bbuwp4feo",
+          "new": "d59f2ngq26f5",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan122.json",
+          "i": 3,
+          "title": "《隱居通議》•三十一卷",
+          "old": "1ev3bbxb9wzcw",
+          "new": "d59f2gp3yk1s",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan122.json",
+          "i": 14,
+          "title": "《霏雪錄》•二卷",
+          "old": "1ev3bbxijt340",
+          "new": "d59f2nkd5ukh",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan122.json",
+          "i": 21,
+          "title": "《井觀瑣言》•三卷",
+          "old": "1ev3bbxn0kav4",
+          "new": "d59f2nl6tds0",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan017.json",
+          "i": 5,
+          "title": "《詩義斷法》•五卷",
+          "old": "1ev3b9ykjtb0g",
+          "new": "d59f2gk8ufb4",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan017.json",
+          "i": 10,
+          "title": "《詩傳》•一卷",
+          "old": "1ev3b9ylw737k",
+          "new": "d59f2ncxc8ap",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan035.json",
+          "i": 2,
+          "title": "《孟子正義》•十四卷",
+          "old": "1ev3ba56rfym8",
+          "new": "d59f2hpsnmdc",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan148.json",
+          "i": 3,
+          "title": "《楚辭集注》•八卷、《辨證》•二卷、《後語》•六卷",
+          "old": "1ev3bct49b6rk",
+          "new": "d59f2hpjai2q",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan002.json",
+          "i": 5,
+          "title": "《橫渠易說》•三卷",
+          "old": "1ev0r910e9o1s",
+          "new": "d59f2ht2nbpe",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan052.json",
+          "i": 13,
+          "title": "《靖康紀聞拾遺》•一卷",
+          "old": "1ev3badhgav40",
+          "new": "d59f2heys7wg",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan052.json",
+          "i": 15,
+          "title": "《靖炎兩朝見聞錄》•二卷",
+          "old": "1ev3badi9bxmo",
+          "new": "d59f2hjw30g2",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan052.json",
+          "i": 18,
+          "title": "《建炎維揚遺錄》•一卷",
+          "old": "1ev3badjcclj4",
+          "new": "d59f2hgmps74",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan052.json",
+          "i": 45,
+          "title": "《焚椒録》•一卷",
+          "old": "1ev3baf09p5a8",
+          "new": "d59f2ggbfx8h",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan117.json",
+          "i": 12,
+          "title": "《人物志》•三卷",
+          "old": "1ev3bbv521728",
+          "new": "d59f27t8u51e",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan100.json",
+          "i": 2,
+          "title": "△《握機經》•三卷、《握機緯》•十五卷",
+          "old": "1evcmttugvtvk",
+          "new": "d59f2ngf4v7m",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan100.json",
+          "i": 5,
+          "title": "△《孫子參同》•五卷",
+          "old": "1evcmttusquio",
+          "new": "d59f2nl9mj29",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan153.json",
+          "i": 34,
+          "title": "《王荊公詩注》•五十卷",
+          "old": "1ev3bcwzw4um8",
+          "new": "d59f2njfrg8z",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan077.json",
+          "i": 55,
+          "title": "《楚書》•一卷",
+          "old": "1ev3baycqbpj4",
+          "new": "d59f2ndvzke8",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan177.json",
+          "i": 30,
+          "title": "《胥台集》·二十卷",
+          "old": "1ev3bdrgvsjcw",
+          "new": "d59f2nbzxs02",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan177.json",
+          "i": 125,
+          "title": "《白華樓藏稿》•十一卷、《續稿》·十五卷、《吟稿》·八卷、《玉芝山房稿》·二十二卷、《耄年錄》·七卷",
+          "old": "1ev3bdtkja2v4",
+          "new": "d59f2ndrxhc4",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan159.json",
+          "i": 11,
+          "title": "《梁谿遺稿》•一卷",
+          "old": "1ev3bd0w6db7k",
+          "new": "d59f2ht70nb4",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan073.json",
+          "i": 11,
+          "title": "《嘉興府志》•三十二卷",
+          "old": "1ev3bau6cr0n4",
+          "new": "d59f2ngarjlt",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan192.json",
+          "i": 39,
+          "title": "《輔臣贊和詩集》•一卷",
+          "old": "1ev3berycixvk",
+          "new": "d59f2nevkmip",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan105.json",
+          "i": 19,
+          "title": "《東垣十書》•二十卷",
+          "old": "1ev3bbhkhrncw",
+          "new": "d59f2gj6g8ht",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan086.json",
+          "i": 10,
+          "title": "《石刻鋪敍》•二卷",
+          "old": "1ev3bb486o0sg",
+          "new": "d59f2ht2nbpd",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan151.json",
+          "i": 18,
+          "title": "《麟角集》·一卷",
+          "old": "d59f28luasjl",
+          "new": "d59f29k89ywz",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan128.json",
+          "i": 60,
+          "title": "《蒙泉雜言》•二卷",
+          "old": "1ev3bc630579c",
+          "new": "d59f2ndloqo1",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan068.json",
+          "i": 27,
+          "title": "《齊乘》•六卷",
+          "old": "1ev3bar2av8qo",
+          "new": "d59f2j4p9vk0",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan121.json",
+          "i": 14,
+          "title": "《寓簡》•十卷",
+          "old": "1evka8sutay9s",
+          "new": "d59f2hsxyrk0",
+          "how": "連書節之首書，庫中同題唯一（跨目錄求之）"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan121.json",
+          "i": 22,
+          "title": "《梁谿漫志》•十卷",
+          "old": "1ev3bbx1ozr40",
+          "new": "d59f2hqdvrb5",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan121.json",
+          "i": 32,
+          "title": "《藏一話腴》·四卷",
+          "old": "1ev3bbx85jjsw",
+          "new": "d59f2hu786bk",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan109.json",
+          "i": 2,
+          "title": "《宅經》•二卷",
+          "old": "1ev3bblk123nk",
+          "new": "d59f2ew01l36",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan101.json",
+          "i": 15,
+          "title": "《無冤錄》•二卷",
+          "old": "1ev3bbf9m9fcw",
+          "new": "d59f2gjok002",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan088.json",
+          "i": 1,
+          "title": "《史通》•二十卷",
+          "old": "1ev3bb56hu29s",
+          "new": "d59f28jau9du",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan089.json",
+          "i": 2,
+          "title": "《史通評釋》·二十卷",
+          "old": "1ev3bb5jemf40",
+          "new": "d59f28knuio2",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan089.json",
+          "i": 15,
+          "title": "《事偶韻語》·一卷",
+          "old": "1ev3bb5q9udc0",
+          "new": "d59f2gemknb4",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan107.json",
+          "i": 31,
+          "title": "《天文精義賦》•四卷",
+          "old": "1ev3bbkycotmo",
+          "new": "d59f2gjnb1ts",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan094.json",
+          "i": 3,
+          "title": "△《聖諭廣訓》·一卷",
+          "old": "1ev3d5oj7nf9c",
+          "new": "d59f2my9t24j",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan144.json",
+          "i": 93,
+          "title": "《筆史》·二卷",
+          "old": "1ev3bcpnj2gow",
+          "new": "d59f2ngmxsld",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan058.json",
+          "i": 28,
+          "title": "《西使記》·一卷",
+          "old": "1ev3baj45oq9s",
+          "new": "d59f2gol8bgh",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan147.json",
+          "i": 46,
+          "title": "《集仙傳》•十五卷",
+          "old": "1ev3bcrxpagow",
+          "new": "d59f2pvg61og",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan147.json",
+          "i": 68,
+          "title": "《終南山祖庭仙真內傳》•三卷、附《終南山說經台歷代仙真碑記》•一卷",
+          "old": "1ev3bcseu3e2o",
+          "new": "d59f2gjz62gy",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan147.json",
+          "i": 78,
+          "title": "《霞外雜俎》•一卷",
+          "old": "1ev3bcslzm680",
+          "new": "d59f2ndot4as",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan039.json",
+          "i": 41,
+          "title": "《樂原》",
+          "old": "1ev3ba8lgn5kw",
+          "new": "d59f2gfez8qo",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan039.json",
+          "i": 42,
+          "title": "《律呂纂要》•二卷",
+          "old": "1ev3ba8lvmjnk",
+          "new": "d59f2ney2iv7",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan092.json",
+          "i": 2,
+          "title": "《太極圖說述解》•一卷、《通書述解》•一卷、《西銘述解》•一卷",
+          "old": "1ev3d5odg2m0w",
+          "new": "d59f2nl5kg03",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan082.json",
+          "i": 9,
+          "title": "《廟學典禮》•六卷",
+          "old": "1ev3bb1yhau4g",
+          "new": "d59f2og8xngh",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan007.json",
+          "i": 51,
+          "title": "《易經淵旨》•一卷",
+          "old": "1ev0r92j9jdhc",
+          "new": "d59f2nfb6hhc",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan168.json",
+          "i": 29,
+          "title": "《樵雲獨唱》•六卷",
+          "old": "1ev3bd7lddlog",
+          "new": "d59f2gpgrabk",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan053.json",
+          "i": 9,
+          "title": "《復辟錄》•一卷",
+          "old": "1ev3bafcdgfls",
+          "new": "d59f2nkbaf43",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan124.json",
+          "i": 32,
+          "title": "《濯舊稿》•一卷",
+          "old": "1ev3bbywjnf9c",
+          "new": "d59f2nh0czyb",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan160.json",
+          "i": 20,
+          "title": "《劍南詩稿》•八十五卷",
+          "old": "1ev3bd1nwazuo",
+          "new": "d59f2ht7ycxt",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan160.json",
+          "i": 21,
+          "title": "《渭南文集》•五十卷、《逸稿》•二卷",
+          "old": "1ev3bd1op0tts",
+          "new": "d59f2hq62tqa",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan146.json",
+          "i": 11,
+          "title": "《禦注道德經》•二卷",
+          "old": "1ev3bcqebaio0",
+          "new": "d59f2nmjtj41",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan146.json",
+          "i": 22,
+          "title": "《文子》•十二卷",
+          "old": "1ev3bcqm3wv0g",
+          "new": "d59ezaiahzpc",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan146.json",
+          "i": 38,
+          "title": "《續仙傳》•三卷",
+          "old": "1ev3bcqx4ypz4",
+          "new": "d59f2gcoyq69",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan139.json",
+          "i": 1,
+          "title": "《類姓登科考》·六卷",
+          "old": "1ev3bchqnglj4",
+          "new": "d59f2mxf7sw1",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan143.json",
+          "i": 18,
+          "title": "《至正直記》•四卷",
+          "old": "1ev3bcl7zv668",
+          "new": "d59f2gmv43cx",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan143.json",
+          "i": 22,
+          "title": "《東園友聞》•一卷",
+          "old": "1ev3bclanp0xs",
+          "new": "d59f2gn53oqo",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan143.json",
+          "i": 31,
+          "title": "《複齋日記》•二卷",
+          "old": "1ev3bclgp9fk0",
+          "new": "d59f2neg9zpe",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan143.json",
+          "i": 38,
+          "title": "《翦勝野聞》•一卷",
+          "old": "1ev3bclljr37k",
+          "new": "d59f2nibt2wx",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan143.json",
+          "i": 83,
+          "title": "《癸未夏抄》•四卷",
+          "old": "1ev3bcmesmjgg",
+          "new": "d59f2mwx41dt",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan102.json",
+          "i": 14,
+          "title": "《野菜譜》•一卷",
+          "old": "1ev3bbfoiud4w",
+          "new": "d59f2ngxv3lt",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan183.json",
+          "i": 100,
+          "title": "《《山介》•老編年詩鈔》•十三卷",
+          "old": "1evcmtu343fgg",
+          "new": "d59f2nnis3y9",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan070.json",
+          "i": 25,
+          "title": "《北戶錄》·三卷",
+          "old": "d59f28luasjk",
+          "new": "d59f29k89yww",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan165.json",
+          "i": 13,
+          "title": "《北遊集》·一卷",
+          "old": "1ev3bd3wyvuv4",
+          "new": "d59f2hrmiozl",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan165.json",
+          "i": 43,
+          "title": "《心泉學詩稿》·六卷",
+          "old": "1evgaantrhkhs",
+          "new": "d59f2j4xe1oh",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan103.json",
+          "i": 6,
+          "title": "《金匱要略論注》•二十四卷",
+          "old": "1ev3bbfu2b08w",
+          "new": "d59f2nu40gsh",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan103.json",
+          "i": 10,
+          "title": "《巢氏諸病源候論》•五十卷",
+          "old": "d59f28k4t1j4",
+          "new": "d59f29k7nhts",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan103.json",
+          "i": 25,
+          "title": "《聖濟總錄纂要》•二十六卷",
+          "old": "1ev3bbg4absow",
+          "new": "d59f2nu4bpc0",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan103.json",
+          "i": 37,
+          "title": "《太醫局程文》•九卷",
+          "old": "1ev3bbgavve2o",
+          "new": "d59f2puac8hu",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan103.json",
+          "i": 42,
+          "title": "《產寶諸方》•一卷",
+          "old": "1ev3bbgdlko3k",
+          "new": "d59f2oga6lmr",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan145.json",
+          "i": 10,
+          "title": "《五燈會元》•二十卷",
+          "old": "1ev3bcpvuqa68",
+          "new": "d59f2gnudwqo",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan145.json",
+          "i": 15,
+          "title": "《佛祖統紀》•五十四卷",
+          "old": "1ev3bcpz8s2kg",
+          "new": "d59f2gk9gwe8",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan145.json",
+          "i": 17,
+          "title": "《神僧傳》•九卷",
+          "old": "1ev3bcq0l5urk",
+          "new": "d59f2ggu65ts",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan131.json",
+          "i": 16,
+          "title": "《女紅餘志》·二卷",
+          "old": "1ev3bc7q76br4",
+          "new": "d59f2gmrzpxd",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan131.json",
+          "i": 32,
+          "title": "《為善陰騭》·十卷",
+          "old": "1ev3bc814hc74",
+          "new": "d59f2njwxhxf",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan032.json",
+          "i": 23,
+          "title": "《孝經》•一卷",
+          "old": "1ev3ba4hkcc1s",
+          "new": "d59f2na1pbsx",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan112.json",
+          "i": 17,
+          "title": "《益州名畫錄》•二卷",
+          "old": "1ev3bboq2qghs",
+          "new": "d59f2ht8w2kj",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan112.json",
+          "i": 38,
+          "title": "《畫鑒》•一卷",
+          "old": "1ev3bbp2pughs",
+          "new": "d59f2goxpt6p",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan112.json",
+          "i": 39,
+          "title": "《衍極》•二卷",
+          "old": "1ev3bbp3e6yv4",
+          "new": "d59f2gnvmuwx",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan189.json",
+          "i": 5,
+          "title": "《唐詩品匯》•九十卷、《拾遺》•十卷",
+          "old": "1ev3bembydm9s",
+          "new": "d59f2nkga7sz",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan081.json",
+          "i": 19,
+          "title": "《欽定皇朝通志》•二百卷",
+          "old": "1evkacps4p9mo",
+          "new": "d59f2ntwu0ao",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan075.json",
+          "i": 10,
+          "title": "《新河初議》•一卷",
+          "old": "1ev3bavj1girk",
+          "new": "d59f2nekc35w",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/a/f/4/d59dh3vo9af4/collated_edition/juan061.json",
+          "i": 65,
+          "title": "《濟美錄》•四卷",
+          "old": "1ev3bams5730g",
+          "new": "d59f2gfwrrpe",
+          "how": "目錄之 source_bid＋title_info 唯一相合"
+        },
+        {
+          "file": "../book-index/Work/r/c/x/d59f2gcburcx/collated_edition/雜史類.json",
+          "i": 86,
+          "title": "《帝錄》十卷",
+          "old": "1evcpcwzibls0",
+          "new": "d59f2psregw0",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/r/c/x/d59f2gcburcx/collated_edition/醫術類.json",
+          "i": 71,
+          "title": "又六卷",
+          "old": "1ex0dp6k3f024",
+          "new": "d59f2pw20ni8",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/r/c/x/d59f2gcburcx/collated_edition/醫術類.json",
+          "i": 74,
+          "title": "《黃素方》十五卷",
+          "old": "1evcpd45rboqo",
+          "new": "d59f2pxf0wsh",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/r/c/x/d59f2gcburcx/collated_edition/名家類.json",
+          "i": 3,
+          "title": "又一卷陳嗣古注。",
+          "old": "1evcubrk9qtj4",
+          "new": "d59f2hh39czm",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/r/c/x/d59f2gcburcx/collated_edition/別集類.json",
+          "i": 14,
+          "title": "《梁元帝集》十卷",
+          "old": "1ex0dp6gf2dqc",
+          "new": "d59f2pwarabk",
+          "how": "git 改繫鏈與目錄題名二法相合"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/羣經.json",
+          "i": 411,
+          "title": "陳氏（際㤗）五經讀",
+          "old": "1exz3edqk60pp",
+          "new": "d59f2nesrhmo",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/孝經.json",
+          "i": 103,
+          "title": "蘇氏（彬）孝經疏",
+          "old": "1exs3calzhd9x",
+          "new": "d59f2q8s90xu",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/儀禮.json",
+          "i": 97,
+          "title": "史氏（定之）鄉飲酒儀",
+          "old": "1exyh2fc7zktr",
+          "new": "d59f2psxbzlt",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/通禮.json",
+          "i": 48,
+          "title": "鄭氏（失名）三禮名義䟽",
+          "old": "1exfm7wtuiihn",
+          "new": "d59f2q2a51q8",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/論語.json",
+          "i": 58,
+          "title": "暢氏（惠明）論語義注",
+          "old": "1exvjzd8s8ujb",
+          "new": "d59f2q1syzuq",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/詩.json",
+          "i": 95,
+          "title": "魯氏（世逹）毛詩章句義疏",
+          "old": "1exaiotk3lxm4",
+          "new": "d59f2pydzhfk",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/d/1/d/d59f2mel8d1d/collated_edition/詩.json",
+          "i": 169,
+          "title": "洪氏（林範）毛詩義方",
+          "old": "1exfdn6js36ca",
+          "new": "d59f2qa904xu",
+          "how": "git 改繫鏈"
+        },
+        {
+          "file": "../book-index/Work/1/d/u/d59f2htm01du/collated_edition/農家類.json",
+          "i": 5,
+          "title": "《農器譜》三卷",
+          "old": "1evr5e3mkaqm2",
+          "new": "d59f2px85oua",
+          "how": "連書節之首書，同目錄同題唯一"
+        },
+        {
+          "file": "../book-index/Work/1/d/u/d59f2htm01du/collated_edition/農家類.json",
+          "i": 6,
+          "title": "《續》二卷",
+          "old": "1evr5e3mkaqm2",
+          "new": "d59f2px85oua",
+          "how": "附屬部帙節，從母節之繫"
+        },
+        {
+          "file": "../book-index/Work/1/d/u/d59f2htm01du/collated_edition/醫書類.json",
+          "i": 71,
+          "title": "《選奇方》十卷",
+          "old": "1evr5e3mjo9nl",
+          "new": "d59f2pu6lds2",
+          "how": "附屬部帙節，從母節之繫"
+        },
+        {
+          "file": "../book-index/Work/1/d/u/d59f2htm01du/collated_edition/醫書類.json",
+          "i": 72,
+          "title": "《後集》十卷",
+          "old": "1evr5e3mjo9nl",
+          "new": "d59f2pu6lds2",
+          "how": "附屬部帙節，從母節之繫"
+        },
+        {
+          "file": "../book-index/Work/1/d/u/d59f2htm01du/collated_edition/醫書類.json",
+          "i": 79,
+          "title": "《治奇疾方》一卷",
+          "old": "1evr5e3mjd13x",
+          "new": "d59f2q78os8x",
+          "how": "git 改繫鏈"
+        }
+      ]
+    },
+    "source_bid 落空": {
+      "數": 12,
+      "相異 id": 8,
+      "實情": "皆隋志附注亡書之例——隋志正文著隋時見存之書，其注記「梁有某書幾卷，某人撰，亡」；此類 work 之 source_bid 依庫中之例繫其注所附之母條（非繫隋志本身），而母條早經併去，production 未同步。",
+      "解法": "此類 work 之 ai_note 皆自記「本書見於庫中《某某》（`id`）之注」，取其母條題名求之 production（隋志所著錄者），十二處皆得唯一。惟《宋元嘉曆》一條，存者題作「宋元嘉歷」（歷／曆異體），須以異體相通求之。",
+      "詳": {
+        "1evcpjzz6416o（黃鐘律）": "d59f286pag3m",
+        "1evcmnc9ekz5s（新論）": "d59f27w5en0h",
+        "1evc5pclx6qkg（毛詩拾遺）": "d59f27y0insz",
+        "1evcmodcmhslc（梁中表）": "d59f285trh8i",
+        "1evc5pcli7chs（毛詩駁）": "d59f28mptreq",
+        "1evcpjzussfeo（文字譜）": "d59f2q4x16v5",
+        "1evcmne9s2tc0（宋元嘉曆→宋元嘉歷）": "d59f27v99728",
+        "1evcpjzwve58g（春秋左傳例苑）": "d59f24mh9340"
+      }
+    }
+  },
+  "不作為者": {
+    "merged_in[].id": "兩倉共 1,044 條，其 id 百分之百不存在——此欄本是「某條併入本條」之史錄，所記正是已亡之 id，非活指標，不當以懸空論。"
+  },
+  "增驗": [
+    "chk.py production 節「work 之 authors[].entity_id 不指 production entity」（基線 0）",
+    "chk.py production 節「整理本節之 work_id 落空」（基線 0）",
+    "chk.py production 節「indexed_by/emendated_by 之 source_bid 落空」（基線 0）"
+  ]
+}

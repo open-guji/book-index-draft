@@ -1,0 +1,16 @@
+{
+  "_說明": "2026-08-24 三國兩晉升格合流 promotions.json 時查出：一個 draft id 對兩個 production id。非本輪所造（本條 period=qin-han，不在三國兩晉之列），記此交漢桶車道。",
+  "個案": [
+    {
+      "draft_id": "1evftxcnoxyio",
+      "draft現題": "風角注",
+      "兩次升格": [
+        {"production_id": "d59f24m10qv4", "題": "九旗飛變", "撰人": "鄭玄", "promoted_at": "2026-08-24T14:48:24Z"},
+        {"production_id": "d59f287ki6f5", "題": "風角注", "撰人": "何休", "promoted_at": "2026-08-24T18:57:24Z"}
+      ],
+      "現狀": "draft 側之 _promoted_to 作 d59f287ki6f5（後者），故 promotions.json 合流時取後者。production 側 d59f24m10qv4《九旗飛變》遂成無 draft 墓碑可回溯之孤條。",
+      "推測": "同一 draft id 兩次升格而題與撰人俱異，當是兩次之間該條經過改繫或拆併（磁鐵拆解之類），內容已易主而 id 未變。",
+      "待辦": "漢桶車道覆核：d59f24m10qv4《九旗飛變》（鄭玄）之來源為何條；若其 draft 母條另有其人，補其墓碑；若本不當升，撤之。"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+ "date": "2026-08-26",
+ "count": 94,
+ "issue": "94 條被誤建為 Book 之目錄節點，已刪",
+ "root_cause": "2026-05-18 commit b8535d7bfac「全 WY 數據 title 規範化」之副產物——該批量腳本掃「有 title＋sections」形之 JSON（即各 Work 之 collated_edition/*.json 與 Collection 之 volume_book_mapping.json），把結果當新 Book 條寫出並各發一新 id。故其欄位集異常乾淨：多數只有 schema_version/title/sections/additional_titles/id/type/updated_at 七鍵，無 work_id、無 contained_in、無 resources。",
+ "evidence": "（一）94 條全部首見於同一 commit；（二）抽驗 40 條，39 條之 sections 與母條分卷檔逐字節相同，餘為升格前之過期快照；（三）兩倉全文 grep：除 index/ 生成物與自身外，無任何母條引用之（Collection 之 volume_book_mapping、Book 之 sections、Work 皆不挂）。",
+ "note": "母條內容俱全，故是刪而非併——無可併之物。刪前已回填四庫 mapping 56 處（見下）。",
+ "related": "11qspos5ku5ts／11qspokuh16o0 二條是 Collection 8rlb6yi1ecqo 之 volume_book_mapping 被套 Book 外殼者，其 books[].work_id 有 56 處較 production mapping 為新（本側活條、production 側懸空，且該 1ev id 不見於 promotions.json，非升格改寫所能修），已回填 production 之 mapping 後方刪。",
+ "deleted": [
+  {
+   "id": "11qspnjzu5b0g",
+   "title": "經部",
+   "target": "d59f2og4vke9",
+   "n_sections": 736,
+   "path": "Book/b/0/g/11qspnjzu5b0g-經部.json"
+  },
+  {
+   "id": "11qspnhivtq80",
+   "title": "第9冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 69,
+   "path": "Book/q/8/0/11qspnhivtq80-第9冊.json"
+  },
+  {
+   "id": "11qspnhhofqps",
+   "title": "第8冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 98,
+   "path": "Book/q/p/s/11qspnhhofqps-第8冊.json"
+  },
+  {
+   "id": "11qspnj8vzqps",
+   "title": "第十二冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 10,
+   "path": "Book/q/p/s/11qspnj8vzqps-第十二冊.json"
+  },
+  {
+   "id": "11qspnj5b2qdc",
+   "title": "第八冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 19,
+   "path": "Book/q/d/c/11qspnj5b2qdc-第八冊.json"
+  },
+  {
+   "id": "11qspni8bz8jk",
+   "title": "第30冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 54,
+   "path": "Book/8/j/k/11qspni8bz8jk-第30冊.json"
+  },
+  {
+   "id": "11qspnhk2l8n4",
+   "title": "第10冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 53,
+   "path": "Book/8/n/4/11qspnhk2l8n4-第10冊.json"
+  },
+  {
+   "id": "11qspnirp05j4",
+   "title": "第46冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 43,
+   "path": "Book/5/j/4/11qspnirp05j4-第46冊.json"
+  },
+  {
+   "id": "11qspnhrax5og",
+   "title": "第16冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 67,
+   "path": "Book/5/o/g/11qspnhrax5og-第16冊.json"
+  },
+  {
+   "id": "11qspnisw2whs",
+   "title": "第47冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 60,
+   "path": "Book/w/h/s/11qspnisw2whs-第47冊.json"
+  },
+  {
+   "id": "11qspniu3gw00",
+   "title": "第48冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 57,
+   "path": "Book/w/0/0/11qspniu3gw00-第48冊.json"
+  },
+  {
+   "id": "11qspni0v7wu8",
+   "title": "第24冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 36,
+   "path": "Book/w/u/8/11qspni0v7wu8-第24冊.json"
+  },
+  {
+   "id": "11qspnj0kbx8g",
+   "title": "第三冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 8,
+   "path": "Book/x/8/g/11qspnj0kbx8g-第三冊.json"
+  },
+  {
+   "id": "11qspnhygfxts",
+   "title": "第22冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 104,
+   "path": "Book/x/t/s/11qspnhygfxts-第22冊.json"
+  },
+  {
+   "id": "11qspnhzntxc0",
+   "title": "第23冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 73,
+   "path": "Book/x/c/0/11qspnhzntxc0-第23冊.json"
+  },
+  {
+   "id": "11qspnhto4xz4",
+   "title": "第18冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 91,
+   "path": "Book/x/z/4/11qspnhto4xz4-第18冊.json"
+  },
+  {
+   "id": "11qspnjtiwjk0",
+   "title": "第98冊",
+   "target": "d59f2og0708x",
+   "n_sections": 25,
+   "path": "Book/j/k/0/11qspnjtiwjk0-第98冊.json"
+  },
+  {
+   "id": "11qspni2bcjk0",
+   "title": "第25冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 41,
+   "path": "Book/j/k/0/11qspni2bcjk0-第25冊.json"
+  },
+  {
+   "id": "11qspnij8cjcw",
+   "title": "第39冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 78,
+   "path": "Book/j/c/w/11qspnij8cjcw-第39冊.json"
+  },
+  {
+   "id": "11qspnjpvhmv4",
+   "title": "第95冊",
+   "target": "d59f2og0708x",
+   "n_sections": 79,
+   "path": "Book/m/v/4/11qspnjpvhmv4-第95冊.json"
+  },
+  {
+   "id": "11qspnilmt9ts",
+   "title": "第41冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 61,
+   "path": "Book/9/t/s/11qspnilmt9ts-第41冊.json"
+  },
+  {
+   "id": "11qspnhmg49hc",
+   "title": "第12冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 90,
+   "path": "Book/9/h/c/11qspnhmg49hc-第12冊.json"
+  },
+  {
+   "id": "11qspni74l91c",
+   "title": "第29冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 86,
+   "path": "Book/9/1/c/11qspni74l91c-第29冊.json"
+  },
+  {
+   "id": "11qspnhe1c2kg",
+   "title": "第5冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 65,
+   "path": "Book/2/k/g/11qspnhe1c2kg-第5冊.json"
+  },
+  {
+   "id": "11qspnipa86io",
+   "title": "第44冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 107,
+   "path": "Book/6/i/o/11qspnipa86io-第44冊.json"
+  },
+  {
+   "id": "11qspnizd969s",
+   "title": "第七冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 20,
+   "path": "Book/6/9/s/11qspnizd969s-第七冊.json"
+  },
+  {
+   "id": "11qspnjonh69s",
+   "title": "第94冊",
+   "target": "d59f2og0708x",
+   "n_sections": 78,
+   "path": "Book/6/9/s/11qspnjonh69s-第94冊.json"
+  },
+  {
+   "id": "11qspnjjv66f4",
+   "title": "第90冊",
+   "target": "d59f2og0708x",
+   "n_sections": 60,
+   "path": "Book/6/f/4/11qspnjjv66f4-第90冊.json"
+  },
+  {
+   "id": "11qspnjx6mosg",
+   "title": "第101冊",
+   "target": "d59f2og0708x",
+   "n_sections": 63,
+   "path": "Book/o/s/g/11qspnjx6mosg-第101冊.json"
+  },
+  {
+   "id": "11qspnjl1xou8",
+   "title": "第91冊",
+   "target": "d59f2og0708x",
+   "n_sections": 38,
+   "path": "Book/o/u/8/11qspnjl1xou8-第91冊.json"
+  },
+  {
+   "id": "11qspnic19khs",
+   "title": "第33冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 62,
+   "path": "Book/k/h/s/11qspnic19khs-第33冊.json"
+  },
+  {
+   "id": "11qspniatvkzk",
+   "title": "第32冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 88,
+   "path": "Book/k/z/k/11qspniatvkzk-第32冊.json"
+  },
+  {
+   "id": "11qspnhf83kzk",
+   "title": "第6冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 92,
+   "path": "Book/k/z/k/11qspnhf83kzk-第6冊.json"
+  },
+  {
+   "id": "11qspnifm6ku8",
+   "title": "第36冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 43,
+   "path": "Book/k/u/8/11qspnifm6ku8-第36冊.json"
+  },
+  {
+   "id": "11qspnhnnthj4",
+   "title": "第13冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 85,
+   "path": "Book/h/j/4/11qspnhnnthj4-第13冊.json"
+  },
+  {
+   "id": "11qspnhov7h1c",
+   "title": "第14冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 113,
+   "path": "Book/h/1/c/11qspnhov7h1c-第14冊.json"
+  },
+  {
+   "id": "11qspniy66fb4",
+   "title": "第一冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 8,
+   "path": "Book/f/b/4/11qspniy66fb4-第一冊.json"
+  },
+  {
+   "id": "11qspnjngefb4",
+   "title": "第93冊",
+   "target": "d59f2og0708x",
+   "n_sections": 39,
+   "path": "Book/f/b/4/11qspnjngefb4-第93冊.json"
+  },
+  {
+   "id": "11qspnhshdfk0",
+   "title": "第17冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 78,
+   "path": "Book/f/k/0/11qspnhshdfk0-第17冊.json"
+  },
+  {
+   "id": "11qspnjio3fgg",
+   "title": "第89冊",
+   "target": "d59f2og0708x",
+   "n_sections": 61,
+   "path": "Book/f/g/g/11qspnjio3fgg-第89冊.json"
+  },
+  {
+   "id": "11qspnjm90fsw",
+   "title": "第92冊",
+   "target": "d59f2og0708x",
+   "n_sections": 40,
+   "path": "Book/f/s/w/11qspnjm90fsw-第92冊.json"
+  },
+  {
+   "id": "11qspnj2xjpj4",
+   "title": "第二冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 4,
+   "path": "Book/p/j/4/11qspnj2xjpj4-第二冊.json"
+  },
+  {
+   "id": "11qspngvttpts",
+   "title": "縱橫家類",
+   "target": "d59f2hqc0c1t",
+   "n_sections": 3,
+   "path": "Book/p/t/s/11qspngvttpts-縱橫家類.json"
+  },
+  {
+   "id": "11qspnjyg7c3k",
+   "title": "經部",
+   "target": "d59f2og4vksh",
+   "n_sections": 1251,
+   "path": "Book/c/3/k/11qspnjyg7c3k-經部.json"
+  },
+  {
+   "id": "11qspnieehcsg",
+   "title": "第35冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 54,
+   "path": "Book/c/s/g/11qspnieehcsg-第35冊.json"
+  },
+  {
+   "id": "11qspnjr3tc00",
+   "title": "第96冊",
+   "target": "d59f2og0708x",
+   "n_sections": 106,
+   "path": "Book/c/0/0/11qspnjr3tc00-第96冊.json"
+  },
+  {
+   "id": "11qspnhuuwge8",
+   "title": "第19冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 72,
+   "path": "Book/g/e/8/11qspnhuuwge8-第19冊.json"
+  },
+  {
+   "id": "11qspniqhxekg",
+   "title": "第45冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 83,
+   "path": "Book/e/k/g/11qspniqhxekg-第45冊.json"
+  },
+  {
+   "id": "11qspnhq3ueps",
+   "title": "第15冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 59,
+   "path": "Book/e/p/s/11qspnhq3ueps-第15冊.json"
+  },
+  {
+   "id": "11qspngul6s5c",
+   "title": "歷數類",
+   "target": "d59f2hqc0c1t",
+   "n_sections": 46,
+   "path": "Book/s/5/c/11qspngul6s5c-歷數類.json"
+  },
+  {
+   "id": "11qspnigtvsw0",
+   "title": "第37冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 51,
+   "path": "Book/s/w/0/11qspnigtvsw0-第37冊.json"
+  },
+  {
+   "id": "11qspnhcuvsow",
+   "title": "第4冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 73,
+   "path": "Book/s/o/w/11qspnhcuvsow-第4冊.json"
+  },
+  {
+   "id": "11qspnh99yscg",
+   "title": "第1冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 145,
+   "path": "Book/s/c/g/11qspnh99yscg-第1冊.json"
+  },
+  {
+   "id": "11qspni5wksg0",
+   "title": "第28冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 67,
+   "path": "Book/s/g/0/11qspni5wksg0-第28冊.json"
+  },
+  {
+   "id": "11qspnhw1z7cw",
+   "title": "第20冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 84,
+   "path": "Book/7/c/w/11qspnhw1z7cw-第20冊.json"
+  },
+  {
+   "id": "11qspnj44b7y8",
+   "title": "第五冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 24,
+   "path": "Book/7/y/8/11qspnj44b7y8-第五冊.json"
+  },
+  {
+   "id": "11qspnj1qs740",
+   "title": "第九冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 25,
+   "path": "Book/7/4/0/11qspnj1qs740-第九冊.json"
+  },
+  {
+   "id": "11qspnj6hj08w",
+   "title": "第六冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 21,
+   "path": "Book/0/8/w/11qspnj6hj08w-第六冊.json"
+  },
+  {
+   "id": "11qspnii1l0xs",
+   "title": "第38冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 61,
+   "path": "Book/0/x/s/11qspnii1l0xs-第38冊.json"
+  },
+  {
+   "id": "11qspnimtw0sg",
+   "title": "第42冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 70,
+   "path": "Book/0/s/g/11qspnimtw0sg-第42冊.json"
+  },
+  {
+   "id": "11qspnio1a0ao",
+   "title": "第43冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 108,
+   "path": "Book/0/a/o/11qspnio1a0ao-第43冊.json"
+  },
+  {
+   "id": "11qspni9j1zi8",
+   "title": "第31冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 100,
+   "path": "Book/z/i/8/11qspni9j1zi8-第31冊.json"
+  },
+  {
+   "id": "11qspnjvyaznk",
+   "title": "第100冊",
+   "target": "d59f2og0708x",
+   "n_sections": 26,
+   "path": "Book/z/n/k/11qspnjvyaznk-第100冊.json"
+  },
+  {
+   "id": "11qspnhx91ybk",
+   "title": "第21冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 70,
+   "path": "Book/y/b/k/11qspnhx91ybk-第21冊.json"
+  },
+  {
+   "id": "11qspnjbb2y9s",
+   "title": "第四冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 13,
+   "path": "Book/y/9/s/11qspnjbb2y9s-第四冊.json"
+  },
+  {
+   "id": "11qspnja3oyrk",
+   "title": "第十冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 13,
+   "path": "Book/y/r/k/11qspnja3oyrk-第十冊.json"
+  },
+  {
+   "id": "11qspnjsakuf4",
+   "title": "第97冊",
+   "target": "d59f2og0708x",
+   "n_sections": 58,
+   "path": "Book/u/f/4/11qspnjsakuf4-第97冊.json"
+  },
+  {
+   "id": "11qspnid7pudc",
+   "title": "第34冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 64,
+   "path": "Book/u/d/c/11qspnid7pudc-第34冊.json"
+  },
+  {
+   "id": "11qspni3ifaio",
+   "title": "第26冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 41,
+   "path": "Book/a/i/o/11qspni3ifaio-第26冊.json"
+  },
+  {
+   "id": "11qspnhbo4a9s",
+   "title": "第3冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 75,
+   "path": "Book/a/9/s/11qspnhbo4a9s-第3冊.json"
+  },
+  {
+   "id": "11qspnhggfa4g",
+   "title": "第7冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 102,
+   "path": "Book/a/4/g/11qspnhggfa4g-第7冊.json"
+  },
+  {
+   "id": "11qspnhl9cr28",
+   "title": "第11冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 89,
+   "path": "Book/r/2/8/11qspnhl9cr28-第11冊.json"
+  },
+  {
+   "id": "11qspnjuqlrls",
+   "title": "第99冊",
+   "target": "d59f2og0708x",
+   "n_sections": 36,
+   "path": "Book/r/l/s/11qspnjuqlrls-第99冊.json"
+  },
+  {
+   "id": "11qspnikg1reo",
+   "title": "第40冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 77,
+   "path": "Book/r/e/o/11qspnikg1reo-第40冊.json"
+  },
+  {
+   "id": "11qspnj7olr7k",
+   "title": "第十一冊",
+   "target": "d59f2rxyfv28",
+   "n_sections": 14,
+   "path": "Book/r/7/k/11qspnj7olr7k-第十一冊.json"
+  },
+  {
+   "id": "11qspnhahcruo",
+   "title": "第2冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 74,
+   "path": "Book/r/u/o/11qspnhahcruo-第2冊.json"
+  },
+  {
+   "id": "11qspngxzv1mo",
+   "title": "明堂經脈類",
+   "target": "d59f2hl0cmio",
+   "n_sections": 41,
+   "path": "Book/1/m/o/11qspngxzv1mo-明堂經脈類.json"
+  },
+  {
+   "id": "11qspni4pi1hc",
+   "title": "第27冊",
+   "target": "d59f2ofmgkch",
+   "n_sections": 37,
+   "path": "Book/1/h/c/11qspni4pi1hc-第27冊.json"
+  },
+  {
+   "id": "11qspnjf0oirk",
+   "title": "卷之二會稿",
+   "target": "d59f2rzrzp4w",
+   "n_sections": 3,
+   "path": "Book/i/r/k/11qspnjf0oirk-卷之二會稿.json"
+  },
+  {
+   "id": "11qspos5ku5ts",
+   "title": "欽定四庫全書·文淵閣本",
+   "target": "8rlb6yi1ecqo",
+   "n_sections": 5,
+   "path": "Book/5/t/s/11qspos5ku5ts-欽定四庫全書文淵閣本.json"
+  },
+  {
+   "id": "11qspnh26xwjk",
+   "title": "四朝詩",
+   "target": "d59f2neqw26a",
+   "n_sections": 31,
+   "path": "Book/w/j/k/11qspnh26xwjk-四朝詩.json"
+  },
+  {
+   "id": "11qspnjcigxs0",
+   "title": "卷之一題稿",
+   "target": "d59f2rzrzp4w",
+   "n_sections": 9,
+   "path": "Book/x/s/0/11qspnjcigxs0-卷之一題稿.json"
+  },
+  {
+   "id": "11qspnjdtaj9c",
+   "title": "卷之三書簡",
+   "target": "d59f2rzrzp4w",
+   "n_sections": 56,
+   "path": "Book/j/9/c/11qspnjdtaj9c-卷之三書簡.json"
+  },
+  {
+   "id": "11qspokuh16o0",
+   "title": "欽定四庫全書·文淵閣本",
+   "target": "8rlb6yi1ecqo",
+   "n_sections": 5,
+   "path": "Book/6/o/0/11qspokuh16o0-欽定四庫全書文淵閣本.json"
+  },
+  {
+   "id": "11qspnh4k5ou8",
+   "title": "宋詩九篇",
+   "target": "d59f2neqw26a",
+   "n_sections": 9,
+   "path": "Book/o/u/8/11qspnh4k5ou8-宋詩九篇.json"
+  },
+  {
+   "id": "11qspnjhgpfy8",
+   "title": "卷之四集簡",
+   "target": "d59f2rzrzp4w",
+   "n_sections": 96,
+   "path": "Book/f/y/8/11qspnjhgpfy8-卷之四集簡.json"
+  },
+  {
+   "id": "11qspnivregao",
+   "title": "錦衣衛題本檔崇禎五年",
+   "target": "d59f2nh7uozl",
+   "n_sections": 28,
+   "path": "Book/g/a/o/11qspnivregao-錦衣衛題本檔崇禎五年.json"
+  },
+  {
+   "id": "11qspnh3dpeyo",
+   "title": "國朝詩",
+   "target": "d59f2neqw26a",
+   "n_sections": 22,
+   "path": "Book/e/y/o/11qspnh3dpeyo-國朝詩.json"
+  },
+  {
+   "id": "11qspnh106e4g",
+   "title": "鳳陽新書殘卷",
+   "target": "d59f2neqw26a",
+   "n_sections": 1,
+   "path": "Book/e/4/g/11qspnh106e4g-鳳陽新書殘卷.json"
+  },
+  {
+   "id": "11qspnh5qx79c",
+   "title": "明賦三篇",
+   "target": "d59f2neqw26a",
+   "n_sections": 3,
+   "path": "Book/7/9/c/11qspnh5qx79c-明賦三篇.json"
+  },
+  {
+   "id": "11qspniwyh79c",
+   "title": "錦衣衛題本檔崇禎十三年",
+   "target": "d59f2nh7uozl",
+   "n_sections": 9,
+   "path": "Book/7/9/c/11qspniwyh79c-錦衣衛題本檔崇禎十三年.json"
+  },
+  {
+   "id": "11qspnh6xzy80",
+   "title": "漢賦一篇",
+   "target": "d59f2neqw26a",
+   "n_sections": 1,
+   "path": "Book/y/8/0/11qspnh6xzy80-漢賦一篇.json"
+  },
+  {
+   "id": "11qspngzpo16o",
+   "title": "元詩一首",
+   "target": "d59f2neqw26a",
+   "n_sections": 1,
+   "path": "Book/1/6/o/11qspngzpo16o-元詩一首.json"
+  },
+  {
+   "id": "11qspnjg7g16o",
+   "title": "卷之五詳□",
+   "target": "d59f2rzrzp4w",
+   "n_sections": 293,
+   "path": "Book/1/6/o/11qspnjg7g16o-卷之五詳.json"
+  }
+ ]
+}

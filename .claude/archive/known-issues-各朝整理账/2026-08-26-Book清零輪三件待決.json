@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-26",
+  "context": "Book 車道清零（444 條）途中挖出，皆逾本輪之範圍，使用者裁定「先不動，記錄」。",
+  "items": [
+    {
+      "no": 1,
+      "kind": "Work 重出待裁併",
+      "title": "古今韻會舉要",
+      "detail": "庫中二條並存：`d59f2hs329s2`（撰人黃公紹，著錄源國史經籍志，挂十餘部再造善本 Book）與 `d59f2gpa7aww`（撰人熊忠，著錄源四庫總目，有 wikisource／識典資源）。",
+      "scholarly": "四庫之說為長——《韻會舉要》出熊忠，黃公紹所撰者是《古今韻會》，二書本非一。長遠當以 `d59f2gpa7aww` 為正條。",
+      "action_taken": "本輪 C3 併條時按撰人字面對應，將 Book《古今韻會舉要》併入 `d59f2hs329s2`。此二 Work 之裁併是另一案，未動。"
+    },
+    {
+      "no": 2,
+      "kind": "Work 重出待裁併",
+      "title": "周易本義附錄纂疏",
+      "detail": "`d59f2gnu2o76`《易本義附錄纂疏》（胡一桂，十五卷，四庫總目，挂二部實物）與 `d59f2gd1rgg3`《周易附錄纂疏》（胡一桂，十五卷，經義考）同書重出。",
+      "action_taken": "同上，未動。",
+      "2026-08-26 續": "清零第二輪另有一 Book《周易本義附錄纂疏》（元史藝文志著錄，胡一桂，十五卷或作十四卷）待繫。初繫 d59f2gd1rgg3，覆核卷數後改繫 d59f2gnu2o76《易本義附錄纂疏》十五卷——著錄之卷數與之全合，且該條挂二部實物。此三條（連 d59f2j54vqps《易本義附錄纂注》二卷）之裁併仍未動。"
+    },
+    {
+      "no": 3,
+      "kind": "同題三條待裁",
+      "title": "四書標題",
+      "detail": "`d59f2gcz9k3k`《標題四書》（熊禾，經義考）、`d59f2husrjsw`《四書標題》（撰人繫「朱熹 集註」，係 2026-08-24 依同名 entity 唯一所補，判據薄弱，且挂故宮元刊本實物 `988g1do555`／平圖000547-000550 四冊）。",
+      "risk": "若該元刊本實即熊禾之書，則三條當併為一，連帶「熊禾之書佚」之判亦須改。牽涉實物歸屬與存佚改判，非可輕動。",
+      "action_taken": "本輪只將 Book 併入 `d59f2gcz9k3k`，三條之裁併未動。",
+      "2026-08-26 續": "清零第二輪險些重蹈：因題名作《四書標題》而 production 之熊禾條題作《標題四書》，逐字比對查無同題，遂新立一 Work d59f32rkh7nm。覆核 known-issues 時發覺，已改繫 d59f2gcz9k3k 並刪去新立之條。**教訓：查同書不可只比題名逐字，須並按撰人掃一遍**——本輪四條新立之 Work 即以此法覆驗，餘三條（蔣捷《小學詳斷》、熊禾《大學廣義》、馬端臨《大學集傳》）確無同撰同書者。"
+    },
+    {
+      "no": 4,
+      "kind": "整理本繫連懸空",
+      "title": "production 側 collated_edition 之 work_id 懸空 217 處",
+      "measured": {
+        "production_懸空": 217,
+        "production_活條": 97738,
+        "draft_活條": 98514,
+        "draft_懸空": 0
+      },
+      "detail": "2026-08-26 實測：兩倉 collated_edition 之 sections[].work_id 共十九萬餘處，draft 側零懸空，production 側 217 處懸空（佔 0.22%）。所指之 id 多為 `1ev…` 草稿形，而該 id 兩倉皆無其檔、亦不見於 promotions.json——故非升格改寫（sweep）所能修，係併條／重挂之遺留。",
+      "samples": [
+        [
+          "production",
+          "Work/m/i/o/d59f2hl0cmio/collated_edition/明堂經脉類.json",
+          "張子存赤烏神鍼經",
+          "1evgq4gsgxpts"
+        ],
+        [
+          "production",
+          "Work/m/i/o/d59f2hl0cmio/collated_edition/五行類.json",
+          "祿命書",
+          "1ex0jcf780rup"
+        ],
+        [
+          "production",
+          "Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "《衆賢誡》十三卷",
+          "1evgpmt0yob9c"
+        ],
+        [
+          "production",
+          "Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "《莊子義䟽》八卷",
+          "1evgpngofkagw"
+        ],
+        [
+          "production",
+          "Work/9/3/6/d59f2nl40936/collated_edition/子類上.json",
+          "《江東名德傳》三卷",
+          "1evinbg3oh6v4"
+        ],
+        [
+          "production",
+          "Work/9/3/6/d59f2nl40936/collated_edition/史類.json",
+          "《𣈆建元起居注》四卷",
+          "1evgphfxcmnls"
+        ]
+      ],
+      "note": "chk.py 之〈整理本繫連落空〉一驗掃的是 draft 側，故此項不現於其報告。修法當另立一輪：逐處查其原指之書今歸何條（或已併入他條、或已刪），據以改繫或摘節。"
+    },
+    {
+      "no": 4,
+      "kind": "同撰疑似同書待覈",
+      "title": "熊禾《大學廣義》與《大學口義》",
+      "detail": "本輪為升格《大學廣義》（元史藝文志「元熊禾大學廣義二卷」）新立 Work d59f32rkh7nl；庫中另有 d59f2hi3s4jm《大學口義》（熊禾，卷數空）。二題僅一字之異而字形不近，未敢逕併。",
+      "action_taken": "各存其條，記此待覈。"
+    }
+  ]
+}

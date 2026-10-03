@@ -1,0 +1,164 @@
+{
+  "title": "period未定批次-同名之陷2026-08-25",
+  "created": "2026-08-25",
+  "context": "period 未定批次分析中，逐条核验 authors[].entity_id 之代与本条 period_upper 相斥者，凡 29 例。其中 23 例为真同名异人（entity 之另一作品已定代且与本条上限相斥，已 entity_unlink，不臆造真实身份）；2 例为 entity dynasty 字段本身之数据 bug（趙恆/宋真宗 明→北宋、李概 宋→南北朝，已订正）；2 例实为同书异题重出（潘傑《王覇記》《王霸記》、陳嗣古《公孫龍子注》《公孫龍子陳嗣古注》），已併，其 entity dynasty 因证据不足已清空待考。",
+  "unlinked_23": [
+    [
+      "1ewyw31avzitr",
+      "莊子疏",
+      "王穆"
+    ],
+    [
+      "1evcsxgvxighs",
+      "大禮式",
+      "黃廉"
+    ],
+    [
+      "1evcsxlgpkbnk",
+      "王屋山記",
+      "李居一"
+    ],
+    [
+      "1evcsxe4t1iio",
+      "種師道祠堂碑",
+      "張琰"
+    ],
+    [
+      "1evcml2mretq8",
+      "楊氏譜",
+      "楊大雅／楊侃"
+    ],
+    [
+      "1evcsxfm86l8g",
+      "安南邊說",
+      "趙世卿"
+    ],
+    [
+      "1evcmndpw0f7k",
+      "棋勢",
+      "沈敞"
+    ],
+    [
+      "1evcsyes45v5s",
+      "彩選格",
+      "劉蒙叟"
+    ],
+    [
+      "1evcszb0et5vk",
+      "桂林文集",
+      "江文叔"
+    ],
+    [
+      "1evcsxbnvcetc",
+      "名賢遺範錄",
+      "王旦"
+    ],
+    [
+      "1evcml3i2kr9c",
+      "仙人馬君陰君內傳",
+      "趙升"
+    ],
+    [
+      "1evcsyw3gg6io",
+      "種放江南小集",
+      "李介"
+    ],
+    [
+      "1evcsxeq3zl6o",
+      "蜀寇亂小錄",
+      "張逵"
+    ],
+    [
+      "1evcsyyafhm2o",
+      "潛山文集",
+      "馮京"
+    ],
+    [
+      "1evcpd29tyl8g",
+      "荊州星占",
+      "劉睿"
+    ],
+    [
+      "1evcsxjjp6k8w",
+      "成都府古石刻總目",
+      "劉涇"
+    ],
+    [
+      "1evcsyl2nn3ls",
+      "傷寒救俗方",
+      "王世臣"
+    ],
+    [
+      "1evcsxs91kirk",
+      "東極謝真人傳",
+      "李堅"
+    ],
+    [
+      "1evcpjov2oruo",
+      "莊子音",
+      "王穆"
+    ],
+    [
+      "1evcml37hg000",
+      "李氏家傳",
+      "李復圭"
+    ],
+    [
+      "1evcsyki9gxz4",
+      "集妙方",
+      "沈承"
+    ],
+    [
+      "1evcsxdcerbi8",
+      "彭城公事跡",
+      "陳諫"
+    ],
+    [
+      "1evcsytyu0268",
+      "李瑩集",
+      "李瑩"
+    ]
+  ],
+  "entity_dynasty_bug_fixed": [
+    [
+      "1j967avzkq2vv",
+      "趙恆（宋真宗）",
+      "明→北宋"
+    ],
+    [
+      "1j96hl4c26eio",
+      "李概",
+      "宋→南北朝（据其三部已升格作品period皆nanbeichao反证）"
+    ]
+  ],
+  "merged_duplicates": [
+    [
+      "1evgph8zg83r4→1evcpk0bh1s00",
+      "王覇記/王霸記",
+      "潘傑",
+      "entity 1j96h8rw86q1n dynasty「明」已撤，真代未考"
+    ],
+    [
+      "1evcubrk9qtj4→d59f2hh39czm（跨庫）",
+      "公孫龍子注/公孫龍子陳嗣古注",
+      "陳嗣古",
+      "entity 1j96hg1axrsao dynasty「宋」已撤，真代未考"
+    ]
+  ],
+  "bad_generic_entity_found": {
+    "id": "1j96h8rw8hyl3",
+    "primary_name": "李氏",
+    "problem": "「李氏」是泛称（某李姓人士），非具体人名，却被2026-08-24补繫entity批次以「同名唯一」误合并 10 部作品为一人，dynasty 定作「周」。名下作品实跨先秦至唐宋（如《大唐列聖園陵記》题中明有「大唐」二字），显系多人误合一。本轮 period 填充已跳过此 entity 之全部 8 条compat 候选，未填period。",
+    "affected_works_sample": [
+      "1ex1sein87dx4",
+      "1evgpo6tqm1vk",
+      "1evcpcxqhevpc",
+      "1evcsxdhnlw5c",
+      "1evcml2v1tp1c",
+      "1evr5e3mhhlta",
+      "1evcsxkn8kpa8",
+      "1evcsybkcoirk"
+    ],
+    "suggested_fix": "拆分 entity——每部作品之「李氏」核其著录志与内容各自考订，不可能是同一人；或至少先解除全部 works[] 之繫，留待逐条重新核实是否与其余 9 部同人。留交 entity 车道。"
+  }
+}

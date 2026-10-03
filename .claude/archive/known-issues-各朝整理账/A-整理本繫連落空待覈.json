@@ -1,0 +1,53 @@
+{
+  "_說明": "A 車道·整理本繫連落空（chk.py「整理本繫連落空」一驗）2026-08-23 一輪之待覈與斷案。本輪逐 id 查其去向，得四類：可據明文回指者補其繫 21 節、確係誤建或重出者去其繫 6 節、欄位用錯（work_id 實載 Book id）者改記 book_id 8 節、查不出者扣住 4 節（記於〈一〉）。另斷出本驗之數九成以上不是繫連損壞，而是升格所致之假陽性，詳〈二〉。",
+  "一、查不出而扣住": {
+    "_共": 4,
+    "_共同之由": "《隋書經籍志》詩類「不著撰人」之《毛詩義疏》五部，其二至五之 work（1evdndxcqc5j4／dyz37k／f7m0w0／ghhwqo）於 2026-05-14 commit 15afc1a1a（v0.3 古籍索引第二階段）之重建中刪去，庫中今無「毛詩義疏而不著撰人」之 work。現存同題者七：舒援、沈重、全緩、顧越、劉焯、劉軌思、劉醜、謝沈——皆有撰人。**不得逕繫沈重條**：本節之考證正文引馬國翰曰「朱氏《經義考》併以為沈重。考《隋志》於舒援、沈重《義疏》外，題《毛詩義疏》者凡五部，皆不著名氏……故未敢采入沈氏書」，是考證明白否認此五部屬沈重；繫之即以考證之文坐實其所否認者。又按：《隋書經籍志》整理本詩類第 22—26 節（即此五部）今俱繫 1evc5pcnov5ds《毛詩義疏》沈重撰，且該 work 之 indexed_by 內尚有一條 title_info 作「《毛詩義疏》二十卷（不著撰人之一）」——是隋志側先有此磁鐵，本檔所記之四節不過其影。**此事當與隋志車道（A9）合辦**：或為五部「不著撰人」各建 work，或維持共繫而明記其為未拆之磁鐵；未定之前不臆改。",
+    "節": [
+      {
+        "file": "Work/1/e/v/1evdlszdhf5z4/collated_edition/經部三·詩類.json",
+        "index": 60,
+        "title": "毛詩義疏二十九卷（不著撰人之二）",
+        "落空 work_id": "1evdndxcqc5j4"
+      },
+      {
+        "file": "Work/1/e/v/1evdlszdhf5z4/collated_edition/經部三·詩類.json",
+        "index": 61,
+        "title": "毛詩義疏十卷（不著撰人之三）",
+        "落空 work_id": "1evdndxdyz37k"
+      },
+      {
+        "file": "Work/1/e/v/1evdlszdhf5z4/collated_edition/經部三·詩類.json",
+        "index": 62,
+        "title": "毛詩義疏十一卷（不著撰人之四）",
+        "落空 work_id": "1evdndxf7m0w0"
+      },
+      {
+        "file": "Work/1/e/v/1evdlszdhf5z4/collated_edition/經部三·詩類.json",
+        "index": 63,
+        "title": "毛詩義疏二十八卷（不著撰人之五）",
+        "落空 work_id": "1evdndxghhwqo"
+      }
+    ]
+  },
+  "二、本驗之數八成以上是升格之假陽性（斷案，非待覈）": {
+    "_實測": "2026-08-23 本輪收工時逐節分類：落空 442 節中，438 節（58 個相異 id）所繫者為已升格記錄之 production id，4 節（上〈一〉）方是真落空。",
+    "_何以然": "promote 把 draft 之資產目錄整體物理拷貝到 production 而不刪 draft 原件，接著 rewrite_references 把留在 draft 側那一份的引用一律改指 production id（見 known-issues/README.md〈升格遺留：draft 側之資產目錄〉）。chk 之落空一驗以『兩倉合計』判存在，而本會話所在之容器未掛 ../book-index，production 側無從查，於是每升一條，它的節就全算成落空——2026-08-23 當日升 22 條，落空即由 322 漲到 475（漲 190 節）。『其數正在長』之由在此，不在併池。",
+    "_可考之憑": "promotions.json 即『彼倉確有此記錄』之在庫憑證：256 條 promotions 之 production_id 與落空之 id 逐一對得上。chk 之『懸空關聯』一驗其 allids 早已把 promotions 之 production_id 併入，而落空一驗之 _EXIST_W 未併——同一情形兩驗異判。",
+    "_建議（不屬 A 車道，故不逕改）": "落空一驗之 _EXIST_W／_EXIST_B 併入 promotions 之 production_id（與懸空關聯一驗同法），並另行報數『其中繫已升格 production id 者幾節』，則本指標方能反映真正的繫連損壞。本輪未逕改 chk.py：校驗工具不屬 A 車道，且改之則基線數字之義驟變，宜由單線車道議定。同源之假陽性尚有『輯佚叢書整理本 不合 3』（1evjr68pzxog0 玉函山房整理本之三節繫 d59f1iqmwhz4／d59f1il8fnk0／d59f1iopaku8，皆已升格之 production id），此驗與落空一驗共用 _EXIST_W，一併可解。"
+  },
+  "三、本輪所判而別道當知者": [
+    {
+      "事": "《象經》一節之繫，不從 2026-08-20 落空回收專項之判",
+      "詳": "隋書經籍志考證〈子部十·兵家類〉第 136 節「《象經》一卷」，其文明作「象經一卷 周武帝撰」，今繫 1evgq5tz3ylmo《象經》（撰人周武帝，新唐志作「周武帝象經」）。2026-08-20 之落空回收專項曾據題名＋卷數把此 id（1evcmndplecqo）記在 1evcmnds63u2o《象經》王裕撰條下，未計撰人；該條之 ai_note 與 emendated_by 尚留其記，**未刪**（其 emendated_by 有二條考證來源，難辨孰指孰節，故不動）。隋志整理本兵家類第 113—115 節（周武帝撰、王褒注、王裕注）俱繫王裕條，是隋志側之磁鐵，交 A9。"
+    },
+    {
+      "事": "《鄧析子》丟了《續修四庫全書》之著錄",
+      "詳": "commit 8b5b45e89 把 1evjr3lt3ydq8《鄧子》併入 1ev3bbf36ncao《鄧析子》，而《鄧子》原有之 indexed_by（續修四庫全書 1evjk1whvmznk，title_info「《鄧子》一卷」）未隨遷。本輪已把《續修四庫全書》整理本子部第 221 節改繫《鄧析子》，work 側之著錄則屬併池車道（B）之欄，未代補。"
+    },
+    {
+      "事": "《中國通俗小說書目》卷九〈附錄二·叢書目〉十三節之 work_id 實載 Collection id",
+      "詳": "1ahz0n3fsdtz4 等十三 id 皆是 Collection（《前後七國志清初嘯花軒刊本》之屬），節內 target_type 亦自作 \"collection\"。chk 之落空一驗其 _EXIST_W 併入了 Collection 索引，故此十三節不現於落空之數。然 SCHEMA〈整理本 section 的三個指涉欄位〉只列 work_id／book_id／target_bid 三者，無指 Collection 之欄，此十三節現以 work_id 載 Collection id，於義不合。**須先定有無 collection_id 一欄（屬 SCHEMA 單線車道），故本輪不動。**同檔卷四第 8—11、30—32、40 八節之 work_id 實載 Book id 者，SCHEMA 有明文（一律用 book_id），已於本輪改正。"
+    }
+  ]
+}

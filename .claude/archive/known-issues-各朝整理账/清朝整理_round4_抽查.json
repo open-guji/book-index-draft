@@ -1,0 +1,55 @@
+{
+  "description": "清朝整理 Round 4 抽查结果",
+  "fixed": [
+    {
+      "work_id": "1ev3bbvwugs1s",
+      "title": "坦齋通編",
+      "dynasty": "宋",
+      "basis": "四库总目称《说郛》题宋邢凯撰；清史稿/书目答问均作宋邢凯"
+    },
+    {
+      "work_id": "1evjr03ihc2kg",
+      "title": "南北史合注",
+      "dynasty": "明",
+      "basis": "四库总目 author_info=明李清撰；所连 Entity 已为明李清"
+    },
+    {
+      "work_id": "1ev3bbfhuhmv4",
+      "title": "農桑輯要",
+      "dynasty": "元",
+      "basis": "四库总目称元世祖时官撰；清史稿作元官撰《农桑辑要》"
+    }
+  ],
+  "deferred": [
+    {
+      "work_id": "1evgorqt3jw8w",
+      "title": "九經術疏",
+      "note": "移交 Round 5 后仍未决：疑与宋泉之《九章术疏》相关，但缺外部强证据。"
+    },
+    {
+      "work_id": "1evgq4n14oge8",
+      "title": "本草要訣",
+      "note": "移交 Round 5 后仍未决：梁嘉庆缺外部强证据。"
+    }
+  ],
+  "stats": {
+    "work.dynasty->宋": 1,
+    "work.period->song": 1,
+    "work.author_rewritten": 3,
+    "work.dynasty->明": 1,
+    "work.period->ming": 1,
+    "work.dynasty->元": 1,
+    "work.period->liao-jin-yuan": 1,
+    "entity.dynasty->宋": 1,
+    "entity.period->song": 1,
+    "entity.dynasty->元": 1,
+    "entity.period->liao-jin-yuan": 1,
+    "index.work.dynasty_sync": 3,
+    "index.work.period_sync": 3,
+    "index.work.shards_changed": 3,
+    "index.entity.dynasty_sync": 2,
+    "index.entity.period_sync": 2,
+    "index.entity.shards_changed": 2
+  },
+  "round5_note": "原 deferred《雅倫》《陸希聲春秋通例》已在 Round 5 处理。"
+}

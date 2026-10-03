@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-04-source_bid誤填鄰條wid",
+  "title": "indexed_by.source_bid 誤填成「志書中相鄰那部書的 wid」",
+  "status": "fixed",
+  "severity": "medium",
+  "discovered": "2026-09-04",
+  "fixed_commit": "1ea4cd0b56 (book-index)",
+  "discovered_via": "查《國史經籍志》period 誤判時，順帶統計各志書 source_bid 分佈，發現「隋書經籍志」一名之下竟掛著二十餘個不同的 source_bid",
+  "symptom": "同一部志書之名（source）對應多個不同的 source_bid。正解 bid 佔絕大多數，其餘為零星錯值。",
+  "root_cause": "批次寫入 indexed_by 時，source_bid 取值取錯了變量——拿到的是「志書中前一條書目的 wid」，而非「志書本身的 wid」。故錯 bid 必定指向同類相鄰之書。",
+  "evidence": {
+    "scale": "隋書經籍志 199 條著錄、121 個錯 bid",
+    "signature": "121/121 個錯 bid 所指的 Work，本身也被同一部志書著錄——即證其為「鄰條」",
+    "clusters": [
+      "《神農本草》(d59f283yyozl) 帶偏 9 部本草類：李譡之本草經、本草經利用、陶弘景本草經集注……",
+      "《桐君藥錄》(d59f2moxb8jl) 帶偏 7 部藥錄類",
+      "《秦承祖藥方》(d59f2q6hudc1) 帶偏 6 部醫方類",
+      "《老子義綱》(d59f285i7p4x) 帶偏 6 部老子類：老子玄機、老子雜論、老子幽易……"
+    ]
+  },
+  "detection": "遍歷全庫 Work.indexed_by，按 (source, source_bid) 計數。同一 source 名下若有多個 bid，低頻者即可疑。再驗：錯 bid 所指 Work 是否亦被該志書著錄（是則坐實「鄰條」）。腳本見 D:/workspace/overview/tmp/bnq_jjz/fix_sui_source_bid.py",
+  "pitfall": {
+    "note": "「取最高頻 bid 為正解」的啟發式會誤判同名異書",
+    "case": "《補宋書藝文志》有二本：聶崇岐本 d59f2ofz9b0h（657 條）、王仁俊本 d59f2o2muyo2（185 條）。二者同名而確為兩部書，185 條並非錯誤。修此類問題時必須先確認 source 名是否一名多書。"
+  },
+  "also_fixed": "同批補了 41 條 source 有名而 source_bid 闕者（隋志 29、新唐志 8、漢志 2、國史經籍志 2）",
+  "not_fixed": [
+    {
+      "item": "《國立故宮博物院善本舊籍》190 條、《中國明朝檔案總匯》6 條、《中華再造善本》1 條 無 source_bid",
+      "reason": "此類為藏書機構/影像庫，本無對應的志書 Work，闕 bid 屬正常"
+    },
+    {
+      "item": "《二十五史藝文經籍志考補萃編》22 條無 source_bid",
+      "reason": "係志書 Work 記錄自身「收入叢書第 N 卷」，用錯了字段——叢書收錄關係應走 part_of/collected_in，而非 indexed_by。另案處置。",
+      "investigated": "2026-09-04 覈實：此 22 條皆為志書自身，indexed_by 唯一一條即「我收入萃編第 N 卷」。萃編是這些志書的合集，非著錄它們的目錄，故確係字段誤用。",
+      "library_convention": "已整理之志書（聶崇岐《補宋書藝文志》、《補南齊書經籍志》）indexed_by 為空；《補晉書藝文志》《後漢藝文志》之 indexed_by 只放真著錄（清史稿著錄該書、續修四庫影印該書）。叢書卷次不入 indexed_by。與父正史之關係走 related_works 的 contains_text_of。",
+      "proposed": "卷次信息有價值，不宜逕刪；宜移入 description 或 ai_note。惟庫中尚無「叢書收錄」之既定字段惯例，待定後再動。"
+    }
+  ]
+}
