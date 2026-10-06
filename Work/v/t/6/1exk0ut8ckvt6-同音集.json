@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "1exk0ut8ckvt6",
+  "type": "work",
+  "title": "同音集",
+  "authors": [
+    {
+      "name": "石嘉吉",
+      "role": "編次",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/iuwh5f2wcd4ge70k"
+      }
+    },
+    {
+      "name": "王昶",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/dxl8afcn0addh83d"
+      }
+    },
+    {
+      "name": "許寶善",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/cud5vleut8txk3tb"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "classification": {
+    "l1": "集部",
+    "l2": "總集類",
+    "l3": "郡邑之屬",
+    "l4": "",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sju0c5ivpqj",
+    "11sju0c5ivpqk"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "同音集八卷",
+      "author_info": "清王昶、清許寶善輯;清石嘉吉編次",
+      "section": "集部/總集類/郡邑之屬",
+      "summary": "共 2 個版本：清乾隆六十年清素堂刻同音集本（復旦大學圖書館、華東師範大學圖書館）；清刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cbrd76bnmtkham1t、bgmm35f6q82cbkjt\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
