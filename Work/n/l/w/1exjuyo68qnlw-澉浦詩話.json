@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "1exjuyo68qnlw",
+  "type": "work",
+  "title": "澉浦詩話",
+  "authors": [
+    {
+      "name": "吳文暉",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/rdrkr4tb6f76dzs4"
+      }
+    },
+    {
+      "name": "吳東發",
+      "role": "續輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/abjj6we82ig66s5r"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "classification": {
+    "l1": "集部",
+    "l2": "詩文評類",
+    "l3": "",
+    "l4": "",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sjo473f1hj9",
+    "11sjo473f1hja"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "澉浦詩話二卷",
+      "author_info": "清吳文暉輯",
+      "section": "集部/詩文評類",
+      "summary": "共 2 個版本：清乾隆間吳東發刻本（南京圖書館）；清嘉慶八年刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oidksp2pu3eytfww、4jspyi85txbt8zav\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
