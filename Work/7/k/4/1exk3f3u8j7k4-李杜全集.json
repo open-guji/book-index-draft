@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exk3f3u8j7k4",
+  "type": "work",
+  "title": "李杜全集",
+  "authors": [
+    {
+      "name": "鮑松",
+      "role": "編",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/s6shiz1moaylcaye"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "classification": {
+    "l1": "集部",
+    "l2": "總集類",
+    "l3": "叢編之屬",
+    "l4": "各體",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sjwkmreu1hh",
+    "11sjwkmreu1hi"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "李杜全集",
+      "author_info": "明鮑松編",
+      "section": "集部/總集類/叢編之屬/各體",
+      "summary": "共 2 個版本：明正德八年鮑松刻本（復旦大學圖書館、上海圖書館、四川省圖書館、浙江大學圖書館）；明刻本（南京圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：wq5wf3swjy68siur、y6hrequwz8rkffe4\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
