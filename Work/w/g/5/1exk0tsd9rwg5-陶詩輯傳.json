@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "1exk0tsd9rwg5",
+  "type": "work",
+  "title": "陶詩輯傳",
+  "authors": [
+    {
+      "name": "蘇軾",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/fia6wo2nwkdcrjll"
+      }
+    },
+    {
+      "name": "吳仁傑",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/nprnakmy46pz32wz"
+      }
+    },
+    {
+      "name": "程穆衡",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/8phtflhh5xg68axe"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "classification": {
+    "l1": "集部",
+    "l2": "別集類",
+    "l3": "漢魏六朝之屬",
+    "l4": "",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sjtzbag2qdi"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "陶詩輯傳二卷蘇氏和陶詩一卷附年譜一卷",
+      "author_info": "清程穆衡撰;（蘇氏和陶詩）宋蘇軾撰;清程穆衡注;（年譜）宋吳仁傑撰;清程穆衡辨正",
+      "section": "集部/別集類/漢魏六朝之屬",
+      "summary": "共 1 個版本：清王祖畬抄本（南京圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i64exusg6c2sqm2a\n責任者 role 異常未寫入：程穆衡辨正"
+}

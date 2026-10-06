@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "1exk0ut6uw2dd",
+  "type": "work",
+  "title": "皇清文穎",
+  "authors": [
+    {
+      "name": "陳廷敬",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/qb68qfziudz6seuh"
+      }
+    },
+    {
+      "name": "王鴻緒",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/7ng5nif4geyeggpi"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "classification": {
+    "l1": "集部",
+    "l2": "總集類",
+    "l3": "斷代之屬",
+    "l4": "",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sju0c416waq"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "皇清文穎六十卷總目二卷",
+      "author_info": "清陳廷敬、清王鴻緒輯",
+      "section": "集部/總集類/斷代之屬",
+      "summary": "共 1 個版本：清康熙五十一年内府抄本（大連市圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：n2kutqoqaa15l8fe\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
