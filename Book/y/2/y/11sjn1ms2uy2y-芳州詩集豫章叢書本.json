@@ -2,7 +2,7 @@
   "id": "11sjn1ms2uy2y",
   "type": "book",
   "title": "芳州詩集",
-  "work_id": "1exjtw3uwk45l",
+  "work_id": "1exjtw3uwk45j",
   "edition": "豫章叢書本",
   "measure_info": "三卷附校勘記一卷校勘續記一卷",
   "indexed_by": [
@@ -21,5 +21,27 @@
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/0yei50785mkgctb0&from=evidence"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：0yei50785mkgctb0\n責任者一致性：總目 contMap 與題名行 dclabel 在「count、role」上不一致，取 contMap；題名行：宋黎廷瑞撰;（校勘記）魏元曠撰;（校勘續記）胡思敬撰\n總目未載館藏"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：0yei50785mkgctb0\n責任者一致性：總目 contMap 與題名行 dclabel 在「count、role」上不一致，取 contMap；題名行：宋黎廷瑞撰;（校勘記）魏元曠撰;（校勘續記）胡思敬撰\n總目未載館藏\n合并：原属 Work 1exjtw3uwk45l（同书异版，作者仅有交集，总管 10-07 同意），改指 1exjtw3uwk45j",
+  "authors": [
+    {
+      "name": "元曠",
+      "role": "撰",
+      "dynasty": "魏",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/we0053xm8rdyyzhf"
+      }
+    },
+    {
+      "name": "胡思敬",
+      "role": "撰",
+      "dynasty": "魏",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/uym8heyj3cxu5w5w"
+      }
+    }
+  ]
 }
