@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "1exjujwzg9ame",
+  "type": "work",
+  "title": "東華絕句",
+  "authors": [
+    {
+      "name": "黃容",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/d1sc4xnpq0puxyta"
+      }
+    },
+    {
+      "name": "王維翰",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/mi5ec2im1z8gamw7"
+      }
+    },
+    {
+      "name": "黃元冕",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/k4zrvsirmn16zgol"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "classification": {
+    "basis": "S",
+    "l1": "集部",
+    "l2": "總集類",
+    "l3": "斷代之屬",
+    "l4": "",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sjnpfwmk4jr",
+    "11sjnpfwmk4js"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "東華絕句十卷藕花莊近詠一卷綺雪齋近詠一卷獨倚樓近詠一卷",
+      "author_info": "清黃容、清王維翰輯;（藕花莊近詠）清黃元冕撰;（綺雪齋近詠）清黃容撰;（獨倚樓近詠）清王維翰撰",
+      "section": "集部/總集類/斷代之屬",
+      "summary": "共 2 個版本：清康熙十八年五松軒刻本（南京圖書館、中國科學院圖書館）；清道光元年五松軒刻本（上海圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8h2vkaf20il7g7n8、rqqmfjxkkvrrylsv"
+}
