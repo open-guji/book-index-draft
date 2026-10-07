@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "1jb8db7aitjb4",
+  "type": "entity",
+  "subtype": "office",
+  "office_level": "concrete",
+  "primary_name": "吏部尚書",
+  "dynasty_ids": [
+    "1jb89swpmbaio",
+    "1jb89swpnk8ow",
+    "1jb89swpnvh8g",
+    "1jb89swpq251c"
+  ],
+  "function": "魏改選部為吏部，掌選部事；晉、宋因之，宋制領吏部、刪定、三公、比部四曹；宋世祖大明二年一度置二吏部尚書。",
+  "office_class": "職事官",
+  "base_office_id": "1jb8db798b6dc",
+  "qualifier": {
+    "kind": "mode",
+    "name": "吏部",
+    "target": null,
+    "note": "職事名目"
+  },
+  "basis": "《晉書·職官志》、《宋書·百官志上》",
+  "ai_note": "「X部尚書」「X曹尚書」在魏晉為尚書臺分曹之長，與唐以下六部尚書不同，不掛「尚書」概念；base 指同朝「列曹尚書」，曹名（如吏部、度支）作 qualifier。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
