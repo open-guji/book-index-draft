@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "1jb8ajoimpon4",
+  "type": "entity",
+  "subtype": "office",
+  "office_level": "concrete",
+  "primary_name": "資政殿大學士",
+  "dynasty_ids": [
+    "1jb89swq2uvb4"
+  ],
+  "alt_names": [
+    {
+      "name": "資政",
+      "type": "簡稱"
+    }
+  ],
+  "function": "宋之貼職，以資政殿職名授予罷政之宰相及重臣，為優禮之榮銜，無本殿實際職事。",
+  "office_class": "貼職",
+  "base_office_id": "1jb8ajoicq39c",
+  "qualifier": {
+    "kind": "institution",
+    "name": "資政殿",
+    "target": null,
+    "note": "殿閣，官署條待立"
+  },
+  "basis": "《宋史·職官志》",
+  "ai_note": "固定複合，base 指同朝具體條「大學士（趙宋）」。簡稱「資政」亦可指資政殿學士（本批未建），該條建立時再標 ambiguous。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
