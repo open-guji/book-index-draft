@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "1jb8bl20cxpmo",
+  "type": "entity",
+  "subtype": "collective",
+  "collective_kind": "官署",
+  "institution_level": "group",
+  "primary_name": "東宮",
+  "description": {
+    "text": "太子官屬的合稱，指為皇太子設置的師保、詹事、春坊、侍從諸官署與官員。這是合稱，不是一個衙門；本條只供太子少保等官職條 `institution_ref` 指向，詹事府等東宮屬署另有各自條目。",
+    "sources": []
+  },
+  "ai_note": "合稱條（group）：不寫朝代、職掌、隸屬、起訖；成員在各概念條的 `group_ids` 裡單向指向本條。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
