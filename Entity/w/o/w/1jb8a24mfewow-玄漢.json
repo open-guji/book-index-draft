@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "1jb8a24mfewow",
+  "type": "entity",
+  "subtype": "dynasty",
+  "primary_name": "玄漢",
+  "alt_names": [
+    {
+      "name": "漢",
+      "type": "簡稱",
+      "ambiguous": true
+    }
+  ],
+  "dates": {
+    "start": 23,
+    "end": 25,
+    "basis": "劉玄更始元年（23）稱帝，更始三年（25）為赤眉所滅"
+  },
+  "period": "qin-han",
+  "description": {
+    "text": "劉玄所建，年號更始，後為赤眉所滅。",
+    "sources": []
+  },
+  "ai_note": "P2 新增（S 10-07 於 draft#83 批立），以免年號 dynasty_id 指錯政權。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
