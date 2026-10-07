@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "1jb8lqn358di3",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "天津府",
+  "alt_names": [
+    {
+      "name": "天津州",
+      "type": "舊稱"
+    },
+    {
+      "name": "天津衛",
+      "type": "舊稱"
+    }
+  ],
+  "history": [
+    {
+      "start": 1725,
+      "end": 1731,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "天津州",
+      "level": "州",
+      "parent_id": "1jb8lqn358dhz",
+      "note": "《清史稿》卷五十四〈地理志一〉：天津府，明為衛，雍正三年（1725）為直隸州。"
+    },
+    {
+      "start": 1731,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "天津府",
+      "level": "府",
+      "parent_id": "1jb8lqn358dhz",
+      "note": "《清史稿》卷五十四〈地理志一〉：雍正九年（1731）升府，置附郭縣。"
+    }
+  ],
+  "modern": {
+    "text": "天津市（府治在三岔口一帶，今市區）",
+    "adcode": "120000",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-5 北方批（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 P5a-5/staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
