@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "1exk3f3u7wqh0",
+  "type": "work",
+  "title": "歷代詩發",
+  "authors": [
+    {
+      "name": "邵幹",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/pv1uwtd7ntidtdmo"
+      }
+    },
+    {
+      "name": "范大士",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/f6eet23ggk2r41tr"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "classification": {
+    "l1": "集部",
+    "l2": "總集類",
+    "l3": "通代之屬",
+    "l4": "",
+    "basis": "S",
+    "source": "中國古籍總目"
+  },
+  "books": [
+    "11sjwkmre7ked"
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "歷代詩發四十二卷",
+      "author_info": "清邵幹輯;清范大士輯並評",
+      "section": "集部/總集類/通代之屬",
+      "summary": "共 1 個版本：清康熙三十七年虛白山房刻本（復旦大學圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：dg0732d5ps0cfq3b\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
