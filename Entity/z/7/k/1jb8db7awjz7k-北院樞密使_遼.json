@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "1jb8db7awjz7k",
+  "type": "entity",
+  "subtype": "office",
+  "office_level": "concrete",
+  "primary_name": "北院樞密使",
+  "dynasty_ids": [
+    "1jb89swpy6b5s"
+  ],
+  "function": "契丹北樞密院長官，掌兵機、武銓、群牧之政，凡契丹軍馬皆屬焉；以牙帳居大內帳殿之北，故名北院；世宗大同元年始置。",
+  "office_class": "職事官",
+  "institution_ref": "1jb8bq09udr7k",
+  "base_office_id": "1jb8db7aw8qo0",
+  "qualifier": {
+    "kind": "institution",
+    "name": "契丹北樞密院",
+    "target": null,
+    "note": "官署條待立"
+  },
+  "basis": "《遼史·百官志一》、《遼史·百官志三》",
+  "ai_note": "按 S 審 draft#101 規則：官署名＋通名，具體條 base_office_id 指同朝通名條「樞密使」，加 qualifier（institution）；單朝，不另立概念。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

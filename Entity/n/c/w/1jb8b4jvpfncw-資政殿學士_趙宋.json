@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "1jb8b4jvpfncw",
+  "type": "entity",
+  "subtype": "office",
+  "office_level": "concrete",
+  "primary_name": "資政殿學士",
+  "dynasty_ids": [
+    "1jb89swq2uvb4"
+  ],
+  "alt_names": [
+    {
+      "name": "資政",
+      "type": "簡稱",
+      "ambiguous": true
+    }
+  ],
+  "function": "宋貼職，多授罷任之參知政事、樞密副使等執政，為優禮之銜，位次於資政殿大學士，無本殿實際職事。",
+  "office_class": "貼職",
+  "base_office_id": "1jb8b4jvnk83k",
+  "qualifier": {
+    "kind": "institution",
+    "name": "資政殿",
+    "target": null,
+    "note": "殿閣，官署條待立"
+  },
+  "basis": "《宋史·職官志》",
+  "ai_note": "固定複合，base 指同朝具體條「學士（趙宋）」。簡稱「資政」與資政殿大學士同，兩條均已標 ambiguous（P3a-1 未決）。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

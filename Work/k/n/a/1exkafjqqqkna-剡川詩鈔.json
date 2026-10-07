@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exkafjqqqkna",
+  "type": "work",
+  "title": "剡川詩鈔",
+  "authors": [
+    {
+      "name": "董彥琦",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/5njmt4yz37foidk3"
+      }
+    },
+    {
+      "name": "舒順方",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zdpnhulzdskrkdkz"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "剡川詩鈔不分卷",
+      "author_info": "清舒順方、清董彥琦輯",
+      "section": "集部/總集類/郡邑之屬",
+      "summary": "共 2 個版本：清鄭祏抄本（北京大學圖書館）；清徐氏煙嶼樓抄本（中國科學院圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ilp3vb1zjzv3h6pd、bfmjsooqdj0nun2w\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "1jb89swpi97gg",
+  "type": "entity",
+  "subtype": "dynasty",
+  "primary_name": "戰國",
+  "parent_id": "1jb89swphmqdc",
+  "dates": {
+    "start": -475,
+    "end": -221,
+    "basis": "通行說，止於秦滅六國；末段（-255 至 -221）周王室已亡，超出東周上限，見未決"
+  },
+  "period": "pre-qin",
+  "description": {
+    "text": "春秋之後至秦統一，七雄並立。",
+    "sources": []
+  },
+  "ai_note": "dates.end 取 -221（秦統一），晚於上級東周 -256；照通行紀年保留，D2 校驗報 WARN 不報 ERROR（S 10-07 定）。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

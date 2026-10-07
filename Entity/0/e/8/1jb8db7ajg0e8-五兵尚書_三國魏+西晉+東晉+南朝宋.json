@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "1jb8db7ajg0e8",
+  "type": "entity",
+  "subtype": "office",
+  "office_level": "concrete",
+  "primary_name": "五兵尚書",
+  "dynasty_ids": [
+    "1jb89swpmbaio",
+    "1jb89swpnk8ow",
+    "1jb89swpnvh8g",
+    "1jb89swpq251c"
+  ],
+  "function": "魏置五曹尚書之一，宋制領中兵、外兵二曹；昔有騎兵、別兵、都兵，故謂之五兵；宋世祖大明二年一度省，順帝昇明元年復置。",
+  "office_class": "職事官",
+  "base_office_id": "1jb8db798b6dc",
+  "qualifier": {
+    "kind": "mode",
+    "name": "五兵",
+    "target": null,
+    "note": "職事名目"
+  },
+  "basis": "《晉書·職官志》、《宋書·百官志上》",
+  "ai_note": "「X部尚書」「X曹尚書」在魏晉為尚書臺分曹之長，與唐以下六部尚書不同，不掛「尚書」概念；base 指同朝「列曹尚書」，曹名（如吏部、度支）作 qualifier。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
