@@ -5,18 +5,24 @@
   "subtype": "office",
   "office_level": "concrete",
   "primary_name": "路總管府判官",
-  "parent_id": "1jb8awb8af6dc",
-  "dynasty_ids": [
-    "1jb89swpzf9c0"
-  ],
   "alt_names": [
     {
       "name": "路判官",
       "type": "簡稱"
     }
   ],
+  "dynasty_ids": [
+    "1jb89swpzf9c0"
+  ],
   "function": "諸路總管府屬官，位在治中之下。",
   "office_class": "職事官",
+  "base_office_id": "1jb8awb8bcw00",
+  "qualifier": {
+    "kind": "institution",
+    "name": "路總管府",
+    "target": null,
+    "note": "官署條待立"
+  },
   "basis": "《元史·百官志七》",
   "review": {
     "status": "unreviewed"
