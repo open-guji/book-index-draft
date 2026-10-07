@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "1jb8kv8c60cqu",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "昆明縣",
+  "alt_names": [
+    {
+      "name": "善州",
+      "type": "舊稱"
+    }
+  ],
+  "history": [
+    {
+      "start": 1275,
+      "end": 1276,
+      "dynasty_ids": [
+        "hixi1ubk35zp",
+        "hixi1ubjgow7"
+      ],
+      "name": "善州",
+      "level": "州",
+      "note": "《元史》卷六十一〈地理志四〉：昆明，倚郭，唐置，至元十二年（1275）改善州，領縣，二十一年州革，縣如故。（本段年份上級條目無沿革段，上級留空。）"
+    },
+    {
+      "start": 1276,
+      "end": 1284,
+      "dynasty_ids": [
+        "hixi1ubk35zp",
+        "hixi1ubjgow7"
+      ],
+      "name": "善州",
+      "level": "州",
+      "parent_id": "1jb8kv8c60cqt",
+      "note": "《元史》卷六十一〈地理志四〉：昆明，倚郭，唐置，至元十二年（1275）改善州，領縣，二十一年州革，縣如故。"
+    },
+    {
+      "start": 1284,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "昆明縣",
+      "level": "縣",
+      "parent_id": "1jb8kv8c60cqt",
+      "note": "《元史》卷六十一〈地理志四〉：中慶路昆明（倚郭）。"
+    },
+    {
+      "start": 1382,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxfw",
+        "hixi1ubjrxga"
+      ],
+      "name": "昆明縣",
+      "level": "縣",
+      "parent_id": "1jb8kv8c60cqt",
+      "note": "《明史》卷四十六〈地理志七〉：雲南府昆明（倚）；《清史稿》卷七十四〈地理志二十一〉：雲南府昆明縣（倚）。"
+    }
+  ],
+  "modern": {
+    "text": "雲南省昆明市五華區",
+    "adcode": "530102",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-4 南方批（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
