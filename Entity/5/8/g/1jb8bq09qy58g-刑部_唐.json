@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "id": "1jb8bl20mm2gw",
+  "id": "1jb8bq09qy58g",
   "type": "entity",
   "subtype": "collective",
   "collective_kind": "官署",
@@ -8,13 +8,15 @@
   "primary_name": "刑部",
   "parent_id": "1jb8bl20ehwcg",
   "dynasty_ids": [
-    "1jb89swq01qf4"
+    "1jb89swpthr0g"
   ],
-  "group_ids": [
-    "1jb8bq09ln400"
+  "function": "掌律令、刑法、徒隸、覆審獄訟；長官刑部尚書，下設刑部、都官、比部、司門四司。",
+  "superiors": [
+    {
+      "id": "1jb8bq09t4t1c"
+    }
   ],
-  "function": "掌天下刑名及獄訟之政令；長官刑部尚書，下設清吏司，按省分掌各地刑案；與都察院、大理寺合稱三法司。",
-  "basis": "《明史·職官志》",
+  "basis": "《新唐書·百官志》",
   "review": {
     "status": "unreviewed"
   },

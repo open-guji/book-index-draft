@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "id": "1jb8bl20mm2gw",
+  "id": "1jb8bq09r9ds0",
   "type": "entity",
   "subtype": "collective",
   "collective_kind": "官署",
@@ -8,13 +8,16 @@
   "primary_name": "刑部",
   "parent_id": "1jb8bl20ehwcg",
   "dynasty_ids": [
-    "1jb89swq01qf4"
+    "1jb89swq2uvb4"
   ],
-  "group_ids": [
-    "1jb8bq09ln400"
+  "function": "掌刑法、獄訟的覆核與赦宥；元豐改制（1082）前審刑院分其權，改制後審刑院併入刑部；與大理寺分任審判、覆核。",
+  "superiors": [
+    {
+      "id": "1jb8bq09tg1kw",
+      "start": 1082
+    }
   ],
-  "function": "掌天下刑名及獄訟之政令；長官刑部尚書，下設清吏司，按省分掌各地刑案；與都察院、大理寺合稱三法司。",
-  "basis": "《明史·職官志》",
+  "basis": "《宋史·職官志》",
   "review": {
     "status": "unreviewed"
   },
