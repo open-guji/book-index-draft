@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "1jb8kgdh3pser",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "大同府",
+  "alt_names": [
+    {
+      "name": "大同路",
+      "type": "舊稱"
+    },
+    {
+      "name": "西京",
+      "type": "舊稱",
+      "ambiguous": true
+    }
+  ],
+  "history": [
+    {
+      "start": 1044,
+      "end": 1234,
+      "dynasty_ids": [
+        "hixi1ubjrxgp",
+        "hixi1ubjrxgr"
+      ],
+      "name": "大同府",
+      "level": "府",
+      "note": "《金史》卷二十四〈地理志上〉：大同府，遼重熙十三年（1044）升為西京，府名大同，金因之。1234為金亡之年。"
+    },
+    {
+      "start": 1288,
+      "end": 1369,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "大同路",
+      "level": "路",
+      "note": "《元史》卷五十八〈地理志一〉：金改總管府，元初置警巡院，至元二十五年（1288）改西京為大同路。1234–1288年稱西京，名稱與級別未核，不寫。"
+    },
+    {
+      "start": 1369,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxfw",
+        "hixi1ubjrxga"
+      ],
+      "name": "大同府",
+      "level": "府",
+      "parent_id": "1jb8kgdh3psec",
+      "note": "《明史》卷四十一〈地理志二〉：大同府元大同路，洪武二年（1369）為府，領州四、縣七；《清史稿》卷六十〈地理志七〉：領州二、縣七。"
+    }
+  ],
+  "modern": {
+    "text": "山西省大同市",
+    "adcode": "140200",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-1 試點（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "id": "1jb8kgdh3pseq",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "河南府",
+  "alt_names": [
+    {
+      "name": "洛州",
+      "type": "舊稱"
+    },
+    {
+      "name": "金昌府",
+      "type": "舊稱"
+    },
+    {
+      "name": "河南府路",
+      "type": "舊稱"
+    },
+    {
+      "name": "洛陽",
+      "type": "異稱",
+      "ambiguous": true
+    },
+    {
+      "name": "西京",
+      "type": "舊稱",
+      "ambiguous": true
+    }
+  ],
+  "history": [
+    {
+      "start": 621,
+      "end": 713,
+      "dynasty_ids": [
+        "hixi1ubjgowi",
+        "hixi1ubjrxg7"
+      ],
+      "name": "洛州",
+      "level": "州",
+      "note": "《新唐書》卷三十八〈地理志二〉：河南府河南郡，本洛州，開元元年為府。起年621（武德四年）為通行說，志文未載，待核。"
+    },
+    {
+      "start": 713,
+      "end": 1072,
+      "dynasty_ids": [
+        "hixi1ubjgowi",
+        "hixi1ubjgow4",
+        "hixi1ubk35zj"
+      ],
+      "name": "河南府",
+      "level": "府",
+      "note": "《新唐書》卷三十八〈地理志二〉：開元元年（713）為府；《宋史》卷八十五〈地理志一〉：河南府因梁、晉之舊為西京。"
+    },
+    {
+      "start": 1072,
+      "end": 1127,
+      "dynasty_ids": [
+        "hixi1ubk35zj"
+      ],
+      "name": "河南府",
+      "level": "府",
+      "parent_id": "1jb8kgdh3psek",
+      "note": "《宋史》卷八十五〈地理志一〉：河南府，洛陽郡，為西京，熙寧五年（1072）分隸京西北路。"
+    },
+    {
+      "start": 1217,
+      "end": 1234,
+      "dynasty_ids": [
+        "hixi1ubjrxgr"
+      ],
+      "name": "金昌府",
+      "level": "府",
+      "note": "《金史》卷二十五〈地理志中〉：河南府，宋西京，興定元年（1217）八月升為中京，府曰金昌。1234為金亡之年。1127–1217年金代河南府沿革待核，不寫。"
+    },
+    {
+      "start": 1234,
+      "end": 1291,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "河南府路",
+      "level": "路",
+      "note": "《元史》卷五十九〈地理志二〉：元初為河南府，後稱河南府路（升路年待核）。"
+    },
+    {
+      "start": 1291,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "河南府路",
+      "level": "路",
+      "parent_id": "1jb8kgdh3psee",
+      "note": "《元史》卷五十九〈地理志二〉：河南江北等處行中書省下河南府路。"
+    },
+    {
+      "start": 1368,
+      "end": 1369,
+      "dynasty_ids": [
+        "hixi1ubjrxfw",
+        "hixi1ubjrxga"
+      ],
+      "name": "河南府",
+      "level": "府",
+      "note": "《明史》卷四十二〈地理志三〉：河南府元河南府路，洪武元年（1368）為府；《清史稿》卷六十二〈地理志九〉：清初沿明制，領州一、縣十三。（本段年份上級條目無沿革段，上級留空。）"
+    },
+    {
+      "start": 1369,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxfw",
+        "hixi1ubjrxga"
+      ],
+      "name": "河南府",
+      "level": "府",
+      "parent_id": "1jb8kgdh3pseb",
+      "note": "《明史》卷四十二〈地理志三〉：河南府元河南府路，洪武元年（1368）為府；《清史稿》卷六十二〈地理志九〉：清初沿明制，領州一、縣十三。"
+    }
+  ],
+  "modern": {
+    "text": "河南省洛陽市",
+    "adcode": "410300",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-1 試點（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
