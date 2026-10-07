@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "1jb8bq09ln400",
+  "type": "entity",
+  "subtype": "collective",
+  "collective_kind": "官署",
+  "institution_level": "group",
+  "primary_name": "三法司",
+  "alt_names": [
+    {
+      "name": "三司",
+      "type": "別稱"
+    }
+  ],
+  "description": {
+    "text": "明清刑部、都察院、大理寺三個司法機構的合稱，遇重大案件由三者會同審理（三法司會審）。這是合稱，不是一個衙門；本條只供官職條 `institution_ref` 指向。別稱「三司」與宋代鹽鐵、度支、戶部三司（本批不建合稱）同名而異，使用時須看朝代。",
+    "sources": []
+  },
+  "ai_note": "合稱條（group）：不寫朝代、職掌、隸屬、起訖；成員在各概念條的 `group_ids` 裡單向指向本條。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
