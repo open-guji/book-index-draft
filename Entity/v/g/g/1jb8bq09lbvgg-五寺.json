@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "1jb8bq09lbvgg",
+  "type": "entity",
+  "subtype": "collective",
+  "collective_kind": "官署",
+  "institution_level": "group",
+  "primary_name": "五寺",
+  "description": {
+    "text": "明清時太常寺、光祿寺、太僕寺、鴻臚寺、大理寺五個寺的合稱，各掌祭祀、膳食、馬政、朝會儀禮與刑獄覆審之事。這是合稱，不是一個衙門；本條只供官職條 `institution_ref` 指向。大理寺同時屬三法司，兩個合稱並存。",
+    "sources": []
+  },
+  "ai_note": "合稱條（group）：不寫朝代、職掌、隸屬、起訖；成員在各概念條的 `group_ids` 裡單向指向本條。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
