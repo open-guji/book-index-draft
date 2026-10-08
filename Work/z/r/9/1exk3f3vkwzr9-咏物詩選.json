@@ -7,15 +7,18 @@
     {
       "name": "俞琰",
       "role": "輯",
-      "dynasty": "宋",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
         "details": "http://data.library.sh.cn/entity/person/kj3ooqjn7oi8plvh"
-      },
-      "entity_id": "hixhd2h9bhum"
+      }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -26,5 +29,5 @@
       "summary": "共 1 個版本：清雍正三年寧儉堂刻本（國家圖書館、遼寧省圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1xuwtta3osgff6rk\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「俞琰」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1xuwtta3osgff6rk\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n朝代據總目題名行"
 }

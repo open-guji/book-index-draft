@@ -7,15 +7,18 @@
     {
       "name": "李紳",
       "role": "撰",
-      "dynasty": "唐",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
         "details": "http://data.library.sh.cn/entity/person/3p2k76yf4tvo3y2u"
-      },
-      "entity_id": "hixhd2h9bi65"
+      }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -26,5 +29,5 @@
       "summary": "共 1 個版本：民國八年郴江刻本（湖南省圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mtxlxufnpoc43zep\n主責任者「李紳」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mtxlxufnpoc43zep\n朝代據總目題名行"
 }

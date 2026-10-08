@@ -7,15 +7,18 @@
     {
       "name": "許慎",
       "role": "撰",
-      "dynasty": "汉",
+      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
         "details": "http://data.library.sh.cn/entity/person/ffsyic5t5fv0knkt"
-      },
-      "entity_id": "hixhd2h9be5n"
+      }
     }
   ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -26,5 +29,5 @@
       "summary": "共 1 個版本：（浙江圖書館、國家圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0udwe4x0arqbj557\n主責任者「許慎」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0udwe4x0arqbj557\n朝代據總目題名行"
 }

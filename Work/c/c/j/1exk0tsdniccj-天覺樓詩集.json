@@ -7,15 +7,18 @@
     {
       "name": "王國賓",
       "role": "撰",
-      "dynasty": "明",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
         "details": "http://data.library.sh.cn/entity/person/dqmbi42l0h3106g1"
-      },
-      "entity_id": "hixhd2h9bf35"
+      }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -26,5 +29,5 @@
       "summary": "共 2 個版本：柳堂師友詩錄初編本（馆藏未载）；（上海圖書館、國家圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t04xxdbcnio2y23h\n主責任者「王國賓」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE3 第 42 批追加（规则层入簇·追加）：新增 1 个 Book，總目分类「集部/總集類/叢編之屬」，源記錄：7atpb5vucdtjhukf；分类未改。"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t04xxdbcnio2y23h\n朝代據總目題名行\nE3 第 42 批追加（规则层入簇·追加）：新增 1 个 Book，總目分类「集部/總集類/叢編之屬」，源記錄：7atpb5vucdtjhukf；分类未改。"
 }
