@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "1exkvdyy7eh38",
+  "type": "work",
+  "title": "續黃五嶽集",
+  "authors": [
+    {
+      "name": "黃省曾",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/2nnvc1553wzoekjm"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "續黃五嶽集一卷",
+      "author_info": "明黃省曾撰;明俞憲輯",
+      "section": "集部/別集類/明代之屬",
+      "summary": "共 1 個版本：盛明百家詩本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "續黃五嶽集一卷",
+      "author_info": "明黃省曾撰",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 1 個版本：（浙江圖書館、上海圖書館、國家圖書館、南京圖書館、北京大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：rouxy3b208fivfta\nE6 第 52 批新建（hold 清零：N2近名·different；原 hold 原因：near_dup:1exk0tj8ltm2p(draft) 黃五嶽集 sim=1.00｜本条 續黃五嶽集｜near_dup·待合并）\n\n2026-10-08 lane-B 併條（rule=E6 批52 同题同作者跨类重复新建）：併 1exkvej1yzbwi《續黃五嶽集》 入本條。批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exkvej1yzbwi",
+      "title": "續黃五嶽集",
+      "at": "2026-10-08T17:12:49Z",
+      "by": "lane-B",
+      "rule": "E6 批52 同题同作者跨类重复新建",
+      "why": "批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者"
+    }
+  ]
+}

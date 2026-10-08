@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1yo3cw",
+  "type": "work",
+  "title": "新鍥續補註釋古今名文經國大業",
+  "authors": [
+    {
+      "name": "李廷機",
+      "role": "校正",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xkspe7p3duys45xx"
+      }
+    },
+    {
+      "name": "黄洪憲",
+      "role": "參閱",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/1621plpqudyjkmwm"
+      }
+    },
+    {
+      "name": "葉向高",
+      "role": "補遺",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ufmeo4tgt1267d2u"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "新鍥續補註釋古今名文經國大業七卷",
+      "author_info": "明黃洪憲參閱;明李廷機校正;明葉向高補遺",
+      "section": "集部/總集類/通代之屬",
+      "summary": "共 1 個版本：明末余秀峯刻本（華東師範大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kdutw1p7eadnc3wq\n責任者 role 異常未寫入：黄洪憲參閱\n責任者 role 非撰著作（總目原串：明黃洪憲參閱;明李廷機校正;明葉向高補遺），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批新建（hold 清零：H3责任者role/名被切断；原 hold 原因：no_main_author）"
+}

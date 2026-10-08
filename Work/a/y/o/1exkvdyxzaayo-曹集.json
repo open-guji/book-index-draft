@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "1exkvdyxzaayo",
+  "type": "work",
+  "title": "曹集",
+  "authors": [
+    {
+      "name": "曹植",
+      "role": "撰",
+      "dynasty": "三國",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/g8els5thdttt64qw"
+      }
+    }
+  ],
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "曹集二卷總評一卷",
+      "author_info": "三國魏曹植撰",
+      "section": "集部/別集類/漢魏六朝之屬",
+      "summary": "共 1 個版本：合刻曹陶謝三家詩本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "曹集二卷總評一卷",
+      "author_info": "三國魏曹植撰",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 1 個版本：（遼寧省圖書館、北京大學圖書館、南京圖書館、上海圖書館、國家圖書館、湖北省圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xcz712jtdpjdmjk5\nE6 第 52 批新建（hold 清零：N2近名·different；原 hold 原因：near_dup:d59f27sixfyb(prod) 曹集考異 sim=1.00｜本条 曹集｜near_dup·待合并）\n\n2026-10-08 lane-B 併條（rule=E6 批52 同题同作者跨类重复新建）：併 1exkvej1l8w06《曹集》 入本條。批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exkvej1l8w06",
+      "title": "曹集",
+      "at": "2026-10-08T17:11:35Z",
+      "by": "lane-B",
+      "rule": "E6 批52 同题同作者跨类重复新建",
+      "why": "批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exkvfjfsxatj",
+  "type": "work",
+  "title": "玉茗堂批評節俠記",
+  "authors": [
+    {
+      "name": "許自昌",
+      "role": "改定",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/x5a8k02iw26sjq1f"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "玉茗堂批評節俠記二卷",
+      "author_info": "明許自昌改定",
+      "section": "集部/曲類/傳奇之屬",
+      "summary": "共 1 個版本：明崇禎間刻本（上海圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cm0ex785ed1r3dkq\n責任者 role 異常未寫入：許自昌改定\n責任者 role 非撰著作（總目原串：明許自昌改定），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批新建（hold 清零：H3责任者role/名被切断·曲類；原 hold 原因：no_main_author）"
+}
