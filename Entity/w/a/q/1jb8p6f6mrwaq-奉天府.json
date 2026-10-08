@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "1jb8p6f6mrwaq",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "奉天府",
+  "alt_names": [
+    {
+      "name": "瀋陽路",
+      "type": "舊稱"
+    },
+    {
+      "name": "瀋陽中衛",
+      "type": "舊稱"
+    },
+    {
+      "name": "沈州",
+      "type": "舊稱"
+    },
+    {
+      "name": "瀋州",
+      "type": "舊稱"
+    },
+    {
+      "name": "瀋陽",
+      "type": "簡稱"
+    },
+    {
+      "name": "承德縣",
+      "type": "舊稱"
+    }
+  ],
+  "history": [
+    {
+      "start": 1193,
+      "end": 1234,
+      "dynasty_ids": [
+        "hixi1ubjrxgr"
+      ],
+      "name": "沈州",
+      "level": "州",
+      "note": "《金史》卷二十四〈地理志上〉：沈州（昭德軍），本遼定理府地，明昌四年（1193）改為刺史，與通、貴德、澄三州皆隸東京（東京路本批未立）。"
+    },
+    {
+      "start": 1296,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "瀋陽路",
+      "level": "路",
+      "parent_id": "1jb8p6f6mrwao",
+      "note": "《元史》卷五十九〈地理志二〉：瀋陽路，契丹興遼軍，金昭德軍；中統二年（1261）改為安撫高麗軍民總管府，元貞二年（1296）併為瀋陽等路安撫高麗軍民總管府，屬遼陽行省。"
+    },
+    {
+      "start": 1398,
+      "end": 1634,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "瀋陽中衛",
+      "level": "軍",
+      "parent_id": "1jb8p6f6mrwan",
+      "note": "《明史》卷四十一〈地理志二〉：瀋陽中衛元瀋陽路，洪武初廢，三十一年（1398）閏五月置衛。"
+    },
+    {
+      "start": 1634,
+      "end": 1644,
+      "dynasty_ids": [
+        "hixi1ubjrxfw",
+        "hixi1ubjrxga"
+      ],
+      "name": "盛京",
+      "level": "都",
+      "note": "《清史稿》卷五十五〈地理志二〉：清天命十年（1625）定都瀋陽，天聰八年（1634）尊為盛京，城因明瀋陽衛城增修。（本段年份上級條目無沿革段，上級留空。）"
+    },
+    {
+      "start": 1644,
+      "end": 1657,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "盛京",
+      "level": "都",
+      "parent_id": "1jb8p6f6mrwam",
+      "note": "《清史稿》卷五十五〈地理志二〉：清天命十年（1625）定都瀋陽，天聰八年（1634）尊為盛京，城因明瀋陽衛城增修。"
+    },
+    {
+      "start": 1657,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "奉天府",
+      "level": "府",
+      "parent_id": "1jb8p6f6mrwam",
+      "note": "《清史稿》卷五十五〈地理志二〉：奉天府，順治十四年（1657）四月於盛京城內置府，設府尹；光緒三十一年（1905）裁府尹設知府，為奉天省治；領廳一，州二，縣八，承德縣倚郭（康熙三年置，明瀋陽中衛）。"
+    }
+  ],
+  "modern": {
+    "text": "遼寧省瀋陽市（舊城在今沈河區）",
+    "adcode": "210100",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-5 北方批（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 P5a-5/staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

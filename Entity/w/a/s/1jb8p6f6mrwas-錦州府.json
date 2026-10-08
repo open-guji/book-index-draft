@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "1jb8p6f6mrwas",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "錦州府",
+  "alt_names": [
+    {
+      "name": "錦州",
+      "type": "舊稱"
+    },
+    {
+      "name": "廣寧中屯衛",
+      "type": "舊稱"
+    },
+    {
+      "name": "錦縣",
+      "type": "舊稱"
+    }
+  ],
+  "history": [
+    {
+      "start": 1115,
+      "end": 1234,
+      "dynasty_ids": [
+        "hixi1ubjrxgr"
+      ],
+      "name": "錦州",
+      "level": "州",
+      "note": "《金史》卷二十四〈地理志上〉：錦州（下，臨海軍節度使），舊隸興中府，後來屬，領永樂、安昌、神水三縣；起年志文未載，取金立國年，待核；金北京路本批未立。"
+    },
+    {
+      "start": 1271,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "錦州",
+      "level": "州",
+      "parent_id": "1jb8p6f6mrwap",
+      "note": "《元史》卷五十九〈地理志二〉：大寧路領州九，有錦州（下）；《明史》卷四十一〈地理志二〉：廣寧中屯衛元錦州屬大寧路。"
+    },
+    {
+      "start": 1391,
+      "end": 1644,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "廣寧中屯衛",
+      "level": "軍",
+      "parent_id": "1jb8p6f6mrwan",
+      "note": "《明史》卷四十一〈地理志二〉：廣寧中屯衛元錦州，洪武初州廢，二十四年（1391）九月置衛。"
+    },
+    {
+      "start": 1662,
+      "end": 1664,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "錦縣",
+      "level": "縣",
+      "parent_id": "1jb8p6f6mrwaq",
+      "note": "《清史稿》卷五十五〈地理志二〉：康熙元年（1662）七月改錦州為錦縣，隸奉天府；三年六月改隸廣寧府（廣寧府治廣寧，本批未立）。"
+    },
+    {
+      "start": 1665,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "錦州府",
+      "level": "府",
+      "parent_id": "1jb8p6f6mrwam",
+      "note": "《清史稿》卷五十五〈地理志二〉：錦州府（繁，難），康熙三年置廣寧府，四年（1665）改置、徙治錦州；領州二，廳二，縣三。"
+    }
+  ],
+  "modern": {
+    "text": "遼寧省錦州市",
+    "adcode": "210700",
+    "relation": "治所今在"
+  },
+  "ai_note": "P5a-5 北方批（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 P5a-5/staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}

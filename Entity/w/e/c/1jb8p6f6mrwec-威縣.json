@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "1jb8p6f6mrwec",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "威縣",
+  "alt_names": [
+    {
+      "name": "洺水縣",
+      "type": "舊稱"
+    },
+    {
+      "name": "威州",
+      "type": "舊稱",
+      "ambiguous": true
+    },
+    {
+      "name": "洺水",
+      "type": "簡稱"
+    },
+    {
+      "name": "威",
+      "type": "簡稱"
+    }
+  ],
+  "history": [
+    {
+      "start": 1236,
+      "end": 1247,
+      "dynasty_ids": [
+        "hixi1ubjrxgi"
+      ],
+      "name": "洺水縣",
+      "level": "縣",
+      "parent_id": "1jb8lqn358dih",
+      "note": "《元史》卷五十八〈地理志一〉：威州洺水（中，倚郭）：太宗八年（1236）隸洺州。大蒙古國時期，元尚未建號。"
+    },
+    {
+      "start": 1247,
+      "end": 1252,
+      "dynasty_ids": [
+        "hixi1ubjrxgi"
+      ],
+      "name": "洺水縣",
+      "level": "縣",
+      "note": "《元史》卷五十八〈地理志一〉：洺水：定宗二年（1247）改隸威州（時威州治井陘）。大蒙古國時期，元尚未建號。（威州此時即井陘縣條目的一段，而井陘縣後來又隸威縣＝本條，掛上去會使 parent_id 鏈成環，故本段上級留空。）"
+    },
+    {
+      "start": 1252,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjrxgi",
+        "hixi1ubjgow7"
+      ],
+      "name": "威州",
+      "level": "州",
+      "parent_id": "1jb8lqn358dih",
+      "note": "《元史》卷五十八〈地理志一〉：威州領二縣，憲宗二年徙州治於洺水，隸洺磁路；《明史》載至正間省州治洺水縣入州（年份待核）。"
+    },
+    {
+      "start": 1368,
+      "end": 1369,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "威州",
+      "level": "州",
+      "parent_id": "1jb8lqn358dih",
+      "note": "《明史》卷四十〈地理志一〉：廣平府威：元威州，洪武二年四月降為縣。"
+    },
+    {
+      "start": 1369,
+      "end": 1644,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "威縣",
+      "level": "縣",
+      "parent_id": "1jb8lqn358dih",
+      "note": "《明史》卷四十〈地理志一〉：廣平府領縣九，威縣在府東北，漳水舊在南，洺水自西流入。"
+    },
+    {
+      "start": 1644,
+      "end": 1912,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "威縣",
+      "level": "縣",
+      "parent_id": "1jb8lqn358dih",
+      "note": "《清史稿》卷五十四〈地理志一〉：廣平府領州一縣九；本批所據清史稿卷五十四文本缺威縣條，屬廣平府依通行說，待核。"
+    }
+  ],
+  "modern": {
+    "text": "河北省邢臺市威縣",
+    "adcode": "130533",
+    "relation": "同名同地"
+  },
+  "ai_note": "P5a-5 北方批（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版地志原典人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 P5a-5/staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
