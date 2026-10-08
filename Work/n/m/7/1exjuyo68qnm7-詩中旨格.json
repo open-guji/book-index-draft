@@ -7,7 +7,6 @@
     {
       "name": "王玄",
       "role": "撰",
-      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,10 +14,6 @@
       }
     }
   ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -29,5 +24,5 @@
       "summary": "共 1 個版本：（國家圖書館、南京圖書館、上海圖書館、復旦大學圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ak55ts4vcry47t5o"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ak55ts4vcry47t5o\nQ1 質檢：題名行作『題王玄撰』，朝代無據，已去掉作者朝代與 Work 的 dynasty／period"
 }
