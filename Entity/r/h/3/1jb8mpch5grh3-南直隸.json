@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "1jb8mpch5grh3",
+  "type": "entity",
+  "subtype": "place",
+  "primary_name": "南直隸",
+  "alt_names": [
+    {
+      "name": "南京",
+      "type": "舊稱"
+    },
+    {
+      "name": "京師",
+      "type": "舊稱",
+      "ambiguous": true
+    },
+    {
+      "name": "江南省",
+      "type": "舊稱"
+    },
+    {
+      "name": "直隸",
+      "type": "簡稱",
+      "ambiguous": true
+    }
+  ],
+  "history": [
+    {
+      "start": 1356,
+      "end": 1368,
+      "dynasty_ids": [
+        "hixi1ubjgow7"
+      ],
+      "name": "江南行中書省",
+      "level": "省",
+      "note": "《明史》卷四十〈地理志一〉南京：明太祖丙申年（1356）七月置江南行中書省，治應天府。本段屬朱元璋據地，元尚未亡，朝代暫掛元，待核。"
+    },
+    {
+      "start": 1368,
+      "end": 1378,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "南京",
+      "level": "省",
+      "note": "《明史》卷四十〈地理志一〉南京：洪武元年（1368）八月建南京，罷行中書省，以應天等府直隸中書省。南直隸為直隸京師之地，非布政使司，級別暫記「省」。"
+    },
+    {
+      "start": 1378,
+      "end": 1403,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "京師",
+      "level": "省",
+      "note": "《明史》卷四十〈地理志一〉南京：洪武十一年（1378）正月改南京為京師；十三年（1380）罷中書省，所領直隸六部。"
+    },
+    {
+      "start": 1403,
+      "end": 1644,
+      "dynasty_ids": [
+        "hixi1ubjrxfw"
+      ],
+      "name": "南京",
+      "level": "省",
+      "note": "《明史》卷四十〈地理志一〉南京：永樂元年（1403）正月仍稱南京（十九年北京為京師後，南京為留都，通稱南直隸）；統府十四，直隸州四，屬州十七，縣九十七。"
+    },
+    {
+      "start": 1644,
+      "end": 1667,
+      "dynasty_ids": [
+        "hixi1ubjrxga"
+      ],
+      "name": "江南省",
+      "level": "省",
+      "note": "《清史稿》卷五十八〈地理志五〉：順治二年（1645）改明南直隸為江南省，康熙六年（1667）江南更今名，分置江蘇、安徽。起年統一取 1644，待核。"
+    }
+  ],
+  "modern": {
+    "text": "約含今江蘇省、安徽省及上海市",
+    "relation": "轄域約當"
+  },
+  "ai_note": "P5b-1 高層補缺（overview#464 地名二期），2026-10-07 洛杉磯時間。沿革據公版正史地理志原典（維基文庫）人工核對，依據寫在各沿革項 note；未採用 CBDB／CHGIS 的內容或編號。存疑項見 P5b-1/staging/存疑.md。",
+  "review": {
+    "status": "unreviewed"
+  },
+  "revision": "1.0.0",
+  "revised_at": "2026-10-07",
+  "updated_at": "2026-10-07T00:00:00+00:00"
+}
