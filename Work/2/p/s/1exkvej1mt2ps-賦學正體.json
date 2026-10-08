@@ -5,9 +5,14 @@
   "title": "賦學正體",
   "authors": [
     {
-      "name": "佚名",
-      "role": "撰",
-      "dynasty": ""
+      "name": "魯琢",
+      "role": "評定",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/vsg0bkeh2u5k2iqp"
+      }
     }
   ],
   "indexed_by": [
@@ -20,5 +25,9 @@
       "summary": "共 1 個版本：清乾隆四十一年養園刻本（北京師範大學圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：14y04eqm3h0uf3mk\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：清魯琢評定\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：14y04eqm3h0uf3mk\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）\n責任者 role 非撰著作（總目原串：清魯琢評定），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」"
 }
