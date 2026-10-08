@@ -7,7 +7,7 @@
     {
       "name": "王翼鳳",
       "role": "撰",
-      "dynasty": "明",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 3 個版本：抄本（北京大學圖書館）；清咸豐二年刻本（國家圖書館）；清隱秀堂抄本（浙江圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mh5jqsl2ucuveb7w、cik5yc0si10ggbg2、6qu4n44qllglhafg\n主責任者「王翼鳳」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mh5jqsl2ucuveb7w、cik5yc0si10ggbg2、6qu4n44qllglhafg\n朝代據總目題名行"
 }

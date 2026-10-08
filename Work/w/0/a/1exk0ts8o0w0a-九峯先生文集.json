@@ -7,7 +7,7 @@
     {
       "name": "胡森",
       "role": "撰",
-      "dynasty": "清",
+      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 1 個版本：明萬曆間刻本（日本尊經閣文庫）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cay64m5evp4ngioc\n主責任者「胡森」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cay64m5evp4ngioc\n朝代據總目題名行"
 }

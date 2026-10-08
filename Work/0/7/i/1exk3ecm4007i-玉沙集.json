@@ -7,7 +7,7 @@
     {
       "name": "周同谷",
       "role": "撰",
-      "dynasty": "清",
+      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 3 個版本：清咸豐二年王德森抄本（中山大學圖書館）；民國間抄本（南京圖書館）；清道光九年潘道根抄本（南京圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ypuijgzmlsfzs1ev、ogl03g2gmsf4dqm8、v6553zu5mru7ibfm\n主責任者「周同谷」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n責任者 role 異常未寫入：王德森過錄"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ypuijgzmlsfzs1ev、ogl03g2gmsf4dqm8、v6553zu5mru7ibfm\n朝代據總目題名行\n責任者 role 異常未寫入：王德森過錄"
 }
