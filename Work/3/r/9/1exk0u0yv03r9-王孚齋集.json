@@ -7,7 +7,7 @@
     {
       "name": "王升",
       "role": "撰",
-      "dynasty": "明",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 1 個版本：清光緒六年一枝窠刻本（上海圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2by4e06n1gg8cv4f\n主責任者「王升」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2by4e06n1gg8cv4f\n朝代據總目題名行"
 }

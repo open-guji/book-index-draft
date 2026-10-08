@@ -7,15 +7,18 @@
     {
       "name": "沈璟",
       "role": "撰",
-      "dynasty": "清",
+      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
         "details": "http://data.library.sh.cn/entity/person/zo0ebbn0nsssk3er"
-      },
-      "entity_id": "1jb8icg2z572d"
+      }
     }
   ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -26,5 +29,5 @@
       "summary": "共 7 個版本：（臺灣圖書館、遼寧省圖書館）；（國家圖書館）；（北京大學圖書館、重慶市圖書館、天津圖書館、南京圖書館、華東師範大學圖書館、湖南省圖書館、國家圖書館、四川省圖書館）；明萬曆間環翠堂刻本（國家圖書館）；明萬曆間金陵陳氏繼志齋刻本（北京大學圖書館）；明萬曆間金陵唐氏文林閣刻本（國家圖書館、北京大學圖書館）；繡刻演劇（六十種曲）本（馆藏未载）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：tlevdcu6wfncxkoc、fvczvoz5kocndipx、i72dy67brctpsxd4、2nezjr53mv8ccyzv、zcnzac6kvovlttvl、0np4gbx0i2ozphp4、312dtiz0yuqgcciy\n主責任者「沈璟」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：tlevdcu6wfncxkoc、fvczvoz5kocndipx、i72dy67brctpsxd4、2nezjr53mv8ccyzv、zcnzac6kvovlttvl、0np4gbx0i2ozphp4、312dtiz0yuqgcciy\n朝代據總目題名行"
 }

@@ -7,7 +7,7 @@
     {
       "name": "陳堅",
       "role": "撰",
-      "dynasty": "元",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 2 個版本：陳氏聯珠集本（馆藏未载）；（南京圖書館、國家圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：dybwa0q1842mrg15\n主責任者「陳堅」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE3 第 42 批追加（规则层入簇·追加）：新增 1 个 Book，總目分类「集部/總集類/氏族之屬」，源記錄：ht1ggh1vocf8lq4v；分类未改。"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：dybwa0q1842mrg15\n朝代據總目題名行\nE3 第 42 批追加（规则层入簇·追加）：新增 1 个 Book，總目分类「集部/總集類/氏族之屬」，源記錄：ht1ggh1vocf8lq4v；分类未改。"
 }
