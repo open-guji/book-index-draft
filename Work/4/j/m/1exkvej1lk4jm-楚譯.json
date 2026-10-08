@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1lk4jm",
+  "type": "work",
+  "title": "楚譯",
+  "authors": [
+    {
+      "name": "毛晉",
+      "role": "參定",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/10trfoc56j5ekoby"
+      },
+      "entity_id": "hixhd2h9bhmo"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "楚譯二卷",
+      "author_info": "明毛晉參定",
+      "section": "集部/總集類/叢編之屬/各體",
+      "summary": "共 2 個版本：（國家圖書館）；（重慶市圖書館、山西省圖書館、山東省圖書館、安徽省圖書館、中國科學院圖書館、遼寧省圖書館、南京圖書館、北京大學圖書館、河南省圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7t7ay1qdd7pm8mcr、celaqjrtczhv7gcd\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）\n責任者 role 非撰著作（總目原串：明毛晉參定），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」"
+}

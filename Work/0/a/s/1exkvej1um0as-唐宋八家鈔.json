@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1um0as",
+  "type": "work",
+  "title": "唐宋八家鈔",
+  "authors": [
+    {
+      "name": "高嵣",
+      "role": "集評",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/pt03oscdvr2r03ig"
+      }
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐宋八家鈔",
+      "author_info": "清高嵣集評",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 2 個版本：清乾隆五十三年刻本（國家圖書館）；高梅亭讀書叢鈔本（馆藏未载）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：wxomf6jvrsc1g2x1、kpckc2m8iub8oc4a\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）\n核對同題名 Work 1exk0ut83j01x（呂留良輯，八卷）：本條總目責任者「高嵣集評」、高梅亭讀書叢鈔本，作者不同，視為另一部，不併\n責任者 role 非撰著作（總目原串：清高嵣集評），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」"
+}

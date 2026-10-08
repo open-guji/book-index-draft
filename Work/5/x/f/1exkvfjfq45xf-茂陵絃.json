@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "1exkvfjfq45xf",
+  "type": "work",
+  "title": "茂陵絃",
+  "additional_titles": [
+    "當壚豔"
+  ],
+  "authors": [
+    {
+      "name": "李光溥",
+      "role": "訂譜",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/c1v76ianktlp5vrn"
+      }
+    },
+    {
+      "name": "黃燮清",
+      "role": "填詞",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/yb7xq9auvsdqri2o"
+      }
+    },
+    {
+      "name": "瞿世瑛",
+      "role": "評文",
+      "dynasty": "淸",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/tdu0uqqtjhpbfyd2"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "茂陵絃（當壚豔）二卷二十四齣",
+      "author_info": "清黃燮清填詞;清瞿世瑛評文;清李光溥訂譜",
+      "section": "集部/曲類/雜劇之屬",
+      "summary": "共 3 個版本：倚晴樓七種曲本（馆藏未载）；清末刻本（國家圖書館）；清道光十六年刻本（上海圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kqpjbt5cy3l8oj82、tfe45srs46ajmlnu、ycz2pabla58jyx3j\n責任者 role 異常未寫入：李光溥訂譜、黃燮清填詞\n責任者 role 非撰著作（總目原串：清黃燮清填詞;清瞿世瑛評文;清李光溥訂譜），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批新建（hold 清零：H3责任者role/名被切断·曲類；原 hold 原因：no_main_author）"
+}

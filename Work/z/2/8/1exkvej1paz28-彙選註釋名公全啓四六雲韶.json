@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1paz28",
+  "type": "work",
+  "title": "彙選註釋名公全啓四六雲韶",
+  "authors": [
+    {
+      "name": "陳士蘭",
+      "role": "注",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/g4qu55sfeu2cdsz0"
+      }
+    },
+    {
+      "name": "王召",
+      "role": "注",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/31pva15wakk5jl3t"
+      }
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "彙選註釋名公全啓四六雲韶六卷",
+      "author_info": "明陳士蘭、明王召注",
+      "section": "集部/總集類/尺牘之屬",
+      "summary": "共 1 個版本：明刻本（東北師範大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gxv4ne8qh2z5jpgw\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）\n責任者 role 非撰著作（總目原串：明陳士蘭、明王召注），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」"
+}

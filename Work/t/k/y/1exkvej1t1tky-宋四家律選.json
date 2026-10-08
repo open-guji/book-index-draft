@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1t1tky",
+  "type": "work",
+  "title": "宋四家律選",
+  "authors": [
+    {
+      "name": "彭元瑞",
+      "role": "著",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/l1wcy47yrsu8kejh"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "宋四家律選",
+      "author_info": "清彭元瑞",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 1 個版本：清乾隆間彭元瑞抄本（臨猗縣圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ygb1mfb4tcly6r6r\n責任者 role 異常未寫入：彭元瑞\n責任者 role 非撰著作（總目原串：清彭元瑞），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批新建（hold 清零：H3责任者role/名被切断；原 hold 原因：no_main_author）\n原題未著責任方式（總目責任者僅「清彭元瑞」，無撰／著等責任方式），role 暫記中性之「著」"
+}

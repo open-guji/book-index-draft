@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "1exkvdyy7eh36",
+  "type": "work",
+  "title": "續皇甫理山集",
+  "authors": [
+    {
+      "name": "皇甫濂",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/7d77ae707nonvwqk"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "續皇甫理山集一卷",
+      "author_info": "明皇甫濂撰;明俞憲輯",
+      "section": "集部/別集類/明代之屬",
+      "summary": "共 1 個版本：盛明百家詩本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "續皇甫理山集一卷",
+      "author_info": "明皇甫濂撰",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 1 個版本：（浙江圖書館、上海圖書館、國家圖書館、南京圖書館、北京大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pjzh7abee7qrvbzb\nE6 第 52 批新建（hold 清零：N2近名·different；原 hold 原因：near_dup:1exk0tj8bu0p7(draft) 皇甫理山集 sim=1.00｜本条 續皇甫理山集｜near_dup·待合并）\n\n2026-10-08 lane-B 併條（rule=E6 批52 同题同作者跨类重复新建）：併 1exkvej1yzbwg《續皇甫理山集》 入本條。批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exkvej1yzbwg",
+      "title": "續皇甫理山集",
+      "at": "2026-10-08T17:12:41Z",
+      "by": "lane-B",
+      "rule": "E6 批52 同题同作者跨类重复新建",
+      "why": "批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "1exkvhxpet4ao",
+  "type": "work",
+  "title": "楚辭句解評林",
+  "authors": [
+    {
+      "name": "馮紹祖",
+      "role": "校",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0cpsv1oc00bjhy3x"
+      }
+    },
+    {
+      "name": "王逸",
+      "role": "章句",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/4b4m3kugp2qs6a87"
+      }
+    },
+    {
+      "name": "劉向",
+      "role": "集",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/68e7b1b4srpoffnv"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "楚辭句解評林十七卷附錄一卷",
+      "author_info": "漢劉向集;漢王逸章句;明馮紹祖校",
+      "section": "集部/楚辭類",
+      "summary": "共 2 個版本：明萬曆十五年刻本（浙江圖書館、上海圖書館、國家圖書館、北京大學圖書館）；明萬曆間刻本（日本東京大學東洋文化研究所）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：zk4w1phg3aovevhr、vowxaw2ebardc77n\n責任者 role 異常未寫入：王逸章句\n責任者 role 非撰著作（總目原串：漢劉向集;漢王逸章句;明馮紹祖校；漢王逸章句;明馮紹祖校），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批新建（hold 清零：H3责任者role/名被切断；原 hold 原因：no_main_author）"
+}

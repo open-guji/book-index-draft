@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exkvej1w670k",
+  "type": "work",
+  "title": "韋孟全集",
+  "authors": [
+    {
+      "name": "劉辰翁",
+      "role": "批點",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/3mzu0os5d8srqkpr"
+      },
+      "entity_id": "hixhd2h9bfh4"
+    },
+    {
+      "name": "袁宏道",
+      "role": "評",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/z2bog8hn3narf35g"
+      },
+      "entity_id": "hixhd2h9bexk"
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "韋孟全集",
+      "author_info": "宋劉辰翁批點;明袁宏道評",
+      "section": "集部/總集類/叢編之屬/各體",
+      "summary": "共 1 個版本：明刻本（湖南省圖書館、浙江圖書館、復旦大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5tmy72oa1zenlq4w\nE6 第 52 批新建（hold 清零：H2仅次要角色；原 hold 原因：no_main_author）\n責任者 role 非撰著作（總目原串：宋劉辰翁批點;明袁宏道評），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」"
+}

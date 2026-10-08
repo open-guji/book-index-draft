@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exkvfjfojz7m",
+  "type": "work",
+  "title": "鼎鐫鄭道圭先生評點紅杏記",
+  "authors": [
+    {
+      "name": "鄭之玄",
+      "role": "評點",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zp5jpe2v1fyheb5v"
+      }
+    },
+    {
+      "name": "謝維升",
+      "role": "注釋",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/hi18crov448s8k0g"
+      }
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "鼎鐫鄭道圭先生評點紅杏記二卷三十六齣",
+      "author_info": "明鄭之玄評點;明謝維升注釋",
+      "section": "集部/曲類/傳奇之屬",
+      "summary": "共 1 個版本：明天啓間潭陽黃氏存誠堂刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：f6am64r05acxk43y\nE6 第 52 批新建（hold 清零：H2仅次要角色·曲類；原 hold 原因：no_main_author）\n責任者 role 非撰著作（總目原串：明鄭之玄評點;明謝維升注釋），按總目原 role 保留人名，未改寫為「撰」\nE6 第 52 批審後（draft#154）：原誤記為佚名，已按總目原串重解析責任者",
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」"
+}
