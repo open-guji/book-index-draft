@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exkx0cuniv44",
+  "type": "work",
+  "title": "武侯全書",
+  "authors": [
+    {
+      "name": "諸葛亮",
+      "role": "撰",
+      "dynasty": "三國",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/b76unjt2u9nq6kfe"
+      }
+    }
+  ],
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "武侯全書二十卷首一卷",
+      "author_info": "三國蜀諸葛亮撰;清趙承恩輯",
+      "section": "集部/別集類/漢魏六朝之屬",
+      "summary": "共 1 個版本：清光緒十年紅杏山房刻本（國家圖書館、山東省圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bpz8gz5s31608dsg\nE6 第 53 批新建（hold 清零：K key_shared·人工判：武侯全書二十卷首一卷為清趙承恩輯本；同键存疑记录《武侯全書十六卷文集四卷》為明王士騏輯本（候选 Work 為諸葛武侯全書／諸葛忠武侯全書，王士騏輯），輯者與卷數皆不同，視為另一編本，新建；原 hold 原因：key_shared_with_存疑）"
+}

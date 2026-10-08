@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exkx0cuniv40",
+  "type": "work",
+  "title": "米襄陽遺集",
+  "authors": [
+    {
+      "name": "米芾",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/f5xd35476e0vjcvn"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "米襄陽遺集一卷",
+      "author_info": "宋米芾撰",
+      "section": "集部/別集類/宋代之屬",
+      "summary": "共 1 個版本：明萬曆三十二年范氏刻米襄陽志林本（馆藏未载）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cjv21oy7j8t46ftf\nE6 第 53 批新建（hold 清零：K key_shared·人工判：同键存疑记录《米襄陽遺集一卷…附米襄陽志林十三卷》與本條同為明萬曆三十二年范氏刻本一系（候选 Work 襄陽遺集，范明泰輯），可能是同一刻本被拆成兩條；本條自身匹配為「新」，先新建，存疑一條仍 hold，待 Work 合并清單复核；原 hold 原因：key_shared_with_存疑）"
+}
