@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exlan8xo4qv4",
+  "type": "work",
+  "title": "韓文起",
+  "authors": [
+    {
+      "name": "林雲銘",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/jbkvzzc01pd28b8y"
+      }
+    },
+    {
+      "name": "韓愈",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/3by0g0o5sxicubwg"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "韓文起十二卷附韓文公年譜一卷",
+      "author_info": "唐韓愈撰;清林雲銘評注;（韓文公年譜）清林雲銘撰",
+      "section": "集部/別集類/唐五代之屬",
+      "summary": "共 2 個版本：清康熙間林雲銘刻本（國家圖書館、山東省圖書館、北京大學圖書館、湖北省圖書館）；清刻本（山東省圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ozeg1ok7wvrc6mig、w0cps1y84gn83zhw\nE6 第 54 批新建（hold 清零：近名·muse different（G 道 E6 批次）；原 hold 原因：near_dup）"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "1exlan8xs6txg",
+  "type": "work",
+  "title": "山谷先生詩鈔",
+  "authors": [
+    {
+      "name": "黃庭堅",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/vx6uvezm8d64ztjo"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "山谷先生詩鈔七卷",
+      "author_info": "宋黃庭堅撰;清周之鱗、清柴升編",
+      "section": "集部/別集類/宋代之屬",
+      "summary": "共 1 個版本：宋四名家詩本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "山谷先生詩鈔七卷",
+      "author_info": "宋黃庭堅撰",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 5 個版本：（上海圖書館）；（湖北省圖書館、天津圖書館、南京圖書館）；（國家圖書館、湖北省圖書館）；（上海圖書館）；（北京師範大學圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lggwv5pns8amtenr\nE6 第 54 批新建（hold 清零：近名·muse different（G 道 E6 批次）；原 hold 原因：near_dup）\n\n2026-10-09 lane-B 併條（rule=E6 批54 同题同作者跨级别重复新建）：併 1exlanmrt0a9u《山谷先生詩鈔》 入本條。批54 按级别分跑，同题名同作者的 Work 在不同级别各建一部或与较早批次已建者重复，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exlanmrt0a9u",
+      "title": "山谷先生詩鈔",
+      "at": "2026-10-09T16:14:52Z",
+      "by": "lane-B",
+      "rule": "E6 批54 同题同作者跨级别重复新建",
+      "why": "批54 按级别分跑，同题名同作者的 Work 在不同级别各建一部或与较早批次已建者重复，并回较早铸号者"
+    }
+  ]
+}
