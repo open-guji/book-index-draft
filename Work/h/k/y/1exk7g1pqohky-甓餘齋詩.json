@@ -7,7 +7,7 @@
     {
       "name": "陳國蘇",
       "role": "撰",
-      "dynasty": "陳",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,7 +15,7 @@
       }
     }
   ],
-  "dynasty": "陳",
+  "dynasty": "清",
   "dynasty_basis": "author_propagation",
   "indexed_by": [
     {
@@ -27,5 +27,9 @@
       "summary": "共 1 個版本：抄本（中國科學院圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：hmmkr42kkncpoa4q"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：hmmkr42kkncpoa4q\n姓氏字被误读为朝代（原拆「陳」，名「陳國蘇」→「陳國蘇・清」；Work 朝代「陳」→「清」；朝代依据：分节清代之屬；Q1 10-09 修正）",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "revision": "1.1.0",
+  "revised_at": "2026-10-09"
 }

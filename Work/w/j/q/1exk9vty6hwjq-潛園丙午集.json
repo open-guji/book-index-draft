@@ -5,9 +5,9 @@
   "title": "潛園丙午集",
   "authors": [
     {
-      "name": "元曠",
+      "name": "魏元曠",
       "role": "撰",
-      "dynasty": "魏",
+      "dynasty": "清",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "dynasty": "魏",
+  "dynasty": "清",
   "dynasty_basis": "author_propagation",
-  "period": "three-kingdoms",
-  "period_basis": "據 authors[0].dynasty「魏」",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -29,5 +29,7 @@
       "summary": "共 1 個版本：清宣統二年奉天圖書印刷所鉛印本（四川省圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：jspjwb007j8uehyl"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：jspjwb007j8uehyl\n姓氏字被误读为朝代（原拆「魏」＋「元曠」→「魏元曠・清」；Work 朝代「魏」→「清」；朝代依据：分节清代之屬；Q1 10-09 修正）",
+  "revision": "1.1.0",
+  "revised_at": "2026-10-09"
 }
