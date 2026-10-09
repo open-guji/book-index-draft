@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "1exlbs5ivhla8",
+  "type": "work",
+  "title": "唐崔補闕詩集",
+  "additional_titles": [
+    "崔補闕集"
+  ],
+  "authors": [
+    {
+      "name": "崔峒",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/x4kp7g3os2gw1ych"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐崔補闕詩集（崔補闕集）一卷",
+      "author_info": "唐崔峒撰",
+      "section": "集部/別集類/唐五代之屬",
+      "summary": "共 4 個版本：明金陵朱之蕃刻本（北京大學圖書館）；百家唐詩本（馆藏未载）；唐四家詩本（馆藏未载）；廣十二家唐詩本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐崔補闕詩集",
+      "author_info": "唐崔峒撰",
+      "section": "集部/總集類/叢編之屬/分體",
+      "summary": "共 3 個版本：（南京圖書館）；（山東省圖書館、上海圖書館、國家圖書館）；（上海圖書館）"
+    }
+  ],
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：restfiztlxgv0ub7、admspre6rlf27gqj、dcplwhhxuyjgg1hu、q8caa04rrx3w28rq\nE6 第 56 批新建（hold 清零：近名·体裁或范围不同（B），另立；对方 d59fs7eh5hj9《崔補闕集》；对方 id d59fs7eh5hj9；原 hold 原因：near_dup）\n\n2026-10-09 lane-B 併條（rule=E6 批56 同题同作者重复新建）：併 1exlbsfrjdlhg《唐崔補闕詩集》 入本條。批56 近名再判后新建的 Work 与已有 draft Work 同题名同作者，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exlbsfrjdlhg",
+      "title": "唐崔補闕詩集",
+      "at": "2026-10-09T17:31:18Z",
+      "by": "lane-B",
+      "rule": "E6 批56 同题同作者重复新建",
+      "why": "批56 近名再判后新建的 Work 与已有 draft Work 同题名同作者，并回较早铸号者"
+    }
+  ]
+}
