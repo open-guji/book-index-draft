@@ -39,5 +39,27 @@
   "dynasty": "明",
   "dynasty_basis": "author_propagation",
   "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」"
+  "period_basis": "據 authors[0].dynasty「明」",
+  "resources": [
+    {
+      "id": "nlc",
+      "group": "nlc-411999032305",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=411999032305",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "411999032305",
+        "edition": "明末[1621-1644]"
+      }
+    }
+  ],
+  "resource_groups": {
+    "nlc-411999032305": {
+      "label": "國圖藏本：明末[1621-1644]"
+    }
+  }
 }
