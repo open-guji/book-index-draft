@@ -25,5 +25,45 @@
       "summary": "共 1 個版本：明末毛氏汲古閣刻本（遼寧省圖書館、國家圖書館、上海圖書館、天津圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ujos55cwu2k8xh34\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「毛晉」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE6 第 56 批新建（hold 清零：近名·体裁或范围不同（B），另立；对方 d59f2nlcfny8《唐人》；对方 id d59f2nlcfny8；原 hold 原因：near_dup）"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ujos55cwu2k8xh34\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「毛晉」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE6 第 56 批新建（hold 清零：近名·体裁或范围不同（B），另立；对方 d59f2nlcfny8《唐人》；对方 id d59f2nlcfny8；原 hold 原因：near_dup）",
+  "resources": [
+    {
+      "id": "nlc",
+      "group": "nlc-411999029038",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=411999029038",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "411999029038",
+        "edition": "明末[1621-1644]"
+      }
+    },
+    {
+      "id": "nlc",
+      "group": "nlc-411999028498",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=411999028498",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "411999028498",
+        "edition": "明末[1621-1644]"
+      }
+    }
+  ],
+  "resource_groups": {
+    "nlc-411999029038": {
+      "label": "國圖藏本：明末[1621-1644]"
+    },
+    "nlc-411999028498": {
+      "label": "國圖藏本：明末[1621-1644]"
+    }
+  }
 }

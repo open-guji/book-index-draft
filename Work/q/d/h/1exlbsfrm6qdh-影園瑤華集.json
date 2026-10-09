@@ -25,5 +25,45 @@
       "summary": "共 1 個版本：清乾隆二十七年鄭開基拜影樓刻本（上海圖書館、國家圖書館、南京圖書館、湖北省圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i3o0wo4ku1v5trto\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「鄭元勛」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE6 第 56 批新建（hold 清零：近名·体裁或范围不同（B），另立；对方 d59fs7ss71tu《影園集》；对方 id d59fs7ss71tu；原 hold 原因：near_dup）"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i3o0wo4ku1v5trto\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「鄭元勛」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE6 第 56 批新建（hold 清零：近名·体裁或范围不同（B），另立；对方 d59fs7ss71tu《影園集》；对方 id d59fs7ss71tu；原 hold 原因：near_dup）",
+  "resources": [
+    {
+      "id": "nlc",
+      "group": "nlc-412000013231",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=412000013231",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "412000013231",
+        "edition": "清乾隆27年[1762]"
+      }
+    },
+    {
+      "id": "nlc",
+      "group": "nlc-411999032233",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=411999032233",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "411999032233",
+        "edition": "清乾隆27年[1762]"
+      }
+    }
+  ],
+  "resource_groups": {
+    "nlc-412000013231": {
+      "label": "國圖藏本：清乾隆27年[1762]"
+    },
+    "nlc-411999032233": {
+      "label": "國圖藏本：清乾隆27年[1762]"
+    }
+  }
 }

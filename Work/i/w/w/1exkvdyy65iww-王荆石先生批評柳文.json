@@ -47,5 +47,27 @@
       "rule": "E6 批52 同题同作者跨类重复新建",
       "why": "批52 按级别分跑，同题名同作者的 Work 在不同级别各建一部，并回较早铸号者"
     }
-  ]
+  ],
+  "resources": [
+    {
+      "id": "nlc",
+      "group": "nlc-411999020170",
+      "group_role": "origin",
+      "name": "中華古籍資源庫（國家圖書館）",
+      "short_name": "國圖",
+      "url": "http://read.nlc.cn/allSearch/searchDetail?searchType=10024&showType=1&indexName=data_892&fid=411999020170",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "nlc_fid": "411999020170",
+        "edition": "明[1368-1644]"
+      }
+    }
+  ],
+  "resource_groups": {
+    "nlc-411999020170": {
+      "label": "國圖藏本：明[1368-1644]"
+    }
+  }
 }
