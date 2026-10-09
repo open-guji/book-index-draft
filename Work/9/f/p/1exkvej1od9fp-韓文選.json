@@ -27,7 +27,25 @@
       "author_info": "唐韓愈撰",
       "section": "集部/總集類/叢編之屬/分體",
       "summary": "共 2 個版本：（國家圖書館）；（國家圖書館）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "韓文選二卷",
+      "author_info": "唐韓愈撰;清陳兆崙選",
+      "section": "集部/別集類/唐五代之屬",
+      "summary": "共 3 個版本：陳太僕評選唐宋八家文讀本（馆藏未载）；陳太僕批選八家文鈔本（馆藏未载）；明天啓二年閩莆陳氏刻本（北京大學圖書館）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5v2z20eqmqkm3ay0、byleewhamngsk063\nE6 第 52 批新建（hold 清零：N2近名·different；原 hold 原因：near_dup:d59f28k2xm9v(prod) 韓文 sim=1.00｜本条 韓文選｜near_dup·待合并）"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5v2z20eqmqkm3ay0、byleewhamngsk063\nE6 第 52 批新建（hold 清零：N2近名·different；原 hold 原因：near_dup:d59f28k2xm9v(prod) 韓文 sim=1.00｜本条 韓文選｜near_dup·待合并）\n\n2026-10-09 lane-B 併條（rule=E6 批54 同题同作者跨级别重复新建）：併 1exlan8xor7y8《韓文選》 入本條。批54 按级别分跑，同题名同作者的 Work 在不同级别各建一部或与较早批次已建者重复，并回较早铸号者",
+  "merged_in": [
+    {
+      "id": "1exlan8xor7y8",
+      "title": "韓文選",
+      "at": "2026-10-09T16:14:57Z",
+      "by": "lane-B",
+      "rule": "E6 批54 同题同作者跨级别重复新建",
+      "why": "批54 按级别分跑，同题名同作者的 Work 在不同级别各建一部或与较早批次已建者重复，并回较早铸号者"
+    }
+  ]
 }
