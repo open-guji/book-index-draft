@@ -7,7 +7,7 @@
     {
       "name": "程羽文",
       "role": "撰",
-      "dynasty": "清",
+      "dynasty": "明",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,6 +15,10 @@
       }
     }
   ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -25,5 +29,5 @@
       "summary": "共 6 個版本：（國家圖書館）；（清華大學圖書館、上海圖書館）；八公遊戲叢談本（馆藏未载）；水邊林下本（馆藏未载）；（國家圖書館、北京大學圖書館）；雪堂韻史本（馆藏未载）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bglb4moyqhh6btv6、ndatkcdmbd464qx2、gaqx4foppml347en、u3nri6rtwnp5ioaz、yc7mllwcv14df1fh、4nd88nz6tazmdx1z\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「程羽文」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bglb4moyqhh6btv6、ndatkcdmbd464qx2、gaqx4foppml347en、u3nri6rtwnp5ioaz、yc7mllwcv14df1fh、4nd88nz6tazmdx1z\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「程羽文」朝代在各版本／contMap 與題名行之間不一致，朝代原未寫；#576 同名異代修正：據總目題名行補為「明」（Sylvie 抽核確認）"
 }
