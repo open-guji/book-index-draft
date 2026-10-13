@@ -7,7 +7,7 @@
     {
       "name": "釋詮明",
       "role": "撰",
-      "dynasty": "五代",
+      "dynasty": "遼",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -25,5 +25,9 @@
       "summary": "共 1 個版本：遼刻本（山西省應縣木塔文物保管所）"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：c70hegvmp8kx2isy\n主責任者「釋詮明」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：c70hegvmp8kx2isy\n主責任者「釋詮明」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n人工校正（G 道 Sage，Marlowe 审计指出）：authors[0].dynasty 校为「遼」并补 period。",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「遼」",
+  "dynasty": "遼",
+  "dynasty_basis": "author_propagation"
 }
