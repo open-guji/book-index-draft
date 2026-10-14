@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exnlbixnvgga",
+  "type": "work",
+  "title": "吳氏家譜",
+  "authors": [
+    {
+      "name": "吳毅",
+      "role": "纂修",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xkr0llysd636c122"
+      }
+    },
+    {
+      "name": "吳鼎科",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xto88ne2rpgnqi12"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "吳氏家譜不分卷至德志十卷附錄一卷",
+      "author_info": "清吳毅等纂修;（至德志、附錄）清吳鼎科等輯",
+      "section": "史部/譜牒類",
+      "summary": "共 1 個版本：清光緒二年刻本（日本東京大學東洋文化研究所）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8klbfnk88yi4joqp\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+}
