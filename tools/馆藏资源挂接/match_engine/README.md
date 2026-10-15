@@ -6,13 +6,19 @@
 ```
 pip install opencc-python-reimplemented pytest
 export DYNASTY_KEYS=<dynasty_reign_keys.json 路径>          # 朝代键表（Edwin #580 维护；记版本）
-python3 engine.py --source nlc|kokusho|ndl \
-   --works-root <book-index 根> --data-root <library_data 根> --overview-root <overview 根> \
+python3 engine.py --source nlc|kokusho|ndl|naikaku|waseda \
+   --works-root <book-index 正式仓根> --data-root <library_data 根> \
+   [--overview-root <overview 根，仅在默认数据目录无文件时回退旧路径>] \
+   [--ledger-dir DIR] [--plan-dir DIR] [--mapping 政权映射.tsv] \
    --out DIR [--emit-write-plan] [--limit N]
 python3 plancheck.py --source X --works-root … --dir DIR     # 写计划校验与库内比对；默认含 R1–R3/R7 占用检查（命中退出码 3，--no-occupancy 跳过）
 python3 regress.py --source X --new DIR/matches.tsv --old <旧匹配表> --gold gold/X.tsv --out REG   # 新旧回归
-python3 -m pytest -q tests                                   # 187 条
+python3 -m pytest -q tests                                   # 280 条
 ```
+**works-root 必须是正式库 open-guji/book-index（不是 draft；ID 空间不同）。**
+环境变量：`DYNASTY_KEYS`（朝代键表）、`MATCH_VARIANTS`、`FILES_OUT`、`BOOK_INDEX_ROOT`。
+默认数据目录 `tools/馆藏资源挂接/data/`（dupx 同题异作者清单、合刻组白名单、朝代差集、冲突字对、K13④排除名单、判据缓存）；`--plan-dir`／`--ledger-dir` 可覆盖。plancheck 的 `--cache` 无默认值，传 `data/判据缓存`。
+
 每源约 1 分钟（4 核以内，<8 GB）。输出：`matches.tsv`（列见 `engine.py` COLS）、`stats.json`、`config_used.json`（含 engine_version、Work 索引条数）、可选 `write_plan.jsonl`／`linked_draft.jsonl`。
 
 ## 模块
@@ -30,4 +36,4 @@ T_EXACT（题名全等）∧ A_EQ（责任者相合）∧ W_UNIQUE（唯一 Work
 6. 写 `tests/`（适配器解析、每个降级码的用例），跑 `pytest`；在 #583 贴数字，让 E 块独立跑一遍、`matches.tsv` diff 为空。
 
 ## 约定与红线
-不改 schema；匹配表等大文件不进仓；凭据不进仓；只写确定档，存疑不写；内閣文庫尚无适配器。
+不改 schema；匹配表等大文件不进仓；凭据不进仓；只写确定档，存疑不写。已有适配器：nlc／kokusho／ndl／naikaku／waseda；另有 `authorgate`（责任者闸）、`plancheck`（写计划校验与占用检查，K9 每 Work 最多 3 条藏本）。
