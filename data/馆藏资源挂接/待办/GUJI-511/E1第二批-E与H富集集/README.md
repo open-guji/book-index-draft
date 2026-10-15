@@ -3,3 +3,10 @@
 - `Rhea圈集-176.tsv`：stratum、source_record_id、rule_work_id、国图 url、站方题名/责任者（Everett 用来对齐口径差）。
 - `Rhea已抓国图页-175.tsv`：已抓取的国图页面文字（序号、source_record_id、题名、责任者、版本项…），供人核；少 1 行待补。
 - 负责人：Rhea；Everett 对口径；清理条件：E1 第二批补丁合并后归档。
+
+## 占用剔除（Everett，2026-10-15 洛杉矶）
+输入：`Rhea圈集-176.tsv`（Rhea 口径为准，Everett 复现 181 条、差异不扩集）。工具：`tools/馆藏资源挂接/e1b_occupancy.py`（match_engine exclusions：R2/R3/R7 台账＋dupx；R1 缺失/并条/升级；已落库；K9 每 Work≤3 条 nlc 藏本）。Work 库：book-index main e5248cb205d9。
+- `圈集-占用剔除后-144.tsv`：保留 144 行（进 Rhea 人核）。
+- `圈集-占用剔除-32.tsv`：剔除 32 行，原因列：K9超容 28、R7 2、R2 2。
+- **K9 说明**：此处按「库内 nlc 藏本数＋本批同 Work 按记录号序累计 >3」标超容，**未按取舍序（影像＞版本明确＞卷数）排名**；超容 28 行里同 Work 多条（穆參軍集、道園學古錄、新刊補注釋文黃帝內經素問 等）最终取哪 3 条由进 write_plan 时 writeplan.rank_key 定，Rhea 人核时可对这些 Work 挑选。
+- 未出 write_plan（待人核＋Ruth 盲抽过闸）。
