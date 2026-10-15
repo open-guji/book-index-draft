@@ -56,13 +56,13 @@ def default_plan_dir(overview_root=None):
 
 def default_paths(overview_root):
     pd = default_plan_dir(overview_root)
-    return (os.path.join(overview_root, '项目进展', '古籍目录', '进度'),
+    return (os.path.join(overview_root, '项目进展', '古籍目录', '进度') if overview_root else None,
             os.path.join(pd, 'dupx-同题异作者清单.tsv') if pd else None)
 
 
 def load_exclusions(overview_root, known_ids=None, ledger_dir=None, dupx=None):
     """ledger_dir／dupx 显式给出时优先；缺省按 overview_root 的旧路径（GUJI-361 参数化，默认行为不变）。"""
-    dl, dd = default_paths(overview_root) if overview_root else (None, None)
+    dl, dd = default_paths(overview_root)
     ledger_dir, dupx = ledger_dir or dl, dupx or dd
     ex = collections.defaultdict(set)
     for part in (load_ledgers(ledger_dir, known_ids) if ledger_dir else {}, load_dupx(dupx) if dupx else {}):
