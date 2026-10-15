@@ -82,7 +82,9 @@ class Matcher:
         if not rows:
             rows, via = self.by_norm.get(norm_key(q), []), "norm"
         if subtype:
-            rows = [r for r in rows if r["subtype"] == subtype]
+            # 官署名常同时作为 collective（机构／群体）入库：查 office 时一并查 collective（GUJI-509 对稿）
+            ok = {subtype, "collective"} if subtype == "office" else {subtype}
+            rows = [r for r in rows if r["subtype"] in ok]
         if not rows:
             tomb = [t for t in self.tomb_names.get(norm_key(q), [])
                     if not subtype or (self.by_id.get(t["final_id"]) or {}).get("subtype", subtype) == subtype]
