@@ -6,3 +6,7 @@
 - `设计/`：分块设计（A/B/C/D/E1/R1–R5/B修）。属历史设计记录，现状以 Jira 卡与口径为准。
 
 后续批次：已落库批次证据（打包 `archive/`）、引擎数据与脚本（`tools/馆藏资源挂接/`）。
+
+## 第二批（GUJI-361）
+- `匹配/`：资源搜索匹配（来自 overview `项目进展/古籍目录/资源搜索匹配/`）——README 为各源覆盖总表，另有批量匹配方案、维基文库三份、Commons、Internet Archive、四库存目丛书目录。
+- `tools/馆藏资源挂接/stat-work-resources.py`：Work 资源覆盖统计脚本。文件内的用法行仍写旧路径 `古籍索引网站/…`，实际用法：`python tools/馆藏资源挂接/stat-work-resources.py [--index-root PATH] [--by-juan]`。
