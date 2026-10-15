@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""文本侧专名匹配（GUJI-394 后续·草案，接口说明见 docs/entity-build/文本侧匹配接口.md）。
+"""文本侧专名匹配（GUJI-509 草案，接口说明见 docs/entity-build/文本侧匹配接口.md）。
 
 只依赖 export_keytable.py 的输出目录（键表.tsv／重定向表.tsv），标准库即可。
 
