@@ -56,7 +56,7 @@ def run(source, works_root, data_root, out, overview_root=None, limit=None, keys
     wi = workindex.build_from_root(works_root, jp=prof.jp, with_entities=prof.alias)
     res = workindex.Resources.scan(works_root)
     dupx = os.path.join(plan_dir, 'dupx-同题异作者清单.tsv') if plan_dir else None
-    ex = exclusions.load_exclusions(overview_root, set(wi.works), ledger_dir, dupx) if (overview_root or ledger_dir or dupx) else {}
+    ex = exclusions.load_exclusions(overview_root, set(wi.works), ledger_dir, dupx)
     ver = engine_version(pol)
     rows = []
     for r in recs:
