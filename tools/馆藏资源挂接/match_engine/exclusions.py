@@ -44,9 +44,20 @@ def load_dupx(tsv):
     return out
 
 
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')   # tools/馆藏资源挂接/data（GUJI-361 切换后的真源）
+
+
+def default_plan_dir(overview_root=None):
+    """dupx／合刻组白名单等计划类数据所在目录：本仓 tools/馆藏资源挂接/data 优先，缺则回退 overview 旧路径。"""
+    if os.path.exists(os.path.join(DATA_DIR, 'dupx-同题异作者清单.tsv')) or os.path.exists(os.path.join(DATA_DIR, '合刻组白名单.tsv')):
+        return DATA_DIR
+    return os.path.join(overview_root, '项目进展', '馆藏资源挂接', '计划') if overview_root else None
+
+
 def default_paths(overview_root):
+    pd = default_plan_dir(overview_root)
     return (os.path.join(overview_root, '项目进展', '古籍目录', '进度'),
-            os.path.join(overview_root, '项目进展', '馆藏资源挂接', '计划', 'dupx-同题异作者清单.tsv'))
+            os.path.join(pd, 'dupx-同题异作者清单.tsv') if pd else None)
 
 
 def load_exclusions(overview_root, known_ids=None, ledger_dir=None, dupx=None):

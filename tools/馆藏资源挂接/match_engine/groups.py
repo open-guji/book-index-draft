@@ -46,9 +46,11 @@ def load_whitelist(overview_root, plan_dir=None):
     """合刻组白名单（Sabine 维护，overview 计划/合刻组白名单.tsv）→ {(site, group_key): {work_id...} 或 空集＝不限}。"""
     import os
     out = {}
-    if not overview_root and not plan_dir:
+    from exclusions import default_plan_dir
+    plan_dir = plan_dir or default_plan_dir(overview_root)
+    if not plan_dir:
         return out
-    f = os.path.join(plan_dir or os.path.join(overview_root, '项目进展', '馆藏资源挂接', '计划'), '合刻组白名单.tsv')
+    f = os.path.join(plan_dir, '合刻组白名单.tsv')
     if not os.path.exists(f):
         return out
     for line in open(f, encoding='utf-8'):

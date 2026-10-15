@@ -132,3 +132,17 @@ def test_explicit_dirs_override_overview_root(tmp_path):
     pd.mkdir()
     (pd / '合刻组白名单.tsv').write_text('g1\tkokusho\tW1,W2\n', encoding='utf-8')
     assert groups.load_whitelist(None, str(pd)) == {('kokusho', 'g1'): {'W1', 'W2'}}
+
+
+def test_default_plan_dir_prefers_repo_data(tmp_path, monkeypatch):
+    """GUJI-361 切换：tools/馆藏资源挂接/data 有 dupx／白名单时优先，缺则回退 overview 旧路径。"""
+    d = tmp_path / 'data'
+    d.mkdir()
+    monkeypatch.setattr(exclusions, 'DATA_DIR', str(d))
+    ov = str(tmp_path / 'ov')
+    assert exclusions.default_plan_dir(ov) == os.path.join(ov, '项目进展', '馆藏资源挂接', '计划')
+    (d / '合刻组白名单.tsv').write_text('g1\tkokusho\tW1\n', encoding='utf-8')
+    assert exclusions.default_plan_dir(ov) == str(d)
+    import groups
+    assert groups.load_whitelist(None) == {('kokusho', 'g1'): {'W1'}}
+    assert exclusions.default_paths(ov)[1] == os.path.join(str(d), 'dupx-同题异作者清单.tsv')
