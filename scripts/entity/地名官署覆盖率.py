@@ -8,8 +8,8 @@
   （主名或 alt_names 命中）。
 - 地名（新口径）：分母＝被 live 人物 native_place 引用、且（草稿或正式库已有同名地名，或引用人数≥T）的去重地名；
   分子＝其中在正式库 live place 有同名者。另给 T=10/20/50 的敏感度。
-- 官署：分母＝草稿库 office_level=concrete 的条数；分子＝正式库 live office_level=concrete 的条数；
-  再给按主名核对的交集（校验分子均在分母内）。概念条（concept）不计。
+- 官署：分母＝草稿库 concrete 条 ∪ 正式库 live concrete 中主名不在草稿 concrete 内者（分子未必⊂草稿，
+  并集才保证 分子≤分母）；分子＝正式库 live office_level=concrete 的条数。概念条（concept）不计。
 live＝type=entity 且无 merged_into 的条目。
 """
 import collections
@@ -75,12 +75,13 @@ def main(live_repo, draft_repo, t=20):
             if n:
                 np_cnt[n] += 1
     known = live_place_names | draft_place_all
+    print("[地名·新口径] 注：籍贯为自由文本、按名字全等匹配，未做别名／同名异地归并，结果为上界")
     print(f"[地名·新口径] live 人物有籍贯：{sum(np_cnt.values())} 条，去重名 {len(np_cnt)}")
     for tt in sorted({10, t, 50}):
         den = [n for n, c in np_cnt.items() if n in known or c >= tt]
         num = [n for n in den if n in live_place_names]
         tag = "（默认）" if tt == t else ""
-        print(f"  T={tt}{tag}：{pct(len(num), len(den))}"
+        print(f"  T={tt}{tag}：{pct(len(num), len(den))}【上界】"
               f"（A 档 草稿/正式库已有且被引用 {sum(1 for n in np_cnt if n in known)}，"
               f"C 档 无草稿且≥T {sum(1 for n, c in np_cnt.items() if n not in known and c >= tt)}）")
 
@@ -93,9 +94,10 @@ def main(live_repo, draft_repo, t=20):
     in_draft = sum(1 for e in live_off if e.get("primary_name") in draft_off_names)
     concept_live = sum(1 for e in live if e.get("subtype") == "office" and e.get("office_level") == "concept")
     print(f"[官署] 草稿 concrete={len(draft_off)}；live concrete={len(live_off)}（另 live concept {concept_live}，不计）")
-    print(f"  建档率：{pct(len(live_off), len(draft_off))}")
-    print(f"  校验：live concrete 中主名在草稿 concrete 内 {in_draft}/{len(live_off)}"
-          f"（余 {len(live_off) - in_draft} 条不在草稿内，说明分子未必 ⊂ 分母）")
+    extra = len(live_off) - in_draft
+    den = len(draft_off) + extra
+    print(f"  分母＝草稿 concrete {len(draft_off)} ＋ live 中不在草稿内者 {extra} ＝ {den}")
+    print(f"  建档率：{pct(len(live_off), den)}")
 
 
 if __name__ == "__main__":
