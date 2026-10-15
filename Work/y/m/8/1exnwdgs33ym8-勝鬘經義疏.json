@@ -20,6 +20,32 @@
   "juan_count": {
     "number": 3
   },
-  "ai_note": "2026-10-15 Sloane 據馆藏资源线 K14 口径新建（Sabine 排定）：國書書誌 300093284 題「勝鬘經義疏」，責任者「（劉宋）求那跋陀羅 訳；上宮皇太子（聖徳太子）註」，故作者記聖德太子（日本）；Sabine 初擬隋吉藏，經核書誌更正（吉藏所作為《勝鬘寶窟》，另書）。聖德太子 Entity 庫中無，**Entity 待建**（歸實體隊），authors 暫只寫名；日本作者 dynasty 依庫例作「日本」，period 留空。為義疏，非經本文，故不挂經本文 Work d59f7z475rew。查重範圍：book-index 與 book-index-draft 兩庫 Work 題名/作者檢索，未見同書（現有竺慧超勝鬘經注為別書）。依據：國書書誌 300093284（https://kokusho.nijl.ac.jp/biblio/300093284）。資源與 Book 不歸本 PR。",
-  "updated_at": "2026-10-15T00:00:00+00:00"
+  "ai_note": "2026-10-15 Sloane 據馆藏资源线 K14 口径新建（Sabine 排定）：國書書誌 300093284 題「勝鬘經義疏」，責任者「（劉宋）求那跋陀羅 訳；上宮皇太子（聖徳太子）註」，故作者記聖德太子（日本）；Sabine 初擬隋吉藏，經核書誌更正（吉藏所作為《勝鬘寶窟》，另書）。聖德太子 Entity 庫中無，**Entity 待建**（歸實體隊），authors 暫只寫名；日本作者 dynasty 依庫例作「日本」，period 留空。為義疏，非經本文，故不挂經本文 Work d59f7z475rew。查重範圍：book-index 與 book-index-draft 兩庫 Work 題名/作者檢索，未見同書（現有竺慧超勝鬘經注為別書）。依據：國書書誌 300093284（https://kokusho.nijl.ac.jp/biblio/300093284）。資源與 Book 不歸本 PR。\n\n2026-10-14 R3 馆藏挂接：按确定档补挂 國書 1 条（影像）。依据见 overview 馆藏资源挂接/计划/R3-首批核对报告-Rowan.md。",
+  "updated_at": "2026-10-15T00:00:00+00:00",
+  "resources": [
+    {
+      "id": "kokusho",
+      "group": "kokusho-300093284",
+      "group_role": "origin",
+      "name": "國書データベース（國文學研究資料館）",
+      "short_name": "國書",
+      "url": "https://kokusho.nijl.ac.jp/biblio/300093284",
+      "types": [
+        "image"
+      ],
+      "metadata": {
+        "kokusho_bid": "300093284",
+        "edition": "刊 明治２８",
+        "holder": "東洋大哲学堂",
+        "iiif_manifest": "https://kokusho.nijl.ac.jp/biblio/300093284/manifest"
+      }
+    }
+  ],
+  "resource_groups": {
+    "kokusho-300093284": {
+      "label": "國書·東洋大哲学堂藏刊 明治２８"
+    }
+  },
+  "revision": "1.1.0",
+  "revised_at": "2026-10-14"
 }
