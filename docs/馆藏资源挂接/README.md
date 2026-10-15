@@ -10,3 +10,9 @@
 ## 第二批（GUJI-361）
 - `匹配/`：资源搜索匹配（来自 overview `项目进展/古籍目录/资源搜索匹配/`）——README 为各源覆盖总表，另有批量匹配方案、维基文库三份、Commons、Internet Archive、四库存目丛书目录。
 - `tools/馆藏资源挂接/stat-work-resources.py`：Work 资源覆盖统计脚本。文件内的用法行仍写旧路径 `古籍索引网站/…`，实际用法：`python tools/馆藏资源挂接/stat-work-resources.py [--index-root PATH] [--by-juan]`。
+
+## 第四批（GUJI-361）
+- `报告/`：D 块历史（步2–7、基线清单、独立复跑任务书）、B 修与 #583 收口、E1 group 补 label 总结、R1/R3 各馆数据统计与首批核对报告。
+- `工具说明/`：Reid／Everett 的巡检、判据库、crawler、bookget-py、内閣适配器说明，及抽样 10% 新判据统计。文件名前缀为原目录名。
+- `判据对照/`：各站内容判据对照表（nlc、kokusho、ndl、waseda、digital-archives-jp、npm、shidianguji）。
+- Reid 的 `全量-commons-Reid/`、`全量-wikisource-Reid/`（含 `ws_resolve_Silas.py`）整目录因脚本运行中且依赖相对路径，暂不迁，留 `data/馆藏资源挂接/待办/GUJI-370/`。
