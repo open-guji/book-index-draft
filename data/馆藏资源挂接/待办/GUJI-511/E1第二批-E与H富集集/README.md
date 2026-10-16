@@ -23,3 +23,7 @@
 - `E1b_write_plan.jsonl`：**71 行／53 Work**，plancheck.check_item 零错，每 Work 最多 3 条（含库内已有 nlc 藏本）。
 - `E1b_剔除与超容.tsv`：已落库、R1 缺失/并条、R2/R3/R7 占用、同 group 已在、K9 超容的行——**本次 0 行**（71 行全部通过）。K9 取舍序＝影像＞版本明确＞卷数＞记录号（writeplan.rank_key），本次无 Work 超容，无需取舍。
 - 终稿待 Rhea 25 行补盲核（Ruth 异 0 才写；有异则剔该行后重出）与用户放行；本草案不写库。
+
+## write_plan 终稿（Everett，2026-10-16 洛杉矶）：69 行／51 Work
+Ruth 补 25 盲核异 0，但 1560（d59f27x68n43）、1700（d59f2nl8dkow）两行存疑，按 Milo 条件①存疑行必排除，由 71 行剔除，**终稿 69 行**（`E1b_write_plan.jsonl`，sha 前缀 627b615ccdd9，plancheck.check_item 零错，每 Work≤3）。剔除登记在 `E1b_剔除与超容.tsv`。
+**不在 plan 内**：2642（朝代冲突存疑）、`E1b-暂缓-73.tsv` 的 73 行、1560、1700。
