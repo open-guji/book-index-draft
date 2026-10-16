@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo710pvo",
+  "type": "work",
+  "title": "常熟縣破山興福寺志",
+  "authors": [
+    {
+      "name": "許進益",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zwwo4f846y61qqtw"
+      }
+    },
+    {
+      "name": "程嘉燧",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/61demkm65a6w8rvh"
+      }
+    },
+    {
+      "name": "魏啓萬",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/we8iit45t0gi5wy7"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "常熟縣破山興福寺志四卷續志二卷",
+      "author_info": "明程嘉燧撰;清許進益參訂;（續志）清許進益、魏啓萬撰",
+      "section": "史部/地理類/專志之屬/寺觀",
+      "summary": "共 1 個版本：清抄本（上海圖書館、南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1ywixir7omyn10k7\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
+  "related_works": [
+    {
+      "id": "d59f2nkrtzwh",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「常熟縣破山興福寺志」（許進益、程嘉燧、魏啓萬）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

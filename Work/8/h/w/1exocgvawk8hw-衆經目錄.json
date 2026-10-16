@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exocgvawk8hw",
+  "type": "work",
+  "title": "衆經目錄",
+  "authors": [
+    {
+      "name": "釋法經",
+      "role": "撰",
+      "dynasty": "隋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/7w20zi08y0qrogsp"
+      }
+    }
+  ],
+  "dynasty": "隋",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「隋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "衆經目錄七卷",
+      "author_info": "隋釋法經撰",
+      "section": "史部/目錄類/專錄之屬",
+      "summary": "共 2 個版本：清劉氏味經書屋抄本（國家圖書館）；嘉興藏本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7o07o4pk0hhvy6f4、ovk6keccujqlbpnn\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-12.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））"
+}

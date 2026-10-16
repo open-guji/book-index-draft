@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo7bbjsw",
+  "type": "work",
+  "title": "廣輿記",
+  "authors": [
+    {
+      "name": "蔡方炳",
+      "role": "增輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/3f21tqnidfvtch2h"
+      }
+    },
+    {
+      "name": "陸應陽",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0byascql44doe88n"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "廣輿記二十四卷",
+      "author_info": "明陸應陽輯;清蔡方炳增輯",
+      "section": "史部/地理類/總志之屬",
+      "summary": "共 6 個版本：清康熙四十六年刻本（四川省圖書館、上海圖書館、山東省圖書館）；清康熙間刻本（山東省圖書館、浙江圖書館）；清乾隆九年四美堂刻本（上海圖書館、山東省圖書館）；清康熙間刻本（浙江圖書館）；清乾隆十五年三畏堂刻本（山東省圖書館、浙江圖書館）；清道光四年體元堂刻本（山東省圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yh2ccuide86t7iqb、vqr5f3f6wbqgdkp2、8p6l5v5r8ip7mtz3、f0v1fzbts24dwxk0、u46l41101px1n31q、xg8mg37gjakzarc2\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "d59f2mdhwgld",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「廣輿記」（蔡方炳）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

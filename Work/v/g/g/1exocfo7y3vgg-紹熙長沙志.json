@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo7y3vgg",
+  "type": "work",
+  "title": "紹熙長沙志",
+  "authors": [
+    {
+      "name": "褚孝錫",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/n55oehrxmxo7ujbb"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "紹熙長沙志一卷",
+      "author_info": "宋褚孝錫撰;清陳運溶輯",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 1 個版本：麓山精舍叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：812o0ho0ejryq4np\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条1卷，目标52卷）））",
+  "related_works": [
+    {
+      "id": "d59f2hg1hn9e",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「紹熙長沙志」（褚孝錫）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条1卷，目标52卷））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

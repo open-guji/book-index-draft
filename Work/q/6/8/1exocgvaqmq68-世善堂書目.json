@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocgvaqmq68",
+  "type": "work",
+  "title": "世善堂書目",
+  "authors": [
+    {
+      "name": "陳第",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/y3urnzjdbkgqqhyp"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "世善堂書目二卷",
+      "author_info": "明陳第藏並撰",
+      "section": "史部/目錄類/總錄之屬/私藏",
+      "summary": "共 6 個版本：書目叢鈔五種本（馆藏未载）；民國二十五年常熟瞿氏鐵琴銅劍樓抄本（北京大學圖書館）；知不足齋叢書本（馆藏未载）；叢書集成初編本（馆藏未载）；清抄本（國家圖書館）；清抄本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：h352pu7gs7n1r10f、sz3nq0qccqpu606i、ljf1oznhgh50l5x6、lkkbd34sfrie7l33、6t5c24qmxjbo0h8a、mekj1abcy7clfcqi\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "d59f2nkbwwe8",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「世善堂書目」（陳第）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
