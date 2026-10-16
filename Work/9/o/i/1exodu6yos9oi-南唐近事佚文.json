@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exodu6yos9oi",
+  "type": "work",
+  "title": "南唐近事佚文",
+  "authors": [
+    {
+      "name": "鄭文寶",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/i5ob8kp0geitond1"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "南唐近事佚文一卷",
+      "author_info": "宋鄭文寶撰;清王仁俊輯",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 1 個版本：經籍佚文本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lz4zzksksphampu6\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：朝代不同）",
+  "related_works": [
+    {
+      "id": "d59f2hcnfuv4",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「南唐近事佚文」（鄭文寶）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

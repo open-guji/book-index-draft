@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exodp5n74glc",
+  "type": "work",
+  "title": "唐鑑",
+  "authors": [
+    {
+      "name": "范祖禹",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xxyaiue37usd7eix"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐鑑二卷",
+      "author_info": "宋范祖禹撰",
+      "section": "史部/史評類/議論之屬",
+      "summary": "共 1 個版本：史論彙函甲編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vf1i2j4qunujhlyv\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：卷差>1）",
+  "related_works": [
+    {
+      "id": "1exoas8x7gmbk",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「唐鑑」（范祖禹）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    },
+    {
+      "id": "d59f2hpi1jwg",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「唐鑑」（范祖禹）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

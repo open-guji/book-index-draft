@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exodngxma1hc",
+  "type": "work",
+  "title": "三輔決錄",
+  "authors": [
+    {
+      "name": "趙岐",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/n5vjjbpd0tnkfqob"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "三輔決錄二卷",
+      "author_info": "漢趙岐撰;晉摯虞注;清張澍輯",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 10 個版本：知服齋叢書本（馆藏未载）；二酉堂叢書本（馆藏未载）；關中叢書本（馆藏未载）；黃氏逸書考本（馆藏未载）；五朝小說大觀本（馆藏未载）；古今說部叢書本（馆藏未载）；漢學堂叢書本（馆藏未载）；五朝小說本（馆藏未载）；說郛本（馆藏未载）；十種古逸書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bnbp3qtzesn1f6mw、6mdtb8qept6xg4e0、f0pyy22yej8wsgyg、rl4wj8a8psud0lwc、4erhz0d8l6sgzvhl、aavt3hxu0wze7ylb、t5i2sln1g42sihty、mdywvo3oddbya8dv、sc3iv065qpde63qv、zufmepq2ihqu23wv\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：朝代不同）",
+  "related_works": [
+    {
+      "id": "d59f23jgl6o0",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「三輔決錄」（趙岐）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
