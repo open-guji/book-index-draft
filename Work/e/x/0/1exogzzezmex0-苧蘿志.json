@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exogzzezmex0",
+  "type": "work",
+  "title": "苧蘿志",
+  "authors": [
+    {
+      "name": "路邁",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/tmzpx270i8npim51"
+      }
+    },
+    {
+      "name": "張夬",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/h2cryowh26xm14ri"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "苧蘿志八卷",
+      "author_info": "明張夬、路邁輯",
+      "section": "史部/地理類/專志之屬/古蹟",
+      "summary": "共 1 個版本：明崇禎間刻本（浙江圖書館、上海圖書館、國家圖書館、北京大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pzw6ooh2twsd52c4\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋rela）",
+  "related_works": [
+    {
+      "id": "d59f6enzw54x",
+      "relation": "related",
+      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「苧蘿志」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
+    }
+  ]
+}
