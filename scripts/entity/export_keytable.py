@@ -7,7 +7,7 @@
 
 只读 <book-index>/Entity/**/*.json，写 <输出目录>/ 下：
   键表.tsv     key, entity_id, primary_name, subtype, key_kind, dynasty, cand_n, norm_key, norm_cand_n,
-               works（Work.authors[].entity_id 反查的作品名，;连接，截断）, life（生-卒）, native_place, period
+               works（Work.authors[].entity_id 反查的作品名，;连接，截断）, life（生-卒）, native_place, period, flags（单字键：dynasty/reign 为 dynasty_ctx，其余 weak）
                dynasty：people 取 dynasty；place/office/reign 由 dynasty_id(s)／history 推出（多朝以「／」连接）；
                period：实体自带，否则由 dynasty 名对应的朝代实体 period 推出（唯一时）
   重定向表.tsv  old_id, status(merged|promoted|retired), final_id, old_name
@@ -204,11 +204,13 @@ def main():
     with open(os.path.join(a.out, "键表.tsv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["key", "entity_id", "primary_name", "subtype", "key_kind", "dynasty",
-                    "cand_n", "norm_key", "norm_cand_n", "works", "life", "native_place", "period"])
+                    "cand_n", "norm_key", "norm_cand_n", "works", "life", "native_place", "period", "flags"])
         for name, eid, pn, st, kind, dyn, extra in keys:
             nk = norm_key(name)
             w.writerow([name, eid, pn, st, kind, dyn, len(owners[(st, name)]),
-                        nk, len(nowners[(st, nk)]), *extra])
+                        nk, len(nowners[(st, nk)]), *extra,
+                        # 单字键：朝代／年号仅朝代语境可配（dynasty_ctx），其余 weak（Soren 规则，GUJI-394）
+                        ("" if len(name) > 1 else "dynasty_ctx" if st in ("dynasty", "reign") else "weak")])
 
     redirects = []
     for eid, e in ents.items():

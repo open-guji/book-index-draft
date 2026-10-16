@@ -131,6 +131,10 @@ class Matcher:
         # 单字人名（失名条、字号残片）一律不自动挂（GUJI-509 对稿①）
         if len(q) == 1 and all(c["subtype"] == "people" for c in cands):
             return {"status": "weak", "via": via, "candidates": cands, "reason": "单字/失名条，勿自动挂"}
+        # 单字朝代／年号只在朝代语境可配：未指定 subtype=dynasty/reign 也没给朝代 → weak
+        if len(q) == 1 and all(c["subtype"] in ("dynasty", "reign") for c in cands) \
+                and subtype not in ("dynasty", "reign") and not dynasty:
+            return {"status": "weak", "via": via, "candidates": cands, "reason": "单字朝代/年号，仅朝代语境可配"}
         reason = ""
         if len(cands) == 1:
             status = "unique"
