@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17dk1ssm",
+  "type": "work",
+  "title": "古今長者錄",
+  "authors": [
+    {
+      "name": "蔣永",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/yzan0dy6b5ov8k1b"
+      }
+    },
+    {
+      "name": "丁明登",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/gyyp1488nfivtdcr"
+      }
+    },
+    {
+      "name": "王達",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/siqhp8n4d4jhgb3c"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "古今長者錄八卷附筆疇一卷讀書簡要一卷",
+      "author_info": "明丁明登撰;清彭士望閱;（筆疇）明王達撰;（讀書簡要）清蔣永撰",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 2 個版本：清乾隆七年曾洲刻本（上海圖書館）；清同治間刻本（遼寧省圖書館、上海圖書館、南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cv8ew0s7d53pdxdq、oxhsxx4av4m0no7b\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
+  "related_works": [
+    {
+      "id": "d59f2ndvoc90",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「古今長者錄」（蔣永、丁明登、王達）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

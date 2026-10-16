@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc20vut05c",
+  "type": "work",
+  "title": "盧龍塞畧",
+  "authors": [
+    {
+      "name": "郭造卿",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/38abml3iva5f522s"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "盧龍塞畧二十卷",
+      "author_info": "明郭造卿撰",
+      "section": "史部/政書類/軍政之屬/邊政",
+      "summary": "共 1 個版本：明萬曆間刻本（北京大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xrkou2468y28fkvq\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "related_works": [
+    {
+      "id": "d59f6enocd1i",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「盧龍塞畧」（郭造卿）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

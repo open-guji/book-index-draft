@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17e75czk",
+  "type": "work",
+  "title": "神仙傳",
+  "authors": [
+    {
+      "name": "葛洪",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ut0z80qru3am5k0t"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "神仙傳十卷",
+      "author_info": "晉葛洪撰",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 15 個版本：增訂漢魏叢書本（馆藏未载）；廣漢魏叢書本（馆藏未载）；道藏精華錄本（馆藏未载）；說庫本（馆藏未载）；龍威祕書本（馆藏未载）；四庫全書本（馆藏未载）；藝苑捃華本（馆藏未载）；舊小說本（馆藏未载）；夷門廣牘本（馆藏未载）；漢魏小說採珍本（馆藏未载）；五朝小說大觀本（馆藏未载）；五朝小說本（馆藏未载）；說郛本（馆藏未载）；玉函山房輯佚書續編本（馆藏未载）；景印元明善本叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6x7wr0nn4rpjbiyw、pyugrpj03a3ku0t7、04eac5n7emvpl18m、eqdsoz5zqcj5ly6o、az1tanrh8c3h8746、sfk8zjqeh3bp7vsi、le3gr4ihkl67yoir、6mtnnustqhshpc1c、ij6dkfnaboexhmw5、ka6ggz0rg1klvjzc、8465nbos0aawkbv4、ilizcbyei0y7xtp2、htmkgxmij8537p40、zt8hwpld3m7e0do4、aa4cqqpmfq52lzez\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "d59f27x6jvnm",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「神仙傳」（葛洪）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

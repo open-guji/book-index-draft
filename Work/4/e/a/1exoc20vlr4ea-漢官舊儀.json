@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc20vlr4ea",
+  "type": "work",
+  "title": "漢官舊儀",
+  "authors": [
+    {
+      "name": "衞宏",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/p6n1cfee2pzt0e0c"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "漢官舊儀二卷補遺一卷",
+      "author_info": "漢衞宏撰",
+      "section": "史部/政書類/職官之屬/官制",
+      "summary": "共 7 個版本：反約篇本（馆藏未载）；勵志齋叢書本（馆藏未载）；榕園叢書本（馆藏未载）；叢書集成初編本（馆藏未载）；武英殿聚珍版書本（馆藏未载）；清芬堂叢書本（馆藏未载）；四庫全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：12s6q132xhng0hb4、4aez7a751uon110p、637e0yux63p6eces、0u2b57udb22hjuiq、q4y1400cp74eihsr、1bd5zt64ocaygko7、pdi4k6faz3gbo2lh\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "related_works": [
+    {
+      "id": "d59f24m60jk2",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「漢官舊儀」（衞宏）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

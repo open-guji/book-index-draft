@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc3kry7apu",
+  "type": "work",
+  "title": "皇明肅皇外史",
+  "authors": [
+    {
+      "name": "范守己",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/sr2guii35n82x84o"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "皇明肅皇外史四十六卷",
+      "author_info": "明范守己撰;明王世貞訂訛",
+      "section": "史部/編年類/斷代之屬",
+      "summary": "共 7 個版本：明抄本（國家圖書館）；清津寄廬抄本（國家圖書館）；明范氏天一閣抄本（上海圖書館）；明萬曆間了醒亭抄本（北京大學圖書館）；清看雲憶弟居抄本（中國科學院圖書館）；民國二十九年武林葉氏抄本（上海圖書館）；明抄本（上海圖書館、北京大學圖書館、南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1vz1qtztnjcbslej、m5388r78wkdnj87b、aubxnpio73ifcely、ba0tzo304qvrbfzy、bferwzibyt4guosh、z3sp5n2c0g7r8zgr、tmrxy517fus7is0l\n責任者 role 異常未寫入：王世貞訂訛\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "d59f2njsvf28",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「皇明肅皇外史」（范守己）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

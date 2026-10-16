@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc52sfh1c6",
+  "type": "work",
+  "title": "歷官表奏",
+  "authors": [
+    {
+      "name": "嚴嵩",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/87czi15xrogirr0t"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "歷官表奏十二卷",
+      "author_info": "明嚴嵩撰",
+      "section": "史部/詔令奏議類/奏議之屬",
+      "summary": "共 2 個版本：明嘉靖二十三年自刻鈐山堂集本（北京大學圖書館、中央民族大學圖書館、國家圖書館）；清嘉慶十七年刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：e0xekzxxihxv2ash、pz25lo4uq770mrcn\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "related_works": [
+    {
+      "id": "d59f6et3fojr",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「歷官表奏」（嚴嵩）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

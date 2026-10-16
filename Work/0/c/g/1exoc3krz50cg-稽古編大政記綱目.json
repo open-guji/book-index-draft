@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc3krz50cg",
+  "type": "work",
+  "title": "稽古編大政記綱目",
+  "authors": [
+    {
+      "name": "姜寶",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/a1sq6zg2g5jkxsjm"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "稽古編大政記綱目八卷資治大政記綱目七十二卷",
+      "author_info": "明姜寶撰",
+      "section": "史部/編年類/通代之屬",
+      "summary": "共 1 個版本：明萬曆間江陽王氏丹陽姜氏遞刻本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：a2z7rtpp68jcx82y\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2ngj6y9v",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「稽古編大政記綱目」（姜寶）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

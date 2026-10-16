@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sp6jfnk",
+  "type": "work",
+  "title": "唐書",
+  "authors": [
+    {
+      "name": "劉昫",
+      "role": "撰",
+      "dynasty": "後晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/z665kcumxsnah2g2"
+      }
+    }
+  ],
+  "dynasty": "後晉",
+  "dynasty_basis": "author_propagation",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「後晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐書二百卷",
+      "author_info": "後晉劉昫等撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 6 個版本：宋紹興間兩浙東路茶鹽司刻本（國家圖書館）；二十四史本（馆藏未载）；明嘉靖十八年聞人詮刻萬曆十九年邵仲錄重修本（中國人民大學圖書館）；明嘉靖十八年聞人詮刻本（中共中央黨校圖書館、南京圖書館、北京大學圖書館、湖南省圖書館、甘肅省圖書館、國家圖書館、寧波市圖書館、上海圖書館）；明嗣雅堂抄本（上海圖書館）；百衲本二十四史本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yzs4nyfnf45oedcm、ni4lg4pv2wiw1hd7、qj3qibqxc3x67ixq、udnipbcfl7kl4wyy、5f7wug04cw3vxw7b、82xrw7cniu5u558d\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（宋≠晉）））",
+  "related_works": [
+    {
+      "id": "d59f2gcpwfsx",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「唐書」（劉昫）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（宋≠晉））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

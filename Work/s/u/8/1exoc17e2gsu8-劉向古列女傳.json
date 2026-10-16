@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17e2gsu8",
+  "type": "work",
+  "title": "劉向古列女傳",
+  "authors": [
+    {
+      "name": "劉向",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/68e7b1b4srpoffnv"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "劉向古列女傳七卷續一卷",
+      "author_info": "漢劉向撰;明黃魯曾贊",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 12 個版本：明嘉靖間朱景固刻本（南京圖書館）；四庫全書本（上海戲劇學院圖書館）；明萬曆三十四年文林閣唐錦池刻本（蘇州市圖書館、北京大學圖書館、國家圖書館、南京圖書館）；漢唐三傳本（國家圖書館、北京大學圖書館）；崇文書局彙刻書本（馆藏未载）；四部叢刊本（馆藏未载）；叢書集成初編本（馆藏未载）；明嘉靖三十一年刻（重慶市圖書館、臺灣圖書館、中央民族大學圖書館、國家圖書館）；古書叢刊本（吳縣圖書館）；文選樓叢書本（揚州市圖書館）；明刻本（國家圖書館）；明萬曆三十四年黃嘉育刻本（南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7z85pjr4nunov5qj、yrazyf4gi4ns16we、f2myiiuudierld48、zvlsd0by2nkttsd2、1h8518n0s123qxq2、kuex1ailui1v5z41、w1ik2dhm6mcerogi、8krs18qmxdyu3ho6、o0uazla5v0z3w6p0、44ayv7ru32vpff77、asyez8qv432f27ok、re4ejdziomvmhas3\n責任者 role 異常未寫入：黃魯曾贊\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2071hekg",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「劉向古列女傳」（劉向）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2souznk0",
+  "type": "work",
+  "title": "晉書校文",
+  "authors": [
+    {
+      "name": "丁國鈞",
+      "role": "撰",
+      "dynasty": "民國",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/nzkoz8m26tdmwmmh"
+      }
+    }
+  ],
+  "dynasty": "民國",
+  "dynasty_basis": "author_propagation",
+  "period": "modern",
+  "period_basis": "據 authors[0].dynasty「民國」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "晉書校文五卷",
+      "author_info": "丁國鈞撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 3 個版本：民國十四年常熟丁氏家刻本（上海圖書館）；稿本（國家圖書館）；常熟丁氏叢書本（常熟市圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：fk4l17qcot5tdi1q、cl655yndcmtc1qcl、8s2pmms6q4d4rtda\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（民國≠清）））",
+  "related_works": [
+    {
+      "id": "d59f2nbumosg",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「晉書校文」（丁國鈞）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（民國≠清））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

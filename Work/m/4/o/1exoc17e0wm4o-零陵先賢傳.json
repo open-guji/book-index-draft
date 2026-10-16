@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17e0wm4o",
+  "type": "work",
+  "title": "零陵先賢傳",
+  "authors": [
+    {
+      "name": "司馬彪",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/31c8vypmyz6a0of1"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "零陵先賢傳一卷",
+      "author_info": "晉司馬彪撰",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 4 個版本：說郛本（馆藏未载）；五朝小說本（馆藏未载）；麓山精舍叢書本（馆藏未载）；五朝小說大觀本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：por48hip6er0kxp2、gpdwrcflbjahnynw、2y3voa3pzsrpk6r0、4qkvodwhrg4k7ic1\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "1exnrlkg6sl4y",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「零陵先賢傳」（司馬彪）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

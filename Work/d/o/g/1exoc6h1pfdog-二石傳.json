@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc6h1pfdog",
+  "type": "work",
+  "title": "二石傳",
+  "authors": [
+    {
+      "name": "王度",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/byteqjogypqszicd"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "二石傳一卷",
+      "author_info": "晉王度撰;清湯球輯",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 2 個版本：叢書集成初編本（馆藏未载）；廣雅書局叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1e7dji4iqdwls8ev、dx3ootjl10wwxles\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "related_works": [
+    {
+      "id": "d59f27vj8sg3",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「二石傳」（王度）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

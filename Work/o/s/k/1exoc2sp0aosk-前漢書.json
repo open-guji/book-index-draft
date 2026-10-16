@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sp0aosk",
+  "type": "work",
+  "title": "前漢書",
+  "authors": [
+    {
+      "name": "班固",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/swr63kdmkwtb12rh"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "前漢書一百卷",
+      "author_info": "漢班固撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 12 個版本：明吳勉學刻本（上海圖書館、國家圖書館）；明嘉靖八至九年南京國子監刻清遞修（國家圖書館、天津圖書館、南京圖書館）；明萬曆二十五年北京國子監刻（山東省圖書館、南京圖書館、浙江圖書館、上海圖書館）；明德藩最樂軒刻本（上海圖書館、南京圖書館、天津圖書館、國家圖書館、北京大學圖書館）；二十五史本（馆藏未载）；摛藻堂四庫全書薈要本（馆藏未载）；四史本（馆藏未载）；二十四史本（馆藏未载）；清光緒三十三年上海華商集成圖書公司鉛印本（北京大學圖書館）；清光緒三十一年上海久敬齋石印本（北京大學圖書館）；四部備要本（馆藏未载）；四庫全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：fvsv0xfs3atodgz8、xvkjv4zk6emupavj、80s0l7040zbrro7i、lr2hc48h4oeudiwy、53ihwpf1yzeq7zcc、j2a43mi22c6kdjky、7gtymib7vwceaiz0、8c2p8o17uycb8an2、uy6ojltormwcpiwy、wo8symikb6ipz6n5、8myhjeq71by1s7j4、zjrm6x4n1izdgpyz\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u7d00\\u50b3\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u7d00\\u50b3\\u985e\", \"l3\": \"\\u65b7\\u4ee3\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-07.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
+  "related_works": [
+    {
+      "id": "d59f1iqd854w",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「前漢書」（班固）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
