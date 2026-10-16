@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo7h924i",
+  "type": "work",
+  "title": "晉劉澄之梁州記",
+  "authors": [
+    {
+      "name": "劉澄之",
+      "role": "撰",
+      "dynasty": "南北朝",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/lb8kkj4kwjkgstjc"
+      }
+    }
+  ],
+  "dynasty": "南北朝",
+  "dynasty_basis": "author_propagation",
+  "period": "nanbeichao",
+  "period_basis": "據 authors[0].dynasty「南北朝」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "晉劉澄之梁州記一卷",
+      "author_info": "南齊劉澄之撰;清黃奭輯",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 1 個版本：漢學堂知足齋叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：w1uodkq7d4w8ragj\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "related_works": [
+    {
+      "id": "d59f8ii3lpmu",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「晉劉澄之梁州記」（劉澄之）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

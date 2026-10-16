@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exochgncbpxc",
+  "type": "work",
+  "title": "皇朝通鑑長編紀事本末",
+  "authors": [
+    {
+      "name": "楊仲良",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ar0a1w3ax87efrgg"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "皇朝通鑑長編紀事本末一百五十卷（原缺卷六至七、卷一百十四至一百十九）",
+      "author_info": "宋楊仲良撰",
+      "section": "史部/紀事本末類/斷代之屬",
+      "summary": "共 4 個版本：紀事本末彙刻本（浙江圖書館）；清抄本（國家圖書館）；宛委别藏本（南京圖書館）；清乾隆四十年四十一年太倉王氏抄本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：itifcdnkjcdz12ku、hg4dimhg0mffn8ww、bm4bgqqq0ps5jxdm、tu7txkpzb40azrja\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2hsc45j5",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「皇朝通鑑長編紀事本末」（楊仲良）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

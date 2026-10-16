@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo7p1zpg",
+  "type": "work",
+  "title": "遼東行部志",
+  "authors": [
+    {
+      "name": "王寂",
+      "role": "撰",
+      "dynasty": "金",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/80m06ujigh38x7mm"
+      }
+    }
+  ],
+  "dynasty": "金",
+  "dynasty_basis": "author_propagation",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「金」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "遼東行部志一卷",
+      "author_info": "金王寂撰",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 4 個版本：藕香零拾本（馆藏未载）；遼海叢書本（馆藏未载）；清光緒間丁氏竹書堂抄本（南京圖書館）；晨風閣叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：uawokk5lgghteigz、h0ubcxq408kuxtn0、etz5f805ainr126e、pvigmuf7uskzw0ia\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（宋≠金）））",
+  "related_works": [
+    {
+      "id": "d59f2ghaei2o",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「遼東行部志」（王寂）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（宋≠金））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

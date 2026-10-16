@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocfo7nt1j4",
+  "type": "work",
+  "title": "李氏五種",
+  "authors": [
+    {
+      "name": "李兆洛",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/o7et4pim71cnggp5"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "李氏五種",
+      "author_info": "清李兆洛撰",
+      "section": "史部/地理類/叢編之屬",
+      "summary": "共 4 個版本：清光緒二十四年掃葉山房石印本（國家圖書館、天津圖書館、上海圖書館、南京圖書館、遼寧省圖書館）；清同治九至十一年李鴻章刻本（遼寧省圖書館、上海圖書館、天津圖書館、復旦大學圖書館、國家圖書館、南京圖書館、浙江圖書館、山東省圖書館、湖北省圖書館）；清光緒四年順德馬貞榆刻本（天津圖書館、浙江圖書館、首都圖書館）；清光緒十四年掃葉山房刻本（南京圖書館、國家圖書館、上海圖書館、山東省圖書館、浙江圖書館、遼寧省圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7btyz572h15pj1db、ogk0g221dhprsxe5、wg5jzo80w2skj6xb、knnjth4xglnkx6jb\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2n6bsirk",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「李氏五種」（李兆洛）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exocggy8mk8w",
+  "type": "work",
+  "title": "賞心樂事",
+  "authors": [
+    {
+      "name": "張鑑",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/8kh7sv0w4z36mfoc"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "賞心樂事一卷",
+      "author_info": "宋張鑑撰",
+      "section": "史部/時令類",
+      "summary": "共 6 個版本：雪堂韻史本（馆藏未载）；水邊林下本（馆藏未载）；叢書集成初編本（馆藏未载）；學海類編本（馆藏未载）；說郛續本（馆藏未载）；重訂欣賞編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：luorazrqkyepjiqx、r62fyr1ce77rbx3h、pinb6yzx2z31wghs、sn3ddkincmdoazm6、8zz2lrw1qycgj22w、iuqaij1bi0ztyxj2\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（清≠宋）））",
+  "related_works": [
+    {
+      "id": "d59f2hhld4hs",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「賞心樂事」（張鑑）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（清≠宋））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
