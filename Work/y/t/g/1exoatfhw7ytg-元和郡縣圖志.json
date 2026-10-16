@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfhw7ytg",
+  "type": "work",
+  "title": "元和郡縣圖志",
+  "authors": [
+    {
+      "name": "李吉甫",
+      "role": "纂修",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/23gnycyt6c3vfv1x"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "元和郡縣圖志四十卷",
+      "author_info": "唐李吉甫纂修",
+      "section": "史部/地理類/總志之屬",
+      "summary": "共 9 個版本：清吳氏拜經樓抄本（南京圖書館）；明抄本（天一閣文物保管所、國家圖書館、北京大學圖書館）；清乾隆三十四年錢氏通經樓抄本（國家圖書館）；清趙氏小山堂抄本（復旦大學圖書館）；清抄本（浙江圖書館）；清抄本（國家圖書館、湖北省圖書館、山東省圖書館、上海圖書館、中國科學院圖書館）；清桂香書屋刻本（山東省圖書館）；清初抄本（山東省圖書館、國家圖書館、南京圖書館）；清陳樹華抄本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vhvremramjjidjpp、hfl2nyqr4ooq07y6、8piv3xrg7vxichgr、4qlncahvifb427bu、cjv41p60lp6oekj2、v1w6704nkdj2wfob、pirgajakfjkiyg75、ualshwbq8yfcojac、l5ulk8053aaiyt7f\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条40卷，目标54卷））",
+  "related_works": [
+    {
+      "id": "d59f28k0fpxh",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「元和郡縣圖志」（李吉甫）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条40卷，目标54卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

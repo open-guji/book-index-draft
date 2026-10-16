@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoau4xfkfsw",
+  "type": "work",
+  "title": "御史臺記",
+  "authors": [
+    {
+      "name": "韓琬",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/orom73l17l3a8mez"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "御史臺記一卷",
+      "author_info": "唐韓琬撰",
+      "section": "史部/政書類/職官之屬/官制",
+      "summary": "共 2 個版本：舊小說本（馆藏未载）；說郛本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：d62qjrrtj513nvuf、pxx428ibgmol0k3p\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标12卷））",
+  "related_works": [
+    {
+      "id": "d59f28kf3vgi",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「御史臺記」（韓琬）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标12卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

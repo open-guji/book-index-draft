@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfhihix1",
+  "type": "work",
+  "title": "湯陰精忠廟志",
+  "authors": [
+    {
+      "name": "鄭懋洵",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/wjfus8oel55iunt6"
+      }
+    },
+    {
+      "name": "張應登",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/juv5wz4u6lfsi741"
+      }
+    },
+    {
+      "name": "楊世逹",
+      "role": "續輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/lsqh0b81hzqn4it5"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "湯陰精忠廟志十卷",
+      "author_info": "明張應登、鄭懋洵輯;清楊世逹續輯",
+      "section": "史部/地理類/專志之屬/祠廟",
+      "summary": "共 1 個版本：明萬曆間張應登刻清重修本（山東省圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：otz5ouajy01k5hjw\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f2nk3sq9t",
+      "relation": "related",
+      "note": "史部E另立（diffauth）：總目記錄「湯陰精忠廟志」（楊世逹）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

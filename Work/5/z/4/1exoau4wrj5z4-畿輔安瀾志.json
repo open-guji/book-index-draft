@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoau4wrj5z4",
+  "type": "work",
+  "title": "畿輔安瀾志",
+  "authors": [
+    {
+      "name": "王履泰",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/82b4tfhuu18qophw"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "畿輔安瀾志五十六卷",
+      "author_info": "清王履泰撰",
+      "section": "史部/政書類/水利之屬",
+      "summary": "共 3 個版本：武英殿聚珍版書本（馆藏未载）；稿本（國家圖書館）；清内府抄本（國家圖書館、故宮博物院圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：su8ljceb0b0w5us8、0v8f6ctitjw8ghqh、vcwhaqpmahjuhdki\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条56卷，目标10卷））",
+  "related_works": [
+    {
+      "id": "d59f2ne5ckqo",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「畿輔安瀾志」（王履泰）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条56卷，目标10卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

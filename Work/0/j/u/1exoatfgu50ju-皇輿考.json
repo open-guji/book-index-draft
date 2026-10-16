@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfgu50ju",
+  "type": "work",
+  "title": "皇輿考",
+  "authors": [
+    {
+      "name": "張天復",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zjdjcrqihw7pd8no"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "皇輿考十卷",
+      "author_info": "明張天復撰",
+      "section": "史部/地理類/總志之屬",
+      "summary": "共 3 個版本：明嘉靖三十六年應明德刻萬曆間范可奇重修本（上海博物館）；明嘉靖三十六年應明德刻本（國家圖書館、中國科學院圖書館、北京大學圖書館）；明萬曆間朱璉刻本（中央民族大學圖書館、首都圖書館、國家圖書館、復旦大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：cqufvefu8oljincn、wvjra5dprwjbosip、qiehndc2bozqf448\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条10卷，目标12卷））",
+  "related_works": [
+    {
+      "id": "d59f2nho31fm",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「皇輿考」（張天復）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条10卷，目标12卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoaxf0ui0ao",
+  "type": "work",
+  "title": "資治通鑑目錄",
+  "authors": [
+    {
+      "name": "司馬光",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/3ekp9e19p3dm9zza"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "資治通鑑目錄三十卷",
+      "author_info": "宋司馬光撰",
+      "section": "史部/編年類/通代之屬",
+      "summary": "共 9 個版本：四部叢刊本（南京圖書館）；清光緒十四年蜚英館石印本（國家圖書館）；四部備要本（馆藏未载）；資治通鑑彙刻本（馆藏未载）；元刻本（上海圖書館）；四庫全書本（馆藏未载）；資治通鑑大全本（馆藏未载）；宋刻本（臺灣圖書館）；校刊資治通鑑全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5lp4c5qgjj527slc、nyrbfkg6c5bcnol2、83a5syd5zubxa2sb、nkic6jvqy3i7qrvt、o11mnyqg6oitr148、bk3fzzgyvo2vecvo、jzax8v3wsb7xs1nl、qnkip4zt2ok6vus7、tsvbhzax7k37z47c\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：卷差>1（本条30卷，目标294卷））",
+  "related_works": [
+    {
+      "id": "d59f2pynclxd",
+      "relation": "related",
+      "note": "史部E另立（near）：總目記錄「資治通鑑目錄」（司馬光）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条30卷，目标294卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}
