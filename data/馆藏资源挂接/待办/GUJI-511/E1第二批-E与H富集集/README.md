@@ -17,3 +17,9 @@
 - 严格判据（页题名＝库题名或别名、库朝代非空、库责任者全在页责任者内）在盲核样本里完全预测 Ruth：满足者 43 行全同，不满足者 33 存疑＋3 同。
 - 建议写入 71 行（`E1b-建议写入-71.tsv`）：严格判据全满足 68（盲核 43 同＋未入样 25）＋盲核同但不满足严格判据 3。暂缓 73 行（`E1b-暂缓-73.tsv`）：留二轮用页面内容补证。
 - 写库须用户放行；本表不改 Work/Book。
+
+## write_plan 草案（Everett，2026-10-16 洛杉矶）
+输入：`E1b-建议写入-71.tsv`（draft main 4016cf3b7e；2642 不在内）。脚本：`tools/馆藏资源挂接/e1b_mkplan.py`（writeplan.make_item／rank_key，同第一批形状）。Work 库 book-index main 174d897db429。
+- `E1b_write_plan.jsonl`：**71 行／53 Work**，plancheck.check_item 零错，每 Work 最多 3 条（含库内已有 nlc 藏本）。
+- `E1b_剔除与超容.tsv`：已落库、R1 缺失/并条、R2/R3/R7 占用、同 group 已在、K9 超容的行——**本次 0 行**（71 行全部通过）。K9 取舍序＝影像＞版本明确＞卷数＞记录号（writeplan.rank_key），本次无 Work 超容，无需取舍。
+- 终稿待 Rhea 25 行补盲核（Ruth 异 0 才写；有异则剔该行后重出）与用户放行；本草案不写库。
