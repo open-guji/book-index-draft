@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoau4xexyps",
+  "type": "work",
+  "title": "疑獄集",
+  "authors": [
+    {
+      "name": "和凝",
+      "role": "撰",
+      "dynasty": "五代",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xsovi41m61nm6im4"
+      }
+    }
+  ],
+  "dynasty": "五代",
+  "dynasty_basis": "author_propagation",
+  "period": "five-dynasties",
+  "period_basis": "據 authors[0].dynasty「五代」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "疑獄集十卷",
+      "author_info": "五代和凝、和㠓撰;明張景增輯",
+      "section": "史部/政書類/刑法之屬/治獄",
+      "summary": "共 1 個版本：明嘉靖十四年李崧祥刻本（上海圖書館、國家圖書館、浙江大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kka7vzd73j8u12pg\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条10卷，目标4卷））",
+  "related_works": [
+    {
+      "id": "d59f2gcq7och",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「疑獄集」（和凝）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条10卷，目标4卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

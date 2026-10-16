@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfh02ivf",
+  "type": "work",
+  "title": "嶺表錄異",
+  "authors": [
+    {
+      "name": "劉恂",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/086gr7ef0ujo0ze0"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "嶺表錄異三卷",
+      "author_info": "唐劉恂撰",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 5 個版本：榕園叢書本（馆藏未载）；四庫全書本（馆藏未载）；武英殿聚珍版書本（馆藏未载）；叢書集成初編本（馆藏未载）；反約篇本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：uhwwzhkglaxce4hk、n42nocq3pxs0n76u、x7zc2zdvdkp5rt0p、zzo0724hsef8y7be、4dtjhby5cpt3aei6\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：卷差>1（本条3卷，目标1卷））",
+  "related_works": [
+    {
+      "id": "d59f28j4liiz",
+      "relation": "related",
+      "note": "史部E另立（near）：總目記錄「嶺表錄異」（劉恂）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条3卷，目标1卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

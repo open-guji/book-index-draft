@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfh44lxe",
+  "type": "work",
+  "title": "茅山志",
+  "authors": [
+    {
+      "name": "劉大彬",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/x2cgn823bshdisl3"
+      }
+    }
+  ],
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "茅山志三十三卷",
+      "author_info": "元劉大彬撰",
+      "section": "史部/地理類/山水志之屬/山",
+      "summary": "共 2 個版本：道藏本（南京圖書館）；道藏舉要本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ecqgjk6hyt167idd、ppailexctaxqvrfa\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条33卷，目标15卷））",
+  "related_works": [
+    {
+      "id": "d59f2gp3yk1t",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「茅山志」（劉大彬）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条33卷，目标15卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

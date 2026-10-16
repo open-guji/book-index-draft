@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoau4wzc3k0",
+  "type": "work",
+  "title": "南省公餘錄",
+  "authors": [
+    {
+      "name": "梁章鉅",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": null
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "南省公餘錄八卷",
+      "author_info": "清梁章鉅撰",
+      "section": "史部/政書類/職官之屬/官制",
+      "summary": "共 6 個版本：清光緒二十二年同文館鉛印本（國家圖書館）；清嘉慶間刻本（國家圖書館）；筆記小說大觀本（馆藏未载）；清道光間刻本（天津圖書館）；清嘉慶間抄本（南京圖書館）；二思堂叢書本（南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：tmp5hkpzcqkuu5j4、euws4z3iy6qipzxl、h8iz28uy25lk2bsi、8dmwmrgdmjk40dyx、bxy7iepgy77ze11l、isry3jnjltfwmhiq\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条8卷，目标2卷））",
+  "related_works": [
+    {
+      "id": "d59f2nlvh0qo",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「南省公餘錄」（梁章鉅）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条8卷，目标2卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

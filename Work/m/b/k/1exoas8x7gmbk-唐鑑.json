@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoas8x7gmbk",
+  "type": "work",
+  "title": "唐鑑",
+  "authors": [
+    {
+      "name": "范祖禹",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xxyaiue37usd7eix"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐鑑二十四卷",
+      "author_info": "宋范祖禹撰;宋呂祖謙注",
+      "section": "史部/史評類/議論之屬",
+      "summary": "共 4 個版本：四庫全書本（馆藏未载）；清光緒間成都尊經書院刻本（成都市圖書館）；摛藻堂四庫全書薈要本（馆藏未载）；宋刻本（上海圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oynurrks26t18rtn、8fvvxg0xh6hhaqnz、npmio887p7hyg2hs、kz8ot231n3ns2qrl\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f2hrkyi9s",
+      "relation": "related",
+      "note": "史部E另立（near）：總目記錄「唐鑑」（范祖禹）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

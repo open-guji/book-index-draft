@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exob1684c3d7",
+  "type": "work",
+  "title": "綏服紀畧",
+  "authors": [
+    {
+      "name": "松筠",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/h1vsie2615kwhnp6"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "綏服紀畧一卷",
+      "author_info": "清松筠撰",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 5 個版本：西招五種本（馆藏未载）；清抄本（北京大學圖書館）；清咸豐三年抄本（國家圖書館）；北徼彙編本（馆藏未载）；小方壺齋輿地叢鈔本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：supnkbsh7pisl30b、q1jrj4g71wygbgl8、x6b2pgpsll1lyeom、nfd6udsbf1hkzekg、2g8gloi88u7wwqsb\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f2neqkpoh",
+      "relation": "related",
+      "note": "史部E另立（near）：總目記錄「綏服紀畧」（松筠）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

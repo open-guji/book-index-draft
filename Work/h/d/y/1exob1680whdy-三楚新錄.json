@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exob1680whdy",
+  "type": "work",
+  "title": "三楚新錄",
+  "authors": [
+    {
+      "name": "周羽翀",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/m3ykk86qaqkp6jxm"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "三楚新錄一卷",
+      "author_info": "宋周羽翀撰",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 5 個版本：說郛本（馆藏未载）；續百川學海本（馆藏未载）；歷代小史摘編本（馆藏未载）；景印元明善本叢書本（馆藏未载）；歷代小史本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qsxnid0n1ydxzj14、strmn7fce360u2bf、oszfek4ezy0cdmj0、f1fes7ql8g2ek6kz、wh3rv0mgqavjy4du\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标3卷））",
+  "related_works": [
+    {
+      "id": "d59f2hu6agoy",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「三楚新錄」（周羽翀）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标3卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}
