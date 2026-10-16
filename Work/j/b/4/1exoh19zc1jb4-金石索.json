@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "1exoh19zc1jb4",
+  "type": "work",
+  "title": "金石索",
+  "authors": [
+    {
+      "name": "馮云鵷",
+      "role": "輯",
+      "dynasty": "",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/db83e01gqmh8qzla"
+      }
+    },
+    {
+      "name": "馮雲鵬",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/dpbm63htjkna44ff"
+      }
+    }
+  ],
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "金石索十二卷首一卷",
+      "author_info": "清馮雲鵬、馮雲鵷輯",
+      "section": "史部/金石考古類/總志之屬",
+      "summary": "共 4 個版本：清道光十五年雙桐書屋刻本（南京圖書館）；清道光元年紫琅馮氏邃古齋滋陽刻本（浙江圖書館、上海圖書館、南京圖書館、國家圖書館、天津圖書館）；清光緒三十二年上海文新書局石印本（國家圖書館、浙江圖書館、天津圖書館、上海圖書館）；清光緒十九年上海積山書局石印本（山東省圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：a0imzk3f6eysh806、emnmna3v403ssm88、vttwerlb6lqoq4zy、m1uiqwdh6dmn5ctp\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n主責任者「馮云鵷」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋rel）",
+  "related_works": [
+    {
+      "id": "d59f2ngdvsw1",
+      "relation": "related",
+      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「金石索」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
+    }
+  ]
+}
