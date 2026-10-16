@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exodpy9mfb40",
+  "type": "work",
+  "title": "續修龍虎山志",
+  "authors": [
+    {
+      "name": "元明善",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0vvzud4xfbqsfuht"
+      }
+    }
+  ],
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "續修龍虎山志六卷",
+      "author_info": "元元明善撰;明張國祥續",
+      "section": "史部/地理類/山水志之屬/山",
+      "summary": "共 2 個版本：明天啓間刻本（浙江圖書館）；清内府抄本（故宮博物院圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：niruegwh25ivv5lb、zm2r503ibej4r2sg\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：卷差>1）",
+  "related_works": [
+    {
+      "id": "d59f2ghntpfm",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「續修龍虎山志」（元明善）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

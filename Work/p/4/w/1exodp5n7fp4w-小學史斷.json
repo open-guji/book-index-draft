@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exodp5n7fp4w",
+  "type": "work",
+  "title": "小學史斷",
+  "authors": [
+    {
+      "name": "南宮靖一",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/6avpnbttxf62y1um"
+      }
+    },
+    {
+      "name": "潘榮",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/yov7xmcwhoh243r3"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "小學史斷二卷",
+      "author_info": "宋南宮靖一撰;明晏彦文續",
+      "section": "史部/史評類/議論之屬",
+      "summary": "共 10 個版本：明嘉靖十二年遼藩朱寵瀼刻本（大連市圖書館、國家圖書館）；明嘉靖十七年張木刻本（天一閣文物保管所）；明弘治十六年刻本（中共中央黨校圖書館、雲南省圖書館）；明嘉靖十七年張木刻藍印本（南京圖書館、國家圖書館）；清抄本（南京圖書館）；明刻本（北京大學圖書館、國家圖書館）；明嘉靖二十六年趙瀛刻本（南京圖書館、上海圖書館、復旦大學圖書館）；明刻本（北京大學圖書館）；明隆慶二年龔碧川刻本（上海圖書館）；明隆慶二年龔碧川刻重修本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1vlbdce8grj8p5mu、is0xswfc837qfxvt、icc0bqbizh6qch1h、oq61b0v2ahcl0nsz、jikdbheqpgr24kyu、ylkxml58fqzpkpn2、eoncj8j7anrkbdjb、xfq1pki6r7bp3zel、bvefykugy6djqjni、ogsg0kxexpqyrqzy\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：朝代不同）",
+  "related_works": [
+    {
+      "id": "d59f2hpd1r7k",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「小學史斷」（南宮靖一）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

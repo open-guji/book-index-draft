@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exodu6yp3i81",
+  "type": "work",
+  "title": "王子年拾遺記",
+  "authors": [
+    {
+      "name": "王嘉",
+      "role": "撰",
+      "dynasty": "前秦",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/mhlqxkslbsa15axa"
+      }
+    }
+  ],
+  "dynasty": "前秦",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「前秦」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "王子年拾遺記一卷",
+      "author_info": "前秦王嘉撰;梁蕭綺錄",
+      "section": "史部/雜史類/叢編之屬",
+      "summary": "共 1 個版本：（上海圖書館、北京大學圖書館、中國科學院圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：c8tv17zcrfscw4q5\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：朝代不同）",
+  "related_works": [
+    {
+      "id": "d59f27x5xekj",
+      "relation": "related",
+      "note": "史部E 426跨批同題待判：總目記錄「王子年拾遺記」（王嘉）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
