@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoaxf0nbjt6",
+  "type": "work",
+  "title": "魏氏春秋",
+  "authors": [
+    {
+      "name": "孫盛",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/l81o8zyp4qvrtw5w"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "魏氏春秋一卷",
+      "author_info": "晉孫盛撰",
+      "section": "史部/編年類/斷代之屬",
+      "summary": "共 3 個版本：增定漢魏六朝别解本（馆藏未载）；說郛本（馆藏未载）；古今說部叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：jnshlwmbbxz7ahuk、yizvi2ox0i414ex2、kphhfy6ei2irou8v\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标20卷））",
+  "related_works": [
+    {
+      "id": "d59f27w6ccn7",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「魏氏春秋」（孫盛）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标20卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

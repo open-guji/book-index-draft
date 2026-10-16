@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exob167rjd38",
+  "type": "work",
+  "title": "九國志",
+  "authors": [
+    {
+      "name": "路振",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/idrtbpqh1yigpaot"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "九國志十二卷",
+      "author_info": "宋路振撰;宋張唐英補",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 10 個版本：清敦詩書閣抄本（臺灣圖書館）；粤雅堂叢書本（馆藏未载）；清曾氏面城樓抄本（馆藏未载）；筆記小說大觀本（馆藏未载）；宛委别藏本（馆藏未载）；海山仙館叢書本（馆藏未载）；清抄本（北京大學圖書館、湖南省圖書館、國家圖書館、北京師範大學圖書館、無錫市圖書館）；清嘉慶十二年敷文閣木活字印本（南京圖書館、北京大學圖書館）；清道光三十年刻本（北京大學圖書館、國家圖書館）；清蕭山王氏旡求安居抄本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0ramb2y8024tadhv、8jodx1vdff8qka1e、158decdhc01y855c、7kdk8gqtpwlsb0if、pwofgdbhr0t5olj0、deotmhevqte4mxi7、08g062ymdmqb5grz、apolm0sj2keoqpcr、f81y05umf332gqpa、gkhbmjlexrh7mh0o\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条12卷，目标51卷））",
+  "related_works": [
+    {
+      "id": "d59f2huqkw01",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「九國志」（路振）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条12卷，目标51卷）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoaqrqpwqo4",
+  "type": "work",
+  "title": "孔子編年",
+  "authors": [
+    {
+      "name": "胡仔",
+      "role": "編",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/i14n2zc1zrfomjiu"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "孔子編年五卷",
+      "author_info": "宋胡仔編",
+      "section": "史部/傳記類/年譜之屬",
+      "summary": "共 4 個版本：清嘉慶二十三年胡培翬金紫家祠刻本（南京圖書館、國家圖書館、遼寧省圖書館）；清同治九年胡湛刻本（上海圖書館、遼寧省圖書館、南京圖書館、國家圖書館）；清顧氏藝海樓抄本（上海圖書館）；四庫全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6uu7rlgrtybto5fg、5nwelfylu70nerc1、h5wsnvol4f13psmh、oxvefpivoejiooox\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f2hs4xp1d",
+      "relation": "related",
+      "note": "史部E另立（anon）：總目記錄「孔子編年」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（题名同、卷数相符，无作者可证，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

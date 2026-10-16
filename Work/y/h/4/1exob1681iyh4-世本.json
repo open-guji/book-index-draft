@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exob1681iyh4",
+  "type": "work",
+  "title": "世本",
+  "authors": [
+    {
+      "name": "孫馮翼",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ellqyds366xw1omc"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "世本二卷",
+      "author_info": "漢宋衷注;清孫馮翼輯;清陳其榮增訂",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 7 個版本：抄本（上海圖書館）；世本八種本（馆藏未载）；槐廬叢書本（馆藏未载）；增訂漢魏叢書本（馆藏未载）；世本八種本（馆藏未载）；叢書集成初編本（馆藏未载）；問經堂叢書本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qy8mazpkltwi5c27、1f4i3isseucgxwzy、vqzgmgzlyn8vvwv8、5ib3b1eqwbiz8yb1、kfd6f5gri3gfxzox、q1c8ccszi4uc2dfv、wai88bnwg6g5g4lt\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f24m6bs3k",
+      "relation": "related",
+      "note": "史部E另立（anon）：總目記錄「世本」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（题名同、卷数相符，无作者可证，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

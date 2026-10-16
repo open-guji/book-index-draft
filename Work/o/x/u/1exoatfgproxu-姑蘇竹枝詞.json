@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoatfgproxu",
+  "type": "work",
+  "title": "姑蘇竹枝詞",
+  "authors": [
+    {
+      "name": "袁學瀾",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/upip7t8ka7kgg60j"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "姑蘇竹枝詞二卷",
+      "author_info": "清袁學瀾撰",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 1 個版本：適園叢稿本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qulmgxo82j55slwp\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59fsdhrobut",
+      "relation": "related",
+      "note": "史部E另立（diffauth）：總目記錄「姑蘇竹枝詞」（袁學瀾）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

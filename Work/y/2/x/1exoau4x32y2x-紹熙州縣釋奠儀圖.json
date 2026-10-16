@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoau4x32y2x",
+  "type": "work",
+  "title": "紹熙州縣釋奠儀圖",
+  "authors": [
+    {
+      "name": "朱熹",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/r5vmxq29ki9gddjn"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "紹熙州縣釋奠儀圖一卷",
+      "author_info": "宋朱熹撰",
+      "section": "史部/政書類/儀制之屬/典禮",
+      "summary": "共 4 個版本：指海本（馆藏未载）；叢書集成初編本（馆藏未载）；影印四庫全書四種本（馆藏未载）；四庫全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：4krszjbydtw5myoj、6wtgx3ppr20fiszi、afnhcpz5zp3xfse1、72u0ol0vak137i7x\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
+  "related_works": [
+    {
+      "id": "d59f2hublhxc",
+      "relation": "related",
+      "note": "史部E另立（diffauth）：總目記錄「紹熙州縣釋奠儀圖」（朱熹）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

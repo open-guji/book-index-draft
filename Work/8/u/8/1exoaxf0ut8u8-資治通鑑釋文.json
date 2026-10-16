@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoaxf0ut8u8",
+  "type": "work",
+  "title": "資治通鑑釋文",
+  "authors": [
+    {
+      "name": "史炤",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/g1ujwz0vh1lriivr"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "資治通鑑釋文九十八卷",
+      "author_info": "宋史炤撰",
+      "section": "史部/編年類/通代之屬",
+      "summary": "共 9 個版本：清影宋抄本（國家圖書館）；宛委别藏本（南京圖書館）；十萬卷樓叢書本（馆藏未载）；宋刻本（國家圖書館）；清抄本（北京大學圖書館、復旦大學圖書館、國家圖書館）；校刊資治通鑑全書本（馆藏未载）；元刻本（國家圖書館）；四部叢刊本（馆藏未载）；叢書集成初編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：d25bwv52xfaijvz4、a4us8yb7chub7hoi、mpfozvxt3lhkw78s、gcp11qfqf8ta1f6a、w4iyw4ksyt8zsjkb、rvqcdxqgc70adqi4、15ocjztn3aej4rk0、h61lltsci58enczy、8pjr4ecixsmnaxlm\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：朝代不同（清≠宋））",
+  "related_works": [
+    {
+      "id": "d59f2htq24g2",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「資治通鑑釋文」（史炤）與既有 Work 題名相同或相近而不可證同書（朝代不同（清≠宋）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}
