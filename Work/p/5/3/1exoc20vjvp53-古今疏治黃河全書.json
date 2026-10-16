@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exoc20vjvp53",
+  "type": "work",
+  "title": "古今疏治黃河全書",
+  "authors": [
+    {
+      "name": "黃克纘",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ks1v2z0tjeacihiq"
+      }
+    },
+    {
+      "name": "劉士忠",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/bbln2al3hlo55he6"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "古今疏治黃河全書一卷酌議泇黃便宜疏一卷",
+      "author_info": "明黃克纘撰;（酌議泇黃便宜疏）明劉士忠撰",
+      "section": "史部/政書類/水利之屬",
+      "summary": "共 2 個版本：清抄本（北京大學圖書館）；明萬曆三十九年刻本（上海圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nk4b1lop37z87xrq、ucf1syy0jwiqdxdt\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
+  "related_works": [
+    {
+      "id": "d59f2nhfyvb6",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「古今疏治黃河全書」（黃克纘、劉士忠）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sovm4n4",
+  "type": "work",
+  "title": "晉書",
+  "authors": [
+    {
+      "name": "虞預",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ffaoafslar46apzt"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "晉書一卷",
+      "author_info": "晉虞預撰;清黃奭輯",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 5 個版本：漢學堂叢書本（馆藏未载）；叢書集成初編本（馆藏未载）；四明叢書本（馆藏未载）；廣雅書局叢書本（馆藏未载）；黃氏逸書考本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：aoy4hfanksbgyh7x、ikboraesj7rnd8ax、zy4vny2o4lhsni2h、vv4n5m7d1zywyq1i、cxrk71wv4r2illxn\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f9s1c15ac",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「晉書」（虞預）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

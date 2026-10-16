@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sot48at",
+  "type": "work",
+  "title": "金史",
+  "authors": [
+    {
+      "name": "脫脫",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/pafprlom4t1h0z5q"
+      }
+    }
+  ],
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "金史一百三十五卷目錄二卷",
+      "author_info": "元脫脫等撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 10 個版本：明初刻遞修本（國家圖書館）；明内府抄本（國家圖書館）；元末刻本（北京大學圖書館）；二十一史本（天津圖書館）；明初刻本（國家圖書館）；重刊二十四史本（馆藏未载）；元至正五年江浙等處行中書省刻本（國家圖書館）；元至正五年刻明印本（北京大學圖書館）；明嘉靖八年南京國子監刻本（北京大學圖書館）；百衲本二十四史本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：z58t13j0vzg1hbqe、lq5kd41yrcducrbv、ofizd6ac1i8votze、5djkadx0flrexu1s、f67nnqvaedp23u8e、0xxrwmwvt5r7fw0m、27r4uqnc5cdxn8ey、tdwcmcdseqpjut5l、ent8nint6614wb3c、2nkije5d5ty334on\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2gpg4t8g",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「金史」（脫脫）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

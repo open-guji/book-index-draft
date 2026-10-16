@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc3krx9l36",
+  "type": "work",
+  "title": "漢晉春秋",
+  "authors": [
+    {
+      "name": "習鑿齒",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/moh15geas8q4hgg6"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "漢晉春秋三卷",
+      "author_info": "晉習鑿齒撰;清湯球輯",
+      "section": "史部/編年類/斷代之屬",
+      "summary": "共 4 個版本：廣雅書局叢書本（馆藏未载）；黃氏逸書考本（馆藏未载）；漢學堂叢書本（馆藏未载）；玉函山房輯佚書續編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6wyu7n5wo2ovbv46、7qcb7ke31ycnxo2h、5z53p724sytzm6v5、bt5n8ywwga8m1djl\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条3卷，目标54卷）））",
+  "related_works": [
+    {
+      "id": "d59f27vl47pd",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「漢晉春秋」（習鑿齒）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条3卷，目标54卷））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

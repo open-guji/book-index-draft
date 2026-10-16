@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sos6io2",
+  "type": "work",
+  "title": "後漢書",
+  "authors": [
+    {
+      "name": "華嶠",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/3mv1at4lsrgspefi"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "後漢書一卷",
+      "author_info": "晉華嶠撰;清王仁俊輯",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 5 個版本：玉函山房輯佚書補編本（馆藏未载）；漢學堂叢書本（馆藏未载）；知足齋叢書本（馆藏未载）；漢學堂知足齋叢書本（馆藏未载）；黃氏逸書考本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：45mjv47gqbiggk0t、tn4bzqkyknzg2ws8、21o2lpy8z8tu126d、jwvfdnlbza7me231、kko0lk3q4ska0e1n\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条1卷，目标31卷）））",
+  "related_works": [
+    {
+      "id": "d59f27xxpiwy",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「後漢書」（華嶠）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条1卷，目标31卷））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

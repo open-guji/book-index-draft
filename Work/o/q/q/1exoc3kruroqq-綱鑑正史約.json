@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exoc3kruroqq",
+  "type": "work",
+  "title": "綱鑑正史約",
+  "authors": [
+    {
+      "name": "陳弘謀",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/rz217fttxe5pwskz"
+      }
+    },
+    {
+      "name": "顧錫疇",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/lteg0u7c5geyj7ko"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "綱鑑正史約三十六卷甲子紀綱元一卷",
+      "author_info": "明顧錫疇撰;清陳弘謀增訂;（甲子紀綱元）清陳弘謀撰",
+      "section": "史部/編年類/通代之屬",
+      "summary": "共 5 個版本：清同治八年浙江書局刻本（國家圖書館、遼寧省圖書館、北京大學圖書館、上海圖書館）；清光緒五年刻本（上海圖書館）；清光緒九年湖南官書局刻本（國家圖書館、遼寧省圖書館）；培遠堂全集本（福建省圖書館）；清乾隆二年刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lx4aklu04k8s7jee、e30evd6bomivc6ty、o2xz80v1lml4bith、uvq48gthnvmvflih、zhi5zdv45c32d7gh\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
+  "related_works": [
+    {
+      "id": "d59f2ngcy7es",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「綱鑑正史約」（陳弘謀、顧錫疇）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

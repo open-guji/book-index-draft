@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17dlaqyq",
+  "type": "work",
+  "title": "古賢小字錄",
+  "authors": [
+    {
+      "name": "陳思",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/1zxvq5ub2kn3xq56"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "古賢小字錄二卷",
+      "author_info": "宋陳思撰",
+      "section": "史部/傳記類/姓名之屬",
+      "summary": "共 4 個版本：明嘉靖四十三年昆山吳大有刻本（臺灣圖書館）；四庫全書本（馆藏未载）；抄本（上海圖書館）；四部叢刊三編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：o3outk4m4fg6l8a5、n10d8x7h5fuzgi8a、3j4s0kvgbr7noojd、xiv0d24h8gddw20f\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（清≠宋）））",
+  "related_works": [
+    {
+      "id": "d59f2huaz0u9",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「古賢小字錄」（陳思）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（清≠宋））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

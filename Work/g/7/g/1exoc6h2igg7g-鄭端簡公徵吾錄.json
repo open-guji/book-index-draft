@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc6h2igg7g",
+  "type": "work",
+  "title": "鄭端簡公徵吾錄",
+  "authors": [
+    {
+      "name": "鄭曉",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/goxz5mp3k5y2r0wn"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "鄭端簡公徵吾錄二卷",
+      "author_info": "明鄭曉撰",
+      "section": "史部/雜史類/事實之屬",
+      "summary": "共 3 個版本：鄭端簡公全集本（北京大學圖書館）；明鄭履淳刻本（清華大學圖書館、國家圖書館、上海圖書館）；明鄭心材刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：rvdnboyu2ugzjb44、sbjzap6lft33p8f7、xkzhkgeo1mnqhte1\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-12.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
+  "related_works": [
+    {
+      "id": "d59f2njcybcx",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「鄭端簡公徵吾錄」（鄭曉）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

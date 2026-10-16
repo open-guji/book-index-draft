@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc20vr25mw",
+  "type": "work",
+  "title": "皇明泳化類編",
+  "authors": [
+    {
+      "name": "鄧球",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/vmurhxurisilr8z5"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "皇明泳化類編一百三十六卷續編十七卷",
+      "author_info": "明鄧球撰",
+      "section": "史部/政書類/通制之屬",
+      "summary": "共 2 個版本：明隆慶間刻萬曆間重修本（河南省圖書館、廣東省中山圖書館、重慶市圖書館、天津圖書館）；明隆慶間刻本（國家圖書館、北京大學圖書館、四川省圖書館、上海圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：h8nxf61a2h85tgv5、h0nxr5x8fevocvbb\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2nk6lv5t",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「皇明泳化類編」（鄧球）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

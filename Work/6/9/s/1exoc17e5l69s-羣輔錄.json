@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17e5l69s",
+  "type": "work",
+  "title": "羣輔錄",
+  "authors": [
+    {
+      "name": "陶潛",
+      "role": "撰",
+      "dynasty": "晉",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ze8c1ewqbn4uvwjw"
+      }
+    }
+  ],
+  "dynasty": "晉",
+  "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "羣輔錄一卷",
+      "author_info": "晉陶潛撰",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 12 個版本：古今說部叢書本（馆藏未载）；史拾四集本（馆藏未载）；藝苑捃華本（馆藏未载）；五朝小說本（馆藏未载）；廣漢魏叢書本（馆藏未载）；漢魏小說採珍本（馆藏未载）；說郛本（馆藏未载）；清抄本（國家圖書館）；采昭堂祕書史拾本（馆藏未载）；龍威祕書本（馆藏未载）；增訂漢魏叢書本（馆藏未载）；五朝小說大觀本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：om8zp47u0v4sjk37、s20ok8tvdqhajot6、sgy358rnwyz53mph、1cg6k0ht3f75h6xr、372k0t5eloz6etrs、r73tbx4nv3pkpol4、276zmuor0u7nzr1v、wto4nh6f43wau2pv、zo5v32or7can6f0u、6kafk7bacbo5eiyy、0hiy2pc2hnf7vkev、rqls3ufra704e4gh\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-07.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条1卷，目标6卷）））",
+  "related_works": [
+    {
+      "id": "d59f27v1ri0y",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「羣輔錄」（陶潛）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条1卷，目标6卷））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

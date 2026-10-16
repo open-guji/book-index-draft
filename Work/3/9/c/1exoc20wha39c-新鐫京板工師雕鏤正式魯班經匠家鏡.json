@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exoc20wha39c",
+  "type": "work",
+  "title": "新鐫京板工師雕鏤正式魯班經匠家鏡",
+  "authors": [
+    {
+      "name": "章嚴",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/n7en5ltuxdns81pq"
+      }
+    },
+    {
+      "name": "午榮",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/s2tct1obfwhb4xd3"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "新鐫京板工師雕鏤正式魯班經匠家鏡二卷",
+      "author_info": "明午榮、章嚴撰",
+      "section": "史部/政書類/考工之屬",
+      "summary": "共 3 個版本：明刻本（安徽省圖書館）；清古吳三多齋刻本（中國社會科學院文學研究所）；明末刻本（國家博物館、浙江圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oprohupfeqwpr4um、kflif0ksryaz2jd3、g77a5il8suezdrnh\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-10.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "1exmvdwp053ie",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「新鐫京板工師雕鏤正式魯班經匠家鏡」（章嚴、午榮）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

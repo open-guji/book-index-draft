@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exoc17e8pjpc",
+  "type": "work",
+  "title": "釋氏稽古畧",
+  "authors": [
+    {
+      "name": "釋大聞",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/gxnasung216rpn4t"
+      }
+    },
+    {
+      "name": "釋覺岸",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/yy3r4ol03p4fcjmg"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "釋氏稽古畧四卷續集三卷",
+      "author_info": "元釋覺岸撰;（續集）明釋大聞撰",
+      "section": "史部/傳記類/總傳之屬",
+      "summary": "共 1 個版本：元刻明修本續集清咸豐二年胡氏琳琅祕室抄本（上海圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gjp8zrwr1x7eu300\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exoc5vuckykp",
+  "type": "work",
+  "title": "金薤琳琅",
+  "authors": [
+    {
+      "name": "都穆",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/sgepeh0hpzgsb4us"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "金薤琳琅二十卷補遺一卷",
+      "author_info": "明都穆撰;清宋振譽補遺",
+      "section": "史部/金石考古類/石之屬",
+      "summary": "共 5 個版本：清乾隆六年宋振譽抄本（國家圖書館）；清光緒八年刻（南京圖書館、遼寧省圖書館、天津圖書館、國家圖書館、中國科學院圖書館、上海圖書館、浙江圖書館）；清乾隆四十三年汪荻洲刻本（湖北省圖書館、上海圖書館、國家圖書館、山東省博物館）；學古齋金石叢書本（天津圖書館）；清乾隆四十三年德州盧見曾雅雨堂刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kejwfd8fgkz1o8f2、1z2nxdh3ojl4xggr、rllefccnzrxq5oqg、hlfh0658o756nxsl、0thiu6s3qlewlvu6\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u91d1\\u77f3\\u8003\\u53e4\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u91d1\\u77f3\\u8003\\u53e4\\u985e\", \"l3\": \"\\u77f3\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2nk0zkzn",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「金薤琳琅」（都穆）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}

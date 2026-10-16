@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "1exoc2sp4z8xv",
+  "type": "work",
+  "title": "唐書",
+  "authors": [
+    {
+      "name": "宋祁",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/m6xz4pdpvv24qe3r"
+      }
+    },
+    {
+      "name": "歐陽脩",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xrgok9phxhsun9z2"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐書二百二十五卷目錄二卷",
+      "author_info": "宋歐陽修、宋祁等撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 20 個版本：宋刻本（國家圖書館）；元刻明修本（上海圖書館）；元刻明遞修本（國家圖書館、上海圖書館）；元刻本（國家圖書館）；宋刻本（國家圖書館）；宋刻本（南京圖書館、國家圖書館）；宋紹興間刻宋元遞修公文紙印本（國家圖書館）；二十一史本（山西省文物局）；元大德九年建康路儒學刻明成化弘治嘉靖萬曆間南京國子監遞修本（上海圖書館）；明成化十八年、嘉靖八至十年、三十七年南京國子監刻明清遞修（國家圖書館、天津圖書館、南京圖書館）；重刊二十四史本（馆藏未载）；元大德九年建康路儒學刻明成化弘治嘉靖間南京國子監遞修本（上海圖書館）；元大德九年建康路儒學刻明清遞修本（天津圖書館）；元大德九年建康路儒學刻明成化弘治間南京國子監遞修本（南京圖書館）；明萬曆二十三年北京國子監刻（山東省圖書館、南京圖書館、浙江圖書館、上海圖書館）；元大德九年建康路儒學刻本（國家圖書館）；四部備要本（馆藏未载）；摛藻堂四庫全書薈要本（馆藏未载）；四庫全書本（馆藏未载）；二十四史本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：a4rqzi4sq3s33xcg、yza40j5nql340bpc、zu17cfpvlf3ru3li、bajn5aqrz0eqa6am、ebiua4zsonjn4c3t、ac5sr5zixkoswj24、cen2de6y7ipcx7dg、kovt76iguy28b64q、lsa8m5m3fw6icnuj、xbrwbt357kip6774、m67nkoq5k8hqzbct、me12kfjbmi854fw8、4gr2vvyov8eeuox0、456vys54qhizh0fc、1qc3t5rd7hpw2ba4、12z8ar55hawaldd0、84ng50pzdpq426ur、ttdzu3iwrelgbiak、nqub3gu2gj874ewr、4jqvovll4o74whzc\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u7d00\\u50b3\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u7d00\\u50b3\\u985e\", \"l3\": \"\\u65b7\\u4ee3\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "related_works": [
+    {
+      "id": "d59f2htqolj5",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「唐書」（宋祁、歐陽脩）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    },
+    {
+      "id": "d59f2hungikh",
+      "relation": "related",
+      "note": "史部E存疑另立：總目記錄「唐書」（歐陽脩、宋祁）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ]
+}
