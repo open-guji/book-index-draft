@@ -34,7 +34,7 @@ _VARIANTS = {'尙': '尚', '郞': '郎', '戸': '戶', '叅': '參', '祕': '秘
              '决': '決', '藴': '蘊', '沈': '沉', '畧': '略', '復': '複', '冲': '沖', '頴': '穎',
              '註': '注', '内': '內',
              # GUJI-509 对 002/003 真实名单补（愼→慎 起）：异体 → 通行字
-             '愼': '慎', '峩': '峨', '衞': '衛', '綫': '線', '糺': '糾', '秌': '秋', '敍': '敘',
+             '愼': '慎', '徳': '德', '峩': '峨', '衞': '衛', '綫': '線', '糺': '糾', '秌': '秋', '敍': '敘',
              '邨': '村', '躰': '體', '剏': '創', '剙': '創', '辤': '辭', '辞': '辭', '嵗': '歲',
              '歳': '歲', '隂': '陰', '夘': '卯', '凢': '凡', '荅': '答', '觧': '解', '髙': '高',
              '蘓': '蘇', '欵': '款', '槩': '概', '絶': '絕', '蠧': '蠹', '寳': '寶', '珤': '寶',
@@ -129,7 +129,7 @@ class Matcher:
         cands.sort(key=lambda c: (worder[c["work_signal"]], order[c["dynasty_signal"]],
                                   c["key_kind"] != "primary", c["entity_id"]))
         # 单字人名（失名条、字号残片）一律不自动挂（GUJI-509 对稿①）
-        if len(q) == 1 and all(c["subtype"] == "people" for c in cands):
+        if len(q) == 1 and subtype in ("", "people") and any(c["subtype"] == "people" for c in cands):
             return {"status": "weak", "via": via, "candidates": cands, "reason": "单字/失名条，勿自动挂"}
         # 单字朝代／年号只在朝代语境可配：未指定 subtype=dynasty/reign 也没给朝代 → weak
         if len(q) == 1 and all(c["subtype"] in ("dynasty", "reign") for c in cands) \
