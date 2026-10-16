@@ -161,7 +161,7 @@ def _work_signal(w, works):
     nw = bare(w)
     for x in works.split(";"):
         nx = bare(x)
-        if nx and (nx == nw or (len(nw) >= 3 and (nw in nx or nx in nw))):
+        if nx and (nx == nw or (len(nw) >= 3 and len(nx) >= 3 and (nw in nx or nx in nw))):
             return "match"
     return "none"
 
