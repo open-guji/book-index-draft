@@ -64,8 +64,7 @@ def http_probe(url, lim, timeout=25):
 
 
 
-UNJUDGED_HOSTS = {'www.shidianguji.com': 'SPA 壳：真假 id 皆 200，无已验证判据（待找 API）',
-                  }
+UNJUDGED_HOSTS = {}   # 识典已有判据（headless 浏览器渲染后看落点），见 judge_shidianguji
 NLC_MIN_BODY = 3000          # 实测：真条目 31249B，不存在 fid 798B（2026-10-15）
 NPM_NOHIT = '沒有查詢結果'
 NPM_LANDING = '古籍輿圖檢索系統-首頁'
@@ -88,6 +87,49 @@ def judge_nlc(code, final, body):
     if code is None: return 'error', body
     if code != 200: return classify_status(code), 'HTTP %d' % code
     return ('gone', '页面仅 %dB（空壳，真条目约 31KB）' % len(body)) if len(body) < NLC_MIN_BODY else ('ok', '页面 %dB' % len(body))
+
+
+SDG_MIN_BODY = 300          # 实测（2026-10-16）：真书 /book/SK0389 渲染后跳 /chapter/…，正文 844 字；假 id 跳 /?page_from=404_page，正文 8347 字（首页）
+
+
+def judge_shidianguji(code, final, body):
+    """识典是 SPA，HTTP 状态/壳页字节不可信；必须用渲染后的落点：假书→跳 `page_from=404_page`；
+    真书→停在 /book/<id>/chapter/…且正文≥SDG_MIN_BODY。其余（壳未载入、已登录墙等）= unknown，不判死。
+    调用方的 fetch 必须是 headless 浏览器渲染后返回 (200, 最终 URL, 页面可见文字)。"""
+    if code is None: return 'error', body
+    if code != 200: return classify_status(code), 'HTTP %d' % code
+    if 'page_from=404_page' in (final or ''): return 'gone', '识典跳 404 页（%s）' % final
+    if re.search(r'/book/[^/?#]+/chapter/', final or '') and len(body or '') >= SDG_MIN_BODY:
+        return 'ok', '渲染后停于章节页，正文 %d 字' % len(body)
+    return 'error', '壳未载入或落点不明（%s，正文 %d 字）' % (final, len(body or ''))
+
+
+def browser_fetch_factory(lim, ua='open-guji-link-audit/1.0 (read-only check; ai-team R4)'):
+    """返回 (fetch, close)。fetch(url)->(200|None, final_url, 可见文字)；用 Playwright/Chromium，可选依赖；每次先过限速器。"""
+    from playwright.sync_api import sync_playwright
+    import os
+    pw = sync_playwright().start()
+    exe = os.environ.get('CHROMIUM_PATH') or None
+    br = pw.chromium.launch(headless=True, args=['--no-sandbox'], **({'executable_path': exe} if exe else {}))
+    ctx = br.new_context(user_agent=ua, locale='zh-CN')
+
+    def fetch(url):
+        lim.wait(); pg = ctx.new_page()
+        try:
+            pg.goto(url, wait_until='domcontentloaded', timeout=60000)
+            try: pg.wait_for_url(re.compile(r'(/chapter/|404_page)'), timeout=20000)
+            except Exception: pass
+            try: pg.wait_for_load_state('networkidle', timeout=30000)
+            except Exception: pass
+            pg.wait_for_timeout(2000)
+            return 200, pg.url, pg.inner_text('body')
+        except Exception as e:
+            return None, url, '%s:%s' % (type(e).__name__, str(e)[:80])
+        finally: pg.close()
+
+    def close():
+        br.close(); pw.stop()
+    return fetch, close
 
 
 def judge_npm(code, final, body):
@@ -210,6 +252,9 @@ def load_done(path):
     return done
 
 
+CLOSERS = []      # 浏览器等需关闭的资源
+
+
 def probe_host(host, urls, interval, done, outf, outlock, stats_lim, backoff=(30, 60, 120), sleep=time.sleep):
     try:
         _probe_host(host, urls, interval, done, outf, outlock, stats_lim, backoff, sleep)
@@ -217,6 +262,10 @@ def probe_host(host, urls, interval, done, outf, outlock, stats_lim, backoff=(30
         import traceback; traceback.print_exc()
         with outlock: outf.write(json.dumps({'url': host + '#崩溃', 'host': host, 'verdict': 'error', 'code': None, 'note': repr(e)[:200], 'final': '', 'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}, ensure_ascii=False) + '\n')
         CRASHED.append(host)
+    finally:
+        while CLOSERS:
+            try: CLOSERS.pop()()
+            except Exception: pass
 
 
 def _probe_host(host, urls, interval, done, outf, outlock, stats_lim, backoff, sleep):
@@ -242,7 +291,11 @@ def _probe_host(host, urls, interval, done, outf, outlock, stats_lim, backoff, s
     if host in UNJUDGED_HOSTS:
         for u in todo: emit(u, 'unjudged', None, UNJUDGED_HOSTS[host])
         return
+    bfetch = bclose = None
+    if host == 'www.shidianguji.com':
+        bfetch, bclose = browser_fetch_factory(lim); CLOSERS.append(bclose)
     def judge(u):
+        if bfetch: c, f, b = bfetch(u); return judge_shidianguji(c, f, b)
         if host == 'read.nlc.cn': c, f, b = fetch_body(u, urllib.request.build_opener(), lim); return judge_nlc(c, f, b)
         if host == 'rarebooks-maps.npm.edu.tw':
             c, f, b = fetch_body(u, opener, lim)
@@ -291,11 +344,15 @@ def confirm_gone(done, interval, outf, outlock, gap=600, sleep=time.sleep):
             op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar())); fetch_body('https://rarebooks-maps.npm.edu.tw/index.php', op, lim)
             cc, ff, bb = fetch_body(r['url'], op, lim); c, _ = judge_npm(cc, ff, bb)
         elif h == 'dl.ndl.go.jp': c, _ = judge_ndl(r['url'], lim) or ('error', '')
+        elif h == 'www.shidianguji.com':
+            if 'sdg' not in lims: lims['sdg'] = browser_fetch_factory(lim)
+            cc, ff, bb = lims['sdg'][0](r['url']); c, _ = judge_shidianguji(cc, ff, bb)
         else: code, _, _ = http_probe(r['url'], lim); c = classify_status(code) if code else 'error'
         nv = 'dead' if c == 'gone' else c
         rec = dict(r, verdict=nv, confirmed=True, ts=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
         with outlock: outf.write(json.dumps(rec, ensure_ascii=False) + '\n'); outf.flush()
         done[r['url']] = rec
+    if 'sdg' in lims: lims['sdg'][1]()
 
 
 
@@ -330,8 +387,6 @@ def _res(status, reason, **ev):
 
 def judge(site, url, record_id=None, fetch=None):
     site = site or site_of(url)
-    if site == 'shidianguji':
-        return _res('unknown', UNJUDGED_HOSTS['www.shidianguji.com'], site=site)
     if fetch is None: raise ValueError('judge() 需要注入 fetch(url)->(code, final_url, body)')
     if site == 'nlc':
         c, f, b = fetch(url); v, n = judge_nlc(c, f, b)
@@ -347,6 +402,8 @@ def judge(site, url, record_id=None, fetch=None):
         if c is None: v, n = 'error', b
         elif c == 200: v, n = ('ok', 'kokusho API 200') if (b or '').lstrip().startswith('{') else ('error', 'API 200 但非 JSON')
         else: v, n = classify_status(c), 'kokusho API HTTP %d' % c
+    elif site == 'shidianguji':      # fetch 必须是浏览器渲染版（见 browser_fetch_factory）
+        c, f, b = fetch(url); v, n = judge_shidianguji(c, f, b)
     elif site == 'npm':
         c, f, b = fetch(url); v, n = judge_npm(c, f, b)
         if v == 'blocked':

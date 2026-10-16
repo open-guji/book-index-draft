@@ -81,3 +81,13 @@ def test_wiki_batch_uses_post_for_long_titles(monkeypatch):
     urls = ['https://commons.wikimedia.org/wiki/File:' + ('摛藻堂四庫全書薈要第153冊' * 4) + str(i) + '.djvu' for i in range(50)]
     L.wiki_batch('commons.wikimedia.org', urls, lim)
     assert seen['data'] is not None and '?' not in seen['url'] and len(seen['data']) > 4000
+
+
+def test_judge_shidianguji():
+    J = L.judge_shidianguji
+    assert J(200, 'https://www.shidianguji.com/?page_from=404_page', 'x' * 8347)[0] == 'gone'
+    assert J(200, 'https://www.shidianguji.com/book/SK0389/chapter/1jpjjgm6ronjn', 'x' * 844)[0] == 'ok'
+    assert J(200, 'https://www.shidianguji.com/book/123/chapter/abc', 'x' * 42)[0] == 'error'   # 壳未载入不判死
+    assert J(None, 'u', 'timeout')[0] == 'error'
+    r = L.judge('shidianguji', 'https://www.shidianguji.com/book/ZZ99999X', fetch=lambda u: (200, 'https://www.shidianguji.com/?page_from=404_page', 'x' * 8347))
+    assert r['status'] == 'dead'
