@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exobg8ag5hj8",
+  "type": "work",
+  "title": "政和五禮新儀",
+  "authors": [
+    {
+      "name": "鄭居中",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/pkn7fyscxnuc8dv4"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "政和五禮新儀二百四十卷目錄六卷",
+      "author_info": "宋鄭居中等撰",
+      "section": "史部/政書類/儀制之屬/典禮",
+      "summary": "共 2 個版本：明抄本（上海圖書館）；清抄本（國家圖書館、山東省博物館、北京大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2w1emnqxauesm3lg、as2lmj3cfa8k8lm8\nE6 第 405 批新建（hold 清零：史部E判定表 J-exact-补卷数 另立；原 hold 原因：卷差>1（主体240卷，目标220卷；记录「二百四十卷目錄六卷」））",
+  "related_works": [
+    {
+      "id": "d59f2hqwx8g2",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「政和五禮新儀」（鄭居中）與既有 Work 題名相同或相近而不可證同書（卷差>1（主体240卷，目标220卷；记录「二百四十卷目錄六卷」）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

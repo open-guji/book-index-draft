@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exobgwk52ozk",
+  "type": "work",
+  "title": "閱史郄視",
+  "authors": [
+    {
+      "name": "李塨",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/1g1mez0eswrf2dl6"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "閱史郄視一卷續一卷",
+      "author_info": "清李塨撰",
+      "section": "史部/史評類/議論之屬",
+      "summary": "共 1 個版本：史論彙函甲編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mji8ssl4ysbutcu6\nE6 第 405 批新建（hold 清零：史部E判定表 J-exact-补卷数 另立；原 hold 原因：卷差>1（主体1卷，目标4卷；记录「一卷續一卷」））",
+  "related_works": [
+    {
+      "id": "d59f2ngvobuo",
+      "relation": "related",
+      "note": "史部E另立（exact）：總目記錄「閱史郄視」（李塨）與既有 Work 題名相同或相近而不可證同書（卷差>1（主体1卷，目标4卷；记录「一卷續一卷」）），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}

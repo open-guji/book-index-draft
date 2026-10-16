@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exobi4ln4i6f",
+  "type": "work",
+  "title": "脩攘通考",
+  "authors": [
+    {
+      "name": "何鏜",
+      "role": "編",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/x0a4c1w2lrjzfdum"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "脩攘通考六卷",
+      "author_info": "明何鏜編",
+      "section": "史部/地理類/總志之屬",
+      "summary": "共 2 個版本：明萬曆六年自刻本（國家圖書館、北京大學圖書館）；明抄本（山東省博物館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7cqa4y166iznz2fc、in61ydqbdrn8o8tr\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 405 批新建（hold 清零：史部E判定表 J-anon-补作者 另立；原 hold 原因：卷差>1（本条6卷，目标4卷））",
+  "related_works": [
+    {
+      "id": "d59f2nj6ebr6",
+      "relation": "related",
+      "note": "史部E另立（anon）：總目記錄「脩攘通考」（無作者）與既有 Work 題名相同或相近而不可證同書（记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋related），判為不同著作（不並）；互為相關。"
+    }
+  ]
+}
