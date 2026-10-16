@@ -5,11 +5,11 @@
   python3 -I export_titlekeys.py <book-index 路径> <输出目录> [--limit N]
 
 只读 <book-index>/Work/**/*.json 与 promotions/*.json，写 <输出目录>/：
-  标题键表.tsv     key, work_id, primary_title, key_kind, authors, dynasty, cand_n, norm_key, norm_cand_n, bare_key
+  标题键表.tsv     key, work_id, primary_title, key_kind, authors, dynasty, cand_n, norm_key, norm_cand_n, bare_key, author_ids
   标题重定向表.tsv  old_id, status(merged|promoted|promoted-dangling), final_id, old_title
   标题键表.meta.json  源 commit、脚本 sha256、行数、两表 sha256
 key_kind：primary｜alt:additional（additional_titles）｜alt:original（original_title）。
-authors：authors[].name 以「／」连接（消歧用，原字形）；dynasty：Work.dynasty。
+authors：authors[].name 以「／」连接（消歧用，原字形）；author_ids：与 authors 逐位对齐的 authors[].entity_id（缺则空位，可喂专名匹配结果做 id 级消歧）；dynasty：Work.dynasty。
 norm_key：与 export_keytable 同一张异体折叠表；bare_key：norm_key 再去掉《》与首部「[光緒]」「（清）」类时代标记，
   使「[光緒]光福志」「光福志」「《光福志》」互通（同名异修仍是不同 Work，靠 authors／dynasty 区分）。
   norm_cand_n：同 bare_key 下不同 Work 的个数（宽松匹配命中时看它，不看 cand_n）。
@@ -89,9 +89,12 @@ def main():
     rows = []
     owners, nowners = defaultdict(set), defaultdict(set)
     for wid, w in live.items():
-        au = "／".join(x["name"] for x in (w.get("authors") or []) if isinstance(x, dict) and x.get("name"))
+        al = [x for x in (w.get("authors") or []) if isinstance(x, dict) and x.get("name")]
+        au = "／".join(x["name"] for x in al)
+        # 与 authors 逐位对齐；无 entity_id 的位置留空（GUJI-509 对稿④）
+        aid = "／".join(x.get("entity_id") or "" for x in al)
         for t, kind in titles_for(w):
-            rows.append((t, wid, w.get("title") or "", kind, au, w.get("dynasty") or ""))
+            rows.append((t, wid, w.get("title") or "", kind, au, w.get("dynasty") or "", aid))
             owners[t].add(wid)
             nowners[bare_key(t)].add(wid)
     rows = sorted(set(rows), key=lambda r: (r[0], r[1], r[3]))
@@ -100,10 +103,10 @@ def main():
     with open(os.path.join(a.out, "标题键表.tsv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["key", "work_id", "primary_title", "key_kind", "authors", "dynasty",
-                    "cand_n", "norm_key", "norm_cand_n", "bare_key"])
-        for t, wid, pt, kind, au, dyn in rows:
+                    "cand_n", "norm_key", "norm_cand_n", "bare_key", "author_ids"])
+        for t, wid, pt, kind, au, dyn, aid in rows:
             bk = bare_key(t)
-            w.writerow([t, wid, pt, kind, au, dyn, len(owners[t]), norm_key(t), len(nowners[bk]), bk])
+            w.writerow([t, wid, pt, kind, au, dyn, len(owners[t]), norm_key(t), len(nowners[bk]), bk, aid])
 
     redirects = [(wid, "merged", final_id(works, wid), w.get("title") or "")
                  for wid, w in works.items() if w.get("merged_into")]

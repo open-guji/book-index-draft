@@ -4,16 +4,19 @@
 只依赖 export_keytable.py 的输出目录（键表.tsv／重定向表.tsv），标准库即可。
 
 用法：
-  python3 -I match_names.py <键表目录> --name 蘇軾 [--dynasty 宋] [--subtype people]
+  python3 -I match_names.py <键表目录> --name 蘇軾 [--dynasty 宋] [--subtype people] [--work 書名]
   python3 -I match_names.py <键表目录> --id <旧id或草稿id>
   python3 -I match_names.py <键表目录> --batch 查询.tsv [--out 结果.jsonl]
-      查询.tsv 表头：name[, dynasty, subtype]（制表符分隔，UTF-8）
+      查询.tsv 表头：name[, dynasty, subtype, work]（制表符分隔，UTF-8）
 输出 JSONL，每个查询一行：
   {query:{...}, status, via, candidates:[{entity_id, primary_name, subtype, dynasty, key_kind, via}], reason}
 status：unique 唯一候选可直接挂（朝代不一致时 reason 提示抽检）｜likely 多候选仅一条朝代吻合｜ambiguous 多候选无法定，必须人判｜
         redirected 经重定向表落到 live｜tombstone_name 名字只命中墓碑旧名，已跟到 final（较弱，建议抽检）｜
-        retired 命中退役条｜none 未命中（走缺实体入口 GUJI-395）
+        retired 命中退役条｜weak 单字人名（失名条／字号残片），一律不自动挂，reason「单字/失名条，勿自动挂」｜none 未命中（走缺实体入口 GUJI-395）
 朝代只是软信号（候选带 dynasty_signal：match|partial|mismatch|unknown），只降权不排除。绝不在 ambiguous 时自动取第一条。
+作品软信号 --work：候选 works（键表由 Work.authors[].entity_id 反查）含该书名 → work_signal=match 并排前；
+多候选仅一条含该书名 → likely；唯一候选但其已知作品不含 → unique 附抽检提示；只排序不排除。
+place/office/reign 的 dynasty 可含多朝（「／」连接），任一朝吻合即 match。
 """
 import argparse
 import csv
@@ -69,7 +72,9 @@ class Matcher:
     @staticmethod
     def _cand(r, via):
         return {"entity_id": r["entity_id"], "primary_name": r["primary_name"], "subtype": r["subtype"],
-                "dynasty": r["dynasty"], "key_kind": r["key_kind"], "via": via}
+                "dynasty": r["dynasty"], "key_kind": r["key_kind"], "via": via,
+                "works": r.get("works", ""), "life": r.get("life", ""),
+                "native_place": r.get("native_place", ""), "period": r.get("period", "")}
 
     def resolve_id(self, eid):
         """旧 id／草稿 id → live。"""
@@ -88,7 +93,7 @@ class Matcher:
         return {"status": "redirected", "via": r["status"],
                 "candidates": [self._cand(row, r["status"])], "reason": ""}
 
-    def match(self, name, dynasty="", subtype=""):
+    def match(self, name, dynasty="", subtype="", work=""):
         q = name.strip()
         rows, via = self.by_key.get(q, []), "exact"
         if not rows:
@@ -117,21 +122,48 @@ class Matcher:
         cands = _dedup([self._cand(r, via) for r in rows])
         for c in cands:
             c["dynasty_signal"] = _dyn_signal(dynasty, c["dynasty"])
-        # 朝代只是软信号：只降权排序，绝不排除（帝王等朝代标注与年号表不一致，见设计文档 §三）
+            c["work_signal"] = _work_signal(work, c["works"])
+        # 朝代／作品只是软信号：只降权排序，绝不排除（帝王等朝代标注与年号表不一致，见设计文档 §三）
         order = {"match": 0, "partial": 1, "unknown": 2, "mismatch": 3}
-        cands.sort(key=lambda c: (order[c["dynasty_signal"]], c["key_kind"] != "primary", c["entity_id"]))
+        worder = {"match": 0, "unknown": 1, "none": 2}
+        cands.sort(key=lambda c: (worder[c["work_signal"]], order[c["dynasty_signal"]],
+                                  c["key_kind"] != "primary", c["entity_id"]))
+        # 单字人名（失名条、字号残片）一律不自动挂（GUJI-509 对稿①）
+        if len(q) == 1 and all(c["subtype"] == "people" for c in cands):
+            return {"status": "weak", "via": via, "candidates": cands, "reason": "单字/失名条，勿自动挂"}
         reason = ""
         if len(cands) == 1:
             status = "unique"
             if cands[0]["dynasty_signal"] == "mismatch":
                 reason = "唯一候选但朝代不一致（%s≠%s），建议抽检" % (dynasty, cands[0]["dynasty"])
+            elif cands[0]["work_signal"] == "none":
+                reason = "唯一候选但其已知作品不含《%s》，建议抽检" % work.strip("《》")
         else:
+            wtop = [c for c in cands if c["work_signal"] == "match"]
             top = [c for c in cands if c["dynasty_signal"] in ("match", "partial")]
-            if len(top) == 1 and top[0]["dynasty_signal"] == "match":
+            if len(wtop) == 1:
+                status, reason = "likely", "多候选，仅一条已知作品含《%s》，其余降权保留；建议抽检" % work.strip("《》")
+            elif len(top) == 1 and top[0]["dynasty_signal"] == "match":
                 status, reason = "likely", "多候选，仅一条朝代吻合，其余降权保留；建议抽检"
             else:
                 status, reason = "ambiguous", "同名多候选，需上下文（朝代／作品／作者）消歧"
         return {"status": status, "via": via, "candidates": cands, "reason": reason}
+
+
+def _work_signal(w, works):
+    """作品软信号：match＝候选已知作品含此书名；none＝有作品信息但不含；unknown＝未给书名或候选无作品信息。"""
+    if not w or not works:
+        return "unknown"
+    nw = bare(w)
+    for x in works.split(";"):
+        nx = bare(x)
+        if nx and (nx == nw or (len(nw) >= 3 and (nw in nx or nx in nw))):
+            return "match"
+    return "none"
+
+
+def bare(s):
+    return norm_key(s).replace("《", "").replace("》", "")
 
 
 def _dyn_signal(q, d):
@@ -139,12 +171,15 @@ def _dyn_signal(q, d):
         return "unknown"
     if not d:
         return "unknown"
-    nq, nd = norm_key(q), norm_key(d)
-    if nq == nd:
-        return "match"
-    if nq in nd or nd in nq:  # 宋／北宋、南宋；清／清末
-        return "partial"
-    return "mismatch"
+    nq = norm_key(q)
+    sig = "mismatch"
+    for part in d.split("／"):  # place/office/reign 可跨多朝，以「／」连接
+        nd = norm_key(part)
+        if nq == nd:
+            return "match"
+        if nq in nd or nd in nq:  # 宋／北宋、南宋；清／清末
+            sig = "partial"
+    return sig
 
 
 def _dedup(cands):
@@ -163,6 +198,7 @@ def main():
     ap.add_argument("--name")
     ap.add_argument("--dynasty", default="")
     ap.add_argument("--subtype", default="")
+    ap.add_argument("--work", default="", help="书名软信号：候选已知作品含它则升权（只排序不排除）")
     ap.add_argument("--id")
     ap.add_argument("--batch")
     ap.add_argument("--out")
@@ -172,12 +208,12 @@ def main():
     if a.id:
         res = [({"id": a.id}, m.resolve_id(a.id))]
     elif a.name:
-        res = [({"name": a.name, "dynasty": a.dynasty, "subtype": a.subtype},
-                m.match(a.name, a.dynasty, a.subtype))]
+        res = [({"name": a.name, "dynasty": a.dynasty, "subtype": a.subtype, "work": a.work},
+                m.match(a.name, a.dynasty, a.subtype, a.work))]
     elif a.batch:
         res = []
         for r in _read(a.batch):
-            res.append((r, m.match(r["name"], r.get("dynasty") or "", r.get("subtype") or "")))
+            res.append((r, m.match(r["name"], r.get("dynasty") or "", r.get("subtype") or "", r.get("work") or "")))
     else:
         ap.error("需要 --name／--id／--batch 之一")
     for q, r in res:
