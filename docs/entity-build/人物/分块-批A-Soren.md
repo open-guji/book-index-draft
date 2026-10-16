@@ -13,7 +13,7 @@
 | 1 | CBDB 候选取数（A-01 共 40 人先行，A-02 63 人随后） | 名单 TSV | 每行有状态：有候选／CBDB无／接口失败；抽检≥20% 一致率≥85% | Simone；Soren 抽检 |
 | 2 | 逐人判定：唯一候选＋朝代不冲突＋≥1 旁证→填 `cbdb_id`；同名同朝代但无旁证→不填；多候选→标歧义，不挂 | 候选表＋Work 书名／总目责任者原文 | 判定表每行有结论＋依据；歧义项单列 | Soren／Skye |
 | 3 | 需读原书的歧义项取证 | 判定表歧义行 | 证据卡含原书引文＋第二独立来源＋把握 | Sidney |
-| 4 | 铸 id、写 Entity JSON（字段按 `schema/entity.md`；`alt_names[].type` 限 23 值；`ai_note` 写依据；生卒空不写0）、同步 `index/entities/*.json` | 判定表 | `verify --strict` entities 漂移 0；`check_v2` 0/0/0；`check_schema --paths -` 过 | Soren |
+| 4 | 铸 id、写 Entity JSON（字段按 `schema/entity/people.md`、`_common.md`；`alt_names[].type` 限 23 值；`ai_note` 写依据；生卒空不写0）、同步 `index/entities/*.json` | 判定表 | `verify --strict` entities 漂移 0；`check_v2` 0/0/0；`check_schema --paths -` 过 | Soren |
 | 5 | 出对照表 TSV：人名｜Work/Book id｜entity_id｜置信／依据（含同名消歧结论与版本 commit） | 已合 Entity | 行数＝挂靠 Work 数；歧义项不列 | Soren |
 | 6 | PR（≤1 个写 PR 在途，一批一提交）；Mirren 审合；排班登记 | — | 门禁输出贴 PR | Soren |
 
