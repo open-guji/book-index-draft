@@ -6,7 +6,10 @@
         [--limit-people N] [--prev <旧键表.tsv>]
 
 只读 <book-index>/Entity/**/*.json，写 <输出目录>/ 下：
-  键表.tsv     key, entity_id, primary_name, subtype, key_kind, dynasty, cand_n, norm_key, norm_cand_n
+  键表.tsv     key, entity_id, primary_name, subtype, key_kind, dynasty, cand_n, norm_key, norm_cand_n,
+               works（Work.authors[].entity_id 反查的作品名，;连接，截断）, life（生-卒）, native_place, period, flags（单字键：dynasty/reign 为 dynasty_ctx，其余 weak）
+               dynasty：people 取 dynasty；place/office/reign 由 dynasty_id(s)／history 推出（多朝以「／」连接）；
+               period：实体自带，否则由 dynasty 名对应的朝代实体 period 推出（唯一时）
   重定向表.tsv  old_id, status(merged|promoted|retired), final_id, old_name
   键表.meta.json  源 commit、脚本 sha256、行数、两表 sha256
   增量.tsv     （仅给 --prev 时）op(add|del|chg), key, entity_id, 新 key_kind／dynasty／cand_n
@@ -88,6 +91,53 @@ def final_id(ents, eid):
     return eid
 
 
+def dyn_names(e, dname):
+    """place/office/reign 的朝代名（软信号）：reign.dynasty_id、office.dynasty_ids、place.history[].dynasty_ids。"""
+    ids = []
+    if e.get("dynasty_id"):
+        ids.append(e["dynasty_id"])
+    ids += e.get("dynasty_ids") or []
+    for h in e.get("history") or []:
+        ids += (h.get("dynasty_ids") or []) if isinstance(h, dict) else []
+    out = []
+    for i in ids:
+        n = dname.get(i)
+        if n and n not in out:
+            out.append(n)
+    return "／".join(out)
+
+
+def load_works_by_entity(repo, ents, promo, cap):
+    """entity 终点 id → [作品名]：Work.authors[].entity_id 反查（撰/注/纂/輯等各 role 都收，role 不过滤，软信号用）。"""
+    by = defaultdict(list)
+    for p in sorted(glob.glob(os.path.join(repo, "Work", "**", "*.json"), recursive=True)):
+        try:
+            with open(p, encoding="utf-8") as f:
+                w = json.load(f)
+        except Exception:
+            continue
+        if not isinstance(w, dict) or w.get("merged_into") or not w.get("title"):
+            continue
+        for au in w.get("authors") or []:
+            eid = au.get("entity_id") if isinstance(au, dict) else None
+            if not eid:
+                continue
+            eid = final_id(ents, promo.get(eid, eid))
+            if w["title"] not in by[eid]:
+                by[eid].append(w["title"])
+    return {k: v[:cap] for k, v in by.items()}
+
+
+def life_of(e):
+    d = e.get("dates") or {}
+    if not isinstance(d, dict):
+        return ""
+    b, z = d.get("birth"), d.get("death")
+    if b is None and z is None:
+        return ""
+    return "%s-%s" % ("" if b is None else b, "" if z is None else z)
+
+
 def rows_for(e):
     pn = e.get("primary_name")
     if pn:
@@ -106,6 +156,8 @@ def main():
     ap.add_argument("--subtypes", default="")
     ap.add_argument("--limit-people", type=int, default=0, help="仅样例用：人物只取 id 排序后前 N 条")
     ap.add_argument("--prev")
+    ap.add_argument("--ref-repo", default="", help="朝代实体所在的另一库（草稿库导出时指向正式库，用于 dynasty_id→朝代名）")
+    ap.add_argument("--works-cap", type=int, default=8, help="每个实体最多导出的作品名条数")
     a = ap.parse_args()
 
     want = set(filter(None, a.subtypes.split(",")))
@@ -118,15 +170,32 @@ def main():
         keep = set(ppl)
         live = {k: e for k, e in live.items() if e.get("subtype") != "people" or k in keep}
 
+    promo_all = load_promotions(a.repo)
+    dname, dperiod = {}, {}
+    for src in [ents] + ([load(a.ref_repo)] if a.ref_repo else []):
+        for k, e in src.items():
+            if e.get("subtype") == "dynasty":
+                dname[k] = e.get("primary_name") or ""
+                if e.get("period"):
+                    dperiod[e["primary_name"]] = e["period"]
+    works_by = load_works_by_entity(a.repo, ents, promo_all, a.works_cap)
+
     keys = []
     owners = defaultdict(set)
     nowners = defaultdict(set)
     for eid, e in live.items():
         st = e.get("subtype")
-        # dynasty 只对 people 有意义；其余 subtype 留空
-        dyn = (e.get("dynasty") or "") if st == "people" else ""
+        # people 取 dynasty；place/office/reign 由 dynasty_id(s)／history 推出朝代名（GUJI-509 对稿③）；其余留空
+        dyn = (e.get("dynasty") or "") if st == "people" else dyn_names(e, dname) if st in ("place", "office", "reign") else ""
+        per = e.get("period") or ""
+        if not per and dyn:
+            pp = {dperiod[x] for x in dyn.split("／") if x in dperiod}
+            per = pp.pop() if len(pp) == 1 else ""
+        if st == "dynasty" and not per:
+            per = dperiod.get(e.get("primary_name") or "", "")
+        extra = (";".join(works_by.get(eid, [])), life_of(e), e.get("native_place") or "", per)
         for name, kind in rows_for(e):
-            keys.append((name, eid, e.get("primary_name") or "", st, kind, dyn))
+            keys.append((name, eid, e.get("primary_name") or "", st, kind, dyn, extra))
             owners[(st, name)].add(eid)
             nowners[(st, norm_key(name))].add(eid)
     keys = sorted(set(keys), key=lambda r: (r[0], r[1], r[4]))
@@ -135,11 +204,13 @@ def main():
     with open(os.path.join(a.out, "键表.tsv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["key", "entity_id", "primary_name", "subtype", "key_kind", "dynasty",
-                    "cand_n", "norm_key", "norm_cand_n"])
-        for name, eid, pn, st, kind, dyn in keys:
+                    "cand_n", "norm_key", "norm_cand_n", "works", "life", "native_place", "period", "flags"])
+        for name, eid, pn, st, kind, dyn, extra in keys:
             nk = norm_key(name)
             w.writerow([name, eid, pn, st, kind, dyn, len(owners[(st, name)]),
-                        nk, len(nowners[(st, nk)])])
+                        nk, len(nowners[(st, nk)]), *extra,
+                        # 单字键：朝代／年号仅朝代语境可配（dynasty_ctx），其余 weak（Soren 规则，GUJI-394）
+                        ("" if len(name) > 1 else "dynasty_ctx" if st in ("dynasty", "reign") else "weak")])
 
     redirects = []
     for eid, e in ents.items():
@@ -198,7 +269,7 @@ def main():
                 return {(x["key"], x["entity_id"]): (x["key_kind"], x["dynasty"], x.get("cand_n", ""))
                         for x in r}
         old = read(a.prev)
-        new = {(k, e): (kd, d, str(len(owners[(st, k)]))) for k, e, pn, st, kd, d in keys}
+        new = {(k, e): (kd, d, str(len(owners[(st, k)]))) for k, e, pn, st, kd, d, _x in keys}
         with open(os.path.join(a.out, "增量.tsv"), "w", encoding="utf-8", newline="") as f:
             w = csv.writer(f, delimiter="\t", lineterminator="\n")
             w.writerow(["op", "key", "entity_id", "key_kind", "dynasty", "cand_n"])

@@ -2,10 +2,10 @@
 """文本侧书名匹配（GUJI-509 续）：书名（＋作者／朝代）→ 候选 Work id。只依赖 export_titlekeys.py 的输出目录。
 
 用法：
-  python3 -I match_titles.py <标题键表目录> --title 光福志 [--author 徐傅] [--dynasty 清]
+  python3 -I match_titles.py <标题键表目录> --title 光福志 [--author 徐傅] [--dynasty 清] [--author-id <entity_id>]
   python3 -I match_titles.py <标题键表目录> --id <旧id或草稿id>
-  python3 -I match_titles.py <标题键表目录> --batch 查询.tsv [--out 结果.jsonl]   # 表头 title[,author,dynasty]
-输出 JSONL：{query, status, via, candidates[{work_id, primary_title, key_kind, authors, dynasty, via, author_signal, dynasty_signal}], reason}
+  python3 -I match_titles.py <标题键表目录> --batch 查询.tsv [--out 结果.jsonl]   # 表头 title[,author,dynasty,author_id]
+输出 JSONL：{query, status, via, candidates[{work_id, primary_title, key_kind, authors, author_ids, dynasty, via, author_signal, dynasty_signal}], reason}
 匹配顺序：精确 → norm_key（异体）→ bare_key（去《》与首部[年号]标记）→ 墓碑旧题。
 作者、朝代都是软信号（match|partial|mismatch|unknown），只降权排序、不排除；同名异修的 Work 全部保留。
 status 与 match_names.py 一致：unique｜likely（多候选，仅一条作者或朝代 match）｜ambiguous｜redirected｜tombstone_name｜none。
@@ -84,7 +84,7 @@ class TitleMatcher:
     @staticmethod
     def _cand(r, via):
         return {"work_id": r["work_id"], "primary_title": r["primary_title"], "key_kind": r["key_kind"],
-                "authors": r["authors"], "dynasty": r["dynasty"], "via": via}
+                "authors": r["authors"], "author_ids": r.get("author_ids", ""), "dynasty": r["dynasty"], "via": via}
 
     def resolve_id(self, wid):
         if wid in self.by_id:
@@ -97,7 +97,7 @@ class TitleMatcher:
             return {"status": "none", "via": r["status"], "candidates": [], "reason": "重定向目标不在 live：" + r["final_id"]}
         return {"status": "redirected", "via": r["status"], "candidates": [self._cand(row, r["status"])], "reason": ""}
 
-    def match(self, title, author="", dynasty=""):
+    def match(self, title, author="", dynasty="", author_id=""):
         q = title.strip()
         for table, key, via in ((self.by_key, q, "exact"), (self.by_norm, norm_key(q), "norm"),
                                 (self.by_bare, bare_key(q), "bare")):
@@ -120,7 +120,11 @@ class TitleMatcher:
                 continue
             seen.add(r["work_id"])
             c = self._cand(r, via)
-            c["author_signal"] = _sig(author, r["authors"].split("／"))
+            ids = [x for x in r.get("author_ids", "").split("／") if x]
+            if author_id and ids:  # id 级消歧优先于名字；id 来自专名匹配结果（已跟到终点）
+                c["author_signal"] = "match" if author_id in ids else "mismatch"
+            else:
+                c["author_signal"] = _sig(author, r["authors"].split("／"))
             c["dynasty_signal"] = _sig(dynasty, [r["dynasty"]])
             cands.append(c)
         order = {"match": 0, "partial": 1, "unknown": 2, "mismatch": 3}
@@ -146,6 +150,7 @@ def main():
     ap.add_argument("dir")
     ap.add_argument("--title")
     ap.add_argument("--author", default="")
+    ap.add_argument("--author-id", default="", help="作者实体 id（专名匹配结果），优先于 --author 名字比对")
     ap.add_argument("--dynasty", default="")
     ap.add_argument("--id")
     ap.add_argument("--batch")
@@ -156,10 +161,10 @@ def main():
     if a.id:
         res = [({"id": a.id}, m.resolve_id(a.id))]
     elif a.title:
-        res = [({"title": a.title, "author": a.author, "dynasty": a.dynasty},
-                m.match(a.title, a.author, a.dynasty))]
+        res = [({"title": a.title, "author": a.author, "dynasty": a.dynasty, "author_id": a.author_id},
+                m.match(a.title, a.author, a.dynasty, a.author_id))]
     elif a.batch:
-        res = [(r, m.match(r["title"], r.get("author") or "", r.get("dynasty") or "")) for r in _read(a.batch)]
+        res = [(r, m.match(r["title"], r.get("author") or "", r.get("dynasty") or "", r.get("author_id") or "")) for r in _read(a.batch)]
     else:
         ap.error("需要 --title／--id／--batch 之一")
     for q, r in res:
