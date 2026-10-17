@@ -93,7 +93,7 @@ class Matcher:
         return {"status": "redirected", "via": r["status"],
                 "candidates": [self._cand(row, r["status"])], "reason": ""}
 
-    def match(self, name, dynasty="", subtype="", work=""):
+    def _match0(self, name, dynasty="", subtype="", work=""):
         q = name.strip()
         rows, via = self.by_key.get(q, []), "exact"
         if not rows:
@@ -152,6 +152,34 @@ class Matcher:
             else:
                 status, reason = "ambiguous", "同名多候选，需上下文（朝代／作品／作者）消歧"
         return {"status": status, "via": via, "candidates": cands, "reason": reason}
+
+
+    _SUFFIX = ("府", "州", "縣", "郡", "道", "路")
+
+    def match(self, name, dynasty="", subtype="", work=""):
+        """基础匹配＋两类回查（Thaddeus 册002/003 试跑建议）：
+        ①地名省称（揚州→揚州府）：none 时补「府/州/縣/郡/道/路」后缀回查，只在 place 范围，命中一律 likely 抽检；
+        ②清諱避讳字对（玄↔元，如 鄭元≈鄭玄）：人名含玄／元时用对位字回查，命中则把 unique 降为 likely 并附候选。"""
+        r = self._match0(name, dynasty, subtype, work)
+        q = name.strip()
+        if r["status"] == "none" and subtype in ("", "place") and len(q) >= 2:
+            cands = []
+            for suf in self._SUFFIX:
+                rr = self._match0(q + suf, dynasty, "place", work)
+                if rr["status"] in ("unique", "likely", "ambiguous"):
+                    cands += rr["candidates"]
+            if cands:
+                return {"status": "likely", "via": "place_suffix", "candidates": _dedup(cands),
+                        "reason": "省称回查（加府／州／縣等后缀），须抽检；多候选勿取第一条"}
+        if subtype in ("", "people") and len(q) >= 2 and ("玄" in q or "元" in q):
+            alt = q.replace("玄", "\0").replace("元", "玄").replace("\0", "元")
+            ra = self._match0(alt, dynasty, "people", work)
+            if ra["status"] in ("unique", "likely", "ambiguous") and r["status"] in ("none", "unique", "likely", "ambiguous"):
+                cands = _dedup(r["candidates"] + ra["candidates"])
+                return {"status": "likely" if r["status"] != "ambiguous" else "ambiguous",
+                        "via": r["via"] or "bihui", "candidates": cands,
+                        "reason": "清諱避讳字对（玄↔元）：『%s』亦有候选，须抽检" % alt}
+        return r
 
 
 def _work_signal(w, works):
