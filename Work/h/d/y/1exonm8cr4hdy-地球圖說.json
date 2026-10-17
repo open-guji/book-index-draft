@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exonm8cr4hdy",
+  "type": "work",
+  "title": "地球圖說",
+  "authors": [
+    {
+      "name": "阮亨",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/806pg1ikc4loz2sn"
+      }
+    },
+    {
+      "name": "蔣友仁",
+      "role": "譯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/bj438pfz12cjnl0q"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "地球圖說一卷補圖一卷",
+      "author_info": "法國蔣友仁譯;清何國宗等潤色;清阮元補圖;清阮亨輯",
+      "section": "子部/天文算法類/推步之屬/天文",
+      "summary": "共 3 個版本：文選樓叢書本（馆藏未载）；清嘉慶五年焦循抄本（北京大學圖書館）；清刻本（北京大學圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vuc5gdlybjzrhk40、17q5g6oorfjqywbi、k8ubg37mdka8di55\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：何國宗潤色、阮元補圖\nauto-split:存疑未并\nE6 第 551 批新建（hold 清零：jyiyi；原 hold 原因：）"
+}
