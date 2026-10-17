@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "1exomnv1s9q0x",
+  "type": "work",
+  "title": "茶經",
+  "authors": [
+    {
+      "name": "陸羽",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/13cguk385ywnfsge"
+      }
+    },
+    {
+      "name": "張又新",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/pywd48x6vbnlkpmn"
+      }
+    },
+    {
+      "name": "洪芻",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/io53bazrqmvss3ew"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "茶經六卷",
+      "author_info": "唐陸羽撰;清王淇增輯",
+      "section": "子部/譜錄類/飲食之屬/茶",
+      "summary": "共 7 個版本：清雍正七年儀鴻堂刻本（國家圖書館）；山居雜志本（重慶市圖書館、湖南省社會科學院圖書館）；明樂元聲刻本（國家圖書館）；明刻本（國家圖書館）；明嘉靖二十二年柯□刻本（國家圖書館）；明萬曆十六年孫大綬秋水齋刻本（國家圖書館、上海圖書館、南京圖書館）；明刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：h18gmiq1oio1ddbt、7j5xh6u3xyrv62pj、vv30voyaafl1jaix、zsgri75uvk86l35u、so7ofs8kyf8ar5sp、b8ekyp75btyigncl、x3yz6naiedktzjdc\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u8b5c\\u9304\\u985e\", \"l3\": \"\\u98f2\\u98df\\u4e4b\\u5c6c\", \"l4\": \"\\u5408\\u7de8\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u8b5c\\u9304\\u985e\", \"l3\": \"\\u98f2\\u98df\\u4e4b\\u5c6c\", \"l4\": \"\\u8336\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 545 批新建（hold 清零：jyiyi；原 hold 原因：）"
+}
