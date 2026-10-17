@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exp05o9gd24j",
+  "type": "work",
+  "title": "[乾隆]新安縣志",
+  "authors": [
+    {
+      "name": "張麟甲",
+      "role": "增纂",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/n1pefa1kp8du7su3"
+      }
+    },
+    {
+      "name": "孫孝芬",
+      "role": "增修",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/nqxgx6k7ktcqvdc8"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "[乾隆]新安縣志八卷",
+      "author_info": "清高景原本;清孫孝芬增修;清張麟甲增纂",
+      "section": "史部/方志類/地志之屬",
+      "summary": "共 2 個版本：清乾隆八年刻本（中國科學院圖書館、河北省博物館、北京大學圖書館、國家圖書館）；抄本（天津圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gknj2sn5qysoxjt2、7ffcm83svj2jrdgt\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：高景原本\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+}
