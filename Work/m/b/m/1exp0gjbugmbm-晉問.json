@@ -3,49 +3,5 @@
   "id": "1exp0gjbugmbm",
   "type": "work",
   "title": "晉問",
-  "authors": [
-    {
-      "name": "柳宗元",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ca5x67yidimzepn3"
-      }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "晉問",
-      "author_info": "唐柳宗元撰",
-      "section": "叢書部/雜纂類/宋元",
-      "summary": "共 1 個版本：（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "晉問一卷",
-      "author_info": "唐柳宗元撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 1 個版本：說郛本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 ap7cw3wh7xgzw0ph（說郛一百二十𢎥一千二百八十種說郛續四十六𢎥五百三十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t3g8wd1hh0geyhof\nauto-split:存疑未并\n叢書子目，同题既有 Work：短泛题名同名，未硬并，待查重线处理\n叢書子目，卷數缺（總目未載卷數，Book 不填卷數）\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3ryajnm《晉問》已並入；其作者寫法：柳宗元）",
-  "merged_in": [
-    {
-      "id": "1exp0i3ryajnm",
-      "title": "晉問",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+  "merged_into": "d59f28mx07wn"
 }
