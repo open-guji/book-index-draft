@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3zk1o1s",
+  "type": "work",
+  "title": "致身錄",
+  "authors": [
+    {
+      "name": "史仲彬",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/l517hxa46ad2bh04"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "致身錄一卷",
+      "author_info": "明史仲彬撰",
+      "section": "史部/雜史類/叢編之屬",
+      "summary": "共 4 個版本：（上海圖書館、北京大學圖書館、南京圖書館）；明崇禎二年史兆麟刻本（國家圖書館、上海圖書館）；清抄本（國家圖書館）；清康熙八年史在相刻本（上海圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：smj6degwulgf7ihp、eduwr5bfu2mp6c5r、edtrkv3h53051t7o、oghxp5xe5cidbob3\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u4e8b\\u5be6\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
+  "related_works": [
+    {
+      "id": "d59f6ei1rci0",
+      "relation": "related",
+      "note": "auto-split:近名/疑同書未并（致身錄）"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3tgx2ps",
+  "type": "work",
+  "title": "欽定四庫全書考證",
+  "authors": [
+    {
+      "name": "王太嶽",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zyi5xcodtorf4l7y"
+      }
+    },
+    {
+      "name": "曹錫寶",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/k4jn6vzzxyw1l85c"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "欽定四庫全書考證一百卷",
+      "author_info": "清王太岳、曹錫寶等撰",
+      "section": "史部/目錄類/總錄之屬/公藏",
+      "summary": "共 1 個版本：武英殿聚珍版書本（臺北“故宮博物院”）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yhnkhmg6ijazradn\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：suspect_same_edition）",
+  "related_works": [
+    {
+      "id": "d59dgrvmvrwg",
+      "relation": "related",
+      "note": "auto-split:近名/疑同書未并（欽定四庫全書考證）"
+    }
+  ]
+}

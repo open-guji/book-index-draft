@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3wvwkqo",
+  "type": "work",
+  "title": "小名錄",
+  "authors": [
+    {
+      "name": "陸龜蒙",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/cam5ozb6klx7atwo"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "小名錄二卷",
+      "author_info": "唐陸龜蒙撰",
+      "section": "史部/傳記類/姓名之屬",
+      "summary": "共 1 個版本：四庫全書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：iaf6gcvuwjgyafl3\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：work_class_conflict）",
+  "related_works": [
+    {
+      "id": "d59f28kbzi12",
+      "relation": "related",
+      "note": "auto-split:近名/疑同書未并（小名錄）"
+    },
+    {
+      "id": "d59f28ll8wsm",
+      "relation": "related",
+      "note": "auto-split:同題同作者疑為同書，信息不足未并（小名錄）"
+    }
+  ]
+}
