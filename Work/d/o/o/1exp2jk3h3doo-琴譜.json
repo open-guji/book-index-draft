@@ -3,48 +3,5 @@
   "id": "1exp2jk3h3doo",
   "type": "work",
   "title": "琴譜",
-  "authors": [
-    {
-      "name": "楊表正",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ze58wzh4aoavqsuf"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "琴譜六卷",
-      "author_info": "明楊表正撰",
-      "section": "子部/藝術類/音樂之屬/譜",
-      "summary": "共 1 個版本：明萬曆間刻本（北京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：si0quljbl0cko2lu\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f2ne3si69",
-      "relation": "related",
-      "note": "auto-split"
-    },
-    {
-      "id": "d59f2gfez8qp",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    },
-    {
-      "id": "d59f2q8gp8ua",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2ne3si69"
 }
