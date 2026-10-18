@@ -3,38 +3,5 @@
   "id": "1exp2jk308kcj",
   "type": "work",
   "title": "老殘遊記",
-  "authors": [
-    {
-      "name": "劉鶚",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/w6zwszl713so7qig"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "老殘遊記二十回",
-      "author_info": "清劉鶚撰",
-      "section": "子部/小說類/白話之屬/長篇",
-      "summary": "共 3 個版本：民國二年上海新中華書局石印本（瀋陽市圖書館、南京圖書館、吉林省社會科學院圖書館）；民國四年上海文藝書室石印本（上海圖書館）；清末上海商務印書館鉛印本（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：zjx601ng2dnro3o7、hry7uv5u3uqrmc4l、8s83d772f8rgdsu3\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f2mprwhs0",
-      "relation": "related",
-      "note": "auto-split"
-    }
-  ]
+  "merged_into": "d59f2mprwhs0"
 }
