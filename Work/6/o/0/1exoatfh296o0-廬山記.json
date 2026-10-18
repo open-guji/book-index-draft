@@ -3,38 +3,5 @@
   "id": "1exoatfh296o0",
   "type": "work",
   "title": "廬山記",
-  "authors": [
-    {
-      "name": "陳舜俞",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/odtc4pp1tb1ppsw0"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "廬山記五卷",
-      "author_info": "宋陳舜俞撰",
-      "section": "史部/地理類/山水志之屬/山",
-      "summary": "共 3 個版本：殷禮在斯堂叢書本（馆藏未载）；吉石盦叢書本（馆藏未载）；說郛本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：myj4ehmyoyhyjdos、zo28kvc6vlqf7oop、0q4vgv2tsprxnpmt\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条5卷，目标3卷））",
-  "related_works": [
-    {
-      "id": "d59f2hsnnxmq",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「廬山記」（陳舜俞）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条5卷，目标3卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2hsnnxmq"
 }

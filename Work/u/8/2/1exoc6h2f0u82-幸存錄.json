@@ -3,53 +3,5 @@
   "id": "1exoc6h2f0u82",
   "type": "work",
   "title": "幸存錄",
-  "authors": [
-    {
-      "name": "夏完淳",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ch405apqhgxxpope"
-      }
-    },
-    {
-      "name": "夏允彝",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/p2f5l07atjqtmutt"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "幸存錄三卷續幸存錄二卷大哀賦一卷",
-      "author_info": "明夏允彝撰;（續幸存錄、大哀賦）明夏完淳撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：清敦仁堂抄本（蘇州市文管會）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：058ni706m68x8ad8\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-10.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
-  "related_works": [
-    {
-      "id": "d59f2nexg1z4",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「幸存錄」（夏完淳、夏允彝）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "1exp0i3x90jk0",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（幸存錄）"
-    }
-  ]
+  "merged_into": "d59f2ndp4cn5"
 }

@@ -3,38 +3,5 @@
   "id": "1exoau4wwiyo2",
   "type": "work",
   "title": "歷代銓政要畧",
-  "authors": [
-    {
-      "name": "楊億",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/e1x6xqvk5wzi2nk4"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "歷代銓政要畧一卷",
-      "author_info": "宋楊億撰",
-      "section": "史部/政書類/職官之屬/官制",
-      "summary": "共 2 個版本：雜抄二十種本（馆藏未载）；學海類編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qhtjlg88as4swhyc、16q2so4s8rh45ybp\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2hjv5atf",
-      "relation": "related",
-      "note": "史部E另立（near）：總目記錄「歷代銓政要畧」（楊億）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2hjv5atf"
 }

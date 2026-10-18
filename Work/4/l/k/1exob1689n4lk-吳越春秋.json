@@ -3,43 +3,5 @@
   "id": "1exob1689n4lk",
   "type": "work",
   "title": "吳越春秋",
-  "authors": [
-    {
-      "name": "趙曄",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6tqf1vvszny5cp55"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "吳越春秋六卷",
-      "author_info": "漢趙曄撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：（廣東省中山圖書館、南京圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：3dfkvb2dtxc5s2rf、uhny8sv0dyjf60od、1mwqiqkwqduynrom、45e6h5lpy304kyej、txr2r0tq32m3y8w6、d86p2sx1bdtzlxjj、hfc2r2n167roydt5、kpgzznnxvil1xvg2、0nnf156mhmjbb7vg、cy73xyoybjxz2imc、io7dod6tnxf6e5vy\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条6卷，目标10卷））\n總目版本待定（庫內已有 Book 11so46p5g972b、11so46p5g9728、11so46p5g972i、11so46p5g9729、11so46p5g972h、11so46p5g972f、11so46p5g972c、11so46p5g972g、11so46p5g972e、11so46p5g972a、11so46p5g972d：增定古今逸史本、古今逸史本、增定漢魏六朝别解本、四庫全書本、述記續本、廣漢魏叢書本、祕書廿一種本、說郛本、增訂漢魏叢書本、景印元明善本叢書本、摛藻堂四庫全書薈要本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；6ig5dlqm814l1nua）；總目分類：史部／雜史類／事實之屬",
-  "related_works": [
-    {
-      "id": "d59f205x7shs",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「吳越春秋」（趙曄）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条6卷，目标10卷）），判為不同著作（不並）；互為相關。"
-    },
-    {
-      "id": "1exp2byegv0g3",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f205x7shs"
 }
