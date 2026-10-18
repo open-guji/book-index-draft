@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3uj00zo",
+  "type": "work",
+  "title": "司馬奏疏",
+  "authors": [
+    {
+      "name": "王家楨",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/wwgqbdlt2nxrarme"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "司馬奏疏二卷",
+      "author_info": "明王家楨撰",
+      "section": "史部/詔令奏議類/奏議之屬",
+      "summary": "共 4 個版本：乾坤正氣集本（馆藏未载）；畿輔叢書本（馆藏未载）；叢書集成初編本（馆藏未载）；清康熙間刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：g4uussgp7v6edfyw、ny55pli5dstlggn4、rozup6vp5ifvuo8s、eki8tnhotv4fmk4j\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：near_dup）",
+  "related_works": [
+    {
+      "id": "d59fs7rdxudj",
+      "relation": "related",
+      "note": "auto-split:近名/疑同書未并（司馬奏疏）"
+    }
+  ]
+}

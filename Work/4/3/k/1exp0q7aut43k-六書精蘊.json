@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7aut43k",
+  "type": "work",
+  "title": "六書精蘊",
+  "authors": [
+    {
+      "name": "魏校",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0v5j5fuj0ert3kzx"
+      }
+    },
+    {
+      "name": "徐官",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xzj4g4cwl46r8cjf"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "六書精蘊六卷音釋舉要一卷",
+      "author_info": "明魏校撰;（音釋舉要）明徐官撰",
+      "section": "經部/小學類/說文之屬/六書",
+      "summary": "共 2 個版本：明嘉靖十九年魏希明刻本（國家圖書館、北京大學圖書館、上海圖書館）；清抄本（復旦大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2tlruicnhw0ptz3c、byg6vg3o6xh57ilg\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f2ngu49a8",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:作者部分重合未并）"
+    }
+  ]
+}

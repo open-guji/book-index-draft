@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7b6zda8",
+  "type": "work",
+  "title": "南州詩說",
+  "authors": [
+    {
+      "name": "徐必達",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/h6zxlhcud8cg4x7i"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "南州詩說八卷",
+      "author_info": "明徐必達撰",
+      "section": "經部/詩類/傳說之屬",
+      "summary": "共 1 個版本：明天啓元年刻本（復旦大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xpweh52js5blfgy6\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2neblfyc",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
+    }
+  ]
+}
