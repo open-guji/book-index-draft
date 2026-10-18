@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "1exp2tg69imtj",
+  "type": "work",
+  "title": "英雄傳",
+  "authors": [
+    {
+      "name": "雍陶",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zqssl2x2fw02tfqk"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "英雄傳一卷",
+      "author_info": "題唐雍陶撰",
+      "section": "子部/小說類/文言之屬/短篇",
+      "summary": "共 5 個版本：唐人說薈本（馆藏未载）；合刻三志本（馆藏未载）；藝苑捃華本（馆藏未载）；（國家圖書館、天津圖書館、中國科學院圖書館、福建師範大學圖書館）；龍威祕書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：b3hn8lyz6581huds、mhjpc35d5vrj2gw5、c430u0jnd10fbvdh、f7q5jvfv0p5pmbdg、c7gp2a1yb5eqxlfn\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5c0f\\u8aaa\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5c0f\\u8aaa\\u985e\", \"l3\": \"\\u6587\\u8a00\\u4e4b\\u5c6c\", \"l4\": \"\\u77ed\\u7bc7\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 4005 批新建（hold 清零：C-hold；原 hold 原因：auto-split:信息不全）"
+}
