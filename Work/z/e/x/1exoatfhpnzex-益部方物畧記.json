@@ -3,38 +3,5 @@
   "id": "1exoatfhpnzex",
   "type": "work",
   "title": "益部方物畧記",
-  "authors": [
-    {
-      "name": "宋祁",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/m6xz4pdpvv24qe3r"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "益部方物畧記一卷",
-      "author_info": "宋宋祁撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 7 個版本：津逮祕書本（馆藏未载）；叢書集成初編本（馆藏未载）；四庫全書本（馆藏未载）；祕册彙函本（馆藏未载）；說郛本（馆藏未载）；湖北先正遺書本（馆藏未载）；學津討原本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i35u7adkhuyptu12、214hy2tu084ppqx8、l0542v258xxijmm7、obuov6h6kjahy7o7、htat8unncx6n01eh、2qoj0bs5gu7py0r2、rcqqt8si105lcerr\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2ht5581t",
-      "relation": "related",
-      "note": "史部E另立（near）：總目記錄「益部方物畧記」（宋祁）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2ht5581t"
 }

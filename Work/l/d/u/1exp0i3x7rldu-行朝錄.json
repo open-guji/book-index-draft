@@ -3,48 +3,5 @@
   "id": "1exp0i3x7rldu",
   "type": "work",
   "title": "行朝錄",
-  "authors": [
-    {
-      "name": "黃宗羲",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7zasaa2lo3rgy34r"
-      }
-    },
-    {
-      "name": "陸世儀",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ubsm21xw85dwcw33"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "行朝錄三卷江右紀變一卷",
-      "author_info": "清黃宗羲撰;（江右紀變）清陸世儀撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 8 個版本：長洲章氏算鶴量鯨室抄本（國家圖書館）；清抄本（浙江圖書館）；清抄本（國家圖書館）；清同治八年戴氏長留閣抄本（國家圖書館）；明季野史四種本（上海圖書館）；（國家圖書館）；紹興先正遺書本（馆藏未载）；清抄本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：670kcoatpknwgfnm、k550yt564h1ksfdx、gpm5cpfwgnuzqk48、kl6yps2pnjig5mxk、lfbcfsbogeaejl2n、s5lttw026kdfc0o1、0ovj77defls30dvo、ffqiikftmzcyvai7\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u4e8b\\u5be6\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f2ncinyma",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（行朝錄）"
-    }
-  ]
+  "merged_into": "d59f2ncinyma"
 }

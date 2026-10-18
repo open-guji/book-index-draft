@@ -3,38 +3,5 @@
   "id": "1exoatfh0drev",
   "type": "work",
   "title": "零陵總記",
-  "authors": [
-    {
-      "name": "陶嶽",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/4mltv5o5zzoowazp"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "零陵總記一卷",
-      "author_info": "宋陶岳撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 1 個版本：（中國科學院圖書館、南京圖書館、湖北省圖書館、上海圖書館、浙江圖書館、北京大學圖書館、遼寧省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ecvops8r7byeuw2s\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标15卷））\n總目版本待定（庫內已有 Book 11so3yye6olc8：麓山精舍叢書本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；g73yh4w03h2y3g83）；總目分類：史部／地理類／叢編之屬",
-  "related_works": [
-    {
-      "id": "d59f2hi0nr42",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「零陵總記」（陶嶽）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标15卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2hi0nr42"
 }

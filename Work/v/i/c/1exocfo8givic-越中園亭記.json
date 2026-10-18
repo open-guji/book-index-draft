@@ -3,38 +3,5 @@
   "id": "1exocfo8givic",
   "type": "work",
   "title": "越中園亭記",
-  "authors": [
-    {
-      "name": "祁彪佳",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/v0nl1cbovhzov4e7"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "越中園亭記六卷",
-      "author_info": "明祁彪佳撰",
-      "section": "史部/地理類/專志之屬/園亭",
-      "summary": "共 1 個版本：越中文獻輯存書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：owcf5wflb5eyh4c8\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-11.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
-  "related_works": [
-    {
-      "id": "d59f2nf2fuo3",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「越中園亭記」（祁彪佳）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2nf2fuo3"
 }

@@ -3,38 +3,5 @@
   "id": "1exoh0k8wn01s",
   "type": "work",
   "title": "刑案匯覽",
-  "authors": [
-    {
-      "name": "祝慶祺",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7bjlba1vmp2uqtrw"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "刑案匯覽八十八卷目錄二卷",
-      "author_info": "清祝慶祺輯",
-      "section": "史部/政書類/刑法之屬/刑案",
-      "summary": "共 7 個版本：清道光二十四年刻本（日本東京大學東洋文化研究所、上海圖書館）；清道光十四年棠樾慎思堂刻本（上海圖書館、天津圖書館、國家圖書館、遼寧省圖書館）；清光緒八年寄螺齋刻本（浙江圖書館）；清光緒十九年上海鴻光書局石印本（北京大學圖書館）；清咸豐二年棠樾慎思堂刻本（國家圖書館、遼寧省圖書館、上海圖書館）；清光緒十二年上海圖書集成印書局鉛印本（浙江圖書館、上海圖書館、天津圖書館）；清光緒十五年上海鴻文書局石印本（國家圖書館、天津圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pjt4a8d7xmcjsnux、xqdiqaht04fe5mxo、lu6vzdz21odvzphn、edx14c0fz37ddoci、85v2h1ydwe6fu7ch、jsl63rf4q3lhdry1、s3cr3xap31wocp05\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋rel）",
-  "related_works": [
-    {
-      "id": "d59f2nfcqk8w",
-      "relation": "related",
-      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「刑案匯覽」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
-    }
-  ]
+  "merged_into": "d59f2nfcqk8w"
 }

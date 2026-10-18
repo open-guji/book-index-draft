@@ -3,38 +3,5 @@
   "id": "1exoc6h1o6fie",
   "type": "work",
   "title": "帝王世紀",
-  "authors": [
-    {
-      "name": "皇甫謐",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qv2jp1abv80o8crm"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "帝王世紀八卷",
-      "author_info": "晉皇甫謐撰;清張澍輯注",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 7 個版本：稿本（上海圖書館）；訓纂堂叢書本（馆藏未载）；稿本（上海圖書館）；指海本（馆藏未载）；清抄本（北京大學圖書館）；玉函山房輯佚書續編本（馆藏未载）；叢書集成初編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：euf2b3cim8q3vnt6、228ze803s5mhgvsp、gwb8cyfryzwhey3e、tc23bpl8yrl6tt2o、mx4q7pq6pxkdibwj、1eup3f7r6fulooco、1b4va3k4shtmu136\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条8卷，目标10卷）））",
-  "related_works": [
-    {
-      "id": "d59f27vmd5vm",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「帝王世紀」（皇甫謐）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条8卷，目标10卷））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f27vmd5vm"
 }
