@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp12pg9tg5c",
+  "type": "work",
+  "title": "纂圖互注周禮",
+  "authors": [
+    {
+      "name": "陸德明",
+      "role": "音義",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/mh6ug8kwoegme47l"
+      }
+    },
+    {
+      "name": "鄭玄",
+      "role": "注",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/c3cgqo8flsvpraep"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "纂圖互注周禮十二卷圖說一卷",
+      "author_info": "漢鄭玄注;唐陸德明音義",
+      "section": "經部/禮類/周禮/傳說之屬",
+      "summary": "共 3 個版本：宋刻本（國家圖書館）；朝鮮刻本（遼寧省圖書館）；宋刻本（日本靜嘉堂文庫）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：iok77briozdlgbw4、qtk4kyi7tix3h3jq、s018lwvj4kexkv72\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
+  "related_works": [
+    {
+      "id": "d59f24mm8vsx",
+      "relation": "related",
+      "note": "總目經部另立（auto-split:同名无主责任者未并）"
+    }
+  ]
+}

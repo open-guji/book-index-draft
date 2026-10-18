@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp12pa9t88x",
+  "type": "work",
+  "title": "四書評",
+  "authors": [
+    {
+      "name": "李贄",
+      "role": "評",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/tfl4bgqn2x3fap19"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "四書評十九卷（大學一卷中庸一卷論語十卷孟子七卷）",
+      "author_info": "明李贄評",
+      "section": "經部/四書類/四書總義/傳說之屬",
+      "summary": "共 2 個版本：一九七四年上海師範大學圖書館油印本（北京大學圖書館）；一九七五年北京中華書局影印明萬曆間刻本（北京大學圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：4yq5sv3iwkvkcjov、ae5musstwbb345xk\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
+  "related_works": [
+    {
+      "id": "d59f2ngm03cy",
+      "relation": "related",
+      "note": "總目經部另立（auto-split:同名无主责任者未并）"
+    }
+  ]
+}
