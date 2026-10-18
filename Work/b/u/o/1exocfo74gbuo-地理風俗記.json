@@ -29,17 +29,22 @@
       "summary": "共 2 個版本：（上海圖書館、北京大學圖書館）；（上海圖書館）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kgdj0e4i2or65el2、lf2ooroif6not0z8、i3qoeiakgcb5c0jl\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））\n總目版本待定（庫內已有 Book 11so5l74ar5s3、11so5l74ar5s2、11so5l74ar5s1：漢唐地理書鈔本、漢唐地理書鈔存本、重訂漢唐地理書鈔本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；nuansogzjp7gao82、q20k0lup7tj7ng28）；總目分類：史部／地理類／叢編之屬",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kgdj0e4i2or65el2、lf2ooroif6not0z8、i3qoeiakgcb5c0jl\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））\n總目版本待定（庫內已有 Book 11so5l74ar5s3、11so5l74ar5s2、11so5l74ar5s1：漢唐地理書鈔本、漢唐地理書鈔存本、重訂漢唐地理書鈔本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；nuansogzjp7gao82、q20k0lup7tj7ng28）；總目分類：史部／地理類／叢編之屬\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3prmqro《地理風俗記》已並入；其作者寫法：應劭）",
   "related_works": [
     {
       "id": "d59f24lwynsx",
       "relation": "related",
       "note": "史部E存疑另立：總目記錄「地理風俗記」（應劭）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    },
+    }
+  ],
+  "merged_in": [
     {
       "id": "1exp0i3prmqro",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（地理風俗記）"
+      "title": "地理風俗記",
+      "at": "2026-10-18T04:36:19Z",
+      "by": "串3史部",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
     }
   ]
 }
