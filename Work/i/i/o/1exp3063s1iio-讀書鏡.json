@@ -3,43 +3,5 @@
   "id": "1exp3063s1iio",
   "type": "work",
   "title": "讀書鏡",
-  "authors": [
-    {
-      "name": "陳繼儒",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gh4322iezs0cvo4v"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "讀書鏡二卷",
-      "author_info": "明陳繼儒撰",
-      "section": "子部/雜家類/雜學雜說之屬",
-      "summary": "共 4 個版本：清道光三十年山陰胡氏刻本（北京大學圖書館）；清光緒六年泰州宮氏春雨草堂刻本（上海圖書館）；清咸豐元年山陰胡學醇刻本（南京圖書館）；眉公十種藏書本（吉林大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：e8fmsr85mtqfu8l6、fomw6152oth0e63r、1kdsbdi2oojs8w20、18cf7hjtuuhmetlq\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\nauto-split:卷數差異大未拆（所並4條記錄卷數含 2、5，可能混有不同書或殘本，待去重時按卷數拆）",
-  "related_works": [
-    {
-      "id": "d59f2nhf15vm",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    },
-    {
-      "id": "d59f6ej3j287",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nhf15vm"
 }
