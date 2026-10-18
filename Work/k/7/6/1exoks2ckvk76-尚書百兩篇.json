@@ -7,7 +7,7 @@
     {
       "name": "張霸",
       "role": "撰",
-      "dynasty": "汉",
+      "dynasty": "漢",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,8 +15,10 @@
       }
     }
   ],
-  "dynasty": "汉",
+  "dynasty": "漢",
   "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -27,5 +29,5 @@
       "summary": "共 2 個版本：漢學堂叢書本（馆藏未载）；黄氏逸書考本（馆藏未载）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：k1q7gxzfsqib8n5q、owsr2wkve0gfptpd\nauto-split:存疑未并\nE6 第 530 批新建（hold 清零：jyiyi；原 hold 原因：）"
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：k1q7gxzfsqib8n5q、owsr2wkve0gfptpd\nauto-split:存疑未并\nE6 第 530 批新建（hold 清零：jyiyi；原 hold 原因：）\n朝代異寫統一：authors「張霸」汉→漢；Work.dynasty 汉→漢"
 }
