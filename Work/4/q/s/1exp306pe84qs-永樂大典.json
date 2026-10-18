@@ -3,38 +3,5 @@
   "id": "1exp306pe84qs",
   "type": "work",
   "title": "永樂大典",
-  "authors": [
-    {
-      "name": "解縉",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/nag733nfdvhp661k"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "永樂大典二萬二千八百七十七卷",
-      "author_info": "明解縉等輯",
-      "section": "子部/類書類/韻編之屬",
-      "summary": "共 6 個版本：明抄本（馆藏未载）；民國十七至二十一年江蘇國學圖書館抄本（南京圖書館）；民國間吳興劉氏嘉業堂石印本（馆藏未载）；明内府寫本（臺灣圖書館）；民國二十年古今小品書籍印行會鉛印本（馆藏未载）；清抄本（上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：eh420dmsai747s5n、en4brtbhljoc7xjy、qcg7tz22y60xbl3d、hpvk3hlpses8qtpk、sxigyfalfno7azxf、uca0ze5ntiqkrq8d\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
-  "related_works": [
-    {
-      "id": "d59f2njjiayq",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2njjiayq"
 }

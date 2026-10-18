@@ -3,38 +3,5 @@
   "id": "1exp3xklgs1s2",
   "type": "work",
   "title": "節孝語錄",
-  "authors": [
-    {
-      "name": "徐積",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/aobw23vjbvdidb3h"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "節孝語錄一卷",
-      "author_info": "宋徐積撰;宋江端禮編",
-      "section": "子部/儒家類/儒學之屬/宋元",
-      "summary": "共 1 個版本：四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：3426pncmli15lbgs\nauto-split:存疑未并\nE6 第 970 批新建（hold 清零：hold；原 hold 原因：auto-split:台账hold转另立）",
-  "related_works": [
-    {
-      "id": "d59f2huba9dt",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2huba9dt"
 }

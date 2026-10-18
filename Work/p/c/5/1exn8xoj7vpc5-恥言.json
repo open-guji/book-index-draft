@@ -51,9 +51,17 @@
       "author_info": "明徐禎稷撰",
       "section": "叢書部/雜纂類/民國以來",
       "summary": "共 1 個版本：（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "恥言一卷",
+      "author_info": "明徐禎稷撰",
+      "section": "子部/儒家類/禮教之屬/合編",
+      "summary": "共 1 個版本：（中國科學院圖書館）"
     }
   ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xurk0blzahfwn1nk、m4140mzitpntnna3、tjalhcbm5og5zx3z、m6pnj4t3a17efwdb、m75lcsbgb0p234mn、y0bwwhycs6eae1du、8sd1zupyi47strke、uqmlujihdq6hwxtz\n查重线（串7 10-18）：同题同作者同朝代并入 3 个叢書子目新建 Work（1exp0gjf9rcw0,1exp0glbjapky,1exp0glccy96o）",
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xurk0blzahfwn1nk、m4140mzitpntnna3、tjalhcbm5og5zx3z、m6pnj4t3a17efwdb、m75lcsbgb0p234mn、y0bwwhycs6eae1du、8sd1zupyi47strke、uqmlujihdq6hwxtz\n查重线（串7 10-18）：同题同作者同朝代并入 3 个叢書子目新建 Work（1exp0gjf9rcw0,1exp0glbjapky,1exp0glccy96o）\n子部二串5並條 A檔（源 Work 1exp3xkjupwqo《恥言》已並入；其作者寫法：徐禎稷）",
   "merged_in": [
     {
       "id": "1exp0gjf9rcw0",
@@ -78,13 +86,14 @@
       "by": "串7",
       "rule": "叢書去重",
       "why": "同题同作者同朝代"
-    }
-  ],
-  "related_works": [
+    },
     {
       "id": "1exp3xkjupwqo",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
+      "title": "恥言",
+      "at": "2026-10-18T06:14:14Z",
+      "by": "串5",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "子部二串5並條 A檔"
     }
   ]
 }

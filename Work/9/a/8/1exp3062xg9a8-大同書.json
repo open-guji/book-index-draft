@@ -3,38 +3,5 @@
   "id": "1exp3062xg9a8",
   "type": "work",
   "title": "大同書",
-  "authors": [
-    {
-      "name": "康有為",
-      "role": "撰",
-      "dynasty": "民國",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ym4icmi4nkionq2u"
-      }
-    }
-  ],
-  "dynasty": "民國",
-  "dynasty_basis": "author_propagation",
-  "period": "modern",
-  "period_basis": "據 authors[0].dynasty「民國」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "大同書",
-      "author_info": "康有爲撰",
-      "section": "子部/雜家類/雜學雜說之屬",
-      "summary": "共 2 個版本：稿本（天津圖書館）；長興書局鉛印本（南京圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：urtzvswn71wv6y6w、32gmfs1vr31hdpnl\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f2mt27fnk",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2mt27fnk"
 }

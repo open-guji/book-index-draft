@@ -3,43 +3,5 @@
   "id": "1exp3xkmgoc8w",
   "type": "work",
   "title": "農桑輯要",
-  "authors": [
-    {
-      "name": "司農司",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pz4zwpxf1rckpisz"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "農桑輯要七卷",
-      "author_info": "元司農司撰",
-      "section": "子部/農家類/綜論之屬",
-      "summary": "共 4 個版本：武英殿聚珍版書本（馆藏未载）；四庫全書薈要本（馆藏未载）；四庫全書本（馆藏未载）；元後至元五年刻明修本（上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5flj1pljowuu4tuy、ewraz16zasu2u12u、f1ha0p3wl8jbf1w4、8w65h0xzkkdkyzod\nauto-split:存疑未并\nE6 第 970 批新建（hold 清零：hold；原 hold 原因：auto-split:台账hold转另立）",
-  "related_works": [
-    {
-      "id": "d59f2goqul8h",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    },
-    {
-      "id": "d59f2gpusyrk",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2gpusyrk"
 }
