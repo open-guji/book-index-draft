@@ -3,38 +3,5 @@
   "id": "1exp21q0t6vpd",
   "type": "work",
   "title": "醫學經畧",
-  "authors": [
-    {
-      "name": "趙金",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rypb7dqdddkgfk89"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "醫學經畧十卷",
-      "author_info": "明趙金撰",
-      "section": "子部/醫家類/綜論之屬",
-      "summary": "共 1 個版本：明天啓間刻本（中國科學院上海分院）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：70ieb3314bzojy1f\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f6eow1l35",
-      "relation": "related",
-      "note": "auto-split:同题同作者未并"
-    }
-  ]
+  "merged_into": "d59f6eow1l35"
 }
