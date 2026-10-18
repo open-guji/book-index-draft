@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3seivwg",
+  "type": "work",
+  "title": "梁書",
+  "authors": [
+    {
+      "name": "姚思廉",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/41a51ofyxm3d4wu6"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "梁書五十六卷",
+      "author_info": "唐姚思廉撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 1 個版本：宋刻宋元明遞修本（國家圖書館、南京圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：41bayi0o7eiyzacl\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：suspect_same_edition）",
+  "related_works": [
+    {
+      "id": "d59f28mvr9q8",
+      "relation": "related",
+      "note": "auto-split:近名/疑同書未并（梁書）"
+    },
+    {
+      "id": "d59f28npetc0",
+      "relation": "related",
+      "note": "auto-split:同題同作者疑為同書，信息不足未并（梁書）"
+    }
+  ]
+}
