@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp12ozxf478",
+  "type": "work",
+  "title": "春秋指掌",
+  "authors": [
+    {
+      "name": "蔣景祁",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ctoae33u1k4fv8dr"
+      }
+    },
+    {
+      "name": "儲欣",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/5bsxtlfodfz8mqaa"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "春秋指掌三十卷前二卷附錄二卷",
+      "author_info": "清儲欣、清蔣景祁輯",
+      "section": "經部/春秋類/春秋總義/傳說之屬",
+      "summary": "共 2 個版本：清康熙二十七年天藜閣刻本（湖北省圖書館、吉林省圖書館、南京圖書館、北京大學圖書館、復旦大學圖書館、上海圖書館、清華大學圖書館、吉林省社會科學院圖書館）；清乾隆五十四年刻本（天津圖書館、北京大學圖書館、上海圖書館、湖北省圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xurbme2r8h4h00og、ptsjpahfcflo0uvy\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
+  "related_works": [
+    {
+      "id": "d59f2mavy134",
+      "relation": "related",
+      "note": "總目經部另立（auto-split:同名无主责任者未并）"
+    }
+  ]
+}

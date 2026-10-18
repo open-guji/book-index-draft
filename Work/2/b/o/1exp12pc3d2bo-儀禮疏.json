@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp12pc3d2bo",
+  "type": "work",
+  "title": "儀禮疏",
+  "authors": [
+    {
+      "name": "賈公彥",
+      "role": "疏",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/lm451oe4nnyidls5"
+      }
+    },
+    {
+      "name": "鄭玄",
+      "role": "注",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/c3cgqo8flsvpraep"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "儀禮疏五十卷",
+      "author_info": "唐賈公彥疏",
+      "section": "經部/禮類/儀禮/傳說之屬",
+      "summary": "共 6 個版本：嘉業堂叢書本（馆藏未载）；清洪氏公善堂刻本（北京大學圖書館、天津圖書館）；清影宋抄本（國家圖書館）；清黄氏士禮居影宋抄本（國家圖書館）；清道光十年汪士鐘藝芸書舍影宋刻本（湖北省圖書館、國家圖書館、北京大學圖書館、天津圖書館、遼寧省圖書館、中國科學院圖書館、復旦大學圖書館）；宋本十三經註疏併經典釋文校勘記本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bdbshbzwk5mua80n、p841w24eyjjnn0gs、g7gj8pprvtkriggc、odd73d05udtphf04、qmluqd1btg4m3hwl、aciufk6nhico1sel\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
+  "related_works": [
+    {
+      "id": "d59f28mn0mit",
+      "relation": "related",
+      "note": "總目經部另立（auto-split:同名无主责任者未并）"
+    }
+  ]
+}
