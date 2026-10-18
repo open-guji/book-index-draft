@@ -3,38 +3,5 @@
   "id": "1exoh19zccrur",
   "type": "work",
   "title": "歷代鐘鼎彝器款識法帖",
-  "authors": [
-    {
-      "name": "薛尚功",
-      "role": "輯",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/i1sqnmt0j8ipkm2q"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "歷代鐘鼎彝器款識法帖二十卷札記一卷",
-      "author_info": "宋薛尚功輯;劉世珩札記",
-      "section": "史部/金石考古類/金之屬",
-      "summary": "共 1 個版本：清光緒二十九年劉氏玉海堂武昌刻三十三年增刻本（上海圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2xfm7xg1iv7n76fr\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋rel）",
-  "related_works": [
-    {
-      "id": "d59f2hpreo74",
-      "relation": "related",
-      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「歷代鐘鼎彝器款識法帖」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
-    }
-  ]
+  "merged_into": "d59f2hpreo74"
 }

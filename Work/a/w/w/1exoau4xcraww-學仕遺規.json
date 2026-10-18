@@ -3,43 +3,5 @@
   "id": "1exoau4xcraww",
   "type": "work",
   "title": "學仕遺規",
-  "authors": [
-    {
-      "name": "陳弘謀",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rz217fttxe5pwskz"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "學仕遺規四卷",
-      "author_info": "清陳弘謀撰",
-      "section": "史部/政書類/職官之屬/官箴",
-      "summary": "共 8 個版本：清乾隆三十四年培遠堂刻本（上海圖書館）；清同治七年福州正誼書院刻本（北京大學圖書館、南京圖書館）；清光緒十八年桂垣書局刻本（馆藏未载）；陳榕門先生遺書本（馆藏未载）；清光緒元年金陵書局刻本（上海圖書館）；清光緒五年江蘇書局刻本（浙江圖書館、南京圖書館）；五種遺規本（馆藏未载）；培遠堂全集本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1xvka27ojnwkwrla、llx7s7lxg3mmaydo、yamhc5rwriso6leu、f4833f5sdr64380v、6va4lsp15i07y74o、sdcuk8437j6lvxa4、g6x26swxdbg2jke1、0z5tdu7iy4eqsmie\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2nez04ch",
-      "relation": "related",
-      "note": "史部E另立（diffauth）：總目記錄「學仕遺規」（陳弘謀）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
-    },
-    {
-      "id": "1exp2byey12bn",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nez04ch"
 }

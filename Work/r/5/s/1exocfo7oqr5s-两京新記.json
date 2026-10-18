@@ -3,38 +3,5 @@
   "id": "1exocfo7oqr5s",
   "type": "work",
   "title": "两京新記",
-  "authors": [
-    {
-      "name": "韋述",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rn4md7gwurp6irut"
-      }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "两京新記不分卷",
-      "author_info": "唐韋述撰;曹元忠輯",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 2 個版本：稿本（復旦大學圖書館）；南菁札記本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5xx218i0c580q6xg、vepml8nee1q6th4f\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
-  "related_works": [
-    {
-      "id": "d59f28m9lf5z",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「两京新記」（韋述）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f28m9lf5z"
 }
