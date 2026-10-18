@@ -3,38 +3,5 @@
   "id": "1exp30686atxe",
   "type": "work",
   "title": "焦氏筆乘",
-  "authors": [
-    {
-      "name": "焦竑",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/szr1zxc678dgqbcm"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "焦氏筆乘六卷續集八卷",
-      "author_info": "明焦竑撰",
-      "section": "子部/雜家類/雜學雜說之屬",
-      "summary": "共 2 個版本：明萬曆三十四年謝與棟刻本（國家圖書館）；粤雅堂叢書本（北京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：rujjjyjtpbugpy0z、fhxl07uyuijay84e\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f2nks588z",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nks588z"
 }

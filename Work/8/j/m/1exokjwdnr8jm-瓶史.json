@@ -147,9 +147,17 @@
       "author_info": "明袁宏道撰",
       "section": "叢書部/雜纂類/宋元",
       "summary": "共 1 個版本：（國家圖書館、南開大學圖書館）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "瓶史二卷",
+      "author_info": "明袁宏道撰",
+      "section": "子部/譜錄類/觀賞之屬/瓶花",
+      "summary": "共 9 個版本：羣芳清玩本（馆藏未载）；山居小玩本（馆藏未载）；明萬曆三十三年刻袁使君集本（馆藏未载）；寶顏堂祕笈本（馆藏未载）；枕中祕本（馆藏未载）；錦囊小史本（馆藏未载）；清抄本（南京圖書館）；廣百川學海本（馆藏未载）；袁中郎十集本（馆藏未载）"
     }
   ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 1nwa26pxtwmtzvhg（山居小玩十種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6ru1fjfh3mn8ujye\n查重线（串7 10-18）：同题同作者同朝代并入 15 个叢書子目新建 Work（1exp0gj3fofeo,1exp0gj56f4lg,1exp0gj6bb7r6,1exp0gj8iwq9s,1exp0gjbxw8aq,1exp0gjkfssn8,1exp0gl2bhg5e,1exp0gl77uj2a,1exp0gl7fc83m,1exp0gle66ups,1exp0glhxz30g,1exp0gljcjj0i,1exp0glk74s8w,1exp0glmu0xds,1exp0glqndce8）",
+  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 1nwa26pxtwmtzvhg（山居小玩十種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6ru1fjfh3mn8ujye\n查重线（串7 10-18）：同题同作者同朝代并入 15 个叢書子目新建 Work（1exp0gj3fofeo,1exp0gj56f4lg,1exp0gj6bb7r6,1exp0gj8iwq9s,1exp0gjbxw8aq,1exp0gjkfssn8,1exp0gl2bhg5e,1exp0gl77uj2a,1exp0gl7fc83m,1exp0gle66ups,1exp0glhxz30g,1exp0gljcjj0i,1exp0glk74s8w,1exp0glmu0xds,1exp0glqndce8）\n子部二串5並條 A檔（源 Work 1exp3xkmmam0w《瓶史》已並入；其作者寫法：袁宏道）",
   "merged_in": [
     {
       "id": "1exp0gj3fofeo",
@@ -270,13 +278,14 @@
       "by": "串7",
       "rule": "叢書去重",
       "why": "同题同作者同朝代"
-    }
-  ],
-  "related_works": [
+    },
     {
       "id": "1exp3xkmmam0w",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
+      "title": "瓶史",
+      "at": "2026-10-18T06:14:14Z",
+      "by": "串5",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "子部二串5並條 A檔"
     }
   ]
 }
