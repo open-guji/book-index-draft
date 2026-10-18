@@ -3,48 +3,5 @@
   "id": "1exp12pco9ypu",
   "type": "work",
   "title": "義學正字",
-  "authors": [
-    {
-      "name": "沈鯉",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/vvjccoc56n2dtmjr"
-      }
-    },
-    {
-      "name": "郭一經",
-      "role": "續輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/v26whdjsj3oxpd6e"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "義學正字三卷",
-      "author_info": "明沈鯉輯;明郭一經續輯",
-      "section": "經部/小學類/文字之屬/正字",
-      "summary": "共 1 個版本：明萬曆間刻本（歙縣博物館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ui4a4w36ljj6nlhz\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-diffauth；原 hold 原因：auto-split:同题异作者未并）",
-  "related_works": [
-    {
-      "id": "d59f6eps711f",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同题异作者未并）"
-    }
-  ]
+  "merged_into": "d59f6eps711f"
 }
