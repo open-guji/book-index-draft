@@ -3,41 +3,5 @@
   "id": "1exp0i3ucra4g",
   "type": "work",
   "title": "詩讞",
-  "additional_titles": [
-    "烏臺詩案"
-  ],
-  "authors": [
-    {
-      "name": "周紫芝",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/bwy0mokgo7h62nk7"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "詩讞（烏臺詩案）一卷",
-      "author_info": "宋周紫芝撰",
-      "section": "史部/傳記類/別傳之屬",
-      "summary": "共 2 個版本：學海類編本（馆藏未载）；叢書集成初編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0jyl1qaiayu3ow0v、hco8w8u7ypjbpoxo\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：near_dup）",
-  "related_works": [
-    {
-      "id": "d59fryaad91j",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（詩讞）"
-    }
-  ]
+  "merged_into": "d59fryaad91j"
 }

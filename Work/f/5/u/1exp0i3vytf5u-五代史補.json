@@ -3,48 +3,5 @@
   "id": "1exp0i3vytf5u",
   "type": "work",
   "title": "五代史補",
-  "authors": [
-    {
-      "name": "陶嶽",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/4mltv5o5zzoowazp"
-      }
-    },
-    {
-      "name": "王禹偁",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2xfp02ytcy1nk28p"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "五代史補五卷五代史闕文一卷",
-      "author_info": "宋陶岳撰;（五代史闕文）宋王禹偁撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 6 個版本：明末毛氏汲古閣刻本（復旦大學圖書館、遼寧省圖書館、國家圖書館、北京大學圖書館、南京圖書館、上海圖書館）；清抄本（國家圖書館）；清乾隆五十二年顧廣圻抄本（國家圖書館）；清述德堂抄本（北京師範大學圖書館）；紫藤書屋叢刻本（馆藏未载）；清嘉慶三年掃葉山房刻本（北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2qhva0dy6yktgwyn、32bkrl43t4pzmwkq、qf53rh7vbiwqubmg、e4e8sno251bzdnuf、k6irtmx3d4bo60w4、1g31njspdw0waj7i\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
-  "related_works": [
-    {
-      "id": "d59f2hsjam0y",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（五代史補）"
-    }
-  ]
+  "merged_into": "d59f2hsjam0y"
 }

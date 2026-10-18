@@ -3,38 +3,5 @@
   "id": "1exob0fz4xpmr",
   "type": "work",
   "title": "石墨鎸華",
-  "authors": [
-    {
-      "name": "趙崡",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qvyqa4ok1ft68etv"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "石墨鎸華八卷",
-      "author_info": "明趙崡撰",
-      "section": "史部/金石考古類/叢編之屬",
-      "summary": "共 7 個版本：清光緒八年刻（南京圖書館、遼寧省圖書館、天津圖書館、國家圖書館、中國科學院圖書館、上海圖書館、浙江圖書館）；知不足齋叢書本（上海圖書館）；清抄本（國家圖書館）；清康熙三年金俊明抄本（國家圖書館）；叢書集成初編本（馆藏未载）；明萬曆四十六年自刻本（山東省圖書館、上海圖書館、中國科學院圖書館、復旦大學圖書館、南京圖書館、國家圖書館、北京師範大學圖書館、浙江圖書館、臺灣圖書館、遼寧省圖書館、天津圖書館）；學古齋金石叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gp8pr6xemyrjxdfl、1yw5hw7a56ox1mdc、nvgbgceivt0euyyi、y3kc6jfyhf2bl3cw、n4dgadli3n1yox15、47c8fr48e7nbqjm4、xq8xfx8j6ly7iujg\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u91d1\\u77f3\\u8003\\u53e4\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u91d1\\u77f3\\u8003\\u53e4\\u985e\", \"l3\": \"\\u77f3\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条8卷，目标6卷））",
-  "related_works": [
-    {
-      "id": "d59f2nkvw35u",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「石墨鎸華」（趙崡）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条8卷，目标6卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2nkvw35u"
 }

@@ -3,38 +3,5 @@
   "id": "1exob168cg9hg",
   "type": "work",
   "title": "續幸存錄",
-  "authors": [
-    {
-      "name": "夏完淳",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ch405apqhgxxpope"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "續幸存錄三卷",
-      "author_info": "明夏完淳撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：sfrb06ycg5gvqaqi\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条3卷，目标1卷））\n總目版本待定（庫內已有 Book 11so46p5ir3et：明末稗史鈔四種本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；0q8cmo7xzpdutilm）；總目分類：史部／雜史類／叢編之屬",
-  "related_works": [
-    {
-      "id": "d59f2nexg1z4",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「續幸存錄」（夏完淳）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条3卷，目标1卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2nexg1z4"
 }

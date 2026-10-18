@@ -3,48 +3,5 @@
   "id": "1exoc17dgay9u",
   "type": "work",
   "title": "禪林僧寶傳",
-  "authors": [
-    {
-      "name": "釋惠洪",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/8jmpmcriz7l2gplq"
-      }
-    },
-    {
-      "name": "釋慶老",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/demitcgzmistih28"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "禪林僧寶傳三十卷臨濟宗旨一卷",
-      "author_info": "宋釋惠洪撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 4 個版本：明萬曆間刻本（山東省圖書館）；明刻本（國家圖書館、上海圖書館、南京圖書館）；四庫全書本（浙江圖書館、天津圖書館）；清光緒六年常熟刻經處刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xnlvqngat28rbyw1、do532fgdui3d31q2、imetvued1xa2ztgn、wqg2w0yoqjlwv2t4\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
-  "related_works": [
-    {
-      "id": "d59f2hte73sw",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「禪林僧寶傳」（釋惠洪）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2hte73sw"
 }

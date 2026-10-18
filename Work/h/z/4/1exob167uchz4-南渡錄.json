@@ -3,38 +3,5 @@
   "id": "1exob167uchz4",
   "type": "work",
   "title": "南渡錄",
-  "authors": [
-    {
-      "name": "辛棄疾",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/eau9v5enex5tq4d7"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "南渡錄四卷",
-      "author_info": "宋辛棄疾撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：（浙江圖書館、復旦大學圖書館、北京大學圖書館、遼寧省圖書館、南京圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ezwu5wqucu5kvjm1、nty2al34u67pmn2w\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条4卷，目标1卷））\n總目版本待定（庫內已有 Book 11so46p50nbwi、11so46p50nbwh：清抄本、清光緒六年湖北崇文書局刻本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；w23xz3uvngiue0s5）；總目分類：史部／雜史類／叢編之屬\nE史 426跨批同題待判並入（Sabine 10-16 批）：總目記錄 n5nwn8alm0076im4、0vmkurtmi8hvcumg 與本 Work 同題同作者同朝，Book 併入本 Work；卷數缺，抽樣 20/20 同書異版",
-  "related_works": [
-    {
-      "id": "d59f2hlcivpe",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「南渡錄」（辛棄疾）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条4卷，目标1卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2hlcivpe"
 }

@@ -3,38 +3,5 @@
   "id": "1exoas8x9na4g",
   "type": "work",
   "title": "趙忠毅公儕鶴先生史韻",
-  "authors": [
-    {
-      "name": "趙南星",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ygskbrsbvqw67koo"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "趙忠毅公儕鶴先生史韻二卷",
-      "author_info": "明趙南星撰",
-      "section": "史部/史評類/議論之屬",
-      "summary": "共 2 個版本：清順治四年刻本（北京大學圖書館）；明萬曆間高邑趙悅學刻清初趙昌齡等補刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5flawpysd3e3ulym、wi2nqji303b65kf7\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））\nE史 426跨批同題待判並入（Sabine 10-16 批）：總目記錄 jsz7vilu27j430pd、6j12ml4j5aq5zewi、ale3wk8ysgzydoth 與本 Work 同題同作者同朝，Book 併入本 Work",
-  "related_works": [
-    {
-      "id": "d59f2nfx13i8",
-      "relation": "related",
-      "note": "史部E另立（near）：總目記錄「趙忠毅公儕鶴先生史韻」（趙南星）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2ngivpq9"
 }

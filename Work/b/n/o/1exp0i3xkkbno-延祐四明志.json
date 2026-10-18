@@ -3,53 +3,5 @@
   "id": "1exp0i3xkkbno",
   "type": "work",
   "title": "延祐四明志",
-  "authors": [
-    {
-      "name": "袁桷",
-      "role": "纂",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/j8uumj4rw1ii3n4x"
-      }
-    },
-    {
-      "name": "馬澤",
-      "role": "修",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6p67l8qia74anqhh"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "延祐四明志二十卷（原缺卷九至十一）",
-      "author_info": "元馬澤修;元袁桷纂",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 5 個版本：抄本（國家圖書館）；四庫全書本（馆藏未载）；清抄本（天一閣文物保管所、北京大學圖書館、浙江圖書館、上海圖書館）；宋元四明六志本（南京圖書館、浙江圖書館、湖北省圖書館）；元延祐七年修清抄本（臺灣圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6x5dnyflofjctdar、jojnpnrhcicx5opo、hftx8ef445z8fm77、iejh3nepbhj1p7pe、dhn2poj8woelkucw\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f2gnyfzsx",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（延祐四明志）"
-    },
-    {
-      "id": "d59f2j4ymzuo",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（延祐四明志）"
-    }
-  ]
+  "merged_into": "d59f2gnyfzsx"
 }
