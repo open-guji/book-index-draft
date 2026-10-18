@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7aroqo0",
+  "type": "work",
+  "title": "經典文字考異",
+  "authors": [
+    {
+      "name": "錢大昕",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/z39lp123237j9dn4"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "經典文字考異三卷",
+      "author_info": "清錢大昕撰",
+      "section": "經部/小學類/文字之屬/正字",
+      "summary": "共 1 個版本：古學彙刻本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：r2p3p4cwkvacreqd\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2nalda0y",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
+    }
+  ]
+}

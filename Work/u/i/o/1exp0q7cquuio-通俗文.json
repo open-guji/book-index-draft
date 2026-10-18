@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7cquuio",
+  "type": "work",
+  "title": "通俗文",
+  "authors": [
+    {
+      "name": "服虔",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/y0ws1qfcu6vp7gdb"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "通俗文",
+      "author_info": "漢服虔撰",
+      "section": "經部/小學類/叢編之屬",
+      "summary": "共 1 個版本：（北京大學圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：o6diggt6pzcetd6u\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
+  "related_works": [
+    {
+      "id": "d59f24madv5u",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
+    }
+  ]
+}
