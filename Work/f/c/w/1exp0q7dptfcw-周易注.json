@@ -3,38 +3,5 @@
   "id": "1exp0q7dptfcw",
   "type": "work",
   "title": "周易注",
-  "authors": [
-    {
-      "name": "鄭玄",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/c3cgqo8flsvpraep"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "周易注三卷補遺一卷",
-      "author_info": "漢鄭玄撰;宋王應麟輯;清惠棟補輯;清孫堂重校補",
-      "section": "經部/易類/傳說之屬",
-      "summary": "共 7 個版本：古經解彙函本（復旦大學圖書館）；古經解彙函本（馆藏未载）；漢魏二十一家易注本（馆藏未载）；通德遺書所見錄本（馆藏未载）；黄氏逸書考本（馆藏未载）；知足齋叢書本（馆藏未载）；（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bmlqu6ota2vt50k8、q157pyfo0n5c8el5、nhszdxqqtdccul3r、8wid6yqfk4a5z88u、46xjen0corgy1x2d、4l188sgwydkzx3v1\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\n總目版本待定（庫內已有 Book 11sotvqaw49a9、11sotvqaw49aa、11sotvqaw49ab、11sotvqaw49ac、11sotvqaw49ad：古經解彙函本、漢魏二十一家易注本、通德遺書所見錄本、黄氏逸書考本、知足齋叢書本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；iwrnbt8tr2gj5nku）；總目分類：經部／總類／傳說之屬",
-  "related_works": [
-    {
-      "id": "d59f23nz7tog",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
-    }
-  ]
+  "merged_into": "d59f23nz7tog"
 }

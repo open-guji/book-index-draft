@@ -3,38 +3,5 @@
   "id": "1exp12pagog77",
   "type": "work",
   "title": "四書章句集註",
-  "authors": [
-    {
-      "name": "朱熹",
-      "role": "集註",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/r5vmxq29ki9gddjn"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "四書章句集註二十六卷（大學一卷中庸一卷論語十卷孟子十四卷）附考異一卷",
-      "author_info": "宋朱熹集注;胡宗懋考異",
-      "section": "經部/四書類/四書總義/傳說之屬",
-      "summary": "共 1 個版本：民國十五年壽春孫氏小墨妙亭翻刻清内府覆刻宋淳祐本（南京圖書館、北京大學圖書館、國家圖書館、上海圖書館、湖北省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6fy2k2cnwekhrcbw\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
-  "related_works": [
-    {
-      "id": "d59f2hry2h34",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同名无主责任者未并）"
-    }
-  ]
+  "merged_into": "d59f2hry2h34"
 }
