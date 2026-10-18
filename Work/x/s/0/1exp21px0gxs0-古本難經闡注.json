@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp21px0gxs0",
+  "type": "work",
+  "title": "古本難經闡注",
+  "authors": [
+    {
+      "name": "丁錦",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xfx0umet1p2e8a8f"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "古本難經闡注二卷",
+      "author_info": "清丁錦撰",
+      "section": "子部/醫家類/醫經之屬/難經",
+      "summary": "共 6 個版本：清抄本（上海中醫藥大學圖書館）；清同治三年趙春普旌孝堂刻本（國家圖書館、浙江圖書館、南京圖書館、上海圖書館、中國科學院圖書館）；清嘉慶五年刻本（中華醫學會上海分會圖書館）；清乾隆三年體仁堂刻本（南京圖書館、中醫科學院）；（上海圖書館、四川省圖書館、國家圖書館、遼寧省圖書館、中國醫學科學院、中醫科學院、浙江圖書館、山東省圖書館、重慶市圖書館）；清廣陵守素主人抄本（中醫科學院）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ia7v2b3f8dxfi582、l8bbabb65ypxsaqx、0thitw4gilk3hzmh、56l3viypvqjqz1kk、6n6u6y3gu18jha0h、oyxlq6pzjlugsxnc\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u91ab\\u5bb6\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u91ab\\u5bb6\\u985e\", \"l3\": \"\\u91ab\\u7d93\\u4e4b\\u5c6c\", \"l4\": \"\\u96e3\\u7d93\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2mt8g6ip",
+      "relation": "related",
+      "note": "auto-split:同题同作者未并"
+    }
+  ]
+}

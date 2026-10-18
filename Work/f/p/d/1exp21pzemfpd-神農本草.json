@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "1exp21pzemfpd",
+  "type": "work",
+  "title": "神農本草",
+  "authors": [
+    {
+      "name": "吳普",
+      "role": "撰",
+      "dynasty": "三國",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0eplokl8hgaq3zj8"
+      }
+    },
+    {
+      "name": "王仁俊",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/xiox6rs3psdv5cww"
+      }
+    }
+  ],
+  "dynasty": "三國",
+  "dynasty_basis": "author_propagation",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "神農本草三卷",
+      "author_info": "三國魏吳普等撰",
+      "section": "子部/醫家類/本草之屬/本草經",
+      "summary": "共 2 個版本：清光緒十一年長沙尊經書院刻本（國家圖書館）；玉函山房輯佚書續編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：zwcgqhj8ifan765z、mp1nj84jd6cb0c1o\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
+  "related_works": [
+    {
+      "id": "d59f27s72fbb",
+      "relation": "related",
+      "note": "auto-split:同题同作者未并"
+    },
+    {
+      "id": "d59f2pv745xd",
+      "relation": "related",
+      "note": "auto-split:同题异作者未并"
+    }
+  ]
+}
