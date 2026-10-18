@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exp565kknfnk",
+  "type": "work",
+  "title": "佛醫經鈔",
+  "authors": [
+    {
+      "name": "釋竺律炎",
+      "role": "譯",
+      "dynasty": "三國吳",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/36c1ansj0wuoqcj2"
+      }
+    },
+    {
+      "name": "支越",
+      "role": "譯",
+      "dynasty": "三國吳",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/v5zrc0iok2fzn8ev"
+      }
+    }
+  ],
+  "dynasty": "三國吳",
+  "dynasty_basis": "author_propagation",
+  "period": "three-kingdoms",
+  "period_basis": "據 authors[0].dynasty「三國吳」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "佛醫經鈔一卷",
+      "author_info": "三國吳釋竺律炎、三國吳支越譯",
+      "section": "子部/釋家類/大藏之屬",
+      "summary": "共 2 個版本：（馆藏未载）；（馆藏未载）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：knc28duypnb3jknf、sekum6wd6tjmm3px\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 832 批新建（hold 清零：M-new；原 hold 原因：hold:near_dup）"
+}
