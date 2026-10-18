@@ -3,49 +3,5 @@
   "id": "1exokyome72mc",
   "type": "work",
   "title": "御纂孝經集註",
-  "authors": [
-    {
-      "name": "愛新覺羅·胤禛",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5433i1hcy4xesbnx"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "御纂孝經集註一卷",
-      "author_info": "清世宗胤禛撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（臺北“故宮博物院”）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "御纂孝經集註一卷",
-      "author_info": "清世宗胤禛敕撰",
-      "section": "經部/孝經類/傳說之屬",
-      "summary": "共 8 個版本：四庫全書薈要本（馆藏未载）；清山東書局刻本（國家圖書館）；清雍正五年内府刻本（故宮博物院圖書館、南京圖書館、遼寧省圖書館）；清道光二十年竹溪館抄本（遼寧省圖書館）；四庫全書本（馆藏未载）；民國間鑄記書局石印本（南京圖書館）；清禮部校刻本（上海圖書館）；今古文孝經彙刻本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 3foq2vwr7hq50ldh（摛藻堂四庫全書薈要四百六十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：wlwitwt5fluvkkby\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp12pd7moe8《御纂孝經集註》已並入；其作者寫法：愛新覺羅·胤禛）",
-  "merged_in": [
-    {
-      "id": "1exp12pd7moe8",
-      "title": "御纂孝經集註",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+  "merged_into": "d59f2mohpddt"
 }
