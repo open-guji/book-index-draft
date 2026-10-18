@@ -3,38 +3,5 @@
   "id": "1exp0q7cyns3k",
   "type": "work",
   "title": "易本象",
-  "authors": [
-    {
-      "name": "黃道周",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gkwbfvbe26ddaxdd"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "易本象四卷",
-      "author_info": "明黄道周撰",
-      "section": "經部/易類/傳說之屬",
-      "summary": "共 1 個版本：清康熙三十八年刻本（福建省圖書館、湖北省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：x1z0iuv36b11g4hk\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59fuoeo5d76",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59fuoeo5d76"
 }
