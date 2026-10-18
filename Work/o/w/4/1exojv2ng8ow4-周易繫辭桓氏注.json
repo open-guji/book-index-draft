@@ -7,7 +7,7 @@
     {
       "name": "桓玄",
       "role": "撰",
-      "dynasty": "晋",
+      "dynasty": "晉",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,8 +15,10 @@
       }
     }
   ],
-  "dynasty": "晋",
+  "dynasty": "晉",
   "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -35,7 +37,7 @@
       "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nig1hfshs1enlq43\nE6 第 521 批新建（hold 清零：jyiyi；原 hold 原因：）\n經部查重並條（B檔：同題同作者同朝代，卷數差≤1）（源 Work 1exojv2ng8ow6《周易繫辭桓氏注》已並入；其作者寫法：晉桓玄）",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nig1hfshs1enlq43\nE6 第 521 批新建（hold 清零：jyiyi；原 hold 原因：）\n經部查重並條（B檔：同題同作者同朝代，卷數差≤1）（源 Work 1exojv2ng8ow6《周易繫辭桓氏注》已並入；其作者寫法：晉桓玄）\n朝代異寫統一：authors「桓玄」晋→晉；Work.dynasty 晋→晉",
   "merged_in": [
     {
       "id": "1exojv2ng8ow6",

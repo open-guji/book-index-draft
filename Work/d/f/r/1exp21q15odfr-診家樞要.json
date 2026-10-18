@@ -3,48 +3,5 @@
   "id": "1exp21q15odfr",
   "type": "work",
   "title": "診家樞要",
-  "authors": [
-    {
-      "name": "滑壽",
-      "role": "輯",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pawnerml78kmn4ur"
-      }
-    },
-    {
-      "name": "程文囿",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2h4d2sexxsuj7gjl"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "診家樞要一卷",
-      "author_info": "元滑壽輯",
-      "section": "子部/醫家類/叢編之屬",
-      "summary": "共 2 個版本：（中醫科學院）；（中國科學院圖書館、天津圖書館、遼寧省圖書館、南京圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：dhkqkkg75lxza3rh、miu7topu6cawij3v\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
-  "related_works": [
-    {
-      "id": "d59f2ghhkykh",
-      "relation": "related",
-      "note": "auto-split:同名无主责任者未并"
-    }
-  ]
+  "merged_into": "d59f2ghhkykh"
 }

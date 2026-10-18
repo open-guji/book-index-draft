@@ -3,7 +3,20 @@
   "id": "1exp12p67q60w",
   "type": "work",
   "title": "駢雅",
-  "authors": [],
+  "authors": [
+    {
+      "name": "朱謀㙔",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -14,7 +27,7 @@
       "summary": "共 7 個版本：抄本（中國人民大學圖書館）；四庫全書本（馆藏未载）；清抄本（國家圖書館）；澤古齋重鈔本（馆藏未载）；明萬曆十七年朱統鍡玄湛堂刻本（國家圖書館）；借月山房彙鈔本（馆藏未载）；明萬曆間刻本（泰州市圖書館、浙江圖書館）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nj2dcqcef0prh3t1、yvucj3ddo7g78dqd、1z1f2wbzmflad3ow、tmllvqsrwyf8fki1、r14n8cj24ydr254r、lz4ivbokc2v5p5rd、p5mjwsyrmmt0shoh\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：明朱謀㙔撰\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nj2dcqcef0prh3t1、yvucj3ddo7g78dqd、1z1f2wbzmflad3ow、tmllvqsrwyf8fki1、r14n8cj24ydr254r、lz4ivbokc2v5p5rd、p5mjwsyrmmt0shoh\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：明朱謀㙔撰\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n責任者回填（經部作者漏補）：總目題名行責任者「明朱謀㙔撰」，Work.authors 原為空，已按總目原串寫入（role 取總目原詞）\n更正：上文「總目未著錄責任者」不確，總目題名行實有責任者「明朱謀㙔撰」，已寫入 Work.authors\n朝代補寫：總目題名行各版本一致為「明」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫",
   "related_works": [
     {
       "id": "d59f2njj72f5",
