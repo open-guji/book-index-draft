@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0i3sh0s8w",
+  "type": "work",
+  "title": "柳邊紀畧",
+  "authors": [
+    {
+      "name": "楊賓",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/vxxbi7fgh1o7rx5j"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "柳邊紀畧一卷",
+      "author_info": "清楊賓撰",
+      "section": "史部/地理類/叢編之屬",
+      "summary": "共 2 個版本：（中國科學院圖書館、復旦大學圖書館、上海圖書館、湖北省圖書館、天津圖書館、國家圖書館、浙江圖書館、山東省圖書館、北京大學圖書館、遼寧省圖書館、南京圖書館）；（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5hc510jcd0oqq64h、td2ek70cmmm2sp85\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：empty_edition_work_has_other_book）",
+  "related_works": [
+    {
+      "id": "1exp0i40not1c",
+      "relation": "related",
+      "note": "auto-split:同題同作者疑為同書，信息不足未并（柳邊紀畧）"
+    }
+  ]
+}

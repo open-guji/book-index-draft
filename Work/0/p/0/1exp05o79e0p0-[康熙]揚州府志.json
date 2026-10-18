@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "1exp05o79e0p0",
+  "type": "work",
+  "title": "[康熙]揚州府志",
+  "authors": [
+    {
+      "name": "崔華",
+      "role": "續修",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/8zcfx32bizwrdikj"
+      }
+    },
+    {
+      "name": "張萬壽",
+      "role": "續修",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/oiujwldl63f2hn6d"
+      }
+    },
+    {
+      "name": "王方歧",
+      "role": "續纂",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/l6rtvkhuz1qlcbgn"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "[康熙]揚州府志四十卷",
+      "author_info": "清金鎮原本;清崔華、張萬壽續修;清王方歧續纂",
+      "section": "史部/方志類/地志之屬",
+      "summary": "共 1 個版本：清康熙二十四年刻本（上海圖書館、南京圖書館、中國科學院圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：omu2md43crpwtfon\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：金鎮原本\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+}
