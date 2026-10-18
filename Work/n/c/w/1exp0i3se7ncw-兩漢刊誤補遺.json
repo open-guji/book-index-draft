@@ -3,38 +3,5 @@
   "id": "1exp0i3se7ncw",
   "type": "work",
   "title": "兩漢刊誤補遺",
-  "authors": [
-    {
-      "name": "吳仁傑",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/nprnakmy46pz32wz"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "兩漢刊誤補遺十卷",
-      "author_info": "宋吳仁傑撰",
-      "section": "史部/紀傳類/斷代之屬",
-      "summary": "共 2 個版本：武英殿聚珍版書本（馆藏未载）；武英殿聚珍版書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：e3c1fl0b3i24vbsr、5bobgt1vgx6bi5ki\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：suspect_same_edition）",
-  "related_works": [
-    {
-      "id": "d59f2hpuj1mo",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（兩漢刊誤補遺）"
-    }
-  ]
+  "merged_into": "d59f2hpuj1mo"
 }
