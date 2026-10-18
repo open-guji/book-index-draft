@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q79s3oqq",
+  "type": "work",
+  "title": "春秋決獄",
+  "authors": [
+    {
+      "name": "董仲舒",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/h8fgbyroxyrh8t5a"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "春秋決獄一卷",
+      "author_info": "漢董仲舒撰;清洪頤煊輯",
+      "section": "經部/春秋類/公羊傳/傳說之屬",
+      "summary": "共 2 個版本：問經堂叢書本（馆藏未载）；經典集林本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gwe0d13j467jj3fc、atfh5zqorpyqnsv2\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f23nu80zk",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
+    }
+  ]
+}
