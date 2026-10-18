@@ -3,38 +3,5 @@
   "id": "1exp306imr11c",
   "type": "work",
   "title": "天文大象賦",
-  "authors": [
-    {
-      "name": "李播",
-      "role": "撰",
-      "dynasty": "隋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pfeqsojcw0wh6dv6"
-      }
-    }
-  ],
-  "dynasty": "隋",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「隋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "天文大象賦二卷",
-      "author_info": "隋李播撰;唐苗爲注;清孫之騄補",
-      "section": "子部/天文算法類/推步之屬/天文",
-      "summary": "共 4 個版本：清咸豐六年江陰六嚴刻本（國家圖書館、吉林省圖書館、東北師範大學圖書館、上海圖書館）；清乾隆間紅格抄本（臺灣圖書館）；清黑格抄本（國家圖書館）；清抄本（南京圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：s0sabz5adqqjujck、kyfkijorbyl7ifut、bd7qnhget6r486vp、q42rmss62ifppexc\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:朝代冲突未并）",
-  "related_works": [
-    {
-      "id": "d59f28k1zwn6",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f28k1zwn6"
 }
