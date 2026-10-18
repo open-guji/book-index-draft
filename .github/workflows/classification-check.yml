@@ -1,0 +1,13 @@
+name: 分类校验（只报警）
+# 草稿库不进搜索，分类互斥只报警不阻断（2026-10-18 用户定）；校验脚本在正式库，与上线同一套逻辑。
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  classification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { repository: open-guji/book-index, path: book-index }
+      - run: python3 book-index/scripts/check-classification.py . --warn-only
