@@ -7,7 +7,7 @@
     {
       "name": "徐邈",
       "role": "撰",
-      "dynasty": "晋",
+      "dynasty": "晉",
       "source": {
         "name": "中國古籍總目",
         "type": "url",
@@ -15,8 +15,10 @@
       }
     }
   ],
-  "dynasty": "晋",
+  "dynasty": "晉",
   "dynasty_basis": "author_propagation",
+  "period": "jin",
+  "period_basis": "據 authors[0].dynasty「晉」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -27,5 +29,5 @@
       "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：h0fjdzcwit6vs3xq\nauto-split:存疑未并\nE6 第 527 批新建（hold 清零：jyiyi；原 hold 原因：）"
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：h0fjdzcwit6vs3xq\nauto-split:存疑未并\nE6 第 527 批新建（hold 清零：jyiyi；原 hold 原因：）\n朝代異寫統一：authors「徐邈」晋→晉；Work.dynasty 晋→晉"
 }
