@@ -3,43 +3,5 @@
   "id": "1exoc17eaw7ic",
   "type": "work",
   "title": "圖繪寶鑑",
-  "authors": [
-    {
-      "name": "夏文彥",
-      "role": "纂",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/drksmlm60fi0ld0k"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "圖繪寶鑑八卷",
-      "author_info": "元夏文彦纂;明毛大倫增補",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 7 個版本：清怡堂刻本（上海圖書館）；清康熙間借綠草堂刻本（上海圖書館）；叢書集成初編本（馆藏未载）；四庫全書本（浙江圖書館）；津逮祕書本（北京大學圖書館）；學津討原本（馆藏未载）；明正德十四年苗增刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7jqrw5vwhau26jvw、k3zdlryp072egscl、0vwlgs7dg766hdhu、or1mlziwzon4gu34、04gqzrc5zxyhxkgt、zylub0m5wcpddfvj、2tsf82hs8aoyhhrx\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条8卷，目标5卷）））",
-  "related_works": [
-    {
-      "id": "d59f2gptk0lc",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「圖繪寶鑑」（夏文彥）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条8卷，目标5卷））），按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "1exp2tg5x1539",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2gptk0lc"
 }
