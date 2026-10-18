@@ -3,38 +3,5 @@
   "id": "1exp0q7afihhc",
   "type": "work",
   "title": "癸巳存稿",
-  "authors": [
-    {
-      "name": "俞正燮",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/hdagsxw2xe2ig4rv"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "癸巳存稿四卷",
-      "author_info": "清俞正燮撰",
-      "section": "經部/群經總義類/別編之屬",
-      "summary": "共 3 個版本：皇清經解續編本（馆藏未载）；（首都圖書館、上海圖書館、中國科學院圖書館、北京大學圖書館、國家圖書館）；（首都圖書館、國家圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：beozhoyzin5nw8dr\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\n總目版本待定（庫內已有 Book 11sotvq7ltbep：皇清經解續編本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；7hmqqcpal612r1i5、2ro3b30u0prvw3sh）；總目分類：經部／總類／傳說之屬",
-  "related_works": [
-    {
-      "id": "d59f2nlgsv7k",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
-    }
-  ]
+  "merged_into": "d59f2nlgsv7k"
 }
