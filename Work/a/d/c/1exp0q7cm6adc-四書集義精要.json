@@ -3,38 +3,5 @@
   "id": "1exp0q7cm6adc",
   "type": "work",
   "title": "四書集義精要",
-  "authors": [
-    {
-      "name": "劉因",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/z0mygsk5ehhjvdwa"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "四書集義精要三十六卷",
-      "author_info": "元劉因撰",
-      "section": "經部/四書類/四書總義/傳說之屬",
-      "summary": "共 2 個版本：元至順元年江浙行省刻本（臺灣圖書館、臺北“故宮博物院”）；一九七五年臺灣故宮博物院影印元至順元年江浙行省刻本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：uhxxv7gipbvl3bbz、t180y00s05d1cid3\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f2gpdy5fk",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
-    }
-  ]
+  "merged_into": "d59f2gpdy5fk"
 }

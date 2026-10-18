@@ -3,49 +3,5 @@
   "id": "1exojxvnmqtxe",
   "type": "work",
   "title": "湛園札記",
-  "authors": [
-    {
-      "name": "姜宸英",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gf5jkia12yk7lxn2"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "湛園札記一卷",
-      "author_info": "清姜宸英撰",
-      "section": "經部/總類/傳說之屬",
-      "summary": "共 5 個版本：（上海圖書館、國家圖書館）；（北京大學圖書館、首都圖書館、上海圖書館、國家圖書館）；（上海圖書館、北京師範大學圖書館、國家圖書館、清華大學圖書館、首都圖書館）；（上海圖書館、國家圖書館）；皇清經解本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "湛園札記一卷",
-      "author_info": "清姜宸英撰",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（天津圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bzgq0nv3s5n08zty、xfssq5swwpr51vzy、si8w05c08tapntc3、oxy0xnzib1oeudi2\nE6 第 523 批新建（hold 清零：jyiyi；原 hold 原因：）\n第 524 批追加版本，源記錄：invtwqpvlw4olhtk\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp0gjf37dhg《湛園札記》已並入；其作者寫法：姜宸英）",
-  "merged_in": [
-    {
-      "id": "1exp0gjf37dhg",
-      "title": "湛園札記",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+  "merged_into": "d59f2nl5kbnl"
 }
