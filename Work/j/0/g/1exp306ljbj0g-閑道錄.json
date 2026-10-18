@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "1exp306ljbj0g",
+  "type": "work",
+  "title": "閑道錄",
+  "authors": [
+    {
+      "name": "沈壽民",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/meehw4itk7q4qpbd"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "閑道錄二十卷",
+      "author_info": "明沈壽民輯",
+      "section": "子部/儒家類/儒學之屬/明",
+      "summary": "共 1 個版本：清雍正二年有本堂刻本（馆藏未载）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：z46upymrwkdw13kn\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2ng6pgcg",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    },
+    {
+      "id": "d59f2mfbgao0",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}

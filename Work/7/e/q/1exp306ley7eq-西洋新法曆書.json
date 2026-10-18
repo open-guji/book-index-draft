@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp306ley7eq",
+  "type": "work",
+  "title": "西洋新法曆書",
+  "authors": [
+    {
+      "name": "徐光啓",
+      "role": "編",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": null
+      }
+    },
+    {
+      "name": "李天經",
+      "role": "編",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ry5fq8lnzbgvgof2"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "西洋新法曆書",
+      "author_info": "明徐光啓、明李天經編",
+      "section": "子部/天文算法類/叢編之屬",
+      "summary": "共 4 個版本：明崇禎間刻清順治康熙間續刻本（南京圖書館、北京師範大學圖書館、北京大學圖書館、上海圖書館、國家圖書館）；清初刻本（北京大學圖書館）；明崇禎至清順治間刻本（南京圖書館、國家圖書館）；明末刻本（北京大學圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：3mdsykau6woctam0、b2pseeo4wt8ahbtj、rpirpbkibllzybp2、xatvs24j3nakeg4c\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f2nkxrif6",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}

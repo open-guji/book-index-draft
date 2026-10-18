@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp306oc56gw",
+  "type": "work",
+  "title": "揚子新注",
+  "authors": [
+    {
+      "name": "柳宗元",
+      "role": "撰",
+      "dynasty": "唐",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ca5x67yidimzepn3"
+      }
+    }
+  ],
+  "dynasty": "唐",
+  "dynasty_basis": "author_propagation",
+  "period": "sui-tang",
+  "period_basis": "據 authors[0].dynasty「唐」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "揚子新注一卷",
+      "author_info": "唐柳宗元撰",
+      "section": "子部/儒家類/儒學之屬/兩漢至唐",
+      "summary": "共 1 個版本：說郛本（南京圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：iollyrrt05ge6gtt\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
+  "related_works": [
+    {
+      "id": "d59f28j5j85p",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}
