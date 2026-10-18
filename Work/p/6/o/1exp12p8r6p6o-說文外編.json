@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "1exp12p8r6p6o",
+  "type": "work",
+  "title": "說文外編",
+  "authors": [
+    {
+      "name": "雷浚",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/qp2g7jsaw84j1859"
+      }
+    },
+    {
+      "name": "劉禧延",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/exqfqyj7ixy001h5"
+      }
+    },
+    {
+      "name": "顧廣圻",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/mh5wbqskzo0p7sge"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "說文外編十五卷補遺一卷",
+      "author_info": "清雷浚撰",
+      "section": "經部/小學類/說文之屬/注解",
+      "summary": "共 8 個版本：說文續字彙本（馆藏未载）；清光緒二年刻（北京大學圖書館、國家圖書館）；清光緒十四年同文書局石印本（浙江圖書館、南京圖書館、北京大學圖書館）；清光緒元年刻本（上海圖書館）；清光緒九年刻本（北京師範大學圖書館）；雷刻四種本（馆藏未载）；雷刻八種本（馆藏未载）；清光緒二年謝文翰齋刻本（復旦大學圖書館、國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oe1sb5oqhvklnb25、7kk380wp38mqganq、ad17n5tf328s727u、hts83sr266d1183n、7ff8tq28msrupks6、fzpo8rn7m3jsiqd1、407kmmzgzjwh4fuq、iuw1xf5sut6jpp0n\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u7d93\\u90e8\", \"l2\": \"\\u5c0f\\u5b78\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u7d93\\u90e8\", \"l2\": \"\\u5c0f\\u5b78\\u985e\", \"l3\": \"\\u8aaa\\u6587\\u4e4b\\u5c6c\", \"l4\": \"\\u6ce8\\u89e3\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-near；原 hold 原因：auto-split:近名未并）",
+  "related_works": [
+    {
+      "id": "d59f2mrokpa8",
+      "relation": "related",
+      "note": "總目經部另立（auto-split:近名未并）"
+    }
+  ]
+}
