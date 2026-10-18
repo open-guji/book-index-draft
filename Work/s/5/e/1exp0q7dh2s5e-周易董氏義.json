@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7dh2s5e",
+  "type": "work",
+  "title": "周易董氏義",
+  "authors": [
+    {
+      "name": "董仲舒",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/h8fgbyroxyrh8t5a"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "周易董氏義一卷",
+      "author_info": "漢董仲舒撰;清王仁俊輯",
+      "section": "經部/易類/傳說之屬",
+      "summary": "共 1 個版本：玉函山房輯佚書補編本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：3t7znnsp0zzvvjso\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
+  "related_works": [
+    {
+      "id": "d59f24mf2fb4",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
+    }
+  ]
+}

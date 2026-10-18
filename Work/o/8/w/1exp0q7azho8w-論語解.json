@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7azho8w",
+  "type": "work",
+  "title": "論語解",
+  "authors": [
+    {
+      "name": "尹焞",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/oie53tb1c3d5jkok"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "論語解",
+      "author_info": "宋尹焞撰",
+      "section": "經部/四書類/論語/傳說之屬",
+      "summary": "共 1 個版本：明末祁氏澹生堂抄本（國家圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qo7qyts2l4sllhkj\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
+  "related_works": [
+    {
+      "id": "d59f2hmfus5c",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
+    }
+  ]
+}

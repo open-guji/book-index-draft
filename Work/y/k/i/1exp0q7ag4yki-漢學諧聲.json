@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7ag4yki",
+  "type": "work",
+  "title": "漢學諧聲",
+  "authors": [
+    {
+      "name": "戚學標",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/q87i0qe8s05khyhh"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "漢學諧聲二十四卷說文補考一卷說文又考一卷",
+      "author_info": "清戚學標撰",
+      "section": "經部/小學類/說文之屬/六書",
+      "summary": "共 2 個版本：戚鶴泉所著書本（馆藏未载）；清嘉慶九年涉縣官署刻本（北京大學圖書館、上海圖書館）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：l6ys4atmyo1xckct、408010hpm3cuw7sy\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2nayshdt",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
+    }
+  ]
+}

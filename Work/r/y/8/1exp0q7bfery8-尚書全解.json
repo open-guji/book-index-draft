@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp0q7bfery8",
+  "type": "work",
+  "title": "尚書全解",
+  "authors": [
+    {
+      "name": "林之奇",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/kcsyk0gawryajy45"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "尚書全解一卷（卷三十四）",
+      "author_info": "宋林之奇撰",
+      "section": "經部/書類/傳說之屬",
+      "summary": "共 1 個版本：涉聞梓舊本（馆藏未载）"
+    }
+  ],
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bk4hhnhrlqqa3nd1\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
+  "related_works": [
+    {
+      "id": "d59f2hpex6gx",
+      "relation": "related",
+      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
+    }
+  ]
+}
