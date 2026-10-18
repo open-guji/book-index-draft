@@ -3,49 +3,5 @@
   "id": "1exoklf5ns7ba",
   "type": "work",
   "title": "田家五行",
-  "authors": [
-    {
-      "name": "婁元禮",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2czgqg6tdlod1ly3"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "田家五行二卷",
-      "author_info": "明婁元禮撰",
-      "section": "叢書部/雜纂類/明代",
-      "summary": "共 1 個版本：（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "田家五行三卷拾遺一卷東方朔探春歷紀一卷田家五行紀歷撮要一卷",
-      "author_info": "明婁元禮撰;（東方朔探春歷紀、田家五行紀歷撮要）明婁元禮輯",
-      "section": "子部/農家類/時序之屬",
-      "summary": "共 4 個版本：明刻遞修本（國家圖書館）；說郛本（馆藏未载）；居家必備本（馆藏未载）；申報館叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 j3irgwfz41e1hehv（奚囊廣要十三種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vnn0gw8wl00hzc7n\n子部二串5並條 A檔（源 Work 1exoogoy2ty4k《田家五行》已並入；其作者寫法：婁元禮）",
-  "merged_in": [
-    {
-      "id": "1exoogoy2ty4k",
-      "title": "田家五行",
-      "at": "2026-10-18T06:53:24Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 A檔"
-    }
-  ]
+  "merged_into": "d59f6ertv18m"
 }
