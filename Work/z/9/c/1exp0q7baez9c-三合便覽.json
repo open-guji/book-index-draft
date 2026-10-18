@@ -3,48 +3,5 @@
   "id": "1exp0q7baez9c",
   "type": "work",
   "title": "三合便覽",
-  "authors": [
-    {
-      "name": "明福",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/goj6ar62x9s5ksv1"
-      }
-    },
-    {
-      "name": "富俊",
-      "role": "增輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/jsafpbi31sjtrpog"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三合便覽不分卷附十二字頭一卷清文指要一卷蒙文指要一卷",
-      "author_info": "清明福輯;清富俊增輯",
-      "section": "經部/小學類/譯文之屬",
-      "summary": "共 1 個版本：清乾隆五十七年京都名貴堂刻本（北京大學圖書館、中國科學院圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：txju868sigc2aass\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f2nbm7a4h",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
-    }
-  ]
+  "merged_into": "d59f2nbm7a4h"
 }
