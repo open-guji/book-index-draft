@@ -3,43 +3,5 @@
   "id": "1exp0i3txgnie",
   "type": "work",
   "title": "三國志注補",
-  "authors": [
-    {
-      "name": "趙一清",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6ffxuoqfekmd65hb"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三國志注補六十五卷",
-      "author_info": "清趙一清撰",
-      "section": "史部/紀傳類/斷代之屬",
-      "summary": "共 1 個版本：稿本（南京圖書館、湖北省圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：isecriuxk817z1fv\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：suspect_same_edition）",
-  "related_works": [
-    {
-      "id": "d59f2mrw2ebm",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（三國志注補）"
-    },
-    {
-      "id": "d59f2nbsg0zm",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（三國志注補）"
-    }
-  ]
+  "merged_into": "d59f2nbsg0zm"
 }

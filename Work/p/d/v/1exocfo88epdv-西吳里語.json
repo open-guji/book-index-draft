@@ -27,14 +27,37 @@
       "author_info": "明宋雷撰",
       "section": "史部/地理類/雜志之屬",
       "summary": "共 5 個版本：明嘉靖二十六年刻本（上海圖書館）；適園叢書本（馆藏未载）；清吳允嘉抄本（南京圖書館）；清抄本（國家圖書館、南京圖書館、中國社會科學院文學研究所）；清初抄本（重慶市圖書館、寧夏大學圖書館）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "西吳里語四卷",
+      "author_info": "明宋雷撰",
+      "section": "叢書部/雜纂類/民國以來",
+      "summary": "共 1 個版本：民國五年刻（北京大學圖書館、浙江圖書館、四川省圖書館、南京圖書館、上海圖書館、遼寧省圖書館、國家圖書館、天津圖書館、復旦大學圖書館、湖北省圖書館、寧夏回族自治區圖書館）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bxfjmezjcpf2hmq5、12qf75hr4ub6ah0f、s7jptcqgktrtwkx2、jtvb8cfwio15ptlx、fjctikxngepwa0jz\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-10.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：bxfjmezjcpf2hmq5、12qf75hr4ub6ah0f、s7jptcqgktrtwkx2、jtvb8cfwio15ptlx、fjctikxngepwa0jz\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-10.tsv；原 hold 原因：auto-split:存疑未并（缺朝代））\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0gj2xvwg2《西吳里語》已並入；其作者寫法：宋雷）",
   "related_works": [
     {
       "id": "d59f6en91qf7",
       "relation": "related",
       "note": "史部E存疑另立：總目記錄「西吳里語」（宋雷）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺朝代）），按嚴口徑另立；互為相關，待並條複核。"
+    },
+    {
+      "id": "d59f2nk5cwzk",
+      "relation": "related",
+      "note": "晉升去重複核：與多個正式庫 Work 疑同書，不並，互為相關"
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1exp0gj2xvwg2",
+      "title": "西吳里語",
+      "at": "2026-10-18T04:36:19Z",
+      "by": "串3史部",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
     }
   ]
 }

@@ -3,38 +3,5 @@
   "id": "1exoc6h1vzd3b",
   "type": "work",
   "title": "解醒語",
-  "authors": [
-    {
-      "name": "李材",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2hyrcbo33k41do61"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "解醒語一卷",
-      "author_info": "元李材撰",
-      "section": "史部/雜史類/瑣記之屬",
-      "summary": "共 3 個版本：說郛本（馆藏未载）；廣百川學海本（馆藏未载）；稗乘本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8fzxnp5sj151g3y4、pgugkxk8lf41un3q、25bp1so4n3u2gbc4\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（明≠元）））",
-  "related_works": [
-    {
-      "id": "d59f2gi844qo",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「解醒語」（李材）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（明≠元））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2gi844qo"
 }

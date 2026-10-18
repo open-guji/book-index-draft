@@ -3,38 +3,5 @@
   "id": "1exob168ey5tz",
   "type": "work",
   "title": "越絕書佚文",
-  "authors": [
-    {
-      "name": "袁康",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ovp6fbxph7rtxh0c"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "越絕書佚文一卷",
-      "author_info": "漢袁康撰;清王仁俊輯",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：經籍佚文本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vjkhnb1rnckueh3n\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：卷差>1（本条1卷，目标15卷））",
-  "related_works": [
-    {
-      "id": "d59f206hi7sw",
-      "relation": "related",
-      "note": "史部E另立（near）：總目記錄「越絕書佚文」（袁康）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标15卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f24mefy8a"
 }

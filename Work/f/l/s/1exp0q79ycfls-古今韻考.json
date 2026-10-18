@@ -3,48 +3,5 @@
   "id": "1exp0q79ycfls",
   "type": "work",
   "title": "古今韻考",
-  "authors": [
-    {
-      "name": "楊傳第",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/cwx3x1lixyv7awmc"
-      }
-    },
-    {
-      "name": "李因篤",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/z7zkkqhg4gp1bprc"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古今韻考四卷附校刻古今韻考附記一卷",
-      "author_info": "清李因篤撰;（附記）清楊傳第撰",
-      "section": "經部/小學類/音韻之屬/音說",
-      "summary": "共 6 個版本：咫進齋叢書本（馆藏未载）；關中叢書本（馆藏未载）；民國二十年渭南嚴氏刻本（遼寧省圖書館）；韻學叢書本（復旦大學圖書館）；清咸豐九年葉名灃刻本（中國科學院圖書館）；天壤閣叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：u4o4u0ysaxg6jc3p、bsae6mu8twv5qaop、j8ehr07jnfrzngq5、krs2fnwlpn6eljbw、j2xb411j3kwm6zz1、211uurryvku1itat\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
-  "related_works": [
-    {
-      "id": "d59f2nbg9rsw",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:作者部分重合未并）"
-    }
-  ]
+  "merged_into": "d59f2nbg9rsw"
 }

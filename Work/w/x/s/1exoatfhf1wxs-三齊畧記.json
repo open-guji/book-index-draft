@@ -3,38 +3,5 @@
   "id": "1exoatfhf1wxs",
   "type": "work",
   "title": "三齊畧記",
-  "authors": [
-    {
-      "name": "伏琛",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/wcgirs5yb4z5ofo0"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三齊畧記一卷",
-      "author_info": "晉伏琛撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 3 個版本：五朝小說大觀本（馆藏未载）；說郛本（馆藏未载）；五朝小說本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lmprgmeollb3xvlu、qlgbw74i5i7hw2xo、3ajzae4gmw3zyls7\nE6 第 403 批新建（hold 清零：史部E判定表 J-near 另立；原 hold 原因：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related））\nE史 426跨批同題待判並入（Sabine 10-16 批）：總目記錄 q6x86q8pgnct5d0n、jqrkm013ojn1qshh、f5m53oy85ff8h3ro 與本 Work 同題同作者同朝，Book 併入本 Work",
-  "related_works": [
-    {
-      "id": "d59f27t9ruo2",
-      "relation": "related",
-      "note": "史部E另立（near）：總目記錄「三齊畧記」（伏琛）與既有 Work 題名相同或相近而不可證同書（同名未并（题名仅包含／近似而非异体，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f27t9ruo2"
 }

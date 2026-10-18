@@ -3,58 +3,5 @@
   "id": "1exp12p8htkw4",
   "type": "work",
   "title": "書經",
-  "authors": [
-    {
-      "name": "孔穎達",
-      "role": "疏",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/duwjt714ome33ii0"
-      }
-    },
-    {
-      "name": "陸德明",
-      "role": "音義",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/mh6ug8kwoegme47l"
-      }
-    },
-    {
-      "name": "孔安國",
-      "role": "傳",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/yidf21vz8hvvq5gd"
-      }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "書經二十卷",
-      "author_info": "漢孔安國傳;唐陸德明音義;唐孔穎達疏;明葛鼒校;明金蟠訂",
-      "section": "經部/書類/傳說之屬",
-      "summary": "共 2 個版本：十三經古注本（馆藏未载）；十三經古注本（復旦大學圖書館、南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：3spl8bslrsug5em0、0fni76dl4apx3g6y\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-diffauth；原 hold 原因：auto-split:同题异作者未并）",
-  "related_works": [
-    {
-      "id": "d59f2hs4mght",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同题异作者未并）"
-    }
-  ]
+  "merged_into": "d59f24mmk4cn"
 }

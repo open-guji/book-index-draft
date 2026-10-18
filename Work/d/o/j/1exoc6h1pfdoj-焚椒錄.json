@@ -3,38 +3,5 @@
   "id": "1exoc6h1pfdoj",
   "type": "work",
   "title": "焚椒錄",
-  "authors": [
-    {
-      "name": "王鼎",
-      "role": "撰",
-      "dynasty": "遼",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/chxqxdujpmwnyus0"
-      }
-    }
-  ],
-  "dynasty": "遼",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「遼」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "焚椒錄一卷",
-      "author_info": "遼王鼎撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 7 個版本：香豔叢書本（馆藏未载）；續百川學海本（馆藏未载）；清抄本（南京圖書館）；寶颜堂祕笈本（馆藏未载）；說郛本（馆藏未载）；津逮祕書本（馆藏未载）；無一是齋叢抄本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：aacufxqk3fm7eht4、q1bi2luun4h40zgk、lnhxfa688av22kzv、3qa5il02x2c254e1、fpgjps4ex6ixis8i、sbnzu3w6ovze7k5t、awowsz0abane4d2x\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（清≠遼）））",
-  "related_works": [
-    {
-      "id": "d59f2ggbfx8h",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「焚椒錄」（王鼎）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（清≠遼））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2ggbfx8h"
 }
