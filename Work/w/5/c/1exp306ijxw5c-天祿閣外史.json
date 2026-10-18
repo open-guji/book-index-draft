@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "1exp306ijxw5c",
+  "type": "work",
+  "title": "天祿閣外史",
+  "authors": [
+    {
+      "name": "黃憲",
+      "role": "撰",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": null
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "天祿閣外史四卷",
+      "author_info": "題漢黃憲撰",
+      "section": "子部/雜家類/雜學雜說之屬",
+      "summary": "共 2 個版本：金谿羅嗣忠校刻本（北京大學圖書館）；增定漢魏六朝別解本（上海圖書館、南京圖書館、北京師範大學圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ul0tuepgywkrjnyx、4ty4w1ze42keuf87\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\nauto-split:卷數差異大未拆（所並2條記錄卷數含 1、4，可能混有不同書或殘本，待去重時按卷數拆）",
+  "related_works": [
+    {
+      "id": "d59f207tw000",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}

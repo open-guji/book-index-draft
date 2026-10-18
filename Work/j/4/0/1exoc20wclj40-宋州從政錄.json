@@ -3,38 +3,5 @@
   "id": "1exoc20wclj40",
   "type": "work",
   "title": "宋州從政錄",
-  "authors": [
-    {
-      "name": "王鳳生",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/48ibgbypnqxnae2v"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "宋州從政錄不分卷",
-      "author_info": "清王鳳生撰",
-      "section": "史部/政書類/職官之屬/政紀",
-      "summary": "共 1 個版本：清道光六年刻本（上海圖書館、山東省圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：m6u8y0ow3tim605p\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（明≠清）））",
-  "related_works": [
-    {
-      "id": "d59f2n4ys9hc",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「宋州從政錄」（王鳳生）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（明≠清））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2n4ys9hc"
 }

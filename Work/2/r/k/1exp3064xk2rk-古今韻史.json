@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp3064xk2rk",
+  "type": "work",
+  "title": "古今韻史",
+  "authors": [
+    {
+      "name": "陳繼儒",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/gh4322iezs0cvo4v"
+      }
+    },
+    {
+      "name": "程銓",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/o2wa6ticuflbkqdj"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "古今韻史十二卷",
+      "author_info": "明陳繼儒撰;明程銓撰",
+      "section": "子部/雜家類/雜纂之屬",
+      "summary": "共 2 個版本：明刻本（北京師範大學圖書館、遼寧省圖書館、北京大學圖書館）；明崇禎間刻本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5xzs6op0tmwa11d4、1ihavqqw6exjal3i\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f2ndvobuo",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}

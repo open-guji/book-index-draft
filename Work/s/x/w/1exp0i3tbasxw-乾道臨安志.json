@@ -3,43 +3,5 @@
   "id": "1exp0i3tbasxw",
   "type": "work",
   "title": "乾道臨安志",
-  "authors": [
-    {
-      "name": "周淙",
-      "role": "纂",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1n50p0gd01kbwiuu"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "乾道臨安志十五卷（原缺卷四至十五）附札記一卷",
-      "author_info": "宋周淙纂;清錢保塘札記",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 4 個版本：叢書集成初編本（湖北省圖書館、浙江圖書館、南京圖書館、山東省圖書館）；清芬堂叢書本（天津圖書館）；校經山房叢書本（復旦大學圖書館）；式訓堂叢書本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qtalskved84jy27m、61hqi4fs1m4cril8、r1ml88leq2lz1tuz、h43ods0dofut8ypc\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：錢保塘札記\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f2hh895oj",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（乾道臨安志）"
-    },
-    {
-      "id": "d59f2hr6llaa",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（乾道臨安志）"
-    }
-  ]
+  "merged_into": "d59f2hr6llaa"
 }

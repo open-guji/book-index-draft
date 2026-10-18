@@ -3,38 +3,5 @@
   "id": "1exp0q79ws8w0",
   "type": "work",
   "title": "春秋左傳標釋",
-  "authors": [
-    {
-      "name": "戴文光",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5o84jnvonjdl1wht"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "春秋左傳標釋三十卷",
-      "author_info": "明戴文光撰",
-      "section": "經部/春秋類/左傳/傳說之屬",
-      "summary": "共 1 個版本：明天啓五年戴氏必有齋刻本（國家圖書館、南京圖書館、浙江大學圖書館、華東師範大學圖書館、武漢市圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：66wntihizc0uj1m3\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f2pr7u8ld",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59f2pr7u8ld"
 }

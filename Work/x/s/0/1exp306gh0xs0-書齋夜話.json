@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "1exp306gh0xs0",
+  "type": "work",
+  "title": "書齋夜話",
+  "authors": [
+    {
+      "name": "俞琰",
+      "role": "撰",
+      "dynasty": "元",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/kj3ooqjn7oi8plvh"
+      }
+    },
+    {
+      "name": "劉續",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/epzt2ovl7oeoo5um"
+      }
+    },
+    {
+      "name": "李心傳",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/ayvbgmsir5cuqxma"
+      }
+    }
+  ],
+  "dynasty": "元",
+  "dynasty_basis": "author_propagation",
+  "period": "liao-jin-yuan",
+  "period_basis": "據 authors[0].dynasty「元」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "書齋夜話四卷霏雪錄一卷",
+      "author_info": "元俞琰撰;（霏雪錄）明劉續撰",
+      "section": "子部/雜家類/雜學雜說之屬",
+      "summary": "共 2 個版本：明抄本（臺灣圖書館）；清抄本（臺灣圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：z3kxcgbvr310cccg、yca245k8vd2ybpjf\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f2gorh2bl",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}

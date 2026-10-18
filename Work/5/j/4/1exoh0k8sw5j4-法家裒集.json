@@ -3,38 +3,5 @@
   "id": "1exoh0k8sw5j4",
   "type": "work",
   "title": "法家裒集",
-  "authors": [
-    {
-      "name": "蘇祐",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/c8h2zpp8p6c2u5kd"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "法家裒集一卷",
-      "author_info": "明蘇祐輯",
-      "section": "史部/政書類/刑法之屬/治獄",
-      "summary": "共 1 個版本：明嘉靖三十年唐堯臣刻本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：l5hns7vs07vygpn1\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋rela）",
-  "related_works": [
-    {
-      "id": "d59f6es7a8lf",
-      "relation": "related",
-      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「法家裒集」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
-    }
-  ]
+  "merged_into": "d59f6es7a8lf"
 }
