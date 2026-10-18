@@ -3,7 +3,22 @@
   "id": "1exp12p2htczo",
   "type": "work",
   "title": "古文尚書",
-  "authors": [],
+  "authors": [
+    {
+      "name": "孔安國",
+      "role": "傳",
+      "dynasty": "漢",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/yidf21vz8hvvq5gd"
+      }
+    }
+  ],
+  "dynasty": "漢",
+  "dynasty_basis": "author_propagation",
+  "period": "qin-han",
+  "period_basis": "據 authors[0].dynasty「漢」",
   "indexed_by": [
     {
       "source": "中國古籍總目",
@@ -14,7 +29,7 @@
       "summary": "共 5 個版本：唐初寫本（日本京都大學人文科學研究所）；京都帝國大學文學部景印唐鈔本本（馆藏未载）；日本昭和十四年東洋文庫影印元德二年中原康隆抄本（國家圖書館）；日本元德二年中原康隆手抄本（日本東洋文庫）；（馆藏未载）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2cnewxdjtx2tul0s、2um1xopqzikoxax6、fhmq7yv0vj5mzwlv、brs128dji4k0l0b6\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：漢孔安國傳\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n總目版本待定（庫內已有 Book 11sou87zoffgg、11sou87zoffgh、11sou87zoffgi、11sou87zoffgj：唐初寫本、京都帝國大學文學部景印唐鈔本本、日本昭和十四年東洋文庫影印元德二年中原康隆抄本、日本元德二年中原康隆手抄本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；707tcp45ry6np8px）；總目分類：經部／書類／叢編之屬",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2cnewxdjtx2tul0s、2um1xopqzikoxax6、fhmq7yv0vj5mzwlv、brs128dji4k0l0b6\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：漢孔安國傳\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n總目版本待定（庫內已有 Book 11sou87zoffgg、11sou87zoffgh、11sou87zoffgi、11sou87zoffgj：唐初寫本、京都帝國大學文學部景印唐鈔本本、日本昭和十四年東洋文庫影印元德二年中原康隆抄本、日本元德二年中原康隆手抄本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；707tcp45ry6np8px）；總目分類：經部／書類／叢編之屬\n責任者回填（經部作者漏補）：總目題名行責任者「漢孔安國傳」，Work.authors 原為空，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「孔安國傳」，其人入 Work.authors（role 取總目原詞）\n更正：上文「總目未著錄責任者」不確，總目題名行實有責任者「漢孔安國傳」，已寫入 Work.authors\n朝代補寫：總目題名行各版本一致為「漢」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫",
   "related_works": [
     {
       "id": "d59f24mhkbno",
