@@ -3,38 +3,5 @@
   "id": "1exp2jk323zlt",
   "type": "work",
   "title": "龍圖耳錄",
-  "authors": [
-    {
-      "name": "石玉崑",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2qtosfs5daluakol"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "龍圖耳錄一百二十回",
-      "author_info": "清石玉崑撰",
-      "section": "子部/小說類/白話之屬/長篇",
-      "summary": "共 1 個版本：清抄本（北京大學圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pb5qf3pccd4o7xac\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f2mpos4ch",
-      "relation": "related",
-      "note": "auto-split"
-    }
-  ]
+  "merged_into": "d59f2mpos4ch"
 }
