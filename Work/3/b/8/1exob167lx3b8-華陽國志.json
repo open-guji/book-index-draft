@@ -3,56 +3,5 @@
   "id": "1exob167lx3b8",
   "type": "work",
   "title": "華陽國志",
-  "authors": [
-    {
-      "name": "常璩",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/by4scfrr1dt6s32z"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "華陽國志十四卷",
-      "author_info": "晉常璩撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 2 個版本：廣漢魏叢書本（馆藏未载）；增訂漢魏叢書本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "華陽國志十二卷補三州郡縣目錄一卷",
-      "author_info": "晉常璩撰;（補三州郡縣目錄）清廖寅撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：清嘉慶十九年廖寅題襟館刻光緒十六年李氏悔齋重修本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：w6drw4dxthps34xq、2txmvteg3qh5qyzw\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条14卷，目标12卷））\nE史 426跨批同題待判並入（Sabine 10-16 批）：總目記錄 d5a806fbph0zuc01、nm85yxuugmmwm8cg 與本 Work 同題同作者同朝，Book 併入本 Work；卷數缺，抽樣 20/20 同書異版\n\n2026-10-17 Silas 併條（rule=S1.5 同題同作者／卷數相容（Sabine逐對判斷表））：併 1exoc6h1tspaa《華陽國志》 入本條。GUJI-101 近名回扫 S1.5：华阳国志；同题同作者/卷数相容，分类或异体字差异",
-  "related_works": [
-    {
-      "id": "d59f27x6jvnn",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「華陽國志」（常璩）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条14卷，目标12卷）），判為不同著作（不並）；互為相關。；史部E存疑另立：總目記錄「華陽國志」（廖寅、常璩）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exoc6h1tspaa",
-      "title": "華陽國志",
-      "at": "2026-10-17T06:47:09Z",
-      "by": "Silas",
-      "rule": "S1.5 同題同作者／卷數相容（Sabine逐對判斷表）",
-      "why": "GUJI-101 近名回扫 S1.5：华阳国志；同题同作者/卷数相容，分类或异体字差异"
-    }
-  ]
+  "merged_into": "d59f27x6jvnn"
 }
