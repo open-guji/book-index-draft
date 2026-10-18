@@ -3,38 +3,5 @@
   "id": "1exp3xkknfqpu",
   "type": "work",
   "title": "感述錄",
-  "authors": [
-    {
-      "name": "趙維新",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6x3ucdrwx61nfdo4"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "感述錄六卷續錄四卷",
-      "author_info": "明趙維新撰",
-      "section": "子部/儒家類/儒學之屬/明",
-      "summary": "共 2 個版本：茌邑三先生合刻本（北京大學圖書館、上海圖書館）；清刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7uztx8103s7t3ks5、75vucnvwwtd02cth\nauto-split:存疑未并\nE6 第 970 批新建（hold 清零：hold；原 hold 原因：auto-split:台账hold转另立）",
-  "related_works": [
-    {
-      "id": "d59f2nhsgcu9",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nhsgcu9"
 }

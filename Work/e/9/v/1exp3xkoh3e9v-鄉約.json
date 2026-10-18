@@ -3,38 +3,5 @@
   "id": "1exp3xkoh3e9v",
   "type": "work",
   "title": "鄉約",
-  "authors": [
-    {
-      "name": "尹耕",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5m3xx1rrg6pbpl5n"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "鄉約一卷",
-      "author_info": "明尹耕撰",
-      "section": "子部/兵家類",
-      "summary": "共 3 個版本：清光緒八年刻本（南開大學圖書館）；畿輔叢書本（馆藏未载）；明隆慶五年劉良弼刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：slbvyuw4pz2rbntn、5yshw873d4r0frfy、zqjeqt77o5lbqrvq\nauto-split:存疑未并\nE6 第 970 批新建（hold 清零：hold；原 hold 原因：auto-split:台账hold转另立）",
-  "related_works": [
-    {
-      "id": "d59f6ehzkop4",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f6ehzkop4"
 }

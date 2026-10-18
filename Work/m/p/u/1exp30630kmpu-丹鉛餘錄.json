@@ -3,38 +3,5 @@
   "id": "1exp30630kmpu",
   "type": "work",
   "title": "丹鉛餘錄",
-  "authors": [
-    {
-      "name": "楊慎",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/sjl4draw8brkl5af"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "丹鉛餘錄十七卷",
-      "author_info": "明楊慎撰",
-      "section": "子部/雜家類/雜考之屬",
-      "summary": "共 9 個版本：明刻本（臺灣圖書館、中國科學院圖書館、湖北省圖書館、浙江圖書館）；四庫全書本（馆藏未载）；明末清初抄本（北京大學圖書館）；明嘉靖間刻本（臺灣圖書館）；四庫全書本（馆藏未载）；明嘉靖十六年藍田李氏山房刻本（湖南省社會科學院圖書館）；明隆慶六年淩雲翼刻本（北京大學圖書館、南京圖書館、常熟市文管會）；明新都湯傳刻本（臺灣圖書館）；明萬曆四十三年郟鄏刻本（四川省圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：66w4z0pbds6cddb0、p55gok2kosyoiupu、nufx5w1fkygdqum6、e0qsy3js08rkrqto、15cojfttw6n1gdx4、e7diudjn170bpj52、7y86s7nyyfx02jei、zbrk1ytl7gdmfjat、vzt2h6bdidl3ta1d\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-near；原 hold 原因：）\nauto-split:卷數差異大未拆（所並9條記錄卷數含 13、17，可能混有不同書或殘本，待去重時按卷數拆）",
-  "related_works": [
-    {
-      "id": "d59f2nkj3coz",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nkj3coz"
 }

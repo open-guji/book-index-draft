@@ -27,14 +27,32 @@
       "author_info": "宋王讜撰",
       "section": "子部/雜家類/雜記之屬",
       "summary": "共 5 個版本：清抄本（四川省圖書館）；明嘉靖二年齊之鸞刻本（上海圖書館、湖北省圖書館、國家圖書館、北京大學圖書館）；明抄本（國家圖書館）；歷代小史本（馆藏未载）；說郛本（馆藏未载）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "唐語林八卷附校勘記逸文一卷",
+      "author_info": "宋王讜撰;（校勘記逸文）清錢熙祚撰輯",
+      "section": "子部/雜家類/雜記之屬",
+      "summary": "共 2 個版本：守山閣叢書本（馆藏未载）；武英殿聚珍版書本（天津圖書館）"
     }
   ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8y6jhggjacovqtph、ifnxzuuzb3l434fa、xo2ltfd42t4udgnr、xwu7vxfy7vd2v85r、75xev5pmkr3jsudk\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\nauto-split:卷數差異大未拆（所並5條記錄卷數含 1、2、3，可能混有不同書或殘本，待去重時按卷數拆）",
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8y6jhggjacovqtph、ifnxzuuzb3l434fa、xo2ltfd42t4udgnr、xwu7vxfy7vd2v85r、75xev5pmkr3jsudk\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）\n子部二串5並條 A檔（源 Work 1exoli8b4vbi8《唐語林》已並入；其作者寫法：王讜、孫星華）",
   "related_works": [
     {
       "id": "d59f2hszu6tf",
       "relation": "related",
       "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1exoli8b4vbi8",
+      "title": "唐語林",
+      "at": "2026-10-18T06:14:14Z",
+      "by": "串5",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "子部二串5並條 A檔"
     }
   ]
 }

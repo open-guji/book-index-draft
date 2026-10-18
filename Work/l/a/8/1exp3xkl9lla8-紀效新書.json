@@ -3,38 +3,5 @@
   "id": "1exp3xkl9lla8",
   "type": "work",
   "title": "紀效新書",
-  "authors": [
-    {
-      "name": "戚繼光",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/vcj1bgl0q0ixkxxw"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "紀效新書十八卷首一卷",
-      "author_info": "明戚繼光撰",
-      "section": "子部/兵家類",
-      "summary": "共 4 個版本：（天津圖書館、軍事科學院圖書館、四川大學圖書館、上海圖書館、重慶市圖書館）；（東北師範大學圖書館）；（東北師範大學圖書館）；（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：v18qnlw7bh67cmlv、jfjwjwc0s5q0fkc8、powuqf2bkn066klw、2hflcmnxu6vn3afs\nauto-split:存疑未并\nE6 第 970 批新建（hold 清零：hold；原 hold 原因：auto-split:台账hold转另立）",
-  "related_works": [
-    {
-      "id": "d59f2nkzboxv",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nkzboxv"
 }

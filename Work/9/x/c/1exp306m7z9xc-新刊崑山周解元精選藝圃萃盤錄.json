@@ -3,48 +3,5 @@
   "id": "1exp306m7z9xc",
   "type": "work",
   "title": "新刊崑山周解元精選藝圃萃盤錄",
-  "authors": [
-    {
-      "name": "周汝礪",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/m8xa5ldzhty5rqgb"
-      }
-    },
-    {
-      "name": "蔣以忠",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/yeu4q3egb5jtf7uu"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "新刊崑山周解元精選藝圃萃盤錄六卷",
-      "author_info": "明周汝礪輯;明蔣以忠輯",
-      "section": "子部/類書類/類編之屬/專編",
-      "summary": "共 1 個版本：明金陵徐小山書坊刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yamq635vb6ycakoc\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-near；原 hold 原因：）",
-  "related_works": [
-    {
-      "id": "d59f2nj05kw2",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2nj05kw2"
 }
