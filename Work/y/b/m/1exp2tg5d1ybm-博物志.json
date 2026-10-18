@@ -3,38 +3,5 @@
   "id": "1exp2tg5d1ybm",
   "type": "work",
   "title": "博物志",
-  "authors": [
-    {
-      "name": "張華",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/d5m3go83tzzhw3a3"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "博物志一卷",
-      "author_info": "晉張華撰",
-      "section": "子部/小說類/叢編之屬",
-      "summary": "共 1 個版本：（北京師範大學圖書館、中國科學院圖書館、南京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：tyruxz3f7aj3c61g\nauto-split:存疑未并\nE6 第 4005 批新建（hold 清零：C-hold；原 hold 原因：auto-split:信息不全）",
-  "related_works": [
-    {
-      "id": "d59f27x6jvnl",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f27x6jvnl"
 }
