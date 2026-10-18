@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exp306fyx69u",
+  "type": "work",
+  "title": "事物異名錄",
+  "authors": [
+    {
+      "name": "厲荃",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/6z0n3ztc2esy57pf"
+      }
+    },
+    {
+      "name": "關槐",
+      "role": "增輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/nj4nqwyur88nh1at"
+      }
+    }
+  ],
+  "dynasty": "清",
+  "dynasty_basis": "author_propagation",
+  "period": "qing",
+  "period_basis": "據 authors[0].dynasty「清」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "事物異名錄四十卷",
+      "author_info": "清厲荃輯;清關槐增輯",
+      "section": "子部/類書類/類編之屬/專編",
+      "summary": "共 7 個版本：清乾隆五十三年廣東刻後印本（國家圖書館）；清刻本（日本東京大學東洋文化研究所、國家圖書館）；清乾隆五十三年廣東刻本（北京大學圖書館、國家圖書館、南京圖書館、吉林省圖書館）；清乾隆間刻本（中國科學院圖書館、北京大學圖書館、國家圖書館）；清乾隆間古歡堂刻本（南京圖書館）；清乾隆四十一年刻四十八年印本（國家圖書館）；清乾隆四十一年刻本（南京圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2dhb7hswoys7jc6x、16f3drfzjodqfb2y、7y0zrye4aw0yi68r、2707yhob7jgjywk5、7a3ikgmpq4xxnr0e、nd7a2354r7pd5o7y、2g8fxum7zmm7fjeq\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）"
+}

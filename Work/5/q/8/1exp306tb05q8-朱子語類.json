@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exp306tb05q8",
+  "type": "work",
+  "title": "朱子語類",
+  "authors": [
+    {
+      "name": "黎靖德",
+      "role": "輯",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/tjkiczifvh6w2tay"
+      }
+    },
+    {
+      "name": "賀瑞麟",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/jryafxu5r7sifhzf"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "朱子語類一百四十卷附正譌一卷記疑一卷",
+      "author_info": "宋黎靖德輯;（正譌、記疑）清賀瑞麟輯",
+      "section": "子部/儒家類/儒學之屬/宋元",
+      "summary": "共 2 個版本：西京清麓叢書本（馆藏未载）；劉氏傳經堂叢書本（馆藏未载）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：j52zo6ymuc541pdi、lg6tvu4iepxo40e0\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "1exp306ogtqm8",
+  "type": "work",
+  "title": "野客叢書",
+  "authors": [
+    {
+      "name": "王楙",
+      "role": "撰",
+      "dynasty": "宋",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/0zp2mgb7kmxzv0kt"
+      }
+    },
+    {
+      "name": "俞成",
+      "role": "撰",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/zpklt8c03s3v6j08"
+      }
+    }
+  ],
+  "dynasty": "宋",
+  "dynasty_basis": "author_propagation",
+  "period": "song",
+  "period_basis": "據 authors[0].dynasty「宋」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "野客叢書三十卷附錄野老記聞一卷王先生壙銘一卷螢雪叢談二卷",
+      "author_info": "宋王楙撰;（螢雪叢談）清俞成撰",
+      "section": "子部/雜家類/雜考之屬",
+      "summary": "共 1 個版本：清刻本（吉林省圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：4lnto771hmy6hb8s\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）"
+}
