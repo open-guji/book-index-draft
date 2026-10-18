@@ -3,38 +3,5 @@
   "id": "1exob167zyrra",
   "type": "work",
   "title": "錢塘遺事",
-  "authors": [
-    {
-      "name": "劉一清",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qck7zj0c4mf0v1fp"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "錢塘遺事一卷",
-      "author_info": "元劉一清撰",
-      "section": "史部/雜史類/瑣記之屬",
-      "summary": "共 2 個版本：說郛本（馆藏未载）；古今說部叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xr5revn3e7kqsutj、dsthvvmt57pdniaz\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标10卷））",
-  "related_works": [
-    {
-      "id": "d59f2gpwzmkg",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「錢塘遺事」（劉一清）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标10卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2gpwzmkg"
 }
