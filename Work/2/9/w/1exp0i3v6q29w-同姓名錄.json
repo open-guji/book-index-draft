@@ -3,53 +3,5 @@
   "id": "1exp0i3v6q29w",
   "type": "work",
   "title": "同姓名錄",
-  "authors": [
-    {
-      "name": "余寅",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/wjtgrx1yojpem8n0"
-      }
-    },
-    {
-      "name": "周應賓",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6ubapx0zdpw4wcam"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "同姓名錄十二卷錄補一卷",
-      "author_info": "明余寅撰;（錄補）明周應賓撰",
-      "section": "史部/傳記類/姓名之屬",
-      "summary": "共 2 個版本：抄本（上海圖書館）；四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pq4md2ljp7fbl1h4、7bvdyxhlkb2pccrc\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
-  "related_works": [
-    {
-      "id": "d59f6egitkw7",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（同姓名錄）"
-    },
-    {
-      "id": "1exp306jbery8",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f6egitkw7"
 }
