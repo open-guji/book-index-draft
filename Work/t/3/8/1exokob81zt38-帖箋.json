@@ -91,16 +91,17 @@
       "author_info": "明屠隆撰",
       "section": "叢書部/雜纂類/明代",
       "summary": "共 1 個版本：（四川省圖書館、武漢市圖書館、天津圖書館、北京大學圖書館、遼寧省圖書館、浙江圖書館、復旦大學圖書館、南京圖書館、上海圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 y7bxdz3ovvcr624b（錦囊小史四十一種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：45vcanb3atiovajp\n第 440 批追加版本，源記錄：q55oz2yupayhnz7q\n查重线（串7 10-18）：同题同作者同朝代并入 7 个叢書子目新建 Work（1exp0gj4zjwn4,1exp0gja7s076,1exp0gl79pybk,1exp0gl7gl69u,1exp0gldpyigy,1exp0glkvham8,1exp0glmr7shs）",
-  "related_works": [
+    },
     {
-      "id": "1exp2tg5x1535",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "帖箋一卷",
+      "author_info": "明屠隆撰",
+      "section": "子部/藝術類/書畫之屬/書",
+      "summary": "共 1 個版本：錦囊小史本（馆藏未载）"
     }
   ],
+  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 y7bxdz3ovvcr624b（錦囊小史四十一種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：45vcanb3atiovajp\n第 440 批追加版本，源記錄：q55oz2yupayhnz7q\n查重线（串7 10-18）：同题同作者同朝代并入 7 个叢書子目新建 Work（1exp0gj4zjwn4,1exp0gja7s076,1exp0gl79pybk,1exp0gl7gl69u,1exp0gldpyigy,1exp0glkvham8,1exp0glmr7shs）\n子部四并条 A档 同題同作者（源 Work 1exp2tg5x1535《帖箋》已並入；其作者寫法：屠隆）",
   "merged_in": [
     {
       "id": "1exp0gj4zjwn4",
@@ -157,6 +158,14 @@
       "by": "串7",
       "rule": "叢書去重",
       "why": "同题同作者同朝代"
+    },
+    {
+      "id": "1exp2tg5x1535",
+      "title": "帖箋",
+      "at": "2026-10-18T04:01:26Z",
+      "by": "子部四",
+      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "子部四并条 A档 同題同作者"
     }
   ]
 }
