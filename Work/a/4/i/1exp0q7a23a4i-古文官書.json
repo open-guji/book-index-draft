@@ -3,38 +3,5 @@
   "id": "1exp0q7a23a4i",
   "type": "work",
   "title": "古文官書",
-  "authors": [
-    {
-      "name": "衛宏",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2ts1qaoycna5krm8"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古文官書",
-      "author_info": "漢衛宏撰",
-      "section": "經部/小學類/叢編之屬",
-      "summary": "共 1 個版本：（北京大學圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5mihu3fws6whkxg7\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f24madv5v",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59f24madv5v"
 }

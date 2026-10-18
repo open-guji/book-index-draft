@@ -3,38 +3,5 @@
   "id": "1exp0q7d6ry82",
   "type": "work",
   "title": "禹貢解",
-  "authors": [
-    {
-      "name": "何櫆",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/0mtk45fg4o5c0jwv"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "禹貢解一卷",
-      "author_info": "明何櫆撰",
-      "section": "經部/書類/分篇之屬",
-      "summary": "共 1 個版本：明崇禎四年刻本（日本內閣文庫（國立公文書館））"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：r6d5x03wz5jtbqrv\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f2prd598h",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59f2prd598h"
 }

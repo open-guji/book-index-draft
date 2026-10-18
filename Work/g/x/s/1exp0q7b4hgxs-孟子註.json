@@ -3,38 +3,5 @@
   "id": "1exp0q7b4hgxs",
   "type": "work",
   "title": "孟子註",
-  "authors": [
-    {
-      "name": "劉熙",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/98vm3cx9lx1lv2ji"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "孟子註一卷",
-      "author_info": "漢劉熙撰;清王謨輯",
-      "section": "經部/四書類/孟子/傳說之屬",
-      "summary": "共 3 個版本：漢魏遺書鈔本（馆藏未载）；黃氏逸書考本（馆藏未载）；清抄本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ubnwpbaziyngvg4b、xez5g7qe1uucjwm1、abo4gtex50xnxt2t\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f24mkzxmq",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59f24mkzxmq"
 }

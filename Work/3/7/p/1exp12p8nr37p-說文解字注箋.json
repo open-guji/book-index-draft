@@ -3,58 +3,5 @@
   "id": "1exp12p8nr37p",
   "type": "work",
   "title": "說文解字注箋",
-  "authors": [
-    {
-      "name": "徐樾",
-      "role": "編",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ntmmby18b2ylyt2x"
-      }
-    },
-    {
-      "name": "徐灝",
-      "role": "箋",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/co1zspkqsxesq8jt"
-      }
-    },
-    {
-      "name": "段玉裁",
-      "role": "注",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/fitc8u4t3qnn1ehs"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "說文解字注箋十四卷附說文檢字篇三卷說文重文檢字篇一卷說文疑難檢字篇一卷今文檢字篇一卷",
-      "author_info": "清段玉裁注;清徐灝箋;（說文檢字篇）清徐樾編",
-      "section": "經部/小學類/說文之屬/注解",
-      "summary": "共 4 個版本：民國十七年徐氏學壽堂上海石印本（遼寧省圖書館）；清光緒二十年桂林刻民國三年京師補刻本（北京大學圖書館、國家圖書館）；民國十七年上海中原書局影印民國三年京師補刻本（國家圖書館、湖北省圖書館）；清光緒二十年刻本（南開大學圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pjym6lziesonihvv、7g6wxqbe6xy1ub4i、3la4t1lv2w8dlzvv、bv13nfip7np683w8\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-diffauth；原 hold 原因：auto-split:同题异作者未并）",
-  "related_works": [
-    {
-      "id": "d59f2mro9gqo",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同题异作者未并）"
-    }
-  ]
+  "merged_into": "d59f2mro9gqo"
 }

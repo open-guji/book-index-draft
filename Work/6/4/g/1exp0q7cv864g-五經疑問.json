@@ -3,38 +3,5 @@
   "id": "1exp0q7cv864g",
   "type": "work",
   "title": "五經疑問",
-  "authors": [
-    {
-      "name": "房景先",
-      "role": "撰",
-      "dynasty": "北魏",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ie5dkqsgmngc5gmz"
-      }
-    }
-  ],
-  "dynasty": "北魏",
-  "dynasty_basis": "author_propagation",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「北魏」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "五經疑問一卷",
-      "author_info": "北魏房景先撰;清黄奭輯",
-      "section": "經部/群經總義類/傳說之屬",
-      "summary": "共 2 個版本：黄氏逸書考本（馆藏未载）；漢魏遺書鈔本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vt4jtxh3pb68j7a7、2jtnj5y7j4tkbksv\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷数缺失且朝代无印证未并）",
-  "related_works": [
-    {
-      "id": "d59f284z6800",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷数缺失且朝代无印证未并）"
-    }
-  ]
+  "merged_into": "d59f284z6800"
 }
