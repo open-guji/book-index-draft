@@ -3,38 +3,5 @@
   "id": "1exp0q7dew4cg",
   "type": "work",
   "title": "周官總義",
-  "authors": [
-    {
-      "name": "易祓",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/fpnrn52gr4ufvrzq"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "周官總義六卷",
-      "author_info": "宋易祓撰",
-      "section": "經部/禮類/周禮/傳說之屬",
-      "summary": "共 2 個版本：清道光六年篤成堂刻本（湖北省圖書館）；清乾隆二十年易祖燾刻本（中國科學院圖書館、溫州市圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：28mq4tq6mk84sce3、i1k4yu5bhnt6en40\nauto-split:存疑未并\nE6 第 3002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f2hqx8gzm",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:卷差>1未并）"
-    }
-  ]
+  "merged_into": "d59f2hqx8gzm"
 }
