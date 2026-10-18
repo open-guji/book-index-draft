@@ -3,49 +3,5 @@
   "id": "1exojv2ng8ow4",
   "type": "work",
   "title": "周易繫辭桓氏注",
-  "authors": [
-    {
-      "name": "桓玄",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/78mjgeznd1kkfs1l"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "周易繫辭桓氏注一卷",
-      "author_info": "晉桓玄撰",
-      "section": "經部/易類/叢編之屬",
-      "summary": "共 1 個版本：（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "周易繫辭桓氏注一卷",
-      "author_info": "晉桓玄撰;清馬國翰輯",
-      "section": "經部/易類/傳說之屬",
-      "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nig1hfshs1enlq43\nE6 第 521 批新建（hold 清零：jyiyi；原 hold 原因：）\n經部查重並條（B檔：同題同作者同朝代，卷數差≤1）（源 Work 1exojv2ng8ow6《周易繫辭桓氏注》已並入；其作者寫法：晉桓玄）\n朝代異寫統一：authors「桓玄」晋→晉；Work.dynasty 晋→晉",
-  "merged_in": [
-    {
-      "id": "1exojv2ng8ow6",
-      "title": "周易繫辭桓氏注",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（B檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+  "merged_into": "d59f27tapkao"
 }

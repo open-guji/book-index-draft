@@ -3,38 +3,5 @@
   "id": "1exp12p4vnmdi",
   "type": "work",
   "title": "論語梁武帝註",
-  "authors": [
-    {
-      "name": "武帝",
-      "role": "撰",
-      "dynasty": "南朝梁",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/fyfdp2fbpiqsjoys"
-      }
-    }
-  ],
-  "dynasty": "南朝梁",
-  "dynasty_basis": "author_propagation",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝梁」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "論語梁武帝註一卷",
-      "author_info": "南朝梁武帝撰;清馬國翰輯",
-      "section": "經部/四書類/論語/傳說之屬",
-      "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：um6sjwkov7zhtb5t\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-diffauth；原 hold 原因：auto-split:同题异作者未并）",
-  "related_works": [
-    {
-      "id": "d59f284v44xv",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同题异作者未并）"
-    }
-  ]
+  "merged_into": "d59f284v44xv"
 }

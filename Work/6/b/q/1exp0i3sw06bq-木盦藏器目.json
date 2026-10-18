@@ -3,38 +3,5 @@
   "id": "1exp0i3sw06bq",
   "type": "work",
   "title": "木盦藏器目",
-  "authors": [
-    {
-      "name": "程振甲",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5qh44nuwui276tw8"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "木盦藏器目一卷",
-      "author_info": "清程振甲輯",
-      "section": "史部/金石考古類/金之屬",
-      "summary": "共 2 個版本：叢書集成初編本（馆藏未载）；靈鶼閣叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：31pz4rz8gqudmyl8、5k2imnth8fxmge52\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
-  "related_works": [
-    {
-      "id": "d59f2nfuubr5",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（木盦藏器目）"
-    }
-  ]
+  "merged_into": "d59f2nfuubr5"
 }

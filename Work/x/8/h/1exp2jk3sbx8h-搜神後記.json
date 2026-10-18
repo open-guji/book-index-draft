@@ -3,38 +3,5 @@
   "id": "1exp2jk3sbx8h",
   "type": "work",
   "title": "搜神後記",
-  "authors": [
-    {
-      "name": "陶潛",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ze8c1ewqbn4uvwjw"
-      }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "搜神後記二卷",
-      "author_info": "晉陶潛撰",
-      "section": "子部/小說類/文言之屬/筆記",
-      "summary": "共 2 個版本：清宣統三年上海大通書局石印本（錦州師範學院圖書館）；（北京師範大學圖書館、中國科學院圖書館、南京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：tnbzf1zeuy082xl3、cv0iwe11g8kdanh0\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5c0f\\u8aaa\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5c0f\\u8aaa\\u985e\", \"l3\": \"\\u6587\\u8a00\\u4e4b\\u5c6c\", \"l4\": \"\\u7b46\\u8a18\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:卷差>1未并）",
-  "related_works": [
-    {
-      "id": "d59f27x842de",
-      "relation": "related",
-      "note": "auto-split"
-    }
-  ]
+  "merged_into": "d59f27x842de"
 }

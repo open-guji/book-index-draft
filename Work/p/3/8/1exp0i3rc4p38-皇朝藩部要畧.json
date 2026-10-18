@@ -3,58 +3,5 @@
   "id": "1exp0i3rc4p38",
   "type": "work",
   "title": "皇朝藩部要畧",
-  "authors": [
-    {
-      "name": "祁韻士",
-      "role": "纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/jcb0lepn6eewb2uq"
-      }
-    },
-    {
-      "name": "宋景昌",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/iyykft7js08bvt24"
-      }
-    },
-    {
-      "name": "毛嶽生;毛嶽生",
-      "role": "編",
-      "dynasty": "",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2iylg5cpmab5bit0"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇朝藩部要畧十八卷皇朝藩部世系表四卷",
-      "author_info": "清祁韻士纂;清毛嶽生编;（皇朝藩部世系表）清宋景昌輯;清徐松訂;清張穆校",
-      "section": "史部/地理類/中外雜記之屬",
-      "summary": "共 5 個版本：清道光間筠淥山房刻本（上海圖書館、國家圖書館、山西省圖書館、南京圖書館）；清光緒十年浙江書局刻本（南京圖書館、上海圖書館、國家圖書館）；清道光二十六年筠淥山房刻本（南京圖書館、上海圖書館、國家圖書館、遼寧省圖書館）；清光緒十年浙江書局刻本（國家圖書館、上海圖書館、遼寧省圖書館、南京圖書館）；清抄本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：sqtlcm3i3s86c37w、zom5f6db6p7wve6m、8y1vaq3263lgaluq、qqxzbskp6ic2lwst、2tu6awge372pum8d\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u5730\\u7406\\u985e\", \"l3\": \"\\u4e2d\\u5916\\u96dc\\u8a18\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u4e8b\\u5be6\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
-  "related_works": [
-    {
-      "id": "d59f2mqht6v5",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（皇朝藩部要畧）"
-    }
-  ]
+  "merged_into": "d59f2mqht6v5"
 }
