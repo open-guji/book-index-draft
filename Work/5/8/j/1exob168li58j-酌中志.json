@@ -3,38 +3,5 @@
   "id": "1exob168li58j",
   "type": "work",
   "title": "酌中志",
-  "authors": [
-    {
-      "name": "劉若愚",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/3g1gd4yz4yqyyeiy"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "酌中志六卷",
-      "author_info": "明劉若愚撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 6 個版本：清初抄本（國家圖書館）；清别有軒抄本（浙江圖書館）；清抄本（南京圖書館、北京大學圖書館）；清抄本（復旦大學圖書館）；清抄本（北京大學圖書館）；清初抄本（湖南省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i8u7sr3secqn64p2、g6qvpvr7s28g5iln、0qqmv7kndeajebnj、aybtx1bozafa2ydl、jde3jitchcz1qge8、ljx7w2ye3w1crjyo\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条6卷，目标24卷））",
-  "related_works": [
-    {
-      "id": "d59f2ndl29s3",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「酌中志」（劉若愚）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条6卷，目标24卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2ndl29s3"
 }
