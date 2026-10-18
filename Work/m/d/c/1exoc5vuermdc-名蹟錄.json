@@ -3,38 +3,5 @@
   "id": "1exoc5vuermdc",
   "type": "work",
   "title": "名蹟錄",
-  "authors": [
-    {
-      "name": "朱珪",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qauzoem2aq65ctds"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "名蹟錄六卷附錄一卷",
-      "author_info": "明朱珪撰",
-      "section": "史部/金石考古類/石之屬",
-      "summary": "共 6 個版本：民國三年趙光楣抄本（臺灣圖書館）；清光緒三十三年長洲章氏算鶴量鯨室抄本（國家圖書館）；清初徐釚抄本（南京圖書館）；清抄本（上海圖書館、臺灣圖書館、復旦大學圖書館、國家圖書館、南京圖書館、天津圖書館、北京大學圖書館）；清乾隆二十六年鮑氏知不足齋抄本（臺灣圖書館）；四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：wtiervcrqi1tfgjr、q7rdkndn1w2ee5yi、mwsbirjoe8zd6wge、qxteg7788g7x4rd3、ezzky853g1x1ww3p、56ln5duylz1ehb1t\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-06.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（清≠明）））",
-  "related_works": [
-    {
-      "id": "d59f2gp5iqrk",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「名蹟錄」（朱珪）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（清≠明））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2gp5iqrk"
 }

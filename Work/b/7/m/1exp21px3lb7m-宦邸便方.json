@@ -3,48 +3,5 @@
   "id": "1exp21px3lb7m",
   "type": "work",
   "title": "宦邸便方",
-  "authors": [
-    {
-      "name": "李齊芳",
-      "role": "增輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/zfpimvgbhmt0egb3"
-      }
-    },
-    {
-      "name": "錢后崖",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1aitb268v4xkrrli"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "宦邸便方一卷",
-      "author_info": "明錢后崖輯;明李齊芳增輯",
-      "section": "子部/醫家類/方論之屬/驗方",
-      "summary": "共 1 個版本：明萬曆六年李齊芳刻本（河南省圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：rx56w3g24cluhnqg\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
-  "related_works": [
-    {
-      "id": "d59f6ehw52pw",
-      "relation": "related",
-      "note": "auto-split:同题同作者未并"
-    }
-  ]
+  "merged_into": "d59f6ehw52pw"
 }
