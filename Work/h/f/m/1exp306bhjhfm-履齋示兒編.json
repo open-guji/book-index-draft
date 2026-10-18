@@ -3,48 +3,5 @@
   "id": "1exp306bhjhfm",
   "type": "work",
   "title": "履齋示兒編",
-  "authors": [
-    {
-      "name": "孫奕",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/q616cw55kwkopk1f"
-      }
-    },
-    {
-      "name": "顧廣圻",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/mh5wbqskzo0p7sge"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "履齋示兒編二十三卷校補一卷覆校宋本條錄一卷",
-      "author_info": "宋孫奕撰;（校補、覆校宋本條錄）清顧廣圻撰",
-      "section": "子部/雜家類/雜考之屬",
-      "summary": "共 2 個版本：知不足齋叢書本（國家圖書館）；明抄本（上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：b0s1c6ixbd8jlh3u、8lzcyjxmjq8vlv4f\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）\nauto-split:卷數差異大未拆（所並2條記錄卷數含 6、23，可能混有不同書或殘本，待去重時按卷數拆）",
-  "related_works": [
-    {
-      "id": "d59f2hphf2te",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59f2hphf2te"
 }
