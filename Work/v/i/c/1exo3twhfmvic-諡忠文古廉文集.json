@@ -3,38 +3,5 @@
   "id": "1exo3twhfmvic",
   "type": "work",
   "title": "諡忠文古廉文集",
-  "authors": [
-    {
-      "name": "李時勉",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/w5o3ebswiw8uyn6p"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "諡忠文古廉文集十二卷",
-      "author_info": "明李時勉撰",
-      "section": "集部/別集類/明代之屬",
-      "summary": "共 2 個版本：明成化間李氏世忠堂刻本（中國科學院圖書館）；明成化十年李顒刻本（臺灣圖書館）"
-    }
-  ],
-  "ai_note": "E 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5b3ug1joajxe4vpm、n3dqxnlmu8pv26of\nE6 第 101 批新建（hold 清零：p11b1；原 hold 原因：title_contains）",
-  "related_works": [
-    {
-      "id": "d59f2nkr7itf",
-      "relation": "related",
-      "note": "P11 批1（Sabine 判定）：總目題名「諡忠文古廉文集十二卷」較候選 Work「古廉文集」多出限定（諡忠文），判為不同著作（選本／批本／注本等），不並；互為相關。"
-    }
-  ]
+  "merged_into": "d59f2nkr7itf"
 }
