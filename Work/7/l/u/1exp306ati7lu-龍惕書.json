@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "1exp306ati7lu",
+  "type": "work",
+  "title": "龍惕書",
+  "authors": [
+    {
+      "name": "季本",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/sypghfwm5erhajvj"
+      }
+    },
+    {
+      "name": "聶豹",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/6qg5ygar0eb6a8ca"
+      }
+    },
+    {
+      "name": "李默",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/i27bjyxltzazz1do"
+      }
+    },
+    {
+      "name": "薛侃",
+      "role": "撰",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/53npsgj3518wa3dy"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "龍惕書一卷",
+      "author_info": "明季本、明聶豹、明李默、明薛侃等撰",
+      "section": "子部/雜家類/雜學雜說之屬",
+      "summary": "共 1 個版本：明萬曆三十一年劉毅刻本（國家圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lvm7g5dm841u5amz\nauto-split:存疑未并\nE6 第 952 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f6eg4rwg5",
+      "relation": "related",
+      "note": "總目子部另立（auto-split:同名未并）"
+    }
+  ]
+}
