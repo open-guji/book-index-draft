@@ -3,38 +3,5 @@
   "id": "1exoc17ducmq0",
   "type": "work",
   "title": "皇明表忠紀",
-  "authors": [
-    {
-      "name": "錢士升",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/8zkrlyru83zsjhi0"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇明表忠紀十卷附錄一卷附錄一卷",
-      "author_info": "明錢士升撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 3 個版本：明崇禎間刻本（國家圖書館）；明崇禎間胡氏十竹齋刻本（國家圖書館、湖北省圖書館）；明崇禎間刻本（浙江圖書館、上海圖書館、揚州市圖書館、吉林省圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mn3owov58yaesv2p、67opl8hqrllx6t4k、diq6rlir1317k1sg\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（清≠明）））",
-  "related_works": [
-    {
-      "id": "d59f2njysx6o",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「皇明表忠紀」（錢士升）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（清≠明））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2njysx6o"
 }
