@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "1exp21pypng8y",
+  "type": "work",
+  "title": "普門醫品",
+  "authors": [
+    {
+      "name": "王化貞",
+      "role": "輯",
+      "dynasty": "明",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/b0fjy0s1v85c34ea"
+      }
+    },
+    {
+      "name": "郎廷模",
+      "role": "輯",
+      "dynasty": "清",
+      "source": {
+        "name": "中國古籍總目",
+        "type": "url",
+        "details": "http://data.library.sh.cn/entity/person/2xr8p257361s4p1z"
+      }
+    }
+  ],
+  "dynasty": "明",
+  "dynasty_basis": "author_propagation",
+  "period": "ming",
+  "period_basis": "據 authors[0].dynasty「明」",
+  "indexed_by": [
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "普門醫品四十八卷醫品補遺四卷",
+      "author_info": "明王化貞輯;（醫品補遺）清郎廷模輯",
+      "section": "子部/醫家類/方論之屬/驗方",
+      "summary": "共 3 個版本：清道光間刻本（軍事醫學科學院圖書館）；清康熙三十三年郎廷模娛暉堂刻本（上海中醫藥大學圖書館、國家圖書館、上海圖書館、中國科學院圖書館）；清康熙四十一年王珽刻本（上海圖書館、上海中醫藥大學圖書館）"
+    }
+  ],
+  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：w6dvtqnvk5at14x6、x8f43yy0wjdh7txd、utypee8tcfszchbo\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 4002 批新建（hold 清零：J-exact；原 hold 原因：auto-split:作者部分重合未并）",
+  "related_works": [
+    {
+      "id": "d59f2nff8kqo",
+      "relation": "related",
+      "note": "auto-split:同题同作者未并"
+    }
+  ]
+}
