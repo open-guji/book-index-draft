@@ -3,34 +3,23 @@
   "id": "1exokprbfrev6",
   "type": "work",
   "title": "斯友堂日記",
-  "authors": [
-    {
-      "name": "王育",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/zv265tg1z9jg16yu"
+  "merged_into": "d59fy1yhs0si",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "王育"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "斯友堂日記一卷",
+        "author_info": "明王育撰",
+        "section": "叢書部/郡邑類",
+        "summary": "共 1 個版本：宋元間磧砂延聖院刻（缺卷中）;清道光二十五年竹西鋤蓿館刻（遼寧省圖書館）"
       }
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "斯友堂日記一卷",
-      "author_info": "明王育撰",
-      "section": "叢書部/郡邑類",
-      "summary": "共 1 個版本：宋元間磧砂延聖院刻（缺卷中）;清道光二十五年竹西鋤蓿館刻（遼寧省圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 f8nwbhnjyo8vk7w3（婁東雜著（棣香齋叢書）五十六種續刊十二種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5ztwj7pqwfg7hxya\n主責任者「王育」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period",
-  "related_works": [
-    {
-      "id": "d59fy1yhs0si",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+    ]
+  }
 }

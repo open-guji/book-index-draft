@@ -3,38 +3,23 @@
   "id": "1exoklf54fhn0",
   "type": "work",
   "title": "徐幹中論",
-  "authors": [
-    {
-      "name": "徐幹",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ahllcimnpr4z1gp7"
+  "merged_into": "d59fy0765xq8",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "徐幹"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "徐幹中論二卷",
+        "author_info": "漢徐幹撰",
+        "section": "叢書部/雜纂類/明代",
+        "summary": "共 1 個版本：（復旦大學圖書館、上海圖書館、南開大學圖書館、國家圖書館、重慶市圖書館、北京大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "徐幹中論二卷",
-      "author_info": "漢徐幹撰",
-      "section": "叢書部/雜纂類/明代",
-      "summary": "共 1 個版本：（復旦大學圖書館、上海圖書館、南開大學圖書館、國家圖書館、重慶市圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 qitp5tm4z6nocpbt（兩京遺編十二種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：sfzlyuc2mleiorx1",
-  "related_works": [
-    {
-      "id": "d59f27t5ej2a",
-      "relation": "related",
-      "note": "复核疑同，不并，互链"
-    }
-  ]
+    ]
+  }
 }
