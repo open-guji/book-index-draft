@@ -3,31 +3,23 @@
   "id": "1exp05obpircy",
   "type": "work",
   "title": "[萬曆]霍丘縣志",
-  "authors": [
-    {
-      "name": "楊其善",
-      "role": "纂修",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/h1exzfv7ozgy4od1"
+  "merged_into": "d59f2nkc84xt",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "楊其善"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "[萬曆]霍丘縣志十卷",
+        "author_info": "明楊其善纂修",
+        "section": "史部/方志類/地志之屬",
+        "summary": "共 1 個版本：明萬曆二十四年刻本（北平圖書館（藏臺圖））"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "[萬曆]霍丘縣志十卷",
-      "author_info": "明楊其善纂修",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 1 個版本：明萬曆二十四年刻本（北平圖書館（藏臺圖））"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：v1x70z5oom38wefk\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+    ]
+  }
 }

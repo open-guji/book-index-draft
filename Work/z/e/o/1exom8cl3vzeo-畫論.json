@@ -3,81 +3,47 @@
   "id": "1exom8cl3vzeo",
   "type": "work",
   "title": "畫論",
-  "authors": [
-    {
-      "name": "郭思",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/l67qkgn02gnzqkry"
+  "merged_into": "d59fy3okfv28",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "郭思"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畫論一卷",
+        "author_info": "宋郭思撰",
+        "section": "子部/藝術類/書畫之屬/畫",
+        "summary": "共 3 個版本：（上海辭書出版社圖書館、湖北省博物館、山東省圖書館、安陸縣圖書館、中國科學院圖書館、浙江圖書館、上海圖書館）；（南京圖書館）；（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畫論一卷",
+        "author_info": "宋郭思撰",
+        "section": "叢書部/雜纂類/清代後期",
+        "summary": "共 1 個版本：（湖北省圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畫論一卷",
+        "author_info": "宋郭思撰",
+        "section": "叢書部/雜纂類/宋元",
+        "summary": "共 1 個版本：（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畫論一卷",
+        "author_info": "宋郭思撰",
+        "section": "叢書部/雜纂類/宋元",
+        "summary": "共 1 個版本：（臺灣圖書館、中國科學院圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畫論一卷",
-      "author_info": "宋郭思撰",
-      "section": "子部/藝術類/書畫之屬/畫",
-      "summary": "共 3 個版本：（上海辭書出版社圖書館、湖北省博物館、山東省圖書館、安陸縣圖書館、中國科學院圖書館、浙江圖書館、上海圖書館）；（南京圖書館）；（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畫論一卷",
-      "author_info": "宋郭思撰",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（湖北省圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畫論一卷",
-      "author_info": "宋郭思撰",
-      "section": "叢書部/雜纂類/宋元",
-      "summary": "共 1 個版本：（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畫論一卷",
-      "author_info": "宋郭思撰",
-      "section": "叢書部/雜纂類/宋元",
-      "summary": "共 1 個版本：（臺灣圖書館、中國科學院圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0f6vx0x2vge0g2gn、sybr87mifm1zk2b5、6p23pyrwaf52hcrz\nauto-split:存疑未并\nE6 第 542 批新建（hold 清零：jyiyi；原 hold 原因：）\n查重线（串7 10-18）：同题同作者同朝代并入 3 个叢書子目新建 Work（1exp0gj5asg74,1exp0gjibmw3k,1exp0gls2vi0y）",
-  "merged_in": [
-    {
-      "id": "1exp0gj5asg74",
-      "title": "畫論",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    },
-    {
-      "id": "1exp0gjibmw3k",
-      "title": "畫論",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    },
-    {
-      "id": "1exp0gls2vi0y",
-      "title": "畫論",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    }
-  ]
+    ]
+  }
 }

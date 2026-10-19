@@ -3,31 +3,23 @@
   "id": "1exontjzjpcsg",
   "type": "work",
   "title": "悟真篇注釋",
-  "authors": [
-    {
-      "name": "翁葆光",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6crzoa7qeh5gbfre"
+  "merged_into": "d59f2gc3ql8h",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "翁葆光"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "悟真篇注釋三卷",
+        "author_info": "宋翁葆光撰",
+        "section": "子部/道家類/道教之屬/修煉",
+        "summary": "共 3 個版本：道藏本（馆藏未载）；明抄本（中國科學院圖書館）；（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "悟真篇注釋三卷",
-      "author_info": "宋翁葆光撰",
-      "section": "子部/道家類/道教之屬/修煉",
-      "summary": "共 3 個版本：道藏本（馆藏未载）；明抄本（中國科學院圖書館）；（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xzy8nubls1h1bn18、7hkzpzjy4q3ilo8c\nauto-split:存疑未并\nE6 第 552 批新建（hold 清零：jyiyi；原 hold 原因：）\n總目版本待定（庫內已有 Book 11sogz2wq06pt、11sogz2wq06pu：道藏本、明抄本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 801 批；vanzk1xi1q42p5db）；總目分類：子部／道家類／道教之屬／合編"
+    ]
+  }
 }

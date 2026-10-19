@@ -3,38 +3,23 @@
   "id": "1exp0i3q28t8m",
   "type": "work",
   "title": "東洲草堂日記",
-  "authors": [
-    {
-      "name": "何紹基",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/sgpoatjgyoan3977"
+  "merged_into": "d59fxp6kuk8w",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "何紹基"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "東洲草堂日記不分卷（清道光十四年十九年、二十三年至二十四年，咸豐元年至二年、四年、十年至同治元年、十年）",
+        "author_info": "清何紹基撰",
+        "section": "史部/傳記類/日記之屬",
+        "summary": "共 1 個版本：稿本（湖南省圖書館、國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "東洲草堂日記不分卷（清道光十四年十九年、二十三年至二十四年，咸豐元年至二年、四年、十年至同治元年、十年）",
-      "author_info": "清何紹基撰",
-      "section": "史部/傳記類/日記之屬",
-      "summary": "共 1 個版本：稿本（湖南省圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：i3t3xn4z77ly88un\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：near_dup）",
-  "related_works": [
-    {
-      "id": "d59fxp6kuk8w",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（東洲草堂日記）"
-    }
-  ]
+    ]
+  }
 }

@@ -3,41 +3,23 @@
   "id": "1exp0i3uj00zm",
   "type": "work",
   "title": "司馬溫公年譜",
-  "additional_titles": [
-    "光"
-  ],
-  "authors": [
-    {
-      "name": "馬巒",
-      "role": "編",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/eyog4vsgnuspp35x"
+  "merged_into": "d59f2niscni9",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "馬巒"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "司馬溫公（光）年譜六卷",
+        "author_info": "明馬巒編",
+        "section": "史部/傳記類/年譜之屬",
+        "summary": "共 1 個版本：明萬曆四十六年司馬露刻本（山東大學圖書館、浙江大學圖書館、北京大學圖書館、國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "司馬溫公（光）年譜六卷",
-      "author_info": "明馬巒編",
-      "section": "史部/傳記類/年譜之屬",
-      "summary": "共 1 個版本：明萬曆四十六年司馬露刻本（山東大學圖書館、浙江大學圖書館、北京大學圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：376euplucx04h4dw\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f2niscni9",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（司馬溫公年譜）"
-    }
-  ]
+    ]
+  }
 }

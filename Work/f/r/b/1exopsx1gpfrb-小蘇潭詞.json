@@ -3,38 +3,23 @@
   "id": "1exopsx1gpfrb",
   "type": "work",
   "title": "小蘇潭詞",
-  "authors": [
-    {
-      "name": "謝學崇",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/4sbvc61n65gu0n6s"
+  "merged_into": "d59f2n0b5ts1",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "謝學崇"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "小蘇潭詞六卷",
+        "author_info": "清謝學崇（蕉南舊史）撰",
+        "section": "集部/詞類/別集之屬",
+        "summary": "共 7 個版本：清道光十八年刻本（南京圖書館、上海圖書館）；清光緒間刻本（國家圖書館）；清道光元年刻本（北京大學圖書館、上海圖書館）；清刻本（南京圖書館）；清道光間刻本（南京圖書館）；清道光四年刻本（上海圖書館、國家圖書館、遼寧省圖書館）；清刻本（北京師範大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "小蘇潭詞六卷",
-      "author_info": "清謝學崇（蕉南舊史）撰",
-      "section": "集部/詞類/別集之屬",
-      "summary": "共 7 個版本：清道光十八年刻本（南京圖書館、上海圖書館）；清光緒間刻本（國家圖書館）；清道光元年刻本（北京大學圖書館、上海圖書館）；清刻本（南京圖書館）；清道光間刻本（南京圖書館）；清道光四年刻本（上海圖書館、國家圖書館、遼寧省圖書館）；清刻本（北京師範大學圖書館）"
-    }
-  ],
-  "ai_note": "E 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7cjlc0uq08rhl65d、p2g2n7qodcud0m8x、paf06gncp2z6pnbi、jwup00m1lckf3umj、nv7wsomhej824s2c、w0iucon8mfb6nish、ae16cxt1n5bpjz7a\nauto-split:存疑未并\nE6 第 604 批新建（hold 清零：jyiyi；原 hold 原因：）",
-  "related_works": [
-    {
-      "id": "d59frycbes5e",
-      "relation": "related",
-      "note": "晋升前去重复核（集部）：与正式库该条題名／作者相近，未能確認同書，另立互鏈。"
-    }
-  ]
+    ]
+  }
 }
