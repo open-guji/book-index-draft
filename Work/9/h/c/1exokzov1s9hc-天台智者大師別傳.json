@@ -3,38 +3,23 @@
   "id": "1exokzov1s9hc",
   "type": "work",
   "title": "天台智者大師別傳",
-  "authors": [
-    {
-      "name": "釋灌頂",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/r2qe5i8bcp6o1n67"
+  "merged_into": "d59f28jq4w01",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋灌頂"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "天台智者大師別傳一卷",
+        "author_info": "唐釋灌頂撰",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 2 個版本：明永樂間刻（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "天台智者大師別傳一卷",
-      "author_info": "唐釋灌頂撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 2 個版本：明永樂間刻（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：umkkcz3evxhgrmiv\nauto-split:存疑未并\nE6 第 541 批新建（hold 清零：jyiyi；原 hold 原因：）\n總目版本待定（庫內已有 Book 11soe57s833ep：明永樂間刻）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 801 批；vuzc3yu0gxj4kebo）；總目分類：子部／釋家類／大藏之屬",
-  "related_works": [
-    {
-      "id": "d59f2pwy63gi",
-      "relation": "related",
-      "note": "同題異作者待核"
-    }
-  ]
+    ]
+  }
 }

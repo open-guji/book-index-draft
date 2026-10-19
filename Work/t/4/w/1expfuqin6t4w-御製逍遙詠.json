@@ -3,31 +3,23 @@
   "id": "1expfuqin6t4w",
   "type": "work",
   "title": "御製逍遙詠",
-  "authors": [
-    {
-      "name": "趙炅",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/cm2orbmfy2tjssek"
+  "merged_into": "d59fsgf07ksh",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "趙炅"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "御製逍遙詠十一卷",
+        "author_info": "宋太宗趙炅撰",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 2 個版本：（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "御製逍遙詠十一卷",
-      "author_info": "宋太宗趙炅撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 2 個版本：（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：zqwqgm5nbxjk4msd、gxg8h8coo0nx1o1g\nauto-split:存疑未并\nE6 第 5201 批新建（hold 清零：zibu1-intake；原 hold 原因：未处置）"
+    ]
+  }
 }

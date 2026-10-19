@@ -3,38 +3,23 @@
   "id": "1exp0i3qh87b8",
   "type": "work",
   "title": "古今游名山記",
-  "authors": [
-    {
-      "name": "何鏜",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/x0a4c1w2lrjzfdum"
+  "merged_into": "d59f2nk78c8y",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "何鏜"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "古今游名山記十七卷總錄三卷",
+        "author_info": "明何鏜輯",
+        "section": "史部/地理類/山水志之屬/山",
+        "summary": "共 2 個版本：明嘉靖四十四年自刻萬曆間重修本（中國科學院圖書館、南京圖書館、北京大學圖書館、天津圖書館、國家圖書館、上海圖書館）；明嘉靖四十四年自刻本（南京圖書館、國家圖書館、浙江圖書館、上海圖書館、中國科學院圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古今游名山記十七卷總錄三卷",
-      "author_info": "明何鏜輯",
-      "section": "史部/地理類/山水志之屬/山",
-      "summary": "共 2 個版本：明嘉靖四十四年自刻萬曆間重修本（中國科學院圖書館、南京圖書館、北京大學圖書館、天津圖書館、國家圖書館、上海圖書館）；明嘉靖四十四年自刻本（南京圖書館、國家圖書館、浙江圖書館、上海圖書館、中國科學院圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xur862ob828xvprr、vr4uj6x2l0jvme10\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f6erixq86",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（古今游名山記）"
-    }
-  ]
+    ]
+  }
 }

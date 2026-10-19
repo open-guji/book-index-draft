@@ -27,14 +27,32 @@
       "author_info": "清國史館撰",
       "section": "史部/紀傳類/斷代之屬",
       "summary": "共 3 個版本：清抄本（國家圖書館）；抄本（上海圖書館）；清刻本（南京圖書館、遼寧省圖書館）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "欽定國史逆臣傳三卷",
+      "author_info": "清國史館撰",
+      "section": "史部/紀傳類/斷代之屬",
+      "summary": "共 1 個版本：清抄本（南開大學圖書館）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1afq2uwtxbmm2d5g、epj64xqqksymmftc、c16xpn8ir6a3q0du\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1afq2uwtxbmm2d5g、epj64xqqksymmftc、c16xpn8ir6a3q0du\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））\n查重线（跨部查重 10-19）：同题同作者或近题同作者（逐对复核同书）并入 1 个 Work（1exoc2sp18ef7）",
   "related_works": [
     {
       "id": "d59f2n7xjf9d",
       "relation": "related",
       "note": "史部E存疑另立：總目記錄「國史逆臣傳」（國史館）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1exoc2sp18ef7",
+      "title": "欽定國史逆臣傳",
+      "at": "2026-10-19T04:07:07",
+      "by": "跨部查重",
+      "rule": "跨部查重",
+      "why": "同题同作者同朝代"
     }
   ]
 }

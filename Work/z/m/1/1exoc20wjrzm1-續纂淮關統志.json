@@ -3,58 +3,25 @@
   "id": "1exoc20wjrzm1",
   "type": "work",
   "title": "續纂淮關統志",
-  "authors": [
-    {
-      "name": "伊齡阿",
-      "role": "纂修",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7xtp7hde2flpw0fe"
+  "merged_into": "d59f2nf8oh6p",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "伊齡阿",
+      "李如枚",
+      "成續"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "續纂淮關統志十四卷",
+        "author_info": "清伊齡阿纂修;清李如枚、元成續纂",
+        "section": "史部/政書類/邦計之屬/貿易",
+        "summary": "共 4 個版本：清嘉慶十一年淮關刻嘉慶二十一年續刻本（國家圖書館）；清嘉慶十一年淮關刻嘉慶二十一年續刻光緒七年徵麟增補修版印本（國家圖書館）；清嘉慶十一年淮關刻嘉慶二十一年續刻光緒七年徵麟增補修版光緒三十二年續增印本（天津圖書館、上海圖書館、國家圖書館）；清嘉慶十一年淮關刻本（北京大學圖書館、國家圖書館、山東省圖書館）"
       }
-    },
-    {
-      "name": "李如枚",
-      "role": "續纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/57s1ia0cqc04rsis"
-      }
-    },
-    {
-      "name": "成續",
-      "role": "纂",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/sztchp8sjisxcgfz"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "續纂淮關統志十四卷",
-      "author_info": "清伊齡阿纂修;清李如枚、元成續纂",
-      "section": "史部/政書類/邦計之屬/貿易",
-      "summary": "共 4 個版本：清嘉慶十一年淮關刻嘉慶二十一年續刻本（國家圖書館）；清嘉慶十一年淮關刻嘉慶二十一年續刻光緒七年徵麟增補修版印本（國家圖書館）；清嘉慶十一年淮關刻嘉慶二十一年續刻光緒七年徵麟增補修版光緒三十二年續增印本（天津圖書館、上海圖書館、國家圖書館）；清嘉慶十一年淮關刻本（北京大學圖書館、國家圖書館、山東省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ci5240goc4uzi7x2、yxinggqvzam28gzb、mi0vv1d8kbwiqx6z、85ax2oxofi3hvzkm\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-11.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））",
-  "related_works": [
-    {
-      "id": "1exp0i3ravqx3",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（淮關統志）"
-    }
-  ]
+    ]
+  }
 }
