@@ -100,6 +100,13 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/vr2ytvyyeu16qqgw"
+    },
+    {
+      "institution": "中國科學院圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/01wwe5kyoe3z4ub8"
     }
   ],
   "indexed_by": [
@@ -108,6 +115,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "南唐書十八卷音釋一卷",
       "summary": "南唐書十八卷音釋一卷｜宋陸游撰;元戚光音釋｜明崇禎毛氏汲古閣刻｜北京大學圖書館、國家圖書館、天津圖書館、遼寧省圖書館、浙江圖書館、上海圖書館、華東師範大學圖書館、四川省圖書館、湖北省圖書館、復旦大學圖書館、中國科學院圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "南唐書十八卷音釋一卷",
+      "summary": "南唐書十八卷音釋一卷｜宋陸游撰;元戚光音釋｜明崇禎毛氏汲古閣刻｜中國科學院圖書館"
     }
   ],
   "sources": [
@@ -116,12 +129,25 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/32vfrdlbcj4zjnoe&from=evidence"
+    },
+    {
+      "id": "cvip5bjdh0xnvq4q",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/cvip5bjdh0xnvq4q&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：32vfrdlbcj4zjnoe",
+  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：32vfrdlbcj4zjnoe\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11sotm25nndhf），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0i7ugwb56p"
+    },
+    {
+      "id": "1ak0i7ugrxtkx"
     }
-  ]
+  ],
+  "merged_from": [
+    "11sotm25nndhf"
+  ],
+  "revised_at": "2026-10-19"
 }

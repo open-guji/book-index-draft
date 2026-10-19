@@ -59,6 +59,20 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/xt8wjl8aajvsehpe"
+    },
+    {
+      "institution": "國家圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/kly4frqfir1k0fp5"
+    },
+    {
+      "institution": "上海圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/lpc2wxzz2qvei1uw"
     }
   ],
   "indexed_by": [
@@ -67,6 +81,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "龍泉園語四卷",
       "summary": "龍泉園語四卷｜清李江撰｜｜國家圖書館、湖北省圖書館、福建師範大學圖書館、清華大學圖書館、北京大學圖書館、北京師範大學圖書館、上海圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "龍泉園語四卷",
+      "summary": "龍泉園語四卷｜｜｜國家圖書館、上海圖書館"
     }
   ],
   "sources": [
@@ -75,12 +95,22 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/r68r6fj232gpzshe&from=evidence"
+    },
+    {
+      "id": "rkddpr6my73ko8se",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/rkddpr6my73ko8se&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：r68r6fj232gpzshe\n責任者一致性：總目 contMap 與題名行 dclabel 在「dynasty」上不一致，取 contMap；題名行：清李江撰",
+  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：r68r6fj232gpzshe\n責任者一致性：總目 contMap 與題名行 dclabel 在「dynasty」上不一致，取 contMap；題名行：清李江撰\n子部二線查重（Book 層 2026-10-19）：同 Work 同版本並入 1 條 Book（11soqxsnj8ohz），館藏/著錄/所屬叢書取並集",
   "contained_in": [
     {
       "id": "1ak0ib9kco8w0"
     }
-  ]
+  ],
+  "merged_from": [
+    "11soqxsnj8ohz"
+  ],
+  "revised_at": "2026-10-19"
 }
