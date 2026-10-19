@@ -3,66 +3,32 @@
   "id": "1exokpr9zy0oy",
   "type": "work",
   "title": "冰蠶詞",
-  "authors": [
-    {
-      "name": "魯承齡",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pymlct60z6vgn1or"
+  "merged_into": "d59fxvyqlxj4",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T21:21:54",
+    "by": "集部串6",
+    "author_as_written": [
+      "魯承齡",
+      "於胡"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "冰蠶詞一卷",
+        "author_info": "清于胡、魯承齡撰",
+        "section": "叢書部/郡邑類",
+        "summary": "共 1 個版本：清光緒十六年刻;元平江路磧砂延聖寺刻（日本京都大學人文科學研究所）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "冰蠶詞",
+        "author_info": "清于胡撰",
+        "section": "集部/詞類/別集之屬",
+        "summary": "共 1 個版本：同聲集本（馆藏未载）"
       }
-    },
-    {
-      "name": "於胡",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ze3mcjwf2148774u"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "冰蠶詞一卷",
-      "author_info": "清于胡、魯承齡撰",
-      "section": "叢書部/郡邑類",
-      "summary": "共 1 個版本：清光緒十六年刻;元平江路磧砂延聖寺刻（日本京都大學人文科學研究所）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "冰蠶詞",
-      "author_info": "清于胡撰",
-      "section": "集部/詞類/別集之屬",
-      "summary": "共 1 個版本：同聲集本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 4qpgobwtjtzsi37x（粟香室叢書四十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t7eicttvqj056y2z\n同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）（源 Work 1exp17imcej9e《冰蠶詞》已並入；其作者寫法：於胡）",
-  "merged_in": [
-    {
-      "id": "1exp17imcej9e",
-      "title": "冰蠶詞",
-      "at": "2026-10-18T03:14:57Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59f2nsttce9",
-      "relation": "related",
-      "note": "复核疑同，不并，互链"
-    }
-  ]
+    ]
+  }
 }

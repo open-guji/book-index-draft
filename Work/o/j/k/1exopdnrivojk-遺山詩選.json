@@ -3,56 +3,31 @@
   "id": "1exopdnrivojk",
   "type": "work",
   "title": "遺山詩選",
-  "authors": [
-    {
-      "name": "元好問",
-      "role": "輯",
-      "dynasty": "金",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/f3ekqq2lnghit4nx"
+  "merged_into": "d59fxw48iadc",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T21:21:54",
+    "by": "集部串6",
+    "author_as_written": [
+      "元好問"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "遺山詩選一卷",
+        "author_info": "金元好問輯",
+        "section": "集部/總集類/叢編之屬/分體",
+        "summary": "共 1 個版本：（國家圖書館、湖北省圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "遺山詩選",
+        "author_info": "金元好問撰",
+        "section": "集部/總集類/叢編之屬/分體",
+        "summary": "共 1 個版本：（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "遺山詩選一卷",
-      "author_info": "金元好問輯",
-      "section": "集部/總集類/叢編之屬/分體",
-      "summary": "共 1 個版本：（國家圖書館、湖北省圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "遺山詩選",
-      "author_info": "金元好問撰",
-      "section": "集部/總集類/叢編之屬/分體",
-      "summary": "共 1 個版本：（國家圖書館）"
-    }
-  ],
-  "ai_note": "E 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lpv0acr5fw865ro1\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 602 批新建（hold 清零：jyiyi；原 hold 原因：）\n同題同作者並條（A檔；遺山詩選／遺山詩選；元好問／元好問）（源 Work 1exp17in6zshs《遺山詩選》已並入；其作者寫法：元好問）",
-  "merged_in": [
-    {
-      "id": "1exp17in6zshs",
-      "title": "遺山詩選",
-      "at": "2026-10-18T05:57:11Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（A檔；遺山詩選／遺山詩選；元好問／元好問）"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59fsgfdbjlt",
-      "relation": "related",
-      "note": "晋升前去重复核（集部复核池）：題名相近，未能確認同書，另立互鏈。"
-    }
-  ]
+    ]
+  }
 }
