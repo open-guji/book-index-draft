@@ -3,49 +3,31 @@
   "id": "1exojxvmzn9q8",
   "type": "work",
   "title": "穀梁補注",
-  "authors": [
-    {
-      "name": "鍾文烝",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/sqbpgd3c26fmwawd"
+  "merged_into": "d59f2n9vgkxt",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "鍾文烝"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "穀梁補注二十四卷",
+        "author_info": "清鍾文烝撰",
+        "section": "經部/總類/傳說之屬",
+        "summary": "共 2 個版本：（首都圖書館、國家圖書館、上海圖書館）；（首都圖書館、上海圖書館、中國科學院圖書館、北京大學圖書館、國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "穀梁補注二十四卷首一卷",
+        "author_info": "清鍾文烝補注",
+        "section": "經部/春秋類/穀梁傳/傳說之屬",
+        "summary": "共 2 個版本：清同治七年南菁書院刻本（復旦大學圖書館）；皇清經解續編本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "穀梁補注二十四卷",
-      "author_info": "清鍾文烝撰",
-      "section": "經部/總類/傳說之屬",
-      "summary": "共 2 個版本：（首都圖書館、國家圖書館、上海圖書館）；（首都圖書館、上海圖書館、中國科學院圖書館、北京大學圖書館、國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "穀梁補注二十四卷首一卷",
-      "author_info": "清鍾文烝補注",
-      "section": "經部/春秋類/穀梁傳/傳說之屬",
-      "summary": "共 2 個版本：清同治七年南菁書院刻本（復旦大學圖書館）；皇清經解續編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t8wa4dwmytkgd5fm、y0j83sgma5iwhfc8\nE6 第 523 批新建（hold 清零：jyiyi；原 hold 原因：）\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp12p2gkete《穀梁補注》已並入；其作者寫法：鍾文烝）",
-  "merged_in": [
-    {
-      "id": "1exp12p2gkete",
-      "title": "穀梁補注",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+    ]
+  }
 }

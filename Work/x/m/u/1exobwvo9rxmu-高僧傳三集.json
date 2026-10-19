@@ -3,31 +3,23 @@
   "id": "1exobwvo9rxmu",
   "type": "work",
   "title": "高僧傳三集",
-  "authors": [
-    {
-      "name": "釋贊寧",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ejedukeocx6evouq"
+  "merged_into": "d59f2hs16uiq",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋贊寧"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "高僧傳三集三十卷目錄一卷",
+        "author_info": "宋釋贊寧等撰",
+        "section": "子部/釋家類/撰述之屬/史傳部",
+        "summary": "共 1 個版本：（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "高僧傳三集三十卷目錄一卷",
-      "author_info": "宋釋贊寧等撰",
-      "section": "子部/釋家類/撰述之屬/史傳部",
-      "summary": "共 1 個版本：（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7qk55nzwo5v33su1\nE6 第 427 批新建（hold 清零：E；原 hold 原因：-）"
+    ]
+  }
 }
