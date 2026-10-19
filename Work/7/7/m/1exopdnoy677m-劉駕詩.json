@@ -3,57 +3,39 @@
   "id": "1exopdnoy677m",
   "type": "work",
   "title": "劉駕詩",
-  "authors": [
-    {
-      "name": "劉駕",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/3tl32mo3ufeh68mp"
+  "merged_into": "d59f2ofrgd8g",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "劉駕"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "劉駕詩一卷",
+        "author_info": "唐劉駕撰",
+        "section": "集部/總集類/叢編之屬/分體",
+        "summary": "共 2 個版本：（上海師範大學圖書館）；（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "劉駕詩集（晚唐劉駕詩、劉駕詩）一卷",
+        "author_info": "唐劉駕撰",
+        "section": "集部/別集類/唐五代之屬",
+        "summary": "共 5 個版本：十三唐人詩本（馆藏未载）；中晚唐詩本（馆藏未载）；唐代劉氏詩集本（馆藏未载）；唐百家詩本（馆藏未载）；唐人五十家小集本（馆藏未载）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "劉駕詩集一卷",
+        "author_info": "唐劉駕撰",
+        "section": "集部/總集類/叢編之屬/各體",
+        "summary": "版本待定（版本標籤空，未入 Book）：共 3 個版本：（山東省圖書館、遼寧省圖書館、南京圖書館、湖北省圖書館、上海圖書館、國家圖書館）；（上海圖書館、北京大學圖書館、國家圖書館）；（南京圖書館）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "劉駕詩一卷",
-      "author_info": "唐劉駕撰",
-      "section": "集部/總集類/叢編之屬/分體",
-      "summary": "共 2 個版本：（上海師範大學圖書館）；（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "劉駕詩集（晚唐劉駕詩、劉駕詩）一卷",
-      "author_info": "唐劉駕撰",
-      "section": "集部/別集類/唐五代之屬",
-      "summary": "共 5 個版本：十三唐人詩本（馆藏未载）；中晚唐詩本（馆藏未载）；唐代劉氏詩集本（馆藏未载）；唐百家詩本（馆藏未载）；唐人五十家小集本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "劉駕詩集一卷",
-      "author_info": "唐劉駕撰",
-      "section": "集部/總集類/叢編之屬/各體",
-      "summary": "版本待定（版本標籤空，未入 Book）：共 3 個版本：（山東省圖書館、遼寧省圖書館、南京圖書館、湖北省圖書館、上海圖書館、國家圖書館）；（上海圖書館、北京大學圖書館、國家圖書館）；（南京圖書館）"
-    }
-  ],
-  "ai_note": "E 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2d78zj0sfvkh3vm1、63k4tz2811si6vsq\nE6 第 602 批新建（hold 清零：jyiyi；原 hold 原因：）\n晋升前去重复核：劉駕詩為A別名，同劉駕唐，均1卷（源 Work 1exopc45or4lc《劉駕詩集》已並入；其作者寫法：劉駕）",
-  "merged_in": [
-    {
-      "id": "1exopc45or4lc",
-      "title": "劉駕詩集",
-      "at": "2026-10-18T09:17:54Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "晋升前去重复核：劉駕詩為A別名，同劉駕唐，均1卷"
-    }
-  ]
+    ]
+  }
 }

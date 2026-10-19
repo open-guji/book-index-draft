@@ -3,31 +3,23 @@
   "id": "1exoaqrqo1beq",
   "type": "work",
   "title": "皇明名臣琬琰錄",
-  "authors": [
-    {
-      "name": "徐紘",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/aedwdcuqhg4l0nqq"
+  "merged_into": "d59f2njhy41s",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "徐紘"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "皇明名臣琬琰錄二十四卷",
+        "author_info": "明徐紘輯",
+        "section": "史部/傳記類/總傳之屬",
+        "summary": "共 4 個版本：清抄本（湖南省圖書館）；明弘治間刻本（南京圖書館、上海圖書館）；明抄本（浙江圖書館）；四庫全書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇明名臣琬琰錄二十四卷",
-      "author_info": "明徐紘輯",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 4 個版本：清抄本（湖南省圖書館）；明弘治間刻本（南京圖書館、上海圖書館）；明抄本（浙江圖書館）；四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2l3tmfhyj6dzvk3j、johop2pdhxyei72f、ovqhdbc2cbqpf56i、2jjxokt6z4sa2ujd\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋related）"
+    ]
+  }
 }

@@ -3,31 +3,23 @@
   "id": "1exoklf95ku86",
   "type": "work",
   "title": "墨韃事畧",
-  "authors": [
-    {
-      "name": "彭大雅",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/mcxa6hnq2jkr38ga"
+  "merged_into": "d59f2hute0w2",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "彭大雅"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "墨韃事畧一卷校記一卷",
+        "author_info": "宋彭大雅撰;宋徐霆疏證",
+        "section": "叢書部/雜纂類/民國以來",
+        "summary": "共 1 個版本：（清華大學圖書館、上海圖書館、國家圖書館、廣東省中山圖書館、遼寧省圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "墨韃事畧一卷校記一卷",
-      "author_info": "宋彭大雅撰;宋徐霆疏證",
-      "section": "叢書部/雜纂類/民國以來",
-      "summary": "共 1 個版本：（清華大學圖書館、上海圖書館、國家圖書館、廣東省中山圖書館、遼寧省圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 48at5pam4r04l6ip（六經堪叢書十三種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：is05157ia8toizl2\n責任者 role 異常未寫入：徐霆疏證"
+    ]
+  }
 }

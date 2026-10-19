@@ -3,49 +3,5 @@
   "id": "1exokzogv40si",
   "type": "work",
   "title": "寶藏論",
-  "authors": [
-    {
-      "name": "僧肇",
-      "role": "撰",
-      "dynasty": "後秦",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/35h1b02qznoqhtdv"
-      }
-    }
-  ],
-  "dynasty": "後秦",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「後秦」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "寶藏論一卷",
-      "author_info": "後秦僧肇撰",
-      "section": "子部/釋家類/撰述之屬/論著部",
-      "summary": "共 2 個版本：函海本（南京圖書館、遼寧大學圖書館、北京大學圖書館、天津圖書館、上海圖書館）；清光緒二十三年金陵刻經處刻本（上海圖書館、北京大學圖書館、國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "寶藏論一卷",
-      "author_info": "後秦釋僧肇撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 1 個版本：（上海圖書館、寧夏壽佛寺、南京圖書館、福州市雪峰崇聖寺、蘇州市西園寺、重慶市慈雲寺、青島市湛山寺、南陽市水帘寺、國家圖書館、哈爾濱市極樂寺、大同市吉祥寺）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：23azs7nvikwq3sqy、ma65bqpf177tsgjh\nE6 第 541 批新建（hold 清零：jyiyi；原 hold 原因：）\n省称（源 Work 1exokzogv40sg《寶藏論》已並入；其作者寫法：釋僧肇）",
-  "merged_in": [
-    {
-      "id": "1exokzogv40sg",
-      "title": "寶藏論",
-      "at": "2026-10-18T08:50:35Z",
-      "by": "串4",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "省称"
-    }
-  ]
+  "merged_into": "d59fy3tc4dts"
 }
