@@ -17,6 +17,13 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/fmwcaelhhk77wpn3"
+    },
+    {
+      "institution": "天津圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/hrzbj20k6nay0x7f"
     }
   ],
   "indexed_by": [
@@ -33,12 +40,25 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/3xnmb4l7d6gqvk0b&from=evidence"
+    },
+    {
+      "id": "o4igqyt5gtgavkk6",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/o4igqyt5gtgavkk6&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：3xnmb4l7d6gqvk0b",
+  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：3xnmb4l7d6gqvk0b\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11soe47korimd），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0ih0z0lfr4"
+    },
+    {
+      "id": "1ak0ioiy67dog"
     }
-  ]
+  ],
+  "merged_from": [
+    "11soe47korimd"
+  ],
+  "revised_at": "2026-10-19"
 }
