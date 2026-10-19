@@ -27,14 +27,32 @@
       "author_info": "晉周處撰",
       "section": "史部/地理類/雜志之屬",
       "summary": "共 3 個版本：五朝小說大觀本（馆藏未载）；五朝小說本（馆藏未载）；說郛本（浙江圖書館）"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "晉周處風土記一卷",
+      "author_info": "晉周處撰;清黃奭輯",
+      "section": "史部/地理類/雜志之屬",
+      "summary": "共 1 個版本：漢學堂知足齋叢書本（馆藏未载）"
     }
   ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lht167b2a717jtef、hsmmlqevwvsru5o4、veqz6j5xkr52m32h\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标3卷））",
+  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lht167b2a717jtef、hsmmlqevwvsru5o4、veqz6j5xkr52m32h\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标3卷））\n同題同首位責任者並條（依據：同名）；史部草稿內深度查重 shi/dedupe-a（源 Work 1exocfo7it8ua《晉周處風土記》已並入；其作者寫法：周處）",
   "related_works": [
     {
       "id": "d59f27vt8dtv",
       "relation": "related",
       "note": "史部E另立（exact）：總目記錄「風土記」（周處）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标3卷）），判為不同著作（不並）；互為相關。"
+    }
+  ],
+  "merged_in": [
+    {
+      "id": "1exocfo7it8ua",
+      "title": "晉周處風土記",
+      "at": "2026-10-19T03:58:25Z",
+      "by": "串史部查重A",
+      "rule": "同題同首位責任者並條（作者別名與並條口徑-共用 A／B 檔）",
+      "why": "同題同首位責任者並條（依據：同名）；史部草稿內深度查重 shi/dedupe-a"
     }
   ]
 }
