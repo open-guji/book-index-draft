@@ -3,41 +3,24 @@
   "id": "1expfuqirvda8",
   "type": "work",
   "title": "眾事分阿毘曇論",
-  "authors": [
-    {
-      "name": "釋求那跋陀羅",
-      "role": "譯",
-      "dynasty": "南朝宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1tr2fvq0bpi0exwo"
+  "merged_into": "d59f7z47gzyf",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋求那跋陀羅",
+      "菩提耶舍"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "眾事分阿毘曇論十二卷",
+        "author_info": "天竺世友尊者造;南朝宋釋求那跋陀羅、南朝宋菩提耶舍譯",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 5 個版本：（馆藏未载）；（馆藏未载）；（馆藏未载）；（日本龍谷大學）；（馆藏未载）"
       }
-    },
-    {
-      "name": "菩提耶舍",
-      "role": "譯",
-      "dynasty": "南朝宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/te2vpaaljutqgsrw"
-      }
-    }
-  ],
-  "dynasty": "南朝宋",
-  "dynasty_basis": "author_propagation",
-  "period": "nanbeichao",
-  "period_basis": "據 authors[0].dynasty「南朝宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "眾事分阿毘曇論十二卷",
-      "author_info": "天竺世友尊者造;南朝宋釋求那跋陀羅、南朝宋菩提耶舍譯",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 5 個版本：（馆藏未载）；（馆藏未载）；（馆藏未载）；（日本龍谷大學）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8af0s6yas31xosav、rf17qb562mzhua5a、kbe28auc13t288sn、37z1tjq3tjfxifsx、io320gayzyhfrb4f\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：世友尊者造\nauto-split:存疑未并\nE6 第 5201 批新建（hold 清零：zibu1-intake；原 hold 原因：未处置）"
+    ]
+  }
 }

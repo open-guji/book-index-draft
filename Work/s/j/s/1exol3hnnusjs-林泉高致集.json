@@ -3,56 +3,5 @@
   "id": "1exol3hnnusjs",
   "type": "work",
   "title": "林泉高致集",
-  "authors": [
-    {
-      "name": "郭熙",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/72bfxoyn1pslfzlj"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "林泉高致集一卷附錄一卷",
-      "author_info": "宋郭熙撰;宋郭思編",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（復旦大學圖書館、山東省圖書館、天津圖書館、遼寧省圖書館、南京圖書館、浙江圖書館、國家圖書館、中國科學院圖書館、湖北省圖書館、北京大學圖書館、上海圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "林泉高致集一卷",
-      "author_info": "宋郭熙撰",
-      "section": "子部/藝術類/書畫之屬/畫",
-      "summary": "共 1 個版本：四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 km8m7uuxvsic8hh3（文淵閣四庫全書三千四百六十一種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：aac4aw6izkl5efre\n晋升前查重 A 档：同題同作者並條（子部四第10批）（源 Work 1exom8clq1tz6《林泉高致集》已並入；其作者寫法：郭熙）",
-  "merged_in": [
-    {
-      "id": "1exom8clq1tz6",
-      "title": "林泉高致集",
-      "at": "2026-10-18T08:22:48Z",
-      "by": "串4",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "晋升前查重 A 档：同題同作者並條（子部四第10批）"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59f2hsg68le",
-      "relation": "related",
-      "note": "复核疑同，不并，互链"
-    }
-  ]
+  "merged_into": "d59f2hsg68le"
 }

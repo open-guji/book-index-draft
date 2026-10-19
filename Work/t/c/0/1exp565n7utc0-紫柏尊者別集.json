@@ -3,31 +3,23 @@
   "id": "1exp565n7utc0",
   "type": "work",
   "title": "紫柏尊者別集",
-  "authors": [
-    {
-      "name": "釋真可",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/a2qh70u0dgjmz1ho"
+  "merged_into": "d59fsiznthj8",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋真可"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "紫柏尊者別集四卷附錄一卷",
+        "author_info": "明釋真可撰",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 1 個版本：清康熙二十三年刻（臺灣圖書館、北京市法源寺）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "紫柏尊者別集四卷附錄一卷",
-      "author_info": "明釋真可撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 1 個版本：清康熙二十三年刻（臺灣圖書館、北京市法源寺）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：azu3du58qg26enco\nauto-split:存疑未并\nE6 第 832 批新建（hold 清零：J-exact；原 hold 原因：hold:near_dup）"
+    ]
+  }
 }
