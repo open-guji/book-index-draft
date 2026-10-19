@@ -3,31 +3,23 @@
   "id": "1exobwvo61342",
   "type": "work",
   "title": "佛祖正宗道影",
-  "authors": [
-    {
-      "name": "釋空成",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ajvdyq5fvr72no38"
+  "merged_into": "d59fybmh70n4",
+  "merged_basis": {
+    "rule": "子部一近重复复核",
+    "at": "2026-10-19T12:15:20",
+    "by": "子部一串",
+    "author_as_written": [
+      "釋空成"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "佛祖正宗道影四卷",
+        "author_info": "清釋空成輯;清謝濟雍繪圖",
+        "section": "子部/釋家類/撰述之屬/史傳部",
+        "summary": "共 1 個版本：清光緒六年蘇州瑪瑙經房刻本（北京大學圖書館、國家圖書館、美國普林斯頓大學葛思德東方圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "佛祖正宗道影四卷",
-      "author_info": "清釋空成輯;清謝濟雍繪圖",
-      "section": "子部/釋家類/撰述之屬/史傳部",
-      "summary": "共 1 個版本：清光緒六年蘇州瑪瑙經房刻本（北京大學圖書館、國家圖書館、美國普林斯頓大學葛思德東方圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：44yl7bol40xqavma\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\n責任者 role 異常未寫入：謝濟雍繪圖\nE6 第 427 批新建（hold 清零：E；原 hold 原因：-）"
+    ]
+  }
 }
