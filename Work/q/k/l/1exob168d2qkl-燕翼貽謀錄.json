@@ -3,43 +3,5 @@
   "id": "1exob168d2qkl",
   "type": "work",
   "title": "燕翼貽謀錄",
-  "authors": [
-    {
-      "name": "王栐",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1dwscxjzk1gez7ey"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "燕翼貽謀錄一卷",
-      "author_info": "宋王栐撰",
-      "section": "史部/雜史類/叢編之屬",
-      "summary": "共 1 個版本：（上海圖書館、北京大學圖書館、中國科學院圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6fn6f4am2dz3ib5o\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标5卷））",
-  "related_works": [
-    {
-      "id": "d59f2mptrx1d",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「燕翼貽謀錄」（王栐）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标5卷）），判為不同著作（不並）；互為相關。"
-    },
-    {
-      "id": "d59f2hsjam0x",
-      "relation": "related",
-      "note": "晉升去重複核：與多個正式庫 Work 疑同書，不並，互為相關"
-    }
-  ]
+  "merged_into": "d59f2mptrx1d"
 }
