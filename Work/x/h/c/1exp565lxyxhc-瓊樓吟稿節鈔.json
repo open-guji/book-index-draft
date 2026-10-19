@@ -3,31 +3,23 @@
   "id": "1exp565lxyxhc",
   "type": "work",
   "title": "瓊樓吟稿節鈔",
-  "authors": [
-    {
-      "name": "陶善",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7os4o41vsi42ceqd"
+  "merged_into": "d59fsibqwzcx",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "陶善"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "瓊樓吟稿節鈔",
+        "author_info": "清陶善撰",
+        "section": "子部/釋家類/撰述之屬/論著部",
+        "summary": "共 2 個版本：（國家圖書館）；（北京大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "瓊樓吟稿節鈔",
-      "author_info": "清陶善撰",
-      "section": "子部/釋家類/撰述之屬/論著部",
-      "summary": "共 2 個版本：（國家圖書館）；（北京大學圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6nlhww4ntjigtfie、gtz5vu32d82rrjle\nauto-split:存疑未并\nE6 第 832 批新建（hold 清零：J-exact；原 hold 原因：hold:near_dup）"
+    ]
+  }
 }
