@@ -52,6 +52,41 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/i224da46i1cykm0z"
+    },
+    {
+      "institution": "浙江圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/0ufi55odbvqf1n7t"
+    },
+    {
+      "institution": "廣西壯族自治區桂林圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/a6gf65c6oxp7pmge"
+    },
+    {
+      "institution": "北京大學圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/lf5i0l3hq34ngoyn"
+    },
+    {
+      "institution": "南京圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/px0n0g5fjln2l6v4"
+    },
+    {
+      "institution": "上海圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/syjnwalat6xcav7f"
     }
   ],
   "indexed_by": [
@@ -60,6 +95,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "桂苑叢談一卷",
       "summary": "桂苑叢談一卷｜唐馮翊撰｜｜南京圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "桂苑叢談一卷",
+      "summary": "桂苑叢談一卷｜唐馮翊撰｜｜浙江圖書館、廣西壯族自治區桂林圖書館、北京大學圖書館、南京圖書館、上海圖書館"
     }
   ],
   "sources": [
@@ -74,7 +115,22 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/zi6b2rby654kzu3p&from=evidence"
+    },
+    {
+      "id": "fzzboqt7iqvdmnkl",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/fzzboqt7iqvdmnkl&from=evidence"
     }
   ],
-  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：r67f6ndhsazlso4q、zi6b2rby654kzu3p\n子部四 第 4001 批追加（hold 清零）：總目在「子部/小說類/叢編之屬」著錄，與本 Work 同一部（同题同作者），作为新 Book 追加；總目未載版本"
+  "ai_note": "E 道（overview#409）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：r67f6ndhsazlso4q、zi6b2rby654kzu3p\n子部四 第 4001 批追加（hold 清零）：總目在「子部/小說類/叢編之屬」著錄，與本 Work 同一部（同题同作者），作为新 Book 追加；總目未載版本\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11sodtu49c26h），馆藏/著录/所属叢書取并集",
+  "contained_in": [
+    {
+      "id": "1ak0ie5i4id4w"
+    }
+  ],
+  "merged_from": [
+    "11sodtu49c26h"
+  ],
+  "revised_at": "2026-10-19"
 }

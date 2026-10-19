@@ -85,6 +85,20 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/yjj1c5qx207jpiav"
+    },
+    {
+      "institution": "臺北“故宮博物院”",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/k22qvllljjanj1zf"
+    },
+    {
+      "institution": "湖北省圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/b8wzh5auu6ro6d6i"
     }
   ],
   "indexed_by": [
@@ -93,6 +107,18 @@
       "source_bid": "1exjosng9241s",
       "title_info": "春秋集傳二十六卷",
       "summary": "春秋集傳二十六卷｜宋張洽撰｜元延祐元年臨江路學刻本｜遼寧省圖書館、四川省圖書館、浙江圖書館、湖北省圖書館、國家圖書館、天津圖書館、甘肅省圖書館、中國科學院圖書館、北京大學圖書館、南京圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "春秋集傳二十六卷",
+      "summary": "春秋集傳二十六卷｜宋張洽撰｜元延祐元年臨江路學刻本｜臺北“故宮博物院”"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "春秋集傳二十六卷",
+      "summary": "春秋集傳二十六卷｜宋張洽撰｜元延祐元年臨江路學刻本｜湖北省圖書館"
     }
   ],
   "sources": [
@@ -101,12 +127,35 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/uh2mzwa8clkiv4ef&from=evidence"
+    },
+    {
+      "id": "kpgkwgedpwi2s6zb",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/kpgkwgedpwi2s6zb&from=evidence"
+    },
+    {
+      "id": "s57bmg6xhmu41w78",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/s57bmg6xhmu41w78&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：uh2mzwa8clkiv4ef",
+  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：uh2mzwa8clkiv4ef\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 2 条 Book（11sodzmqdff2j,11sodzmqm629v），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0ie5ild6gw"
+    },
+    {
+      "id": "1ak0ijy45hclc"
+    },
+    {
+      "id": "1ak0ijy4cnt34"
     }
-  ]
+  ],
+  "merged_from": [
+    "11sodzmqdff2j",
+    "11sodzmqm629v"
+  ],
+  "revised_at": "2026-10-19"
 }

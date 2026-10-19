@@ -71,6 +71,20 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/vxcvweq7cgj7uytt"
+    },
+    {
+      "institution": "國家圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/fhyjmgbk1adlcj5p"
+    },
+    {
+      "institution": "日本京都大學人文科學研究所",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/wja5jkblvhrmjr6f"
     }
   ],
   "indexed_by": [
@@ -79,6 +93,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "明堂考三卷",
       "summary": "明堂考三卷｜清孫星衍撰｜清嘉慶七年金陵刻｜南京大學圖書館、國家圖書館、中國科學院圖書館、北京大學圖書館、河南省圖書館、天津圖書館、遼寧省圖書館、上海圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "明堂考三卷",
+      "summary": "明堂考三卷｜清孫星衍撰｜清嘉慶七年金陵刻｜國家圖書館、日本京都大學人文科學研究所"
     }
   ],
   "sources": [
@@ -87,12 +107,25 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/tafjdr1tatsd67m4&from=evidence"
+    },
+    {
+      "id": "343jobjkdbvw6wea",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/343jobjkdbvw6wea&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：tafjdr1tatsd67m4",
+  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：tafjdr1tatsd67m4\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11sodqy5v0utl），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0ifllq2whs"
+    },
+    {
+      "id": "1ak0ib9jqtmv4"
     }
-  ]
+  ],
+  "merged_from": [
+    "11sodqy5v0utl"
+  ],
+  "revised_at": "2026-10-19"
 }
