@@ -3,72 +3,39 @@
   "id": "1exocfo71yfi8",
   "type": "work",
   "title": "赤雅",
-  "authors": [
-    {
-      "name": "鄺露",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/j3lyqyljjzdhmuwd"
+  "merged_into": "d59f2njfg7ia",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T10:53:20",
+    "by": "叢書二路",
+    "author_as_written": [
+      "鄺露"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "赤雅一卷",
+        "author_info": "明鄺露撰",
+        "section": "史部/地理類/雜志之屬",
+        "summary": "共 1 個版本：邊輿紀畧匯鈔本（馆藏未载）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "赤雅一卷",
+        "author_info": "清鄺露撰",
+        "section": "叢書部/雜纂類/清代後期",
+        "summary": "共 1 個版本：（天津圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "赤雅一卷",
+        "author_info": "明鄺露撰",
+        "section": "叢書部/雜纂類/清代後期",
+        "summary": "共 1 個版本：（上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "赤雅一卷",
-      "author_info": "明鄺露撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 1 個版本：邊輿紀畧匯鈔本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "赤雅一卷",
-      "author_info": "清鄺露撰",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（天津圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "赤雅一卷",
-      "author_info": "明鄺露撰",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xkobta5c5do0y11i\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条1卷，目标3卷）））\n查重线（串7 10-18）：同题同作者同朝代并入 2 个叢書子目新建 Work（1exp0gjf29nuo,1exp0glhnd0jm）",
-  "related_works": [
-    {
-      "id": "d59f2njfg7ia",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「赤雅」（鄺露）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条1卷，目标3卷））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0gjf29nuo",
-      "title": "赤雅",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    },
-    {
-      "id": "1exp0glhnd0jm",
-      "title": "赤雅",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    }
-  ]
+    ]
+  }
 }

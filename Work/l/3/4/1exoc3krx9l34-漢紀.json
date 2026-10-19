@@ -3,72 +3,39 @@
   "id": "1exoc3krx9l34",
   "type": "work",
   "title": "漢紀",
-  "authors": [
-    {
-      "name": "荀悅",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": null
+  "merged_into": "d59f207wdwcg",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T10:53:20",
+    "by": "叢書二路",
+    "author_as_written": [
+      "荀悅"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "漢紀一卷",
+        "author_info": "漢荀悦撰;清任兆麟輯",
+        "section": "史部/編年類/斷代之屬",
+        "summary": "共 1 個版本：述記本（馆藏未载）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "漢紀一卷",
+        "author_info": "漢荀悅撰",
+        "section": "叢書部/雜纂類/清代前期",
+        "summary": "共 1 個版本：（天津圖書館、復旦大學圖書館、北京大學圖書館、南京大學圖書館、上海圖書館、中國科學院圖書館、遼寧省圖書館、山東大學圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "漢紀一卷",
+        "author_info": "漢荀悅撰",
+        "section": "叢書部/雜纂類/清代前期",
+        "summary": "共 1 個版本：（復旦大學圖書館、中國科學院圖書館、上海師範大學圖書館、北京大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "漢紀一卷",
-      "author_info": "漢荀悦撰;清任兆麟輯",
-      "section": "史部/編年類/斷代之屬",
-      "summary": "共 1 個版本：述記本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "漢紀一卷",
-      "author_info": "漢荀悅撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（天津圖書館、復旦大學圖書館、北京大學圖書館、南京大學圖書館、上海圖書館、中國科學院圖書館、遼寧省圖書館、山東大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "漢紀一卷",
-      "author_info": "漢荀悅撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（復旦大學圖書館、中國科學院圖書館、上海師範大學圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：c3jk5p1yum8kip6h\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条1卷，目标30卷）））\n查重线（串7 10-18）：同题同作者同朝代并入 2 个叢書子目新建 Work（1exp0gl7qw074,1exp0glfldrsw）",
-  "related_works": [
-    {
-      "id": "d59f207wdwcg",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「漢紀」（荀悅）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条1卷，目标30卷））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0gl7qw074",
-      "title": "漢紀",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    },
-    {
-      "id": "1exp0glfldrsw",
-      "title": "漢紀",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    }
-  ]
+    ]
+  }
 }
