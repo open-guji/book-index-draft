@@ -3,54 +3,31 @@
   "id": "1exocgvaly611",
   "type": "work",
   "title": "出三藏記集錄",
-  "authors": [
-    {
-      "name": "釋僧祐",
-      "role": "撰",
-      "dynasty": "梁",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/32kcrs2wqggipazb"
+  "merged_into": "d59f285mw9aa",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋僧祐"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "出三藏記集錄□卷",
+        "author_info": "梁釋僧祐撰",
+        "section": "史部/目錄類/專錄之屬",
+        "summary": "共 1 個版本：唐會昌三年寫本（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "出三藏記集錄□□卷",
+        "author_info": "梁釋僧祐撰",
+        "section": "子部/釋家類/撰述之屬/目錄部",
+        "summary": "共 1 個版本：唐會昌三年寫本（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "梁",
-  "dynasty_basis": "author_propagation",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "出三藏記集錄□卷",
-      "author_info": "梁釋僧祐撰",
-      "section": "史部/目錄類/專錄之屬",
-      "summary": "共 1 個版本：唐會昌三年寫本（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "出三藏記集錄□□卷",
-      "author_info": "梁釋僧祐撰",
-      "section": "子部/釋家類/撰述之屬/目錄部",
-      "summary": "共 1 個版本：唐會昌三年寫本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yuet2h43ima6mvwd\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（南北朝≠南朝梁）））\n同名（源 Work 1exokzohiitj4《出三藏記集錄》已並入；其作者寫法：釋僧祐）",
-  "related_works": [
-    {
-      "id": "d59f285mw9aa",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「出三藏記集錄」（釋僧祐）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（南北朝≠南朝梁））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exokzohiitj4",
-      "title": "出三藏記集錄",
-      "at": "2026-10-18T08:50:35Z",
-      "by": "串4",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同名"
-    }
-  ]
+    ]
+  }
 }

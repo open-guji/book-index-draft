@@ -3,41 +3,23 @@
   "id": "1exp0i3vwmrcw",
   "type": "work",
   "title": "文端公年譜",
-  "additional_titles": [
-    "錢陳羣"
-  ],
-  "authors": [
-    {
-      "name": "錢儀吉",
-      "role": "編",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/348i1v0nh62lcjic"
+  "merged_into": "d59f2ndcmqrm",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "錢儀吉"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "文端公（錢陳羣）年譜三卷",
+        "author_info": "清錢儀吉編;清錢志澄增訂",
+        "section": "史部/傳記類/年譜之屬",
+        "summary": "共 1 個版本：清光緒二十年刻本（遼寧省圖書館、國家圖書館、上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "文端公（錢陳羣）年譜三卷",
-      "author_info": "清錢儀吉編;清錢志澄增訂",
-      "section": "史部/傳記類/年譜之屬",
-      "summary": "共 1 個版本：清光緒二十年刻本（遼寧省圖書館、國家圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lp6n0u2pt3il2vy3\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:tier=存疑）",
-  "related_works": [
-    {
-      "id": "d59f2ndcmqrm",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（文端公年譜）"
-    }
-  ]
+    ]
+  }
 }

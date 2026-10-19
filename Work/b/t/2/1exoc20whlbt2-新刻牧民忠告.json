@@ -3,38 +3,23 @@
   "id": "1exoc20whlbt2",
   "type": "work",
   "title": "新刻牧民忠告",
-  "authors": [
-    {
-      "name": "張養浩",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/8uy51dkm3nze1wya"
+  "merged_into": "d59f2goam8zk",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "張養浩"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "新刻牧民忠告一卷",
+        "author_info": "元張養浩撰",
+        "section": "史部/政書類/叢編之屬",
+        "summary": "共 2 個版本：（中國科學院圖書館、北京大學圖書館、浙江圖書館）；（北京大學圖書館、中國科學院圖書館）"
       }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "新刻牧民忠告一卷",
-      "author_info": "元張養浩撰",
-      "section": "史部/政書類/叢編之屬",
-      "summary": "共 2 個版本：（中國科學院圖書館、北京大學圖書館、浙江圖書館）；（北京大學圖書館、中國科學院圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1n8d5ooanuj6flp7、hq0we35xoqzxmc24\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-10.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
-  "related_works": [
-    {
-      "id": "d59f2goam8zk",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「新刻牧民忠告」（張養浩）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }

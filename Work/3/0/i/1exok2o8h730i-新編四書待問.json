@@ -3,31 +3,23 @@
   "id": "1exok2o8h730i",
   "type": "work",
   "title": "新編四書待問",
-  "authors": [
-    {
-      "name": "蕭鎰",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/b0e8r52lwk0nwdbk"
+  "merged_into": "d59f2gnx71mp",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "蕭鎰"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "新編四書待問二十二卷",
+        "author_info": "元蕭鎰撰",
+        "section": "經部/四書類/四書總義/傳說之屬",
+        "summary": "共 3 個版本：宛委別藏本（馆藏未载）；清抄本（浙江圖書館）；清抄本（國家圖書館、常熟市圖書館、上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "新編四書待問二十二卷",
-      "author_info": "元蕭鎰撰",
-      "section": "經部/四書類/四書總義/傳說之屬",
-      "summary": "共 3 個版本：宛委別藏本（馆藏未载）；清抄本（浙江圖書館）；清抄本（國家圖書館、常熟市圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vt0jprlm06ultph5、qi0jlxws2rvq5xm2、nf5jyxdvgo3hancc\nauto-split:存疑未并\nE6 第 526 批新建（hold 清零：jyiyi；原 hold 原因：）"
+    ]
+  }
 }

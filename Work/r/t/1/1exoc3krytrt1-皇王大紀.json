@@ -3,31 +3,23 @@
   "id": "1exoc3krytrt1",
   "type": "work",
   "title": "皇王大紀",
-  "authors": [
-    {
-      "name": "胡宏",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/j1g6xuas7rkys8r7"
+  "merged_into": "d59f2hu43sw2",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "胡宏"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "皇王大紀八十卷",
+        "author_info": "宋胡宏撰",
+        "section": "史部/編年類/通代之屬",
+        "summary": "共 4 個版本：明抄本（西安市文管會）；清抄本（南京圖書館）；四庫全書本（馆藏未载）；明萬曆三十九年陳邦瞻刻本（南京圖書館、上海圖書館、北京大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇王大紀八十卷",
-      "author_info": "宋胡宏撰",
-      "section": "史部/編年類/通代之屬",
-      "summary": "共 4 個版本：明抄本（西安市文管會）；清抄本（南京圖書館）；四庫全書本（馆藏未载）；明萬曆三十九年陳邦瞻刻本（南京圖書館、上海圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oxzr6dacjwcefkrg、ohzzf7moheojvvkt、qmlhgdpp8mjqyudp、l3qxl8fo6ltyuqg6\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））"
+    ]
+  }
 }

@@ -3,38 +3,23 @@
   "id": "1exoaqrqqj7r4",
   "type": "work",
   "title": "蘭因集",
-  "authors": [
-    {
-      "name": "陳文",
-      "role": "述輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gh51mw4n2a5zski1"
+  "merged_into": "d59f2n146wao",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "陳文"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "蘭因集二卷",
+        "author_info": "清陳文述輯",
+        "section": "史部/傳記類/總傳之屬",
+        "summary": "共 2 個版本：清嘉慶道光間刻本（上海圖書館）；武林掌故叢編本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "蘭因集二卷",
-      "author_info": "清陳文述輯",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 2 個版本：清嘉慶道光間刻本（上海圖書館）；武林掌故叢編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5oxgdwzn1r3odrpo、wp18lekplmshzq1p\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2n146wao",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「蘭因集」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（题名同、卷数相符，无作者可证，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

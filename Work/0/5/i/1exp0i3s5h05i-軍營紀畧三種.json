@@ -3,31 +3,23 @@
   "id": "1exp0i3s5h05i",
   "type": "work",
   "title": "軍營紀畧三種",
-  "authors": [
-    {
-      "name": "陳元燮",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2y1wohey1uk1jws7"
+  "merged_into": "d59fy5qamsjm",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "陳元燮"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "軍營紀畧三種",
+        "author_info": "清陳元燮撰",
+        "section": "史部/雜史類/叢編之屬",
+        "summary": "共 1 個版本：清抄本（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "軍營紀畧三種",
-      "author_info": "清陳元燮撰",
-      "section": "史部/雜史類/叢編之屬",
-      "summary": "共 1 個版本：清抄本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oqzv08fr5fs6jx7f\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）"
+    ]
+  }
 }

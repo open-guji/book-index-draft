@@ -3,38 +3,23 @@
   "id": "1exokzohnturk",
   "type": "work",
   "title": "大安般守意經",
-  "authors": [
-    {
-      "name": "釋安清",
-      "role": "譯",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/lmwpzfh1e88vxm04"
+  "merged_into": "d59f2pus4rgh",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋安清"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "大安般守意經二卷",
+        "author_info": "漢釋安清譯",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 1 個版本：（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "大安般守意經二卷",
-      "author_info": "漢釋安清譯",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 1 個版本：（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pg6bu2ve0m8pbib4\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 541 批新建（hold 清零：jyiyi；原 hold 原因：）",
-  "related_works": [
-    {
-      "id": "d59f2pus4rgh",
-      "relation": "related",
-      "note": "同題異作者待核"
-    }
-  ]
+    ]
+  }
 }

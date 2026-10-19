@@ -3,38 +3,23 @@
   "id": "1exodnt81x2io",
   "type": "work",
   "title": "摩訶般若波羅蜜多心經注",
-  "authors": [
-    {
-      "name": "何道全",
-      "role": "注",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/f5dv8vmqhwydzqm0"
+  "merged_into": "d59fxuf1zytd",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "何道全"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "摩訶般若波羅蜜多心經注一卷",
+        "author_info": "明何道全（無垢子）注",
+        "section": "子部/釋家類/撰述之屬/章疏部",
+        "summary": "共 1 個版本：清光緒四年京都晉文齋刻本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "摩訶般若波羅蜜多心經注一卷",
-      "author_info": "明何道全（無垢子）注",
-      "section": "子部/釋家類/撰述之屬/章疏部",
-      "summary": "共 1 個版本：清光緒四年京都晉文齋刻本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：l2e1ox13h4uxbloe\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 445 批新建（hold 清零：E-N-anon-clean；原 hold 原因：no_main_author）",
-  "related_works": [
-    {
-      "id": "d59fxuf1zytd",
-      "relation": "related",
-      "note": "同題異作者待核"
-    }
-  ]
+    ]
+  }
 }

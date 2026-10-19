@@ -3,49 +3,31 @@
   "id": "1exokjwbtkxdy",
   "type": "work",
   "title": "劉左史文集",
-  "authors": [
-    {
-      "name": "劉安節",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/15n30wj30be330sl"
+  "merged_into": "d59f2huiryf5",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "劉安節"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "劉左史文集四卷",
+        "author_info": "宋劉安節撰",
+        "section": "叢書部/郡邑類",
+        "summary": "共 1 個版本：（重慶市北碚區圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "劉左史文集四卷附錄一卷",
+        "author_info": "宋劉安節撰",
+        "section": "集部/別集類/宋代之屬",
+        "summary": "共 9 個版本：清抄本（南京圖書館）；清抄本（國家圖書館）；清乾隆四十四年吳氏古歡堂抄本（國家圖書館）；清抄本（天津圖書館、上海圖書館、北京大學圖書館、浙江大學圖書館、國家圖書館）；永嘉詩人祠堂叢刻本（馆藏未载）；四庫全書本（馆藏未载）；清初抄本（上海圖書館）；清刻本（南京圖書館）；永嘉叢書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "劉左史文集四卷",
-      "author_info": "宋劉安節撰",
-      "section": "叢書部/郡邑類",
-      "summary": "共 1 個版本：（重慶市北碚區圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "劉左史文集四卷附錄一卷",
-      "author_info": "宋劉安節撰",
-      "section": "集部/別集類/宋代之屬",
-      "summary": "共 9 個版本：清抄本（南京圖書館）；清抄本（國家圖書館）；清乾隆四十四年吳氏古歡堂抄本（國家圖書館）；清抄本（天津圖書館、上海圖書館、北京大學圖書館、浙江大學圖書館、國家圖書館）；永嘉詩人祠堂叢刻本（馆藏未载）；四庫全書本（馆藏未载）；清初抄本（上海圖書館）；清刻本（南京圖書館）；永嘉叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 0zd4bmhtq14tcx8x（永嘉叢書八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：fs2g24ua5llpd6m3\n同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）（源 Work 1exopc45shz41《劉左史文集》已並入；其作者寫法：劉安節）",
-  "merged_in": [
-    {
-      "id": "1exopc45shz41",
-      "title": "劉左史文集",
-      "at": "2026-10-18T03:14:57Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）"
-    }
-  ]
+    ]
+  }
 }

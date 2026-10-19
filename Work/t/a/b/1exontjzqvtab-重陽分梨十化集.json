@@ -3,49 +3,31 @@
   "id": "1exontjzqvtab",
   "type": "work",
   "title": "重陽分梨十化集",
-  "authors": [
-    {
-      "name": "王嚞",
-      "role": "撰",
-      "dynasty": "金",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/hblh43jhutupmdhq"
+  "merged_into": "d59f2ggh270g",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "王嚞"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "重陽分梨十化集二卷",
+        "author_info": "金王嚞撰",
+        "section": "子部/道家類/道教之屬/合編",
+        "summary": "共 1 個版本：（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "重陽分梨十化集二卷",
+        "author_info": "金王嚞撰",
+        "section": "集部/別集類/金元之屬",
+        "summary": "共 1 個版本：道藏本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "金",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「金」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "重陽分梨十化集二卷",
-      "author_info": "金王嚞撰",
-      "section": "子部/道家類/道教之屬/合編",
-      "summary": "共 1 個版本：（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "重陽分梨十化集二卷",
-      "author_info": "金王嚞撰",
-      "section": "集部/別集類/金元之屬",
-      "summary": "共 1 個版本：道藏本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：sbwhnuxz8hfe8xn8\nauto-split:存疑未并\nE6 第 552 批新建（hold 清零：jyiyi；原 hold 原因：）\n同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）（源 Work 1exoprz66ty4g《重陽分梨十化集》已並入；其作者寫法：王嚞）",
-  "merged_in": [
-    {
-      "id": "1exoprz66ty4g",
-      "title": "重陽分梨十化集",
-      "at": "2026-10-18T03:14:57Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）"
-    }
-  ]
+    ]
+  }
 }
