@@ -3,64 +3,7 @@
   "id": "1exoc17ehrfgp",
   "type": "work",
   "title": "英雄記",
-  "authors": [
-    {
-      "name": "王粲",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/3orleq0664g4mzgk"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "英雄記一卷",
-      "author_info": "漢王粲撰;清黃奭輯",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 3 個版本：漢學堂知足齋叢書本（馆藏未载）；黃氏逸書考本（馆藏未载）；漢學堂叢書本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "英雄記鈔一卷",
-      "author_info": "漢王粲撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 5 個版本：說郛本（馆藏未载）；增訂漢魏叢書本（馆藏未载）；廣漢魏叢書本（馆藏未载）；清抄本（國家圖書館）；五朝小說本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "英雄記鈔一卷",
-      "author_info": "魏王粲撰",
-      "section": "叢書部/雜纂類/明代",
-      "summary": "共 1 個版本：（上海圖書館、北京師範大學圖書館、安徽省圖書館、湖北省圖書館、復旦大學圖書館、山東省圖書館、浙江圖書館、遼寧省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：c0sqzdr6xxl2w8rk、zikwqtpa7l7v6zed、ewyd28ma5rtfrukm\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-11.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））\n第 440 批追加版本，源記錄：5xym767ns02ta3sr、wmbt7phd68k3onvn、unhpmibq0ivmx1o2、azbxq0kyvhkcon1t、sbff4er2fpu0asvr\n查重线（跨部查重 10-19）：同题同作者或近题同作者（逐对复核同书）并入 1 个 Work（1exokr6l7jll8）",
-  "related_works": [
-    {
-      "id": "d59f2ofon85c",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「英雄記」（王粲）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exokr6l7jll8",
-      "title": "英雄記鈔",
-      "at": "2026-10-19T04:07:07",
-      "by": "跨部查重",
-      "rule": "跨部查重",
-      "why": "同题同作者同朝代"
-    }
-  ]
+  "merged_into": "d59f2ofon85c",
+  "revision": "1.0.0",
+  "revised_at": "2026-10-19"
 }
