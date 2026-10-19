@@ -3,72 +3,39 @@
   "id": "1exoatfgurhmo",
   "type": "work",
   "title": "畿服經",
-  "authors": [
-    {
-      "name": "摯虞",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ivwiklt75xh2pyl6"
+  "merged_into": "d59f27w8j0g1",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T10:53:20",
+    "by": "叢書二路",
+    "author_as_written": [
+      "摯虞"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畿服經一卷",
+        "author_info": "晉摯虞撰",
+        "section": "史部/地理類/叢編之屬",
+        "summary": "共 2 個版本：（上海圖書館）；（上海圖書館、北京大學圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畿服經一卷",
+        "author_info": "晉摯虞撰;清王謨輯",
+        "section": "史部/地理類/總志之屬",
+        "summary": "共 3 個版本：重訂漢唐地理書鈔本（馆藏未载）；漢唐地理書鈔存本（馆藏未载）；漢唐地理書鈔本（馆藏未载）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "畿服經一卷",
+        "author_info": "",
+        "section": "叢書部/輯佚類",
+        "summary": "共 1 個版本：（湖北省圖書館、國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畿服經一卷",
-      "author_info": "晉摯虞撰",
-      "section": "史部/地理類/叢編之屬",
-      "summary": "共 2 個版本：（上海圖書館）；（上海圖書館、北京大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畿服經一卷",
-      "author_info": "晉摯虞撰;清王謨輯",
-      "section": "史部/地理類/總志之屬",
-      "summary": "共 3 個版本：重訂漢唐地理書鈔本（馆藏未载）；漢唐地理書鈔存本（馆藏未载）；漢唐地理書鈔本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "畿服經一卷",
-      "author_info": "",
-      "section": "叢書部/輯佚類",
-      "summary": "共 1 個版本：（湖北省圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：jb0xy2pr4ibyx3k7、85iphf7y56v3kylj\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标170卷））\n同題同作者並條（作者別名與並條口徑-共用 B檔：省称；用戶 10-18 確認）（源 Work 1exp0i3ri27eu《畿服經》已並入；其作者寫法：晉摯虞）\n暫緩晉升池清理（shi/hold-clean，2026-10-19）：叢書子目同書（本條版本「漢唐地理書鈔本」即對方所屬叢書；同題、卷數相容，對方作者缺）。被並 Work 1exolaesspatm《畿服經》，作者寫法：（作者缺）",
-  "related_works": [
-    {
-      "id": "d59f27w8j0g1",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「畿服經」（摯虞）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标170卷）），判為不同著作（不並）；互為相關。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0i3ri27eu",
-      "title": "畿服經",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 B檔：省称；用戶 10-18 確認）"
-    },
-    {
-      "id": "1exolaesspatm",
-      "title": "畿服經",
-      "at": "2026-10-19T00:00:00Z",
-      "by": "史部暫緩池清理",
-      "rule": "同題同首位責任者並條（作者別名與並條口徑-共用）",
-      "why": "叢書子目同書（本條版本「漢唐地理書鈔本」即對方所屬叢書；同題、卷數相容，對方作者缺）"
-    }
-  ]
+    ]
+  }
 }

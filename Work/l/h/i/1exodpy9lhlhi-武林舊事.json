@@ -3,38 +3,23 @@
   "id": "1exodpy9lhlhi",
   "type": "work",
   "title": "武林舊事",
-  "authors": [
-    {
-      "name": "周密",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/45aa1zzpgbz4kris"
+  "merged_into": "d59f2gpo8zcx",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T10:53:20",
+    "by": "叢書二路",
+    "author_as_written": [
+      "周密"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "武林舊事六卷",
+        "author_info": "宋周密撰",
+        "section": "史部/地理類/雜志之屬",
+        "summary": "共 16 個版本：明嘉靖三十九年陳柯刻本（上海圖書館、國家圖書館）；亦政堂鐫陳眉公家藏廣祕笈本（中國社會科學院文學研究所）；明正德十三年宋廷佐刻本（浙江圖書館、國家圖書館、中國科學院圖書館、北京大學圖書館）；清乾隆四十二年汪日菼夙夜齋刻本（南京圖書館、國家圖書館、浙江圖書館）；亦政堂鐫陳眉公家藏廣祕笈本（馆藏未载）；寶顔堂袐笈本（馆藏未载）；清管庭芬抄本（上海圖書館）；清初山暉草堂抄本（國家圖書館）；清抄本（國家圖書館）；清初抄本（南開大學圖書館）；四庫全書本（上海圖書館）；武林掌古叢編本（馆藏未载）；知不足齋叢書本（南京圖書館）；筆記小說大觀本（馆藏未载）；清乾隆四十三年刻本（上海圖書館）；清道光二十三年清吟阁刻本（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "武林舊事六卷",
-      "author_info": "宋周密撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 16 個版本：明嘉靖三十九年陳柯刻本（上海圖書館、國家圖書館）；亦政堂鐫陳眉公家藏廣祕笈本（中國社會科學院文學研究所）；明正德十三年宋廷佐刻本（浙江圖書館、國家圖書館、中國科學院圖書館、北京大學圖書館）；清乾隆四十二年汪日菼夙夜齋刻本（南京圖書館、國家圖書館、浙江圖書館）；亦政堂鐫陳眉公家藏廣祕笈本（馆藏未载）；寶顔堂袐笈本（馆藏未载）；清管庭芬抄本（上海圖書館）；清初山暉草堂抄本（國家圖書館）；清抄本（國家圖書館）；清初抄本（南開大學圖書館）；四庫全書本（上海圖書館）；武林掌古叢編本（馆藏未载）；知不足齋叢書本（南京圖書館）；筆記小說大觀本（馆藏未载）；清乾隆四十三年刻本（上海圖書館）；清道光二十三年清吟阁刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ambw6re2ksykpwcl、3mbcq615plsajtre、km0w8gxu752gx07d、cmugd55pmvfcpchh、di2c3kr6ml6xpr5a、xxgshib61vmf411e、3ehb2bez4rjyi0b8、k61om5q0gwpeo63w、et8xfnnk17vtc5kp、zg64xyvtovxvifz0、l2gccrzojdan8u11、4s3d0d34pqnsmafa、3jxhcf67bvcvjiyt、k7hgjp2xrelvudbd、nb56ca4vrmoodpmm、ps3of8hed5ublgwa\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：朝代不同）",
-  "related_works": [
-    {
-      "id": "d59f2gpo8zcx",
-      "relation": "related",
-      "note": "史部E 426跨批同題待判：總目記錄「武林舊事」（周密）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }
