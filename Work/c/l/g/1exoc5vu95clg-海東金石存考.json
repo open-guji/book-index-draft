@@ -3,48 +3,7 @@
   "id": "1exoc5vu95clg",
   "type": "work",
   "title": "海東金石存考",
-  "authors": [
-    {
-      "name": "劉喜海",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/nhbt7blligog7v2w"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "海東金石存考一卷",
-      "author_info": "清劉喜海撰",
-      "section": "史部/金石考古類/郡邑之屬",
-      "summary": "共 1 個版本：（遼寧省圖書館、中國科學院圖書館、復旦大學圖書館、南京圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：m645we1gq15cdbce、wl8nzttahpz0x6lh、k2enivwcbylkeo4i、qzs6ph7gt5r0mmah、r46lr647xr8ij78q\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-03.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））\n總目版本待定（庫內已有 Book 11so5berfg6iw、11so5berfg6ix、11so5berfg6it、11so5berfg6iv、11so5berfg6iu：木犀軒叢書本、信古閣小叢書本、清抄本、遯盦金石叢書本、稿本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；07id22qn7o33bp7p）；總目分類：史部／金石考古類／叢編之屬\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3qrj18k《海東金石存考》已並入；其作者寫法：劉喜海）",
-  "related_works": [
-    {
-      "id": "d59f2ng7yakh",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「海東金石存考」（劉喜海）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0i3qrj18k",
-      "title": "海東金石存考",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+  "merged_into": "d59f2ng7yakh",
+  "revision": "1.0.0",
+  "revised_at": "2026-10-19"
 }

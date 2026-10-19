@@ -3,66 +3,7 @@
   "id": "1exoaqrqm5w5c",
   "type": "work",
   "title": "顧亭林先生年譜",
-  "authors": [
-    {
-      "name": "吳映奎",
-      "role": "編",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/z5mt55q8hin7csm6"
-      }
-    },
-    {
-      "name": "車持謙",
-      "role": "編",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/vxq8bij615j6eo7l"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "顧亭林先生年譜一卷",
-      "author_info": "清吳映奎編;清車持謙增補",
-      "section": "史部/傳記類/年譜之屬",
-      "summary": "共 6 個版本：清抄本（國家圖書館）；四部叢刊三編本（馆藏未载）；亭林先生遺書彙輯本（馆藏未载）；顧亭林先生遺書本（馆藏未载）；歸顧朱三先生年譜合刻本（馆藏未载）；稿本（南京圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "顧亭林先生年譜一卷附一卷",
-      "author_info": "清吳映奎編",
-      "section": "史部/傳記類/年譜之屬",
-      "summary": "共 1 個版本：（甘肅省圖書館、國家圖書館、湖北省圖書館、南京大學圖書館、上海圖書館、福建省圖書館、遼寧省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0d3vl4ewxu2jbdbx、hfuyf0kj6dt2f52u、l5u0iqs3wqtvalpn、e8hy15l1frknih4i、aiabu4xcsrzbzulb、0nic8ridepmtcnwx\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋related））\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3qhuoee《顧亭林先生年譜》已並入；其作者寫法：吳映奎）",
-  "related_works": [
-    {
-      "id": "d59f2ms8v4ld",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「顧亭林先生年譜」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（题名同、卷数相符，无作者可证，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0i3qhuoee",
-      "title": "顧亭林先生年譜",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+  "merged_into": "d59f2ndarbia",
+  "revision": "1.0.0",
+  "revised_at": "2026-10-19"
 }
