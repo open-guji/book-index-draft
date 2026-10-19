@@ -3,38 +3,7 @@
   "id": "1exoc17duz3sw",
   "type": "work",
   "title": "皇明閣臣錄",
-  "authors": [
-    {
-      "name": "李廷機",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/xkspe7p3duys45xx"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇明閣臣錄四卷",
-      "author_info": "明李廷機撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 2 個版本：明刻本（國家圖書館）；明萬曆間刻本（山東省圖書館、雲南省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5fl5pk43ix0fwugj、stv8pzgeukon47lz\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（候选核对：卷差>1（本条4卷，目标6卷）））",
-  "related_works": [
-    {
-      "id": "d59f2ni6i1og",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「皇明閣臣錄」（李廷機）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：卷差>1（本条4卷，目标6卷））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2ni6i1og",
+  "revision": "1.0.0",
+  "revised_at": "2026-10-19"
 }
