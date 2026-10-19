@@ -3,31 +3,23 @@
   "id": "1exnwi9qey7eq",
   "type": "work",
   "title": "論定性書",
-  "authors": [
-    {
-      "name": "程顥",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2xcg7uy4aw67fidc"
+  "merged_into": "d59fxsya9pmp",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "程顥"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "論定性書一卷",
+        "author_info": "宋程顥撰",
+        "section": "子部/儒家類/儒學之屬/宋元",
+        "summary": "共 1 個版本：李文貞公全集本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "論定性書一卷",
-      "author_info": "宋程顥撰",
-      "section": "子部/儒家類/儒學之屬/宋元",
-      "summary": "共 1 個版本：李文貞公全集本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lktm1322ws5yjk0z"
+    ]
+  }
 }

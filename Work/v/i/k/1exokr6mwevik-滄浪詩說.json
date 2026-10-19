@@ -3,31 +3,23 @@
   "id": "1exokr6mwevik",
   "type": "work",
   "title": "滄浪詩說",
-  "authors": [
-    {
-      "name": "嚴羽",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ozkujsbnf8s1gb3j"
+  "merged_into": "d59f2htbp7gg",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "嚴羽"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "滄浪詩說一卷",
+        "author_info": "宋嚴羽撰",
+        "section": "叢書部/雜纂類/明代",
+        "summary": "共 1 個版本：（南京圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "滄浪詩說一卷",
-      "author_info": "宋嚴羽撰",
-      "section": "叢書部/雜纂類/明代",
-      "summary": "共 1 個版本：（南京圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 s17a6zmj22zgegr4（藝海彙函九十二種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：fpe0g53gcn5i50n5"
+    ]
+  }
 }

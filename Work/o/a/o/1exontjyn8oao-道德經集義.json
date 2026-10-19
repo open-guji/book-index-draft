@@ -3,31 +3,23 @@
   "id": "1exontjyn8oao",
   "type": "work",
   "title": "道德經集義",
-  "authors": [
-    {
-      "name": "危大有",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/xnbdhlkf61a2kmdb"
+  "merged_into": "d59fxx2h6ku9",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "危大有"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "道德經集義十卷",
+        "author_info": "明危大有撰",
+        "section": "子部/道家類/道教之屬/合編",
+        "summary": "共 1 個版本：（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "道德經集義十卷",
-      "author_info": "明危大有撰",
-      "section": "子部/道家類/道教之屬/合編",
-      "summary": "共 1 個版本：（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mlk4xj6zsxnll0wd\nauto-split:存疑未并\nE6 第 552 批新建（hold 清零：jyiyi；原 hold 原因：）"
+    ]
+  }
 }

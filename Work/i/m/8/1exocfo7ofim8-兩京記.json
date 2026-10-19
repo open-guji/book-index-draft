@@ -3,38 +3,23 @@
   "id": "1exocfo7ofim8",
   "type": "work",
   "title": "兩京記",
-  "authors": [
-    {
-      "name": "韋述",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rn4md7gwurp6irut"
+  "merged_into": "d59fy3rwaznl",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "韋述"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "兩京記一卷",
+        "author_info": "唐韋述撰;清王仁俊輯",
+        "section": "史部/地理類/雜志之屬",
+        "summary": "共 1 個版本：玉函山房輯佚書補編本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "兩京記一卷",
-      "author_info": "唐韋述撰;清王仁俊輯",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 1 個版本：玉函山房輯佚書補編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：x5h1h58jblh7jek7\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
-  "related_works": [
-    {
-      "id": "d59f28m9lf5z",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「兩京記」（韋述）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }
