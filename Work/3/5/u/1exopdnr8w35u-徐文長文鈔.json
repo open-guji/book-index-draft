@@ -3,49 +3,31 @@
   "id": "1exopdnr8w35u",
   "type": "work",
   "title": "徐文長文鈔",
-  "authors": [
-    {
-      "name": "徐渭",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/44x51vl3lylp71ve"
+  "merged_into": "d59fxw194ni8",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T21:21:54",
+    "by": "集部串6",
+    "author_as_written": [
+      "徐渭"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "徐文長文鈔一卷",
+        "author_info": "明徐渭撰",
+        "section": "集部/總集類/叢編之屬/分體",
+        "summary": "共 1 個版本：（北京大學圖書館、天津圖書館、故宮博物院圖書館、山東省圖書館、上海圖書館、國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "徐文長文鈔",
+        "author_info": "明徐渭撰",
+        "section": "集部/總集類/叢編之屬/分體",
+        "summary": "共 1 個版本：（四川師範大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "徐文長文鈔一卷",
-      "author_info": "明徐渭撰",
-      "section": "集部/總集類/叢編之屬/分體",
-      "summary": "共 1 個版本：（北京大學圖書館、天津圖書館、故宮博物院圖書館、山東省圖書館、上海圖書館、國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "徐文長文鈔",
-      "author_info": "明徐渭撰",
-      "section": "集部/總集類/叢編之屬/分體",
-      "summary": "共 1 個版本：（四川師範大學圖書館）"
-    }
-  ],
-  "ai_note": "E 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mnchh2h76qi7rpcy\nE6 第 602 批新建（hold 清零：jyiyi；原 hold 原因：）\n同題同作者並條（A檔；徐文長文鈔／徐文長文鈔；徐渭／徐渭）（源 Work 1exp17in6dbeu《徐文長文鈔》已並入；其作者寫法：徐渭）",
-  "merged_in": [
-    {
-      "id": "1exp17in6dbeu",
-      "title": "徐文長文鈔",
-      "at": "2026-10-18T05:57:11Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（A檔；徐文長文鈔／徐文長文鈔；徐渭／徐渭）"
-    }
-  ]
+    ]
+  }
 }
