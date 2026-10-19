@@ -3,31 +3,23 @@
   "id": "1exoc1n7ifytc",
   "type": "work",
   "title": "永嘉禪宗集",
-  "authors": [
-    {
-      "name": "釋玄覺",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/uly20iowhxfk1i82"
+  "merged_into": "d59fxwciatxd",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋玄覺"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "永嘉禪宗集二卷",
+        "author_info": "唐釋玄覺撰;明釋傳燈重輯並注",
+        "section": "子部/釋家類/撰述之屬/論著部",
+        "summary": "共 3 個版本：清同治十年刻本（上海圖書館）；清刻本（國家圖書館、南京圖書館）；清光緒二十二年刻本（上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "永嘉禪宗集二卷",
-      "author_info": "唐釋玄覺撰;明釋傳燈重輯並注",
-      "section": "子部/釋家類/撰述之屬/論著部",
-      "summary": "共 3 個版本：清同治十年刻本（上海圖書館）；清刻本（國家圖書館、南京圖書館）；清光緒二十二年刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xhgweehtu8ev2vmn、uwjn56iim10rnoal、x8o8vbcb5u2w83hp\nE6 第 428 批新建（hold 清零：E；原 hold 原因：-）"
+    ]
+  }
 }

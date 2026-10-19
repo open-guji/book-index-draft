@@ -3,31 +3,23 @@
   "id": "1exokoqw3ta84",
   "type": "work",
   "title": "薛君韓詩章句",
-  "authors": [
-    {
-      "name": "薛漢",
-      "role": "撰",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gw32wwlk7w2s0ttb"
+  "merged_into": "d59f24m9re2o",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "薛漢"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "薛君韓詩章句二卷",
+        "author_info": "漢薛漢撰;清馬國翰輯",
+        "section": "經部/詩類/三家詩之屬",
+        "summary": "共 2 個版本：玉函山房輯佚書本（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "薛君韓詩章句二卷",
-      "author_info": "漢薛漢撰;清馬國翰輯",
-      "section": "經部/詩類/三家詩之屬",
-      "summary": "共 2 個版本：玉函山房輯佚書本（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6u1aszvked8gwy54\nauto-split:存疑未并\nE6 第 528 批新建（hold 清零：jyiyi；原 hold 原因：）\n總目版本待定（庫內已有 Book 11sodu9ta445h：玉函山房輯佚書本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；dr5bncfgvvuqmw78）；總目分類：經部／詩類／叢編之屬"
+    ]
+  }
 }

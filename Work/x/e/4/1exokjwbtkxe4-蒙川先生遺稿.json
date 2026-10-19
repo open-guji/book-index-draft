@@ -3,49 +3,31 @@
   "id": "1exokjwbtkxe4",
   "type": "work",
   "title": "蒙川先生遺稿",
-  "authors": [
-    {
-      "name": "劉黻",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/k2ivoolj5v00244h"
+  "merged_into": "d59f2hsr3jlt",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "劉黻"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "蒙川先生遺稿四卷補遺一卷",
+        "author_info": "宋劉黻撰",
+        "section": "叢書部/郡邑類",
+        "summary": "共 1 個版本：（重慶市北碚區圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "蒙川先生遺稿四卷補遺一卷",
+        "author_info": "宋劉黻撰",
+        "section": "集部/別集類/宋代之屬",
+        "summary": "共 1 個版本：永嘉叢書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "蒙川先生遺稿四卷補遺一卷",
-      "author_info": "宋劉黻撰",
-      "section": "叢書部/郡邑類",
-      "summary": "共 1 個版本：（重慶市北碚區圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "蒙川先生遺稿四卷補遺一卷",
-      "author_info": "宋劉黻撰",
-      "section": "集部/別集類/宋代之屬",
-      "summary": "共 1 個版本：永嘉叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 0zd4bmhtq14tcx8x（永嘉叢書八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：otacyizndykxibvq\n同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）（源 Work 1exopc46o0xza《蒙川先生遺稿》已並入；其作者寫法：劉黻）",
-  "merged_in": [
-    {
-      "id": "1exopc46o0xza",
-      "title": "蒙川先生遺稿",
-      "at": "2026-10-18T03:14:57Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）"
-    }
-  ]
+    ]
+  }
 }
