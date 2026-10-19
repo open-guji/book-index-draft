@@ -38,6 +38,13 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/qjtkxhw2q6ppyhdv"
+    },
+    {
+      "institution": "日本京都大學人文科學研究所",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/6x86tjg73kqhwtbw"
     }
   ],
   "indexed_by": [
@@ -46,6 +53,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "補庵遺稿一卷詩鈔一卷",
       "summary": "補庵遺稿一卷詩鈔一卷｜清陳枚撰｜清光緒十三年刻;宋元間磧砂延聖院刻｜上海圖書館、北京大學圖書館、山東大學圖書館、國家圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "補庵遺稿一卷詩鈔一卷",
+      "summary": "補庵遺稿一卷詩鈔一卷｜清陳枚撰｜清光緒十三年刻;宋元間磧砂延聖院刻｜日本京都大學人文科學研究所"
     }
   ],
   "sources": [
@@ -54,12 +67,25 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/g1iuhz0q4mcczjgf&from=evidence"
+    },
+    {
+      "id": "6ytyw6gjgacme75f",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/6ytyw6gjgacme75f&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：g1iuhz0q4mcczjgf\n後印／補刻：\";宋元間磧砂延聖院刻\"",
+  "ai_note": "【叢書子目·挂既有Work】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：g1iuhz0q4mcczjgf\n後印／補刻：\";宋元間磧砂延聖院刻\"\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11sotm4649l39），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0ie5gayj28"
+    },
+    {
+      "id": "1ak0i9qnis3k0"
     }
-  ]
+  ],
+  "merged_from": [
+    "11sotm4649l39"
+  ],
+  "revised_at": "2026-10-19"
 }
