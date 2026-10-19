@@ -3,27 +3,24 @@
   "id": "1exoahk1dkh6r",
   "type": "work",
   "title": "繡像文昌化書",
-  "authors": [
-    {
-      "name": "游士鳳",
-      "role": "繪",
-      "dynasty": "清"
-    },
-    {
-      "name": "顧沅",
-      "role": "校",
-      "dynasty": "清"
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "繡像文昌化書四卷",
-      "author_info": "清游士鳳繪;清顧沅校",
-      "section": "子部/道家類/道教之屬/譜籙",
-      "summary": "共 2 個版本：清道光三年吳門無隱草堂刻本（馆藏未载）；清康熙二十五周長年刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：7loodqobsnfx4ixp、z4jn52mh34ljth4s\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：清游士鳳繪;清顧沅校；（空）\nE6 第 16 批新建（hold 清零：子部E机械落地b3:E-N-anon-clean；原 hold 原因：）\n晋升前審計補錄：據 indexed_by.author_info 補入 游士鳳、顧沅（錄入時漏）"
+  "merged_into": "d59fy2mamf40",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "游士鳳",
+      "顧沅"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "繡像文昌化書四卷",
+        "author_info": "清游士鳳繪;清顧沅校",
+        "section": "子部/道家類/道教之屬/譜籙",
+        "summary": "共 2 個版本：清道光三年吳門無隱草堂刻本（馆藏未载）；清康熙二十五周長年刻本（國家圖書館）"
+      }
+    ]
+  }
 }
