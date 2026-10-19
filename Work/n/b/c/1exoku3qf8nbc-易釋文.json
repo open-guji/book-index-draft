@@ -3,49 +3,31 @@
   "id": "1exoku3qf8nbc",
   "type": "work",
   "title": "易釋文",
-  "authors": [
-    {
-      "name": "陸德明",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/mh6ug8kwoegme47l"
+  "merged_into": "d59fy1cxgr9c",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T21:21:54",
+    "by": "集部串6",
+    "author_as_written": [
+      "陸德明"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "易釋文一卷",
+        "author_info": "唐陸德明撰",
+        "section": "叢書部/雜纂類/明代",
+        "summary": "共 1 個版本：（上海圖書館、河南省圖書館、山東省圖書館、遼寧省圖書館、天津圖書館、臺灣圖書館、國家圖書館、中國科學院圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "易釋文一卷",
+        "author_info": "唐陸德明撰",
+        "section": "經部/易類/文字音義之屬",
+        "summary": "共 3 個版本：津逮祕書本（馆藏未载）；雅雨堂藏書本（馆藏未载）；清抄本（湖北省圖書館）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "易釋文一卷",
-      "author_info": "唐陸德明撰",
-      "section": "叢書部/雜纂類/明代",
-      "summary": "共 1 個版本：（上海圖書館、河南省圖書館、山東省圖書館、遼寧省圖書館、天津圖書館、臺灣圖書館、國家圖書館、中國科學院圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "易釋文一卷",
-      "author_info": "唐陸德明撰",
-      "section": "經部/易類/文字音義之屬",
-      "summary": "共 3 個版本：津逮祕書本（馆藏未载）；雅雨堂藏書本（馆藏未载）；清抄本（湖北省圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 8n7tomdmk4io64q8（津逮祕書十五集一百三十九種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：1lszafga4ncapt6x\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp12pcb5zwi《易釋文》已並入；其作者寫法：陸德明）",
-  "merged_in": [
-    {
-      "id": "1exp12pcb5zwi",
-      "title": "易釋文",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+    ]
+  }
 }

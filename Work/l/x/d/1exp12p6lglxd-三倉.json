@@ -3,64 +3,39 @@
   "id": "1exp12p6lglxd",
   "type": "work",
   "title": "三倉",
-  "authors": [
-    {
-      "name": "任大椿",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2y3hzkqm5ucjoqg1"
+  "merged_into": "d59fyjsdqvwg",
+  "merged_basis": {
+    "rule": "叢書去重",
+    "at": "2026-10-19T21:21:54",
+    "by": "集部串6",
+    "author_as_written": [
+      "任大椿"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "三倉二卷附三倉訓詁三倉解詁",
+        "author_info": "清任大椿輯;清王念孫校",
+        "section": "經部/小學類/文字之屬/訓蒙",
+        "summary": "共 5 個版本：芋園叢書本（馆藏未载）；任氏三種本（馆藏未载）；小學鉤沈本（馆藏未载）；小學類編本（馆藏未载）；翠琅玕館叢書本（馆藏未载）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "三倉二卷附三倉訓詁三倉解詁",
+        "author_info": "",
+        "section": "叢書部/雜纂類/民國以來",
+        "summary": "共 1 個版本：（河南省圖書館、北京大學圖書館、廣東省中山圖書館、清華大學圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "三倉二卷附三倉訓詁三倉解詁",
+        "author_info": "",
+        "section": "叢書部/雜纂類/清代後期",
+        "summary": "共 1 個版本：（遼寧省圖書館、浙江圖書館、國家圖書館、天津圖書館、雲南省圖書館、復旦大學圖書館、廣東省中山圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三倉二卷附三倉訓詁三倉解詁",
-      "author_info": "清任大椿輯;清王念孫校",
-      "section": "經部/小學類/文字之屬/訓蒙",
-      "summary": "共 5 個版本：芋園叢書本（馆藏未载）；任氏三種本（馆藏未载）；小學鉤沈本（馆藏未载）；小學類編本（馆藏未载）；翠琅玕館叢書本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三倉二卷附三倉訓詁三倉解詁",
-      "author_info": "",
-      "section": "叢書部/雜纂類/民國以來",
-      "summary": "共 1 個版本：（河南省圖書館、北京大學圖書館、廣東省中山圖書館、清華大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三倉二卷附三倉訓詁三倉解詁",
-      "author_info": "",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（遼寧省圖書館、浙江圖書館、國家圖書館、天津圖書館、雲南省圖書館、復旦大學圖書館、廣東省中山圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：fmevhqj03xrbvo7w、bg732nt4pva4xs7c、n0wfx4a6wtpc3dd7、nmq40ylvw4exlgob、ojejxhjyobu1iqx1\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp0gjilmhhc《三倉》已並入；其作者寫法：任大椿）",
-  "related_works": [
-    {
-      "id": "d59f24mpohs1",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同名无主责任者未并）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0gjilmhhc",
-      "title": "三倉",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+    ]
+  }
 }
