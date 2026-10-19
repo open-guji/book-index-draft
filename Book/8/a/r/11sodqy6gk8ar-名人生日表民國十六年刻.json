@@ -40,6 +40,13 @@
       "seals": [],
       "notes": "",
       "source": "中國古籍總目 item/hiwrxpuv1ayf0ngk"
+    },
+    {
+      "institution": "上海圖書館",
+      "call_number": "",
+      "seals": [],
+      "notes": "",
+      "source": "中國古籍總目 item/tgkjge8ewfn5v8t2"
     }
   ],
   "indexed_by": [
@@ -48,6 +55,12 @@
       "source_bid": "1exjosng9241s",
       "title_info": "名人生日表一卷",
       "summary": "名人生日表一卷｜孫雄撰;張惟驤補｜民國十六年刻｜上海圖書館、清華大學圖書館"
+    },
+    {
+      "source": "中國古籍總目",
+      "source_bid": "1exjosng9241s",
+      "title_info": "名人生日表一卷",
+      "summary": "名人生日表一卷｜孫雄撰;張惟驤補｜民國十六年刻｜上海圖書館"
     }
   ],
   "sources": [
@@ -56,12 +69,25 @@
       "name": "中國古籍總目（上圖聯合目錄）",
       "type": "url",
       "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/5hwzbp6tal25kx8q&from=evidence"
+    },
+    {
+      "id": "rwicasto50ae0x1s",
+      "name": "中國古籍總目（上圖聯合目錄）",
+      "type": "url",
+      "details": "https://gj.library.sh.cn/unionCatalogue/work/list#uri=http://data.library.sh.cn/gj/resource/instance/rwicasto50ae0x1s&from=evidence"
     }
   ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：5hwzbp6tal25kx8q",
+  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；源記錄：5hwzbp6tal25kx8q\n查重线（Book 层 2026-10-19）：同 Work 同版本并入 1 条 Book（11sodqy6iqw41），馆藏/著录/所属叢書取并集",
   "contained_in": [
     {
       "id": "1ak0ib9kcd0cg"
+    },
+    {
+      "id": "1ak0ib9ke8flt"
     }
-  ]
+  ],
+  "merged_from": [
+    "11sodqy6iqw41"
+  ],
+  "revised_at": "2026-10-19"
 }
