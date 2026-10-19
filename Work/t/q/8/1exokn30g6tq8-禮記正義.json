@@ -3,43 +3,23 @@
   "id": "1exokn30g6tq8",
   "type": "work",
   "title": "禮記正義",
-  "authors": [
-    {
-      "name": "孔穎達",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/duwjt714ome33ii0"
+  "merged_into": "d59f28nhx4ap",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "孔穎達"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "禮記正義（存卷五、卷六十三至七十）",
+        "author_info": "唐孔穎達撰",
+        "section": "經部/禮類/禮記/傳說之屬",
+        "summary": "共 6 個版本：四部叢刊三編本（馆藏未载）；日本昭和五年日本東方文化學院影印宋刻本（北京大學圖書館、南京圖書館、國家圖書館、湖北省圖書館、中國科學院圖書館）；宋紹興乾道間刻本（日本身延山久遠寺）；民國間武進董氏影印宋越州刻本（國家圖書館）；宋紹熙三年兩浙東茶鹽司刻宋元遞修本（日本足利學校遺跡圖書館、上海圖書館、國家圖書館、北京大學圖書館）；民國南海潘氏寶禮堂影刻宋紹興三年兩浙東路茶司本（復旦大學圖書館、上海圖書館、北京大學圖書館、國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "禮記正義（存卷五、卷六十三至七十）",
-      "author_info": "唐孔穎達撰",
-      "section": "經部/禮類/禮記/傳說之屬",
-      "summary": "共 6 個版本：四部叢刊三編本（馆藏未载）；日本昭和五年日本東方文化學院影印宋刻本（北京大學圖書館、南京圖書館、國家圖書館、湖北省圖書館、中國科學院圖書館）；宋紹興乾道間刻本（日本身延山久遠寺）；民國間武進董氏影印宋越州刻本（國家圖書館）；宋紹熙三年兩浙東茶鹽司刻宋元遞修本（日本足利學校遺跡圖書館、上海圖書館、國家圖書館、北京大學圖書館）；民國南海潘氏寶禮堂影刻宋紹興三年兩浙東路茶司本（復旦大學圖書館、上海圖書館、北京大學圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：xdo84indechmns8b\nauto-split:存疑未并\nE6 第 527 批新建（hold 清零：jyiyi；原 hold 原因：）\n第 3002 批追加版本，源記錄：aehocjw8efgdie52、urj46qiwgdyj8r5j\n第 3003 批追加版本，源記錄：bwbal1y8i2lugkbe、4loipmkanvc15y7x、zazsamhcl7e8m01b",
-  "related_works": [
-    {
-      "id": "d59f28nhx4ap",
-      "relation": "related",
-      "note": "總目經部J-exact另立（auto-split:作者部分重合未并）"
-    },
-    {
-      "id": "d59f2ncta5fo",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同名无主责任者未并）"
-    }
-  ]
+    ]
+  }
 }

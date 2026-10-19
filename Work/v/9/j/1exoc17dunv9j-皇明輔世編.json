@@ -3,38 +3,23 @@
   "id": "1exoc17dunv9j",
   "type": "work",
   "title": "皇明輔世編",
-  "authors": [
-    {
-      "name": "唐鶴徵",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/g2y5zegtw06yf2ig"
+  "merged_into": "d59f2nhx4wzm",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "唐鶴徵"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "皇明輔世編六卷",
+        "author_info": "明唐鶴徵撰",
+        "section": "史部/傳記類/總傳之屬",
+        "summary": "共 2 個版本：武進唐氏所著書本（北京大學圖書館）；明崇禎十五年陳睿謨刻本（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇明輔世編六卷",
-      "author_info": "明唐鶴徵撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 2 個版本：武進唐氏所著書本（北京大學圖書館）；明崇禎十五年陳睿謨刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：4wwgjwm8uho0tdc7、dud8q4yeqv17sybk\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））",
-  "related_works": [
-    {
-      "id": "d59f2nhx4wzm",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「皇明輔世編」（唐鶴徵）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }

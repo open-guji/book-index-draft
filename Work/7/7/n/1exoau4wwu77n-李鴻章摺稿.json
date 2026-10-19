@@ -3,38 +3,23 @@
   "id": "1exoau4wwu77n",
   "type": "work",
   "title": "李鴻章摺稿",
-  "authors": [
-    {
-      "name": "李鴻章",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7la7uay6h4ehfawq"
+  "merged_into": "d59fxrwsjl6p",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "李鴻章"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "李鴻章摺稿不分卷",
+        "author_info": "清李鴻章（薛福成）撰",
+        "section": "史部/政書類/公牘之屬",
+        "summary": "共 1 個版本：稿本（南京圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "李鴻章摺稿不分卷",
-      "author_info": "清李鴻章（薛福成）撰",
-      "section": "史部/政書類/公牘之屬",
-      "summary": "共 1 個版本：稿本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：12c2j2aim0p0ic8d\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59fxrwsjl6p",
-      "relation": "related",
-      "note": "史部E另立（diffauth）：總目記錄「李鴻章摺稿」（李鴻章）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

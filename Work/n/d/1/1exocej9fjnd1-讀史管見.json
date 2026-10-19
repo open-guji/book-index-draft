@@ -3,38 +3,23 @@
   "id": "1exocej9fjnd1",
   "type": "work",
   "title": "讀史管見",
-  "authors": [
-    {
-      "name": "胡寅",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7megldjwhmz5v57g"
+  "merged_into": "d59f2hsw3cao",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "胡寅"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "讀史管見三十卷目錄二卷",
+        "author_info": "宋胡寅撰",
+        "section": "史部/史評類/議論之屬",
+        "summary": "共 4 個版本：明崇禎間張溥刻清張紹祖等重刻本（湖北省圖書館、山東省圖書館、南京圖書館、北京大學圖書館）；明崇禎八年張溥刻本（南京圖書館、天一閣文物保管所、北京大學圖書館、上海圖書館）；清抄本（南京圖書館）；清康熙五十三年刻本（國家圖書館、北京大學圖書館、上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "讀史管見三十卷目錄二卷",
-      "author_info": "宋胡寅撰",
-      "section": "史部/史評類/議論之屬",
-      "summary": "共 4 個版本：明崇禎間張溥刻清張紹祖等重刻本（湖北省圖書館、山東省圖書館、南京圖書館、北京大學圖書館）；明崇禎八年張溥刻本（南京圖書館、天一閣文物保管所、北京大學圖書館、上海圖書館）；清抄本（南京圖書館）；清康熙五十三年刻本（國家圖書館、北京大學圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mn25osd4rxg6s186、nslr0nv7ve7n8477、0iegm4uiqjt3yi8j、8ymzg4ckqd2e61k8\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-02.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））",
-  "related_works": [
-    {
-      "id": "d59f2hsw3cao",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「讀史管見」（胡寅）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }

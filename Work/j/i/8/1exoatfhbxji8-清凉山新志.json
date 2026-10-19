@@ -3,38 +3,23 @@
   "id": "1exoatfhbxji8",
   "type": "work",
   "title": "清凉山新志",
-  "authors": [
-    {
-      "name": "釋老藏丹巴",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pswn7xav2j4cuq8p"
+  "merged_into": "d59f2ndx8em8",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋老藏丹巴"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "清凉山新志十卷",
+        "author_info": "清釋老藏丹巴撰",
+        "section": "史部/地理類/山水志之屬/山",
+        "summary": "共 1 個版本：清康熙間刻本（山東省圖書館、浙江圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "清凉山新志十卷",
-      "author_info": "清釋老藏丹巴撰",
-      "section": "史部/地理類/山水志之屬/山",
-      "summary": "共 1 個版本：清康熙間刻本（山東省圖書館、浙江圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：v4bcr1zv0bvqf4b4\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2ndx8em8",
-      "relation": "related",
-      "note": "史部E另立（diffauth）：總目記錄「清凉山新志」（釋老藏丹巴）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

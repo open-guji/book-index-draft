@@ -3,38 +3,23 @@
   "id": "1exp0i3qcuvpe",
   "type": "work",
   "title": "綱目四鑑錄",
-  "authors": [
-    {
-      "name": "尹會一",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/y6xcbr6ew7m227ne"
+  "merged_into": "d59fy3q8zwg1",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "尹會一"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "綱目四鑑錄十六卷",
+        "author_info": "清尹會一輯",
+        "section": "史部/史鈔類/通代之屬",
+        "summary": "共 1 個版本：清乾隆間刻本（清華大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "綱目四鑑錄十六卷",
-      "author_info": "清尹會一輯",
-      "section": "史部/史鈔類/通代之屬",
-      "summary": "共 1 個版本：清乾隆間刻本（清華大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：x05pso4pgt7urfaf\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：no_main_author）",
-  "related_works": [
-    {
-      "id": "d59f2ngvzke9",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（綱目四鑑錄）"
-    }
-  ]
+    ]
+  }
 }

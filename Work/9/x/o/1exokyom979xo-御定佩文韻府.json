@@ -3,41 +3,24 @@
   "id": "1exokyom979xo",
   "type": "work",
   "title": "御定佩文韻府",
-  "authors": [
-    {
-      "name": "張玉書",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/nu3yzbb2j8f4jshk"
+  "merged_into": "d59f2nm3l6v5",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "張玉書",
+      "陳廷敬"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "御定佩文韻府四百四十四卷",
+        "author_info": "清張玉書、陳廷敬等撰",
+        "section": "叢書部/雜纂類/清代前期",
+        "summary": "共 1 個版本：（臺北“故宮博物院”）"
       }
-    },
-    {
-      "name": "陳廷敬",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qb68qfziudz6seuh"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "御定佩文韻府四百四十四卷",
-      "author_info": "清張玉書、陳廷敬等撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（臺北“故宮博物院”）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 3foq2vwr7hq50ldh（摛藻堂四庫全書薈要四百六十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：oxcqsldljmnpndl2"
+    ]
+  }
 }

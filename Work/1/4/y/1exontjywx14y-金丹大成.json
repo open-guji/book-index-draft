@@ -3,31 +3,23 @@
   "id": "1exontjywx14y",
   "type": "work",
   "title": "金丹大成",
-  "authors": [
-    {
-      "name": "蕭廷芝",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/t42yx0qk5ew26862"
+  "merged_into": "d59fxybv9wjm",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "蕭廷芝"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "金丹大成一卷",
+        "author_info": "元蕭廷芝撰",
+        "section": "子部/道家類/道教之屬/修煉",
+        "summary": "共 2 個版本：道藏輯要本（馆藏未载）；重刊道藏輯要本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "金丹大成一卷",
-      "author_info": "元蕭廷芝撰",
-      "section": "子部/道家類/道教之屬/修煉",
-      "summary": "共 2 個版本：道藏輯要本（馆藏未载）；重刊道藏輯要本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lpoihlx6rrjkyf6k、zdupx5ztcarl2rkp\nauto-split:存疑未并\nE6 第 552 批新建（hold 清零：jyiyi；原 hold 原因：）"
+    ]
+  }
 }

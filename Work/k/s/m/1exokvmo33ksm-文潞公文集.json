@@ -3,49 +3,31 @@
   "id": "1exokvmo33ksm",
   "type": "work",
   "title": "文潞公文集",
-  "authors": [
-    {
-      "name": "文彥博",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/tkovw4elv3x77b4n"
+  "merged_into": "d59f2hulwbuo",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "文彥博"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "文潞公文集四十卷",
+        "author_info": "宋文彦博撰",
+        "section": "叢書部/郡邑類",
+        "summary": "共 1 個版本：（山東省圖書館、天津圖書館、上海圖書館、遼寧省圖書館、國家圖書館、甘肅省圖書館、中國科學院圖書館、南京圖書館、復旦大學圖書館、北京大學圖書館、廣西壯族自治區桂林圖書館、四川省圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "文潞公文集四十卷校勘記一卷",
+        "author_info": "宋文彥博撰",
+        "section": "集部/別集類/宋代之屬",
+        "summary": "共 4 個版本：繆荃孫雲輪閣抄本（山東省圖書館）；清抄本（浙江圖書館）；明嘉靖五年王溱刻本（上海圖書館、南京圖書館、北京大學圖書館、國家圖書館、遼寧省圖書館）；四庫全書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "文潞公文集四十卷",
-      "author_info": "宋文彦博撰",
-      "section": "叢書部/郡邑類",
-      "summary": "共 1 個版本：（山東省圖書館、天津圖書館、上海圖書館、遼寧省圖書館、國家圖書館、甘肅省圖書館、中國科學院圖書館、南京圖書館、復旦大學圖書館、北京大學圖書館、廣西壯族自治區桂林圖書館、四川省圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "文潞公文集四十卷校勘記一卷",
-      "author_info": "宋文彥博撰",
-      "section": "集部/別集類/宋代之屬",
-      "summary": "共 4 個版本：繆荃孫雲輪閣抄本（山東省圖書館）；清抄本（浙江圖書館）；明嘉靖五年王溱刻本（上海圖書館、南京圖書館、北京大學圖書館、國家圖書館、遼寧省圖書館）；四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 cmu6ntfied8n5sxh（山右叢書初編三十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ewnj0o04ehqwpw3h\n同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）（源 Work 1exoprz3a9g5e《文潞公文集》已並入；其作者寫法：文彥博）",
-  "merged_in": [
-    {
-      "id": "1exoprz3a9g5e",
-      "title": "文潞公文集",
-      "at": "2026-10-18T03:14:57Z",
-      "by": "串6",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者併條（集部串6，作者別名與並條口徑-共用 A檔：同名）"
-    }
-  ]
+    ]
+  }
 }

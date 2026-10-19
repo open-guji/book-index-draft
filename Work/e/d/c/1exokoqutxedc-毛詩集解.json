@@ -3,38 +3,23 @@
   "id": "1exokoqutxedc",
   "type": "work",
   "title": "毛詩集解",
-  "authors": [
-    {
-      "name": "段昌武",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7e3vi6f4uj3khoo1"
+  "merged_into": "d59f2htivny8",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "段昌武"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "毛詩集解三十卷學詩總說一卷論詩總說一卷",
+        "author_info": "宋段昌武撰",
+        "section": "經部/詩類/傳說之屬",
+        "summary": "共 4 個版本：清抄本（復旦大學圖書館）；清抄本（國家圖書館）；四庫全書本（馆藏未载）；清抄本（國家圖書館、上海圖書館、復旦大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "毛詩集解三十卷學詩總說一卷論詩總說一卷",
-      "author_info": "宋段昌武撰",
-      "section": "經部/詩類/傳說之屬",
-      "summary": "共 4 個版本：清抄本（復旦大學圖書館）；清抄本（國家圖書館）；四庫全書本（馆藏未载）；清抄本（國家圖書館、上海圖書館、復旦大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：67azsuj6ppjaltej、12t6l0nmg2m1gbvb、hfoufvp04skubk11、86minwr7vyptwer1\nauto-split:存疑未并\nE6 第 528 批新建（hold 清零：jyiyi；原 hold 原因：）",
-  "related_works": [
-    {
-      "id": "d59f28n5qv42",
-      "relation": "related",
-      "note": "總目經部疑同書，另立（晋升前去重復核第三輪：不確定同書不并）"
-    }
-  ]
+    ]
+  }
 }

@@ -3,31 +3,23 @@
   "id": "1expfuqhcd7nn",
   "type": "work",
   "title": "廣百論釋論",
-  "authors": [
-    {
-      "name": "釋玄奘",
-      "role": "譯",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/vu8jya2qjlcldt0x"
+  "merged_into": "d59fxxpsuy2p",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋玄奘"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "廣百論釋論十卷",
+        "author_info": "執師子國聖天（提婆羅）菩薩本;天竺護法菩薩釋;唐釋玄奘譯",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 3 個版本：（馆藏未载）；（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "廣百論釋論十卷",
-      "author_info": "執師子國聖天（提婆羅）菩薩本;天竺護法菩薩釋;唐釋玄奘譯",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 3 個版本：（馆藏未载）；（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：rxrwnbchennqtsmr、5fzfp35x3gez0yia、rae13b5tliwbd7si\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 5201 批新建（hold 清零：zibu1-intake；原 hold 原因：未处置）"
+    ]
+  }
 }

@@ -3,48 +3,24 @@
   "id": "1exoc20vhdssl",
   "type": "work",
   "title": "大清現行新律例",
-  "authors": [
-    {
-      "name": "沈家本",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/fhmgrpfy1bk3abtk"
+  "merged_into": "d59f2mssj2tf",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "沈家本",
+      "俞廉三"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "大清現行新律例四十五卷",
+        "author_info": "沈家本、俞廉三等撰",
+        "section": "史部/政書類/刑法之屬/律例",
+        "summary": "共 1 個版本：清宣統元年法律館鉛印本（天津圖書館）"
       }
-    },
-    {
-      "name": "俞廉三",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/bqutd4tmfs8qard5"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "大清現行新律例四十五卷",
-      "author_info": "沈家本、俞廉三等撰",
-      "section": "史部/政書類/刑法之屬/律例",
-      "summary": "共 1 個版本：清宣統元年法律館鉛印本（天津圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：a3tec61fz3lpcwj4\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））",
-  "related_works": [
-    {
-      "id": "d59f2mssj2tf",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「大清現行新律例」（沈家本、俞廉三）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }

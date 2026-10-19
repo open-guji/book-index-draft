@@ -3,31 +3,23 @@
   "id": "1exodcj39qwas",
   "type": "work",
   "title": "公法導源",
-  "authors": [
-    {
-      "name": "胡薇元",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gyj2zocs6jdbnqi6"
+  "merged_into": "d59fy0hvo0le",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "胡薇元"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "公法導源不分卷",
+        "author_info": "清胡薇元撰",
+        "section": "史部/政書類/邦交之屬",
+        "summary": "共 1 個版本：清光緒二十六年刻本（上海圖書館、國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "公法導源不分卷",
-      "author_info": "清胡薇元撰",
-      "section": "史部/政書類/邦交之屬",
-      "summary": "共 1 個版本：清光緒二十六年刻本（上海圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：0h5ybe4az0wnz7km\nE6 第 422 批新建（hold 清零：M-new；原 hold 原因：）"
+    ]
+  }
 }
