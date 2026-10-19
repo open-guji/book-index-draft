@@ -3,45 +3,31 @@
   "id": "1exol08lzp8na",
   "type": "work",
   "title": "洞極真經",
-  "authors": [
-    {
-      "name": "關朗",
-      "role": "撰",
-      "dynasty": "三國",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/zl4aoxgf6ryaxrnk"
+  "merged_into": "d59f2ofwre9t",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "關朗"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "洞極真經一卷",
+        "author_info": "北魏關朗撰",
+        "section": "叢書部/輯佚類",
+        "summary": "共 1 個版本：（天津圖書館、湖北省圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "洞極真經一卷",
+        "author_info": "北魏關朗撰;清馬國翰輯",
+        "section": "子部/雜家類/雜學雜說之屬",
+        "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
       }
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "洞極真經一卷",
-      "author_info": "北魏關朗撰",
-      "section": "叢書部/輯佚類",
-      "summary": "共 1 個版本：（天津圖書館、湖北省圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "洞極真經一卷",
-      "author_info": "北魏關朗撰;清馬國翰輯",
-      "section": "子部/雜家類/雜學雜說之屬",
-      "summary": "共 1 個版本：玉函山房輯佚書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 615zvg71r3uq4ksn（玉函山房輯佚書六百二十二種附一種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：aykn7thfxso053ji\n主責任者「關朗」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n子部二串5並條 朝代異寫（源 Work 1exoli889v08y《洞極真經》已並入；其作者寫法：關朗）",
-  "merged_in": [
-    {
-      "id": "1exoli889v08y",
-      "title": "洞極真經",
-      "at": "2026-10-18T06:55:59Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 朝代異寫"
-    }
-  ]
+    ]
+  }
 }

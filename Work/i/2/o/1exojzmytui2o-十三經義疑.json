@@ -3,31 +3,23 @@
   "id": "1exojzmytui2o",
   "type": "work",
   "title": "十三經義疑",
-  "authors": [
-    {
-      "name": "吳浩",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/l4fdfet41jnmxwvg"
+  "merged_into": "d59f2mb5xmgw",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "吳浩"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "十三經義疑十二卷",
+        "author_info": "清吴浩撰",
+        "section": "經部/群經總義類/傳說之屬",
+        "summary": "共 1 個版本：四庫全書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "十三經義疑十二卷",
-      "author_info": "清吴浩撰",
-      "section": "經部/群經總義類/傳說之屬",
-      "summary": "共 1 個版本：四庫全書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：5qcj0zxfflbk3spx\nauto-split:存疑未并\nE6 第 524 批新建（hold 清零：jyiyi；原 hold 原因：）"
+    ]
+  }
 }

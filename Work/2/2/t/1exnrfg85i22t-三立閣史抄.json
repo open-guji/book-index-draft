@@ -3,31 +3,23 @@
   "id": "1exnrfg85i22t",
   "type": "work",
   "title": "三立閣史抄",
-  "authors": [
-    {
-      "name": "李鎔經",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/c20y1i8oytl6c3c4"
+  "merged_into": "d59fxsgr3sox",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "李鎔經"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "三立閣史抄二卷",
+        "author_info": "清李鎔經撰",
+        "section": "史部/傳記類/總傳之屬",
+        "summary": "共 1 個版本：雪華館叢編本（南京圖書館）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "三立閣史抄二卷",
-      "author_info": "清李鎔經撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 1 個版本：雪華館叢編本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：uug3rp88ppqame0h"
+    ]
+  }
 }
