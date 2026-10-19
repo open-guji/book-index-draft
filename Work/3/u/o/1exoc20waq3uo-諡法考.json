@@ -3,31 +3,23 @@
   "id": "1exoc20waq3uo",
   "type": "work",
   "title": "諡法考",
-  "authors": [
-    {
-      "name": "王士禛",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": null
+  "merged_into": "d59f2mwqvaio",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "王士禛"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "諡法考一卷",
+        "author_info": "清王士禛撰",
+        "section": "史部/政書類/儀制之屬/謚諱",
+        "summary": "共 3 個版本：悔堂手鈔二十種本（馆藏未载）；昭代叢書本（馆藏未载）；王漁洋遺書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "諡法考一卷",
-      "author_info": "清王士禛撰",
-      "section": "史部/政書類/儀制之屬/謚諱",
-      "summary": "共 3 個版本：悔堂手鈔二十種本（馆藏未载）；昭代叢書本（馆藏未载）；王漁洋遺書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ds8nbe1xzol0km53、65cxza5j04p1qlor、nh7iqq0ombxjuizj\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））"
+    ]
+  }
 }

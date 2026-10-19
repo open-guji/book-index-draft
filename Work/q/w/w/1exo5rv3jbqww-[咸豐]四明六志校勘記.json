@@ -3,41 +3,24 @@
   "id": "1exo5rv3jbqww",
   "type": "work",
   "title": "[咸豐]四明六志校勘記",
-  "authors": [
-    {
-      "name": "徐時棟",
-      "role": "纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/xvkuv4xnbl8wtl8b"
+  "merged_into": "d59fxplfjzsy",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "徐時棟",
+      "陳子湘"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "[咸豐]四明六志校勘記九卷",
+        "author_info": "清徐時棟纂;清陳子湘補纂",
+        "section": "史部/方志類/地志之屬",
+        "summary": "共 1 個版本：宋元四明六志本（湖北省圖書館）"
       }
-    },
-    {
-      "name": "陳子湘",
-      "role": "補纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5jpfqa7tu2vsse5v"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "[咸豐]四明六志校勘記九卷",
-      "author_info": "清徐時棟纂;清陳子湘補纂",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 1 個版本：宋元四明六志本（湖北省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：r8h2chpdv07j186m\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者"
+    ]
+  }
 }

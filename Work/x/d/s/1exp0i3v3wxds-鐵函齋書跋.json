@@ -3,56 +3,7 @@
   "id": "1exp0i3v3wxds",
   "type": "work",
   "title": "鐵函齋書跋",
-  "authors": [
-    {
-      "name": "楊賓",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/vxxbi7fgh1o7rx5j"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "鐵函齋書跋四卷",
-      "author_info": "清楊賓撰",
-      "section": "史部/金石考古類/總志之屬",
-      "summary": "共 2 個版本：江氏聚珍版叢書本（馆藏未载）；昭代叢書本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "鐵函齋書跋三卷",
-      "author_info": "清楊賓撰",
-      "section": "子部/藝術類/書畫之屬/書",
-      "summary": "共 4 個版本：民國五年唐醉石抄本（南京圖書館）；清道光二十七年粤東糧道署刻本（國家圖書館、上海圖書館）；清十芝堂刻本（南京圖書館）；清筠石山房抄本（北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vnphv4vlh0giy2zd、nlgyci57122wjzz1\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）\n子部四并条 A档 同題同作者（源 Work 1exp2jk3vgao1《鐵函齋書跋》已並入；其作者寫法：楊賓）",
-  "related_works": [
-    {
-      "id": "d59f2ngmxon4",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（鐵函齋書跋）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp2jk3vgao1",
-      "title": "鐵函齋書跋",
-      "at": "2026-10-18T04:01:26Z",
-      "by": "子部四",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部四并条 A档 同題同作者"
-    }
-  ]
+  "merged_into": "d59f2ngmxon4",
+  "revision": "1.0.0",
+  "revised_at": "2026-10-19"
 }

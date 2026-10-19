@@ -3,81 +3,33 @@
   "id": "1exocfo83q58h",
   "type": "work",
   "title": "太湖備考",
-  "authors": [
-    {
-      "name": "吳曾",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/eewog2owz656if2n"
+  "merged_into": "d59f2mdpe5mo",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "吳曾",
+      "鄭言紹",
+      "金友理"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "太湖備考十六卷首一卷續編四卷湖程紀畧一卷",
+        "author_info": "清金友理撰;（續編）清鄭言紹撰;（湖程紀畧）清吳曾撰",
+        "section": "史部/地理類/山水志之屬/水",
+        "summary": "共 1 個版本：清乾隆十五年藝蘭圃刻光緒二十九年續刻本（國家圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "太湖備考十六卷首一卷湖程紀畧一卷",
+        "author_info": "清金友理撰;（湖程紀畧）清吳曾撰",
+        "section": "史部/地理類/山水志之屬/水",
+        "summary": "共 1 個版本：清乾隆十五年藝蘭圃刻本（上海圖書館、南京圖書館、浙江圖書館、國家圖書館）"
       }
-    },
-    {
-      "name": "鄭言紹",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/d0h4u3klf27hm5pc"
-      }
-    },
-    {
-      "name": "金友理",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/p3inaq722p8mnu70"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "太湖備考十六卷首一卷續編四卷湖程紀畧一卷",
-      "author_info": "清金友理撰;（續編）清鄭言紹撰;（湖程紀畧）清吳曾撰",
-      "section": "史部/地理類/山水志之屬/水",
-      "summary": "共 1 個版本：清乾隆十五年藝蘭圃刻光緒二十九年續刻本（國家圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "太湖備考十六卷首一卷湖程紀畧一卷",
-      "author_info": "清金友理撰;（湖程紀畧）清吳曾撰",
-      "section": "史部/地理類/山水志之屬/水",
-      "summary": "共 1 個版本：清乾隆十五年藝蘭圃刻本（上海圖書館、南京圖書館、浙江圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：4iwz4hcuhxghf7u3\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3uuv1ms《太湖備考》已並入；其作者寫法：金友理、吳曾）",
-  "related_works": [
-    {
-      "id": "d59f2mdpe5mo",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「太湖備考」（吳曾、鄭言紹、金友理）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "1exp0i3uv6a68",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（太湖備考續編）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0i3uuv1ms",
-      "title": "太湖備考",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+    ]
+  }
 }

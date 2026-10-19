@@ -3,51 +3,25 @@
   "id": "1exp05o9njimc",
   "type": "work",
   "title": "[乾隆]鬰林州志",
-  "authors": [
-    {
-      "name": "邱桂山",
-      "role": "修",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/cy3msaxevrjdj3x5"
+  "merged_into": "d59f2n4ohfk0",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "邱桂山",
+      "劉玉麟",
+      "秦兆鯨"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "[乾隆]鬰林州志十卷",
+        "author_info": "清邱桂山修;清劉玉麟、秦兆鯨纂",
+        "section": "史部/方志類/地志之屬",
+        "summary": "共 2 個版本：清乾隆五十七年刻本（中國科學院圖書館、國家圖書館、浙江圖書館、天津圖書館、上海圖書館、湖北省圖書館）；抄本（南京圖書館）"
       }
-    },
-    {
-      "name": "劉玉麟",
-      "role": "纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/kgwee53w9n2p9d2p"
-      }
-    },
-    {
-      "name": "秦兆鯨",
-      "role": "纂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/a1hjmrio15ma45zy"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "[乾隆]鬰林州志十卷",
-      "author_info": "清邱桂山修;清劉玉麟、秦兆鯨纂",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 2 個版本：清乾隆五十七年刻本（中國科學院圖書館、國家圖書館、浙江圖書館、天津圖書館、上海圖書館、湖北省圖書館）；抄本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：apwmk8m5uhf4nh58、htyhsc50rpt62n5s\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+    ]
+  }
 }

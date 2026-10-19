@@ -3,49 +3,31 @@
   "id": "1exokmunzcdmu",
   "type": "work",
   "title": "石林避暑錄話",
-  "authors": [
-    {
-      "name": "葉夢得",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/p4sd0r0tocsipqka"
+  "merged_into": "d59f2hf4pq81",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "葉夢得"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "石林避暑錄話四卷",
+        "author_info": "宋葉夢得撰",
+        "section": "叢書部/雜纂類/民國以來",
+        "summary": "共 1 個版本：鉛印項氏宛委堂本（齊齊哈爾市圖書館、遼寧省圖書館、遼寧大學圖書館、日本京都大學人文科學研究所、大連市圖書館、瀋陽師範大學圖書館、瀋陽市圖書館、哈爾濱市圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "石林避暑錄話四卷",
+        "author_info": "宋葉夢得撰",
+        "section": "子部/雜家類/雜學雜說之屬",
+        "summary": "共 1 個版本：明項德棻宛委堂刻本（湖南省圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "石林避暑錄話四卷",
-      "author_info": "宋葉夢得撰",
-      "section": "叢書部/雜纂類/民國以來",
-      "summary": "共 1 個版本：鉛印項氏宛委堂本（齊齊哈爾市圖書館、遼寧省圖書館、遼寧大學圖書館、日本京都大學人文科學研究所、大連市圖書館、瀋陽師範大學圖書館、瀋陽市圖書館、哈爾濱市圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "石林避暑錄話四卷",
-      "author_info": "宋葉夢得撰",
-      "section": "子部/雜家類/雜學雜說之屬",
-      "summary": "共 1 個版本：明項德棻宛委堂刻本（湖南省圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 k5oeu2a4ex1ifz20（宋人小説（宋元人說部書）二十八種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lvl45madx3p6yhnb\n子部二串5並條 A檔（源 Work 1exoli8arrcow《石林避暑錄話》已並入；其作者寫法：葉夢得）",
-  "merged_in": [
-    {
-      "id": "1exoli8arrcow",
-      "title": "石林避暑錄話",
-      "at": "2026-10-18T06:53:24Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 A檔"
-    }
-  ]
+    ]
+  }
 }

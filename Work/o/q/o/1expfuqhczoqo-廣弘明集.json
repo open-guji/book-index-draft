@@ -3,31 +3,23 @@
   "id": "1expfuqhczoqo",
   "type": "work",
   "title": "廣弘明集",
-  "authors": [
-    {
-      "name": "釋道宣",
-      "role": "輯",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/a0sk3gmdsi1ht3zc"
+  "merged_into": "d59f28kf3vgn",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋道宣"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "廣弘明集三十卷",
+        "author_info": "唐釋道宣輯",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 5 個版本：（馆藏未载）；（馆藏未载）；（上海圖書館、寧夏壽佛寺、南京圖書館、福州市雪峰崇聖寺、蘇州市西園寺、重慶市慈雲寺、青島市湛山寺、南陽市水帘寺、國家圖書館、哈爾濱市極樂寺、大同市吉祥寺）；（馆藏未载）；（日本龍谷大學）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "廣弘明集三十卷",
-      "author_info": "唐釋道宣輯",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 5 個版本：（馆藏未载）；（馆藏未载）；（上海圖書館、寧夏壽佛寺、南京圖書館、福州市雪峰崇聖寺、蘇州市西園寺、重慶市慈雲寺、青島市湛山寺、南陽市水帘寺、國家圖書館、哈爾濱市極樂寺、大同市吉祥寺）；（馆藏未载）；（日本龍谷大學）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lw12vsrv04es28o0、hj6q1hldhidfk5fg、7d0vtz34rte1stip、shbogk33yireok0c、ojjrd4138vsearko\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 5201 批新建（hold 清零：zibu1-intake；原 hold 原因：未处置）"
+    ]
+  }
 }

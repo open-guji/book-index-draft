@@ -3,38 +3,31 @@
   "id": "1exoatfgo7i80",
   "type": "work",
   "title": "風土記",
-  "authors": [
-    {
-      "name": "周處",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/26a83anmp2thqpoh"
+  "merged_into": "d59fxvyqlxj5",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "周處"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "風土記一卷",
+        "author_info": "晉周處撰",
+        "section": "史部/地理類/雜志之屬",
+        "summary": "共 3 個版本：五朝小說大觀本（馆藏未载）；五朝小說本（馆藏未载）；說郛本（浙江圖書館）"
+      },
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "晉周處風土記一卷",
+        "author_info": "晉周處撰;清黃奭輯",
+        "section": "史部/地理類/雜志之屬",
+        "summary": "共 1 個版本：漢學堂知足齋叢書本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "晉",
-  "dynasty_basis": "author_propagation",
-  "period": "jin",
-  "period_basis": "據 authors[0].dynasty「晉」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "風土記一卷",
-      "author_info": "晉周處撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 3 個版本：五朝小說大觀本（馆藏未载）；五朝小說本（馆藏未载）；說郛本（浙江圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lht167b2a717jtef、hsmmlqevwvsru5o4、veqz6j5xkr52m32h\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条1卷，目标3卷））",
-  "related_works": [
-    {
-      "id": "d59f27vt8dtv",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「風土記」（周處）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条1卷，目标3卷）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

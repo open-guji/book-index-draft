@@ -3,38 +3,23 @@
   "id": "1exoau4xhfv2c",
   "type": "work",
   "title": "重刊救荒補遺書",
-  "authors": [
-    {
-      "name": "董煟",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/swg2b0lsjndp586z"
+  "merged_into": "d59f2njdks8y",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "董煟"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "重刊救荒補遺書二卷",
+        "author_info": "宋董煟撰;元張光大增;明朱熊補;明王崇慶釋斷",
+        "section": "史部/政書類/邦計之屬/荒政",
+        "summary": "共 1 個版本：清同治八年湖北崇文書局刻本（國家圖書館、山東省圖書館、上海圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "重刊救荒補遺書二卷",
-      "author_info": "宋董煟撰;元張光大增;明朱熊補;明王崇慶釋斷",
-      "section": "史部/政書類/邦計之屬/荒政",
-      "summary": "共 1 個版本：清同治八年湖北崇文書局刻本（國家圖書館、山東省圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yvlvlcju6id3eykk\n責任者 role 異常未寫入：王崇慶釋斷\nE6 第 403 批新建（hold 清零：史部E判定表 J-diffauth 另立；原 hold 原因：auto-split:同名未并（同题异作者，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2njdks8y",
-      "relation": "related",
-      "note": "史部E另立（diffauth）：總目記錄「重刊救荒補遺書」（董煟）與既有 Work 題名相同或相近而不可證同書（同名未并（同题异作者，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

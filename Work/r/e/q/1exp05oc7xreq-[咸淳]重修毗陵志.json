@@ -3,31 +3,23 @@
   "id": "1exp05oc7xreq",
   "type": "work",
   "title": "[咸淳]重修毗陵志",
-  "authors": [
-    {
-      "name": "史能之",
-      "role": "纂",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rvhq3hd7v8kxh75r"
+  "merged_into": "d59f2hgd1fcx",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "史能之"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "[咸淳]重修毗陵志三十卷",
+        "author_info": "宋史能之纂",
+        "section": "史部/方志類/地志之屬",
+        "summary": "共 6 個版本：宋咸淳四年刻本（日本靜嘉堂文庫）；清乾隆五十年張德榮抄本（國家圖書館）；清嘉慶二十五年趙懷玉刻本（浙江圖書館、上海圖書館、國家圖書館、天津圖書館、南京圖書館、北京大學圖書館、湖北省圖書館）；抄本（南京圖書館）；清抄本（北京大學圖書館、上海圖書館、南京圖書館）；明初刻本（國家圖書館）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "[咸淳]重修毗陵志三十卷",
-      "author_info": "宋史能之纂",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 6 個版本：宋咸淳四年刻本（日本靜嘉堂文庫）；清乾隆五十年張德榮抄本（國家圖書館）；清嘉慶二十五年趙懷玉刻本（浙江圖書館、上海圖書館、國家圖書館、天津圖書館、南京圖書館、北京大學圖書館、湖北省圖書館）；抄本（南京圖書館）；清抄本（北京大學圖書館、上海圖書館、南京圖書館）；明初刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：kaa3331lqzowv1mw、vd5oqrkwrhftc5eg、27vp6s7jyoihfcnh、i3gq1807u0v1e13z、b0vuwjrvjuzeh72r、lk02eac1trqzsx5n\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+    ]
+  }
 }

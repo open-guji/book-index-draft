@@ -3,38 +3,23 @@
   "id": "1exokzoohsutc",
   "type": "work",
   "title": "古今譯經圖紀",
-  "authors": [
-    {
-      "name": "釋靖邁",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ybxd8ey1ywad3bre"
+  "merged_into": "d59f28lx3xfn",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋靖邁"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "古今譯經圖紀四卷",
+        "author_info": "唐釋靖邁撰",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 6 個版本：宋紹興十八年福州開元寺刻（馆藏未载）；宋元祐八至九年福州東禪等覺院刻（馆藏未载）；宋元間磧砂延聖院刻（馆藏未载）；唐寫本（馆藏未载）；（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古今譯經圖紀四卷",
-      "author_info": "唐釋靖邁撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 6 個版本：宋紹興十八年福州開元寺刻（馆藏未载）；宋元祐八至九年福州東禪等覺院刻（馆藏未载）；宋元間磧砂延聖院刻（馆藏未载）；唐寫本（馆藏未载）；（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：08zz4ondskik650l、toui0arqguiulwyw、r8qkafqm76r1kvou、rac4flch76rvulxo\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u91cb\\u5bb6\\u985e\", \"l3\": \"\\u5927\\u85cf\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u91cb\\u5bb6\\u985e\", \"l3\": \"\\u64b0\\u8ff0\\u4e4b\\u5c6c\", \"l4\": \"\\u76ee\\u9304\\u90e8\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 541 批新建（hold 清零：jyiyi；原 hold 原因：）\n總目版本待定（庫內已有 Book 11soe57loexa8、11soe57loexa9、11soe57loexaa、11soe57loexab：宋紹興十八年福州開元寺刻、宋元祐八至九年福州東禪等覺院刻、宋元間磧砂延聖院刻、唐寫本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 801 批；lc3ifdsqwqumxcu3、ybtyu8fr5fh8v18q）；總目分類：子部／釋家類／大藏之屬",
-  "related_works": [
-    {
-      "id": "d59f28lx3xfn",
-      "relation": "related",
-      "note": "同題異作者待核"
-    }
-  ]
+    ]
+  }
 }

@@ -3,51 +3,24 @@
   "id": "1exp0i4059szm",
   "type": "work",
   "title": "宗室伯茀太史絕筆稿",
-  "additional_titles": [
-    "壽富"
-  ],
-  "authors": [
-    {
-      "name": "壽富",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/wtcuqzrd841uc8l3"
+  "merged_into": "d59fsaajuxom",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "壽富",
+      "高鳳岐"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "宗室伯茀太史（壽富）絕筆稿一卷附庚子十二月初四日中外日報專件一卷",
+        "author_info": "清壽富撰並書;（庚子十二月初四日中外日報專件）清高鳳岐撰",
+        "section": "史部/傳記類/別傳之屬",
+        "summary": "共 1 個版本：清末刻本（上海圖書館）"
       }
-    },
-    {
-      "name": "高鳳岐",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7d0h8tm0djhlmbtm"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "宗室伯茀太史（壽富）絕筆稿一卷附庚子十二月初四日中外日報專件一卷",
-      "author_info": "清壽富撰並書;（庚子十二月初四日中外日報專件）清高鳳岐撰",
-      "section": "史部/傳記類/別傳之屬",
-      "summary": "共 1 個版本：清末刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：m14psk6uqr45ts8g\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：near_dup）",
-  "related_works": [
-    {
-      "id": "d59fsaajuxom",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（宗室伯茀太史絕筆稿）"
-    }
-  ]
+    ]
+  }
 }

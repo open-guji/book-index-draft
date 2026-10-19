@@ -3,31 +3,23 @@
   "id": "1expfuqhj8flu",
   "type": "work",
   "title": "景德傳燈錄",
-  "authors": [
-    {
-      "name": "釋道原",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/z60ui7xwx3bpuyiv"
+  "merged_into": "d59f2hqhbda8",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "釋道原"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "景德傳燈錄三十卷",
+        "author_info": "宋釋道原撰",
+        "section": "子部/釋家類/大藏之屬",
+        "summary": "共 4 個版本：（馆藏未载）；（日本龍谷大學）；（馆藏未载）；（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "景德傳燈錄三十卷",
-      "author_info": "宋釋道原撰",
-      "section": "子部/釋家類/大藏之屬",
-      "summary": "共 4 個版本：（馆藏未载）；（日本龍谷大學）；（馆藏未载）；（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：s3ee0v732azxaccj、048v6veo7758xuci、vnbucd4wavvbbwuz、no1esklmnyb20egl\nauto-split:存疑未并\nE6 第 5201 批新建（hold 清零：zibu1-intake；原 hold 原因：未处置）"
+    ]
+  }
 }

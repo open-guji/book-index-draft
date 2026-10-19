@@ -3,38 +3,23 @@
   "id": "1exoau4wqlgcm",
   "type": "work",
   "title": "皇朝通志",
-  "authors": [
-    {
-      "name": "愛新覺羅·弘曆",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/kjt3wt14vjj10p1e"
+  "merged_into": "d59f2ntwu0ao",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "愛新覺羅·弘曆"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "皇朝通志二百卷",
+        "author_info": "清乾隆三十二年敕撰",
+        "section": "史部/政書類/通制之屬",
+        "summary": "共 3 個版本：四庫全書本（馆藏未载）；九通本（馆藏未载）；十通本（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "皇朝通志二百卷",
-      "author_info": "清乾隆三十二年敕撰",
-      "section": "史部/政書類/通制之屬",
-      "summary": "共 3 個版本：四庫全書本（馆藏未载）；九通本（馆藏未载）；十通本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：t3ypavbhso0xm850、hynahukbeo5dfioo、zjhsdg5883xyww8a\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（题名同、卷数相符，无作者可证，另立＋related））\nE史 426跨批同題待判並入（Sabine 10-16 批）：總目記錄 bc3y3ld4l6f7vc45、3x60b72uprgxrpgf、gt2nfpqrnvp2l5ws、yibxk6m52ory4x2y、fh7bp1tced0fbmip 與本 Work 同題同作者同朝，Book 併入本 Work；卷數缺，抽樣 20/20 同書異版",
-  "related_works": [
-    {
-      "id": "d59f2ntwu0ao",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「皇朝通志」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（题名同、卷数相符，无作者可证，另立＋related）），判為不同著作（不並）；互為相關。"
-    }
-  ]
+    ]
+  }
 }

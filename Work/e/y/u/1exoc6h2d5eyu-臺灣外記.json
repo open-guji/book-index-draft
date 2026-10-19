@@ -3,56 +3,5 @@
   "id": "1exoc6h2d5eyu",
   "type": "work",
   "title": "臺灣外記",
-  "authors": [
-    {
-      "name": "江日升",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/p4fz6isp5hreajh0"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "臺灣外記三十卷",
-      "author_info": "清江日升撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 2 個版本：申報館叢書本（馆藏未载）；筆記小說大觀本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "臺灣外記十卷",
-      "author_info": "清江日昇撰",
-      "section": "子部/小說類/白話之屬/長篇",
-      "summary": "共 1 個版本：清刻本（北京大學圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gom1spqcvje3kkgk、65l0xr2trpqz14pk\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））\n跨朝代著录不同，同題同首位作者並條（用户10-18放行）（源 Work 1exomg3y8p340《臺灣外記》已並入；其作者寫法：江日昇）",
-  "related_works": [
-    {
-      "id": "d59f2mp6zldt",
-      "relation": "related",
-      "note": "晉升去重複核：疑同書，不並，互為相關"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exomg3y8p340",
-      "title": "臺灣外記",
-      "at": "2026-10-18T17:32:03Z",
-      "by": "串4",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "跨朝代著录不同，同題同首位作者並條（用户10-18放行）"
-    }
-  ]
+  "merged_into": "d59f2mp6zldt"
 }

@@ -3,41 +3,23 @@
   "id": "1exoc2souznk4",
   "type": "work",
   "title": "晉書",
-  "authors": [
-    {
-      "name": "太宗",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ftogejeowexfluwe"
+  "merged_into": "d59f28mxbgg0",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "太宗"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "晉書一百三十卷音義三卷附考證",
+        "author_info": "唐太宗撰;唐何超音義",
+        "section": "史部/紀傳類/叢編之屬",
+        "summary": "共 1 個版本：（湖北省圖書館、天津圖書館、復旦大學圖書館、浙江圖書館、國家圖書館、南京圖書館、遼寧省圖書館、上海圖書館、山東省圖書館、北京大學圖書館）"
       }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "晉書一百三十卷音義三卷附考證",
-      "author_info": "唐太宗撰;唐何超音義",
-      "section": "史部/紀傳類/叢編之屬",
-      "summary": "共 1 個版本：（湖北省圖書館、天津圖書館、復旦大學圖書館、浙江圖書館、國家圖書館、南京圖書館、遼寧省圖書館、上海圖書館、山東省圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：2lkzcz14fmd6h7ac、zkxfvq11oqajitvs\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-04.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））\n總目版本待定（庫內已有 Book 11so58bm1ahhi、11so58bm1ahhh：清同治十年金陵書局刻、民國二十三年景印宋本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；wty5po41oo7sur4d）；總目分類：史部／紀傳類／叢編之屬\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3rxcu0w《晉書》已並入；其作者寫法：太宗）",
-  "merged_in": [
-    {
-      "id": "1exp0i3rxcu0w",
-      "title": "晉書",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+    ]
+  }
 }

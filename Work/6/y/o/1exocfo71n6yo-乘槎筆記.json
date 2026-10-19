@@ -3,48 +3,23 @@
   "id": "1exocfo71n6yo",
   "type": "work",
   "title": "乘槎筆記",
-  "authors": [
-    {
-      "name": "斌椿",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pwh5bivrl58pcblm"
+  "merged_into": "d59fxwy468sg",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "斌椿"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "乘槎筆記一卷",
+        "author_info": "清斌椿撰",
+        "section": "史部/地理類/遊記之屬/紀行",
+        "summary": "共 1 個版本：（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "乘槎筆記一卷",
-      "author_info": "清斌椿撰",
-      "section": "史部/地理類/遊記之屬/紀行",
-      "summary": "共 1 個版本：（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：m7qazcojgdixxnux、r0oyf68z1dm4pfth、iwagsdlel1o3y5m8、l1rpbll6cmmxzr67、beznq6hucwe4ycv0、nbgioom12msaihmz、hb3jjqccr6x2jn46、lp5xa110aadwda1n、gcefxe05b7rmr7v3、8snl060a1npcim8z\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-01.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））\n總目版本待定（庫內已有 Book 11so5l747y0w3、11so5l747y0w8、11so5l747y0w5、11so5l747y0w9、11so5l747y0w2、11so5l747y0w6、11so5l747y0w7、11so5l747y0wa、11so5l747y0w4、11so5l747y0w1：鐵香室叢刻本、清吳氏二百蘭亭齋抄本、清題雨蒼氏抄本、清抄本、清同治十年刻本、清同治八年刻本、長恩閣校訂三代遺著本、小方壺齋輿地叢鈔本、清光緒十一年掃葉山房刻本、清同治八年京都琉璃厰二酉堂刻本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；jqjfw4l2af7erbom）；總目分類：史部／地理類／叢編之屬\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3phbwub《乘槎筆記》已並入；其作者寫法：斌椿）",
-  "merged_in": [
-    {
-      "id": "1exp0i3phbwub",
-      "title": "乘槎筆記",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59fxwy468sg",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「乘槎筆記」（斌椿）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+    ]
+  }
 }

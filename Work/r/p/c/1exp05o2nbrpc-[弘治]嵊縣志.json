@@ -3,51 +3,25 @@
   "id": "1exp05o2nbrpc",
   "type": "work",
   "title": "[弘治]嵊縣志",
-  "authors": [
-    {
-      "name": "周山",
-      "role": "纂",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/cin4rb1bbnsuu7x1"
+  "merged_into": "d59f6ekalt6u",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:07:07",
+    "by": "跨部查重",
+    "author_as_written": [
+      "周山",
+      "夏雷",
+      "徐恂"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "[弘治]嵊縣志十卷",
+        "author_info": "明徐恂修;明周山、夏雷纂",
+        "section": "史部/方志類/地志之屬",
+        "summary": "共 1 個版本：明弘治十四年刻本（上海圖書館）"
       }
-    },
-    {
-      "name": "夏雷",
-      "role": "纂",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qgdzkt8l66u107ai"
-      }
-    },
-    {
-      "name": "徐恂",
-      "role": "修",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qxpwdbcsci355av2"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "[弘治]嵊縣志十卷",
-      "author_info": "明徐恂修;明周山、夏雷纂",
-      "section": "史部/方志類/地志之屬",
-      "summary": "共 1 個版本：明弘治十四年刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：vooouypi6r8jbqgq\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 433 批新建（hold 清零：J-yiyi另立方志；原 hold 原因：tier=存疑）"
+    ]
+  }
 }

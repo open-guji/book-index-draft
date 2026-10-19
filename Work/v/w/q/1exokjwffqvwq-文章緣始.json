@@ -3,34 +3,23 @@
   "id": "1exokjwffqvwq",
   "type": "work",
   "title": "文章緣始",
-  "authors": [
-    {
-      "name": "任昉",
-      "role": "撰",
-      "dynasty": "南北朝",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/mzydkpxmrdkjm6at"
+  "merged_into": "d59f2868fmrl",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T04:27:34",
+    "by": "跨部查重",
+    "author_as_written": [
+      "任昉"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "文章緣始一卷",
+        "author_info": "題梁任昉撰",
+        "section": "叢書部/雜纂類/清代前期",
+        "summary": "共 1 個版本：（北京大學圖書館、國家圖書館）"
       }
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "文章緣始一卷",
-      "author_info": "題梁任昉撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（北京大學圖書館、國家圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 5r6s1kusv5glqokn（硯北偶鈔十二種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lph34selmv5ykdze\n主責任者「任昉」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period",
-  "related_works": [
-    {
-      "id": "d59f286tz08x",
-      "relation": "related",
-      "note": "复核疑同，不并，互链"
-    }
-  ]
+    ]
+  }
 }
