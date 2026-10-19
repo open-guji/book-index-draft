@@ -3,48 +3,23 @@
   "id": "1exp0gl47j6kk",
   "type": "work",
   "title": "蛻菴集",
-  "authors": [
-    {
-      "name": "張翥",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qra3xypqpyuysz4i"
+  "merged_into": "d59f2gp4l14x",
+  "merged_basis": {
+    "rule": "跨部查重",
+    "at": "2026-10-19T03:46:17",
+    "by": "跨部查重",
+    "author_as_written": [
+      "張翥"
+    ],
+    "indexed_by": [
+      {
+        "source": "中國古籍總目",
+        "source_bid": "1exjosng9241s",
+        "title_info": "蛻菴集五卷",
+        "author_info": "元張翥撰",
+        "section": "叢書部/雜纂類/清代前期",
+        "summary": "共 1 個版本：（馆藏未载）"
       }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "蛻菴集五卷",
-      "author_info": "元張翥撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（馆藏未载）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 km8m7uuxvsic8hh3（文淵閣四庫全書三千四百六十一種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：exfzu3gy4eykbrju\nauto-split:存疑未并\n叢書子目，同题既有 Work：多个同题同作者Work，未硬并，待查重线处理",
-  "related_works": [
-    {
-      "id": "d59f2gp4l14x",
-      "relation": "related",
-      "note": "多正式库候选，不并，互链"
-    },
-    {
-      "id": "d59fsa6xdqmd",
-      "relation": "related",
-      "note": "多正式库候选，不并，互链"
-    },
-    {
-      "id": "d59f6es53ksn",
-      "relation": "related",
-      "note": "多正式库候选，不并，互链"
-    }
-  ]
+    ]
+  }
 }
