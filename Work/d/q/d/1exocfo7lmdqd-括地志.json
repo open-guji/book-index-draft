@@ -3,43 +3,5 @@
   "id": "1exocfo7lmdqd",
   "type": "work",
   "title": "括地志",
-  "authors": [
-    {
-      "name": "李泰",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/smu5amu6ewvdbaz0"
-      }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "括地志八卷",
-      "author_info": "唐李泰等撰;清孫星衍輯",
-      "section": "史部/地理類/總志之屬",
-      "summary": "共 8 個版本：正覺樓叢刻本（馆藏未载）；岱南閣叢書本（馆藏未载）；槐廬叢書本（馆藏未载）；清抄本（武漢大學圖書館）；黃氏逸書考本（馆藏未载）；漢學堂叢書本（馆藏未载）；南菁札記本（馆藏未载）；玉函山房輯佚書補編本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lu08mpi5rc7oyt1w、1kkww5chiq7bcosi、j74jofnxjwnjg4wq、lt547as8fe8ergfd、ixsice78trhkku1a、q1mfja2i3yy3dyzg、8uqkybmv8wj6r6rs、4cprk1hfqxd3vquz\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（明≠唐）））",
-  "related_works": [
-    {
-      "id": "d59f28m8npj4",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「括地志」（李泰）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（明≠唐））），按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "d59f28j4wr2k",
-      "relation": "related",
-      "note": "晉升去重複核：與多個正式庫 Work 疑同書，不並，互為相關"
-    }
-  ]
+  "merged_into": "d59f28m8npj4"
 }

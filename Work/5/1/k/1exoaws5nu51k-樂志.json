@@ -3,43 +3,5 @@
   "id": "1exoaws5nu51k",
   "type": "work",
   "title": "樂志",
-  "authors": [
-    {
-      "name": "國史館",
-      "role": "編",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/y731v84y6concjnb"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "樂志八卷",
-      "author_info": "清國史館編",
-      "section": "史部/紀傳類/斷代之屬",
-      "summary": "共 1 個版本：稿本（臺北“故宮博物院”）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：lsq3iadz2ww6a4uz\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：auto-split:无作者疑同书（双方均无作者，无法证同，另立＋related））",
-  "related_works": [
-    {
-      "id": "d59f2puwtblu",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「樂志」（無作者）與既有 Work 題名相同或相近而不可證同書（无作者疑同书（双方均无作者，无法证同，另立＋related）），判為不同著作（不並）；互為相關。"
-    },
-    {
-      "id": "d59f2n7yh4w2",
-      "relation": "related",
-      "note": "晉升去重複核：同題同作者但卷數懸殊或疑為節本／輯本，不並，互為相關"
-    }
-  ]
+  "merged_into": "d59f2n7yh4w2"
 }

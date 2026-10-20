@@ -3,56 +3,5 @@
   "id": "1exodpy9lhlhg",
   "type": "work",
   "title": "十道志",
-  "authors": [
-    {
-      "name": "梁載言",
-      "role": "撰",
-      "dynasty": "唐",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/5w3xzkiod23d0w4h"
-      }
-    }
-  ],
-  "dynasty": "唐",
-  "dynasty_basis": "author_propagation",
-  "period": "sui-tang",
-  "period_basis": "據 authors[0].dynasty「唐」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "十道志二卷",
-      "author_info": "唐梁載言撰",
-      "section": "史部/地理類/叢編之屬",
-      "summary": "共 2 個版本：（上海圖書館）；（上海圖書館、北京大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "梁載言十道志二卷",
-      "author_info": "唐梁載言撰;清王謨輯",
-      "section": "史部/地理類/總志之屬",
-      "summary": "共 3 個版本：漢唐地理書鈔存本（馆藏未载）；重訂漢唐地理書鈔本（馆藏未载）；漢唐地理書鈔本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：u5a7tfhon5bxww06、x8vfs8hadbgnzfw1\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：卷差>1）\n同題同首位責任者並條（依據：同名）；史部草稿內深度查重 shi/dedupe-a（源 Work 1exocfo7p1zpc《梁載言十道志》已並入；其作者寫法：梁載言）",
-  "related_works": [
-    {
-      "id": "d59f2869okxs",
-      "relation": "related",
-      "note": "史部E 426跨批同題待判：總目記錄「十道志」（梁載言）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exocfo7p1zpc",
-      "title": "梁載言十道志",
-      "at": "2026-10-19T03:58:25Z",
-      "by": "串史部查重A",
-      "rule": "同題同首位責任者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同首位責任者並條（依據：同名）；史部草稿內深度查重 shi/dedupe-a"
-    }
-  ]
+  "merged_into": "d59f2869okxs"
 }
