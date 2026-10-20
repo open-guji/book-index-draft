@@ -3,43 +3,5 @@
   "id": "1exodu6yoh14w",
   "type": "work",
   "title": "今言",
-  "authors": [
-    {
-      "name": "鄭曉",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/goxz5mp3k5y2r0wn"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "今言一卷",
-      "author_info": "明鄭曉撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 3 個版本：五朝小說大觀本（馆藏未载）；說郛續本（馆藏未载）；五朝小說本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：w8hgaut68uf8aq06、8ovykrmjmpqcwd3i、dtjqfqumdljblei3\nE6 第 410 批新建（hold 清零：史部E 426待判 另立；原 hold 原因：卷差>1）",
-  "related_works": [
-    {
-      "id": "d59f2nka1gxu",
-      "relation": "related",
-      "note": "史部E 426跨批同題待判：總目記錄「今言」（鄭曉）與既有 Work 同題同作者，但朝代不同或卷差>1，按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "d59fxv35562p",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（今言）"
-    }
-  ]
+  "merged_into": "d59fxv35562p"
 }

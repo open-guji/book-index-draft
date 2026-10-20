@@ -3,38 +3,5 @@
   "id": "1exoc17ebiolg",
   "type": "work",
   "title": "萬僧問答景德傳燈全錄",
-  "authors": [
-    {
-      "name": "釋道原",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/a318lifb0l44ew08"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "萬僧問答景德傳燈全錄三卷",
-      "author_info": "宋釋道原撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 2 個版本：元刻本（國家圖書館）；明汪士賢刻本（中國科學院圖書館、浙江圖書館、湖南省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：e463juculb7hm8pv、y5zi3sjurp51caqs\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-09.tsv；原 hold 原因：auto-split:存疑未并（候选核对：朝代不同（唐≠宋）））",
-  "related_works": [
-    {
-      "id": "d59f2hpkuosh",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「萬僧問答景德傳燈全錄」（釋道原）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：朝代不同（唐≠宋））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ]
+  "merged_into": "d59f2hpkuosh"
 }

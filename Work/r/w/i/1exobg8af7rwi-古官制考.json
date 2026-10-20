@@ -3,38 +3,5 @@
   "id": "1exobg8af7rwi",
   "type": "work",
   "title": "古官制考",
-  "authors": [
-    {
-      "name": "王寶仁",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/gvdx41x4srspqtnk"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古官制考四卷",
-      "author_info": "清王寶仁輯",
-      "section": "史部/政書類/職官之屬/官制",
-      "summary": "共 2 個版本：清道光八年舊香居刻本（上海圖書館）；清嘉慶間刻本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：pmtdvd18c7e1xxhp、ivk544lwaqr8hvbn\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 405 批新建（hold 清零：史部E判定表 J-anon-补作者 另立；原 hold 原因：卷差>1（本条4卷，目标1卷））",
-  "related_works": [
-    {
-      "id": "d59f6ssrrv7s",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「古官制考」（無作者）與既有 Work 題名相同或相近而不可證同書（记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋related），判為不同著作（不並）；互為相關。"
-    }
-  ]
+  "merged_into": "d59f6ssrrv7s"
 }
