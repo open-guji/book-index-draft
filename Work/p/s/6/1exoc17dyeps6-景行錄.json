@@ -3,38 +3,5 @@
   "id": "1exoc17dyeps6",
   "type": "work",
   "title": "景行錄",
-  "authors": [
-    {
-      "name": "江學詩",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/lbe8x8otv2mm2r32"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "景行錄四卷",
-      "author_info": "明江學詩撰",
-      "section": "史部/傳記類/總傳之屬",
-      "summary": "共 1 個版本：明刻本（臺灣圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：nkqm7e3f8olzsbrv\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（tier=存疑，按新档建，无候选））",
-  "related_works": [
-    {
-      "id": "d59fy1x5ph4w",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "merged_into": "d59fy1001zwh"
 }

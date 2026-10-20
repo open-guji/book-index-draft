@@ -3,43 +3,5 @@
   "id": "1exoatfhj4002",
   "type": "work",
   "title": "天府廣紀",
-  "authors": [
-    {
-      "name": "孫承澤",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/fsgwdqrxm5vyv456"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "天府廣紀三十二卷",
-      "author_info": "清孫承澤撰",
-      "section": "史部/地理類/雜志之屬",
-      "summary": "共 1 個版本：清抄本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：ncfycyyx5aj5g7cs\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条32卷，目标44卷））\n2026-10-19 史部方志回掃：曾於 #1057 並入 d59f2mwpxkw0，現依「重纂而非重印」口徑拆回另立。",
-  "related_works": [
-    {
-      "id": "d59f2me3r2m8",
-      "relation": "related",
-      "note": "晉升去重複核：與多個正式庫 Work 疑同書，不並，互為相關"
-    },
-    {
-      "id": "d59f2mwpxkw0",
-      "relation": "related",
-      "note": "2026-10-19 回掃方志重纂口徑：卷數 32 與正式庫 44 相差 12 卷（>=5 卷），按重纂／異本不併；原誤併入此正式庫 Work，今拆回另立，互為相關。"
-    }
-  ]
+  "merged_into": "d59f2mwpxkw0"
 }
