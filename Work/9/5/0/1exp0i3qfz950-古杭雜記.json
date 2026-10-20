@@ -3,43 +3,5 @@
   "id": "1exp0i3qfz950",
   "type": "work",
   "title": "古杭雜記",
-  "authors": [
-    {
-      "name": "李有",
-      "role": "撰",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/6yubnw17ubynyr22"
-      }
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古杭雜記一卷",
-      "author_info": "元李有撰",
-      "section": "史部/雜史類/叢編之屬",
-      "summary": "共 10 個版本：（上海圖書館、北京大學圖書館、中國科學院圖書館、國家圖書館）；學海類編本（馆藏未载）；古今說海本（馆藏未载）；說郛本（馆藏未载）；武林掌故叢編本（馆藏未载）；繡谷雜鈔本（馆藏未载）；景印元明善本叢書本（馆藏未载）；叢書集成初編本（馆藏未载）；八公遊戲叢談本（馆藏未载）；歷代小史本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：6pstx2dkcmattosp、q502gdj260q2mqyz、4vp04h2lpffhnszo、tuo72ogkoobp8uf8、8tq7utcuatleurfb、gx0brb0la2mskwgd、xvkhl0z7p7lktj4c、1mf4n0nggo7o1hf2、zd4ewkt3aq15ef58、nnj4jsydfc73nohb\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u5730\\u7406\\u985e\", \"l3\": \"\\u96dc\\u5fd7\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u53f2\\u90e8\", \"l2\": \"\\u96dc\\u53f2\\u985e\", \"l3\": \"\\u53e2\\u7de8\\u4e4b\\u5c6c\", \"l4\": \"\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 442 批新建（hold 清零：串3余量另立；原 hold 原因：E:none）",
-  "related_works": [
-    {
-      "id": "d59f2j4ybrb5",
-      "relation": "related",
-      "note": "auto-split:近名/疑同書未并（古杭雜記）"
-    },
-    {
-      "id": "d59f2goy11q8",
-      "relation": "related",
-      "note": "auto-split:同題同作者疑為同書，信息不足未并（古杭雜記）"
-    }
-  ]
+  "merged_into": "d59f2goy11q8"
 }

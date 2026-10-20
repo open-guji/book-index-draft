@@ -3,38 +3,5 @@
   "id": "1exooqwemq328",
   "type": "work",
   "title": "金石萃編補正",
-  "authors": [
-    {
-      "name": "方履籛",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/7znkmhsvio35rt7t"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "金石萃編補正不分卷附澠池縣碑目一卷",
-      "author_info": "清方履籛撰",
-      "section": "史部/金石考古類/總志之屬",
-      "summary": "共 1 個版本：清辨志書塾抄本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：zjzdzidkt25huni5\nauto-split:存疑未并\nE6 第 421 批新建（hold 清零：附他书另立；原 hold 原因：缺卷数附他书）\n\n總目該記錄題後附他書，不併入母書：附於《金石萃編補正》（Work d59f2ngd9bsx）（Sawyer 2026-10-17，批421，Sabine口徑）",
-  "related_works": [
-    {
-      "id": "d59f2ngd9bsx",
-      "relation": "related",
-      "note": "晉升去重複核：同題同作者但卷數懸殊或疑為節本／輯本，不並，互為相關"
-    }
-  ]
+  "merged_into": "d59f2ngd9bsx"
 }
