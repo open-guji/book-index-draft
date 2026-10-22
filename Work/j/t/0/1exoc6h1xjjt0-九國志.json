@@ -3,53 +3,6 @@
   "id": "1exoc6h1xjjt0",
   "type": "work",
   "title": "九國志",
-  "authors": [
-    {
-      "name": "周羽翀",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/m3ykk86qaqkp6jxm"
-      }
-    },
-    {
-      "name": "路振",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/idrtbpqh1yigpaot"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "九國志十二卷三楚新錄三卷",
-      "author_info": "宋路振撰;宋張唐英補;（三楚新錄）宋周羽翀撰",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 1 個版本：清乾隆間抄本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gbav3bplla8xy7it\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-05.tsv；原 hold 原因：auto-split:存疑未并（作者仅部分交集（合著增减）））\n合刻本：總目此條為《九國志》十二卷與《三楚新錄》三卷合刻（清乾隆間抄本），含兩部書，不并入任一單書 Work，保持另立並互鏈（串7 10-18 抽檢判，自史部去重 #841 的并条中拆回）",
-  "related_works": [
-    {
-      "id": "d59f2huqkw01",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「九國志」（周羽翀、路振）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（作者仅部分交集（合著增减））），按嚴口徑另立；互為相關，待並條複核。"
-    },
-    {
-      "id": "d59f2hu6agoy",
-      "relation": "related",
-      "note": "合刻本含三楚新錄（周羽翀）；單獨三楚新錄 Work 見此"
-    }
-  ]
+  "_promoted_to": "d59fyt670jy9",
+  "_promoted_at": "2026-10-20T03:44:03Z"
 }

@@ -3,66 +3,6 @@
   "id": "1exocgvawk8hs",
   "type": "work",
   "title": "徵刻唐宋祕本書目",
-  "authors": [
-    {
-      "name": "周在浚",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/d2vax3zfscvfoipi"
-      }
-    },
-    {
-      "name": "黃虞稷",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/35bi8z42mzdv4y8t"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "徵刻唐宋祕本書目一卷考證一卷徵刻書啓五先生事畧一卷",
-      "author_info": "清黃虞稷、周在浚撰;葉德輝考證並撰事畧",
-      "section": "史部/目錄類/總錄之屬/徵訪",
-      "summary": "共 1 個版本：（山東省圖書館、國家圖書館、南京圖書館、浙江圖書館、遼寧省圖書館、上海圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "徵刻唐宋祕本書目一卷首一卷",
-      "author_info": "清黃虞稷、周在浚輯",
-      "section": "史部/目錄類/總錄之屬/徵訪",
-      "summary": "共 3 個版本：清抄本（北京大學圖書館）；昭代叢書新編本（馆藏未载）；昭代叢書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：qg851yc7ybgqfmr7\n責任者 role 異常未寫入：葉德輝撰事畧\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-12.tsv；原 hold 原因：auto-split:存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数）））\n總目版本待定（庫內已有 Book 11so5me82v2f5：觀古堂書目叢刊本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 408 批；n7t7dw5nvs8c865k）；總目分類：史部／目錄類／叢編之屬\n第 440 批追加版本，源記錄：tgkhkdzhzm0k4pq8、787zjrveykl2zsf4、8fj8ip8odiewkpvx\n同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）（源 Work 1exp0i3zhjrpi《徵刻唐宋祕本書目》已並入；其作者寫法：周在浚、黃虞稷）",
-  "related_works": [
-    {
-      "id": "d59f6ssrrv7y",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「徵刻唐宋祕本書目」（周在浚、黃虞稷）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（缺卷数（记录卷数非单一N卷或目标无卷数））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0i3zhjrpi",
-      "title": "徵刻唐宋祕本書目",
-      "at": "2026-10-18T04:36:19Z",
-      "by": "串3史部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "同題同作者並條（作者別名與並條口徑-共用 A檔：同名；用戶 10-18 確認）"
-    }
-  ]
+  "_promoted_to": "d59fy1cpz280",
+  "_promoted_at": "2026-10-18T19:39:03Z"
 }

@@ -3,65 +3,6 @@
   "id": "1exp2jocpzgg0",
   "type": "work",
   "title": "丹陽真人語錄",
-  "authors": [
-    {
-      "name": "王頤中",
-      "role": "輯",
-      "dynasty": "元",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/zufxs6aj6gw3tq6s"
-      }
-    },
-    {
-      "name": "金馬鈺",
-      "role": "撰"
-    }
-  ],
-  "dynasty": "元",
-  "dynasty_basis": "author_propagation",
-  "period": "liao-jin-yuan",
-  "period_basis": "據 authors[0].dynasty「元」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "丹陽真人語錄一卷",
-      "author_info": "元王頤中輯",
-      "section": "子部/道家類/道教之屬/合編",
-      "summary": "共 2 個版本：（上海圖書館、遼寧省圖書館、東北師範大學圖書館）；（黑龍江省圖書館、吉林省圖書館、國家圖書館、首都圖書館、上海圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "丹陽真人語錄一卷",
-      "author_info": "金馬鈺述;金王頤中集",
-      "section": "子部/道家類/道教之屬/合編",
-      "summary": "共 1 個版本：（國家圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：v2a4xq12l5mz3sfq、5bu7ucs48nmlezhj\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nauto-split:存疑未并\nE6 第 820 批新建（hold 清零：e；原 hold 原因：）\n查重线（跨部查重 10-19）：同题同作者或近题同作者（逐对复核同书）并入 1 个 Work（1expglb19owlg）；作者异写：1expglb19owlg作者作「金馬鈺、金王頤中」\n晋升前審計補錄：據 indexed_by.author_info 補入 金馬鈺（錄入時漏）",
-  "related_works": [
-    {
-      "id": "1exp3gbimrvnu",
-      "relation": "related",
-      "note": "同題異作者待核"
-    },
-    {
-      "id": "d59f2ghmkr9d",
-      "relation": "related",
-      "note": "同題異作者待核"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1expglb19owlg",
-      "title": "丹陽真人語錄",
-      "at": "2026-10-19T04:07:07",
-      "by": "跨部查重",
-      "rule": "跨部查重",
-      "why": "同题同作者同朝代；作者异写（别名/同人ID）"
-    }
-  ]
+  "_promoted_to": "d59fyj7guj28",
+  "_promoted_at": "2026-10-19T16:14:31Z"
 }

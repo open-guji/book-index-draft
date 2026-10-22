@@ -3,38 +3,6 @@
   "id": "1exoei7q9hpfk",
   "type": "work",
   "title": "周易備旨一見能解",
-  "authors": [
-    {
-      "name": "嚴爾寛",
-      "role": "增補",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/sacq1augs70c8uhr"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "周易備旨一見能解六卷上下篇義易經圖考朱子筮儀",
-      "author_info": "明黄淳耀原本;清嚴爾寛增補",
-      "section": "經部/易類/傳說之屬",
-      "summary": "共 4 個版本：清嘉慶二十二年慎遠堂刻本（國家圖書館、山東省圖書館）；清書業堂刻本（北京大學圖書館）；清嘉慶元年致和堂刻本（國家圖書館）；清嘉慶九年敬文堂刻本（天津圖書館、國家圖書館、北京大學圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：siabnjl7jhf3q7pa、hxefv5l8qyktnwum、cfgekimrmc2td25s、u86hizaydawcg2be\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n責任者 role 異常未寫入：黃淳耀原本\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：明黄淳耀原本;清嚴爾寛增補\nE6 第 344 批新建（hold 清零：E-N-anon-clean；原 hold 原因：no_main_author）\n責任者回填（經部作者漏補）：總目題名行責任者「明黄淳耀原本;清嚴爾寛增補」，Work.authors 原為佚名，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「嚴爾寛增補」，其人入 Work.authors（role 取總目原詞）\n朝代補寫：總目題名行各版本一致為「清」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫",
-  "related_works": [
-    {
-      "id": "1exp1yfmlmr5s",
-      "relation": "related",
-      "note": "經部深度查重：同作者+题名包含+卷数相容，未並，待核"
-    }
-  ]
+  "_promoted_to": "d59fxvji5zb6",
+  "_promoted_at": "2026-10-18T12:56:55Z"
 }

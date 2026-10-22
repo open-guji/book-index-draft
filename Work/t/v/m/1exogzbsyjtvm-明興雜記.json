@@ -3,56 +3,6 @@
   "id": "1exogzbsyjtvm",
   "type": "work",
   "title": "明興雜記",
-  "authors": [
-    {
-      "name": "陳敬則",
-      "role": "輯",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/eupm1wnc2rbr6pyx"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "明興雜記二卷",
-      "author_info": "明陳敬則輯",
-      "section": "史部/雜史類/事實之屬",
-      "summary": "共 2 個版本：明朱從廉刻本（北京大學圖書館）；明隆慶間刻本（北京大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "明興雜記一卷",
-      "author_info": "明陳敬則撰",
-      "section": "子部/雜家類/雜記之屬",
-      "summary": "共 1 個版本：說郛本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：18m347yberlx1nr7、x4eciw6k3f0d7z3b\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋rel）\n子部二串5並條 A檔（源 Work 1exp306bqld6p《明興雜記》已並入；其作者寫法：陳敬則）",
-  "related_works": [
-    {
-      "id": "d59f6emb0v7n",
-      "relation": "related",
-      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「明興雜記」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp306bqld6p",
-      "title": "明興雜記",
-      "at": "2026-10-18T06:14:14Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 A檔"
-    }
-  ]
+  "_promoted_to": "d59fy0zlp2wy",
+  "_promoted_at": "2026-10-18T19:13:50Z"
 }

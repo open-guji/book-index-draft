@@ -3,66 +3,6 @@
   "id": "1exonm8d48g74",
   "type": "work",
   "title": "曆法",
-  "authors": [
-    {
-      "name": "王錫闡",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/q865tlkvogozfo5e"
-      }
-    },
-    {
-      "name": "潘檉章",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1oxdnq0rme65sosi"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "曆法六卷",
-      "author_info": "清王錫闡撰",
-      "section": "子部/天文算法類/推步之屬/曆法",
-      "summary": "共 3 個版本：清徐釚家抄本（南京圖書館）；清抄本（北京大學圖書館）；清抄本（北京大學圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "厤法六卷",
-      "author_info": "清王錫闡撰",
-      "section": "叢書部/雜纂類/清代後期",
-      "summary": "共 1 個版本：（南京圖書館、國家圖書館、復旦大學圖書館、浙江圖書館、湖北省圖書館、中國科學院圖書館、天津圖書館、遼寧省圖書館、上海圖書館、四川省圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gbm7jc2clmlk3dfs、hnl8x6catvwo7ekg、pwhkjlvs0jzdbcmg\n各版本分類不一，取多數：{\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5929\\u6587\\u7b97\\u6cd5\\u985e\", \"l3\": \"\\u63a8\\u6b65\\u4e4b\\u5c6c\", \"l4\": \"\\u5929\\u6587\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"} | {\"basis\": \"S\", \"l1\": \"\\u5b50\\u90e8\", \"l2\": \"\\u5929\\u6587\\u7b97\\u6cd5\\u985e\", \"l3\": \"\\u63a8\\u6b65\\u4e4b\\u5c6c\", \"l4\": \"\\u66c6\\u6cd5\", \"source\": \"\\u4e2d\\u570b\\u53e4\\u7c4d\\u7e3d\\u76ee\"}\nauto-split:存疑未并\nE6 第 551 批新建（hold 清零：jyiyi；原 hold 原因：）\n查重线（串7 10-18）：同题同作者同朝代并入 1 个叢書子目新建 Work（1exp0glk59czk）",
-  "merged_in": [
-    {
-      "id": "1exp0glk59czk",
-      "title": "厤法",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    }
-  ],
-  "related_works": [
-    {
-      "id": "d59fy1i6xvk2",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ]
+  "_promoted_to": "d59fyqwf5gcg",
+  "_promoted_at": "2026-10-20T01:06:52Z"
 }
