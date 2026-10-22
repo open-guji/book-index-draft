@@ -3,56 +3,6 @@
   "id": "1exoau4wy35ds",
   "type": "work",
   "title": "廟制圖考",
-  "authors": [
-    {
-      "name": "萬斯同",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/1scyz3pm6h5rvskk"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "廟制圖考四卷",
-      "author_info": "清萬斯同撰",
-      "section": "史部/政書類/儀制之屬/典禮",
-      "summary": "共 2 個版本：廬江劉氏遠碧樓抄本（上海圖書館）；清乾隆三十年辨志堂刻本（清華大學圖書館、南京圖書館、浙江圖書館、中國科學院圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "廟制圖考四卷",
-      "author_info": "清萬斯同撰",
-      "section": "經部/禮類/三禮總義/名物制度之屬",
-      "summary": "共 2 個版本：四明叢書本（馆藏未载）；清乾隆間辨志堂刻本（上海圖書館、湖北省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：8iownghjj3w0dwfl、1prnsfm3bqzwwsis\nE6 第 403 批新建（hold 清零：史部E判定表 J-exact 另立；原 hold 原因：卷差>1（本条4卷，目标1卷））\n經部查重並條（A檔：同題同作者同朝代，卷數差≤1）（源 Work 1exp0q7b4sphc《廟制圖考》已並入；其作者寫法：萬斯同）",
-  "related_works": [
-    {
-      "id": "d59f2meezm69",
-      "relation": "related",
-      "note": "史部E另立（exact）：總目記錄「廟制圖考」（萬斯同）與既有 Work 題名相同或相近而不可證同書（卷差>1（本条4卷，目标1卷）），判為不同著作（不並）；互為相關。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0q7b4sphc",
-      "title": "廟制圖考",
-      "at": "2026-10-18T04:17:30Z",
-      "by": "串2經部",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "經部查重並條（A檔：同題同作者同朝代，卷數差≤1）"
-    }
-  ]
+  "_promoted_to": "d59fycry718h",
+  "_promoted_at": "2026-10-19T08:49:30Z"
 }

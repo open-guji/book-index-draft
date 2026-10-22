@@ -3,36 +3,6 @@
   "id": "1exp12p146mmc",
   "type": "work",
   "title": "禘說",
-  "authors": [
-    {
-      "name": "觀頮道人",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "禘說一卷",
-      "author_info": "清觀頮道人輯",
-      "section": "經部/禮類/三禮總義/名物制度之屬",
-      "summary": "共 2 個版本：閏竹居叢書本（馆藏未载）；抄本（南京圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：v5cjmkl6s0aoq6cj、jxpcmjxm5c5i3otk\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：清觀頮道人輯\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n責任者回填（經部作者漏補）：總目題名行責任者「清觀頮道人輯」，Work.authors 原為空，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「觀頮道人輯」，其人入 Work.authors（role 取總目原詞）\n更正：上文「總目未著錄責任者」不確，總目題名行實有責任者「清觀頮道人輯」，已寫入 Work.authors\n朝代補寫：總目題名行各版本一致為「清」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫",
-  "related_works": [
-    {
-      "id": "d59f2n9c3v9e",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同名无主责任者未并）"
-    }
-  ]
+  "_promoted_to": "d59fxwgbbyte",
+  "_promoted_at": "2026-10-18T13:59:58Z"
 }

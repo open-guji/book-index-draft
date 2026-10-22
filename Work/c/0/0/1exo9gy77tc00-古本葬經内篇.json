@@ -3,56 +3,6 @@
   "id": "1exo9gy77tc00",
   "type": "work",
   "title": "古本葬經内篇",
-  "additional_titles": [
-    "葬經内篇"
-  ],
-  "authors": [
-    {
-      "name": "繆希雍",
-      "role": "撰",
-      "dynasty": "明",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/jkq4ou7bqz8b02bn"
-      }
-    },
-    {
-      "name": "郭璞",
-      "role": "撰",
-      "dynasty": "晉",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/udhwbi6ncf1emthe"
-      }
-    }
-  ],
-  "dynasty": "明",
-  "dynasty_basis": "author_propagation",
-  "period": "ming",
-  "period_basis": "據 authors[0].dynasty「明」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "古本葬經内篇（葬經内篇）一卷葬經翼一卷葬圖一卷難解二十四篇一卷",
-      "author_info": "題晉郭璞撰;金兀欽仄注;（葬經翼、葬圖、難解）明繆希雍撰",
-      "section": "子部/術數類/堪輿之屬/地理",
-      "summary": "共 4 個版本：清光緒三年湖北崇文書局刻本（國家圖書館、齊齊哈爾市圖書館）；清抄本（南京圖書館）；津逮祕書本（上海圖書館）；學津討原本（馆藏未载）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yzamqmo5lmwu8vix、26q13h3egnp2w8wz、qjb817vljyh185bj、x6v11tlfyu15aa42\nE6 第 7 批新建（hold 清零：near_dup另立；原 hold 原因：near_dup:d59f2pt70cg2(prod) 葬經 sim=1.00｜本条 古本葬經内篇）\nauto-split:同名未并：与 Work 1exoa036ig7pc 同题，待核是否同书。",
-  "related_works": [
-    {
-      "id": "d59f2pt70cg2",
-      "relation": "related",
-      "note": "術數類老hold（Sabine 12654 口径）：總目題名「古本葬經内篇」與候選 Work「葬經」題名有別，判為不同著作（不並）；互為相關。（auto-split:同名未并）"
-    },
-    {
-      "id": "d59fxx023e2p",
-      "relation": "related",
-      "note": "子部E遗留处置（GUJI-527）：同题但责任者不同（佚名 vs 有名），按 Sabine v3.1 另立不并，互为相关待核。"
-    }
-  ]
+  "_promoted_to": "d59fxu3m9z40",
+  "_promoted_at": "2026-10-18T11:17:10Z"
 }

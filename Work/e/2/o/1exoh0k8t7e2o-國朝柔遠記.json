@@ -3,56 +3,6 @@
   "id": "1exoh0k8t7e2o",
   "type": "work",
   "title": "國朝柔遠記",
-  "authors": [
-    {
-      "name": "王之春",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/4wdzadryf5cs2ssn"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "國朝柔遠記不分卷",
-      "author_info": "清王之春輯",
-      "section": "史部/政書類/邦計之屬/貿易",
-      "summary": "共 1 個版本：清光緒十一年粵東仰忠書屋刻本（國家圖書館、上海圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "國朝柔遠記一卷",
-      "author_info": "清王之春撰",
-      "section": "子部/新學類/叢編之屬",
-      "summary": "共 1 個版本：（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：54bquzqilto1cdu7\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 415 批新建（hold 清零：史部E J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋rel）\n子部二串5並條 A檔（源 Work 1exp3065muark《國朝柔遠記》已並入；其作者寫法：王之春）",
-  "related_works": [
-    {
-      "id": "d59f2nca8jy8",
-      "relation": "related",
-      "note": "無名氏另立（Sabine 10-16 史部E）：庫內有題名相同或近似的「國朝柔遠記」Work，本條無作者不能證同，另立並互設 related（GUJI-527 批415）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp3065muark",
-      "title": "國朝柔遠記",
-      "at": "2026-10-18T06:14:14Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 A檔"
-    }
-  ]
+  "_promoted_to": "d59fy0zm0bgg",
+  "_promoted_at": "2026-10-18T19:13:51Z"
 }

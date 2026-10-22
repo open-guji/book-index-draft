@@ -3,56 +3,6 @@
   "id": "1exocej9lse85",
   "type": "work",
   "title": "史論",
-  "authors": [
-    {
-      "name": "朱直",
-      "role": "撰",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/ad35mxtudaqhobbr"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "史論一卷",
-      "author_info": "清朱直撰",
-      "section": "史部/史評類/議論之屬",
-      "summary": "共 1 個版本：悔堂手鈔二十種本（馆藏未载）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "史論一卷",
-      "author_info": "清朱直撰",
-      "section": "叢書部/雜纂類/清代前期",
-      "summary": "共 1 個版本：（山東省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：yrvie2e0y4q2qi31\nE6 第 406 批新建（hold 清零：史部E判定表 J-yiyi-另立-08.tsv；原 hold 原因：auto-split:存疑未并（候选核对：auto-split:同名未并（题名仅包含／近似而非异体，另立＋related）））\n查重线（串7 10-18）：同题同作者同朝代并入 1 个叢書子目新建 Work（1exp0gl8dzke9）",
-  "related_works": [
-    {
-      "id": "d59f2meuwpvl",
-      "relation": "related",
-      "note": "史部E存疑另立：總目記錄「史論」（朱直）與既有 Work 題名相同或相近而存疑未能證同（存疑未并（候选核对：同名未并（题名仅包含／近似而非异体，另立＋related））），按嚴口徑另立；互為相關，待並條複核。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exp0gl8dzke9",
-      "title": "史論",
-      "at": "2026-10-18T03:26:14",
-      "by": "串7",
-      "rule": "叢書去重",
-      "why": "同题同作者同朝代"
-    }
-  ]
+  "_promoted_to": "d59fysqdcbnm",
+  "_promoted_at": "2026-10-20T03:13:39Z"
 }

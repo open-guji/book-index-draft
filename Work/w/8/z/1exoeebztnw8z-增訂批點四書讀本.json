@@ -3,44 +3,6 @@
   "id": "1exoeebztnw8z",
   "type": "work",
   "title": "增訂批點四書讀本",
-  "authors": [
-    {
-      "name": "朱熹",
-      "role": "章句",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/r5vmxq29ki9gddjn"
-      }
-    },
-    {
-      "name": "裘紹箕",
-      "role": "增訂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/mtxgeop22ih7e3xu"
-      }
-    }
-  ],
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "增訂批點四書讀本十九卷（大學一卷中庸一卷論語十卷孟子七卷）",
-      "author_info": "宋朱熹章句;清裘紹箕增訂",
-      "section": "經部/四書類/四書總義/傳說之屬",
-      "summary": "共 2 個版本：清同治四年廣東豐北鄉至誠堂刻本（國家圖書館、上海圖書館）；清咸豐十一年光澤來鶴軒刻本（湖北省圖書館、天津圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：u3peoz2ogvk2yd0q、kn3bz052k2scqf4n\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n責任者 role 異常未寫入：朱熹章句\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：宋朱熹章句;清裘紹箕增訂\nE6 第 341 批新建（hold 清零：E-N-anon-clean；原 hold 原因：no_main_author）\n責任者回填（經部作者漏補）：總目題名行責任者「宋朱熹章句;清裘紹箕增訂」，Work.authors 原為佚名，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「朱熹章句、裘紹箕增訂」，其人入 Work.authors（role 取總目原詞）",
-  "related_works": [
-    {
-      "id": "1exp12pbodo8w",
-      "relation": "related",
-      "note": "經部深度查重：同首位责任者+题名仅差增订/重订/欽定等前缀+卷数同|降级:次要责任者，未並，待核"
-    }
-  ]
+  "_promoted_to": "d59fxv2reqde",
+  "_promoted_at": "2026-10-18T12:24:43Z"
 }

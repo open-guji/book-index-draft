@@ -3,66 +3,6 @@
   "id": "1exoksmehchz6",
   "type": "work",
   "title": "二程語錄",
-  "authors": [
-    {
-      "name": "程頤",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/zo5hlllq4ljbnt3w"
-      }
-    },
-    {
-      "name": "程顥",
-      "role": "撰",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/2xcg7uy4aw67fidc"
-      }
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "二程語錄二卷文集一卷",
-      "author_info": "宋程顥、程頤撰;周馥節錄",
-      "section": "叢書部/雜纂類/民國以來",
-      "summary": "共 1 個版本：民國二十六年刻（山東大學圖書館、上海圖書館、廣西壯族自治區圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "二程語錄二十七卷",
-      "author_info": "宋程顥、宋程頤撰",
-      "section": "子部/儒家類/儒學之屬/合編",
-      "summary": "共 3 個版本：（南京圖書館）；（國家圖書館）；（上海圖書館）"
-    }
-  ],
-  "ai_note": "【叢書子目新建·未比对到单行本】叢書线（GUJI-526）：叢書子目新建，未比对到单行本（已按題名＋作者＋朝代全局预查）；所屬叢書記錄 c5zqi2nzp617tys4（周氏師古堂所編書五十六種）\n叢書线（GUJI-526）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：azx1cpjdjayblgq7\n子部二串5並條 A檔（源 Work 1exom0qoha2gz《二程語錄》已並入；其作者寫法：程顥、程頤）",
-  "related_works": [
-    {
-      "id": "d59fy1hrn8xt",
-      "relation": "related",
-      "note": "總目子部另立（auto-split:同名未并）"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exom0qoha2gz",
-      "title": "二程語錄",
-      "at": "2026-10-18T06:53:24Z",
-      "by": "串5",
-      "rule": "同題同作者並條（作者別名與並條口徑-共用 A／B 檔）",
-      "why": "子部二串5並條 A檔"
-    }
-  ]
+  "_promoted_to": "d59fyh546j9d",
+  "_promoted_at": "2026-10-19T13:51:37Z"
 }

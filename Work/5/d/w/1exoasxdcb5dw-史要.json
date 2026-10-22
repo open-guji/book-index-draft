@@ -3,56 +3,6 @@
   "id": "1exoasxdcb5dw",
   "type": "work",
   "title": "史要",
-  "authors": [
-    {
-      "name": "任啟運",
-      "role": "輯",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/pv8b6ytcjt2oh3ic"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "史要七卷",
-      "author_info": "清任啓運輯;清吳兆慶註;清任麟徵增注",
-      "section": "史部/史鈔類/通代之屬",
-      "summary": "共 2 個版本：民國間上海鴻文書局石印本（上海圖書館）；清光緒十四年上海鴻文書局石印本（國家圖書館、上海圖書館、南京圖書館、吉林省圖書館）"
-    },
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "史要七卷",
-      "author_info": "清任啓運輯;清吳兆慶註",
-      "section": "史部/史鈔類/通代之屬",
-      "summary": "共 2 個版本：清嘉慶二十四年荆溪吳氏刻本（北京大學圖書館、南京圖書館、國家圖書館）；清嘉慶二十二年刻本（國家圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：z6va5e61evtkve54、5o1v3cr3fis8676x\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 403 批新建（hold 清零：史部E判定表 J-anon 另立；原 hold 原因：记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋related）\n查重线（跨部查重 10-19）：同题同作者（含别名/省称/同人）并入 1 个 Work（1exoasxdcmdxc）；作者异写：1exoasxdcmdxc作者作「任啓運」",
-  "related_works": [
-    {
-      "id": "d59f27w5pvk2",
-      "relation": "related",
-      "note": "史部E另立（anon）：總目記錄「史要」（無作者）與既有 Work 題名相同或相近而不可證同書（记录无作者、目标 Work 有作者且卷数不符／缺：不能证同作者，默认另立＋related），判為不同著作（不並）；互為相關。"
-    }
-  ],
-  "merged_in": [
-    {
-      "id": "1exoasxdcmdxc",
-      "title": "史要",
-      "at": "2026-10-19T03:46:17",
-      "by": "跨部查重",
-      "rule": "跨部查重",
-      "why": "同题同作者同朝代；作者异写（别名/同人ID）"
-    }
-  ]
+  "_promoted_to": "d59fyv8ht2ps",
+  "_promoted_at": "2026-10-20T06:06:52Z"
 }

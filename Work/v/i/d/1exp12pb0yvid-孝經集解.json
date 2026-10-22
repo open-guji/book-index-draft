@@ -3,48 +3,6 @@
   "id": "1exp12pb0yvid",
   "type": "work",
   "title": "孝經集解",
-  "authors": [
-    {
-      "name": "孫漢",
-      "role": "注解",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/724iy6vslw4jrppl"
-      }
-    },
-    {
-      "name": "黃元治",
-      "role": "校正",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/kaxr7qv0na0y8ns7"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "孝經集解一卷",
-      "author_info": "清孫漢注解;清黄元治校正",
-      "section": "經部/孝經類/傳說之屬",
-      "summary": "共 2 個版本：清抄本（國家圖書館）；（北京師範大學圖書館、上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：n8fxsn1o6yeltr2d\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n總目未著錄責任者；原始責任者串：清孫漢注解;清黄元治校正\nauto-split:存疑未并\nE6 第 3003 批新建（hold 清零：J-anon；原 hold 原因：auto-split:同名无主责任者未并）\n總目版本待定（庫內已有 Book 11sou88879pfq：清抄本）：總目著錄版本標籤空，未入 Book，只作 Work 級來源（第 3004 批；mk3gcmmuyfbfefkb）；總目分類：經部／總類／傳說之屬\n責任者回填（經部作者漏補）：總目題名行責任者「清孫漢注解;清黄元治校正」，Work.authors 原為空，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「孫漢注解、黃元治校正」，其人入 Work.authors（role 取總目原詞）\n更正：上文「總目未著錄責任者」不確，總目題名行實有責任者「清孫漢注解;清黄元治校正」，已寫入 Work.authors\n朝代補寫：總目題名行各版本一致為「清」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫",
-  "related_works": [
-    {
-      "id": "d59f2mb3fq4g",
-      "relation": "related",
-      "note": "總目經部另立（auto-split:同名无主责任者未并）"
-    }
-  ]
+  "_promoted_to": "d59fxxkv8veq",
+  "_promoted_at": "2026-10-18T15:17:55Z"
 }
