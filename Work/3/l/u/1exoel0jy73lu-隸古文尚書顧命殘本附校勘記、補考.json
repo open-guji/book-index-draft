@@ -3,49 +3,6 @@
   "id": "1exoel0jy73lu",
   "type": "work",
   "title": "隸古文尚書顧命殘本附校勘記、補考",
-  "authors": [
-    {
-      "name": "孔安國",
-      "role": "傳",
-      "dynasty": "漢",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/yidf21vz8hvvq5gd"
-      }
-    },
-    {
-      "name": "蔣斧",
-      "role": "校勘",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/v3hajvnvqcltedq5"
-      }
-    },
-    {
-      "name": "羅振玉",
-      "role": "補考",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/rlfv8kpbhhuw4tt1"
-      }
-    }
-  ],
-  "dynasty": "漢",
-  "dynasty_basis": "author_propagation",
-  "period": "qin-han",
-  "period_basis": "據 authors[0].dynasty「漢」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "隸古文尚書顧命殘本附校勘記、補考",
-      "author_info": "漢孔安國傳;蔣斧校勘;羅振玉補考",
-      "section": "經部/書類/傳說之屬",
-      "summary": "共 1 個版本：敦煌石室遺書本（馆藏未载）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：r6gkqdnhvz5d6lle\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：漢孔安國傳;蔣斧校勘;羅振玉補考\nE6 第 346 批新建（hold 清零：E-N-anon-clean；原 hold 原因：no_main_author）\n責任者回填（經部作者漏補）：總目題名行責任者「漢孔安國傳;蔣斧校勘;羅振玉補考」，Work.authors 原為佚名，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「孔安國傳、蔣斧校勘、羅振玉補考」，其人入 Work.authors（role 取總目原詞）\n朝代補寫：總目題名行各版本一致為「漢」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫"
+  "_promoted_to": "d59fxvjy330h",
+  "_promoted_at": "2026-10-18T12:57:45Z"
 }
