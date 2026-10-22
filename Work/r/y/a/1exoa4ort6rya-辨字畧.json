@@ -3,31 +3,6 @@
   "id": "1exoa4ort6rya",
   "type": "work",
   "title": "辨字畧",
-  "authors": [
-    {
-      "name": "趙九琳",
-      "role": "校",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/hr1by6hj0ki7vcl1"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "辨字畧一卷",
-      "author_info": "清趙九琳校",
-      "section": "經部/小學類/文字之屬/正字",
-      "summary": "共 1 個版本：清拜梅山房刻本（湖北省圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：mbo2pxgj8z4o3tbh\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：清趙九琳校\nE6 第 323 批新建（hold 清零：s3；原 hold 原因：secondary_roles_only）\n責任者回填（經部作者漏補）：總目題名行責任者「清趙九琳校」，Work.authors 原為佚名，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「趙九琳校」，其人入 Work.authors（role 取總目原詞）\n朝代補寫：總目題名行各版本一致為「清」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫"
+  "_promoted_to": "d59fxuk9ab5s",
+  "_promoted_at": "2026-10-18T11:49:09Z"
 }

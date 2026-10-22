@@ -3,51 +3,6 @@
   "id": "1exoeqfpcb1fm",
   "type": "work",
   "title": "五經旁訓增訂精義",
-  "authors": [
-    {
-      "name": "徐立綱",
-      "role": "旁訓",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/70m4avzbk5bgfvyu"
-      }
-    },
-    {
-      "name": "竺靜甫",
-      "role": "增訂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/4ppmizhadvwqktyu"
-      }
-    },
-    {
-      "name": "竺子壽",
-      "role": "增訂",
-      "dynasty": "清",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/gj/entity/person/uyoiovubtnow6izc"
-      }
-    }
-  ],
-  "dynasty": "清",
-  "dynasty_basis": "author_propagation",
-  "period": "qing",
-  "period_basis": "據 authors[0].dynasty「清」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "五經旁訓增訂精義二十一卷",
-      "author_info": "清徐立綱旁訓;清竺靜甫、清竺子壽增訂;清黃淦精義",
-      "section": "經部/總類/傳說之屬",
-      "summary": "共 2 個版本：清狀元閣刻本（天津圖書館）；清光緒十年四明竺氏毓秀草堂刻本（上海圖書館）"
-    }
-  ],
-  "ai_note": "F 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：gka7pcr43jyz3k7a、qoo23atlhdpuikt5\n主責任者「佚名」朝代在各版本／contMap 與題名行之間不一致，未寫 dynasty／period\n責任者 role 異常未寫入：徐立綱旁訓\n無主責任者（無名氏／責任者名被切斷／僅編校等次要角色），authors 記為佚名；原始責任者串：清徐立綱旁訓;清竺靜甫、清竺子壽增訂;清黃淦精義\nE6 第 350 批新建（hold 清零：E-N-anon-clean；原 hold 原因：no_main_author）\n責任者回填（經部作者漏補）：總目題名行責任者「清徐立綱旁訓;清竺靜甫、清竺子壽增訂;清黃淦精義」，Work.authors 原為佚名，已按總目原串寫入（role 取總目原詞）\n總目無撰／著／作者，僅署著述性責任者「徐立綱旁訓、竺靜甫增訂、竺子壽增訂」，其人入 Work.authors（role 取總目原詞）\n朝代補寫：總目題名行各版本一致為「清」，補 Work.dynasty\n朝代更正：上文「朝代…不一致，未寫 dynasty／period」一句已不適用（題名行各版本朝代一致），已補寫"
+  "_promoted_to": "d59fxvkfkdfm",
+  "_promoted_at": "2026-10-18T12:58:41Z"
 }

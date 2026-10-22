@@ -3,58 +3,6 @@
   "id": "1exobwvtwzf9j",
   "type": "work",
   "title": "天台四教儀",
-  "authors": [
-    {
-      "name": "釋從義",
-      "role": "注",
-      "dynasty": "宋",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/tstiur48fxa002q1"
-      }
-    },
-    {
-      "name": "釋諦觀",
-      "role": "輯",
-      "dynasty": "高麗",
-      "source": {
-        "name": "中國古籍總目",
-        "type": "url",
-        "details": "http://data.library.sh.cn/entity/person/qm1q42erdamk4sax"
-      }
-    },
-    {
-      "name": "湛然",
-      "role": "撰",
-      "dynasty": "唐"
-    },
-    {
-      "name": "灌頂",
-      "role": "撰",
-      "dynasty": "唐"
-    }
-  ],
-  "dynasty": "宋",
-  "dynasty_basis": "author_propagation",
-  "period": "song",
-  "period_basis": "據 authors[0].dynasty「宋」",
-  "indexed_by": [
-    {
-      "source": "中國古籍總目",
-      "source_bid": "1exjosng9241s",
-      "title_info": "天台四教儀一卷附始終心要一卷天台八敎大意一卷",
-      "author_info": "高麗釋諦觀輯;（始終心要）唐釋湛然撰;宋釋從義注;（天台八敎大意）唐釋灌頂撰",
-      "section": "子部/釋家類/撰述之屬/論著部",
-      "summary": "共 1 個版本：清宣統元年揚州藏經院刻本（吉林省圖書館、北京大學圖書館、國家圖書館、南京圖書館）"
-    }
-  ],
-  "ai_note": "G 道（overview#576）據《中國古籍總目》（上圖聯合目錄）自動錄入；匹配檔=新；源記錄：64hptwjextwx6xgp\n全版本無撰／著／作，Work.authors 取編／輯／纂／選之責任者\nE6 第 427 批新建（hold 清零：E；原 hold 原因：-）\n晋升前審計補錄：據 indexed_by.author_info 補入 湛然、灌頂（錄入時漏）",
-  "related_works": [
-    {
-      "id": "d59fyjt0j8xs",
-      "relation": "related",
-      "note": "釋家類深度查重：同題異作者（或對方未署責任者），未並，待核"
-    }
-  ]
+  "_promoted_to": "d59fyfb4feo1",
+  "_promoted_at": "2026-10-19T11:44:45Z"
 }
